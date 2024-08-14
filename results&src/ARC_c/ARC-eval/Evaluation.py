@@ -6,76 +6,43 @@ from typing import List, Dict
 from collections import defaultdict
 import Levenshtein
 
-# def extract_answer(text: str, options: str = 'ABCD') -> str:
-#     """
-#     从生成的文本中提取选项答案，使用更灵活的方法。
-#     """
-#     # 1. 直接匹配单个字母答案
-#     direct_match = re.search(rf'\b([{options}])\b', text)
-#     if direct_match:
-#         return direct_match.group(1)
-#
-#     # 2. 查找包含"答案"、"回應"等关键词的句子
-#     answer_sentence = re.search(r'(答案|回應|選擇|答)[:：是為]?\s*([^。\n]+)', text)
-#     if answer_sentence:
-#         option_in_sentence = re.search(rf'\b([{options}])\b', answer_sentence.group(2))
-#         if option_in_sentence:
-#             return option_in_sentence.group(1)
-#
-#     # 3. 查找格式为"A."、"B."等的选项
-#     formatted_option = re.search(rf'\b([{options}])\.\s*', text)
-#     if formatted_option:
-#         return formatted_option.group(1)
-#
-#     # 4. 查找最后一个出现的选项字母
-#     all_options = re.findall(rf'\b([{options}])\b', text)
-#     if all_options:
-#         return all_options[-1]
-#
-#     # 5. 如果文本很短，直接返回第一个匹配的字母
-#     if len(text) <= 5:
-#         match = re.search(rf'([{options}])', text)
-#         if match:
-#             return match.group(1)
-#
-#     # 6. 如果以上方法都失败，返回空字符串
-#     return ''
 def extract_answer(text: str, options: str = 'ABCD', choices: List[str] = None) -> str:
     """
-    从生成的文本中提取选项答案，使用更灵活的方法。
-    如果无法直接提取答案，则使用基于相似度的回退机制。
+    Extracts the answer options from the generated text using a more flexible approach.
+    If direct extraction fails, it falls back to a similarity-based fallback mechanism.
     """
     if not text:
         return ''
-    # 1. 直接匹配单个字母答案
+    # 1. Directly match single letter answers
     direct_match = re.search(rf'\b([{options}])\b', text)
     if direct_match:
         return direct_match.group(1)
 
-    # 2. 查找包含"答案"、"回應"等关键词的句子
+    # 2. Look for sentences that contain keywords such as "answer", "response", etc
     answer_sentence = re.search(r'(答案|回應|選擇|答)[:：是為]?\s*([^。\n]+)', text)
     if answer_sentence:
         option_in_sentence = re.search(rf'\b([{options}])\b', answer_sentence.group(2))
         if option_in_sentence:
             return option_in_sentence.group(1)
 
-    # 3. 查找格式为"A."、"B."等的选项
+    # 3. Look for options in the format "A.", "B.", etc
     formatted_option = re.search(rf'\b([{options}])\.\s*', text)
     if formatted_option:
         return formatted_option.group(1)
 
-    # 4. 查找最后一个出现的选项字母
+    # 4. Look for the last option letter that appears
     all_options = re.findall(rf'\b([{options}])\b', text)
     if all_options:
         return all_options[-1]
 
-    # 5. 如果文本很短，直接返回第一个匹配的字母
+    # 5. If the text is short, return the first matching letter directly
     if len(text) <= 5:
         match = re.search(rf'([{options}])', text)
         if match:
             return match.group(1)
 
-    # 6. 如果以上方法都失败，使用基于相似度的回退机制
+    
+    # 6. If all else fails, use a fallback mechanism based on similarity
     if choices:
         try:
             similarities = [Levenshtein.ratio(text.lower(), choice.lower()) for choice in choices]
@@ -87,7 +54,7 @@ def extract_answer(text: str, options: str = 'ABCD', choices: List[str] = None) 
             print(f"Choices: {choices}")
             return ''
 
-    # 7. 如果没有提供选项，返回空字符串
+    # 7. If no options are provided, return an empty string
     return ''
 
 def calculate_accuracy(predictions: List[str], references: List[str]) -> float:
@@ -97,30 +64,6 @@ def calculate_accuracy(predictions: List[str], references: List[str]) -> float:
     correct = sum(p == r for p, r in zip(predictions, references))
     return (correct / len(references)) * 100 if references else 0
 
-# def process_file(file_path: str) -> Dict[str, List[Dict]]:
-#     with open(file_path, 'r', encoding='utf-8') as f:
-#         data = json.load(f)
-#
-#     results = []
-#
-#     for idx, item in data.items():
-#         if isinstance(item['prediction'], list):
-#             pred_text = item['prediction'][0]
-#         else:
-#             pred_text = item['prediction']
-#
-#         pred = extract_answer(pred_text)
-#         ref = item['gold']
-#
-#         results.append({
-#             'id': idx,
-#             'prediction': pred,
-#             'reference': ref,
-#             'is_correct': pred == ref,
-#             'original_text': pred_text
-#         })
-#
-#     return results
 def process_file(file_path: str) -> Dict[str, List[Dict]]:
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -133,13 +76,13 @@ def process_file(file_path: str) -> Dict[str, List[Dict]]:
         else:
             pred_text = item['prediction']
 
-        # 处理 origin_prompt 可能是列表的情况
+        # Handle situations where origin_prompt may be a list
         if isinstance(item['origin_prompt'], list):
             origin_prompt = ' '.join([prompt['prompt'] for prompt in item['origin_prompt'] if 'prompt' in prompt])
         else:
             origin_prompt = item['origin_prompt']
 
-        # 从原始提示中提取选项
+        # Extract options from the original prompt
         choices = re.findall(r'([A-D]\. .+)', origin_prompt)
         choices = [choice.split('. ', 1)[1] for choice in choices]
 
@@ -173,7 +116,7 @@ def evaluate_models(base_dir: str) -> Dict[str, Dict[str, any]]:
     return results
 
 def print_results(results: Dict[str, Dict[str, any]]):
-    print("评估结果：")
+    print("Evaluation result：")
     print("=" * 50)
     for model, scores in results.items():
         print(f"模型: {model}")
@@ -218,10 +161,10 @@ if __name__ == "__main__":
     results = evaluate_models(base_dir)
     print_results(results)
 
-    # 保存结果到CSV文件
+    # Save results to CSV file
     save_results_to_csv(results, 'arc_cantonese_results.csv')
-    print("结果已保存到 arc_cantonese_results.csv")
+    print("Results have been saved to arc_cantonese_results.csv")
 
-    # 保存错误答案到JSON文件
+    # Save the wrong answer to a JSON file
     save_errors_to_json(results, 'arc_cantonese_errors.json')
-    print("错误答案已保存到 arc_cantonese_errors.json")
+    print("Wrong Answer have been saved to arc_cantonese_errors.json")

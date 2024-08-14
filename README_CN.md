@@ -8,20 +8,21 @@
 
 <h4 align="center">
     <p>
-        <a href="https://github.com/jiangjyjy/CantoneseLM_survey">简体中文</a> |
-        <b>English</b> 
+        <b>简体中文</b>|
+        <a href="https://github.com/jiangjyjy/CantoneseLM_survey">English</a>
     <p>
 </h4>
 
 <p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
-📄 <a href="https://arxiv.org/abs/xxxxx" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
-🏆 <a href="https://github.com/haonan-li/xxx" target="_blank"  style="margin-left: 10px">Leaderboard</a> •
-🤗 <a href="https://huggingface.co/datasets/xxx" target="_blank" style="margin-left: 10px">Dataset</a> 
+📄 <a href="https://arxiv.org/abs/xxxxx" target="_blank" style="margin-right: 15px; margin-left: 10px">论文</a> • 
+🏆 <a href="https://github.com/haonan-li/xxx" target="_blank"  style="margin-left: 10px">排行榜</a> •
+🤗 <a href="https://huggingface.co/datasets/xxx" target="_blank" style="margin-left: 10px">数据集</a> 
 </p>
 
 ## Introduction
 
-The Cantonese Benchmark is a new evaluation tool specifically designed for Cantonese, a language spoken by over 85 million people worldwide. As the field of natural language processing continues to grow, the need for robust evaluation tools tailored to specific languages becomes increasingly important. Addressing the significant gap in available benchmarks for Cantonese, this benchmark is composed of four distinct tasks (Cant-Truthful, Cant-GSM8K, Cant-ARC-C, Cant-MMLU), aiming to comprehensively evaluate the Cantonese capabilities of both Cantonese-specific and general-purpose large language models (LLMs) in the areas of factual generation, mathematical logic, complex reasoning, and general knowledge. By providing a reliable and accurate evaluation tool for Cantonese LLMs, the Cantonese Benchmark will not only facilitate the assessment of current models but also pave the way for future research and advancements in Cantonese natural language processing.
+“广东话基准”是专为全球8500多万人使用的广东话设计的一种新的评估工具。随着自然语言处理领域的不断发展，对针对特定语言的健壮评估工具的需求变得越来越重要。为了解决现有粤语基准测试的巨大差距，该基准测试由四个不同的任务(can - truthful、can - gsm8k、can - arc - c、can - mmlu)组成，旨在全面评估粤语专用和通用大型语言模型(llm)在事实生成、数学逻辑、复杂推理和一般知识领域的粤语能力。“广东话基准”为广东话法学硕士提供可靠及准确的评估工具，不但有助评估现有的模型，亦有助未来广东话自然语言处理的研究和发展。
+ 
 <p align="center">  <img src="fig/logo.jpg" style="width: 95%;" id="title-icon"> </p>
 
 ## Files
@@ -66,7 +67,7 @@ The Cantonese Benchmark is a new evaluation tool specifically designed for Canto
 
 ## Leaderboard
 
-The following tables display the performance of models on different cantonese benchmarks (Cant-Truthful, Cant-GSM8K, Cant-ARC-C, Cant-MMLU) in the five-shot and zero-shot settings. 
+下表显示不同粤语基准(Cant-Truthful, Cant-GSM8K, Cant-ARC-C, Cant-MMLU)在五样本和零样本设定下的表现。
 <details>
 <summary>Cant-TruthfulQA</summary>
 <table>
