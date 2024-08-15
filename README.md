@@ -8,7 +8,7 @@
 
 <h4 align="center">
     <p>
-        <a href="https://github.com/jiangjyjy/CantoneseLM_survey">简体中文</a> |
+        <a href="https://github.com/jiangjyjy/CantoneseLM_survey/README_CN">简体中文</a> |
         <b>English</b> 
     <p>
 </h4>
@@ -598,9 +598,9 @@ The following tables display the performance of models on different cantonese be
 </table>
 </details>
 
-## How to submit [是否有必要？]
+## How to submit
 
-* For open-source/API models, open pull request to update the result (you can also provide test code in `src` folder).
+* For open-source/API models, open pull request to update the result (you can also provide test code in `results&src` folder).
 * For not open-source/API models, update results in the cooresponding part and open pull request.
 
 ## Data [hf?]
@@ -611,7 +611,7 @@ We provide our dataset according to each subject in [data](data) folder. You can
 Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools.
 
 #### Data Format
-Each question in the dataset is a multiple-choice questions with 4 choices and only one choice as the correct answer.  The data is json file, which is the same format as the original. Here is an example:
+Each question in the dataset (e.g., Cant_ARC-C) is a multiple-choice questions with 4 choices and only one choice as the correct answer.  The data is json file, which is the same format as the original. Here is an example:
 ```json
     {
         "id": "Mercury_7175875",

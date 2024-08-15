@@ -21,7 +21,7 @@
 
 ## Introduction
 
-“广东话基准”是专为全球8500多万人使用的广东话设计的一种新的评估工具。随着自然语言处理领域的不断发展，对针对特定语言的健壮评估工具的需求变得越来越重要。为了解决现有粤语基准测试的巨大差距，该基准测试由四个不同的任务(can - truthful、can - gsm8k、can - arc - c、can - mmlu)组成，旨在全面评估粤语专用和通用大型语言模型(llm)在事实生成、数学逻辑、复杂推理和一般知识领域的粤语能力。“广东话基准”为广东话法学硕士提供可靠及准确的评估工具，不但有助评估现有的模型，亦有助未来广东话自然语言处理的研究和发展。
+“广东话基准”是专为全球8500多万人使用的广东话设计的一种新的评估工具。随着自然语言处理领域的不断发展，对针对特定语言的健壮评估工具的需求变得越来越重要。为了解决现有粤语基准测试的巨大差距，该基准测试由四个不同的任务(Can-truthfulQA、Can-GSM8K、Can-ARC-C、Can-MMLU)组成，旨在全面评估粤语专用和通用大型语言模型(llm)在事实生成、数学逻辑、复杂推理和一般知识领域的粤语能力。“广东话基准”为广东话法学硕士提供可靠及准确的评估工具，不但有助评估现有的模型，亦有助未来广东话自然语言处理的研究和发展。
  
 <p align="center">  <img src="fig/logo.jpg" style="width: 95%;" id="title-icon"> </p>
 
@@ -67,7 +67,7 @@
 
 ## Leaderboard
 
-下表显示不同粤语基准(Cant-Truthful, Cant-GSM8K, Cant-ARC-C, Cant-MMLU)在五样本和零样本设定下的表现。
+下表显示不同粤语基准(Cant-TruthfulQA, Cant-GSM8K, Cant-ARC-C, Cant-MMLU)在五样本和零样本设定下的表现。
 <details>
 <summary>Cant-TruthfulQA</summary>
 <table>
@@ -599,17 +599,18 @@
 </table>
 </details>
 
-## How to submit [是否有必要？]
+## How to submit
 
-* For open-source/API models, open pull request to update the result (you can also provide test code in `src` folder).
-* For not open-source/API models, update results in the cooresponding part and open pull request.
+* 对于开源/API模型，打开pull request来更新结果(你也可以在`results&src`文件夹中提供测试代码)。
+* 对于非开源/API模型，在相应部分更新结果并打开pull请求。
 
 ## Data [hf?]
-We provide our dataset according to each subject in [data](data) folder. You can also access our dataset via [Hugging Face](https://huggingface.co/datasets/haonan-li/cmmlu).
+我们根据每个主题在[data](data)目录中提供了开发和测试数据集。您也可以通过[Hugging Face](https://huggingface.co/datasets/haonan-li/cmmlu)。
 
 #### Quick Use [需要吗？]
 
-Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools.
+我们的数据集已经添加到 [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) 和 [OpenCompass](https://github.com/InternLM/opencompass) 中，您可以通过这些开源平台快速测试。
+
 
 #### Data Format
 Each question in the dataset is a multiple-choice questions with 4 choices and only one choice as the correct answer.  The data is json file, which is the same format as the original. Here is an example:
