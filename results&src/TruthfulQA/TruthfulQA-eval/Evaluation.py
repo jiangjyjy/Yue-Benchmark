@@ -8,9 +8,6 @@ This script evaluates model predictions for Cantonese, English, and Mandarin
 using BLEU and ROUGE metrics. It supports different tokenization methods
 based on the input language.
 
-Author: CHEN Pengan
-Date: Jun 1 2024
-License: MIT
 """
 
 import os

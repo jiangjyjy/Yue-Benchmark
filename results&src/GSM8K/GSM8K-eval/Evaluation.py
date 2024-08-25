@@ -7,9 +7,6 @@ GSM8K Evaluator
 This script evaluates model performance on the GSM8K dataset for both English and Cantonese.
 It processes prediction files and generates accuracy metrics, saving results to a CSV file.
 
-Author: CHEN Pengan
-Date: Jun 1, 2024
-License: MIT License
 """
 
 import json
