@@ -1,22 +1,24 @@
-# CantoneseLM_survey 【三个链接+中文md】
+# CantoneseLM_survey
 
-[![evaluation](https://img.shields.io/badge/OpenCompass-Support-royalblue.svg
-)](https://github.com/internLM/OpenCompass/) [![evaluation](https://img.shields.io/badge/lm--evaluation--harness-Support-blue
-)](https://github.com/EleutherAI/lm-evaluation-harness)
+
+
+[![Python](https://img.shields.io/badge/python-3.10-blue?logo=python&logoColor=FED643)](https://www.python.org/downloads/release/python-395/)
+[![Pytorch](https://img.shields.io/badge/pytorch-2.3.0-red?logo=pytorch)](https://pytorch.org/get-started/previous-versions/)
 
 <p align="center"> <img src="fig/banner.jpg" style="width: 100%;" id="title-icon">       </p>
 
 <h4 align="center">
     <p>
-        <a href="https://github.com/jiangjyjy/CantoneseLM_survey/README_CN">简体中文</a> |
+        <a href="https://github.com/jiangjyjy/CantoneseLM_survey/blob/main/README_CN.md">简体中文</a> |
         <b>English</b> 
     <p>
 </h4>
 
 <p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
 📄 <a href="https://arxiv.org/abs/xxxxx" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
-🏆 <a href="https://github.com/haonan-li/xxx" target="_blank"  style="margin-left: 10px">Leaderboard</a> •
-🤗 <a href="https://huggingface.co/datasets/xxx" target="_blank" style="margin-left: 10px">Dataset</a> 
+🏆 <a href="https://github.com/jiangjyjy/CantoneseLM_survey" target="_blank"  style="margin-left: 10px">Leaderboard</a> 
+<!-- •
+🤗 <a href="https://huggingface.co/datasets/xxx" target="_blank" style="margin-left: 10px">Dataset</a>  -->
 </p>
 
 ## Introduction
@@ -916,12 +918,12 @@ The following tables display the performance of models on different cantonese be
 * For open-source/API models, open pull request to update the result (you can also provide test code in `results&src` folder).
 * For not open-source/API models, update results in the cooresponding part and open pull request.
 
-## Data [hf?]
-We provide our dataset according to each subject in [data](data) folder. You can also access our dataset via [Hugging Face](https://huggingface.co/datasets/haonan-li/cmmlu).
+## Data 
+We provide our dataset according to each subject in [data](data) folder.
 
-#### Quick Use [需要吗？]
+<!-- #### Quick Use [需要吗？]
 
-Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools.
+Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools. -->
 
 #### Data Format
 Each question in the dataset (e.g., Cant_ARC-C) is a multiple-choice questions with 4 choices and only one choice as the correct answer.  The data is json file, which is the same format as the original. Here is an example:
@@ -952,12 +954,12 @@ bash arc_example.sh
 
 
 
-## Citation 【填词符】
+## Citation
 ```
 xxxx
 ```
 
-## License[证书存疑]
+<!-- ## License
 
 The CantoneseLM_survey dataset is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). -->

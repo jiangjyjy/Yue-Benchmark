@@ -1,8 +1,11 @@
-# CantoneseLM_survey 【三个链接+中文md】
+# CantoneseLM_survey
 
-[![evaluation](https://img.shields.io/badge/OpenCompass-Support-royalblue.svg
+<!-- [![evaluation](https://img.shields.io/badge/OpenCompass-Support-royalblue.svg
 )](https://github.com/internLM/OpenCompass/) [![evaluation](https://img.shields.io/badge/lm--evaluation--harness-Support-blue
-)](https://github.com/EleutherAI/lm-evaluation-harness)
+)](https://github.com/EleutherAI/lm-evaluation-harness) -->
+
+[![Python](https://img.shields.io/badge/python-3.10-blue?logo=python&logoColor=FED643)](https://www.python.org/downloads/release/python-395/)
+[![Pytorch](https://img.shields.io/badge/pytorch-2.3.0-red?logo=pytorch)](https://pytorch.org/get-started/previous-versions/)
 
 <p align="center"> <img src="fig/banner.jpg" style="width: 100%;" id="title-icon">       </p>
 
@@ -15,8 +18,7 @@
 
 <p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
 📄 <a href="https://arxiv.org/abs/xxxxx" target="_blank" style="margin-right: 15px; margin-left: 10px">论文</a> • 
-🏆 <a href="https://github.com/haonan-li/xxx" target="_blank"  style="margin-left: 10px">排行榜</a> •
-🤗 <a href="https://huggingface.co/datasets/xxx" target="_blank" style="margin-left: 10px">数据集</a> 
+🏆 <a href="https://github.com/haonan-li/xxx" target="_blank"  style="margin-left: 10px">排行榜</a> 
 </p>
 
 ## Introduction
@@ -45,7 +47,11 @@
 ├── results&src
 │   ├── ARC_c
 │   │   ├── ARC-eval
+│   │   ├── ARC_c-en
 │   │   └── ARC_c-yue
+│   ├── CMMLU
+│   │   ├── CMMLU-yue
+│   │   └── CMMLU-zh
 │   ├── GSM8K
 │   │   ├── GSM8K-en
 │   │   ├── GSM8K-eval
@@ -599,17 +605,326 @@
 </table>
 </details>
 
+<details>
+<summary>Cant-CMMLU</summary>
+<table>
+    <tr>
+        <th rowspan=2>Models</th>
+        <th colspan=5>0-shot (correct)</th>
+        <th colspan=5>5-shot (correct)</th>
+    </tr>
+    <tr>
+        <td>STEM</td>
+        <td>Hum.</td>
+        <td>S.S.</td>
+        <td>C.S.</td>
+        <td>Oth.</td>
+        <td>STEM</td>
+        <td>Hum.</td>
+        <td>S.S.</td>
+        <td>C.S.</td>
+        <td>Oth.</td>
+    </tr>
+    <tr>
+        <td>Qwen1.5-110b</td>
+        <td>80.41</td>
+        <td>88.62</td>
+        <td>82.26</td>
+        <td>83.91</td>
+        <td>75.77</td>
+        <td>86.14</td>
+        <td>91.3</td>
+        <td>90.59</td>
+        <td>90.62</td>
+        <td>82.76</td>
+    </tr>
+    <tr>
+        <td>Qwen-2-7b</td>
+        <td>69.58</td>
+        <td>80.7</td>
+        <td>76.34</td>
+        <td>79.76</td>
+        <td>69.94</td>
+        <td>74.14</td>
+        <td>81.02</td>
+        <td>79.82</td>
+        <td>81.28</td>
+        <td>75.19</td>
+    </tr>
+    <tr>
+        <td>Qwen-2-72b</td>
+        <td>80.21</td>
+        <td>88.46</td>
+        <td>87.00</td>
+        <td>87.45</td>
+        <td>80.16</td>
+        <td>87.36</td>
+        <td>91.86</td>
+        <td>89.68</td>
+        <td>91.98</td>
+        <td>87.44</td>
+    </tr>
+    <tr>
+        <td>Mixtral-8x22b</td>
+        <td>43.68</td>
+        <td>56.96</td>
+        <td>48.4</td>
+        <td>59.0</td>
+        <td>50.52</td>
+        <td>50.88</td>
+        <td>59.78</td>
+        <td>57.84</td>
+        <td>62.79</td>
+        <td>58.82</td>
+    </tr>
+    <tr>
+        <td>Mixtral-large-2</td>
+        <td>60.19</td>
+        <td>76.08</td>
+        <td>70.74</td>
+        <td>74.92</td>
+        <td>60.38</td>
+        <td>63.84</td>
+        <td>79.65</td>
+        <td>71.66</td>
+        <td>78.84</td>
+        <td>68.5</td>
+    </tr>
+    <tr>
+        <td>Llama-3-8b</td>
+        <td>47.69</td>
+        <td>59.16</td>
+        <td>53.72</td>
+        <td>56.6</td>
+        <td>49.42</td>
+        <td>46.24</td>
+        <td>58.33</td>
+        <td>52.55</td>
+        <td>53.94</td>
+        <td>43.1</td>
+    </tr>
+    <tr>
+        <td>Llama-3-70b</td>
+        <td>58.33</td>
+        <td>73.04</td>
+        <td>71.92</td>
+        <td>74.86</td>
+        <td>63.89</td>
+        <td>57.34</td>
+        <td>72.79</td>
+        <td>72.95</td>
+        <td>73.07</td>
+        <td>63.65</td>
+    </tr>
+    <tr>
+        <td>Llama-3.1-8b</td>
+        <td>44.86</td>
+        <td>58.27</td>
+        <td>53.7</td>
+        <td>56.08</td>
+        <td>45.96</td>
+        <td>46.01</td>
+        <td>58.06</td>
+        <td>54.02</td>
+        <td>58.31</td>
+        <td>53.16</td>
+    </tr>
+    <tr>
+        <td>Llama-3.1-70b</td>
+        <td>60.96</td>
+        <td>76.43</td>
+        <td>73.38</td>
+        <td>76.93</td>
+        <td>67.04</td>
+        <td>64.0</td>
+        <td>78.13</td>
+        <td>74.9</td>
+        <td>78.14</td>
+        <td>71.82</td>
+    </tr>
+    <tr>
+        <td>Phi-3-medium</td>
+        <td>45.65</td>
+        <td>61.53</td>
+        <td>51.14</td>
+        <td>58.13</td>
+        <td>44.86</td>
+        <td>45.65</td>
+        <td>59.24</td>
+        <td>53.02</td>
+        <td>59.31</td>
+        <td>49.18</td>
+    </tr>
+    <tr>
+        <td>Gemma-2-27b</td>
+        <td>37.68</td>
+        <td>53.94</td>
+        <td>49.2</td>
+        <td>53.46</td>
+        <td>47.5</td>
+        <td>33.55</td>
+        <td>40.98</td>
+        <td>44.88</td>
+        <td>43.75</td>
+        <td>40.72</td>
+    </tr>
+    <tr>
+        <td>Yi-1.5-34b</td>
+        <td>70.73</td>
+        <td>81.46</td>
+        <td>79.57</td>
+        <td>81.54</td>
+        <td>68.47</td>
+        <td>78.2</td>
+        <td>85.15</td>
+        <td>80.49</td>
+        <td>83.52</td>
+        <td>74.13</td>
+    </tr>
+    <tr>
+        <td>Internlm-2.5-7b</td>
+        <td>66.93</td>
+        <td>78.74</td>
+        <td>73.38</td>
+        <td>73.42</td>
+        <td>63.64</td>
+        <td>70.47</td>
+        <td>80.84</td>
+        <td>75.19</td>
+        <td>76.79</td>
+        <td>64.63</td>
+    </tr>
+    <tr>
+        <td>ERNIE-Lite</td>
+        <td>60.73</td>
+        <td>67.56</td>
+        <td>61.02</td>
+        <td>67.73</td>
+        <td>53.04</td>
+        <td>62.43</td>
+        <td>70.27</td>
+        <td>64.84</td>
+        <td>71.55</td>
+        <td>60.04</td>
+    </tr>
+    <tr>
+        <td>ERNIE-Tiny</td>
+        <td>33.24</td>
+        <td>37.86</td>
+        <td>32.3</td>
+        <td>37.88</td>
+        <td>34.36</td>
+        <td>32.68</td>
+        <td>38.79</td>
+        <td>34.6</td>
+        <td>37.66</td>
+        <td>32.52</td>
+    </tr>
+    <tr>
+        <td>ERNIE-turbo</td>
+        <td>50.7</td>
+        <td>54.62</td>
+        <td>45.62</td>
+        <td>53.53</td>
+        <td>41.82</td>
+        <td>49.33</td>
+        <td>57.66</td>
+        <td>46.76</td>
+        <td>54.28</td>
+        <td>41.42</td>
+    </tr>
+    <tr>
+        <td>Sensechat-5</td>
+        <td>73.86</td>
+        <td>83.21</td>
+        <td>76.95</td>
+        <td>80.73</td>
+        <td>69.56</td>
+        <td>73.52</td>
+        <td>82.0</td>
+        <td>74.78</td>
+        <td>79.88</td>
+        <td>68.57</td>
+    </tr>
+    <tr>
+        <td>Claude-3.5</td>
+        <td>60.6</td>
+        <td>72.67</td>
+        <td>75.98</td>
+        <td>76.63</td>
+        <td>64.6</td>
+        <td>59.02</td>
+        <td>81.24</td>
+        <td>82.54</td>
+        <td>83.08</td>
+        <td>75.51</td>
+    </tr>
+    <tr>
+        <td>GLM-4</td>
+        <td>75.66</td>
+        <td>84.39</td>
+        <td>75.75</td>
+        <td>80.17</td>
+        <td>64.23</td>
+        <td>76.0</td>
+        <td>84.2</td>
+        <td>78.06</td>
+        <td>80.07</td>
+        <td>71.77</td>
+    </tr>
+    <tr>
+        <td>ChatGPT</td>
+        <td>44.58</td>
+        <td>57.72</td>
+        <td>52.42</td>
+        <td>58.74</td>
+        <td>49.78</td>
+        <td>41.52</td>
+        <td>56.34</td>
+        <td>54.54</td>
+        <td>60.33</td>
+        <td>59.87</td>
+    </tr>
+    <tr>
+        <td>GPT-4o</td>
+        <td>71.72</td>
+        <td>83.28</td>
+        <td>84.32</td>
+        <td>84.12</td>
+        <td>74.16</td>
+        <td>72.87</td>
+        <td>85.03</td>
+        <td>81.59</td>
+        <td>84.32</td>
+        <td>71.53</td>
+    </tr>
+    <tr>
+        <td>GPT-4</td>
+        <td>60.28</td>
+        <td>75.38</td>
+        <td>74.46</td>
+        <td>77.26</td>
+        <td>67.28</td>
+        <td>63.5</td>
+        <td>76.75</td>
+        <td>74.57</td>
+        <td>77.56</td>
+        <td>70.78</td>
+    </tr>
+</table>
+</details>
+
 ## How to submit
 
 * 对于开源/API模型，打开pull request来更新结果(你也可以在`results&src`文件夹中提供测试代码)。
 * 对于非开源/API模型，在相应部分更新结果并打开pull请求。
 
-## Data [hf?]
-我们根据每个主题在[data](data)目录中提供了开发和测试数据集。您也可以通过[Hugging Face](https://huggingface.co/datasets/haonan-li/cmmlu)。
+## Data 
+我们根据每个主题在[data](data)目录中提供了开发和测试数据集。
 
-#### Quick Use [需要吗？]
+<!-- #### Quick Use
 
-我们的数据集已经添加到 [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) 和 [OpenCompass](https://github.com/InternLM/opencompass) 中，您可以通过这些开源平台快速测试。
+我们的数据集已经添加到 [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) 和 [OpenCompass](https://github.com/InternLM/opencompass) 中，您可以通过这些开源平台快速测试。 -->
 
 
 #### Data Format
@@ -641,12 +956,9 @@ bash arc_example.sh
 
 
 
-## Citation 【填词符】
+## Citation 
 ```
 xxxx
 ```
 
-## License[证书存疑]
 
-The CantoneseLM_survey dataset is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
