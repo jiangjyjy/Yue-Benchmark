@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/python-3.10-blue?logo=python&logoColor=FED643)](https://www.python.org/downloads/release/python-395/)
 [![Pytorch](https://img.shields.io/badge/pytorch-2.3.0-red?logo=pytorch)](https://pytorch.org/get-started/previous-versions/)
 
-<p align="center"> <img src="fig/banner.jpg" style="width: 100%;" id="title-icon">       </p>
+<p align="center"> <img src="fig/banner.png" style="width: 100%;" id="title-icon">       </p>
 
 <h4 align="center">
     <p>
@@ -23,7 +23,7 @@
 
 ## Introduction
 
-“广东话基准”是专为全球8500多万人使用的广东话设计的一种新的评估工具。随着自然语言处理领域的不断发展，对针对特定语言的健壮评估工具的需求变得越来越重要。为了解决现有粤语基准测试的巨大差距，该基准测试由四个不同的任务(Can-truthfulQA、Can-GSM8K、Can-ARC-C、Can-MMLU)组成，旨在全面评估粤语专用和通用大型语言模型(llm)在事实生成、数学逻辑、复杂推理和一般知识领域的粤语能力。“广东话基准”为广东话法学硕士提供可靠及准确的评估工具，不但有助评估现有的模型，亦有助未来广东话自然语言处理的研究和发展。
+随着大型语言模型（LLMs）的迅速发展，如GPT-X和Llama-X，自然语言处理（NLP）技术取得了显著进步，但这些进展主要集中在英语和少数数据资源丰富的语言上，像粤语这种有着全球超过8500万使用者的语言却被忽视。尽管粤语使用地区和全球粤语社群在经济上具有重要性，粤语的技术发展，特别是在LLM领域，依然十分有限，大部分研究成果仍然是闭源的且发展不足。为了解决这一差距，我们系统性地回顾了现有的粤语NLP技术，包括谣言检测、情感分析和机器翻译等，并引入了新的基准测试——Yue-TruthfulQA、Yue-GSM8K、Yue-ARC-C、Yue-MMLU和Yue-TRANS，以评估LLM在粤语各个维度上的能力。这些基准测试由英语或普通话翻译而来，并经过人工校对，为粤语专用和通用LLM的全面评估提供了依据。我们对23个模型的分析揭示了现存的差距，并提出了未来研究的潜在方向，强调了加强粤语LLM开发的重要性，以满足这一重要群体的语言和文化需求。
  
 <p align="center">  <img src="fig/logo.jpg" style="width: 95%;" id="title-icon"> </p>
 
@@ -36,13 +36,13 @@
 │   ├── historical_data
 │   │   └── 2024-07-20
 │   └── latest_data
-│       ├── Cant-ARC-C
-│       ├── Cant-GSM8K
-│       ├── Cant-MMLU
-│       ├── Cant-TRANS
-│       └── Cant-TruthfulQA
+│       ├── Yue-ARC-C
+│       ├── Yue-GSM8K
+│       ├── Yue-MMLU
+│       ├── Yue-TRANS
+│       └── Yue-TruthfulQA
 ├── fig
-│   ├── banner.jpg
+│   ├── banner.png
 │   └── logo.jpg
 ├── results&src
 │   ├── ARC_c

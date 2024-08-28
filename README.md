@@ -1,11 +1,11 @@
-# CantoneseLM_survey
+# How Far Can Cantonese NLP Go? Benchmarking Cantonese Capabilities of Large Language Models
 
 
 
 [![Python](https://img.shields.io/badge/python-3.10-blue?logo=python&logoColor=FED643)](https://www.python.org/downloads/release/python-395/)
 [![Pytorch](https://img.shields.io/badge/pytorch-2.3.0-red?logo=pytorch)](https://pytorch.org/get-started/previous-versions/)
 
-<p align="center"> <img src="fig/banner.jpg" style="width: 100%;" id="title-icon">       </p>
+<p align="center"> <img src="fig/banner.png" style="width: 100%;" id="title-icon">       </p>
 
 <h4 align="center">
     <p>
@@ -23,7 +23,7 @@
 
 ## Introduction
 
-The Cantonese Benchmark is a new evaluation tool specifically designed for Cantonese, a language spoken by over 85 million people worldwide. As the field of natural language processing continues to grow, the need for robust evaluation tools tailored to specific languages becomes increasingly important. Addressing the significant gap in available benchmarks for Cantonese, this benchmark is composed of four distinct tasks (Cant-Truthful, Cant-GSM8K, Cant-ARC-C, Cant-MMLU), aiming to comprehensively evaluate the Cantonese capabilities of both Cantonese-specific and general-purpose large language models (LLMs) in the areas of factual generation, mathematical logic, complex reasoning, and general knowledge. By providing a reliable and accurate evaluation tool for Cantonese LLMs, the Cantonese Benchmark will not only facilitate the assessment of current models but also pave the way for future research and advancements in Cantonese natural language processing.
+The rapid evolution of large language models (LLMs), such as GPT-X and Llama-X, has driven significant advancements in NLP, yet much of this progress has centered on English and a few other well-resourced languages, leaving languages like Cantonese, spoken by over 85 million people worldwide, underrepresented. Despite the economic importance of Cantonese-speaking regions and communities globally, technological development for Cantonese, particularly in the realm of LLMs, remains limited, with most efforts closed-source and underdeveloped. To address this disparity, we systematically review existing Cantonese NLP technologies, including rumor detection, sentiment analysis, and machine translation, and introduce new benchmarks—Yue-TruthfulQA, Yue-GSM8K, Yue-ARC-C, Yue-MMLU, and Yue-TRANS—to evaluate LLMs' capabilities in Cantonese across various dimensions. These benchmarks, derived from English or Mandarin and manually verified, enable a comprehensive assessment of both Cantonese-specific and general-purpose LLMs. Our analysis of twenty-three models identifies gaps and potential directions for future research, emphasizing the need for enhanced Cantonese LLM development to meet the linguistic and cultural needs of this significant population.
 <p align="center">  <img src="fig/logo.jpg" style="width: 95%;" id="title-icon"> </p>
 
 ## Files
@@ -35,13 +35,13 @@ The Cantonese Benchmark is a new evaluation tool specifically designed for Canto
 │   ├── historical_data
 │   │   └── 2024-07-20
 │   └── latest_data
-│       ├── Cant-ARC-C
-│       ├── Cant-GSM8K
-│       ├── Cant-MMLU
-│       ├── Cant-TRANS
-│       └── Cant-TruthfulQA
+│       ├── Yue-ARC-C
+│       ├── Yue-GSM8K
+│       ├── Yue-MMLU
+│       ├── Yue-TRANS
+│       └── Yue-TruthfulQA
 ├── fig
-│   ├── banner.jpg
+│   ├── banner.png
 │   └── logo.jpg
 ├── results&src
 │   ├── ARC_c
@@ -72,9 +72,9 @@ The Cantonese Benchmark is a new evaluation tool specifically designed for Canto
 
 ## Leaderboard
 
-The following tables display the performance of models on different cantonese benchmarks (Cant-Truthful, Cant-GSM8K, Cant-ARC-C, Cant-MMLU) in the five-shot and zero-shot settings. 
+The following tables display the performance of models on different cantonese benchmarks (Yue-Truthful, Yue-GSM8K, Yue-ARC-C, Yue-CMMLU) in the five-shot and zero-shot settings. 
 <details>
-<summary>Cant-TruthfulQA</summary>
+<summary>Yue-TruthfulQA</summary>
 <table>
     <tr>
         <th rowspan=2>Models</th>
@@ -348,7 +348,7 @@ The following tables display the performance of models on different cantonese be
 </details>
 
 <details>
-<summary>Cant-GSM8k</summary>
+<summary>Yue-GSM8k</summary>
 <table>
     <tr>
         <th>Models</th>
@@ -474,7 +474,7 @@ The following tables display the performance of models on different cantonese be
 </details>
 
 <details>
-<summary>Cant-ARC-Challenge</summary>
+<summary>Yue-ARC-Challenge</summary>
 <table>
     <tr>
         <th>Models</th>
@@ -605,7 +605,7 @@ The following tables display the performance of models on different cantonese be
 </details>
 
 <details>
-<summary>Cant-CMMLU</summary>
+<summary>Yue-CMMLU</summary>
 <table>
     <tr>
         <th rowspan=2>Models</th>
