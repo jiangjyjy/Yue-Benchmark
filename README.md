@@ -15,7 +15,7 @@
 </h4>
 
 <p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
-📄 <a href="https://arxiv.org/abs/xxxxx" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
+📄 <a href="https://arxiv.org/abs/2408.16756" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
 🏆 <a href="https://github.com/jiangjyjy/CantoneseLM_survey" target="_blank"  style="margin-left: 10px">Leaderboard</a> 
 <!-- •
 🤗 <a href="https://huggingface.co/datasets/xxx" target="_blank" style="margin-left: 10px">Dataset</a>  -->
