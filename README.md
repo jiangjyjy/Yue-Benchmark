@@ -877,7 +877,7 @@ We provide our dataset according to each subject in [data](data) folder.
 
 #### Quick Use 
 
-Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools.
+Our dataset has been added to [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools.
 
 #### Data Format
 Yue-ARC-C, Yue-MMLU is a multiple-choice questions with 4 choices and only one choice as the correct answer.  

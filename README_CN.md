@@ -877,9 +877,9 @@
 ## Data 
 我们根据每个主题在[data](data)目录中提供了开发和测试数据集。
 
-<!-- #### Quick Use
+#### Quick Use
 
-我们的数据集已经添加到 [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) 和 [OpenCompass](https://github.com/InternLM/opencompass) 中，您可以通过这些开源平台快速测试。 -->
+我们的数据集已经添加到 [OpenCompass](https://github.com/InternLM/opencompass) 中，您可以通过这些开源平台快速测试。
 
 
 #### Data Format
