@@ -921,7 +921,7 @@ The following tables display the performance of models on different cantonese be
 ## Data 
 We provide our dataset according to each subject in [data](data) folder.
 
-<!-- #### Quick Use [需要吗？]
+<!-- #### Quick Use 
 
 Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools. -->
 
