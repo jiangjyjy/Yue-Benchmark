@@ -80,271 +80,223 @@ The following tables display the performance of models on different cantonese be
 <table>
     <tr>
         <th rowspan=2>Models</th>
-        <th colspan=4>0-shot (correct)</th>
-        <th colspan=4>5-shot (correct)</th>
+        <th colspan=3>0-shot (correct)</th>
+        <th colspan=3>5-shot (correct)</th>
     </tr>
     <tr>
         <th>Rouge-l</th>
         <th>Bleu-4</th>
         <th>BERTScore</th>
-        <th>Human</th>
         <th>Rouge-l</th>
         <th>Bleu-4</th>
         <th>BERTScore</th>
-        <th>Human</th>
     </tr>
     <tr>
         <td>Qwen-1.5-110b</td>
         <td>26.04</td>
         <td>15.95</td>
         <td>69.29</td>
-        <td>4.02</td>
         <td>31.73</td>
         <td>19.53</td>
         <td>70.87</td>
-        <td>4.03</td>
     </tr>
     <tr>
         <td>Qwen-2-7b</td>
         <td>13.27</td>
         <td>10.00</td>
         <td>66.14</td>
-        <td>3.23</td>
         <td>16.91</td>
         <td>11.48</td>
         <td>67.71</td>
-        <td>3.35</td>
     </tr>
     <tr>
         <td>Qwen-2-72b</td>
         <td>10.86</td>
         <td>9.68</td>
         <td>65.62</td>
-        <td>3.25</td>
         <td>17.52</td>
         <td>12.38</td>
         <td>67.72</td>
-        <td>3.61</td>
     </tr>
     <tr>
         <td>Mixtral-8x22b</td>
         <td>14.74</td>
         <td>10.83</td>
         <td>66.72</td>
-        <td>3.40</td>
         <td>20.40</td>
         <td>14.09</td>
         <td>68.05</td>
-        <td>3.85</td>
     </tr>
     <tr>
         <td>Mixtral-large-2</td>
         <td>19.72</td>
         <td>13.01</td>
         <td>69.06</td>
-        <td>3.96</td>
         <td>31.38</td>
         <td>18.61</td>
         <td>72.07</td>
-        <td>4.20</td>
     </tr>
     <tr>
         <td>Llama-3-8b</td>
         <td>8.40</td>
         <td>8.68</td>
         <td>64.37</td>
-        <td>3.20</td>
         <td>28.68</td>
         <td>16.43</td>
         <td>70.82</td>
-        <td>4.04</td>
     </tr>
     <tr>
         <td>Llama-3-70b</td>
         <td>10.98</td>
         <td>9.51</td>
         <td>66.10</td>
-        <td>3.87</td>
         <td>33.06</td>
         <td>19.31</td>
         <td>71.95</td>
-        <td>4.15</td>
     </tr>
     <tr>
         <td>Llama-3.1-8b</td>
         <td>13.82</td>
         <td>10.33</td>
         <td>66.97</td>
-        <td>3.52</td>
         <td>26.18</td>
         <td>15.20</td>
         <td>70.28</td>
-        <td>3.98</td>
     </tr>
     <tr>
         <td>Llama-3.1-70b</td>
         <td>21.03</td>
         <td>14.30</td>
         <td>68.31</td>
-        <td>4.05</td>
         <td>34.72</td>
         <td>20.54</td>
         <td>70.80</td>
-        <td>4.10</td>
     </tr>
     <tr>
         <td>Phi-3-medium</td>
         <td>18.70</td>
         <td>12.00</td>
         <td>67.36</td>
-        <td>3.54</td>
         <td>22.00</td>
         <td>13.72</td>
         <td>67.57</td>
-        <td>3.49</td>
     </tr>
     <tr>
         <td>Gemma-2-27b</td>
         <td>8.09</td>
         <td>8.44</td>
         <td>64.41</td>
-        <td>3.28</td>
         <td>11.33</td>
         <td>9.98</td>
         <td>63.66</td>
-        <td>3.21</td>
     </tr>
     <tr>
         <td>Yi-1.5-34b</td>
         <td>15.41</td>
         <td>11.11</td>
         <td>67.57</td>
-        <td>3.60</td>
         <td>20.30</td>
         <td>13.20</td>
         <td>69.50</td>
-        <td>3.92</td>
     </tr>
     <tr>
         <td>Internlm-2.5-7b</td>
         <td>14.46</td>
         <td>10.53</td>
         <td>63.48</td>
-        <td>3.10</td>
         <td>22.30</td>
         <td>14.08</td>
         <td>67.61</td>
-        <td>3.67</td>
     </tr>
     <tr>
         <td>ERNIE-Lite</td>
         <td>20.58</td>
         <td>12.23</td>
         <td>67.64</td>
-        <td>3.44</td>
         <td>20.69</td>
         <td>12.27</td>
         <td>68.45</td>
-        <td>3.62</td>
     </tr>
     <tr>
         <td>ERNIE-Tiny</td>
         <td>27.16</td>
         <td>14.49</td>
         <td>68.45</td>
-        <td>3.48</td>
         <td>27.91</td>
         <td>15.28</td>
         <td>68.84</td>
-        <td>3.68</td>
     </tr>
     <tr>
         <td>ERNIE-Speed</td>
         <td>22.58</td>
         <td>13.15</td>
         <td>67.84</td>
-        <td>3.48</td>
         <td>23.61</td>
         <td>13.82</td>
         <td>68.27</td>
-        <td>3.62</td>
     </tr>
     <tr>
         <td>ERNIE-Turbo</td>
         <td>17.91</td>
         <td>11.30</td>
         <td>66.71</td>
-        <td>3.40</td>
         <td>21.19</td>
         <td>12.19</td>
         <td>68.29</td>
-        <td>3.60</td>
     </tr>
     <tr>
         <td>Sensechat-5</td>
         <td>24.75</td>
         <td>15.11</td>
         <td>68.43</td>
-        <td>3.72</td>
         <td>32.45</td>
         <td>19.70</td>
         <td>70.02</td>
-        <td>3.96</td>
     </tr>
     <tr>
         <td>Claude-3.5</td>
         <td>14.23</td>
         <td>9.95</td>
         <td>67.56</td>
-        <td>3.92</td>
         <td>12.66</td>
         <td>10.06</td>
         <td>68.12</td>
-        <td>4.07</td>
     </tr>
     <tr>
         <td>GLM-4</td>
         <td>13.44</td>
         <td>10.07</td>
         <td>67.26</td>
-        <td>3.74</td>
         <td>23.57</td>
         <td>14.28</td>
         <td>70.30</td>
-        <td>4.08</td>
     </tr>
     <tr>
         <td>ChatGPT</td>
         <td>25.07</td>
         <td>14.81</td>
         <td>67.78</td>
-        <td>3.98</td>
         <td>31.84</td>
         <td>18.42</td>
         <td>70.41</td>
-        <td>4.02</td>
     </tr>
     <tr>
         <td>GPT-4o</td>
         <td>17.58</td>
         <td>12.17</td>
         <td>68.68</td>
-        <td>3.98</td>
         <td>27.64</td>
         <td>16.52</td>
         <td>71.59</td>
-        <td>4.05</td>
     </tr>
     <tr>
         <td>GPT-4</td>
         <td>19.47</td>
         <td>13.45</td>
         <td>68.99</td>
-        <td>4.10</td>
         <td>28.43</td>
         <td>16.74</td>
         <td>71.26</td>
-        <td>4.20</td>
     </tr>
 </table>
 </details>
