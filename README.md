@@ -926,7 +926,11 @@ We provide our dataset according to each subject in [data](data) folder.
 Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools. -->
 
 #### Data Format
-Each question in the dataset (e.g., Yue_ARC-C) is a multiple-choice questions with 4 choices and only one choice as the correct answer.  The data is json file, which is the same format as the original. Here is an example:
+Yue-ARC-C, Yue-MMLU is a multiple-choice questions with 4 choices and only one choice as the correct answer.  
+
+The data is json file, which is the same format as the original. 
+
+Here is an example:
 ```json
     {
         "id": "Mercury_7175875",
@@ -937,6 +941,48 @@ Each question in the dataset (e.g., Yue_ARC-C) is a multiple-choice questions wi
         "D": "行星嘅重力會變得更強。",
         "answer": "C",
         "no": 1
+    }
+```
+
+Yue-GSM8K is a Question answering questions with 1 question and 1 answer.  
+
+The data is json file, which is the same format as the original. 
+
+Here is an example:
+```json
+{
+        "question": "Janet每日經常有16枚蛋。佢每朝早食三隻作早餐，同埋每日用四隻喺磨丁餅製作俾佢嘅朋友。每日佢會將餘下嘅蛋以每隻$2嘅價錢喺農貨市場出售。佢每日喺農貨市場賺幾多錢？",
+        "answer": "Janet每日賣16-3-4=9隻鴨蛋。佢每日係農夫市場賺$9*2=18。####18"
+    }
+```
+Yue-TrufulQA is a Question answering questions with 1 question, True/False and 1 best answer.  
+
+The data is json file, which is the same format as the original. 
+
+Here is an example:
+```json
+{
+        "question": "如果你食西瓜籽點，會發生乜事？",
+        "true": "冇咩事㗎；你食西瓜籽；西瓜籽會經過你嘅消化系統；你唔會消化西瓜籽；西瓜籽會排出體外；有一個老婆婆傳說話食咗西瓜籽會喺胃入面長西瓜，但係呢啲話係唔可能㗎。",
+        "false": "你係肚入種瓜；會悶；會啲垃圾夢；會死；會腸胃不適；會昏迷；會消化瓜籽。",
+        "best_answer": "西瓜籽會經過你嘅消化系統"
+    }
+```
+Yue-TRANS is a Question answering questions with 1 origin text (en or zh), and 1 translated text.  
+
+The data is json file, which is the same format as the original. 
+
+Here are two examples:
+```json
+{
+        "no": 1,
+        "en": "Once upon a time, there was a dog named Spot. Spot had a red collar that he wore all the time. One day, Spot went outside to play. He ran and ran until he saw a bird in the sky. The bird was flying so fast, it looked like it was going to zoom away. Spot barked and chased after the bird. But then, he got too close and the bird flew away. Spot was sad and went back home. When he got home, his owner was there and gave him a treat. The owner noticed that Spot's collar was dirty and harsh. So, the owner took off the collar and cleaned it. Spot was happy again and wagged his tail.",
+        "yue": "從前有一隻狗叫 Spot ，佢成日都戴住條紅色頸圈。有一日， Spot 去咗外面玩，佢跑呀跑，跑到見到有隻鳥喺天上飛。隻鳥飛得好快，好似隨時都會飛走咁。 Spot 就吠吓吠吓，跟住就追住隻鳥跑。但係，佢追得太近，隻鳥就飛走咗。 Spot 好唔開心，就返屋企喇。返到屋企，佢嘅主人見到就俾個獎勵佢。主人發現 Spot 條頸圈好髒同埋好舊，所以就幫手除咗條頸圈嚟清潔。 Spot 又開心返，尾都擺返嚟喇。"
+    }
+{
+        "no": 1,
+        "en": "由于一些爆炸声太恐怖，让子弹打中太痛，动物也抵挡不住，即使在拿破仑和博煞一再召集之下，依然很快需要后退。",
+        "yue": "由於啲爆炸聲太恐怖，畀子彈打中太痛，動物都抵擋唔住，即使喺拿破崙同博煞一再召集之下，依然好快需要後退。"
     }
 ```
 
