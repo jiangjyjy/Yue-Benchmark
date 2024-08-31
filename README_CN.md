@@ -14,13 +14,13 @@
 <h4 align="center">
     <p>
         <b>简体中文</b>|
-        <a href="https://github.com/jiangjyjy/CantoneseLM_survey">English</a>
+        <a href="https://github.com/jiangjyjy/Yue-Benchmark">English</a>
     <p>
 </h4>
 
 <p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
 📄 <a href="https://arxiv.org/abs/2408.16756" target="_blank" style="margin-right: 15px; margin-left: 10px">论文</a> • 
-🏆 <a href="hhttps://github.com/jiangjyjy/CantoneseLM_survey/#Leaderboard" target="_blank"  style="margin-left: 10px">排行榜</a> •
+🏆 <a href="https://github.com/jiangjyjy/Yue-Benchmark/#Leaderboard" target="_blank"  style="margin-left: 10px">排行榜</a> •
 🤗 <a href="https://huggingface.co/datasets/BillBao/Yue-Benchmark" target="_blank" style="margin-left: 10px">Dataset</a> 
 </p>
 
