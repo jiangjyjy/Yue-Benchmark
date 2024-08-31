@@ -4,6 +4,8 @@
 
 [![Python](https://img.shields.io/badge/python-3.10-blue?logo=python&logoColor=FED643)](https://www.python.org/downloads/release/python-395/)
 [![Pytorch](https://img.shields.io/badge/pytorch-2.3.0-red?logo=pytorch)](https://pytorch.org/get-started/previous-versions/)
+[![evaluation](https://img.shields.io/badge/OpenCompass-Support-royalblue.svg)](https://github.com/internLM/OpenCompass/) 
+
 
 <p align="center"> <img src="fig/banner.png" style="width: 100%;" id="title-icon">       </p>
 
@@ -921,9 +923,9 @@ The following tables display the performance of models on different cantonese be
 ## Data 
 We provide our dataset according to each subject in [data](data) folder.
 
-<!-- #### Quick Use 
+#### Quick Use 
 
-Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools. -->
+Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools.
 
 #### Data Format
 Yue-ARC-C, Yue-MMLU is a multiple-choice questions with 4 choices and only one choice as the correct answer.  
