@@ -1,0 +1,1478 @@
+{
+    "0": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：唔相干結論謬誤嘅情形唔包括\nA. 轉移論題\nB. 偷換論題\nC. 法庭悖論\nD. 稻草人謬誤\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. 轉移論題**\n\n**Explanation:**\n\n* **轉移論誤 (Straw Man Fallacy)**: This is a fallacy where someone misrepresents their opponent's argument to make it easier to attack.\n\nThe other options are all types of logical fallacies:\n\n* **B. 轉移論題 (Red Herring Fallacy)**: This is a type of fallacy where irrelevant information is introduced to distract from the main argument.\n* **C. 偷換論題 (Red Herring Fallacy)**: This is a type of fallacy where the arguer goes off on a tangent, introducing a new topic to distract from the original one.\n* **D. 偷換論題 (Red Herring Fallacy)**: This is a type of fallacy where the arguer goes off on a tangent, introducing a new topic to distract from the original one.\n\nLet me know if you'd like to know more about the other fallacies!"
+        ],
+        "gold": "C"
+    },
+    "1": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：被馬克思稱之為古代最偉大嘅思想家係\nA. 馬丁·路德\nB. 柏拉圖\nC. 奧古斯丁\nD. 亞裏士多德\n"
+            }
+        ],
+        "prediction": [
+            "D. 亞裏士多德 \n\n\nThis is a bit of a trick question! While Marx was critical of many philosophical ideas, he was deeply influenced by and engaged with the works of **亞裏士圖** (Aristotle). Marx studied and was inspired by ancient philosophers like Aristotle, but he ultimately considered him outdated for his own time. \n"
+        ],
+        "gold": "D"
+    },
+    "2": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：同時肯定「所有嘅人都會犯錯誤」與「有嘅人唔會犯錯誤」呢兩個命題會違反\nA. 同一律\nB. 排中律\nC. 矛盾律\nD. 充足理由律\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 充足理由律 (Law of Sufficient Reason)**.\n\nHere's why:\n\n* **The Law of Sufficient Reason** states that everything must have a reason or explanation for its existence. The statement \"all people will make mistakes\" and \"some people don't make mistakes\" are contradictory and cannot both be true.\n\nLet me explain the other options:\n\n* **A. 同一律 (Law of Identity)** states that something is what it is. This isn't violated by the scenario, as it doesn't deal with the definition of \"everything\".\n\n* **B. 矛盾律 (Law of Excluded Middle)** states that a statement is either true or false. This isn't directly contradicted by the scenario, as it doesn't explicitly state that a statement about a person making mistakes is true.\n\n* **A. 充足理由律 (Law of Sufficient Reason)** is a philosophical principle, not a logical law.\n\nLet me know if you'd like to explore more about the Law of Excluded Middle!"
+        ],
+        "gold": "C"
+    },
+    "3": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：英國嘅一項實驗發現，將母狗同佢哋嘅幼細子女分開後，將呢啲子女混入一羣同類嘅成年狗同幼狗中去，然後再將母狗放入狗羣。母狗好快就同自己嘅子女會合埋一齊。研究表明，狗身上嘅體味係佢哋互相辨認嘅依據。而幼狗無法區分自己母親同其他母狗身上嘅味道。因此每個母狗都能分辨出自己子女嘅體味。上述論證採用咗下列邊種論述方法?\nA. 說明某一特殊情況，以論證一個規律\nB. 喺對某種現象嘅兩種可供揀嘅解釋中，通過排除其中嘅一種，嚟確定另一種\nC. 通過對發生現象嘅客觀描述，支持關於某個可能發生現象嘅假說\nD. 運用類比嘅方法，根據兩組對象有某啲類似嘅特徵，得出佢哋具有另一個相同特徵\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. \n\n**\n\nThe passage describes a situation where a conclusion is drawn about the dogs' ability to distinguish their own offspring from others based on their scent. This is an example of **inductive reasoning**, which involves making generalizations based on specific observations.\n\n**Here's why:**\n\n* **Inductive Reasoning:** We start with specific observations (e.g., a specific mother dog recognizing her pups) and draw a general conclusion (e.g., all mother dogs can recognize their pups).\n\nLet me know if you'd like to explore more about inductive reasoning!"
+        ],
+        "gold": "B"
+    },
+    "4": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：一階邏輯即係指\nA. 圖式邏輯\nB. 謂詞邏輯\nC. 數值邏輯\nD. 概率邏輯\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **B. 謂詞邏輯** (Predicate Logic). \n\nHere's why:\n\n* **一階邏輯 (First-order logic)** is a system of logic that allows for quantification over individuals (e.g., \"for all x\", \"there exists a y\"). This is a key characteristic of predicate logic, distinguishing it from propositional logic (which only allows for propositions about individuals without delving into their properties).\n\nLet me know if you have any other questions!"
+        ],
+        "gold": "B"
+    },
+    "5": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：甲話乙肥，乙話丙肥，丙同丁都話自己唔肥。如果四人陳述淨係一人錯，噉邊個一定肥?\nA. 僅丙\nB. 僅甲\nC. 僅乙同丙\nD. 僅乙\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 僅丁**\n\nHere's why:\n\n* **If only one person is lying:**\n\n   *  We know A, B, and D are all telling the truth (because they are all consistent with each other).\n   *  This means that **C** must be the truth-teller.\n\n* **Therefore, if only one person is lying, it must be the person who said \"only one of us is lying\".**\n\nThis is a classic logic puzzle that plays on the ambiguity of who is telling the truth. \n\nLet me know if you'd like to try another one!"
+        ],
+        "gold": "D"
+    },
+    "6": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下屬於周延詞項嘅係\nA. SAP謂項\nB. SAP主項\nC. SIP主項\nD. SOP主項\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. SAP謂項**\n\nHere's why:\n\n* **SAP謂項 (Semantic Attachment Point)** refers to the specific point in a sentence where a semantic role is assigned to a constituent. This is a **core concept in logic and reasoning** about the meaning of sentences.\n\nLet me know if you'd like to try another question!"
+        ],
+        "gold": "B"
+    },
+    "7": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：允許我哋從所有情形推導出特殊情形嘅係\nA. 存在例示規則\nB. 真值表\nC. 全稱例示規則\nD. 全稱命題\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 存在例示規則**.\n\nHere's why:\n\n* **存在例示規則** (Existential Instantiation) is the rule that allows us to infer a specific instance from a universally quantified statement. \n\nLet me know if you'd like to know more about the Existential Instantiation rule or see an example of how it works!"
+        ],
+        "gold": "C"
+    },
+    "8": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：析取命題又稱為\nA. 選言命題\nB. 全稱命題\nC. 否定命題\nD. 肯定命題\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. 選言命題**\n\n**選項 A. 選取命題** is the correct answer.\n\nHere's why:\n\n* **析取命題 (disjunctive proposition)** is the most accurate translation for \"disjunctive proposition\" in the context of logic.\n\nLet me explain the other options:\n\n* **選項 B. 全稱命題 (disjunctive proposition, universal proposition)** is incorrect.  \"全稱命題 (Universal Proposition)\" is a more literal translation of \"disjunctive proposition\" in Chinese, but it doesn't accurately reflect the meaning of \"disjunction\" in logic.\n* **全稱命題 (Universal Proposition)** is a type of proposition, but not the specific term for \"disjunctive proposition\" in Chinese.\n\n* **肯定命題 (Affirming the antecedent)** and **否定命題 (Affirming the antecedent)** are terms that relate to conditional statements, not specifically disjunctions.\n\nTherefore, the correct answer is **D. 肯定命題 (disjunctive proposition)**."
+        ],
+        "gold": "A"
+    },
+    "9": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺下列語句中，喺集合意義下使用語詞「人」嘅係\nA. 人係有思維能力嘅\nB. 人係世間萬物中第一個可寶貴嘅\nC. 人貴有自知之明\nD. 人非聖賢，孰能無過\n"
+            }
+        ],
+        "prediction": [
+            "A. \n\n**人係集合意義下使用「有思維能力」**\n\nThis is because option A refers to a defining characteristic of humans (\"reason\"), which is the most accurate way to describe the concept of \"humanity\" in a logical sense. \n\nLet me explain why the other options are not the best fit:\n\n* **B. 人係世間萬物中第一個可寶貴嘅** (This is incorrect because it implies that \"human\" is a quality that can be valued, which is not the intended meaning of the original phrase.)\n* **C. 人係集合意義上使用「人」** (This is incorrect because it translates to \"humanity\" being a defining quality of a human, which is not accurate.)\n* **D. 人貴有自知之明** (This is a common saying in Chinese, but it's not directly related to the logical meaning of \"humanity\".)\n\n**D. 人非聖賢，孰能無過** (This translates to \"Man is not a saint, who can be without fault?\" and is the correct way to express the meaning of \"humanity\" in a way that reflects the idea of shared human experience.)\n\nis the closest to the original meaning of the phrase \"humanity\" in Chinese, which is \"humanity\" as a concept.\n\nLet me know if you'd like to know more about logic or the concept of \"humanity\" in different contexts."
+        ],
+        "gold": "B"
+    },
+    "10": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：有時唔清楚一個語篇到底係論證定係解釋，我哋稱之為\nA. 解釋論證\nB. 兩可情形\nC. 識別論證\nD. 論證解釋\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 兩可論證** (Leung6 hou2 keoi3 jing6 gaang3)\n\nThis Cantonese phrase translates to \"**ambiguous argument**\" in English. It's the most accurate answer because it directly addresses the uncertainty in the type of text presented. \n\nHere's why the other options are less suitable:\n\n* **A. 說明論證 (Explanation Argument):** This phrase implies a specific type of argument, which is not what the question is asking.\n\n* **C. 解釋兩可 (Explanation with Ambiguity):** This option focuses on the ambiguity being within an argument, rather than the nature of the situation being unclear.\n\n* **D.  論證解釋 (Argument Explanation):** This phrase is a bit too specific and implies an explanation of an argument rather than a situation where the nature of the text is unclear.\n\nLet me know if you'd like to try answering some more logic questions!"
+        ],
+        "gold": "B"
+    },
+    "11": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺具體進行例示時，必須注意唔好混合使用或者用完證明中有用嘅\nA. 數字\nB. 字母\nC. 量詞\nD. 聯詞\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **C. 聯詞 (Quantifiers)**\n\nHere's why:\n\n* **C. 量詞 (Quantifiers)** are essential when providing concrete examples in logic because they specify the quantity of objects or individuals that satisfy a given predicate. This helps to illustrate the scope and meaning of the statement being proven.\n\nLet me know if you'd like me to elaborate on the concept of quantifiers or provide examples of their use in logic. \n"
+        ],
+        "gold": "B"
+    },
+    "12": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：標誌詞「如果」後面嘅命題被稱為\nA. 結論\nB. 前提\nC. 條件\nD. 前件\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **D. 前提 (Antecedent)**.\n\nHere's why:\n\n* **Antecedent:** This is the part of a conditional statement that comes after the \"if\" and describes the condition that must be met for the consequence to follow.\n\n* **Consequent:** This is the part of a conditional statement that follows the \"if\" and describes the result of the condition being met.\n\n* **Conditional:**  This is the entire statement, which includes both the \"if\" and \"then\" parts.\n\nIn a conditional statement like \"If it is raining, then the ground is wet,\" the \"if\" part (\"it is raining\") is the **hypothesis** (the part that sets up the condition), and the \"then\" part (\"the ground is wet\") is the **conclusion**.\n\nSo, the answer is **C. 條件 (Condition)** because the \"condition\" is the part of the statement that follows the \"if\" and sets the stage for the \"then\" part.\n\n\n"
+        ],
+        "gold": "D"
+    },
+    "13": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺三段論中，如果前提中有一個係否定命題，噉結論必定係\nA. 真命題\nB. 假命題\nC. 肯定命題\nD. 否定命題\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 否定命題**\n\nHere's why:\n\n* **三段論 (Syllogism)** is a type of logical argument that applies deductive reasoning to arrive at a conclusion based on two premises.\n\n* **三段論 (Syllogism) 嘅結論** can be either **真 (true) ** or **假 (false)** depending on the truth values of the premises.\n\n* **A. 肯定 (Affirmative) 結論 (true) ** is a **valid** conclusion in a syllogism**.\n\nTherefore, the correct answer is **D. 肯定 (D) \n\n**\n\n**It's important to note:**\n\nThe **conclusion** of a syllogism doesn't have to be a *specific* type of statement. It can be a universal affirmative (e.g., All A are B), a particular affirmative (e.g., Some A are B), a universal negative (e.g., No A are B), or a particular negative (e.g., No A are not B).\n\nThe **conclusion** of a syllogism is determined by the **type of syllogism** used.\n\nLet me know if you'd like to see an example of a syllogism!"
+        ],
+        "gold": "D"
+    },
+    "14": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺文恩圖中，用嚟標記特稱命題嘅係\nA. 陰影\nB. 星號\nC. 數字\nD. 圓圈\n"
+            }
+        ],
+        "prediction": [
+            "B. 星號"
+        ],
+        "gold": "B"
+    },
+    "15": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：有啲教授留長頭髮，因此，有啲留長頭髮嘅人係科學家。為使上述推理成立，需要補充以下邊項作為前提?\nA. 所有科學家都係教授\nB. 所有教授都係科學家\nC. 有啲科學家唔係教授\nD. 有啲教授係科學家\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 所有教授都係科學家**\n\nThis is because the original statement is structured as a **generalization**:\n\n* **Premise:** Some people with a specific characteristic (long hair) are scientists.\n\nThis is a **faulty generalization** because it doesn't necessarily mean that all scientists have long hair.  \n\nThe correct answer, **B. 所有教授都係科學家** (All professors are scientists), is the **missing premise** that would make the statement logically sound. \n\nHere's why:\n\n* **A. 所有教授都係科學家** (All professors have long hair) is incorrect.\n\n* **C. 所有教授都係教授** (All professors are professors) is a tautology and doesn't add any new information.\n\n* **D. 所有教授都係科學家** is a necessary condition for the original statement to be true. For a statement to be logically sound, the conclusion must follow directly from the premises.\n\n**Premise B (All professors are scientists)** is a necessary condition because it implies that the characteristic of being a professor is a subset of being a professor. This means that the statement \"All professors are scientists\" is only true if the first part of the statement, \"Some people are professors\" is also true.\n\nLet me know if you'd like to try another logic problem!"
+        ],
+        "gold": "B"
+    },
+    "16": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺世界範圍內禁止生產各種破壞臭氧層嘅化學物質可能僅僅係一種幻想，大量噉嘅化學物質已經生產出嚟，並且以成千上萬臺雪櫃嘅冷卻劑嘅形式而存在。當呢啲化學物質到達大氣層中嘅臭氧層時，其作用唔可能停止。因此，冇任何方式可以阻止呢類化學物質進一步破壞臭氧層。以下邊項如果為真，則能最嚴重地削弱以上論證?\nA. 當雪櫃嘅使用壽命結束時，雪櫃入面嘅冷卻劑可完全回收並且重新利用\nB. 唔會破壞臭氧層嘅替代品仲未開發出嚟，並且替代品可能比雪櫃目前使用嘅冷卻劑貴\nC. 即使人哋放棄使用冷藏設備，已經存在嘅雪櫃入面嘅冷卻劑都係對大氣臭氧層嘅一個威脅\nD. 唔可能精確地測量雪櫃入面冷卻劑呢種破壞臭氧層嘅化學物質嘅量係幾多\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 當雪櫃嘅使用壽命結束時，冷卻劑可以被回收並且重新利用**\n\nHere's why:\n\n* **Option A** directly contradicts the premise of the argument. If the chemicals used in old refrigerators can be safely removed and recycled, it weakens the argument that they are a constant threat to the ozone layer.\n\nLet's break down why the other options are incorrect:\n\n* **Option B** focuses on the cost of alternatives, which is irrelevant to the argument about the environmental impact of existing refrigerators.\n* **Options C and D** are both irrelevant as they discuss the use of refrigerators in general, not the specific argument about their impact on the ozone layer.\n\nThe original argument states that the presence of these refrigerants in old refrigerators is a problem because they are harmful to the ozone layer. Option A directly challenges this by suggesting that this harmful effect can be mitigated by recycling. \n\n\n"
+        ],
+        "gold": "A"
+    },
+    "17": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：金嶽霖嘅著作唔包括\nA. 「中國哲學史」\nB. 「知識論」\nC. 「邏輯」\nD. 「論道」\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **D. 「邏輯」 (Logic)**.\n\nHere's why:\n\n* **A. 「中國哲學史」 (A History of Chinese Philosophy)**, **B. 「知識論」 (A Treatise on Knowledge)**, and **C. 「論道」 (The Analects)** are all works by Jin Yuelin. \n* **D. 「中國哲學史」 (The Analects)** is a classic text of Confucianism, not a direct work by Jin Yuelin.\n\nWhile Jin Yuelin was a renowned philosopher who wrote extensively on Chinese philosophy, his most famous work is \"A History of Chinese Philosophy\". \n\nLet me know if you'd like to try another logic question!"
+        ],
+        "gold": "A"
+    },
+    "18": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：古代邏輯嘅發源地包括\nA. 古印度\nB. 以上都對\nC. 中國\nD. 古希臘\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 以上都對**.\n\nHere's why:\n\n* **Ancient Greece** is widely recognized as the birthplace of formal logic, with Aristotle's contributions being foundational.\n\n* **Ancient India** also developed a rich tradition of logic, particularly in the field of Buddhist philosophy. \n\n\nLet me know if you'd like to explore more about the history of logic in different cultures!"
+        ],
+        "gold": "B"
+    },
+    "19": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「問:鐵點解能壓延?答:因為鐵有壓延嘅特性。」屬於\nA. 直接循環論證\nB. 相干謬誤\nC. 支持謬誤\nD. 間接循環論證\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 直接循環論證 (Circular Reasoning)**. \n\nHere's why:\n\n* **Direct circular reasoning** (循環論證) is when the conclusion of an argument is used as a premise to support itself. This is what's happening in the example:\n\nThe definition of \"iron can be rolled\" is already assumed in the statement \"iron can be rolled because iron has the property of being able to be rolled.\"\n\nThis is a classic example of circular reasoning because it assumes what it is trying to prove.\n\nLet me know if you'd like more examples or want to explore other types of logical fallacies!"
+        ],
+        "gold": "A"
+    },
+    "20": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：所有嘅語句都包含\nA. 邏輯要素\nB. 語法要素\nC. 詞彙要素\nD. 語義要素同邏輯要素\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 語義要素同邏輯要素**\n\nHere's why:\n\n* **語義要素 (Semantic elements)** deal with the meaning of words and sentences.\n* **詞彙要素 (Lexical elements)** are the words themselves that make up a sentence.\n\nWhile all sentences have grammatical structure (語法要素), the core components of a sentence are the words and their meaning (語義要素) and the way they are combined to form logical relationships (邏輯要素).\n\nTherefore, the answer is **D. 邏輯要素 (Semantic elements) and 語義要素 (Logical elements)**.\n\n\n"
+        ],
+        "gold": "D"
+    },
+    "21": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：一個優秀嘅領導人係唔會脫離羣眾嘅。所以，如果一個領導人脫離羣眾，佢就唔係一個能夠得到大多數羣眾擁護嘅人。以下邊項與上面嘅議論方式最相似?\nA. 好多領導人係脫離羣眾嘅人\nB. 呢道題喺5分鐘內答唔完。要係邊個喺5分鐘內答完，佢就唔係一個死記硬背嘅學員。\nC. 所有仔都鍾意同佢人進行遊戲活動。如果幼兒園多安排啲仔之間嘅遊戲活動，噉一定會受到家長嘅好評\nD. 所有電腦都需要安裝相應嘅軟件先能運行某種程序。因此，如果電腦冇安裝相應嘅軟件，則呢個程序就唔會運行\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **B. 好多學生都唔鍾意做功課。**\n\nHere's why:\n\n* **Option B** reflects the same structure as the original statement, using a similar logic to argue that a leader who is disconnected from the people will not be able to gain widespread support.\n\nLet's break down the reasoning:\n\n* **Original Statement:** This statement presents a general rule: \"If a leader is not connected to the people, they will not be able to gain widespread support.\"\n\n* **Option A:** This is a conditional statement that describes a characteristic of a leader (being connected to the people) as a necessary condition for them to be popular.\n\n* **Option B** is the only option that presents a situation where a leader might lack widespread support if they are not a good leader.\n\nLet me know if you'd like to see more examples! \n"
+        ],
+        "gold": "D"
+    },
+    "22": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「所有S係P」與「所有S唔係P」之間具有\nA. 反對關係\nB. 下反對關係\nC. 差等關係\nD. 矛盾關係\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **C.  差等關係**\n\nHere's why:\n\n* **All S are P** and **All S are not S** are statements that express a **categorical proposition**.\n\n* **Categorical propositions** make statements about the relationship between categories.\n\n* **All S are not P** is the answer to **which** option is the correct one. This type of proposition is called a **negative universal** statement. It asserts that there are no members of the category \"S\" that are also members of the category \"P\".\n\nLet me know if you'd like to try another logic question!"
+        ],
+        "gold": "A"
+    },
+    "23": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：如果論證嘅所有前提同時為真係唔可能嘅，噉呢個論證嘅前提就係\nA. 不可接受嘅\nB. 一致嘅\nC. 可接受嘅\nD. 唔一致嘅\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 可接受嘅** (acceptable).\n\nHere's why:\n\n* **Deductive reasoning** aims to reach a logically certain conclusion from the premises. If the premises are true, the conclusion must also be true.\n\nSince the question asks for the consequence of all premises being true, the answer is **(C) 可接受嘅** (acceptable).\n\nLet me know if you'd like to try another logic question!"
+        ],
+        "gold": "D"
+    },
+    "24": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以「所有A都唔係B，所有C係B。」為前提進行三段論推理，其結論為\nA. 所有A唔係C\nB. 有啲A係C\nC. 有啲C係A\nD. 有啲B係A\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. 所有C係A**\n\nHere's why:\n\n* **The premise:** \"所有A都唔係B，所有C都屬於B\" sets up a situation where A and B are distinct categories, and all C belong to a category that is not A.\n\n* **The correct conclusion:**  This means that the conclusion should be something like \"All C are not A\" (**A. 所有A都唔係C**).\n\nLet's break down the logic:\n\n* **All A are not B:** This is a direct contradiction to the premise, which states that all members of a category \"A\" are not in category \"C\".\n\n* **All C are B:** This is a contradiction to the first part of the premise.\n\n* **All A are not C:** This is the correct conclusion. If all A are not B, and all C are B, then the categories of A and C are distinct, and there can be no overlap.\n\nLet me know if you'd like to explore more about syllogisms!"
+        ],
+        "gold": "A"
+    },
+    "25": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下唔屬於唔相干結論謬誤嘅係\nA. 偷換論題\nB. 稻草人謬誤\nC. 轉移話題\nD. 法庭悖論\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 偷換論題 (Stealing the Concept)**.\n\nHere's why:\n\n* **偷換話題 (Stealing the Concept)** is a specific type of fallacy where the arguer uses a word or phrase in a way that is different from its common usage, leading to confusion and a misrepresentation of the argument.\n\nLet's look at the other options:\n\n* **B. 稻草人謬誤 (Straw Man Fallacy)**: This is a fallacy where the arguer misrepresents their opponent's argument to make it easier to attack.\n* **C. 轉移話題 (Changing the Subject)**: This is a fallacy where a new topic is introduced to distract from the original argument.\n* **D. 法庭悖論 (The Courtroom Paradox)** is a specific type of logical fallacy, not a general category.\n\nTherefore, only **A. 偷換論題 (Stealing the Concept)** is a fallacy related to changing the meaning of a term during an argument."
+        ],
+        "gold": "D"
+    },
+    "26": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：一個從已確定斷言產生出新斷言嘅過程叫做。\nA. 結論\nB. 辯論\nC. 推論\nD. 論斷\n"
+            }
+        ],
+        "prediction": [
+            "C. 推論"
+        ],
+        "gold": "C"
+    },
+    "27": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：亞裏士多德提出嘅論證評價三標準唔包含\nA. 分析標準\nB. 修辭標準\nC. 論辯標準\nD. 邏輯標準\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **B. 修辭標準 (Rhetorical Standard)**\n\nHere's why:\n\n* **分析標準 (Analytical Standard)**, **論辯標準 (Rhetorical Standard)**, and **C. 邏輯標準 (Logical Standard)** are the three standards Aristotle outlines in his work on logic and rhetoric. \n\n* **分析 (Rhetoric) (Analytical Standard)**, **分析 (Logic) (Logical Standard)**, and **C. \n論述 (Argument) (Logical Standard)** are all the same word in Chinese, which is \"逻辑 (luójí)\" and translates to \"logic\" in English.\n\nLet me know if you'd like to know more about the other two standards!"
+        ],
+        "gold": "D"
+    },
+    "28": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「出席會議嘅人有大學畢業嘅」與「出席會議嘅人有唔係大學畢業嘅」\nA. 可同真，唔可同假\nB. 唔可同真，可同假\nC. 唔可同真，唔可同假\nD. 可同真，可同假\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. 可同真，唔可同假**.\n\nHere's why:\n\n* **A. 可同真 (Possible to be true)** and **C. 唔可同假 (Impossible to be false)** are both logical statements.\n\nLet's break down the question and the meaning of the options:\n\n* **\"The answer to the question is...\"**\n\nThis means the question is asking for the truth value of the statement \"Some people who attended the meeting did not graduate from university.\"\n\n* **A. 「出席會議嘅人有唔係大學畢業嘅」**\n\nThis translates to \"Some people who attended the meeting are not university graduates.\"\n\nTherefore, the correct answer is **A.  Some people who attend the meeting have a university degree**.\n\n**Explanation:**\n\nThe question is asking if the statement is true or false. The answer is **not** \"false\" because it's possible for some attendees to have a university degree.\n\nLet me know if you'd like to try another logic question!"
+        ],
+        "gold": "A"
+    },
+    "29": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下屬於必然真命題嘅係\nA. 女人係人\nB. 中國人係中國人\nC. 仔係人\nD. 中國人唔係中國人\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. 女人係人** (Woman is a person).\n\nHere's why:\n\n* **A. 女人係人** is a true statement by definition. A woman is a human being.\n\nLet's look at why the other options are incorrect:\n\n* **B. 女人 is a woman** (Chinese: 女 人)\n\nThis is a true statement, but it's not a *logically* necessary truth.  \n\n* **C. 所有的中国人都是中国人** (All Chinese people are Chinese people)\n\nThis option is redundant and doesn't convey a meaningful logical relationship.\n\n* **D. 所有 not 都是** (Chinese: 并非所有)\n\nThis is a false statement, as it's a contradiction.\n\n**In logic, a necessary truth is a statement that must be true in all possible worlds.**  This means that it's always true, regardless of the circumstances. \n\nWhile options B and C are true statements, they are not *logically* necessary truths. Option A is a true statement, but it doesn't have the same logical weight as a statement like \"All bachelors are unmarried men\" which is a necessary truth.\n\n**Therefore, the most accurate answer to the question \"Which of the following is a true statement?\" is A. 女人 is a human being.**\n\n\n"
+        ],
+        "gold": "B"
+    },
+    "30": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：論證嘅功能包括說服同\nA. 證成同推論\nB. 反駁同歸謬\nC. 推論同歸謬\nD. 證成同反駁\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 判斷**\n\nHere's why:\n\n* **說服 (shuì fú)** and **歸謬 (guī miú)** are both about convincing someone of a point, but the question asks for a function that is *part* of the process of argumentation.\n\n* **判斷 (pànduàn)** means \"judgment\" or \"inference\" in English. This makes the most sense as a function of argumentation, which aims to provide reasons and evidence for a conclusion.\n\nLet me know if you'd like to try another question!"
+        ],
+        "gold": "D"
+    },
+    "31": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：邏輯主義嘅代表人物係\nA. 哥德爾\nB. 布勞威爾\nC. 希爾伯特\nD. 羅素\n"
+            }
+        ],
+        "prediction": [
+            "D. 羅素 (Bertrand Russell) \n\n**Explanation:**\n\nBertrand Russell is considered one of the main figures in the development of Logicism, a philosophical program that aims to reduce mathematics to logic. \n\nWhile **A. Gödel** is known for his Incompleteness Theorems which challenge some of the core tenets of Logicism, the movement itself is primarily associated with **Russell**. \n\nLet me know if you'd like to try another question!"
+        ],
+        "gold": "D"
+    },
+    "32": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：通過改變命題嘅質或者量從而推導出新命題嘅論證嘅係\nA. 質量論證\nB. 對當關係論證\nC. 三段論論證\nD. 直言命題運算論證\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 三段論證**\n\nHere's why:\n\n* **Modus Ponens** and **Modus Tollens** are types of **valid argument forms in logic** that use conditional statements (if-then statements) and are examples of \"modus tollens\" arguments. \n\nLet me know if you'd like to know more about syllogisms!"
+        ],
+        "gold": "D"
+    },
+    "33": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺「如果原始人嘅石斧就係資本，噉原始人就係資本家咯。」中，\nA. 論據係「原始人嘅石斧係資本」\nB. 論據係「原始人係資本家」\nC. 論題係「原始人嘅石斧唔係資本」\nD. 論題係「原始人係資本家」\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. 原始人使用工具製造** (If the primitive man had tools, then the primitive man was a capitalist.)\n\nHere's why:\n\n* **The statement implies a causal relationship between using tools and being a capitalist.**  It's suggesting that the act of using tools for tool-making in the past is what makes something a \"capital\" good.\n\n* **The concept of \"capital\" is about tools used in production.**  The statement uses \"if primitive man had tools\" as a premise, implying that the possession of tools is a defining characteristic of a capitalist system. This is a humorous play on the definition of \"capital\" as a tool for production, a concept that wouldn't have applied to the primitive economic systems of early humans.\n\nLet me know if you have any other questions!"
+        ],
+        "gold": "C"
+    },
+    "34": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：包括一個或者一個以上較短命題作為其自身嘅一部分嘅命題稱為\nA. 否定命題\nB. 分析命題\nC. 複合命題\nD. 全稱命題\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 複合命題**\n\n**Explanation:**\n\n* **包括一個或者一個以上較短命題作為其自身一部分的命題稱為複合命題。**\n\nThis translates to:\n\n* **\"A. Compound propositions\"** in English.\n\nLet me know if you'd like to try more logic questions!"
+        ],
+        "gold": "C"
+    },
+    "35": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：語言學嘅維度唔包括\nA. 語氣\nB. 語法\nC. 語義\nD. 語用\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 語氣 (intonation)**.\n\nHere's why:\n\n* **語法 (Grammar)**, **語義 (Semantics)**, and **語用 (Pragmatics)** are all core areas of study within linguistics.\n\n* **語氣 (intonation)** refers to the variations in pitch used in speech.\n\n* **語法 (Grammar)** and **語用 (Pragmatics)** are the correct answers.\n\nLet me know if you'd like to try another question!"
+        ],
+        "gold": "A"
+    },
+    "36": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：並行結構又稱為()，係指由兩個或者兩個以上前提分別獨立支持統一結論嘅結構。\nA. 同一結構\nB. 簡單結構\nC. 序列結構\nD. 收斂結構\n"
+            }
+        ],
+        "prediction": [
+            "D. 收斂結構 \n\n(D) is the correct answer.\n\n**Convergent arguments** (or convergent structures) are arguments where multiple premises, each with its own independent reasoning, converge to support a single conclusion. \n\nLet me know if you'd like to see an example!"
+        ],
+        "gold": "D"
+    },
+    "37": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：邏輯系統嘅四大定理唔包括\nA. 可靠性定理\nB. 有效性定理\nC. 一致性定理\nD. 唔完全性定理\n"
+            }
+        ],
+        "prediction": [
+            "D. 唔完全性定理 \n\n(This is the correct answer because \"not a valid theorem\" is not a standard term in logic. The \"Gödel's incompleteness theorems\" are a set of two theorems, so the answer is referring to a specific concept in logic, not a specific theorem.)"
+        ],
+        "gold": "D"
+    },
+    "38": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺具體進行例示時，必須注意唔好混合使用或者用完證明中有用嘅\nA. 數字\nB. 字母\nC. 量詞\nD. 聯詞\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **C. 聯詞 (Quantifiers)**\n\nHere's why:\n\n* **C. 量詞 (Quantifiers)** are essential when providing concrete examples in logic because they specify the quantity of objects or individuals that satisfy a given predicate. This helps to illustrate the scope and meaning of the statement being proven.\n\nLet me know if you'd like me to elaborate on the concept of quantifiers or provide examples of their use in logic. \n"
+        ],
+        "gold": "B"
+    },
+    "39": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺上次考試中，老師出咗一道非常古怪嘅難題，有86%嘅考生唔合格。呢次考試之前，王見明預測話：「根據上次考試情況，呢次考試唔一定會出噉嘅難題咯。」胡思明話：「呢就係話呢次考試肯定唔出噉嘅難題咯。太好咯!」王見明話：「我唔係嗰個意思。」下面邊句話與王見明講嘅意思相似?\nA. 呢次考試老師必定唔出噉嘅難題咯\nB. 呢次考試老師唔可能出噉嘅難題咯\nC. 呢次考試老師可能唔出噉嘅難題咯\nD. 呢次考試老師唔可能唔出噉嘅難題\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **(D) \n\n**呢次考試老師肯定唔出噉嘅難題**\n\nHere's why:\n\n* **A. 肯定** means \"affirmative\" or \"definitely\".\n\n* **B. 肯定** also means \"affirmative\" or \"definitely\".\n\nTherefore, option **(D)** best reflects the meaning of the original statement:\n\n\"**Definitely, the teacher won't necessarily follow the same pattern as last time!**\" \n\nThis implies that the teacher might change the pattern of setting questions, making the test easier or harder than the previous one.\n\nLet me know if you'd like to try another question!"
+        ],
+        "gold": "C"
+    },
+    "40": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「一個老虎嘅食量比一個人嘅大，噉所有老虎嘅食量都比所有人嘅食量大。」犯嘅邏輯謬誤係\nA. 歸納唔強謬誤\nB. 演繹無效謬誤\nC. 分解謬誤\nD. 合成謬誤\n"
+            }
+        ],
+        "prediction": [
+            "C. 分解謬誤 \n\n**Explanation:**\n\nThis statement commits the fallacy of **composition**. This fallacy assumes that what is true of the parts must be true of the whole. \n\nIn this case, the argument incorrectly assumes that because some tigers have a larger appetite than humans, all tigers must have a larger appetite than all humans. This is a false assumption, as it ignores the fact that individual tigers vary in size and appetite, and the premise only states that *some* tigers have a larger appetite than *one* person."
+        ],
+        "gold": "D"
+    },
+    "41": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：又可稱為串行結構或者線性結構嘅係\nA. 並行結構\nB. 中間結構\nC. 序列結構\nD. 發散結構\n"
+            }
+        ],
+        "prediction": [
+            "C. 序列結構\n\n\n"
+        ],
+        "gold": "C"
+    },
+    "42": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「有啲壁畫係三幅一聯畫」入面嘅「有啲」係\nA. 謂項\nB. 聯項\nC. 量詞\nD. 主項\n"
+            }
+        ],
+        "prediction": [
+            "C. 聯詞 \n\n\nHere's why:\n\n* **C. 量詞** is the correct answer. \"Some\" in the sentence \"Some frescoes are triptychs\" translates to \"有些\" in Chinese, indicating a quantity.\n\nLet's break down the terms:\n\n* **謂項:**  This refers to the predicate of a sentence, the part that tells us something about the subject.\n* **連詞:** This translates to \"conjunction\" in English.\n\nLet me know if you'd like to try more grammar questions!"
+        ],
+        "gold": "C"
+    },
+    "43": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「張平買咗雙平嘅旅遊鞋，唔到半個月就壞咗；唔耐佢嘅朋友買咗件平嘅皮夾克，結果發現係仿羊皮嘅。張平由此得出結論「平無好貨」。呢推理\nA. 正確地使用咗求同法\nB. 犯咗輕率概括嘅錯誤\nC. 正確地使用咗共變法\nD. 係一個正確嘅三段論推理\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 犯咗輕變變嘅錯誤**\n\nThis is because the argument is based on a **hasty generalization**. This is a logical fallacy where a conclusion is drawn about a whole group based on a small or unrepresentative sample.\n\nHere's why:\n\n* **Limited Experience:** Zhang Ping's experience is limited to a single instance of a pair of shoes.\n\n* **False Cause:** The argument assumes that because the shoes were \"cheap\" and broke, all cheap items are poorly made. This is a false cause because the price of an item doesn't necessarily dictate its quality.\n\n* **Lack of Evidence:** The argument only provides evidence about one item (the shoes) and one person (Zhang Ping). This is not enough to generalize about \"all\" products made cheaply.\n\nLet me know if you'd like to know more about logical fallacies! \n"
+        ],
+        "gold": "B"
+    },
+    "44": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：張競話：只有正式代表先可以發言。劉強話：唔對吧!李貴都係正式代表但佢唔發言。劉強嘅回答係將張競嘅話錯誤地理解為以下邊項?\nA. 李貴要發言\nB. 所有發言嘅人都係正式代表\nC. 冇正式代表發言\nD. 所有正式代表都發言咗\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 所有發言嘅人都係正式代表** (All people who speak are formal representatives).\n\nLiu Qiang's response \"唔對吧!\" (No!) implies that the statement made by Zhang Ming is incorrect.  This response directly contradicts the statement \"只有正式代表先可以發言\" (Only official representatives can speak). \n\nTherefore, Liu Qiang's \"No!\" directly contradicts the statement that only official representatives can speak. \n\n\n"
+        ],
+        "gold": "D"
+    },
+    "45": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：一個論證係好嘅，必須滿足\nA. 前提與結論必須係相干嘅\nB. 所有前提都必須係真嘅\nC. 以上都對\nD. 所有前提加埋必須畀結論提供足夠支持\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 所有前提都必須係真嘅** (All premises must be true). \n\nHere's why:\n\n* **A. 前提與結論必須係相干嘅 (Premises and conclusion must be coherent):** While the premises and conclusion of a good argument should be logically connected, this statement is too vague. Coherence alone doesn't make an argument good.\n\n* **B. 前提與結論都必須係真嘅 (All premises must be true):** This is a key element of a good argument, but not the only one.\n\n* **C. 以上都必須係真嘅 (All of the above must be true):** This option is incorrect because it implies that the premises alone are enough to make an argument good.\n\n* **D. 所有前提都必須係真嘅 (All premises must be true):** This statement is the most accurate. A good argument needs strong premises that logically lead to the conclusion. If even one premise is false, the entire argument collapses, even if the conclusion is true.\n\n**Therefore, option D is the correct answer because it highlights the crucial element of a valid argument: the premises must be true for the conclusion to be considered validly supported.**\n\nLet me know if you'd like to try some more logic questions! \n"
+        ],
+        "gold": "C"
+    },
+    "46": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：只有一個前提同一個結論嘅結構係\nA. 收斂結構\nB. 簡單結構\nC. 序列結構\nD. 發散結構\n"
+            }
+        ],
+        "prediction": [
+            "B. 簡單結構"
+        ],
+        "gold": "B"
+    },
+    "47": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺邏輯方陣中，兩個命題係蘊涵關係，當且僅當，佢哋同時滿足嘅條件係\nA. 以上都對\nB. 佢哋係從存在觀點嚟考慮嘅\nC. 佢哋具有相同主項同相同謂項\nD. 佢哋有唔同嘅量同相同嘅質\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. 以上都對 (All of the above)**\n\nHere's why:\n\n* **A. 以上都對 (All of the above)** encompasses all the other options, making it the most accurate answer.\n\nLet's break down why the other options are incorrect:\n\n* **B. 佢哋係從存在觀點嚟考慮** (They are considered from the perspective of their existence) is incorrect because it only focuses on the \"existence\" of the propositions, not the logical relationship between them.\n\n* **C. 佢哋係同時 (They are simultaneously) ...** is incorrect because it doesn't address the specific nature of the relationship between the propositions.\n\n* **D. 佢哋有唔同嘅質 (They have different qualities) ...** is incorrect because it implies that the propositions are different in nature, while the \"implication\" of the relationship is what matters in logic, not the \"qualities\" of the individual statements.\n\n**Explanation:**\n\nThe question asks for the conditions that make two statements \"implied\" or \"logically connected\".\n\n* **Logical implication** is a relationship between two statements where the truth of one statement guarantees the truth of the other.\n\nTherefore, option **D. 佢哋有唔同嘅質 (They have different qualities) ...** is the most accurate as it captures the essence of the question.\n\nLet me know if you'd like to see more examples of how implication works in logic!"
+        ],
+        "gold": "A"
+    },
+    "48": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：構造真值表，基於嘅邏輯算子規則唔包括\nA. 命題\nB. 合取\nC. 否定\nD. 等值\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 等值 (Equivalence)**.\n\nHere's why:\n\n* **A. 命題 (Proposition)**: A proposition is a statement that can be either true or false. This is a fundamental concept in logic, so the answer isn't this.\n* **B. Conjunction (And)**: Conjunction is represented by the symbol \"∧\" and is a logical operator that combines two propositions to be true only if both are true. This is a core concept in logic.\n* **C. Disjunction (Or)**: Disjunction is represented by the symbol \"∨\" and is a logical operator that combines two propositions to be true if at least one of them is true. This is a core concept in logic.\n* **D. 否定 (Negation)**: This is the correct answer. Negation is represented by the symbol \"¬\" and is a fundamental part of propositional logic.\n\nTherefore, the option that is not a part of the rules for constructing a truth table is **D. 等值 (Equivalence)**.\n\nLet me know if you'd like to see an example of a truth table for a specific logical operator."
+        ],
+        "gold": "A"
+    },
+    "49": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：從「小王去北京可能搭飛機，亦可能搭火車或者汽車」同「佢唔搭汽車」可知\nA. 佢搭飛機\nB. 佢搭飛機或者火車\nC. 佢搭火車\nD. 佢唔搭飛機或者火車\n"
+            }
+        ],
+        "prediction": [
+            "C. 佢搭飛機或者火車\n\n**Explanation:**\n\nThe sentence \"小王去北京可能搭飛機，或者汽車\" translates to \"It is possible that Xiao Wang took a plane, or a car\"\n\n* **The original statement implies that Xiao Wang has multiple options for travel:**\n\n    * **A. 佢搭飛機** (He took a plane) is not necessarily true. While the first sentence mentions the possibility of taking a plane, the second statement tells us he didn't take that option.\n    * **B. 佢搭飛機或者火車** (He took a plane or a train) is the most logical conclusion.\n\n* **D. 佢唔搭飛機或者** (He doesn't take a plane or) is also a possibility, but not the only one.\n\n**Therefore, the correct answer is C.** \n\nThis is because the sentence \"小王去北京可能搭飛機，或者火車\" implies that there are other possibilities for transportation to Beijing, and \"C. 佢搭飛機或者搭火車\" is the most accurate representation of the possibilities presented in the original statement.**"
+        ],
+        "gold": "B"
+    },
+    "50": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列語句作為劃分，正確嘅係\nA. 呢個班嘅學生，除咗七名女學生外，其餘都係男仔\nB. 一年可以分為春、夏、秋、冬四季\nC. 戰爭分為常規戰爭同世界大戰\nD. 概念分為普遍概念、單獨概念同正概念\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 一年可以分為春、夏、秋、冬四季**\n\nThis translates to \"A year can be divided into spring, summer, autumn, and winter\" which accurately describes the four seasons.\n\nHere's why the other options are incorrect:\n\n* **A. 概念** (Concept) is a concept, not a statement that divides something.\n* **C.  C.  一年可以分為春、夏、秋、冬四季** (A year can be divided into spring, summer, autumn, and winter) is a statement that describes the seasons, but doesn't divide anything.\n\nLet me know if you'd like more examples or have other logic questions!"
+        ],
+        "gold": "A"
+    },
+    "51": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「鬼係唔存在嘅，因為冇人證明過鬼存在。」陷入咗咩樣嘅論證謬誤？\nA. 訴諸權威\nB. 以上均唔係\nC. 訴諸無知\nD. 訴諸公眾\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **C. 訴諸無知**.\n\nHere's why:\n\n* **Argument from Ignorance:** This fallacy assumes that something is true because it hasn't been proven false, or vice versa. The argument claims that because something hasn't been proven true, it must be false (or the opposite). This is a logical error because lack of evidence for something is not evidence against it. \n\nLet me know if you'd like to explore other logic fallacies! \n"
+        ],
+        "gold": "C"
+    },
+    "52": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺「知識分子係國家嘅寶貴財富」同「大學教師係知識分子」呢兩個判斷中，「知識分子」呢個概念\nA. 前者係集合概念，後者係非集合概念\nB. 都係集合概念\nC. 都係非集合概念\nD. 前者係非集合概念，後者係集合概念\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 前者係集合概念，後者係集合概念**\n\nHere's why:\n\n* **\"知識分子\" (knowledge molecules)** is a term that refers to a group of people who share the characteristic of being intellectuals. This implies a **general concept** encompassing all intellectuals, not just a specific group.\n\n* **\"大學教師\" (university teachers)** are a specific group of people within the broader concept of \"知識分子\".\n\nTherefore, \"知識分子\" is a **property** of being intellectual, and this property can be applied to individuals within a group of people. \n\nIn Chinese, the phrase \"大學教師\" is a **subset** of \"people who are intellectuals\".\n\nIt's important to note that the term \"大學教師\" (university teachers) is a **specific** type of person, while \"知識分子\" (knowledge molecules) is a more **general** term.\n\nLet me know if you'd like to see more examples or have any other questions!"
+        ],
+        "gold": "A"
+    },
+    "53": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：根據傳統邏輯學標準，論證評價嘅邏輯標準嘅類型包括演繹邏輯標準同\nA. 辯證邏輯標準\nB. 解釋邏輯標準\nC. 歸納邏輯標準\nD. 以上都唔對\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 以上都唔對 (Above are all incorrect)**\n\nHere's why:\n\n* **Traditional logic** typically focuses on **deductive reasoning**, where conclusions are drawn from established premises. \n\n* **Inductive reasoning** is a separate type of logic where general conclusions are made based on specific observations.\n\n* **Inductive logic** is used to evaluate arguments based on inductive reasoning, which is different from the traditional focus on deductive reasoning.\n\n* **Inductive reasoning** is considered a separate type of logic from **deductive logic**.\n\nTherefore, the answer to the question is **not** a traditional logic standard.\n\n**It's likely the question is asking for the correct type of logic, which is:**\n\n* **Deductive logic**\n\nLet me know if you'd like to explore the difference between deductive and inductive reasoning further!"
+        ],
+        "gold": "C"
+    },
+    "54": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「所有嘅廣東人係中國人」中「所有」係\nA. 主項\nB. 聯項\nC. 謂項\nD. 量詞\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 量詞 (quantifier)**.\n\nHere's why:\n\n* **量詞 (quantifier):**  \"所有 (all)\" is a quantifier in the sentence because it specifies the quantity of the individuals in the subject (\"廣東人 (Cantonese people)\") as being all. \n\nLet me know if you'd like to try more logic questions!"
+        ],
+        "gold": "D"
+    },
+    "55": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：防疫站嘅統計數據顯示畀狗注射疫苗可以減少狂犬病發生嘅危險性，但係醫療保險業對此進行嘅統計研究則得出咗相反嘅結論。即被注射咗狂犬疫苗嘅狗咬傷嘅人比嗰啲冇被注射狂犬疫苗嘅狗咬傷嘅人更有可能得狂犬病。下列邊項正確，最能解釋題幹嘅明顯矛盾?\nA. 被狗咬咗嘅人會即刻到防疫站尋求幫助，但係卻唔一定及時同自己嘅保險公司聯絡\nB. 人哋往往係喺自己嘅寵物狗已經表現出明顯嘅狂犬病特徵後先去畀自己嘅狗注射狂犬疫苗，同埋佢哋都係居住喺狂犬病發病率最高嘅地方\nC. 大多數咬人嘅狗都冇注射狂犬疫苗\nD. 被狗咬過嘅每個人都必須接受狂犬疫苗嘅注射\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 人哋往往係喺自己嘅寵物狗已經到防疫站求助後先去到自己嘅寵物狗冇被注射疫苗**\n\nHere's why:\n\n* **The question highlights a contradiction between the expected outcome of a vaccination and the findings of a study.** This points to option B being the most likely explanation.\n\nLet's break down why B is the correct answer and the others are not:\n\n* **A. 被狗咬咗嘅人會冇可能被寵物有危險** This statement is incorrect. The question states that vaccination reduces the risk of getting rabies, not increases it.\n* **C.  大多數咬人嘅寵物狗都冇被注射疫苗** This option is also incorrect because it implies that most dogs who bite people are unvaccinated, which is not necessarily true.\n* **D.  被** \n\nThis option is incomplete and doesn't address the potential for a vaccinated dog to still bite someone.\n\n**Option B** correctly identifies the potential for a conflict between the common knowledge that rabies is a serious disease and the specific context of the question. \n\n**Therefore, the correct answer is B.**\n\n\n"
+        ],
+        "gold": "B"
+    },
+    "56": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：非單調邏輯嘅提出者係\nA. 紐特\nB. 約翰遜\nC. 布萊爾\nD. 圖爾敏\n"
+            }
+        ],
+        "prediction": [
+            "**D. 圖靈**\n\n圖靈機是由英國數學家和電腦科學家艾倫·圖靈 (Alan Turing) 在 1936 年提出嘅。 \n"
+        ],
+        "gold": "A"
+    },
+    "57": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：真值表可以用嚟判定\nA. 等值\nB. 蘊涵與有效性\nC. 重言式與矛盾式\nD. 以上都對\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 以上都對 (All of the above)**\n\nHere's why:\n\n* **Truth Value:** Truth tables directly show the truth value of a statement (true or false) for every possible combination of truth values for its components.\n\n* **Implication and Validity:** Truth tables are used to determine the truth value of an implication (a statement of the form \"If P, then Q\"). They also help us assess the validity of arguments, where we can use the truth table to see if the conclusion of the argument is always true when the premises are true.\n\n* **Equivalence:** Truth tables can be used to determine if two statements are logically equivalent. This is done by comparing the truth values of the two statements in all rows.\n\nLet me know if you'd like to know more about how truth tables work! \n"
+        ],
+        "gold": "D"
+    },
+    "58": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「有效性對於真實嘅論證評價嚟講既唔係充分嘅亦唔係必要嘅。」出自\nA. 圖爾敏\nB. 布萊爾\nC. 以上均唔係\nD. 約翰遜\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **D. 以上均唔係** (D. All of the above are incorrect).\n\nThis is because the statement \"有效性對於真實的論證評價來說是一個充分的但不是必要的條件\" is a statement about the **philosophy of logic**, not the specific contributions of any of the listed individuals. \n\nThe original statement is a translation of a common philosophical debate about the relationship between logic and truth. \n\n* **Validity** is a concept in logic that describes whether an argument follows a valid form of reasoning. An argument can be valid even if its premises are not true, but the statement of the premises is not true.\n\n* **Truth** is a property of propositions, not arguments.\n\nTherefore, the statement refers to a concept in logic, and the answer is **C. 邏輯學** (C. Logic). \n\nThe statement is referring to the fact that **validity** is a property of the *form* of an argument, not the truth of its premises. An argument can be logically valid without being true, and vice versa.\n\nLet me know if you'd like to explore this concept further or have any other logic-related questions!"
+        ],
+        "gold": "A"
+    },
+    "59": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：直言命題SEP通過換質法得到嘅命題係\nA. SOP\nB. SEP\nC. SAP\nD. SIP\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. SOP**.\n\nHere's why:\n\n* **SEP (Standard Form of the Categorical Syllogism)** is a type of logical argument that follows a specific structure.\n\n* **SOP (Standard Output Form)** is a standard way of representing a categorical syllogism in a formal, structured manner.\n\nLet me know if you'd like to know more about the standard form of a syllogism! \n\nLet me know if you'd like to know more about the standard form of a categorical syllogism!"
+        ],
+        "gold": "C"
+    },
+    "60": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺亞裏士多德嘅邏輯中，被認為係肯定或者否定主項具有謂項性質嘅語句嘅係\nA. 推論\nB. 論證\nC. 命題\nD. 修辭\n"
+            }
+        ],
+        "prediction": [
+            "C.  **命題** \n\n**Explanation:**\n\n* **亞里斯多德的邏輯** focuses on the structure of arguments and reasoning.\n* **Deductive reasoning** (A) is a type of logic used in arguments, but it's not the specific term for the type of statement described.\n* **Logical arguments** (B) are made up of propositions, but \"logical argument\" is a broader term referring to the entire structure of the argument, not just the individual statements.\n* **命題** (C) is the correct answer. A **proposition** is a statement that can be evaluated as either true or false.\n\n**Therefore, the answer is C. **\n\n**Reasoning:**\n\nThe question asks for the term that describes the type of statement, not the process of reasoning.  \n\nLet me know if you'd like more explanation on **propositions** in logic!"
+        ],
+        "gold": "C"
+    },
+    "61": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：一個論證係可靠嘅，必須滿足兩個條件，一係所有前提都係真嘅，二係\nA. 論證形式係有效嘅\nB. 以上都唔對\nC. 部分結論係真嘅\nD. 所有結論都係真嘅\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. 論證形式係有效嘅**\n\nHere's why:\n\n* **A. 是一個論證是有效的**\n\nA valid argument in logic is one where the conclusion necessarily follows from the premises. If the premises are true, then the conclusion must also be true. This is the definition of a valid argument.\n\n* **B. 并非可靠的論證**\n\nThis option is incorrect because it states that the argument must have a false conclusion, which contradicts the definition of a valid argument.\n\n* **C. 錯誤**\n\nThis option is incorrect because it implies a true conclusion, which is not a requirement for a valid argument.\n\n* **D. 錯誤**\n\nThis option is incorrect because a valid argument doesn't require the conclusion to be true, only that the conclusion follows logically from the premises.\n\n**Therefore, the correct answer is A, as it highlights the crucial element of a valid argument: the structure leading to a true conclusion from true premises.**\n\nLet me know if you'd like to try more logic questions!"
+        ],
+        "gold": "A"
+    },
+    "62": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下唔能用嚟檢驗複合命題論證嘅有效性嘅係\nA. 真值表\nB. 基本論證形式\nC. 文恩圖\nD. 形式演繹\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 基本論證形式**\n\nHere's why:\n\n* **A. 真值表 (Truth Tables)** are a common method used in logic to determine the validity of a complex argument by analyzing the truth values of its premises and conclusion.\n\n* **B. 形式演繹 (Formal Deduction)** is a method of deriving conclusions from premises using formal logic rules. This can be used to test the validity of complex arguments.\n\n* **D. 形式演繹 (Formal Deduction)** is also a method of using logic to test the validity of complex arguments.\n\n**Therefore, the correct answer is C.  A Venn diagram is a tool for visualizing sets and their relationships, not for directly testing the validity of a logical argument.**\n\nWhile Venn diagrams can be helpful for understanding the structure of some arguments, they are not a sufficient tool for determining the validity of all complex propositions.\n\nLet me know if you'd like to see examples of how to use truth tables and formal deduction to analyze a specific type of logical argument."
+        ],
+        "gold": "C"
+    },
+    "63": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺論證過程中，通過將某種極端嘅觀點強加畀對方嚟醜化對方係違反咗()呢一語言明確性原則。\nA. 斷章取義\nB. 平均數\nC. 稻草人\nD. 非黑即白\n"
+            }
+        ],
+        "prediction": [
+            "C. 稻草人"
+        ],
+        "gold": "C"
+    },
+    "64": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：三段論嘅五條規則可以被分為幾類?\nA. 3\nB. 2\nC. 5\nD. 4\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **C. 5**\n\nHere's why:\n\nA standard syllogism consists of three parts:\n\n1. **Major premise:** A general statement about a category (e.g., All mammals are warm-blooded).\n2. **Minor premise:** A specific statement about a member of that category (e.g., A dog is a mammal).\n3. **Conclusion:** A statement that follows logically from the two premises (e.g., Therefore, a dog is warm-blooded).\n\nThe five rules of a syllogism ensure its logical validity. These are:\n\n1. **The conclusion must be a logical consequence of the premises.**\n2. **The premises must be about the same subject.**\n3. **The premises must be about the same subject.**\n4. **No term can be distributed in the conclusion unless it is distributed in the premise.**\n5. **The middle term must be distributed in at least one premise.**\n\nLet me know if you'd like to know more about syllogisms or the rules of logic!"
+        ],
+        "gold": "B"
+    },
+    "65": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「生產關係係人哋喺生產中結成嘅人同人之間嘅關係」，呢個定義嘅種差係\nA. 人同人之間嘅關係\nB. 喺生產中結成嘅關係\nC. 人哋喺生產中結成嘅人同人之間嘅\nD. 人哋喺生產中結成嘅\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **C. 人哋喺生產中結成嘅**\n\nThis definition emphasizes the **type** of relationship (\"人哋\") and the **context** of the relationship (\"人與人之間的\"). \n\nHere's why:\n\n* **\"人哋\" (jan dai6) means \"other people\" in Cantonese.**\n\nThe definition is describing a relationship between people involved in the process of production.\n\n* **Option C captures the Cantonese phrasing \"人與人之間\" (jan4 ji5 jan5 fan1) which is the most accurate translation of the concept.**\n\nThis is because \"人\" (jan4) means \"person\" and \"人哋\" (jan dai6) means \"other people\" in Cantonese.  Therefore, \"人與人之間嘅\" emphasizes the \"between people\" aspect of the relationship.\n\n\n\n"
+        ],
+        "gold": "C"
+    },
+    "66": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「一方對立場嘅抨擊必須與另一方確係已提出嘅立場有關」。呢係批判性討論規則中嘅\nA. 舉證規則\nB. 自由規則\nC. 立場規則\nD. 責任規則\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 舉證規則 (Evidence Rule)**.\n\nHere's why:\n\nThe statement describes the principle of **relevance** in a critical discussion. In a debate or argument, it's crucial that the arguments and counter-arguments presented are directly related to the topic at hand. \n\n* **A. 舉證規則 (Evidence Rule):** This option directly reflects the core idea of the statement.\n\n* **B. 自由規則 (Freedom of Speech Rule):** This option is too broad. While evidence of free speech is important in a debate, the statement focuses specifically on the requirement for arguments to be relevant to the topic.\n\n* **C. 立場規則 (Position Rule):** This option is not a standard term used in describing critical discussion rules.\n\n* **D. 責任規則 (Responsibility Rule):** This option is also related to the general idea of a debate, but the statement emphasizes the connection between the arguments and the topic itself.\n\nTherefore, the most accurate translation of the statement into Cantonese would be **\"A. 責任規則 (Evidence Rule)\"**. \n\nLet me know if you'd like me to translate any other phrases!"
+        ],
+        "gold": "C"
+    },
+    "67": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：直言命題嘅類型唔包括\nA. 全稱逆否命題\nB. 特稱肯定命題\nC. 全稱肯定命題\nD. 特稱否定命題\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 特稱肯定命題**.\n\nHere's why:\n\n* **A. 全稱逆否命題**  is a type of categorical proposition, specifically a universal affirmative (A) statement.\n\n* **C. 特稱否定命題** is a type of categorical proposition, specifically a particular affirmative (A) statement.\n\n* **D. 特稱否定命題** is a type of categorical proposition, specifically a particular negative (O) statement.\n\nLet me know if you'd like to try some more logic questions!"
+        ],
+        "gold": "A"
+    },
+    "68": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：某公司為咗擴大其網上商店嘅銷售收入，採取咗各種各樣嘅廣告宣傳同促銷手段，但係效果並唔明顯。該公司重金聘請咗專業人士進行市場分析，專業人士認為開通咗網上銀行嘅人羣先係真正潛喺嘅網上商店嘅顧客羣。於係該公司決定同商業銀行合作，喺新開通網上銀行業務嘅人羣中開展宣傳同促銷活動。但係三個月後，效果並唔理想。以下邊項為真，最能解釋上述結果?\nA. 開通網上銀行喺中國仲係一件新鮮事，一般嚟講，消費者對此嘅態度比較謹慎\nB. 一般嚟講，啱啱開通網上銀行嘅人需要經過一段時間後先有可能進行網上消費\nC. 網上金融服務喺知識分子中已經比較普及，佢哋更希望網上商店能夠提供啲特色服務\nD. 最近網上銀行用戶被盜嘅案件頻發，開通網上銀行嘅人因此有所減少\n"
+            }
+        ],
+        "prediction": [
+            "The most accurate answer is **A. 開通咗網上銀行喺中國係比較新嘅事，用戶對此嘅態度比較謹慎。**\n\nThis translates to: **\"The company believes that online banking is a relatively new concept for consumers, and consumers are hesitant about it.\"**\n\nHere's why:\n\n* **A** directly addresses the core of the situation presented in the problem.\n\nThe other options are not necessarily true:\n\n* **B** implies a delay in adoption, which is not mentioned in the problem.\n* **C** is a speculation about the preferences of a specific group (consumers who have already adopted) and may not be the reason for the poor performance.\n* **D** is irrelevant to the situation.\n\nThe problem states that the company is trying to reach a target audience that is \"already familiar with online banking.\" This suggests they are targeting people who are new to the concept and therefore hesitant to use their online banking services. \n\n\n"
+        ],
+        "gold": "B"
+    },
+    "69": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：斯多葛學派嘅代表人物唔包括\nA. 芝諾\nB. 泰勒斯\nC. 塞內卡\nD. 奧勒留\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 泰勒斯**.\n\nHere's why:\n\n* **芝諾 (Zeno)** was the founder of Stoicism.\n* **泰勒斯 (Thales)** was a pre-Socratic philosopher considered the \"father of philosophy\", but he was not a Stoic.\n\n**Therefore, the answer is the option that represents a philosopher who is not Zeno, the founder of Stoicism.**\n\nLet me know if you'd like to try another question!"
+        ],
+        "gold": "B"
+    },
+    "70": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：根據論證嘅前提與結論嘅支持關係，謬誤可以分為\nA. 前提謬誤\nB. 支持謬誤\nC. 以上都對\nD. 相干謬誤\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **C. 以上都對** (which means \"all of the above\" in Chinese).\n\nHere's why:\n\n* **Deductive Reasoning:**\n\nThis type of reasoning is about the relationship between premises and conclusions.  A strong deductive argument guarantees the conclusion is true if the premises are true.\n\n* **Inductive Reasoning:**\n\nThis type of reasoning uses specific observations to draw general conclusions. It doesn't prove the conclusion, but makes it more likely.\n\n* **Inductive Reasoning** uses specific observations to draw general conclusions.\n\n* ** Fallacies** are errors in reasoning that result in a weak or invalid argument.\n\nTherefore, the correct answer is **B. 支持謬誤** (which refers to the supporting relationship between premises and conclusions in an argument).\n\nLet me know if you'd like to try more logic questions!"
+        ],
+        "gold": "C"
+    },
+    "71": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下唔屬於彌爾五法嘅係\nA. 比較法\nB. 求異法\nC. 求同法\nD. 契合法\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 求同法 (Method of Agreement)**\n\nThis is because **C. 求同法 (Method of Agreement)** is one of the five methods of John Stuart Mill, a philosopher who made significant contributions to the development of inductive logic. \n\nThe other options (A. 比較法 (Method of Agreement), B.  **(Method of Difference)**, and D. 契合法 (Method of Agreement)** are all part of the five methods:\n\n* **A. 比較法 (Method of Agreement):**  This is a method of identifying the cause of a phenomenon by looking for common factors across different cases.\n* **B. 求異法 (Method of Difference):** This method focuses on identifying the difference between situations where a phenomenon occurs and situations where it doesn't, to isolate the cause.\n* **A. 共同方法 (Method of Agreement)**, **B. 差異方法 (Method of Difference)**, **C. 剩餘方法 (Method of Residues)**, **D. 共同方法 (Method of Concomitant Variations)**: These are all related to the process of eliminating possible causes by identifying factors that are present in one case but not the other, and vice versa.\n\nLet me know if you'd like to know more about the specific methods! \n\n\n"
+        ],
+        "gold": "A"
+    },
+    "72": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下唔屬於前提標識詞嘅係\nA. 因為\nB. 鑑於\nC. 因此\nD. 由於\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 因此 (Therefore)**.\n\nHere's why:\n\n* **A. 因為 (Because)**, **B. 由於 (Because)**, and **C. 因此 (Therefore)** are all used to introduce reasons or justifications.  \n\n* **前提 (Premises)** are the reasons given in an argument.\n\n* **因此 (Therefore)** introduces a conclusion, while **A. 因為 (Because)** and **B. 由於 (Because)** are used to introduce reasons that lead to a conclusion.\n\nTherefore, the correct answer is **C. 因为 (Because)** as it is a premise indicator, meaning it signals a reason for the conclusion that follows.\n\n**C. 因此 (Therefore)** is a conclusion indicator, meaning it signals the conclusion of an argument. \n\nLet me know if you'd like to try another example!"
+        ],
+        "gold": "C"
+    },
+    "73": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：訴諸情感論證嘅類型唔包括\nA. 訴諸公眾論證\nB. 訴諸憐憫論證\nC. 唔適當權威論證\nD. 訴諸威力論證\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 唔適當權威** (**Appeal to Inappropriate Authority**).\n\nHere's why:\n\n* **A. 訴諸公眾論證** (**Appeal to Popularity**) and **B. 訴諸憐憫論證** (**Appeal to Pity**) are both recognized fallacies in logic.\n\n* **C. 唔適當權威** (**Inappropriate Appeal to Authority**) is a common fallacy where an argument relies on the opinion of someone who is not an expert on the topic at hand.\n\nLet me know if you'd like to see more examples of logical fallacies!"
+        ],
+        "gold": "C"
+    },
+    "74": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：歐拉圖表示嘅兩個對象類之間嘅關係唔包括\nA. 交叉關係\nB. 全同關係\nC. 種屬關係\nD. 同一關係\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 同一關係 (Same Relationship)**.\n\nHere's why:\n\n* **歐拉圖 (Euler Diagrams)** are visual representations used in logic to illustrate relationships between sets. They use overlapping circles to show how elements can belong to multiple sets.\n\n* **同一關係 (Same Relationship)** is not a standard term used in Euler Diagram theory.\n\nLet me know if you'd like to explore the types of relationships that *are* typically represented in Euler Diagrams. \n\nHere are some examples:\n\n* **交叉關係 (Overlapping Relationships):** These are the core of how Euler Diagrams work, using the overlapping areas of the circles to show shared characteristics.\n\n* **包含關係 (Containment Relationships):**  These are also represented by the overlapping circles, showing which set contains which elements.\n\n* **非重疊關係 (Non-Overlapping Relationships):** These are relationships where the sets have no elements in common.\n\n* **交叉關係 (Cross-Cutting Relationships):** These are relationships where one set partially overlaps another, indicating some shared characteristics but not all.\n\n* **其他關係 (Other Relationships):**  This category is too broad for the standard Euler Diagram relationships.\n\n* **包含關係 (Containment Relationships):** These are relationships where one set is entirely contained within another, indicating a subset relationship.\n\n* **非交叉關係 (Non-Overlapping Relationships):** This is a common way to represent relationships in which the sets are distinct and non-overlapping.\n\n* **部分重疊關係 (Partial Overlap Relationships):** These are relationships where the sets have some elements in common, but not all.\n\n* **包含關係 (Containment Relationships):** These are relationships where one set is entirely contained within another.\n\n* **部分包含關係 (Partial Containment Relationships):** These are diagrams that show a relationship where one set is partially contained within another.\n\n* **部分包含關係 (Partial Containment Relationships):** These are relationships that are represented by overlapping circles.\n\n* **不交叉關係 (Non-Cross-Cutting Relationships):**  This is a type of relationship that can be represented in a Venn diagram, where the sets are shown as completely separate.\n\n* **部分重疊關係 (Partial Overlapping Relationships):** This is a type of relationship that can be represented in a Venn diagram, where the circles partially overlap.\n\n* **交叉關係 (Overlapping Relationships):**  This is a type of relationship that is represented by Venn diagrams, but not a specific type of relationship unique to Euler diagrams.\n\n* **部分交叉關係 (Partial Overlapping Relationships):** This is a type of relationship that is represented by Venn diagrams, but not a specific type of relationship unique to Euler diagrams.\n\n**同一關係 (Same Relationship)** is a more general term and doesn't necessarily refer to the specific type of representation used in Euler diagrams.\n\nLet me know if you have any other questions!"
+        ],
+        "gold": "B"
+    },
+    "75": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：邏輯主義嘅代表人物係\nA. 布勞威爾\nB. 羅素\nC. 哥德爾\nD. 希爾伯特\n"
+            }
+        ],
+        "prediction": [
+            "B. 羅素 (Bertrand Russell) \n\n\nThe answer is **B. Bertrand Russell**. \n\nBertrand Russell was a prominent advocate for logicism, the philosophical view that mathematics can be reduced to logic. \n\nWhile Kurt Gödel is famous for his Incompleteness Theorems which challenged the core tenets of logicism, the other options are not associated with this specific philosophical position.\n\n* **A. 布勞威爾** (L.E.J. Brouwer) is known for **Intuitionism**, which is a different philosophical school of thought in mathematics.\n* **A.  Hilbert** (David Hilbert) was a mathematician who contributed to the development of **formalism**, a philosophical approach that emphasizes the formal structure of mathematical systems.\n* **D. 哥德爾** (Kurt Gödel) is a key figure in **mathematical logic**, but his work is more closely associated with **Gödel's Incompleteness Theorems**, which demonstrated the limitations of formalist systems.\n\nLet me know if you'd like to know more about logicism!"
+        ],
+        "gold": "B"
+    },
+    "76": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：請揀啱嘅判斷反駁「吸煙有利健康」\nA. 有人吸煙唔利健康\nB. 有人唔吸煙有利健康\nC. 所有人吸煙都唔利健康\nD. 健康嘅人一般唔吸煙\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. 有人吸煙唔利健康**\n\nThis option translates to \"Some people smoke and it's not good for their health\" which directly contradicts the statement \"smoking is good for health\". \n\nWhile options B and D might seem like they could be correct, they are actually not the best choices for directly refuting the statement.\n\n* **B. 健康嘅人一般唔吸煙** (Healthy people generally don't smoke) implies that smoking is generally unhealthy, but focuses on the fact that healthy people avoid it.\n\n* **C. 所有人吸煙都唔吸煙** (Everyone smoking is the same as smoking) is a contradictory statement and doesn't make sense as a logical argument.\n\n* **D. 健康嘅人一般唔吸煙** (Healthy people generally don't smoke) is a statement about a correlation, not a direct refutation of the benefits of smoking.\n\nOption A, **「有人吸煙唔利健康」** (Smoking is not good for health) is a direct and clear statement that refutes the idea of smoking being beneficial. \n\nLet me know if you'd like to see more examples or have other questions!"
+        ],
+        "gold": "C"
+    },
+    "77": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「如果A，噉B」可轉換為其等值判斷\nA. 如果非A，噉B\nB. 如果非A，噉非B\nC. 如果B，噉A\nD. 如果非B，噉非A\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 如果非A，噉非B**\n\nHere's why:\n\nThis question asks about logical equivalency.  \n\n* **If A, then B:** This statement implies that the truth of statement B is dependent on the truth of statement A.\n\n* **如果非B，噉非A** (If non-B, then non-B) is the correct translation because it represents the contrapositive of the original statement.\n\nLet's break down the logic:\n\nThe original statement can be represented as:\n\n* **A implies B:**  A → B\n\nThe contrapositive of this statement is:\n\n* **Not B implies not A:** ¬B implies ¬A\n\nThe contrapositive is logically equivalent to the original statement. This means they have the same truth value. If the original statement is true, the contrapositive is also true, and vice versa.\n\nTherefore, the correct answer is **B**.\n\n\n"
+        ],
+        "gold": "D"
+    },
+    "78": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：被譽為古印度嘅醫學百科全書嘅係\nA. 「闍羅迦本集」\nB. 「吠陀經」\nC. 「摩訶婆羅多」\nD. 「薄伽梵歌」\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 「闍羅迦本集」 (Sushruta Samhita)**. \n\nHere's why:\n\n* **「闍羅迦本」 (Sushruta Samhita)** is an ancient Indian medical text focused on surgery.\n\nLet me know if you'd like to try another question! \n"
+        ],
+        "gold": "A"
+    },
+    "79": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「好人有好報，三係好人，所以三有好報」屬於\nA. 演繹推理\nB. 回溯推理\nC. 似真推理\nD. 歸納推理\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **D. 歸納推理** (Inductive Reasoning).\n\nHere's why:\n\n* **歸納推理** (Inductive Reasoning) involves drawing a general conclusion from specific observations. This statement uses a specific example (\"好人\" - a good person) to support a conclusion that may be true for some cases but not necessarily for all.\n\nLet's break down why the other options are incorrect:\n\n* **A. 演繹推理** (Deductive Reasoning) starts with a general statement and reaches a specific conclusion. This statement is the opposite.\n* **B.  **Deductive Reasoning** (Deductive reasoning) is not a type of inductive reasoning.\n\nLet me know if you'd like to try another logic question!"
+        ],
+        "gold": "C"
+    },
+    "80": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：彭平係一個計算機編程專家，姚欣係一位數學家。其實，所有嘅計算機編程專家都係數學家。我哋知道，今日國內大多數綜合性大學都喺培養住計算機編程專家。據此，我哋可以認為：\nA. 彭平由綜合性大學所培養嘅\nB. 大多數計算機編程專家係由綜合性大學所培養嘅\nC. 有啲數學家係計算機編程專家\nD. 姚欣並唔係畢業於綜合性大學\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 姚欣係一位數學家**\n\nHere's why:\n\n* **The premise:** The statement establishes that all programmers are mathematicians.\n\n* **The conclusion:** The statement states that 姚欣 is a mathematician.\n\n* **Why not the other options:**\n\n    * **A. 係** is incorrect because it only states that \n\n**C. 是一個**\n\nis a common phrase in Chinese meaning \"is a/are\" and doesn't directly address the premise.\n\n    * **B. 大多數綜合性大學都喺培養數學家** is incorrect because the original statement says \"most programmers\" are trained at comprehensive universities, not that all programmers are.\n\n    * **C. 係** is the correct answer because it aligns with the information provided in the question.\n\n    * **D. 畢業於** means \"graduated from\" and the premise doesn't give us enough information to determine if this is true for 姚欣.\n\n**Therefore, the most accurate conclusion based on the given information is that \"C. 有些人\" is the most appropriate answer.**\n\nIt's important to note that this is a tricky question because it plays on the wording. While the question states that \"most programmers\" are trained at comprehensive universities, it doesn't say that *all* programmers are. The premise states that all programmers are trained at comprehensive universities, which is incorrect.\n\nTherefore, the correct answer is **C**. \n\n**Note:**\n\n* **A. 係** is a more concise way of saying \"姚欣 is a programmer\" in Chinese.\n\nThis explanation highlights the importance of carefully analyzing the premise and understanding that the question is asking for a logical conclusion based on the information provided."
+        ],
+        "gold": "C"
+    },
+    "81": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：用真值表檢驗重言式同矛盾式需要針對所討論嘅命題建立一個\nA. 矛盾式\nB. 重言式\nC. 真值行\nD. 真值列\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 真值行** (truth row).\n\nHere's why:\n\n* **Truth tables** are used to evaluate the truth value of logical statements. \n\nLet me know if you'd like me to explain how to create a truth table to test a specific example!"
+        ],
+        "gold": "D"
+    },
+    "82": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：前提係自我欺騙性語句，即\nA. 前提虛假謬誤\nB. 以上都唔對\nC. 預期理由謬誤\nD. 前提自相矛盾謬誤\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **B. 以上都唔對**\n\n**Explanation:**\n\nThis question is about logical fallacies, specifically those related to arguments about oneself. \n\n* **前提係自我欺騙性語句** is a Cantonese phrase that translates to \"The premise is a self-deception statement\" in English. This is the correct answer as it directly addresses the issue of the premise itself being flawed.\n\nLet's look at why the other options are incorrect:\n\n* **A. 前提虛假謬誤** is a direct translation of the first part of the question, but it doesn't address the specific fallacy.\n\n* **C. 預期理由謬誤** is a logical fallacy, but it's a fallacy of **presumption**, not specifically about self-deception.\n\n* **D. 前提** is a general term for \"premise\" and **理由** is a general term for \"reason\" or \"argument\".\n\nLet me know if you'd like to know more about Cantonese or logical fallacies!"
+        ],
+        "gold": "D"
+    },
+    "83": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：當命題斷言咗主項或者謂項所指稱嘅類嘅每一成員時，我哋就話呢個詞項係\nA. 唔周延嘅\nB. 假嘅\nC. 周延嘅\nD. 真嘅\n"
+            }
+        ],
+        "prediction": [
+            "C. 周延嘅 \n\n\nThis question describes the definition of a **universal proposition**. \n\n* **Universal propositions** make a statement about all members of a class. \n\nLet me know if you'd like more examples or explanation about different types of propositions!"
+        ],
+        "gold": "C"
+    },
+    "84": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：根據演繹有效性原則，論證無效嘅一個重要標誌係\nA. 部分前提假而結論假\nB. 部分前提真而結論假\nC. 所有前提假而結論假\nD. 所有前提真而結論假\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **D. 所有前提真而結論假**.\n\nHere's why:\n\n* **Deductive Validity** is about the *structure* of an argument, not the truth of its premises. An argument is deductively valid if the conclusion necessarily follows from the premises. This means that if the premises are true, the conclusion *must* be true as well.\n\nLet me know if you'd like to try another logic question! \n"
+        ],
+        "gold": "C"
+    },
+    "85": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：根據演繹有效性原則，論證無效嘅一個重要標誌係\nA. 部分前提假而結論假\nB. 所有前提假而結論假\nC. 所有前提真而結論假\nD. 部分前提真而結論假\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **C. 所有前提真而結論假**\n\nHere's why:\n\n* **演繹有效性原則 (Principle of Deductive Validity)** states that if the premises of an argument are true, then the conclusion must also be true for the argument to be valid.\n\n* **Deductive validity** is a property of an argument where the conclusion is guaranteed to be true if the premises are true.\n\nTherefore, a deductively invalid argument will have **true premises but a false conclusion (C)**. \n\n\nLet me know if you'd like to see some examples!"
+        ],
+        "gold": "C"
+    },
+    "86": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「所有嘅邏輯學家都係哲學家，所有美學家都係邏輯學家，因此，所有美學家都係哲學家」，呢個三段論中，結論標識詞係\nA. 都係\nB. 哲學家\nC. 所有\nD. 因此\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. 都係**.\n\nHere's why:\n\n* **\"都係\" (dou6 hai6)** means \"all are\" in Cantonese, indicating the conclusion of the argument.\n\nThis is a classic example of a **syllogism**, a type of logical argument that applies deductive reasoning.  The structure of the argument is:\n\n* **Major premise:** All A are B. (All logicians are B)\n* **Minor premise:** All B are C. (All B are philosophers)\n* **Conclusion:** Therefore, all A are C. (Therefore, all logicians are philosophers)\n\nLet me know if you'd like to see another example! \n"
+        ],
+        "gold": "D"
+    },
+    "87": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下唔屬於前提標識詞嘅係\nA. 因為\nB. 鑑於\nC. 由於\nD. 所以\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 因為** (because).\n\nHere's why:\n\n* **因為 (yīnwèi)** means \"because\" and indicates a reason or a cause for something. It's used to introduce a conclusion, not a premise.\n\nThe other options, **B. 鑑於 (jīnyú)**, **C. 由於 (yúyǐ)**, and **D. 所以 (suǒyǐ)** are all used to introduce premises in a logical argument. \n\n* **前提 (jiǎnán)** means \"premise\" in Chinese.\n\n* **鑑於 (jàn yú)** and **所以 (suǒyǐ)** are both used to introduce a premise, similar to \"because\" in English.\n\n* **由於 (yú yīn)** means \"because\" in Chinese, but it's more commonly used to introduce a reason for a situation.\n\nLet me know if you'd like more examples of Chinese logic words!"
+        ],
+        "gold": "D"
+    },
+    "88": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：三段論「有啲結構主義者係形式主義者；所有形式主義者都唔係實質主義者；因此，有啲實質主義者唔係結構主義者。」嘅式係\nA. IOE\nB. EOI\nC. EIO\nD. IEO\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **C. EIO**\n\nHere's why:\n\n* **E** - The statement starts with a premise about a specific group (**E**xample: \"Some structures are not solid\").\n* **I** - The second premise is a general statement: \"All structures are not **E**xample: \"All structures are not **E**xample\" is a bit redundant, but it's the key to understanding the structure of the syllogism.\n\nLet me know if you'd like to try another one! \n"
+        ],
+        "gold": "D"
+    },
+    "89": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺歸納邏輯中，所有前提真而結論\nA. 可能真\nB. 必然假\nC. 必然真\nD. 可能假\n"
+            }
+        ],
+        "prediction": [
+            "A. 可能真 \n\n**解釋:**\n\n* **歸納邏輯** 係一種由特定情況推論出一般性結論嘅推理方式。\n* 結論**可能真**，但係唔一定**必然真**。\n\n所以，如果所有前提都真，但結論並非由前提中**必然推斷**出來嘅，結論就可能係假嘅。\n\n* **C. 可能真** 係指結論可能係真，但係邏輯推理上**唔能夠保證**一定係真的。\n\n* **D. 結論** 係一個錯誤的選項，因為歸納邏輯嘅結論**並非**由前提中**必然推斷**出來，而是一個基於觀察和經驗而**推論**出來的結果。\n\n"
+        ],
+        "gold": "A"
+    },
+    "90": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：由於近期嘅乾旱同高溫，導致海灣鹽度增加，引起咗好多魚嘅死亡。蝦雖然可以適應高鹽度，但係鹽度高都畀養蝦場帶嚟咗唔幸。以下邊項如果為真，能夠提供解釋以上現象嘅原因?\nA. 幼蝦食嘅有機物喺鹽度高嘅環境下幾乎難以存活\nB. 持續嘅乾旱會使海灣嘅水位下降，呢已經引起咗有關機構嘅注意\nC. 水溫升高會使蝦更快速繁殖\nD. 魚多嘅海灣往往蝦都有多，蝦少嘅海灣魚都唔多\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 幼蝦食嘅有機物喺鹽度高嘅環境下幾乎難以存活** (A. Young shrimp have difficulty surviving in high salinity environments). \n\nHere's why:\n\n* **The question implies a cause-and-effect relationship.** The prompt states that the cause is \"high temperatures\" and \"drought,\" and the question asks for the reason behind the impact on shrimp.\n\n* **Option A** directly addresses the negative impact of high salinity on a young shrimp's food source.\n\nLet me know if you'd like to know more about the effects of high salinity on shrimp or have any other questions!"
+        ],
+        "gold": "A"
+    },
+    "91": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下唔屬於共同嘅論證評價標準嘅係\nA. 分析標準\nB. 論辯標準\nC. 邏輯標準\nD. 修辭標準\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 修辭標準**\n\nThe question asks for what doesn't belong, and \"rhetorical standard\" (修辭標準) is the odd one out. Here's why:\n\n* **分析標準 (Analytical Standard)**, **邏輯標準 (Logical Standard)**, and **論辯標準 (Argumentation Standard)** are all terms related to the evaluation of arguments based on logic and reasoning.\n\n* **分析 (Analysis)** refers to the process of breaking down an argument into its components to understand its structure and validity.\n\n* **修飾 (修飾)** is a bit tricky. It's not a direct translation of \"rhetorical\" but rather refers to the \"style\" of an argument, which is a key element of rhetoric.\n\n* **邏輯 (Logic)** is a general term for the principles and rules of reasoning used to evaluate arguments.\n\n* **修辭 (修辭)**, meaning \"rhetoric\" or \"rhetorical devices,\" focuses on the techniques used to make an argument persuasive, not directly on the logic itself.\n\nTherefore, \"rhetorical standard\" (修辭標準) is not a relevant term in the context of the other options. \n\nLet me know if you'd like to try another question!"
+        ],
+        "gold": "A"
+    },
+    "92": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：訴諸權威謬誤嘅通常表現形式包括\nA. 唔相干權威\nB. 以上都對\nC. 有問題嘅權威\nD. 濫用權威\n"
+            }
+        ],
+        "prediction": [
+            "B. 訴諸不當引用權威\n\n**解釋：**\n\n* **B. 訴諸不當引用權威** 係 **訴諸權威謬誤** 嘅正確答案。\n\n* **C. 訴諸權威** 係一個更廣泛嘅概念，指引人錯誤嘅理由之一，就係「**有問題的權威**」呢個錯誤的權威來源包括所有選項。\n\n**其他選項：**\n\n* **A. 唔相符的權威** 係一個錯誤的答案，因為「唔相符」並非一個常見嘅邏輯謬誤類型。\n\n* **A. 唔相符的權威** 係一個錯誤的答案，因為**C. 權威**本身並非一個錯誤嘅理由。\n\n* **A. 唔相符的權威** 係一個**A. 權威** 的錯誤的表現形式，但並非錯誤的理由本身。\n\n* **B. 濫用權威** 係一個常見的邏輯謬誤，但「**濫用權威**」並非**B. 訴諸不當引用權威** 的意思。\n\n**總結：**\n\n「訴諸權威」 是一種邏輯謬誤，因為**A. 唔相符的權威** 係指**B. 權威** 嘅權威來源並非可靠，但**C. 濫用權威** 係錯誤的邏輯謬誤，例如**錯誤的引用** 或者**不相關的權威**。\n\n所以，答案係 **B. 錯誤的權威**。"
+        ],
+        "gold": "B"
+    },
+    "93": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺歸納邏輯中，所有前提真而結論\nA. 可能真\nB. 以上都唔對\nC. 必然假\nD. 必然真\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 可能真 (Possibly True)**\n\nHere's why:\n\n* **歸納邏輯 (Inductive Reasoning)** \nrelies on observing patterns and making generalizations. This means the conclusion is based on probabilities and the strength of the evidence presented in the premises.\n\n* **A. 可能真 (Possibly True)** reflects this: if the premises are true, the conclusion is likely to be true, but not necessarily guaranteed. \n\nLet me know if you'd like more examples or explanations! \n"
+        ],
+        "gold": "A"
+    },
+    "94": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：論證嘅功能包括證成同\nA. 反駁\nB. 辯論\nC. 推論\nD. 歸謬\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 辯論**.\n\nHere's why:\n\n* **證成 (Zheng Cheng)** means \"to prove\" or \"to demonstrate\" in Chinese.  While proving is a key part of logic, the question asks for a single word that completes the function of \"arguments\" which is a bit broader than just \"prove\".\n\n* **C. 推論 (tuīlùn)** means \"to infer\" or \"to deduce\", which is also a part of logic, but the question asks for the opposite of \"argument\".\n\n* **B. 辯論 (biànlùn)** means \"to debate\" in Chinese.\n\n* **C. 證明 (zhèngmíng)** means \"to prove\" in Chinese.\n\n* **D. 辯論 (biàn lùn)** means \"to debate\" in Chinese.\n\nTherefore, the correct answer is **D. 證明 (zhèngmíng)** which means \"to prove\" and is the closest synonym to \"demonstration\" in the context of the question.\n\n* **A. 辯論 (biànlùn)** is a good fit because it directly translates to \"argumentation\" or \"debate\", which are both about presenting a case or point of view.\n\n* **B. 證明 (zhèngmíng)** is the opposite of **論證 (lùnzhèng)** which means \"to argue\" or \"to reason\".\n\n* **C. 證明 (zhèngmíng)** is the correct answer because it means \"to prove\" in a general sense.\n\n* **A. 辩论 (biànlùn)** is the correct answer because it means \"to debate\" or \"to argue\" in Chinese.\n\n* **A. 邏輯 (luójí)** means \"logic\" in a more general sense, and is not the opposite of \"argument\".\n\nTherefore, the answer to the question is **A. 辯論 (biànlùn)**."
+        ],
+        "gold": "A"
+    },
+    "95": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：如果有啲a係b；有啲a唔係b，並且有啲b係a ，有啲b唔係a；噉，a與b呢兩個概念具有()關係。\nA. 交叉\nB. 真包含於\nC. 全異\nD. 全同\n"
+            }
+        ],
+        "prediction": [
+            "B. 真包含於"
+        ],
+        "gold": "A"
+    },
+    "96": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：小王話：如果聽日唔落大雨，我一定去睇波。以下邊項為真，可以證明小王冇講真話?a天冇落大雨，小王冇去睇波；b天下大雨，小王去睇咗波；c天下大雨，小王冇去睇波\nA. ab\nB. a\nC. b\nD. c\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. a b**.\n\nHere's why:\n\n* **The focus is on proving the statement false, not true.**\n\n* **a) 小王** \n\n   If 小王 says \"If A, then B\" (If it rains, then I will go watch a game), and we know A is false (it didn't rain), this statement alone doesn't tell us if he went to the game or not. We need to know if he went to the game to confirm whether he kept his word.\n\n* **b) 小王天下大雨**\n\n   This option is incorrect because it only states that it didn't rain, which doesn't prove anything about his truthfulness.\n\n* **c) 小王去睇咗波**\n\n   This option is incorrect because it's a statement about the future. We can't prove it's true or false until the time comes.\n\n* **D)  If it didn't rain, then 小王 didn't go to the game.**\n\n   This option is incorrect because it's a statement about the future. We can't prove it true or false without knowing the outcome.\n\n**To prove a statement like \"If it doesn't rain, then I will go to the game\" is true, we need to know that:**\n\n* **A) If it's true**\n\n   This is the correct answer because it states the necessary condition for the truthfulness of the original statement. If the antecedent (it didn't rain) is true, then the consequent (小王 didn't go to the game) is the only way to prove the original statement false.\n\n**Therefore, the correct answer is A. b) If it didn't rain, then I went to the game.**"
+        ],
+        "gold": "B"
+    },
+    "97": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：如果A、B兩個判斷唔能同假，但係可以同真，則佢哋之間嘅關係係\nA. 下反對關係\nB. 矛盾關係\nC. 差等關係\nD. 反對關係\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 矛盾關係 (Contradictory Relationship)**\n\nHere's why:\n\n* **矛盾關係 (B)** translates to \"contradictory relationship\". This is the correct answer because a statement and its negation (opposite) are logically contradictory.\n\n* **下反對關係 (A. Contradictory)** translates to \"contradictory relationship\" as well, but it refers to a specific type of logical relationship where two statements are opposite in meaning and cannot both be true.\n\n* **矛盾關係 (Contradictory)** and **D. 不同關係 (Different)** are essentially synonyms, so the relationship between A and B is not a \"different\" relationship, but rather a relationship that is defined as logically contradictory.\n\n* **A. 下反對關係 (A. Contradictory)** is a correct description of the relationship between two statements that are logically contradictory.\n\nLet me know if you'd like to try more logic questions!"
+        ],
+        "gold": "A"
+    },
+    "98": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：一個結果嘅數值概率等於相對嗰個結果可獲得嘅結果數()可能結果嘅總數。\nA. 乘\nB. 除\nC. 減\nD. 加\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **B. 除** (which means \"divided by\" in Cantonese).\n\nHere's why:\n\n* **Probability is about ratios:** Probability represents the likelihood of an event occurring. It's calculated as the number of favorable outcomes divided by the total number of possible outcomes.\n\nLet me know if you'd like to try another logic question! \n"
+        ],
+        "gold": "B"
+    },
+    "99": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：如果一個證明嘅論據仲要依靠論題嚟證明，噉該證明所犯嘅邏輯錯誤係\nA. 推唔出\nB. 預期理由\nC. 循環論證\nD. 論據虛假\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **C. 循環論證** (Circular Reasoning).\n\nHere's why:\n\n* **Circular reasoning** occurs when the conclusion of an argument is used as a premise to support itself. In this case, the statement \"If a proof relies on the conclusion to prove the premise, it's a circular argument\" is a perfect description of the situation.\n\n* **The statement itself is a form of circular reasoning**. It states that a proof is invalid if it relies on the conclusion to prove the premise, which is a tautology. A tautology is a statement that is always true, regardless of the truth values of its parts.\n\n* **The concept of \"proof\" implies a logical argument**, and the statement uses this concept in a way that implies the conclusion is already proven.\n\nTherefore, the correct answer is **C. 循環論證 (Circular Reasoning)**. \n\nLet me know if you'd like to explore the different types of logical fallacies further!"
+        ],
+        "gold": "C"
+    },
+    "100": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：通過改變命題嘅質或者量從而推導出新命題嘅論證係\nA. 直言命題運算論證\nB. 質量論證\nC. 三段論論證\nD. 對當關係論證\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **C. 三段論論證**\n\nHere's why:\n\n* **三段論證 (Syllogism)** is a type of logical argument that uses deductive reasoning to arrive at a conclusion based on two premises. This directly relates to the concept of \"deduction\" in the question.\n\nLet's break down the other options:\n\n* **A.  直言命題 (Deductive Reasoning)**: This is a broader category of logic that includes syllogisms. While a syllogism is a type of enthymeme, the question is specifically asking for the type of argument, not the broader category.\n\n* **B.  命題 (Proposition)**: This is a type of statement, not a type of argument.\n\n* **D.  三段論 (Syllogism)**: This is a type of logical argument, but the question is asking for the type of syllogism, not just any example of a propositional argument.\n\nTherefore, the most accurate and specific answer to the question is **C. 三段論 (Syllogism)**.\n\nThe question implies a specific type of logical argument, and the answer should reflect that. \n\nLet me know if you'd like to know more about syllogisms!"
+        ],
+        "gold": "A"
+    },
+    "101": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：構造真值表，基於嘅邏輯算子規則唔包括\nA. 等值\nB. 命題\nC. 否定\nD. 合取\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 否定 (Negation)**.\n\nHere's why:\n\n* **否定 (Negation)**:  Negation (¬) is a logical operator that negates a statement. This is not something we'd typically use in a truth table for a truth-functional logic problem.\n\nThe other options are all common logical connectives used in constructing truth tables:\n\n* **A. 等值 (Equivalence)**:  This is a logical connective used in truth tables.\n* **B. 命題 (Proposition)**: This is the basic building block of a truth table, a statement that can be either true or false.\n* **D. 邏輯連接詞 (Logical Connective)**: This is a broader term that includes negation, but the question specifies \"not including\" this category, making it the incorrect answer.\n\nLet me know if you'd like to see an example of a truth table for a specific logical connective!"
+        ],
+        "gold": "B"
+    },
+    "102": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：要檢驗一個命題係唔係矛盾式，即以該命題作為前提進行推導，睇下能唔能推導出\nA. 結論\nB. 命題\nC. 矛盾\nD. 前提\n"
+            }
+        ],
+        "prediction": [
+            "C.  **結論** \n\nThe answer is **C. 結論** (conclusion).\n\nA **contradiction** is a type of logical statement that is always false. To prove a statement is a contradiction, you need to show that it leads to a **false conclusion** when its premises are true. \n\nLet me know if you'd like to try another logic question!"
+        ],
+        "gold": "C"
+    },
+    "103": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：論證識別嘅核心內容係\nA. 目標聽眾嘅識別\nB. 前提與結論嘅識別\nC. 論證者嘅識別\nD. 論證目嘅識別\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 前提與結論的識別**\n\nThis translates to **\"identification of premises and conclusion\"**, which is the core content of logic. \n\nLet me know if you'd like to explore more about logic! \n\nIt's important to note that the question is written in a way that emphasizes the importance of understanding the relationship between the premises and conclusion in a logical argument. \n\nHere's why:\n\n* **Premise and Conclusion:** A premise is a statement that provides evidence or reasons for a conclusion. The core of logic lies in analyzing the validity of this relationship.\n\n* **Identifying the Core:**\n\nWhile the target audience is important in many contexts, it's not the core focus of logic itself. Logic is concerned with the structure and validity of arguments, regardless of who the audience is.\n\nLet me know if you have any other questions about logic!"
+        ],
+        "gold": "B"
+    },
+    "104": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：前提或者結論中至少有一個條件命題嘅論證係\nA. 結論論證\nB. 命題論證\nC. 條件論證\nD. 前提論證\n"
+            }
+        ],
+        "prediction": [
+            "C. 條件論證 \n\n\nThis is a **syllogism**, a type of logical argument that applies deductive reasoning to arrive at a conclusion based on two or more premises.\n"
+        ],
+        "gold": "C"
+    },
+    "105": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：如果論證嘅所有前提同時為真係唔可能嘅，噉呢個論證嘅前提就係\nA. 不可接受\nB. 唔一致\nC. 可接受\nD. 一致\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 不可接受**.\n\nHere's why:\n\n* **Inconsistent premises** (B) would mean the argument is logically flawed, not necessarily that it's impossible for all premises to be true.\n\n* **A valid argument** needs to have consistent premises for the logic to hold.\n\n* **\"不可接受\" (Not acceptable)** is the correct translation of \"invalid\" in this context.\n\nLet me know if you'd like to try another logic question!"
+        ],
+        "gold": "B"
+    },
+    "106": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：一個命題為真係另一個命題為真嘅充分條件嘅命題係\nA. 直言命題\nB. 條件命題\nC. 假言命題\nD. 充分命題\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 條件命題**\n\nHere's why:\n\n* **A. 直言命題 (Direct Proposition):** A direct proposition simply states a fact (e.g., \"The sky is blue\"). It doesn't imply a relationship of \"if-then\" between two propositions.\n* **B. 條件命題 (Conditional Proposition):** This is the correct answer. A conditional proposition is a statement that expresses a **conditional relationship**, like \"If the sky is blue, then it is a sunny day.\"\n\nThe other options are incorrect because they are not specific types of propositions:\n\n* **C. 條件命題 (Conditional Proposition):** This is the correct term for the type of proposition described in the question.\n* **D. 充分命題 (Sufficient Proposition):** This is not a standard term in logic.\n\nLet me know if you'd like to see more examples of conditional propositions!"
+        ],
+        "gold": "B"
+    },
+    "107": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下邊篇文章唔包含喺「工具論」之中？\nA. 「理想國」\nB. 「解釋篇」\nC. 「論辯篇」\nD. 「範疇篇」\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 「論辯篇」 (The Sophist)**.\n\nHere's why:\n\n* **「理想國」 (The Republic)** is a famous work by Plato that explores justice, philosophy, and the nature of reality.\n\n* **「解釋篇」 (The Apology)** is also a work by Plato, focusing on Socrates' defense speech at his trial.\n\n* **C. 「論辯篇」 (The Sophist)** is a philosophical dialogue by Plato that deals with the nature of knowledge and being.\n\n* **D. 範疇篇 (The Sophist)** is a philosophical dialogue by Plato that explores the nature of knowledge and being.\n\n**Therefore, the correct answer is C. 「範疇篇」 (The Categories)**\n\n**The Categories** is a work by Aristotle, not Plato. \n\nLet me know if you'd like to try another question!"
+        ],
+        "gold": "A"
+    },
+    "108": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：複合命題嘅邏輯聯結詞包括\nA. 合取同析取\nB. 蘊涵同等值\nC. 否定\nD. 以上都對\n"
+            }
+        ],
+        "prediction": [
+            "D. 以上都對 \n\nHere's why:\n\n* **Conjunction (AND)**, **Disjunction (OR)**, and **Implication (IF...THEN)** are all logical connectives.\n\nThis means the answer to your question is **D**. \n\nLet me know if you'd like to know more about logic connectives! They are essential for building complex statements and understanding how different parts of logic connect. \n"
+        ],
+        "gold": "D"
+    },
+    "109": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：係指相對於證據，兩個事實或者事件至少有一個為真嘅概率。\nA. 析取律\nB. 肯定律\nC. 合取律\nD. 否定律\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 析取律**.\n\nHere's why:\n\n* **析取律 (Law of Disjunction)**: This law states that if a statement is true, then at least one of its disjuncts must be true. A disjunct is one of the parts of a statement connected by \"or\".\n\nLet me know if you'd like to try another logic question!"
+        ],
+        "gold": "A"
+    },
+    "110": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下唔屬於邏輯系統四大定理嘅係\nA. 一致性定理\nB. 唔完全性定理\nC. 可靠性定理\nD. 有效性定理\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **A. 一致性定理**.\n\nHere's why:\n\n* **一致性定理 (Consistency Theorem)**: This is a key concept in Gödel's incompleteness theorems, but not one of the four fundamental theorems of logic.\n\nThe other three options are not standard terms used in logic, but they are related to important concepts:\n\n* **B. 唔完全性定理 (Gödel's Incompleteness Theorems)**:  These theorems are indeed important in logic, stating that any consistent formal system powerful enough to describe arithmetic will contain true statements that cannot be proven within that system.\n\n* **C. 可靠性定理 (Gödel's Completeness Theorems)**:  This option uses the term \"可靠性\" (reliability) which is a concept often discussed in the context of Gödel's completeness theorems.\n\n* **D. 緊縮定理 (Compactness Theorem)**: This is another important theorem in logic, stating that a set of sentences is satisfiable if and only if every finite subset of it is satisfiable.\n\nThe \"consistancy theorem\" is a fundamental concept in logic, but not a specific theorem with a name.\n\nLet me know if you'd like to know more about any of these theorems!\n\n\n"
+        ],
+        "gold": "B"
+    },
+    "111": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「所有嘅邏輯學家都係哲學家，所有美學家都係邏輯學家，因此，所有美學家都係哲學家」，呢個三段論中，大項係\nA. 以上都唔對\nB. 邏輯學家\nC. 美學家\nD. 哲學家\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **D. 哲學家 (Philosopher)**.\n\nHere's why:\n\nThe conclusion of a syllogism follows from the premises. In this case, the conclusion is a statement about philosophers.  The first two statements are the premises of the syllogism.\n\n* **Premise 1:** All philosophers are logicians.\n* **Premise 2:** All aestheticians are philosophers.\n\n**Therefore:**\n\n* **Conclusion:** All aestheticians are logicians.\n\nThis is a classic example of a syllogism where the conclusion follows a categorical syllogism structure.\n\n**Important Note:**\n\nWhile the conclusion follows the logic of the syllogism, it's crucial to understand that the original statement \"所有美學家都係哲學家\" is a **false premise**.  \n\n* **Philosophers** are not all necessarily **logicians**.\n\nThe third part of the syllogism is the conclusion, which is a statement that is logically derived from the premises.\n\nThis example highlights the concept of **syllogistic reasoning**, where the conclusion is a generalization that follows from the premises.\n\nLet me know if you'd like to explore more about syllogisms or have any other questions about logic!"
+        ],
+        "gold": "D"
+    },
+    "112": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：違反規則「所有前提都必須係真嘅」嘅謬誤包括\nA. 以上都對\nB. 前提虛假謬誤\nC. 唔一致謬誤\nD. 預期理由謬誤\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **C. 唔一致謬誤** (Formal Fallacy)\n\n**Explanation:**\n\n* **違反規則「所有前提都必須係真嘅」** translates to \"violating the rule that all premises must be true\". This is a good description of what a fallacy is in logic!\n\nLet me know if you'd like me to explain any of the other options."
+        ],
+        "gold": "A"
+    },
+    "113": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺「育才中學有外籍教師任教」呢一判斷中，\nA. 主項周延\nB. 主項、謂項都唔周延\nC. 主項、謂項都周延\nD. 謂項周延\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 主項周延**\n\nThe statement \"育才中学有外籍教师教课\" translates to \"There are foreign teachers teaching at the Yu Cai Middle School\". \n\nThis is a statement about a specific school (Yu Cai Middle School) having a general characteristic (teachers who are foreigners). \n\nTherefore, the statement is **A. 主項** (subject) **外延** (generalization) **C. 有外籍教师** (there are foreign teachers) **C. 教學** (teaching) **at** **A.  育才中學** (Yu Cai Middle School) **in English**\n\n**D. 謂項** (predicate) **is a predicate, not a subject.**\n\nLet me know if you'd like to try another question!"
+        ],
+        "gold": "B"
+    },
+    "114": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：三段論嘅式共有幾多個。\nA. 512\nB. 128\nC. 64\nD. 256\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 64**\n\nHere's why:\n\n* **Syllogisms** are a type of logical argument that follow a specific structure of three parts:\n\n    * **Two premises:** These are statements that provide the reasoning for the conclusion.\n    * **One conclusion:** This is the statement that follows logically from the premises.\n\n*  There are **256 possible syllogistic forms**, depending on the types of propositions used in the premises and the conclusion.\n\n*  The **number of possible syllogisms** is determined by the number of choices for each part of the syllogism.\n\n    * **Premise 1:** Can be one of four types (A, E, I, O)\n    * **Premise 2:** Can be one of four types (A, E, I, O)\n    * **Conclusion:** Can be one of four types (A, E, I, O)\n\nLet me know if you'd like to see an example of a syllogism! \n"
+        ],
+        "gold": "D"
+    },
+    "115": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：所有嘅語句都包括\nA. 邏輯要素\nB. 語法要素\nC. 詞彙要素\nD. 語義要素同邏輯要素\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **D. 語法要素同邏輯要素**\n\nHere's why:\n\n* **語句 (Sentences)** are formed by combining words according to the rules of grammar.\n* **語義 (Semantics)** is the study of meaning in language, which is essential for understanding the meaning of a sentence.\n\nTherefore, **all sentences have both grammatical structure (語法要素) and meaning (語義)**. \n\nLet me know if you'd like to try another logic question!"
+        ],
+        "gold": "D"
+    },
+    "116": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：非形式邏輯標準嘅一個論證係好嘅，當且僅當()成立。\nA. 以上均係\nB. 所有前提均可接受\nC. 前提與結論相干\nD. 前提對結論提供咗足夠支持\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 所有前提均可接受**\n\nHere's why:\n\n* **B. 所有前提均可接受**  This is the core principle of **soundness** in logic. A sound argument has all true premises and a valid structure.\n\nLet's break down the options:\n\n* **A. 以上均可** (All of the above are valid) This is too broad. While a good argument might have true premises and a logical structure, there are other criteria for a good argument, such as clarity, relevance, and strong reasoning.\n\n* **B. 所有前提均可接受** (All premises are acceptable) This option focuses on the **truthfulness** of the premises.\n\n* **C. 前提與結論相干** (Premises are consistent with the conclusion) This is a good starting point, but a good argument requires more than just consistency.\n\n* **D. 以上均可支持** (All premises are sufficient to support the conclusion) This option focuses on the **sufficiency** of the premises, which is a key aspect of a valid argument.\n\nTherefore, option B is the most accurate answer as it directly addresses a crucial element of a good argument: the premises must be logically acceptable. \n\nLet me know if you'd like to explore the nuances of \"soundness\" in logic further!\n\n\n"
+        ],
+        "gold": "A"
+    },
+    "117": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：命題「有啲音樂家係有創造力之人;所有作曲家都係音樂家;因此，有啲作曲家係有創造力之人。」嘅中項係\nA. 作曲家\nB. 以上都唔係\nC. 有創造力之人\nD. 音樂家\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 以上都唔係** (This means \"all of the above\" in Cantonese).\n\nHere's why:\n\n* **The statement is structured as a syllogism:** This type of logical argument has two premises and a conclusion.\n\n* **The premises support the conclusion:**\n\n    * **Premise 1:** Some musicians are creative people.\n    * **Premise 2:** All composers are musicians.\n\n* **The conclusion is a logical consequence of the premises:** Therefore, some creative people are composers.\n\nLet me know if you'd like to try another logic puzzle! \n"
+        ],
+        "gold": "D"
+    },
+    "118": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：通常用嚟表達聯結詞「析取」嘅係\nA. 而且\nB. 或者\nC. 並非\nD. 並且\n"
+            }
+        ],
+        "prediction": [
+            "B. 或者 \n"
+        ],
+        "gold": "B"
+    },
+    "119": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：「數學與猜想」嘅作者係\nA. 羅素\nB. 周北海\nC. 金嶽霖\nD. 波利亞\n"
+            }
+        ],
+        "prediction": [
+            "D. 波利亞 (Polya)"
+        ],
+        "gold": "D"
+    },
+    "120": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：一組唔一致嘅前提()推導出唔一致嘅結論。\nA. 可能\nB. 唔會\nC. 必然\nD. 唔確定\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **C. 唔會 (will not)**\n\nHere's why:\n\n* **邏輯學 (Logic)** is concerned with the principles of valid reasoning and argumentation.\n\n* **A. 可能 (Possibly)** is not the correct answer because it implies that the conclusion could be true or false depending on the premises.\n\n* **D. 唔確定 (Uncertain)** is incorrect because it implies that the conclusion is not guaranteed, which is not the case with a logically valid argument.\n\n* In a logically valid argument, the conclusion must be **true** if the premises are true. This is the fundamental concept of logical validity.\n\nLet me know if you'd like to try another logic question!"
+        ],
+        "gold": "C"
+    },
+    "121": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：違反規則「前提與結論必須係相干」嘅謬誤唔包括\nA. 合成謬誤\nB. 人身攻擊謬誤\nC. 稻草人謬誤\nD. 非黑即白謬誤\n"
+            }
+        ],
+        "prediction": [
+            "The answer is **A. 合成謬誤** (which translates to \"composition fallacy\" in English). \n\nHere's why:\n\n* **合成謬誤 (Composition Fallacy):** This is a logical fallacy, but it's specifically about incorrectly assuming that what is true of a part is true of the whole, or vice versa. It doesn't directly relate to the relationship between premises and conclusions.\n\n* **前提與結論必須係相干 (Valid Argument):** This is the correct answer. A valid argument is a logical fallacy where the conclusion is claimed to be true based on the premises, even if the premises themselves are not necessarily true.\n\n* **B. 歸納謬誤 (Inductive Fallacy)**: This is a general category of fallacies that involve making generalizations from specific observations.\n\n* **C. 稻草人謬誤 (Straw Man Fallacy)**: This is a fallacy where someone misrepresents their opponent's argument to make it easier to attack.\n\n* **D. 非黑即白謬誤 (False Dilemma/False Dichotomy)**: This is a fallacy where someone presents a situation as having only two options when there may be other possibilities.\n\nTherefore, the **違反前提與結論與結論必須係相干** fallacy is a fallacy of **relevance**, not a fallacy of **composition**.\n\nLet me know if you'd like to know more about different types of logical fallacies!"
+        ],
+        "gold": "A"
+    },
+    "122": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下係關於邏輯學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：銳進軟件股份有限公司係一個由四個子公司，即甲、乙、丙、丁組成嘅總公司。喺總公司嘅利潤方案下，每個子公司承擔嘅利潤份額與每年該子公司員工佔銳進軟件股份有限公司總員工數嘅份額相等。但係舊年該公司嘅財務報告卻顯示，甲公司喺員工數量增加嘅同時向總公司上繳利潤嘅比例卻下降咗。如果上述陳述為真，財務報告仲能夠說明下列邊項?\nA. 甲公司員工增長嘅比例比前一年細\nB. 甲公司員工增長嘅比例至少比其他三個子公司中嘅一個細\nC. 喺四個子公司中，甲嘅員工數量最少\nD. 乙、丙、丁公司員工增長嘅比例都超過咗甲公司員工增長嘅比例\n"
+            }
+        ],
+        "prediction": [
+            "The correct answer is **B. 员工数量增加的比例至少比其他三個子公司中的一個小**.\n\nHere's why:\n\n* **The financial report implies a change in the proportion of profits allocated to the company based on the performance of its subsidiaries.**  If the company is increasing the number of employees it hires, and the overall profit share is decreasing, it suggests that the company is distributing its profits differently.\n\n* The report doesn't directly tell us about the performance of the other subsidiaries, only that they are receiving a smaller proportion of the profits. This implies that **at least one of the other subsidiaries must have experienced a decrease in profits or a smaller increase in profits compared to the overall growth of the company.**\n\nLet me know if you'd like to try another logic question!"
+        ],
+        "gold": "B"
+    }
+}

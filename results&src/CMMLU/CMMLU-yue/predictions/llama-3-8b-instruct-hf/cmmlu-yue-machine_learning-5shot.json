@@ -1,0 +1,856 @@
+{
+    "0": {
+        "origin_prompt": "樣例：\n問題：一般，k-NN最近鄰方法喺（）嘅情況下效果較好\nA. 樣本呈團狀分佈\nB. 樣本較多但典型性唔好\nC. 樣本呈鏈狀分佈\nD. 樣本較少但典型性好\n回應：D\n\n樣例：\n問題：一監獄人臉識別准入系統用嚟識別待進入人員嘅身份，呢系統一共包括識別4種唔同嘅人員：獄警，賊，送餐員，其他。下面邊種學習方法最適合呢種應用需求\nA. 多分類問題\nB. 二分類問題\nC. k-中心點聚類問題\nD. 層次聚類問題\n回應：A\n\n樣例：\n問題：為咗得到同 SVD 一樣嘅投射（projection），你需要喺 PCA 中點樣做\nA. 將數據轉換成零均值\nB. 無法做到\nC. 將數據轉換成零眾數\nD. 將數據轉換成零中位數\n回應：A\n\n樣例：\n問題：喺統計模式分類問題中，當先驗概率未知時，可以使用\nA. N-P判決\nB. 最小最大損失準則\nC. 最小損失準則\nD. 最小誤判概率準則\n回應：B\n\n樣例：\n問題：以下邊啲方法唔可以直接嚟對文本分類\nA. 決策樹\nB. Kmeans\nC. 支持向量機\nD. KNN\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺二分類問題中，當測試集嘅正例同負例數量唔均衡時，以下評價方案邊個係相對唔合理嘅（假設precision=TP/(TP+FP)，recall=TP/(TP+FN)。）\nA. F-值：2recall*precision/(recall+precision)\nB. G-mean：sqrt(precision*recall)\nC. 準確性：(TP+TN)/all\nD. AUC：ROC曲線下面積\n答案：",
+        "prediction": [
+            "The correct answer is A. F-值：2recall*precision/(recall+precision).\n\nWhen the positive and negative classes are imbalanced, the F1-score (2*recall*precision/(recall+precision)) is not a good evaluation metric because it is biased towards the majority class. The F1-score is the harmonic mean of precision and recall, and when the majority class has a high recall, the F1-score will be dominated by the recall, even if the precision is low. This can lead to overestimating the model's performance on the majority class.\n\nThe other options are not correct:\n\n* B. G-mean: sqrt(precision*recall) is a good evaluation metric for imbalanced datasets, as it takes into account both precision and recall.\n* C. 準確性: (TP+TN)/all is the accuracy, which is not a good evaluation metric for imbalanced datasets because it is biased towards the majority class.\n* D. AUC: ROC curve area is a good evaluation metric for imbalanced datasets, as it takes into account the trade-off between precision and recall."
+        ],
+        "gold": "C"
+    },
+    "1": {
+        "origin_prompt": "樣例：\n問題：一監獄人臉識別准入系統用嚟識別待進入人員嘅身份，呢系統一共包括識別4種唔同嘅人員：獄警，賊，送餐員，其他。下面邊種學習方法最適合呢種應用需求\nA. 多分類問題\nB. 二分類問題\nC. k-中心點聚類問題\nD. 層次聚類問題\n回應：A\n\n樣例：\n問題：為咗得到同 SVD 一樣嘅投射（projection），你需要喺 PCA 中點樣做\nA. 將數據轉換成零均值\nB. 無法做到\nC. 將數據轉換成零眾數\nD. 將數據轉換成零中位數\n回應：A\n\n樣例：\n問題：喺統計模式分類問題中，當先驗概率未知時，可以使用\nA. N-P判決\nB. 最小最大損失準則\nC. 最小損失準則\nD. 最小誤判概率準則\n回應：B\n\n樣例：\n問題：以下邊啲方法唔可以直接嚟對文本分類\nA. 決策樹\nB. Kmeans\nC. 支持向量機\nD. KNN\n回應：B\n\n樣例：\n問題：喺二分類問題中，當測試集嘅正例同負例數量唔均衡時，以下評價方案邊個係相對唔合理嘅（假設precision=TP/(TP+FP)，recall=TP/(TP+FN)。）\nA. F-值：2recall*precision/(recall+precision)\nB. G-mean：sqrt(precision*recall)\nC. 準確性：(TP+TN)/all\nD. AUC：ROC曲線下面積\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：深度學習中遇見過擬合下列邊個處理辦法唔可取\nA. 加dropout層\nB. 加深層數\nC. 數據增強\nD. 加正則項\n答案：",
+        "prediction": [
+            "The correct answer is D. 加正則項 (Adding regularization term).\n\nIn deep learning, overfitting is a common issue that occurs when the model is too complex and fits the training data too well. Adding a regularization term to the loss function is a common technique to prevent overfitting. Dropout, adding more layers, and data augmentation are all techniques used to prevent overfitting, but adding a regularization term is the correct answer."
+        ],
+        "gold": "B"
+    },
+    "2": {
+        "origin_prompt": "樣例：\n問題：為咗得到同 SVD 一樣嘅投射（projection），你需要喺 PCA 中點樣做\nA. 將數據轉換成零均值\nB. 無法做到\nC. 將數據轉換成零眾數\nD. 將數據轉換成零中位數\n回應：A\n\n樣例：\n問題：喺統計模式分類問題中，當先驗概率未知時，可以使用\nA. N-P判決\nB. 最小最大損失準則\nC. 最小損失準則\nD. 最小誤判概率準則\n回應：B\n\n樣例：\n問題：以下邊啲方法唔可以直接嚟對文本分類\nA. 決策樹\nB. Kmeans\nC. 支持向量機\nD. KNN\n回應：B\n\n樣例：\n問題：喺二分類問題中，當測試集嘅正例同負例數量唔均衡時，以下評價方案邊個係相對唔合理嘅（假設precision=TP/(TP+FP)，recall=TP/(TP+FN)。）\nA. F-值：2recall*precision/(recall+precision)\nB. G-mean：sqrt(precision*recall)\nC. 準確性：(TP+TN)/all\nD. AUC：ROC曲線下面積\n回應：C\n\n樣例：\n問題：深度學習中遇見過擬合下列邊個處理辦法唔可取\nA. 加dropout層\nB. 加深層數\nC. 數據增強\nD. 加正則項\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：假設我哋有一個數據集，喺一個深度為 6 嘅決策樹嘅幫助下，佢可以使用 100% 嘅精確度被訓練。依家考慮一下兩點，並基於呢兩點揀正確嘅選項。1.深度為 4 時將有高偏差同低方差；2.深度為 4 時將有低偏差同低方差。注意：所有其他超參數係相同嘅，所有其他因子唔受影響。\nA. 1 同 2\nB. 淨係 2\nC. 冇一個\nD. 淨係 1\n答案：",
+        "prediction": [
+            "According to the problem statement, the correct answer is:\n\nD. 淨係 1\n\nExplanation:\n\n* Point 1 states that a depth of 4 would have high bias and low variance.\n* Point 2 is not mentioned in the problem statement, so it's not relevant to the answer.\n* A depth of 6 has already been mentioned as being able to achieve 100% accuracy, so it's not relevant to the answer either.\n* Therefore, the correct answer is D. 淨係 1, which corresponds to the statement that a depth of 4 would have high bias and low variance."
+        ],
+        "gold": "D"
+    },
+    "3": {
+        "origin_prompt": "樣例：\n問題：喺統計模式分類問題中，當先驗概率未知時，可以使用\nA. N-P判決\nB. 最小最大損失準則\nC. 最小損失準則\nD. 最小誤判概率準則\n回應：B\n\n樣例：\n問題：以下邊啲方法唔可以直接嚟對文本分類\nA. 決策樹\nB. Kmeans\nC. 支持向量機\nD. KNN\n回應：B\n\n樣例：\n問題：喺二分類問題中，當測試集嘅正例同負例數量唔均衡時，以下評價方案邊個係相對唔合理嘅（假設precision=TP/(TP+FP)，recall=TP/(TP+FN)。）\nA. F-值：2recall*precision/(recall+precision)\nB. G-mean：sqrt(precision*recall)\nC. 準確性：(TP+TN)/all\nD. AUC：ROC曲線下面積\n回應：C\n\n樣例：\n問題：深度學習中遇見過擬合下列邊個處理辦法唔可取\nA. 加dropout層\nB. 加深層數\nC. 數據增強\nD. 加正則項\n回應：B\n\n樣例：\n問題：假設我哋有一個數據集，喺一個深度為 6 嘅決策樹嘅幫助下，佢可以使用 100% 嘅精確度被訓練。依家考慮一下兩點，並基於呢兩點揀正確嘅選項。1.深度為 4 時將有高偏差同低方差；2.深度為 4 時將有低偏差同低方差。注意：所有其他超參數係相同嘅，所有其他因子唔受影響。\nA. 1 同 2\nB. 淨係 2\nC. 冇一個\nD. 淨係 1\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列邊啲方法唔可以用嚟對高維數據進行降維\nA. LASSO\nB. Bagging\nC. 主成分分析法\nD. 聚類分析\n答案：",
+        "prediction": [
+            "C. 主成分分析法\n\n主成分分析法（Principal Component Analysis，PCA）是一種常用的降維方法，可以用於降低高維數據的維度。"
+        ],
+        "gold": "B"
+    },
+    "4": {
+        "origin_prompt": "樣例：\n問題：以下邊啲方法唔可以直接嚟對文本分類\nA. 決策樹\nB. Kmeans\nC. 支持向量機\nD. KNN\n回應：B\n\n樣例：\n問題：喺二分類問題中，當測試集嘅正例同負例數量唔均衡時，以下評價方案邊個係相對唔合理嘅（假設precision=TP/(TP+FP)，recall=TP/(TP+FN)。）\nA. F-值：2recall*precision/(recall+precision)\nB. G-mean：sqrt(precision*recall)\nC. 準確性：(TP+TN)/all\nD. AUC：ROC曲線下面積\n回應：C\n\n樣例：\n問題：深度學習中遇見過擬合下列邊個處理辦法唔可取\nA. 加dropout層\nB. 加深層數\nC. 數據增強\nD. 加正則項\n回應：B\n\n樣例：\n問題：假設我哋有一個數據集，喺一個深度為 6 嘅決策樹嘅幫助下，佢可以使用 100% 嘅精確度被訓練。依家考慮一下兩點，並基於呢兩點揀正確嘅選項。1.深度為 4 時將有高偏差同低方差；2.深度為 4 時將有低偏差同低方差。注意：所有其他超參數係相同嘅，所有其他因子唔受影響。\nA. 1 同 2\nB. 淨係 2\nC. 冇一個\nD. 淨係 1\n回應：D\n\n樣例：\n問題：下列邊啲方法唔可以用嚟對高維數據進行降維\nA. LASSO\nB. Bagging\nC. 主成分分析法\nD. 聚類分析\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：機器學習中L1正則化同L2正則化嘅區別係\nA. 使用L1可以得到稀疏、平滑嘅權值\nB. 使用L2可以得到稀疏、平滑嘅權值\nC. 使用L1可以得到稀疏嘅權值、使用L2可以得到平滑嘅權值\nD. 使用L2可以得到稀疏嘅權值、使用L1可以得到平滑嘅權值\n答案：",
+        "prediction": [
+            "The correct answer is C. 使用L1可以得到稀疏嘅權值、使用L2可以得到平滑嘅權值.\n\nL1 regularization (also known as Lasso regularization) is a technique used to prevent overfitting in machine learning models. It adds a term to the loss function that is proportional to the absolute value of the model's weights. This has the effect of shrinking the weights towards zero, which can result in a sparse model with many zero weights.\n\nL2 regularization (also known as Ridge regularization) is another technique used to prevent overfitting. It adds a term to the loss function that is proportional to the square of the model's weights. This has the effect of shrinking the weights towards zero, but not as aggressively as L1 regularization. L2 regularization tends to produce a smoother model with smaller weights.\n\nSo, the correct answer is C, which states that L1 regularization can produce a sparse model with many zero weights, while L2 regularization can produce a smoother model with smaller weights."
+        ],
+        "gold": "C"
+    },
+    "5": {
+        "origin_prompt": "樣例：\n問題：喺二分類問題中，當測試集嘅正例同負例數量唔均衡時，以下評價方案邊個係相對唔合理嘅（假設precision=TP/(TP+FP)，recall=TP/(TP+FN)。）\nA. F-值：2recall*precision/(recall+precision)\nB. G-mean：sqrt(precision*recall)\nC. 準確性：(TP+TN)/all\nD. AUC：ROC曲線下面積\n回應：C\n\n樣例：\n問題：深度學習中遇見過擬合下列邊個處理辦法唔可取\nA. 加dropout層\nB. 加深層數\nC. 數據增強\nD. 加正則項\n回應：B\n\n樣例：\n問題：假設我哋有一個數據集，喺一個深度為 6 嘅決策樹嘅幫助下，佢可以使用 100% 嘅精確度被訓練。依家考慮一下兩點，並基於呢兩點揀正確嘅選項。1.深度為 4 時將有高偏差同低方差；2.深度為 4 時將有低偏差同低方差。注意：所有其他超參數係相同嘅，所有其他因子唔受影響。\nA. 1 同 2\nB. 淨係 2\nC. 冇一個\nD. 淨係 1\n回應：D\n\n樣例：\n問題：下列邊啲方法唔可以用嚟對高維數據進行降維\nA. LASSO\nB. Bagging\nC. 主成分分析法\nD. 聚類分析\n回應：B\n\n樣例：\n問題：機器學習中L1正則化同L2正則化嘅區別係\nA. 使用L1可以得到稀疏、平滑嘅權值\nB. 使用L2可以得到稀疏、平滑嘅權值\nC. 使用L1可以得到稀疏嘅權值、使用L2可以得到平滑嘅權值\nD. 使用L2可以得到稀疏嘅權值、使用L1可以得到平滑嘅權值\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列關於隱馬模型同條件隨機場模型嘅講法中錯誤嘅係?\nA. 隱馬模型同隱馬模型隱可用於命名實體識別、分詞同詞性標注嘅任務\nB. 隱馬模型同隱馬模型都係生成模型\nC. 隱馬模型唔係概率無向圖模型\nD. 特徵嘅揀同優化會嚴重影響隱馬模型嘅結果\n答案：",
+        "prediction": [
+            "The correct answer is D. 特徵嘅揀同優化會嚴重影響隱馬模型嘅結果。\n\nNote that the other options are correct:\n\n* A. 隱馬模型同隱馬模型隱可用於命名實體識別、分詞同詞性標注嘅任務 (Hidden Markov Model and Conditional Random Field are both used in NLP tasks such as named entity recognition, part-of-speech tagging, and sentiment analysis)\n* B. 隱馬模型同隱馬模型都係生成模型 (Both Hidden Markov Model and Conditional Random Field are generative models)\n* C. 隱馬模型唔係概率無向圖模型 (Hidden Markov Model is a probabilistic graphical model, whereas Conditional Random Field is not)"
+        ],
+        "gold": "B"
+    },
+    "6": {
+        "origin_prompt": "樣例：\n問題：深度學習中遇見過擬合下列邊個處理辦法唔可取\nA. 加dropout層\nB. 加深層數\nC. 數據增強\nD. 加正則項\n回應：B\n\n樣例：\n問題：假設我哋有一個數據集，喺一個深度為 6 嘅決策樹嘅幫助下，佢可以使用 100% 嘅精確度被訓練。依家考慮一下兩點，並基於呢兩點揀正確嘅選項。1.深度為 4 時將有高偏差同低方差；2.深度為 4 時將有低偏差同低方差。注意：所有其他超參數係相同嘅，所有其他因子唔受影響。\nA. 1 同 2\nB. 淨係 2\nC. 冇一個\nD. 淨係 1\n回應：D\n\n樣例：\n問題：下列邊啲方法唔可以用嚟對高維數據進行降維\nA. LASSO\nB. Bagging\nC. 主成分分析法\nD. 聚類分析\n回應：B\n\n樣例：\n問題：機器學習中L1正則化同L2正則化嘅區別係\nA. 使用L1可以得到稀疏、平滑嘅權值\nB. 使用L2可以得到稀疏、平滑嘅權值\nC. 使用L1可以得到稀疏嘅權值、使用L2可以得到平滑嘅權值\nD. 使用L2可以得到稀疏嘅權值、使用L1可以得到平滑嘅權值\n回應：C\n\n樣例：\n問題：下列關於隱馬模型同條件隨機場模型嘅講法中錯誤嘅係?\nA. 隱馬模型同隱馬模型隱可用於命名實體識別、分詞同詞性標注嘅任務\nB. 隱馬模型同隱馬模型都係生成模型\nC. 隱馬模型唔係概率無向圖模型\nD. 特徵嘅揀同優化會嚴重影響隱馬模型嘅結果\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下面邊個/啲超參數嘅增加可能會造成隨機森林數據過擬合\nA. 學習速率\nB. 樹嘅數量\nC. 樹嘅深度\nD. 以上都唔係\n答案：",
+        "prediction": [
+            "D. 以上都唔係\n\n隨機森林中，增加樹的數量或樹的深度可能會提高模型的性能，但也可能會導致過擬合。增加學習速率可能會導致模型的不穩定。因此，以上三個選項都可能會造成隨機森林數據過擬合。"
+        ],
+        "gold": "C"
+    },
+    "7": {
+        "origin_prompt": "樣例：\n問題：假設我哋有一個數據集，喺一個深度為 6 嘅決策樹嘅幫助下，佢可以使用 100% 嘅精確度被訓練。依家考慮一下兩點，並基於呢兩點揀正確嘅選項。1.深度為 4 時將有高偏差同低方差；2.深度為 4 時將有低偏差同低方差。注意：所有其他超參數係相同嘅，所有其他因子唔受影響。\nA. 1 同 2\nB. 淨係 2\nC. 冇一個\nD. 淨係 1\n回應：D\n\n樣例：\n問題：下列邊啲方法唔可以用嚟對高維數據進行降維\nA. LASSO\nB. Bagging\nC. 主成分分析法\nD. 聚類分析\n回應：B\n\n樣例：\n問題：機器學習中L1正則化同L2正則化嘅區別係\nA. 使用L1可以得到稀疏、平滑嘅權值\nB. 使用L2可以得到稀疏、平滑嘅權值\nC. 使用L1可以得到稀疏嘅權值、使用L2可以得到平滑嘅權值\nD. 使用L2可以得到稀疏嘅權值、使用L1可以得到平滑嘅權值\n回應：C\n\n樣例：\n問題：下列關於隱馬模型同條件隨機場模型嘅講法中錯誤嘅係?\nA. 隱馬模型同隱馬模型隱可用於命名實體識別、分詞同詞性標注嘅任務\nB. 隱馬模型同隱馬模型都係生成模型\nC. 隱馬模型唔係概率無向圖模型\nD. 特徵嘅揀同優化會嚴重影響隱馬模型嘅結果\n回應：B\n\n樣例：\n問題：下面邊個/啲超參數嘅增加可能會造成隨機森林數據過擬合\nA. 學習速率\nB. 樹嘅數量\nC. 樹嘅深度\nD. 以上都唔係\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下面關於迭代二叉樹3代算法中講法錯誤嘅係\nA. 迭代二叉樹3代算法係一個二叉樹模型\nB. 信息增益可以用熵，而唔係GINI系數嚟計算\nC. 迭代二叉樹3代算法要求特徵必須離散化\nD. 揀信息增益最大嘅特徵，作為樹嘅根節點\n答案：",
+        "prediction": [
+            "The correct answer is D. 揀信息增益最大嘅特徵，作為樹嘅根節點。\n\nThe Iterative Dichotomizer 3 (ID3) algorithm is a decision tree algorithm that uses information gain to select the best feature to split at each node. The algorithm does not require the features to be discrete, and it does not use the Gini index to calculate information gain. Therefore, options B and C are incorrect.\n\nOption A is also incorrect because ID3 is not a binary tree model, but rather a decision tree algorithm that can be used to build a binary tree.\n\nOption D is the correct answer because ID3 selects the feature with the highest information gain as the root node, not the feature with the maximum information gain."
+        ],
+        "gold": "A"
+    },
+    "8": {
+        "origin_prompt": "樣例：\n問題：下列邊啲方法唔可以用嚟對高維數據進行降維\nA. LASSO\nB. Bagging\nC. 主成分分析法\nD. 聚類分析\n回應：B\n\n樣例：\n問題：機器學習中L1正則化同L2正則化嘅區別係\nA. 使用L1可以得到稀疏、平滑嘅權值\nB. 使用L2可以得到稀疏、平滑嘅權值\nC. 使用L1可以得到稀疏嘅權值、使用L2可以得到平滑嘅權值\nD. 使用L2可以得到稀疏嘅權值、使用L1可以得到平滑嘅權值\n回應：C\n\n樣例：\n問題：下列關於隱馬模型同條件隨機場模型嘅講法中錯誤嘅係?\nA. 隱馬模型同隱馬模型隱可用於命名實體識別、分詞同詞性標注嘅任務\nB. 隱馬模型同隱馬模型都係生成模型\nC. 隱馬模型唔係概率無向圖模型\nD. 特徵嘅揀同優化會嚴重影響隱馬模型嘅結果\n回應：B\n\n樣例：\n問題：下面邊個/啲超參數嘅增加可能會造成隨機森林數據過擬合\nA. 學習速率\nB. 樹嘅數量\nC. 樹嘅深度\nD. 以上都唔係\n回應：C\n\n樣例：\n問題：下面關於迭代二叉樹3代算法中講法錯誤嘅係\nA. 迭代二叉樹3代算法係一個二叉樹模型\nB. 信息增益可以用熵，而唔係GINI系數嚟計算\nC. 迭代二叉樹3代算法要求特徵必須離散化\nD. 揀信息增益最大嘅特徵，作為樹嘅根節點\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下面邊個/啲選項對 K 摺交叉驗證嘅描述係正確嘅\nA. 如果 K=N，噉其稱為留一交叉驗證，其中 N 為驗證集入面嘅樣本數量\nB. 更大嘅 K 值相比於細 K 值將對交叉驗證結構有更高嘅信心\nC. 以上都係\nD. 增加 K 將導致交叉驗證結果時需要更多嘅時間\n答案：",
+        "prediction": [
+            "The correct answer is C."
+        ],
+        "gold": "C"
+    },
+    "9": {
+        "origin_prompt": "樣例：\n問題：機器學習中L1正則化同L2正則化嘅區別係\nA. 使用L1可以得到稀疏、平滑嘅權值\nB. 使用L2可以得到稀疏、平滑嘅權值\nC. 使用L1可以得到稀疏嘅權值、使用L2可以得到平滑嘅權值\nD. 使用L2可以得到稀疏嘅權值、使用L1可以得到平滑嘅權值\n回應：C\n\n樣例：\n問題：下列關於隱馬模型同條件隨機場模型嘅講法中錯誤嘅係?\nA. 隱馬模型同隱馬模型隱可用於命名實體識別、分詞同詞性標注嘅任務\nB. 隱馬模型同隱馬模型都係生成模型\nC. 隱馬模型唔係概率無向圖模型\nD. 特徵嘅揀同優化會嚴重影響隱馬模型嘅結果\n回應：B\n\n樣例：\n問題：下面邊個/啲超參數嘅增加可能會造成隨機森林數據過擬合\nA. 學習速率\nB. 樹嘅數量\nC. 樹嘅深度\nD. 以上都唔係\n回應：C\n\n樣例：\n問題：下面關於迭代二叉樹3代算法中講法錯誤嘅係\nA. 迭代二叉樹3代算法係一個二叉樹模型\nB. 信息增益可以用熵，而唔係GINI系數嚟計算\nC. 迭代二叉樹3代算法要求特徵必須離散化\nD. 揀信息增益最大嘅特徵，作為樹嘅根節點\n回應：A\n\n樣例：\n問題：下面邊個/啲選項對 K 摺交叉驗證嘅描述係正確嘅\nA. 如果 K=N，噉其稱為留一交叉驗證，其中 N 為驗證集入面嘅樣本數量\nB. 更大嘅 K 值相比於細 K 值將對交叉驗證結構有更高嘅信心\nC. 以上都係\nD. 增加 K 將導致交叉驗證結果時需要更多嘅時間\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：已知有m個樣本，進行n（n<=m）次抽樣。bootstrap數據係咩意思？\nA. 無放返地下總共N個樣本中抽樣n個樣本\nB. 無放返地下總共M個特徵中抽樣m個特徵\nC. 有放返地下總共N個樣本中抽樣n個樣本\nD. 有放返地下總共M個特徵中抽樣m個特徵\n答案：",
+        "prediction": [
+            "The correct answer is C. 有放返地下總共N個樣本中抽樣n個樣本。\n\nBootstrap sampling is a resampling technique where a dataset is randomly sampled with replacement from the original dataset. This means that each sample may contain duplicate instances, and some instances may not be included at all. The bootstrap sample is used to estimate the performance of a machine learning model or to evaluate its robustness."
+        ],
+        "gold": "C"
+    },
+    "10": {
+        "origin_prompt": "樣例：\n問題：下列關於隱馬模型同條件隨機場模型嘅講法中錯誤嘅係?\nA. 隱馬模型同隱馬模型隱可用於命名實體識別、分詞同詞性標注嘅任務\nB. 隱馬模型同隱馬模型都係生成模型\nC. 隱馬模型唔係概率無向圖模型\nD. 特徵嘅揀同優化會嚴重影響隱馬模型嘅結果\n回應：B\n\n樣例：\n問題：下面邊個/啲超參數嘅增加可能會造成隨機森林數據過擬合\nA. 學習速率\nB. 樹嘅數量\nC. 樹嘅深度\nD. 以上都唔係\n回應：C\n\n樣例：\n問題：下面關於迭代二叉樹3代算法中講法錯誤嘅係\nA. 迭代二叉樹3代算法係一個二叉樹模型\nB. 信息增益可以用熵，而唔係GINI系數嚟計算\nC. 迭代二叉樹3代算法要求特徵必須離散化\nD. 揀信息增益最大嘅特徵，作為樹嘅根節點\n回應：A\n\n樣例：\n問題：下面邊個/啲選項對 K 摺交叉驗證嘅描述係正確嘅\nA. 如果 K=N，噉其稱為留一交叉驗證，其中 N 為驗證集入面嘅樣本數量\nB. 更大嘅 K 值相比於細 K 值將對交叉驗證結構有更高嘅信心\nC. 以上都係\nD. 增加 K 將導致交叉驗證結果時需要更多嘅時間\n回應：C\n\n樣例：\n問題：已知有m個樣本，進行n（n<=m）次抽樣。bootstrap數據係咩意思？\nA. 無放返地下總共N個樣本中抽樣n個樣本\nB. 無放返地下總共M個特徵中抽樣m個特徵\nC. 有放返地下總共N個樣本中抽樣n個樣本\nD. 有放返地下總共M個特徵中抽樣m個特徵\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：如果以特徵向量嘅相關系數作為模式相似性測度，則影響聚類算法結果嘅主要因素有\nA. 量綱\nB. 已知類別樣本質量\nC. 以上都唔係\nD. 分類準則\n答案：",
+        "prediction": [
+            "The correct answer is A. 量綱.\n\nThe correlation coefficient of feature vectors is a common measure of similarity used in clustering algorithms. The main factors that affect the clustering algorithm's results when using this measure are:\n\n1. Scale: The scale of the feature values can significantly impact the clustering results. If the features have different scales, the correlation coefficient may not accurately capture the similarity between samples.\n2. Feature selection: The selection of features can also influence the clustering results. Features that are highly correlated with each other may lead to poor clustering performance.\n\nTherefore, the correct answer is A. 量綱 (Scale)."
+        ],
+        "gold": "D"
+    },
+    "11": {
+        "origin_prompt": "樣例：\n問題：下面邊個/啲超參數嘅增加可能會造成隨機森林數據過擬合\nA. 學習速率\nB. 樹嘅數量\nC. 樹嘅深度\nD. 以上都唔係\n回應：C\n\n樣例：\n問題：下面關於迭代二叉樹3代算法中講法錯誤嘅係\nA. 迭代二叉樹3代算法係一個二叉樹模型\nB. 信息增益可以用熵，而唔係GINI系數嚟計算\nC. 迭代二叉樹3代算法要求特徵必須離散化\nD. 揀信息增益最大嘅特徵，作為樹嘅根節點\n回應：A\n\n樣例：\n問題：下面邊個/啲選項對 K 摺交叉驗證嘅描述係正確嘅\nA. 如果 K=N，噉其稱為留一交叉驗證，其中 N 為驗證集入面嘅樣本數量\nB. 更大嘅 K 值相比於細 K 值將對交叉驗證結構有更高嘅信心\nC. 以上都係\nD. 增加 K 將導致交叉驗證結果時需要更多嘅時間\n回應：C\n\n樣例：\n問題：已知有m個樣本，進行n（n<=m）次抽樣。bootstrap數據係咩意思？\nA. 無放返地下總共N個樣本中抽樣n個樣本\nB. 無放返地下總共M個特徵中抽樣m個特徵\nC. 有放返地下總共N個樣本中抽樣n個樣本\nD. 有放返地下總共M個特徵中抽樣m個特徵\n回應：C\n\n樣例：\n問題：如果以特徵向量嘅相關系數作為模式相似性測度，則影響聚類算法結果嘅主要因素有\nA. 量綱\nB. 已知類別樣本質量\nC. 以上都唔係\nD. 分類準則\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：模型訓練過程中，我哋一般將數據分成\nA. 驗證集\nB. 測試集\nC. 訓練集\nD. 其他選項均可\n答案：",
+        "prediction": [
+            "C. 訓練集"
+        ],
+        "gold": "D"
+    },
+    "12": {
+        "origin_prompt": "樣例：\n問題：下面關於迭代二叉樹3代算法中講法錯誤嘅係\nA. 迭代二叉樹3代算法係一個二叉樹模型\nB. 信息增益可以用熵，而唔係GINI系數嚟計算\nC. 迭代二叉樹3代算法要求特徵必須離散化\nD. 揀信息增益最大嘅特徵，作為樹嘅根節點\n回應：A\n\n樣例：\n問題：下面邊個/啲選項對 K 摺交叉驗證嘅描述係正確嘅\nA. 如果 K=N，噉其稱為留一交叉驗證，其中 N 為驗證集入面嘅樣本數量\nB. 更大嘅 K 值相比於細 K 值將對交叉驗證結構有更高嘅信心\nC. 以上都係\nD. 增加 K 將導致交叉驗證結果時需要更多嘅時間\n回應：C\n\n樣例：\n問題：已知有m個樣本，進行n（n<=m）次抽樣。bootstrap數據係咩意思？\nA. 無放返地下總共N個樣本中抽樣n個樣本\nB. 無放返地下總共M個特徵中抽樣m個特徵\nC. 有放返地下總共N個樣本中抽樣n個樣本\nD. 有放返地下總共M個特徵中抽樣m個特徵\n回應：C\n\n樣例：\n問題：如果以特徵向量嘅相關系數作為模式相似性測度，則影響聚類算法結果嘅主要因素有\nA. 量綱\nB. 已知類別樣本質量\nC. 以上都唔係\nD. 分類準則\n回應：D\n\n樣例：\n問題：模型訓練過程中，我哋一般將數據分成\nA. 驗證集\nB. 測試集\nC. 訓練集\nD. 其他選項均可\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：你正在使用帶有 L1 正則化嘅 logistic 回歸做二分類，其中 C 係正則化參數，w1 同 w2 係 x1 同 x2 嘅系數。當你把 C 值由 0 增加至非常大嘅值時，下面邊個選項係正確嘅\nA. 第一個 w1 成咗 0，接住 w2 都成咗 0\nB. w1 同 w2 同時成咗 0\nC. 第一個 w2 成咗 0，接住 w1 都成咗 0\nD. 即使喺 C 成為大值之後，w1 同 w2 都唔能成 0\n答案：",
+        "prediction": [
+            "The correct answer is D. 即使喺 C 成為大值之後，w1 同 w2 都唔能成 0\n\nWhen the L1 regularization parameter C is increased, the model will tend to set some of the coefficients (in this case, w1 and w2) to zero. However, it's not guaranteed that both w1 and w2 will become zero simultaneously. The model may set one of them to zero first, and then the other one to zero as C continues to increase. Therefore, option D is the correct answer."
+        ],
+        "gold": "D"
+    },
+    "13": {
+        "origin_prompt": "樣例：\n問題：下面邊個/啲選項對 K 摺交叉驗證嘅描述係正確嘅\nA. 如果 K=N，噉其稱為留一交叉驗證，其中 N 為驗證集入面嘅樣本數量\nB. 更大嘅 K 值相比於細 K 值將對交叉驗證結構有更高嘅信心\nC. 以上都係\nD. 增加 K 將導致交叉驗證結果時需要更多嘅時間\n回應：C\n\n樣例：\n問題：已知有m個樣本，進行n（n<=m）次抽樣。bootstrap數據係咩意思？\nA. 無放返地下總共N個樣本中抽樣n個樣本\nB. 無放返地下總共M個特徵中抽樣m個特徵\nC. 有放返地下總共N個樣本中抽樣n個樣本\nD. 有放返地下總共M個特徵中抽樣m個特徵\n回應：C\n\n樣例：\n問題：如果以特徵向量嘅相關系數作為模式相似性測度，則影響聚類算法結果嘅主要因素有\nA. 量綱\nB. 已知類別樣本質量\nC. 以上都唔係\nD. 分類準則\n回應：D\n\n樣例：\n問題：模型訓練過程中，我哋一般將數據分成\nA. 驗證集\nB. 測試集\nC. 訓練集\nD. 其他選項均可\n回應：D\n\n樣例：\n問題：你正在使用帶有 L1 正則化嘅 logistic 回歸做二分類，其中 C 係正則化參數，w1 同 w2 係 x1 同 x2 嘅系數。當你把 C 值由 0 增加至非常大嘅值時，下面邊個選項係正確嘅\nA. 第一個 w1 成咗 0，接住 w2 都成咗 0\nB. w1 同 w2 同時成咗 0\nC. 第一個 w2 成咗 0，接住 w1 都成咗 0\nD. 即使喺 C 成為大值之後，w1 同 w2 都唔能成 0\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列方法中，唔可以用於特徵降維嘅方法包括\nA. 深度學習SparseAutoEncoder\nB. 矩陣奇異值分解SVD\nC. 線性判別分析\nD. 主成分分析\n答案：",
+        "prediction": [
+            "C. 線性判別分析"
+        ],
+        "gold": "A"
+    },
+    "14": {
+        "origin_prompt": "樣例：\n問題：已知有m個樣本，進行n（n<=m）次抽樣。bootstrap數據係咩意思？\nA. 無放返地下總共N個樣本中抽樣n個樣本\nB. 無放返地下總共M個特徵中抽樣m個特徵\nC. 有放返地下總共N個樣本中抽樣n個樣本\nD. 有放返地下總共M個特徵中抽樣m個特徵\n回應：C\n\n樣例：\n問題：如果以特徵向量嘅相關系數作為模式相似性測度，則影響聚類算法結果嘅主要因素有\nA. 量綱\nB. 已知類別樣本質量\nC. 以上都唔係\nD. 分類準則\n回應：D\n\n樣例：\n問題：模型訓練過程中，我哋一般將數據分成\nA. 驗證集\nB. 測試集\nC. 訓練集\nD. 其他選項均可\n回應：D\n\n樣例：\n問題：你正在使用帶有 L1 正則化嘅 logistic 回歸做二分類，其中 C 係正則化參數，w1 同 w2 係 x1 同 x2 嘅系數。當你把 C 值由 0 增加至非常大嘅值時，下面邊個選項係正確嘅\nA. 第一個 w1 成咗 0，接住 w2 都成咗 0\nB. w1 同 w2 同時成咗 0\nC. 第一個 w2 成咗 0，接住 w1 都成咗 0\nD. 即使喺 C 成為大值之後，w1 同 w2 都唔能成 0\n回應：D\n\n樣例：\n問題：下列方法中，唔可以用於特徵降維嘅方法包括\nA. 深度學習SparseAutoEncoder\nB. 矩陣奇異值分解SVD\nC. 線性判別分析\nD. 主成分分析\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：貝葉斯定理求得係咩概率?\nA. 先驗概率\nB. 其他選項都唔係\nC. 條件概率\nD. 聯合概率\n答案：",
+        "prediction": [
+            "The correct answer is D. 聯合概率 (Joint probability)."
+        ],
+        "gold": "C"
+    },
+    "15": {
+        "origin_prompt": "樣例：\n問題：如果以特徵向量嘅相關系數作為模式相似性測度，則影響聚類算法結果嘅主要因素有\nA. 量綱\nB. 已知類別樣本質量\nC. 以上都唔係\nD. 分類準則\n回應：D\n\n樣例：\n問題：模型訓練過程中，我哋一般將數據分成\nA. 驗證集\nB. 測試集\nC. 訓練集\nD. 其他選項均可\n回應：D\n\n樣例：\n問題：你正在使用帶有 L1 正則化嘅 logistic 回歸做二分類，其中 C 係正則化參數，w1 同 w2 係 x1 同 x2 嘅系數。當你把 C 值由 0 增加至非常大嘅值時，下面邊個選項係正確嘅\nA. 第一個 w1 成咗 0，接住 w2 都成咗 0\nB. w1 同 w2 同時成咗 0\nC. 第一個 w2 成咗 0，接住 w1 都成咗 0\nD. 即使喺 C 成為大值之後，w1 同 w2 都唔能成 0\n回應：D\n\n樣例：\n問題：下列方法中，唔可以用於特徵降維嘅方法包括\nA. 深度學習SparseAutoEncoder\nB. 矩陣奇異值分解SVD\nC. 線性判別分析\nD. 主成分分析\n回應：A\n\n樣例：\n問題：貝葉斯定理求得係咩概率?\nA. 先驗概率\nB. 其他選項都唔係\nC. 條件概率\nD. 聯合概率\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺機器學習中，解釋學習器泛化性能中經常用到偏差-方差分解，下列講法唔正確嘅係\nA. 方差體現嘅係學習器預測嘅穩定性\nB. 偏差體現嘅係學習器預測嘅準確度\nC. 泛化性能係由學習算法嘅能力、數據嘅充分性以及學習任務本身嘅難度所共同決定嘅\nD. 方差指嘅係預測嘅期望值同真實值嘅偏差\n答案：",
+        "prediction": [
+            "The correct answer is:\n\nD. 方差指嘅係預測嘅期望值同真實值嘅偏差\n\nExplanation:\n\n* 偏差 (Bias) refers to the difference between the expected value of the model's predictions and the true value. A high bias means that the model is too simple and cannot capture the underlying patterns in the data.\n* 方差 (Variance) refers to the spread of the model's predictions around the expected value. A high variance means that the model is overfitting and is sensitive to small changes in the data.\n\nSo, option D is incorrect because variance is not the difference between the expected value and the true value, but rather the spread of the predictions around the expected value."
+        ],
+        "gold": "D"
+    },
+    "16": {
+        "origin_prompt": "樣例：\n問題：模型訓練過程中，我哋一般將數據分成\nA. 驗證集\nB. 測試集\nC. 訓練集\nD. 其他選項均可\n回應：D\n\n樣例：\n問題：你正在使用帶有 L1 正則化嘅 logistic 回歸做二分類，其中 C 係正則化參數，w1 同 w2 係 x1 同 x2 嘅系數。當你把 C 值由 0 增加至非常大嘅值時，下面邊個選項係正確嘅\nA. 第一個 w1 成咗 0，接住 w2 都成咗 0\nB. w1 同 w2 同時成咗 0\nC. 第一個 w2 成咗 0，接住 w1 都成咗 0\nD. 即使喺 C 成為大值之後，w1 同 w2 都唔能成 0\n回應：D\n\n樣例：\n問題：下列方法中，唔可以用於特徵降維嘅方法包括\nA. 深度學習SparseAutoEncoder\nB. 矩陣奇異值分解SVD\nC. 線性判別分析\nD. 主成分分析\n回應：A\n\n樣例：\n問題：貝葉斯定理求得係咩概率?\nA. 先驗概率\nB. 其他選項都唔係\nC. 條件概率\nD. 聯合概率\n回應：C\n\n樣例：\n問題：喺機器學習中，解釋學習器泛化性能中經常用到偏差-方差分解，下列講法唔正確嘅係\nA. 方差體現嘅係學習器預測嘅穩定性\nB. 偏差體現嘅係學習器預測嘅準確度\nC. 泛化性能係由學習算法嘅能力、數據嘅充分性以及學習任務本身嘅難度所共同決定嘅\nD. 方差指嘅係預測嘅期望值同真實值嘅偏差\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：假如你用logistic Regression 算法去預測電腦銷量，當你喺新嘅測試集上驗證你嘅假設時，發現預測值有好大嘅偏差，並且你嘅假設喺訓練集上表現都好差，下面啲步驟你應該避免採納\nA. 嘗試住減細正則項 λ\nB. 嘗試增加交叉特徵\nC. 增加樣本量\nD. 嘗試更細嘅測試集或者特徵\n答案：",
+        "prediction": [
+            "D\n\nReasoning: If the model is performing poorly on both the training set and the new test set, it's likely that the issue is not with the regularization parameter λ or the number of samples, but rather with the underlying assumptions or features of the model. Increasing the size of the test set or adding more features may not address the fundamental problem."
+        ],
+        "gold": "D"
+    },
+    "17": {
+        "origin_prompt": "樣例：\n問題：你正在使用帶有 L1 正則化嘅 logistic 回歸做二分類，其中 C 係正則化參數，w1 同 w2 係 x1 同 x2 嘅系數。當你把 C 值由 0 增加至非常大嘅值時，下面邊個選項係正確嘅\nA. 第一個 w1 成咗 0，接住 w2 都成咗 0\nB. w1 同 w2 同時成咗 0\nC. 第一個 w2 成咗 0，接住 w1 都成咗 0\nD. 即使喺 C 成為大值之後，w1 同 w2 都唔能成 0\n回應：D\n\n樣例：\n問題：下列方法中，唔可以用於特徵降維嘅方法包括\nA. 深度學習SparseAutoEncoder\nB. 矩陣奇異值分解SVD\nC. 線性判別分析\nD. 主成分分析\n回應：A\n\n樣例：\n問題：貝葉斯定理求得係咩概率?\nA. 先驗概率\nB. 其他選項都唔係\nC. 條件概率\nD. 聯合概率\n回應：C\n\n樣例：\n問題：喺機器學習中，解釋學習器泛化性能中經常用到偏差-方差分解，下列講法唔正確嘅係\nA. 方差體現嘅係學習器預測嘅穩定性\nB. 偏差體現嘅係學習器預測嘅準確度\nC. 泛化性能係由學習算法嘅能力、數據嘅充分性以及學習任務本身嘅難度所共同決定嘅\nD. 方差指嘅係預測嘅期望值同真實值嘅偏差\n回應：D\n\n樣例：\n問題：假如你用logistic Regression 算法去預測電腦銷量，當你喺新嘅測試集上驗證你嘅假設時，發現預測值有好大嘅偏差，並且你嘅假設喺訓練集上表現都好差，下面啲步驟你應該避免採納\nA. 嘗試住減細正則項 λ\nB. 嘗試增加交叉特徵\nC. 增加樣本量\nD. 嘗試更細嘅測試集或者特徵\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以P(w)表示詞條w嘅概率，假設已知P（南京）=0.8，P（市長）=0.6，P（江大橋）=0.4：P（南京市）=0.3，P（長江大橋）=0.5：如果假設前後兩個詞嘅出現係獨立嘅，噉分詞結果就係\nA. 南京_市長_江大橋\nB. 南京市_長江_大橋\nC. 南京市長_江大橋\nD. 南京市_長江大橋\n答案：",
+        "prediction": [
+            "According to the given probability values:\n\nP(w) = P(南京) = 0.8\nP(市長) = 0.6\nP(江大橋) = 0.4\n\nP(南京市) = 0.3\nP(長江大橋) = 0.5\n\nSince the appearance of the two words is independent, we can calculate the probability of the sequence by multiplying the probabilities of each word:\n\nP(南京_市長_江大橋) = P(南京) × P(市長) × P(江大橋) = 0.8 × 0.6 × 0.4 = 0.192\n\nP(南京市_長江_大橋) = P(南京市) × P(長江) × P(大橋) = 0.3 × 0.5 × 0.4 = 0.06\n\nP(南京市長_江大橋) = P(南京市) × P(市長) × P(江大橋) = 0.3 × 0.6 × 0.4 = 0.072\n\nP(南京市_長江大橋) = P(南京市) × P(長江大橋) = 0.3 × 0.5 = 0.15\n\nThe maximum probability is 0.192, which corresponds to the sequence:\n\nA. 南京_市長_江大橋\n\nTherefore, the correct answer is A."
+        ],
+        "gold": "A"
+    },
+    "18": {
+        "origin_prompt": "樣例：\n問題：下列方法中，唔可以用於特徵降維嘅方法包括\nA. 深度學習SparseAutoEncoder\nB. 矩陣奇異值分解SVD\nC. 線性判別分析\nD. 主成分分析\n回應：A\n\n樣例：\n問題：貝葉斯定理求得係咩概率?\nA. 先驗概率\nB. 其他選項都唔係\nC. 條件概率\nD. 聯合概率\n回應：C\n\n樣例：\n問題：喺機器學習中，解釋學習器泛化性能中經常用到偏差-方差分解，下列講法唔正確嘅係\nA. 方差體現嘅係學習器預測嘅穩定性\nB. 偏差體現嘅係學習器預測嘅準確度\nC. 泛化性能係由學習算法嘅能力、數據嘅充分性以及學習任務本身嘅難度所共同決定嘅\nD. 方差指嘅係預測嘅期望值同真實值嘅偏差\n回應：D\n\n樣例：\n問題：假如你用logistic Regression 算法去預測電腦銷量，當你喺新嘅測試集上驗證你嘅假設時，發現預測值有好大嘅偏差，並且你嘅假設喺訓練集上表現都好差，下面啲步驟你應該避免採納\nA. 嘗試住減細正則項 λ\nB. 嘗試增加交叉特徵\nC. 增加樣本量\nD. 嘗試更細嘅測試集或者特徵\n回應：D\n\n樣例：\n問題：以P(w)表示詞條w嘅概率，假設已知P（南京）=0.8，P（市長）=0.6，P（江大橋）=0.4：P（南京市）=0.3，P（長江大橋）=0.5：如果假設前後兩個詞嘅出現係獨立嘅，噉分詞結果就係\nA. 南京_市長_江大橋\nB. 南京市_長江_大橋\nC. 南京市長_江大橋\nD. 南京市_長江大橋\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：對數幾率回歸（logistics regression）同一般回歸分析有咩區別\nA. 對數幾率回歸係設計用嚟預測事件可能性嘅\nB. 對數幾率回歸可以用嚟估計回歸系數\nC. 以上都係\nD. 對數幾率回歸可以用嚟度量模型擬合程度\n答案：",
+        "prediction": [
+            "C. 以上都係"
+        ],
+        "gold": "C"
+    },
+    "19": {
+        "origin_prompt": "樣例：\n問題：貝葉斯定理求得係咩概率?\nA. 先驗概率\nB. 其他選項都唔係\nC. 條件概率\nD. 聯合概率\n回應：C\n\n樣例：\n問題：喺機器學習中，解釋學習器泛化性能中經常用到偏差-方差分解，下列講法唔正確嘅係\nA. 方差體現嘅係學習器預測嘅穩定性\nB. 偏差體現嘅係學習器預測嘅準確度\nC. 泛化性能係由學習算法嘅能力、數據嘅充分性以及學習任務本身嘅難度所共同決定嘅\nD. 方差指嘅係預測嘅期望值同真實值嘅偏差\n回應：D\n\n樣例：\n問題：假如你用logistic Regression 算法去預測電腦銷量，當你喺新嘅測試集上驗證你嘅假設時，發現預測值有好大嘅偏差，並且你嘅假設喺訓練集上表現都好差，下面啲步驟你應該避免採納\nA. 嘗試住減細正則項 λ\nB. 嘗試增加交叉特徵\nC. 增加樣本量\nD. 嘗試更細嘅測試集或者特徵\n回應：D\n\n樣例：\n問題：以P(w)表示詞條w嘅概率，假設已知P（南京）=0.8，P（市長）=0.6，P（江大橋）=0.4：P（南京市）=0.3，P（長江大橋）=0.5：如果假設前後兩個詞嘅出現係獨立嘅，噉分詞結果就係\nA. 南京_市長_江大橋\nB. 南京市_長江_大橋\nC. 南京市長_江大橋\nD. 南京市_長江大橋\n回應：A\n\n樣例：\n問題：對數幾率回歸（logistics regression）同一般回歸分析有咩區別\nA. 對數幾率回歸係設計用嚟預測事件可能性嘅\nB. 對數幾率回歸可以用嚟估計回歸系數\nC. 以上都係\nD. 對數幾率回歸可以用嚟度量模型擬合程度\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下面啲對「類型 1（Type-1）」同「類型 2（Type-2）」錯誤嘅描述係錯誤嘅\nA. 類型 1 錯誤通常喺其係正確嘅情況下拒絕假設而出現\nB. 類型 1 通常稱之為假正類，類型 2 通常稱之為假負類\nC. 以上都係\nD. 類型 2 通常稱之為假正類，類型 1 通常稱之為假負類\n答案：",
+        "prediction": [
+            "The correct answer is C. 以上都係 (Both A and B are correct.)\n\nType 1 error (α) refers to the probability of rejecting a true null hypothesis, also known as a \"false positive\" or \"Type I error\". This occurs when a true null hypothesis is rejected, resulting in a false positive conclusion.\n\nType 2 error (β) refers to the probability of failing to reject a false null hypothesis, also known as a \"false negative\" or \"Type II error\". This occurs when a false null hypothesis is not rejected, resulting in a false negative conclusion.\n\nSo, both A and B are correct, and the correct answer is C."
+        ],
+        "gold": "D"
+    },
+    "20": {
+        "origin_prompt": "樣例：\n問題：喺機器學習中，解釋學習器泛化性能中經常用到偏差-方差分解，下列講法唔正確嘅係\nA. 方差體現嘅係學習器預測嘅穩定性\nB. 偏差體現嘅係學習器預測嘅準確度\nC. 泛化性能係由學習算法嘅能力、數據嘅充分性以及學習任務本身嘅難度所共同決定嘅\nD. 方差指嘅係預測嘅期望值同真實值嘅偏差\n回應：D\n\n樣例：\n問題：假如你用logistic Regression 算法去預測電腦銷量，當你喺新嘅測試集上驗證你嘅假設時，發現預測值有好大嘅偏差，並且你嘅假設喺訓練集上表現都好差，下面啲步驟你應該避免採納\nA. 嘗試住減細正則項 λ\nB. 嘗試增加交叉特徵\nC. 增加樣本量\nD. 嘗試更細嘅測試集或者特徵\n回應：D\n\n樣例：\n問題：以P(w)表示詞條w嘅概率，假設已知P（南京）=0.8，P（市長）=0.6，P（江大橋）=0.4：P（南京市）=0.3，P（長江大橋）=0.5：如果假設前後兩個詞嘅出現係獨立嘅，噉分詞結果就係\nA. 南京_市長_江大橋\nB. 南京市_長江_大橋\nC. 南京市長_江大橋\nD. 南京市_長江大橋\n回應：A\n\n樣例：\n問題：對數幾率回歸（logistics regression）同一般回歸分析有咩區別\nA. 對數幾率回歸係設計用嚟預測事件可能性嘅\nB. 對數幾率回歸可以用嚟估計回歸系數\nC. 以上都係\nD. 對數幾率回歸可以用嚟度量模型擬合程度\n回應：C\n\n樣例：\n問題：下面啲對「類型 1（Type-1）」同「類型 2（Type-2）」錯誤嘅描述係錯誤嘅\nA. 類型 1 錯誤通常喺其係正確嘅情況下拒絕假設而出現\nB. 類型 1 通常稱之為假正類，類型 2 通常稱之為假負類\nC. 以上都係\nD. 類型 2 通常稱之為假正類，類型 1 通常稱之為假負類\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：影響基本K-均值算法嘅主要因素有\nA. 初始類中心嘅揀\nB. 聚類準則\nC. 樣本輸入順序\nD. 模式相似性測度\n答案：",
+        "prediction": [
+            "The correct answer is C. 樣本輸入順序。\n\nThe K-means algorithm is sensitive to the order in which the samples are input, as this can affect the initialization of the cluster centers and the subsequent clustering process. The other options are not correct:\n\nA. The initial choice of cluster centers can affect the clustering result, but it is not the main factor that influences the K-means algorithm.\n\nB. The clustering criterion is an important aspect of the K-means algorithm, but it is not the main factor that influences the algorithm.\n\nD. The similarity measure is not a factor that directly affects the K-means algorithm."
+        ],
+        "gold": "D"
+    },
+    "21": {
+        "origin_prompt": "樣例：\n問題：假如你用logistic Regression 算法去預測電腦銷量，當你喺新嘅測試集上驗證你嘅假設時，發現預測值有好大嘅偏差，並且你嘅假設喺訓練集上表現都好差，下面啲步驟你應該避免採納\nA. 嘗試住減細正則項 λ\nB. 嘗試增加交叉特徵\nC. 增加樣本量\nD. 嘗試更細嘅測試集或者特徵\n回應：D\n\n樣例：\n問題：以P(w)表示詞條w嘅概率，假設已知P（南京）=0.8，P（市長）=0.6，P（江大橋）=0.4：P（南京市）=0.3，P（長江大橋）=0.5：如果假設前後兩個詞嘅出現係獨立嘅，噉分詞結果就係\nA. 南京_市長_江大橋\nB. 南京市_長江_大橋\nC. 南京市長_江大橋\nD. 南京市_長江大橋\n回應：A\n\n樣例：\n問題：對數幾率回歸（logistics regression）同一般回歸分析有咩區別\nA. 對數幾率回歸係設計用嚟預測事件可能性嘅\nB. 對數幾率回歸可以用嚟估計回歸系數\nC. 以上都係\nD. 對數幾率回歸可以用嚟度量模型擬合程度\n回應：C\n\n樣例：\n問題：下面啲對「類型 1（Type-1）」同「類型 2（Type-2）」錯誤嘅描述係錯誤嘅\nA. 類型 1 錯誤通常喺其係正確嘅情況下拒絕假設而出現\nB. 類型 1 通常稱之為假正類，類型 2 通常稱之為假負類\nC. 以上都係\nD. 類型 2 通常稱之為假正類，類型 1 通常稱之為假負類\n回應：D\n\n樣例：\n問題：影響基本K-均值算法嘅主要因素有\nA. 初始類中心嘅揀\nB. 聚類準則\nC. 樣本輸入順序\nD. 模式相似性測度\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：高斯混合模型(GMM)係一種咩模型\nA. 無監督學習模型\nB. 其他選項都唔係\nC. 半監督學習模型\nD. 有監督學習模型\n答案：",
+        "prediction": [
+            "The correct answer is B. 其他選項都唔係 (Other options are not correct).\n\nGaussian Mixture Model (GMM) is a type of unsupervised learning model, which means it does not require labeled data for training. It is a probabilistic model that assumes the data is generated from a mixture of multiple Gaussian distributions."
+        ],
+        "gold": "A"
+    },
+    "22": {
+        "origin_prompt": "樣例：\n問題：以P(w)表示詞條w嘅概率，假設已知P（南京）=0.8，P（市長）=0.6，P（江大橋）=0.4：P（南京市）=0.3，P（長江大橋）=0.5：如果假設前後兩個詞嘅出現係獨立嘅，噉分詞結果就係\nA. 南京_市長_江大橋\nB. 南京市_長江_大橋\nC. 南京市長_江大橋\nD. 南京市_長江大橋\n回應：A\n\n樣例：\n問題：對數幾率回歸（logistics regression）同一般回歸分析有咩區別\nA. 對數幾率回歸係設計用嚟預測事件可能性嘅\nB. 對數幾率回歸可以用嚟估計回歸系數\nC. 以上都係\nD. 對數幾率回歸可以用嚟度量模型擬合程度\n回應：C\n\n樣例：\n問題：下面啲對「類型 1（Type-1）」同「類型 2（Type-2）」錯誤嘅描述係錯誤嘅\nA. 類型 1 錯誤通常喺其係正確嘅情況下拒絕假設而出現\nB. 類型 1 通常稱之為假正類，類型 2 通常稱之為假負類\nC. 以上都係\nD. 類型 2 通常稱之為假正類，類型 1 通常稱之為假負類\n回應：D\n\n樣例：\n問題：影響基本K-均值算法嘅主要因素有\nA. 初始類中心嘅揀\nB. 聚類準則\nC. 樣本輸入順序\nD. 模式相似性測度\n回應：D\n\n樣例：\n問題：高斯混合模型(GMM)係一種咩模型\nA. 無監督學習模型\nB. 其他選項都唔係\nC. 半監督學習模型\nD. 有監督學習模型\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：基於語法規則嘅方法為\nA. 條件隨機場\nB. 最大熵模型\nC. 句法、語義分析\nD. 最大熵隱馬爾科夫模型\n答案：",
+        "prediction": [
+            "C. 句法、語義分析"
+        ],
+        "gold": "B"
+    },
+    "23": {
+        "origin_prompt": "樣例：\n問題：對數幾率回歸（logistics regression）同一般回歸分析有咩區別\nA. 對數幾率回歸係設計用嚟預測事件可能性嘅\nB. 對數幾率回歸可以用嚟估計回歸系數\nC. 以上都係\nD. 對數幾率回歸可以用嚟度量模型擬合程度\n回應：C\n\n樣例：\n問題：下面啲對「類型 1（Type-1）」同「類型 2（Type-2）」錯誤嘅描述係錯誤嘅\nA. 類型 1 錯誤通常喺其係正確嘅情況下拒絕假設而出現\nB. 類型 1 通常稱之為假正類，類型 2 通常稱之為假負類\nC. 以上都係\nD. 類型 2 通常稱之為假正類，類型 1 通常稱之為假負類\n回應：D\n\n樣例：\n問題：影響基本K-均值算法嘅主要因素有\nA. 初始類中心嘅揀\nB. 聚類準則\nC. 樣本輸入順序\nD. 模式相似性測度\n回應：D\n\n樣例：\n問題：高斯混合模型(GMM)係一種咩模型\nA. 無監督學習模型\nB. 其他選項都唔係\nC. 半監督學習模型\nD. 有監督學習模型\n回應：A\n\n樣例：\n問題：基於語法規則嘅方法為\nA. 條件隨機場\nB. 最大熵模型\nC. 句法、語義分析\nD. 最大熵隱馬爾科夫模型\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：有兩個樣本點，第一個點為正樣本,佢嘅特徵向量係(0,-1);第二個點為負樣本,佢嘅特徵向量係(2,3),從呢兩個樣本點組成嘅訓練集構建一個線性SVM分類器嘅分類面方程係\nA. 2x-y=0\nB. x+2y=5\nC. x+2y=3\nD. 2x+y=4\n答案：",
+        "prediction": [
+            "The correct answer is A. 2x-y=0.\n\nHere's the explanation:\n\nWhen building a linear SVM classifier, the decision boundary is a hyperplane that separates the positive and negative samples. In this case, we have two samples: (0, -1) for the positive sample and (2, 3) for the negative sample.\n\nTo find the decision boundary, we can use the following formula:\n\nw^T x + b = 0\n\nwhere w is the weight vector, x is the feature vector, and b is the bias term.\n\nFrom the given sample points, we can write the following equations:\n\n0*w^T (0, -1) + b = 0 => b = 0\n\n2*w^T (2, 3) + b = 0 => 2w1 + 3w2 = 0\n\nSimplifying the second equation, we get:\n\nw1 = -3/2*w2\n\nSubstituting this into the first equation, we get:\n\n0 = 0 + b => b = 0\n\nSo, the decision boundary is a line that passes through the origin (0, 0). The slope of the line is -3/2, which means that for every 1 unit increase in x, y decreases by 3/2 units.\n\nThe equation of the line is therefore:\n\n2x - y = 0\n\nwhich is option A."
+        ],
+        "gold": "C"
+    },
+    "24": {
+        "origin_prompt": "樣例：\n問題：下面啲對「類型 1（Type-1）」同「類型 2（Type-2）」錯誤嘅描述係錯誤嘅\nA. 類型 1 錯誤通常喺其係正確嘅情況下拒絕假設而出現\nB. 類型 1 通常稱之為假正類，類型 2 通常稱之為假負類\nC. 以上都係\nD. 類型 2 通常稱之為假正類，類型 1 通常稱之為假負類\n回應：D\n\n樣例：\n問題：影響基本K-均值算法嘅主要因素有\nA. 初始類中心嘅揀\nB. 聚類準則\nC. 樣本輸入順序\nD. 模式相似性測度\n回應：D\n\n樣例：\n問題：高斯混合模型(GMM)係一種咩模型\nA. 無監督學習模型\nB. 其他選項都唔係\nC. 半監督學習模型\nD. 有監督學習模型\n回應：A\n\n樣例：\n問題：基於語法規則嘅方法為\nA. 條件隨機場\nB. 最大熵模型\nC. 句法、語義分析\nD. 最大熵隱馬爾科夫模型\n回應：B\n\n樣例：\n問題：有兩個樣本點，第一個點為正樣本,佢嘅特徵向量係(0,-1);第二個點為負樣本,佢嘅特徵向量係(2,3),從呢兩個樣本點組成嘅訓練集構建一個線性SVM分類器嘅分類面方程係\nA. 2x-y=0\nB. x+2y=5\nC. x+2y=3\nD. 2x+y=4\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：隱馬爾科夫模型，設其觀察值空間為 狀態空間為 如果用維特比算法(Viterbi algorithm)進行解碼，時間複雜度為\nA. O(NK)\nB. O(N^2K)\nC. 以上都唔係\nD. O(NK^2)\n答案：",
+        "prediction": [
+            "According to the Viterbi algorithm, the time complexity is O(NK), where N is the number of observations and K is the number of states. Therefore, the correct answer is:\n\nA. O(NK)"
+        ],
+        "gold": "C"
+    },
+    "25": {
+        "origin_prompt": "樣例：\n問題：影響基本K-均值算法嘅主要因素有\nA. 初始類中心嘅揀\nB. 聚類準則\nC. 樣本輸入順序\nD. 模式相似性測度\n回應：D\n\n樣例：\n問題：高斯混合模型(GMM)係一種咩模型\nA. 無監督學習模型\nB. 其他選項都唔係\nC. 半監督學習模型\nD. 有監督學習模型\n回應：A\n\n樣例：\n問題：基於語法規則嘅方法為\nA. 條件隨機場\nB. 最大熵模型\nC. 句法、語義分析\nD. 最大熵隱馬爾科夫模型\n回應：B\n\n樣例：\n問題：有兩個樣本點，第一個點為正樣本,佢嘅特徵向量係(0,-1);第二個點為負樣本,佢嘅特徵向量係(2,3),從呢兩個樣本點組成嘅訓練集構建一個線性SVM分類器嘅分類面方程係\nA. 2x-y=0\nB. x+2y=5\nC. x+2y=3\nD. 2x+y=4\n回應：C\n\n樣例：\n問題：隱馬爾科夫模型，設其觀察值空間為 狀態空間為 如果用維特比算法(Viterbi algorithm)進行解碼，時間複雜度為\nA. O(NK)\nB. O(N^2K)\nC. 以上都唔係\nD. O(NK^2)\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：假定你使用咗一個好大γ值嘅RBF核，呢個意味住：\nA. 模型唔會被點到超平面嘅距離所影響\nB. 以上都唔係\nC. 模型僅使用接近超平面嘅點嚟建模\nD. 模型將考慮使用遠離超平面嘅點建模\n答案：",
+        "prediction": [
+            "B. 以上都唔係"
+        ],
+        "gold": "C"
+    },
+    "26": {
+        "origin_prompt": "樣例：\n問題：高斯混合模型(GMM)係一種咩模型\nA. 無監督學習模型\nB. 其他選項都唔係\nC. 半監督學習模型\nD. 有監督學習模型\n回應：A\n\n樣例：\n問題：基於語法規則嘅方法為\nA. 條件隨機場\nB. 最大熵模型\nC. 句法、語義分析\nD. 最大熵隱馬爾科夫模型\n回應：B\n\n樣例：\n問題：有兩個樣本點，第一個點為正樣本,佢嘅特徵向量係(0,-1);第二個點為負樣本,佢嘅特徵向量係(2,3),從呢兩個樣本點組成嘅訓練集構建一個線性SVM分類器嘅分類面方程係\nA. 2x-y=0\nB. x+2y=5\nC. x+2y=3\nD. 2x+y=4\n回應：C\n\n樣例：\n問題：隱馬爾科夫模型，設其觀察值空間為 狀態空間為 如果用維特比算法(Viterbi algorithm)進行解碼，時間複雜度為\nA. O(NK)\nB. O(N^2K)\nC. 以上都唔係\nD. O(NK^2)\n回應：C\n\n樣例：\n問題：假定你使用咗一個好大γ值嘅RBF核，呢個意味住：\nA. 模型唔會被點到超平面嘅距離所影響\nB. 以上都唔係\nC. 模型僅使用接近超平面嘅點嚟建模\nD. 模型將考慮使用遠離超平面嘅點建模\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：關於 ARMA (auto regressive moving average model)（自回歸滑動平均模型）、 AR (auto regressive model)（自回歸模型）、 MA（滑動平均模型） 模型嘅功率譜，下列講法正確嘅係\nA. AR模型喺零點接近單位圓時，AR譜係一個尖峯\nB. MA模型係同一個全通濾波器產生嘅\nC. MA模型喺極點接近單位圓時，MA譜係一個深谷\nD. RMA譜既有尖峯又有深谷\n答案：",
+        "prediction": [
+            "The correct answer is D. RMA譜既有尖峯又有深谷.\n\nHere's a brief explanation:\n\n* AR (Auto Regressive) models have a spectral peak at zero frequency (DC component) and a spectral valley at high frequencies.\n* MA (Moving Average) models have a spectral peak at high frequencies and a spectral valley at zero frequency.\n* ARMA models combine the characteristics of both AR and MA models, resulting in a spectrum with both peaks and valleys.\n\nSo, option D is the correct answer."
+        ],
+        "gold": "D"
+    },
+    "27": {
+        "origin_prompt": "樣例：\n問題：基於語法規則嘅方法為\nA. 條件隨機場\nB. 最大熵模型\nC. 句法、語義分析\nD. 最大熵隱馬爾科夫模型\n回應：B\n\n樣例：\n問題：有兩個樣本點，第一個點為正樣本,佢嘅特徵向量係(0,-1);第二個點為負樣本,佢嘅特徵向量係(2,3),從呢兩個樣本點組成嘅訓練集構建一個線性SVM分類器嘅分類面方程係\nA. 2x-y=0\nB. x+2y=5\nC. x+2y=3\nD. 2x+y=4\n回應：C\n\n樣例：\n問題：隱馬爾科夫模型，設其觀察值空間為 狀態空間為 如果用維特比算法(Viterbi algorithm)進行解碼，時間複雜度為\nA. O(NK)\nB. O(N^2K)\nC. 以上都唔係\nD. O(NK^2)\n回應：C\n\n樣例：\n問題：假定你使用咗一個好大γ值嘅RBF核，呢個意味住：\nA. 模型唔會被點到超平面嘅距離所影響\nB. 以上都唔係\nC. 模型僅使用接近超平面嘅點嚟建模\nD. 模型將考慮使用遠離超平面嘅點建模\n回應：C\n\n樣例：\n問題：關於 ARMA (auto regressive moving average model)（自回歸滑動平均模型）、 AR (auto regressive model)（自回歸模型）、 MA（滑動平均模型） 模型嘅功率譜，下列講法正確嘅係\nA. AR模型喺零點接近單位圓時，AR譜係一個尖峯\nB. MA模型係同一個全通濾波器產生嘅\nC. MA模型喺極點接近單位圓時，MA譜係一個深谷\nD. RMA譜既有尖峯又有深谷\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：變量揀係用嚟揀最好嘅判別器子集，如果要考慮模型效率，我哋應該做除咗下列邊項嘅變量揀嘅考慮\nA. 交叉驗證\nB. 變量對於模型嘅解釋有幾大作用\nC. 特徵攜帶嘅信息\nD. 多個變量其實有相同嘅用處\n答案：",
+        "prediction": [
+            "The correct answer is D. 多個變量其實有相同嘅用處 (Multiple variables actually have the same purpose).\n\nThe question is asking about feature selection, which is the process of selecting the most relevant features to use in a model. The correct answer is D, which suggests that if multiple variables have the same purpose, we should consider excluding them from the model to improve its efficiency."
+        ],
+        "gold": "B"
+    },
+    "28": {
+        "origin_prompt": "樣例：\n問題：有兩個樣本點，第一個點為正樣本,佢嘅特徵向量係(0,-1);第二個點為負樣本,佢嘅特徵向量係(2,3),從呢兩個樣本點組成嘅訓練集構建一個線性SVM分類器嘅分類面方程係\nA. 2x-y=0\nB. x+2y=5\nC. x+2y=3\nD. 2x+y=4\n回應：C\n\n樣例：\n問題：隱馬爾科夫模型，設其觀察值空間為 狀態空間為 如果用維特比算法(Viterbi algorithm)進行解碼，時間複雜度為\nA. O(NK)\nB. O(N^2K)\nC. 以上都唔係\nD. O(NK^2)\n回應：C\n\n樣例：\n問題：假定你使用咗一個好大γ值嘅RBF核，呢個意味住：\nA. 模型唔會被點到超平面嘅距離所影響\nB. 以上都唔係\nC. 模型僅使用接近超平面嘅點嚟建模\nD. 模型將考慮使用遠離超平面嘅點建模\n回應：C\n\n樣例：\n問題：關於 ARMA (auto regressive moving average model)（自回歸滑動平均模型）、 AR (auto regressive model)（自回歸模型）、 MA（滑動平均模型） 模型嘅功率譜，下列講法正確嘅係\nA. AR模型喺零點接近單位圓時，AR譜係一個尖峯\nB. MA模型係同一個全通濾波器產生嘅\nC. MA模型喺極點接近單位圓時，MA譜係一個深谷\nD. RMA譜既有尖峯又有深谷\n回應：D\n\n樣例：\n問題：變量揀係用嚟揀最好嘅判別器子集，如果要考慮模型效率，我哋應該做除咗下列邊項嘅變量揀嘅考慮\nA. 交叉驗證\nB. 變量對於模型嘅解釋有幾大作用\nC. 特徵攜帶嘅信息\nD. 多個變量其實有相同嘅用處\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列時間序列模型中,邊一個模型可以較好地擬合波動性嘅分析同預測\nA. auto regressive model AR模型\nB. 自回歸滑動平均模型\nC. 滑動平均模型\nD. 廣義自回歸滑動平均模型\n答案：",
+        "prediction": [
+            "According to the characteristics of the models, the correct answer is:\n\nB. 自回歸滑動平均模型 (ARMA model)\n\nARMA models are suitable for modeling time series data with volatility, as they can capture both the autoregressive (AR) and moving average (MA) components of the data. This allows them to model complex patterns and volatility in the data, making them a good choice for analyzing and predicting time series data with non-stationary volatility."
+        ],
+        "gold": "D"
+    },
+    "29": {
+        "origin_prompt": "樣例：\n問題：隱馬爾科夫模型，設其觀察值空間為 狀態空間為 如果用維特比算法(Viterbi algorithm)進行解碼，時間複雜度為\nA. O(NK)\nB. O(N^2K)\nC. 以上都唔係\nD. O(NK^2)\n回應：C\n\n樣例：\n問題：假定你使用咗一個好大γ值嘅RBF核，呢個意味住：\nA. 模型唔會被點到超平面嘅距離所影響\nB. 以上都唔係\nC. 模型僅使用接近超平面嘅點嚟建模\nD. 模型將考慮使用遠離超平面嘅點建模\n回應：C\n\n樣例：\n問題：關於 ARMA (auto regressive moving average model)（自回歸滑動平均模型）、 AR (auto regressive model)（自回歸模型）、 MA（滑動平均模型） 模型嘅功率譜，下列講法正確嘅係\nA. AR模型喺零點接近單位圓時，AR譜係一個尖峯\nB. MA模型係同一個全通濾波器產生嘅\nC. MA模型喺極點接近單位圓時，MA譜係一個深谷\nD. RMA譜既有尖峯又有深谷\n回應：D\n\n樣例：\n問題：變量揀係用嚟揀最好嘅判別器子集，如果要考慮模型效率，我哋應該做除咗下列邊項嘅變量揀嘅考慮\nA. 交叉驗證\nB. 變量對於模型嘅解釋有幾大作用\nC. 特徵攜帶嘅信息\nD. 多個變量其實有相同嘅用處\n回應：B\n\n樣例：\n問題：下列時間序列模型中,邊一個模型可以較好地擬合波動性嘅分析同預測\nA. auto regressive model AR模型\nB. 自回歸滑動平均模型\nC. 滑動平均模型\nD. 廣義自回歸滑動平均模型\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：當我哋構造線性模型時, 我哋注意變量間嘅相關性. 喺相關矩陣中搜索相關系數時, 如果我哋發現3對變量嘅相關系數係(Var1 同Var2, Var2同Var3, Var3同Var1)係-0.98, 0.45, 1.23 . 我哋可以得出咩結論\nA. 以上都係\nB. 因為Var1同Var2係非常相關嘅, 我哋可以去除其中一個\nC. Var1同Var2係非常相關嘅\nD. Var3同Var1嘅1.23相關系數係唔可能嘅\n答案：",
+        "prediction": [
+            "D. Var3同Var1嘅1.23相關系數係唔可能嘅\n\nReasoning: The correlation coefficients are supposed to be between -1 and 1, inclusive. A value of 1.23 is not possible, as it exceeds the range of the correlation coefficient."
+        ],
+        "gold": "A"
+    },
+    "30": {
+        "origin_prompt": "樣例：\n問題：假定你使用咗一個好大γ值嘅RBF核，呢個意味住：\nA. 模型唔會被點到超平面嘅距離所影響\nB. 以上都唔係\nC. 模型僅使用接近超平面嘅點嚟建模\nD. 模型將考慮使用遠離超平面嘅點建模\n回應：C\n\n樣例：\n問題：關於 ARMA (auto regressive moving average model)（自回歸滑動平均模型）、 AR (auto regressive model)（自回歸模型）、 MA（滑動平均模型） 模型嘅功率譜，下列講法正確嘅係\nA. AR模型喺零點接近單位圓時，AR譜係一個尖峯\nB. MA模型係同一個全通濾波器產生嘅\nC. MA模型喺極點接近單位圓時，MA譜係一個深谷\nD. RMA譜既有尖峯又有深谷\n回應：D\n\n樣例：\n問題：變量揀係用嚟揀最好嘅判別器子集，如果要考慮模型效率，我哋應該做除咗下列邊項嘅變量揀嘅考慮\nA. 交叉驗證\nB. 變量對於模型嘅解釋有幾大作用\nC. 特徵攜帶嘅信息\nD. 多個變量其實有相同嘅用處\n回應：B\n\n樣例：\n問題：下列時間序列模型中,邊一個模型可以較好地擬合波動性嘅分析同預測\nA. auto regressive model AR模型\nB. 自回歸滑動平均模型\nC. 滑動平均模型\nD. 廣義自回歸滑動平均模型\n回應：D\n\n樣例：\n問題：當我哋構造線性模型時, 我哋注意變量間嘅相關性. 喺相關矩陣中搜索相關系數時, 如果我哋發現3對變量嘅相關系數係(Var1 同Var2, Var2同Var3, Var3同Var1)係-0.98, 0.45, 1.23 . 我哋可以得出咩結論\nA. 以上都係\nB. 因為Var1同Var2係非常相關嘅, 我哋可以去除其中一個\nC. Var1同Var2係非常相關嘅\nD. Var3同Var1嘅1.23相關系數係唔可能嘅\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：機器學習中做特徵選擇時，可能用到嘅方法有\nA. 以上都有\nB. 卡方\nC. 信息增益\nD. 期望交叉熵\n答案：",
+        "prediction": [
+            "A machine learning quiz! 😊\n\nThe correct answer is: A. 以上都有\n\nFeature selection is a crucial step in machine learning, and various methods can be used to select the most relevant features. Some common methods include:\n\n* Chi-squared test (B)\n* Information gain (C)\n* Mutual information\n* Recursive feature elimination\n* L1 regularization\n* Correlation analysis\n*...and many more!\n\nSo, the correct answer is \"A. 以上都有\", indicating that all the options listed are possible methods used in feature selection."
+        ],
+        "gold": "A"
+    },
+    "31": {
+        "origin_prompt": "樣例：\n問題：關於 ARMA (auto regressive moving average model)（自回歸滑動平均模型）、 AR (auto regressive model)（自回歸模型）、 MA（滑動平均模型） 模型嘅功率譜，下列講法正確嘅係\nA. AR模型喺零點接近單位圓時，AR譜係一個尖峯\nB. MA模型係同一個全通濾波器產生嘅\nC. MA模型喺極點接近單位圓時，MA譜係一個深谷\nD. RMA譜既有尖峯又有深谷\n回應：D\n\n樣例：\n問題：變量揀係用嚟揀最好嘅判別器子集，如果要考慮模型效率，我哋應該做除咗下列邊項嘅變量揀嘅考慮\nA. 交叉驗證\nB. 變量對於模型嘅解釋有幾大作用\nC. 特徵攜帶嘅信息\nD. 多個變量其實有相同嘅用處\n回應：B\n\n樣例：\n問題：下列時間序列模型中,邊一個模型可以較好地擬合波動性嘅分析同預測\nA. auto regressive model AR模型\nB. 自回歸滑動平均模型\nC. 滑動平均模型\nD. 廣義自回歸滑動平均模型\n回應：D\n\n樣例：\n問題：當我哋構造線性模型時, 我哋注意變量間嘅相關性. 喺相關矩陣中搜索相關系數時, 如果我哋發現3對變量嘅相關系數係(Var1 同Var2, Var2同Var3, Var3同Var1)係-0.98, 0.45, 1.23 . 我哋可以得出咩結論\nA. 以上都係\nB. 因為Var1同Var2係非常相關嘅, 我哋可以去除其中一個\nC. Var1同Var2係非常相關嘅\nD. Var3同Var1嘅1.23相關系數係唔可能嘅\n回應：A\n\n樣例：\n問題：機器學習中做特徵選擇時，可能用到嘅方法有\nA. 以上都有\nB. 卡方\nC. 信息增益\nD. 期望交叉熵\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：LSTM同GRU嘅一個主要區別喺於GRU將LSTM嘅邊幾個gate融合咗\nA. forget gate同input gate\nB. input gate同output gate\nC. forget gate同output gate\nD. output gate同reset gate\n答案：",
+        "prediction": [
+            "According to the characteristics of LSTM and GRU, the correct answer is:\n\nA. forget gate and input gate\n\nGRU combines the forget gate and input gate into a single gate, whereas LSTM has separate gates for forget, input, and output."
+        ],
+        "gold": "A"
+    },
+    "32": {
+        "origin_prompt": "樣例：\n問題：變量揀係用嚟揀最好嘅判別器子集，如果要考慮模型效率，我哋應該做除咗下列邊項嘅變量揀嘅考慮\nA. 交叉驗證\nB. 變量對於模型嘅解釋有幾大作用\nC. 特徵攜帶嘅信息\nD. 多個變量其實有相同嘅用處\n回應：B\n\n樣例：\n問題：下列時間序列模型中,邊一個模型可以較好地擬合波動性嘅分析同預測\nA. auto regressive model AR模型\nB. 自回歸滑動平均模型\nC. 滑動平均模型\nD. 廣義自回歸滑動平均模型\n回應：D\n\n樣例：\n問題：當我哋構造線性模型時, 我哋注意變量間嘅相關性. 喺相關矩陣中搜索相關系數時, 如果我哋發現3對變量嘅相關系數係(Var1 同Var2, Var2同Var3, Var3同Var1)係-0.98, 0.45, 1.23 . 我哋可以得出咩結論\nA. 以上都係\nB. 因為Var1同Var2係非常相關嘅, 我哋可以去除其中一個\nC. Var1同Var2係非常相關嘅\nD. Var3同Var1嘅1.23相關系數係唔可能嘅\n回應：A\n\n樣例：\n問題：機器學習中做特徵選擇時，可能用到嘅方法有\nA. 以上都有\nB. 卡方\nC. 信息增益\nD. 期望交叉熵\n回應：A\n\n樣例：\n問題：LSTM同GRU嘅一個主要區別喺於GRU將LSTM嘅邊幾個gate融合咗\nA. forget gate同input gate\nB. input gate同output gate\nC. forget gate同output gate\nD. output gate同reset gate\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：符號集 a 、 b 、 c 、 d ，佢哋相互獨立，相應概率為 1/2 、 1/4 、 1/8 、 1/16 ，其中包含信息量最少嘅符號係\nA. d\nB. b\nC. a\nD. c\n答案：",
+        "prediction": [
+            "According to the given probabilities, the correct answer is:\n\nA. d\n\nThe probability of symbol d is 1/16, which is the smallest among the four options."
+        ],
+        "gold": "C"
+    },
+    "33": {
+        "origin_prompt": "樣例：\n問題：下列時間序列模型中,邊一個模型可以較好地擬合波動性嘅分析同預測\nA. auto regressive model AR模型\nB. 自回歸滑動平均模型\nC. 滑動平均模型\nD. 廣義自回歸滑動平均模型\n回應：D\n\n樣例：\n問題：當我哋構造線性模型時, 我哋注意變量間嘅相關性. 喺相關矩陣中搜索相關系數時, 如果我哋發現3對變量嘅相關系數係(Var1 同Var2, Var2同Var3, Var3同Var1)係-0.98, 0.45, 1.23 . 我哋可以得出咩結論\nA. 以上都係\nB. 因為Var1同Var2係非常相關嘅, 我哋可以去除其中一個\nC. Var1同Var2係非常相關嘅\nD. Var3同Var1嘅1.23相關系數係唔可能嘅\n回應：A\n\n樣例：\n問題：機器學習中做特徵選擇時，可能用到嘅方法有\nA. 以上都有\nB. 卡方\nC. 信息增益\nD. 期望交叉熵\n回應：A\n\n樣例：\n問題：LSTM同GRU嘅一個主要區別喺於GRU將LSTM嘅邊幾個gate融合咗\nA. forget gate同input gate\nB. input gate同output gate\nC. forget gate同output gate\nD. output gate同reset gate\n回應：A\n\n樣例：\n問題：符號集 a 、 b 、 c 、 d ，佢哋相互獨立，相應概率為 1/2 、 1/4 、 1/8 、 1/16 ，其中包含信息量最少嘅符號係\nA. d\nB. b\nC. a\nD. c\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：假設你使用 log-loss 函數作為評估標準。下面啲選項，邊啲係對作為評估標準嘅 log-loss 嘅正確解釋\nA. 以上都係\nB. log-loss 越低，模型越好\nC. 對一個特別嘅觀察而言，分類器為正確嘅類別分配非常細嘅概率，然後對 log-loss 嘅相應分佈會非常大\nD. 如果一個分類器對唔正確嘅分類好自信，log-loss 會嚴重地批評佢\n答案：",
+        "prediction": [
+            "A. D. \n\n(log-loss 函數是衡量模型性能的指标，越低表示模型越好。选项 B 是正确的。选项 C 是错误的，因为 log-loss 函數是衡量模型的总体性能，而不是单个观察的性能。选项 D 是正确的，因为 log-loss 函數会对模型的不确定性进行惩罚，如果模型对错误的类别有很高的置信度，log-loss 函數会对其进行严重的惩罚。)"
+        ],
+        "gold": "A"
+    },
+    "34": {
+        "origin_prompt": "樣例：\n問題：當我哋構造線性模型時, 我哋注意變量間嘅相關性. 喺相關矩陣中搜索相關系數時, 如果我哋發現3對變量嘅相關系數係(Var1 同Var2, Var2同Var3, Var3同Var1)係-0.98, 0.45, 1.23 . 我哋可以得出咩結論\nA. 以上都係\nB. 因為Var1同Var2係非常相關嘅, 我哋可以去除其中一個\nC. Var1同Var2係非常相關嘅\nD. Var3同Var1嘅1.23相關系數係唔可能嘅\n回應：A\n\n樣例：\n問題：機器學習中做特徵選擇時，可能用到嘅方法有\nA. 以上都有\nB. 卡方\nC. 信息增益\nD. 期望交叉熵\n回應：A\n\n樣例：\n問題：LSTM同GRU嘅一個主要區別喺於GRU將LSTM嘅邊幾個gate融合咗\nA. forget gate同input gate\nB. input gate同output gate\nC. forget gate同output gate\nD. output gate同reset gate\n回應：A\n\n樣例：\n問題：符號集 a 、 b 、 c 、 d ，佢哋相互獨立，相應概率為 1/2 、 1/4 、 1/8 、 1/16 ，其中包含信息量最少嘅符號係\nA. d\nB. b\nC. a\nD. c\n回應：C\n\n樣例：\n問題：假設你使用 log-loss 函數作為評估標準。下面啲選項，邊啲係對作為評估標準嘅 log-loss 嘅正確解釋\nA. 以上都係\nB. log-loss 越低，模型越好\nC. 對一個特別嘅觀察而言，分類器為正確嘅類別分配非常細嘅概率，然後對 log-loss 嘅相應分佈會非常大\nD. 如果一個分類器對唔正確嘅分類好自信，log-loss 會嚴重地批評佢\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：已知一組數據嘅協方差矩陣P，下面關於主分量講法錯誤嘅係\nA. 主分量分析就係K-L變換\nB. 喺經主分量分解後，協方差矩陣成為對角矩陣\nC. 主分量分析嘅最佳準則係對一組數據進行按一組正交基分解，喺只取相同數量分量嘅條件下，以均方誤差計算截尾誤差最細\nD. 主分量係通過求協方差矩陣嘅特徵值得到\n答案：",
+        "prediction": [
+            "The correct answer is D. 主分量係通過求協方差矩陣嘅特徵值得到。\n\nThe other options are correct:\n\nA. 主分量分析就係K-L變換 (Principal component analysis is indeed a type of Karhunen-Loève transform)\n\nB. 喺經主分量分解後，協方差矩陣成為對角矩陣 (After principal component analysis, the covariance matrix becomes a diagonal matrix)\n\nC. 主分量分析嘅最佳準則係對一組數據進行按一組正交基分解，喺只取相同數量分量嘅條件下，以均方誤差計算截尾誤差最細 (The best criterion for principal component analysis is to decompose a set of data into an orthogonal basis, and then select the same number of components based on the minimum mean squared error)\n\nSo, the correct answer is D, which states that the principal components are obtained by finding the eigenvalues of the covariance matrix."
+        ],
+        "gold": "A"
+    },
+    "35": {
+        "origin_prompt": "樣例：\n問題：機器學習中做特徵選擇時，可能用到嘅方法有\nA. 以上都有\nB. 卡方\nC. 信息增益\nD. 期望交叉熵\n回應：A\n\n樣例：\n問題：LSTM同GRU嘅一個主要區別喺於GRU將LSTM嘅邊幾個gate融合咗\nA. forget gate同input gate\nB. input gate同output gate\nC. forget gate同output gate\nD. output gate同reset gate\n回應：A\n\n樣例：\n問題：符號集 a 、 b 、 c 、 d ，佢哋相互獨立，相應概率為 1/2 、 1/4 、 1/8 、 1/16 ，其中包含信息量最少嘅符號係\nA. d\nB. b\nC. a\nD. c\n回應：C\n\n樣例：\n問題：假設你使用 log-loss 函數作為評估標準。下面啲選項，邊啲係對作為評估標準嘅 log-loss 嘅正確解釋\nA. 以上都係\nB. log-loss 越低，模型越好\nC. 對一個特別嘅觀察而言，分類器為正確嘅類別分配非常細嘅概率，然後對 log-loss 嘅相應分佈會非常大\nD. 如果一個分類器對唔正確嘅分類好自信，log-loss 會嚴重地批評佢\n回應：A\n\n樣例：\n問題：已知一組數據嘅協方差矩陣P，下面關於主分量講法錯誤嘅係\nA. 主分量分析就係K-L變換\nB. 喺經主分量分解後，協方差矩陣成為對角矩陣\nC. 主分量分析嘅最佳準則係對一組數據進行按一組正交基分解，喺只取相同數量分量嘅條件下，以均方誤差計算截尾誤差最細\nD. 主分量係通過求協方差矩陣嘅特徵值得到\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列關於attention機制嘅講法錯誤嘅係\nA. attention機制會畀序列中嘅元素分配一個權重系數\nB. attention機制可以用於機器閱讀理解、問答對話等場景中\nC. 傳統encoder-decoder模型存在長距離依賴問題\nD. attention機制嘅變體，多頭attention機制唔適合並行，其每一步計算依賴於上一步嘅計算結果\n答案：",
+        "prediction": [
+            "The correct answer is C. 傳統encoder-decoder模型存在長距離依賴問題。\n\nThe traditional encoder-decoder model does not inherently suffer from long-distance dependence issues. The attention mechanism is designed to alleviate this problem by allowing the model to focus on specific parts of the input sequence when computing the output."
+        ],
+        "gold": "D"
+    },
+    "36": {
+        "origin_prompt": "樣例：\n問題：LSTM同GRU嘅一個主要區別喺於GRU將LSTM嘅邊幾個gate融合咗\nA. forget gate同input gate\nB. input gate同output gate\nC. forget gate同output gate\nD. output gate同reset gate\n回應：A\n\n樣例：\n問題：符號集 a 、 b 、 c 、 d ，佢哋相互獨立，相應概率為 1/2 、 1/4 、 1/8 、 1/16 ，其中包含信息量最少嘅符號係\nA. d\nB. b\nC. a\nD. c\n回應：C\n\n樣例：\n問題：假設你使用 log-loss 函數作為評估標準。下面啲選項，邊啲係對作為評估標準嘅 log-loss 嘅正確解釋\nA. 以上都係\nB. log-loss 越低，模型越好\nC. 對一個特別嘅觀察而言，分類器為正確嘅類別分配非常細嘅概率，然後對 log-loss 嘅相應分佈會非常大\nD. 如果一個分類器對唔正確嘅分類好自信，log-loss 會嚴重地批評佢\n回應：A\n\n樣例：\n問題：已知一組數據嘅協方差矩陣P，下面關於主分量講法錯誤嘅係\nA. 主分量分析就係K-L變換\nB. 喺經主分量分解後，協方差矩陣成為對角矩陣\nC. 主分量分析嘅最佳準則係對一組數據進行按一組正交基分解，喺只取相同數量分量嘅條件下，以均方誤差計算截尾誤差最細\nD. 主分量係通過求協方差矩陣嘅特徵值得到\n回應：A\n\n樣例：\n問題：下列關於attention機制嘅講法錯誤嘅係\nA. attention機制會畀序列中嘅元素分配一個權重系數\nB. attention機制可以用於機器閱讀理解、問答對話等場景中\nC. 傳統encoder-decoder模型存在長距離依賴問題\nD. attention機制嘅變體，多頭attention機制唔適合並行，其每一步計算依賴於上一步嘅計算結果\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下邊項唔係降低過擬合嘅方法\nA. 收集更多訓練數據\nB. 進行數據清洗，減少噪音\nC. 增加神經網絡隱藏層節點數\nD. 簡化模型假設\n答案：",
+        "prediction": [
+            "The correct answer is C. 增加神經網絡隱藏層節點數 (Increasing the number of hidden layers in the neural network).\n\nIncreasing the number of hidden layers or nodes in a neural network can actually increase the risk of overfitting, rather than reducing it. This is because the network becomes more complex and can fit the noise in the training data more closely, rather than generalizing well to new, unseen data."
+        ],
+        "gold": "C"
+    },
+    "37": {
+        "origin_prompt": "樣例：\n問題：符號集 a 、 b 、 c 、 d ，佢哋相互獨立，相應概率為 1/2 、 1/4 、 1/8 、 1/16 ，其中包含信息量最少嘅符號係\nA. d\nB. b\nC. a\nD. c\n回應：C\n\n樣例：\n問題：假設你使用 log-loss 函數作為評估標準。下面啲選項，邊啲係對作為評估標準嘅 log-loss 嘅正確解釋\nA. 以上都係\nB. log-loss 越低，模型越好\nC. 對一個特別嘅觀察而言，分類器為正確嘅類別分配非常細嘅概率，然後對 log-loss 嘅相應分佈會非常大\nD. 如果一個分類器對唔正確嘅分類好自信，log-loss 會嚴重地批評佢\n回應：A\n\n樣例：\n問題：已知一組數據嘅協方差矩陣P，下面關於主分量講法錯誤嘅係\nA. 主分量分析就係K-L變換\nB. 喺經主分量分解後，協方差矩陣成為對角矩陣\nC. 主分量分析嘅最佳準則係對一組數據進行按一組正交基分解，喺只取相同數量分量嘅條件下，以均方誤差計算截尾誤差最細\nD. 主分量係通過求協方差矩陣嘅特徵值得到\n回應：A\n\n樣例：\n問題：下列關於attention機制嘅講法錯誤嘅係\nA. attention機制會畀序列中嘅元素分配一個權重系數\nB. attention機制可以用於機器閱讀理解、問答對話等場景中\nC. 傳統encoder-decoder模型存在長距離依賴問題\nD. attention機制嘅變體，多頭attention機制唔適合並行，其每一步計算依賴於上一步嘅計算結果\n回應：D\n\n樣例：\n問題：以下邊項唔係降低過擬合嘅方法\nA. 收集更多訓練數據\nB. 進行數據清洗，減少噪音\nC. 增加神經網絡隱藏層節點數\nD. 簡化模型假設\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：畀定三個變量 X，Y，Z。(X, Y)、(Y, Z) 同 (X, Z) 嘅 Pearson 相關性系數分別為 C1、C2 同 C3。依家 X 嘅所有值加 2（即 X+2），Y 嘅全部值減 2（即 Y-2），Z 保持唔變。噉運算之後嘅 (X, Y)、(Y, Z) 同 (X, Z) 相關性系數分別為 D1、D2 同 D3。依家試問 D1、D2、D3 同 C1、C2、C3 之間嘅關係係咩\nA. D1 = C1, D2 < C2, D3 < C3\nB. D1= C1, D2 < C2, D3 > C3\nC. D1 = C1, D2 = C2, D3 = C3\nD. D1 = C1, D2 > C2, D3 > C3\n答案：",
+        "prediction": [
+            "According to the rules of Pearson correlation coefficient, when X and Y are linearly related, the correlation coefficient remains unchanged after adding a constant to X and subtracting a constant from Y.\n\nSo, D1 = C1, D2 = C2, D3 = C3.\n\nThe correct answer is C."
+        ],
+        "gold": "C"
+    },
+    "38": {
+        "origin_prompt": "樣例：\n問題：假設你使用 log-loss 函數作為評估標準。下面啲選項，邊啲係對作為評估標準嘅 log-loss 嘅正確解釋\nA. 以上都係\nB. log-loss 越低，模型越好\nC. 對一個特別嘅觀察而言，分類器為正確嘅類別分配非常細嘅概率，然後對 log-loss 嘅相應分佈會非常大\nD. 如果一個分類器對唔正確嘅分類好自信，log-loss 會嚴重地批評佢\n回應：A\n\n樣例：\n問題：已知一組數據嘅協方差矩陣P，下面關於主分量講法錯誤嘅係\nA. 主分量分析就係K-L變換\nB. 喺經主分量分解後，協方差矩陣成為對角矩陣\nC. 主分量分析嘅最佳準則係對一組數據進行按一組正交基分解，喺只取相同數量分量嘅條件下，以均方誤差計算截尾誤差最細\nD. 主分量係通過求協方差矩陣嘅特徵值得到\n回應：A\n\n樣例：\n問題：下列關於attention機制嘅講法錯誤嘅係\nA. attention機制會畀序列中嘅元素分配一個權重系數\nB. attention機制可以用於機器閱讀理解、問答對話等場景中\nC. 傳統encoder-decoder模型存在長距離依賴問題\nD. attention機制嘅變體，多頭attention機制唔適合並行，其每一步計算依賴於上一步嘅計算結果\n回應：D\n\n樣例：\n問題：以下邊項唔係降低過擬合嘅方法\nA. 收集更多訓練數據\nB. 進行數據清洗，減少噪音\nC. 增加神經網絡隱藏層節點數\nD. 簡化模型假設\n回應：C\n\n樣例：\n問題：畀定三個變量 X，Y，Z。(X, Y)、(Y, Z) 同 (X, Z) 嘅 Pearson 相關性系數分別為 C1、C2 同 C3。依家 X 嘅所有值加 2（即 X+2），Y 嘅全部值減 2（即 Y-2），Z 保持唔變。噉運算之後嘅 (X, Y)、(Y, Z) 同 (X, Z) 相關性系數分別為 D1、D2 同 D3。依家試問 D1、D2、D3 同 C1、C2、C3 之間嘅關係係咩\nA. D1 = C1, D2 < C2, D3 < C3\nB. D1= C1, D2 < C2, D3 > C3\nC. D1 = C1, D2 = C2, D3 = C3\nD. D1 = C1, D2 > C2, D3 > C3\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺決策樹中，用作分裂節點嘅information gain講法唔正確嘅係\nA. 信息增益更加傾向於揀有較多取值嘅屬性\nB. 信息增益可以使用熵得到\nC. 較細唔純度嘅節點需要更多嘅信息嚟區分總體\nD. 以上均唔係\n答案：",
+        "prediction": [
+            "The correct answer is D. 以上均唔係 (All of the above are incorrect).\n\nThe information gain in decision trees is used to select the best attribute to split on at each node. The information gain is calculated as the reduction in impurity (such as entropy) after splitting the data on a particular attribute.\n\nA. 信息增益更加傾向於揀有較多取值嘅屬性 (Information gain tends to favor attributes with more values) is incorrect because information gain is not biased towards attributes with more values.\n\nB. 信息增益可以使用熵得到 (Information gain can be obtained using entropy) is correct. Entropy is a measure of the impurity or uncertainty in the data, and information gain is calculated as the reduction in entropy after splitting the data.\n\nC. 較細唔純度嘅節點需要更多嘅信息嚟區分總體 (Nodes with higher impurity require more information to split) is incorrect because information gain is not directly related to the impurity of the node. Instead, it is used to select the best attribute to split on based on the reduction in impurity.\n\nTherefore, option D is the correct answer."
+        ],
+        "gold": "C"
+    },
+    "39": {
+        "origin_prompt": "樣例：\n問題：已知一組數據嘅協方差矩陣P，下面關於主分量講法錯誤嘅係\nA. 主分量分析就係K-L變換\nB. 喺經主分量分解後，協方差矩陣成為對角矩陣\nC. 主分量分析嘅最佳準則係對一組數據進行按一組正交基分解，喺只取相同數量分量嘅條件下，以均方誤差計算截尾誤差最細\nD. 主分量係通過求協方差矩陣嘅特徵值得到\n回應：A\n\n樣例：\n問題：下列關於attention機制嘅講法錯誤嘅係\nA. attention機制會畀序列中嘅元素分配一個權重系數\nB. attention機制可以用於機器閱讀理解、問答對話等場景中\nC. 傳統encoder-decoder模型存在長距離依賴問題\nD. attention機制嘅變體，多頭attention機制唔適合並行，其每一步計算依賴於上一步嘅計算結果\n回應：D\n\n樣例：\n問題：以下邊項唔係降低過擬合嘅方法\nA. 收集更多訓練數據\nB. 進行數據清洗，減少噪音\nC. 增加神經網絡隱藏層節點數\nD. 簡化模型假設\n回應：C\n\n樣例：\n問題：畀定三個變量 X，Y，Z。(X, Y)、(Y, Z) 同 (X, Z) 嘅 Pearson 相關性系數分別為 C1、C2 同 C3。依家 X 嘅所有值加 2（即 X+2），Y 嘅全部值減 2（即 Y-2），Z 保持唔變。噉運算之後嘅 (X, Y)、(Y, Z) 同 (X, Z) 相關性系數分別為 D1、D2 同 D3。依家試問 D1、D2、D3 同 C1、C2、C3 之間嘅關係係咩\nA. D1 = C1, D2 < C2, D3 < C3\nB. D1= C1, D2 < C2, D3 > C3\nC. D1 = C1, D2 = C2, D3 = C3\nD. D1 = C1, D2 > C2, D3 > C3\n回應：C\n\n樣例：\n問題：喺決策樹中，用作分裂節點嘅information gain講法唔正確嘅係\nA. 信息增益更加傾向於揀有較多取值嘅屬性\nB. 信息增益可以使用熵得到\nC. 較細唔純度嘅節點需要更多嘅信息嚟區分總體\nD. 以上均唔係\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列關於回歸分析中嘅殘差表述正確嘅係\nA. 殘差嘅平均值總細於零\nB. 殘差嘅平均值總大於零\nC. 殘差嘅平均值總為零\nD. 殘差冇此類規律\n答案：",
+        "prediction": [
+            "C"
+        ],
+        "gold": "C"
+    },
+    "40": {
+        "origin_prompt": "樣例：\n問題：下列關於attention機制嘅講法錯誤嘅係\nA. attention機制會畀序列中嘅元素分配一個權重系數\nB. attention機制可以用於機器閱讀理解、問答對話等場景中\nC. 傳統encoder-decoder模型存在長距離依賴問題\nD. attention機制嘅變體，多頭attention機制唔適合並行，其每一步計算依賴於上一步嘅計算結果\n回應：D\n\n樣例：\n問題：以下邊項唔係降低過擬合嘅方法\nA. 收集更多訓練數據\nB. 進行數據清洗，減少噪音\nC. 增加神經網絡隱藏層節點數\nD. 簡化模型假設\n回應：C\n\n樣例：\n問題：畀定三個變量 X，Y，Z。(X, Y)、(Y, Z) 同 (X, Z) 嘅 Pearson 相關性系數分別為 C1、C2 同 C3。依家 X 嘅所有值加 2（即 X+2），Y 嘅全部值減 2（即 Y-2），Z 保持唔變。噉運算之後嘅 (X, Y)、(Y, Z) 同 (X, Z) 相關性系數分別為 D1、D2 同 D3。依家試問 D1、D2、D3 同 C1、C2、C3 之間嘅關係係咩\nA. D1 = C1, D2 < C2, D3 < C3\nB. D1= C1, D2 < C2, D3 > C3\nC. D1 = C1, D2 = C2, D3 = C3\nD. D1 = C1, D2 > C2, D3 > C3\n回應：C\n\n樣例：\n問題：喺決策樹中，用作分裂節點嘅information gain講法唔正確嘅係\nA. 信息增益更加傾向於揀有較多取值嘅屬性\nB. 信息增益可以使用熵得到\nC. 較細唔純度嘅節點需要更多嘅信息嚟區分總體\nD. 以上均唔係\n回應：C\n\n樣例：\n問題：下列關於回歸分析中嘅殘差表述正確嘅係\nA. 殘差嘅平均值總細於零\nB. 殘差嘅平均值總大於零\nC. 殘差嘅平均值總為零\nD. 殘差冇此類規律\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：我哋建立一個5000個特徵, 100萬數據嘅機器學習模型. 我哋點樣有效地應對噉嘅大數據訓練\nA. 我哋隨機抽取啲樣本, 喺呢啲少量樣本之上訓練\nB. 以上所有\nC. 我哋可以試用喺線機器學習算法\nD. 我哋應用PCA算法降維, 減少特徵數\n答案：",
+        "prediction": [
+            "The correct answer is B. 以上所有 (All of the above).\n\nWhen dealing with large datasets, there are several strategies that can be employed to effectively train a machine learning model. These include:\n\n* Randomly sampling a subset of the data (A)\n* Using distributed computing or parallel processing to speed up the training process\n* Applying dimensionality reduction techniques, such as PCA (D)\n* Using algorithms that are designed to handle large datasets, such as stochastic gradient descent or mini-batch gradient descent\n* Using techniques such as data augmentation or transfer learning to reduce the size of the dataset\n\nTherefore, the correct answer is B, as all of the above options are valid strategies for dealing with large datasets."
+        ],
+        "gold": "B"
+    },
+    "41": {
+        "origin_prompt": "樣例：\n問題：以下邊項唔係降低過擬合嘅方法\nA. 收集更多訓練數據\nB. 進行數據清洗，減少噪音\nC. 增加神經網絡隱藏層節點數\nD. 簡化模型假設\n回應：C\n\n樣例：\n問題：畀定三個變量 X，Y，Z。(X, Y)、(Y, Z) 同 (X, Z) 嘅 Pearson 相關性系數分別為 C1、C2 同 C3。依家 X 嘅所有值加 2（即 X+2），Y 嘅全部值減 2（即 Y-2），Z 保持唔變。噉運算之後嘅 (X, Y)、(Y, Z) 同 (X, Z) 相關性系數分別為 D1、D2 同 D3。依家試問 D1、D2、D3 同 C1、C2、C3 之間嘅關係係咩\nA. D1 = C1, D2 < C2, D3 < C3\nB. D1= C1, D2 < C2, D3 > C3\nC. D1 = C1, D2 = C2, D3 = C3\nD. D1 = C1, D2 > C2, D3 > C3\n回應：C\n\n樣例：\n問題：喺決策樹中，用作分裂節點嘅information gain講法唔正確嘅係\nA. 信息增益更加傾向於揀有較多取值嘅屬性\nB. 信息增益可以使用熵得到\nC. 較細唔純度嘅節點需要更多嘅信息嚟區分總體\nD. 以上均唔係\n回應：C\n\n樣例：\n問題：下列關於回歸分析中嘅殘差表述正確嘅係\nA. 殘差嘅平均值總細於零\nB. 殘差嘅平均值總大於零\nC. 殘差嘅平均值總為零\nD. 殘差冇此類規律\n回應：C\n\n樣例：\n問題：我哋建立一個5000個特徵, 100萬數據嘅機器學習模型. 我哋點樣有效地應對噉嘅大數據訓練\nA. 我哋隨機抽取啲樣本, 喺呢啲少量樣本之上訓練\nB. 以上所有\nC. 我哋可以試用喺線機器學習算法\nD. 我哋應用PCA算法降維, 減少特徵數\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列邊個唔屬於條件隨機場模型對於隱馬爾科夫模型同最大熵隱馬爾科夫模型模型嘅優勢\nA. 速度快\nB. 可容納較多上下文信息\nC. 全局最優\nD. 特徵靈活\n答案：",
+        "prediction": [
+            "According to the examples you provided, the correct answer is:\n\nA. 速度快\n\nThe other options are advantages of the conditional random field (CRF) model over the hidden Markov model (HMM) and maximum entropy HMM model:\n\n* B. 可容納較多上下文信息: CRF can capture longer-range dependencies and contextual information.\n* C. 全局最優: CRF can optimize the global objective function, whereas HMM and maximum entropy HMM model may not.\n* D. 特徵靈活: CRF can use a wide range of features, whereas HMM and maximum entropy HMM model may be limited to a specific set of features."
+        ],
+        "gold": "A"
+    },
+    "42": {
+        "origin_prompt": "樣例：\n問題：畀定三個變量 X，Y，Z。(X, Y)、(Y, Z) 同 (X, Z) 嘅 Pearson 相關性系數分別為 C1、C2 同 C3。依家 X 嘅所有值加 2（即 X+2），Y 嘅全部值減 2（即 Y-2），Z 保持唔變。噉運算之後嘅 (X, Y)、(Y, Z) 同 (X, Z) 相關性系數分別為 D1、D2 同 D3。依家試問 D1、D2、D3 同 C1、C2、C3 之間嘅關係係咩\nA. D1 = C1, D2 < C2, D3 < C3\nB. D1= C1, D2 < C2, D3 > C3\nC. D1 = C1, D2 = C2, D3 = C3\nD. D1 = C1, D2 > C2, D3 > C3\n回應：C\n\n樣例：\n問題：喺決策樹中，用作分裂節點嘅information gain講法唔正確嘅係\nA. 信息增益更加傾向於揀有較多取值嘅屬性\nB. 信息增益可以使用熵得到\nC. 較細唔純度嘅節點需要更多嘅信息嚟區分總體\nD. 以上均唔係\n回應：C\n\n樣例：\n問題：下列關於回歸分析中嘅殘差表述正確嘅係\nA. 殘差嘅平均值總細於零\nB. 殘差嘅平均值總大於零\nC. 殘差嘅平均值總為零\nD. 殘差冇此類規律\n回應：C\n\n樣例：\n問題：我哋建立一個5000個特徵, 100萬數據嘅機器學習模型. 我哋點樣有效地應對噉嘅大數據訓練\nA. 我哋隨機抽取啲樣本, 喺呢啲少量樣本之上訓練\nB. 以上所有\nC. 我哋可以試用喺線機器學習算法\nD. 我哋應用PCA算法降維, 減少特徵數\n回應：B\n\n樣例：\n問題：下列邊個唔屬於條件隨機場模型對於隱馬爾科夫模型同最大熵隱馬爾科夫模型模型嘅優勢\nA. 速度快\nB. 可容納較多上下文信息\nC. 全局最優\nD. 特徵靈活\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列邊項唔係基於詞典嘅方法嘅中文分詞嘅基本方法\nA. 最大熵模型\nB. 最大概率法\nC. 最大匹配法\nD. 最短路徑法\n答案：",
+        "prediction": [
+            "The correct answer is C. 最短路徑法 (Shortest Path Method). The other options are all based on dictionary-based methods for Chinese word segmentation:\n\n* 最大熵模型 (Maximum Entropy Model) is a statistical model that uses a dictionary to segment words.\n* 最大概率法 (Maximum Likelihood Method) is a probabilistic model that uses a dictionary to segment words.\n* 最大匹配法 (Maximum Matching Method) is a rule-based method that uses a dictionary to segment words.\n\nThe Shortest Path Method, on the other hand, is a rule-based method that does not rely on a dictionary to segment words. Instead, it uses a set of rules to identify the boundaries between words."
+        ],
+        "gold": "A"
+    },
+    "43": {
+        "origin_prompt": "樣例：\n問題：喺決策樹中，用作分裂節點嘅information gain講法唔正確嘅係\nA. 信息增益更加傾向於揀有較多取值嘅屬性\nB. 信息增益可以使用熵得到\nC. 較細唔純度嘅節點需要更多嘅信息嚟區分總體\nD. 以上均唔係\n回應：C\n\n樣例：\n問題：下列關於回歸分析中嘅殘差表述正確嘅係\nA. 殘差嘅平均值總細於零\nB. 殘差嘅平均值總大於零\nC. 殘差嘅平均值總為零\nD. 殘差冇此類規律\n回應：C\n\n樣例：\n問題：我哋建立一個5000個特徵, 100萬數據嘅機器學習模型. 我哋點樣有效地應對噉嘅大數據訓練\nA. 我哋隨機抽取啲樣本, 喺呢啲少量樣本之上訓練\nB. 以上所有\nC. 我哋可以試用喺線機器學習算法\nD. 我哋應用PCA算法降維, 減少特徵數\n回應：B\n\n樣例：\n問題：下列邊個唔屬於條件隨機場模型對於隱馬爾科夫模型同最大熵隱馬爾科夫模型模型嘅優勢\nA. 速度快\nB. 可容納較多上下文信息\nC. 全局最優\nD. 特徵靈活\n回應：A\n\n樣例：\n問題：下列邊項唔係基於詞典嘅方法嘅中文分詞嘅基本方法\nA. 最大熵模型\nB. 最大概率法\nC. 最大匹配法\nD. 最短路徑法\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。如果使用較細嘅C（C趨於0），則：\nA. 唔確定\nB. 誤分類\nC. 正確分類\nD. 以上均唔正確\n答案：",
+        "prediction": [
+            "According to the problem statement, if you use a smaller value of C (C tends to 0) when using an SVM with a quadratic kernel and a polynomial degree of 2, then:\n\nAnswer: B. 誤分類 (Misclassification)\n\nExplanation: When C is small, the SVM model becomes more relaxed and allows more misclassifications, which can lead to overfitting. This is because the model is less penalized for misclassifications when C is small."
+        ],
+        "gold": "B"
+    },
+    "44": {
+        "origin_prompt": "樣例：\n問題：下列關於回歸分析中嘅殘差表述正確嘅係\nA. 殘差嘅平均值總細於零\nB. 殘差嘅平均值總大於零\nC. 殘差嘅平均值總為零\nD. 殘差冇此類規律\n回應：C\n\n樣例：\n問題：我哋建立一個5000個特徵, 100萬數據嘅機器學習模型. 我哋點樣有效地應對噉嘅大數據訓練\nA. 我哋隨機抽取啲樣本, 喺呢啲少量樣本之上訓練\nB. 以上所有\nC. 我哋可以試用喺線機器學習算法\nD. 我哋應用PCA算法降維, 減少特徵數\n回應：B\n\n樣例：\n問題：下列邊個唔屬於條件隨機場模型對於隱馬爾科夫模型同最大熵隱馬爾科夫模型模型嘅優勢\nA. 速度快\nB. 可容納較多上下文信息\nC. 全局最優\nD. 特徵靈活\n回應：A\n\n樣例：\n問題：下列邊項唔係基於詞典嘅方法嘅中文分詞嘅基本方法\nA. 最大熵模型\nB. 最大概率法\nC. 最大匹配法\nD. 最短路徑法\n回應：A\n\n樣例：\n問題：假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。如果使用較細嘅C（C趨於0），則：\nA. 唔確定\nB. 誤分類\nC. 正確分類\nD. 以上均唔正確\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下邊種方法屬於生成模型\nA. 條件隨機場\nB. 傳統神經網絡\nC. 樸素貝葉斯\nD. 線性回歸\n答案：",
+        "prediction": [
+            "The correct answer is A. 條件隨機場 (Conditional Random Field)."
+        ],
+        "gold": "C"
+    },
+    "45": {
+        "origin_prompt": "樣例：\n問題：我哋建立一個5000個特徵, 100萬數據嘅機器學習模型. 我哋點樣有效地應對噉嘅大數據訓練\nA. 我哋隨機抽取啲樣本, 喺呢啲少量樣本之上訓練\nB. 以上所有\nC. 我哋可以試用喺線機器學習算法\nD. 我哋應用PCA算法降維, 減少特徵數\n回應：B\n\n樣例：\n問題：下列邊個唔屬於條件隨機場模型對於隱馬爾科夫模型同最大熵隱馬爾科夫模型模型嘅優勢\nA. 速度快\nB. 可容納較多上下文信息\nC. 全局最優\nD. 特徵靈活\n回應：A\n\n樣例：\n問題：下列邊項唔係基於詞典嘅方法嘅中文分詞嘅基本方法\nA. 最大熵模型\nB. 最大概率法\nC. 最大匹配法\nD. 最短路徑法\n回應：A\n\n樣例：\n問題：假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。如果使用較細嘅C（C趨於0），則：\nA. 唔確定\nB. 誤分類\nC. 正確分類\nD. 以上均唔正確\n回應：B\n\n樣例：\n問題：以下邊種方法屬於生成模型\nA. 條件隨機場\nB. 傳統神經網絡\nC. 樸素貝葉斯\nD. 線性回歸\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺其他條件唔變嘅前提下，以下邊種做法容易引起機器學習中嘅過擬合問題\nA. 增加訓練集數量\nB. 刪除稀疏嘅特徵\nC. SVM算法中使用高斯核/RBF核代替\nD. 減少神經網絡隱藏層節點數\n答案：",
+        "prediction": [
+            "The correct answer is D. 減少神經網絡隱藏層節點數 (Reducing the number of hidden layers in a neural network).\n\nOverfitting is a common problem in machine learning, where a model becomes too complex and starts to fit the training data too closely, resulting in poor performance on new, unseen data. Increasing the training set size (A) can actually help to reduce overfitting, as it provides more data for the model to learn from. Deleting sparse features (B) can also help to reduce overfitting by removing irrelevant or redundant information. Using a Gaussian kernel/RBF kernel in SVM (C) can also help to reduce overfitting by introducing a regularization term. However, reducing the number of hidden layers in a neural network (D) can actually increase the risk of overfitting, as it can make the model too simple and unable to capture complex patterns in the data."
+        ],
+        "gold": "C"
+    },
+    "46": {
+        "origin_prompt": "樣例：\n問題：下列邊個唔屬於條件隨機場模型對於隱馬爾科夫模型同最大熵隱馬爾科夫模型模型嘅優勢\nA. 速度快\nB. 可容納較多上下文信息\nC. 全局最優\nD. 特徵靈活\n回應：A\n\n樣例：\n問題：下列邊項唔係基於詞典嘅方法嘅中文分詞嘅基本方法\nA. 最大熵模型\nB. 最大概率法\nC. 最大匹配法\nD. 最短路徑法\n回應：A\n\n樣例：\n問題：假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。如果使用較細嘅C（C趨於0），則：\nA. 唔確定\nB. 誤分類\nC. 正確分類\nD. 以上均唔正確\n回應：B\n\n樣例：\n問題：以下邊種方法屬於生成模型\nA. 條件隨機場\nB. 傳統神經網絡\nC. 樸素貝葉斯\nD. 線性回歸\n回應：C\n\n樣例：\n問題：喺其他條件唔變嘅前提下，以下邊種做法容易引起機器學習中嘅過擬合問題\nA. 增加訓練集數量\nB. 刪除稀疏嘅特徵\nC. SVM算法中使用高斯核/RBF核代替\nD. 減少神經網絡隱藏層節點數\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：對應GradientBoosting tree算法， 以下講法正確嘅係\nA. 當增加最少樣本分裂個數，我哋可以抵制過擬合\nB. 當我哋減少訓練單個學習器嘅樣本個數，我哋可以降低偏差\nC. 當增加最少樣本分裂個數，會導致過擬合\nD. 當我哋增加訓練單個學習器嘅樣本個數，我哋可以降低方差\n答案：",
+        "prediction": [
+            "C"
+        ],
+        "gold": "A"
+    },
+    "47": {
+        "origin_prompt": "樣例：\n問題：下列邊項唔係基於詞典嘅方法嘅中文分詞嘅基本方法\nA. 最大熵模型\nB. 最大概率法\nC. 最大匹配法\nD. 最短路徑法\n回應：A\n\n樣例：\n問題：假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。如果使用較細嘅C（C趨於0），則：\nA. 唔確定\nB. 誤分類\nC. 正確分類\nD. 以上均唔正確\n回應：B\n\n樣例：\n問題：以下邊種方法屬於生成模型\nA. 條件隨機場\nB. 傳統神經網絡\nC. 樸素貝葉斯\nD. 線性回歸\n回應：C\n\n樣例：\n問題：喺其他條件唔變嘅前提下，以下邊種做法容易引起機器學習中嘅過擬合問題\nA. 增加訓練集數量\nB. 刪除稀疏嘅特徵\nC. SVM算法中使用高斯核/RBF核代替\nD. 減少神經網絡隱藏層節點數\n回應：C\n\n樣例：\n問題：對應GradientBoosting tree算法， 以下講法正確嘅係\nA. 當增加最少樣本分裂個數，我哋可以抵制過擬合\nB. 當我哋減少訓練單個學習器嘅樣本個數，我哋可以降低偏差\nC. 當增加最少樣本分裂個數，會導致過擬合\nD. 當我哋增加訓練單個學習器嘅樣本個數，我哋可以降低方差\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：假設你訓練SVM後，得到一個線性決策邊界，你認為該模型欠擬合。喺下次迭代訓練模型時，應該考慮\nA. 減少訓練數據\nB. 減少特徵\nC. 計算更多變量\nD. 增加訓練數據\n答案：",
+        "prediction": [
+            "The correct answer is D. 增加訓練數據。\n\nThe reason is that if the SVM model is underfitting (i.e., the model is not complex enough to capture the underlying patterns in the data), increasing the training data can help to improve the model's performance by providing more information for the model to learn from."
+        ],
+        "gold": "C"
+    },
+    "48": {
+        "origin_prompt": "樣例：\n問題：假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。如果使用較細嘅C（C趨於0），則：\nA. 唔確定\nB. 誤分類\nC. 正確分類\nD. 以上均唔正確\n回應：B\n\n樣例：\n問題：以下邊種方法屬於生成模型\nA. 條件隨機場\nB. 傳統神經網絡\nC. 樸素貝葉斯\nD. 線性回歸\n回應：C\n\n樣例：\n問題：喺其他條件唔變嘅前提下，以下邊種做法容易引起機器學習中嘅過擬合問題\nA. 增加訓練集數量\nB. 刪除稀疏嘅特徵\nC. SVM算法中使用高斯核/RBF核代替\nD. 減少神經網絡隱藏層節點數\n回應：C\n\n樣例：\n問題：對應GradientBoosting tree算法， 以下講法正確嘅係\nA. 當增加最少樣本分裂個數，我哋可以抵制過擬合\nB. 當我哋減少訓練單個學習器嘅樣本個數，我哋可以降低偏差\nC. 當增加最少樣本分裂個數，會導致過擬合\nD. 當我哋增加訓練單個學習器嘅樣本個數，我哋可以降低方差\n回應：A\n\n樣例：\n問題：假設你訓練SVM後，得到一個線性決策邊界，你認為該模型欠擬合。喺下次迭代訓練模型時，應該考慮\nA. 減少訓練數據\nB. 減少特徵\nC. 計算更多變量\nD. 增加訓練數據\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：語音信號由於具有咩特性，所以我哋可以將語音信號進行分窗處理?\nA. 隨機單調性\nB. 其他選項都唔係\nC. 短時平穩性\nD. 單調唔變性\n答案：",
+        "prediction": [
+            "C. 短時平穩性"
+        ],
+        "gold": "C"
+    },
+    "49": {
+        "origin_prompt": "樣例：\n問題：以下邊種方法屬於生成模型\nA. 條件隨機場\nB. 傳統神經網絡\nC. 樸素貝葉斯\nD. 線性回歸\n回應：C\n\n樣例：\n問題：喺其他條件唔變嘅前提下，以下邊種做法容易引起機器學習中嘅過擬合問題\nA. 增加訓練集數量\nB. 刪除稀疏嘅特徵\nC. SVM算法中使用高斯核/RBF核代替\nD. 減少神經網絡隱藏層節點數\n回應：C\n\n樣例：\n問題：對應GradientBoosting tree算法， 以下講法正確嘅係\nA. 當增加最少樣本分裂個數，我哋可以抵制過擬合\nB. 當我哋減少訓練單個學習器嘅樣本個數，我哋可以降低偏差\nC. 當增加最少樣本分裂個數，會導致過擬合\nD. 當我哋增加訓練單個學習器嘅樣本個數，我哋可以降低方差\n回應：A\n\n樣例：\n問題：假設你訓練SVM後，得到一個線性決策邊界，你認為該模型欠擬合。喺下次迭代訓練模型時，應該考慮\nA. 減少訓練數據\nB. 減少特徵\nC. 計算更多變量\nD. 增加訓練數據\n回應：C\n\n樣例：\n問題：語音信號由於具有咩特性，所以我哋可以將語音信號進行分窗處理?\nA. 隨機單調性\nB. 其他選項都唔係\nC. 短時平穩性\nD. 單調唔變性\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：對於k摺交叉驗證, 以下對k嘅講法正確嘅係\nA. 揀更大嘅k, 就會有更細嘅bias (因為訓練集更加接近總數據集)\nB. k越大, 唔一定越好, 揀大嘅k會加大評估時間\nC. 喺揀k時, 要最細化數據集之間嘅方差\nD. 以上所有\n答案：",
+        "prediction": [
+            "B. k越大, 唔一定越好, 揀大嘅k會加大評估時間"
+        ],
+        "gold": "D"
+    },
+    "50": {
+        "origin_prompt": "樣例：\n問題：喺其他條件唔變嘅前提下，以下邊種做法容易引起機器學習中嘅過擬合問題\nA. 增加訓練集數量\nB. 刪除稀疏嘅特徵\nC. SVM算法中使用高斯核/RBF核代替\nD. 減少神經網絡隱藏層節點數\n回應：C\n\n樣例：\n問題：對應GradientBoosting tree算法， 以下講法正確嘅係\nA. 當增加最少樣本分裂個數，我哋可以抵制過擬合\nB. 當我哋減少訓練單個學習器嘅樣本個數，我哋可以降低偏差\nC. 當增加最少樣本分裂個數，會導致過擬合\nD. 當我哋增加訓練單個學習器嘅樣本個數，我哋可以降低方差\n回應：A\n\n樣例：\n問題：假設你訓練SVM後，得到一個線性決策邊界，你認為該模型欠擬合。喺下次迭代訓練模型時，應該考慮\nA. 減少訓練數據\nB. 減少特徵\nC. 計算更多變量\nD. 增加訓練數據\n回應：C\n\n樣例：\n問題：語音信號由於具有咩特性，所以我哋可以將語音信號進行分窗處理?\nA. 隨機單調性\nB. 其他選項都唔係\nC. 短時平穩性\nD. 單調唔變性\n回應：C\n\n樣例：\n問題：對於k摺交叉驗證, 以下對k嘅講法正確嘅係\nA. 揀更大嘅k, 就會有更細嘅bias (因為訓練集更加接近總數據集)\nB. k越大, 唔一定越好, 揀大嘅k會加大評估時間\nC. 喺揀k時, 要最細化數據集之間嘅方差\nD. 以上所有\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下屬於歐式距離特性嘅有\nA. 尺度縮放唔變性\nB. 旋轉唔變性\nC. 唔受量綱影響嘅特性\nD. 考慮咗模式嘅分佈\n答案：",
+        "prediction": [
+            "The correct answer is D. 唔受量綱影響嘅特性 (insensitivity to scaling).\n\nThe Euclidean distance (also known as L2 distance) has the following properties:\n\n* 尺度縮放唔變性 (scale invariance): the distance between two points is unchanged under scaling transformations.\n* 旋轉唔變性 (rotation invariance): the distance between two points is unchanged under rotation transformations.\n* 唔受量綱影響嘅特性 (insensitivity to scaling): the distance between two points is unchanged under changes in the units of measurement.\n* 考慮咗模式嘅分佈 (consideration of the distribution of the model): the distance between two points is not necessarily related to the distribution of the data.\n\nTherefore, option D is the correct answer."
+        ],
+        "gold": "B"
+    },
+    "51": {
+        "origin_prompt": "樣例：\n問題：對應GradientBoosting tree算法， 以下講法正確嘅係\nA. 當增加最少樣本分裂個數，我哋可以抵制過擬合\nB. 當我哋減少訓練單個學習器嘅樣本個數，我哋可以降低偏差\nC. 當增加最少樣本分裂個數，會導致過擬合\nD. 當我哋增加訓練單個學習器嘅樣本個數，我哋可以降低方差\n回應：A\n\n樣例：\n問題：假設你訓練SVM後，得到一個線性決策邊界，你認為該模型欠擬合。喺下次迭代訓練模型時，應該考慮\nA. 減少訓練數據\nB. 減少特徵\nC. 計算更多變量\nD. 增加訓練數據\n回應：C\n\n樣例：\n問題：語音信號由於具有咩特性，所以我哋可以將語音信號進行分窗處理?\nA. 隨機單調性\nB. 其他選項都唔係\nC. 短時平穩性\nD. 單調唔變性\n回應：C\n\n樣例：\n問題：對於k摺交叉驗證, 以下對k嘅講法正確嘅係\nA. 揀更大嘅k, 就會有更細嘅bias (因為訓練集更加接近總數據集)\nB. k越大, 唔一定越好, 揀大嘅k會加大評估時間\nC. 喺揀k時, 要最細化數據集之間嘅方差\nD. 以上所有\n回應：D\n\n樣例：\n問題：以下屬於歐式距離特性嘅有\nA. 尺度縮放唔變性\nB. 旋轉唔變性\nC. 唔受量綱影響嘅特性\nD. 考慮咗模式嘅分佈\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：樸素貝葉斯係一種特殊嘅貝葉斯分類器,特徵變量係X,類別標籤係C,佢嘅一個假定係\nA. 特徵變量X嘅各個維度係類別條件獨立隨機變量\nB. P(X|C)係高斯分佈\nC. 以0為均值，sqr(2)/2為標準差嘅正態分佈\nD. 各類別嘅先驗概率P(C)係相等嘅\n答案：",
+        "prediction": [
+            "The correct answer is A. 特徵變量X嘅各個維度係類別條件獨立隨機變量 (The features X are conditionally independent given the class label C)."
+        ],
+        "gold": "A"
+    },
+    "52": {
+        "origin_prompt": "樣例：\n問題：假設你訓練SVM後，得到一個線性決策邊界，你認為該模型欠擬合。喺下次迭代訓練模型時，應該考慮\nA. 減少訓練數據\nB. 減少特徵\nC. 計算更多變量\nD. 增加訓練數據\n回應：C\n\n樣例：\n問題：語音信號由於具有咩特性，所以我哋可以將語音信號進行分窗處理?\nA. 隨機單調性\nB. 其他選項都唔係\nC. 短時平穩性\nD. 單調唔變性\n回應：C\n\n樣例：\n問題：對於k摺交叉驗證, 以下對k嘅講法正確嘅係\nA. 揀更大嘅k, 就會有更細嘅bias (因為訓練集更加接近總數據集)\nB. k越大, 唔一定越好, 揀大嘅k會加大評估時間\nC. 喺揀k時, 要最細化數據集之間嘅方差\nD. 以上所有\n回應：D\n\n樣例：\n問題：以下屬於歐式距離特性嘅有\nA. 尺度縮放唔變性\nB. 旋轉唔變性\nC. 唔受量綱影響嘅特性\nD. 考慮咗模式嘅分佈\n回應：B\n\n樣例：\n問題：樸素貝葉斯係一種特殊嘅貝葉斯分類器,特徵變量係X,類別標籤係C,佢嘅一個假定係\nA. 特徵變量X嘅各個維度係類別條件獨立隨機變量\nB. P(X|C)係高斯分佈\nC. 以0為均值，sqr(2)/2為標準差嘅正態分佈\nD. 各類別嘅先驗概率P(C)係相等嘅\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺一個n維嘅空間中， 最好嘅檢測outlier(離羣點)嘅方法係\nA. 作盒形圖\nB. 作散點圖\nC. 作正態分佈概率圖\nD. 馬氏距離\n答案：",
+        "prediction": [
+            "The correct answer is D. 馬氏距離 (Mahalanobis distance)."
+        ],
+        "gold": "D"
+    },
+    "53": {
+        "origin_prompt": "樣例：\n問題：語音信號由於具有咩特性，所以我哋可以將語音信號進行分窗處理?\nA. 隨機單調性\nB. 其他選項都唔係\nC. 短時平穩性\nD. 單調唔變性\n回應：C\n\n樣例：\n問題：對於k摺交叉驗證, 以下對k嘅講法正確嘅係\nA. 揀更大嘅k, 就會有更細嘅bias (因為訓練集更加接近總數據集)\nB. k越大, 唔一定越好, 揀大嘅k會加大評估時間\nC. 喺揀k時, 要最細化數據集之間嘅方差\nD. 以上所有\n回應：D\n\n樣例：\n問題：以下屬於歐式距離特性嘅有\nA. 尺度縮放唔變性\nB. 旋轉唔變性\nC. 唔受量綱影響嘅特性\nD. 考慮咗模式嘅分佈\n回應：B\n\n樣例：\n問題：樸素貝葉斯係一種特殊嘅貝葉斯分類器,特徵變量係X,類別標籤係C,佢嘅一個假定係\nA. 特徵變量X嘅各個維度係類別條件獨立隨機變量\nB. P(X|C)係高斯分佈\nC. 以0為均值，sqr(2)/2為標準差嘅正態分佈\nD. 各類別嘅先驗概率P(C)係相等嘅\n回應：A\n\n樣例：\n問題：喺一個n維嘅空間中， 最好嘅檢測outlier(離羣點)嘅方法係\nA. 作盒形圖\nB. 作散點圖\nC. 作正態分佈概率圖\nD. 馬氏距離\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：對於線性回歸模型，包括附加變量喺內，以下嘅可能正確嘅係\nA. R-Squared 係遞減嘅， Adjusted R-squared 都係遞減嘅\nB. R-Squared 係常量嘅，Adjusted R-squared係遞增嘅\nC. R-Squared 同 Adjusted R-squared都係遞增嘅\nD. 以上都唔係\n答案：",
+        "prediction": [
+            "The correct answer is D. 以上都唔係 (All of the above are not correct).\n\nWhen including additional variables in a linear regression model, the R-squared value may increase, decrease, or remain constant, depending on the specific situation. The Adjusted R-squared value, on the other hand, is a modified version of R-squared that penalizes for the number of additional variables included in the model. Therefore, it's possible for R-squared to increase while Adjusted R-squared decreases, or vice versa, or for both to remain constant."
+        ],
+        "gold": "D"
+    },
+    "54": {
+        "origin_prompt": "樣例：\n問題：對於k摺交叉驗證, 以下對k嘅講法正確嘅係\nA. 揀更大嘅k, 就會有更細嘅bias (因為訓練集更加接近總數據集)\nB. k越大, 唔一定越好, 揀大嘅k會加大評估時間\nC. 喺揀k時, 要最細化數據集之間嘅方差\nD. 以上所有\n回應：D\n\n樣例：\n問題：以下屬於歐式距離特性嘅有\nA. 尺度縮放唔變性\nB. 旋轉唔變性\nC. 唔受量綱影響嘅特性\nD. 考慮咗模式嘅分佈\n回應：B\n\n樣例：\n問題：樸素貝葉斯係一種特殊嘅貝葉斯分類器,特徵變量係X,類別標籤係C,佢嘅一個假定係\nA. 特徵變量X嘅各個維度係類別條件獨立隨機變量\nB. P(X|C)係高斯分佈\nC. 以0為均值，sqr(2)/2為標準差嘅正態分佈\nD. 各類別嘅先驗概率P(C)係相等嘅\n回應：A\n\n樣例：\n問題：喺一個n維嘅空間中， 最好嘅檢測outlier(離羣點)嘅方法係\nA. 作盒形圖\nB. 作散點圖\nC. 作正態分佈概率圖\nD. 馬氏距離\n回應：D\n\n樣例：\n問題：對於線性回歸模型，包括附加變量喺內，以下嘅可能正確嘅係\nA. R-Squared 係遞減嘅， Adjusted R-squared 都係遞減嘅\nB. R-Squared 係常量嘅，Adjusted R-squared係遞增嘅\nC. R-Squared 同 Adjusted R-squared都係遞增嘅\nD. 以上都唔係\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：數據科學家可能會同時使用多個算法（模型）進行預測， 並且最後畀呢啲算法嘅結果集成埋一齊進行最後嘅預測（集成學習），以下對集成學習講法正確嘅係\nA. 單個模型之間有高相關性\nB. 單個模型都係用一個算法\nC. 單個模型之間有低相關性\nD. 喺集成學習中使用「平均權重」而唔係「投票」會比較好\n答案：",
+        "prediction": [
+            "The correct answer is C. 單個模型之間有低相關性。\n\nEnsemble learning, also known as model combination or stacking, is a machine learning technique where multiple models are trained and combined to make a final prediction. The idea is that by combining multiple models, each with its own strengths and weaknesses, the final model can be more accurate and robust than any individual model. This is often the case when the models are diverse and have low correlation with each other, which allows them to complement each other's predictions."
+        ],
+        "gold": "C"
+    },
+    "55": {
+        "origin_prompt": "樣例：\n問題：以下屬於歐式距離特性嘅有\nA. 尺度縮放唔變性\nB. 旋轉唔變性\nC. 唔受量綱影響嘅特性\nD. 考慮咗模式嘅分佈\n回應：B\n\n樣例：\n問題：樸素貝葉斯係一種特殊嘅貝葉斯分類器,特徵變量係X,類別標籤係C,佢嘅一個假定係\nA. 特徵變量X嘅各個維度係類別條件獨立隨機變量\nB. P(X|C)係高斯分佈\nC. 以0為均值，sqr(2)/2為標準差嘅正態分佈\nD. 各類別嘅先驗概率P(C)係相等嘅\n回應：A\n\n樣例：\n問題：喺一個n維嘅空間中， 最好嘅檢測outlier(離羣點)嘅方法係\nA. 作盒形圖\nB. 作散點圖\nC. 作正態分佈概率圖\nD. 馬氏距離\n回應：D\n\n樣例：\n問題：對於線性回歸模型，包括附加變量喺內，以下嘅可能正確嘅係\nA. R-Squared 係遞減嘅， Adjusted R-squared 都係遞減嘅\nB. R-Squared 係常量嘅，Adjusted R-squared係遞增嘅\nC. R-Squared 同 Adjusted R-squared都係遞增嘅\nD. 以上都唔係\n回應：D\n\n樣例：\n問題：數據科學家可能會同時使用多個算法（模型）進行預測， 並且最後畀呢啲算法嘅結果集成埋一齊進行最後嘅預測（集成學習），以下對集成學習講法正確嘅係\nA. 單個模型之間有高相關性\nB. 單個模型都係用一個算法\nC. 單個模型之間有低相關性\nD. 喺集成學習中使用「平均權重」而唔係「投票」會比較好\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：我哋想喺大數據集上訓練決策樹, 為咗使用較少時間, 我哋可以\nA. 增加學習率\nB. 減少樹嘅數量\nC. 增加樹嘅深度\nD. 減少樹嘅深度\n答案：",
+        "prediction": [
+            "The correct answer is B. 減少樹嘅數量 (Reduce the number of trees).\n\nDecreasing the number of trees in a random forest can reduce the training time, as it requires less computation to train each tree. Increasing the learning rate (A) may not necessarily reduce training time, as it can lead to faster convergence but also increase the risk of overfitting. Increasing the depth of the trees (C) can also increase training time, as it requires more computation to train each tree. Decreasing the depth of the trees (D) may not be the best approach, as it can reduce the model's ability to capture complex relationships in the data."
+        ],
+        "gold": "D"
+    },
+    "56": {
+        "origin_prompt": "樣例：\n問題：樸素貝葉斯係一種特殊嘅貝葉斯分類器,特徵變量係X,類別標籤係C,佢嘅一個假定係\nA. 特徵變量X嘅各個維度係類別條件獨立隨機變量\nB. P(X|C)係高斯分佈\nC. 以0為均值，sqr(2)/2為標準差嘅正態分佈\nD. 各類別嘅先驗概率P(C)係相等嘅\n回應：A\n\n樣例：\n問題：喺一個n維嘅空間中， 最好嘅檢測outlier(離羣點)嘅方法係\nA. 作盒形圖\nB. 作散點圖\nC. 作正態分佈概率圖\nD. 馬氏距離\n回應：D\n\n樣例：\n問題：對於線性回歸模型，包括附加變量喺內，以下嘅可能正確嘅係\nA. R-Squared 係遞減嘅， Adjusted R-squared 都係遞減嘅\nB. R-Squared 係常量嘅，Adjusted R-squared係遞增嘅\nC. R-Squared 同 Adjusted R-squared都係遞增嘅\nD. 以上都唔係\n回應：D\n\n樣例：\n問題：數據科學家可能會同時使用多個算法（模型）進行預測， 並且最後畀呢啲算法嘅結果集成埋一齊進行最後嘅預測（集成學習），以下對集成學習講法正確嘅係\nA. 單個模型之間有高相關性\nB. 單個模型都係用一個算法\nC. 單個模型之間有低相關性\nD. 喺集成學習中使用「平均權重」而唔係「投票」會比較好\n回應：C\n\n樣例：\n問題：我哋想喺大數據集上訓練決策樹, 為咗使用較少時間, 我哋可以\nA. 增加學習率\nB. 減少樹嘅數量\nC. 增加樹嘅深度\nD. 減少樹嘅深度\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：我哋想要減少數據集入面嘅特徵數, 即降維. 揀以下適合嘅方案\nA. 以上所有\nB. 我哋先將所有特徵都使用, 嚟訓練一個模型, 得到測試集上嘅表現. 然後我哋去掉一個特徵, 再嚟訓練, 用交叉驗證睇嚇測試集上嘅表現. 如果表現比原來仲要好, 我哋可以去除呢個特徵\nC. 使用前向特徵揀方法同後向特徵排除方法\nD. 查看相關性表, 去除相關性最高嘅啲特徵\n答案：",
+        "prediction": [
+            "The correct answer is C. 使用前向特徵揀方法同後向特徵排除方法\n\nThe question is asking about dimensionality reduction, which is the process of reducing the number of features in a dataset. The correct answer is C, which mentions using both forward feature selection and backward feature elimination methods."
+        ],
+        "gold": "A"
+    },
+    "57": {
+        "origin_prompt": "樣例：\n問題：喺一個n維嘅空間中， 最好嘅檢測outlier(離羣點)嘅方法係\nA. 作盒形圖\nB. 作散點圖\nC. 作正態分佈概率圖\nD. 馬氏距離\n回應：D\n\n樣例：\n問題：對於線性回歸模型，包括附加變量喺內，以下嘅可能正確嘅係\nA. R-Squared 係遞減嘅， Adjusted R-squared 都係遞減嘅\nB. R-Squared 係常量嘅，Adjusted R-squared係遞增嘅\nC. R-Squared 同 Adjusted R-squared都係遞增嘅\nD. 以上都唔係\n回應：D\n\n樣例：\n問題：數據科學家可能會同時使用多個算法（模型）進行預測， 並且最後畀呢啲算法嘅結果集成埋一齊進行最後嘅預測（集成學習），以下對集成學習講法正確嘅係\nA. 單個模型之間有高相關性\nB. 單個模型都係用一個算法\nC. 單個模型之間有低相關性\nD. 喺集成學習中使用「平均權重」而唔係「投票」會比較好\n回應：C\n\n樣例：\n問題：我哋想喺大數據集上訓練決策樹, 為咗使用較少時間, 我哋可以\nA. 增加學習率\nB. 減少樹嘅數量\nC. 增加樹嘅深度\nD. 減少樹嘅深度\n回應：D\n\n樣例：\n問題：我哋想要減少數據集入面嘅特徵數, 即降維. 揀以下適合嘅方案\nA. 以上所有\nB. 我哋先將所有特徵都使用, 嚟訓練一個模型, 得到測試集上嘅表現. 然後我哋去掉一個特徵, 再嚟訓練, 用交叉驗證睇嚇測試集上嘅表現. 如果表現比原來仲要好, 我哋可以去除呢個特徵\nC. 使用前向特徵揀方法同後向特徵排除方法\nD. 查看相關性表, 去除相關性最高嘅啲特徵\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下邊個激活函數唔能解決梯度彌散嘅問題\nA. Leaky-Relu\nB. Elu\nC. Sigmoid\nD. Relu\n答案：",
+        "prediction": [
+            "The correct answer is D. Relu.\n\nReLU (Rectified Linear Unit) is an activation function that is known to cause the vanishing gradient problem, which can make it difficult for the network to learn. This is because the derivative of ReLU is only non-zero for positive inputs, which can cause the gradients to become very small during backpropagation.\n\nLeaky-Relu, Elu, and Sigmoid are all activation functions that can help to mitigate the vanishing gradient problem, but they are not immune to it."
+        ],
+        "gold": "C"
+    },
+    "58": {
+        "origin_prompt": "樣例：\n問題：對於線性回歸模型，包括附加變量喺內，以下嘅可能正確嘅係\nA. R-Squared 係遞減嘅， Adjusted R-squared 都係遞減嘅\nB. R-Squared 係常量嘅，Adjusted R-squared係遞增嘅\nC. R-Squared 同 Adjusted R-squared都係遞增嘅\nD. 以上都唔係\n回應：D\n\n樣例：\n問題：數據科學家可能會同時使用多個算法（模型）進行預測， 並且最後畀呢啲算法嘅結果集成埋一齊進行最後嘅預測（集成學習），以下對集成學習講法正確嘅係\nA. 單個模型之間有高相關性\nB. 單個模型都係用一個算法\nC. 單個模型之間有低相關性\nD. 喺集成學習中使用「平均權重」而唔係「投票」會比較好\n回應：C\n\n樣例：\n問題：我哋想喺大數據集上訓練決策樹, 為咗使用較少時間, 我哋可以\nA. 增加學習率\nB. 減少樹嘅數量\nC. 增加樹嘅深度\nD. 減少樹嘅深度\n回應：D\n\n樣例：\n問題：我哋想要減少數據集入面嘅特徵數, 即降維. 揀以下適合嘅方案\nA. 以上所有\nB. 我哋先將所有特徵都使用, 嚟訓練一個模型, 得到測試集上嘅表現. 然後我哋去掉一個特徵, 再嚟訓練, 用交叉驗證睇嚇測試集上嘅表現. 如果表現比原來仲要好, 我哋可以去除呢個特徵\nC. 使用前向特徵揀方法同後向特徵排除方法\nD. 查看相關性表, 去除相關性最高嘅啲特徵\n回應：A\n\n樣例：\n問題：以下邊個激活函數唔能解決梯度彌散嘅問題\nA. Leaky-Relu\nB. Elu\nC. Sigmoid\nD. Relu\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列邊個唔屬於常用嘅文本分類嘅特徵揀算法\nA. 主成分分析\nB. 互信息\nC. 信息增益\nD. 卡方檢驗值\n答案：",
+        "prediction": [
+            "The correct answer is D. 卡方檢驗值 (Chi-squared test value).\n\n卡方檢驗值 (Chi-squared test value) is a statistical test used to determine whether there is a significant association between two variables, but it is not typically used as a feature selection algorithm in text classification. The other options are all commonly used feature selection algorithms in text classification:\n\n* 主成分分析 (Principal Component Analysis, PCA) is a dimensionality reduction technique that can be used to select the most important features.\n* 互信息 (Mutual Information) is a measure of the mutual dependence between two variables, which can be used to select features that are most relevant to the classification task.\n* 信息增益 (Information Gain) is a measure of the reduction in entropy that occurs when a feature is used to partition the data, which can be used to select features that are most useful for classification.\n\nTherefore, the correct answer is D. 卡方檢驗值 (Chi-squared test value)."
+        ],
+        "gold": "A"
+    },
+    "59": {
+        "origin_prompt": "樣例：\n問題：數據科學家可能會同時使用多個算法（模型）進行預測， 並且最後畀呢啲算法嘅結果集成埋一齊進行最後嘅預測（集成學習），以下對集成學習講法正確嘅係\nA. 單個模型之間有高相關性\nB. 單個模型都係用一個算法\nC. 單個模型之間有低相關性\nD. 喺集成學習中使用「平均權重」而唔係「投票」會比較好\n回應：C\n\n樣例：\n問題：我哋想喺大數據集上訓練決策樹, 為咗使用較少時間, 我哋可以\nA. 增加學習率\nB. 減少樹嘅數量\nC. 增加樹嘅深度\nD. 減少樹嘅深度\n回應：D\n\n樣例：\n問題：我哋想要減少數據集入面嘅特徵數, 即降維. 揀以下適合嘅方案\nA. 以上所有\nB. 我哋先將所有特徵都使用, 嚟訓練一個模型, 得到測試集上嘅表現. 然後我哋去掉一個特徵, 再嚟訓練, 用交叉驗證睇嚇測試集上嘅表現. 如果表現比原來仲要好, 我哋可以去除呢個特徵\nC. 使用前向特徵揀方法同後向特徵排除方法\nD. 查看相關性表, 去除相關性最高嘅啲特徵\n回應：A\n\n樣例：\n問題：以下邊個激活函數唔能解決梯度彌散嘅問題\nA. Leaky-Relu\nB. Elu\nC. Sigmoid\nD. Relu\n回應：C\n\n樣例：\n問題：下列邊個唔屬於常用嘅文本分類嘅特徵揀算法\nA. 主成分分析\nB. 互信息\nC. 信息增益\nD. 卡方檢驗值\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：Fisher線性判別函數嘅求解過程係將M維特徵矢量投影喺（ ）中進行求解\nA. 一維空間\nB. 三維空間\nC. M-1維空間\nD. 二維空間\n答案：",
+        "prediction": [
+            "C. M-1維空間"
+        ],
+        "gold": "A"
+    },
+    "60": {
+        "origin_prompt": "樣例：\n問題：我哋想喺大數據集上訓練決策樹, 為咗使用較少時間, 我哋可以\nA. 增加學習率\nB. 減少樹嘅數量\nC. 增加樹嘅深度\nD. 減少樹嘅深度\n回應：D\n\n樣例：\n問題：我哋想要減少數據集入面嘅特徵數, 即降維. 揀以下適合嘅方案\nA. 以上所有\nB. 我哋先將所有特徵都使用, 嚟訓練一個模型, 得到測試集上嘅表現. 然後我哋去掉一個特徵, 再嚟訓練, 用交叉驗證睇嚇測試集上嘅表現. 如果表現比原來仲要好, 我哋可以去除呢個特徵\nC. 使用前向特徵揀方法同後向特徵排除方法\nD. 查看相關性表, 去除相關性最高嘅啲特徵\n回應：A\n\n樣例：\n問題：以下邊個激活函數唔能解決梯度彌散嘅問題\nA. Leaky-Relu\nB. Elu\nC. Sigmoid\nD. Relu\n回應：C\n\n樣例：\n問題：下列邊個唔屬於常用嘅文本分類嘅特徵揀算法\nA. 主成分分析\nB. 互信息\nC. 信息增益\nD. 卡方檢驗值\n回應：A\n\n樣例：\n問題：Fisher線性判別函數嘅求解過程係將M維特徵矢量投影喺（ ）中進行求解\nA. 一維空間\nB. 三維空間\nC. M-1維空間\nD. 二維空間\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列邊一項說明咗X，Y之間嘅較強關係\nA. 相關系數為0.9\nB. 都唔對\nC. Beta系數為0嘅空假設嘅p-value係0.0001\nD. Beta系數為0嘅空假設嘅t統計量係30\n答案：",
+        "prediction": [
+            "B. 都唔對"
+        ],
+        "gold": "A"
+    },
+    "61": {
+        "origin_prompt": "樣例：\n問題：我哋想要減少數據集入面嘅特徵數, 即降維. 揀以下適合嘅方案\nA. 以上所有\nB. 我哋先將所有特徵都使用, 嚟訓練一個模型, 得到測試集上嘅表現. 然後我哋去掉一個特徵, 再嚟訓練, 用交叉驗證睇嚇測試集上嘅表現. 如果表現比原來仲要好, 我哋可以去除呢個特徵\nC. 使用前向特徵揀方法同後向特徵排除方法\nD. 查看相關性表, 去除相關性最高嘅啲特徵\n回應：A\n\n樣例：\n問題：以下邊個激活函數唔能解決梯度彌散嘅問題\nA. Leaky-Relu\nB. Elu\nC. Sigmoid\nD. Relu\n回應：C\n\n樣例：\n問題：下列邊個唔屬於常用嘅文本分類嘅特徵揀算法\nA. 主成分分析\nB. 互信息\nC. 信息增益\nD. 卡方檢驗值\n回應：A\n\n樣例：\n問題：Fisher線性判別函數嘅求解過程係將M維特徵矢量投影喺（ ）中進行求解\nA. 一維空間\nB. 三維空間\nC. M-1維空間\nD. 二維空間\n回應：A\n\n樣例：\n問題：下列邊一項說明咗X，Y之間嘅較強關係\nA. 相關系數為0.9\nB. 都唔對\nC. Beta系數為0嘅空假設嘅p-value係0.0001\nD. Beta系數為0嘅空假設嘅t統計量係30\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺 k-均值算法中，以下邊個選項可用於獲得全局最細？\nA. 以上所有\nB. 搵到集羣嘅最佳數量\nC. 調整迭代嘅次數\nD. 嘗試為唔同嘅質心（centroid）初始化運行算法\n答案：",
+        "prediction": [
+            "The correct answer is D. 嘗試為唔同嘅質心（centroid）初始化運行算法\n\nIn k-means clustering, the global optimum is obtained by trying different initial centroids and running the algorithm multiple times to find the best clustering result."
+        ],
+        "gold": "A"
+    },
+    "62": {
+        "origin_prompt": "樣例：\n問題：以下邊個激活函數唔能解決梯度彌散嘅問題\nA. Leaky-Relu\nB. Elu\nC. Sigmoid\nD. Relu\n回應：C\n\n樣例：\n問題：下列邊個唔屬於常用嘅文本分類嘅特徵揀算法\nA. 主成分分析\nB. 互信息\nC. 信息增益\nD. 卡方檢驗值\n回應：A\n\n樣例：\n問題：Fisher線性判別函數嘅求解過程係將M維特徵矢量投影喺（ ）中進行求解\nA. 一維空間\nB. 三維空間\nC. M-1維空間\nD. 二維空間\n回應：A\n\n樣例：\n問題：下列邊一項說明咗X，Y之間嘅較強關係\nA. 相關系數為0.9\nB. 都唔對\nC. Beta系數為0嘅空假設嘅p-value係0.0001\nD. Beta系數為0嘅空假設嘅t統計量係30\n回應：A\n\n樣例：\n問題：喺 k-均值算法中，以下邊個選項可用於獲得全局最細？\nA. 以上所有\nB. 搵到集羣嘅最佳數量\nC. 調整迭代嘅次數\nD. 嘗試為唔同嘅質心（centroid）初始化運行算法\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺統計語言模型中，通常以概率嘅形式描述任意語句嘅可能性，利用最大相似度估計進行度量，對於啲低頻詞，無論點樣擴大訓練數據，出現嘅頻度仍然好低，下列邊種方法能解決呢一問題\nA. 數據平滑\nB. N元文法\nC. 一元文法\nD. 一元切分\n答案：",
+        "prediction": [
+            "A nice set of multiple-choice questions on machine learning!\n\nAccording to the problem statement, the correct answer is:\n\nA. 數據平滑 (Data Smoothing)\n\nThe problem describes a common issue in statistical language models, where low-frequency words still have low frequencies even after increasing the training data. Data smoothing is a technique used to address this issue by smoothing out the frequency distribution of words."
+        ],
+        "gold": "A"
+    },
+    "63": {
+        "origin_prompt": "樣例：\n問題：下列邊個唔屬於常用嘅文本分類嘅特徵揀算法\nA. 主成分分析\nB. 互信息\nC. 信息增益\nD. 卡方檢驗值\n回應：A\n\n樣例：\n問題：Fisher線性判別函數嘅求解過程係將M維特徵矢量投影喺（ ）中進行求解\nA. 一維空間\nB. 三維空間\nC. M-1維空間\nD. 二維空間\n回應：A\n\n樣例：\n問題：下列邊一項說明咗X，Y之間嘅較強關係\nA. 相關系數為0.9\nB. 都唔對\nC. Beta系數為0嘅空假設嘅p-value係0.0001\nD. Beta系數為0嘅空假設嘅t統計量係30\n回應：A\n\n樣例：\n問題：喺 k-均值算法中，以下邊個選項可用於獲得全局最細？\nA. 以上所有\nB. 搵到集羣嘅最佳數量\nC. 調整迭代嘅次數\nD. 嘗試為唔同嘅質心（centroid）初始化運行算法\n回應：A\n\n樣例：\n問題：喺統計語言模型中，通常以概率嘅形式描述任意語句嘅可能性，利用最大相似度估計進行度量，對於啲低頻詞，無論點樣擴大訓練數據，出現嘅頻度仍然好低，下列邊種方法能解決呢一問題\nA. 數據平滑\nB. N元文法\nC. 一元文法\nD. 一元切分\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下講法中錯誤嘅係\nA. 畀定n個數據點，如果其中一半用於訓練，一半用戶測試，則訓練誤差同測試誤差之間嘅差別會隨住n嘅增加而減少嘅\nB. boosting同bagging都係組合多個分類器投票嘅方法，二者都係根據單個分類器嘅正確率確定其權重\nC. SVM對噪音（如來自其他分部嘅噪音樣本）具備魯棒性\nD. 喺adaboost算法中，所有被分錯樣本嘅權重更新比例唔相同\n答案：",
+        "prediction": [
+            "The correct answer is:\n\nD. 喺adaboost算法中，所有被分錯樣本嘅權重更新比例唔相同\n\nExplanation:\n\n* A is incorrect because as the number of data points increases, the difference between training and testing errors may not necessarily decrease.\n* B is incorrect because boosting and bagging are different methods. Boosting combines multiple models by weighted voting, where the weights are determined by the accuracy of each model. Bagging, on the other hand, combines multiple models by simple voting, without considering the accuracy of each model.\n* C is incorrect because SVM is not inherently robust to noise. While it can be made robust by using techniques such as regularization or feature selection, it is not inherently robust.\n* D is correct because in AdaBoost, the weights of the misclassified samples are updated proportionally to the error rate of each model. This means that the weights of the samples that are misclassified by the previous model are increased, while the weights of the samples that are correctly classified are decreased."
+        ],
+        "gold": "B"
+    },
+    "64": {
+        "origin_prompt": "樣例：\n問題：Fisher線性判別函數嘅求解過程係將M維特徵矢量投影喺（ ）中進行求解\nA. 一維空間\nB. 三維空間\nC. M-1維空間\nD. 二維空間\n回應：A\n\n樣例：\n問題：下列邊一項說明咗X，Y之間嘅較強關係\nA. 相關系數為0.9\nB. 都唔對\nC. Beta系數為0嘅空假設嘅p-value係0.0001\nD. Beta系數為0嘅空假設嘅t統計量係30\n回應：A\n\n樣例：\n問題：喺 k-均值算法中，以下邊個選項可用於獲得全局最細？\nA. 以上所有\nB. 搵到集羣嘅最佳數量\nC. 調整迭代嘅次數\nD. 嘗試為唔同嘅質心（centroid）初始化運行算法\n回應：A\n\n樣例：\n問題：喺統計語言模型中，通常以概率嘅形式描述任意語句嘅可能性，利用最大相似度估計進行度量，對於啲低頻詞，無論點樣擴大訓練數據，出現嘅頻度仍然好低，下列邊種方法能解決呢一問題\nA. 數據平滑\nB. N元文法\nC. 一元文法\nD. 一元切分\n回應：A\n\n樣例：\n問題：以下講法中錯誤嘅係\nA. 畀定n個數據點，如果其中一半用於訓練，一半用戶測試，則訓練誤差同測試誤差之間嘅差別會隨住n嘅增加而減少嘅\nB. boosting同bagging都係組合多個分類器投票嘅方法，二者都係根據單個分類器嘅正確率確定其權重\nC. SVM對噪音（如來自其他分部嘅噪音樣本）具備魯棒性\nD. 喺adaboost算法中，所有被分錯樣本嘅權重更新比例唔相同\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：一個二進制源X發出符號集為{-1,1}，經過離散無記憶信道傳輸，由於信道中噪音嘅存在，接收端Y收到符號集為{-1,1,0}。已知P(x=-1)=1/4，P(x=1)=3/4，P(y=-1|x=-1)=4/5，P(y=0|x=-1)=1/5，P(y=1|x=1)=3/4，P(y=0|x=1)=1/4，求條件熵H(Y|X)\nA. 0.5372\nB. 0.2375\nC. 0.5273\nD. 0.3275\n答案：",
+        "prediction": [
+            "The correct answer is A. 0.5372.\n\nHere's the calculation:\n\nH(Y|X) = - ∑ P(x, y) log2 P(y|x)\n\n= - [P(x=-1)P(y=-1|x=-1) log2 P(y=-1|x=-1) + P(x=-1)P(y=0|x=-1) log2 P(y=0|x=-1) + P(x=1)P(y=1|x=1) log2 P(y=1|x=1) + P(x=1)P(y=0|x=1) log2 P(y=0|x=1)]\n\n= - [(1/4)(4/5) log2 (4/5) + (1/4)(1/5) log2 (1/5) + (3/4)(3/4) log2 (3/4) + (3/4)(1/4) log2 (1/4)]\n\n= 0.5372\n\nSo, the correct answer is A. 0.5372."
+        ],
+        "gold": "B"
+    },
+    "65": {
+        "origin_prompt": "樣例：\n問題：下列邊一項說明咗X，Y之間嘅較強關係\nA. 相關系數為0.9\nB. 都唔對\nC. Beta系數為0嘅空假設嘅p-value係0.0001\nD. Beta系數為0嘅空假設嘅t統計量係30\n回應：A\n\n樣例：\n問題：喺 k-均值算法中，以下邊個選項可用於獲得全局最細？\nA. 以上所有\nB. 搵到集羣嘅最佳數量\nC. 調整迭代嘅次數\nD. 嘗試為唔同嘅質心（centroid）初始化運行算法\n回應：A\n\n樣例：\n問題：喺統計語言模型中，通常以概率嘅形式描述任意語句嘅可能性，利用最大相似度估計進行度量，對於啲低頻詞，無論點樣擴大訓練數據，出現嘅頻度仍然好低，下列邊種方法能解決呢一問題\nA. 數據平滑\nB. N元文法\nC. 一元文法\nD. 一元切分\n回應：A\n\n樣例：\n問題：以下講法中錯誤嘅係\nA. 畀定n個數據點，如果其中一半用於訓練，一半用戶測試，則訓練誤差同測試誤差之間嘅差別會隨住n嘅增加而減少嘅\nB. boosting同bagging都係組合多個分類器投票嘅方法，二者都係根據單個分類器嘅正確率確定其權重\nC. SVM對噪音（如來自其他分部嘅噪音樣本）具備魯棒性\nD. 喺adaboost算法中，所有被分錯樣本嘅權重更新比例唔相同\n回應：B\n\n樣例：\n問題：一個二進制源X發出符號集為{-1,1}，經過離散無記憶信道傳輸，由於信道中噪音嘅存在，接收端Y收到符號集為{-1,1,0}。已知P(x=-1)=1/4，P(x=1)=3/4，P(y=-1|x=-1)=4/5，P(y=0|x=-1)=1/5，P(y=1|x=1)=3/4，P(y=0|x=1)=1/4，求條件熵H(Y|X)\nA. 0.5372\nB. 0.2375\nC. 0.5273\nD. 0.3275\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下邊種技術對於減少數據集嘅維度會更好？\nA. 刪除數據差異較大嘅列\nB. 刪除缺少值太多嘅列\nC. 刪除唔同數據趨勢嘅列\nD. 都唔係\n答案：",
+        "prediction": [
+            "D. 都唔係\n\n（Note: The correct answer is D, as none of the options A, B, or C are effective methods for reducing the dimensionality of a dataset.）"
+        ],
+        "gold": "B"
+    },
+    "66": {
+        "origin_prompt": "樣例：\n問題：喺 k-均值算法中，以下邊個選項可用於獲得全局最細？\nA. 以上所有\nB. 搵到集羣嘅最佳數量\nC. 調整迭代嘅次數\nD. 嘗試為唔同嘅質心（centroid）初始化運行算法\n回應：A\n\n樣例：\n問題：喺統計語言模型中，通常以概率嘅形式描述任意語句嘅可能性，利用最大相似度估計進行度量，對於啲低頻詞，無論點樣擴大訓練數據，出現嘅頻度仍然好低，下列邊種方法能解決呢一問題\nA. 數據平滑\nB. N元文法\nC. 一元文法\nD. 一元切分\n回應：A\n\n樣例：\n問題：以下講法中錯誤嘅係\nA. 畀定n個數據點，如果其中一半用於訓練，一半用戶測試，則訓練誤差同測試誤差之間嘅差別會隨住n嘅增加而減少嘅\nB. boosting同bagging都係組合多個分類器投票嘅方法，二者都係根據單個分類器嘅正確率確定其權重\nC. SVM對噪音（如來自其他分部嘅噪音樣本）具備魯棒性\nD. 喺adaboost算法中，所有被分錯樣本嘅權重更新比例唔相同\n回應：B\n\n樣例：\n問題：一個二進制源X發出符號集為{-1,1}，經過離散無記憶信道傳輸，由於信道中噪音嘅存在，接收端Y收到符號集為{-1,1,0}。已知P(x=-1)=1/4，P(x=1)=3/4，P(y=-1|x=-1)=4/5，P(y=0|x=-1)=1/5，P(y=1|x=1)=3/4，P(y=0|x=1)=1/4，求條件熵H(Y|X)\nA. 0.5372\nB. 0.2375\nC. 0.5273\nD. 0.3275\n回應：B\n\n樣例：\n問題：以下邊種技術對於減少數據集嘅維度會更好？\nA. 刪除數據差異較大嘅列\nB. 刪除缺少值太多嘅列\nC. 刪除唔同數據趨勢嘅列\nD. 都唔係\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列邊啲唔特別適合用嚟對高維數據進行降維\nA. 聚類分析\nB. LASSO\nC. 小波分析法\nD. 拉普拉斯特徵映射\n答案：",
+        "prediction": [
+            "According to the examples you provided, the correct answer is:\n\nD. 拉普拉斯特徵映射\n\nThe other options are not particularly suitable for dimensionality reduction of high-dimensional data:\n\n* A. 聚類分析 (Clustering analysis) is a method for grouping similar data points, but it doesn't reduce the dimensionality of the data.\n* B. LASSO (Least Absolute Shrinkage and Selection Operator) is a regularization method for linear regression, but it's not specifically designed for dimensionality reduction.\n* C. 小波分析法 (Wavelet analysis) is a method for analyzing signals and images, but it's not typically used for dimensionality reduction.\n\n拉普拉斯特徵映射 (Laplacian Eigenmap) is a dimensionality reduction technique that is particularly well-suited for high-dimensional data. It's a manifold learning algorithm that preserves the local structure of the data and can be used to reduce the dimensionality of the data while preserving its essential features."
+        ],
+        "gold": "A"
+    },
+    "67": {
+        "origin_prompt": "樣例：\n問題：喺統計語言模型中，通常以概率嘅形式描述任意語句嘅可能性，利用最大相似度估計進行度量，對於啲低頻詞，無論點樣擴大訓練數據，出現嘅頻度仍然好低，下列邊種方法能解決呢一問題\nA. 數據平滑\nB. N元文法\nC. 一元文法\nD. 一元切分\n回應：A\n\n樣例：\n問題：以下講法中錯誤嘅係\nA. 畀定n個數據點，如果其中一半用於訓練，一半用戶測試，則訓練誤差同測試誤差之間嘅差別會隨住n嘅增加而減少嘅\nB. boosting同bagging都係組合多個分類器投票嘅方法，二者都係根據單個分類器嘅正確率確定其權重\nC. SVM對噪音（如來自其他分部嘅噪音樣本）具備魯棒性\nD. 喺adaboost算法中，所有被分錯樣本嘅權重更新比例唔相同\n回應：B\n\n樣例：\n問題：一個二進制源X發出符號集為{-1,1}，經過離散無記憶信道傳輸，由於信道中噪音嘅存在，接收端Y收到符號集為{-1,1,0}。已知P(x=-1)=1/4，P(x=1)=3/4，P(y=-1|x=-1)=4/5，P(y=0|x=-1)=1/5，P(y=1|x=1)=3/4，P(y=0|x=1)=1/4，求條件熵H(Y|X)\nA. 0.5372\nB. 0.2375\nC. 0.5273\nD. 0.3275\n回應：B\n\n樣例：\n問題：以下邊種技術對於減少數據集嘅維度會更好？\nA. 刪除數據差異較大嘅列\nB. 刪除缺少值太多嘅列\nC. 刪除唔同數據趨勢嘅列\nD. 都唔係\n回應：B\n\n樣例：\n問題：下列邊啲唔特別適合用嚟對高維數據進行降維\nA. 聚類分析\nB. LASSO\nC. 小波分析法\nD. 拉普拉斯特徵映射\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：邏輯回歸同多元回歸分析有咩唔同？\nA. 邏輯回歸回歸系數嘅評估\nB. 邏輯回歸預測某事件發生嘅概率\nC. 邏輯回歸有較高嘅擬合效果\nD. 以上全部正確\n答案：",
+        "prediction": [
+            "A. B"
+        ],
+        "gold": "D"
+    },
+    "68": {
+        "origin_prompt": "樣例：\n問題：以下講法中錯誤嘅係\nA. 畀定n個數據點，如果其中一半用於訓練，一半用戶測試，則訓練誤差同測試誤差之間嘅差別會隨住n嘅增加而減少嘅\nB. boosting同bagging都係組合多個分類器投票嘅方法，二者都係根據單個分類器嘅正確率確定其權重\nC. SVM對噪音（如來自其他分部嘅噪音樣本）具備魯棒性\nD. 喺adaboost算法中，所有被分錯樣本嘅權重更新比例唔相同\n回應：B\n\n樣例：\n問題：一個二進制源X發出符號集為{-1,1}，經過離散無記憶信道傳輸，由於信道中噪音嘅存在，接收端Y收到符號集為{-1,1,0}。已知P(x=-1)=1/4，P(x=1)=3/4，P(y=-1|x=-1)=4/5，P(y=0|x=-1)=1/5，P(y=1|x=1)=3/4，P(y=0|x=1)=1/4，求條件熵H(Y|X)\nA. 0.5372\nB. 0.2375\nC. 0.5273\nD. 0.3275\n回應：B\n\n樣例：\n問題：以下邊種技術對於減少數據集嘅維度會更好？\nA. 刪除數據差異較大嘅列\nB. 刪除缺少值太多嘅列\nC. 刪除唔同數據趨勢嘅列\nD. 都唔係\n回應：B\n\n樣例：\n問題：下列邊啲唔特別適合用嚟對高維數據進行降維\nA. 聚類分析\nB. LASSO\nC. 小波分析法\nD. 拉普拉斯特徵映射\n回應：A\n\n樣例：\n問題：邏輯回歸同多元回歸分析有咩唔同？\nA. 邏輯回歸回歸系數嘅評估\nB. 邏輯回歸預測某事件發生嘅概率\nC. 邏輯回歸有較高嘅擬合效果\nD. 以上全部正確\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：最出名嘅降維算法係 PCA 同 t-SNE。將呢兩個算法分別應用到數據「X」上，並得到數據集「X_projected_PCA」，「X_projected_tSNE」。下面邊一項對「X_projected_PCA」同「X_projected_tSNE」嘅描述係正確嘅\nA. 兩個都喺最近鄰空間能得到解釋\nB. X_projected_PCA 喺最近鄰空間能得到解釋\nC. 兩個都唔能喺最近鄰空間得到解釋\nD. X_projected_tSNE 喺最近鄰空間能得到解釋\n答案：",
+        "prediction": [
+            "The correct answer is C. 兩個都唔能喺最近鄰空間得到解釋。\n\nPCA (Principal Component Analysis) is an orthogonal transformation that projects the data onto a lower-dimensional space, but it does not preserve the local structure of the data. Therefore, the resulting projected data may not be well-suited for nearest-neighbor search or clustering.\n\nt-SNE (t-Distributed Stochastic Neighbor Embedding) is a non-linear dimensionality reduction technique that preserves the local structure of the data. However, it is not guaranteed to produce a nearest-neighbor-preserving embedding, especially when the data is high-dimensional.\n\nTherefore, neither PCA nor t-SNE is guaranteed to produce a nearest-neighbor-preserving embedding, so option C is the correct answer."
+        ],
+        "gold": "D"
+    },
+    "69": {
+        "origin_prompt": "樣例：\n問題：一個二進制源X發出符號集為{-1,1}，經過離散無記憶信道傳輸，由於信道中噪音嘅存在，接收端Y收到符號集為{-1,1,0}。已知P(x=-1)=1/4，P(x=1)=3/4，P(y=-1|x=-1)=4/5，P(y=0|x=-1)=1/5，P(y=1|x=1)=3/4，P(y=0|x=1)=1/4，求條件熵H(Y|X)\nA. 0.5372\nB. 0.2375\nC. 0.5273\nD. 0.3275\n回應：B\n\n樣例：\n問題：以下邊種技術對於減少數據集嘅維度會更好？\nA. 刪除數據差異較大嘅列\nB. 刪除缺少值太多嘅列\nC. 刪除唔同數據趨勢嘅列\nD. 都唔係\n回應：B\n\n樣例：\n問題：下列邊啲唔特別適合用嚟對高維數據進行降維\nA. 聚類分析\nB. LASSO\nC. 小波分析法\nD. 拉普拉斯特徵映射\n回應：A\n\n樣例：\n問題：邏輯回歸同多元回歸分析有咩唔同？\nA. 邏輯回歸回歸系數嘅評估\nB. 邏輯回歸預測某事件發生嘅概率\nC. 邏輯回歸有較高嘅擬合效果\nD. 以上全部正確\n回應：D\n\n樣例：\n問題：最出名嘅降維算法係 PCA 同 t-SNE。將呢兩個算法分別應用到數據「X」上，並得到數據集「X_projected_PCA」，「X_projected_tSNE」。下面邊一項對「X_projected_PCA」同「X_projected_tSNE」嘅描述係正確嘅\nA. 兩個都喺最近鄰空間能得到解釋\nB. X_projected_PCA 喺最近鄰空間能得到解釋\nC. 兩個都唔能喺最近鄰空間得到解釋\nD. X_projected_tSNE 喺最近鄰空間能得到解釋\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列關於維特比算法(Viterbi)嘅講法中錯誤嘅係\nA. 維特比算法中嘅轉移概率係從一個隱含狀態轉移到另一個隱含狀態嘅概率\nB. 維特比算法係一種貪心算法\nC. 維特比算法可應用於中文分詞任務\nD. 維特比算法可得到全局最優解\n答案：",
+        "prediction": [
+            "The correct answer is D. 維特比算法可得到全局最優解。\n\nThe Viterbi algorithm is a dynamic programming algorithm that finds the most likely state sequence for a hidden Markov model (HMM). It is a greedy algorithm that makes locally optimal decisions, but it does not guarantee a global optimum. Therefore, option D is incorrect.\n\nThe other options are correct:\n\nA. The transition probability in the Viterbi algorithm represents the probability of transitioning from one hidden state to another.\n\nB. The Viterbi algorithm is a type of greedy algorithm that makes locally optimal decisions.\n\nC. The Viterbi algorithm can be applied to various tasks, including Chinese word segmentation."
+        ],
+        "gold": "B"
+    },
+    "70": {
+        "origin_prompt": "樣例：\n問題：以下邊種技術對於減少數據集嘅維度會更好？\nA. 刪除數據差異較大嘅列\nB. 刪除缺少值太多嘅列\nC. 刪除唔同數據趨勢嘅列\nD. 都唔係\n回應：B\n\n樣例：\n問題：下列邊啲唔特別適合用嚟對高維數據進行降維\nA. 聚類分析\nB. LASSO\nC. 小波分析法\nD. 拉普拉斯特徵映射\n回應：A\n\n樣例：\n問題：邏輯回歸同多元回歸分析有咩唔同？\nA. 邏輯回歸回歸系數嘅評估\nB. 邏輯回歸預測某事件發生嘅概率\nC. 邏輯回歸有較高嘅擬合效果\nD. 以上全部正確\n回應：D\n\n樣例：\n問題：最出名嘅降維算法係 PCA 同 t-SNE。將呢兩個算法分別應用到數據「X」上，並得到數據集「X_projected_PCA」，「X_projected_tSNE」。下面邊一項對「X_projected_PCA」同「X_projected_tSNE」嘅描述係正確嘅\nA. 兩個都喺最近鄰空間能得到解釋\nB. X_projected_PCA 喺最近鄰空間能得到解釋\nC. 兩個都唔能喺最近鄰空間得到解釋\nD. X_projected_tSNE 喺最近鄰空間能得到解釋\n回應：D\n\n樣例：\n問題：下列關於維特比算法(Viterbi)嘅講法中錯誤嘅係\nA. 維特比算法中嘅轉移概率係從一個隱含狀態轉移到另一個隱含狀態嘅概率\nB. 維特比算法係一種貪心算法\nC. 維特比算法可應用於中文分詞任務\nD. 維特比算法可得到全局最優解\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下( )唔屬於線性分類器最佳準則\nA. 貝葉斯分類\nB. 感知準則函數\nC. 支持向量機\nD. Fisher準則\n答案：",
+        "prediction": [
+            "The correct answer is A. 貝葉斯分類 (Bayes classification).\n\n貝葉斯分類 (Bayes classification) is a type of probabilistic classification algorithm that is not necessarily a linear classifier. It can be used for both linear and non-linear classification problems.\n\nThe other options are all types of linear classifiers:\n\n* 感知準則函數 (Perceptron) is a linear classifier that is based on the perceptron algorithm.\n* 支持向量機 (Support Vector Machine, SVM) is a linear or non-linear classifier that is based on the concept of support vectors.\n* Fisher準則 (Fisher's discriminant analysis) is a linear classifier that is based on the Fisher's linear discriminant analysis algorithm."
+        ],
+        "gold": "A"
+    },
+    "71": {
+        "origin_prompt": "樣例：\n問題：下列邊啲唔特別適合用嚟對高維數據進行降維\nA. 聚類分析\nB. LASSO\nC. 小波分析法\nD. 拉普拉斯特徵映射\n回應：A\n\n樣例：\n問題：邏輯回歸同多元回歸分析有咩唔同？\nA. 邏輯回歸回歸系數嘅評估\nB. 邏輯回歸預測某事件發生嘅概率\nC. 邏輯回歸有較高嘅擬合效果\nD. 以上全部正確\n回應：D\n\n樣例：\n問題：最出名嘅降維算法係 PCA 同 t-SNE。將呢兩個算法分別應用到數據「X」上，並得到數據集「X_projected_PCA」，「X_projected_tSNE」。下面邊一項對「X_projected_PCA」同「X_projected_tSNE」嘅描述係正確嘅\nA. 兩個都喺最近鄰空間能得到解釋\nB. X_projected_PCA 喺最近鄰空間能得到解釋\nC. 兩個都唔能喺最近鄰空間得到解釋\nD. X_projected_tSNE 喺最近鄰空間能得到解釋\n回應：D\n\n樣例：\n問題：下列關於維特比算法(Viterbi)嘅講法中錯誤嘅係\nA. 維特比算法中嘅轉移概率係從一個隱含狀態轉移到另一個隱含狀態嘅概率\nB. 維特比算法係一種貪心算法\nC. 維特比算法可應用於中文分詞任務\nD. 維特比算法可得到全局最優解\n回應：B\n\n樣例：\n問題：以下( )唔屬於線性分類器最佳準則\nA. 貝葉斯分類\nB. 感知準則函數\nC. 支持向量機\nD. Fisher準則\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：對於線性回歸，我哋應該有以下邊啲假設\nA. 搵到離羣點好重要, 因為線性回歸對離羣點好敏感\nB. 線性回歸假設數據冇多重線性相關性\nC. 線性回歸要求所有變量必須符合正態分佈\nD. 以上都唔係\n答案：",
+        "prediction": [
+            "The correct answer is D. 以上都唔係。\n\nFor linear regression, we do not assume that:\n\n* A. Outliers are important, because linear regression is sensitive to outliers.\n* C. All variables must follow a normal distribution.\n* B. There is no multicollinearity between variables.\n\nInstead, linear regression assumes that the relationship between the dependent variable and the independent variables is linear, and that the errors are normally distributed with a constant variance."
+        ],
+        "gold": "D"
+    },
+    "72": {
+        "origin_prompt": "樣例：\n問題：邏輯回歸同多元回歸分析有咩唔同？\nA. 邏輯回歸回歸系數嘅評估\nB. 邏輯回歸預測某事件發生嘅概率\nC. 邏輯回歸有較高嘅擬合效果\nD. 以上全部正確\n回應：D\n\n樣例：\n問題：最出名嘅降維算法係 PCA 同 t-SNE。將呢兩個算法分別應用到數據「X」上，並得到數據集「X_projected_PCA」，「X_projected_tSNE」。下面邊一項對「X_projected_PCA」同「X_projected_tSNE」嘅描述係正確嘅\nA. 兩個都喺最近鄰空間能得到解釋\nB. X_projected_PCA 喺最近鄰空間能得到解釋\nC. 兩個都唔能喺最近鄰空間得到解釋\nD. X_projected_tSNE 喺最近鄰空間能得到解釋\n回應：D\n\n樣例：\n問題：下列關於維特比算法(Viterbi)嘅講法中錯誤嘅係\nA. 維特比算法中嘅轉移概率係從一個隱含狀態轉移到另一個隱含狀態嘅概率\nB. 維特比算法係一種貪心算法\nC. 維特比算法可應用於中文分詞任務\nD. 維特比算法可得到全局最優解\n回應：B\n\n樣例：\n問題：以下( )唔屬於線性分類器最佳準則\nA. 貝葉斯分類\nB. 感知準則函數\nC. 支持向量機\nD. Fisher準則\n回應：A\n\n樣例：\n問題：對於線性回歸，我哋應該有以下邊啲假設\nA. 搵到離羣點好重要, 因為線性回歸對離羣點好敏感\nB. 線性回歸假設數據冇多重線性相關性\nC. 線性回歸要求所有變量必須符合正態分佈\nD. 以上都唔係\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下面唔係迭代二叉樹3代算法對數據嘅要求\nA. 所有嘅訓練例嘅所有屬性必須有一個明確嘅值\nB. 所有屬性必須為離散量\nC. 所有屬性必須為連續\nD. 相同嘅因素必須得到相同嘅結論且訓練例必須唯一\n答案：",
+        "prediction": [
+            "The correct answer is D. 相同嘅因素必須得到相同嘅結論且訓練例必須唯一。\n\nThe iterative dichotomizer 3 (ID3) algorithm requires that:\n\n* All attributes have a clear value for each training example (A)\n* All attributes are discrete (B)\n* All attributes are continuous (C)\n\nBut ID3 does not require that identical features must lead to the same conclusion, nor that training examples must be unique (D)."
+        ],
+        "gold": "C"
+    },
+    "73": {
+        "origin_prompt": "樣例：\n問題：最出名嘅降維算法係 PCA 同 t-SNE。將呢兩個算法分別應用到數據「X」上，並得到數據集「X_projected_PCA」，「X_projected_tSNE」。下面邊一項對「X_projected_PCA」同「X_projected_tSNE」嘅描述係正確嘅\nA. 兩個都喺最近鄰空間能得到解釋\nB. X_projected_PCA 喺最近鄰空間能得到解釋\nC. 兩個都唔能喺最近鄰空間得到解釋\nD. X_projected_tSNE 喺最近鄰空間能得到解釋\n回應：D\n\n樣例：\n問題：下列關於維特比算法(Viterbi)嘅講法中錯誤嘅係\nA. 維特比算法中嘅轉移概率係從一個隱含狀態轉移到另一個隱含狀態嘅概率\nB. 維特比算法係一種貪心算法\nC. 維特比算法可應用於中文分詞任務\nD. 維特比算法可得到全局最優解\n回應：B\n\n樣例：\n問題：以下( )唔屬於線性分類器最佳準則\nA. 貝葉斯分類\nB. 感知準則函數\nC. 支持向量機\nD. Fisher準則\n回應：A\n\n樣例：\n問題：對於線性回歸，我哋應該有以下邊啲假設\nA. 搵到離羣點好重要, 因為線性回歸對離羣點好敏感\nB. 線性回歸假設數據冇多重線性相關性\nC. 線性回歸要求所有變量必須符合正態分佈\nD. 以上都唔係\n回應：D\n\n樣例：\n問題：下面唔係迭代二叉樹3代算法對數據嘅要求\nA. 所有嘅訓練例嘅所有屬性必須有一個明確嘅值\nB. 所有屬性必須為離散量\nC. 所有屬性必須為連續\nD. 相同嘅因素必須得到相同嘅結論且訓練例必須唯一\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下面嘅優化算法中，速度最快嘅係\nA. BFGS\nB. 梯度下降法\nC. 牛頓法\nD. Adam\n答案：",
+        "prediction": [
+            "The correct answer is B. 梯度下降法 (Gradient Descent).\n\nGradient Descent is an optimization algorithm that is known for its simplicity and speed. It is widely used in machine learning for minimizing the loss function of a model. The other options, BFGS, Newton's method, and Adam, are also optimization algorithms, but they are generally slower than Gradient Descent."
+        ],
+        "gold": "C"
+    },
+    "74": {
+        "origin_prompt": "樣例：\n問題：下列關於維特比算法(Viterbi)嘅講法中錯誤嘅係\nA. 維特比算法中嘅轉移概率係從一個隱含狀態轉移到另一個隱含狀態嘅概率\nB. 維特比算法係一種貪心算法\nC. 維特比算法可應用於中文分詞任務\nD. 維特比算法可得到全局最優解\n回應：B\n\n樣例：\n問題：以下( )唔屬於線性分類器最佳準則\nA. 貝葉斯分類\nB. 感知準則函數\nC. 支持向量機\nD. Fisher準則\n回應：A\n\n樣例：\n問題：對於線性回歸，我哋應該有以下邊啲假設\nA. 搵到離羣點好重要, 因為線性回歸對離羣點好敏感\nB. 線性回歸假設數據冇多重線性相關性\nC. 線性回歸要求所有變量必須符合正態分佈\nD. 以上都唔係\n回應：D\n\n樣例：\n問題：下面唔係迭代二叉樹3代算法對數據嘅要求\nA. 所有嘅訓練例嘅所有屬性必須有一個明確嘅值\nB. 所有屬性必須為離散量\nC. 所有屬性必須為連續\nD. 相同嘅因素必須得到相同嘅結論且訓練例必須唯一\n回應：C\n\n樣例：\n問題：下面嘅優化算法中，速度最快嘅係\nA. BFGS\nB. 梯度下降法\nC. 牛頓法\nD. Adam\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列關於ALBERT嘅講法唔正確嘅係\nA. 跨層參數共享\nB. 採用詞嵌入向量參數嘅因式分解\nC. 應用喺下游任務中預測速度顯著提速\nD. 去掉咗dropout\n答案：",
+        "prediction": [
+            "The correct answer is D. 去掉咗dropout.\n\nALBERT (A Lite BERT) is a pre-trained language model that uses cross-layer parameter sharing (A) and factorized embedding projection (B) to reduce the number of parameters. It is designed to be used in downstream tasks, where it has been shown to significantly accelerate prediction speeds (C). Dropout is actually used in ALBERT to prevent overfitting, so it is not removed (D)."
+        ],
+        "gold": "D"
+    },
+    "75": {
+        "origin_prompt": "樣例：\n問題：以下( )唔屬於線性分類器最佳準則\nA. 貝葉斯分類\nB. 感知準則函數\nC. 支持向量機\nD. Fisher準則\n回應：A\n\n樣例：\n問題：對於線性回歸，我哋應該有以下邊啲假設\nA. 搵到離羣點好重要, 因為線性回歸對離羣點好敏感\nB. 線性回歸假設數據冇多重線性相關性\nC. 線性回歸要求所有變量必須符合正態分佈\nD. 以上都唔係\n回應：D\n\n樣例：\n問題：下面唔係迭代二叉樹3代算法對數據嘅要求\nA. 所有嘅訓練例嘅所有屬性必須有一個明確嘅值\nB. 所有屬性必須為離散量\nC. 所有屬性必須為連續\nD. 相同嘅因素必須得到相同嘅結論且訓練例必須唯一\n回應：C\n\n樣例：\n問題：下面嘅優化算法中，速度最快嘅係\nA. BFGS\nB. 梯度下降法\nC. 牛頓法\nD. Adam\n回應：C\n\n樣例：\n問題：下列關於ALBERT嘅講法唔正確嘅係\nA. 跨層參數共享\nB. 採用詞嵌入向量參數嘅因式分解\nC. 應用喺下游任務中預測速度顯著提速\nD. 去掉咗dropout\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下面邊個屬於SVM應用\nA. 新文章聚類\nB. 文本同超文本分類\nC. 圖像分類\nD. 以上均係\n答案：",
+        "prediction": [
+            "D. 以上均係"
+        ],
+        "gold": "D"
+    },
+    "76": {
+        "origin_prompt": "樣例：\n問題：對於線性回歸，我哋應該有以下邊啲假設\nA. 搵到離羣點好重要, 因為線性回歸對離羣點好敏感\nB. 線性回歸假設數據冇多重線性相關性\nC. 線性回歸要求所有變量必須符合正態分佈\nD. 以上都唔係\n回應：D\n\n樣例：\n問題：下面唔係迭代二叉樹3代算法對數據嘅要求\nA. 所有嘅訓練例嘅所有屬性必須有一個明確嘅值\nB. 所有屬性必須為離散量\nC. 所有屬性必須為連續\nD. 相同嘅因素必須得到相同嘅結論且訓練例必須唯一\n回應：C\n\n樣例：\n問題：下面嘅優化算法中，速度最快嘅係\nA. BFGS\nB. 梯度下降法\nC. 牛頓法\nD. Adam\n回應：C\n\n樣例：\n問題：下列關於ALBERT嘅講法唔正確嘅係\nA. 跨層參數共享\nB. 採用詞嵌入向量參數嘅因式分解\nC. 應用喺下游任務中預測速度顯著提速\nD. 去掉咗dropout\n回應：D\n\n樣例：\n問題：下面邊個屬於SVM應用\nA. 新文章聚類\nB. 文本同超文本分類\nC. 圖像分類\nD. 以上均係\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：類域界面方程法中，唔能求線性不可分情況下分類問題近似或者精確解嘅方法係\nA. 基於二次準則嘅H-K算法\nB. 感知器算法\nC. 勢函數法\nD. 偽逆法\n答案：",
+        "prediction": [
+            "The correct answer is D. 偽逆法 (Pseudoinverse method).\n\nThe Pseudoinverse method is a technique used in linear algebra to find a solution to a system of linear equations that is not invertible. It is not suitable for solving linearly inseparable problems, which is the case when the classes are not linearly separable.\n\nThe other options are not correct:\n\nA. The H-K algorithm is a method for solving linearly separable problems, not linearly inseparable problems.\n\nB. The Perceptron algorithm is a type of neural network that can be used to solve linearly separable problems, but it is not suitable for solving linearly inseparable problems.\n\nC. The Support Vector Machine (SVM) is a type of algorithm that can be used to solve linearly inseparable problems, but it is not the same as the Pseudoinverse method.\n\nD. The Pseudoinverse method is not a type of algorithm, but rather a mathematical technique used to solve linear systems of equations."
+        ],
+        "gold": "B"
+    },
+    "77": {
+        "origin_prompt": "樣例：\n問題：下面唔係迭代二叉樹3代算法對數據嘅要求\nA. 所有嘅訓練例嘅所有屬性必須有一個明確嘅值\nB. 所有屬性必須為離散量\nC. 所有屬性必須為連續\nD. 相同嘅因素必須得到相同嘅結論且訓練例必須唯一\n回應：C\n\n樣例：\n問題：下面嘅優化算法中，速度最快嘅係\nA. BFGS\nB. 梯度下降法\nC. 牛頓法\nD. Adam\n回應：C\n\n樣例：\n問題：下列關於ALBERT嘅講法唔正確嘅係\nA. 跨層參數共享\nB. 採用詞嵌入向量參數嘅因式分解\nC. 應用喺下游任務中預測速度顯著提速\nD. 去掉咗dropout\n回應：D\n\n樣例：\n問題：下面邊個屬於SVM應用\nA. 新文章聚類\nB. 文本同超文本分類\nC. 圖像分類\nD. 以上均係\n回應：D\n\n樣例：\n問題：類域界面方程法中，唔能求線性不可分情況下分類問題近似或者精確解嘅方法係\nA. 基於二次準則嘅H-K算法\nB. 感知器算法\nC. 勢函數法\nD. 偽逆法\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下面邊個選項中邊一項屬於確定性算法\nA. K-Means\nB. PCA\nC. KNN\nD. 以上都唔係\n答案：",
+        "prediction": [
+            "D. 以上都唔係\n\n（K-Means 是一种确定性算法，用于聚类分析；PCA 是一种确定性算法，用于降维分析；KNN 是一种确定性算法，用于分类分析。）"
+        ],
+        "gold": "B"
+    },
+    "78": {
+        "origin_prompt": "樣例：\n問題：下面嘅優化算法中，速度最快嘅係\nA. BFGS\nB. 梯度下降法\nC. 牛頓法\nD. Adam\n回應：C\n\n樣例：\n問題：下列關於ALBERT嘅講法唔正確嘅係\nA. 跨層參數共享\nB. 採用詞嵌入向量參數嘅因式分解\nC. 應用喺下游任務中預測速度顯著提速\nD. 去掉咗dropout\n回應：D\n\n樣例：\n問題：下面邊個屬於SVM應用\nA. 新文章聚類\nB. 文本同超文本分類\nC. 圖像分類\nD. 以上均係\n回應：D\n\n樣例：\n問題：類域界面方程法中，唔能求線性不可分情況下分類問題近似或者精確解嘅方法係\nA. 基於二次準則嘅H-K算法\nB. 感知器算法\nC. 勢函數法\nD. 偽逆法\n回應：B\n\n樣例：\n問題：下面邊個選項中邊一項屬於確定性算法\nA. K-Means\nB. PCA\nC. KNN\nD. 以上都唔係\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下邊啲算法, 1. KNN；2. 線性回歸；3.對數幾率回歸。可以用神經網絡去構造:\nA. 2 同 3\nB. 1同 2\nC. 以上都唔係\nD. 1, 2 同 3\n答案：",
+        "prediction": [
+            "答案：A. 2 同 3"
+        ],
+        "gold": "A"
+    },
+    "79": {
+        "origin_prompt": "樣例：\n問題：下列關於ALBERT嘅講法唔正確嘅係\nA. 跨層參數共享\nB. 採用詞嵌入向量參數嘅因式分解\nC. 應用喺下游任務中預測速度顯著提速\nD. 去掉咗dropout\n回應：D\n\n樣例：\n問題：下面邊個屬於SVM應用\nA. 新文章聚類\nB. 文本同超文本分類\nC. 圖像分類\nD. 以上均係\n回應：D\n\n樣例：\n問題：類域界面方程法中，唔能求線性不可分情況下分類問題近似或者精確解嘅方法係\nA. 基於二次準則嘅H-K算法\nB. 感知器算法\nC. 勢函數法\nD. 偽逆法\n回應：B\n\n樣例：\n問題：下面邊個選項中邊一項屬於確定性算法\nA. K-Means\nB. PCA\nC. KNN\nD. 以上都唔係\n回應：B\n\n樣例：\n問題：以下邊啲算法, 1. KNN；2. 線性回歸；3.對數幾率回歸。可以用神經網絡去構造:\nA. 2 同 3\nB. 1同 2\nC. 以上都唔係\nD. 1, 2 同 3\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：訓練SVM嘅最少時間複雜度為O(n^2)，噉以下邊種數據集唔適合用SVM?\nA. 同數據集大細冇關\nB. 大數據集\nC. 細數據集\nD. 中等大細數據集\n答案：",
+        "prediction": [
+            "According to the training time complexity of SVM, which is O(n^2), the smallest dataset that is not suitable for SVM is:\n\nC. 細數據集\n\nThis is because SVM's training time complexity is quadratic, which means it will take a long time to train on small datasets."
+        ],
+        "gold": "B"
+    },
+    "80": {
+        "origin_prompt": "樣例：\n問題：下面邊個屬於SVM應用\nA. 新文章聚類\nB. 文本同超文本分類\nC. 圖像分類\nD. 以上均係\n回應：D\n\n樣例：\n問題：類域界面方程法中，唔能求線性不可分情況下分類問題近似或者精確解嘅方法係\nA. 基於二次準則嘅H-K算法\nB. 感知器算法\nC. 勢函數法\nD. 偽逆法\n回應：B\n\n樣例：\n問題：下面邊個選項中邊一項屬於確定性算法\nA. K-Means\nB. PCA\nC. KNN\nD. 以上都唔係\n回應：B\n\n樣例：\n問題：以下邊啲算法, 1. KNN；2. 線性回歸；3.對數幾率回歸。可以用神經網絡去構造:\nA. 2 同 3\nB. 1同 2\nC. 以上都唔係\nD. 1, 2 同 3\n回應：A\n\n樣例：\n問題：訓練SVM嘅最少時間複雜度為O(n^2)，噉以下邊種數據集唔適合用SVM?\nA. 同數據集大細冇關\nB. 大數據集\nC. 細數據集\nD. 中等大細數據集\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：如果線性回歸模型中嘅隨機誤差存在異方差性，噉參數嘅普通最細二乘法估計量係\nA. 無偏嘅，非有效嘅\nB. 無偏嘅，有效嘅\nC. 有偏嘅，非有效嘅\nD. 有偏嘅，有效嘅\n答案：",
+        "prediction": [
+            "D. 有偏嘅，非有效嘅"
+        ],
+        "gold": "A"
+    },
+    "81": {
+        "origin_prompt": "樣例：\n問題：類域界面方程法中，唔能求線性不可分情況下分類問題近似或者精確解嘅方法係\nA. 基於二次準則嘅H-K算法\nB. 感知器算法\nC. 勢函數法\nD. 偽逆法\n回應：B\n\n樣例：\n問題：下面邊個選項中邊一項屬於確定性算法\nA. K-Means\nB. PCA\nC. KNN\nD. 以上都唔係\n回應：B\n\n樣例：\n問題：以下邊啲算法, 1. KNN；2. 線性回歸；3.對數幾率回歸。可以用神經網絡去構造:\nA. 2 同 3\nB. 1同 2\nC. 以上都唔係\nD. 1, 2 同 3\n回應：A\n\n樣例：\n問題：訓練SVM嘅最少時間複雜度為O(n^2)，噉以下邊種數據集唔適合用SVM?\nA. 同數據集大細冇關\nB. 大數據集\nC. 細數據集\nD. 中等大細數據集\n回應：B\n\n樣例：\n問題：如果線性回歸模型中嘅隨機誤差存在異方差性，噉參數嘅普通最細二乘法估計量係\nA. 無偏嘅，非有效嘅\nB. 無偏嘅，有效嘅\nC. 有偏嘅，非有效嘅\nD. 有偏嘅，有效嘅\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列關於RoBERTa嘅講法唔正確嘅係\nA. 唔做NSP任務\nB. 採用靜態掩碼機制\nC. 採用更多訓練數據\nD. 訓練採用更大batch size\n答案：",
+        "prediction": [
+            "The correct answer is A. 唔做NSP任務 (Does not perform Next Sentence Prediction task)\n\nRoBERTa is a variant of BERT that uses a different approach to learn the masked language modeling task, but it still performs the Next Sentence Prediction (NSP) task."
+        ],
+        "gold": "B"
+    },
+    "82": {
+        "origin_prompt": "樣例：\n問題：下面邊個選項中邊一項屬於確定性算法\nA. K-Means\nB. PCA\nC. KNN\nD. 以上都唔係\n回應：B\n\n樣例：\n問題：以下邊啲算法, 1. KNN；2. 線性回歸；3.對數幾率回歸。可以用神經網絡去構造:\nA. 2 同 3\nB. 1同 2\nC. 以上都唔係\nD. 1, 2 同 3\n回應：A\n\n樣例：\n問題：訓練SVM嘅最少時間複雜度為O(n^2)，噉以下邊種數據集唔適合用SVM?\nA. 同數據集大細冇關\nB. 大數據集\nC. 細數據集\nD. 中等大細數據集\n回應：B\n\n樣例：\n問題：如果線性回歸模型中嘅隨機誤差存在異方差性，噉參數嘅普通最細二乘法估計量係\nA. 無偏嘅，非有效嘅\nB. 無偏嘅，有效嘅\nC. 有偏嘅，非有效嘅\nD. 有偏嘅，有效嘅\n回應：A\n\n樣例：\n問題：下列關於RoBERTa嘅講法唔正確嘅係\nA. 唔做NSP任務\nB. 採用靜態掩碼機制\nC. 採用更多訓練數據\nD. 訓練採用更大batch size\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺邏輯回歸輸出與目標對比嘅情況下，以下評估指標中邊一項唔適用？\nA. 準確度\nB. 均方誤差\nC. AUC-ROC\nD. Logloss\n答案：",
+        "prediction": [
+            "The correct answer is A. 準確度 (Accuracy).\n\nAccuracy is not suitable for evaluating the performance of a logistic regression model when the output is a probability value and the target is a binary classification problem. This is because accuracy is sensitive to the class imbalance issue, and it may not provide a fair evaluation of the model's performance.\n\nThe other options are all suitable evaluation metrics for logistic regression:\n\n* 均方誤差 (Mean Squared Error) is a common metric for evaluating the performance of a regression model.\n* AUC-ROC (Area Under the Receiver Operating Characteristic Curve) is a widely used metric for evaluating the performance of a binary classification model.\n* Logloss (Log Loss) is a common metric for evaluating the performance of a binary classification model, especially when the output is a probability value."
+        ],
+        "gold": "B"
+    },
+    "83": {
+        "origin_prompt": "樣例：\n問題：以下邊啲算法, 1. KNN；2. 線性回歸；3.對數幾率回歸。可以用神經網絡去構造:\nA. 2 同 3\nB. 1同 2\nC. 以上都唔係\nD. 1, 2 同 3\n回應：A\n\n樣例：\n問題：訓練SVM嘅最少時間複雜度為O(n^2)，噉以下邊種數據集唔適合用SVM?\nA. 同數據集大細冇關\nB. 大數據集\nC. 細數據集\nD. 中等大細數據集\n回應：B\n\n樣例：\n問題：如果線性回歸模型中嘅隨機誤差存在異方差性，噉參數嘅普通最細二乘法估計量係\nA. 無偏嘅，非有效嘅\nB. 無偏嘅，有效嘅\nC. 有偏嘅，非有效嘅\nD. 有偏嘅，有效嘅\n回應：A\n\n樣例：\n問題：下列關於RoBERTa嘅講法唔正確嘅係\nA. 唔做NSP任務\nB. 採用靜態掩碼機制\nC. 採用更多訓練數據\nD. 訓練採用更大batch size\n回應：B\n\n樣例：\n問題：喺邏輯回歸輸出與目標對比嘅情況下，以下評估指標中邊一項唔適用？\nA. 準確度\nB. 均方誤差\nC. AUC-ROC\nD. Logloss\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：語言模型嘅參數估計經常使用MLE（最大似然估計）。面臨嘅一個問題係冇出現嘅項概率為0，噉會導致語言模型嘅效果唔好。為咗解決呢個問題，需要使用（）\nA. 增加白噪音\nB. 平滑\nC. 隨機插值\nD. 去噪\n答案：",
+        "prediction": [
+            "B. 平滑"
+        ],
+        "gold": "B"
+    },
+    "84": {
+        "origin_prompt": "樣例：\n問題：訓練SVM嘅最少時間複雜度為O(n^2)，噉以下邊種數據集唔適合用SVM?\nA. 同數據集大細冇關\nB. 大數據集\nC. 細數據集\nD. 中等大細數據集\n回應：B\n\n樣例：\n問題：如果線性回歸模型中嘅隨機誤差存在異方差性，噉參數嘅普通最細二乘法估計量係\nA. 無偏嘅，非有效嘅\nB. 無偏嘅，有效嘅\nC. 有偏嘅，非有效嘅\nD. 有偏嘅，有效嘅\n回應：A\n\n樣例：\n問題：下列關於RoBERTa嘅講法唔正確嘅係\nA. 唔做NSP任務\nB. 採用靜態掩碼機制\nC. 採用更多訓練數據\nD. 訓練採用更大batch size\n回應：B\n\n樣例：\n問題：喺邏輯回歸輸出與目標對比嘅情況下，以下評估指標中邊一項唔適用？\nA. 準確度\nB. 均方誤差\nC. AUC-ROC\nD. Logloss\n回應：B\n\n樣例：\n問題：語言模型嘅參數估計經常使用MLE（最大似然估計）。面臨嘅一個問題係冇出現嘅項概率為0，噉會導致語言模型嘅效果唔好。為咗解決呢個問題，需要使用（）\nA. 增加白噪音\nB. 平滑\nC. 隨機插值\nD. 去噪\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：建模北京市人口嘅年齡分佈，採用咩分佈更合適\nA. 0-1分佈\nB. 正態分佈\nC. 泊松分佈\nD. 指數分佈\n答案：",
+        "prediction": [
+            "Based on the characteristics of the population age distribution in Beijing, I would recommend option B: 正態分佈 (Normal Distribution).\n\nThe population age distribution in Beijing is likely to be a continuous and symmetric distribution, with a majority of the population falling within a certain age range. The normal distribution is a common and suitable choice for modeling such a distribution, as it can capture the central tendency and variability of the data.\n\nThe other options are not as suitable:\n\n* 0-1 分佈 (Option A) is a binary distribution that is typically used for categorical data, not continuous data.\n* 泊松分佈 (Option C) is a discrete distribution that is often used to model count data, not continuous data.\n* 指數分佈 (Option D) is a continuous distribution that is often used to model data that is exponentially distributed, but it may not be suitable for modeling a population age distribution.\n\nTherefore, the correct answer is B: 正態分佈 (Normal Distribution)."
+        ],
+        "gold": "B"
+    },
+    "85": {
+        "origin_prompt": "樣例：\n問題：如果線性回歸模型中嘅隨機誤差存在異方差性，噉參數嘅普通最細二乘法估計量係\nA. 無偏嘅，非有效嘅\nB. 無偏嘅，有效嘅\nC. 有偏嘅，非有效嘅\nD. 有偏嘅，有效嘅\n回應：A\n\n樣例：\n問題：下列關於RoBERTa嘅講法唔正確嘅係\nA. 唔做NSP任務\nB. 採用靜態掩碼機制\nC. 採用更多訓練數據\nD. 訓練採用更大batch size\n回應：B\n\n樣例：\n問題：喺邏輯回歸輸出與目標對比嘅情況下，以下評估指標中邊一項唔適用？\nA. 準確度\nB. 均方誤差\nC. AUC-ROC\nD. Logloss\n回應：B\n\n樣例：\n問題：語言模型嘅參數估計經常使用MLE（最大似然估計）。面臨嘅一個問題係冇出現嘅項概率為0，噉會導致語言模型嘅效果唔好。為咗解決呢個問題，需要使用（）\nA. 增加白噪音\nB. 平滑\nC. 隨機插值\nD. 去噪\n回應：B\n\n樣例：\n問題：建模北京市人口嘅年齡分佈，採用咩分佈更合適\nA. 0-1分佈\nB. 正態分佈\nC. 泊松分佈\nD. 指數分佈\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：SVM中嘅代價參數表示：\nA. 誤分類同模型複雜性之間嘅平衡\nB. 以上均唔係\nC. 使用嘅核\nD. 交叉驗證嘅次數\n答案：",
+        "prediction": [
+            "The correct answer is A. 誤分類同模型複雜性之間嘅平衡\n\nIn SVM, the cost parameter (C) represents the trade-off between the complexity of the model and the misclassification error. It controls the balance between the two, allowing the model to find a balance between correctly classifying the training data and avoiding overfitting."
+        ],
+        "gold": "A"
+    },
+    "86": {
+        "origin_prompt": "樣例：\n問題：下列關於RoBERTa嘅講法唔正確嘅係\nA. 唔做NSP任務\nB. 採用靜態掩碼機制\nC. 採用更多訓練數據\nD. 訓練採用更大batch size\n回應：B\n\n樣例：\n問題：喺邏輯回歸輸出與目標對比嘅情況下，以下評估指標中邊一項唔適用？\nA. 準確度\nB. 均方誤差\nC. AUC-ROC\nD. Logloss\n回應：B\n\n樣例：\n問題：語言模型嘅參數估計經常使用MLE（最大似然估計）。面臨嘅一個問題係冇出現嘅項概率為0，噉會導致語言模型嘅效果唔好。為咗解決呢個問題，需要使用（）\nA. 增加白噪音\nB. 平滑\nC. 隨機插值\nD. 去噪\n回應：B\n\n樣例：\n問題：建模北京市人口嘅年齡分佈，採用咩分佈更合適\nA. 0-1分佈\nB. 正態分佈\nC. 泊松分佈\nD. 指數分佈\n回應：B\n\n樣例：\n問題：SVM中嘅代價參數表示：\nA. 誤分類同模型複雜性之間嘅平衡\nB. 以上均唔係\nC. 使用嘅核\nD. 交叉驗證嘅次數\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：關於SVM泛化誤差描述正確嘅係\nA. 超平面同支持向量之間距離\nB. SVM嘅誤差閾值\nC. 以上都唔係\nD. SVM對未知數據嘅預測能力\n答案：",
+        "prediction": [
+            "The correct answer is A. 超平面同支持向量之間距離。\n\nSVM (Support Vector Machine) is a type of machine learning algorithm that aims to find the optimal hyperplane (超平面) that separates the classes in the feature space. The distance between the hyperplane and the support vectors (支持向量) is a measure of the generalization error (泛化誤差) of the SVM model."
+        ],
+        "gold": "D"
+    },
+    "87": {
+        "origin_prompt": "樣例：\n問題：喺邏輯回歸輸出與目標對比嘅情況下，以下評估指標中邊一項唔適用？\nA. 準確度\nB. 均方誤差\nC. AUC-ROC\nD. Logloss\n回應：B\n\n樣例：\n問題：語言模型嘅參數估計經常使用MLE（最大似然估計）。面臨嘅一個問題係冇出現嘅項概率為0，噉會導致語言模型嘅效果唔好。為咗解決呢個問題，需要使用（）\nA. 增加白噪音\nB. 平滑\nC. 隨機插值\nD. 去噪\n回應：B\n\n樣例：\n問題：建模北京市人口嘅年齡分佈，採用咩分佈更合適\nA. 0-1分佈\nB. 正態分佈\nC. 泊松分佈\nD. 指數分佈\n回應：B\n\n樣例：\n問題：SVM中嘅代價參數表示：\nA. 誤分類同模型複雜性之間嘅平衡\nB. 以上均唔係\nC. 使用嘅核\nD. 交叉驗證嘅次數\n回應：A\n\n樣例：\n問題：關於SVM泛化誤差描述正確嘅係\nA. 超平面同支持向量之間距離\nB. SVM嘅誤差閾值\nC. 以上都唔係\nD. SVM對未知數據嘅預測能力\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列關於BERT嘅講法唔正確嘅係\nA. 支持對語義上下文進行建模\nB. 採用激活函數GELU\nC. 網絡一共有20層\nD. 使用transformer\n答案：",
+        "prediction": [
+            "The correct answer is C. 網絡一共有20層.\n\nBERT is a transformer-based language model, and it does not have a fixed number of layers. The number of layers can vary depending on the specific architecture and implementation."
+        ],
+        "gold": "C"
+    },
+    "88": {
+        "origin_prompt": "樣例：\n問題：語言模型嘅參數估計經常使用MLE（最大似然估計）。面臨嘅一個問題係冇出現嘅項概率為0，噉會導致語言模型嘅效果唔好。為咗解決呢個問題，需要使用（）\nA. 增加白噪音\nB. 平滑\nC. 隨機插值\nD. 去噪\n回應：B\n\n樣例：\n問題：建模北京市人口嘅年齡分佈，採用咩分佈更合適\nA. 0-1分佈\nB. 正態分佈\nC. 泊松分佈\nD. 指數分佈\n回應：B\n\n樣例：\n問題：SVM中嘅代價參數表示：\nA. 誤分類同模型複雜性之間嘅平衡\nB. 以上均唔係\nC. 使用嘅核\nD. 交叉驗證嘅次數\n回應：A\n\n樣例：\n問題：關於SVM泛化誤差描述正確嘅係\nA. 超平面同支持向量之間距離\nB. SVM嘅誤差閾值\nC. 以上都唔係\nD. SVM對未知數據嘅預測能力\n回應：D\n\n樣例：\n問題：下列關於BERT嘅講法唔正確嘅係\nA. 支持對語義上下文進行建模\nB. 採用激活函數GELU\nC. 網絡一共有20層\nD. 使用transformer\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：模式識別中，唔屬於馬氏距離較之於歐式距離嘅優點嘅係\nA. 尺度唔變性\nB. 平移唔變性\nC. 考慮到各種特性之間嘅聯繫\nD. 考慮咗模式嘅分佈\n答案：",
+        "prediction": [
+            "The correct answer is C. 考慮到各種特性之間嘅聯繫 (Considering the relationships between various features).\n\n馬氏距離 (Mahalanobis distance) is a measure of the distance between two points in a multivariate space, taking into account the covariance between the features. One of the advantages of Mahalanobis distance is that it is robust to changes in scale and location, which is reflected in options A and B. Option D is also correct, as Mahalanobis distance takes into account the distribution of the data. However, option C is not correct, as Mahalanobis distance does not consider the relationships between the features."
+        ],
+        "gold": "B"
+    },
+    "89": {
+        "origin_prompt": "樣例：\n問題：建模北京市人口嘅年齡分佈，採用咩分佈更合適\nA. 0-1分佈\nB. 正態分佈\nC. 泊松分佈\nD. 指數分佈\n回應：B\n\n樣例：\n問題：SVM中嘅代價參數表示：\nA. 誤分類同模型複雜性之間嘅平衡\nB. 以上均唔係\nC. 使用嘅核\nD. 交叉驗證嘅次數\n回應：A\n\n樣例：\n問題：關於SVM泛化誤差描述正確嘅係\nA. 超平面同支持向量之間距離\nB. SVM嘅誤差閾值\nC. 以上都唔係\nD. SVM對未知數據嘅預測能力\n回應：D\n\n樣例：\n問題：下列關於BERT嘅講法唔正確嘅係\nA. 支持對語義上下文進行建模\nB. 採用激活函數GELU\nC. 網絡一共有20層\nD. 使用transformer\n回應：C\n\n樣例：\n問題：模式識別中，唔屬於馬氏距離較之於歐式距離嘅優點嘅係\nA. 尺度唔變性\nB. 平移唔變性\nC. 考慮到各種特性之間嘅聯繫\nD. 考慮咗模式嘅分佈\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：描述嘅機器發生故障嘅次數，採用咩分佈更合適?\nA. 0-1分佈\nB. 指數分佈\nC. 正態分佈\nD. 泊松分佈\n答案：",
+        "prediction": [
+            "D. 泊松分佈"
+        ],
+        "gold": "D"
+    },
+    "90": {
+        "origin_prompt": "樣例：\n問題：SVM中嘅代價參數表示：\nA. 誤分類同模型複雜性之間嘅平衡\nB. 以上均唔係\nC. 使用嘅核\nD. 交叉驗證嘅次數\n回應：A\n\n樣例：\n問題：關於SVM泛化誤差描述正確嘅係\nA. 超平面同支持向量之間距離\nB. SVM嘅誤差閾值\nC. 以上都唔係\nD. SVM對未知數據嘅預測能力\n回應：D\n\n樣例：\n問題：下列關於BERT嘅講法唔正確嘅係\nA. 支持對語義上下文進行建模\nB. 採用激活函數GELU\nC. 網絡一共有20層\nD. 使用transformer\n回應：C\n\n樣例：\n問題：模式識別中，唔屬於馬氏距離較之於歐式距離嘅優點嘅係\nA. 尺度唔變性\nB. 平移唔變性\nC. 考慮到各種特性之間嘅聯繫\nD. 考慮咗模式嘅分佈\n回應：B\n\n樣例：\n問題：描述嘅機器發生故障嘅次數，採用咩分佈更合適?\nA. 0-1分佈\nB. 指數分佈\nC. 正態分佈\nD. 泊松分佈\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下邊個唔係LSTM本身嘅特點\nA. LSTM係RNN嘅一種變種\nB. 防止梯度彌散\nC. 訓練時GPU使用率較高\nD. LSTM有遺忘門\n答案：",
+        "prediction": [
+            "The correct answer is C. 訓練時GPU使用率較高\n\nLSTM (Long Short-Term Memory) is a type of RNN (Recurrent Neural Network) that is designed to handle the vanishing gradient problem by introducing memory cells and gates. It is not inherently related to GPU usage during training."
+        ],
+        "gold": "C"
+    },
+    "91": {
+        "origin_prompt": "樣例：\n問題：關於SVM泛化誤差描述正確嘅係\nA. 超平面同支持向量之間距離\nB. SVM嘅誤差閾值\nC. 以上都唔係\nD. SVM對未知數據嘅預測能力\n回應：D\n\n樣例：\n問題：下列關於BERT嘅講法唔正確嘅係\nA. 支持對語義上下文進行建模\nB. 採用激活函數GELU\nC. 網絡一共有20層\nD. 使用transformer\n回應：C\n\n樣例：\n問題：模式識別中，唔屬於馬氏距離較之於歐式距離嘅優點嘅係\nA. 尺度唔變性\nB. 平移唔變性\nC. 考慮到各種特性之間嘅聯繫\nD. 考慮咗模式嘅分佈\n回應：B\n\n樣例：\n問題：描述嘅機器發生故障嘅次數，採用咩分佈更合適?\nA. 0-1分佈\nB. 指數分佈\nC. 正態分佈\nD. 泊松分佈\n回應：D\n\n樣例：\n問題：以下邊個唔係LSTM本身嘅特點\nA. LSTM係RNN嘅一種變種\nB. 防止梯度彌散\nC. 訓練時GPU使用率較高\nD. LSTM有遺忘門\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：關於邏輯回歸同支持向量機唔正確嘅係\nA. 邏輯回歸本質上係一種根據樣本對權值進行極大似然估計嘅方法，而後驗概率正比於先驗概率同似然函數嘅乘積。邏輯僅僅係最大化似然函數，並冇最大化後驗概率，更談唔上最小化後驗概率\nB. 支持向量機可以通過正則化系數控制模型嘅複雜度，避免過擬合。\nC. 支持向量機嘅目標係搵到使得訓練數據盡可能分開且分類間隔最大嘅超平面，應該屬於結構風險最小化\nD. 邏輯回歸嘅輸出就係樣本屬於正類別嘅機率，可以計算出概率。\n答案：",
+        "prediction": [
+            "The correct answer is A.\n\nThe statement \"邏輯回歸本質上係一種根據樣本對權值進行極大似然估計嘅方法，而後驗概率正比於先驗概率同似然函數嘅乘積\" is incorrect. Logistic regression is not a maximum likelihood estimation method, and the posterior probability is not proportional to the prior probability and likelihood function. Instead, logistic regression is a maximum likelihood estimation method that models the probability of a binary outcome variable as a function of one or more predictor variables, and the output is a probability value between 0 and 1.\n\nThe other options are incorrect:\n\n* B: Support Vector Machines (SVMs) can control the complexity of the model through regularization, but this is not the only way to avoid overfitting.\n* C: The goal of SVMs is to find the hyperplane that maximizes the margin between the classes, not to minimize the structural risk.\n* D: The output of logistic regression is not a probability value, but rather a probability ratio that can be used to calculate the probability of a positive outcome."
+        ],
+        "gold": "A"
+    },
+    "92": {
+        "origin_prompt": "樣例：\n問題：下列關於BERT嘅講法唔正確嘅係\nA. 支持對語義上下文進行建模\nB. 採用激活函數GELU\nC. 網絡一共有20層\nD. 使用transformer\n回應：C\n\n樣例：\n問題：模式識別中，唔屬於馬氏距離較之於歐式距離嘅優點嘅係\nA. 尺度唔變性\nB. 平移唔變性\nC. 考慮到各種特性之間嘅聯繫\nD. 考慮咗模式嘅分佈\n回應：B\n\n樣例：\n問題：描述嘅機器發生故障嘅次數，採用咩分佈更合適?\nA. 0-1分佈\nB. 指數分佈\nC. 正態分佈\nD. 泊松分佈\n回應：D\n\n樣例：\n問題：以下邊個唔係LSTM本身嘅特點\nA. LSTM係RNN嘅一種變種\nB. 防止梯度彌散\nC. 訓練時GPU使用率較高\nD. LSTM有遺忘門\n回應：C\n\n樣例：\n問題：關於邏輯回歸同支持向量機唔正確嘅係\nA. 邏輯回歸本質上係一種根據樣本對權值進行極大似然估計嘅方法，而後驗概率正比於先驗概率同似然函數嘅乘積。邏輯僅僅係最大化似然函數，並冇最大化後驗概率，更談唔上最小化後驗概率\nB. 支持向量機可以通過正則化系數控制模型嘅複雜度，避免過擬合。\nC. 支持向量機嘅目標係搵到使得訓練數據盡可能分開且分類間隔最大嘅超平面，應該屬於結構風險最小化\nD. 邏輯回歸嘅輸出就係樣本屬於正類別嘅機率，可以計算出概率。\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下唔屬於影響聚類算法結果嘅主要因素有\nA. 特徵揀\nB. 已知類別嘅樣本質量\nC. 分類準則\nD. 模式相似性測度\n答案：",
+        "prediction": [
+            "The correct answer is A. 特徵揀 (Feature selection).\n\nThe other options are all potential factors that can affect the results of clustering algorithms:\n\n* B. 已知類別嘅樣本質量 (Known class labels of training samples) can affect the performance of clustering algorithms, especially when using supervised clustering methods.\n* C. 分類準則 (Classification criteria) can influence the choice of clustering algorithm and the interpretation of the results.\n* D. 模式相似性測度 (Measure of pattern similarity) is a crucial component of many clustering algorithms, as it determines how similar or dissimilar two patterns are.\n\nFeature selection, on the other hand, is a preprocessing step that involves selecting a subset of the most relevant features from the original dataset, which can affect the performance of clustering algorithms by reducing the dimensionality of the data and removing irrelevant or noisy features."
+        ],
+        "gold": "B"
+    },
+    "93": {
+        "origin_prompt": "樣例：\n問題：模式識別中，唔屬於馬氏距離較之於歐式距離嘅優點嘅係\nA. 尺度唔變性\nB. 平移唔變性\nC. 考慮到各種特性之間嘅聯繫\nD. 考慮咗模式嘅分佈\n回應：B\n\n樣例：\n問題：描述嘅機器發生故障嘅次數，採用咩分佈更合適?\nA. 0-1分佈\nB. 指數分佈\nC. 正態分佈\nD. 泊松分佈\n回應：D\n\n樣例：\n問題：以下邊個唔係LSTM本身嘅特點\nA. LSTM係RNN嘅一種變種\nB. 防止梯度彌散\nC. 訓練時GPU使用率較高\nD. LSTM有遺忘門\n回應：C\n\n樣例：\n問題：關於邏輯回歸同支持向量機唔正確嘅係\nA. 邏輯回歸本質上係一種根據樣本對權值進行極大似然估計嘅方法，而後驗概率正比於先驗概率同似然函數嘅乘積。邏輯僅僅係最大化似然函數，並冇最大化後驗概率，更談唔上最小化後驗概率\nB. 支持向量機可以通過正則化系數控制模型嘅複雜度，避免過擬合。\nC. 支持向量機嘅目標係搵到使得訓練數據盡可能分開且分類間隔最大嘅超平面，應該屬於結構風險最小化\nD. 邏輯回歸嘅輸出就係樣本屬於正類別嘅機率，可以計算出概率。\n回應：A\n\n樣例：\n問題：以下唔屬於影響聚類算法結果嘅主要因素有\nA. 特徵揀\nB. 已知類別嘅樣本質量\nC. 分類準則\nD. 模式相似性測度\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：高斯混合模型(GMM)採用咩準則進行訓練\nA. 均方誤差最小化\nB. 經驗風險最小化\nC. 期望最大化\nD. 其他選項都唔係\n答案：",
+        "prediction": [
+            "C. 期望最大化"
+        ],
+        "gold": "C"
+    },
+    "94": {
+        "origin_prompt": "樣例：\n問題：描述嘅機器發生故障嘅次數，採用咩分佈更合適?\nA. 0-1分佈\nB. 指數分佈\nC. 正態分佈\nD. 泊松分佈\n回應：D\n\n樣例：\n問題：以下邊個唔係LSTM本身嘅特點\nA. LSTM係RNN嘅一種變種\nB. 防止梯度彌散\nC. 訓練時GPU使用率較高\nD. LSTM有遺忘門\n回應：C\n\n樣例：\n問題：關於邏輯回歸同支持向量機唔正確嘅係\nA. 邏輯回歸本質上係一種根據樣本對權值進行極大似然估計嘅方法，而後驗概率正比於先驗概率同似然函數嘅乘積。邏輯僅僅係最大化似然函數，並冇最大化後驗概率，更談唔上最小化後驗概率\nB. 支持向量機可以通過正則化系數控制模型嘅複雜度，避免過擬合。\nC. 支持向量機嘅目標係搵到使得訓練數據盡可能分開且分類間隔最大嘅超平面，應該屬於結構風險最小化\nD. 邏輯回歸嘅輸出就係樣本屬於正類別嘅機率，可以計算出概率。\n回應：A\n\n樣例：\n問題：以下唔屬於影響聚類算法結果嘅主要因素有\nA. 特徵揀\nB. 已知類別嘅樣本質量\nC. 分類準則\nD. 模式相似性測度\n回應：B\n\n樣例：\n問題：高斯混合模型(GMM)採用咩準則進行訓練\nA. 均方誤差最小化\nB. 經驗風險最小化\nC. 期望最大化\nD. 其他選項都唔係\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下講法正確嘅係\nA. 一個機器學習模型，如果有較高準確率，並唔難總係說明呢個分類器係好嘅\nB. 我哋唔可以使用聚類「類別id」作為一個新嘅特徵項， 然後再用監督學習分別進行學習\nC. 如果增加模型複雜度， 噉模型嘅測試錯誤率總係會降低\nD. 如果增加模型複雜度， 噉模型嘅訓練錯誤率總係會降低\n答案：",
+        "prediction": [
+            "The correct answer is D."
+        ],
+        "gold": "A"
+    },
+    "95": {
+        "origin_prompt": "樣例：\n問題：以下邊個唔係LSTM本身嘅特點\nA. LSTM係RNN嘅一種變種\nB. 防止梯度彌散\nC. 訓練時GPU使用率較高\nD. LSTM有遺忘門\n回應：C\n\n樣例：\n問題：關於邏輯回歸同支持向量機唔正確嘅係\nA. 邏輯回歸本質上係一種根據樣本對權值進行極大似然估計嘅方法，而後驗概率正比於先驗概率同似然函數嘅乘積。邏輯僅僅係最大化似然函數，並冇最大化後驗概率，更談唔上最小化後驗概率\nB. 支持向量機可以通過正則化系數控制模型嘅複雜度，避免過擬合。\nC. 支持向量機嘅目標係搵到使得訓練數據盡可能分開且分類間隔最大嘅超平面，應該屬於結構風險最小化\nD. 邏輯回歸嘅輸出就係樣本屬於正類別嘅機率，可以計算出概率。\n回應：A\n\n樣例：\n問題：以下唔屬於影響聚類算法結果嘅主要因素有\nA. 特徵揀\nB. 已知類別嘅樣本質量\nC. 分類準則\nD. 模式相似性測度\n回應：B\n\n樣例：\n問題：高斯混合模型(GMM)採用咩準則進行訓練\nA. 均方誤差最小化\nB. 經驗風險最小化\nC. 期望最大化\nD. 其他選項都唔係\n回應：C\n\n樣例：\n問題：以下講法正確嘅係\nA. 一個機器學習模型，如果有較高準確率，並唔難總係說明呢個分類器係好嘅\nB. 我哋唔可以使用聚類「類別id」作為一個新嘅特徵項， 然後再用監督學習分別進行學習\nC. 如果增加模型複雜度， 噉模型嘅測試錯誤率總係會降低\nD. 如果增加模型複雜度， 噉模型嘅訓練錯誤率總係會降低\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：中文同義詞替換時，常用到Word2Vec，以下講法錯誤嘅係\nA. Word2Vec結果符合當前預料環境\nB. Word2Vec得到嘅都係語義上嘅同義詞\nC. Word2Vec受限於訓練語料嘅數量同質量\nD. Word2Vec基於概率統計\n答案：",
+        "prediction": [
+            "The correct answer is C. Word2Vec受限於訓練語料嘅數量同質量。"
+        ],
+        "gold": "B"
+    },
+    "96": {
+        "origin_prompt": "樣例：\n問題：關於邏輯回歸同支持向量機唔正確嘅係\nA. 邏輯回歸本質上係一種根據樣本對權值進行極大似然估計嘅方法，而後驗概率正比於先驗概率同似然函數嘅乘積。邏輯僅僅係最大化似然函數，並冇最大化後驗概率，更談唔上最小化後驗概率\nB. 支持向量機可以通過正則化系數控制模型嘅複雜度，避免過擬合。\nC. 支持向量機嘅目標係搵到使得訓練數據盡可能分開且分類間隔最大嘅超平面，應該屬於結構風險最小化\nD. 邏輯回歸嘅輸出就係樣本屬於正類別嘅機率，可以計算出概率。\n回應：A\n\n樣例：\n問題：以下唔屬於影響聚類算法結果嘅主要因素有\nA. 特徵揀\nB. 已知類別嘅樣本質量\nC. 分類準則\nD. 模式相似性測度\n回應：B\n\n樣例：\n問題：高斯混合模型(GMM)採用咩準則進行訓練\nA. 均方誤差最小化\nB. 經驗風險最小化\nC. 期望最大化\nD. 其他選項都唔係\n回應：C\n\n樣例：\n問題：以下講法正確嘅係\nA. 一個機器學習模型，如果有較高準確率，並唔難總係說明呢個分類器係好嘅\nB. 我哋唔可以使用聚類「類別id」作為一個新嘅特徵項， 然後再用監督學習分別進行學習\nC. 如果增加模型複雜度， 噉模型嘅測試錯誤率總係會降低\nD. 如果增加模型複雜度， 噉模型嘅訓練錯誤率總係會降低\n回應：A\n\n樣例：\n問題：中文同義詞替換時，常用到Word2Vec，以下講法錯誤嘅係\nA. Word2Vec結果符合當前預料環境\nB. Word2Vec得到嘅都係語義上嘅同義詞\nC. Word2Vec受限於訓練語料嘅數量同質量\nD. Word2Vec基於概率統計\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺以下唔同嘅場景中,使用嘅分析方法唔正確嘅有\nA. 根據商家最近一年嘅經營及服務數據,用聚類算法判斷出天貓商家喺各自主營類目下所屬嘅商家層級\nB. 根據商家近幾年嘅成交數據,用聚類算法擬合出用戶未來一個月可能嘅消費金額公式\nC. 用關聯規則算法分析出購買咗汽車坐墊嘅買家,係否適合推薦汽車腳墊\nD. 根據用戶最近購買嘅商品信息,用決策樹算法識別出淘寶買家可能係男定係女\n答案：",
+        "prediction": [
+            "According to the examples provided, the correct answer is:\n\nA. 根據商家最近一年嘅經營及服務數據,用聚類算法判斷出天貓商家喺各自主營類目下所屬嘅商家層級\n\nThis is because the problem is trying to classify the level of a Taobao merchant based on their recent operating and service data, which is a regression problem, not a clustering problem. Clustering algorithms are used to group similar data points into clusters, whereas this problem is trying to predict a continuous value (the level of the merchant)."
+        ],
+        "gold": "B"
+    },
+    "97": {
+        "origin_prompt": "樣例：\n問題：以下唔屬於影響聚類算法結果嘅主要因素有\nA. 特徵揀\nB. 已知類別嘅樣本質量\nC. 分類準則\nD. 模式相似性測度\n回應：B\n\n樣例：\n問題：高斯混合模型(GMM)採用咩準則進行訓練\nA. 均方誤差最小化\nB. 經驗風險最小化\nC. 期望最大化\nD. 其他選項都唔係\n回應：C\n\n樣例：\n問題：以下講法正確嘅係\nA. 一個機器學習模型，如果有較高準確率，並唔難總係說明呢個分類器係好嘅\nB. 我哋唔可以使用聚類「類別id」作為一個新嘅特徵項， 然後再用監督學習分別進行學習\nC. 如果增加模型複雜度， 噉模型嘅測試錯誤率總係會降低\nD. 如果增加模型複雜度， 噉模型嘅訓練錯誤率總係會降低\n回應：A\n\n樣例：\n問題：中文同義詞替換時，常用到Word2Vec，以下講法錯誤嘅係\nA. Word2Vec結果符合當前預料環境\nB. Word2Vec得到嘅都係語義上嘅同義詞\nC. Word2Vec受限於訓練語料嘅數量同質量\nD. Word2Vec基於概率統計\n回應：B\n\n樣例：\n問題：喺以下唔同嘅場景中,使用嘅分析方法唔正確嘅有\nA. 根據商家最近一年嘅經營及服務數據,用聚類算法判斷出天貓商家喺各自主營類目下所屬嘅商家層級\nB. 根據商家近幾年嘅成交數據,用聚類算法擬合出用戶未來一個月可能嘅消費金額公式\nC. 用關聯規則算法分析出購買咗汽車坐墊嘅買家,係否適合推薦汽車腳墊\nD. 根據用戶最近購買嘅商品信息,用決策樹算法識別出淘寶買家可能係男定係女\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺數據清理中，下面邊個唔係處理缺失值嘅方法\nA. 變量刪除\nB. 估算\nC. 整例刪除\nD. 成對刪除\n答案：",
+        "prediction": [
+            "The correct answer is A. 變量刪除 (Variable deletion).\n\nVariable deletion is not a method for handling missing values. The other options are:\n\n* B. 估算 (Imputation): estimating the missing values using statistical methods.\n* C. 整例刪除 (Listwise deletion): deleting the entire record if any value is missing.\n* D. 成對刪除 (Pairwise deletion): deleting only the pairs of observations that are missing values."
+        ],
+        "gold": "D"
+    },
+    "98": {
+        "origin_prompt": "樣例：\n問題：高斯混合模型(GMM)採用咩準則進行訓練\nA. 均方誤差最小化\nB. 經驗風險最小化\nC. 期望最大化\nD. 其他選項都唔係\n回應：C\n\n樣例：\n問題：以下講法正確嘅係\nA. 一個機器學習模型，如果有較高準確率，並唔難總係說明呢個分類器係好嘅\nB. 我哋唔可以使用聚類「類別id」作為一個新嘅特徵項， 然後再用監督學習分別進行學習\nC. 如果增加模型複雜度， 噉模型嘅測試錯誤率總係會降低\nD. 如果增加模型複雜度， 噉模型嘅訓練錯誤率總係會降低\n回應：A\n\n樣例：\n問題：中文同義詞替換時，常用到Word2Vec，以下講法錯誤嘅係\nA. Word2Vec結果符合當前預料環境\nB. Word2Vec得到嘅都係語義上嘅同義詞\nC. Word2Vec受限於訓練語料嘅數量同質量\nD. Word2Vec基於概率統計\n回應：B\n\n樣例：\n問題：喺以下唔同嘅場景中,使用嘅分析方法唔正確嘅有\nA. 根據商家最近一年嘅經營及服務數據,用聚類算法判斷出天貓商家喺各自主營類目下所屬嘅商家層級\nB. 根據商家近幾年嘅成交數據,用聚類算法擬合出用戶未來一個月可能嘅消費金額公式\nC. 用關聯規則算法分析出購買咗汽車坐墊嘅買家,係否適合推薦汽車腳墊\nD. 根據用戶最近購買嘅商品信息,用決策樹算法識別出淘寶買家可能係男定係女\n回應：B\n\n樣例：\n問題：喺數據清理中，下面邊個唔係處理缺失值嘅方法\nA. 變量刪除\nB. 估算\nC. 整例刪除\nD. 成對刪除\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下關於LDA(Latent Dirichlet allocation)嘅講法錯誤嘅係\nA. LDA係非監督學習技術\nB. LDA可通過EM嘅思想求解\nC. 當揀一篇文檔後，對於該文檔主題嘅分佈係確定嘅\nD. LDA包含詞，主題同文檔三層結構\n答案：",
+        "prediction": [
+            "The correct answer is C.\n\nLDA (Latent Dirichlet Allocation) is a topic modeling technique that assumes a topic distribution for each document, and a word distribution for each topic. The topic distribution for a document is not fixed until the entire document is observed, so option C is incorrect.\n\nThe other options are correct:\n\n* A. LDA is an unsupervised learning technique.\n* B. LDA can be solved using the EM algorithm.\n* D. LDA models the relationships between words, topics, and documents."
+        ],
+        "gold": "C"
+    },
+    "99": {
+        "origin_prompt": "樣例：\n問題：以下講法正確嘅係\nA. 一個機器學習模型，如果有較高準確率，並唔難總係說明呢個分類器係好嘅\nB. 我哋唔可以使用聚類「類別id」作為一個新嘅特徵項， 然後再用監督學習分別進行學習\nC. 如果增加模型複雜度， 噉模型嘅測試錯誤率總係會降低\nD. 如果增加模型複雜度， 噉模型嘅訓練錯誤率總係會降低\n回應：A\n\n樣例：\n問題：中文同義詞替換時，常用到Word2Vec，以下講法錯誤嘅係\nA. Word2Vec結果符合當前預料環境\nB. Word2Vec得到嘅都係語義上嘅同義詞\nC. Word2Vec受限於訓練語料嘅數量同質量\nD. Word2Vec基於概率統計\n回應：B\n\n樣例：\n問題：喺以下唔同嘅場景中,使用嘅分析方法唔正確嘅有\nA. 根據商家最近一年嘅經營及服務數據,用聚類算法判斷出天貓商家喺各自主營類目下所屬嘅商家層級\nB. 根據商家近幾年嘅成交數據,用聚類算法擬合出用戶未來一個月可能嘅消費金額公式\nC. 用關聯規則算法分析出購買咗汽車坐墊嘅買家,係否適合推薦汽車腳墊\nD. 根據用戶最近購買嘅商品信息,用決策樹算法識別出淘寶買家可能係男定係女\n回應：B\n\n樣例：\n問題：喺數據清理中，下面邊個唔係處理缺失值嘅方法\nA. 變量刪除\nB. 估算\nC. 整例刪除\nD. 成對刪除\n回應：D\n\n樣例：\n問題：以下關於LDA(Latent Dirichlet allocation)嘅講法錯誤嘅係\nA. LDA係非監督學習技術\nB. LDA可通過EM嘅思想求解\nC. 當揀一篇文檔後，對於該文檔主題嘅分佈係確定嘅\nD. LDA包含詞，主題同文檔三層結構\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：如果我使用數據集嘅全部特徵並且能夠達到100%嘅準確率，但喺測試集上僅能達到70%左右，呢說明：\nA. 以上均唔正確\nB. 欠擬合\nC. 過擬合\nD. 模型好棒\n答案：",
+        "prediction": [
+            "The correct answer is B. 欠擬合 (Underfitting).\n\nThis is because the model is able to achieve 100% accuracy on the training set, but only 70% accuracy on the test set. This suggests that the model is not complex enough to generalize well to new, unseen data, which is a characteristic of underfitting."
+        ],
+        "gold": "C"
+    },
+    "100": {
+        "origin_prompt": "樣例：\n問題：中文同義詞替換時，常用到Word2Vec，以下講法錯誤嘅係\nA. Word2Vec結果符合當前預料環境\nB. Word2Vec得到嘅都係語義上嘅同義詞\nC. Word2Vec受限於訓練語料嘅數量同質量\nD. Word2Vec基於概率統計\n回應：B\n\n樣例：\n問題：喺以下唔同嘅場景中,使用嘅分析方法唔正確嘅有\nA. 根據商家最近一年嘅經營及服務數據,用聚類算法判斷出天貓商家喺各自主營類目下所屬嘅商家層級\nB. 根據商家近幾年嘅成交數據,用聚類算法擬合出用戶未來一個月可能嘅消費金額公式\nC. 用關聯規則算法分析出購買咗汽車坐墊嘅買家,係否適合推薦汽車腳墊\nD. 根據用戶最近購買嘅商品信息,用決策樹算法識別出淘寶買家可能係男定係女\n回應：B\n\n樣例：\n問題：喺數據清理中，下面邊個唔係處理缺失值嘅方法\nA. 變量刪除\nB. 估算\nC. 整例刪除\nD. 成對刪除\n回應：D\n\n樣例：\n問題：以下關於LDA(Latent Dirichlet allocation)嘅講法錯誤嘅係\nA. LDA係非監督學習技術\nB. LDA可通過EM嘅思想求解\nC. 當揀一篇文檔後，對於該文檔主題嘅分佈係確定嘅\nD. LDA包含詞，主題同文檔三層結構\n回應：C\n\n樣例：\n問題：如果我使用數據集嘅全部特徵並且能夠達到100%嘅準確率，但喺測試集上僅能達到70%左右，呢說明：\nA. 以上均唔正確\nB. 欠擬合\nC. 過擬合\nD. 模型好棒\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。 當你使用較大嘅C（C趨於無窮），則：\nA. 以上均唔正確\nB. 唔確定\nC. 唔能正確分類\nD. 仲能正確分類數據\n答案：",
+        "prediction": [
+            "The correct answer is D. 仲能正確分類數據。\n\nWhen the regularization parameter C is increased, the SVM model becomes more conservative and tries to avoid misclassifying any samples. This means that even if there are some noisy or incorrect samples in the data, the model will still be able to correctly classify most of the samples."
+        ],
+        "gold": "D"
+    },
+    "101": {
+        "origin_prompt": "樣例：\n問題：喺以下唔同嘅場景中,使用嘅分析方法唔正確嘅有\nA. 根據商家最近一年嘅經營及服務數據,用聚類算法判斷出天貓商家喺各自主營類目下所屬嘅商家層級\nB. 根據商家近幾年嘅成交數據,用聚類算法擬合出用戶未來一個月可能嘅消費金額公式\nC. 用關聯規則算法分析出購買咗汽車坐墊嘅買家,係否適合推薦汽車腳墊\nD. 根據用戶最近購買嘅商品信息,用決策樹算法識別出淘寶買家可能係男定係女\n回應：B\n\n樣例：\n問題：喺數據清理中，下面邊個唔係處理缺失值嘅方法\nA. 變量刪除\nB. 估算\nC. 整例刪除\nD. 成對刪除\n回應：D\n\n樣例：\n問題：以下關於LDA(Latent Dirichlet allocation)嘅講法錯誤嘅係\nA. LDA係非監督學習技術\nB. LDA可通過EM嘅思想求解\nC. 當揀一篇文檔後，對於該文檔主題嘅分佈係確定嘅\nD. LDA包含詞，主題同文檔三層結構\n回應：C\n\n樣例：\n問題：如果我使用數據集嘅全部特徵並且能夠達到100%嘅準確率，但喺測試集上僅能達到70%左右，呢說明：\nA. 以上均唔正確\nB. 欠擬合\nC. 過擬合\nD. 模型好棒\n回應：C\n\n樣例：\n問題：假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。 當你使用較大嘅C（C趨於無窮），則：\nA. 以上均唔正確\nB. 唔確定\nC. 唔能正確分類\nD. 仲能正確分類數據\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：基於統計嘅分詞方法為\nA. 正向量最大匹配法\nB. 條件隨機場\nC. 最少切分\nD. 逆向量最大匹配法\n答案：",
+        "prediction": [
+            "The correct answer is B. 條件隨機場 (Conditional Random Field)."
+        ],
+        "gold": "B"
+    },
+    "102": {
+        "origin_prompt": "樣例：\n問題：喺數據清理中，下面邊個唔係處理缺失值嘅方法\nA. 變量刪除\nB. 估算\nC. 整例刪除\nD. 成對刪除\n回應：D\n\n樣例：\n問題：以下關於LDA(Latent Dirichlet allocation)嘅講法錯誤嘅係\nA. LDA係非監督學習技術\nB. LDA可通過EM嘅思想求解\nC. 當揀一篇文檔後，對於該文檔主題嘅分佈係確定嘅\nD. LDA包含詞，主題同文檔三層結構\n回應：C\n\n樣例：\n問題：如果我使用數據集嘅全部特徵並且能夠達到100%嘅準確率，但喺測試集上僅能達到70%左右，呢說明：\nA. 以上均唔正確\nB. 欠擬合\nC. 過擬合\nD. 模型好棒\n回應：C\n\n樣例：\n問題：假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。 當你使用較大嘅C（C趨於無窮），則：\nA. 以上均唔正確\nB. 唔確定\nC. 唔能正確分類\nD. 仲能正確分類數據\n回應：D\n\n樣例：\n問題：基於統計嘅分詞方法為\nA. 正向量最大匹配法\nB. 條件隨機場\nC. 最少切分\nD. 逆向量最大匹配法\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：假定某同學使用樸素貝葉斯分類模型時，唔小心將訓練數據嘅兩個維度搞重複咗，噉關於樸素貝葉斯嘅講法中唔正確嘅係\nA. 模型效果相比無重複特徵嘅情況下精確度會降低\nB. 模型效果相比無重複特徵嘅情況下精確度會提高\nC. 當兩列特徵高度相關時，無法用兩列特徵相同時所得到嘅結論嚟分析問題\nD. 如果所有特徵都被重複一遍，得到嘅模型預測結果相對於唔重複嘅情況下嘅模型預測結果一樣\n答案：",
+        "prediction": [
+            "The correct answer is A. 模型效果相比無重複特徵嘅情況下精確度會降低.\n\nWhen the same feature is repeated, it can lead to overfitting and reduce the model's accuracy. This is because the model is learning the noise and redundancy in the data, rather than the underlying patterns."
+        ],
+        "gold": "D"
+    },
+    "103": {
+        "origin_prompt": "樣例：\n問題：以下關於LDA(Latent Dirichlet allocation)嘅講法錯誤嘅係\nA. LDA係非監督學習技術\nB. LDA可通過EM嘅思想求解\nC. 當揀一篇文檔後，對於該文檔主題嘅分佈係確定嘅\nD. LDA包含詞，主題同文檔三層結構\n回應：C\n\n樣例：\n問題：如果我使用數據集嘅全部特徵並且能夠達到100%嘅準確率，但喺測試集上僅能達到70%左右，呢說明：\nA. 以上均唔正確\nB. 欠擬合\nC. 過擬合\nD. 模型好棒\n回應：C\n\n樣例：\n問題：假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。 當你使用較大嘅C（C趨於無窮），則：\nA. 以上均唔正確\nB. 唔確定\nC. 唔能正確分類\nD. 仲能正確分類數據\n回應：D\n\n樣例：\n問題：基於統計嘅分詞方法為\nA. 正向量最大匹配法\nB. 條件隨機場\nC. 最少切分\nD. 逆向量最大匹配法\n回應：B\n\n樣例：\n問題：假定某同學使用樸素貝葉斯分類模型時，唔小心將訓練數據嘅兩個維度搞重複咗，噉關於樸素貝葉斯嘅講法中唔正確嘅係\nA. 模型效果相比無重複特徵嘅情況下精確度會降低\nB. 模型效果相比無重複特徵嘅情況下精確度會提高\nC. 當兩列特徵高度相關時，無法用兩列特徵相同時所得到嘅結論嚟分析問題\nD. 如果所有特徵都被重複一遍，得到嘅模型預測結果相對於唔重複嘅情況下嘅模型預測結果一樣\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列關於word2vec嘅講法中錯誤嘅係\nA. 使用詞向量可得到以下等式:King - man + woman = Queen\nB. Skip-gram係畀定詞窗中嘅文本，預測當前詞嘅概率\nC. word2vec嘅假設係詞袋模型，詞嘅順序係唔重要嘅\nD. word2vec訓練中使用咗Negative Sample與Hierarchical Softmax兩種加速算法\n答案：",
+        "prediction": [
+            "The correct answer is D. word2vec訓練中使用咗Negative Sample與Hierarchical Softmax兩種加速算法\n\nNote: Word2vec does not use Hierarchical Softmax as an acceleration algorithm. Instead, it uses Hierarchical Softmax as a loss function to optimize the word embeddings. Negative sampling is used as a trick to speed up the training process."
+        ],
+        "gold": "B"
+    },
+    "104": {
+        "origin_prompt": "樣例：\n問題：如果我使用數據集嘅全部特徵並且能夠達到100%嘅準確率，但喺測試集上僅能達到70%左右，呢說明：\nA. 以上均唔正確\nB. 欠擬合\nC. 過擬合\nD. 模型好棒\n回應：C\n\n樣例：\n問題：假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。 當你使用較大嘅C（C趨於無窮），則：\nA. 以上均唔正確\nB. 唔確定\nC. 唔能正確分類\nD. 仲能正確分類數據\n回應：D\n\n樣例：\n問題：基於統計嘅分詞方法為\nA. 正向量最大匹配法\nB. 條件隨機場\nC. 最少切分\nD. 逆向量最大匹配法\n回應：B\n\n樣例：\n問題：假定某同學使用樸素貝葉斯分類模型時，唔小心將訓練數據嘅兩個維度搞重複咗，噉關於樸素貝葉斯嘅講法中唔正確嘅係\nA. 模型效果相比無重複特徵嘅情況下精確度會降低\nB. 模型效果相比無重複特徵嘅情況下精確度會提高\nC. 當兩列特徵高度相關時，無法用兩列特徵相同時所得到嘅結論嚟分析問題\nD. 如果所有特徵都被重複一遍，得到嘅模型預測結果相對於唔重複嘅情況下嘅模型預測結果一樣\n回應：D\n\n樣例：\n問題：下列關於word2vec嘅講法中錯誤嘅係\nA. 使用詞向量可得到以下等式:King - man + woman = Queen\nB. Skip-gram係畀定詞窗中嘅文本，預測當前詞嘅概率\nC. word2vec嘅假設係詞袋模型，詞嘅順序係唔重要嘅\nD. word2vec訓練中使用咗Negative Sample與Hierarchical Softmax兩種加速算法\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下描述正確嘅係\nA. 聚類分析可以睇作係一種非監督嘅分類。\nB. 喺聚類分析當中，簇內嘅相似性越大，簇間嘅差別越大，聚類嘅效果就越差。\nC. SVM係噉樣一個分類器，佢搵具有最細邊緣嘅超平面，噉所以佢都經常被稱為最細邊緣分類器\nD. 喺決策樹中，隨住樹中節點數變得太大，即使模型嘅訓練誤差仲喺繼續減低，但係檢驗誤差開始增大，呢係出現咗模型擬合不足嘅問題。\n答案：",
+        "prediction": [
+            "The correct answer is:\n\nD. 喺決策樹中，隨住樹中節點數變得太大，即使模型嘅訓練誤差仲喺繼續減低，但係檢驗誤差開始增大，呢係出現咗模型擬合不足嘅問題。\n\nThis statement is correct because overfitting occurs when a model is too complex and fits the training data too well, resulting in poor performance on new, unseen data. In decision trees, this can happen when the tree becomes too deep and complex, even if the training error continues to decrease."
+        ],
+        "gold": "A"
+    },
+    "105": {
+        "origin_prompt": "樣例：\n問題：假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。 當你使用較大嘅C（C趨於無窮），則：\nA. 以上均唔正確\nB. 唔確定\nC. 唔能正確分類\nD. 仲能正確分類數據\n回應：D\n\n樣例：\n問題：基於統計嘅分詞方法為\nA. 正向量最大匹配法\nB. 條件隨機場\nC. 最少切分\nD. 逆向量最大匹配法\n回應：B\n\n樣例：\n問題：假定某同學使用樸素貝葉斯分類模型時，唔小心將訓練數據嘅兩個維度搞重複咗，噉關於樸素貝葉斯嘅講法中唔正確嘅係\nA. 模型效果相比無重複特徵嘅情況下精確度會降低\nB. 模型效果相比無重複特徵嘅情況下精確度會提高\nC. 當兩列特徵高度相關時，無法用兩列特徵相同時所得到嘅結論嚟分析問題\nD. 如果所有特徵都被重複一遍，得到嘅模型預測結果相對於唔重複嘅情況下嘅模型預測結果一樣\n回應：D\n\n樣例：\n問題：下列關於word2vec嘅講法中錯誤嘅係\nA. 使用詞向量可得到以下等式:King - man + woman = Queen\nB. Skip-gram係畀定詞窗中嘅文本，預測當前詞嘅概率\nC. word2vec嘅假設係詞袋模型，詞嘅順序係唔重要嘅\nD. word2vec訓練中使用咗Negative Sample與Hierarchical Softmax兩種加速算法\n回應：B\n\n樣例：\n問題：以下描述正確嘅係\nA. 聚類分析可以睇作係一種非監督嘅分類。\nB. 喺聚類分析當中，簇內嘅相似性越大，簇間嘅差別越大，聚類嘅效果就越差。\nC. SVM係噉樣一個分類器，佢搵具有最細邊緣嘅超平面，噉所以佢都經常被稱為最細邊緣分類器\nD. 喺決策樹中，隨住樹中節點數變得太大，即使模型嘅訓練誤差仲喺繼續減低，但係檢驗誤差開始增大，呢係出現咗模型擬合不足嘅問題。\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列選項中，識別模式與其他唔一樣嘅係\nA. 出行方式判斷:步行、踩單車、坐車\nB. 用戶年齡分佈判斷:少年、青年、中年、老年\nC. 派信員分揀信件\nD. 醫生畀病人診斷發病類型\n答案：",
+        "prediction": [
+            "D"
+        ],
+        "gold": "A"
+    },
+    "106": {
+        "origin_prompt": "樣例：\n問題：基於統計嘅分詞方法為\nA. 正向量最大匹配法\nB. 條件隨機場\nC. 最少切分\nD. 逆向量最大匹配法\n回應：B\n\n樣例：\n問題：假定某同學使用樸素貝葉斯分類模型時，唔小心將訓練數據嘅兩個維度搞重複咗，噉關於樸素貝葉斯嘅講法中唔正確嘅係\nA. 模型效果相比無重複特徵嘅情況下精確度會降低\nB. 模型效果相比無重複特徵嘅情況下精確度會提高\nC. 當兩列特徵高度相關時，無法用兩列特徵相同時所得到嘅結論嚟分析問題\nD. 如果所有特徵都被重複一遍，得到嘅模型預測結果相對於唔重複嘅情況下嘅模型預測結果一樣\n回應：D\n\n樣例：\n問題：下列關於word2vec嘅講法中錯誤嘅係\nA. 使用詞向量可得到以下等式:King - man + woman = Queen\nB. Skip-gram係畀定詞窗中嘅文本，預測當前詞嘅概率\nC. word2vec嘅假設係詞袋模型，詞嘅順序係唔重要嘅\nD. word2vec訓練中使用咗Negative Sample與Hierarchical Softmax兩種加速算法\n回應：B\n\n樣例：\n問題：以下描述正確嘅係\nA. 聚類分析可以睇作係一種非監督嘅分類。\nB. 喺聚類分析當中，簇內嘅相似性越大，簇間嘅差別越大，聚類嘅效果就越差。\nC. SVM係噉樣一個分類器，佢搵具有最細邊緣嘅超平面，噉所以佢都經常被稱為最細邊緣分類器\nD. 喺決策樹中，隨住樹中節點數變得太大，即使模型嘅訓練誤差仲喺繼續減低，但係檢驗誤差開始增大，呢係出現咗模型擬合不足嘅問題。\n回應：A\n\n樣例：\n問題：下列選項中，識別模式與其他唔一樣嘅係\nA. 出行方式判斷:步行、踩單車、坐車\nB. 用戶年齡分佈判斷:少年、青年、中年、老年\nC. 派信員分揀信件\nD. 醫生畀病人診斷發病類型\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列講法唔正確嘅係\nA. 梯度下降法係利用當前位置嘅負梯度作為搜索方向嘅方法\nB. 共軛梯度法僅需利用一階導數嘅信息，但係收斂速度高於梯度下降法\nC. 批量梯度下降同隨機梯度下降相比，批量梯度下降優勢係對於大規模樣本效率好高\nD. 牛頓法同梯度下降法相比，一個劣勢係求解複雜，一個優勢係收斂速度加快\n答案：",
+        "prediction": [
+            "The correct answer is A. 梯度下降法係利用當前位置嘅負梯度作為搜索方向嘅方法\n\nExplanation: The gradient descent method actually uses the negative gradient as the search direction, not the positive gradient."
+        ],
+        "gold": "C"
+    },
+    "107": {
+        "origin_prompt": "樣例：\n問題：假定某同學使用樸素貝葉斯分類模型時，唔小心將訓練數據嘅兩個維度搞重複咗，噉關於樸素貝葉斯嘅講法中唔正確嘅係\nA. 模型效果相比無重複特徵嘅情況下精確度會降低\nB. 模型效果相比無重複特徵嘅情況下精確度會提高\nC. 當兩列特徵高度相關時，無法用兩列特徵相同時所得到嘅結論嚟分析問題\nD. 如果所有特徵都被重複一遍，得到嘅模型預測結果相對於唔重複嘅情況下嘅模型預測結果一樣\n回應：D\n\n樣例：\n問題：下列關於word2vec嘅講法中錯誤嘅係\nA. 使用詞向量可得到以下等式:King - man + woman = Queen\nB. Skip-gram係畀定詞窗中嘅文本，預測當前詞嘅概率\nC. word2vec嘅假設係詞袋模型，詞嘅順序係唔重要嘅\nD. word2vec訓練中使用咗Negative Sample與Hierarchical Softmax兩種加速算法\n回應：B\n\n樣例：\n問題：以下描述正確嘅係\nA. 聚類分析可以睇作係一種非監督嘅分類。\nB. 喺聚類分析當中，簇內嘅相似性越大，簇間嘅差別越大，聚類嘅效果就越差。\nC. SVM係噉樣一個分類器，佢搵具有最細邊緣嘅超平面，噉所以佢都經常被稱為最細邊緣分類器\nD. 喺決策樹中，隨住樹中節點數變得太大，即使模型嘅訓練誤差仲喺繼續減低，但係檢驗誤差開始增大，呢係出現咗模型擬合不足嘅問題。\n回應：A\n\n樣例：\n問題：下列選項中，識別模式與其他唔一樣嘅係\nA. 出行方式判斷:步行、踩單車、坐車\nB. 用戶年齡分佈判斷:少年、青年、中年、老年\nC. 派信員分揀信件\nD. 醫生畀病人診斷發病類型\n回應：A\n\n樣例：\n問題：下列講法唔正確嘅係\nA. 梯度下降法係利用當前位置嘅負梯度作為搜索方向嘅方法\nB. 共軛梯度法僅需利用一階導數嘅信息，但係收斂速度高於梯度下降法\nC. 批量梯度下降同隨機梯度下降相比，批量梯度下降優勢係對於大規模樣本效率好高\nD. 牛頓法同梯度下降法相比，一個劣勢係求解複雜，一個優勢係收斂速度加快\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺隱馬爾科夫模型中,如果已知觀察序列同產生觀察序列嘅狀態序列,噉可用以下邊種方法直接進行參數估計\nA. 前向後向算法\nB. 極大似然估計\nC. 維特比算法\nD. EM算法\n答案：",
+        "prediction": [
+            "D. EM算法"
+        ],
+        "gold": "B"
+    },
+    "108": {
+        "origin_prompt": "樣例：\n問題：下列關於word2vec嘅講法中錯誤嘅係\nA. 使用詞向量可得到以下等式:King - man + woman = Queen\nB. Skip-gram係畀定詞窗中嘅文本，預測當前詞嘅概率\nC. word2vec嘅假設係詞袋模型，詞嘅順序係唔重要嘅\nD. word2vec訓練中使用咗Negative Sample與Hierarchical Softmax兩種加速算法\n回應：B\n\n樣例：\n問題：以下描述正確嘅係\nA. 聚類分析可以睇作係一種非監督嘅分類。\nB. 喺聚類分析當中，簇內嘅相似性越大，簇間嘅差別越大，聚類嘅效果就越差。\nC. SVM係噉樣一個分類器，佢搵具有最細邊緣嘅超平面，噉所以佢都經常被稱為最細邊緣分類器\nD. 喺決策樹中，隨住樹中節點數變得太大，即使模型嘅訓練誤差仲喺繼續減低，但係檢驗誤差開始增大，呢係出現咗模型擬合不足嘅問題。\n回應：A\n\n樣例：\n問題：下列選項中，識別模式與其他唔一樣嘅係\nA. 出行方式判斷:步行、踩單車、坐車\nB. 用戶年齡分佈判斷:少年、青年、中年、老年\nC. 派信員分揀信件\nD. 醫生畀病人診斷發病類型\n回應：A\n\n樣例：\n問題：下列講法唔正確嘅係\nA. 梯度下降法係利用當前位置嘅負梯度作為搜索方向嘅方法\nB. 共軛梯度法僅需利用一階導數嘅信息，但係收斂速度高於梯度下降法\nC. 批量梯度下降同隨機梯度下降相比，批量梯度下降優勢係對於大規模樣本效率好高\nD. 牛頓法同梯度下降法相比，一個劣勢係求解複雜，一個優勢係收斂速度加快\n回應：C\n\n樣例：\n問題：喺隱馬爾科夫模型中,如果已知觀察序列同產生觀察序列嘅狀態序列,噉可用以下邊種方法直接進行參數估計\nA. 前向後向算法\nB. 極大似然估計\nC. 維特比算法\nD. EM算法\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：LDA(Latent Dirichlet allocation)中歸屬於同一主題下單詞分佈嘅先驗分佈係?\nA. 正態分佈\nB. 狄利克雷分佈\nC. 多項分佈\nD. 二項分佈\n答案：",
+        "prediction": [
+            "B. 狄利克雷分佈"
+        ],
+        "gold": "C"
+    },
+    "109": {
+        "origin_prompt": "樣例：\n問題：以下描述正確嘅係\nA. 聚類分析可以睇作係一種非監督嘅分類。\nB. 喺聚類分析當中，簇內嘅相似性越大，簇間嘅差別越大，聚類嘅效果就越差。\nC. SVM係噉樣一個分類器，佢搵具有最細邊緣嘅超平面，噉所以佢都經常被稱為最細邊緣分類器\nD. 喺決策樹中，隨住樹中節點數變得太大，即使模型嘅訓練誤差仲喺繼續減低，但係檢驗誤差開始增大，呢係出現咗模型擬合不足嘅問題。\n回應：A\n\n樣例：\n問題：下列選項中，識別模式與其他唔一樣嘅係\nA. 出行方式判斷:步行、踩單車、坐車\nB. 用戶年齡分佈判斷:少年、青年、中年、老年\nC. 派信員分揀信件\nD. 醫生畀病人診斷發病類型\n回應：A\n\n樣例：\n問題：下列講法唔正確嘅係\nA. 梯度下降法係利用當前位置嘅負梯度作為搜索方向嘅方法\nB. 共軛梯度法僅需利用一階導數嘅信息，但係收斂速度高於梯度下降法\nC. 批量梯度下降同隨機梯度下降相比，批量梯度下降優勢係對於大規模樣本效率好高\nD. 牛頓法同梯度下降法相比，一個劣勢係求解複雜，一個優勢係收斂速度加快\n回應：C\n\n樣例：\n問題：喺隱馬爾科夫模型中,如果已知觀察序列同產生觀察序列嘅狀態序列,噉可用以下邊種方法直接進行參數估計\nA. 前向後向算法\nB. 極大似然估計\nC. 維特比算法\nD. EM算法\n回應：B\n\n樣例：\n問題：LDA(Latent Dirichlet allocation)中歸屬於同一主題下單詞分佈嘅先驗分佈係?\nA. 正態分佈\nB. 狄利克雷分佈\nC. 多項分佈\nD. 二項分佈\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：線性回歸嘅基本假設唔包括邊個\nA. 對於解釋變量嘅所有觀測值，隨機誤差項有相同嘅方差\nB. 隨機誤差項係一個期望值為0嘅隨機變量\nC. 隨機誤差項服從正態分佈\nD. 隨機誤差項彼此相關\n答案：",
+        "prediction": [
+            "The correct answer is D. 隨機誤error項彼此相關。\n\nThe basic assumptions of linear regression include:\n\n* A linear relationship between the dependent variable and the independent variables\n* Homoscedasticity (constant variance of the residuals)\n* Normality of the residuals\n* Independence of the residuals (i.e., the residuals are not correlated with each other)\n\nThe option D, \"隨機誤error項彼此相關\", is incorrect because it assumes that the residuals are correlated with each other, which is not a basic assumption of linear regression."
+        ],
+        "gold": "D"
+    },
+    "110": {
+        "origin_prompt": "樣例：\n問題：下列選項中，識別模式與其他唔一樣嘅係\nA. 出行方式判斷:步行、踩單車、坐車\nB. 用戶年齡分佈判斷:少年、青年、中年、老年\nC. 派信員分揀信件\nD. 醫生畀病人診斷發病類型\n回應：A\n\n樣例：\n問題：下列講法唔正確嘅係\nA. 梯度下降法係利用當前位置嘅負梯度作為搜索方向嘅方法\nB. 共軛梯度法僅需利用一階導數嘅信息，但係收斂速度高於梯度下降法\nC. 批量梯度下降同隨機梯度下降相比，批量梯度下降優勢係對於大規模樣本效率好高\nD. 牛頓法同梯度下降法相比，一個劣勢係求解複雜，一個優勢係收斂速度加快\n回應：C\n\n樣例：\n問題：喺隱馬爾科夫模型中,如果已知觀察序列同產生觀察序列嘅狀態序列,噉可用以下邊種方法直接進行參數估計\nA. 前向後向算法\nB. 極大似然估計\nC. 維特比算法\nD. EM算法\n回應：B\n\n樣例：\n問題：LDA(Latent Dirichlet allocation)中歸屬於同一主題下單詞分佈嘅先驗分佈係?\nA. 正態分佈\nB. 狄利克雷分佈\nC. 多項分佈\nD. 二項分佈\n回應：C\n\n樣例：\n問題：線性回歸嘅基本假設唔包括邊個\nA. 對於解釋變量嘅所有觀測值，隨機誤差項有相同嘅方差\nB. 隨機誤差項係一個期望值為0嘅隨機變量\nC. 隨機誤差項服從正態分佈\nD. 隨機誤差項彼此相關\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列唔係SVM核函數嘅係\nA. Sigmoid核函數\nB. 徑向基核函數\nC. 多項式核函數\nD. logistic核函數\n答案：",
+        "prediction": [
+            "The correct answer is D. logistic核函數.\n\nThe Sigmoid kernel function is not a valid kernel function for Support Vector Machines (SVMs). The other options, Sigmoid, Radial Basis Function (RBF), and Polynomial kernels, are all commonly used kernel functions in SVMs."
+        ],
+        "gold": "D"
+    },
+    "111": {
+        "origin_prompt": "樣例：\n問題：下列講法唔正確嘅係\nA. 梯度下降法係利用當前位置嘅負梯度作為搜索方向嘅方法\nB. 共軛梯度法僅需利用一階導數嘅信息，但係收斂速度高於梯度下降法\nC. 批量梯度下降同隨機梯度下降相比，批量梯度下降優勢係對於大規模樣本效率好高\nD. 牛頓法同梯度下降法相比，一個劣勢係求解複雜，一個優勢係收斂速度加快\n回應：C\n\n樣例：\n問題：喺隱馬爾科夫模型中,如果已知觀察序列同產生觀察序列嘅狀態序列,噉可用以下邊種方法直接進行參數估計\nA. 前向後向算法\nB. 極大似然估計\nC. 維特比算法\nD. EM算法\n回應：B\n\n樣例：\n問題：LDA(Latent Dirichlet allocation)中歸屬於同一主題下單詞分佈嘅先驗分佈係?\nA. 正態分佈\nB. 狄利克雷分佈\nC. 多項分佈\nD. 二項分佈\n回應：C\n\n樣例：\n問題：線性回歸嘅基本假設唔包括邊個\nA. 對於解釋變量嘅所有觀測值，隨機誤差項有相同嘅方差\nB. 隨機誤差項係一個期望值為0嘅隨機變量\nC. 隨機誤差項服從正態分佈\nD. 隨機誤差項彼此相關\n回應：D\n\n樣例：\n問題：下列唔係SVM核函數嘅係\nA. Sigmoid核函數\nB. 徑向基核函數\nC. 多項式核函數\nD. logistic核函數\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下列邊啲係非監督學習方法\nA. SVM\nB. K-means\nC. KNN\nD. 決策樹\n答案：",
+        "prediction": [
+            "The correct answer is B. K-means.\n\nK-means is a type of unsupervised learning method, which means it doesn't require labeled data to train the model. The other options are all supervised learning methods, which require labeled data to train the model."
+        ],
+        "gold": "B"
+    },
+    "112": {
+        "origin_prompt": "樣例：\n問題：喺隱馬爾科夫模型中,如果已知觀察序列同產生觀察序列嘅狀態序列,噉可用以下邊種方法直接進行參數估計\nA. 前向後向算法\nB. 極大似然估計\nC. 維特比算法\nD. EM算法\n回應：B\n\n樣例：\n問題：LDA(Latent Dirichlet allocation)中歸屬於同一主題下單詞分佈嘅先驗分佈係?\nA. 正態分佈\nB. 狄利克雷分佈\nC. 多項分佈\nD. 二項分佈\n回應：C\n\n樣例：\n問題：線性回歸嘅基本假設唔包括邊個\nA. 對於解釋變量嘅所有觀測值，隨機誤差項有相同嘅方差\nB. 隨機誤差項係一個期望值為0嘅隨機變量\nC. 隨機誤差項服從正態分佈\nD. 隨機誤差項彼此相關\n回應：D\n\n樣例：\n問題：下列唔係SVM核函數嘅係\nA. Sigmoid核函數\nB. 徑向基核函數\nC. 多項式核函數\nD. logistic核函數\n回應：D\n\n樣例：\n問題：下列邊啲係非監督學習方法\nA. SVM\nB. K-means\nC. KNN\nD. 決策樹\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下邊種方法屬於判別式模型\nA. 貝葉斯網絡\nB. 樸素貝葉斯\nC. 隱馬模型\nD. 支持向量機\n答案：",
+        "prediction": [
+            "D. 支持向量機"
+        ],
+        "gold": "D"
+    },
+    "113": {
+        "origin_prompt": "樣例：\n問題：LDA(Latent Dirichlet allocation)中歸屬於同一主題下單詞分佈嘅先驗分佈係?\nA. 正態分佈\nB. 狄利克雷分佈\nC. 多項分佈\nD. 二項分佈\n回應：C\n\n樣例：\n問題：線性回歸嘅基本假設唔包括邊個\nA. 對於解釋變量嘅所有觀測值，隨機誤差項有相同嘅方差\nB. 隨機誤差項係一個期望值為0嘅隨機變量\nC. 隨機誤差項服從正態分佈\nD. 隨機誤差項彼此相關\n回應：D\n\n樣例：\n問題：下列唔係SVM核函數嘅係\nA. Sigmoid核函數\nB. 徑向基核函數\nC. 多項式核函數\nD. logistic核函數\n回應：D\n\n樣例：\n問題：下列邊啲係非監督學習方法\nA. SVM\nB. K-means\nC. KNN\nD. 決策樹\n回應：B\n\n樣例：\n問題：以下邊種方法屬於判別式模型\nA. 貝葉斯網絡\nB. 樸素貝葉斯\nC. 隱馬模型\nD. 支持向量機\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：下面嘅交叉驗證方法：i. 有放返嘅Bootstrap方法；ii. 留一個測試樣本嘅交叉驗證；iii. 5摺交叉驗證；iv. 重複兩次嘅5摺教程驗證。當樣本係1000時，下面執行時間嘅順序，正確嘅係\nA. ii > iv > iii > i\nB. ii > iii > iv > i\nC. iv > i > ii > iii\nD. i > ii > iii > iv\n答案：",
+        "prediction": [
+            "The correct answer is B. ii > iii > iv > i.\n\nHere's a brief explanation:\n\n* ii. 留一個測試樣本嘅交叉驗證 (Leave-one-out cross-validation): This method is the most computationally expensive, as it involves training the model on all but one sample and evaluating it on the left-out sample. For a sample size of 1000, this would require 1000 iterations.\n* iii. 5摺交叉驗證 (5-fold cross-validation): This method involves dividing the data into 5 folds, training the model on 4 folds, and evaluating it on the left-out fold. This would require 5 iterations.\n* iv. 重複兩次嘅5摺教程驗證 (Repeated 5-fold cross-validation): This method involves repeating the 5-fold cross-validation process multiple times (in this case, 2 times). This would require 10 iterations (5 iterations per repetition).\n* i. 有放返嘅Bootstrap方法 (Bootstrap with replacement): This method involves resampling the data with replacement, which is much faster than the other methods. For a sample size of 1000, this would require only 1 iteration.\n\nTherefore, the correct order of execution time is: ii > iii > iv > i."
+        ],
+        "gold": "A"
+    },
+    "114": {
+        "origin_prompt": "樣例：\n問題：線性回歸嘅基本假設唔包括邊個\nA. 對於解釋變量嘅所有觀測值，隨機誤差項有相同嘅方差\nB. 隨機誤差項係一個期望值為0嘅隨機變量\nC. 隨機誤差項服從正態分佈\nD. 隨機誤差項彼此相關\n回應：D\n\n樣例：\n問題：下列唔係SVM核函數嘅係\nA. Sigmoid核函數\nB. 徑向基核函數\nC. 多項式核函數\nD. logistic核函數\n回應：D\n\n樣例：\n問題：下列邊啲係非監督學習方法\nA. SVM\nB. K-means\nC. KNN\nD. 決策樹\n回應：B\n\n樣例：\n問題：以下邊種方法屬於判別式模型\nA. 貝葉斯網絡\nB. 樸素貝葉斯\nC. 隱馬模型\nD. 支持向量機\n回應：D\n\n樣例：\n問題：下面嘅交叉驗證方法：i. 有放返嘅Bootstrap方法；ii. 留一個測試樣本嘅交叉驗證；iii. 5摺交叉驗證；iv. 重複兩次嘅5摺教程驗證。當樣本係1000時，下面執行時間嘅順序，正確嘅係\nA. ii > iv > iii > i\nB. ii > iii > iv > i\nC. iv > i > ii > iii\nD. i > ii > iii > iv\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：Seq2Seq模型喺解碼時可以揀用嘅方法\nA. 貪心算法\nB. 二者均可\nC. Beam Search\nD. 二者均不可\n答案：",
+        "prediction": [
+            "The correct answer is B. 二者均可 (Both are possible).\n\nSeq2Seq models can use either greedy search or beam search during decoding. Greedy search is a simple and fast method that selects the most likely next token at each step, while beam search is a more advanced method that explores multiple possible paths and selects the most likely one."
+        ],
+        "gold": "B"
+    },
+    "115": {
+        "origin_prompt": "樣例：\n問題：下列唔係SVM核函數嘅係\nA. Sigmoid核函數\nB. 徑向基核函數\nC. 多項式核函數\nD. logistic核函數\n回應：D\n\n樣例：\n問題：下列邊啲係非監督學習方法\nA. SVM\nB. K-means\nC. KNN\nD. 決策樹\n回應：B\n\n樣例：\n問題：以下邊種方法屬於判別式模型\nA. 貝葉斯網絡\nB. 樸素貝葉斯\nC. 隱馬模型\nD. 支持向量機\n回應：D\n\n樣例：\n問題：下面嘅交叉驗證方法：i. 有放返嘅Bootstrap方法；ii. 留一個測試樣本嘅交叉驗證；iii. 5摺交叉驗證；iv. 重複兩次嘅5摺教程驗證。當樣本係1000時，下面執行時間嘅順序，正確嘅係\nA. ii > iv > iii > i\nB. ii > iii > iv > i\nC. iv > i > ii > iii\nD. i > ii > iii > iv\n回應：A\n\n樣例：\n問題：Seq2Seq模型喺解碼時可以揀用嘅方法\nA. 貪心算法\nB. 二者均可\nC. Beam Search\nD. 二者均不可\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：解決隱馬模型中預測問題嘅算法係\nA. 前向算法\nB. 維特比算法\nC. Baum-Welch算法\nD. 後向算法\n答案：",
+        "prediction": [
+            "The correct answer is D. 後向算法 (Viterbi algorithm)."
+        ],
+        "gold": "B"
+    },
+    "116": {
+        "origin_prompt": "樣例：\n問題：下列邊啲係非監督學習方法\nA. SVM\nB. K-means\nC. KNN\nD. 決策樹\n回應：B\n\n樣例：\n問題：以下邊種方法屬於判別式模型\nA. 貝葉斯網絡\nB. 樸素貝葉斯\nC. 隱馬模型\nD. 支持向量機\n回應：D\n\n樣例：\n問題：下面嘅交叉驗證方法：i. 有放返嘅Bootstrap方法；ii. 留一個測試樣本嘅交叉驗證；iii. 5摺交叉驗證；iv. 重複兩次嘅5摺教程驗證。當樣本係1000時，下面執行時間嘅順序，正確嘅係\nA. ii > iv > iii > i\nB. ii > iii > iv > i\nC. iv > i > ii > iii\nD. i > ii > iii > iv\n回應：A\n\n樣例：\n問題：Seq2Seq模型喺解碼時可以揀用嘅方法\nA. 貪心算法\nB. 二者均可\nC. Beam Search\nD. 二者均不可\n回應：B\n\n樣例：\n問題：解決隱馬模型中預測問題嘅算法係\nA. 前向算法\nB. 維特比算法\nC. Baum-Welch算法\nD. 後向算法\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下對k-means聚類算法解釋正確嘅係\nA. 能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\nB. 唔能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\nC. 唔能自動識別類嘅個數, 隨機挑選初始點為中心點計算\nD. 能自動識別類嘅個數, 隨機挑選初始點為中心點計算\n答案：",
+        "prediction": [
+            "The correct answer is B. 唔能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\n\nK-means clustering algorithm does not automatically identify the number of clusters, and it also randomly selects the initial points as the center points."
+        ],
+        "gold": "C"
+    },
+    "117": {
+        "origin_prompt": "樣例：\n問題：以下邊種方法屬於判別式模型\nA. 貝葉斯網絡\nB. 樸素貝葉斯\nC. 隱馬模型\nD. 支持向量機\n回應：D\n\n樣例：\n問題：下面嘅交叉驗證方法：i. 有放返嘅Bootstrap方法；ii. 留一個測試樣本嘅交叉驗證；iii. 5摺交叉驗證；iv. 重複兩次嘅5摺教程驗證。當樣本係1000時，下面執行時間嘅順序，正確嘅係\nA. ii > iv > iii > i\nB. ii > iii > iv > i\nC. iv > i > ii > iii\nD. i > ii > iii > iv\n回應：A\n\n樣例：\n問題：Seq2Seq模型喺解碼時可以揀用嘅方法\nA. 貪心算法\nB. 二者均可\nC. Beam Search\nD. 二者均不可\n回應：B\n\n樣例：\n問題：解決隱馬模型中預測問題嘅算法係\nA. 前向算法\nB. 維特比算法\nC. Baum-Welch算法\nD. 後向算法\n回應：B\n\n樣例：\n問題：以下對k-means聚類算法解釋正確嘅係\nA. 能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\nB. 唔能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\nC. 唔能自動識別類嘅個數, 隨機挑選初始點為中心點計算\nD. 能自動識別類嘅個數, 隨機挑選初始點為中心點計算\n回應：C\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：一般，k-NN最近鄰方法喺（）嘅情況下效果較好\nA. 樣本呈團狀分佈\nB. 樣本較多但典型性唔好\nC. 樣本呈鏈狀分佈\nD. 樣本較少但典型性好\n答案：",
+        "prediction": [
+            "According to the characteristics of k-NN nearest neighbor method, the correct answer is:\n\nD. 樣本較少但典型性好\n\nThe k-NN method is effective when there are few samples but they are representative, as it can make accurate predictions based on the similarity between the test sample and the nearest neighbors."
+        ],
+        "gold": "D"
+    },
+    "118": {
+        "origin_prompt": "樣例：\n問題：下面嘅交叉驗證方法：i. 有放返嘅Bootstrap方法；ii. 留一個測試樣本嘅交叉驗證；iii. 5摺交叉驗證；iv. 重複兩次嘅5摺教程驗證。當樣本係1000時，下面執行時間嘅順序，正確嘅係\nA. ii > iv > iii > i\nB. ii > iii > iv > i\nC. iv > i > ii > iii\nD. i > ii > iii > iv\n回應：A\n\n樣例：\n問題：Seq2Seq模型喺解碼時可以揀用嘅方法\nA. 貪心算法\nB. 二者均可\nC. Beam Search\nD. 二者均不可\n回應：B\n\n樣例：\n問題：解決隱馬模型中預測問題嘅算法係\nA. 前向算法\nB. 維特比算法\nC. Baum-Welch算法\nD. 後向算法\n回應：B\n\n樣例：\n問題：以下對k-means聚類算法解釋正確嘅係\nA. 能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\nB. 唔能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\nC. 唔能自動識別類嘅個數, 隨機挑選初始點為中心點計算\nD. 能自動識別類嘅個數, 隨機挑選初始點為中心點計算\n回應：C\n\n樣例：\n問題：一般，k-NN最近鄰方法喺（）嘅情況下效果較好\nA. 樣本呈團狀分佈\nB. 樣本較多但典型性唔好\nC. 樣本呈鏈狀分佈\nD. 樣本較少但典型性好\n回應：D\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：一監獄人臉識別准入系統用嚟識別待進入人員嘅身份，呢系統一共包括識別4種唔同嘅人員：獄警，賊，送餐員，其他。下面邊種學習方法最適合呢種應用需求\nA. 多分類問題\nB. 二分類問題\nC. k-中心點聚類問題\nD. 層次聚類問題\n答案：",
+        "prediction": [
+            "A. 多分類問題\n\nExplanation: The problem is a multi-class classification problem, where the system needs to identify one of four different types of people (獄警, 賊, 送餐員, 其他). This is a classic example of a multi-class classification problem, where the goal is to predict one of multiple classes."
+        ],
+        "gold": "A"
+    },
+    "119": {
+        "origin_prompt": "樣例：\n問題：Seq2Seq模型喺解碼時可以揀用嘅方法\nA. 貪心算法\nB. 二者均可\nC. Beam Search\nD. 二者均不可\n回應：B\n\n樣例：\n問題：解決隱馬模型中預測問題嘅算法係\nA. 前向算法\nB. 維特比算法\nC. Baum-Welch算法\nD. 後向算法\n回應：B\n\n樣例：\n問題：以下對k-means聚類算法解釋正確嘅係\nA. 能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\nB. 唔能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\nC. 唔能自動識別類嘅個數, 隨機挑選初始點為中心點計算\nD. 能自動識別類嘅個數, 隨機挑選初始點為中心點計算\n回應：C\n\n樣例：\n問題：一般，k-NN最近鄰方法喺（）嘅情況下效果較好\nA. 樣本呈團狀分佈\nB. 樣本較多但典型性唔好\nC. 樣本呈鏈狀分佈\nD. 樣本較少但典型性好\n回應：D\n\n樣例：\n問題：一監獄人臉識別准入系統用嚟識別待進入人員嘅身份，呢系統一共包括識別4種唔同嘅人員：獄警，賊，送餐員，其他。下面邊種學習方法最適合呢種應用需求\nA. 多分類問題\nB. 二分類問題\nC. k-中心點聚類問題\nD. 層次聚類問題\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：為咗得到同 SVD 一樣嘅投射（projection），你需要喺 PCA 中點樣做\nA. 將數據轉換成零均值\nB. 無法做到\nC. 將數據轉換成零眾數\nD. 將數據轉換成零中位數\n答案：",
+        "prediction": [
+            "B."
+        ],
+        "gold": "A"
+    },
+    "120": {
+        "origin_prompt": "樣例：\n問題：解決隱馬模型中預測問題嘅算法係\nA. 前向算法\nB. 維特比算法\nC. Baum-Welch算法\nD. 後向算法\n回應：B\n\n樣例：\n問題：以下對k-means聚類算法解釋正確嘅係\nA. 能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\nB. 唔能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\nC. 唔能自動識別類嘅個數, 隨機挑選初始點為中心點計算\nD. 能自動識別類嘅個數, 隨機挑選初始點為中心點計算\n回應：C\n\n樣例：\n問題：一般，k-NN最近鄰方法喺（）嘅情況下效果較好\nA. 樣本呈團狀分佈\nB. 樣本較多但典型性唔好\nC. 樣本呈鏈狀分佈\nD. 樣本較少但典型性好\n回應：D\n\n樣例：\n問題：一監獄人臉識別准入系統用嚟識別待進入人員嘅身份，呢系統一共包括識別4種唔同嘅人員：獄警，賊，送餐員，其他。下面邊種學習方法最適合呢種應用需求\nA. 多分類問題\nB. 二分類問題\nC. k-中心點聚類問題\nD. 層次聚類問題\n回應：A\n\n樣例：\n問題：為咗得到同 SVD 一樣嘅投射（projection），你需要喺 PCA 中點樣做\nA. 將數據轉換成零均值\nB. 無法做到\nC. 將數據轉換成零眾數\nD. 將數據轉換成零中位數\n回應：A\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：喺統計模式分類問題中，當先驗概率未知時，可以使用\nA. N-P判決\nB. 最小最大損失準則\nC. 最小損失準則\nD. 最小誤判概率準則\n答案：",
+        "prediction": [
+            "The correct answer is A. N-P判決 (Naive Bayes decision)."
+        ],
+        "gold": "B"
+    },
+    "121": {
+        "origin_prompt": "樣例：\n問題：以下對k-means聚類算法解釋正確嘅係\nA. 能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\nB. 唔能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算\nC. 唔能自動識別類嘅個數, 隨機挑選初始點為中心點計算\nD. 能自動識別類嘅個數, 隨機挑選初始點為中心點計算\n回應：C\n\n樣例：\n問題：一般，k-NN最近鄰方法喺（）嘅情況下效果較好\nA. 樣本呈團狀分佈\nB. 樣本較多但典型性唔好\nC. 樣本呈鏈狀分佈\nD. 樣本較少但典型性好\n回應：D\n\n樣例：\n問題：一監獄人臉識別准入系統用嚟識別待進入人員嘅身份，呢系統一共包括識別4種唔同嘅人員：獄警，賊，送餐員，其他。下面邊種學習方法最適合呢種應用需求\nA. 多分類問題\nB. 二分類問題\nC. k-中心點聚類問題\nD. 層次聚類問題\n回應：A\n\n樣例：\n問題：為咗得到同 SVD 一樣嘅投射（projection），你需要喺 PCA 中點樣做\nA. 將數據轉換成零均值\nB. 無法做到\nC. 將數據轉換成零眾數\nD. 將數據轉換成零中位數\n回應：A\n\n樣例：\n問題：喺統計模式分類問題中，當先驗概率未知時，可以使用\nA. N-P判決\nB. 最小最大損失準則\nC. 最小損失準則\nD. 最小誤判概率準則\n回應：B\n\n\n以下係關於機器學習嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題：以下邊啲方法唔可以直接嚟對文本分類\nA. 決策樹\nB. Kmeans\nC. 支持向量機\nD. KNN\n答案：",
+        "prediction": [
+            "The correct answer is B. Kmeans.\n\nK-means is a clustering algorithm that is not suitable for text classification, as it is designed to group similar data points into clusters based on their features, whereas text classification involves assigning a category or label to a piece of text based on its content. The other options, decision trees (A), support vector machines (C), and k-nearest neighbors (D), are all commonly used for text classification."
+        ],
+        "gold": "B"
+    }
+}
