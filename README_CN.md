@@ -702,7 +702,7 @@
         <td>3.94</td>
     </tr>
     <tr>
-        <td>\textbf{SenseChat-5}</td>
+        <td>SenseChat-5</td>
         <td>77.48</td>
         <td>73.16</td>
     </tr>
