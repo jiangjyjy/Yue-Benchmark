@@ -8,9 +8,6 @@ This script evaluates model predictions for the CMMLU (Chinese Multi-task Langua
 Understanding) benchmark in Cantonese. It processes prediction files, calculates
 accuracies, and generates CSV and JSON output files for analysis.
 
-Author: CHEN Pengan
-Date: Aug 11 2024
-License: MIT
 """
 
 import json

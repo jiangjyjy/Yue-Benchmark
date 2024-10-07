@@ -18,6 +18,32 @@ from typing import Union
 
 
 class GSM8KEvaluator:
+    #     def extract_answers(self, text: str) -> List[str]:
+    #         """
+    #         Extract numerical answers from the given text.
+    #
+    #         Args:
+    #             text (str): The input text containing potential answers.
+    #
+    #         Returns:
+    #             List[str]: A list of extracted answers or ['NULL'] if no answers found.
+    #         """
+    #         text = text.replace(',', '').replace('\n', ' ')
+    #         answers = []
+    #
+    #         match = re.search(r'####\s*[$]?\s*(\d+\.?\d*)', text)
+    #         if match:
+    #             answers.append(match.group(1))
+    #
+    #         # NOTE: For Cantonese support, uncomment the following line and comment out the next line
+    #         # split_text = re.split(r'Question:|Example:|問題：|樣例：', text, 1)
+    #         split_text = re.split(r'Question:|Example:', text, 1)
+    #         relevant_text = split_text[0].strip()
+    #         numbers = re.findall(r'-?\d+\.?\d*', relevant_text)
+    #         if numbers:
+    #             answers.append(numbers[-1])
+    #
+    #         return answers if answers else ['NULL']
 
     def extract_answers(self, text: Union[str, List[str]]) -> List[str]:
         """
@@ -169,7 +195,7 @@ def write_csv(results: Dict[str, Dict[str, float]], output_file: str):
 
 def main():
     """Main function to run the GSM8K evaluation."""
-    base_path = '.../GSM8K/GSM8K-yue/prediction'
+    base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     results = process_folders(base_path)
     output_file = os.path.join(base_path, 'GSM8K-eval', 'GSM8K_evaluation_results.csv')
     write_csv(results, output_file)
