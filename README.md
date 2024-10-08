@@ -9,20 +9,6 @@
 
 <p align="center"> <img src="fig/banner.png" style="width: 100%;" id="title-icon">       </p>
 
-<h4 align="center">
-    <p>
-        <a href="https://github.com/jiangjyjy/Yue-Benchmark/blob/main/README_CN.md">简体中文</a> |
-        <b>English</b> 
-    <p>
-</h4>
-
-<p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
-📄 <a href="https://arxiv.org/abs/2408.16756" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
-🏆 <a href="https://github.com/jiangjyjy/Yue-Benchmark/#Leaderboard" target="_blank"  style="margin-left: 10px">Leaderboard</a> 
-•
-🤗 <a href="https://huggingface.co/datasets/BillBao/Yue-Benchmark" target="_blank" style="margin-left: 10px">Dataset</a> 
-</p>
-
 ## Introduction
 
 The rapid evolution of large language models (LLMs), such as GPT-X and Llama-X, has driven significant advancements in NLP, yet much of this progress has centered on English and a few other well-resourced languages, leaving languages like Cantonese, spoken by over 85 million people worldwide, underrepresented. Despite the economic importance of Cantonese-speaking regions and communities globally, technological development for Cantonese, particularly in the realm of LLMs, remains limited, with most efforts closed-source and underdeveloped. To address this disparity, we systematically review existing Cantonese NLP technologies, including rumor detection, sentiment analysis, and machine translation, and introduce new benchmarks (Yue-TruthfulQA, Yue-GSM8K, Yue-ARC-C, Yue-MMLU, and Yue-TRANS) to evaluate LLMs' capabilities in Cantonese across various dimensions. These benchmarks, derived from English or Mandarin and manually verified, enable a comprehensive assessment of both Cantonese-specific and general-purpose LLMs. Our analysis of twenty-three models identifies gaps and potential directions for future research, emphasizing the need for enhanced Cantonese LLM development to meet the linguistic and cultural needs of this significant population.
@@ -1487,23 +1473,3 @@ bash arc_example.sh
 ```
 
 
-
-
-
-## Citation
-```
-@misc{jiang2024farcantonesenlpgo,
-      title={How Far Can Cantonese NLP Go? Benchmarking Cantonese Capabilities of Large Language Models}, 
-      author={Jiyue Jiang and Liheng Chen and Pengan Chen and Sheng Wang and Qinghang Bao and Lingpeng Kong and Yu Li and Chuan Wu},
-      year={2024},
-      eprint={2408.16756},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2408.16756}, 
-}
-```
-
-## License
-
-The CantoneseLM_survey dataset is licensed under a
-[MIT](https://opensource.org/licenses/MIT).
