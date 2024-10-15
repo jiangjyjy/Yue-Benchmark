@@ -96,429 +96,351 @@
         <td>6.42</td>
         <td>3.99</td>
         <td>51.57</td>
-        <td>4.02</td>
         <td>4.04</td>
         <td>2.98</td>
         <td>49.7</td>
-        <td>4.03</td>
     </tr>
     <tr>
         <td>Qwen-1.5-7b</td>
         <td>20.54</td>
         <td>13.41</td>
         <td>66.45</td>
-        <td>4.02</td>
         <td>12.45</td>
         <td>10.41</td>
         <td>61.59</td>
-        <td>4.03</td>
     </tr>
     <tr>
         <td>Qwen-1.5-110b</td>
         <td>26.04</td>
         <td>15.95</td>
         <td>69.29</td>
-        <td>4.02</td>
         <td>31.73</td>
         <td>19.53</td>
         <td>70.87</td>
-        <td>4.03</td>
     </tr>
     <tr>
         <td>Qwen-2-7b</td>
         <td>13.27</td>
         <td>10.00</td>
         <td>66.14</td>
-        <td>3.23</td>
         <td>16.91</td>
         <td>11.48</td>
         <td>67.71</td>
-        <td>3.35</td>
     </tr>
     <tr>
         <td>Qwen-2-72b</td>
         <td>10.86</td>
         <td>9.68</td>
         <td>65.62</td>
-        <td>3.25</td>
         <td>17.52</td>
         <td>12.38</td>
         <td>67.72</td>
-        <td>3.61</td>
     </tr>
     <tr>
         <td>Qwen-2.5-7b</td>
         <td>18.51</td>
         <td>12.28</td>
         <td>66.07</td>
-        <td>3.25</td>
         <td>6.83</td>
         <td>8.07</td>
         <td>58.97</td>
-        <td>3.61</td>
     </tr>
     <tr>
         <td>Qwen-2.5-72b</td>
         <td>13.03</td>
         <td>9.64</td>
         <td>66.94</td>
-        <td>3.23</td>
         <td>20.23</td>
         <td>12.87</td>
         <td>69.53</td>
-        <td>3.35</td>
     </tr>
     <tr>
         <td>Mixtral-8x22b</td>
         <td>14.74</td>
         <td>10.83</td>
         <td>66.72</td>
-        <td>3.40</td>
         <td>20.40</td>
         <td>14.09</td>
         <td>68.05</td>
-        <td>3.85</td>
     </tr>
     <tr>
         <td>Mixtral-large-2</td>
         <td>19.72</td>
         <td>13.01</td>
         <td>69.06</td>
-        <td>3.96</td>
         <td>31.38</td>
         <td>18.61</td>
         <td>72.07</td>
-        <td>4.20</td>
     </tr>
     <tr>
         <td>Llama-2-7b</td>
         <td>3.48</td>
         <td>6.42</td>
         <td>57.16</td>
-        <td>3.20</td>
         <td>3.57</td>
         <td>6.52</td>
         <td>56.36</td>
-        <td>4.04</td>
     </tr>
     <tr>
         <td>Llama-3-8b</td>
         <td>8.40</td>
         <td>8.68</td>
         <td>64.37</td>
-        <td>3.20</td>
         <td>28.68</td>
         <td>16.43</td>
         <td>70.82</td>
-        <td>4.04</td>
     </tr>
     <tr>
         <td>Llama-3-70b</td>
         <td>10.98</td>
         <td>9.51</td>
         <td>66.10</td>
-        <td>3.87</td>
         <td>33.06</td>
         <td>19.31</td>
         <td>71.95</td>
-        <td>4.15</td>
     </tr>
     <tr>
         <td>Llama-3.1-8b</td>
         <td>13.82</td>
         <td>10.33</td>
         <td>66.97</td>
-        <td>3.52</td>
         <td>26.18</td>
         <td>15.20</td>
         <td>70.28</td>
-        <td>3.98</td>
     </tr>
     <tr>
         <td>Llama-3.1-70b</td>
         <td>21.03</td>
         <td>14.30</td>
         <td>68.31</td>
-        <td>4.05</td>
         <td>34.72</td>
         <td>20.54</td>
         <td>70.80</td>
-        <td>4.10</td>
     </tr>
     <tr>
         <td>Phi-3-medium</td>
         <td>18.70</td>
         <td>12.00</td>
         <td>67.36</td>
-        <td>3.54</td>
         <td>22.00</td>
         <td>13.72</td>
         <td>67.57</td>
-        <td>3.49</td>
     </tr>
     <tr>
         <td>Gemma-2-27b</td>
         <td>8.09</td>
         <td>8.44</td>
         <td>64.41</td>
-        <td>3.28</td>
         <td>11.33</td>
         <td>9.98</td>
         <td>63.66</td>
-        <td>3.21</td>
     </tr>
     <tr>
         <td>Yi-6b</td>
         <td>1.37</td>
         <td>5.05</td>
         <td>53.16</td>
-        <td>3.60</td>
         <td>1.07</td>
         <td>5.99</td>
         <td>54.21</td>
-        <td>3.92</td>
     </tr>
     <tr>
         <td>Yi-1.5-6b</td>
         <td>1.21</td>
         <td>4.60</td>
         <td>42.15</td>
-        <td>3.60</td>
         <td>1.04</td>
         <td>6.15</td>
         <td>53.85</td>
-        <td>3.92</td>
     </tr>
     <tr>
         <td>Yi-1.5-34b</td>
         <td>15.41</td>
         <td>11.11</td>
         <td>67.57</td>
-        <td>3.60</td>
         <td>20.30</td>
         <td>13.20</td>
         <td>69.50</td>
-        <td>3.92</td>
     </tr>
     <tr>
         <td>Internlm-7b</td>
         <td>5.89</td>
         <td>6.65</td>
         <td>56.33</td>
-        <td>3.10</td>
         <td>2.59</td>
         <td>3.68</td>
         <td>55.73</td>
-        <td>3.67</td>
     </tr>
     <tr>
         <td>Internlm-7b-turbomind</td>
         <td>5.91</td>
         <td>6.71</td>
         <td>56.71</td>
-        <td>3.10</td>
         <td>2.77</td>
         <td>3.82</td>
         <td>55.57</td>
-        <td>3.67</td>
     </tr>
     <tr>
         <td>Internlm-2-7b</td>
         <td>7.93</td>
         <td>10.21</td>
         <td>63.81</td>
-        <td>3.10</td>
         <td>17.66</td>
         <td>16.62</td>
         <td>33.33</td>
-        <td>3.67</td>
     </tr>
     <tr>
         <td>Internlm-2-7b-chat</td>
         <td>6.7</td>
         <td>7.68</td>
         <td>61.83</td>
-        <td>3.10</td>
         <td>3.3</td>
         <td>5.49</td>
         <td>65.47</td>
-        <td>3.67</td>
     </tr>
     <tr>
         <td>Internlm-2-7b-turbomind</td>
         <td>8.09</td>
         <td>10.53</td>
         <td>64.3</td>
-        <td>3.10</td>
         <td>17.69</td>
         <td>16.99</td>
         <td>63.68</td>
-        <td>3.67</td>
     </tr>
     <tr>
         <td>Internlm-2.5-7b</td>
         <td>8.96</td>
         <td>10.53</td>
         <td>66.11</td>
-        <td>3.10</td>
         <td>10.3</td>
         <td>14.47</td>
         <td>67.73</td>
-        <td>3.67</td>
     </tr>
     <tr>
         <td>Internlm-2.5-7b-chat</td>
         <td>7.13</td>
         <td>8</td>
         <td>63.48</td>
-        <td>3.10</td>
         <td>4.05</td>
         <td>7.19</td>
         <td>67.61</td>
-        <td>3.67</td>
     </tr>
     <tr>
         <td>Internlm-2.5-7b-turbomind</td>
         <td>8.93</td>
         <td>10.46</td>
         <td>65.75</td>
-        <td>3.10</td>
         <td>10.12</td>
         <td>14.39</td>
         <td>67.14</td>
-        <td>3.67</td>
     </tr>
     <tr>
         <td>Internlm-2.5-20b-chat</td>
         <td>6.96</td>
         <td>7.73</td>
         <td>62.99</td>
-        <td>3.10</td>
         <td>3.28</td>
         <td>6.06</td>
         <td>66.99</td>
-        <td>3.67</td>
     </tr>
     <tr>
         <td>Internlm-2.5-20b-turbomind</td>
         <td>9.49</td>
         <td>11.55</td>
         <td>66.70</td>
-        <td>3.10</td>
         <td>11.98</td>
         <td>16.56</td>
         <td>68.86</td>
-        <td>3.67</td>
     </tr>
     <tr>
         <td>ERNIE-Lite</td>
         <td>20.58</td>
         <td>12.23</td>
         <td>67.64</td>
-        <td>3.44</td>
         <td>20.69</td>
         <td>12.27</td>
         <td>68.45</td>
-        <td>3.62</td>
     </tr>
     <tr>
         <td>ERNIE-Tiny</td>
         <td>27.16</td>
         <td>14.49</td>
         <td>68.45</td>
-        <td>3.48</td>
         <td>27.91</td>
         <td>15.28</td>
         <td>68.84</td>
-        <td>3.68</td>
     </tr>
     <tr>
         <td>ERNIE-Speed</td>
         <td>22.58</td>
         <td>13.15</td>
         <td>67.84</td>
-        <td>3.48</td>
         <td>23.61</td>
         <td>13.82</td>
         <td>68.27</td>
-        <td>3.62</td>
     </tr>
     <tr>
         <td>ERNIE-Turbo</td>
         <td>17.91</td>
         <td>11.30</td>
         <td>66.71</td>
-        <td>3.40</td>
         <td>21.19</td>
         <td>12.19</td>
         <td>68.29</td>
-        <td>3.60</td>
     </tr>
     <tr>
         <td>Sensechat-5</td>
         <td>24.75</td>
         <td>15.11</td>
         <td>68.43</td>
-        <td>3.72</td>
         <td>32.45</td>
         <td>19.70</td>
         <td>70.02</td>
-        <td>3.96</td>
     </tr>
     <tr>
         <td>Claude-3.5</td>
         <td>14.23</td>
         <td>9.95</td>
         <td>67.56</td>
-        <td>3.92</td>
         <td>12.66</td>
         <td>10.06</td>
         <td>68.12</td>
-        <td>4.07</td>
     </tr>
     <tr>
         <td>GLM-4</td>
         <td>13.44</td>
         <td>10.07</td>
         <td>67.26</td>
-        <td>3.74</td>
         <td>23.57</td>
         <td>14.28</td>
         <td>70.30</td>
-        <td>4.08</td>
     </tr>
     <tr>
         <td>ChatGPT</td>
         <td>25.07</td>
         <td>14.81</td>
         <td>67.78</td>
-        <td>3.98</td>
         <td>31.84</td>
         <td>18.42</td>
         <td>70.41</td>
-        <td>4.02</td>
     </tr>
     <tr>
         <td>GPT-4o</td>
         <td>17.58</td>
         <td>12.17</td>
         <td>68.68</td>
-        <td>3.98</td>
         <td>27.64</td>
         <td>16.52</td>
         <td>71.59</td>
-        <td>4.05</td>
     </tr>
     <tr>
         <td>GPT-4</td>
         <td>19.47</td>
         <td>13.45</td>
         <td>68.99</td>
-        <td>4.10</td>
         <td>28.43</td>
         <td>16.74</td>
         <td>71.26</td>
-        <td>4.20</td>
     </tr>
 </table>
 </details>
@@ -1402,6 +1324,650 @@
     </tr>
 </table>
 </details>
+
+下表显示不同标准基准(TruthfulQA, GSM8K, ARC-C, CMMLU)在零样本和五样本设定下的表现。
+<details>
+<summary>English-TruthfulQA</summary>
+<table>
+    <tr>
+        <th rowspan=2>Models</th>
+        <th colspan=3>0-shot (correct)</th>
+        <th colspan=3>5-shot (correct)</th>
+    </tr>
+    <tr>
+        <th>Rouge-l</th>
+        <th>Bleu-4</th>
+        <th>BERTScore</th>
+        <th>Rouge-l</th>
+        <th>Bleu-4</th>
+        <th>BERTScore</th>
+    </tr>
+    <tr>
+        <td>Qwen-1.5-110b</td>
+        <td>22.57</td>
+        <td>15.54</td>
+        <td>85.78</td>
+        <td>29.44</td>
+        <td>23.14</td>
+        <td>86.35</td>
+    </tr>
+    <tr>
+        <td>Qwen-2-7b</td>
+        <td>10.98</td>
+        <td>10.20</td>
+        <td>83.86</td>
+        <td>23.67</td>
+        <td>18.60</td>
+        <td>86.09</td>
+    </tr>
+    <tr>
+        <td>Qwen-2-72b</td>
+        <td>3.03</td>
+        <td>7.58</td>
+        <td>81.78</td>
+        <td>7.45</td>
+        <td>9.59</td>
+        <td>82.98</td>
+    </tr>
+    <tr>
+        <td>Qwen-2.5-72b</td>
+        <td>13.05</td>
+        <td>10.83</td>
+        <td>84.5</td>
+        <td>21.16</td>
+        <td>13.65</td>
+        <td>85.71</td>
+    </tr>
+    <tr>
+        <td>Mixtral-8x22b</td>
+        <td>18.59</td>
+        <td>12.91</td>
+        <td>85.78</td>
+        <td>31.05</td>
+        <td>20.61</td>
+        <td>87.58</td>
+    </tr>
+    <tr>
+        <td>Mixtral-large-2</td>
+        <td>20.57</td>
+        <td>14.63</td>
+        <td>85.69</td>
+        <td>41.46</td>
+        <td>28.92</td>
+        <td>88.30</td>
+    </tr>
+    <tr>
+        <td>Llama-3-8b</td>
+        <td>16.89</td>
+        <td>11.59</td>
+        <td>84.11</td>
+        <td>58.34</td>
+        <td>38.35</td>
+        <td>88.50</td>
+    </tr>
+    <tr>
+        <td>Llama-3-70b</td>
+        <td>12.09</td>
+        <td>10.46</td>
+        <td>83.84</td>
+        <td>53.00</td>
+        <td>36.77</td>
+        <td>88.94</td>
+    </tr>
+    <tr>
+        <td>Llama-3.1-8b</td>
+        <td>14.13</td>
+        <td>11.34</td>
+        <td>83.46</td>
+        <td>51.70</td>
+        <td>36.95</td>
+        <td>88.47</td>
+    </tr>
+    <tr>
+        <td>Llama-3.1-70b</td>
+        <td>18.12</td>
+        <td>13.24</td>
+        <td>84.18</td>
+        <td>55.22</td>
+        <td>40.54</td>
+        <td>88.88</td>
+    </tr>
+    <tr>
+        <td>Phi-3-medium</td>
+        <td>27.90</td>
+        <td>17.35</td>
+        <td>86.48</td>
+        <td>43.02</td>
+        <td>28.62</td>
+        <td>88.24</td>
+    </tr>
+    <tr>
+        <td>Gemma-2-27b</td>
+        <td>12.31</td>
+        <td>9.84</td>
+        <td>83.56</td>
+        <td>18.25</td>
+        <td>12.25</td>
+        <td>84.31</td>
+    </tr>
+    <tr>
+        <td>Yi-1.5-34b</td>
+        <td>17.22</td>
+        <td>13.22</td>
+        <td>84.79</td>
+        <td>35.33</td>
+        <td>25.82</td>
+        <td>87.56</td>
+    </tr>
+    <tr>
+        <td>Internlm-2-7b</td>
+        <td>47.58</td>
+        <td>28.78</td>
+        <td>87.13</td>
+        <td>41.57</td>
+        <td>30.32</td>
+        <td>65.51</td>
+    </tr>
+    <tr>
+        <td>Internlm-2-7b-chat</td>
+        <td>9.54</td>
+        <td>9.69</td>
+        <td>83.42</td>
+        <td>23.39</td>
+        <td>18.97</td>
+        <td>86.29</td>
+    </tr>
+    <tr>
+        <td>Internlm-2-20b</td>
+        <td>43.50</td>
+        <td>27.33</td>
+        <td>87.5</td>
+        <td>41.13</td>
+        <td>31.64</td>
+        <td>85.39</td>
+    </tr>
+    <tr>
+        <td>Internlm-2-20b-chat</td>
+        <td>4.81</td>
+        <td>8.14</td>
+        <td>82.11</td>
+        <td>31.44</td>
+        <td>24.45</td>
+        <td>85.8</td>
+    </tr>
+    <tr>
+        <td>Internlm-2.5-7b</td>
+        <td>34.44</td>
+        <td>18.62</td>
+        <td>86.06</td>
+        <td>39.19</td>
+        <td>25.39</td>
+        <td>87.31</td>
+    </tr>
+    <tr>
+        <td>Internlm-2.5-7b-chat</td>
+        <td>7.45</td>
+        <td>8.82</td>
+        <td>82.92</td>
+        <td>12.92</td>
+        <td>11.29</td>
+        <td>84.39</td>
+    </tr>
+    <tr>
+        <td>ChatGPT</td>
+        <td>37.81</td>
+        <td>21.95</td>
+        <td>87.20</td>
+        <td>50.43</td>
+        <td>31.44</td>
+        <td>88.55</td>
+    </tr>
+    <tr>
+        <td>GPT-4o</td>
+        <td>17.93</td>
+        <td>13.05</td>
+        <td>85.38</td>
+        <td>49.52</td>
+        <td>37.44</td>
+        <td>88.62</td>
+    </tr>
+    <tr>
+        <td>GPT-4</td>
+        <td>19.58</td>
+        <td>14.10</td>
+        <td>85.19</td>
+        <td>53.18</td>
+        <td>39.22</td>
+        <td>88.85</td>
+    </tr>
+</table>
+</details>
+
+<details>
+<summary>English-GSM8k</summary>
+<table>
+    <tr>
+        <th>Models</th>
+        <th>Accuracy (0-shot)</th>
+        <th>Accuracy (5-shot)</th>
+    </tr>
+    <tr>
+        <td>Qwen-1.5-110b</td>
+        <td>88.55</td>
+        <td>88.93</td>
+    </tr>
+    <tr>
+        <td>Qwen-2-7b</td>
+        <td>84.15</td>
+        <td>84.76</td>
+    </tr>
+    <tr>
+        <td>Qwen-2-72b</td>
+        <td>92.8</td>
+        <td>91.58</td>
+    </tr>
+    <tr>
+        <td>Qwen-2.5-72b</td>
+        <td>93.25</td>
+        <td>96.13</td>
+    </tr>
+    <tr>
+        <td>Mixtral-8x22b</td>
+        <td>91.51</td>
+        <td>91.58</td>
+    </tr>
+    <tr>
+        <td>Mixtral-large-2</td>
+        <td>95.38</td>
+        <td>95.15</td>
+    </tr>
+    <tr>
+        <td>Llama-3-8b</td>
+        <td>80.36</td>
+        <td>81.05</td>
+    </tr>
+    <tr>
+        <td>Llama-3-70b</td>
+        <td>93.4</td>
+        <td>93.33</td>
+    </tr>
+    <tr>
+        <td>Llama-3.1-8b</td>
+        <td>85.97</td>
+        <td>86.35</td>
+    </tr>
+    <tr>
+        <td>Llama-3.1-70b</td>
+        <td>95.3</td>
+        <td>95.3</td>
+    </tr>
+    <tr>
+        <td>Phi-3-medium</td>
+        <td>90.3</td>
+        <td>90.83</td>
+    </tr>
+    <tr>
+        <td>Gemma-2-27b</td>
+        <td>24.49</td>
+        <td>9.86</td>
+    </tr>
+    <tr>
+        <td>Yi-1.5-34b</td>
+        <td>87.95</td>
+        <td>88.4</td>
+    </tr>
+    <tr>
+        <td>Internlm-2-7b</td>
+        <td>46.63</td>
+        <td>61.56</td>
+    </tr>
+    <tr>
+        <td>Internlm-2-7b-chat</td>
+        <td>73.54</td>
+        <td>66.64</td>
+    </tr>
+    <tr>
+        <td>Internlm-2-20b</td>
+        <td>78.54</td>
+        <td>64.14</td>
+    </tr>
+    <tr>
+        <td>Internlm-2-20b-chat</td>
+        <td>78.54</td>
+        <td>75.28</td>
+    </tr>
+    <tr>
+        <td>Internlm-2.5-7b</td>
+        <td>77.48</td>
+        <td>65.88</td>
+    </tr>
+    <tr>
+        <td>Internlm-2.5-7b-chat</td>
+        <td>84.99</td>
+        <td>82.71</td>
+    </tr>
+    <tr>
+        <td>ChatGPT</td>
+        <td>65.28</td>
+        <td>67.25</td>
+    </tr>
+    <tr>
+        <td>GPT-4o</td>
+        <td>95.22</td>
+        <td>95.68</td>
+    </tr>
+    <tr>
+        <td>GPT-4</td>
+        <td>95</td>
+        <td>94.77</td>
+    </tr>
+</table>
+</details>
+
+<details>
+<summary>English-ARC-Challenge</summary>
+<table>
+    <tr>
+        <th>Models</th>
+        <th>Accuracy (0-shot)</th>
+        <th>Accuracy (5-shot)</th>
+    </tr>
+    <tr>
+        <td>Qwen-1.5-110b</td>
+        <td>82.66</td>
+        <td>77.6</td>
+    </tr>
+    <tr>
+        <td>Qwen-2-7b</td>
+        <td>65.41</td>
+        <td>69.7</td>
+    </tr>
+    <tr>
+        <td>Qwen-2-72b</td>
+        <td>69.79</td>
+        <td>79.83</td>
+    </tr>
+    <tr>
+        <td>Qwen-2.5-72b</td>
+        <td>95.19</td>
+        <td>94.76</td>
+    </tr>
+    <tr>
+        <td>Mixtral-8x22b</td>
+        <td>90.82</td>
+        <td>88.07</td>
+    </tr>
+    <tr>
+        <td>Mixtral-large-2</td>
+        <td>94.51</td>
+        <td>94.59</td>
+    </tr>
+    <tr>
+        <td>Llama-3-8b</td>
+        <td>81.63</td>
+        <td>78.88</td>
+    </tr>
+    <tr>
+        <td>Llama-3-70b</td>
+        <td>93.22</td>
+        <td>92.62</td>
+    </tr>
+    <tr>
+        <td>Llama-3.1-8b</td>
+        <td>80.52</td>
+        <td>84.21</td>
+    </tr>
+    <tr>
+        <td>Llama-3.1-70b</td>
+        <td>93.56</td>
+        <td>93.3</td>
+    </tr>
+    <tr>
+        <td>Phi-3-medium</td>
+        <td>93.13</td>
+        <td>92.1</td>
+    </tr>
+    <tr>
+        <td>Gemma-2-27b</td>
+        <td>82.92</td>
+        <td>72.79</td>
+    </tr>
+    <tr>
+        <td>Yi-1.5-34b</td>
+        <td>92.36</td>
+        <td>92.53</td>
+    </tr>
+    <tr>
+        <td>Internlm-2.5-7b</td>
+        <td>85.58</td>
+        <td>85.15</td>
+    </tr>
+    <tr>
+        <td>Internlm-2.5-7b-chat</td>
+        <td>87.04</td>
+        <td>86.78</td>
+    </tr>
+</table>
+</details>
+
+<details>
+<summary>Mandarin-CMMLU</summary>
+<table>
+    <tr>
+        <th rowspan=2>Models</th>
+        <th colspan=5>0-shot (correct)</th>
+        <th colspan=5>5-shot (correct)</th>
+    </tr>
+    <tr>
+        <td>STEM</td>
+        <td>Hum.</td>
+        <td>S.S.</td>
+        <td>C.S.</td>
+        <td>Oth.</td>
+        <td>STEM</td>
+        <td>Hum.</td>
+        <td>S.S.</td>
+        <td>C.S.</td>
+        <td>Oth.</td>
+    </tr>
+    <tr>
+        <td>Qwen-1.5-110b</td>
+        <td>78.06</td>
+        <td>87.6</td>
+        <td>85.88</td>
+        <td>81.83</td>
+        <td>84.04</td>
+        <td>85.1</td>
+        <td>90.77</td>
+        <td>91.07</td>
+        <td>85.84</td>
+        <td>91.56</td>
+    </tr>
+    <tr>
+        <td>Qwen-2-7b</td>
+        <td>77.52</td>
+        <td>86.63</td>
+        <td>85.1</td>
+        <td>77.37</td>
+        <td>83.41</td>
+        <td>81.62</td>
+        <td>86.94</td>
+        <td>85.09</td>
+        <td>80.06</td>
+        <td>83.84</td>
+    </tr>
+    <tr>
+        <td>Qwen-2-72b</td>
+        <td>83.36</td>
+        <td>89.69</td>
+        <td>88.75</td>
+        <td>83.16</td>
+        <td>86.58</td>
+        <td>90.07</td>
+        <td>93.18</td>
+        <td>92.97</td>
+        <td>88.64</td>
+        <td>91.07</td>
+    </tr>
+    <tr>
+        <td>Qwen-2.5-72b</td>
+        <td>83.26</td>
+        <td>89.54</td>
+        <td>89.14</td>
+        <td>82.04</td>
+        <td>88.33</td>
+        <td>85.87</td>
+        <td>90.6</td>
+        <td>90.25</td>
+        <td>84.15</td>
+        <td>88.4</td>
+    </tr>
+    <tr>
+        <td>Mixtral-8x22b</td>
+        <td>57.88</td>
+        <td>63.27</td>
+        <td>64.51</td>
+        <td>49.18</td>
+        <td>57.28</td>
+        <td>62.38</td>
+        <td>62.97</td>
+        <td>63.7</td>
+        <td>51.52</td>
+        <td>58.26</td>
+    </tr>
+    <tr>
+        <td>Mixtral-large-2</td>
+        <td>68.49</td>
+        <td>79.48</td>
+        <td>77.03</td>
+        <td>64.36</td>
+        <td>70.8</td>
+        <td>71.65</td>
+        <td>81.95</td>
+        <td>78.76</td>
+        <td>66.87</td>
+        <td>74.52</td>
+    </tr>
+    <tr>
+        <td>Llama-3-8b</td>
+        <td>54.04</td>
+        <td>61.35</td>
+        <td>59.17</td>
+        <td>45.67</td>
+        <td>56.28</td>
+        <td>47.66</td>
+        <td>59.26</td>
+        <td>58</td>
+        <td>44.72</td>
+        <td>53.54</td>
+    </tr>
+    <tr>
+        <td>Llama-3-70b</td>
+        <td>72.64</td>
+        <td>77.23</td>
+        <td>77.44</td>
+        <td>60.22</td>
+        <td>76.3</td>
+        <td>72.04</td>
+        <td>75.31</td>
+        <td>74.99</td>
+        <td>58.74</td>
+        <td>74.72</td>
+    </tr>
+    <tr>
+        <td>Llama-3.1-8b</td>
+        <td>49.08</td>
+        <td>61.05</td>
+        <td>59.17</td>
+        <td>44.15</td>
+        <td>53.11</td>
+        <td>55.62</td>
+        <td>62.58</td>
+        <td>61.02</td>
+        <td>46.43</td>
+        <td>56.27</td>
+    </tr>
+    <tr>
+        <td>llama-3.1-70b</td>
+        <td>69.84</td>
+        <td>77.77</td>
+        <td>76.9</td>
+        <td>62.34</td>
+        <td>75.02</td>
+        <td>72.4</td>
+        <td>77.95</td>
+        <td>78.57</td>
+        <td>61.6</td>
+        <td>75.75</td>
+    </tr>
+    <tr>
+        <td>Phi-3-medium</td>
+        <td>58.54</td>
+        <td>63.46</td>
+        <td>65.61</td>
+        <td>48.45</td>
+        <td>61.5</td>
+        <td>57.18</td>
+        <td>62.84</td>
+        <td>66.32</td>
+        <td>49.76</td>
+        <td>59.06</td>
+    </tr>
+    <tr>
+        <td>Gemma2-27b</td>
+        <td>49.67</td>
+        <td>53.63</td>
+        <td>57.23</td>
+        <td>42.36</td>
+        <td>50.35</td>
+        <td>40.25</td>
+        <td>43.15</td>
+        <td>47.77</td>
+        <td>37.14</td>
+        <td>46.34</td>
+    </tr>
+    <tr>
+        <td>Yi-1.5-34b</td>
+        <td>73.02</td>
+        <td>83.78</td>
+        <td>82.99</td>
+        <td>74.6</td>
+        <td>83.72</td>
+        <td>78.87</td>
+        <td>86.24</td>
+        <td>84.47</td>
+        <td>77.68</td>
+        <td>85.06</td>
+    </tr>
+    <tr>
+        <td>Internlm-2.5-7b</td>
+        <td>75.62</td>
+        <td>88</td>
+        <td>83.95</td>
+        <td>79.14</td>
+        <td>80.86</td>
+        <td>70.52</td>
+        <td>87.27</td>
+        <td>83.38</td>
+        <td>79.6</td>
+        <td>80.19</td>
+    </tr>
+    <tr>
+        <td>Internlm-2.5-7b-chat</td>
+        <td>73.04</td>
+        <td>87.42</td>
+        <td>84.23</td>
+        <td>77.62</td>
+        <td>85.29</td>
+        <td>69.24</td>
+        <td>86.45</td>
+        <td>83.78</td>
+        <td>77.93</td>
+        <td>83.46</td>
+    </tr>
+</table>
+</details>
+
 
 ## 如何更新结果
 
