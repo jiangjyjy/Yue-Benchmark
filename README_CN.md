@@ -9,22 +9,11 @@
 
 <p align="center"> <img src="fig/banner.png" style="width: 100%;" id="title-icon">       </p>
 
-<h4 align="center">
-    <p>
-        <b>简体中文</b>|
-        <a href="https://github.com/jiangjyjy/Yue-Benchmark">English</a>
-    <p>
-</h4>
 
-<p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
-📄 <a href="https://arxiv.org/abs/2408.16756" target="_blank" style="margin-right: 15px; margin-left: 10px">论文</a> • 
-🏆 <a href="https://github.com/jiangjyjy/Yue-Benchmark/#Leaderboard" target="_blank"  style="margin-left: 10px">排行榜</a> •
-🤗 <a href="https://huggingface.co/datasets/BillBao/Yue-Benchmark" target="_blank" style="margin-left: 10px">数据集</a> 
-</p>
 
 ## 介绍
 
-随着大型语言模型（LLMs）的迅速发展，如GPT-X和Llama-X，自然语言处理（NLP）技术取得了显著进步，但这些进展主要集中在英语和少数数据资源丰富的语言上，像粤语这种有着全球超过8500万使用者的语言却被忽视。尽管粤语使用地区和全球粤语社群在经济上具有重要性，粤语的技术发展，特别是在LLM领域，依然十分有限，大部分研究成果仍然是闭源的且发展不足。为了解决这一差距，我们系统性地回顾了现有的粤语NLP技术，包括谣言检测、情感分析和机器翻译等，并引入了新的基准测试 (Yue-TruthfulQA、Yue-GSM8K、Yue-ARC-C、Yue-MMLU和Yue-TRANS)，以评估LLM在粤语各个维度上的能力。这些基准测试由英语或普通话翻译而来，并经过人工校对，为粤语专用和通用LLM的全面评估提供了依据。我们对超过40个模型的分析揭示了现存的差距，并提出了未来研究的潜在方向，强调了加强粤语LLM开发的重要性，以满足这一重要群体的语言和文化需求。
+随着大型语言模型（LLMs）的迅速发展，如GPT-X和Llama-X，自然语言处理（NLP）技术取得了显著进步，但这些进展主要集中在英语和少数数据资源丰富的语言上，像粤语这种有着全球超过8500万使用者的语言却被忽视。尽管粤语使用地区和全球粤语社群在经济上具有重要性，粤语的技术发展，特别是在LLM领域，依然十分有限，大部分研究成果仍然是闭源的且发展不足。为了解决这一差距，我们系统性地回顾了现有的粤语NLP技术，包括谣言检测、情感分析和机器翻译等，并引入了新的基准测试 (Yue-TruthfulQA、Yue-GSM8K、Yue-ARC-C、Yue-MMLU和Yue-TRANS)，以评估LLM在粤语各个维度上的能力。这些基准测试由英语或普通话翻译而来，并经过人工校对，为粤语专用和通用LLM的全面评估提供了依据。我们对35个模型的分析揭示了现存的差距，并提出了未来研究的潜在方向，强调了加强粤语LLM开发的重要性，以满足这一重要群体的语言和文化需求。
  
 <p align="center">  <img src="fig/logo.jpg" style="width: 95%;" id="title-icon"> </p>
 
@@ -1967,8 +1956,6 @@
     </tr>
 </table>
 </details>
-
-
 ## 如何更新结果
 
 * 对于开源/API模型，打开pull request来更新结果(你也可以在`results&src`文件夹中提供测试代码)。
@@ -2011,17 +1998,5 @@ bash arc_example.sh
 
 
 
-## 引用 
-```
-@misc{jiang2024farcantonesenlpgo,
-      title={How Far Can Cantonese NLP Go? Benchmarking Cantonese Capabilities of Large Language Models}, 
-      author={Jiyue Jiang and Liheng Chen and Pengan Chen and Sheng Wang and Qinghang Bao and Lingpeng Kong and Yu Li and Chuan Wu},
-      year={2024},
-      eprint={2408.16756},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2408.16756}, 
-}
-```
 
 
