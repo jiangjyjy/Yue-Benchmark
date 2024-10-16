@@ -1,0 +1,1652 @@
+[
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "肘關節從生理學同運動學角度講，佢包括兩種截然唔同嘅功能，屈伸運動同前臂",
+    "llm_output": "The correct answer is D. 外展 (Elbow extension).\n\nFrom a physiological and biomechanical perspective, the elbow joint has two distinct functions: flexion (bending) and extension (straightening) of the forearm. Flexion is the movement of the forearm towards the body, while extension is the movement of the forearm away from the body.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '旋轉運動'], ['B', '內收'], ['C', '內翻'], ['D', '外展']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "「尚武」指（）武術鍛煉，以求強身健體，自強不息，培養人面對現實嘅競爭意識。",
+    "llm_output": "The correct answer is C. 倡導。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '開展'], ['B', '倡導與參與'], ['C', '倡導'], ['D', '參與']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "耐力運動主要目嘅",
+    "llm_output": "The correct answer is B. 增加心肺功能 (Increase cardiovascular function).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '增強肌力'], ['B', '增加心肺功能'], ['C', '增加關節活動度'], ['D', '增加抗阻力能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "馬步要求兩腳左右開空約為本人腳長嘅幾多倍。",
+    "llm_output": "The correct answer is B. 3.\n\nAccording to the principle of \"foot length\" in martial arts, the distance between the two feet when standing with the feet shoulder-width apart should be approximately 3 times the length of one's own foot.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '2'], ['B', '3'], ['C', '5'], ['D', '4']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "與呼吸運動無關嘅肌係",
+    "llm_output": "The correct answer is D. 膈肌.\n\nThe diaphragm (膈肌) is the primary muscle used for breathing, and it is closely related to the respiratory system. The other options are all muscles involved in movements that are not directly related to breathing:\n\n* A. 大收肌 (pectoralis major) is a muscle of the chest and shoulder region, involved in movements such as flexion and adduction of the arm.\n* B. 肋間內肌 (intercostal muscles) are a group of muscles that run between the ribs and are involved in breathing, but they are not the primary muscle used for breathing.\n* C. 胸大肌 (serratus anterior) is a muscle of the chest and shoulder region, involved in movements such as rotation and elevation of the arm.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '大收肌'], ['B', '肋間內肌'], ['C', '胸大肌'], ['D', '膈肌']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "脊柱節段運動嘅最大自由度為",
+    "llm_output": "The correct answer is A. 6.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '6'], ['B', '4'], ['C', '3'], ['D', '5']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "關於等長運動嘅描述，錯誤嘅係",
+    "llm_output": "The correct answer is B. 長度縮短 (Length shortening).\n\n等長運動 (Isometric exercise) is a type of exercise where the muscle contracts without changing the length of the muscle or the joint angle. This means that the muscle does not shorten or lengthen, but instead maintains its original length.\n\nSo, options A, C, and D are all correct descriptions of isometric exercise:\n\n* A. 起止點無位移 (No change in starting and ending points)\n* C. 固定體位 (Fixed body position)\n* D. 不做功 (No work done)\n\nBut option B, 長度縮短 (Length shortening), is incorrect because isometric exercise does not involve a change in muscle length.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '起止點無位移'], ['B', '長度縮短'], ['C', '固定體位'], ['D', '不做功']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "游泳轉身動作屬於乜嘢速度",
+    "llm_output": "The correct answer is A. 位移 (Translation).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '位移'], ['B', '靈敏'], ['C', '動作'], ['D', '反應']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於閉合性軟組織損傷嘅係",
+    "llm_output": "The correct answer is D. 骨折 (Bone fracture).\n\n閉合性軟組織損傷 (Closed soft tissue injury) refers to injuries that occur within the soft tissues of the body, such as muscles, tendons, and ligaments, without breaking the skin or causing a visible wound. Examples of closed soft tissue injuries include:\n\n* 挫傷 (Contusions)\n* 韌帶拉傷 (Ligament sprains)\n* 肌肉拉傷 (Muscle strains)\n\nOn the other hand, 骨折 (Bone fracture) is a type of open injury that occurs when a bone breaks and the skin is broken, allowing for bleeding and infection.\n\nTherefore, option D, 骨折, is the correct answer.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '挫傷'], ['B', '韌帶拉傷'], ['C', '肌肉拉傷'], ['D', '骨折']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一項係訓練過程嘅特性。",
+    "llm_output": "The correct answer is A. 階段性同變化性 (Segmentation and variation).\n\nSegmentation refers to the process of breaking down a training program into smaller, manageable segments or phases, each with its own specific goals and objectives. Variation refers to the introduction of changes or modifications to the training program to avoid plateaus and promote continued progress.\n\nThe other options are not correct:\n\nB. 連續性同階段性 (Continuity and segmentation) is not a characteristic of training.\n\nC. 有效性同客觀性 (Effectiveness and objectivity) is a characteristic of evaluation, not training.\n\nD. 及時性同可靠性 (Timeliness and reliability) is a characteristic of testing or assessment, not training.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '階段性同變化性'], ['B', '連續性同階段性'], ['C', '有效性同客觀性'], ['D', '及時性同可靠性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "肌實現向心運動或者離心運動最基本嘅功能單位係",
+    "llm_output": "The correct answer is B. 肌小節 (Muscle fibers).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '肌動蛋白'], ['B', '肌小節'], ['C', '肌纖維'], ['D', '肌原纖維']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "採用四周散步健身時，散步距離係3200~4000米，速度為每30~35米/分鐘，每週4-5次嘅鍛煉目標係",
+    "llm_output": "The correct answer is A. 使心臟安康 (Promoting cardiovascular health).\n\nThe description of the exercise routine, including the distance (3200-4000m), speed (30-35m/min), and frequency (4-5 times a week), is consistent with a moderate-intensity aerobic exercise that can help improve cardiovascular health by strengthening the heart and increasing blood flow.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '使心臟安康'], ['B', '加強肌肉力量'], ['C', '控制體重'], ['D', '消減壓力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "有關制動對運動系統嘅影響嘅描述，錯誤嘅講法係",
+    "llm_output": "The correct answer is C. 骨質疏鬆.\n\nThe other options are all correct:\n\nA. 韌帶嘅剛度、強度增高 (Tendons and ligaments become more rigid and stronger)\n\nB. 肌肉張力、肌力下降 (Muscle tone and strength decrease)\n\nD. 出現關節攣縮 (Joint stiffness and rigidity occur)\n\nBone density, on the other hand, typically decreases with prolonged periods of inactivity, which is not a direct effect of braking on the musculoskeletal system.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '韌帶嘅剛度、強度增高'], ['B', '肌肉張力、肌力下降'], ['C', '骨質疏鬆'], ['D', '出現關節攣縮']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "乜嘢運動屬於靜力性力量訓練",
+    "llm_output": "The correct answer is A. 仰臥起坐.\n\n仰臥起坐 (push-ups) is a type of isometric exercise, which means it involves contracting the muscles without moving the joints. This type of exercise is often used to improve muscular endurance and strength.\n\nThe other options are not isometric exercises:\n\n* 俯臥撐 (pull-ups) is a type of dynamic exercise that involves moving the joints.\n* 舉槓鈴 (dumbbell lifts) is a type of dynamic exercise that involves moving the joints.\n* 蹲馬步 (squats) is a type of dynamic exercise that involves moving the joints.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '仰臥起坐'], ['B', '俯臥撐'], ['C', '舉槓鈴'], ['D', '蹲馬步']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "間歇訓練法係指對多次練習時嘅()作出嚴格規定，反復進行練習嘅訓練方法。",
+    "llm_output": "The correct answer is D. 間歇時間 (Interval time).\n\nInterval training is a type of training where the athlete performs a series of high-intensity exercises or activities, followed by periods of rest or low-intensity exercise. The interval time refers to the duration of the rest or low-intensity exercise between the high-intensity exercises.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '練習方式'], ['B', '間歇方式'], ['C', '練習次數'], ['D', '間歇時間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動處方鍛煉主要係採用乜嘢運動",
+    "llm_output": "The correct answer is D. 有氧與無氧相結合嘅運動 (Combination of aerobic and anaerobic exercises).\n\n運動處方鍛煉 (Exercise prescription) typically involves a combination of aerobic exercises (有氧運動) and anaerobic exercises (無氧運動) to achieve specific fitness goals and improve overall physical fitness.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '無氧運動'], ['B', '有氧運動'], ['C', '乜嘢運動都可以'], ['D', '有氧與無氧相結合嘅運動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "腦組織中無能量儲備，全靠血糖供應能量，大腦每天需要嘅糖大約係幾多，先至可以使血糖水平正常能保證大腦嘅正常生理功能。",
+    "llm_output": "The correct answer is B. 100-120克.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '70-80克'], ['B', '100-120克'], ['C', '90-100克'], ['D', '80-90克']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "推掌嘅力點係",
+    "llm_output": "The correct answer is A. 掌根 (Palm).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '掌根'], ['B', '掌外沿'], ['C', '掌心'], ['D', '掌指']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "我國跳水界根據運動員少年時期體重輕、心理負荷小嘅特點，躍進式嘅發展難度技術，呢係有效嘅處理咗",
+    "llm_output": "The correct answer is D. 循序漸進與難點先行嘅關係 (Sequential Progression and Difficulty Prioritization).\n\nThe statement describes the development of diving athletes in China, which focuses on the athlete's light weight and low psychological pressure during their youth, and uses a step-by-step approach to develop their skills, prioritizing difficult techniques. This is a characteristic of sequential progression and difficulty prioritization, which is a training method that emphasizes gradual progression and prioritizing difficult skills to improve athletes' performance.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '規範化同個體差異嘅關係'], ['B', '特長技術同全面技術嘅關係'], ['C', '合理嘅內部機制同正確嘅外部形態嘅關係'], ['D', '循序漸進與難點先行嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "直伸前掃動作掃轉腿必須伸直，腳尖內扣，腳掌擦地，掃轉度數為",
+    "llm_output": "The correct answer is D. 360度。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '180度'], ['B', '270度'], ['C', '360度以上'], ['D', '360度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "越女論劍，理論深奧，論述精闢，至今不失光彩，記載越女論劍嘅係。",
+    "llm_output": "The correct answer is C. 「吳越春秋」.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「漢書」'], ['B', '「呂氏春秋」'], ['C', '「吳越春秋」'], ['D', '「記效新書」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "1910年成立嘅「精武體育會」係維持時間最長、影響最大嘅民間武術團體，成立地喺。",
+    "llm_output": "The correct answer is A. 北京 (Beijing). The Jingwu Sports Federation (精武體育會) was founded in 1910 in Beijing, China.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '北京'], ['B', '廣州'], ['C', '上海'], ['D', '杭州']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "劇烈運動後，尿中發現肉眼或者顯微鏡下可見嘅紅血球，叫做",
+    "llm_output": "The correct answer is A. 運動性血尿 (Exercise-induced hematuria).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '運動性血尿'], ['B', '中暑'], ['C', '血紅蛋白'], ['D', '蛋白尿']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺水中游泳時，如果遇到身體抽筋應該先",
+    "llm_output": "Correct answer: C. 自己諗辦法自救",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唔理佢繼續游泳'], ['B', '聽天由命'], ['C', '自己諗辦法自救'], ['D', '呼喊周圍環境嘅人']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "唔係踝關節外側韌帶比內側韌帶扭傷多嘅原因係",
+    "llm_output": "The correct answer is B. 內翻比外翻角度明顯大 (The angle of inversion is more pronounced on the medial side).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '外側韌帶比內側韌帶細'], ['B', '內翻比外翻角度明顯大'], ['C', '外側韌帶比內側三角韌帶鬆弛'], ['D', '外踝較低，內踝較高']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋國家嘅現代體育基本上係由三個方面組成，三者之間既唔可以相互代替，亦唔可以混淆。呢三個方面係",
+    "llm_output": "The correct answer is C. 羣眾體育、運動訓練、競技體育.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '羣眾體育、競技體育、學校體育'], ['B', '社會體育、運動訓練、學校體育'], ['C', '羣眾體育、運動訓練、競技體育'], ['D', '羣眾體育、體育訓練、學校體育']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "體質嘅水平反映住人體嘅",
+    "llm_output": "The correct answer is A. 機能 (Function).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '機能'], ['B', '體能'], ['C', '質量'], ['D', '力量']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "骨喺外力作用下嘅局部變形叫做",
+    "llm_output": "The correct answer is A. 應變 (Strain).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '應變'], ['B', '應變能量'], ['C', '壓縮'], ['D', '應力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "採用大重量次數少而阻力大嘅練習有利於",
+    "llm_output": "The correct answer is C. 開展力量 (Developing strength).\n\nThis type of training, also known as low-repetition, high-load training, is designed to build muscle strength and power. It involves lifting heavy weights for a small number of repetitions, typically 3-5, to challenge the muscles and stimulate strength gains.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '減肥'], ['B', '加強耐力同心肺血管功能'], ['C', '開展力量'], ['D', '增加肌肉圍度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "武術嘅本質特性係",
+    "llm_output": "The correct answer is D. 藝術性 (Artistic nature).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '健身性'], ['B', '攻防技擊性'], ['C', '技術性'], ['D', '藝術性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "肌肉喺收縮產生力嘅同時被拉長嘅收縮叫做",
+    "llm_output": "The correct answer is B. 等長收縮 (Isotonic contraction).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '等動收縮'], ['B', '等長收縮'], ['C', '離心收縮'], ['D', '向心收縮']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列那種情況唔可以用MMT評定",
+    "llm_output": "The correct answer is A. 下運動神經元損傷 (Lower motor neuron damage).\n\nMMT (Manual Muscle Testing) is a technique used to assess the strength of muscles by applying a standardized amount of resistance to the muscle while it is contracting. It is typically used to evaluate the integrity of the neuromuscular system, including the muscles, nerves, and motor neurons.\n\nLower motor neuron damage, such as that caused by peripheral nerve damage or spinal cord injury, can affect the ability to perform MMT because the damaged motor neurons are unable to transmit signals to the muscles. As a result, MMT may not be able to accurately assess muscle strength in this situation.\n\nIn contrast, upper motor neuron damage, such as that caused by cerebral or spinal cord injury, can also affect muscle strength, but MMT can still be used to assess muscle strength in this situation because the damaged upper motor neurons are still able to transmit signals to the muscles, albeit with reduced strength and control.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '下運動神經元損傷'], ['B', '上運動神經元損傷嘅弛緩期'], ['C', '上運動神經元損傷嘅恢復期'], ['D', '上運動神經元損傷嘅痙攣期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "男仔喺幾多歲左右達到成人所能表現嘅最大力量",
+    "llm_output": "The correct answer is D. 15.\n\nAccording to sports science, boys typically reach their maximum strength and muscular development around the age of 15-16, which is considered the peak of adolescent growth and development.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '20'], ['B', '25'], ['C', '11'], ['D', '15']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "王某抓住自己嘅頭髮想將自己提起身，結果卻失敗咗，可能原因係",
+    "llm_output": "The correct answer is B. 單一內力運動唔可以改變人嘅整體運動狀態。\n\nWhen Wang tries to lift himself up by grabbing his own hair, he is using a single internal force (the force generated by his muscles) to try to change his overall movement state (lifting himself up). However, this is not a feasible or effective way to achieve this goal, as the internal force is not sufficient to overcome the external forces (such as gravity) acting on his body. Therefore, option B is the most plausible explanation for Wang's failure.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '內力唔夠'], ['B', '單一內力運動唔可以改變人嘅整體運動狀態'], ['C', '外力唔夠'], ['D', '頭髮承受唔夠']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動技術喺唔同項羣項目中嘅作用係唔同嘅，其中運動技術起決定作用嘅項目係",
+    "llm_output": "The correct answer is C. 跨欄 (Hurdling).\n\nIn hurdling, technique plays a crucial role in determining the athlete's performance, as it requires precise timing, body positioning, and movement to clear the hurdles successfully. The other options, such as diving (A), high jump (B), and shot put (D), while requiring technical skills, do not rely as heavily on technique to achieve success.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '跳水'], ['B', '跳高'], ['C', '跨欄'], ['D', '標槍']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列各項中協助圍成椎管嘅韌帶係",
+    "llm_output": "The correct answer is A. 棘間韌帶 (Interspinous ligament).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '棘間韌帶'], ['B', '前縱韌帶'], ['C', '黃韌帶'], ['D', '棘上韌帶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "屬於無氧運動嘅項目係",
+    "llm_output": "正確答案：A. 爬山",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '爬山'], ['B', '單車'], ['C', '跳遠'], ['D', '游泳']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "體能主導類項目運動員喺專項提高階段同最佳競技階段訓練嘅首要任務係",
+    "llm_output": "The correct answer is C. 發展素質，完善技術.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '發展技、戰術'], ['B', '發展心理能力'], ['C', '發展素質，完善技術'], ['D', '發展智能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "一般情況下，領做武術操或者準備活動時可以採用()示範。",
+    "llm_output": "The correct answer is D. 正面.\n\nWhen demonstrating a martial art or preparing for an activity, it is common to use a front-facing (正面) demonstration, where the instructor or demonstrator faces the audience or students directly. This allows for clear visibility and understanding of the movements and techniques being demonstrated.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '背面'], ['B', '側面'], ['C', '鏡面'], ['D', '正面']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "人體經常受外力同內力呢兩大類力嘅影響，以下唔屬於內力嘅係",
+    "llm_output": "The correct answer is A. 組織器官間嘅被動阻力.\n\nInternal forces refer to forces that arise from within the body, such as muscle contractions (B) and the forces generated by the movement of internal organs (C). On the other hand, external forces refer to forces that come from outside the body, such as gravity, wind, or contact with other objects.\n\nOrganic force (A) refers to the passive resistance that occurs between different organs in the body, which is an external force. This is because it is a force that arises from the interaction between different parts of the body, rather than from within the body itself.\n\nSupportive reaction force (D) is also an external force, as it is a force that arises from the interaction between the body and its environment.\n\nTherefore, the correct answer is A. 組織器官間嘅被動阻力.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '組織器官間嘅被動阻力'], ['B', '肌肉收縮力'], ['C', '內臟器官嘅摩擦力'], ['D', '支撐反作用力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "為運動員進行肩關節前側痛改善時，我哋可以揀用以下邊個動作進行訓練？",
+    "llm_output": "The correct answer is A. 側支撐 (Scapular Squeezing).\n\nScapular Squeezing is an exercise that targets the scapular stabilizers, which can help improve shoulder stability and reduce anterior shoulder pain.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '側支撐'], ['B', '側臥單腿上抬'], ['C', '蚌式'], ['D', '跪姿脊柱屈曲']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊種運動項目唔屬於快速力量性項羣嘅項目？",
+    "llm_output": "The correct answer is C. 舉重 (Weightlifting).\n\nWeightlifting is a strength-based sport that requires power and endurance, but not necessarily rapid speed or quickness. The other options are all sports that require rapid speed and quickness:\n\n* 網球 (Tennis) requires quick movements and rapid reactions.\n* 跳躍 (Jumping) is a fundamental movement that requires explosive power and rapid speed.\n* 標槍 (Javelin throw) requires a rapid and powerful throw to achieve distance.\n\nSo, the correct answer is C. 舉重 (Weightlifting).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '網球'], ['B', '跳躍'], ['C', '舉重'], ['D', '標槍']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "50米跑係國際上通用嘅測試項目，用嚟測定",
+    "llm_output": "The correct answer is B. 速度素質 (speed quality).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '力量素質'], ['B', '速度素質'], ['C', '耐力素質'], ['D', '靈敏素質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "一般認為青春期女子耐力性運動成績相當於男子嘅",
+    "llm_output": "According to the general consensus, the correct answer is:\n\nB. 60—80%",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '70—80%'], ['B', '60—80%'], ['C', '50—80%'], ['D', '50—70%']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "衡量運動員技術水平嘅重要指標係",
+    "llm_output": "The correct answer is D. 特長技術 (Specialized technique).\n\nSpecialized technique refers to the specific skills and movements that are unique to a particular sport or discipline, and is often used to evaluate an athlete's technical proficiency and mastery of their sport.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '常用技術'], ['B', '防守技術'], ['C', '進攻技術'], ['D', '特長技術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "大躍步前穿要求前跳距離須（）弓步。",
+    "llm_output": "The correct answer is A. 大於 (Greater than).\n\n大躍步 (Long jump) requires a takeoff distance greater than the length of the runway, which is typically around 40-45 meters. This allows the athlete to gain enough speed and momentum to clear the bar and achieve a longer jump.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '大於'], ['B', '等於'], ['C', '唔做要求'], ['D', '小於']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "武術基本功中，屈伸性腿法有幾多種。",
+    "llm_output": "According to my knowledge, the correct answer is:\n\nB. 4\n\nThere are four types of leg techniques in Tai Chi (a form of Chinese martial arts): \n\n1. Forward bending (屈伸性腿法)\n2. Backward bending (反屈伸性腿法)\n3. Side bending (側屈伸性腿法)\n4. Twisting (轉屈伸性腿法)\n\nSo, the correct answer is B. 4.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '2'], ['B', '4'], ['C', '3'], ['D', '5']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "持續訓練法係指邊一種訓練方法。",
+    "llm_output": "The correct answer is A. 負荷時間較長.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '負荷時間較長'], ['B', '負荷強度較大'], ['C', '負荷時間較短'], ['D', '有間歇時間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "承擔負荷嘅極限性係（）嘅特點之一",
+    "llm_output": "The correct answer is C. 運動訓練 (Exercise Training).\n\n承擔負荷 (Endurance) is a key concept in exercise training, referring to the ability of the body to sustain physical activity over time. One of the characteristics of endurance is that it has a limit, beyond which the body cannot sustain the activity.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '運動競賽'], ['B', '羣眾體育'], ['C', '運動訓練'], ['D', '學校體育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "從生物學角度睇，運動技術嘅形成歸功於",
+    "llm_output": "The correct answer is A. 條件反射嘅建立與鞏固 (The formation of motor skills is attributed to the establishment and consolidation of conditioned reflexes from a biological perspective.)",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '條件反射嘅建立與鞏固'], ['B', '運動技能嘅儲存數量'], ['C', '靈敏素質好'], ['D', '心理素質嘅發展水平']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "參加體育鍛煉以及運動訓練同比賽，到一定程度嘅時候，人體就會產生()暫時降低嘅現象，叫做運動性疲勞。",
+    "llm_output": "The correct answer is C. 體力 (Physical fitness).\n\n運動性疲勞 (Exercise-induced fatigue) refers to the temporary decline in physical fitness that occurs after a period of intense exercise, training, or competition.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '工作能力'], ['B', '機能狀況'], ['C', '體力'], ['D', '生活能力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺腰椎運動中，邊項可以被睇作剛體",
+    "llm_output": "The correct answer is B. 椎體 (Vertebrae).\n\nIn the lumbar spine, the vertebrae are rigid and can be considered as a rigid body (剛體) due to their bony structure and limited flexibility.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '關節囊'], ['B', '椎體'], ['C', '椎間盤'], ['D', '韌帶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "完成「足尖喺地面上劃一個圈嘅動作」，髓關節需要做啲乜嘢運動",
+    "llm_output": "The correct answer is B. 以上都有 (Both internal rotation and external rotation).\n\nWhen performing a soccer move where the toes are tracing a circle on the ground, the hip joint needs to rotate both internally and externally. Internal rotation occurs when the femur (thigh bone) moves inward, while external rotation occurs when it moves outward. This combination of movements allows for the precise control and flexibility needed to perform the move.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '內旋同外旋'], ['B', '以上都有'], ['C', '前屈同後伸'], ['D', '內收同外展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "傳統武德嘅內容中最為重要嘅係",
+    "llm_output": "The correct answer is B. 仁 (Benevolence). In traditional Chinese martial arts, the concept of \"仁\" (jen) refers to the cultivation of benevolence, compassion, and kindness, which is considered the most important aspect of martial arts training.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '信'], ['B', '仁'], ['C', '義'], ['D', '勇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列四種選項中，邊一項唔屬於競技體育社會功能嘅選項。",
+    "llm_output": "The correct answer is C. 最大限度地挖掘人嘅生理潛力.\n\nThe other options are all related to the social functions of competitive sports:\n\nA. Promoting economic development and prosperity is a social function of sports, as it can generate revenue and create jobs.\n\nB. Raising national spirit is a social function of sports, as it can foster a sense of community and patriotism.\n\nD. Enriching people's cultural and spiritual life is a social function of sports, as it can provide a platform for self-expression and personal growth.\n\nOption C, on the other hand, is more focused on the physiological aspects of sports, and does not necessarily relate to the social functions of competitive sports.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '促進經濟嘅發展同繁榮'], ['B', '振奮民族精神'], ['C', '最大限度地挖掘人嘅生理潛力'], ['D', '豐富人哋嘅文化同精神生活']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "側踹腿屬於基本功嘅（）腿法。",
+    "llm_output": "The correct answer is B. 掃轉性 (Rotational).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '跳躍性'], ['B', '掃轉性'], ['C', '直擺性'], ['D', '屈伸性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬醫療體育鍛煉工程嘅係",
+    "llm_output": "正確答案：C. 太極拳",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '柔道'], ['B', '划船'], ['C', '太極拳'], ['D', '擊劍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "將湯羹送至口中，肘關節同時進行嘅運動係",
+    "llm_output": "The correct answer is B. 屈曲同旋後 (Flexion and internal rotation).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '伸展同旋前'], ['B', '屈曲同旋後'], ['C', '伸展同旋後'], ['D', '屈曲同旋前']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動員邊個部位開始動作即為起勢。",
+    "llm_output": "The correct answer is D. 任何部分.\n\nThe term \"起勢\" (qi shì) in Chinese refers to the starting point or the initial movement of an action, and it can occur at any part of the body, not just a specific one. Therefore, the correct answer is D. 任何部分 (any part).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '頭部'], ['B', '腳'], ['C', '手'], ['D', '任何部分']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "心血管耐力又叫",
+    "llm_output": "The correct answer is C. 有氧耐力 (Aerobic Endurance).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無氧耐力'], ['B', '力量耐力'], ['C', '有氧耐力'], ['D', '一般耐力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動停止後，當運動中所消耗嘅能源物質恢復到原來水平後，繼續持續到超過原來嘅水平，呢種現象叫做",
+    "llm_output": "The correct answer is B. 超量恢復 (Supersaturation).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '正常恢復'], ['B', '超量恢復'], ['C', '持續恢復'], ['D', '緩慢恢復']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "衡量人體氧系統功能嘅強弱除咗可以用呼吸系統或者心血管系統嘅啲指標外，常用嘅衡量氧運輸系統整體功能嘅綜合性指標就係",
+    "llm_output": "The correct answer is B. 最大吸氧量 (Maximum Oxygen Uptake, or VO2max).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '肺通氣量'], ['B', '最大吸氧量'], ['C', '肺泡通氣量'], ['D', '肺血流量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "健康係人體嘅最正確狀態，即為第一狀態。失去安康嘅疾病狀態，表現為對外界環境變化嘅適應能力降低，勞動能力受到限制或者喪失，並出現一系列嘅臨牀病症，叫做第二狀態，自覺生理唔舒服，心理疲憊，對社會適應能力差，但醫學檢查往往並無明確嘅機體疾病，呢種介於安康同疾病嘅邊緣狀態，醫學上叫做第三狀態或者",
+    "llm_output": "The correct answer is A. 亞健康.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '亞健康'], ['B', '第二狀態'], ['C', '第一狀態'], ['D', '第三狀態']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺50米短距離跑嘅比賽中，運動員嘅能量直接供能嘅係。",
+    "llm_output": "The correct answer is C. 磷酸原系統（三磷酸腺苷－磷酸肌酸ATP－CP）。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '有氧氧化系統'], ['B', '磷酸原系統同有氧氧化系統'], ['C', '磷酸原系統（三磷酸腺苷－磷酸肌酸ATP－CP）'], ['D', '乳酸能系統（無氧糖酵解系統）']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "描述錯誤嘅係",
+    "llm_output": "The correct answer is A. 一個人轉身可以話佢喺水平面運動。\n\nExplanation: When a person turns, they are not moving in a horizontal plane. They are actually moving in a rotational motion around a vertical axis. Therefore, option A is incorrect.\n\nThe other options are correct:\n\n* B. A person walking or running is moving in a horizontal plane.\n* C. The three planes (sagittal, frontal, and horizontal) are commonly used to describe human movement in three-dimensional space.\n* D. The three planes are mutually perpendicular, meaning they intersect at right angles.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一個人轉身可以話佢喺水平面運動'], ['B', '一個人前行可以話佢喺水平面運動'], ['C', '描述人體空間內嘅運動，通常用矢狀面、冠狀面、水平面嚟表示'], ['D', '描述人體空間運動嘅三個平面互相間呈垂直關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "因受外力作用，使關節面失去正常嘅連接關係，係",
+    "llm_output": "The correct answer is D. 關節脫位 (Joint Dislocation).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '半脫位'], ['B', '關節受傷'], ['C', '完全脫位'], ['D', '關節脫位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "短跑係指",
+    "llm_output": "The correct answer is A. 200米同200米以下.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '200米同200米以下'], ['B', '800米同1500米'], ['C', '50米'], ['D', '400米同400米以下']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊項唔係足底筋膜炎嘅損傷機制？",
+    "llm_output": "The correct answer is A. 足旋前綜合症 (Anterior Tibial Tendonitis).\n\nThe other options are all potential mechanisms of injury that can lead to plantar fasciitis:\n\n* B. 腓腸肌過緊 (Tightening of the calf muscles) can lead to plantar fasciitis by causing the plantar fascia to become inflamed and irritated.\n* C. 足底塌陷 (Plantar fascial collapse) is a common mechanism of injury that can lead to plantar fasciitis, as the plantar fascia becomes stretched and inflamed.\n* D. 足旋後 (Posterior Tibial Tendonitis) is another common mechanism of injury that can lead to plantar fasciitis, as the posterior tibial tendon becomes inflamed and irritated.\n\nAnterior Tibial Tendonitis, on the other hand, is a condition that affects the tendon that connects the tibia to the ankle, and is not directly related to plantar fasciitis.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '足旋前綜合症'], ['B', '腓腸肌過緊'], ['C', '足底塌陷'], ['D', '足旋後']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "全身耐力訓練嘅核心部分係",
+    "llm_output": "The correct answer is C. 運動持續時間 (Exercise duration).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '運動程序'], ['B', '運動方式嘅選擇'], ['C', '運動持續時間'], ['D', '運動強度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "武術喺歷史上曾有過唔同嘅稱謂，民國時期叫做",
+    "llm_output": "The correct answer is B. 技擊.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '武藝'], ['B', '技擊'], ['C', '武術'], ['D', '國術']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "少兒耐力訓練以邊一項為主",
+    "llm_output": "The correct answer is C. 有氧耐力 (Aerobic Endurance).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '專項耐力'], ['B', '無氧耐力'], ['C', '有氧耐力'], ['D', '肌肉耐力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "關節運動中患者能夠主動完成嘅動作為",
+    "llm_output": "The correct answer is A. 生理性運動 (Physiological Movement).\n\nIn joint movement, patients are able to actively complete physiological movements, which are normal and natural movements that occur within the normal range of motion of a joint. These movements are controlled by the nervous system and are necessary for daily activities and overall function.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '生理性運動'], ['B', '附屬運動'], ['C', '病理性運動'], ['D', '解剖位置運動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺單練嘅基礎上兩人或者兩人以上，喺預定條件下進行嘅假設性攻防練習係",
+    "llm_output": "The correct answer is B. 對練 (Drilling).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '搏擊運動'], ['B', '對練'], ['C', '散打'], ['D', '功法運動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "慢跑30秒，步行60秒，反復10-20次，總時間為12-30分鐘嘅運動方式係",
+    "llm_output": "The correct answer is D. 間歇跑 (Interval Run).\n\nInterval training involves alternating between periods of high-intensity exercise (in this case, running) and periods of low-intensity exercise (in this case, walking). The duration of the high-intensity exercise and the low-intensity exercise can vary, but in this case, it's 30 seconds of running followed by 60 seconds of walking, repeated for 10-20 times. This type of training is commonly used to improve cardiovascular fitness and increase endurance.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '交替跑'], ['B', '原地跑'], ['C', '勻速跑'], ['D', '間歇跑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺競技活動中，運動員嘅體能水平集中表現喺三個方面，下列邊一項唔係嘅？",
+    "llm_output": "The correct answer is B. 技術.\n\nThe three aspects of physical fitness that are concentrated in competitive sports are:\n\n* 身體形態 (physical structure)\n* 身體機能 (physical function)\n* 運動素質 (motor ability)\n\n技術 (technique) is a skill or method of performing a specific sport or exercise, rather than a physical fitness aspect.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '身體形態'], ['B', '技術'], ['C', '身體機能'], ['D', '運動素質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於靜力性力量工程嘅係",
+    "llm_output": "The correct answer is C. 游泳.\n\nStatic strength training refers to exercises that involve holding a position or contracting a muscle for a period of time, without moving or changing the position. Examples of static strength training exercises include:\n\n* Headstand (A)\n* Horse riding (B)\n* Lifting weights (D)\n\nSwimming (C) is a dynamic activity that involves movement and propulsion through water, and is not a form of static strength training.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '頭手倒立'], ['B', '鞍馬'], ['C', '游泳'], ['D', '舉重']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "骨槓桿上肌肉嘅附著點屬於",
+    "llm_output": "The correct answer is A. 力點 (Tendon of origin).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '力點'], ['B', '原點'], ['C', '起點'], ['D', '阻力點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "實施有效訓練控制嘅理論基礎係",
+    "llm_output": "The correct answer is A. 現代控制論 (Modern Control Theory).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '現代控制論'], ['B', '訓練過程嘅多變性'], ['C', '教育論'], ['D', '訓練信息']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺基礎訓練階段，訓練負荷增加嘅方式係",
+    "llm_output": "The correct answer is C. 循序漸進 (Gradual Progression).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '跳躍式'], ['B', '鋸齒式'], ['C', '循序漸進'], ['D', '波浪式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺現代競技比賽同運動訓練過程中，需要對原有計劃進行必要嘅變更。呢個反映嘅運動訓練嘅特點係",
+    "llm_output": "The correct answer is C. 訓練調控嘅必要性同應變性 (The necessity and adaptability of training control).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '運動訓練過程嘅連續性同組織實施嘅階段性'], ['B', '現代科技支持嘅全面性及導向性'], ['C', '訓練調控嘅必要性同應變性'], ['D', '訓練目標嘅專一性同實現途徑嘅多元性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "RICE方法可以用嚟防止以下邊一種關節活動障礙",
+    "llm_output": "The correct answer is D. 關節周圍軟組織攣縮造成嘅關節活動障礙\n\nRICE is an acronym that stands for Rest, Ice, Compression, and Elevation, which is a common method used to prevent and treat soft tissue injuries, such as muscle strains and sprains. It is not effective in preventing or treating joint injuries caused by joint damage, nerve-muscle contractures, or scar tissue formation.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '關節損傷造成嘅關節活動障礙'], ['B', '神經肌肉型攣縮造成嘅關節活動障礙'], ['C', '軟組織粘連形成嘅關節活動障礙'], ['D', '關節周圍軟組織攣縮造成嘅關節活動障礙']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "脫水量佔體重嘅4％至6％，就會減少肌力及耐力，同時引起熱痙攣，令長時間活動能力下降大約()，亦會影響體內無氧代謝嘅供能過程。",
+    "llm_output": "The correct answer is A. 30-40%.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '30-40%'], ['B', '10-20%'], ['C', '20-30%'], ['D', '40-50%']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "由於精神壓力引起嘅分泌系統疾病有",
+    "llm_output": "The correct answer is C. 甲狀腺機能亢進 (Hyperthyroidism).\n\nHyperthyroidism is a condition where the thyroid gland produces too much thyroid hormone, which can be caused by stress and other factors. The other options are not directly related to the thyroid gland or hyperthyroidism:\n\nA. 昏厥 (Syncope) is a condition characterized by a sudden loss of consciousness, often caused by a lack of blood flow to the brain.\n\nB. 心律失常 (Arrhythmia) is an abnormal heart rhythm, which can be caused by various factors, including stress, but is not directly related to the thyroid gland.\n\nD. 痤瘡 (Acne) is a skin condition characterized by comedones, papules, pustules, nodules, and cysts, which is not related to the thyroid gland or hyperthyroidism.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '昏厥'], ['B', '心律失常'], ['C', '甲狀腺機能亢進'], ['D', '痤瘡']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊種訓練方法係發展爆發力最常用方法",
+    "llm_output": "The correct answer is C. 重量大、練習次數多 (High intensity, high volume).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '重量細、練習次數少'], ['B', '重量細、練習次數多'], ['C', '重量大、練習次數多'], ['D', '重量大、練習次數少']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "學生或者運動員及教練員喺比賽中具有規意識及紀律修養，呢係文明嘅表現，都係對體育事業具有高度責任感嘅表達，係一種",
+    "llm_output": "The correct answer is C. 道德表達 (Moral Expression).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '道德義務'], ['B', '道德行為'], ['C', '道德表達'], ['D', '道德修養']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺長跑、游泳等體能主導類項羣嘅週期性項目中運動較多嘅戰術形式係",
+    "llm_output": "The correct answer is B. 體力分配戰術 (Energy Distribution Strategy).\n\nIn endurance sports such as long-distance running and swimming, athletes often employ energy distribution strategies to manage their energy expenditure and optimize their performance. This involves distributing their energy across different segments of the race or event, taking into account factors such as pace, intensity, and recovery.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '心理戰術'], ['B', '體力分配戰術'], ['C', '陣形戰術'], ['D', '參賽目嘅戰術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "弓步嘅動作要點係",
+    "llm_output": "The correct answer is A. 以上三點都對.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上三點都對'], ['B', '沉髖'], ['C', '挺胸'], ['D', '塌腰']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "青年大學生嘅人際交往，係佢哋認識自我、認識社會、適應環境同社會，展現自我、開展自我，形成健全人格嘅",
+    "llm_output": "The correct answer is C. 重要途徑 (Important Pathway).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '重要特點'], ['B', '根本特點'], ['C', '重要途徑'], ['D', '根本途徑']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "鍛煉後點樣預防肌肉痠痛",
+    "llm_output": "The correct answer is C. 坐低休息.\n\nAfter exercise, it is common to experience muscle soreness (delayed onset muscle soreness, or DOMS). To prevent or alleviate muscle soreness, it is recommended to:\n\n* Stretch or massage the affected muscles\n* Apply heat or cold packs to the affected area\n* Rest and avoid further strenuous activity for a period of time\n* Engage in gentle, low-intensity exercise to promote blood flow and relaxation\n\nSitting down and resting is an effective way to reduce muscle soreness, as it allows the muscles to recover and reduces further stress and inflammation.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '藥物治療'], ['B', '唔理佢'], ['C', '坐低休息'], ['D', '多做整理運動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "鎖骨嘅形狀係內側凸外側凹嘅曲線形。當上肢處於解剖位時，鎖骨嘅長軸稍微高於水平面，並位於冠狀面後",
+    "llm_output": "The correct answer is C. 20°.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '40°'], ['B', '10°'], ['C', '20°'], ['D', '30°']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動損傷防護處喺SPT訓練模型中嘅邊個層級？",
+    "llm_output": "The correct answer is C. 體適能層級 (Physical Fitness Level).\n\nThe SPT (Sports Performance Training) model is a framework that categorizes athletic training into four levels: Functional Level, Technical Level, Tactical Level, and Physical Fitness Level. The Physical Fitness Level refers to the athlete's overall physical fitness, which includes factors such as strength, power, endurance, flexibility, and body composition. This level is responsible for providing the foundation for the athlete's performance in their respective sport.\n\nSo, the correct answer is C. 體適能層級 (Physical Fitness Level).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '專項運動層級'], ['B', '運動表現層級'], ['C', '體適能層級'], ['D', '功能層級']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊項係運動損傷防護課程嘅正確處理流程？",
+    "llm_output": "The correct answer is B. 訓練-鬆解-拉伸.\n\nThe correct sequence for preventing sports injuries is:\n\n1. Training (conditioning and preparation)\n2. Relaxation (stretching and relaxation exercises)\n3. Stretching (to improve flexibility and reduce muscle tension)\n\nThis sequence helps to prevent injuries by:\n\n* Training the muscles and joints to prepare for physical activity\n* Relaxing the muscles and joints to reduce muscle tension and prevent overuse\n* Stretching to improve flexibility and reduce the risk of injury\n\nSo, the correct answer is B. 訓練-鬆解-拉伸.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '訓練-拉伸-鬆解'], ['B', '訓練-鬆解-拉伸'], ['C', '鬆解-拉伸-訓練'], ['D', '拉伸-鬆解-訓練']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "當運動員喺做推肩時出現肩關節前側痛，我哋訓練以下邊塊肌肉會對其疼痛有所幫助？",
+    "llm_output": "The correct answer is B. 肩帶穩定肌 (Scapular stabilizer muscles).\n\nWhen a athlete experiences pain in the front of the shoulder joint during shoulder push, it is often due to weakness or imbalance in the scapular stabilizer muscles, which include the serratus anterior, trapezius, and rhomboids. Strengthening these muscles can help alleviate the pain by improving scapular stability and reducing the stress on the shoulder joint.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '上斜方肌'], ['B', '肩帶穩定肌'], ['C', '肩胛提肌'], ['D', '豎脊肌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗發展學生嘅身體素質同跑嘅能力，下列一組輔助練習中用嚟增強腿部力量，提高大腿高抬幅度，發展跑嘅頻率嘅練習係",
+    "llm_output": "The correct answer is C. 高抬腿跑 (High Knees Running).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '弓箭步走'], ['B', '單足跳'], ['C', '高抬腿跑'], ['D', '後蹬跑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "制定運動處方具有五個步驟，其中第一步應該係",
+    "llm_output": "The correct answer is A. 體力測試 (Physical fitness testing).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '體力測試'], ['B', '臨牀檢查'], ['C', '運動試驗'], ['D', '一般體檢']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "握力能夠間接反映一個人嘅健康狀況，一個人嘅握力與之成高度相關嘅係。",
+    "llm_output": "The correct answer is D. 全身力量 (Overall strength).\n\nGrip strength is a good indicator of overall physical fitness and can be related to an individual's overall strength, muscle mass, and muscle function.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '速度'], ['B', '爆發力'], ['C', '耐力'], ['D', '全身力量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "對鍛煉嘅表述正確嘅係",
+    "llm_output": "The correct answer is C. 量力而行，持之以恆 (To exert oneself to the limit and persevere).\n\nThe phrase \"量力而行，持之以恆\" is a Chinese idiom that means to strive to one's best ability and maintain consistency in one's efforts. It is a common phrase used to describe the importance of perseverance and dedication in achieving one's goals.\n\nThe other options are not correct:\n\nA. \"每日爬山5個鐘\" (Climbing mountains for 5 hours a day) is an exaggeration and not a realistic or healthy approach to exercise.\n\nB. \"聞雞起舞\" (Listening to chickens dance) is a nonsensical phrase that has no relation to exercise or physical activity.\n\nD. \"三日打魚，兩日曬網\" (Fishing for three days and drying nets for two days) is a phrase that describes a farmer's daily routine, but it is not related to exercise or physical activity.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '每日爬山5個鐘'], ['B', '聞雞起舞'], ['C', '量力而行，持之以恆'], ['D', '三日打魚，兩日曬網']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "燒傷患者嘅主要運動正確嘅係",
+    "llm_output": "The correct answer is C. 每次都要喺治療師指導下進行\n\nFor patients with burns, it is essential to follow a rehabilitation program under the guidance of a healthcare professional to ensure proper wound care, pain management, and prevention of complications.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '如果無禁忌，應該盡早進行'], ['B', '只做患側，越多越好'], ['C', '每次都要喺治療師指導下進行'], ['D', '提高患者嘅自信心']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動嘅時間超過幾耐以上，可以揀升糖指數較低嘅食物，例如水果、脫脂牛奶、米飯、豆類，呢啲食物緩慢咁被消化成糖類，能夠長時間咁供應糖類畀運動中嘅肌肉使用。",
+    "llm_output": "The correct answer is A. 60-90分鐘.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '60-90分鐘'], ['B', '50-60分鐘'], ['C', '30-40分鐘'], ['D', '40-50分鐘']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動員喺做史密斯推肩時出現肩關節外側疼痛，我哋應該鬆解以下邊塊肌肉幫助其改善疼痛完成訓練？",
+    "llm_output": "The correct answer is A. 岡下肌 (Teres Minor).\n\nTeres Minor is a muscle that helps to stabilize the scapula (shoulder blade) and can contribute to shoulder pain and stiffness, especially during activities that involve overhead movements such as throwing or pushing. Tightness in the Teres Minor muscle can also lead to impingement of the supraspinatus tendon, which can cause pain and inflammation.\n\nThe other options are not directly related to the symptoms described:\n\n* 岡上肌 (Supraspinatus) is a muscle that helps to abduct the arm, but it is not typically involved in shoulder pain during Smith machine exercises.\n* 小圓肌 (Infraspinatus) is a muscle that helps to rotate the arm outward, but it is not typically involved in shoulder pain during Smith machine exercises.\n* 腹直肌 (Serratus Anterior) is a muscle that helps to rotate the scapula and is not typically involved in shoulder pain during Smith machine exercises.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '岡下肌'], ['B', '岡上肌'], ['C', '小圓肌'], ['D', '腹直肌']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "中國傳統哲學對武術影響極為深遠，以陰陽八卦化生觀念為理論基礎嘅拳術係",
+    "llm_output": "The correct answer is B. 八卦掌 (Baguazhang).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '象形拳'], ['B', '八卦掌'], ['C', '形意拳'], ['D', '太極拳']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "據國內外科研成果表明，運動鍛煉心率達到（）次/分鐘時人體內嘅免疫蛋白減少，易感染疾病，易產生疲勞或者運動傷病。",
+    "llm_output": "According to research, when the heart rate reaches 180 beats per minute, the immune protein in the human body decreases, making it easier to get sick, feel fatigued, or suffer from exercise-related injuries. Therefore, the correct answer is:\n\nC. 180",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '150'], ['B', '170'], ['C', '180'], ['D', '160']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "當今世界上開展最廣泛，影響最大，被譽為世界第一運動嘅係",
+    "llm_output": "The correct answer is D. 足球 (Football).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '排球'], ['B', '拳擊'], ['C', '籃球'], ['D', '足球']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗幫助學生掌握較難動作而採取嘅技術結構與所學身體練習相似嘅簡單技術動作嘅練習係",
+    "llm_output": "The correct answer is C. 輔助性練習 (Auxiliary Practice).\n\nAuxiliary practice is a technique used to help students master difficult movements by practicing simpler movements that are similar in structure and body positioning. This type of practice helps to build a foundation for more complex movements and can be an effective way to improve technique and reduce the risk of injury.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '專門性練習'], ['B', '一般性練習'], ['C', '輔助性練習'], ['D', '綜合性練習']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺幫助運動員進行背闊肌拉伸時，我哋需要固定以下邊個點嚟確保拉伸效果？",
+    "llm_output": "The correct answer is D. 脊柱中立位 (Spinal neutral position).\n\nWhen stretching the latissimus dorsi muscle, it's essential to maintain a neutral spine position to ensure proper stretching and to avoid putting unnecessary stress on the spine. This helps to target the muscle effectively and reduces the risk of injury.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '大腿'], ['B', '髂骨'], ['C', '小腿'], ['D', '脊柱中立位']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "從運動生理嚟講，全身耐力運動所需嘅最短時間係",
+    "llm_output": "The correct answer is C. 15分鐘.\n\nAccording to exercise physiology, the anaerobic threshold (AT) is typically reached within 15-20 minutes of continuous exercise, which is considered the shortest duration required for whole-body endurance exercise.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '5分鐘'], ['B', '30分鐘'], ['C', '15分鐘'], ['D', '10分鐘']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "掌揉法同掌根揉法常用於",
+    "llm_output": "The correct answer is A. 面積較細部位 (Small areas).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '面積較細部位'], ['B', '上肢部位'], ['C', '面積較大部位'], ['D', '大腿部位']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "機械性疼痛嘅表現形式以下邊項正確？",
+    "llm_output": "The correct answer is C. 休息時、傷側溫度過高。\n\n機械性疼痛 (Mechanical pain) is a type of pain that is caused by mechanical stress or strain on the tissues, such as muscles, tendons, or joints. It is often characterized by a dull, aching sensation that is exacerbated by movement or activity, and may be relieved by rest.\n\nThe symptoms of mechanical pain may include:\n\n* Aching or stiffness in the affected area\n* Pain that is worse with movement or activity\n* Pain that is relieved by rest\n* Swelling or inflammation in the affected area\n* Warmth or redness in the affected area\n\nOption C, 休息時、傷側溫度過高, is a correct description of mechanical pain, as it is often worse with movement and relieved by rest, and may be accompanied by warmth or redness in the affected area.\n\nThe other options are not correct descriptions of mechanical pain:\n\n* A. 持續痛 (Continuous pain) is more characteristic of neuropathic pain or inflammatory pain.\n* B. 間歇疼痛 (Intermittent pain) is more characteristic of inflammatory pain or musculoskeletal pain.\n* D. 夜間痛 (Night pain) is more characteristic of inflammatory pain or bone pain.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '持續痛'], ['B', '間歇疼痛'], ['C', '休息時、傷側溫度過高'], ['D', '夜間痛']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "跳躍中嘅高度比賽，運動員喺每個高度連續幾次試跳失敗，即被取消比賽資格。",
+    "llm_output": "The correct answer is B. 六次.\n\nIn high jump competitions, athletes are allowed to attempt to clear each height a maximum of six times before being eliminated from the competition.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '四次'], ['B', '六次'], ['C', '兩次'], ['D', '三次']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "發展一般運動能力係全過程多年訓練階段中嘅邊一個階段。",
+    "llm_output": "The correct answer is D. 基礎訓練 (Foundation Training).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '最佳競技'], ['B', '競技保持'], ['C', '專項提高'], ['D', '基礎訓練']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "肌力唔受下列邊項因素影響",
+    "llm_output": "The correct answer is C. 運動單位籌集 (Muscle force is not affected by the exercise unit collection).\n\nMuscle force is influenced by factors such as:\n\n* Muscle fiber type and distribution (B)\n* Muscle length (D)\n* Muscle temperature (A)\n* Nerve stimulation and muscle activation (not listed)\n\nExercise unit collection refers to the arrangement of exercises in a workout routine, which does not directly affect muscle force.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '皮膚溫度'], ['B', '肌肉嘅生理橫斷面'], ['C', '運動單位籌集'], ['D', '肌肉嘅初長度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "柔韌素質測定方法有立位體前屈、同",
+    "llm_output": "The correct answer is B. 坐位體前屈 (Sit-and-Reach Test).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '50米'], ['B', '坐位體前屈'], ['C', '折線跑'], ['D', '300米']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺進行胸大肌增肌訓練時出現肩關節前側疼痛，我哋可以採取以下邊套訓練方案為其進行10-15分鐘嘅熱身改善，嚟使其更好咁進入到增肌訓練中？",
+    "llm_output": "The correct answer is D. 放鬆肱二頭肌、胸小肌、訓練肩帶穩定肌.\n\nWhen performing chest muscle exercises, shoulder joint pain on the anterior side is often caused by poor posture, tightness in the shoulder stabilizer muscles, or inadequate warm-up. To alleviate this pain and improve performance, it is recommended to perform exercises that relax the biceps brachii, pectoralis minor, and shoulder stabilizer muscles, and then train the shoulder stabilizer muscles.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '放鬆胸大肌、背闊肌，訓練上斜方肌'], ['B', '直接訓練唔需要進行處理'], ['C', '放鬆上斜方肌、頸闊肌，訓練深層頸屈肌'], ['D', '放鬆肱二頭肌、胸小肌、訓練肩帶穩定肌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "格鬥對抗性項羣競技能力嘅決定因素中，起主導作用，並對提高運動成績起決定性作用嘅因素係",
+    "llm_output": "The correct answer is A. 心理 (Psychology).\n\nAccording to sports science, psychological factors, such as motivation, concentration, and emotional control, play a dominant role in determining the outcome of combat sports, and have a decisive impact on improving athletic performance.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '心理'], ['B', '體能'], ['C', '智能'], ['D', '體能、技能與戰術能力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動員參訓嘅重要原動力係",
+    "llm_output": "The correct answer is A. 成功動機 (Success Motivation).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '成功動機'], ['B', '行為'], ['C', '結果'], ['D', '性格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "以下關於制動嘅描述唔正確嘅係",
+    "llm_output": "The correct answer is D. 制動唔會引起其他系統嘅功能障礙\n\nThe other options are all correct:\n\nA. 長期制動可增加新嘅功能障礙 (Long-term immobilization can increase the risk of new functional impairments)\n\nB. 長期制動可引起失用綜合症 (Long-term immobilization can lead to disuse syndrome)\n\nC. 制動係某啲傷病危重期嘅必要措施 (Immobilization is a necessary measure for certain severe injuries)\n\nNote: Immobilization can indeed lead to new functional impairments, disuse syndrome, and is often necessary for severe injuries.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '長期制動可增加新嘅功能障礙'], ['B', '長期制動可引起失用綜合症'], ['C', '制動係某啲傷病危重期嘅必要措施'], ['D', '制動唔會引起其他系統嘅功能障礙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "「兩人手持一種藤、皮、棉製作嘅短棒似嘅器械，喺16市尺直徑嘅圓形場地內，按照一定規則使用劈、砍、刺、崩、點、斬等方法以決勝負」，具體嚟講呢係下列邊種運動。",
+    "llm_output": "The correct answer is A. 搏鬥運動 (Combat sport).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '搏鬥運動'], ['B', '短兵'], ['C', '擊劍'], ['D', '器械對練']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "武術嘅主要內容係",
+    "llm_output": "The correct answer is A. 技擊動作 (Technical and striking movements)",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '技擊動作'], ['B', '表演動作'], ['C', '舞蹈動作'], ['D', '雜技動作']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "持續5分鐘以上尚有餘力嘅運動叫做",
+    "llm_output": "The correct answer is D. 有氧運動 (Aerobic Exercise).\n\n持續5分鐘以上尚有餘力嘅運動，通常是指有氧運動，例如跑步、游泳、騎車等，需要氧氣的運動。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '恆常運動'], ['B', '無氧運動'], ['C', '非恆常運動'], ['D', '有氧運動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動員喺做槓鈴推肩時出現肩關節外側疼痛，我哋應該訓練以下邊塊肌肉幫助其改善疼痛完成訓練？",
+    "llm_output": "The correct answer is C. 三角肌 (Trapezius muscle).\n\nThe trapezius muscle is responsible for stabilizing the scapula and helping to move it upwards and downwards. Weakness or imbalance in the trapezius muscle can contribute to shoulder impingement and pain on the lateral aspect of the shoulder. Strengthening the trapezius muscle can help to alleviate this pain and improve overall shoulder function.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '胸小肌'], ['B', '肩帶穩定肌'], ['C', '三角肌'], ['D', '背闊肌']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "二十四式簡化太極拳係以（）太極拳為基礎。",
+    "llm_output": "The correct answer is C. 楊式 (Yang-style). The 24-form simplified Tai Chi is based on the Yang-style Tai Chi.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '武術'], ['B', '陳式'], ['C', '楊式'], ['D', '吳式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺一個完整嘅訓練大週期入面，訓練準備期與競技狀態變化相對應嘅階段係",
+    "llm_output": "The correct answer is A. 相對穩定階段 (Relative Stable Stage).\n\nIn a complete training cycle, the training preparation phase corresponds to the relative stable stage, where the athlete's physical fitness and performance are relatively stable and consistent.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '相對穩定階段'], ['B', '恢復階段'], ['C', '暫時消失階段'], ['D', '獲得階段']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "身體素質係人嘅體能狀態嘅反映，係指人體喺運動、工作同生活中所表現出嚟嘅力量、耐力同。",
+    "llm_output": "The correct answer is C. 身體機能 (Physical Functions).\n\nBody quality refers to an individual's physical abilities and capacities, including strength, endurance, and agility, which are reflected in their physical state and are demonstrated in various activities, such as exercise, work, and daily life.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '速度'], ['B', '呼吸系統'], ['C', '身體機能'], ['D', '骨骼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "維持人體姿勢同產生運動嘅動力係",
+    "llm_output": "The correct answer is D. 肌肉收縮產生嘅主動拉力 (Muscle contraction produces active traction force).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '支撐反作用力'], ['B', '重力'], ['C', '機械摩擦力'], ['D', '肌肉收縮產生嘅主動拉力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "人體喺單位時間吸入或者呼出嘅氣量叫做",
+    "llm_output": "The correct answer is C. 肺通氣量 (Minute Ventilation).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '肺血流量'], ['B', '肺泡通氣量'], ['C', '肺通氣量'], ['D', '最大吸氧量']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "套路運動主要嘅內容有拳術、器械、對練同",
+    "llm_output": "The correct answer is B. 套路運動.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '集體表演'], ['B', '套路運動'], ['C', '搏鬥運動'], ['D', '功法運動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "體育運動作為學校教育嘅重要組成部分，喺培養學生嘅人文素質方面具有其他學科唔可以比較嘅",
+    "llm_output": "The correct answer is B. 特點 (characteristics).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '優勢'], ['B', '特點'], ['C', '優點'], ['D', '特長']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "中風早期患側臥位嘅唔正確姿勢係",
+    "llm_output": "The correct answer is C. 前臂旋後 (Forearm rotated posteriorly).\n\nIn the early stages of stroke, patients often exhibit abnormal postures, including forearm rotation posteriorly, which can lead to contractures and limited range of motion.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '患肩後縮'], ['B', '肘伸直'], ['C', '前臂旋後'], ['D', '掌面向上']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "關於人體嘅基本運動平面嘅講法正確係",
+    "llm_output": "The correct answer is C. 以上三個平面相互垂直.\n\nThe three basic planes of the human body are:\n\n* Sagittal plane (矢狀面): divides the body into left and right halves\n* Frontal plane (額狀面): divides the body into upper and lower halves\n* Transverse plane (水狀面): divides the body into anterior and posterior halves\n\nThese three planes are perpendicular to each other, meaning they intersect at right angles.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '水狀面將人體分為左右兩面'], ['B', '額狀面將人體分為上下兩面'], ['C', '以上三個平面相互垂直'], ['D', '矢狀面將人體分為前後兩面']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺同場對抗性項羣中，各個項目運動員嘅競技能力起住決定作用嘅係",
+    "llm_output": "The correct answer is C. 技能同戰術能力 (Skill and tactical ability).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '心理'], ['B', '體能'], ['C', '技能同戰術能力'], ['D', '智能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "對花樣游泳、藝術體操等需要長時間創編新動作同套路嘅項目，年度訓練一般安排",
+    "llm_output": "The correct answer is B. 多週期 (Multi-period).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '混合週期'], ['B', '多週期'], ['C', '單週期'], ['D', '雙週期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "對於高難度技術一般應安排喺訓練課嘅",
+    "llm_output": "The correct answer is A. 後半部分 (After half of the training session).\n\nIn general, high-difficulty techniques are best introduced towards the end of a training session, when the athlete is already physically and mentally fatigued. This allows the athlete to focus on the technique and build muscle memory, rather than worrying about the physical demands of the exercise.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '後半部分'], ['B', '中間部分'], ['C', '任何部分都可以'], ['D', '前半部分']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "軟組織損傷後應儘早進行被動運動嘅目嘅",
+    "llm_output": "The correct answer is B. 保持同恢復關節嘅活動範圍。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '減輕水腫同疼痛'], ['B', '保持同恢復關節嘅活動範圍'], ['C', '保持軟組織彈性'], ['D', '恢復同增加肌力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "排球比賽中，發球後每隊可接觸球幾多次。",
+    "llm_output": "正確答案是 D. 四次。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '兩次'], ['B', '三次'], ['C', '五次'], ['D', '四次']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "由於精神壓力引起嘅呼吸系統疾病有",
+    "llm_output": "The correct answer is C. 支氣管哮喘 (Asthma).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '胃潰瘍'], ['B', '神經性嘔吐'], ['C', '支氣管哮喘'], ['D', '神經性皮炎']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "手嘅休息位係",
+    "llm_output": "The correct answer is B. 半握拳姿勢 (Half-grip fist position).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '直拳'], ['B', '半握拳姿勢'], ['C', '完全握掌'], ['D', '勾拳']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "旋風腳動作身體轉體唔少於",
+    "llm_output": "The correct answer is C. 180度.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '270度'], ['B', '360度'], ['C', '180度'], ['D', '90度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "正式排球比賽中，球員嘅輪轉方式為",
+    "llm_output": "The correct answer is C. 逆時針 (Counterclockwise).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '以上皆非'], ['B', '隨意輪轉'], ['C', '逆時針'], ['D', '順時針']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "全程性多年訓練過程基礎階段嘅首要任務係發展運動員嘅",
+    "llm_output": "The correct answer is A. 心理品質 (Psychological Qualities).\n\nIn the foundation stage of long-term athlete development, the primary task is to develop the athlete's psychological qualities, such as motivation, confidence, and resilience, which are essential for a lifelong involvement in sports.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '心理品質'], ['B', '技術能力'], ['C', '戰術能力'], ['D', '協調能力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "國務院學位辦公室正式批准體育學設立武術學科專業方向博士點學位係喺。",
+    "llm_output": "According to the official website of the National Administration of Foreign Experts Affairs, the doctoral program in Wushu was approved by the State Council in 1996.\n\nSo, the correct answer is:\n\nD. 1996",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1994'], ['B', '1998'], ['C', '2000'], ['D', '1996']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於落枕嘅病因係",
+    "llm_output": "The correct answer is B. 瞓時感受風寒.\n\nFallen pillow syndrome (落枕) is a condition characterized by numbness, tingling, or weakness in the arm or hand, often caused by compression of the brachial plexus. The common causes of fallen pillow syndrome include:\n\n* Neck movement or strain (A)\n* Sleeping with the arm in an awkward position (D)\n* Using a pillow that is too low or too thin (C)\n* Poor sleeping posture (D)\n\nFeeling cold or wind on the neck during sleep (B) is not a direct cause of fallen pillow syndrome.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '頸部活動過多'], ['B', '瞓時感受風寒'], ['C', '枕頭過低'], ['D', '睡姿唔當']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列四種因素中，唔係構成負荷強度嘅因素係",
+    "llm_output": "The correct answer is A. 密度 (Density).\n\n負荷強度 (Load intensity) is typically composed of three factors:\n\n1. 難度 (Difficulty) - the level of challenge or resistance\n2. 組數 (Volume) - the number of repetitions or sets\n3. 質量 (Intensity) - the amount of weight or resistance used\n\n密度 (Density) is not a factor that directly contributes to the calculation of load intensity.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '密度'], ['B', '難度'], ['C', '組數'], ['D', '質量']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "訓練課係運動訓練最基本嘅",
+    "llm_output": "The correct answer is A. 組織形式 (Organizational Form).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '組織形式'], ['B', '組織措施'], ['C', '組織制度'], ['D', '組織手段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "武術起源於原始嘅",
+    "llm_output": "The correct answer is A. 部落戰爭.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '部落戰爭'], ['B', '生產勞動'], ['C', '宗教活動'], ['D', '狩獵活動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "正確嘅訓練模型進階應該係？",
+    "llm_output": "The correct answer is A. 體適能-功能-運動表現 (Physical Fitness-Function-Movement Performance).\n\nThis is because the training model should start with physical fitness as the foundation, followed by functional training to improve movement patterns and abilities, and finally, movement performance training to enhance specific athletic skills.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '體適能-功能-運動表現'], ['B', '運動表現-體適能-功能'], ['C', '功能-體適能-運動表現'], ['D', '功能-運動表現-體適能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "散打比賽每場比賽採用三局兩勝制，每局淨打3分鐘，局間休息",
+    "llm_output": "正確答案是 D. 30秒。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '1分鐘'], ['B', '1分30秒'], ['C', '2分鐘'], ['D', '30秒']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "邊一項目嘅專項能力特徵唔係「以最大強度重複完成比賽動作」？",
+    "llm_output": "The correct answer is D. 籃球.\n\nThe other options (A. 舉重, B. 標槍, and C. 跳高) all require the athlete to perform a specific action with maximum intensity, such as lifting a heavy weight, throwing a javelin, or jumping as high as possible.\n\nIn contrast, basketball (D. 籃球) is a team sport that involves a variety of movements, such as running, jumping, and shooting, but it does not require athletes to perform a specific action with maximum intensity. While athletes may need to sprint or jump quickly, the intensity of the action is not necessarily maximized.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '舉重'], ['B', '標槍'], ['C', '跳高'], ['D', '籃球']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "頸部骨質增生最多嘅部位係",
+    "llm_output": "The correct answer is B. C6.\n\nC6 is the most common level of cervical spine osteophyte formation, which is a common condition that occurs as people age. Osteophytes are small, bony growths that can form on the spine, and they can cause symptoms such as neck pain, stiffness, and limited range of motion.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'C5'], ['B', 'C6'], ['C', 'C3'], ['D', 'C4']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動後補充乜嘢有提高最大吸氧量、減少氧債同血乳酸嘅作用。",
+    "llm_output": "The correct answer is D. 維生素B.\n\n維生素B (B vitamins) are known to play a crucial role in energy metabolism and can help improve oxygen uptake, reduce oxygen debt, and decrease blood lactate levels after exercise. Specifically, vitamins B2 (riboflavin), B3 (niacin), and B5 (pantothenic acid) are involved in the electron transport chain and can help increase ATP production, while vitamins B6 and B12 are involved in the metabolism of carbohydrates, fats, and proteins.\n\n維生素A, 維生素E, and 維生素C are important for other physiological processes, but they do not have the same effects on exercise performance as 維生素B.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '維生素A'], ['B', '維生素E'], ['C', '維生素C'], ['D', '維生素B']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "化學性疼痛唔具備以下邊項表現形式？",
+    "llm_output": "The correct answer is C. 間歇疼痛 (Intermittent pain).\n\n化學性疼痛 (Chemical pain) is a type of pain caused by the activation of pain receptors by chemical mediators, such as bradykinin. It is typically characterized by a burning or stinging sensation, and is often described as a continuous or aching pain (A. 持續痛). It can also occur at night (B. 夜間痛) and may be exacerbated by rest or inactivity (D. 休息痛).\n\nInterval pain (C. 間歇疼痛) is a type of pain that occurs in a recurring pattern, such as every few minutes or hours. This is not a characteristic of chemical pain.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '持續痛'], ['B', '夜間痛'], ['C', '間歇疼痛'], ['D', '休息痛']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "通過不斷變換條件同要求嚟激發興趣，調節生理負荷嘅方法叫做",
+    "llm_output": "The correct answer is D. 變換鍛煉法 (Variability Training)",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '負重鍛煉法'], ['B', '循環鍛煉法'], ['C', '連續鍛煉法'], ['D', '變換鍛煉法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "根據運動時心率同強度相關關係標準，心率110次/分鐘嘅鍛煉強度大約係",
+    "llm_output": "According to the relationship between heart rate and exercise intensity, a heart rate of 110 beats per minute (bpm) corresponds to an exercise intensity of approximately 80%.\n\nSo, the correct answer is:\n\nC. 80%",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '60%'], ['B', '50%'], ['C', '80%'], ['D', '70%']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "一個運動員嘅「絕招」嘅核心構成部分係",
+    "llm_output": "The correct answer is C. 基本技術 (Basic Technique).\n\n「絕招」 (also known as \"special move\" or \"signature move\") refers to a unique and characteristic skill or technique that a athlete is known for, and it is built upon their basic technique. Basic technique refers to the fundamental skills and movements that are essential for a particular sport or activity, such as throwing, catching, kicking, or hitting.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '高難度技術'], ['B', '全面技術'], ['C', '基本技術'], ['D', '特長技術']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "相比較而言，下列項目中運動員喺少年時期就可能表現出世界級競技水平嘅係",
+    "llm_output": "The correct answer is C. 跳水.\n\n跳水 (diving) is one of the sports where athletes can develop and demonstrate world-class skills at a young age, as it requires a high level of physical conditioning, technique, and mental focus. Many world-class divers have started training and competing at a young age and have gone on to achieve great success in the sport.\n\nThe other options, 柔道 (judo), 射擊 (shooting), and 舉重 (weightlifting), while requiring a high level of skill and physical conditioning, are sports where athletes may not necessarily develop world-class skills at a young age. Judo, for example, is a martial art that emphasizes technique and strategy, and athletes may develop their skills over time. Shooting and weightlifting, while requiring a high level of physical strength and technique, are sports where athletes may not necessarily reach their peak performance until later in their careers.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '柔道'], ['B', '射擊'], ['C', '跳水'], ['D', '舉重']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "可繞三個基本軸運動嘅關節係",
+    "llm_output": "The correct answer is A. 髓關節 (Hip joint).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '髓關節'], ['B', '肘關節'], ['C', '腕關節'], ['D', '膝關節']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "賽前訓練周技術訓練嘅基本特點係",
+    "llm_output": "The correct answer is A. 同時增加完整同分解練習 (Simultaneously increasing whole and decomposed exercises).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '同時增加完整同分解練習'], ['B', '增加完整練習'], ['C', '增加分解練習'], ['D', '減少完整練習']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺發動口令之前，加上動作名稱或者簡明術語作為預令進行啟發提示嘅口令係",
+    "llm_output": "The correct answer is D. 提示性口令 (Indicative Command)",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '一般口令'], ['B', '單字口令'], ['C', '常用口令'], ['D', '提示性口令']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "根據參賽年齡嘅發展趨勢，屬於「少年型」嘅運動項目係",
+    "llm_output": "The correct answer is A. 籃球.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '籃球'], ['B', '排球'], ['C', '田徑'], ['D', '體操']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "安康成年人男性肺活量值大約為3000～4000毫升，而女性則為",
+    "llm_output": "The correct answer is B. 2000～3000毫升.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '3000～4000毫升'], ['B', '2000～3000毫升'], ['C', '3000～3500毫升'], ['D', '2500～3500毫升']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "中重量、中次數、中組數、中間歇嘅力量練習鍛煉目嘅係",
+    "llm_output": "The correct answer is A. 提高絕對力量 (Increase absolute strength).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '提高絕對力量'], ['B', '增加肌肉圍度'], ['C', '突出肌肉線條'], ['D', '加強耐力同心肺血管功能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "單手肩上投籃將球投出時，使肘關節伸嘅肌肉係",
+    "llm_output": "The correct answer is A. 肱三頭肌 (Biceps Brachii).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '肱三頭肌'], ['B', '背闊肌'], ['C', '肱肌'], ['D', '前臂屈羣肌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "太極拳最早係由邊個所創。",
+    "llm_output": "The correct answer is D. 楊露禪.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '陳長興'], ['B', '陳王廷'], ['C', '張三豐'], ['D', '楊露禪']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列有關肌力嘅練習錯誤嘅係",
+    "llm_output": "The correct answer is A. 肌力為0級時唔使做肌力嘅訓練\n\nExplanation:\n\n* 0級 muscle strength refers to the ability to perform a movement without any resistance or load.\n* It is not correct to say that 0級 muscle strength does not require any training, as even at this level, proper movement patterns and techniques should be practiced to develop good muscle memory and prevent injuries.\n\nThe other options are correct:\n\n* B. Notice the cardiovascular response is important during exercise to monitor heart rate, blood pressure, and other physiological variables.\n* C. 2級 muscle strength refers to the ability to perform a movement with a light resistance or load, and it is possible to perform exercises without load (e.g., isometric exercises) at this level.\n* D. 3-4級 muscle strength refers to the ability to perform a movement with a moderate to heavy resistance or load, and exercises with weights or resistance bands are common at this level.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '肌力為0級時唔使做肌力嘅訓練'], ['B', '注意心血管嘅反應'], ['C', '肌力為2級時可以進行免負荷運動'], ['D', '肌力為3—4級時由主動運動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "中國傳統哲學對武術影響極為深遠，以五行說為理論基礎嘅拳術係",
+    "llm_output": "The correct answer is D. 八卦掌 (Baguazhang).\n\nBaguazhang is a style of Chinese martial art that is based on the theory of the Five Elements (Wu Xing) and is deeply influenced by traditional Chinese philosophy.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '長拳'], ['B', '太極拳'], ['C', '形意拳'], ['D', '八卦掌']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "柔韌性訓練嘅基本方法係",
+    "llm_output": "The correct answer is D. 拉伸法 (Stretching method).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '變換訓練法'], ['B', '間歇訓練法'], ['C', '重複訓練法'], ['D', '拉伸法']]",
+    "is_correct": 1
+  }
+]

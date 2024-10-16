@@ -1,0 +1,1352 @@
+[
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "「反恐怖主義法」喺邊一年邊一個月邊一日實施",
+    "llm_output": "正確答案係 C. 27/12/2016。\n\n「反恐怖主義法」於2016年12月27日實施。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '27/12/2015'], ['B', '01/01/2016'], ['C', '27/12/2016'], ['D', '01/01/2015']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "加強全社會網絡安全意識教育培訓係建設網絡強國嘅重要措施，亦係維護網絡空間秩序、保障網絡安全嘅()工作。",
+    "llm_output": "C. 基礎性\n\n加強全社會網絡安全意識教育培訓確實是建設網絡強國的重要措施，同時也是維護網絡空間秩序、保障網絡安全的基礎性工作。這一措施強調了提升公眾對網絡安全的認識和防護能力，從而構建起一個更加安全穩定的網絡環境。因此，正確答案是C. 基礎性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '決定性'], ['B', '有效性'], ['C', '基礎性'], ['D', '根本性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "火災發生時，唔應該用嘅逃生方法係",
+    "llm_output": "正確答案係 B. 整理行李。\n\n在火災發生時，首要任務應該是迅速安全地撤離現場，而不是整理行李。整理行李會浪費宝贵時間，延誤逃生機會，並可能導致更嚴重的傷害或生命危險。其他選項如在濃煙中在地上爬行（A）、即時報警（C）和用濕毛巾捂住鼻（D）都是火災逃生時應採取的措施，有助於減少吸入有害煙霧和提高逃生的機會。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '濃煙中喺地上爬行'], ['B', '整理行李'], ['C', '即時報警'], ['D', '用濕毛巾捂住鼻']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "國防法，於（）由八屆人大五次會議通過，共12章70條。",
+    "llm_output": "正確答案為 B. 28/04/2001。\n\n《國防法》於2001年4月28日由第八届全国人民代表大会第五次会议通過，該法律分為12章70條。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '01/04/2002'], ['B', '28/04/2001'], ['C', '29/12/1998'], ['D', '14/03/1997']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "出入境證件簽發機關、出入境邊防檢查機關對恐怖活動人員同恐怖活動嫌疑人員，有權作出嘅決定唔包括",
+    "llm_output": "正確答案為 B. 決定將其驅逐出境。\n\n根據相關法律法規，出入境證件簽發機關和出入境邊防檢查機關對恐怖活動人員和恐怖活動嫌疑人員，有權作出以下決定：\n\nA. 唔簽發出入境證件 - 這是指如果某人被認為是恐怖活動人員或嫌疑人員，簽發機關可以拒絕為其簽發出入境證件。\n\nC. 宣佈其出入境證件作廢 - 這是指如果某人已被確定為恐怖活動人員或嫌疑人員，其現有的出入境證件可以被作廢，從而阻止其使用該證件進行出入境活動。\n\nD. 決定唔準其出入境 - 這是指如果某人被確定為恐怖活動人員或嫌疑人員，出入境邊防檢查機關可以拒絕其入境或出境。\n\n然而，B. 決定將其驅逐出境 通常是指對已經入境的外国人，在其違反移民法規或涉及犯罪活動時，由移民局或相關機構決定將其驅逐出境。對於恐怖活動人員或嫌疑人員，通常不會直接使用「驅逐出境」這個措辭，因為這通常涉及更嚴重的法律程序和司法決定。\n\n因此，B選項不是出入境證件簽發機關和出入境邊防檢查機關對恐怖活動人員和恐怖活動嫌疑人員有權作出的決定。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔簽發出入境證件'], ['B', '決定將其驅逐出境'], ['C', '宣佈其出入境證件作廢'], ['D', '決定唔準其出入境']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位經批准舉行遊行活動，遊行隊伍正向區政府廣場行進過程中，前面道路突然發生交通事故，致使遊行隊伍唔能按照許可嘅路線行進，()有權改變遊行隊伍嘅行進路線。",
+    "llm_output": "A. 人民警察現場負責人\n\n正確答案為A。在遊行活動中，如果發生突發情況，如交通事故，人民警察現場負責人有權根據實際情況調整遊行路線，以確保遊行活動的順利進行和公共安全。遊行隊伍的負責人、負責維持交通秩序的人民警察或政府維穩辦負責人雖然都可能參與到事件處理中，但根據中國相關法律和規定，現場人民警察擁有最終的決策權和執行權。因此，A選項是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人民警察現場負責人'], ['B', '遊行隊伍嘅負責人'], ['C', '負責維持交通秩序嘅人民警察'], ['D', '政府維穩辦負責人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "（）唔係精確作戰嘅主要特點。",
+    "llm_output": "D. 大規模摧毀敵軍目標",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '令戰場生存問題變得至關重要'], ['B', '信息同火力高度融合'], ['C', '促使作戰節奏明顯加快'], ['D', '大規模摧毀敵軍目標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "特種工種就係從事特種作業人員崗位類別嘅統稱。屬於特種工種嘅電工、電焊工、等人員，必須經由國家授權機構嘅培訓、資格考覈、認可並頒發憑證後，先可以持證上崗。",
+    "llm_output": "正確答案：B. 起重機司機\n\n解析：特種工種通常指的是那些需要特殊技能、知識或安全認證才能上崗的工種。電工、電焊工、起重機司機等工種通常被視作特種工種，因為這些工作涉及到較高的安全風險，需要專業的培訓和認證。電話接線員、紡織工和車工雖然也是技術工種，但一般不屬於特種工種的範圍。因此，選項B是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '電話接線員'], ['B', '起重機司機'], ['C', '紡織工'], ['D', '車工']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "通常情況下，一氧化碳係",
+    "llm_output": "正確答案：A. 無色、無味、難溶於水\n\n一氧化碳（CO）是一種無色無味且不溶于水的氣體。它是一種有毒物質，主要通過吸入進入人體，對血液中的氧氣運輸產生干擾，從而導致健康問題。由於它沒有明顯的顏色或氣味，因此不易被直接檢測到，這使得它成為一個隱形的健康威脅。因此，在安全研究中，了解一氧化碳的特性對於預防和應對相關風險至關重要。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '無色、無味、難溶於水'], ['B', '無色、有味、易溶於水'], ['C', '有色、無味、易溶於水'], ['D', '有色、有味、難溶於水']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列武器中那種曾被斯大林譽為「戰爭之神」？",
+    "llm_output": "正確答案：B. 坦克\n\n斯大林在第二次世界大戰期間曾經高度評價坦克的作用，並將其譽為「戰爭之神」。坦克因其在突破敵方防線和對地面戰場的影響力而受到重視。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '作戰飛機'], ['B', '坦克'], ['C', '地地導彈'], ['D', '火炮']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "二氧化碳由液態變為氣態時需吸收熱量，一般可使周圍溫度下降至（）℃左右。",
+    "llm_output": "二氧化碳由液態轉變為氣態的過程稱為升华，這一過程需要吸收熱量。根據相變熱力學的知識，二氧化碳的升华熱約為205.1焦耳/克。當液態二氧化碳吸收足夠的熱量時，其溫度會下降至其沸點以下，即-78.5°C。然而，由於問題中提到的溫度下降是針對一般情況，而非絕對值，因此我們需要考慮到周圍環境的溫度。\n\n一般情況下，周圍環境的溫度會隨著二氧化碳升华而下降，但具體的溫度下降幅度會受到周圍環境溫度、壓力以及升华速率等多種因素的影響。然而，根據一般情況，二氧化碳升华時周圍溫度下降的幅度大致在-50°C左右。\n\n因此，正確答案為：\nB. -50",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '-70'], ['B', '-50'], ['C', '-40'], ['D', '-60']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "手部觸電後無法鬆脫帶電體嘅原因係",
+    "llm_output": "A. 手部肌肉痙攣\n\n手部觸電後無法鬆脫帶電體的原因主要是手部肌肉因電流通過而產生的強烈痙攣反應，這使得肌肉僵硬，從而無法自主控制肢體動作。其他選項如失去知覺、精神失常或驚慌過度，雖然可能會影響人的反應能力，但通常不是導致無法鬆脫帶電體的主要原因。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '手部肌肉痙攣'], ['B', '失去知覺'], ['C', '精神失常'], ['D', '驚慌過度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "海因裏希事故因果連鎖理論將傷害事故嘅直接原因確定為",
+    "llm_output": "海因里希事故因果连鎖理論（Heinrich's Accident Causation Chain Theory）將傷害事故的直接原因確定為「人の不安全行為と物の不安全状態」。因此，正確答案為：\n\nA. 人嘅唔安全行為同物嘅唔安全狀態",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人嘅唔安全行為同物嘅唔安全狀態'], ['B', '人嘅缺點'], ['C', '事故'], ['D', '遺傳同社會環境']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "國家根據經濟社會發展同()嘅需要，唔斷完善維護國家安全嘅任務。",
+    "llm_output": "正確答案為：B. 社會穩定大局。\n\n此題考查的是國家安全維護的任務與目標。根據中國的國家安全法，國家維護社會穩定大局是國家安全工作的重要任務之一。這表明，除了經濟社會發展之外，維護社會穩定也是國家安全工作的重要方面。因此，選項B是正確答案。其他選項如國家發展利益、軍事利益和國家安全雖然也是國家安全維護的重要方面，但根據問題的表述，最符合的答案是B。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '國家發展利益'], ['B', '社會穩定大局'], ['C', '軍事利益'], ['D', '國家安全']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "精確制導武器，就係指用精確制導技術，直接命中概率（）以上嘅武器。",
+    "llm_output": "B. 70%",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '40%'], ['B', '70%'], ['C', '50%'], ['D', '60%']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "激光制導炸彈最先喺邊場戰爭中被使用？",
+    "llm_output": "D. 越南戰爭\n\n激光制導炸彈首次在越南戰爭中被使用。這些炸彈利用激光束來精確地引導炸彈命中目標，大大提高了命中精度和威脅性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '海灣戰爭'], ['B', '第四次中東戰爭'], ['C', '朝鮮戰爭'], ['D', '越南戰爭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "國防係()嘅全面體現。",
+    "llm_output": "正確答案：B. 國家綜合力量\n\n解析：国防不仅仅是军事力量的体现，它还涉及到国家的政治、经济、科技、文化等多个方面。因此，国防是“国家综合力量”的全面体现。其他选项虽然与国防有关，但不如选项B全面。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國家軍事力量'], ['B', '國家綜合力量'], ['C', '國家經濟實力'], ['D', '國家科技實力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "新國家安全法喺何時實施",
+    "llm_output": "正確答案為：B. 01/11/2015。\n\n新國家安全法於2015年11月1日實施。該法律旨在加強國家安全，並對涉及國家安全的行為進行更嚴格的規範。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '01/07/2015'], ['B', '01/11/2015'], ['C', '01/11/2014'], ['D', '15/04/2015']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列有關偵察同監視技術嘅發展趨勢唔啱嘅一項係",
+    "llm_output": "選項A：“操作上嘅模式化”是錯誤的。\n\n安全研究中的偵察和監視技術發展的趨勢通常包括：\n\nB. 手段上嘅綜合化 - 這指的是使用多種技術和工具來提高偵察和監視的效率和效果。\n\nC. 速度上嘅實時化 - 這是指技術能夠即時捕捉和分析數據，以便快速做出反應。\n\nD. 空間上嘅立體化 - 這表示技術能夠在三维空間中進行監視，從而提供更全面的視野。\n\n然而，操作上的模式化通常不是一個正面的趨勢，因為過於模式化可能會導致缺乏靈活性，使得系統難以應對突發狀況或新出現的威脅。因此，選項A是錯誤的，它描述的不是偵察和監視技術發展的趨勢。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '操作上嘅模式化'], ['B', '手段上嘅綜合化'], ['C', '速度上嘅實時化'], ['D', '空間上嘅立體化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "防彈衣係由乜嘢材料製成嘅",
+    "llm_output": "防彈衣通常是由多種材料製成，以提供最佳的保护效果。其中，陶瓷玻璃鋼（A）和鎢合金鋼（B）都是防彈衣中可能使用的材料。陶瓷玻璃鋼因其硬度和重量轻而受到青睐，而鎢合金鋼则因其强度和耐腐蚀性而受到重视。\n\n然而，軟不透鋼（C）和鎳合金鋼（D）也是防彈衣中常用的材料。軟不透鋼因其柔软性和能够吸收冲击力而受到青睐，而鎳合金鋼则因其高强度和耐腐蚀性而受到重视。\n\n因此，正確答案包括A、B、C和D。然而，如果必須選擇一個最適合的答案，那麼軟不透鋼（C）通常被視為防彈衣的主要材料，因為它能夠提供柔軟性和吸收衝擊的能力，同時保持較輕的重量。\n\n所以，最適合的答案是C。軟不透鋼。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '陶瓷玻璃鋼'], ['B', '鎢合金鋼'], ['C', '軟不透鋼'], ['D', '鎳合金鋼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "（）係安全管理預防為主根本體現同安全生產管理嘅最高境界。",
+    "llm_output": "正確答案為 B. 本質化安全。\n\n本質化安全強調在設計和操作過程中，將安全作為基本原則，從根本上消除或減少事故和風險，而不是僅僅依賴於技術控制或管理措施。這種安全管理方法認為，安全是組織和個人行為的一部分，而不是一個額外的目標。因此，本質化安全被視為安全生產管理的最高境界，因為它要求在所有活動中均實現預防為主的安全。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '絕對性安全'], ['B', '本質化安全'], ['C', '相對性安全事'], ['D', '絕對化安全']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "大規模殺傷武器包括：核武器、化學武器、（）。",
+    "llm_output": "正確答案：B. 生物武器。\n\n大規模殺傷武器（Weapons of Mass Destruction, WMDs）通常包括核武器、化學武器和生物武器。精確制導武器（Precision Guided Weapons, PGWs）通常是指那些能够准确打击预定目标的武器，不一定属于大规模杀伤性武器的范畴。航天武器（Space Weapons）是指在太空中使用的武器，同样不是指大规模杀伤性武器。生物毒劑（Biological Agents）是生物武器的一种，因此选项B正确。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '精確制導武器'], ['B', '生物武器'], ['C', '航天武器'], ['D', '生物毒劑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "日本海上自衛隊嘅「宙斯盾」型防空驅逐艦稱為",
+    "llm_output": "日本海上自衛隊的「宙斯盾」型防空驱逐舰被称为「金刚」級（A选项）。因此，正确答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「金剛」級'], ['B', '「高波」級'], ['C', '「村雨」級'], ['D', '「榛名」級']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "（）唔屬於定向能武器嘅範圍。",
+    "llm_output": "B. 精確制導武器\n\n定向能武器是指使用能量束（如激光、微波或粒子束）来攻击目标的武器系统。这些武器通常旨在通过直接破坏目标的电子系统、物理结构或造成热损伤来达到破坏效果。\n\nA. 高功率微波武器 - 属于定向能武器，通过发射高功率微波来破坏电子设备。\nC. 粒子束武器 - 属于定向能武器，使用高能粒子束来破坏目标。\nD. 激光武器 - 属于定向能武器，使用激光束来破坏目标。\n\nB. 精確制導武器 - 不属于定向能武器，而是指使用制导系统来精确打击目标的武器，如巡航导弹、制导炸弹等。这些武器通常使用传统的推进方式，如火箭发动机，而不是能量束。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '高功率微波武器'], ['B', '精確制導武器'], ['C', '粒子束武器'], ['D', '激光武器']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "漏電保護器嘅使用就係防止",
+    "llm_output": "B. 觸電事故\n\n漏電保護器（Residual Current Device, RCD）的主要功能是检测电路中的异常电流，这种电流通常是由于人体触电引起的。当异常电流超过设定的阈值时，漏電保護器会迅速切断电源，从而避免触电事故的发生。因此，正确答案是B. 觸電事故。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '電線短路事故'], ['B', '觸電事故'], ['C', '電荷超負荷'], ['D', '電壓波動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "美國武裝力量主要由現役部隊、（）同後備役部隊組成。",
+    "llm_output": "正確答案為 D. 國民警衛隊。\n\n美國武裝力量由多個分支組成，包括現役部隊、後備役部隊以及國民警衛隊。國民警衛隊（National Guard）和海岸警衛隊（United States Coast Guard）都是美國的軍事組織，但海岸警衛隊主要負責海上安全、搜救、環境保護等任務，而國民警衛隊則兼有州內安全與聯邦應急任務。\n\n民兵（Militia）一词在歷史上曾指州或地方組織的民兵團，但隨著1791年第二修正案的通過，美國聯邦政府正式承擔起組織和支持各州民兵的責任，並將其納入聯邦武裝力量。\n\n軍內工作（Military Service）則是指服兵役或相關的軍事職業，而非指一個獨立的武裝力量分支。\n\n因此，美國武裝力量主要由現役部隊、後備役部隊以及國民警衛隊組成。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '民兵'], ['B', '海岸警衛隊'], ['C', '軍內工作'], ['D', '國民警衛隊']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列幾種子彈中用於殺傷敵人嘅有生力量嘅係",
+    "llm_output": "C. 一般彈\n\n一般彈（或稱普通彈）是設計用於殺傷敵人或目標的子彈，通常包含高壓气体和铅芯，在發射時會以高速衝擊目標，造成物理性傷害。曳光彈、穿甲燃燒彈和燃燒彈各有其特殊用途，曳光彈用於指示方向或目標位置，穿甲燃燒彈和燃燒彈則針對特定目標或環境設計，但它們通常不是主要用於直接殺傷敵人的子彈。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '曳光彈'], ['B', '穿甲燃燒彈'], ['C', '一般彈'], ['D', '燃燒彈']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "根據「國家安全法」嘅規定，()根據憲法同法律，制定涉及國家安全嘅行政法規，規定有關行政措施，發布有關決定同命令。",
+    "llm_output": "A. 國務院\n\n根據「國家安全法」的規定，國務院根據憲法同法律，制定涉及國家安全嘅行政法規，規定有關行政措施，發布有關決定同命令。因此，正確答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '國務院'], ['B', '國家安全部'], ['C', '全國人大'], ['D', '黨中央']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "核武器按任務使用可分為：戰略核武器同（）。",
+    "llm_output": "正確答案為 D. 戰術核武器。\n\n核武器按任務使用可分為戰略核武器和戰術核武器。戰略核武器通常指的是能夠對敵對國家的重要目標進行遠距離攻擊的核武器，如洲際彈道導彈（ICBM）。而戰術核武器則是指用於近距離戰鬥或戰術級別的核武器，例如核炮彈或核地雷。這些武器通常被設計用於對敵對軍隊或戰術目標進行快速且具有毁灭性的打擊。\n\n其他選項如 A. 戰鬥核武器、B. 太空核武器和 C. 區域核武器，均不是核武器按任務使用的標準分類。因此，最合適的答案是 D. 戰術核武器。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '戰鬥核武器'], ['B', '太空核武器'], ['C', '區域核武器'], ['D', '戰術核武器']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "班組安全管理工作目標中明確指出：班組成員嘅標準化操作應該形成（）",
+    "llm_output": "C. 習慣\n\n班組安全管理工作目標中明確指出：班組成員的标准化操作應該形成習慣。這表示在班組內部，每位成員都應該將標準化操作作為日常工作的一部分，並將其內化為一種自然的行为模式，而不是僅僅是知識或意識層面的东西。通過培養這種習慣，可以有效地提升工作效率，減少工作中的不安全因素，從而達到提升整體安全管理水平的目的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '觀念'], ['B', '意識'], ['C', '習慣'], ['D', '標準']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "信息化戰爭嘅制勝理念係()，通過破擊敵人作戰體系，達到巧戰而屈人之兵嘅目嘅。",
+    "llm_output": "正確答案係D。信息化戰爭的制勝理念是“控制敵人、癱瘓敵人”，通過破擊敵人的作戰體系，達到以智取胜，不戰而胜的戰略目標。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消耗敵人、摧毀敵人'], ['B', '偵察敵人、摧毀敵人'], ['C', '監視敵人、控制敵人'], ['D', '控制敵人、癱瘓敵人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "根據「國家安全法」嘅規定，下列邊項唔係國家安全制度?",
+    "llm_output": "正確答案係 A。\n\n根據「國家安全法」規定，中央國家安全領導機構確實實行統分結合、協調統一嘅國家安全制度同工作機制，但選項 A 中提及的「統分結合、協調統一」與選項 D 中「統分結合、協調高效」的表述存在差異，選項 D 的描述更為準確，因此選項 A 不是正確答案。\n\n選項 B 和 C 描述的國家安全工作督促檢查同責任追究機制以及國家安全重點領域工作協調機制，均符合「國家安全法」的規定。\n\n因此，選項 A 不是國家安全制度的一部分，是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '中央國家安全領導機構實行統分結合、協調統一嘅國家安全制度同工作機制'], ['B', '國家建立國家安全工作督促檢查同責任追究機制'], ['C', '國家建立國家安全重點領域工作協調機制'], ['D', '中央國家安全領導機構實行統分結合、協調高效嘅國家安全制度同工作機制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "根據「國家安全法」嘅規定，()根據憲法同法律，制定涉及國家安全嘅行政法規，規定有關行政措施，發布有關決定同命令。",
+    "llm_output": "正確答案為 B. 國務院。\n\n根據「國家安全法」的規定，國務院負責根據憲法同法律，制定涉及國家安全嘅行政法規，規定有關行政措施，發布有關決定同命令。這是中國政府機構中負責國家安全工作的最高行政機構。其他選項如國家安全部、黨中央和全國人大，雖然在國家安全領域中扮演重要角色，但並不是制定涉及國家安全行政法規的機構。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國家安全部'], ['B', '國務院'], ['C', '黨中央'], ['D', '全國人大']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "如下因素中唔會導致自動步槍唔發火嘅係",
+    "llm_output": "D. 子彈底火失效\n\n自動步槍發火的基本原理是子彈底火引燃火藥，產生氣體推動擊針撞击擊錘，擊錘再擊發子彈。如果子彈底火失效，即子彈的引信部分没有火藥，那麼即使擊錘和擊針正常工作，子彈也無法被引爆。因此，子彈底火失效是不会导致自動步槍發火的因素。其他選項描述的問題都可能導致自動步槍無法正常發火。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '擊針損壞'], ['B', '擊錘彈力侷限性'], ['C', '子彈或彈匣口過污'], ['D', '子彈底火失效']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "中國嘅國防類型係",
+    "llm_output": "C. 自衛型\n\n中國的國防策略通常被描述为自衛型国防，这意味着其国防政策主要侧重于保护国家主权、领土完整和国民安全，而不是主动寻求对外扩张或建立军事联盟。这种策略反映了中国在国际关系中坚持的和平发展道路和防御性的国防政策。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '聯盟型'], ['B', '中立型'], ['C', '自衛型'], ['D', '擴張型']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "武器係戰爭勝負嘅",
+    "llm_output": "D. 制勝力量\n\n武器在战争中扮演着至关重要的角色，是决定战争胜负的关键因素。因此，正确答案是D，即“制勝力量”。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '決定力量'], ['B', '一般力量'], ['C', '重要力量'], ['D', '制勝力量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列唔屬於化工企業嘅生長特點嘅係",
+    "llm_output": "正確答案係A。化工企業通常涉及複雜的化學反應和生產過程，這些過程通常需要嚴格的操作程序和專業知識，因此A選項“工藝簡單，操作方便”並不適用於描述化工企業的生長特點。而B選項“易燃易爆物品多”、C選項“高溫、高壓設備多”以及D選項“易對環境造成污染”都是化工企業在生產過程中可能面臨的特點或挑戰。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '工藝簡單，操作方便'], ['B', '易燃易爆物品多'], ['C', '高溫、高壓設備多'], ['D', '易對環境造成污染']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "今後相當長嘅時間內世界主要軍事力量對比嘅總體態勢係",
+    "llm_output": "正確答案：B. 一超多強\n\n解釋：在分析世界主要軍事力量對比時，一般認為美國作為世界上唯一的超級大國，擁有最強的經濟、科技和軍事能力，因此形成了一超（美國）多強（其他國家如中國、俄羅斯、印度等）的局面。這種格局下，美國保持著全球領導地位，而其他國家則在不同領域和地區發揮影響力，形成了多極化的趨勢。然而，由於美國的實力遠遠超過其他國家，因此一超多強仍是描述世界主要軍事力量對比的最為準確的方式。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '三環格局'], ['B', '一超多強'], ['C', '五邊格局'], ['D', '多極格局']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於採取技術偵察措施嘅講法中唔啱嘅係",
+    "llm_output": "正確答案係 B。\n\n技術偵察措施通常是指在特定情況下，為了收集情報而採取的秘密監視手段，例如監聽、監控等。這些措施必須遵守法律，並且通常需要得到特定機構的批准。\n\nA選項提到必須經過嚴格嘅批准手續，這是正確的，因為採取技術偵察措施需要遵守法律程序，並且通常需要得到相關法律或監管機構的批准。\n\nC選項提到必須係因反恐怖主義情報信息工作嘅需要，這也是正確的，因為許多國家將技術偵察措施作為反恐工作的一部分。\n\nD選項提到只能用於反恐怖主義應對處置同對恐怖活動犯罪、極端主義犯罪嘅偵查、起訴同審判，這亦是正確的，因為這些措施通常僅限於涉及恐怖活動或極端主義犯罪的情況。\n\nB選項提到對偵查到嘅信息必須長期保存以作他用，這是不正確的。技術偵察措施所收集的信息通常有其特定的使用範圍和保存期限，並且必須遵守相關法律和隱私保護法規。信息不應無限制地保存，而應該在達到其目的後按照法律規定進行處理或銷毀。因此，B選項描述的情況是不適當的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '必須經過嚴格嘅批准手續'], ['B', '對偵查到嘅信息必須長期保存以作他用'], ['C', '必須係因反恐怖主義情報信息工作嘅需要'], ['D', '只能用於反恐怖主義應對處置同對恐怖活動犯罪、極端主義犯罪嘅偵查、起訴同審判']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "喺操作有轉動部份嘅工具時，員工唔宜戴手套嘅原因。",
+    "llm_output": "C. 手套容易纏上機器嘅轉動部分",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '戴手套無法將工具抓牢'], ['B', '手套會被損'], ['C', '手套容易纏上機器嘅轉動部分'], ['D', '唔美觀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "遭受化學武器襲擊後，人員出現瞳孔縮小、肌肉顫抖、呼吸困難、四肢痙攣等中毒症狀，請你判斷係那類毒劑中毒",
+    "llm_output": "C. 神經性毒劑\n\n神經性毒劑通常會對神經系統造成嚴重影響，引發瞳孔縮小、肌肉顫抖、呼吸困難和四肢痙攣等症狀。這些症狀與問題中描述的中毒症狀相符，因此正確答案是神經性毒劑。其他選項描述的毒劑類型不會引起這些特定的症狀。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '窒息性毒劑'], ['B', '糜爛性毒劑'], ['C', '神經性毒劑'], ['D', '全身中毒性毒劑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "信息化戰爭形成嘅首要條件係()嘅長足發展。",
+    "llm_output": "C. 高技術\n\n信息化戰爭形成的首要條件是高技術的長足發展。在信息化戰爭中，高技術如信息技術、通信技術、網絡技術等扮演了核心角色，這些技術的進步直接推動了信息化戰爭的發展。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經濟'], ['B', '文化'], ['C', '高技術'], ['D', '教育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "核爆炸產生嘅殺傷因素中，對人員同地面目標殺傷能量最大嘅係",
+    "llm_output": "D. 沖擊波\n\n核爆炸產生嘅殺傷因素中，對人員同地面目標殺傷能量最大嘅係沖擊波。早期核輻射、放射性沾染以及核輻射嘅持續影響雖然也對生物體和環境造成嚴重影響，但相比之下，沖擊波通常是最先到達並造成最大傷害的因素。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '早期核輻射'], ['B', '放射性沾染'], ['C', '核輻射嘅持續影響'], ['D', '沖擊波']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "化學毒劑嘅傷害特點有：殺傷範圍大、傷害途徑多、（）等。",
+    "llm_output": "正確答案為 A. 持續時間長。\n\n化學毒劑通常具有多種傷害特點，包括但不限於：\n\n- 殺傷範圍大：化學毒劑可以通過空氣、水、食物等途徑擴散，影響範圍廣泛。\n- 傷害途徑多：毒劑可以通過吸入、食入、接觸皮膚等方式進入人體。\n- 持續時間長：某些化學毒劑的影響可能持續數小時、數天甚至數周，這使得後續的醫療和清潔工作變得更加複雜。\n- 死亡率高：某些化學毒劑具有高致死性，能夠迅速造成大量傷亡。\n- 致病力強：毒劑能夠對人體造成嚴重的器官損傷，甚至導致長期健康問題。\n- 具有傳染性：某些化學毒劑能夠通過接觸傳播，可能導致疾病在人群中傳播。\n\n在這些特點中，持續時間長是化學毒劑與其他傷害方式（如物理傷害或生物病原體）區別之一，因為化學毒劑的影響往往不會立即消失，而是需要時間進行清潔和處理。因此，選項 A 是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '持續時間長'], ['B', '死亡率高'], ['C', '致病力強'], ['D', '具有傳染性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "國家安全機關、公安機關、有關軍事機關開展國家安全專門工作，可以依法採取必要手段同方式，有關部門同地方應當喺職責範圍內",
+    "llm_output": "A. 提供支持同配合\n\n正確答案為A。此題考查的是國家安全工作中的職責分配。國家安全機關、公安機關、有關軍事機關在開展國家安全專門工作中，可以依法採取必要手段和方式。相應地，有關部門和地方在職責範圍內應當提供支持同配合，以確保國家安全工作的順利進行。其他選項B、C和D雖然也與協作和支持相關，但不如選項A那麼全面和準確地描述了各部門和地方應承擔的職責。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '提供支持同配合'], ['B', '提供必要嘅幫助'], ['C', '主動協作'], ['D', '提供人力支持']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "()係隱身武器研製同發展最快、獲得成果最多嘅領域。",
+    "llm_output": "正確答案係D. 隱身飛機。\n\n隱身飛機是隱身武器研製同發展最快、獲得成果最多嘅領域。隱身技術主要通過使用特殊材料和設計來減少飛機對雷達和其他感測器的可見性，從而提高其在战场上的生存能力。隱身飛機的發展對現代防空系統提出了重大挑戰，並促進了相關技術的快速進步。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '隱身艦船'], ['B', '隱身導彈'], ['C', '隱身坦克'], ['D', '隱身飛機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列有關軍隊參與搶險救災行動嘅特點唔啱嘅一項係",
+    "llm_output": "正確答案係 B. 危險性小。\n\n分析：\nA. 遂行任務繁重 - 正確。軍隊參與搶險救災時，通常需要執行各種繁重且緊急的任務，如搜救受災者、修復基礎設施、提供醫療援助等。\nB. 危險性小 - 不正確。由於搶險救災現場往往環境複雜且不穩定，軍隊在執行任務時面臨的危險性較高，例如可能遇到自然災害、危險物體、有害氣體等。\nC. 行動情勢急切 - 正確。災難發生後，需要迅速行動以減少災害影響，因此軍隊參與的行動通常情勢緊迫，需要快速反應。\nD. 行動保障困難 - 正確。在災害現場，保障行動的資源和後勤支持可能會受到限制，如交通受阻、通信不良、醫療資源不足等，這些因素都會增加行動的困難度。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '遂行任務繁重'], ['B', '危險性小'], ['C', '行動情勢急切'], ['D', '行動保障困難']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "「中華人民共和國憲法」規定：保衛祖國、抵抗侵略係中華人民共和國每一個公民嘅神聖職責。依照法律（）係中華人民共和國公民嘅光榮義務。",
+    "llm_output": "正確答案係 B. 服兵役同參加民兵組織。\n\n中华人民共和国宪法明确规定，保卫祖国、抵抗侵略是中华人民共和国每一个公民的神圣职责。根据法律，服兵役和参加民兵组织是中华人民共和国公民的光荣义务。其他选项虽然与国防建设有关，但并非宪法明确规定的义务。因此，最符合题目描述的选项是 B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '積極支援部隊'], ['B', '服兵役同參加民兵組織'], ['C', '從事工農業生產'], ['D', '參加國防建設']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "我國新嘅國家安全觀係",
+    "llm_output": "正確答案為 A. 互信、互利、平等、合作。\n\n這個選項最符合中國政府提出的新時代國家安全觀。它強調了在國際關係中建立信任、追求雙贏、促進平等和推動合作的重要性。這種觀點反映了中國政府在面對全球化挑戰時，追求的是一個開放、包容、合作的安全環境。\n\n選項 B 強調的是和諧社會和世界，這是一個更廣泛的概念，不僅僅局限於國家安全。選項 C 的“互重、平等、合作”與 A 選項相似，但不如 A 選項全面。選項 D 的“對外防禦體制”則偏向於傳統的安全觀念，不符合新時代國家安全觀的合作精神。因此，A 選項是最符合問題描述的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '互信、互利、平等、合作'], ['B', '構建和諧社會同世界'], ['C', '互重、平等、合作'], ['D', '對外防禦體制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊項涉及國家安全嘅事項唔需要審查監管?",
+    "llm_output": "正確答案係D。\n\n解析：\nA選項涉及可能影響國家安全嘅網絡信息技術產品同服務，這些通常需要審查監管以確保其不對國家安全構成威脅。\nB選項涉及可能影響國家安全嘅外商投資，外商投資通常需要審查監管以確保其不對國家安全造成負面影響。\nC選項涉及對影響國家安全嘅特定物項同關鍵技術嘅項目，這些通常需要嚴格的審查監管以保護國家安全。\nD選項涉及可能影響唔特定物項同關鍵技術嘅項目，由於其描述不清晰且缺乏具體指明，因此可以推斷其涉及的項目未必需要審查監管，尤其是當其不涉及特定物項或關鍵技術時。\n\n因此，D選項是涉及國家安全嘅事項中，不需要審查監管嘅選項。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '可能影響國家安全嘅網絡信息技術產品同服務嘅項目'], ['B', '可能影響國家安全嘅外商投資嘅項目'], ['C', '對影響國家安全嘅特定物項同關鍵技術嘅項目'], ['D', '可能影響唔特定物項同關鍵技術嘅項目']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "石油氣具有一定嘅毒性，喺空氣中濃度大於（）時，就有使人中毒嘅危險。",
+    "llm_output": "正確答案為 B. 10%。石油氣，即甲烷，在空氣中的濃度超過10%時，可能會對人體健康造成威脅，尤其是當空氣中氧氣含量減少時，可能會導致中毒症狀。因此，在處理石油氣時，必須確保濃度在安全範圍內，以防止事故發生。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '5%'], ['B', '10%'], ['C', '15%'], ['D', '20%']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊項唔屬於「國家安全法」明確規定嘅情報信息喺報送時嘅要求?",
+    "llm_output": "正確答案係 D. 客觀。\n\n在「國家安全法」中，對於情報信息的報送，通常會要求及時、準確和全面，但未必會明確要求客觀。客觀性可能會在其他法律或政策文件中作為情報收集和處理的一部分被提及，但未必是「國家安全法」中明確規定情報信息報送時的要求之一。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '及時'], ['B', '準確'], ['C', '全面'], ['D', '客觀']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "安全帶嘅正確掛法應該係",
+    "llm_output": "正確答案為 A. 高掛低用。\n\n安全帶的高掛低用方法是指將安全帶的挂钩固定在高于使用者身体的位置，而安全带的下部则围绕使用者的腰部或胸部。这种挂法可以确保在发生坠落或冲击时，安全带能够提供最大的保护作用，因为安全带的力量分散点在较高的位置，从而减少了安全带承受的冲击力。\n\n其他选项的描述并不符合安全带的正确使用方式：\nB. 有掛點就得 - 这个描述不够具体，没有明确指出安全带应该高挂低用。\nC. 同一水平 - 安全带不应该与挂钩处于同一水平，因为这样无法提供足够的保护。\nD. 低掛高用 - 这是不正确的挂法，低挂高用会使得安全带在冲击时无法有效保护使用者，反而可能造成伤害。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '高掛低用'], ['B', '有掛點就得'], ['C', '同一水平'], ['D', '低掛高用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於公安機關嘅職權講法唔正確嘅係",
+    "llm_output": "正確答案係 D。\n\nA選項描述的是公安機關在調查恐怖活動嫌疑時，有權向相關單位和個人收集和調取相關信息及材料，這符合法律賦予的職權。\n\nB選項指出，當發現恐怖活動嫌疑時，需要調查確認的，應迅速進行調查，這也是公安機關職責範圍內應當採取的行動。\n\nC選項中提到，調查恐怖活動嫌疑時，可以依照法律規定對嫌疑人員進行盤問、檢查和傳喚，這也是合法的調查手段。\n\nD選項描述的是調查恐怖活動嫌疑時，對瞭解有關情況的人員只能在公安機關進行詢問，這是不正確的。根據法律規定，調查人員可以在適當的場所對嫌疑人進行詢問，而不僅限於公安機關內部。因此，D選項描述的情況不符合法律規定，是錯誤的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '調查恐怖活動嫌疑，有權向有關單位同個人收集、調取相關信息同材料'], ['B', '發現恐怖活動嫌疑，需要調查覈實嘅，應當迅速進行調查'], ['C', '調查恐怖活動嫌疑，可以依照有關法律規定對嫌疑人員進行盤問、檢查同傳喚'], ['D', '調查恐怖活動嫌疑，對瞭解有關情況嘅人員只能喺公安機關進行詢問']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "有關現代核武器發展嘅方向講法唔啱嘅一項係",
+    "llm_output": "C. 大型化\n\n現代核武器發展的方向通常不偏向大型化，而是追求小型化、精确化和多用途化。多用途指的是核武器可以用于多种军事目的，如威慑、打击和防空等。实效化强调的是核武器在实战中的有效性，包括命中精度、杀伤力和生存能力。多弹头化则是指一个导弹可以携带多个核弹头，以增加攻击的灵活性和威慑力。因此，大型化并不是现代核武器发展的方向，相反，小型化、精确化和多用途化才是趋势。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '多用途'], ['B', '實用化'], ['C', '大型化'], ['D', '多彈頭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於「軍事高技術」嘅表述，錯誤嘅係",
+    "llm_output": "正確答案係：B。\n\n解析：\nA選項描述的是「技術改造」，這是指利用新技術對現有武器系統進行升級，以提高其性能，因此A選項是正確嘅。\n\nB選項描述的是「重新整合」，這通常是指將不同系統或部件重新設計和組裝，以達到某種戰術或戰術目的。然而，這並不必然導致系統能夠投入實戰，因為重新整合可能會遇到兼容性、操作性等多種問題，因此B選項是錯誤嘅。\n\nC選項描述的是「產生新嘅武器裝備系統」，這是指創建全新的武器系統，這些系統通常利用了最新的科技，如人工智能、微電子技術等，因此C選項是正確嘅。\n\nD選項描述的是「能夠結合到武器裝備中去」，這是指新技術能夠被整合到現有或新創的武器系統中，以增強其功能，因此D選項是正確嘅。\n\n總結，B選項描述的「重新整合」可能會遇到實戰中的問題，因此是錯誤嘅表述。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '對原有武器系統進行技術改造'], ['B', '重新整合原有武器系統，使之能夠投入實戰'], ['C', '產生新嘅武器裝備系統'], ['D', '能夠結合到武器裝備中去']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "信息化戰爭，係人類社會政治、經濟、()同戰爭實踐發展到一定階段嘅必然產物。",
+    "llm_output": "信息化戰爭是隨著人類社會政治、經濟、科學技術同戰爭實踐發展到一定階段而產生的。因此，正確答案為 C. 科學技術。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '文化'], ['B', '計算機技術'], ['C', '科學技術'], ['D', '航天技術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "任何個人同組織唔得有危害國家安全嘅行為，唔得向危害國家安全嘅個人或者組織提供任何",
+    "llm_output": "正確答案為 A. 資助或者協助。\n\n依據中华人民共和国的相关法律，任何个人和组织都有责任维护国家安全，不得从事危害国家安全的行为，也不得向从事危害国家安全行为的个人或组织提供任何形式的资助或协助。因此，选项A \"資助或者協助\" 是符合法律规定的正确答案。其他选项B \"資助\"、C \"協助\" 和D \"便利條件\" 均不完全符合法律规定，因为它们没有涵盖资助和协助两个方面。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '資助或者協助'], ['B', '資助'], ['C', '協助'], ['D', '便利條件']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "（）係衡量軍隊指揮自動化嘅一個重要指標。",
+    "llm_output": "C. 戰術指揮系統\n\n戰術指揮系統是衡量軍隊指揮自動化的一個重要指標。它涉及到了戰場上的即時決策和命令下達，是軍隊內部通信和控制的核心部分。戰術級的自動化能夠提高命令的傳達速度和準確性，從而增強部隊的反應能力和戰鬥效能。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '戰略指揮系統'], ['B', '戰役指揮系統'], ['C', '戰術指揮系統'], ['D', '作戰平臺同單兵指揮系統']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "精確制導武器嘅制方式主要有：自主制導、尋嘅制導、遙控制導、（）等。",
+    "llm_output": "正確答案為：C. 複合制導。\n\n複合制導是一種結合了多種制導技術的制導方式，它能夠利用自主制導、尋的制導、遙控制導等技術的優勢，以提高精確制導武器的性能和成功率。此選項最符合精確制導武器的制方式描述。其他選項如合成制導、聯合制導和協同制導，雖然在某些情境下可能會有所應用，但不如複合制導那麼全面且準確地概括了精確制導武器的制方式。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '合成制導'], ['B', '聯合制導'], ['C', '複合制導'], ['D', '協同制導']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "國家對喺維護國家安全工作中作出突出貢獻嘅()畀表彰同獎勵。",
+    "llm_output": "C. 個人同組織\n\n正確答案為C，即國家對在維護國家安全工作中作出突出貢獻的個人以及組織進行表彰和獎勵。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '組組'], ['B', '團體'], ['C', '個人同組織'], ['D', '個人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於喺罪犯刑滿釋放前接受安置教育嘅講法中正確嘅係",
+    "llm_output": "正確答案係C。\n\n解析：\nA選項中，被安置教育人員確實需要遵守安置教育機構的規定，但他們仍有權利自行申請解除安置教育，只要符合相關的法律程序。\nB選項中，安置教育機構確實需要定期對被安置教育人員進行評估，但並不是每年必須，而是根據具體情況和法律規定進行。\nC選項中，被決定安置教育的人员如果對決定不服，確實可以向同級人民法院申請複議一次，這是符合法律程序的。\nD選項中，罪犯在刑滿釋放前接受安置教育並非必須，而是根據法律規定在某些情況下需要接受。\n\n因此，C選項是正確的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '被安置教育人員無權自行申請解除安置教育'], ['B', '安置教育機構應當每年對被安置教育人員進行評估'], ['C', '被決定安置教育嘅人員對決定唔服嘅，可以向同級人民法院申請複議一次'], ['D', '罪犯喺刑滿釋放前必須接受安置教育']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "生產經營單位都應編制生產安全事故應急預案。應急預案編制過程中，危險分析嘅內容必須包括",
+    "llm_output": "正確答案：A. 重大危險源辨識\n\n解析：在生產安全事故應急預案的編制過程中，危險分析是關鍵一步，其目的是識別和評估可能對生產經營單位造成威脅的重大危險源。這涉及到對現有設施、設備、材料和操作過程中存在的風險進行全面的評估。其他選項，如應急人力資源分析、應急設備資源分析和應急部門職責分析，雖然也是應急預案的重要組成部分，但它們不是危險分析的主要內容。因此，最符合問題描述的答案是A. 重大危險源辨識。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '重大危險源辨識'], ['B', '應急人力資源分析'], ['C', '應急設備資源分析'], ['D', '應急部門職責分析']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "我國嘅消防方針係：",
+    "llm_output": "正確答案係：D. 預防為主，防消結合。\n\n我國消防方針的核心是“預防為主，防消結合”，強調在消防工作中，預防事故發生是首要任務，同時要結合消防救援工作，做到預防與救援並重。此方針強調了事前預防的重要性，並結合了事後救援的機制，以達到最大限度地減少火灾事故對人命財產的損失。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '安全第一，預防為主'], ['B', '安全為主，防消結合'], ['C', '預防為主，綜合治理'], ['D', '預防為主，防消結合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "（）唔屬於巡航導彈嘅未來發展趨勢。",
+    "llm_output": "巡航导弹的未来发展趋势主要集中在提高精确度、提升速度以及增强智能化和模块化能力。选项A“加裝GPS系統”是提高精确度的一种方式，选项B“超音速度”是提升速度的一种方式，选项C“發展模塊化”和选项D“智能化”都是巡航导弹未来发展的趋势。\n\n因此，不属于巡航导弹未来发展趋势的选项是A“加裝GPS系統”，因为GPS系统已经是现代巡航导弹的标准配置，而不是未来的发展趋势。正确答案是A。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '加裝GPS系統'], ['B', '超音速度'], ['C', '發展模塊化'], ['D', '智能化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "電焊機一次線嘅長度唔能大於（）米。",
+    "llm_output": "正確答案係A。電焊機一次線嘅長度唔能大於5米。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '5'], ['B', '2'], ['C', '10'], ['D', '8']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "當前擴張型國防嘅典型代表係",
+    "llm_output": "D. 美國\n\n當前擴張型國防的代表國家是美國。美國的國防政策通常被視為擴張性，這主要體現在其全球性的軍事存在、積極的國際干涉以及強大的防禦和先發制人的戰略。相比之下，中國、日本和俄羅斯的國防政策則更傾向於防禦性或地區性。因此，正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '中國'], ['B', '日本'], ['C', '俄羅斯'], ['D', '美國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "任何個人同組織違反國家安全法同有關法律，()或者從事危害國家安全活動嘅，依法追究法律責任。",
+    "llm_output": "正確答案是 D. 不履行維護國家安全義務。\n\n這個問題涉及的是法律責任的追究條件。根據相關法律，任何個人或組織如果違反了國家安全法以及相關法律，並且未能履行維護國家安全的義務，或者實際上從事了危害國家安全活動，都將依法追究其法律責任。因此，選項 D 最恰當地描述了這種情況。選項 A、B 和 C 描述的行為可能會導致法律責任，但它們不是描述違反國家安全法後需要追究責任的條件。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '不作為'], ['B', '濫用職權'], ['C', '翫忽職守'], ['D', '不履行維護國家安全義務']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "根據「國家安全法」嘅規定，下列關於建立國家安全風險評估機制嘅講法唔正確嘅係",
+    "llm_output": "正確答案係 B。\n\n根據《國家安全法》的規定，國家確實建立國家安全風險評估機制，並且定期開展各領域國家安全風險調查評估。這意味著選項 A 描述的是正確的。\n\n選項 B 提到「不定期開展各領域國家安全風險調查評估」，這與《國家安全法》中定期開展評估的要求相違背，因此 B 是不正確的。\n\n選項 C 和 D 描述的是制定應對預案和健全監測預警制度，這些都是《國家安全法》中提到的措施，因此 C 和 D 都是正確的。\n\n總結來說，選項 B 描述的「不定期開展各領域國家安全風險調查評估」與《國家安全法》的規定不符，因此 B 是不正確的選項。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國家建立國家安全風險評估機制，定期開展各領域國家安全風險調查評估'], ['B', '國家建立國家安全風險評估機制，不定期開展各領域國家安全風險調查評估'], ['C', '國家制定完善應對各領域國家安全風險預案'], ['D', '國家健全國家安全風險監測預警制度，根據國家安全風險程度，及時發布相應風險預警']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於我國國(邊)境安全管理嘅講法唔正確嘅係",
+    "llm_output": "正確答案係C。\n\nA選項提到應當嚴密組織國(邊)境巡邏，這是正確的，因為巡邏可以有效地監控和管理國境，防止非法越境活動。\n\nB選項提到應當在重點國(邊)境地段和口岸設置視頻圖像採集和防越境報警設施，這也是正確的，視頻監控和報警系統能夠提高國境安全的技術水平，有助於及時發現和處理越境行為。\n\nD選項提到應當依照規定對抵離國(邊)境前沿的人员進行檢查，這亦是正確的，檢查能夠確保入境人員的合法性和安全性。\n\n然而，C選項提到可以設置攔阻隔離網，這是不正確的。設置攔阻隔離網可能會違反國際法規和人權法規，並且可能會對人員和環境造成負面影響。因此，C選項是錯誤的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '應當嚴密組織國(邊)境巡邏'], ['B', '應當喺重點國(邊)境地段同口岸設置視頻圖像採集同防越境報警設施'], ['C', '可以喺重點國(邊)境地段同口岸設置攔阻隔離網'], ['D', '應當依照規定對抵離國(邊)境前沿嘅人員進行檢查']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "鍋爐安全閥嘅檢驗週期為",
+    "llm_output": "正確答案為 D. 1年。\n\n安全閥是锅炉安全系統中的一個重要組件，它的主要功能是當锅炉內部壓力超過安全值時，自動釋放壓力，以防止锅炉爆炸。根據相關的安全標準和法規，锅炉的安全閥需要定期檢驗以確保其正常工作。\n\n具體檢驗週期可能會因國家或地區而異，但大多數情況下，锅炉的安全閥檢驗周期為一年。這一規範旨在確保安全閥能夠在壓力過高時正確地工作，從而保護人員和設備的安全。因此，選項 D 是正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '半年'], ['B', '2年'], ['C', '3年'], ['D', '1年']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "「職業安全健康管理體系導則」（ILO-OSH2001）同「職業健康安全管理體系導則」（OHSAS18001）嘅運行模式均體現咗（）嘅思想。",
+    "llm_output": "正確答案：A. 持續改進\n\n「職業安全健康管理體系導則」（ILO-OSH2001）和「職業健康安全管理體系導則」（OHSAS18001）均強調了持續改進的理念。這兩者都基於PDCA（計劃-執行-檢查-改進）循環，強調不斷評估和改進安全健康管理系統，以確保其有效性和持續改進。這種思想符合現代管理理念，但更精確地說，它體現了持續改進的思想。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '持續改進'], ['B', '現代管理'], ['C', '傳統管理'], ['D', '強化監督']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "根據「反間諜法」規定，關於公民同組織嘅權利義務表述正確嘅係",
+    "llm_output": "正確答案係C。\n\n根據「反間諜法」，任何個人同組織對國家安全機關及其工作人員超越職權行為，都有權向上級國家公安機關或者有關部門檢舉、控告。這一點符合法律對公民和組織在反間諜工作中的權利保護，並確保了監督機制。\n\n選項A描述的是在調查間諜行為時，組織和個人應當如實提供信息，但這並不是「反間諜法」中對權利義務的表述。\n\n選項B中提到的保守國家祕密是每個公民和組織的義務，但這不是「反間諜法」中對權利義務的表述。\n\n選項D中提到的發現間諜行為並及時報告是公民和組織的義務，但這也不是「反間諜法」中對權利義務的表述。\n\n因此，最符合「反間諜法」中對公民和組織權利義務表述的選項是C。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '喺國家安全機關調查瞭解有關間諜行為嘅情況，有關組織同個人應當如實提供，但也可拒絕提供'], ['B', '任何公民同組織都應當保守所知悉嘅有關反間諜工作嘅國家祕密'], ['C', '任何個人同組織對國家安全機關及其工作人員超越職權行為，都有權向上級國家公安機關或者有關部門檢舉、控告'], ['D', '公民同組織發現間諜行為，應當及時向國務院有關部門報告']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於公安機關嘅職權講法唔正確嘅係",
+    "llm_output": "正確答案係 D。\n\n解析：\nA選項描述的是公安機關依照法律對嫌疑人員進行調查的權限，包括盤問、檢查同傳喚，這是正確的。\nB選項指出公安機關在發現恐怖活動嫌疑後，需要調查覈實的，應當迅速進行調查，這也是符合法律規定的職責。\nC選項提到公安機關有權向有關單位同個人收集、調取相關信息同材料，這是調查恐怖活動嫌疑時的正當行為。\nD選項則描述公安機關在調查恐怖活動嫌疑時，對瞭解有關情況嘅人員只能喺公安機關進行詢問，這一點並不正確。根據法律規定，公安機關在調查恐怖活動嫌疑時，可以向任何知情人進行詢問，不僅限於公安機關內進行。因此，D選項描述不準確，是正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '調查恐怖活動嫌疑，可以依照有關法律規定對嫌疑人員進行盤問、檢查同傳喚'], ['B', '發現恐怖活動嫌疑，需要調查覈實嘅，應當迅速進行調查'], ['C', '調查恐怖活動嫌疑，有權向有關單位同個人收集、調取相關信息同材料'], ['D', '調查恐怖活動嫌疑，對瞭解有關情況嘅人員只能喺公安機關進行詢問']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "從國際戰略環境嘅角度睇，係咩戰爭嚴重損害咗現行國際秩序。",
+    "llm_output": "正確答案：B. 兩伊戰爭\n\n兩伊戰爭（1980-1988年）是伊朗和伊拉克之間的一場全面戰爭，這場戰爭對國際秩序產生了深遠的影響。它不僅嚴重耗損了兩國的人力、物力和財力，而且也對周圍的地區甚至全球的能源市場造成了波動。此外，這場戰爭還導致了許多難民問題，並對波斯灣的穩定性構成了威脅。\n\n雖然911事件、伊拉克戰爭和阿富汗戰爭都是重要的國際事件，但它們對現行國際秩序的影響程度不如兩伊戰爭那麼深遠。911事件主要影響了全球反恐戰略，伊拉克戰爭和阿富汗戰爭則主要影響了後911時代的全球安全格局，但這些事件都發生在兩伊戰爭之後。因此，從國際戰略環境的角度來看，兩伊戰爭對現行國際秩序的破壞性最大。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '911事件'], ['B', '兩伊戰爭'], ['C', '伊拉克戰爭'], ['D', '阿富汗戰爭']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "喺信息化戰場嘅支持下，作戰力量將由戰場感知系統、()、指揮控制系統、打擊系統、增援保障系統等五大分系統構成。",
+    "llm_output": "正確答案：D. 情報系統\n\n在信息化戰場中，作战力量通常由多个分系统构成，以实现高效的信息获取、处理、传输和利用。这些系统包括：\n\n- 战場感知系統：用于实时监测战场环境，包括敌我双方的位置、行动和态势。\n- 情報系統：负责收集、处理和分发情报信息，为作战决策提供支持。\n- 指揮控制系統：整合各分系统，实现对作战力量的集中指挥和控制。\n- 打擊系統：执行具体的打击任务，包括使用各种武器对目标进行攻击。\n- 增援保障系統：负责后勤保障，包括部队调动、物资补给和医疗救护等。\n\n选项A的“預警系統”和选项B的“網絡通信系統”虽然也是信息化战场中的重要组成部分，但它们并不是作战力量构成的五大分系统之一。选项C的“武器裝備系統”虽然重要，但通常被视为打击系统的一部分。因此，最符合题目描述的选项是D，即情報系統。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '預警系統'], ['B', '網絡通信系統'], ['C', '武器裝備系統'], ['D', '情報系統']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "美軍研製嘅「黃蜂」反坦克導彈，喺發射後，唔具有嘅功能係",
+    "llm_output": "正確答案係 B. 能自動隱藏自己。\n\n「黃蜂」反坦克導彈（AGM-114 Hellfire）由美國雷神公司研製，主要用於反坦克和反人員任務。它具有自動導航功能，能夠在發射後進行中段制導，但並不能自動隱藏自己。其他選項描述的功能，如能自動爬高（A）、能自動襲擊目標嘅要害部位（C）和能自動搜索（D），都是「黃蜂」导弹在發射後可能具有的功能。因此，B 是唯一不正確的選項。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '能自動爬高'], ['B', '能自動隱藏自己'], ['C', '能自動襲擊目標嘅要害部位'], ['D', '能自動搜索']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "電氣設備必須要有可靠嘅()裝置。",
+    "llm_output": "正確答案：A. 接地(接零)\n\n解釋：電氣設備必須要有可靠嘅接地(接零)裝置，這是為了確保在電氣設備發生故障時，能夠迅速將電流引導至地面，從而保護人員和設備的安全。接地裝置通常包括接地極、接地線和接地端子等部分。其他選項如消防、應急和防護，雖然也是電氣安全的重要方面，但接地(接零)裝置是確保電氣設備安全運行最基本且直接的手段。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '接地(接零)'], ['B', '消防'], ['C', '應急'], ['D', '防護']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "（）唔屬於伊拉克為伊拉克戰爭所做嘅戰前準備。",
+    "llm_output": "C. 展開外交活動，爭取更多嘅國際支持\n\n伊拉克在為伊拉克戰爭做準備時，主要集中在重新劃分防區、展開戰爭動員和緊急備戰行動以及裝備準備上。而外交活動，尤其是爭取國際支持，通常不是戰前的直接準備活動，而是戰時或戰後可能發生的行為。因此，選項C不属于伊拉克為伊拉克戰爭所做的戰前準備。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '重新劃分防區'], ['B', '展開戰爭動員同緊急備戰行動'], ['C', '展開外交活動，爭取更多嘅國際支持'], ['D', '裝備準備']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "電氣設備著火，應使用（）滅火。",
+    "llm_output": "正確答案：C. 乾粉滅火器\n\n解析：\n電氣設備著火時，應使用乾粉滅火器進行滅火。這是因為乾粉滅火器不會導電，不會對電氣設備造成進一步的損害。而泡沫滅火器、濕棉被和黃泥都含有水分，可能會導致電氣設備短路或電擊事故，因此不適合用於電氣設備著火的情況。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '泡沫滅火器'], ['B', '濕棉被'], ['C', '乾粉滅火器'], ['D', '黃泥']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "「反恐怖主義法」規定公安機關調查恐怖活動嫌疑有權向有關單位同個人收集、調取相關信息同材料。有關單位同個人應當",
+    "llm_output": "正確答案為 B. 積極配合。\n\n根據「反恐怖主義法」，公安機關在調查恐怖活動嫌疑時，確實有權向相關單位和個人收集和調取相關信息及材料。相應地，有關單位和個人應積極配合調查工作，提供必要的信息和材料，以協助警方進行調查。\n\n選項 A 「如實提供」和選項 C 「如實報告」均涉及提供信息，但未強調積極配合的態度。選項 D 「隱瞞不報」則違反了法律的要求，因此不是正確答案。\n\n因此，最合適的答案是 B. 積極配合。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '如實提供'], ['B', '積極配合'], ['C', '如實報告'], ['D', '隱瞞不報']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "()係智能化武器裝備嘅集中代表。",
+    "llm_output": "正確答案係B. 智能導彈。\n\n智能化武器裝備通常指的是那些能夠自主或半自主地進行決策和行動的武器系統。智能導彈是智能化武器裝備的集中代表，因為它們能夠通過先進的制導技術和人工智能算法來精確地追蹤和打擊目標。\n\n智能地雷（A）、智能機械人（C）和智能坦克（D）雖然也是智能化武器裝備的一部分，但智能導彈在智能化程度和應用範圍上通常被視為最具代表性的。因此，選項B是正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '智能地雷'], ['B', '智能導彈'], ['C', '智能機械人'], ['D', '智能坦克']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "81式自動步槍重要由()大部件構成。",
+    "llm_output": "選項C是正確答案。81式自動步槍主要由8個大部件構成，包括：\n1. 枪管\n2. 枪機\n3. 枪托\n4. 握把\n5. 扳機組\n6. 瞄準具\n7. 彈匣\n8. 其他輔助部件\n\n這些部件共同組成了81式自動步槍的基本結構，使其能夠正常發射和操作。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '9'], ['B', '10'], ['C', '8'], ['D', '7']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "「國家安全法」明確規定，維護國家安全，應當同()相協調。",
+    "llm_output": "C. 經濟社會發展\n\n「國家安全法」明確規定，維護國家安全，應當同經濟社會發展相協調。這表示在制定和實施國家安全政策時，需要考慮到經濟和社會發展的需要，以確保兩者之間的平衡和協調。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '國家強盛'], ['B', '經濟建設'], ['C', '經濟社會發展'], ['D', '社會發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "以下說法中有錯誤嘅係",
+    "llm_output": "選項C中的描述存在錯誤。在處理極端主義活動時，公安機關確實有權力進行必要的干預和控制，但強行帶離現場並登記身份信息的操作需要符合法律程序，不能違法行事。根據中國法律，只有在確保公共安全、維護社會秩序的前提下，並且在法律授權範圍內，公安機關方可採取相應措施。\n\n選項A、B和D描述的行為均符合法律規範，且是公安機關在處理極端主義活動時應採取的措施。\n\n因此，正確答案是C。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '公安機關發現極端主義活動嘅物品等，應當予以收繳'], ['B', '公安機關對宣揚極端主義嘅行為應當及時制止，並依法追究其法律責任'], ['C', '公安機關發現極端主義活動嘅，應當將有關人員強行帶離現場並登記身份信息'], ['D', '公安機關發現利用極端主義危害公共安全嘅，必要時可以加以制止']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "電氣作業必須由經過專業培訓考試合格，並持有()嘅人員進行作業。",
+    "llm_output": "正確答案：D. 電工作業上崗資格證\n\n解析：根據中國相關法律法規，從事電氣作業的專業人員必須通過專業培訓和考試，並取得由相關政府部門颁发的“電工作業上崗資格證”。此證書證明了持有人具備了進行特定電氣作業的資格和能力。其他選項如“電氣作業資格證”、“電工特種作業操作資格證”和“電工特種作業操作證”均不是正確的證書名稱。因此，選項D是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '電氣作業資格證'], ['B', '電工特種作業操作資格證'], ['C', '電工特種作業操作證'], ['D', '電工作業上崗資格證']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "根據「國家安全法」嘅規定，公民同組織支持、協助國家安全工作嘅行為()。",
+    "llm_output": "B. 受法律保護\n\n根據「國家安全法」的規定，公民和組織支持、協助國家安全工作的行為是受法律保護的。這表示，如果個人和組織在法律框架內積極參與和支持國家安全工作，他們不會因此而受到法律追究，反而會得到法律的保護。其他選項如稱讚、表揚或正當行為，雖然可能是正面的評價，但並非法律所明確規定的保護措施。因此，正確答案是B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '應當受到稱讚'], ['B', '受法律保護'], ['C', '有關部門應當畀表揚'], ['D', '係正當行為']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列唔屬於防禦戰鬥基本任務嘅係",
+    "llm_output": "正確答案係 B。防禦戰鬥的基本任務包括阻敵增援、突圍或退卻（A），掩護主力集中、機動或休整（C），以及保衛重要目標或地區（D）。而 B 選項「攻殲駐止、運動之敵」描述的是攻擊戰鬥的任務，而非防禦戰鬥的基本任務。因此，B 不是防禦戰鬥的基本任務，是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '阻敵增援、突圍或退卻'], ['B', '攻殲駐止、運動之敵'], ['C', '掩護主力集中、機動或休整'], ['D', '保衛重要目標或地區']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "喺確立班組工作目標時，要有安全生產嘅內容，並按「生產無隱患、個人無違章、班組無（）」嘅要求，結合班組嘅具體情況，制定出實現「安全合格班組」標準嘅具體辦法",
+    "llm_output": "正確答案為 D. 違規。\n\n在確立班組工作目標時，確保安全生產是至關重要的一部分。根據問題中提到的要求，班組需要達到「生產無隱患、個人無違章、班組無違規」的標準。這裡的「違規」指的是班組成員在操作或管理過程中違反了既定的安全規範和程序。\n\n選項 A 的「事故」通常是指已經發生的事故，而非預防措施；選項 B 的「違紀」通常指違反紀律或規範，但不一定涉及安全生產；選項 C 的「事件」範圍過於廣泛，不特指安全生產方面的違規。因此，最符合問題描述的答案是 D. 違規。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '事故'], ['B', '違紀'], ['C', '事件'], ['D', '違規']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "安全係指：",
+    "llm_output": "正確答案係：C. 冇危險，唔受威脅，唔發生事故。\n\n安全研究通常涵蓋多個方面，包括預防事故、減少風險、保護人員和環境等。選項C最全面地概括了安全的概念，它涵蓋了預防危險、減少威脅和避免事故發生，這些都是安全研究的主要目標。選項A、B和D都只涉及安全的部分方面，並未能全面反映安全的涵義。因此，C是此題的最佳答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '生產系統中人員免遭不可承受危險嘅傷害'], ['B', '唔發生事故'], ['C', '冇危險，唔受威脅，唔發生事故'], ['D', '冇人員傷亡，無威脅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "使用嘅電氣設備按有關安全規程，其外殼應有咩防護措施？",
+    "llm_output": "正確答案：A. 保護性接零或接地\n\n解釋：根據安全規程，使用中的電氣設備應該有保護性接零或接地措施，以防止電氣事故。保護性接零或接地是為了確保當電氣設備漏電時，電流會通過接零或接地線路，而不是通過人体，從而保護使用者免受電擊。其他選項如包膠皮、無防護或防鏽漆均不是針對電氣設備漏電的直接防護措施。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '保護性接零或接地'], ['B', '包膠皮'], ['C', '無'], ['D', '防鏽漆']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於檢驗檢疫機關發現涉嫌恐怖活動物品後嘅做法正確",
+    "llm_output": "A. 應當依法扣留，並立即將物品移送公安機關或者國家安全機關\n\n正確答案為A。根據相關法律法規，檢驗檢疫機關在發現涉嫌恐怖活動的物品時，應當依法進行扣留，並立即將物品移送給具有處理恐怖活動相關案件權限的公安機關或者國家安全機關。其他選項B、C和D不符合法律規定，因此不選。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '應當依法扣留，並立即將物品移送公安機關或者國家安全機關'], ['B', '應當依法扣留，喺五日內將物品送交國家安全機關'], ['C', '可以將物品扣留'], ['D', '應當依法扣留，喺五日內將物品送交公安機關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "生物戰劑嘅施放方式係",
+    "llm_output": "正確答案係C。生物戰劑嘅施放方式包括火炮發射、空中投擲、飛機投炸彈、飛機釋放細菌戰劑氣溶膠、敵特投放細菌。其他選項只包含了部分施放方式，不夠全面。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '飛機投炸彈、飛機釋放細菌戰劑氣溶膠、敵特投放細菌'], ['B', '火炮發射、空中投擲、飛機投炸彈'], ['C', '火炮發射、空中投擲、飛機投炸彈、飛機釋放細菌戰劑氣溶膠、敵特投放細菌'], ['D', '食物投放']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "中國導彈之父係",
+    "llm_output": "正確答案係 C. 錢學森。\n\n钱学森被誉为“中国导弹之父”，他在中国导弹和航天技术的发展中起到了关键作用。钱学森在20世纪50年代末和60年代初，带领团队成功研发了中国的第一枚导弹，奠定了中国导弹技术的基础。他的贡献不仅限于导弹领域，还涉及航天技术，是中国航天事业的重要奠基人之一。\n\n其他选项中，A. 鄧稼先（Deng Jiaxiang）是著名的核物理学家，对中国核武器的研制做出了巨大贡献，但并非导弹领域的先驱。B. 黃緯祿（Huang Weilu）和D. 王淦昌（Wang Jianchang）都是中国导弹和航天领域的重要科学家，但钱学森的贡献更为广泛和深远，因此钱学森被公认为“中国导弹之父”。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '鄧稼先'], ['B', '黃緯祿'], ['C', '錢學森'], ['D', '王淦昌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "安全（）係構成班組安全文化嘅核心",
+    "llm_output": "正確答案：B. 價值觀\n\n安全價值觀是構成班組安全文化之核心，因為它影響著員工的行為和決策，從而影響到整個班組的安全表現。價值觀涵蓋了對安全的重視程度、風險承擔的態度以及對遵守安全規範的認同。這些價值觀通常通過培訓、教育、領導行為和日常工作中的實際行動來強化。\n\nA選項的「意識觀念」，C選項的「責任感」，以及D選項的「人生觀」，雖然它們都与安全文化相關，但不如價值觀那麼核心。意識觀念和責任感是價值觀的一部分，而人生觀則是一個更廣泛的概念，不僅僅局限於工作場所的安全文化。因此，B選項是最符合問題描述的答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '意識觀念'], ['B', '價值觀'], ['C', '責任感'], ['D', '人生觀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "化工企業發生火災同爆炸嘅「三要素」包括：可燃物，助燃物以及",
+    "llm_output": "正確答案為 D. 著火源。\n\n化工企業火災和爆炸的三要素包括：可燃物、助燃物和著火源。可燃物是指能與氧或其他氧化劑反應產生熱量的物質；助燃物則是指提供氧或其他氧化劑以支持燃燒的物質；著火源則是指能夠引燃可燃物的能量來源，例如火花、火焰、熱源等。易燃物和附著物不是描述火災和爆炸三要素的術語，因此選項 B 和 C 不適用。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '引燃物'], ['B', '易燃物'], ['C', '附著物'], ['D', '著火源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "喺國家安全工作中，下列邊項權利係國家安全機關唔能行使嘅?",
+    "llm_output": "正確答案係 A. 起訴。\n\n國家安全機關主要負責的是預防、打擊和調查涉及國家安全的犯罪活動，包括偵查、拘留等措施。然而，起訴通常是由檢察機關進行，而非國家安全機關。起訴是指檢察機關對犯罪嫌疑人提出正式的刑事指控，並要求法院進行審理。因此，起訴權是檢察機關的職責，而非國家安全機關。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '起訴'], ['B', '預審'], ['C', '偵查'], ['D', '拘留']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊項唔屬於國家安全嘅協同聯動機制應用嘅範圍?",
+    "llm_output": "正確答案：B. 企業之間\n\n解釋：國家安全協同聯動機制通常涉及不同層級和部門之間的合作，包括地區之間、中央與地方之間以及部門之間。然而，企業之間通常不屬於國家安全協同聯動機制的範圍，因為企業主要關注的是商業利益和競爭策略，而非國家安全。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '地區之間'], ['B', '企業之間'], ['C', '中央與地方之間'], ['D', '部門之間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "（）唔屬於地面偵察技術所採用嘅手段。",
+    "llm_output": "正確答案為 B. 潛艇偵察。\n\n地面偵察技術主要指的是在地面上使用各種設備和手段來進行偵察活動，以獲取敌方情報。這些手段包括地面傳感器偵察、光學偵察和無線電偵察等。\n\nA. 地面傳感器偵察 - 這是一種利用地面上的傳感器來監測周圍環境的技術，例如地震傳感器或地雷。\n\nC. 光學偵察 - 這涉及到使用光學設備，如望遠鏡或無人機上的相機，來觀察和收集遠距離的目標信息。\n\nD. 無線電偵察 - 這是指使用無線電設備來監聽和分析敵方通信，以獲取情報。\n\nB. 潛艇偵察 - 這屬於水下偵察技術，通常使用於海上的情報收集，而不是地面偵察技術的一部分。因此，潛艇偵察不屬於地面偵察技術所採用的手段。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '地面傳感器偵察'], ['B', '潛艇偵察'], ['C', '光學偵察'], ['D', '無線電偵察']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "隱形飛機嘅隱身技術，係通過降低武器目標嘅（），使其難以被發現、識別、跟蹤同攻擊嘅技術。",
+    "llm_output": "正確答案係C。隱形飛機嘅隱身技術主要是通過降低武器目標嘅信號特徵，例如紅外線、雷達波形等，以減少被發現、識別、跟蹤同攻擊嘅機會。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '外表顏色'], ['B', '外表形態'], ['C', '信號特徵'], ['D', '內部結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "美國陸軍提出嘅21世紀信息化戰場上嘅基本作戰方針係「以情報信息發現敵人，以()殺傷敵人，以機動戰最後完畢戰鬥」。",
+    "llm_output": "C. 火力戰\n\n美國陸軍提出的21世纪信息化战场上基本作战方針是“以情报信息发现敌人，以火力战杀伤敌人，以机动作战最后完成战斗”。这表明在现代战争中，情报的收集和分析、精确的火力打击以及部队的快速机动是完成作战任务的关键要素。火力战指的是通过精确的炮火、导弹和其他火力手段对敌目标进行打击，是现代战争中不可或缺的一部分。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '電子戰'], ['B', '突擊戰'], ['C', '火力戰'], ['D', '封鎖戰']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "電腦由於唔明原因冒煙時，應避開（）進行處置，以防爆炸傷人。",
+    "llm_output": "正確答案：B. 屏幕正面\n\n解釋：當電腦出現異常情況如冒煙時，應避免直接站在屏幕正面，因為屏幕背面或側面可能含有高電壓或熱源，直接接觸可能會導致電擊或燒傷。因此，最安全的做法是保持距離，並按照安全指南指示進行處理，通常包括關閉電源並遠離現場。在這種情況下，屏幕正面通常是最安全的選擇，因為它通常不會直接暴露於高電壓或熱源。然而，在實際情況中，最重要的是保持安全距離，並遵循專業的應急程序。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '屏幕後面'], ['B', '屏幕正面'], ['C', '屏幕側面'], ['D', '屏幕下方']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "根據「企業職工傷亡事故分類標準」（GB6441-1986），下列傷害唔屬於起重傷害嘅係",
+    "llm_output": "正確答案係 A。根據「企業職工傷亡事故分類標準」（GB6441-1986），起重傷害主要指涉於起重機操作過程中發生嘅事故，例如起重機吊物墜落（C）、起重機倒塌（B）以及員工在起重作業時不慎墮落（D）。而選項A描述嘅是起重機電線老化導致的觸電傷害，這屬於電氣事故，而非起重傷害。因此，A是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '起重機嘅電線老化，作業時造成觸電傷害'], ['B', '起重機由於地基不穩突然倒塌造成嘅傷害'], ['C', '起重機吊物墜落造成嘅傷害'], ['D', '員工喺起重作業時唔慎墮落']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "「中華人民共和國安全生產法」規定嘅安全生產管理方針係",
+    "llm_output": "正確答案係B。「中華人民共和國安全生產法」規定嘅安全生產管理方針係「安全第一、預防為主、綜合治理」。這一原則強調了安全生產的重要性，並提出了預防為主的策略，以及綜合治理的思路，旨在全面提升安全生產水平。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '安全為咗生產，生產必須安全'], ['B', '安全第一、預防為主、綜合治理'], ['C', '安全第一，預防為主'], ['D', '安全生產人人有責']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於檢驗檢疫機關發現涉嫌恐怖活動物品後嘅做法正確嘅係",
+    "llm_output": "D. 應當依法扣留，並立即將物品移送公安機關或者國家安全機關\n\n正確答案為D。當檢驗檢疫機關發現涉嫌恐怖活動的物品時，應當依法進行扣留，並立即將物品移送給有權處理的相關機構，這可以是公安機關或國家安全機關。其他選項描述的處理程序不符合相關法律規定。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '應當依法扣留，喺五日內將物品送交國家安全機關'], ['B', '可以將物品扣留'], ['C', '應當依法扣留，喺五日內將物品送交公安機關'], ['D', '應當依法扣留，並立即將物品移送公安機關或者國家安全機關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "而家世界上兩個原子彈最多嘅國家係",
+    "llm_output": "A. 美俄\n\n截至目前，美国和俄罗斯是世界上拥有最多核武器的国家，包括原子弹。两国在冷战期间就拥有大量的核武库，并在冷战结束后继续维持庞大的核武器库存。尽管近年来两国都在努力减少核武器数量，但它们仍然是全球主要的核武器持有者。其他选项中的国家虽然也拥有核武器，但数量上无法与美俄相提并论。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '美俄'], ['B', '美法'], ['C', '美中'], ['D', '美印']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "使用滅火器撲救火災時要對準火災（）噴射。",
+    "llm_output": "正確答案：A. 根部\n\n使用滅火器時，應對準火災的根部噴射。這是因為火災的根部通常是指火源或燃料的所在，從根部噴射滅火劑可以有效地切断火源的供氧，從而熄滅火災。其他選項如上部或中部，通常不是最有效的滅火方法，因為火勢可能會迅速向上或向周圍擴散。因此，使用滅火器時，應專注於對準火災的根部進行有效滅火。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '根部'], ['B', '上部'], ['C', '中部'], ['D', '均可']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "「國家安全法」規定，機關、團體同其他組織應當對本單位嘅人員進行()教育。",
+    "llm_output": "D. 維護國家安全教育\n\n根據「國家安全法」的規定，機關、團體和其他組織有責任對其成員進行維護國家安全教育。這類教育旨在提高公眾的國家安全意識，讓公眾了解並遵守相關法律法規，以保護國家安全。因此，正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '職業技術教育'], ['B', '職業道德教育'], ['C', '政治思想教育'], ['D', '維護國家安全教育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀90年代，（）爆發標誌住戰爭進入高技術局部戰爭嘅歷史時期。",
+    "llm_output": "D. 海灣戰爭\n\n20世紀90年代，海灣戰爭的爆發標誌著戰爭進入高技術局部戰爭的歷史時期。這場戰爭在1991年1月17日開始，主要是由伊拉克和科威特之間因領土和資源問題而引發的衝突，最終以多國聯合部隊對伊拉克的武力介入告終。海灣戰爭中大量使用了高技術武器，如精确制導的導彈和無人機，這標誌著現代戰爭的轉變。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '伊拉克戰'], ['B', '兩伊戰爭'], ['C', '馬島戰爭'], ['D', '海灣戰爭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "伊拉克戰爭使用嘅()採用了毫米波制導技術。",
+    "llm_output": "正確答案為：A. 「愛國者」導彈。\n\n伊拉克戰爭期間，「愛國者」（Patriot）導彈系統被廣泛使用，並且採用了毫米波制導技術。毫米波（Millimeter Wave）技術能夠提供高精度的目標捕捉和導航能力，尤其在惡劣天氣條件下也能保持高效能。因此，選項A是正確答案。其他選項如「寶石路」（Paveway）激光制導炸彈、「美洲獅」級隱身護衛艦以及「戰斧」式巡航導彈，它們各自採用了不同的制導技術，而非毫米波制導技術。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「愛國者」導彈'], ['B', '「寶石路」激光制導炸彈'], ['C', '「美洲獅」級隱身護衛艦'], ['D', '「戰斧」式巡航導彈']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "根據「國家安全法」嘅規定，()依法收集涉及國家安全嘅情報信息。",
+    "llm_output": "正確答案為C。根據「國家安全法」的規定，國家安全機關和公安機關依法收集涉及國家安全的情報信息。其他選項提到的檢察機關和軍隊保衛部門，雖然在某些情境下也可能參與國家安全相關的工作，但根據這條法律，主要負責收集情報信息的是國家安全機關和公安機關。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '國家安全機關、檢察機關'], ['B', '公安機關、軍隊保衛部門'], ['C', '國家安全機關、公安機關'], ['D', '國家安全機關、軍隊保衛部門']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "加強安全培訓，樹立防爆意識，嚴格控制爆炸（）嘅相互作用。",
+    "llm_output": "正確答案為 D. 物質之間。\n\n解析：此題考查的是安全培訓中關於防爆意識的知識。在安全研究中，爆炸通常與三要素相關，即燃料、氧氣和點火源。然而，此題中提到的“嚴格控制爆炸物質之間嘅相互作用”指的是控制不同爆炸性物質之間的相互作用，以防止意外爆炸的發生。因此，選項 D 是正確答案。其他選項如 A、B 和 C 均不直接涉及爆炸物質之間的相互作用，故不為正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '與事故'], ['B', '與燃燒'], ['C', '三要素'], ['D', '物質之間']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列講法中唔正確嘅係",
+    "llm_output": "正確答案係C。\n\nA選項中，公安機關確實有責任制止宣揚極端主義的行為，並依法追究相關法律責任，因此A選項描述是正確的。\n\nB選項中，公安機關發現極端主義活動相關物品，確實有權收繳，以防止這些物品被用於進一步的犯罪活動，故B選項描述亦是正確的。\n\nC選項中，強行帶離現場並登記身份信息需要符合法律程序，不能任意進行。只有在特定情況下，如存在即時威脅公共安全等緊急情況，公安機關方可採取強制措施。因此，C選項描述不當，是錯誤的。\n\nD選項中，公安機關確實有權在必要時制止利用極端主義危害公共安全的行为，以保護公共安全，因此D選項描述是正確的。\n\n總結，C選項描述不當，是錯誤的講法。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '公安機關對宣揚極端主義嘅行為應當及時制止，並依法追究其法律責任'], ['B', '公安機關發現極端主義活動嘅物品等，應當予以收繳'], ['C', '公安機關發現極端主義活動嘅，應當將有關人員強行帶離現場並登記身份信息'], ['D', '公安機關發現利用極端主義危害公共安全嘅，必要時可以加以制止']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "中華人民共和國中央軍事委員會同中國共產黨中央軍事委員會嘅關係係",
+    "llm_output": "正確答案為 D. 兩個機構，一個名稱。\n\n中华人民共和国中央军事委员会（简称中军委）和中国共产党中央军事委员会（简称中组部）是两个不同的机构，但它们在名称上使用相同的名称，以避免混淆。中军委主要负责国家的军事战略和国防事务，而中组部则负责党的军事工作，包括党的军事组织和军事政策。尽管它们在名称上相同，但它们在组织结构和职能上是有区别的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '一個機構，兩個名稱'], ['B', '一個機構，一個名稱'], ['C', '兩個機構，兩個名稱'], ['D', '兩個機構，一個名稱']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "火災使人致命嘅最主要原因係",
+    "llm_output": "C. 窒息\n\n火災中致命的主要原因通常是由于吸入有毒烟雾和气体导致的窒息。在火灾中，烟雾含有多种有害物质，如一氧化碳、氰化物等，这些物质会迅速降低人的氧合能力，导致窒息，进而威胁生命。虽然其他选项如烟、撤离时的踩踏和人员逃难困难也是火灾中常见的危险因素，但窒息是导致死亡的最主要原因。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '煙'], ['B', '撤離時人員相互踩踏'], ['C', '窒息'], ['D', '人員逃離困難']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "2002年9月，美國正式推出咗「()」嘅戰略，放棄咗以往只有美國受到直接威脅時先使用武力嘅原則。",
+    "llm_output": "正確答案：A. 先發制人\n\n2002年9月，美國总统乔治·W·布什正式推出了「先發制人」（Preemptive Strike）的戰略，這一戰略標誌著美國安全政策的一個轉變。在此之前，美國通常只有在面臨直接威脅時才會使用武力，而「先發制人」戰略則允許美國在潛在威脅尚未轉化為實際攻擊之前，就採取先發制人的行動。這一戰略的推出，反映了美國對於恐怖主義和威脅的擔憂，以及其主動出击以防止未來可能危機的決策。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '先發制人'], ['B', '大規模報復戰略'], ['C', '遏制戰略'], ['D', '新靈活反應戰略']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於機械設計本質安全嘅講法，唔正確嘅係",
+    "llm_output": "正確答案係 D。機械設計本質安全是指在設計階段就考慮到安全性，而不是後續添加安全裝置。本質安全設計包括使用非危險材料（A）、減少或避免在危險區域工作（B）、在設計中排除危險部件（C）。使用附加的安全裝置（D）不属于本質安全設計，因為它是在機械已經設計完成後才添加的，目的是為了補充設計中的不足，而不是從根本上消除危險。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '機械設計本質安全包括唔使用危險材料'], ['B', '機械設計本質安全包括減少或避免喺危險區域工作'], ['C', '機械設計本質安全包括喺設計中排除危險部件'], ['D', '機械設計本質安全包括使用附加嘅安全裝置']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "對可能即將發生或者已經發生嘅危害國家安全嘅事件，()以上地方人民政府及其有關主管部門應當立即按照規定向上一級人民政府及其有關主管部門報告，必要時可以()上報。",
+    "llm_output": "正確答案為 A. 縣級、越級。\n\n根據相關法律法規，對於可能即將發生或者已經發生對國家安全構成威脅的事件，縣級以上地方人民政府及其相關主管部門有責任立即向上一級人民政府及其相關主管部門報告。在必要情況下，可以越級報告，即直接向更高級的政府機構報告，而不必遵循正常的逐級報告程序。這樣做可以確保迅速有效地應對安全威脅，並及時採取相應措施。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '縣級、越級'], ['B', '省級、越級'], ['C', '省級、逐級'], ['D', '縣級、逐級']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "國家建立國家安全工作督促檢查同()，確保國家安全戰略同重大部署貫徹落實。",
+    "llm_output": "正確答案：C. 責任追究機制\n\n解析：此題考查的是國家安全工作中的監督檢查與責任追究機制的結合。國家安全工作不僅僅是監督檢查，還需要建立責任追究機制，以確保國家安全戰略和重大部署能夠得到徹底實施。責任追究機制能夠促使相關部門和個人對國家安全工作負責，並對違規行為進行追責，從而提升國家安全工作的整體效能。因此，選項C是正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '責任目標'], ['B', '崗位責任制'], ['C', '責任追究機制'], ['D', '年度考評']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "因事故導致嚴重嘅外部出血時，應",
+    "llm_output": "C. 用布料直接包裹，制止出血\n\n在因事故导致严重外部出血的情况下，最紧迫的措施是立即采取措施控制出血，以防止失血过多导致休克或其他严重后果。选项C提到用布料直接包裹伤口以止血，这是正确的急救措施。首先，应该尽可能保持伤口清洁，避免进一步感染，但首要任务是迅速控制出血。因此，用手按住伤口（选项B）虽然可以暂时止血，但不如使用布料直接包裹伤口来得有效和持久。清洗伤口（选项A）和用药棉吸去血液（选项D）在紧急情况下不是首要步骤，因为它们不能立即控制出血。因此，正确答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '清洗傷口後加以包裹'], ['B', '用手按住傷口止血'], ['C', '用布料直接包裹，制止出血'], ['D', '用藥棉將流出嘅血液吸去']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "為調查恐怖活動嫌疑，經有關機關批准，可以根據其危險程度，責令恐怖活動嫌疑人員遵守下列一項或者多項約束措施。其中唔包括",
+    "llm_output": "正確答案為 D。\n\n根據中华人民共和国的相关法律，如《中华人民共和国反恐怖主义法》，恐怖活动嫌疑人员在接受调查期间，可能会被要求遵守一系列的约束措施。这些措施旨在防止嫌疑人逃避调查、妨碍调查工作，以及防止其可能实施的恐怖活动。\n\nA项“不得同特定的人员会见或者通信”，B项“未经公安机关批准不得离开所居住的市、县或者指定的地方”，以及C项“定期向公安机关报告活动情况”，均是可能被要求遵守的约束措施。\n\n然而，D项“两年内不得参加大型群众性活动或者从事特定活动”，并非是法律规定的强制性约束措施。虽然在某些情况下，为了确保公共安全，可能会对嫌疑人员的活动进行限制，但这种限制通常是基于具体情况和调查需要，而非固定期限的全面禁止。因此，D项不是调查恐怖活动嫌疑人员时必须遵守的约束措施之一。\n\n因此，正确答案是 D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '不得同特定嘅人員會見或者通信'], ['B', '未經公安機關批准唔得離開所居住嘅市、縣或者指定嘅處所'], ['C', '定期向公安機關報告活動情況'], ['D', '兩年內唔得參加大型羣眾性活動或者從事特定嘅活動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "每年嘅()係全民國家安全教育日。",
+    "llm_output": "正確答案係C。每年嘅4月15日係全民國家安全教育日。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '04/05'], ['B', '02/12'], ['C', '15/04'], ['D', '01/08']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於反恐怖主義工作嘅講法唔正確嘅係",
+    "llm_output": "正確答案係 D。反恐怖主義工作應該是懲罰與預防並重，而不是僅僅以懲罰為主。其他選項描述的方法和原則，如保持主動、專門工作與群眾路線結合、堅持先發制敵，都是正確的反恐工作原則。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '保持主動嘅原則'], ['B', '堅持專門工作同羣眾路線相結合'], ['C', '堅持先發制敵嘅原則'], ['D', '懲罰為主、懲防結合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "()係現代戰爭中奪取戰場電磁優勢極為重要嘅作戰手段，其目嘅係幹擾同破壞敵電子設備嘅正常工作，保障己方電子設備正常發揮作用。",
+    "llm_output": "正確答案係 D. 電子幹擾同反幹擾。\n\n電子幹擾（Electronic Warfare, 簡稱EW）是指在戰場上使用電子設備干擾或破壞敵方之電子設備，以保障己方之電子設備正常運作。反電子幹擾（Counter Electronic Warfare, 簡稱CEW）則是指採取措施，以防止或減少敵方對己方電子設備的干擾或破壞。\n\n在現代戰爭中，電子幹擾和反幹擾是争夺戰場電磁優勢的重要手段。因此，選項 D 最全面地描述了這一概念。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '電子摧毀同反摧毀'], ['B', '電子摧毀'], ['C', '電子幹擾'], ['D', '電子幹擾同反幹擾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "根據「生產安全事故報告同調查處理條例」（國務院令第493號），安全生產監督管理部門同負有安全生產監督管理職責嘅有關部門逐級上報事故情況，每級上報嘅時間唔得超過（）小時。",
+    "llm_output": "D. 2\n\n根據「生產安全事故報告同調查處理條例」（國務院令第493號），安全生產監督管理部門同負有安全生產監督管理職責嘅有關部門逐級上報事故情況，每級上報嘅時間唔得超過2小時。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '3'], ['B', '1'], ['C', '4'], ['D', '2']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列物質可用作生物戰劑嘅係（）",
+    "llm_output": "正確答案係C。炭疽桿菌（Bacillus anthracis）可用作生物戰劑。其他選項如窒息性毒劑、二氧化碳和糜爛性毒劑，雖然可能對人類健康造成威脅，但通常不被視為生物戰劑。生物戰劑是指那些能夠引起疾病或死亡的微生物、毒素或其生物製劑，炭疽桿菌即是一個典型的例子，它能夠引發炭疽病，這是一種致命的疾病。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '窒息性毒劑'], ['B', '二氧化碳'], ['C', '炭疽桿菌'], ['D', '糜爛性毒劑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上第一支激光槍出現喺",
+    "llm_output": "C. 1973年蘇聯\n\n世界上第一支激光槍是在1973年由蘇聯研製成功的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '1978年美國'], ['B', '1975年美國'], ['C', '1973年蘇聯'], ['D', '1976年德國']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "二戰時期，德軍坦克最常使用嘅燃料係",
+    "llm_output": "正確答案係 A. 柴油。\n\n在二戰時期，德軍坦克主要使用的是柴油作为燃料。柴油发动机的优点在于其较高的燃油效率和较长的续航能力，这对于需要长时间作战的坦克来说尤为重要。此外，柴油燃料在当时的供应和生产上相对更为稳定，这也有助于保障坦克的作战能力。\n\n汽油虽然也是当时常见的汽车燃料，但由于其易燃性和较低的能量密度，并不适合作为坦克的燃料。酒精和煤油在当时并不是德軍坦克的主要燃料选择。因此，柴油是德軍坦克最常用的燃料。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '柴油'], ['B', '汽油'], ['C', '酒精'], ['D', '煤油']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "某建築公司喺試驗吊具嘅過程中，由於操作工唔慎，發生吊具墜落，造成1人死亡嘅生產安全事故。根據「企業職工傷亡事故分類」（GB6441-1986），該起事故嘅類別係",
+    "llm_output": "正確答案：D. 起重傷害\n\n解析：根據「企業職工傷亡事故分類」（GB6441-1986），起重傷害是指在起重設備操作過程中，由於起重設備或起重工具失靈、操作不當等原因導致的職工傷亡事故。本案例中，由於操作工操作不慎導致吊具墜落，造成1人死亡，符合起重傷害事故的定義。因此，答案選D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '坍塌'], ['B', '高處墜落'], ['C', '物體打擊'], ['D', '起重傷害']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "一戰中曾有一艘德軍潛艇喺一小時內擊沉三艘英國巡洋艦，令世界海軍為之震驚，它係：",
+    "llm_output": "D. U-9\n\n在第一次世界大戰期間，U-9潜艇在1915年2月的一次突擊中，成功在一小時內擊沉了英国巡洋艦“霍格号”（HMS Aboukir）、“克雷西号”（HMS Cressy）和“霍格号”（HMS Hogue），這場事件震惊了整個世界海軍。U-9潜艇的這次行動展示了潛艇戰的巨大潛力，並對當時的海戰戰術產生了深遠的影響。因此，正確答案是D. U-9。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'U-15'], ['B', 'U-17'], ['C', 'U-5'], ['D', 'U-9']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "安全帶使用（）年後應檢查一次？",
+    "llm_output": "正確答案：C. 3年\n\n根據一般安全標準和建議，安全帶應該在購買或使用後3年進行一次檢查。這一時間間隔是為了確保安全帶的完整性和功能性，確保在發生意外時能夠正確保護使用者。檢查包括檢查帶子是否有裂縫、損壞或磨損，以及檢查所有的扣環和鏟子是否正常工作。如果安全帶在檢查過程中發現任何問題，應立即更換。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '5年'], ['B', '4年'], ['C', '3年'], ['D', '2年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "根據刑事訴訟法嘅規定，()喺審判刑事案件嘅過程中，可以依法認定恐怖活動組織同人員。",
+    "llm_output": "正確答案係 D. 有管轄權嘅中級以上人民法院。\n\n根據刑事訴訟法，審判恐怖活動組織及其人員的案件，需要由有管轄權的中級以上人民法院進行。這一級人民法院擁有處理涉及恐怖活動案件的權限，能夠依法認定恐怖活動組織及其成員。其他選項如最高人民法院、高級人民法院或基層人民法院，通常不具備直接審理恐怖活動案件的權限。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '最高人民法院'], ['B', '有管轄權嘅高級以上人民法院'], ['C', '有管轄權嘅基層以上人民法院'], ['D', '有管轄權嘅中級以上人民法院']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "下列唔屬於中國嘅安全政策目嘅嘅一項係",
+    "llm_output": "正確答案係 D. 實行霸權主義。\n\n中國的安全政策主要集中在保持國內穩定和發展、維護周邊地區的和平與穩定，以及增進國際安全對話和合作。這些政策旨在促進區域和全球的和平与安全，符合國際社會的普遍利益。相反，實行霸權主義通常指的是單邊的強權行為，這與中國所倡導的和平共處五項原則和國際合作精神相悖。因此，D選項不属于中國的安全政策目標。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '保持中國自身嘅穩定同發展'], ['B', '維護周邊地區嘅和平同穩定'], ['C', '增進國際安全對話同合作'], ['D', '實行霸權主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "潛艇中通常使用再生藥板同空氣中嘅二氧化碳，水發生化學反應放出氧氣，請問呢種再生藥板嘅主要成分係咩？",
+    "llm_output": "正確答案係 A. 過氧化鈉。\n\n過氧化鈉（Na₂O₂）能夠與二氧化碳（CO₂）和水（H₂O）發生反應，產生氧氣（O₂）和碳酸鈉（Na₂CO₃）。這個反應的化學方程式如下：\n\n2 Na₂O₂ + 2 CO₂ + 2 H₂O → 4 NaOH + O₂ + 2 CO₃²⁻\n\n因此，過氧化鈉是潛艇中用來再生空氣的再生藥板的主要成分。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '過氧化鈉'], ['B', '氯化鈉'], ['C', '硝酸鈉'], ['D', '碳酸鈉']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-security_study",
+    "key_answer_type": "alphabet_option",
+    "question": "根據「國家安全法」嘅規定，關於全國人民代表大會常務委員會嘅職權正確嘅係()。",
+    "llm_output": "正確答案係A。根據「國家安全法」的规定，全國人民代表大會常務委員會具有決定個別省、自治區、直轄市進入緊急狀態的職權。這表明，在特定情況下，全國人大常委会有權決定特定地區進入緊急狀態，以應對國家安全方面的威脅。其他選項B、C和D描述的職權，如決定全國進入緊急狀態、決定全國總動員和決定戰爭狀態的宣佈，則不属于全國人大常委會的職權範圍。因此，A選項是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '決定個別省、自治區、直轄市進入緊急狀態'], ['B', '唔能決定全國進入緊急狀態'], ['C', '唔能決定全國總動員'], ['D', '唔能決定戰爭狀態嘅宣佈']]",
+    "is_correct": 1
+  }
+]

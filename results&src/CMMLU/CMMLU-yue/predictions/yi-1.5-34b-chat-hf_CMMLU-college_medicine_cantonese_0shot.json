@@ -1,0 +1,2732 @@
+[
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "NADH脫氫酶可以以下列邊一個輔酶或者輔基為受氫體",
+    "llm_output": "正確答案係 C. FMN。\n\nNADH脫氫酶是一個位於電子傳遞鏈中的酶，負責將NADH（煙酰胺腺嘌呤二核苷酸）中的電子傳遞到FMN（黃素單核苷酸），FMN作為這個反應嘅輔酶，進一步將電子傳遞到其他組分。因此，NADH脫氫酶嘅受氫體係FMN。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'FAD'], ['B', 'NAD+'], ['C', 'FMN'], ['D', 'CoQ']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺酶促反應中，決定反應特異性嘅係",
+    "llm_output": "B. 酶蛋白",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '輔酶'], ['B', '酶蛋白'], ['C', '無機離子'], ['D', '溶液PH']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺腦內，NH3嘅主要儲存同運輸形式係",
+    "llm_output": "B.  谷氨醯胺",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '尿素'], ['B', '谷氨醯胺'], ['C', '天冬氨酸'], ['D', '丙氨酸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "丙二酸對琥珀酸脫氫酶嘅抑制作用屬於",
+    "llm_output": "D. 競爭性抑制作用\n\n丙二酸是一種結構上類似琥珀酸的分子，它可以與琥珀酸脫氫酶進行競爭性抑制。這種抑制作用發生在丙二酸和酶的活性位點競爭性地結合，從而減少琥珀酸與酶活性位點的結合，從而降低酶的催化效率。因此，正確答案是 D. 競爭性抑制作用。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '非競爭性抑制作用'], ['B', '反競爭性抑制作用'], ['C', '非特異性抑制作用'], ['D', '競爭性抑制作用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "血液中嘅膽紅素主要運輸形式係",
+    "llm_output": "D. 膽紅素-清蛋白\n\n血液中的膽紅素主要與清蛋白（又稱白蛋白）結合運輸。清蛋白是血液中主要的蛋白質，負責結合並運輸膽紅素及其他一些物質。膽紅素是紅細胞分解的產物，需要被運輸到肝臟進行進一步處理並排出體外。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '膽紅素-Z蛋白'], ['B', '膽紅素-Y蛋白'], ['C', '葡糖醛酸-膽紅素'], ['D', '膽紅素-清蛋白']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "炎症介質嘅主要作用係使",
+    "llm_output": "正確答案係 D. 血管擴張通透性增加。炎症介質的主要作用是使血管擴張和增加通透性，從而允許白細胞和營養物質進入受影響的組織，以及排除細胞外液和毒素。這有助於免疫反應和組織修復的過程。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '組織間液滲透壓增高'], ['B', '組織分解代謝增強'], ['C', '局部氫離子濃度增高'], ['D', '血管擴張通透性增加']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "鳥氨酸循環嘅重要意義係",
+    "llm_output": "B.  合成尿素",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '解除氨毒'], ['B', '合成尿素'], ['C', '促進氨嘅轉運'], ['D', '促進氨基酸脫氨基']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於糖嘅有氧氧化，下述邊一項係錯嘅",
+    "llm_output": "以下係正確答案嘅選項：\n\nA. 葡萄糖氧化成CO2及H2 O時可以生成12分子ATP\n\n其他選項並非錯誤：\n\nB. 有氧氧化可以抑制糖酵解\nC. 三羧酸循環係三大營養物互變嘅途徑\nD. 糖有氧氧化係細胞獲得能量嘅主要方式",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '葡萄糖氧化成CO2及H2O時可以生成12分子ATP'], ['B', '有氧氧化可以抑制糖酵解'], ['C', '三羧酸循環係三大營養物互變嘅途徑'], ['D', '糖有氧氧化係細胞獲得能量嘅主要方式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊種維生素，參與構成轉氨酶嘅輔酶",
+    "llm_output": "D.  VitB6",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'VitB2'], ['B', 'VitB1'], ['C', 'VitB12'], ['D', 'VitB6']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "大葉性肺炎嘅併發症，錯誤嘅係",
+    "llm_output": "C. 肺褐色硬變",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '肺膿腫'], ['B', '肺肉質變'], ['C', '肺褐色硬變'], ['D', '膿胸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "輔酶NADP+分子中含有下列邊種B族維生素",
+    "llm_output": "正確答案係 A. 煙酰胺。輔酶NADP+ (Nicotinamide Adenine Dinucleotide Phosphate) 中含有煙酰胺，而煙酰胺係B族維生素中嘅一種，亦稱為維生素B3。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '煙酰胺'], ['B', '核黃素'], ['C', '葉酸'], ['D', '吡哆醛']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於抑癌基因嘅敘述，正確嘅係",
+    "llm_output": "A. 具有抑制細胞過度增殖嘅作用\n\n抑癌基因是一類控制細胞生長和分裂的基因，它們的功能是防止細胞過度增殖和發展成腫瘤。抑癌基因在正常細胞中存在，不僅限於腫瘤細胞。當這些基因的正常功能受到影響時，可能導致細胞生長失控，進而可能發展成腫瘤。因此，選項A是正確的敘述。\n\n選項B、C和D都是不正確的。抑癌基因並不僅存在於腫瘤細胞中（B錯誤），它們在正常細胞中也發揮作用。單靠抑癌基因正常表達不足以維持細胞的正常生長，因為細胞生長還受到其他基因和信號通路的調控（C錯誤）。人類正常細胞中存在抑癌基因（D錯誤），它們在防止腫瘤形成中扮演重要角色。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '具有抑制細胞過度增殖嘅作用'], ['B', '抑癌基因只存在於腫瘤細胞中'], ['C', '維持細胞嘅正常生長，只要抑癌基因正常表達即可'], ['D', '人類正常細胞中唔存在抑癌基因']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於ATP嘅敘述，錯誤嘅係",
+    "llm_output": "B.  ATP都係由呼吸鏈過程中經氧化磷酸化產生嘅\n\n呢個選項係錯誤嘅，因為雖然呼吸鏈過程中可以經由氧化磷酸化產生ATP，但ATP嘅產生並唔只限於呢一種方式。除此之外，ATP亦可以通过底物水平磷酸化同光合磷酸化等方式產生。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'ATP喺反應中供出高能磷酸基後即變為ADP'], ['B', 'ATP都係由呼吸鏈過程中經氧化磷酸化產生嘅'], ['C', 'ATP係生物體嘅直接供能物質'], ['D', 'ATP嘅化學能可轉變為機械能，滲透能，電能，熱能等']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "次級膽汁酸係",
+    "llm_output": "B.  喺腸內由初級膽汁酸轉變生成",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '喺肝內由初級遊離膽汁酸轉變生成'], ['B', '喺腸內由初級膽汁酸轉變生成'], ['C', '喺腸內由膽固醇轉變生成'], ['D', '喺肝內由初級結合膽汁酸轉變生成']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "有關酶活性測定同酶活性單位嘅描述，錯誤嘅係",
+    "llm_output": "D.   「單位」越大， 表示酶嘅活性越大或者酶嘅含量越高\n\n這個選項是錯誤的，因為酶活性單位是用來衡量酶催化能力的大小，而不是直接表示酶含量的高低。酶活性大表示單位時間內能夠轉化的底物量多，但不一定意味著酶的含量高。酶活性單位通常是指在特定條件下，酶在單位時間內轉化一定量底物的能力。因此，選項D錯誤地將酶活性單位與酶含量混為一談。其他選項描述的酶活性單位是正確的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一定條件下，每分鐘轉化1μmol底物所需嘅酶量為一個酶活性國際單位（IU）'], ['B', '每分鐘使1mol底物轉化為產物所需嘅酶量為1催量（Kat）'], ['C', '測定酶活性大小可用單位時間內產物嘅生成量嚟表示'], ['D', '「單位」越大，表示酶嘅活性越大或者酶嘅含量越高']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "生物體內ATP嘅生成方式有幾多種",
+    "llm_output": "D.  2",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1'], ['B', '3'], ['C', '4'], ['D', '2']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "利用藥學手段阻斷鈉泵後，下列正確嘅係",
+    "llm_output": "D. 細胞容積增大\n\n當藥學手段阻斷鈉泵時，鈉離子無法被泵出細胞外，導致細胞內鈉離子濃度增加。這會使得細胞內液的滲透壓升高，水分子通過細胞膜進入細胞以沖淡滲透壓，從而導致細胞容積增大。這就是所謂的細胞水腫，又稱為細胞腫脹。因此，正確答案是細胞容積增大（選項D）。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '阻止細胞水腫'], ['B', '細胞內Na移向細胞外'], ['C', '細胞內K濃度升高'], ['D', '細胞容積增大']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一種酶係脂肪酸-氧化嘅限速酶",
+    "llm_output": "D. 肉鹼脂酰轉移酶I (Carnitine palmitoyltransferase I, CPT I) 係脂肪酸氧化的限速酶。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '脂酰輔酶A脫氫酶'], ['B', '肉鹼脂酰轉移酶Ⅱ'], ['C', '脂酰輔酶A合成酶'], ['D', '肉鹼脂酰轉移酶I']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "1分子硬脂酰輔酶A經1次β氧化後，其產物(除16碳脂酰輔酶A外嘅其他產物)徹底氧化可淨生成幾多分子ATP",
+    "llm_output": "正確答案係 C. 14 分子。\n\n解釋：\n1. 分子硬脂酰輔酶A（18碳）經過1次β氧化後，會變成16碳脂酰輔酶A，並產生1分子NADH和1分子FADH2。\n2. 1分子NADH在氧化磷酸化過程中可以產生約2.5分子ATP，1分子FADH2則可以產生約1.5分子ATP。\n3. 因此，除了16碳脂酰輔酶A外，還會產生2.5 + 1.5 = 4分子ATP。\n4. 16碳脂酰輔酶A再經過完全的β氧化（4次β氧化），每次都會產生1分子NADH和1分子FADH2，共產生8分子NADH和8分子FADH2。\n5. 8分子NADH x 2.5分子ATP/NADH + 8分子FADH2 x 1.5分子ATP/FADH2 = 20 + 12 = 32分子ATP。\n6. 加上β氧化前已經產生的4分子ATP，總共可以產生32 + 4 = 36分子ATP。\n\n然而，問題要求的是「淨生成幾多分子ATP」，即是不包括β氧化前已經產生的4分子ATP，所以答案是36 - 4 = 14分子ATP。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '12分子'], ['B', '9分子'], ['C', '14分子'], ['D', '5分子']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列物質徹底氧化生成ATP最多嘅係",
+    "llm_output": "正確答案嘅選項係 B. 果糖-1,6-二磷酸。\n\n解析：果糖-1,6-二磷酸係三羧酸循環中嘅一個重要 intermediate，可以經過完全氧化分解生成最多嘅 ATP。相比之下，其他選項嘅氧化過程會產生較少嘅 ATP，因此果糖-1,6-二磷酸係最適合嘅答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '葡糖-6-磷酸'], ['B', '果糖-1，6-二磷酸'], ['C', '甘油醛-3-磷酸'], ['D', '磷酸烯醇式丙酮酸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "與內髓部高滲嘅形成有關嘅係",
+    "llm_output": "正確答案係 B. NaCl同尿素。\n\n內髓部高滲嘅形成主要係由於髓袢升支粗段對NaCl嘅重吸收以及髓袢中尿素嘅再循环。呢個過程幫助維持腎臟內髓部嘅高滲狀態，從而影響尿液嘅濃縮功能。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'NaCl'], ['B', 'NaCl同尿素'], ['C', 'NaCl同KCl'], ['D', 'K']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "根據抑制劑同酶結合嘅緊密程度唔同，抑制作用可以分為以下兩大類",
+    "llm_output": "正確答案嘅選項係：\n\nD. 可逆性抑制同不可逆性抑制",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '競爭性抑制同非競爭性抑制'], ['B', '混合性抑制同反競爭性抑制'], ['C', '競爭性抑制同反競爭性抑制'], ['D', '可逆性抑制同不可逆性抑制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "阿可匹林抑制血小板聚集，主要作用於",
+    "llm_output": "正確答案係 A. 環氧化酶。阿可匹林抑制環氧化酶（ cyclooxygenase, COX），從而減少血栓素（thromboxane）嘅生成，進而抑制血小板聚集。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '環氧化酶'], ['B', '血栓素合成酶'], ['C', '碳脂酶A2'], ['D', '凝血酶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列對結合膽紅素嘅說法邊一項係錯嘅",
+    "llm_output": "C. 隨正常人尿液大量排出\n\n結合膽紅素在正常情況下並唔係大量隨尿液排出，而係主要通過肝臟排出體外。當肝臟功能異常時，結合膽紅素才會積累並隨尿液排出。因此，選項 C 係錯誤嘅。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '唔易透過生物膜'], ['B', '同重氮試劑呈直接反應陽性'], ['C', '隨正常人尿液大量排出'], ['D', '主要係雙葡萄全算膽紅素酯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "間質性肺炎嘅主要病變特點係",
+    "llm_output": "A. 間質充血水腫，單核細胞同淋巴細胞浸潤\n\n間質性肺炎是一種疾病，主要影響肺部的間質組織，導致肺泡壁的炎症和纖維化。其病理特點通常包括間質的充血水腫，以及單核細胞和淋巴細胞的浸潤，這有助於診斷和理解疾病的過程。其他選項雖然可能在肺部疾病中見到，但不是間質性肺炎的主要病變特點。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '間質充血水腫，單核細胞同淋巴細胞浸潤'], ['B', '間質充血水腫，中性粒細胞浸潤'], ['C', '間質充血水腫，淋巴細胞浸潤'], ['D', '間質充血水腫及出血現象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "食物特殊動力作用最高嘅物質係",
+    "llm_output": "C. 脂肪",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '蛋白質'], ['B', '糖'], ['C', '脂肪'], ['D', '混合食物']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列與脂肪酸氧化無關嘅物質係",
+    "llm_output": "B. NADP+\n\n脂肪酸氧化過程中需要FAD（黃素腺嘌呤二核苷酸）、CoASH（辅酶A）和NAD+（煙酰胺腺嘌呤二核苷酸）來進行β-氧化，而NADP+（煙酰胺腺嘌呤二核苷酸磷酸）並不直接參與脂肪酸的氧化過程。NADP+通常參與的是生物合成反應中的還原反應，例如過氧化氫酶途徑和脂肪酸合成。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'FAD'], ['B', 'NADP+'], ['C', 'CoASH'], ['D', 'NAD+']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於化膿性炎嘅敘述，唔正確嘅係",
+    "llm_output": "D.  癰唔係多個癤嘅融合\n\n這個選項是不正確的描述。在醫學上，癰通常被描述為一個較大的化膿性感染，它可以由多個癤（毛囊炎）融合而成，或者是由於皮下組織的深層感染擴散所致。因此，選項D的描述是錯誤的。其他選項分別正確地描述了化膿性炎症的特徵：\n\nA. 黏膜的化膿性炎又可稱為膿性卡他，這是正確的。膿性卡他是指黏膜表面出現的化膿性炎症，常見於上呼吸道感染。\n\nB. 蜂窩織炎係指彌漫性化膿性炎，這是正確的。蜂窩織炎是一種皮下組織的急性化膿性炎症，通常由細菌感染引起，特徵是組織腫脹、紅熱、疼痛，並可能形成膿腫。\n\nC. 表面化膿係指發生喺漿膜、黏膜嘅化膿性炎，這是正確的。表面化膿是指化膿性炎症發生在體液可以直接接觸的組織表面，如漿膜和黏膜。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '黏膜嘅化膿性炎又可稱為膿性卡他'], ['B', '蜂窩織炎係指彌漫性化膿性炎'], ['C', '表面化膿係指發生喺漿膜、黏膜嘅化膿性炎'], ['D', '癰唔係多個癤嘅融合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "唔喺線粒體內傳遞嘅電子係",
+    "llm_output": "正確答案係 A. CYT P450。\n\nCYT P450 係一種位於細胞質中嘅酶，主要參與藥物同毒素嘅代謝。佢唔喺線粒體內傳遞電子，而係屬於微粒體呼吸鏈嘅一部分，響微粒體嘅內側膜上運作。而其他選項 B、C、D 都係線粒體內傳遞電子嘅組分，屬於電子傳遞鏈（respiratory chain）嘅一部份。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'CYT P450'], ['B', 'CYT B'], ['C', 'CYT A3'], ['D', 'CYT C']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊種物質唔屬於類脂",
+    "llm_output": "正確答案嘅選項係 D. 三酰甘油。\n\n三酰甘油唔屬於類脂，而係屬於脂質中嘅另一類，叫做中性脂肪或甘油三酯。佢係由三分子脂肪酸同一個甘油分子結合而成嘅化合物，並且係人體內嘅主要能量儲存形式之一。類脂主要包括膽固醇、磷脂（如卵磷脂）和糖脂。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '糖脂'], ['B', '膽固醇'], ['C', '卵磷脂'], ['D', '三酰甘油']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "肝可以將乳酸改造轉變為下列物質，錯誤嘅係",
+    "llm_output": "正確答案嘅選項係 D. 轉變為營養必需氨基酸。\n\n肝臟可以將乳酸通過糖異生作用轉變為葡萄糖，並且可以將乳酸轉變為糖原儲存或轉變為甘油三酯。但是，肝臟不能將乳酸轉變為營養必需氨基酸。必需氨基酸必須通過飲食攝取，肝臟無法合成它們。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '轉變為糖原儲存'], ['B', '轉變為甘油三酯'], ['C', '轉變為血中葡萄糖'], ['D', '轉變為營養必需氨基酸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列組織中唔可能發生化生嘅係",
+    "llm_output": "正確答案嘅選項係：\n\nA. 神經纖維\n\n化生（Metaplasia）係指一種組織或細胞類型轉化為另一種正常喺該位置不存在嘅組織或細胞類型嘅過程。化生通常發生喺上皮組織、間質組織（如結締組織）或者內分泌細胞。神經纖維屬於神經組織，唔會發生化生。而腎盂黏膜上皮、結締組織和鼻腔黏膜上皮都可能發生化生。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '神經纖維'], ['B', '腎盂黏膜上皮'], ['C', '結締組織'], ['D', '鼻腔黏膜上皮']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "胞質中1MOL乳酸徹底氧化為H2O跟CO2，產生ATP嘅摩爾數可能係",
+    "llm_output": "胞質中1 MOL乳酸徹底氧化為H2 O跟CO2的過程中，會經歷以下幾個階段：\n\n1. 乳酸循環（Correction of lactate to pyruvate）: 乳酸被轉化為丙酮酸（pyruvate），這一步驟不產生或消耗ATP。\n\n2. 丙酮酸進入線粒體並氧化分解為乙酰輔酶A（Acetyl-CoA）: 這一步驟會產生NADH和FADH2。\n\n3. 三羧酸循環（Tricarboxylic acid cycle，又稱Krebs cycle）: 每分子乙酰輔酶A會在這個循環中產生3分子NADH、1分子FADH2和1分子GTP（相當於1分子ATP）。\n\n4. 電子傳遞鏈（Electron transport chain）和氧氣呼吸鏈：NADH和FADH2會在電子傳遞鏈中產生ATP，具體數量取決於細胞的氧氣供應和電子傳遞鏈的效率。一般來說，每分子NADH會產生2.5分子ATP，每分子FADH2會產生1.5分子ATP。\n\n根據以上過程，1分子乳酸最終會產生：\n\n- 來自Krebs cycle的ATP: 1分子乙酰輔酶A x 1分子GTP = 1分子ATP\n- 來自NADH的ATP: 3分子NADH x 2.5分子ATP = 7.5分子ATP\n- 來自FADH2的ATP: 1分子FADH2 x 1.5分子ATP = 1.5分子ATP\n\n總共：1 + 7.5 + 1.5 = 10分子ATP\n\n因此，正確答案是：\n\nC.  9  10",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '12 13'], ['B', '11 12'], ['C', '9 10'], ['D', '14 15']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "有關酶蛋白或者輔助因子",
+    "llm_output": "D. 一種酶蛋白只能同一種輔助因子。\n\n這個選項通常被認為是正确的，因为酶蛋白（即酶的蛋白质部分）通常与特定类型的辅因子（即辅助因子）结合，形成具有催化活性的全酶。辅因子是酶活性所必需的小分子或金属离子，它们与酶蛋白特异性结合，帮助催化生化反应。其他选项通常不正确，因为酶蛋白和辅因子单独存在时通常没有催化作用，它们需要结合在一起形成全酶才能发挥催化功能。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '酶蛋白參與氫原子或者電子嘅作用'], ['B', '一種酶蛋白可同多種輔助因子結合成全酶'], ['C', '酶蛋白或者輔助因子單獨存在時均有催化作用'], ['D', '一種酶蛋白只能同一種輔助因子']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "酶嘅特異性係指",
+    "llm_output": "B.  酶對其所催化嘅底物有特異嘅選擇性",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '酶催化反應嘅機制各唔同'], ['B', '酶對其所催化嘅底物有特異嘅選擇性'], ['C', '酶喺細胞中嘅定位係特異性嘅'], ['D', '酶與輔酶特異嘅結合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "生物體可以直接利用嘅能量物質係",
+    "llm_output": "正確答案係 A. ATP (三磷酸腺苷)。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'ATP'], ['B', '磷酸肌酸'], ['C', 'FAD'], ['D', 'ADP']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "有關酶同溫度嘅關係，錯誤嘅論述係",
+    "llm_output": "C. 酶蛋白易變性，所以反應都應該喺低溫中進行\n\n呢個選項唔係完全正確。雖然酶蛋白確實容易因為過高嘅溫度而變性，但唔一定需要喺低溫下進行反應。酶嘅最適溫度通常係佢最高活性嘅溫度，呢個溫度下，酶可以有效地催化反應，而唔會因為過熱而失去活性。低溫會降低酶嘅活性，但係喺一定範圍內，溫度回升可以恢復酶嘅活性（選項A正確）。提取酶時，低溫可以幫助減少酶嘅活性損失同變性（選項B正確），而酶嘅最適溫度確實會影響反應時間（選項D正確）。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '低溫可降低酶嘅活性但唔使酶破壞，溫度回升時酶又恢復活性'], ['B', '從生物組織中提取酶時應該喺低溫下操作'], ['C', '酶蛋白易變性，所以反應都應該喺低溫中進行'], ['D', '酶嘅最適溫度同反應時間有關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "糖原合成過程中嘅關鍵酶係",
+    "llm_output": "A. 糖原合酶",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '糖原合酶'], ['B', '分支酶'], ['C', '糖原磷酸化酶'], ['D', '己糖激酶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "高分化鱗癌中最典型嘅特徵係",
+    "llm_output": "B. 出現角化珠",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '細胞分裂象少'], ['B', '出現角化珠'], ['C', '實質與間質分界清楚'], ['D', '形成癌巢']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "患下列邊項疾病時，基礎代謝率明顯升高",
+    "llm_output": "C. 甲狀腺功能亢進\n\n甲狀腺功能亢進時，體內的甲狀腺激素水平升高，會加速細胞的新陳代謝，從而使基礎代謝率明顯升高。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '紅細胞增多症'], ['B', '糖尿病'], ['C', '甲狀腺功能亢進'], ['D', '白血病']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "以下疾病中唔易發生癌變嘅係",
+    "llm_output": "正確答案嘅選項係 B. 十二指腸潰瘍。\n\n十二指腸潰瘍係一種消化性潰瘍，主要係由於胃酸分泌過多或腸黏膜防禦能力下降等因素引起，雖然長期嘅潰瘍可能導致慢性炎症，但係一般唔易直接發展成癌症。\n\n而其他選項：\nA. 結腸多發性腺瘤 - 係一種結腸直腸內嘅良性腫瘤，但係有較高嘅風險進展為結腸直腸癌，尤其係多發性腺瘤。\nC. 萎縮性胃炎 - 係一種慢性胃炎，其中胃黏膜組織出現萎縮，有時會伴隨胃黏膜異常增生，增加患胃癌嘅風險。\nD. 交界痣 - 係一種皮膚嘅良性腫瘤，但係有較高嘅風險發展為皮膚癌，尤其係黑色素瘤。\n\n因此，十二指腸潰瘍相對嚟講唔易發生癌變。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '結腸多發性腺瘤'], ['B', '十二指腸潰瘍'], ['C', '萎縮性胃炎'], ['D', '交界痣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於酶嘅活性中心嘅論述，錯誤嘅係",
+    "llm_output": "A. 與酶活性有關嘅必需基團喺一級結構上彼此靠近，形成活性中心\n\n這個選項是錯誤的。酶的活性中心是由不同一級結構上的必需基團組成的，這些基團在一維肽鏈上並不一定彼此靠近，但在三維結構中它們會聚集在一起形成活性中心。活性中心的三維結構對於酶的催化活性至關重要。其他選項描述的是酶活性中心的正確特性。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '與酶活性有關嘅必需基團喺一級結構上彼此靠近，形成活性中心'], ['B', '活性中心以外嘅必需基團與維持酶嘅特定空間構象有關'], ['C', '酶分子中嘅各種化學基團唔一定都與酶活性有關'], ['D', '活性中心嘅結合基團與底物結合形成酶-底物複合物']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一組酶係糖酵解嘅關鍵酶",
+    "llm_output": "A. 已糖激酶，果糖磷酸激酶-1，丙酮酸激酶\n\n這是糖酵解途徑的三種關鍵酶，它們調節著糖從葡萄糖到丙酮酸的轉化過程。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '已糖激酶，果糖磷酸激酶-1，丙酮酸激酶'], ['B', '已糖激酶，醛縮酶，丙酮酸激酶'], ['C', '已糖激酶，果糖磷酸激酶-1，葡糖-6-磷酸酶'], ['D', '已糖激酶，果糖-1，6-二磷酸酶，丙酮酸激酶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "非競爭性抑制劑對酶促反應速度嘅影響係",
+    "llm_output": "A. Km唔變， Vmax下降",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'Km唔變，Vmax下降'], ['B', 'Km下降，Vmax上升'], ['C', 'Km下降，Vmax下降'], ['D', 'Km上升，Vmax唔變']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "以下生理功能活動中存在負反饋調節嘅係",
+    "llm_output": "B. 血糖維持穩定嘅過程\n\n負反饋調節係指一個系統嘅輸出反饋回輸入端，從而對輸入或輸出進行抑制嘅調節方式。呢種調節能夠維持系統嘅穩定性。血糖維持穩定嘅過程就係一個典型嘅負反饋調節，例如當血糖水平升高時，胰腺會分泌胰島素，幫助細胞吸收葡萄糖並降低血糖水平；相反，當血糖水平過低時，胰腺會分泌胰高血糖素，刺激肝臟釋放葡萄糖並提高血糖水平。透過呢種負反饋機制，血糖水平能夠保持穩定。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '望梅止渴嘅過程'], ['B', '血糖維持穩定嘅過程'], ['C', '生理性止血嘅過程'], ['D', '膝跳反射嘅過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺肌肉組織中，氨基酸脫氨基嘅主要方式係",
+    "llm_output": "正確答案係 A. 嘌呤核苷酸循環。\n\n喺肌肉組織中，氨基酸脫氨基的主要方式係通過嘌呤核苷酸循環。呢個過程涉及 ATP 的嘌呤核苷酸形式，特別係腺苷酸（AMP），作為氨基的接受者，從而幫助肌肉中的氨基酸去除氨基。呢個過程對於肌肉組織尤其重要，因為佢可以喺無氧條件下進行，適應肌肉快速脱氨嘅需要。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '嘌呤核苷酸循環'], ['B', '轉氨基作用'], ['C', '氧化脫氨基作用'], ['D', '直接脫氨基作用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "1分子葡萄糖經磷酸戊糖途徑轉變為核糖-5-磷酸過程中，仲可產生",
+    "llm_output": "正確答案係 C. 2 分子NADPH+H+。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '2分子NADH+H+'], ['B', '1分子NADH+H+'], ['C', '2分子NADPH+H+'], ['D', '1分子NADPH+H+']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺生物氧化中NAD+嘅作用係",
+    "llm_output": "D.  遞電子\n\nNAD+（尼克酰胺腺嘌呤二核苷酸）在生物氧化中主要作用係作為遞電子載體，幫助將電子從一個分子傳遞到另一個分子，從而參與能量代謝過程。在這個過程中，NAD+通常會被還原成NADH，然後在氧化磷酸化嘅過程中將電子傳遞回氧氣，最終恢復為NAD+。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '遞氫'], ['B', '脫羧'], ['C', '加氫'], ['D', '遞電子']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "漏出性出血嘅發生機制係由於",
+    "llm_output": "B. 毛細血管壁通透性增加",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '血管壁周圍病變侵犯'], ['B', '毛細血管壁通透性增加'], ['C', '組織嘅滲透壓增高'], ['D', '血漿膠體滲透壓降低']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "磺胺類藥物嘅類似物係",
+    "llm_output": "C.  對氨基苯甲酸",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '葉酸'], ['B', '二氫葉酸'], ['C', '對氨基苯甲酸'], ['D', '四氫葉酸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "糖酵解過程中，下列邊一反應過程為耗能階段",
+    "llm_output": "正確答案係 A. 葡萄糖→果糖1，6 -二磷酸。\n\n在糖酵解過程中，這是耗能階段，因為需要 ATP 嘅幫手將葡萄糖磷酸化成為果糖1，6 -二磷酸。其後，糖酵解過程會繼續進行，產生嘅 ATP 可以幫助身體儲存能量。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '葡萄糖→果糖1，6-二磷酸'], ['B', '果糖-1，6-二磷酸→磷酸丙糖'], ['C', '丙酮酸→乳酸'], ['D', '磷酸丙糖→丙酮酸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於風濕性肉芽腫嘅敘述，錯誤嘅係",
+    "llm_output": "B. 中心部位有較多纖維蛋白\n\n風濕性肉芽腫的錯誤敘述是中心部位有較多纖維蛋白。風濕性肉芽腫是風濕病的一種病理表現，其特徵性細胞為Aschoff細胞，多發生於心肌間質血管旁，常伴有淋巴細胞、漿細胞浸潤。風濕性肉芽腫的中心通常是一個壞死的區域，周圍有Aschoff細胞、纖維母細胞和膠原纖維，而不是纖維蛋白。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '多發生於心肌間質血管旁'], ['B', '中心部位有較多纖維蛋白'], ['C', '特徵性細胞係Aschoff細胞'], ['D', '常伴有淋巴細胞、漿細胞浸潤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊種酶係糖酵解同糖異生途徑中共有嘅",
+    "llm_output": "正確答案係 A. 甘油醛-3 -磷酸酶。\n\n甘油醛-3 -磷酸酶 (Glyceraldehyde-3-phosphate dehydrogenase) 係一種喺糖酵解同糖異生中都有用到嘅酶。呢種酶喺糖酵解中幫助將甘油醛-3-磷酸轉化為1,3-雙磷酸甘油酸，同時產生一個 NADH 分子。喺糖異生過程中，甘油醛-3 -磷酸酶亦都負責將甘油醛-3-磷酸還原成為甘油醛，並消耗 NADH 分子。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '甘油醛-3-磷酸酶'], ['B', '丙酮酸羧化酶'], ['C', '已糖激酶'], ['D', '丙酮酸激酶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "全酶係指",
+    "llm_output": "B.  酶蛋白-輔助因子複合物",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '酶-抑制劑複合物'], ['B', '酶蛋白-輔助因子複合物'], ['C', '酶-底物複合物'], ['D', '酶-別構劑複合物']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於小葉性肺炎，錯誤嘅係",
+    "llm_output": "A. 病竈融合為肺肉質變\n\n這個選項是錯誤的。小葉性肺炎（Lobar pneumonia）通常是由單一細菌引起的，主要是肺炎球菌（Streptococcus pneumoniae），並且它通常影響肺的大葉，而不是小葉。小葉性肺炎不會導致病灶融合為肺肉質變，這種情況更常見於大葉性肺炎（lobar pneumonia）後的機化性肺炎（organizing pneumonia）。其他選項是關於小葉性肺炎的正確描述。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '病竈融合為肺肉質變'], ['B', '可由多種細菌引起'], ['C', '常係某啲疾病嘅併發症'], ['D', '易激發肺嘅細菌同病毒感染']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "正常人血漿中下列邊種膽紅素量好低",
+    "llm_output": "正確答案嘅選項係 D. 結合膽紅素。\n\n在正常人血漿中，結合膽紅素的含量相對較低。膽紅素是血紅素分解產生的代謝產物，主要來自紅細胞的破壞。膽紅素分為三種主要形式：遊離膽紅素（未結合膽紅素或間接膽紅素）、膽紅素-清蛋白複合物，以及結合膽紅素（直接膽紅素）。\n\n遊離膽紅素在血液中與清蛋白結合，這使得它們在血液中運輸時較為穩定。當遊自由膽紅素進入肝臟後，肝細胞將其轉化為結合膽紅素。結合膽紅素具有極性較高的化學結構，可以與膽汁結合並隨膽汁排入腸道。因此，正常情況下，結合膽紅素的血漿濃度較低，因為它主要通過膽汁排泄。\n\n當肝臟功能異常或膽道阻塞時，結合膽紅素的水平可能會升高，這可能是黃疸等病症的指標。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '遊離膽紅素'], ['B', '間接膽紅素'], ['C', '膽紅素-清蛋白'], ['D', '結合膽紅素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "右心衰竭時組織液生成增加而致水腫，主要原因係",
+    "llm_output": "C. 毛細血管血壓增高",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '組織液靜水壓降低'], ['B', '組織膠體滲透壓增高'], ['C', '毛細血管血壓增高'], ['D', '血漿膠體滲透壓降低']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "頸動脈竇壓力感受器反射屬於",
+    "llm_output": "D.  神經調節",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '神經—體液調節'], ['B', '自身調節'], ['C', '體液調節'], ['D', '神經調節']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "呼吸阻力中非彈性阻力嘅主要成分係",
+    "llm_output": "A. 氣道阻力",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '氣道阻力'], ['B', '組織粘滯阻力'], ['C', '肺回縮力'], ['D', '肺泡表面張力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "甘油-3-磷酸穿梭機制中3-磷酸甘油脫氫酶喺胞質中嘅輔酶係",
+    "llm_output": "B. NAD+",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'FAD'], ['B', 'NAD+'], ['C', 'CoQ'], ['D', 'FMN']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於PH酶促反應速度影響嘅論述，錯誤嘅係",
+    "llm_output": "C. 最適PH唔係酶嘅特性常數",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'PH過高或者過低可使酶發生變性'], ['B', '最適PH係酶嘅特性常數'], ['C', '最適PH唔係酶嘅特性常數'], ['D', 'PH影響酶、底物或者輔助因子嘅解離度，從而影響酶促反應速度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊種離子能激活唾液澱粉酶嘅活性",
+    "llm_output": "正確答案係 A. Zn2 +。\n\n唾液澱粉酶（ptyalin）係一種位於唾液嘅澱粉酶，能夠幫助消化澱粉。呢種酶需要嘅激活離子係鋅離子（Zn2 +）。鋅離子喺酶嘅活性中心扮演重要角色，能夠幫助穩定酶嘅結構並激活其催化活性。因此，選項 A. Zn2 + 係正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'Zn2+'], ['B', 'Mg2+'], ['C', 'K+'], ['D', 'Cl-']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "酶同一般催化劑嘅區別係",
+    "llm_output": "C. 具有高度特異性\n\n酶是一種生物催化劑，它們能夠催化特定化學反應，並且通常具有高度的 substrate 特異性，這意味著它們只會與特定的分子互動並催化該分子的反應。這使得酶與其他催化劑不同，後者可能對多種底物有活性。酶的特異性有助於細胞中複雜的化學反應網絡，確保每種反應按需進行。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '只能加速熱力學上可以進行嘅反應'], ['B', '唔改變化學反應嘅平衡點'], ['C', '具有高度特異性'], ['D', '縮短達到化學平衡嘅時間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "有機磷農藥中毒時，下列邊一種酶受到抑制",
+    "llm_output": "正確答案係 B. 膽鹼酯酶。\n\n有機磷農藥中毒時，膽鹼酯酶會受到抑制。膽鹼酯酶是一種分解乙酰膽鹼（一種神經傳導物質）的酶，當它被有機磷農藥抑制時，會導致乙酰膽鹼在神經突觸處累積，從而引起神經系統的過度活化，導致中毒症状，如肌肉顫搐、呼吸困難、心率異常等。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '已糖激酶'], ['B', '膽鹼酯酶'], ['C', '乳酸脫氫酶'], ['D', '碳酸酐酶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於膽鹼酯酶嘅描述唔正確嘅係",
+    "llm_output": "C.  屬典型嘅巰基酶\n\n膽鹼酯酶並不屬於典型嘅巰基酶（cysteine protease），而係一種酯酶，能夠催化乙酰膽鹼水解成膽鹼和乙酸。膽鹼酯酶可受有機磷化合物抑制，導致酶失活，從而造成乙酰膽鹼在體內過多堆積而中毒。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '可受有機磷化合物抑制'], ['B', '係催化乙酰膽鹼水解嘅酶'], ['C', '屬典型嘅巰基酶'], ['D', '該酶失活，可造成乙酰膽鹼喺體內過多堆積而中毒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "磷酸戊糖途徑嘅主要產物係",
+    "llm_output": "正確答案嘅選項係 B. NADPH+H+同核糖-5 -磷酸。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'NADPH+H+同FADH2'], ['B', 'NADPH+H+同核糖-5-磷酸'], ['C', 'NADPH+H+同甘油-3-磷酸'], ['D', 'NADPH+H+同葡糖-6-磷酸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "岡崎片段產生嘅原因係",
+    "llm_output": "A. 複製同解鏈方向相反\n\n岡崎片段（Okazaki fragments）係指在DNA複製過程中，當前導鏈（leading strand）同後導鏈（lagging strand）複製方向相反時，後導鏈上產生的一系列較短DNA片段。這些片段隨後會被連接酶（DNA ligase）連接成為一個連續的DNA鏈。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '複製同解鏈方向相反'], ['B', '雙向複製'], ['C', '複製中DNA有纏繞打結現象'], ['D', 'DNA複製速度太快']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "高血壓病時，細小動脈硬化嘅主要病理改變係",
+    "llm_output": "正確答案係 C. 管壁玻璃樣變。\n\n高血壓病時，細小動脈硬化的主要病理改變係管壁玻璃樣變（Glibert's hyaline degeneration），又稱為高血壓性血管硬化。呢種改變源於長期高血壓導致嘅血管內皮細胞受損，從而引起血漿蛋白滲入血管壁，導致管壁發生玻璃樣變性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '內膜結締組織增生'], ['B', '內膜膽固醇沉著'], ['C', '管壁玻璃樣變'], ['D', '內膜彈力纖維增生']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "抑制動脈粥樣硬化症發病嘅因素係",
+    "llm_output": "D. 高密度脂蛋白 (HDL)\n\n高密度脂蛋白被認為是抑制動脈粥樣硬化症發病的一個因素，因為它能夠將膽固醇從血管壁移除並帶回肝臟進行代謝，從而減少動脈粥樣硬化斑块的形成。相反，低密度脂蛋白(LDL) 被認為是動脈粥樣硬化症發病的一個危險因素，因為它能夠將膽固醇帶到血管壁，導致斑块的形成。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '極低密度脂蛋白'], ['B', '膽固醇'], ['C', '低密度脂蛋白'], ['D', '高密度脂蛋白']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於糖酵解嘅正確描述係",
+    "llm_output": "A. 喺細胞質中進行\n\n糖酵解係一種喺細胞質中進行的代謝過程，其中葡萄糖被分解成兩分子丙酮酸，並產生少量化學能量。糖酵解係細胞呼吸嘅一個組成部分，並且係一種不可逆過程，涉及多個酶催化嘅步驟。過程中，總共產生 2 分子 ATP 和 2 分子 NADH。因此，其他選項唔正確。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '喺細胞質中進行'], ['B', '生成38分子ATP'], ['C', '全過程係可逆嘅'], ['D', '唔消耗ATP']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "有機磷殺蟲劑對膽鹼酯酶嘅抑制作用屬於",
+    "llm_output": "C. 不可逆性抑制作用",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '反競爭性抑制作用'], ['B', '非競爭性抑制作用'], ['C', '不可逆性抑制作用'], ['D', '競爭性抑制作用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "符合輔酶嘅敘述係",
+    "llm_output": "B. 參與氫原子、電子或者化學基團嘅傳遞",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔能用透析與酶蛋白分開'], ['B', '參與氫原子、電子或者化學基團嘅傳遞'], ['C', '決定酶嘅特異性'], ['D', '唔參與活性部位嘅組成']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "有關原發性高血壓嘅敘述，錯誤嘅係",
+    "llm_output": "D.  高血壓常引起下肢壞疽\n\n正確答案係 D。原發性高血壓嘅晚期可以導致腎臟損害，形成顆粒性固縮腎（A 正確），並且可以引起左心室肥大（C 正確）。然而，高血壓本身並不會繼發糖尿病（B 錯誤），但高血壓病人有較高嘅風險同時患有糖尿病，因為兩者都有共同嘅危險因素，如吸煙、不良飲食習慣、缺乏運動等。至於下肢壞疽，通常與周邊動脈疾病相關，而非高血壓直接引起（D 錯誤）。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '高血壓晚期嘅腎臟常為顆粒性固縮腎'], ['B', '高血壓可繼發糖尿病'], ['C', '高血壓病常引起左心室肥大'], ['D', '高血壓常引起下肢壞疽']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "反競爭性抑制作用嘅描述正確嘅係",
+    "llm_output": "C. 抑制劑只同酶-底物複合物結合",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '抑制劑既同酶相結合又同酶-底物複合物相結合'], ['B', '抑制劑使酶促反應嘅Km值降低，Vmax升高'], ['C', '抑制劑只同酶-底物複合物結合'], ['D', '抑制劑使酶促反應嘅Km值升高，Vmax降低']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "酶同一般催化劑具有以下共性，例外嘅係",
+    "llm_output": "A. 唔能改變反應平衡點\n\n酶同一般催化劑都會降低反應活化能（B），並且在其反應前後自身冇質同量嘅改變（C）。酶嘅活性中心（D）係其發揮催化作用嘅特定區域，呢個係酶嘅結構特點之一。而酶同一般催化劑都會影響反應速率，但唔會改變反應平衡點（A），因為催化劑只會影響正反反應速率，而唔會影響反應嘅熱力學平衡。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唔能改變反應平衡點'], ['B', '降低反應活化能'], ['C', '反應前後自身冇質同量嘅改變'], ['D', '由特定構想嘅活性中心發揮作用']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "葡糖-6-磷酸→葡萄糖酸-6-磷酸，需要參與嘅輔酶係",
+    "llm_output": "正確答案係 C. NADP+",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'FMN'], ['B', 'NAD+'], ['C', 'NADP+'], ['D', 'FAD']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "1分子乙酰輔酶A經三羧酸循環氧化可產生ATP分子數",
+    "llm_output": "D.  10",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '9'], ['B', '15'], ['C', '11'], ['D', '10']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列物質喺體內氧化成CO2及H2O時生成ATP最多嘅係",
+    "llm_output": "正確答案係 B. 丙酮酸。\n\n當丙酮酸喺體內氧化成 CO2 和 H2 O 時，會經過三羧酸循環（又稱為克雷布斯循環或TCA循環），並通過該循環產生大量 ATP。相比之下，乳酸（A 選項）喺肌肉中無氧代謝時作為能量來源，但喺體內氧化時並唔會產生太多 ATP。穀氨酸（C 選項）同草酰乙酸（D 選項）亦可以通过代謝途徑產生 ATP，但丙酮酸嘅氧化生成 ATP 數量通常更多，尤其係喺三羧酸循環中。因此，B 選項丙酮酸係正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '乳酸'], ['B', '丙酮酸'], ['C', '穀氨酸'], ['D', '草酰乙酸']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於前饋控制嘅敘述中，正確嘅係",
+    "llm_output": "C.  具有預見性， 適應範圍大",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '常喺局部同短時間內發揮作用'], ['B', '具有滯後同波動嘅缺點'], ['C', '具有預見性，適應範圍大'], ['D', '前饋控制唔會發生失誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "飢餓時肝中邊個代謝途徑加強",
+    "llm_output": "A. 糖異生",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '糖異生'], ['B', '脂肪嘅合成'], ['C', '糖酵解'], ['D', '糖有氧氧化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "1分子軟脂酸徹底氧化分解，淨產生幾多分子ATP",
+    "llm_output": "正確答案係 B. 128。\n\n當一個分子嘅軟脂酸被徹底氧化分解時，會經歷一系列嘅生化反應，包括β-氧化同埋克雷布斯循環（又稱為三羧酸循環或者TCA循環）。過程中，每個軟脂酸分子可以產生一定數量嘅ATP分子。\n\n對於一個分子嘅軟脂酸，徹底氧化分解可以產生以下數量嘅ATP：\n\n- β-氧化過程中，每個雙鍵可以產生4個ATP分子。軟脂酸分子有7個雙鍵，因此可以產生 7 x 4 = 28個ATP分子。\n- β-氧化後嘅脂酰CoA分子進入克雷布斯循環，每個克雷布斯循環可以產生10個ATP分子。因為β-氧化產生7個脂酰CoA分子，所以可以產生 7 x 10 = 70個ATP分子。\n- β-氧化嘅第一個步驟會產生一個分子的NADH和一分子嘅FADH₂。每個NADH可以產生2.5個ATP分子，每個FADH₂可以產生1.5個ATP分子。因此，7個NADH可以產生 7 x 2.5 = 17.5個ATP分子，2個FADH₂可以產生 2 x 1.5 = 3個ATP分子。\n\n將以上產生嘅ATP分子加埋一齊，就係最終嘅ATP數量：\n\n28（β-氧化）+ 70（克雷布斯循環）+ 17.5（NADH）+ 3（FADH₂）= 118.5\n\n不過，因為ATP分子數量係整數，所以通常會四捨五入到最接近嘅整數，即119個ATP分子。但係由於細胞內嘅實際情況可能會有微小嘅差異，所以答案可以有輕微嘅變動。不過，根據常見嘅教科書知識，答案通常會係128個ATP分子。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '127'], ['B', '128'], ['C', '106'], ['D', '131']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "乾性壞疽同濕性壞疽嘅區別在於前者",
+    "llm_output": "B. 同正常組織分界清楚\n\n乾性壞疽（dry gangrene）和濕性壞疽（wet gangrene）的主要區別在於乾性壞疽與正常組織之間的分界較為清楚，因為乾性壞疽通常發生在組織血液供應不足的情況下，如四肢末端，壞死的組織周圍會形成乾燥的黑色和灰白色物質。相比之下，濕性壞疽由於壞死組織周圍有液體積聚，分界不如乾性壞疽清楚。其他選項並非特異於乾性壞疽的特徵。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全身中毒症狀嚴重'], ['B', '同正常組織分界清楚'], ['C', '靜脈迴流通暢'], ['D', '好發生於四肢末端']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "亞急性細菌性心內膜炎嘅贅生物脫落後最常見嘅栓塞部位係",
+    "llm_output": "C. 腦\n\n亞急性細菌性心內膜炎的贅生物脫落後最常見的栓塞部位是腦，因為脫落的贅生物隨血流移動，可通過腦血管進入腦部，導致腦栓塞。其他選項雖然也有可能受到栓塞影響，但相對來說並不是最常見的部位。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '脾'], ['B', '皮膚'], ['C', '腦'], ['D', '腎']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "胰島素降低血糖係多方面嘅綜合作用效果，但唔包括",
+    "llm_output": "正確答案嘅選項係 C. 加強脂肪動員。胰島素嘅主要作用係降低血糖水平，其中包括抑制糖原分解、加強糖原合成以及加速糖嘅有氧氧化，但佢唔會加強脂肪動員，反而會抑制脂肪動員以減少脂肪酸進入血液嘅量，從而降低血糖。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '抑制糖原嘅分解'], ['B', '加強糖原嘅合成'], ['C', '加強脂肪動員'], ['D', '加速糖嘅有氧氧化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "三羧酸循環嘅起始反應係",
+    "llm_output": "B. 乙酰輔酶A同草酰乙酸縮合",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '乙酰輔酶A同二氧化碳縮合'], ['B', '乙酰輔酶A同草酰乙酸縮合'], ['C', '丙酮酸同草酰乙酸縮合'], ['D', '丙酮酸同二氧化碳縮合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "溫度對酶促反應速度影響嘅論述，正確嘅係",
+    "llm_output": "A. 最適溫度係酶嘅特性常數，同反應時間無關\n\n呢個選項正確嘅原因係，最適溫度（optimal temperature）係指喺酶催化反應嘅速度最快嘅溫度。呢個溫度係酶嘅特性之一，因為酶嘅結構同活性通常都係由其原始生物環境嘅溫度進化而成。雖然反應時間可以影響觀察到嘅反應速度，但酶嘅最適溫度係一個固定嘅物理化學參數，唔會因為反應時間嘅長短而改變。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '最適溫度係酶嘅特性常數，同反應時間無關'], ['B', '溫度升高反應速度加快，同一般催化劑完全相同'], ['C', '低溫可使大多數酶發生變性而使酶活性降低'], ['D', '最適溫度唔係酶嘅特性常數，延長反應時間，其最適溫度降低']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "液化性壞死常見於",
+    "llm_output": "A. 腦",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '腦'], ['B', '腎臟'], ['C', '小腸'], ['D', '心臟']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊項情況下可以發生代謝性酸中毒",
+    "llm_output": "C.  醛固酮分泌過少\n\n代謝性酸中毒通常係由身體內在代謝失衡或外部因素導致的酸過多或鹼過少嘅狀態。醛固酮係一種由腎上腺皮質分泌嘅激素，主要功能係調節身體嘅鹽分和水分嘅平衡。當醛固酮分泌過少時，身體嘅鹼儲留減少，從而可能導致代謝性酸中毒。其他選項唔直接導致代謝性酸中毒：\n\nA. 低血鉀 - 呢種情況可能导致鹽分平衡失調，但唔直接導致代謝性酸中毒。\nB. 腎小管NH生成過多 - 呢個唔係一個常見嘅醫學術語，可能係一個打字錯誤或誤導。不過，即使係腎小管生成過多嘅NH（亞硝酸），呢個亦唔直接導致代謝性酸中毒。\nD. 通氣過度 - 呢種情況可能导致呼吸性鹼中毒，因為過度通氣會導致二氧化碳水平下降，從而增加血液嘅pH值。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '低血鉀'], ['B', '腎小管NH生成過多'], ['C', '醛固酮分泌過少'], ['D', '通氣過度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "浦肯野纖維細胞同心室肌細胞動作電位嘅區別主要係",
+    "llm_output": "A. 4 期自動除極有無\n\n浦肯野纖維細胞（Purkinje fibers）和同心室肌細胞（ventricular myocytes）嘅動作電位嘅主要區別在於浦肯野纖維具有4期自動除極，而同心室肌細胞則唔有。浦肯野纖維嘅這種自動除極特性使得佢哋能夠自行節律，從而負責心房收縮後觸發心室嘅收縮。而同心室肌細胞則需要外部刺激來觸發收縮。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '4期自動除極有無'], ['B', '1期形成機制唔同'], ['C', '3期復極速度唔同'], ['D', '平臺期持續時間相差較大']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "動脈粥樣硬化複合病變中最危險嘅併發症係",
+    "llm_output": "D. 動脈瘤嘅形成",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '血栓嘅形成'], ['B', '鈣化'], ['C', '斑塊內出血'], ['D', '動脈瘤嘅形成']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "三酰甘油嘅主要功能係",
+    "llm_output": "A. 儲能供能",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '儲能供能'], ['B', '係構成神經組織嘅成分'], ['C', '係構成生物膜嘅成分'], ['D', '係體液嘅主要成分']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "原發性高血壓腦出血最常見嘅部位係",
+    "llm_output": "C. 內囊同基底核",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '蛛網膜下隙'], ['B', '大腦皮質'], ['C', '內囊同基底核'], ['D', '豆狀核同丘腦']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "急性炎症病竈中滲出嘅炎細胞主要係",
+    "llm_output": "B. 中性粒細胞",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '單核細胞'], ['B', '中性粒細胞'], ['C', '淋巴細胞'], ['D', '嗜酸性粒細胞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "交感縮血管纖維分佈最密集嘅血管係",
+    "llm_output": "D. 皮膚血管",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '冠狀血管'], ['B', '腦動脈'], ['C', '骨骼肌血管'], ['D', '皮膚血管']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺心肌組織中，邊一種乳酸脫氫酶同工酶嘅含量最高",
+    "llm_output": "正確答案係 A. LDH1。在心肌組織中，LDH1（乳酸脫氫酶 1）嘅含量最高。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'LDH1'], ['B', 'LDH3'], ['C', 'LDH4'], ['D', 'LDH2']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "與形成竇道有關嘅病變係",
+    "llm_output": "C. 深部組織膿腫穿破皮膚\n\n竇道係指膿腫穿破皮膚或其他表層組織後，形成嘅一個通道。呢種病變通常與深部組織膿腫有關，當膿腫穿破皮膚排膿時，可能會留下一個通道，膿液可以沿呢個通道排出，有時可以形成慢性竇道，長期流膿。选项C正確描述咗形成竇道嘅情況。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '肛門直腸膿腫穿破皮膚'], ['B', '胃黏膜壞死脫落'], ['C', '深部組織膿腫穿破皮膚'], ['D', '食管癌穿破至氣管']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "小葉性肺炎係",
+    "llm_output": "B.  化膿性炎",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '纖維素性炎'], ['B', '化膿性炎'], ['C', '急性漿液性炎'], ['D', '間質性肺炎']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "肌肉中產生嘅氨喺血液中嘅運輸形式係",
+    "llm_output": "正確答案係 B. 谷氨醯胺 (Glutamine)。肌肉中產生的氨主要通過與谷氨酸進行轉氨反應生成谷氨醯胺的形式運輸到肝臟，在肝臟中進一步處理轉化為尿素。因此，谷氨醯胺是血液中氨的主要運輸形式。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '尿素'], ['B', '谷氨醯胺'], ['C', '丙氨酸'], ['D', 'NH3']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "有關乳酸脫氫酶同工酶嘅論述，正確嘅係",
+    "llm_output": "B. 佢哋對同一底物有唔同嘅Km值\n\n乳酸脫氫酶（Lactate dehydrogenase, LDH）係一種四聚體酶，由M和H亞基組成，形成五種同工酶，即LDH1（H4）、LDH2（H3M）、LDH3（H2M2）、LDH4（HM3）和LDH5（M4）。呢啲同工酶嘅電泳行為略有不同，因為佢哋嘅分子量略有差異，所以A嘅選項唔正確。\n\n乳酸脫氫酶同工酶喺人體各組織器官嘅分佈有顯著差別，例如LDH1主要存在於心肌，而LDH5主要存在於肝臟和肌肉組織，所以C嘅選項唔正確。\n\nM亞基同H亞基喺乳酸脫氫酶同工酶中嘅分佈唔一樣，形成唔同嘅同工酶，所以D嘅選項唔正確。\n\n乳酸脫氫酶同工酶對乳酸和丙酮酸呢類同一底物有唔同嘅親和力，表現為唔同嘅Km值，因此B係正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '佢哋嘅電泳行為相同'], ['B', '佢哋對同一底物有唔同嘅Km值'], ['C', '佢哋喺人體各組織器官嘅分佈無顯著差別'], ['D', 'M亞基同H亞基喺乳酸脫氫酶同工酶中分佈一樣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "具有抑制糖異生作用嘅激素係",
+    "llm_output": "D. 胰島素\n\n胰島素是一種由胰臟的β細胞分泌的激素，它在血糖水平升高時被釋放，主要作用是促進細胞對血糖的攝取和利用，並儲存多餘的血糖作為肝糖原或脂肪。胰島素也有抑制糖異生的作用，糖異生是指在肝臟中將非碳水化合物（如氨基酸和脂肪酸）轉化為葡萄糖的過程。通過抑制糖異生，胰島素有助於降低血糖水平。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '胰高血糖素'], ['B', '腎上腺素'], ['C', '腎上腺皮質激素'], ['D', '胰島素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "有關非競爭性抑制作用嘅論述，正確嘅係",
+    "llm_output": "B.  抑制劑同酶結合後，唔影響酶同底物嘅結合",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '酶同底物、抑制劑可同時結合，但唔影響其釋放出產物'], ['B', '抑制劑同酶結合後，唔影響酶同底物嘅結合'], ['C', '改變Km值'], ['D', '唔改變酶促反應嘅最大限度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "血漿中脂類物質嘅運輸形式係",
+    "llm_output": "D. 脂蛋白",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '球蛋白'], ['B', '核蛋白'], ['C', '糖蛋白'], ['D', '脂蛋白']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列物質徹底氧化時，生成30或者32分子ATP係邊一個",
+    "llm_output": "正確答案係 D. 硬脂酸。\n\n當硬脂酸（一種18碳長鏈脂肪酸）徹底氧化時，理論上可以產生30或32個ATP分子。這個過程包括β-氧化（beta-oxidation），在這個過程中，硬脂酸被分解成較短的鏈，然後在線粒體內進行氧化還原反應，產生ATP。具體的ATP產量取決於硬脂酸鏈的長度及其餘的碳原子是否完全氧化成二氧化碳。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '葡萄糖'], ['B', '丙酮酸'], ['C', '檸檬酸'], ['D', '硬脂酸']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊種氨基酸脫氨基生成嘅α-酮酸係三羧酸循環嘅中間產物",
+    "llm_output": "B. 穀氨酸\n\n穀氨酸在脫氨基反應後生成α-酮戊二酸，這是三羧酸循環（也稱為克雷布斯循環）的一個中間產物。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '丙氨酸'], ['B', '穀氨酸'], ['C', '賴氨酸'], ['D', '亮氨酸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "α-酮戊二酸徹底氧化成CO2同H2O，可生成幾多分子ATP",
+    "llm_output": "D. 9\n\nα-酮戊二酸經過三羧酸循環（又稱為克雷布斯循環）同埋電子傳遞鏈，可以生成9分子ATP。呢個過程包括：\n\n1. α-酮戊二酸經由丙酮酸脫氫酶複合體生成乙醯CoA，呢個步驟無直接生成ATP。\n2. 乙醯CoA經過三羧酸循環，生成3分子ATP（1分子來自琥珀酸脫氫酶循環，2分子來自α-磷酸甘油脫氫酶循環）。\n3. 三羧酸循環中嘅每次脫氫反應會生成1分子NADH，而每次氧化化磷酸化（oxidative phosphorylation）過程會由NADH生成2.5分子ATP。因此，三羧酸循環總共生成7.5分子ATP（3分子NADH x 2.5分子ATP/分子NADH）。\n\n將以上生成嘅ATP加埋一齊，就係9分子ATP。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '8'], ['B', '12'], ['C', '20'], ['D', '9']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "競爭性抑制劑對酶促反應速度影響係",
+    "llm_output": "競爭性抑制劑對酶促反應速度的影響是：\n\nB. Km上升，Vmax唔變",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'Km下降，Vmax上升'], ['B', 'Km上升，Vmax唔變'], ['C', 'Km唔變，Vmax下降'], ['D', 'Km下降，Vmax下降']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "神經處於靜息電位時",
+    "llm_output": "B. 既有K外流亦有少量Na內流",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '冇K外流亦冇Na內流'], ['B', '既有K外流亦有少量Na內流'], ['C', '僅有少量K外流'], ['D', '僅有少量Na內流']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "心室肌細胞動作電位快速復極末期嘅原因",
+    "llm_output": "D. K+外流\n\n心室肌細胞動作電位快速復極末期（Phase 1）主要係由於K+通道開放，引起K+外流，導致細胞膜電位迅速恢復至接近靜息電位。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'Ca2+內流'], ['B', 'Na+內流'], ['C', 'Cl-內流'], ['D', 'K+外流']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "已知受血者血型為B型，喺交叉配血試驗中主側唔凝集，次側凝集，供血者血型可能係",
+    "llm_output": "交叉配血試驗中，主側（主血清與受血者紅血球）唔凝集，次側（次血清與供血者紅血球）凝集，表示受血者紅血球上冇B抗原，供血者紅血球上冇A抗原。因此，受血者血型為B型，供血者血型可能是A型，咁答案係：\n\nC. A型",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'B型'], ['B', 'AB型'], ['C', 'A型'], ['D', 'O型']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "對於結合酶嚟講，決定反應特異性嘅係",
+    "llm_output": "C. 酶蛋白",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '輔酶'], ['B', '全酶'], ['C', '酶蛋白'], ['D', '金屬離子']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列生化反應主要喺線粒體中進行嘅係",
+    "llm_output": "C.  脂肪酸-氧化",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '脂肪酸合成'], ['B', '甘油磷脂合成'], ['C', '脂肪酸-氧化'], ['D', '三酰甘油合成']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊個為糖異生過程中嘅關鍵酶",
+    "llm_output": "正確答案為 C. 果糖-1,6-二磷酸酶 (fructose-1,6-bisphosphatase)。\n\n糖異生是一系列將非碳水化合物（如氨基酸、脂肪酸和乳酸）轉化為葡萄糖的酶促反應。果糖-1,6-二磷酸酶是糖異生過程中的一個關鍵酶，它催化果糖-1,6-二磷酸（fructose-1,6-bisphosphate）的裂解，產生果糖-6-磷酸（fructose-6-phosphate），這是糖異生途徑中的一個重要步驟。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '醛縮酶'], ['B', '丙酮酸激酶'], ['C', '果糖-1，6-二磷酸酶'], ['D', '烯醇化酶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "含有維生素B1嘅輔酶係",
+    "llm_output": "正確答案係 B. TPP（Thiamine Pyrophosphate），維生素B1 的活性形式。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'CoA'], ['B', 'TPP'], ['C', 'NAD+'], ['D', 'FAD']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "某人潮氣量為500ml，生理無效腔為150ml，呼吸頻率為18次/分，此時每分肺泡通氣量為",
+    "llm_output": "正確答案為 A. 8850 ml。\n\n計算方法如下：\n\n1. 首先計算每次呼吸的肺泡通氣量，即潮氣量（VT）減去生理無效腔（VD）：500 ml - 150 ml = 350 ml。\n2. 然後將每次呼吸的肺泡通氣量乘以呼吸頻率，得到每分肺泡通氣量（MVV）：350 ml × 18 次/分 = 6300 ml。\n3. 最後，由於每次呼吸的實際通氣量（VT）為500 ml，所以需要將每分通氣量（MVV）乘以（1 - VD/VT）來計算肺泡通氣量：6300 ml × (1 - 150 ml / 500 ml) = 6300 ml × 0.7 = 4410 ml。\n\n然而，提供的選項中並無4410 ml的選項。這可能是因為題目中的選項並非按照精確計算得出，而是給出了一些近似的數值。在這種情況下，最接近正確答案的選項是 A. 8850 ml。通常在醫學考試中，選項會設計為讓考生選擇最接近計算結果的數值，因此A選項可以被視為最合適的答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '8850ml'], ['B', '6000ml'], ['C', '9000ml'], ['D', '6300ml']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一種組織中缺乏高活性嘅甘油激酶，唔能好好地利用甘油",
+    "llm_output": "A. 脂肪組織",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '脂肪組織'], ['B', '心'], ['C', '腸'], ['D', '腎']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊啲抑制作用屬競爭性抑制作用",
+    "llm_output": "B.  磺胺類藥物對細菌體內二氫葉酸合成酶嘅抑制作用\n\n競爭性抑制作用是指抑制劑分子與酶的活性位點結合，與底物競爭同一活性位點，從而降低酶的活性。在選項中，磺胺類藥物與細菌的二氫葉酸合成酶的結合位點類似於該酶的自然底物對氨基苯甲酸，因此它們競爭性地抑制酶的功能，阻斷葉酸的合成，從而達到抗菌的效果。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '敵敵畏對膽鹼酯酶嘅抑制作用'], ['B', '磺胺類藥物對細菌體內二氫葉酸合成酶嘅抑制作用'], ['C', '氰化物對細胞色素氧化酶嘅抑制作用'], ['D', '砷化合物對巰基酶嘅抑制作用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "血中邊一種膽紅素增加會使尿紅素定性試驗呈陽性反應",
+    "llm_output": "正確答案係 A. 結合膽紅素。\n\n結合膽紅素，又稱為直接膽紅素，係血液中嘅紅血球破壞同代謝過程中所產生嘅膽紅素。當結合膽紅素濃度增加時，會導致尿液中出現膽紅素，從而使尿紅素定性試驗呈陽性反應。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '結合膽紅素'], ['B', '遊離膽紅素'], ['C', '未結合膽紅素'], ['D', '間接反應膽紅素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "有關競爭性抑制劑嘅論述，錯誤嘅係",
+    "llm_output": "D. 同酶嘅活性中心相結合\n\n競爭性抑制劑通常係指一種分子，其能夠與酶嘅活性中心結合，從而阻斷底物結合至同一活性中心。雖然競爭性抑制劑嘅結合係可逆嘅，但佢哋會同底物競爭同一結合位點，從而降低酶對底物嘅催化效率。競爭性抑制劑嘅抑制程度確實同佢哋嘅濃度有關，而且佢哋嘅結構通常同底物相似，因此答案 D 係錯誤嘅。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '抑制程度只同抑制劑嘅濃度有關'], ['B', '喺結構上同底物相似'], ['C', '同酶嘅結合係可逆嘅'], ['D', '同酶嘅活性中心相結合']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "1分子乳酸徹底氧化生成ATP分子數",
+    "llm_output": "B.  36",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '20'], ['B', '36'], ['C', '14'], ['D', '15']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "最容易受毒性代謝產物損傷嘅器官係",
+    "llm_output": "C. 肝臟",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '腎臟'], ['B', '肺臟'], ['C', '肝臟'], ['D', '脾臟']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於酶活性中心嘅敘述，錯誤嘅係",
+    "llm_output": "B.  一般嚟講， 形成酶活性中心嘅必需基團總係喺多肽鏈嘅一級結構上相對集中嘅相鄰嘅幾個氨基酸嘅殘基上\n\n這個選項是錯誤的，因為酶活性中心通常由多個相鄰和不相鄰的氨基酸殘基組成，這些殘基可能來自於多肽鏈的不同部位。酶活性中心是酶的一個特定區域，其中包含了必需的基團，這些基團在催化底物轉化為產物的過程中起關鍵作用。這些基團不一定要相鄰，它们可以通過靜態或動態相互作用在空間上組織起來形成活性中心。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '必需基團可位於活性中心區域之內，亦可位於活性中心之外'], ['B', '一般嚟講，形成酶活性中心嘅必需基團總係喺多肽鏈嘅一級結構上相對集中嘅相鄰嘅幾個氨基酸嘅殘基上'], ['C', '當底物分子同酶分子相接觸時，可引起酶活性中心嘅構象改變'], ['D', '酶同底物接觸只限於酶分子上同酶活性密切有關嘅較細區域']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "對胃腸平滑肌收縮節律起決定性作用嘅係",
+    "llm_output": "B. 慢波嘅頻率",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '平滑肌本身嘅節律'], ['B', '慢波嘅頻率'], ['C', '動作電位嘅頻率'], ['D', '動作電位嘅數值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列那一種酶唔參與糖異生過程",
+    "llm_output": "正確答案嘅選項係：A. 丙酮酸激酶\n\n解釋：\n糖異生是一種生物化學過程，其中非碳水化合物（如氨基酸和脂肪酸）被轉換成葡萄糖。這個過程主要在肝臟中進行，並且在肌肉中也有發生。糖異生是葡萄糖合成的一個重要途徑，尤其在飢餓或禁食期間，身體需要尋找能量來源時。\n\n在提供的選項中：\n\nA. 丙酮酸激酶（PK）是一種在糖酵解過程中將丙酮酸轉換為ATP和乙酰CoA的酶。這一步驟是糖酵解的不可逆最後一步，因此丙酮酸激酶不參與糖異生過程。\n\nB. 磷酸烯醇式丙酮酸羧激酶（PEPCK）是一種在糖異生中將丙酮酸轉換為磷酸烯醇式丙酮酸（PEP）的酶。\n\nC. 丙酮酸羧化酶是一種在糖異生中將丙酮酸轉換為磷酸烯醇式丙酮酸（PEP）的酶，是該過程的重要組成部分。\n\nD. 果糖-1,6-二磷酸酶（FBPase-1）是一種在糖異生中將果糖-1,6-二磷酸（FBP）轉換為果糖-6-磷酸（F6P）的酶。\n\n因此，丙酮酸激酶（A選項）不參與糖異生過程。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '丙酮酸激酶'], ['B', '磷酸烯醇式丙酮酸羧激酶'], ['C', '丙酮酸羧化酶'], ['D', '果糖-1，6-二磷酸酶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "影響酶促反應速度嘅因素唔包括",
+    "llm_output": "D.  酶原嘅濃度\n\n酶原係指尚未活化嘅酶，其濃度並唔直接影響酶促反應速度。影響酶促反應速度嘅因素包括酶嘅濃度（A）、反應環境嘅PH（B）、反應溫度（C）等，而酶原轉化為活性酶嘅過程（酶原激活）會影響整體嘅酶活性，但酶原嘅濃度本身唔直接影響酶促反應速度。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '酶嘅濃度'], ['B', '反應環境嘅PH'], ['C', '反應溫度'], ['D', '酶原嘅濃度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "高滲性脫水時，下列邊段小管液嘅滲透壓可為低滲",
+    "llm_output": "正確答案係：B. 近端小管後半段\n\n高滲性脫水（hyperosmotic dehydration）又稱為高張脫水，是一種體液丟失的狀態，其中失去的水分多於電解質。在這種情況下，血液的滲透壓升高，身體會透過腎臟排出更多水分以嘗試恢復滲透壓的平衡。在腎臟的濃縮功能中，近端小管後半段（Loop of Henle）是關鍵部位，它負責產生尿液的滲透壓梯度，從而允許身體重新吸收水分。\n\n在高滲性脫水時，腎小球超濾液（C. 腎小囊超濾液）的滲透壓通常會是正常或略高於正常，因為這是血液進入腎臟後的第一步，尚未有顯著的水分丟失。內髓集合管（A. 內髓集合管）和髓袢升支粗段（D. 髓袢升支粗短末）位於尿液濃縮過程的後期，它們的作用是進一步濃縮尿液，因此它們的液體滲透壓通常會是較高的。\n\n近端小管後半段（B. 近端小管後半段）是正確答案，因為在高滲性脫水的情況下，這個部位會經歷一個稱為再吸收異常的過程，其中水分再吸收的速率會降低，使得小管液的滲透壓相對較低。這是身體試圖透過腎臟排出過剩的溶質（如鈉）和水分，以降低血液中的滲透壓。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '內髓集合管'], ['B', '近端小管後半段'], ['C', '腎小囊超濾液'], ['D', '髓袢升支粗短末']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "唔參與糖酵解作用嘅酶係",
+    "llm_output": "正確答案係 A. 磷酸烯醇式丙酮酸羧激酶。\n\n這個酶並不參與糖酵解作用。糖酵解是一系列將葡萄糖轉化為丙酮酸的酶促反應，而磷酸烯醇式丙酮酸羧激酶則參與了糖異生作用，這是一個從非碳水化合物來源產生葡萄糖的過程。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '磷酸烯醇式丙酮酸羧激酶'], ['B', '果糖磷酸激酶-1'], ['C', '丙酮酸激酶'], ['D', '己糖激酶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "急性炎症局部疼痛發生嘅主要原因係",
+    "llm_output": "D.  滲出壓迫及炎症介質刺激\n\n急性炎症局部疼痛發生嘅主要原因係滲出壓迫及炎症介質刺激。當有炎症發生時，會有多種炎症介質和化學物質被釋放，這些物質可以刺激神經末梢，引起疼痛感。同時，炎症反應也會導致局部液體和細胞的積聚，從而壓迫神經末梢，進一步增強疼痛感。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '局部充血及血流量增多'], ['B', '局部組織嘅變性及壞死'], ['C', '細胞增生壓迫神經末梢'], ['D', '滲出壓迫及炎症介質刺激']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "酶嘅活性中心係",
+    "llm_output": "C.  酶嘅必需基團喺空間結構上集中形成嘅一個區域， 能與特定嘅底物結合並使之轉化為產物嘅部位",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '酶發揮催化作用嘅部位'], ['B', '酶蛋白分子同輔酶結合嘅部位'], ['C', '酶嘅必需基團喺空間結構上集中形成嘅一個區域，能與特定嘅底物結合並使之轉化為產物嘅部位'], ['D', '酶分子表面具有解離基團嘅部位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於蜂窩織炎嘅敘述，正確嘅係",
+    "llm_output": "正確答案係 C. 病變特點與鏈球菌分泌嘅鏈激酶同透明質酸酶有關。\n\n蜂窩織炎通常由鏈球菌（特別是 A 群 β-溶血性鏈球菌）引起，這種細菌能夠分泌鏈激酶和透明質酸酶，這些酶有助於細菌在組織中蔓延，導致周圍組織的廣泛炎症和膿腫形成。蜂窩織炎常見於皮下組織、肌肉和闌尾，但它們並不僅限於這些部位。淋巴管和血道是細菌蔓延的途徑之一，因此蜂窩織炎可以經由這些途徑擴散到其他部位。草綠色鏈球菌通常與心內膜炎等其他感染相關，而不是蜂窩織炎。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '細菌唔容易經組織間隙、淋巴管同血道蔓延擴散'], ['B', '常由草綠色鏈球菌感染引起'], ['C', '病變特點與鏈球菌分泌嘅鏈激酶同透明質酸酶有關'], ['D', '常見部位係內臟器官、肌肉同闌尾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "心力衰竭細胞係指",
+    "llm_output": "A. 心力衰竭時肺泡內含有含鐵血黃素嘅巨噬細胞",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '心力衰竭時肺泡內含有含鐵血黃素嘅巨噬細胞'], ['B', '心力衰竭時肺內吞噬炭末嘅巨噬細胞'], ['C', '心力衰竭時肺內嘅泡沫細胞'], ['D', '心力衰竭時出現嘅含脂褐素嘅心肌細胞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於肺氣腫患者嘅臨牀表現，下面錯誤嘅係",
+    "llm_output": "C.  逐漸加強嘅吸氣性呼吸困難\n\n肺氣腫患者通常會出現呼氣性呼吸困難，因為肺泡彈性減弱及支氣管收縮導致呼氣時肺部無法正常放鬆，從而引起困難。因此，選項C描述的逐漸加強的吸氣性呼吸困難是錯誤的。其他選項是肺氣腫的典型臨床表現。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '桶狀胸'], ['B', '低氧血癥'], ['C', '逐漸加強嘅吸氣性呼吸困難'], ['D', '胸透肺野透明度增加']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列有關類脂生理功能嘅敘述，正確嘅係",
+    "llm_output": "正確答案係 C. 係構成機體各種生物膜嘅重要成分。\n\n類脂（lipids）係一類不溶於水但溶於有機溶劑嘅生物大分子，包括脂肪、磷脂、膽固醇等。類脂對於細胞結構、能量儲存、維生素吸收、激素合成等有多種生理功能。其中，磷脂同膽固醇係構成細胞膜嘅重要成分，對於維持細胞結構同功能具有關鍵作用。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '係體內理想嘅供能同儲能物質'], ['B', '保持體溫'], ['C', '係構成機體各種生物膜嘅重要成分'], ['D', '保護同固定重要臟器']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "感染係由以下邊項引起嘅炎症",
+    "llm_output": "D. 生物性因子",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '物理因子'], ['B', '壞死組織'], ['C', '變態反應'], ['D', '生物性因子']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "生成組織液嘅有效濾過壓等於",
+    "llm_output": "生成組織液的有效濾過壓等於：\n\nC. (毛細血管壓+組織液膠體滲透壓)-(血漿膠體滲透壓+組織液靜水壓)",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '(血漿膠體滲透壓+組織液膠體滲透壓)-(毛細血管壓+組織液靜水壓)'], ['B', '(毛細血管壓+組織液靜水壓)-(毛細血管壓+組織液膠體滲透壓)'], ['C', '(毛細血管壓+組織液膠體滲透壓)-(血漿膠體滲透壓+組織液靜水壓)'], ['D', '(毛細血管壓+血漿膠體滲透壓)-(組織液膠體滲透壓+組織液靜水壓)']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "輔酶FAD分子中含有下列邊種B族維生素",
+    "llm_output": "正確答案係 D. 核黃素。輔酶FAD（Ferredoxin-NADP+ Reductase）分子中含有核黃素，即維生素B2。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '吡哆醛'], ['B', '煙酰胺'], ['C', '葉酸'], ['D', '核黃素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "體內最重要嘅脫氨基方式係",
+    "llm_output": "B.  聯合脫氨基作用",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '氨基轉移作用'], ['B', '聯合脫氨基作用'], ['C', '氧化脫氨基'], ['D', '還原脫氨基']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊啲情況可使心輸出量增加",
+    "llm_output": "A. 頸動脈竇內壓降低\n\n當頸動脈竇內壓降低時，反射性地引起心率增快和心肌收縮力增強，從而使心輸出量增加。其他選項通常會導致心輸出量減少：\n\nB. 由平臥位轉為立體位：會使靜脈回心血量減少，因為血液在靜脈中的流動受到地心引力的影響，導致心輸出量減少。\n\nC. 心率加快超出180次/分：過快的心率會使心肌沒有足夠的時間在舒張期充盈心室，導致心輸出量下降。\n\nD. 心舒張末期容積減少：表示心肌在舒張末期的充盈減少，這會減少心室射血量，從而降低心輸出量。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '頸動脈竇內壓降低'], ['B', '由平臥位轉為立體位'], ['C', '心率加快超出180次/分'], ['D', '心舒張末期容積減少']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "輔酶TPP分子中含有邊種B族維生素",
+    "llm_output": "正確答案係 D. 硫胺素。\n\n輔酶TPP（Thiamin pyrophosphate）係維生素B1（硫胺素）嘅活性形式，並且參與碳水化合物代謝中嘅幾個重要反應。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '核黃素'], ['B', '葉酸'], ['C', '煙酰胺'], ['D', '硫胺素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "急進型高血壓時，增生性小動脈硬化及壞死性細動脈炎主要發生於",
+    "llm_output": "A. 腎\n\n急進型高血壓（也稱為急進性惡化高血壓或急進性高血壓）時，增生性小動脈硬化及壞死性細動脈炎主要發生在腎臟。這種病理變化可以導致腎功能損害，甚至腎衰竭。其他選項心、腎上腺皮質和脾不是主要受影響的器官。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '腎'], ['B', '心'], ['C', '腎上腺皮質'], ['D', '脾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "血管壁嘅玻璃樣變性主要發生於",
+    "llm_output": "A. 細動脈",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '細動脈'], ['B', '中等動脈'], ['C', '大動脈'], ['D', '小動脈']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "乳糜微粒中含量最多嘅成分係",
+    "llm_output": "D. 三酰甘油",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '蛋白質'], ['B', '磷脂'], ['C', '膽固醇'], ['D', '三酰甘油']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊種情況下尿中出現蛋白質",
+    "llm_output": "正確答案係 A. 濾過膜上裂孔素數量減少。\n\n當濾過膜上裂孔素的數量減少時，血液中的蛋白質較難通過濾過膜，導致它們在尿液中濃度升高。這是一種稱為蛋白尿的症狀，通常與腎臟疾病相關。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '濾過膜上裂孔素數量減少'], ['B', '濾過分數增加'], ['C', '小管液流速加速'], ['D', 'GFR增加']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "同量嘅下列物質喺體內經徹底氧化後，釋放能量最多嘅係",
+    "llm_output": "D. 脂肪\n\n同量嘅脂肪釋放能量最多，因為脂肪嘅能量密度較高。相比起碳水化合物如葡萄糖和糖原，脂肪含有一個更高嘅碳氫比例，而碳氫鍵嘅斷裂會釋放出更多能量。因此，脂肪是體內能量嘅主要儲存形式。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '葡萄糖'], ['B', '蛋白質'], ['C', '糖原'], ['D', '脂肪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "靜息電位實測值小於K平衡電位嘅理論值，主要係由於靜息時膜嘅",
+    "llm_output": "正確答案嘅選項係 A. Na有少量嘅通透性。\n\n靜息電位係指細胞膜在未受到刺激時嘅電位差，通常嘅值為-70mV左右。呢個電位差主要由於細胞內K+向細胞外流造成，形成K平衡電位。然而，在靜息狀態下，細胞膜對Na+也有一定嘅通透性，雖然呢個通透性遠低於對K+嘅通透性。由於Na+在細胞外嘅濃度高於細胞內，因此Na+有趨向於進入細胞嘅趨勢，呢個細量嘅Na+內流會略為減少靜息電位嘅值，使其略低於K平衡電位嘅理論值。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'Na有少量嘅通透性'], ['B', 'Ca有少量嘅通透性'], ['C', 'Mg有少量嘅通透性'], ['D', 'Cl有少量嘅通透性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "氧離曲線係指",
+    "llm_output": "D.  PO2 與血氧飽和度間關係嘅曲線",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'PO2與血液pH間關係嘅曲線'], ['B', 'PO2與血氧容量間關係嘅曲線'], ['C', 'PO2與血氧含量間關係嘅曲線'], ['D', 'PO2與血氧飽和度間關係嘅曲線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "甘油-3-磷酸穿梭機制中，3-磷酸甘油脫氫酶喺線粒體中嘅輔基係",
+    "llm_output": "正確答案係 A. NAD+",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'NAD+'], ['B', 'FMN'], ['C', 'NADP+'], ['D', 'FAD']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "體內轉運一碳單位嘅載體係",
+    "llm_output": "C. 四氫葉酸",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '生物素'], ['B', 'SAM'], ['C', '四氫葉酸'], ['D', '葉酸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於膽汁酸嘅錯誤說法係",
+    "llm_output": "B. 係膽色素嘅成分\n\n膽汁酸並不是膽色素的成分。膽色素是血液中紅血球分解產生的副產品，而膽汁酸主要由膽固醇在肝臟中生成，並具有乳化作用，幫助消化吸收脂質。膽汁酸能經過長幹循環被重吸收，並再次利用。因此，選項B是錯誤的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '由膽固醇生成'], ['B', '係膽色素嘅成分'], ['C', '係乳化劑'], ['D', '能經長幹循環被重吸收']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "體內CO2直接來自",
+    "llm_output": "C. 有機酸嘅脫羧",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '脂肪分解'], ['B', '呼吸鏈嘅氧化還原過程'], ['C', '有機酸嘅脫羧'], ['D', '糖原分解']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於酶嘅活性中心錯誤說法係",
+    "llm_output": "D.  酶嘅必需基團就係酶嘅活性中心\n\n這個選項是錯誤的。酶的必需基團包括了活性中心基團，但不僅限於活性中心基團。酶的活性中心是酶的必需基團之一，負責與底物結合並催化反應，但還有一些其他必需基團（如穩定結構的基團）也在酶的活性和穩定性中起作用。因此，說酶的必需基團就是酶的活性中心是錯誤的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '活性中心就係酶嘅催化基團同結合基團集中形成嘅具有一定空間構象嘅區域'], ['B', '活性中心可跨越喺兩條多肽鏈上'], ['C', '活性中心可處喺一條多肽鏈上'], ['D', '酶嘅必需基團就係酶嘅活性中心']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列為PH對酶促反應速度影響嘅論述，錯誤嘅係",
+    "llm_output": "C. 人體內極大多數酶嘅最適 PH 約為 1.8\n\n這是錯誤的。人體內極大多數酶的最適 pH 並非約為 1.8，而是更接近中性或稍微偏鹼性。例如，許多消化酶的最適 pH 值在 6.8 到 7.4 之間，這反映了人體內部的生理條件。胃蛋白酶和胰蛋白酶的最適 pH 值分別較低和較高，但並不代表人體內所有酶的情況。酶的活性確實受到 pH 值的影響，但每個酶的最適 pH 值是不同的，並且受到其功能環境的調節。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '胃蛋白酶嘅最適PH約為1.8'], ['B', '胰蛋白酶嘅最適PH接近8.0'], ['C', '人體內極大多數酶嘅最適PH約為1.8'], ['D', '酶嘅最適PH唔受酶純度同底物種類等嘅影響']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "細胞色素體系中能同CO同氰化物結合使電子唔能傳遞畀氧而使呼吸鏈中斷嘅係",
+    "llm_output": "正確答案係 A. 細胞色素A3。\n\n細胞色素A3（Cytochrome c oxidase）係呼吸鏈中嘅主要組成部分，並且係負責將電子從細胞色素C傳遞到氧氣嘅酶。細胞色素A3 能夠結合一氧化碳（CO）同氰化物（CN⁻），呢種結合會阻斷電子傳遞，導致呼吸鏈中斷，從而影響細胞嘅能量產生。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '細胞色素A3'], ['B', '細胞色素B1'], ['C', '細胞色素C'], ['D', '細胞色素B']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "蛋白質同脂酸分解代謝嘅最終產物唔同嘅係",
+    "llm_output": "C.  尿素\n\n蛋白質分解代謝嘅最終产物係尿素，而脂酸分解代謝嘅最終产物係二氧化碳 (CO2) 同水 (H2 O)。兩者都會產生 ATP 作為能量。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'CO2'], ['B', 'ATP'], ['C', '尿素'], ['D', 'H2O']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "蛋白質嘅互補作用係指",
+    "llm_output": "B.  唔同種類嘅蛋白質混合食用， 以提高營養價值",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '脂同蛋白質嘅混合食用，以提高營養價值'], ['B', '唔同種類嘅蛋白質混合食用，以提高營養價值'], ['C', '糖同蛋白質嘅混合食用，以提高營養價值'], ['D', '糖同脂嘅混合食用，以提高營養價值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "潛水員從深水中過快咁升向水面，容易發生",
+    "llm_output": "D. 氮氣栓塞",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '肺水腫'], ['B', '二氧化碳栓塞'], ['C', '肺唔張'], ['D', '氮氣栓塞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "脂肪酸-氧化包括連續四步反應，其反應順序係",
+    "llm_output": "D. 脫氫、加水、再脫氫、硫解\n\n呢個係β-氧化過程，係脂肪酸分解嘅一個重要步驟。過程中，脂肪酸首先進行脫氫反應，跟住加水，然後再脫氫，最後硫解以釋放出乙酰輔酶A（Acetyl-CoA）同埋減少嘅脂肪酸鏈。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '加水、脫氫、再脫氫、硫解'], ['B', '加水、脫氫、硫解、再脫氫'], ['C', '硫解、脫氫、加水、再脫氫'], ['D', '脫氫、加水、再脫氫、硫解']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "膽紅素喺肝臟中嘅轉化主要係",
+    "llm_output": "D. 同葡萄糖醛酸結合",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '同葡萄糖酸結合'], ['B', '同Y蛋白結合'], ['C', '同清蛋白結合'], ['D', '同葡萄糖醛酸結合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "1NADH+H+經NADH氧化呼吸鏈傳遞，最後交畀0.5O2生成水，喺此過程中生成幾多分子ATP",
+    "llm_output": "正確答案係 A. 4\n\nNADH+H+通過NADH氧化呼吸鏈傳遞，最終與0.5 O2生成水，在這個過程中，每分子NADH+H+可產生約2.5分子的ATP。然而，這個過程中涉及了兩個NADH+H+分子（每個產生2.5分子ATP），因此總共產生4分子ATP。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '4'], ['B', '3'], ['C', '2.5'], ['D', '1']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "影響一碳單位代謝嘅維生素係",
+    "llm_output": "C.  維生素B12 同四氫葉酸\n\n呢兩個維生素對於一碳單位代謝非常重要。維生素B12幫助一碳單位的轉移，而四氫葉酸則係一碳單位的載體，可以攜帶一碳單位參與代謝反應。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '維生素B6同四氫葉酸'], ['B', '維生素B6同泛酸'], ['C', '維生素B12同四氫葉酸'], ['D', '葉酸同泛酸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "通過轉氨基作用可以產生",
+    "llm_output": "B. 非必需氨基酸",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'NH3'], ['B', '非必需氨基酸'], ['C', '必需氨基酸'], ['D', '尿素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "慢性炎症病竈內浸潤嘅炎性細胞主要為",
+    "llm_output": "B. 單核細胞同淋巴細胞",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '中性粒細胞同漿細胞'], ['B', '單核細胞同淋巴細胞'], ['C', '嗜酸性粒細胞同嗜鹼性粒細胞'], ['D', '淋巴細胞同嗜酸性粒細胞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "一般情況下影響舒張壓最主要嘅因素係",
+    "llm_output": "A. 外周阻力",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '外周阻力'], ['B', '每搏輸出量'], ['C', '心率'], ['D', '大動脈管壁彈性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "血中葡萄糖可直接來自",
+    "llm_output": "正確答案係 B. 吸收嘅糖同肝糖原分解。\n\n血中葡萄糖可以來自食物中吸收嘅糖，亦可以來自肝糖原分解。肝糖原係一種儲存在肝臟中嘅多糖，可以喺需要時分解成葡萄糖，並透過血液傳遞到身體各部分供應能量。而肌糖原嘅分解只限於肌肉本身使用，不能夠直接提供血液中嘅葡萄糖。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '肌糖原分解同脂肪酸轉變'], ['B', '吸收嘅糖同肝糖原分解'], ['C', '吸收嘅糖同肌糖原分解'], ['D', '肝糖原同肌糖原分解']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "氧離曲線右移時",
+    "llm_output": "B. 血紅蛋白同氧親和力降低，氧嘅釋放增加",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '血紅蛋白同氧親和力降低，氧嘅釋放減少'], ['B', '血紅蛋白同氧親和力降低，氧嘅釋放增加'], ['C', '血紅蛋白同氧親和力增高，氧嘅釋放減少'], ['D', '血紅蛋白同氧親和力增高，氧嘅釋放增加']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "肝細胞中催化葡糖-6-磷酸生成葡萄糖嘅酶係",
+    "llm_output": "正確答案係：\n\nC. 葡萄糖激酶 (Glucokinase)\n\n葡萄糖激酶係一種酶，響肝細胞中負責催化葡糖-6-磷酸(glucose-6-phosphate)生成葡萄糖(glucose)。呢種酶主要喺肝細胞中發現，並且響血糖水平嘅調節中扮演緊要角色。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '葡糖-6-磷酸脫氫酶'], ['B', '磷酸化酶'], ['C', '葡萄糖激酶'], ['D', '己糖激酶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，23歲。因乏力10天、牙齦出血伴皮膚瘀斑4天入院，既往體健。化驗血 Hb 76 g/L，WBC 25X10^9/L，Plt 29X10^9/L，骨髓增生明顯活躍，原始細胞佔60%，POX染色(-)，PAS染色(+)成塊，NSE染色(-)。該患者嘅診斷係",
+    "llm_output": "根據提供的病史和實驗室結果，特別是骨髓增生明顯活躍，原始細胞佔60%，以及POX染色(-)，最可能的診斷是急性淋巴細胞白血病（ALL）。因此，正確答案是：\n\nD. 急性淋巴細胞白血病",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '急性紅白血病'], ['B', '急性粒細胞白血病'], ['C', '急性單核細胞白血病'], ['D', '急性淋巴細胞白血病']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，18歲。因頭痛針刺合谷穴後，次日局部形成血腫。半年前曾因右膝關節輕度外傷而出血。該患者出血最可能嘅機制係",
+    "llm_output": "B. 凝血功能異常\n\n根據描述，患者在針刺後形成血腫，以及半年前在外傷後出血，這些症狀指向凝血功能異常，可能是凝血因子缺乏或者其他凝血機制問題導致的易於出血和血腫形成。血小板功能缺陷或數量減少（選項A和D）也可能導致出血問題，但通常不會在外傷後形成血腫。血管壁功能異常（選項C）可能導致出血，但通常會表現為自發性出血或輕微傷口出血，而非形成血腫。因此，最可能的機制是凝血功能異常。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '血小板功能缺陷'], ['B', '凝血功能異常'], ['C', '血管壁功能異常'], ['D', '血小板數減少']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "兒童肘部外傷後，鑑別肪骨踝上骨折同肘關節脫位最可靠嘅體徵係",
+    "llm_output": "D.  肘後三角關係改變\n\n肘後三角係指肘關節後方嘅三個點：肱骨內上髁、肱骨外上髁以及尺骨冠突。呢個三角喺正常情況下應該係穩定而且關係清晰嘅。當肘關節發生脫位時，呢個三角嘅關係會發生改變，因為尺骨可能會移位或者被推出咗正常位置。而肪骨踝上骨折嘅時候，雖然也可能會有相似嘅症狀，但係肘後三角嘅關係通常會保持穩定，因為骨折並未影響關節本身。因此，肘後三角關係改變係鑑別肪骨踝上骨折同肘關節脫位最可靠嘅體徵。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '畸形'], ['B', '活動明顯受限'], ['C', '腫脹明顯'], ['D', '肘後三角關係改變']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "糖酵解途徑所指嘅反應過程係",
+    "llm_output": "正確答案嘅選項係 A. 葡萄糖轉變成丙酮酸。糖酵解途徑係指細胞內葡萄糖分子分解為兩分子丙酮酸嘅過程，呢個過程發生喺所有需氧或缺氧細胞中，並且係所有細胞呼吸形式嘅共同初階。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '葡萄糖轉變成丙酮酸'], ['B', '葡萄糖轉變成磷酸二經丙酮'], ['C', '葡萄糖轉變成乙酷CoA'], ['D', '葡萄糖轉變成乳酸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，48歲。1個月來氣短、呼吸困難，1周來發熱、咳嗽，B超發現「右側大量胸腔積液」。近半年日漸消瘦。查體:T37.5C，R 21次/分，輕度貧血貌，高枕右側臥位。該患者胸部叩診唔可能出現嘅體徵係",
+    "llm_output": "C. 右肺叩診呈實音\n\n由於患者有大量胸腔積液，右肺叩診應該呈現浊音或實音，而不是清音。因此，選項C是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '右肺肝界下移'], ['B', '心界叩診向左側移位'], ['C', '右肺叩診呈實音'], ['D', '右側肺底移動度消失']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "可以作為一碳單位來源嘅氨基酸係",
+    "llm_output": "正確答案係 B. 絲氨酸。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '丙氨酸'], ['B', '絲氨酸'], ['C', '甲硫氨酸'], ['D', '亮氨酸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "發生喺下列唔同部位嘅纖維蛋白性炎症中，屬於假膜性炎症嘅係",
+    "llm_output": "B. 腸黏膜\n\n假膜性炎症（假膜性炎）係指炎症反應中，纖維蛋白在黏膜表面沉積形成假膜的病理過程。這種炎症常見於支氣管、腸黏膜等黏膜表面。因此，正確答案係腸黏膜（選項B）。其他選項胸膜、心包膜和關節滑膜並唔常見這種類型的炎症。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '胸膜'], ['B', '腸黏膜'], ['C', '心包膜'], ['D', '關節滑膜']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "滅活睾酮嘅器官係",
+    "llm_output": "B. 肝臟",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '肺臟'], ['B', '肝臟'], ['C', '靶組織細胞'], ['D', '腎臟']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列對診斷肝硬化門脈高壓症最有價值嘅體徵係",
+    "llm_output": "D. 腹壁靜脈曲張\n\n腹壁靜脈曲張係診斷肝硬化門脈高壓症最有價值嘅體徵之一，因為佢反映出門靜脈系統嘅高壓。肝硬化導致門靜脈血流受阻，引起壓力升高，從而導致周邊血管擴張，包括腹壁上嘅靜脈。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '肝臟質地堅硬'], ['B', '脾臟腫大'], ['C', '蜘蛛痣'], ['D', '腹壁靜脈曲張']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於原核生物蛋白質合成嘅敘述，正確嘅係",
+    "llm_output": "B. 一條mRNA編碼幾種蛋白質\n\n原核生物的蛋白質合成在胞液中進行，使用70S核蛋白體，並且一條mRNA可以編碼多種蛋白質，這稱為翻譯的共編碼（polycistronic translation）。釋放因子（release factors）在原核生物中稱為RF1和RF2，而eRF是真核生物中用於釋放作用的因子。因此，正確答案是B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '核內合成，胞液加工'], ['B', '一條mRNA編碼幾種蛋白質'], ['C', '釋放因子係eRF'], ['D', '80S核蛋白體參與合成']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "影響外周血管阻力嘅主要因素係",
+    "llm_output": "D.  小動脈口徑",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '血液黏滯性'], ['B', '大動脈彈性'], ['C', '血管長度'], ['D', '小動脈口徑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "女性，35歲。乏力、心悸1年餘，近2個月症狀加重，伴厭食、消瘦、手顫。查體:甲狀腺彌漫性腫大，心率126次/分，心律整。實驗室檢查提示FT3、FT4顯著增高，TSH降低。該患者最可能嘅診斷係",
+    "llm_output": "根據提供的病史和檢查結果，該患者最可能的診斷是 D. Graves病。\n\nGraves病是一種自身免疫性疾病，導致甲狀腺機能亢進（hyperthyroidism）。患者症狀包括乏力、心悸、厭食、消瘦和手顫，這些症狀與甲狀腺激素水平升高相符。甲狀腺彌漫性腫大也是Graves病的典型特徵。實驗室檢查顯示FT3、FT4顯著增高和TSH降低，這也是甲狀腺機能亢進的典型生化特徵。\n\n其他選項的特點如下：\nA. 多結節性毒性甲狀腺腫（毒性多結節性甲狀腺疾病）也可能導致甲狀腺機能亢進，但通常不會伴隨甲狀腺的彌漫性腫大。\nB. 亞急性甲狀腺炎通常會有一個更急性的病程，伴有頸部疼痛和發熱，而非厭食和消瘦。\nC. 自身免疫甲狀腺炎可能導致甲狀腺機能減退（hypothyroidism），而不是機能亢進，除非是晚期疾病導致甲狀腺破壞後的繼發性甲狀腺機能亢進。\n\n因此，正確答案是 D. Graves病。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '多結節性毒性甲狀腺腫'], ['B', '亞急性甲狀腺炎'], ['C', '自身免疫甲狀腺炎'], ['D', 'Graves病']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "特發性肺纖維化嘅HRCT典型表現係",
+    "llm_output": "B. 雙下肺同胸膜下分佈為主嘅網狀改變\n\n特發性肺纖維化（Idiopathic Pulmonary Fibrosis, IPF）嘅高分辨率電腦斷層掃描（High-Resolution Computed Tomography, HRCT）典型表現包括雙下肺和胸膜下分佈的網狀改變，可能伴有或不伴有微小囊性病變。其他選項並非特發性肺纖維化的典型表現。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '雙肺斑片狀磨玻璃影'], ['B', '雙下肺同胸膜下分佈為主嘅網狀改變'], ['C', '病竈同周圍正常組織形成鮮明對照嘅「地圖狀」改變'], ['D', '雙肺結節狀陰影']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列物質中，能夠喺底物水平上生成GTP嘅係",
+    "llm_output": "正確答案係 A. 琥珀酰CoA。\n\n琥珀酰CoA透過三羧酸循環中嘅一連串反應，可以透過琥珀酸脫氫酶催化嘅氧化還原反應產生GTP。呢個過程涉及將琥珀酰CoA轉化為琥珀酸，並釋放出GTP。其他選項乙酰CoA、丙二酸單酰CoA同脂肪酰CoA嘅代謝過程中，並唔直接涉及GTP嘅生成。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '琥珀酰CoA'], ['B', '乙酰CoA'], ['C', '丙二酸單酰CoA'], ['D', '脂肪酰CoA']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "ABO血型系統嘅主要抗體係",
+    "llm_output": "B.  IgM",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'IgE'], ['B', 'IgM'], ['C', 'IgA'], ['D', 'IgG']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，60歲。反復咳喘40餘年，活動後氣短10餘年，間斷雙下肢水腫5年，加重1天入院。吸煙史40年。查體:嗜睡，口脣發紺，頸靜脈怒張，桶狀胸，雙肺可聞及乾濕囉音，心率110次/分，心律整，肝肋下3.0cm，雙下肢水腫。血氣分析示pH 7.26，PaO2 45 mmHg，PaCO2 75 mmHg。下列治療措施錯誤嘅係",
+    "llm_output": "根據提供的病史和檢查結果，這位患者很可能患有慢性阻塞性肺疾病（COPD）並伴有急性加重，同時有心衰的跡象。在治療上，應著重於改善通氣、控制感染、舒張支氣管和處理酸中毒。然而，應用5%碳酸氫鈉來糾正酸中毒並不是首选的方法，因為碳酸氫鈉會增加血鈉濃度，可能導致鈉潴留，加重心衰。\n\n因此，錯誤的治療措施是：\n\nD. 應用5 %碳酸氫鈉糾正酸中毒\n\n正確答案選項：D.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '應用無創呼吸機改善通氣'], ['B', '積極控制感染'], ['C', '應用支氣管舒張劑'], ['D', '應用5%碳酸氫鈉糾正酸中毒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "腎上腺皮質功能減退時出現嘅變化係",
+    "llm_output": "B. 血容量減少",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '血漿Na+濃度升高'], ['B', '血容量減少'], ['C', '血壓升高'], ['D', '血漿K+濃度降低']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺下列癌前病變中，癌變概率最高嘅係",
+    "llm_output": "D. 結腸腺瘤性息肉病\n\n結腸腺瘤性息肉病（Colorectal adenomatous polyposis），又稱為家族性腺瘤性息肉病（Familial Adenomatous Polyposis, FAP），係一種遺傳性疾病，患者結腸中會生長大量腺瘤性息肉，而呢啲息肉癌變嘅風險非常高。如果唔進行早期干預，幾乎所有患者最終都會發展成結腸癌。因此，結腸腺瘤性息肉病係上述選項中癌變概率最高嘅癌前病變。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '黏膜白斑'], ['B', '未降睾丸'], ['C', '結節性肝硬化'], ['D', '結腸腺瘤性息肉病']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "女性，55歲。因結節性甲狀腺腫行雙側甲狀腺次全切除術，術後病理報告，右葉甲狀腺有5mm乳頭狀癌結節。對此患者進一步嘅處理係",
+    "llm_output": "C.  手術切除剩餘嘅右葉甲狀腺\n\n對於診斷為甲狀腺乳頭狀癌且術後病理顯示有癌細胞存在的患者，進一步的處理通常包括切除剩餘的癌性組織以確保治療的完整性。在此情況下，患者已經進行了雙側甲狀腺次全切除術，但發現右葉有5 mm的癌結節，因此選擇C，即手術切除剩餘的右葉甲狀腺，以減少癌症復發的風險。\n\n外照射治療（選項A）通常用於較為進展的甲狀腺癌病例，或者在某些特定情況下，當手術無法完全切除所有癌組織時才考慮使用。終生口服甲狀腺素鈉（選項B）是甲狀腺切除術後常規的內分泌治療，以預防甲狀腺功能低下，但並不針對腫瘤本身。切除右葉甲狀腺加頸淋巴結清掃（選項D）可能是考慮的選項，但通常在術後病理顯示有淋巴結轉移風險時才會進行。在這個問題中，並未提到淋巴結轉移的資訊，因此最合適的選擇是C。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '加用外照射治療'], ['B', '終生口服甲狀腺素鈉'], ['C', '手術切除剩餘嘅右葉甲狀腺'], ['D', '切除右葉甲狀腺加頸淋巴結清掃']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，45歲。間斷雙下肢水腫伴蛋白尿10年，乏力、納差、噁心1周，刷牙時牙齦出血伴皮膚碰後發青3天入院。入院時測血壓150/90 mmHg，化驗血Hb 80 g/L，WBC 6.4X10^9/L，Plt 192*10^9/L。尿蛋白(++)，尿比重1.010，尿糖(±)，偶見顆粒管型。血Cr 707 μmol/L。該患者出血傾向最可能嘅原因係",
+    "llm_output": "正確答案嘅選項係 C. 纖溶亢進。\n\n患者嘅臨床表現包括間斷性雙下肢水腫、蛋白尿、乏力、食慾減退、噁心、出血傾向（牙齦出血和皮膚碰後發青），以及腎功能衰竭（血Cr 707 μmol/L）。出血傾向嘅原因可能係多種，但考慮到患者嘅腎功能衰竭，纖溶亢進係一個常見嘅原因。腎功能衰竭可以導致纖溶系統嘅失衡，從而引起出血傾向。其他選項如凝血因子缺乏、血管脆性增加或血小板功能減低嘅可能性較低，而纖溶亢進與腎功能衰竭關係更為密切。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '凝血因子缺乏'], ['B', '血管脆性增加'], ['C', '纖溶亢進'], ['D', '血小板功能減低']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "酒精中毒時，肝細胞內出現馬洛裏小體（Mallory body），其病變性質係",
+    "llm_output": "正確答案係 D. 玻璃樣變性。\n\n馬洛裏小體（Mallory body）係一種在肝細胞內出現嘅玻璃樣變性嘅腫塊，通常由於慢性酒精攝入導致肝細胞內嘅微管蛋白堆積而形成。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '纖維素樣變性'], ['B', '水樣變性'], ['C', '脂肪變性'], ['D', '玻璃樣變性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，45歲。間斷雙下肢水腫伴蛋白尿10年，乏力、納差、噁心1周，刷牙時牙齦出血伴皮膚碰後發青3天入院。入院時測血壓150/90 mmHg，化驗血Hb 80 g/L，WBC 6.4X10^9/L，Plt 192*10^9/L。尿蛋白(++)，尿比重1.010，尿糖(±)，偶見顆粒管型。血Cr 707 μmol/L。該患者貧血最可能嘅原因係",
+    "llm_output": "D. 紅細胞生成素減少\n\n患者有間斷雙下肢水腫伴蛋白尿的病史，血壓偏高，血Cr（血肌酐）水平明顯升高（707 μmol/L），這表明腎功能嚴重受損。在腎功能不全的病人中，紅細胞生成素（Erythropoietin）的產生會減少，這是因為腎臟在正常情況下會產生紅細胞生成素來刺激骨髓製造紅細胞。因此，當腎功能下降時，紅細胞生成素的產生會減少，導致貧血（低Hb水平，80 g/L）。所以，該患者貧血最可能的原因是紅細胞生成素減少。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '失血因素'], ['B', '營養性造血原料唔足'], ['C', '慢性溶血'], ['D', '紅細胞生成素減少']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "別嘌呤醇治療痛風嘅可能機制係",
+    "llm_output": "C. 抑制黃嘌呤氧化酶",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '抑制脫氧核糖核酸嘅生成'], ['B', '促進dUMP嘅甲基化'], ['C', '抑制黃嘌吟氧化酶'], ['D', '促進尿酸生成嘅逆反應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "酶Km值嘅大小所代表嘅含義係",
+    "llm_output": "C.  酶對底物嘅親和力",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '最適嘅酶濃度'], ['B', '酶抑制劑嘅類型'], ['C', '酶對底物嘅親和力'], ['D', '酶促反應嘅速度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "凝血酶嘅主要作用係",
+    "llm_output": "B. 激活因子X III",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '分解因子I'], ['B', '激活因子X III'], ['C', '活化血小板'], ['D', '激活因子VIII']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，23歲。間斷上腹痛2年，2天來柏油樣便6次，今朝嘔咖啡樣物200 mL。無肝病史。靜脈輸液後下一步診治措施首選",
+    "llm_output": "C. 急診胃鏡及鏡下止血\n\n患者出現間斷上腹痛、柏油樣便和嘔吐咖啡樣物，這些症狀提示上消化道出血，可能是由消化性潰瘍或食道、胃、十二指腸的其他問題引起。急診胃鏡可以確定出血的原因並進行止血治療，因此是首選的診治措施。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '腹部B型超聲檢查'], ['B', '急診上消化道造影'], ['C', '急診胃鏡及鏡下止血'], ['D', '外科手術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "女性，35歲。乏力、心悸1年餘，近2個月症狀加重，伴厭食、消瘦、手顫。查體:甲狀腺彌漫性腫大，心率126次/分，心律整。實驗室檢查提示FT3、FT4顯著增高，TSH降低。為進一步確診，下列檢查項目中意義最大嘅係",
+    "llm_output": "D. 促甲狀腺激素受體抗體\n\n這個病例描述的症狀和實驗室檢查結果符合甲狀腺功能亢進的表現，尤其是格雷夫斯病（Graves' disease），這是甲狀腺功能亢進最常見的原因。促甲狀腺激素受體抗體（Thyroid-stimulating hormone receptor antibodies, TSAB）是確診格雷夫斯病的重要指標，因此對於進一步確診具有最大意義。其他選項如甲狀腺核素顯像、131 I攝取率和甲狀腺B超雖然可以提供有關甲狀腺功能和結構的信息，但對於確定病因方面，促甲狀腺激素受體抗體的檢測更具特異性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '甲狀腺核素顯像'], ['B', '131I攝取率'], ['C', '甲狀腺B超'], ['D', '促甲狀腺激素受體抗體']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺下列病變中，含鐵血黃素主要出現於",
+    "llm_output": "C. 肺褐色硬化\n\n含鐵血黃素主要出現在肺褐色硬化中。這種情況通常係由於慢性肺疾病，如慢性阻塞性肺疾病（COPD）所引起，其中慢性炎癥導致紅細胞破壞，從而嘅鐵質沉積於肺組織中形成含鐵血黃素。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '急性呼吸窘迫綜合徵'], ['B', '小葉性肺炎'], ['C', '肺褐色硬化'], ['D', '間質性肺炎']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，68歲。3年前診斷為COPD，未規律治療。2小時前無明顯誘因突感左胸劇痛，繼之呼吸困難、發紺、大汗、煩躁。查體：BP 90/60 mmHg，氣管右移，左肺呼吸音減弱，未聞及乾濕性囉音。最可能嘅診斷係",
+    "llm_output": "A. 自發性氣胸\n\n根據提供的病史和臨床症狀，這位68歲男性患者有COPD（慢性阻塞性肺疾病）的病史，並且目前出現了突發的左胸劇痛，伴隨呼吸困難、發紺、大汗和煩躁。查體顯示低血壓（BP 90/60 mmHg），氣管右移，左肺呼吸音減弱，這些症狀最符合自發性氣胸的診斷。自發性氣胸是指沒有外傷或其他明顯誘因的情況下，肺部氣泡破裂導致氣體進入胸膜腔，從而引起胸痛和呼吸困難。肺栓塞、肺炎並發胸膜炎和急性心肌梗死雖然也是嚴重的可能性，但根據給定的症狀和查體結果，自發性氣胸是最可能的診斷。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自發性氣胸'], ['B', '肺栓塞'], ['C', '肺炎並發胸膜炎'], ['D', '急性心肌梗死']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "RNA編輯所涉及嘅反應過程係",
+    "llm_output": "RNA編輯涉及的反應過程是：\n\nA. RNA合成後的加工過程\n\n這是因為RNA編輯通常是指在RNA水平上對mRNA的序列進行修改，例如通過添加、刪除或改變核苷酸來改變其編碼的氨基酸序列。這種修改通常發生在RNA合成之後，即在轉錄後發生。因此，正確答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'RNA合成後嘅加工過程'], ['B', 'RNA聚合酶識別模板嘅過程'], ['C', 'tRNA反密碼對密碼嘅識別過程'], ['D', 'DNA指導嘅RNA合成過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列膽囊疾病中，與膽囊癌發病無關嘅係",
+    "llm_output": "A. 膽囊膽固醇息肉\n\n膽囊膽固醇息肉被認為是膽囊壁上的一種良性增生，通常與膽囊癌的發病無關。其他選項，如膽囊結石大於2厘米（B）、膽囊腺瘤（C）和「瓷化」膽囊（D），都已被證明是膽囊癌的危險因素。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '膽囊膽固醇息肉'], ['B', '膽囊結石>2cm'], ['C', '膽囊腺瘤'], ['D', '「瓷化」膽囊']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺惡性腫瘤嘅鑑別診斷中，免疫組織化學染色角蛋白陽性，波形蛋白陰性，該腫瘤最可能嘅診斷係",
+    "llm_output": "正確答案嘅選項係 C. 癌。\n\n免疫組織化學染色角蛋白陽性通常表示腫瘤起源自上皮細胞，而波形蛋白陰性則排除了肉瘤（通常會表現出波形蛋白陽性）的診斷。因此，這種染色結果最符合癌的診斷，因為癌是從正常上皮細胞轉變而來的惡性腫瘤。神經內分泌腫瘤和黑色素瘤通常會有不同的免疫組織化學特徵。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '神經內分泌腫瘤'], ['B', '肉瘤'], ['C', '癌'], ['D', '黑色素瘤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "對中國人直腸癌，直腸指診嘅發現率係",
+    "llm_output": "C. 70 %",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '40%'], ['B', '60%'], ['C', '70%'], ['D', '50%']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於腎臟重吸收同分泌K+嘅敘述，正確嘅係",
+    "llm_output": "C.  遠曲小管分泌K+受醛固酮調節\n\n腎臟的重吸收和分泌K+主要在以下幾個部位進行：\n\n- 近端腎小管：重吸收約65%-70%的K+，並且分泌少量的K+。\n- 髓袢：重吸收約25%-30%的K+。\n- 遠曲小管和集合管：這是K+分泌的主要地點，特別是當血液中的K+濃度高於正常範圍時。醛固酮是一種激素，它可以增加遠曲小管和集合管對K+的分泌，同時增加鈉(Na+)和水的重吸收。因此，正確答案是C，遠曲小管分泌K+受醛固酮調節。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '遠端腎小管分泌K+，但唔重吸收K+'], ['B', '近端腎小管重吸收25%至30%嘅K+'], ['C', '遠曲小管分泌K+受醛固酮調節'], ['D', '髓袢重吸收65%至70%嘅K+']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於氣體喺血液中運輸嘅敘述，錯誤嘅係",
+    "llm_output": "正確答案係 B. O2 同Hb結合反應快並需酶催化\n\nO2 和 Hb (血紅蛋白) 的結合反應並不需要酶的催化，而是一個直接的化學結合過程。相反，CO2 主要以 HCO3 - (氫離子碳氫酸根) 的形式運輸，並且可以與 Hb 結合形成 carbamino 化合物，這一過程也不需要酶的參與。O2 和 CO2 在血液中的運輸還包括物理溶解的形式，但這部分相對於 Hb 結合來說是較少的一部分。因此，B 選項是錯誤的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'CO2主要以HCO3-形式運輸'], ['B', 'O2同Hb結合反應快並需酶催化'], ['C', 'CO2同O2都有物理溶解形式'], ['D', 'CO2同Hb結合唔需要酶嘅催化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "唾液澱粉酶發揮作用嘅最適PH係",
+    "llm_output": "正確答案係 A. 6.0 ~7.0。唾液澱粉酶在接近中性的pH值下活性最高，這有助於在口腔中分解澱粉。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '6.0~7.0'], ['B', '4.0~5.0'], ['C', '8.0~9.0'], ['D', '2.0~3.0']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "胃同小腸都具有嘅運動形式係",
+    "llm_output": "A. 緊張性收縮",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '緊張性收縮'], ['B', '容受性舒張'], ['C', '分節運動'], ['D', '袋狀往返運動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "竇房結能成為心臟正常起搏點嘅原因係",
+    "llm_output": "正確答案嘅選項係 C. 4 期去極化速率快。\n\n竇房結細胞嘅4期自動去極化速度較快，因此能夠比其他心臟細胞更早達到閾電位，從而首先啟動心臟搏動，成為心臟嘅正常起搏點。竇房結嘅這種特性有助於維持心臟節律嘅穩定性，並確保心臟能夠有序地收縮，為身體提供穩定的血液供應。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '閾電位為-40mV'], ['B', '靜息電位僅為-70mV'], ['C', '4期去極化速率快'], ['D', '0期去極化速度快']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "當睫狀肌收縮時，可引起嘅生理效應係",
+    "llm_output": "B. 晶狀體曲度增加",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '角膜曲度增加'], ['B', '晶狀體曲度增加'], ['C', '瞳孔增大'], ['D', '睫狀小帶緊張性增加']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "能夠逆向轉運膽固醇到肝嘅脂蛋白係",
+    "llm_output": "D.  HDL",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'CM'], ['B', 'LDL'], ['C', 'VLDL'], ['D', 'HDL']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "鏡下壞死組織結構嘅輪廓消失，呈現一片嗜酸性顆粒狀物，其壞死類型係",
+    "llm_output": "B.  乾酪樣壞死",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '凝固性壞死'], ['B', '乾酪樣壞死'], ['C', '液化性壞死'], ['D', '脂肪壞死']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，60歲。反復咳喘40餘年，活動後氣短10餘年，間斷雙下肢水腫5年，加重1天入院。吸煙史40年。查體：嗜睡，口脣發紺，頸靜脈怒張，桶狀胸，雙肺可聞及乾濕囉音，心率110次/分，心律整，肝肋下3.0cm，雙下肢水腫。血氣分析示pH 7.26，PaO2 45 mmHg，PaCO2 75 mmHg。經治療後病情有好轉，神志清醒。數日後出現煩躁，有時抽搐，血氣分析pH 7.49，PaO2 45 mmHg，PaCO2 75 mmHg，BE+15 mmol/L，上述情況最可能係",
+    "llm_output": "根據提供的病史和血氣分析結果，最可能的診斷是失代償性呼吸性酸中毒（選項 C）。\n\n患者有长期的咳喘病史，活動後氣短，雙下肢水腫等症狀，血氣分析顯示低pH值（7.26），低PaO2（45 mmHg）和高PaCO2（75 mmHg），這符合呼吸性酸中毒的特徵。呼吸性酸中毒通常是由於肺功能障礙導致的二氧化碳排出受阻所致，常見於慢性阻塞性肺疾病（COPD）等疾病。\n\n在治療過程中，患者的神志清醒，但隨後出現煩躁和有時抽搐，血氣分析顯示pH值升高至7.49，這可能是代償性代謝性鹼中毒的迹象，因為機體試圖通過增加碳酸氫鹽來代償過多的二氧化碳。然而，主要的問題仍然是呼吸性酸中毒，因為PaCO2仍然高於正常範圍。因此，選項 C. 失代償性呼吸性酸中毒是最合適的答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '失代償性代謝性鹼中毒'], ['B', '呼吸性鹼中毒合併代謝性鹼中毒'], ['C', '失代償性呼吸性酸中毒'], ['D', '呼吸性酸中毒合併代謝性鹼中毒']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "女性，55歲。10天前行胃癌根治術，術後3天拔除胃管開始進流食。3天來進食後半小時出現右上腹脹痛，伴嘔吐，吐出物為大量膽汁，吐後症狀緩解。此患者最可能嘅診斷係",
+    "llm_output": "正確答案嘅選項係 C. 急性輸入襻梗阻。\n\n根據描述，患者在進食後半小時出現右上腹脹痛，伴嘔吐，吐出物為大量膽汁，且吐後症狀緩解，這些症狀符合急性輸入襻梗阻的典型表現。急性輸入襻梗阻通常是由於輸入襻的狹窄或粘連導致膽汁流通不暢，進而引起膽汁反流和胃脹痛。嘔吐膽汁是輸入襻梗阻的特徵之一，且症狀在嘔吐後可以緩解。其他選項如吻合口梗阻、慢性輸入襻梗阻和輸出襻梗阻的症狀與本例患者嘅表現不符。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '吻合口梗阻'], ['B', '慢性輸入襻梗阻'], ['C', '急性輸入襻梗阻'], ['D', '輸出襻梗阻']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，23歲。因乏力10天、牙齦出血伴皮膚瘀斑4天入院，既往體健。化驗血Hb 76 g/L，WBC 25X10^9/L，Plt 29X10^9/L，骨髓增生明顯活躍，原始細胞佔60%，POX染色(-)，PAS染色(+)成塊，NSE染色(-)。提示該患者預後差嘅染色體異常係",
+    "llm_output": "B.  t(9 ;22 )",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 't(16;16)'], ['B', 't(9;22)'], ['C', 't(8;21)'], ['D', 't(15;17)']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，50歲。胃潰瘍病史10年，近2個月患者腹痛加重，失去規律，經多種藥物治療無效體重下降。查體：淺表淋巴結無腫大，腹平軟，上腹部有壓痛。根據診斷，最佳嘅處理方法係",
+    "llm_output": "根據描述，患者有長期胃潰瘍病史，近期腹痛加重且失去規律，體重下降，這可能是胃潰瘍惡化或併發其他疾病的迹象。在給出的選項中，最佳的處理方法應該是：\n\nA. 手術治療\n\n手術治療可能是必要的，以便確定並移除導致症状惡化的組織或器官部分。然而，在做出手術決定之前，醫生通常會進行進一步的診斷測試，如內窺鏡檢查和組織活檢，以排除或確診癌症等嚴重疾病。\n\n選項B（質子泵抑制劑治療）和D（胃黏膜保護劑治療）通常是治療胃潰瘍的常見方法，但由於患者已經經歷了多種藥物治療而無效，這些選項可能已經被考慮過。\n\n選項C（根除幽門螺桿菌）也是胃潰瘍治療的重要組成部分，但如果患者已經有嚴重的症状惡化，可能需要更積極的治療方法。\n\n請注意，實際的醫療決策應該由具有專業醫學知識的醫療人員根據患者的具體情況來做出。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '手術治療'], ['B', '質子泵抑制劑治療'], ['C', '根除幽門螺桿菌'], ['D', '胃黏膜保護劑治療']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "最常見嘅原發性惡性骨腫瘤係",
+    "llm_output": "A. 骨肉瘤",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '骨肉瘤'], ['B', '骨纖維肉瘤'], ['C', '尤文肉瘤'], ['D', '軟骨肉瘤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "女性，62歲。患高血壓病10年，2個月來發作性心悸，心電圖診斷為心房顫動，持續5~24小時自行恢復。4天前再次發作後持續唔緩解來院。查體：BP 125/70 mmHg，心率90次/分。對該患者正確嘅治療措施係",
+    "llm_output": "根據問題描述，這位62歲女性患者有高血壓病史，並出現了心房顫動的症狀，且心房顫動能夠自行恢復，但最近一次發作後持續不緩解。查體顯示血壓和心率在正常範圍內。\n\n對於這種情況，治療通常包括評估患者的風險因素、心房顫動的持續時間和嚴重程度，以及是否有併發症如血栓形成。在這種情況下，首先需要評估患者是否有轉復心房顫動至正常節律的指征，以及選擇何種轉復治療方法。\n\n選項A（立即採取電轉復）可能是一種選項，但通常在決定電轉復之前會考慮其他較溫和的治療方法，並且會評估患者的具體情況。\n\n選項B（經胸UCG檢查心房內無血栓即可轉復）是正確的，因為在考慮轉復心房顫動之前，需要確保心房內沒有血栓，以避免中風的風險。經胸UCG（經胸超聲心動圖）可以用來檢查心房內是否有血栓。\n\n選項C（華法林抗凝3周後轉復）是錯誤的，因為華法林是一種抗凝藥物，用於減少心房顫動患者中風的風險。在轉復心房顫動之前，通常會先進行抗凝治療一段時間，但這不是轉復本身的方法。\n\n選項D（立即靜脈輸注胺碘酮轉復）是錯誤的，因為胺碘酮通常不作為立即轉復心房顫動的首選藥物，特別是當患者情況穩定時。\n\n因此，正確答案是 B. 經胸UCG檢查心房內無血栓即可轉復。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '立即採取電轉復'], ['B', '經胸UCG檢查心房內無血栓即可轉復'], ['C', '華法林抗凝3周後轉復'], ['D', '立即靜脈輸注胺碘酮轉復']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列治療風濕病嘅非甾體抗炎藥物中，胃腸道唔良反應最小嘅係",
+    "llm_output": "D. 塞来昔布 (Celecoxib)\n\n塞来昔布屬於選擇性環氧合酶-2 (COX-2) 抑制劑，相比其他非甾體抗炎藥物（NSAIDs），其對胃腸道的副作用較小。COX-2是負責產生前列腺素的一種酶，與炎症和疼痛相關，而選擇性抑制COX-2有助於減少胃腸道的不良反應。然而，需要注意的是，並不是所有患者對塞来昔布的反應都相同，且個別患者可能仍會經歷胃腸道不適。醫生會根據患者的具體情況來選擇最合適的治療方案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '炎痛喜康'], ['B', '雙氯芬酸'], ['C', '萘普生'], ['D', '塞來昔布']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，50歲。胃潰瘍病史10年，近2個月患者腹痛加重，失去規律，經多種藥物治療無效體重下降。查體：淺表淋巴結無腫大，腹平軟，上腹部有壓痛。為明確診斷，最有意義嘅檢查係",
+    "llm_output": "B. 胃鏡檢查\n\n胃潰瘍病史加上近期腹痛加重、藥物治療無效和體重下降，提示可能出現了并发症，如惡性腫瘤。胃鏡檢查可以直接觀察胃部情況，並進行活組織檢查以確定診斷。其他選項如便潛血試驗、胃腸造影和血清胃泌素測定可以提供一些線索，但不如胃鏡檢查直接和準確。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '便潛血試驗'], ['B', '胃鏡檢查'], ['C', '胃腸造影'], ['D', '血清胃泌素測定']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列涉及G蛋白偶聯受體信號嘅主要途徑係",
+    "llm_output": "D.  cAMP-PKA信號途徑\n\nG蛋白偶聯受體（G protein-coupled receptors，GPCRs）是一種常見的受體蛋白，它們能夠與細胞外信號分子結合，並通過激活G蛋白來傳遞信號。cAMP-PKA信號途徑是GPCRs介導的信號傳導途徑之一，其中G蛋白激活腺苷酸環化酶，從而增加細胞內cAMP的水平，進而激活蛋白激酶A（PKA），從而調節多種細胞功能。其他選項涉及的不同信號途徑，如雌激素-核受體信號途徑（A）涉及核受體和DNA結合，絲/蘇氨酸激酶受體信號途徑（B）和酪氨酸激酶受體信號途徑（C）涉及不同類型的酶激酶活動，但它們不直接通過G蛋白偶聯受體工作。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '雌激素-核受體信號途徑'], ['B', '絲/蘇氨酸激酶受體信號途徑'], ['C', '酪氨酸激酶受體信號途徑'], ['D', 'cAMP-PKA信號途徑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列情況中，能夠使肺通氣/血流比值增高最明顯嘅係",
+    "llm_output": "D. 肺栓塞\n\n肺栓塞會導致部分肺葉或肺段血液流量減少，而通氣量不變或甚至增加，從而使得肺通氣/血流比值增高。支氣管哮喘發作、肺水腫和肺纖維化都可能導致通氣/血流比值降低，因為這些情況會影響肺部的通氣功能和血流動力學。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '支氣管哮喘發作'], ['B', '肺水腫'], ['C', '肺纖維化形成'], ['D', '肺栓塞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "原發性醛固酮增多症首選嘅治療方法係",
+    "llm_output": "C. 螺內酯 (Spironolactone)\n\n原發性醛固酮增多症（Primary aldosteronism）是一種常見的腎上腺疾病，其中腎上腺分泌過量的醛固酮，導致高血壓和低血鈉。螺內酯是一種醛固酮拮抗劑，用於治療這種疾病，幫助減少過量的醛固酮引起的症狀。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '氨苯蝶啶'], ['B', '手術治療'], ['C', '螺內酯'], ['D', '血管緊張素轉換酶抑制劑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列可以導致原癌基因激活嘅機制係",
+    "llm_output": "正確答案嘅選項係 B. 獲得啟動子。\n\n原癌基因激活嘅機制中，獲得啟動子係其中一種可以導致原癌基因變成過度表達或者活化嘅方式。獲得啟動子可以令原癌基因喺不嘥時嘅時機或者過度嘅地方表達，從而導致細胞生長和分裂嘅失控，進而可能誘導腫瘤形成。而其他選項，如 p53 蛋白誘導細胞凋亡、轉錄因子同 RNA 嘅結合以及抑癌基因嘅過表達，通常係細胞監控和修復機制嘅一部分，用來防止或者對抗腫瘤形成，而非導致原癌基因激活嘅原因。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'p53蛋白誘導細胞凋亡'], ['B', '獲得啟動子'], ['C', '轉錄因子同RNA嘅結合'], ['D', '抑癌基因嘅過表達']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "頸椎病中發病率最高嘅類型係",
+    "llm_output": "B. 神經根型",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '交感型'], ['B', '神經根型'], ['C', '椎動脈型'], ['D', '脊髓型']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "腱器官傳入衝動增加所引起嘅效應係",
+    "llm_output": "正確答案係 C. 對同一肌肉嘅α運動神經元起抑制作用。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '使梭外肌收縮增強'], ['B', '對同一肌肉嘅γ運動神經元起抑制作用'], ['C', '對同一肌肉嘅α運動神經元起抑制作用'], ['D', '使梭內肌收縮增強']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "交感神經系統興奮時，引起嘅生理效應係",
+    "llm_output": "A. 瞳孔開大肌收縮",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '瞳孔開大肌收縮'], ['B', '支氣管平滑肌收縮'], ['C', '胃腸運動增強'], ['D', '促進胰島素嘅分泌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "腸梗阻患者唔宜使用嘅麻醉藥係",
+    "llm_output": "B. 氧化亞氮",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '異氟醚'], ['B', '氧化亞氮'], ['C', '恩氟烷'], ['D', '七氟醚']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "血液流經腎小球時，促進原尿生成嘅直接動力係",
+    "llm_output": "A. 腎小球毛細血管壓\n\n當血液流經腎小球時，腎小球的毛細血管壓是促進原尿生成的直接動力。腎小球是一個過濾器，其結構允許血漿中的水分和小分子物質通過，而大分子如血細胞和蛋白質則被阻止通過。腎小球毛細血管壓使得血漿中的水分能夠滲透到腎小囊中，形成原尿。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '腎小球毛細血管壓'], ['B', '腎動脈壓'], ['C', '血漿膠體滲透壓'], ['D', '全身平均動脈壓']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列疾病中，屬於原發性心肌病範疇嘅係",
+    "llm_output": "C. 致心律失常型右室心肌病 (Arrhythmogenic Right Ventricular Cardiomyopathy, ARVC) 屬於原發性心肌病範疇。原發性心肌病是指那些主要影響心肌組織自身結構和功能嘅疾病，而唔係由其他系統性疾病或已知嘅遺傳病引起。ARVC 是一種遺傳性心肌病，主要影響右心室心肌細胞，導致心律失常和心力衰竭。\n\nA. 圍產期心肌病 (Peripartum Cardiomyopathy) 通常是指孕婦在懷孕末期或分娩後發生嘅心肌功能障礙，唔屬於原發性心肌病。\n\nB. 自身免疫性心肌病 (Autoimmune Cardiomyopathy) 是由于免疫系統錯誤地攻擊自身心肌細胞引起嘅疾病，係一種繼發性心肌病。\n\nD. 酒精性心肌病 (Alcoholic Cardiomyopathy) 是長期過量飲酒導致嘅心肌損害，亦係一種繼發性心肌病。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '圍產期心肌病'], ['B', '自身免疫性心肌病'], ['C', '致心律失常型右室心肌病'], ['D', '酒精性心肌病']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "目前外科治療肝硬化門靜脈高壓症主要目標係",
+    "llm_output": "C. 預防同治療曲張靜脈出血",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '改善肝功能'], ['B', '解除脾功能亢進'], ['C', '預防同治療曲張靜脈出血'], ['D', '減少腹水形成']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，45歲。間斷雙下肢水腫伴蛋白尿10年，乏力、納差、噁心1周，刷牙時牙齦出血伴皮膚碰後發青3天入院。入院時測血壓150/90 mmHg，化驗血Hb 80 g/L，WBC 6.4X10^9/L，Plt 192*10^9/L。尿蛋白(++)，尿比重1.010，尿糖(±)，偶見顆粒管型。血Cr 707 μmol/L。該患者血肌酥升高嘅最可能病因係",
+    "llm_output": "B. 慢性腎小球腎炎\n\n患者有間斷雙下肢水腫伴蛋白尿的病史，乏力、噁心等症狀，以及血壓升高和血肌酐水平明顯升高，這些症狀和檢驗結果均指向慢性腎小球腎炎，這是血肌酐升高的最可能病因。高血壓病腎損害、糖尿病腎病和腎病綜合徵也可能導致血肌酐升高，但根據提供的病史和檢驗結果，慢性腎小球腎炎是最合適的診斷。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '高血壓病腎損害'], ['B', '慢性腎小球腎炎'], ['C', '糖尿病腎病'], ['D', '腎病綜合徵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "神經衝動到達肌接頭前膜時，引起開放嘅通道係",
+    "llm_output": "B.  Ca2 +通道",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'K+通道'], ['B', 'Ca2+通道'], ['C', 'Cl-通道'], ['D', 'Na+通道']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "目前基因治療主要採取嘅方法係",
+    "llm_output": "D. 将表达目的基因的细胞输入患者体内\n\n目前基因治疗主要采取的方法是将正常或有功能的基因通过载体（如病毒载体或裸露DNA）导入患者体内，以替代或补偿缺陷基因的功能。这种方法通常涉及将表达目的基因的细胞（如干细胞或成体细胞）输送到患者体内，以治疗遗传性疾病或某些类型的获得性疾病。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '提高患者嘅DNA合成能力'], ['B', '調整患者DNA修復嘅酶類'], ['C', '對患者缺陷基因進行重組'], ['D', '將表達目的基因嘅細胞輸入患者體內']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "腸結核潰瘍嘅形態特徵取決於",
+    "llm_output": "B. 腸黏膜淋巴小結嘅形態\n\n腸結核潰瘍的形態特徵通常與腸黏膜淋巴小結的形態有關。腸結核是由分枝桿菌（Mycobacterium tuberculosis）引起的，這種細菌會感染腸道的淋巴組織，導致炎症和潰瘍的形成。潰瘍通常呈現為卵圓形或環形，其長軸與腸道的長軸平行，這反映了腸黏膜淋巴小結的分布。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '腸黏膜淋巴管嘅走向'], ['B', '腸黏膜淋巴小結嘅形態'], ['C', '腸黏膜血管嘅走向'], ['D', '腸黏膜嘅皺壁形態']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "紅細胞懸浮穩定性降低嘅原因係",
+    "llm_output": "C.  紅細胞疊連加速\n\n紅細胞懸浮稳定性降低通常是由於紅細胞疊連加速，這會導致紅細胞更容易聚集在一起，從而降低了血液中紅細胞的穩定性。這種情況可能會導致攜氧能力下降和循環障礙。血漿白蛋白增多、紅細胞脆性增加和血漿纖維蛋白原減少都可能影響血液的流變學特性，但不直接導致紅細胞懸浮穩定性降低。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '血漿白蛋白增多'], ['B', '紅細胞脆性增加'], ['C', '紅細胞疊連加速'], ['D', '血漿纖維蛋白原減少']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列原癌基因中，以點突變為主要激活方式成為癌基因嘅係",
+    "llm_output": "正確答案係 A. ras。\n\nras 基因係原癌基因中，以點突變為主要激活方式成為癌基因。這些點突變通常涉及鳥苷酸環化酶結構域，導致其持續活化，從而促進腫瘤生長。而其他選項中，myc、cyclinD1 同 PDGF 雖然都係原癌基因，但它們嘅激活並唔主要以點突變方式為主。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'ras'], ['B', 'myc'], ['C', 'cyclinD1'], ['D', 'PDGF']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "對廣泛DNA損傷進行緊急、粗糙高錯誤率嘅修復方式係",
+    "llm_output": "A. SOS修復",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'SOS修復'], ['B', '切除修復'], ['C', '光修復'], ['D', '重組修復']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "甲狀腺激素嘅化學本質係",
+    "llm_output": "C. 胺類",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '酚類'], ['B', '類固醇類'], ['C', '胺類'], ['D', '糖蛋白']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺傷口癒合時，對增加傷口癒合強度起主要作用嘅因素係",
+    "llm_output": "C.  細胞外基質\n\n細胞外基質（Extracellular matrix, ECM）係一種網狀結構，主要由蛋白質、糖蛋白或者多糖組成，響組織層面提供結構支持，並且響傷口癒合過程中扮演重要角色。ECM 嘅主要成分包括膠原蛋白、糖胺聚糖等，響傷口癒合嘅不同階段，ECM 嘅成分同結構會發生變化，幫助增加傷口癒合嘅強度。雖然其他選項嘅因素亦都响傷口癒合過程中具有重要性，但 ECM 係對增加傷口癒合強度起主要作用嘅因素。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '良好嘅血供'], ['B', '毛細血管'], ['C', '細胞外基質'], ['D', '成纖維細胞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "急性非ST段抬高心肌梗死治療時唔宜採用溶栓療法嘅主要原因係",
+    "llm_output": "D.  冠脈內主要係白血栓\n\n急性非ST段抬高心肌梗死（NSTEMI）時不建議使用溶栓療法的主要原因是冠脈內主要為白血栓。白血栓通常由血小板和其他凝血因子組成，與主要由紅血球和纤维蛋白組成的紅色血栓相比，溶栓藥物對白血栓的溶解效果較差，而且使用溶栓療法增加出血風險。因此，NSTEMI的患者通常需要進行其他治療，如心導管術或藥物治療，以開通阻塞的冠狀動脈。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '病情危急程度較輕'], ['B', '冠脈阻塞唔完全'], ['C', '冠脈痙攣係發病嘅主要因素'], ['D', '冠脈內主要係白血栓']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列急性胸部損傷中，對生命威脅最大嘅係",
+    "llm_output": "C.  張力性氣胸",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '閉合性氣胸'], ['B', '開放性氣胸'], ['C', '張力性氣胸'], ['D', '血氣胸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "原核生物基因組嘅特點係",
+    "llm_output": "A. 轉錄產物係多順反子\n\n原核生物的基因組通常由一個單一的環狀DNA分子組成，並且其轉錄產物可以包含多個不同的蛋白質編碼序列（多順反子），這與真核生物中一個mRNA分子通常只編碼一個蛋白質的不同。原核生物沒有線粒體DNA，因為它們本身就是原核生物，不需要額外的細胞器DNA。核小體是真核生物染色體的基本組成單位，而不是原核生物。原核生物的基因通常沒有內含子，因此其基因是連續的，沒有唔連續性。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '轉錄產物係多順反子'], ['B', '線粒體DNA為環狀結構'], ['C', '核小體係其基本組成單位'], ['D', '基因嘅唔連續性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "雌激素同孕激素作用嘅相同點係",
+    "llm_output": "D. 使子宮內膜變厚\n\n雌激素和孕激素都對子宮內膜有影響，它們會促進子宮內膜的增生和增厚，為可能嘅懷孕做準備。然而，它們嘅作用並唔是完全相同，雌激素主要刺激子宮內膜的增生，而孕激素則負責轉化雌激素引起嘅增生組織，並為胚胎着床創造適宜環境。因此，它們共同作用導致子宮內膜變厚。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '促進乳腺導管增生同延長'], ['B', '減少宮頸黏液嘅分泌'], ['C', '使子宮輸卵管平滑肌活動減弱'], ['D', '使子宮內膜變厚']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺血吸蟲病中，畀患者造成最大危害嘅因素係",
+    "llm_output": "A. 蟲卵",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '蟲卵'], ['B', '尾蚴'], ['C', '童蟲'], ['D', '成蟲']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "一例甲狀腺腫瘤，呈浸潤性生長。鏡下見癌細胞呈濾泡狀排列，細胞核呈毛玻璃狀，核重疊核溝明顯。應診斷為",
+    "llm_output": "正確答案係 B. 乳頭狀癌。\n\n乳頭狀癌係甲狀腺最常見嘅類型，佔甲狀腺癌嘅大部份。呢種癌嘅特徵包括浸潤性生長、濾泡狀排列嘅癌細胞、細胞核呈毛玻璃狀，以及核重疊核溝明顯。濾泡狀癌雖然也會有濾泡狀排列，但細胞核嘅特徵唔係毛玻璃狀。髓樣癌同未分化癌嘅細胞特徵亦唔符合呢個病例嘅描述。因此，正確診斷係乳頭狀癌。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '濾泡狀癌'], ['B', '乳頭狀癌'], ['C', '髓樣癌'], ['D', '未分化癌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "伴有血流動力學紊亂的大面積肺栓塞嘅溶栓治療時間窗係",
+    "llm_output": "C.  <=30 天",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '<=3天'], ['B', '<=7天'], ['C', '<=30天'], ['D', '<=14天']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "聲波由鼓膜經聽骨鏈傳向卵圓窗時出現嘅振動變化係",
+    "llm_output": "正確答案係 D. 幅度減小，壓強增大。\n\n當聲波由鼓膜傳遞至聽骨鏈，並進一步向卵圓窗（oval window）傳播時，由於聽骨鏈的放大作用，聲波的壓強會增大，而振幅會減小。這是因為聽骨鏈（包括錘骨、砧骨和鐙骨）作為一個傳導系統，能夠有效地將聲波的能量從鼓膜轉移到內耳的淋巴液中。這種轉移過程中，由於聽骨鏈的機械效率，聲波的壓強被放大，而振幅則因能量轉移過程中儲存形式的改變而減小。這種變化對於聲波的進一步處理和轉化至神經信號至關重要，從而允許我們感知聲音。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '幅度減小，壓強減小'], ['B', '幅度增大，壓強增大'], ['C', '幅度增大，壓強減小'], ['D', '幅度減小，壓強增大']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，50歲。體重60kg，行胃癌根治術，其術後每日需要最合適嘅熱量係",
+    "llm_output": "B.  1800 kcal",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1500 kcal'], ['B', '1800 kcal'], ['C', '1950 kcal'], ['D', '1650 kcal']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，82歲。體型較消瘦，3個月前口服葡萄糖耐量試驗診為糖尿病，平時空腹血糖6.5~7.2 mmol/L，餐後2小時血糖12~14 mmol/L，有冠心病心衰病史10年，結腸癌術後5年。為控制血糖，應首選嘅藥物係",
+    "llm_output": "根據提供的病史，這位82歲的男性患者有冠心病、心力衰竭的病史，以及結腸癌的術後歷史。他的血糖水平顯示出空腹血糖略高於正常範圍，而餐後2小時血糖則明顯高於正常範圍。在選擇用於控制血糖的藥物時，需要考慮藥物的安全性和對心血管系統的影響。\n\n二甲雙胍（D. 二甲雙胍）通常被視為2型糖尿病患者的一線治療藥物，尤其是對於肥胖或超重的患者。雖然它在某些情況下可能不是首选，但考慮到患者的年齡和心血管風險，二甲雙胍通常是一個相對安全的起始治療選項，除非患者有嚴重的腎臟或肝臟功能障礙。\n\n胰島素（A）可能會在糖尿病管理中使用，特別是當血糖控制不佳時，但通常不會作為初始治療。\n\n那格列奈（B）是一種非磺脲類的口服降糖藥，可用於治療2型糖尿病，但它可能不是心血管高風險患者的首選藥物。\n\n阿卡波糖（C）是一種α-葡萄糖苷酶抑制劑，用於降低餐後血糖水平，但它也可能不是心血管疾病患者的首選藥物，因為它可能會影響心血管風險。\n\n考慮到患者的病史和血糖控制需求，最合適的答案是：\n\nD. 二甲雙胍\n\n然而，請注意，實際的醫療決策應該由具有執業資格的醫療專業人員根據患者的具體情況和臨床指南來做出。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '胰島素'], ['B', '那格列奈'], ['C', '阿卡波糖'], ['D', '二甲雙胍']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，23歲。因乏力10天、牙齦出血伴皮膚瘀斑4天入院，既往體健。化驗血Hb 76 g/L，WBC 25X10^9/L，Plt 29X10^9/L，骨髓增生明顯活躍，原始細胞佔60%，POX染色(-)，PAS染色(+)成塊，NSE染色(-)。該患者首選嘅治療方案係",
+    "llm_output": "根據提供的病史和實驗室結果，這名患者很可能被診斷為急性淋巴細胞白血病（ALL）。因此，首選治療方案是：\n\nC. DVLP\n\nDVLP是一種常用于成人急性淋巴細核白血病的化療方案，包括使用柔紅霉素（D）、維甲酸（V）、羥基脲（H）和泼尼松（P）。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'COP'], ['B', 'ABVD'], ['C', 'DVLP'], ['D', 'DA']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列物質代謝調節方式中，屬於快速調節嘅係",
+    "llm_output": "A. 酶嘅別構調節\n\n快速調節通常涉及細胞內已經存在嘅酶分子，而別構調節可以迅速改變酶活性，響細胞內嘅代謝過程中發揮重要角色。其他選項，如酶蛋白嘅降解作用、誘導合成以及產物對酶合成嘅阻遏作用，通常需要較長時間嘅過程，屬於慢速調節機制。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '酶嘅別構調節'], ['B', '酶蛋白嘅降解作用'], ['C', '酶蛋白嘅誘導合成'], ['D', '產物對酶合成嘅阻遏作用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "椎管內阻滯麻醉時，最先受到阻滯嘅神經係",
+    "llm_output": "D. 感覺神經\n\n椎管內阻滯麻醉（如硬膜外麻醉或脊髓麻醉）時，麻醉藥物會首先阻斷感覺神經的傳導，從而達到鎮痛的效果。運動神經的抑制通常會較為緩慢地出現。因此，正確答案是 D. 感覺神經。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '運動神經'], ['B', '交感神經'], ['C', '副交感神經'], ['D', '感覺神經']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列臨牀上常見出現脈壓減少嘅病變，唔正確嘅係",
+    "llm_output": "正確答案嘅選項係 B. 重度二尖瓣關閉唔全。\n\n脈壓減少通常係指心臟收縮時嘅最大壓力（收縮壓）同埋心臟舒張時嘅壓力（舒張壓）之間嘅差值減少。重度二尖瓣關閉唔全會導致血液在心室舒張時反流，從而增加舒張壓，導致脈壓增加，而唔係減少。\n\n其他選項：\nA. 主動脈瓣狹窄：會導致收縮壓降低，因為血液通過狹窄嘅瓣膜時困難，從而減少咗射入動脈系統嘅血流量，導致脈壓減少。\nC. 心包積液：積液會增加心臟嘅外層（心包）嘅壓力，從而壓迫心臟並限制其擴張，導致心臟嘅血液輸出量減少，進而減少脈壓。\nD. 心力衰竭：心臟衰竭時，其泵血功能受損，導致血流量減少，收縮壓下降，從而可能導致脈壓減少。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '主動脈瓣狹窄'], ['B', '重度二尖瓣關閉唔全'], ['C', '心包積液'], ['D', '心力衰竭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於動作電位嘅描述，正確嘅係",
+    "llm_output": "正確答案係 C. 傳導距離較長時，動作電位嘅大小唔發生改變。\n\n動作電位（Action Potential）係一種在神經細胞或肌肉細胞等可傳導細胞中，當刺激達到一定閾值時產生的迅速電位變化。動作電位具有全或無的特點，即它們的幅度和持續時間在細胞的不同部位是相同的，不論傳導距離多遠。這就是所謂的「電緊張性傳導」（electrotonic conduction）所無法達到的。在動作電位發生後，會沿著細胞膜以閘控緊張性傳布（gated channel mechanism）的方式迅速傳導，直至整個細胞膜都經歷相同的電位變化。因此，選項 C 正確地描述了動作電位傳導的特點。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '刺激強度達到閾值後，再增加刺激強度能使動作電位幅度增大'], ['B', '刺激強度小於閾值時，出現低幅度動作電位'], ['C', '傳導距離較長時，動作電位嘅大小唔發生改變'], ['D', '動作電位一經產生，便可沿細胞膜做電緊張性擴布']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "診斷腹腔隔室綜合徵（abdominal compartment syndrome）時膀胱內測得嘅壓力應大於",
+    "llm_output": "C.  25  mmHg",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '20 mmHg'], ['B', '10 mmHg'], ['C', '25 mmHg'], ['D', '15 mmHg']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺下列選項中，符合IgA腎病鏡下特徵嘅病變係",
+    "llm_output": "C. 腎小球系膜區細胞增生\n\nIgA腎病是一種常見的腎小球疾病，其病理特徵主要為腎小球系膜區的細胞增生，以及系膜區的IgA沉積。這種增生可能導致腎絲球濾過功能受損，進而影響腎臟功能。其他選項描述的病變並非IgA腎病的典型鏡下特徵。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '腎小球內中性粒細胞浸潤'], ['B', '腎小球毛細血管袢纖維素樣壞死'], ['C', '腎小球系膜區細胞增生'], ['D', '腎小球內皮細胞增生']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺臨牀上，約有40%嘅濾泡型淋巴瘤會轉化為瀰漫大B細胞型淋巴瘤，其最常見嘅分子機制係",
+    "llm_output": "C.  p53 基因突變",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'bcr-abl融合基因形成'], ['B', 'ras基因突變'], ['C', 'p53基因突變'], ['D', 'myc基因擴增']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "心室肌收縮嘅後負荷係",
+    "llm_output": "D.  大動脈血壓\n\n心室肌收縮的後負荷是指心室在收縮時所遇到的阻力或負擔，這阻力主要來自大動脈血壓。後負荷與心室收縮時需要克服的阻力有關，而大動脈血壓是心室收縮時血液對動脈壁的壓力，因此是心室肌收縮的後負荷。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '快速射血期心室內壓'], ['B', '減慢射血期心室內壓'], ['C', '等容收縮期初心室內壓'], ['D', '大動脈血壓']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "關於二尖瓣狹窄心尖部舒張期雜音聽診特點嘅敘述，正確嘅係",
+    "llm_output": "B. 多為遞增遞減型",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '向劍突方向傳導'], ['B', '多為遞增遞減型'], ['C', '強度唔受呼吸影響'], ['D', '為全舒張期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，80歲。因突發全腹劇痛8小時來院，途中頻繁嘔吐，隨後出現氣急、喘憋。既往有房顫史。入院查體：P 95次/分，R 36次/分，BP 84/60 mmHg，急性病容，呼吸急促，兩肺均可聞及哮鳴音及濕囉音，右側為著，心率120次/分，節律唔整，腹部膨隆，全腹均有壓痛，右側更明顯，輕度反跳痛、肌緊張，腸鳴音弱。化驗Hb 124 g/L，WBC 30X10^9/L，中性粒細胞90%。患者嘅下列擬診中可排除嘅係",
+    "llm_output": "根據提供的病史和臨床表現，這位80歲男性的擬診中可以排除的是D. 乙狀結腸扭轉。\n\n腸系膜上動脈栓塞（A）、上消化道穿孔（B）和急性重症胰腺炎（C）都有可能導致患者出現急性腹痛、嘔吐、氣急、喘憋等症狀，並且患者的既往病史（房顫）增加了腸系膜上動脈栓塞的風險。此外，全腹壓痛、壓跳痛和肌緊張（腹膜炎的跡象）以及白細胞計數升高（特別是中性粒細胞比例高）都支持這些診斷。\n\n乙狀結腸扭轉（D）通常影響老年人，主要表現為腹部劇烈疼痛、腸鳴音消失或減弱、腹部脹氣等，但並不常見於有房顸病史的患者，且氣急和喘憋不是典型的表現。因此，根據提供的信息，乙狀結腸扭轉不是最可能的診斷。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '腸系膜上動脈栓塞'], ['B', '上消化道穿孔'], ['C', '急性重症胰腺炎'], ['D', '乙狀結腸扭轉']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "肝硬化失代償期患者發生大嘔血後出現嘅體徵變化，正確嘅係",
+    "llm_output": "A. 腹壁靜脈曲張加重",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '腹壁靜脈曲張加重'], ['B', '腹水量明顯減少'], ['C', '脾臟縮小'], ['D', '肝臟縮小']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "正常人體鐵喺消化道吸收嘅主要部位係",
+    "llm_output": "A. 十二指腸",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '十二指腸'], ['B', '回腸'], ['C', '空腸下段'], ['D', '胃']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，60歲。反復咳喘40餘年，活動後氣短10餘年，間斷雙下肢水腫5年，加重1天入院。吸煙史40年。查體：嗜睡，口脣發紺，頸靜脈怒張，桶狀胸，雙肺可聞及乾濕囉音，心率110次/分，心律整，肝肋下3.0cm，雙下肢水腫。血氣分析示pH 7.26，PaO2 45 mmHg，PaCO2 75 mmHg。經治療後症狀好轉出院，出院後應採取嘅措施唔包括",
+    "llm_output": "根據提供的病史和檢查結果，患者可能患有慢性阻塞性肺疾病（COPD）並伴有肺心病和呼吸衰竭。出院後的跟進措施應該包括適當的藥物治療、氧療和戒煙。\n\n正確答案的選項是：\nA. 長期口服小劑量糖皮質激素\n\n這是因為長期口服糖皮質激素雖然可以減輕症狀，但會有許多副作用，包括增加感染風險、骨質疏鬆、血糖升高和肌肉萎縮等。對於COPD患者，通常不推薦長期口服糖皮質激素，除非患者有急性加重或有嚴重的慢性炎症反應。在這種情況下，應該謹慎使用，並且在医生的監督下進行。\n\n其他選項是常見的COPD管理措施：\nB. 長期使用長效支氣管舒張劑 - 這有助於緩解呼吸困難的症狀。\nC. 長期家庭氧療 - 對於低氧血症的患者，長期家庭氧療是標準治療。\nD. 戒煙 - 戒煙是COPD管理中最重要的措施之一，以減緩疾病的進展。\n\n因此，A選項是不應該採取的措施。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '長期口服小劑量糖皮質激素'], ['B', '長期使用長效支氣管舒張劑'], ['C', '長期家庭氧療'], ['D', '戒煙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，50歲。胃潰瘍病史10年，近2個月患者腹痛加重，失去規律，經多種藥物治療無效體重下降。查體：淺表淋巴結無腫大，腹平軟，上腹部有壓痛。就目前資料考慮，最可能嘅診斷係",
+    "llm_output": "B. 胃潰瘍癌變\n\n根據提供的病史，患者有長期胃潰瘍病史，近期腹痛加重且失去規律，體重下降，這些症狀可能是胃潰瘍惡化至癌變的信號。雖然其他選項也是胃腸道疾病的可能診斷，但考慮到患者的年齡和胃潰瘍的長期歷史，胃潰瘍癌變是當前資料下最可能的診斷。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '胃潰瘍復發'], ['B', '胃潰瘍癌變'], ['C', '合併胃泌素瘤'], ['D', '複合性潰瘍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "與系統性紅斑狼瘡嘅發病無關嘅因素係",
+    "llm_output": "A. 雄激素",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '雄激素'], ['B', '化學試劑'], ['C', '紫外線照射'], ['D', '遺傳']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "與幽門螺桿菌感染無關嘅疾病係",
+    "llm_output": "C. 胃食管反流病\n\n幽門螺桿菌感染與胃潰瘍、胃炎和十二指腸潰瘍都有關聯，但與胃食管反流病無直接關係。胃食管反流病主要是由下食道括約肌功能失調和酸反流引起的，而不是由幽門螺桿菌感染引起的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '胃潰瘍'], ['B', '胃炎'], ['C', '胃食管反流病'], ['D', '十二指腸潰瘍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "女性，35歲。乏力、心悸1年餘，近2個月症狀加重，伴厭食、消瘦、手顫。查體：甲狀腺彌漫性腫大，心率126次/分，心律整。實驗室檢查提示FT3、FT4顯著增高，TSH降低。對該患者治療，應首選嘅方法係",
+    "llm_output": "根據提供的病史和實驗室檢查結果，這名女性患者診斷為甲狀腺功能亢進症（hyperthyroidism），很可能是由於甲狀腺腫大（甲狀腺機能亢進）引起的。治療甲狀腺功能亢進症的方法包括：\n\nA. 131 I治療：利用放射性碘來破壞甲狀腺細胞，從而減少甲狀腺激素的產生。這通常用於治療中至重度甲狀腺功能亢進症，或者當其他治療方法不適合時。\n\nB. 咪唑類藥物：例如甲巰咪唑（methimazole）或丙硫氧嘧啶（propylthiouracil, PTU），這些藥物可以抑制甲狀腺激素的合成，用於輕至中度甲狀腺功能亢進症的治療。\n\nC. 手術治療：甲狀腺切除術（thyroidectomy）是一種通過手術移除部分或全部甲狀腺的方法。這通常用於藥物治療無效、存在甲狀腺腫瘤或結節、或有其他手術指征的情況。\n\nD. 碘製劑：碘化合物可以用於甲狀腺功能亢進症的治療，特別是在手術前準備或治療甲狀腺危象時。它們可以抑制甲狀腺激素的釋放。\n\n對於這名35歲的女性患者，症狀較為嚴重（心率126次/分，FT3和FT4顯著增高，TSH降低），並且有甲狀腺腫大，首選治療方法可能是A. 131 I治療，因為它適用於中至重度甲狀腺功能亢進症，並且不需要手術。然而，最終的治療決定應由醫生根據患者的具體情況和風險因素來確定。\n\n正確答案選項：A. 131 I治療",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '131I治療'], ['B', '咪唑類藥物'], ['C', '手術治療'], ['D', '碘製劑']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺下列敘述中，唔會發生嘅化生係",
+    "llm_output": "C.  鱗狀上皮化生為纖維組織\n\n呢種化生唔會發生，因為化生通常只會喺同類型組織之間發生，例如上皮組織化生為其他種類嘅上皮組織，或者間質組織化生為其他種類嘅間質組織。鱗狀上皮係一種上皮組織，而纖維組織係間質組織，所以鱗狀上皮化生為纖維組織唔會發生。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '纖維組織化生為軟骨組織'], ['B', '柱狀上皮化生為鱗狀上皮'], ['C', '鱗狀上皮化生為纖維組織'], ['D', '胃腺上皮化生為腸腺上皮']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "DNA理化性質中嘅「T_m」值所表達嘅含義係",
+    "llm_output": "C.  50 %雙鏈被打開嘅溫度",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '復性時嘅溫度'], ['B', '複製時嘅溫度'], ['C', '50%雙鏈被打開嘅溫度'], ['D', '由B型轉變成A型嘅溫度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，80歲。因突發全腹劇痛8小時來院，途中頻繁嘔吐，隨後出現氣急、喘憋。既往有房顫史。入院查體：P 95次/分，R 36次/分，BP 84/60 mmHg，急性病容，呼吸急促，兩肺均可聞及哮鳴音及濕囉音，右側為著，心率120次/分，節律唔整，腹部膨隆，全腹均有壓痛，右側更明顯，輕度反跳痛、肌緊張，腸鳴音弱。化驗Hb 124 g/L，WBC 30X10^9/L，中性粒細胞90%。患者突發嚴重喘憋最可能嘅原因係",
+    "llm_output": "正確答案嘅選項係 D. 肺栓塞。\n\n患者嘅臨床表現，包括突發全腹劇痛、頻繁嘔吐、氣急、喘憋、低血壓、心率增快且節律唔整，以及腹部壓痛同埋肌緊張，提示可能存在急性腹部同埋心血管嘅併發症。吸入性肺炎、哮喘發作同埋急性心衰雖然都可以引起喘憋，但結合患者嘅年齡、房顫史同埋急性腹部症状，肺栓塞嘅可能性最大。肺栓塞可以引起急性呼吸困難、心悸、休克同埋腹部症状，符合呢位患者嘅臨床表現。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '急性心衰'], ['B', '哮喘發作'], ['C', '吸入性肺炎'], ['D', '肺栓塞']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，82歲。前日飲酒後出現腹部脹痛，小便頻，量少，逐漸加重。平時大便乾燥，2至3天1次。查體：腹部膨隆，下腹為著，全腹壓痛，下腹更重，肌緊張唔明顯，腸鳴音活躍。經肥皂水灌腸後，排出較多糞塊，腹痛無明顯緩解。此患者最可能嘅診斷係",
+    "llm_output": "D.  乙狀結腸扭轉\n\n根據提供的病史和臨床表現，這名82歲的男性患者在飲酒後出現腹部脹痛、小便頻、量少，且逐漸加重。患者平時有大便乾燥的現象，查體顯示腹部膨隆、全腹壓痛、下腹更重，但肌緊張不明顯，腸鳴音活躍。經肥皂水灌腸後，排出較多糞塊，但腹痛無明顯緩解。這些症狀最符合乙狀結腸扭轉的診斷。\n\n乙狀結腸扭轉是一種緊急情況，通常影響老年人，特別是那些有慢性便秘和結腸彎曲較大的人。這種情況下，結腸的一部分（通常是乙狀結腸）會扭轉其根部，導致腸道阻塞和血液供應中斷，可能會引起急性腹痛、腹脹和排便困難。雖然灌腸後排出了糞塊，但腹痛並未緩解，這也支持了乙狀結腸扭轉的診斷，因為糞塊的排出並未解決腸道的扭轉問題。\n\n其他選項如習慣性便秘、急性膀胱炎和急性尿瀦留可能會導致相似的症狀，但這些情況通常不會表現出下腹部的壓痛和肌緊張不明顯的腸鳴音活躍，且經灌腸後腹痛無明顯緩解的特徵。因此，正確答案是D. 乙狀結腸扭轉。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '習慣性便祕'], ['B', '急性膀胱炎'], ['C', '急性尿瀦留'], ['D', '乙狀結腸扭轉']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，35歲。因蛋白尿原因待查入院，24小時尿蛋白定量3.8 g，血白蛋白30 g/L，腎活檢示：輕度系膜增生性腎炎。該患者最唔常見嘅併發症係",
+    "llm_output": "B. 腎靜脈血栓形成\n\n輕度系膜增生性腎炎通常唔會引起急性腎衰竭，水、電解質紊亂和營養不良唔係腎炎嘅特異性併發症，而腎靜脈血栓形成雖然唔係非常常見，但係可以發生喺系膜增生性腎炎患者中，尤其係年輕男性。因此，最不常見的併發症係腎靜脈血栓形成。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '急性腎衰竭'], ['B', '腎靜脈血栓形成'], ['C', '水、電解質紊亂'], ['D', '營養唔良']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "腎小球源性血尿最常見嘅病因係",
+    "llm_output": "D.  急性腎小球腎炎\n\n腎小球源性血尿最常見的病因是急性腎小球腎炎。這種情況通常是由於腎小球毛細血管壁的炎症和損害導致血紅蛋白從血液中漏出，進而引起血尿。急性腎小球腎炎可能與鏈球菌感染有關，也可能由其他因素引起，如病毒感染或免疫系統問題。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '急性腎盂腎炎'], ['B', '慢性腎小球腎炎'], ['C', 'IgA腎病'], ['D', '急性腎小球腎炎']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，80歲。因突發全腹劇痛8小時來院，途中頻繁嘔吐，隨後出現氣急、喘憋。既往有房顫史。入院查體：P 95次/分，R 36次/分，BP 84/60 mmHg，急性病容，呼吸急促，兩肺均可聞及哮鳴音及濕囉音，右側為著，心率120次/分，節律唔整，腹部膨隆，全腹均有壓痛，右側更明顯，輕度反跳痛、肌緊張，腸鳴音弱。化驗Hb 124 g/L，WBC 30X10^9/L，中性粒細胞90%。即刻應採取嘅處理措施係",
+    "llm_output": "根據提供的病史和臨床表現，這名患者可能患有急性腹膜炎合併休克，並且有心肌梗死的風險，因為他有房顫病史，這增加了他的血栓形成風險。在這種情況下，最緊急的處理措施是快速補液加升壓藥以穩定患者的血壓和循環，同時進行必要的診斷程序來確定病因。\n\n正確答案選項是：\nB. 快速補液加升壓藥\n\n這個選項是為了立即支持患者的血流動力和血管張力，防止情況進一步惡化，並為進一步的診斷和治療爭取時間。在進行這些處理的同時，應立即進行腹部成像檢查（如增強CT）以確定腹膜炎的原因，並根據結果進行相應的治療。血管造影在此情況下不是立即的處理措施，而減慢心率可能會增加血栓栓塞的風險，因此不是合適的選項。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '血管造影'], ['B', '快速補液加升壓藥'], ['C', '減慢心率'], ['D', '增強CT']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "「唔同蛋白質有唔同嘅空間構象」所指嘅含義係",
+    "llm_output": "B.  一級結構決定高級結構\n\n這個選項正確地反映了「唔同蛋白質有唔同嘅空間構象」的含義。蛋白質的一級結構，即氨基酸的順序，決定了其高級結構，包括二級結構（如α-螺旋和β-摺疊）、三級結構（整體三维結構）和四级結構（多個亞基組成的蛋白質複合物的結構）。這些高級結構是由一級結構中的氨基酸間的相互作用和摺疊機制所形成的，從而導致每個蛋白質都有其獨特的空間構象。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '結合蛋白質有多種輔基'], ['B', '一級結構決定高級結構'], ['C', '蛋白質嘅變性與復性'], ['D', '多肽鏈嘅摺疊機制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "傳導慢痛嘅外周神經纖維係",
+    "llm_output": "B.  C類纖維",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'B類纖維'], ['B', 'C類纖維'], ['C', 'Aγ纖維'], ['D', 'Aδ纖維']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "喺下列選項中，符合腫瘤間變概念嘅係",
+    "llm_output": "D. 良惡性腫瘤之間嘅形態改變\n\n腫瘤間變是指腫瘤細胞在顯微鏡下的形態改變，這種改變可以包括細胞大小、形狀和核質比的異常，以及染色質的分布不均等。間變通常與腫瘤的惡性程度相關，間變越明顯，腫瘤越可能是惡性的。因此，選項 D 最符合腫瘤間變的概念。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '腫瘤細胞嘅去分化'], ['B', '腫瘤親子代之間嘅遺傳特性繼承'], ['C', '腫瘤發生過程中嘅一種癌前病變'], ['D', '良惡性腫瘤之間嘅形態改變']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-college_medicine",
+    "key_answer_type": "alphabet_option",
+    "question": "男性，48歲。1個月來氣短、呼吸困難，1周來發熱、咳嗽，B超發現「右側大量胸腔積液」。近半年日漸消瘦。查體：T37.5C，R 21次/分，輕度貧血貌，高枕右側臥位。該患者胸部聽診唔可能出現嘅體徵係",
+    "llm_output": "根據提供的病史和體徵，正確答案選項是：\n\nB. 右下腋前線部可聞及胸膜摩擦音\n\n原因：\n患者有右側大量胸腔積液，這會導致胸膜間隔開，因此不會聽到胸膜摩擦音。胸膜摩擦音通常在胸膜表面乾燥且接近時聽得到，通常見於乾性胸膜炎或其他導致胸膜表面受損的情況。在這個病例中，由於存在大量胸腔積液，不會聽到胸膜摩擦音。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '右中下肺語音共振消失'], ['B', '右下腋前線部可聞及胸膜摩擦音'], ['C', '右上肺可聞及支氣管呼吸音'], ['D', '左上肺可聞及支氣管肺泡呼吸音']]",
+    "is_correct": 1
+  }
+]

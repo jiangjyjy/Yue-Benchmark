@@ -1,0 +1,2322 @@
+[
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "感覺閾限與感受性大小嘅關係係",
+    "llm_output": "正確答案應該是“B. 正比關係”。\n\n感覺閾限是指感受性隨刺激強度變化而變化的過程，而感受性大小則是描述人們對刺激的敏感程度。當刺激強度增加時，感受性也會隨之增加，反之亦然。因此，感覺閾限與感受性大小之間存在正比關係。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '平行關係'], ['B', '正比關係'], ['C', '韋伯比率'], ['D', '反比關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據強化嘅性質同目嘅可以分成",
+    "llm_output": "答案：D. 正強化同負強化。\n\n正強化是指當一個行為發生時，它會導致我們想要嘅結果，這樣嘅行為會被強化。相反，負強化是指當一個行為發生時，它會導致我們唔想要嘅結果，這樣嘅行為亦會被強化。因此，正強化同負強化是強化的兩種不同性質和目的。其他选项如自然強化物、人為的近似強化物、強化同懲罰並未詳細區分不同行為嘅正負性，無法全面反映強化的不同特點。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自然強化物同人為嘅近似強化物'], ['B', '積極強化同消極強化'], ['C', '強化同懲罰'], ['D', '正強化同負強化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "有啲原本學習好叻嘅學生升入高中之後，會出現學習成績下降、心情煩躁、無所事事，甚至出現想退學嘅諗法，呢種現象通常屬於",
+    "llm_output": "答案：B. 適應性障礙。\n\n升入高中后，原本学习好的学生出现学习成绩下降、心情烦躁、无所事事，甚至出现想退学的想法，这属于适应性问题，而不是情绪障碍、心境障碍或急性应激障碍。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '情緒障礙'], ['B', '適應性障礙'], ['C', '心境障礙'], ['D', '急性應激障礙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「程序教學與教學機械」係理論喺教育領域中嘅應用。",
+    "llm_output": "答案：D. 觀察學習。\n\n答案D指出程序教学和教学机器应用的是观察学习。而其他选项ABC均未提及程序教学和教学机器的原理或应用，所以答案不正确。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '操作性條件作用'], ['B', '完形'], ['C', '嘗試錯誤'], ['D', '觀察學習']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "一般嚟講，如果一個人嘅智商係120，表示呢個人嘅智力水平",
+    "llm_output": "答案：A. 超常。\n\n根据题目描述，一个人的智商为120，这通常表示这个人的智力水平超常。智力水平通常用智力商数来表示，高于平均水平但低于顶尖水平的称为超常，而低于平均水平的称为低下。因此，答案为A。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '超常'], ['B', '中上'], ['C', '中等'], ['D', '低下']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「美人魚」嘅形象係下列邊種想象嘅產物",
+    "llm_output": "答案：B. 再造想象。\n\n再造想象是指根據語言描述或示意圖的幫助，在原有知識經驗的基礎上，再現或構造出新的形象。美人魚的形象就是根據這個概念再造出來的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無意想象'], ['B', '再造想象'], ['C', '創造想象'], ['D', '幻想']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "有啲人想食魚又怕腥，呢種現象屬於",
+    "llm_output": "答案：B. 趨避衝突。\n\n多重趨避衝突是指同時追求兩個或以上的目標，但又害怕可能帶來的風險或痛苦；雙趨衝突是指兩個相似且等價的目標同時存在，難以抉擇；雙避衝突是指面對兩個相對應的敵對目標，必須選擇其一，但都害怕選擇後的結果。在這個問題中，有人既想食魚又怕腥，這是一種既想又怕的矛盾心理，因此選擇B，即趨避衝突。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '多重趨避衝突'], ['B', '趨避衝突'], ['C', '雙趨衝突'], ['D', '雙避衝突']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小明原本見到陌生人就喱埋。上幼兒園一個月後，小明嘅呢種行為消失咗。據加涅嘅學習結果分類，呢度發生嘅學習。",
+    "llm_output": "A. 智慧技能。\n\n答：在回答此题时，首先要明确什么是“智慧技能”，它是关于对事物的理解，包括对概念、原理、关系的理解以及对其的转换能力，以用于问题解决和决策。接下来看小明原本的表现：面对陌生人时会焦虑不安。这是原始的反应。后来这种焦虑消失，幼兒園学习让他改变了原有理解（也就是智慧技能的获取）。通过题目的内容推断答案应是“智慧技能”。选项中并没有态度的信息。同时根据提供的四个选项可以看出这属于技能性的学习，而非动作技能或言语信息。因此，正确答案是A. 智慧技能。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '智慧技能'], ['B', '態度'], ['C', '動作技能'], ['D', '言語信息']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "某學生喺回答「乜嘢係圓嘅」嘅時候，講出「太陽係圓嘅」「車輪係圓嘅」「殷秀梅唱歌嘅時候口型係圓嘅」。呢主要體現咗發散思維嘅邊一特性",
+    "llm_output": "答案：C. 獨特性。\n\n这个学生的回答体现了发散思维的独特性，能够从不同角度思考问题，找到不同的答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '流暢性'], ['B', '綜合性'], ['C', '獨特性'], ['D', '多維性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "將心理活動指向內心世界嘅人格特徵稱為",
+    "llm_output": "答案：B. 外向人格。\n\n外向人格是指将心理活动指向内心世界的人格特徵。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '內向人格'], ['B', '外向人格'], ['C', '均衡性人格'], ['D', 'T型人格']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "心理旋轉實驗中被試喺大腦中進行圖像旋轉，體現咗表象嘅()特點。",
+    "llm_output": "答案：D. 直觀性。\n\n心理旋轉實驗中，被試在大腦中看到一個圖像並旋轉，這個過程體現了表象的直觀性特點。被試無需考慮任何動作或行為，直接感受到圖像的旋轉。其他選項，如穩定性、可操作性和概括性，並未在這個實驗中出現。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '穩定性'], ['B', '可操作性'], ['C', '概括性'], ['D', '直觀性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "江山易改，秉性難移說明咗一個人嘅（）係相當穩定嘅。",
+    "llm_output": "答案：B. 氣質。\n\n江山易改，秉性難移是一句中國古語，意思是人的本性變化不容易，而氣質是指人的性格特點和行為方式在很大程度上是由人的氣質特徵決定的，因此氣質的穩定性可以解釋這句話的意思。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '興趣'], ['B', '氣質'], ['C', '性格'], ['D', '能力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「舉一反三」同「觸類旁通」所講嘅係水平遷移同順向遷移。",
+    "llm_output": "答案：D. 水平遷移。\n\n「舉一反三」同「觸類旁通」所講嘅係水平遷移同順向遷移。因此，答案為水平遷移。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '逆向遷移'], ['B', '垂直遷移'], ['C', '負遷移'], ['D', '水平遷移']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "丁墨喺佢嘅小說「他來了，請閉眼」中，塑造咗高智商嚴謹同善於推理嘅犯罪心理學專家薄靳言嘅 形象。呢屬於",
+    "llm_output": "A. 創造想象。\n\n創造想象是在原有感知材料上，以新的方式組合成新的表象的心理過程，即根據自己以往的生活經驗和知識，根據事物的創造性形象。在這個小說中，丁墨創造出了一個高智商、嚴謹且善於推理的犯罪心理學專家薄靳言的形象，這是一種創造性的形象構造過程。其他選項如無意想象、再造想象和無意記憶，雖然可能在故事中有所出現，但不適用於這個特定的情況。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '創造想象'], ['B', '無意想象'], ['C', '再造想象'], ['D', '無意記憶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "學生根據老師對「天蒼蒼，野茫茫，風吹草地見牛羊」詩句嘅描述，喺腦海中浮現出咗一幅草原牧區嘅圖景，呢種心理現象係",
+    "llm_output": "答案：A. 想象。\n\n学生根据诗句描述在脑海中浮现出草原牧区的场景，这是一种想象心理现象。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '想象'], ['B', '注意'], ['C', '思維'], ['D', '記憶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於生理性動機嘅講法錯嘅係",
+    "llm_output": "答案：A. 古代被閹割嘅太監，體內基本冇性激素，所以就唔再有性動機。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '古代被閹割嘅太監，體內基本冇性激素，所以就唔再有性動機。'], ['B', '厭食症患者強迫自己減少進食或者唔進食。'], ['C', '母性動機亦係一種生理性動機。'], ['D', '生理性動機除咗受生理因素影響，仲受心理因素影響。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "謙虛謹慎、嚴於律己屬於",
+    "llm_output": "A氣質特徵不適用，因為氣質描述的是人的行為習慣，而與性格、能力或意志無關。B性格特徵描述的是一個人的特有行為模式，包括他們的態度、行為和情感反應。C能力特徵通常描述一個人的智力或技能，與性格無關。D意志特徵描述的是一個人對於行動的決心和毅力，與性格有關。因此，答案為B. 性格特徵。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '氣質特徵'], ['B', '性格特徵'], ['C', '能力特徵'], ['D', '意志特徵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "垂直線段同水平線段等長，但睇起嚟垂直線段比水平線段長，呢係錯覺中嘅",
+    "llm_output": "答案：A. 菲克錯覺。\n\n菲克錯覺是指垂直線段同水平線段等長，但看起嚟垂直線段比水平線段長的錯覺。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '菲克錯覺'], ['B', '龐佐錯覺'], ['C', '厄任斯坦錯覺'], ['D', '黑靈錯覺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一條唔係馬斯洛需要層次理論中嘅需要層次",
+    "llm_output": "答案：A. 道德需要。\n\n馬斯洛需要層次理論將人類的需求分為五大層次，包括生理需要、安全需要、社交需要、尊重需要和自我實現需要。因此，安全需要、歸屬同愛的需要在馬斯洛的需要層次中確實存在，但道德需要並不在其中。自我實現需要通常被認為是馬斯洛的最高層次需求，而且也被認為是一個具有強烈個性色彩的個體特徵。因此，答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '道德需要'], ['B', '安全需要'], ['C', '歸屬同愛嘅需要'], ['D', '自我實現需要']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺板書時，教師常將形近字嘅相異部分，用唔同顏色嘅粉筆寫出嚟，以引起學生嘅注意，呢運用嘅感覺規律係",
+    "llm_output": "答案：A. 感覺對比。\n\n在板書時，教師常將形近字的不同部分用不同颜色的粉筆写出來，以引起學生的注意，這種運用的感覺規律是感覺對比。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '感覺對比'], ['B', '感覺後象'], ['C', '感覺補償'], ['D', '感覺適應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "能夠激起有機體嘅定向行為，並能滿足某種需要嘅外部條件或刺激物係",
+    "llm_output": "答案：C. 動機。\n\n動機是能夠激起有機體的定向行為，並能滿足某種需要的外在條件或刺激物。動機是一種驅動力，引導行為，讓有機體去尋找和獲取他們認為可以滿足他們需求的事物。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '需要'], ['B', '誘因'], ['C', '動機'], ['D', '興趣']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個性心理嘅核心係",
+    "llm_output": "答案：D. 氣質。\n\n個性心理的核心是氣質，它反映了個體在情感、行為和思考方式上的特點。能力、興趣和性格都是個性心理的組成部分，但氣質是最核心的特徵。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '能力'], ['B', '興趣'], ['C', '性格'], ['D', '氣質']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據艾賓浩斯嘅遺忘規律，以下表述唔正確嘅係",
+    "llm_output": "答案：C. 一般情況下，集中複習嘅效果優於分散複習。\n\n根据艾宾浩斯的遗忘规律，遗忘的数量随时间递增，在识记后的短时间內遗忘特别迅速，然后逐渐缓慢下来；及时复习有利于识记材料在急速遗忘前获得必要的巩固。选项C表述错误，其他选项均符合艾宾浩斯的遗忘规律。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '遺忘數量隨時間遞增'], ['B', '喺識記後嘅短時間內遺忘特別迅速，然後逐漸緩慢落嚟'], ['C', '一般情況下，集中複習嘅效果優於分散複習'], ['D', '及時複習有利於識記材料喺急速遺忘前獲得必要嘅鞏固']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "維果茨基提出「教學應走喺開展前面」嘅含義係。",
+    "llm_output": "答案：B. 根據學生現有嘅水平進展教學。\n\n維果茨基提出“教學應走喺開展前面”的含義是根據學生現有嘅水平進展教學。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教學嘅重要任務係創造最近開展區'], ['B', '根據學生現有嘅水平進展教學'], ['C', '教學可以唔考慮兒童現有嘅開展水平'], ['D', '提前講授下一階段先至能掌握嘅內容']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "氣質類型喺社會評價上（）。",
+    "llm_output": "答案：B. 無好壞之分。\n\n氣質類型在人類中普遍存在，無好壞之分，它只是個人性格特徵之一，不能代表一個人的全部品質。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '都係壞嘅'], ['B', '無好壞之分'], ['C', '有好有壞'], ['D', '都係好嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺深度上對心理學嘅基本理論問題進行細緻研究",
+    "llm_output": "答案：C. 理論心理學。\n\n理論心理學是一種對心理學的基本理論問題進行細緻研究的學科，它探討心理學的基本概念、原理和規律，以及心理學與其他科學之間的關係。其他三個選項，發展心理學、生理心理學和普通心理學，雖然都是心理學的分支，但與理論心理學在研究對象和研究深度上有所不同。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '發展心理學'], ['B', '生理心理學'], ['C', '理論心理學'], ['D', '普通心理學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人嘅注意會經常出現週期性嘅加強同減弱，所以應合理設置學生嘅上課時間，保證最佳嘅教學效果。呢一現象反映咗",
+    "llm_output": "答案：D. 注意嘅穩定性。\n\n注意的穩定性是指注意隨著內在條件變化而改變，有時會加強，有時會減弱。學生上課時間合理設置可以保持學生注意力的穩定，避免因為注意力隨內在條件變化而改變導致學習效果下降。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '注意嘅轉移'], ['B', '注意嘅廣度'], ['C', '注意嘅分配'], ['D', '注意嘅穩定性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "藍色、青色、綠色會使人感覺寒冷，呢種現象屬於",
+    "llm_output": "答案：B. 聯覺。\n\n聯覺是指一個感官的刺激引起另一個感官的感覺或情感反應的現象。在本題中，藍色、青色、綠色等冷色調的刺激引起人們感覺到寒冷，就是聯覺的應用。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '想象'], ['B', '聯覺'], ['C', '感覺對比'], ['D', '感覺適應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上第一個正式嘅智力測驗工具係",
+    "llm_output": "答案：C. 比內—西蒙智力量表。\n\n世界上第一個正式的智力測驗工具是比內—西蒙智力量表。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '韋克斯勒量表'], ['B', '瑞文推理量表'], ['C', '比內—西蒙智力量表'], ['D', '斯坦福—比內量表']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於睡眠失常嘅係",
+    "llm_output": "答案：D. 白日夢。\n\n白日夢是一種在清醒狀態下，個人無意識地幻想或思考的過程，它並不屬於睡眠失常的範疇。其他三個選項，如日間嗜睡、睡眠窒息和突發性睡眠，都是睡眠失常的常見症狀。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '日間嗜睡'], ['B', '睡眠窒息'], ['C', '突發性睡眠'], ['D', '白日夢']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "採用合理嘅理由嚟解析所遭受嘅挫折，以減輕心理痛苦，呢種心理防禦機制係",
+    "llm_output": "答案：C. 壓抑。\n\n壓抑是心理防禦機制之一，當人們面對挫折或痛苦時，他們可能會採用壓抑的策略，將痛苦或不愉快的情感或想法压抑在心中，以減輕心理痛苦。這是一種通過抑制情感和想法來減輕心理痛苦的心理防禦機制。其他選項如投射、文飾和轉移都與心理防禦有關，但不是這道題目中涉及的合理理由來減輕心理痛苦的選項。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '投射'], ['B', '文飾'], ['C', '壓抑'], ['D', '轉移']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "記憶係第一個基本過程係",
+    "llm_output": "問題：記憶係第一個基本過程係 C. 儲存。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '提取'], ['B', '編碼'], ['C', '儲存'], ['D', '保持']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "壓力反應嘅三個階段唔包括",
+    "llm_output": "答案：D. 衝擊。\n\n壓力反應的過程通常包括衝擊、反應和結束三個階段，而問題中問的是不包括在其中的階段，因此答案應該是衝擊。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '安定'], ['B', '焦慮'], ['C', '解決'], ['D', '衝擊']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「足智多謀，隨機應變」體現咗思維嘅",
+    "llm_output": "答案是C. 靈活性。足智多謀，隨機應變是描述一個人思考靈活、善於變通、能夠適應不同情況的能力。這些特徵體現了思維的靈活性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '獨立性'], ['B', '邏輯性'], ['C', '靈活性'], ['D', '廣闊性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "兒童獲得完全符合語法嘅口頭語言嘅年齡階段係",
+    "llm_output": "答案：D. 3—4歲。\n\n这个年龄段是儿童开始发展语言能力的关键时期，也是他们获得完全符合语法的口头语言的重要阶段。在此之前，他们可能只会说一些简单的词汇和短语，而在这个阶段，他们开始能够更清晰、更准确地表达自己的意思。因此，选项D是正确答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '9—12個月'], ['B', '18-24個月'], ['C', '7歲前'], ['D', '3—4歲']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "聞到蘋果香味，睇到蘋果紅色外觀，觸摸到蘋果光滑嘅果皮等所引起嘅心理活動係",
+    "llm_output": "答案：B. 知覺。\n\n知覺是指個人對於外界刺激的感知和認知，包括感官刺激的感受性、感知到的形象和意義等。蘋果香味、蘋果紅色外觀和蘋果果皮的光滑感覺都是個人對蘋果的認知，因此答案為B，即知覺。感受性和感知是心理學中其他一些相關的概念，與本題中所述情況無關。感覺和感覺閾限雖然在某些情況下可以與知覺區分開來，但並不是本題的適當答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '感受性'], ['B', '知覺'], ['C', '感覺'], ['D', '感覺閾限']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺記憶中已學過嘅舊信息對新信息學習產生抑制作用，呢一心理現象稱為",
+    "llm_output": "答案：D. 後攝幹擾。\n\n後攝幹擾是指記憶中已學過嘅舊信息對新信息學習產生抑制作用，而唔係其他选项所描述嘅心理現象。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '右攝幹擾'], ['B', '倒攝幹擾'], ['C', '前攝幹擾'], ['D', '後攝幹擾']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據學習嘅定義，以下屬於學習嘅現象係。",
+    "llm_output": "答案：A. 兒童模仿電影中人物嘅行為。\n\n學習是指人們在過去經驗基礎上獲得新知識或技能，並且改變行為或看法過程。其中，兒童模仿電影中人物嘅行為符合學習的定义，是學習的一個典型現象。而望梅止渴、食咗酸嘅食物流口水、蜘蛛織網並未涉及到過去經驗或獲得新知識或技能，因此不符合學習的定义。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '兒童模仿電影中人物嘅行為'], ['B', '望梅止渴'], ['C', '食咗酸嘅食物流口水'], ['D', '蜘蛛織網']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據活動任務嘅要求，有意識地主動地將注意從一個對象轉移到另一個對象稱為",
+    "llm_output": "答案：D. 注意嘅分配。\n\n注意的分配是指根据活动任务的要求，有意识地主动地将注意分配到不同的对象或活动上。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '注意嘅轉移'], ['B', '注意嘅穩定性'], ['C', '注意嘅分心'], ['D', '注意嘅分配']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺創造性思維中（）起著核心作用。",
+    "llm_output": "正確答案應該是C. 發散思維。\n\n在創造性思維中，發散思維是起著核心作用的。發散思維是一種不定向、不固定、無限遐想，以探求為題目的思維方式，在某一特定的領域中從多角度、多方面去尋找答案。而集中思維和抽象思維都與創造性思維的產生相關，但不具備核心作用。常規思維是指人們習慣了的固定思考方式，因此並非在此題目中的選擇範圍內。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '集中思維'], ['B', '常規思維'], ['C', '發散思維'], ['D', '抽象思維']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "一名小學一年級嘅學生將6同9搞亂，呢說明該生嘅（）仲未成熟。",
+    "llm_output": "答案：D. 思維能力。\n\n一名小學一年級嘅學生將6同9搞亂，這表明該生的思維能力還未成熟，不能很好地區分和記憶相似的數字。注意能力、記憶能力和感知能力與此問題無關。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '注意能力'], ['B', '記憶能力'], ['C', '感知能力'], ['D', '思維能力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個唔屬於根據思維憑借物分類嘅",
+    "llm_output": "答案：D. 形象思維。\n\n形象思維是指根據物體的形象或表象進行思考的思維方式，而不屬於根據思維憑借物分類的思維方式。直觀動作思維、邏輯思維、常規思維都是根據思維憑借物分類的思維方式。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '直觀動作思維'], ['B', '邏輯思維'], ['C', '常規思維'], ['D', '形象思維']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "美國心理學家奧蘇伯爾根據學習材料同學習者嘅原有知識嘅關係，將學習分為",
+    "llm_output": "正确答案是 D. 接受學習同發現學習。\n美國心理學家奧蘇伯爾根據學習材料同學習者嘅原有知識嘅關係，將學習分為接受學習同發現學習。接受學習係指學習者主要係憑藉個人頭腦裡原有知識结构（也即上位結構）來吸收新的內容。而發現學習係指學習者係透過探討尋找未知領域內容（即概念）嘅方法而掌握其規律（下位結構）。接受學習、同發現學習成為學習方式兩大基本範疇。因此，答案為D。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '意義學習同機械學習'], ['B', '意義學習同接受學習'], ['C', '發現學習同機械學習'], ['D', '接受學習同發現學習']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "（）係一種導致局部刺激嘅意識水平提高嘅知覺嘅選擇性嘅集中。",
+    "llm_output": "答案：A. 注意。\n\n注意是一種導致局部刺激的意識水平提高的知覺的選擇性嘅集中。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '注意'], ['B', '意識'], ['C', '動機'], ['D', '興趣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "天空晴朗時，仰望天空中嘅雲朵，將佢睇成係羊羣，棉花、山巒，呢種現象屬於",
+    "llm_output": "答案：C. 再造想象。\n\n在这种情况下，观察到的云朵形状会被人们根据他们过去的经验（例如山峦、羊群或棉花）来想象，而没有真正进行任何创造性的新想象。因此，这是一种再造想象，而选项C正确地描述了这个概念。有意识地创造出新的想象情况则是创造性想象，这不是此情况所描述的。因此，B选项是不正确的。无意识或不相关记忆中的情景引发的想象，不符合这个描述。有意识的对现实环境的反应则与此描述相符，是再造想象的情况。因此选项C正确。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '有意想象'], ['B', '無意想象'], ['C', '再造想象'], ['D', '創造想象']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小王聽到樓下尖銳刺耳嘅汽車鳴笛聲就好似身體被拮針到，心臟有痛感，非常唔舒服呢屬於感覺嘅（）現象。",
+    "llm_output": "答案：B. 聯覺。\n\n聯覺是指一個感官上的刺激或感覺引發另一個或更多的感覺或情感的心理現象。在此情境下，小王聽到樓下尖銳刺耳的汽車鳴笛聲而感到心臟有痛感，即是聯覺的例子。對比、適應和後象都不符合此情況。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '對比'], ['B', '聯覺'], ['C', '適應'], ['D', '後象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人對客觀事物採取點樣嘅態度，係以某事物係否符合或滿足自己嘅（ ） 為中介。",
+    "llm_output": "答案：D. 動機。\n\n人對客觀事物採取的態度是以某事物是否符合或滿足自己的動機為中介的。動機是個體行為的動力，它驅使著人們追求或避免某種事物，是影響人們對客觀事物採取態度的關鍵因素。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '態度'], ['B', '需要'], ['C', '體驗'], ['D', '動機']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「由驕兵諗到必敗」係",
+    "llm_output": "由驕兵諗到必敗是接近聯想。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '因果聯想'], ['B', '相似聯想'], ['C', '對比聯想'], ['D', '接近聯想']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "對缺乏信心同決心嘅學生，應注重培養其意志品質嘅",
+    "llm_output": "答案：D. 堅韌性。\n\n對缺乏信心同決心嘅學生，應注重培養其意志品質，而堅韌性是一種重要的意志品質，可以幫助學生在困難面前保持信心和決心，不輕易放棄。其他选项如自覺性、果斷性和自制性，雖然也是意志品質的一部分，但與缺乏信心同決心的學生情況不太適合。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自覺性'], ['B', '果斷性'], ['C', '自制性'], ['D', '堅韌性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小江學習刻苦認真，雖然基礎唔係好，但佢遇到困難時總能勇往直前，唔達到目嘅唔罷休，因此佢嘅學業成績喺班裏一直名列前茅。呢體現咗小江性格嘅（）特徵。",
+    "llm_output": "答案：D. 意志。\n\n小江學習刻苦認真，遇到困難時勇往直前，不達到目嘅唔罷休，這體現了小江的意志特徵。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '理智'], ['B', '態度'], ['C', '情緒'], ['D', '意志']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺羣體中，人哋有時會覺得自己被埋沒喺羣體之中，個體難以意識到自己嘅價值同行為。呢種現象係",
+    "llm_output": "答案：D. 去個體化。\n\n在羣體中，人哋有時會覺得自己被埋沒喺羣體之中，個體難以意識到自己嘅價值同行為。呢種現象係去個體化。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會惰化'], ['B', '社會助長'], ['C', '羣體極化'], ['D', '去個體化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「感時花濺淚，恨別鳥驚心」係下列邊種情緒狀態？",
+    "llm_output": "正确答案是 C. 心境。这句詩表現出的是一種在特定環境下持續的、內心情感低落或沮喪的情緒狀態，符合心境的特征。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '熱情'], ['B', '應激'], ['C', '心境'], ['D', '激情']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "你能諗起長輩嘅音容笑貌，呢個屬於",
+    "llm_output": "答案：D. 想象。\n\n想象是指个体对已有表象进行加工改造，形成新形象的过程，而长者长辈的音容笑貌已经存在于记忆中，可以被个体重新组合和改造形成新的形象，因此属于想象。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '表象'], ['B', '幻想'], ['C', '後象'], ['D', '想象']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "之前學嘅內容對之後學嘅內容產生嘅影響叫（）。",
+    "llm_output": "正确答案是C. 前攝抑制。前攝抑制指的是之前學習的內容對現在學習的內容產生的影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '超限抑制'], ['B', '倒攝抑制'], ['C', '前攝抑制'], ['D', '側抑制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "阿基米德喺浴缸中發現浮力定律係一種",
+    "llm_output": "答案：B. 分析思維。\n\n阿基米德喺浴缸中發現浮力定律係一種分析思維，佢喺思考問題時，仔細分析同樣資料，將其逐一解構並重新組合成新的結構。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '直覺思維'], ['B', '分析思維'], ['C', '藝術思維'], ['D', '常規思維']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "馮特創立嘅心理學派係",
+    "llm_output": "答案：B. 格式塔心理學。\n\n冯特創立了格式塔心理學，這是一個注重直覺、感知和結構的學派。行為主義心理學、機能心理學和構造心理學都與格式塔心理學的觀點有所不同。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '行為主義心理學'], ['B', '格式塔心理學'], ['C', '機能心理學'], ['D', '構造心理學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小張活潑好動，反應迅速，熱愛交際，口才好好，但情緒唔穩定，比較粗枝大葉。其氣質類型屬於",
+    "llm_output": "答案：A. 多血質。\n\n小張活潑好動，反應迅速，熱愛交際，口才好好等特徵表明其氣質類型偏向於多血質。多血質的人通常活躍、熱情、容易激動，反應迅速而靈活。而黏液質的人則比較穩重、情感深沉，抑鬱質的人則比較內向、情感低落，膽汁質的人則比較果斷、勇猛。以上特徵與小張的描述相符。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '多血質'], ['B', '黏液質'], ['C', '抑鬱質'], ['D', '膽汁質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "嬰幼兒最主要嘅感知覺係視覺、聽覺、觸覺等，其中發展最早嘅係",
+    "llm_output": "答案：C. 視覺。\n\n婴幼兒最主要嘅感知覺係視覺、聽覺、觸覺等，其中發展最早嘅係視覺。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '聽覺'], ['B', '味覺'], ['C', '視覺'], ['D', '觸覺']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "心理學家卡特爾將主要受人嘅生物學因素影響，並隨生理成長曲線變化而變化嘅智力稱為",
+    "llm_output": "答案：D. 特殊因素。\n\n卡特爾將智力分為一般因素、特殊因素、晶体智力和流体智力。其中，特殊因素是指個體在特定領域中獲得技能或知識的能力，它主要受到個人經驗和學習的影響，並隨生理成長曲線變化而變化。一般因素是指智力總體的平均水平，而晶体智力和流体智力則是不同於特殊因素的智力形式。因此，答案為D。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '一般因素'], ['B', '晶體智力'], ['C', '流體智力'], ['D', '特殊因素']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "設計師設計、描繪城市規劃嘅藍圖嘅過程屬於",
+    "llm_output": "答案：C. 再造想象。\n\n设计师设计、描绘城市规划的蓝图的过程是根据已有的城市规划知识，通过想象来创造新的蓝图，属于再造想象。空想是没有根据的想象，无意想象是事先没有预定目的的想象，这两者都不符合题意。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '空想'], ['B', '創造想象'], ['C', '再造想象'], ['D', '無意想象']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "聽到悅耳嘅歌聲，呢時人哋嘅心理活動主要係",
+    "llm_output": "答案：B. 知覺。\n\n在听到悦耳的歌声时，人的主要心理活动是知覺，即感知和理解声音的刺激。感覺、想象和思維都不太可能涉及。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '感覺'], ['B', '知覺'], ['C', '想象'], ['D', '思維']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "機能主義心理學派嘅代表人物係",
+    "llm_output": "答案：A. 華生同斯金納。\n\n華生和斯金納是機能主義心理學派的代表人物。其他选项中的人物不是機能主義心理學派的代表人物。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '華生同斯金納'], ['B', '馮特同鐵欽納'], ['C', '詹姆斯同杜威'], ['D', '魏特曼同苛勒']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「銘刻」嘅概念係由奧地利嘅()提出嘅。",
+    "llm_output": "「銘刻」的概念是由奧地利的皮亞傑提出的。答案是D。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '艾裏克森'], ['B', '柯爾伯格'], ['C', '勞倫茲'], ['D', '皮亞傑']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「頭懸樑，錐刺股」係一種（）嘅體現。",
+    "llm_output": "答案：D. 意志力。\n\n“頭懸樑，錐刺股”是一種刻苦學習的典故，體現了學習者為了達到目標而付出的堅持和毅力，因此選擇D，即意志力。氣質、性格和想象力都與此典故無關。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '氣質'], ['B', '性格'], ['C', '想象力'], ['D', '意志力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "建立世界上第一個心理學實驗室嘅心理學家係",
+    "llm_output": "答案：B. 馮特。\n\n建立世界上第一個心理學實驗室的是心理學家馮特。華生是行為主義心理學的代表人物，弗洛伊德是精神分析心理學的代表人物，巴甫洛夫是生理學家，與心理學無關。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '華生'], ['B', '馮特'], ['C', '弗洛伊德'], ['D', '巴甫洛夫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "高級神經活動類型中「強一平衡一唔靈活」型與下列邊種氣質類型相對應？",
+    "llm_output": "答案：B. 黏液質。\n\n黏液質的人其特點是穩定、有耐心、認真負責，他們的行為方式比較謹慎、穩重，不容易受外界影響，因此與「強一平衡一唔靈活」型的高級神經活動類型相對應。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '膽汁質'], ['B', '黏液質'], ['C', '多血質'], ['D', '抑鬱質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以弗洛伊德心理分析理論為依據嘅人格測驗",
+    "llm_output": "正確答案應該是A，因為弗洛伊德的心理分析理論主要集中在他提出的自由联想、移情、阻抗和梦境分析等方面，他的方法也是投射技术。這裡涉及到的專業心理學的單項選擇題已經完成，如果你需要其他領域的內容，請隨時向我提出。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '羅夏克墨漬測驗'], ['B', '愛德華個人興趣量表測驗'], ['C', '青年性格問卷測驗'], ['D', '明尼速達人格測驗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小學生喺英語課上學習「書」嘅英語單詞「book」。按奧蘇伯爾嘅學習分類，呢度嘅學習屬於。",
+    "llm_output": "答案：D. 概念學習。\n\n在奧蘇伯爾的學習分類中，概念學習是指學習某種內容的關鍵特徵或基本結構，例如「書」這個英語單詞的關鍵特徵是它是一種讀物，因此它屬於概念學習。而表徵學習是學習事物的特徵或結構，但不涉及基本結構，例如語言中的單詞和語句。發現學習是指學生在實際操作或探究過程中學習，命題學習則是學習定義清楚、形式完整、結構明確的命題。在這個案例中，小學生學習「書」這個英語單詞並不需要探究或實際操作，因此應該屬於概念學習。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '表徵學習'], ['B', '發現學習'], ['C', '命題學習'], ['D', '概念學習']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "好耐之前學過嘅英語單詞，一名學生而家寫可能寫唔出嚟，但喺閱讀文章時遇見呢啲單詞卻可以重新認出嚟。該學生嘅呢種記憶屬於",
+    "llm_output": "答案：A. 形象記憶。\n\n該學生記得以前學過嘅英語單詞喺讀文章時重新認出嚟，表示佢記得嘅係形象記憶，唔係內隱記憶。內隱記憶指人腦裏啲隱性記憶，一般唔能直接描述。D选项無法與文章裏嘅英文單詞直接聯繫。而A項嘅形象記憶更常見，有助於個人以形聲和相關具象來記憶新事物。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '形象記憶'], ['B', '外顯記憶'], ['C', '內隱記憶'], ['D', '運動記憶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "醫生救死扶傷先至能獲得最大嘅滿足，音樂家演奏音樂先至能獲得最大嘅滿足。呢類現象體現咗人（） 嘅需要。",
+    "llm_output": "對於這個問題，最適合的答案是：C. 自我實現。\n\n音樂家演奏音樂和醫生救死扶傷這兩種行為可以表現出人的自我實現需要。音樂家演奏音樂的能力是自身能力的體現，如果音樂家可以成功演奏，那就代表他的能力得到了一個良好的自我證明和肯定，獲得了他自身的滿足。同理，醫生如果成功救死扶傷，就代表他成功完成了他的職責，得到了自我成就的滿足。因此，這兩種行為都是自我實現的需要。\n\n其他選項如歸屬同愛、安全和尊重，與這個問題中的情況無關。\n\n總結：選擇C，即自我實現是這個問題中所述現象體現了人的需要。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '歸屬同愛'], ['B', '安全'], ['C', '自我實現'], ['D', '尊重']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "記筆記時，章與章、節與節之間，重要嘅標題同其他詞句之間都留出一定嘅空行，以便日後查閱時 一目瞭然。呢體現咗知覺選擇性中嘅",
+    "llm_output": "答案：D. 差異律。\n\n笔记中留出一定空行，以便日后查阅时一目了然，这体现了知觉选择性中的差异律。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '組合律'], ['B', '強度律'], ['C', '活動律'], ['D', '差異律']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "心理現象分為",
+    "llm_output": "正確答案應該是C. 心理過程與個性心理。\n\n心理學中，心理過程是指人腦對現實環境的認識過程，包括感知、記憶、思維等；個性心理則是指個人獨特的性格、情感、動機、興趣等特質。心理過程與個性心理是心理學中最重要的兩個領域，因此選項C是正確的答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '情感過程與個性心理'], ['B', '意志過程與個性心理'], ['C', '心理過程與個性心理'], ['D', '認知過程與個性心理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "醫生通過觀察、把脈、聽診能診斷患者嘅病情，呢屬於思維嘅",
+    "llm_output": "答案：D. 直接性。\n\n医生通过观察、把脉、听诊能诊断患者病情，这是直接观察患者病情的诊断方式，属于思维中的直接性。其他选项如抽象性、概括性和间接性并不符合这个情境。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '抽象性'], ['B', '概括性'], ['C', '間接性'], ['D', '直接性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "()係指注意喺同一對象或活動上所保持時間嘅長短。佢係注意嘅時間特徵。",
+    "llm_output": "答案是A. 注意嘅穩定性。注意嘅穩定性係指注意喺同一對象或活動上所保持時間嘅長短，佢係注意嘅時間特徵。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '注意嘅穩定性'], ['B', '注意嘅分配'], ['C', '注意嘅分心'], ['D', '注意嘅轉移']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "行為主義心理學派嘅代表人物係",
+    "llm_output": "答案：B. 華生同斯金納。\n\n行为主义心理学的代表人物是华生和斯金纳。魏特曼同苛勒是格式塔心理学的代表人物，詹姆斯同杜威是机能主义心理学的代表人物，冯特同铁钦纳是构造主义心理学的代表人物。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '魏特曼同苛勒'], ['B', '華生同斯金納'], ['C', '詹姆斯同杜威'], ['D', '馮特同鐵欽納']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "大學生既想擔任學生幹部嚟鍛鍊自己，又怕佔用時間太多而影響學習，呢種現象屬於",
+    "llm_output": "答案：C. 雙避衝突。\n\n大学生既想担任学生干部锻炼自己，又怕占用太多时间影响学习，这种矛盾心理属于双避冲突（即两种不好的选择同时存在，让人难以抉择）。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '雙趨衝突'], ['B', '趨避衝突'], ['C', '雙避衝突'], ['D', '多重趨避衝突']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下適合用驅力說解釋行為原因嘅例子係。",
+    "llm_output": "答案：C. 窮孩子如飢似渴讀書。\n\n驱力说认为行为是由驱力产生的，驱力降低会引发行为，此例中穷孩子为了获取知识来改变自己及家人的命运，产生驱动力去读书，进而驱动力降低产生渴望读书的行为。其他选项如青少年偷偷抽烟、诗人常常一醉方休、猫儿食饱饭後搵水飲并不能很好地被驱力说解释。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '青少年偷偷抽煙'], ['B', '詩人常常一醉方休'], ['C', '窮孩子如飢似渴讀書'], ['D', '貓兒食飽飯後搵水飲']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺廣度上研究各個社會領域內嘅心理",
+    "llm_output": "答案：A. 社會心理學。\n\n解释：社会心理学是研究各种社会领域内的心理现象的学科，包括人与人之间的相互作用、社会认知、社会影响、群体心理等。因此，选项A是正确答案。发展心理学研究人类个体从胎儿期到老年期心理发展的过程和规律，比較心理學研究不同文化或物种間的心理差異，應用心理學則是將心理學原理和方法應用於各個領域。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會心理學'], ['B', '發展心理學'], ['C', '比較心理學'], ['D', '應用心理學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "平平望住天上嘅雲彩發呆.一陣覺得雲彩似一條小河，一陣覺得雲彩似一座座高山。平平嘅呢種想象屬於",
+    "llm_output": "答案：D. 創造想象。\n\n平平的想象是獨特的，超越了現實的限制，因此應該是創造想象。再造想象是根據事物的描述或示範，在腦中再現出與描述或示範相符合的形象。無意想象是指個體在進行某種活動或工作時，不由自主地進行的想象，它不是由外界刺激直接引起。幻想是個人無法用現實生活中的事物來滿足自己的需要，因此產生的虛幻想象。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '再造想象'], ['B', '無意想象'], ['C', '幻想'], ['D', '創造想象']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "情緒情感係以邊種選項為中介嘅反映形成？",
+    "llm_output": "答案：B. 認識。\n\n認識是情緒情感的反應形成的中介，人們對客觀事物的認知過程中，容易產生不同的情緒反應。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '態度'], ['B', '認識'], ['C', '動機'], ['D', '需要']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "安德森嘅產生式遷移理論係嘅現代翻版。",
+    "llm_output": "答案：C. 關係轉換說。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '共同要素說'], ['B', '經歷內化說'], ['C', '關係轉換說'], ['D', '形式訓練說']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "一啲小學生為咗得到老師同家長嘅鍾意或稱讚而產生努力學習嘅動機呢種動機屬於",
+    "llm_output": "A. 外在動機。\n\n答案A表明，學生因為獲得老師和家長的認可和稱讚而產生的學習動機，是基於外在的獎勵和評價，因此這種動機被認為是外在動機。而內在動機通常是由學生自我驅動，追求學習的樂趣和成就，無需外部刺激。主導動機和從屬動機都是更為複雜的動機模型，需要更深入的解釋。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '外在動機'], ['B', '主導動機'], ['C', '從屬動機'], ['D', '內在動機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "三歲之前，人嘅思維形式主要係",
+    "llm_output": "答題：B. 具體形象思維。\n\n在三歲之前，人們的思維形式主要是具體形象思維，具體描述和反映事物的外部形象和特徵。在此階段，他們更多地依靠感知和表象來思考，而非抽象和理性的分析。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '語詞邏輯思維'], ['B', '具體形象思維'], ['C', '直覺思維'], ['D', '直觀動作思維']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "對現代心理衛生運動嘅興起作出直接貢獻嘅先驅者當屬美國人",
+    "llm_output": "答案：D. 羅傑斯。\n\n罗杰斯对现代心理卫生运动作出了直接贡献。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '比爾斯'], ['B', '馬斯洛'], ['C', '梅耶'], ['D', '羅傑斯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "中班嘅小明鍾意向老師、家長告狀。呢體現咗小明嘅情感係",
+    "llm_output": "答案：C. 道德感。\n\n小明有道德感，他會向老師和家長告狀，表明他認為自己應該做某事或不做某事，這是道德感的一個重要表現。其他選項如榮譽感、實踐感和理智感與此情況無關。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '榮譽感'], ['B', '實踐感'], ['C', '道德感'], ['D', '理智感']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "切割玻璃嘅聲音會使人產生寒冷嘅感覺，呢種現象屬於",
+    "llm_output": "問題：切割玻璃嘅聲音會使人產生寒冷嘅感覺，呢種現象屬於 C. 聯覺。\n\n聯覺是指一個感官的刺激引起另個感官的感覺或情感反應的現象。在本題中，切割玻璃的聲音刺激聽覺，然後引起了對寒冷感覺的聯覺反應。因此，答案為C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '感覺適應'], ['B', '感覺代償'], ['C', '聯覺'], ['D', '感覺對比']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "有啲人喺羣情激憤嘅羣體中極易失去理智，作出與其身份和個性極不相符、與平時判若兩人嘅舉動，呢種現象屬於",
+    "llm_output": "正確答案應該是：D. 去個體化。\n\n去個體化是指在高度認同群體意見和行為的環境下，個體可能失去自我意識，忘記自己的身份和個性，作出與其平時判若兩人的行為。這種現象在羣體激憤的場合中特別明顯。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會助長'], ['B', '羣體極化'], ['C', '社會干擾'], ['D', '去個體化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "檢驗感受性大小嘅基本指標被稱為感覺閾限，係個臨界值。佢包括：絕對感覺閾限同",
+    "llm_output": "正確答案應該包括兩個內容，其一是感受性大小的檢驗，其二是一個基本的指標。絕對感覺閾限係感受性隨著刺激強度增強而改變，確定咗刺激強度增加到一定程度，對我們嘅影響才開始增強嘅數值，是確定我們感受性大小嘅一個基本指標。因此，正確答案應該是A. 絕對感受性。\n\nB、C、D三個選項並未直接提及感受性大小檢驗的基本指標，因此不適用。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '絕對感受性'], ['B', '差別感覺閾限'], ['C', '絕對刺激量'], ['D', '差別刺激量']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人耳能接受嘅振動頻率係",
+    "llm_output": "答案：D. 30~25000赫茲。\n\n人耳能接受的振動頻率範圍通常在30~25000赫茲之間。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '40~20000赫茲'], ['B', '20~20000赫茲'], ['C', '50~25000赫茲'], ['D', '30~25000赫茲']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀初，法國心理學家比奈與西蒙合作研發嘅科研成果嘅問世，使通過心理測量解決實際問題嘅諗法變成現實。其標誌性成果係",
+    "llm_output": "答案：C. 智力測驗量表。\n\n智力測驗量表是比奈和西蒙在20世纪初合作研發的科研成果，使通過心理測量解決實際問題的諗法變成現實。而氣質測驗量表、人格測驗量表和情緒測驗量表都是不同領域或研究方向的心理學測量工具，但不是比奈和西蒙的研究成果。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '氣質測驗量表'], ['B', '人格測驗量表'], ['C', '智力測驗量表'], ['D', '情緒測驗量表']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "皮亞傑將人嘅思維分為四種，其中主要通過表象思維，缺乏概念嘅守恆和可 逆，係（ ）思維",
+    "llm_output": "答案：A. 感知運動。\n\n皮亞傑將人嘅思維分為四種，其中感知運動階段主要通過表象思維，缺乏概念的守恆和可逆性。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '感知運動'], ['B', '前運算'], ['C', '形式運算'], ['D', '具體運算']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "1930年，「第一屆國際心理衛生大會」喺華盛頓召開，會上成立咗一個永久性嘅國際組織，名稱係",
+    "llm_output": "正確答案應該是 A. 國際心理衛生委員會。\n\n根據問題中提供的信息，第一屆國際心理衛生大會在華盛頓召開，會上成立咗一個永久性嘅國際組織，所以選項A國際心理衛生委員會最符合這個描述。其他選項B世界心理學會、C國際心理學委員會、D國際心理諮詢師委員會都無提供關於這個組織成立的時間、地點或名稱的確切信息。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '國際心理衛生委員會'], ['B', '世界心理學會'], ['C', '國際心理學委員會'], ['D', '國際心理諮詢師委員會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊種現象屬於第二信號系統嘅條件反射",
+    "llm_output": "答案：D. 樂極生悲。\n樂極生悲是屬於第二信號系統的條件反射，這是一種情緒反射，當我們達到高興、快樂等正面情緒的高點時，如果突然受到挫折或突然刺激，容易產生痛苦或悲傷的感受。而談虎色變、望梅止渴、見風流淚都是心理暗示和預期反應的結果，而不是第二信號系統的條件反射。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '談虎色變'], ['B', '望梅止渴'], ['C', '見風流淚'], ['D', '樂極生悲']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺個性結構中處於首要嘅核心地位嘅特徵係",
+    "llm_output": "答案：B. 氣質。\n\n氣質在個性結構中處於首要嘅核心地位，它係一個人內心表現出來嘅心理特徵，包括氣質行為、性格和態度等。性格、能力、智力都係個性結構中唔同嘅方面，但氣質係首要嘅核心特徵。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '性格'], ['B', '氣質'], ['C', '能力'], ['D', '智力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下情境中代表內喺動機嘅情境係。",
+    "llm_output": "答案：A. 陳英每日單獨睇幾個鐘嘅電視。\n\n內喺動機是指一個人內心深處的動機或需求，通常與個人的心理需求、情感、自我認同、自我實現等有關。而A情境中，陳英每日單獨看電視的動機很可能源自她內心的情感需求或逃避外部環境等。B、C、D三個情境無法清晰反映出這一特點，故不是內喺動機的代表。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '陳英每日單獨睇幾個鐘嘅電視'], ['B', '王老師對X華嘅單詞測驗成績表示滿意'], ['C', '校長喺全校大會上宣佈三好學生'], ['D', '課間休息時，小李回到教室裏做作業']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "思維嘅基本過程係",
+    "llm_output": "答案：B. 抽象同概括。\n\n思維的基本過程是抽象同概括。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '具體化同系統化'], ['B', '抽象同概括'], ['C', '分析同綜合'], ['D', '分類同比較']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "只要畀足夠嘅時間同適當嘅教學，幾乎所有嘅學生對幾乎所有嘅內容都能到達掌握嘅程度。呢個係。",
+    "llm_output": "答案：D. 掌握學習。\n\n掌握学习认为所有学生都能够达到掌握的最低水平，通过一定的教学步骤和恰当的教学之后给予充分的练习和时间来保证学生对该项技能的掌握，题目所述也说明了只要给足时间和适当的教学，几乎所有学生几乎对所有内容都能达到掌握的程度，这也正符合了掌握学习的定义和特征。而发現学习强调从具体情境中发现和解决问题，意义学习强调新旧知识之间的联系，机械学习强调对学习内容的死记硬背，都不符合题目所述。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '發現學習'], ['B', '意義學習'], ['C', '機械學習'], ['D', '掌握學習']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "布盧姆將認知目標由低到高分為邊六個層次",
+    "llm_output": "答案：D. 知識、領會、分析、運用、綜合、評價。\n\n布盧姆將認知目標由低到高分為六個層次，即知識、領會、分析、運用、綜合、評價。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '知識、領會、運用、分析、 綜合、評價'], ['B', '知識、運用、領會、分析、綜合、評價'], ['C', '知識、領會、運用、綜合、分析、 評價'], ['D', '知識、領會、分析、運用、綜合、評價']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "中學生嘅情緒特點係",
+    "llm_output": "答案：D. 情緒激盪，易動感情，亦容易被激惹。\n\n中學生的情緒特點是情緒激盪，易動感情，亦容易被激惹。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '情緒嘅兩極性減少'], ['B', '情緒情感嘅社會性成分開始增加'], ['C', '情緒嘅衝動性減弱'], ['D', '情緒激盪，易動感情，亦容易被激惹']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "表現喺人對現實嘅態度同行為方式嘅比較穩定嘅獨特嘅心理特徵嘅總和係",
+    "llm_output": "正確答案應該是 D. 性格。\n\n性格是表現出對環境、對他人的行為和態度的比較穩定和持久的心理特徵，包括個人對自己和他人的看法，以及他們的行為方式。性格是個體在長期生活中形成，並且在人們的行為中表現出來的。性格的特點包括情感性、穩定性、環境適應性和影響力等。性格是人們個性化的重要標志之一，是心理學研究的重要內容之一。\n\n能力是個人能夠完成某種活動或達到某種目標的技術和智力素質，它不僅僅包括人的智力和智商，還包括人們的技能、動手能力、創造力等。\n\n興趣是指人們對某種事物或活動的喜好和熱愛程度，興趣可以是天生的，也可以是在學習和生活中逐步發展出來的。\n\n氣質是人們天生的性格特點，它反映了人們行為和思考方式的偏向性，通常被認為是人們性格的一部分。它可能會影響人們對待他人和環境的方式，但氣質本身並不是一個可以控制的特徵。\n\n因此，表現喺人對現實嘅態度同行為方式嘅比較穩定嘅獨特嘅心理特徵嘅總和係性格。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '能力'], ['B', '興趣'], ['C', '氣質'], ['D', '性格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "相同嘅歌曲旋律，無論係用鋼琴演奏定係用小提琴演奏，我哋都能聽出係同一首歌。呢個說明知覺具有",
+    "llm_output": "正確答案應該是 C. 選擇性。\n\n這裡提到了歌曲旋律相同但演奏工具不同但仍被聽出為同一首歌，這個例子直接反映出了選擇性的知覺特徵，即人們可以選擇性地關注、識別和記憶特定信息，即使在大量信息中混雜著相同但無關的信息時也是如此。所以選擇性是此問題的關鍵解釋。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '恆常性'], ['B', '整體性'], ['C', '選擇性'], ['D', '理解性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人哋喺解決問題時，通過增加初始狀態與目標狀態嘅差異以最終達到解決問題嘅目嘅，呢種解決問題嘅方法係",
+    "llm_output": "答案：D. 爬山法。\n\n爬山法是在问题空间内逐渐逼近目标的一种方法，它通过不断地选择最佳的候选解，并在候选解上添加一小步来逐步改进候选解，最终达到解决问题的目的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '啟發法'], ['B', '算法式'], ['C', '手段-目嘅分析法'], ['D', '爬山法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下關於睡眠或夢嘅講法錯誤嘅係？",
+    "llm_output": "以下係關於睡眠或夢嘅單項選擇題答案，直接選擇C.\n\n睡眠包括四個階段同快速眼動睡眠階段。选项C是正确的描述，其他选项都有誤解或者錯誤的描述。A和D描述的是夢的不同特點，而B描述的是睡眠的重要作用，與本題問題的內容無關。因此，答案是C。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '夢係一種無意想象'], ['B', '睡眠有益於人嘅身心健康'], ['C', '睡眠包括四個階段同快速眼動睡眠階段'], ['D', '夢多出現喺深度睡眠階段']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "將事物整體分解為各個部分、要素或層次，分別抽取其個別屬性加以考察，從而認識事物本事嘅思維方式係",
+    "llm_output": "答案：D. 分析方法。\n\n分析方法是将事物整体分解为各個部分、要素或層次，分別抽取其個別屬性加以考察，從而認識事物本事的思維方式。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '比較方法'], ['B', '演繹方法'], ['C', '綜合方法'], ['D', '分析方法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "學習「圓嘅直徑係佢嘅半徑嘅兩倍」係。",
+    "llm_output": "答案：D. 概念學習。\n\n學習「圓的直徑是它半徑的兩倍」是概念學習，它涉及對一個概念的理解和記憶。符號學習涉及如何使用符號或語言，而下位學習和命題學習則涉及記憶和復述信息。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '符號學習'], ['B', '下位學習'], ['C', '命題學習'], ['D', '概念學習']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "李某同王某係隔離位，李某鍾意喺媽媽面前「撒嬌」，而王某比較「固執」，呢一現象說明人格具有",
+    "llm_output": "答案：D. 獨特性。\n\n李某同王某在隔离位的表现不同，说明人格具有獨特性。人格是個體在經驗的基礎上形成的，持久的心理特徵，具有獨特性。不同的人有不同的性格、人格特征和行為方式，這是人格獨特性的體現。稳定性、綜合性和複雜性描述的是人的人格特徵的某種特點，而非他們的不同，因此不適用。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '穩定性'], ['B', '綜合性'], ['C', '複雜性'], ['D', '獨特性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺路上遇見細個時候嘅同伴，雖然叫唔出佢(佢)嘅姓名，但確認係認識嘅，此時嘅心理活動係",
+    "llm_output": "答案：B. 再認。\n\n在路上遇见小时候的同伴，虽然叫不出他的名字，但确认是认识的人，这种心理活动属于再认。再认是指过去经验过的对象或事件再次出现时，能识别出来并加以肯定或否定。与此相反，回忆是指过去经验过的对象或事件不在面前，仍能把它重现出来。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '保持'], ['B', '再認'], ['C', '識記'], ['D', '回憶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "食過梅嘅人一見到佢嘅外形、聞到佢嘅香味，就會有望梅止渴嘅反應。呢個係一種",
+    "llm_output": "答案：C. 條件反射。\n\n條件反射是指在特定環境下，由於刺激物與機體的結構或氣味等特徵的結合而引發的反射。在本題中，梅的形狀、氣味等刺激物與望梅止渴的反應結合引發了反射。而非條件反射是一種缺乏必要條件、不規則、無規律的反應。因此，答案為C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無條件反射'], ['B', '生嚟嘅反射'], ['C', '條件反射'], ['D', '非條件反射']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於誘導依從策略嘅係",
+    "llm_output": "答案：C. 引誘法。\n\n引誘法通常被認為是一種誘導依從策略，而其他三個選項（示範法、登門檻放應、留面子效應）都是其他相關的依從策略。因此，C是唯一一個不屬於誘導依從策略的答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '示範法'], ['B', '登門檻放應'], ['C', '引誘法'], ['D', '留面子效應']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個性心理特徵係喺（）實踐嘅基礎上形成同發展起嚟嘅",
+    "llm_output": "答案：B. 認知過程。\n\n個性心理特徵是在認知過程的基礎上形成和發展起來的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '認知過程、情感過程、意志過程'], ['B', '認知過程'], ['C', '意志過程'], ['D', '情感過程']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "馬斯洛認為，（ ）係人哋基本嘅缺失性需要。①生理需要②安全需要③歸屬同愛嘅需要④尊重嘅需要 ⑤自我實現嘅需要",
+    "llm_output": "答案D：马洛斯的需要层次理论将需求分为五种，像阶梯一样从低到高，生理需求、安全需求、归属和爱的需求、尊重的需求和自我实现的需求，所以①②③④都是正确的。而⑤明显不属于缺失性需求。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '②③④⑤'], ['B', '①②③'], ['C', '①②③④⑤'], ['D', '①②③④']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "憂者見之則憂，喜者見之則喜，呢個係受一個人嘅()嘅影響所致。",
+    "llm_output": "答案：B. 心境。\n\n心境是一种微弱、平静和持续性的情感体验，通常是由某个事件或想法引起的，具有弥漫性，会使人感到整个情绪都受到影响。题干中描述的“忧者见之则忧，喜者见之则喜”体现了这种情感状态。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '熱情'], ['B', '心境'], ['C', '應激'], ['D', '激情']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "學生小何性格活潑好動，但粗枝大葉、浮躁，好難長久地堅持做一件事。下列對其所屬氣質類型及 教育方法判斷正確嘅係",
+    "llm_output": "對於小何的性格特點，其氣質類型應該是多血質，因此對其應採取的教育方法應該是為佢提供參加多種活動嘅機會，同時培養其穩定、專注嘅品質。因此，正確的答案是A。B、C、D三個選項均與小何的性格特點不符。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '多血質：為佢提供參加多種活動嘅機會，同時培養其穩定、專注嘅品質'], ['B', '抑鬱質：鼓勵佢多與人交往，唔好自我封閉'], ['C', '膽汁質：適時提醒佢控制情緒，養成遵守秩序嘅習慣'], ['D', '黏液質：注意多畀正面評價，提高其積極性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "（ ）認為心理學應該將有效用嘅心理過程而唔係靜態嘅心理內容作為研究對象，重視心理學嘅實際應用。",
+    "llm_output": "正确答案是 B. 行為主義。行為主義認為心理學應該將有效用的心理過程而唔係靜態嘅心理內容作為研究對象，重視心理學嘅實際應用。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '構造主義'], ['B', '行為主義'], ['C', '精神分析'], ['D', '機能主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "對物體（）所產生嘅知覺叫運動知覺。",
+    "llm_output": "答案：D. 喺空間中嘅位移。\n\n运动知觉是对物体在空间中的位移所产生的感觉。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '時間特性'], ['B', '延續性同順序性'], ['C', '距離同方位特性'], ['D', '喺空間中嘅位移']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "古詩句「歡娛嫌夜短，寂寞恨更長」描寫嘅心理現象係",
+    "llm_output": "答案：C. 時間錯覺。\n\n古詩句「歡娛嫌夜短，寂寞恨更長」描寫的是時間感覺的錯覺，即認為時間過得太快或太慢，而不是視覺、空間或運動的錯覺。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '視覺錯覺'], ['B', '空間錯覺'], ['C', '時間錯覺'], ['D', '運動錯覺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「入芝蘭之室，久而不聞其香；入鮑魚之肆，久而不覺其臭」，講嘅係",
+    "llm_output": "答案：A. 感覺適應。\n\n這句話的意思是在熟悉的环境中，長時間以後對其味道和氣味就無法再感覺到，表示的是感覺適應。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '感覺適應'], ['B', '明適應'], ['C', '感覺調整'], ['D', '暗適應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "前攝抑制與倒攝抑制證實咗遺忘嘅。",
+    "llm_output": "答案：D. 幹擾說。\n\n前攝抑制和倒攝抑制是記憶過程中的影響因素之一，它證實了遺忘是由於干擾引起的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '痕跡衰退說'], ['B', '動機說'], ['C', '提取失敗說'], ['D', '幹擾說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺自然條件下，對心理現象嘅外部活動進行有計劃、有系統嘅觀察，從中發現心理現象發生同發展嘅規律性嘅方法稱之為",
+    "llm_output": "答案：D. 觀察法。\n\n在自然条件下，对心理现象的外部活动进行有计划、有系统的观察，从中发现心理现象的发生和发展规律性的方法称为观察法。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '個案法'], ['B', '測量法'], ['C', '調查法'], ['D', '觀察法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "擁有信息並試圖進行溝通嘅人稱為",
+    "llm_output": "答案：D. 信息源。\n\n拥有信息并试图进行沟通的人被称为信息源。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '信息'], ['B', '通道'], ['C', '反饋者'], ['D', '信息源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "系統地提出咗動機歸因理論嘅心理學家係",
+    "llm_output": "問題：系統地提出咗動機歸因理論嘅心理學家係 \nA. 海德\nB. 華生\nC. 赫爾\nD. 韋納 - 正确答案是D. 韋納。\n問題中的答案為D，即心理學家韋納是系統地提出動機歸因理論的人。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '海德'], ['B', '華生'], ['C', '赫爾'], ['D', '韋納']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「如果畀我一打嬰兒，我保證能夠任意培養成任何一類嘅人，或者醫生、律師、商人、同領導者，甚至於訓練成乞衣同賊」。持此言論嘅心理學家係",
+    "llm_output": "正确答案是C. 华生。\n\n华生是行为主义心理学的代表人物，他提出了“刺激-反应”的学习理论，认为人的行为是由环境决定的，可以通过环境塑造人来成为任何类型的人。因此，他提出了“如果给我一打婴儿，我可以将其培养成任何类型的人”的言论。弗洛伊德是精神分析学的代表人物，皮亚杰是认知心理学派的代表人物，而劳伦兹则是动物行为学的代表人物，这三者与题目所述无关。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '弗洛伊德'], ['B', '皮亞傑'], ['C', '華生'], ['D', '勞倫茲']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "教育過程中人與人之間最基本、最重要嘅人際關係係",
+    "llm_output": "問題：教育過程中人與人之間最基本、最重要嘅人際關係係的正确答案是：C. 师生關係。\n\n教育過程中人與人之間最基本、最重要嘅人際關係係是師生關係。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '以上都正確'], ['B', '同伴關係'], ['C', '師生關係'], ['D', '異性關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "奧斯本提出咗",
+    "llm_output": "答案：C. 先行組織者嘅教學策略。\n\n先行組織者（advance organizers）是一種教學策略，它為學生提供一個引導，幫助他們理解新的學習內容，並為他們提供一個支架，幫助他們將新知識與舊知識結合起來。奧斯本（Osgood）提出咗先行組織者嘅教學策略。其他三個選項（A、B、D）並無直接關係。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '認知學習分類理論'], ['B', '教學目標分類理論'], ['C', '先行組織者嘅教學策略'], ['D', '頭腦風暴法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "有啲人遇事總係舉棋唔定，優柔寡斷。呢個說明佢哋嘅意志缺乏",
+    "llm_output": "答案：A. 果斷性。\n\n有啲人遇事總係舉棋唔定，優柔寡斷。這說明佢哋嘅意志缺乏果斷性。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '果斷性'], ['B', '自覺性'], ['C', '堅持性'], ['D', '自制性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個體所偏愛使用嘅信息加工方式稱為",
+    "llm_output": "答案：D. 認知風格。\n\n認知風格是指個體所偏愛使用嘅信息加工方式，通常包括思考方式、記憶方式、解決問題的方式等。它反映了個體在思考問題時的特點和習慣，是個體在心理層面上的表現形式。因此，答案為D，認知風格。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '認知過程'], ['B', '認知活動'], ['C', '認知類型'], ['D', '認知風格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋知覺到月亮喺鬱動嘅，而浮雲係靜止嘅，係因為",
+    "llm_output": "正確答案應該是：B. 誘發運動。\n\n解釋：我們感受到月亮在動，而浮雲在靜止，這種感知是因為刺激的連續輸入引起了我們的感知變化，即誘發運動。因此，B是正確答案。其他選項如真實運動、自主運動和動景運動都與這個問題無關。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '真實運動'], ['B', '誘發運動'], ['C', '自主運動'], ['D', '動景運動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "無理由咁重複啲思想同行為，例如有不斷要洗手嘅要求，無法停止去諗某一個詞等，屬於",
+    "llm_output": "答案：B. 強迫症。\n\n上述情況可能出現於強迫症患者，他們無法控制地執行一係列固定或不必要嘅行為或思維，例如無止境地洗手或無法停止諗一個詞等。其他選項如廣泛性焦慮障礙、創傷後應激症和恐懼症均唔會出現無法控制嘅行為或思維。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '廣泛性焦慮障礙'], ['B', '強迫症'], ['C', '創傷後應激症'], ['D', '恐懼症']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "對於一個較長系列嘅材料，中間部分記憶嘅效果差，兩端效果好，呢係由於中間部分受到邊種抑制嘅幹擾",
+    "llm_output": "答案：A. 倒攝。\n\n倒摄遗忘是指后学习的材料受到先学习的材料的影响，回忆时先学习的材料干扰了后学习的材料的回忆。在本题中，中间部分记忆效果差，两端效果好，符合倒摄抑制的影响。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '倒攝'], ['B', '單一'], ['C', '前攝'], ['D', '雙重']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "從學習程度方面嚟講，學習重複嘅次數越多，就越唔容易遺忘。當學習重複嘅次數達到能啱啱好完全背誦嘅（）時，對阻止遺忘嘅效果最好。",
+    "llm_output": "對阻止遺忘嘅效果最好嘅學習重複次數為（）。\nA. 150%\nB. 200%\nC. 200%以上\nD. 220%\n\n答案：B. 200%。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '150%'], ['B', '200%'], ['C', '200%以上'], ['D', '110%']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人哋睇電影時，電影copy上嘅一幅幅畫面係唔鬱嘅，而人哋見到嘅卻係連貫嘅動作，活動嘅景物。呢運用嘅心理學原理係",
+    "llm_output": "答案：D. 聯覺。\n\n人哋睇電影時，電影copy上嘅一幅幅画面連貫嘅動作，活動嘅景物，係因為人哋嘅大腦將唔同嘅刺激連結咗一齊，形成咗一幅幅連貫嘅畫面。呢運用咗聯覺（覺知連結）嘅心理學原理。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '感覺適應'], ['B', '感覺對比'], ['C', '感覺後象'], ['D', '聯覺']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "清晨起牀後背誦嘢效果好，因為冇（）嘅影響。",
+    "llm_output": "答案：B. 後攝抑制。\n\n解释：清晨起牀後背誦，不受前一晚睡眠時長和睡眠質量等前一環節的影響，因此效果更好。這種現象稱為後攝抑制。前攝抑制和後攝抑制是記憶過程中存在的抑制作用，前者指先前的學習對當前學習的抑制作用，后者指睡眠等休息環節對當前學習的抑制作用。分化抑制是一種心理學過程，可以幫助我們區分不同刺激或記憶的不同部分。外抑制是一種心理學過程，它影響記憶的保持和再現，但不是本題目的關鍵因素。因此，B是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '前攝抑制'], ['B', '後攝抑制'], ['C', '分化抑制'], ['D', '外抑制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小林成日返學遲到，為此老師取消小林一次春遊特權，以後佢好少遲到。呢係運用咗行為原理。",
+    "llm_output": "答案：C. 取消性懲罰。\n\n老師取消小林一次春遊特權，以後佢好少遲到，這是運用咗取消性懲罰原理。這是因為取消性懲罰是當一個行為被取消或減弱時，個體可能會改變他們的行為，以避免再次受到相同的懲罰。這種方法在教育領域中常被用於改變不良行為。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '呈現性懲罰'], ['B', '負強化'], ['C', '取消性懲罰'], ['D', '正強化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "短時記憶嘅容量為",
+    "llm_output": "答案：C. 7+2組塊。\n\n短時記憶的容量通常為7+2個條件組塊，也就是說一個人可以在短時間內記住最多7個信息組塊，然後將記憶的注意力和工作資源轉移到新的信息上。此規律並非完全適用於所有情況，但通常在普通人群中具有廣泛適用性。其他選項並未符合此標準。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '5+2組塊'], ['B', '4+2組塊'], ['C', '7+2組塊'], ['D', '6+2組塊']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "後學習嘅材料對先學習嘅材料發生幹擾作用而造成嘅遺忘係",
+    "llm_output": "答案：C. 前攝抑制。\n\n前攝抑制是指先學習的材料對後學習的材料產生干擾作用而造成記憶損失的情況。這是因為先學習的材料在記憶中佔據了主導地位，使得後學習的材料在記憶中受到抑制，從而造成記憶損失。其他選項如遺忘規律、後攝抑制和接近律在這個情況下並未被提及。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '遺忘規律'], ['B', '後攝抑制'], ['C', '前攝抑制'], ['D', '接近律']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊種感覺屬於內部感覺",
+    "llm_output": "答案：D. 平衡覺。\n\n平衡覺是內部感覺，它涉及身體的重力感和身體姿勢的感知。嗅覺、味覺和視覺是外部感覺。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '嗅覺'], ['B', '味覺'], ['C', '視覺'], ['D', '平衡覺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上第一個標準化嘅智力量表係",
+    "llm_output": "答案：D. 比奈一西蒙智力量表。\n\n世界上第一個標準化嘅智力量表是比奈-西蒙智力量表。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '韋克斯勒智力量表'], ['B', '斯坦福一比奈智力量表'], ['C', '瑞文推理測驗'], ['D', '比奈一西蒙智力量表']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "表示測驗結果跨時間嘅一致性嘅指標係",
+    "llm_output": "表示測驗結果跨時間的一致性嘅指標是再測信度。因此，正确答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '再測信度'], ['B', '內容信度'], ['C', '內部一致性信度'], ['D', '構想效度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "魚，我所欲也。熊掌亦我所欲也，二者不可兼得」所引發嘅動機衝突係",
+    "llm_output": "正確答案應該是「D. 雙趨衝突」。\n\n因為題目中描述的動機衝突，涉及了兩個都是渴望得到，但又不能同時得到的事情，這是一種雙趨衝突。而文章中未提及有數個需要避開或遠離的事物，因此不是多重趨避衝突。文章中未明確指出是追求某事物，還是避免某事物，因此不能確定為單避衝突或趨避衝突。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '雙避衝突'], ['B', '多重趨避衝突'], ['C', '趨避衝突'], ['D', '雙趨衝突']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以嬰兒理解客體恆常性為重要特徵嘅認知發展階段係",
+    "llm_output": "答案：B. 感知運算階段。\n\n在嬰兒理解客體恆常性為重要特徵的認知發展階段，他們主要依靠感知運算階段的能力，即他們主要依靠感官輸入來理解客體的特徵，而不太能理解抽象的概念和運算。因此，答案為B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '具體運算階段'], ['B', '感知運算階段'], ['C', '前運算階段'], ['D', '開式運算階段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺小學低年級嘅某次數學測驗中，由於數學試卷中試題嘅文字表述過於複雜，學生唔能完全理解題題目嘅要求，亦唔能正確地解答題目，導致呢份試卷無法正確測量學生數學學習嘅狀況。據此可以判斷呢次數學測驗係",
+    "llm_output": "答案：D. 低效度嘅。\n\n由描述中可以得知，此次數學測驗因為試卷內容超出了學生的理解範圍，未能正確地測量學生數學學習嘅狀況，因此可以判斷其係低效度嘅。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '低信度嘅'], ['B', '高信度嘅'], ['C', '高效度嘅'], ['D', '低效度嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人嘅認識嘅傾向性係",
+    "llm_output": "答案：A. 興趣。\n\n人的認識的傾向性主要與興趣有關，它會影響人對不同事物的注意和選擇。需要、理想和動機都與認識的傾向性有關，但不如興趣直接影響人對事物的選擇和注意。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '興趣'], ['B', '需要'], ['C', '理想'], ['D', '動機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "感受性嘅高低係用()嘅大小嚟衡量嘅，佢哋之間係()關係。",
+    "llm_output": "答案：D. 感覺閾限，正比。\n\n感受性是指人或物質對刺激的感受能力，其高低可以用感覺閾限的大小來衡量。感覺閾限是指感受器感受刺激並作出反應所需的最小刺激強度或數量。感受性與感覺閾限之間呈正比關係，即感受性越高，感覺閾限越小，對刺激的感受能力就越強。反之，感受性越低，感覺閾限越大，對刺激的感受能力就越弱。因此，答案為D. 感覺閾限，正比。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '絕對感覺閾限，反比'], ['B', '差別閾限，正比'], ['C', '感覺閾限，反比'], ['D', '感覺閾限，正比']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "富有競爭性、敵對性，有好強嘅時間緊迫感，呢主要係（）嘅特點。",
+    "llm_output": "答案：D. A型人格。\n\nA型人格的人通常富有竞争性、敌对性，并且有强烈的时间紧迫感。他们往往容易感到压力和紧张，并且可能会过度追求成功和成就。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'B型人格'], ['B', '內向型人格'], ['C', '外向型人格'], ['D', 'A型人格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "老虎鉗可以當作錘子用，縫製衫嘅棉線可以裁紙，呢克服咗()嘅限制。",
+    "llm_output": "對問題嘅認知方式\n老虎鉗可以當作锤子的用具、棉線可以裁纸的行为说明人们的思维能够以不同的方式看问题，所以這是在克服對問題的認知方式的限制。而不是基於某件物品的功能，去死板地看待其只能用于特定目的的定勢思维。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '知識經驗'], ['B', '思維定勢'], ['C', '對問題嘅認知方式'], ['D', '功能固著']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "首創社會測量法嘅心理學家係",
+    "llm_output": "答案：A. 安德森。\n\n安德森是首創社會測量法的心理學家。阿希、費斯廷格和莫雷諾都是心理學家，但他們並未創立或發展出社會測量法。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '安德森'], ['B', '阿希'], ['C', '費斯廷格'], ['D', '莫雷諾']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「情緒。只係一種身體狀態嘅感覺」係() 嘅觀點。",
+    "llm_output": "答案C. 詹姆斯。詹姆斯認為情緒是一種身體狀態的感覺，認為情緒是對環境的反映，而情緒的產生與過去經驗有關。因此，他認為情緒是可變的和建構性的，而非只是一種身體狀態的感覺。阿諾德和蘭格也提出了相關的主張，但是他們的主張不涉及到情緒與環境之間的關係，而是更多地關注情感結構本身。拉扎勒斯主張的情緒積累理論主要是描述和了解個人情緒經驗過程，並不是將情緒簡單地描述為身體狀態的感覺。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '阿諾德'], ['B', '蘭格'], ['C', '詹姆斯'], ['D', '拉扎勒斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小剛一按時做完作業，家長就唔再批評佢，令佢逐漸養成按時做作業嘅習慣。呢係運用咗行為原理嘅。",
+    "llm_output": "正強化。\n\n\n回答：题目描述了小刚按时完成作业后家长不再批评，使得他逐渐养成按时做作业的习惯，这体现了正强化的行为原理。负强化是通过消除一个或几个负性刺激来增强个体行为的发生；呈现性惩罰与行为原理无关；取消性惩罰是指因不希望发生的行为而减少奖励的供应。所以，正强化最符合题目描述。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '正強化'], ['B', '負強化'], ['C', '取消性懲罰'], ['D', '呈現性懲罰']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上第一套智力測驗量表係（）編制嘅。",
+    "llm_output": "答案：D. 比奈同西蒙。\n\n世界上第一套智力測驗量表是比奈同西蒙编制的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '巴甫洛夫'], ['B', '韋克斯勒'], ['C', '吉爾福特'], ['D', '比奈同西蒙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個體活動嘅內喺心理過程或內部驅力係指",
+    "llm_output": "A. 動機（动机）是一種內喺心理過程，與個體活動有關，主要係由內部驅力或外部刺激引發。需要、興趣和能力都是影響個體行為的因素，但與動機相比，動機更加關注個體內部的心智過程。因此，個體活動的內喺心理過程或內部驅力應該是指動機。所以，正確答案應該是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '動機'], ['B', '需要'], ['C', '興趣'], ['D', '能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喬姆斯基提出嘅語言獲得理論係",
+    "llm_output": "正确答案是 C. 先天決定論。\n\n喬姆斯基提出的是先天决定论的语言获得理论。该理论认为语言不是通过模仿和训练习得的，而是由人类的生物特性决定的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '相互作用論'], ['B', '循序漸進論'], ['C', '先天決定論'], ['D', '強化學說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "認知過程包括感覺知覺記憶、思維想象等過程，其中認知嘅核心係",
+    "llm_output": "答案：D. 知覺。\n\n知覺是認知過程的核心，它包括感覺知覺、記憶、思維想象等過程。知覺是一種基本的心理過程，它使我們能夠感知到環境中的刺激，並將其轉化為我們的感知經驗。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '思維'], ['B', '記憶'], ['C', '感覺'], ['D', '知覺']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「活潑好動、行動敏捷」係人嘅() 特徵嘅表現。",
+    "llm_output": "問題：「活潑好動、行動敏捷」係人嘅(D. 氣質)特徵嘅表現。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '興趣'], ['B', '性格'], ['C', '能力'], ['D', '氣質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據艾森克嘅氣質理論，一個人表現為溫和、鎮定、安寧、善於剋制自己。呢種人嘅氣質屬於",
+    "llm_output": "答案：B. 穩定內向型。\n\n根据艾森克的气质理论，一个人表现為溫和、鎮定、安寧、善於剋制自己，這種人氣質屬於穩定內向型。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔穩定外向型'], ['B', '穩定內向型'], ['C', '唔穩定內向型'], ['D', '穩定外向型']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "動機與工作效率嘅關係係",
+    "llm_output": "答案：D. 一種線性關係。\n動機與工作效率之間的關係是一種線性關係，即低動機水平下工作效率低，高動機水平下工作效率高。因此，動機與工作效率之間的關係是一種非直線的、變化的關係。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一種直線關係'], ['B', '倒U形曲線關係'], ['C', '一種交叉關係'], ['D', '一種線性關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "教師用紅筆批改作業係利用咗知覺嘅（）。",
+    "llm_output": "正確答案應該是C. 選擇性。\n\n批改作業時，教師選擇性地使用紅筆，可能係因為紅筆有特別的提示作用，幫助學生識別特別需要關注的問題。因此，批改作業並非利用知覺的恆常性、整體性或理解性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '恆常性'], ['B', '整體性'], ['C', '選擇性'], ['D', '理解性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "心理過程包括",
+    "llm_output": "答案：D. 認識過程、情感過程、行為過程。\n\n心理過程包括認識過程（即思維過程）、情感過程（包括喜怒哀樂等情感）和行為過程（包括日常行為、動作、語言等）。知覺過程並不是心理過程的一部分，意志過程也並非獨立於心理過程之外。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '感覺過程、知覺過程、意志過程'], ['B', '知覺過程、情感過程、行為過程'], ['C', '認識過程、情感過程、意志過程'], ['D', '認識過程、情感過程、行為過程']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "為破解喼嘅密碼，逐一嘗試所有可能嘅密碼組合，呢種問題解決嘅策略稱為",
+    "llm_output": "A. 手段-目嘅分析（）是常見嘅問題解決策略，唔係常見嘅方法唔需要仔細解決問題原因，只係需要依預設方法執行便可以。\n\n對應正確答案：手段-目嘅分析。\n\n其他选项B、C、D均無對應正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '手段-目嘅分析'], ['B', '算法'], ['C', '啟發式'], ['D', '逆向搜索']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "關於點樣踩單車嘅記憶屬於",
+    "llm_output": "A. 外顯記憶。\n\n外顯記憶是指可以通過有意識的記憶存取的記憶，通常需要有意識地回想才能提取記憶。它包括我們的語言知識、學習過的技能和學科知識等。本題中，關於如何踩單車的記憶是可以通過有意識的回憶而提取的，因此屬於外顯記憶。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '外顯記憶'], ['B', '陳述性記憶'], ['C', '情境記憶'], ['D', '程序性記憶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人們喺大多數活動所需要嘅能力，如觀察力、記憶力、想象力等，係人所共 有嘅最基本嘅能力，佢屬於",
+    "llm_output": "答案：B. 一般能力。\n\n一般能力是指人們在一般性的活動中所需的能力，如觀察力、記憶力、想象力等，是所有人都具有的基本能力。創造能力、特殊能力和認知能力都不同於一般能力，具有不同的特點和作用。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '創造能力'], ['B', '一般能力'], ['C', '特殊能力'], ['D', '認知能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "皮亞傑認知發展階段理論嘅四個階段依次係：",
+    "llm_output": "正确答案为C。感知运动阶段、前运算阶段、具体运算阶段和形式运算阶段构成了皮亚杰认知发展阶段理论的主要内容。其中，感知运动阶段是认知发展的第一阶段，紧接着是前运算阶段，具体运算阶段和形式运算阶段则依次在后。因此，四个阶段的顺序应为感知运动阶段、前运算阶段、具体运算阶段和形式运算阶段。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '前運算階段、具體運算階段、形式運算階段與感知運動階段'], ['B', '前運算階段、具體運算階段、形式運算階段、感知運動階段'], ['C', '感知運動階段、前運算階段、具體運算階段、形式運算階段'], ['D', '感知運動階段、前運算階段、形式運算階段、具體運算階段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個體嘅每一種需要從產生到滿足方式都反映咗個人所處社會環境嘅特點，係需要嘅（）。",
+    "llm_output": "答案：D. 歷史性。\n\n個體的每一種需要從產生到滿足方式都反映咗個人所處社會環境的歷史性特點。需要的历史性是指需要受到历史、文化、社会、經濟、政治等因素的影響，不同時期、不同地域、不同文化背景下的需要有所不同。因此，答案為D。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會性'], ['B', '起伏性'], ['C', '依賴性'], ['D', '歷史性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "精神分析學派嘅代表人物係",
+    "llm_output": "答案：D. 弗洛伊德。\n\n弗洛伊德是精神分析學派的代表人物。詹姆斯是心理學家，但不是精神分析學派的代表人物。艾賓浩斯是記憶心理學的代表人物。马斯洛是需求理論的提出者，但他並不是精神分析學派的代表人物。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '詹姆斯'], ['B', '艾賓浩斯'], ['C', '馬斯洛'], ['D', '弗洛伊德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個體嘅心理過程包括",
+    "llm_output": "答案：D. 知覺過程、情感過程、行為過程。\n\n個體嘅心理過程包括知覺過程、情感過程、行為過程。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '感覺過程、知覺過程、意志過程'], ['B', '認識過程、情感過程、行為過程'], ['C', '認識過程、情感過程、意志過程'], ['D', '知覺過程、情感過程、行為過程']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下列屬於逃避性心理防禦機制嘅係",
+    "llm_output": "答案：C. 壓抑。\n\n逃避性心理防禦機制包括壓抑、投射和幻想等，其中壓抑是指將內心痛苦或不安的情感或想法隱藏或抑制，以避免引起過度負面反應。其他選項如補償、轉移和升華均屬於其他形式的心理防禦機制。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '補償'], ['B', '轉移'], ['C', '壓抑'], ['D', '升華']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "記憶最重要嘅品質係記憶嘅",
+    "llm_output": "答案：C. 持久性。\n\n记忆的最重要品质是记忆的持久性，即记忆保持的时间长短。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '準確性'], ['B', '準備性'], ['C', '持久性'], ['D', '敏捷性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小燕喺兩歲時就學識咗背「牀前明月光，疑是地上霜……」呢首唐詩。按加涅嘅學習結果分類， 呢度發生嘅學習係。",
+    "llm_output": "答 案：C. 智慧技能。\n\n解 析：題目中提到小燕在兩歲時就學會了唐詩，這是一種學習結果，應該屬於智慧技能。智慧技能是指學習者能夠運用概念、規則來解決問題或完成某項任務的能力。在此情況下，小燕應該能夠將這首唐詩背誦出來，並且在需要時能夠運用這些語言信息來解決問題。因此，答案為C。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '態度'], ['B', '語信息'], ['C', '智慧技能'], ['D', '動作技能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "心理狀態係指人喺某一時刻嘅心理活動水平。以下屬於心理狀態嘅係",
+    "llm_output": "答案：B. 心境。\n\n心境是指一個人當前的心情狀態，是一種持續的、微弱而持久的情感，通常會影響人的行為和思考方式。其他選項如勤勞、態度和記憶並不是心理狀態的特徵。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '勤勞'], ['B', '心境'], ['C', '態度'], ['D', '記憶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "某中學生用韋氏智力量表進行智力測驗得分90分，常模均分84分，常模標準差10分。咁呢位 同學嘅智力商數係",
+    "llm_output": "答：D. 100。\n\n在這個問題中，某中學生用韋氏智力量表進行智力測驗得分90分，常模均分84分，所以該學生的得分與常模相比低6分。而常模標準差10分，表示標準差為10分，所以智力商數為100（滿分為100分）。因此，答案為D。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '106'], ['B', '96'], ['C', '109'], ['D', '100']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「一千個人嘅眼裏。有一千個哈姆雷特」，呢表明人嘅心理具有",
+    "llm_output": "正確答案應該是B. 主觀性。\n\n由題可知，人們眼中的世界和情感感受因人而異，反映出人心的個性化和主觀性。其他選項如目嘅性、客觀性和社會性都與這個話語無關。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '目嘅性'], ['B', '主觀性'], ['C', '客觀性'], ['D', '社會性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據言語嘅描述同圖樣嘅示意，喺人腦中產生相應嘅新形象嘅心理過程叫",
+    "llm_output": "答案：B. 表象。\n\n在人脑中根据言语或图样的描述产生相应的新形象的心理过程叫表象。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '再造想象'], ['B', '表象'], ['C', '創造想象'], ['D', '幻想']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "研究者喺進行實驗研究時，必須考慮到三類變量，分別係自變量、因變量同",
+    "llm_output": "答案：A. 控制變量。\n\n在進行實驗研究時，研究者必須考慮到三類變量，分別是自變量、因變量和控制變量。控制變量是指那些可以控制的因素，如實驗室條件、時間、地點等，它們可以影響實驗結果。因此，答案為A，即控制變量。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '控制變量'], ['B', '不可控制變量'], ['C', '環境變量'], ['D', '反應變量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "能解釋倒攝抑制現象嘅遺忘理論係",
+    "llm_output": "答案：A. 幹擾理論。\n\n幹擾理論可以解釋倒攝抑制現象，認為當新學習的資訊與先前學習的資訊存在競爭關係時，新學習的資訊會受到先前學習的資訊的干擾而減弱記憶效果，導致遺忘。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '幹擾理論'], ['B', '線索-依存理論'], ['C', '動機-遺忘理論'], ['D', '衰退理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "信息由感覺記憶進入短時記憶嘅必要條件係",
+    "llm_output": "答案：C. 注意。\n\n注意是信息由感覺記憶進入短時記憶的必要條件。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '儲存'], ['B', '複述'], ['C', '注意'], ['D', '編碼']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下列標準化測驗中唔屬於智力測驗嘅係",
+    "llm_output": "正确答案是B. 明尼蘇達測驗。明尼蘇達測驗是一個關於學術和行動表現的綜合性標準化測驗，而不包括智力測驗的特點。其他三個選項（A、C、D）都是智力測驗。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '斯坦福-比奈量表'], ['B', '明尼蘇達測驗'], ['C', '韋克斯勒量表'], ['D', '瑞文測驗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據知覺嘅對象，可以將知覺分為空間知覺、時間知覺同",
+    "llm_output": "答案：B. 方位知覺。\n\n问题根据对象将知觉分为空间知觉、时间知觉和方位知觉。因此，答案为B，方位知觉。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '深度知覺'], ['B', '方位知覺'], ['C', '形狀知覺'], ['D', '運動知覺']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人們為咗生存、證明自身價值、甚至尋求一種樂趣而努力工作嘅動機，被稱為",
+    "llm_output": "C. 工作動機。\n\n答案C是对题目中描述的动因的准确概括，它指人们为了生存、证明自身价值、寻求乐趣而努力工作的动机。其他选项如生理性动因、交往动机和成就动机虽然在某些情况下可能与题目中的描述相关，但它们并不完全符合题目中的描述，因此答案C是最佳选择。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '生理性動機'], ['B', '交往動機'], ['C', '工作動機'], ['D', '成就動機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺解決問題中，將各種可能達到目標嘅方法都列出嚟，再一一嘗試，然後再確定邊一種為正確答案。呢種問題解決嘅策略同方法稱為",
+    "llm_output": "問題中提到的解決問題的策略和方法是\"手段—目嘅分析法\"。因此，答 案應為 B。算法式(D)通常是指為完成特定任務，制定一套明確步驟和規則，這是人工智能中常用的方法。啟發式(A)和逆向工作法(C)也常被用於解決問題，但不是本題所描述的解決方法。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '啟發式'], ['B', '手段—目嘅分析法'], ['C', '逆向工作法'], ['D', '算法式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "重視對人類異常行為嘅分析，強調心理學應該研究無意識現象嘅心理學家係",
+    "llm_output": "答案：A. 精神分析學派。\n\n精神分析學派注重對人類異常行為的分析，強調心理學應該研究無意識現象。行為主義心理學主要研究行為和環境的影響，而不是無意識現象。機能主義心理學和人本主義心理學也各有自己的研究重點，但與問題中提到的重點不匹配。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '精神分析學派'], ['B', '機能主義心理學'], ['C', '人本主義心理學'], ['D', '行為主義心理學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "心理學係研究人嘅（）嘅科學。",
+    "llm_output": "正確答案應該是A. 心理過程。\n\n心理學係研究人嘅心理過程嘅科學。心理過程包括認知過程（如記憶、推理、判斷等）、情感過程（如情緒的產生和調節）、動機過程（如行為的動機和需求）和人格發展過程等。心理現象（B）和個性心理（C）都包括在心理過程內，但並非科學研究的獨立領域。認識過程（D）是一種認知過程，也是心理學研究範疇之一，但並非特指心理學研究的全部內容。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '心理過程'], ['B', '心理現象'], ['C', '個性心理'], ['D', '認識過程']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "從信息加工嘅觀點睇，記憶嘅基本過程係",
+    "llm_output": "從信息加工的觀點睇，記憶的基本過程是B. 編碼-儲存-提取。\n\n從記憶過程的角度來看，信息在記憶中的編碼、儲存和提取是基礎過程，而不是簡單的輸入-加工-使用，D. 儲存-加工-攝取，這是一個不太合理的答案。而C. 輸入-編碼-提取只是過程的一個階段，而未有明確表述信息的後續加工和使用，因此也是不完整的答案。A. 輸入-加工-使用也只是一個過程的描述，而未有明確指出記憶過程的特點。因此，最符合記憶過程的描述是B. 編碼-儲存-提取。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '輸入-加工-使用'], ['B', '編碼-儲存-提取'], ['C', '輸入-編碼-提取'], ['D', '儲存-加工-攝取']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "安靜沉穩、寡言少語、情緒唔易外露、自制力強，呢類人嘅氣質屬於",
+    "llm_output": "答案：C. 黏液質。\n\n黏液質的人通常性格沉穩、自制力強，不易表露情感，選擇C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '膽汁質'], ['B', '抑鬱質'], ['C', '黏液質'], ['D', '多血質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺傳統嘅智力觀中，關於智力同創造力嘅關係，比較一致嘅睇法係",
+    "llm_output": "答案：B. 高創造力必有高智力。\n傳統智力觀認為高創造力必定需要高智力，因為創造力需要智力來支持。因此，答案B是比較一致的看法。其他選項如A、C、D都無法被傳統智力觀所接受。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '高智力必有高創造力'], ['B', '高創造力必有高智力'], ['C', '高創造力未必有高智力'], ['D', '創造力與智力無關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下列唔屬於反射活動嘅係",
+    "llm_output": "答案：C. 草履虫的趋利避害反应。\n\n解释：\n反射活动是动物或人类对外界刺激所产生的本能反应，属于生物体基本生命活动之一。选项A、D属于动物或人的一种本能反应，即非条件反射；选项B是学生听到铃声进入教室上课的行为，属于条件反射。而草履虫的趋利避害反应则是单细胞生物的一种本能反应，不属于反射活动。因此，答案为C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '黑猩猩解決問題獲取食物嘅行為'], ['B', '學生聽到鈴聲進教室上課'], ['C', '草履蟲嘅趨利避害反應'], ['D', '人嘅手被火燙便即刻移開']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "2017年5月5日，觀看法國「前進」運動總統候選人馬克龍與極右翼國民陣線總統候選人勒龐激烈辯論嘅記憶屬於",
+    "llm_output": "答案：B. 陳述性記憶。\n\n陳述性記憶是指可以提取出來並用語言文字等方式表達的記憶，例如我們能夠記住一個故事或者一個詞語的意思。在這個問題中，記憶的內容是可以被提取出來並用語言文字表述的，因此選項B是正確答案。程序性記憶是指如何做某種事情的記憶，例如如何解題目或者如何操作某種工具等。情景記憶是指當場的記憶，例如當場的情景、氣氛等。而問題中並未涉及當場情景和氣氛，因此不適用情景記憶和程序性記憶。而語義記憶應該與語言文字有關，但是題目中未涉及語言文字的問題，因此不適用。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '程序性記憶'], ['B', '陳述性記憶'], ['C', '語義記憶'], ['D', '情景記憶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "聽手錶嘅滴答聲，時而有時而無，呢種心理現象係",
+    "llm_output": "答案：D. 注意分散。\n\n注意分散是指注意离开了心理活动所要指向的对象，而被其他事物所吸引。聽手錶滴答聲時而有時而無，就是因為注意被分散了，開始聽到滴答聲，但隨即注意力被其他事物吸引，就會出現時而有時而無的現象。注意起伏、注意轉移和注意分配都是注意的特徵，但與此問題的描述不匹配。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '注意起伏'], ['B', '注意轉移'], ['C', '注意分配'], ['D', '注意分散']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "無論係白天定係黑夜，人哋總係將煤知覺為黑色嘅，呢係由於人嘅知覺具有",
+    "llm_output": "正確答案應該是：C. 選擇性。\n\n因為人哋將煤知覺為黑色，是由於人嘅知覺具有選擇性，即我們對物體嘅顏色，通常會選擇其特徵係最重要或者我們最容易注意到嘅特徵去認知，而不是無視物體的色彩去認為它是黑色。而恆常性、理解性和整體性並未影響人對物體顏色的知覺。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '恆常性'], ['B', '理解性'], ['C', '選擇性'], ['D', '整體性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺鮮花盛開、花草蔥蘢嘅陽春三月，人哋常有「花在微笑、草在點頭」嘅愉悅體驗。呢種情緒狀態係",
+    "llm_output": "答案：B. 心境。\n\n在花草盛開的陽春三月，人們常常會感受到“花在微笑、草在點頭”的愉悅情緒狀態，這種情緒狀態被認為是心境。心境是一種持久的、微弱的、平静的情感状态，通常會影響一個人的行為和感受數天或數周。應激、激情和熱情都不是這種情緒狀態的描述。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '應激'], ['B', '心境'], ['C', '激情'], ['D', '熱情']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "一張紅紙，一半有陽光直射，一半冇，顏色嘅明度、飽和度大唔相同，但我哋仍知覺為一張紅紙。呢係由於知覺具有",
+    "llm_output": "答案：B. 整體性。\n\n知觉具有整體性，即人们在知觉客观事物时，总是根据自己已有的知识和经验，把客观事物的个别特征联系起来进行思考，从而形成一个完整的印象。在这个问题中，虽然阳光和阴影使纸张的明度和饱和度有所不同，但人们仍然将其知觉为一张红纸，这是由于知觉的整体性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '選擇性'], ['B', '整體性'], ['C', '恆常性'], ['D', '理解性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "某學生積極參加班級活動，與同學團結友愛，對教師熱愛尊重，體現咗性格上嘅（）特徵。",
+    "llm_output": "正確答案應該是D. 情緒。\n\n情緒特徵是指個體在面對外界刺激時，產生的情緒反應，如興奮、熱情、積極參與等。而理智、態度和意志特徵與個體面對外界刺激時的行為和反應無關。因此，某學生積極參加班級活動，與同學團結友愛，對教師熱愛尊重，體現了他情緒上的特徵。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '理智'], ['B', '態度'], ['C', '意志'], ['D', '情緒']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "王紅守喺天文望遠鏡前足足盯咗兩個鐘，要觀察嘅小行星終於出現喺視野裏。呢反映咗注意嘅",
+    "llm_output": "答案：C. 選擇功能。\n\n王紅守在天文望遠鏡前足足盯了兩個鐘，要觀察的小行星終於出現在視野裏，這反映了他注意的選擇功能，即他選擇了要觀察的小行星並排除其他雜念。其他选项如調節功能、保持功能和監督功能都與這個情境無關。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '調節功能'], ['B', '保持功能'], ['C', '選擇功能'], ['D', '監督功能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "智力嘅三維結構說嘅提出者係",
+    "llm_output": "正确答案：C. 斯皮爾曼。\n\n智力三維結構說是斯皮爾曼提出的，該理论认为智力是由三个不同維度组成的。因此，答案為C。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '塞斯登'], ['B', '加德納'], ['C', '斯皮爾曼'], ['D', '基爾福特']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺處理問題過程中表現出嚟嘅主要取決於人嘅先天稟賦嘅能力稱為",
+    "llm_output": "問題：喺處理問題過程中表現出嚟嘅主要取決於人嘅先天稟賦嘅能力稱為D. 一般能力。一般能力是個人經過學習可以獲得嘅能力，例如記憶、理解、思考、推理、學習等能力。它主要表現為個人解決問題、完成工作、適應環境等時所使用嘅能力。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '液體能力'], ['B', '特殊能力'], ['C', '晶體能力'], ['D', '一般能力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「超越 IQ」一書中提出智力嘅三元理論嘅係",
+    "llm_output": "正确答案：C. 斯腾伯格。\n\n在《超越 IQ》一书中，提出了智力三元理论的是斯腾伯格。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '加德納'], ['B', '皮亞傑'], ['C', '斯騰伯格'], ['D', '戴斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺平常測驗中，選擇題考察嘅係",
+    "llm_output": "答案：D. 識記。\n\n在平常測驗中，選擇題主要考察的是對已學習過的知識的記憶和再現，因此選擇題考察的是識記。保持、回憶和再認都是記憶過程的不同階段，但選擇題更側重於考察記憶的結果。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '保持'], ['B', '回憶'], ['C', '再認'], ['D', '識記']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "多血質嘅氣質類型，其高級神經活動類型屬於",
+    "llm_output": "A. 強而唔平衡\n\n多血質氣質類型嘅高級神經活動屬於強而唔平衡類型，其主觀上具有活力充沛、好奇性、開朗性格等特徵。其他選項B、C、D並不符合多血質氣質的特徵。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '強而唔平衡'], ['B', '弱型'], ['C', '強、平衡、靈活'], ['D', '強、平衡、唔靈活']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "主張情緒係對機體變化嘅知覺嘅情緒理論係",
+    "llm_output": "答案：A. 詹姆斯—蘭格理論。\n\n詹姆斯—蘭格理論主張情緒是對環境刺激的直接反應，認為情緒的產生是由於環境刺激引起的大腦活動，而這些活動直接產生情緒反應。因此，主張情緒是對機體變化嘅知覺嘅情緒理論係詹姆斯—蘭格理論。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '詹姆斯—蘭格理論'], ['B', '坎農—巴德理論'], ['C', '沙赫特—辛格理論'], ['D', '滕斯伯格理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "若想解決一個中等難度嘅問題，所需要嘅動機強度最好係",
+    "llm_output": "答案：B. 中等。\n\n若想解決一個中等難度嘅問題，所需要嘅動機強度應該適中，唔需要太強或太弱。因此，B选项“中等”是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '零'], ['B', '中等'], ['C', '好低'], ['D', '好高']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "認知風格差異性具體表現為：",
+    "llm_output": "問題：認知風格差異性具體表現為：**B. 場依存性與場獨立性**。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '以上都係'], ['B', '場依存性與場獨立性'], ['C', '複合型與發散型'], ['D', '衝動型與沉思型']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "藉助於想象我哋可以「思接千載，視通萬裏」「精駛八極，心遊萬仞」。呢體現咗想象嘅",
+    "llm_output": "正確答案應該選擇D.替代功能。\n\n原文中描述了借助想象可以“思接千載，視通萬裏”“精駛八極，心遊萬仞”，這體現了想象在替代方面的功能，即用想象來替代實際的感知或經驗。其他選項如補充功能、調節功能和預見功能在原文中無法得到反映。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '補充功能'], ['B', '調節功能'], ['C', '預見功能'], ['D', '替代功能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小學中年級（8-10歲）兒童嘅概括水平處於",
+    "llm_output": "答案：D. 直觀形象水平。\n\n这个问题是关于儿童心理学中的概括水平问题，针对的是小学中年級（8-10岁）的儿童。由于这个年龄段的儿童一般仍处于直觀形象水平，所以他们更多的是依赖感知和直觉进行概括。而选项A、B、C都是对不同概括水平的描述，与题目中给出的信息不符。因此，答案为D。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '本質抽象水平'], ['B', '形象抽象水平'], ['C', '初步嘅本質抽象水平'], ['D', '直觀形象水平']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "當你夜晚喺強烈嘅車前燈面前要一段時間嘅適應係感覺（）特徵。",
+    "llm_output": "答案：D. 明適應。\n\n在強烈嘅車前燈面前要一段時間嘅適應係感覺明適應特徵。暗適應係指對暗環境嘅適應能力，疲勞係指身體和心理嘅消耗和衰退，對比係指對明暗區分係度係唔同之處，係心理學唔同嘅一種定義。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '暗適應'], ['B', '疲勞'], ['C', '對比'], ['D', '明適應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "4歲左右兒童嘅大腦皮層各區嘅突觸密度已經達到頂峯，與成人相比約為",
+    "llm_output": "A. 80%。\n\n在四岁左右的儿童的大脑皮层各区的突触密度已经达到顶峰，与成人相比约为80%。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '80%'], ['B', '150%'], ['C', '120%'], ['D', '60%']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "機械學習與有意義學習劃分嘅主要依據係。",
+    "llm_output": "正確答案應該係D. 學生係咪主動學習。\n\n問題主要是檢驗學生是主動學習還是被動學習。機械學習與有意義學習區別於學生的主動性，主動學習比較重視學生的積極性，會自己去尋找和探討問題，而有意義學習則更注重學習的結果，即學生是否理解學習材料，是否解決問題，是否獲得知識。因此，D項是區分機械學習與有意義學習的主要依據。其他三項雖然也是區分機械學習與有意義學習的因素，但不是最主要依據。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '學生係咪理解學習材料'], ['B', '學習目嘅係解決問題定係獲得知識'], ['C', '要學習嘅主要內容係呈現定係由學生發現'], ['D', '學生係咪主動學習']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "學習後即刻訓覺，保持嘅效果往往比學習後繼續活動保持嘅效果更好，呢係由於",
+    "llm_output": "答案：D. 無倒攝抑制嘅影響。\n\n學習後即刻訓覺可以保持效果比學習後繼續活動保持效果更好，原因主要是因為無倒攝抑制嘅影響。倒攝抑制是指從新學習到的記憶受到之前學習過的刺激而受到影響，而即刻訓覺則避免了這種影響。而過度學習、無前攝抑制嘅影響、記憶嘅恢復現象都與此問題無關。因此，選擇D. 無倒攝抑制嘅影響。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '過度學習'], ['B', '無前攝抑制嘅影響'], ['C', '記憶嘅恢復現象'], ['D', '無倒攝抑制嘅影響']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個體喺（）情緒狀態下會出現「意識狹窄」現象。",
+    "llm_output": "正確答案應該是C. 心境。\n\n心境是個體在某段時間內持續的、微弱的、平穩的情感狀態，它會影響人的行為和感受，使人出現「意識狹窄」的現象。應激、激情、熱情都是較為強烈的情緒狀態，不會出現「意識狹窄」的現象。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '應激'], ['B', '激情'], ['C', '心境'], ['D', '熱情']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「憂者見之則憂，喜者見之則喜，」呢句說話主要體現情緒具有",
+    "llm_output": "答案：A. 感染功能。\n\n这句话主要体现了情绪的感染功能，即人们会受到他人情绪的影响，产生相似的情绪反应。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '感染功能'], ['B', '動機功能'], ['C', '組織功能'], ['D', '信號功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "日常生活中食完糖果再食蘋果，會覺得蘋果係酸嘅，呢種現象屬於",
+    "llm_output": "答案：D. 感覺對比。\n\n在日常生活中，食完糖果再食蘋果，會覺得蘋果是酸的，這種現象是因為糖果和蘋果的味覺刺激物質不同，形成味覺對比，使人產生不同的感覺。因此，答案為D，即感覺對比。其他選項如感覺代償、聯覺和感覺適應在這個情況下不適用。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '感覺代償'], ['B', '聯覺'], ['C', '感覺適應'], ['D', '感覺對比']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "（）係個體心理活動或行為嘅基本動力。",
+    "llm_output": "答案：D. 需要。\n\n需要是個體心理活動或行為的基本動力。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '動機'], ['B', '興趣'], ['C', '世界觀'], ['D', '需要']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「出門睇天色，入門睇面色」，呢說明咗情緒與情感具有",
+    "llm_output": "答案：B. 信號功能。\n\n這句話表明情緒和情感具有信號功能，可以反映人的心理狀態。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '調控功能'], ['B', '信號功能'], ['C', '健康功能'], ['D', '動力功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「食唔到提子話提子酸」喺心理防禦機制中屬於",
+    "llm_output": "答案：B. 否認。\n\n在心理防禦機制中，食唔到提子話提子酸屬於否認（B）的表現，即當人們無法達成他們的期望或接受他們的過失時，他們會選擇否認或忽略這些問題。其他選項如文飾（A）、投射（C）和反向（D）在這個情境中不適用。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '文飾'], ['B', '否認'], ['C', '投射'], ['D', '反向']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "學習、研究、理解、概括、分析嘅能力係",
+    "llm_output": "正确答案是C. 認知能力。認知能力是一種涉及學習、研究、理解、概括和分類的能力，包括記憶、推理、思考、解決問題和表達的能力。其他选项如操作能力、創造能力和社交能力雖然也很重要，但不是此問題特別關注的內容。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '操作能力'], ['B', '創造能力'], ['C', '認知能力'], ['D', '社會交往能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺心理學中，將個體心理活動或意識喺一定方向上活動嘅強度或緊張程度稱為",
+    "llm_output": "答案：D. 注意嘅選擇性。\n\n注意的选择性是指心理活动根据当前需要而有的选择性地指向有关对象的特点，而將個體心理活動或意識喺一定方向上活動嘅強度或緊張程度就是這個特點的具體表現。注意的集中性、注意的指向性和注意的分配性雖然都是心理學中的概念，但是並未直接涉及個體心理活動或意識喺一定方向上活動的強度或緊張程度。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '注意嘅集中性'], ['B', '注意嘅指向性'], ['C', '注意嘅分配性'], ['D', '注意嘅選擇性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「視而不見，聽而不聞」嘅現象，典型地反映咗",
+    "llm_output": "答案：C. 注意嘅集中性。\n\n“视而不見，聽而不聞”反映了注意的集中性，即注意指向特定对象时的状态，使人无法关注其他事物。注意的稳定性、分配性和指向性与此现象关系不大。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '注意嘅穩定性'], ['B', '注意嘅分配性'], ['C', '注意嘅集中性'], ['D', '注意嘅指向性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "考試焦慮對學習同考試造成嘅影響係",
+    "llm_output": "問題：考試焦慮對學習同考試造成嘅影響係的\n\n正確答案：A. 負面嘅。\n\n考試焦慮會導致學生過度擔心考試結果，產生壓力，進而影響他們的學習效率和思維敏捷度，進而對他們的學習和考試造成負面影響。因此，選項A \"負面嘅\" 完全符合情況。其他選項B、C、D都無法準確反映考試焦慮對學習和考試的影響。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '負面嘅'], ['B', '雙重嘅'], ['C', '降低學習效率'], ['D', '使思維更加靈活']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "老師對學生嘅品行評價受到學生嘅外貌與衣著影響。呢個說明社會認同整合信息過程中會出現",
+    "llm_output": "答案：D. 首因效應。\n\n题目中提到老師對學生的品行評價受到學生嘅外貌與衣著影響，這是因為首因效应指最初接触到的信息所形成的印象对人们以后的行为活动和评价的影响。在本题中，學生的外貌和衣著就是初次接触到的信息，因此符合首因效应的特点。而光環效應、近因效應和刻板效應都是其他概念，與題目描述不符。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '光環效應'], ['B', '近因效應'], ['C', '刻板效應'], ['D', '首因效應']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下對前運算階段兒童思維描述唔正確嘅選項係。",
+    "llm_output": "答案：B. 思維嘅可逆性。\n\n答案B是描述前運算階段兒童思維中不正確的描述，而其他选项描述的思維特點與前運算階段兒童的思維發展相符。前運算階段兒童的思維主要是以形象為基礎的，他們通常無法理解或接受反過來的思考，也就是思維的可逆性。因此，他們的思維通常不是可逆的。在這階段，他們常常是自我中心的，他們通常以自己的經驗為中心去理解事物，而非站在其他人的角度思考問題。而其他的描述如A. 單維思維和D. 自我中心都是對兒童早期思維的描述，只是在不同的維度上。所以B選項不正確。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '單維思維'], ['B', '思維嘅可逆性'], ['C', '思維嘅不可逆性'], ['D', '自我中心']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "認知神經科學研究發現，大腦某啲部位嘅損傷或病變會導致語言能力嘅喪失，呢支持咗（）。",
+    "llm_output": "答案：C. 語言獲得嘅先天因素說。\n\n認知神經科學研究發現，大腦某啲部位嘅損傷或病變會導致語言能力嘅喪失，支持了語言獲得嘅先天因素說。其他選項如語言獲得嘅社會學習理論、條件反射學說、強化學說均無法解釋這種情況。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '語言獲得嘅社會學習理論'], ['B', '語言獲得嘅條件反射學說'], ['C', '語言獲得嘅先天因素說'], ['D', '語言獲得嘅強化學說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "提出咗10種工作有關價值觀嘅心理學家係",
+    "llm_output": "正确答案是 B. 霍兰德。霍兰德提出了10种工作相关的价值观，即职业价值观。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '韋納'], ['B', '霍蘭德'], ['C', '羅傑斯'], ['D', '凱茨']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "認為情緒嘅中心唔喺外周神經系統，而喺中樞神經系統嘅丘腦。呢個觀點係（）提出嘅。",
+    "llm_output": "答案：D. 坎農—巴德。\n\n这个观点认为情绪的中心不在外周神经系统，而在中枢神经系统中的丘脑，是由坎農和巴德提出的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '拉扎勒斯'], ['B', '詹姆斯'], ['C', '阿諾德'], ['D', '坎農—巴德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "情緒產生嘅基本過程係刺激情景—評估—情緒。呢個觀點係（）提出嘅。",
+    "llm_output": "直接答：A. 阿諾德。\n\n答案為美國心理學家阿諾德，他提出了情緒的基本過程認為：情緒刺激（S）-評估（A）-情緒反應（O）。因此，這種觀點認為情緒的產生主要是因為個人的評估過程，而這個過程也是相對來看與情緒的關係更大。所以答案應該是A.阿諾德。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '阿諾德'], ['B', '詹姆斯'], ['C', '坎農'], ['D', '拉扎勒斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "知覺嘅特性唔包括",
+    "llm_output": "答案：D. 間接性。\n\n知覺的特性包括整體性、選擇性、恒常性和直接性。其中，直接性是指知覺直接反映事物的現象，不需要過程或轉化。而間接性是記憶和認知的特性，而非知覺的特性。因此，間接性不包括在知覺的特性之中。其他三個特性，整體性、選擇性和恒常性，都是知覺的特點。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '整體性'], ['B', '選擇性'], ['C', '恆常性'], ['D', '間接性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人類個體進行社會交往有住深刻嘅心理動因，從產生行為動機嘅心理需要嚟睇，可以分為三個方面，即",
+    "llm_output": "問題的答案：A. 本能、合群同自我保護的需要。\n\n人類個體進行社交的動機從心理需要產生行為來看，主要分為本能、合群同自我保護的需要。因此，A是正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '本能、合羣同自我保護嘅需要'], ['B', '本能、合作需要同自我實現嘅需要'], ['C', '本能、合作需要同自我調控嘅需要'], ['D', '本能、合羣需要同自我肯定嘅需要']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「心唔畀使嘅話，咁白黑喺前面眼都唔見，雷鼓喺隔離耳都唔聽。」呢句講明咗人嘅心理過程離唔開",
+    "llm_output": "正確答案應該是「D. 注意」。\n\n句子中的“唔使眼見”和“唔使耳聽”描述了注意的指向性，即心理過程離唔開注意，人需要有關鍵信息吸引和集中自己的注意力才能感知和記憶。思維過程和感知過程都需要注意的參與，但句子中並未直接提及，因此答案應該是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '記憶'], ['B', '感知'], ['C', '思維'], ['D', '注意']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "按照精神分析學家弗洛伊德嘅觀點，好多心理障礙同心理異常問題都與個體嘅（）有關。",
+    "llm_output": "問題：按照精神分析學家弗洛伊德嘅觀點，好多心理障礙同心理異常問題都與個體嘅（）。\n\n正確答案：C. 早期經驗。\n\n弗洛伊德認為，很多心理障礙和心理异常问题都与个体的早期经验有关。这些早期经验包括出生后的生活环境、父母的养育方式、情感反应等。这些早期经验会对个体的心理发展产生深远的影响，并在个体成年后影响其行为和情绪。因此，弗洛伊德强调了个体的早期经验在心理障碍和异常问题中的重要性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '遺傳因素'], ['B', '教育環境'], ['C', '早期經驗'], ['D', '人格特徵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺情緒活動中，人哋需要不斷地評價刺激事件與自身嘅關係。呢個觀點係（）提出嘅。",
+    "llm_output": "正确答案是C. 拉扎勒斯。\n拉扎勒斯是人本主义學派代表人物之一，其認為情緒是個人對事件反應，因此人哋需要不斷地評價刺激事件與自身嘅關係，認為個人如何解讀刺激事件，係決定情緒活動嘅主要因素。所以答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '詹姆斯'], ['B', '巴德'], ['C', '拉扎勒斯'], ['D', '阿諾德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "軍事上嘅偽裝係運用咗知覺嘅（）",
+    "llm_output": "答案：D. 選擇性。\n\n軍事上嘅偽裝係運用咗知覺嘅選擇性。伪装通过选择性地过滤或扭曲信息来影响人的知觉。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '整體性'], ['B', '恆常性'], ['C', '理解性'], ['D', '選擇性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個性心理特徵系統主要包括：能力、性格同",
+    "llm_output": "答案：B. 氣質。\n\n個性心理特徵系統主要包括氣質、性格、需要、興趣、動機等，其中氣質是個性心理特徵的核心部分。氣質是個人性格和行為方式上的一種固有特點，反映了個人與他人相處的方式和情緒的表現。因此，答案為B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '需要'], ['B', '氣質'], ['C', '興趣'], ['D', '動機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "1909年2月，喺比爾斯等人嘅積極努力下，「美國全國心理衛生委員會」喺邊個城市成立",
+    "llm_output": "答案是A. 紐約。\n根据问题描述，答案直接来自于文中提到的情况。具体来说，题干中明确提到了“1909年2月，比尔斯等人積極努力下，美国全國心理衛生委員會在某个城市成立”，由于是单项选择题，文中也直接给出了正确答案的选项。因此，选项A是正确的答案。其他选项中没有提及到或与文中所述不符。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '紐約'], ['B', '舊金山'], ['C', '費城'], ['D', '華盛頓']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "幼兒喺屋企同學校裏見到咗大量嘅枱，掌握咗「枱」嘅概念。幼兒對「枱」呢個概念嘅學習方式係",
+    "llm_output": "答案：D. 概念同化。\n\n幼兒喺屋企同學校裏見到咗大量嘅枱，掌握咗「枱」嘅概念，這個學習過程應該可以用到概念同化的方法，也就是通過關鍵詞語、範例、比喻等將新的概念與已有知識進行聯繫，幫助學生快速理解和記憶新的概念。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '概念整合'], ['B', '概念形成'], ['C', '概念轉變'], ['D', '概念同化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "感知過嘅事物喺人腦中留下嘅形象，稱為",
+    "llm_output": "答案：B. 表象。\n\n表象是指感知过的事物在人脑中留下的形象。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '後象'], ['B', '表象'], ['C', '幻想'], ['D', '想象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "ERNIE-turbo",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "短時記憶嘅容量有限，大體上係（）個組塊",
+    "llm_output": "答案：D. 10±2。\n\n短時記憶的容量有限，大體上為10±2個組塊。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '7±2'], ['B', '3±2'], ['C', '20±2'], ['D', '10±2']]",
+    "is_correct": 0
+  }
+]

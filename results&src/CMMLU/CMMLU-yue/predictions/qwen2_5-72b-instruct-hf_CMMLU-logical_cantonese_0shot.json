@@ -1,0 +1,1232 @@
+[
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "唔相干結論謬誤嘅情形唔包括",
+    "llm_output": "C. 法庭悖論\n\n唔相干結論謬誤通常涉及將注意力從原本論點轉移到其他無關緊要或不相關的議題上，而「法庭悖論」並不是一種唔相干結論謬誤，它屬於另一種邏輯謬誤。其他選項如轉移論題、偷換論題和稻草人謬誤都是唔相干結論謬誤的例子。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '轉移論題'], ['B', '偷換論題'], ['C', '法庭悖論'], ['D', '稻草人謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "被馬克思稱之為古代最偉大嘅思想家係",
+    "llm_output": "D. 亞裏士多德",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '馬丁·路德'], ['B', '柏拉圖'], ['C', '奧古斯丁'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "同時肯定「所有嘅人都會犯錯誤」與「有嘅人唔會犯錯誤」呢兩個命題會違反",
+    "llm_output": "C. 矛盾律\n\n同時肯定「所有嘅人都會犯錯誤」與「有嘅人唔會犯錯誤」這兩個命題會違反矛盾律。因為這兩個命題在邏輯上是互相排斥的，不能同時為真。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '同一律'], ['B', '排中律'], ['C', '矛盾律'], ['D', '充足理由律']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "英國嘅一項實驗發現，將母狗同佢哋嘅幼細子女分開後，將呢啲子女混入一羣同類嘅成年狗同幼狗中去，然後再將母狗放入狗羣。母狗好快就同自己嘅子女會合埋一齊。研究表明，狗身上嘅體味係佢哋互相辨認嘅依據。而幼狗無法區分自己母親同其他母狗身上嘅味道。因此每個母狗都能分辨出自己子女嘅體味。上述論證採用咗下列邊種論述方法?",
+    "llm_output": "A. 說明某一特殊情況，以論證一個規律",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '說明某一特殊情況，以論證一個規律'], ['B', '喺對某種現象嘅兩種可供揀嘅解釋中，通過排除其中嘅一種，嚟確定另一種'], ['C', '通過對發生現象嘅客觀描述，支持關於某個可能發生現象嘅假說'], ['D', '運用類比嘅方法，根據兩組對象有某啲類似嘅特徵，得出佢哋具有另一個相同特徵']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一階邏輯即係指",
+    "llm_output": "B. 謂詞邏輯",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '圖式邏輯'], ['B', '謂詞邏輯'], ['C', '數值邏輯'], ['D', '概率邏輯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "甲話乙肥，乙話丙肥，丙同丁都話自己唔肥。如果四人陳述淨係一人錯，噉邊個一定肥?",
+    "llm_output": "D. 僅乙\n\n解析：\n- 甲說乙胖。\n- 乙說丙胖。\n- 丙和丁都说自己不胖。\n\n如果四人中只有一人说错，那么可以分析如下：\n1. 如果甲说错（即乙不胖），那么乙说的丙胖也可能是错的，这样就有两人说错了，不符合题意。\n2. 如果乙说错（即丙不胖），那么甲说的乙胖可能是对的，丙和丁说自己不胖也是对的，这样只有乙一个人说错了，符合题意。\n3. 如果丙说错（即丙胖），那么乙说的丙胖就是对的，但这样甲说的乙胖也必须是对的，否则会有两人说错，这与题目条件不符。\n4. 如果丁说错（即丁胖），那么没有直接影响到其他人的陈述，因为没有人提到丁的胖瘦情况，所以这不会改变其他人的正确性或错误性。\n\n综上所述，只有当乙说错时，才符合题目条件，即“四人陈诉净系一人错”。因此，乙一定是胖的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '僅丙'], ['B', '僅甲'], ['C', '僅乙同丙'], ['D', '僅乙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於周延詞項嘅係",
+    "llm_output": "B. SAP主項\n\n在傳統邏輯中，SAP（全稱肯定命題）的主項是周延的，因為它涉及到整個類別。其他選項中的詞項均不周延。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'SAP謂項'], ['B', 'SAP主項'], ['C', 'SIP主項'], ['D', 'SOP主項']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "允許我哋從所有情形推導出特殊情形嘅係",
+    "llm_output": "C. 全稱例示規則",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '存在例示規則'], ['B', '真值表'], ['C', '全稱例示規則'], ['D', '全稱命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "析取命題又稱為",
+    "llm_output": "A. 選言命題",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '選言命題'], ['B', '全稱命題'], ['C', '否定命題'], ['D', '肯定命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺下列語句中，喺集合意義下使用語詞「人」嘅係",
+    "llm_output": "B. 人係世間萬物中第一個可寶貴嘅\n\n在這個選項中，「人」被用來指代整個人類群體，具有集合意義。其他選項中的「人」則更多地是指個體或一般意義上的人。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人係有思維能力嘅'], ['B', '人係世間萬物中第一個可寶貴嘅'], ['C', '人貴有自知之明'], ['D', '人非聖賢，孰能無過']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "有時唔清楚一個語篇到底係論證定係解釋，我哋稱之為",
+    "llm_output": "B. 兩可情形",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '解釋論證'], ['B', '兩可情形'], ['C', '識別論證'], ['D', '論證解釋']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺具體進行例示時，必須注意唔好混合使用或者用完證明中有用嘅",
+    "llm_output": "C. 量詞\n\n在進行具體例示時，確實需要特別注意不要混合使用量詞，因為不同的量詞（如全稱量詞和存在量詞）有不同的範圍和意義，混用可能會導致邏輯錯誤或混淆。其他選項如數字、字母和聯詞雖然在邏輯證明中也很重要，但它們的使用通常不會像量詞那樣直接影響到論證的有效性。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '數字'], ['B', '字母'], ['C', '量詞'], ['D', '聯詞']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "標誌詞「如果」後面嘅命題被稱為",
+    "llm_output": "D. 前件",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '結論'], ['B', '前提'], ['C', '條件'], ['D', '前件']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺三段論中，如果前提中有一個係否定命題，噉結論必定係",
+    "llm_output": "D. 否定命題",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '真命題'], ['B', '假命題'], ['C', '肯定命題'], ['D', '否定命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺文恩圖中，用嚟標記特稱命題嘅係",
+    "llm_output": "A. 陰影",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '陰影'], ['B', '星號'], ['C', '數字'], ['D', '圓圈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "有啲教授留長頭髮，因此，有啲留長頭髮嘅人係科學家。為使上述推理成立，需要補充以下邊項作為前提?",
+    "llm_output": "D. 有啲教授係科學家\n\n解析：原論述是「有啲教授留長頭髮」，結論是「有啲留長頭髮嘅人係科學家」。要使這個推理成立，需要一個前提將「教授」和「科學家」聯繫起來。選項 D 「有啲教授係科學家」正好提供了這樣的聯繫，使得從「有啲教授留長頭髮」可以推導出「有啲留長頭髮嘅人係科學家」。其他選項都不能直接支持這一推理。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '所有科學家都係教授'], ['B', '所有教授都係科學家'], ['C', '有啲科學家唔係教授'], ['D', '有啲教授係科學家']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺世界範圍內禁止生產各種破壞臭氧層嘅化學物質可能僅僅係一種幻想，大量噉嘅化學物質已經生產出嚟，並且以成千上萬臺雪櫃嘅冷卻劑嘅形式而存在。當呢啲化學物質到達大氣層中嘅臭氧層時，其作用唔可能停止。因此，冇任何方式可以阻止呢類化學物質進一步破壞臭氧層。以下邊項如果為真，則能最嚴重地削弱以上論證?",
+    "llm_output": "A. 當雪櫃嘅使用壽命結束時，雪櫃入面嘅冷卻劑可完全回收並且重新利用\n\n這個選項如果為真，則表明即使已經有大量破壞臭氧層的化學物質存在於雪櫃中，但通過完全回收和重新利用這些冷卻劑，可以有效防止它們釋放到大氣中，從而削弱了原論點中“冇任何方式可以阻止呢類化學物質進一步破壞臭氧層”的觀點。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '當雪櫃嘅使用壽命結束時，雪櫃入面嘅冷卻劑可完全回收並且重新利用'], ['B', '唔會破壞臭氧層嘅替代品仲未開發出嚟，並且替代品可能比雪櫃目前使用嘅冷卻劑貴'], ['C', '即使人哋放棄使用冷藏設備，已經存在嘅雪櫃入面嘅冷卻劑都係對大氣臭氧層嘅一個威脅'], ['D', '唔可能精確地測量雪櫃入面冷卻劑呢種破壞臭氧層嘅化學物質嘅量係幾多']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "金嶽霖嘅著作唔包括",
+    "llm_output": "A. 「中國哲學史」",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「中國哲學史」'], ['B', '「知識論」'], ['C', '「邏輯」'], ['D', '「論道」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "古代邏輯嘅發源地包括",
+    "llm_output": "B. 以上都對",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '古印度'], ['B', '以上都對'], ['C', '中國'], ['D', '古希臘']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「問:鐵點解能壓延?答:因為鐵有壓延嘅特性。」屬於",
+    "llm_output": "A. 直接循環論證",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '直接循環論證'], ['B', '相干謬誤'], ['C', '支持謬誤'], ['D', '間接循環論證']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "所有嘅語句都包含",
+    "llm_output": "D. 語義要素同邏輯要素",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯要素'], ['B', '語法要素'], ['C', '詞彙要素'], ['D', '語義要素同邏輯要素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個優秀嘅領導人係唔會脫離羣眾嘅。所以，如果一個領導人脫離羣眾，佢就唔係一個能夠得到大多數羣眾擁護嘅人。以下邊項與上面嘅議論方式最相似?",
+    "llm_output": "B. 呢道題喺5分鐘內答唔完。要係邊個喺5分鐘內答完，佢就唔係一個死記硬背嘅學員。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '好多領導人係脫離羣眾嘅人'], ['B', '呢道題喺5分鐘內答唔完。要係邊個喺5分鐘內答完，佢就唔係一個死記硬背嘅學員。'], ['C', '所有仔都鍾意同佢人進行遊戲活動。如果幼兒園多安排啲仔之間嘅遊戲活動，噉一定會受到家長嘅好評'], ['D', '所有電腦都需要安裝相應嘅軟件先能運行某種程序。因此，如果電腦冇安裝相應嘅軟件，則呢個程序就唔會運行']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「所有S係P」與「所有S唔係P」之間具有",
+    "llm_output": "D. 矛盾關係",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '反對關係'], ['B', '下反對關係'], ['C', '差等關係'], ['D', '矛盾關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果論證嘅所有前提同時為真係唔可能嘅，噉呢個論證嘅前提就係",
+    "llm_output": "D. 唔一致嘅",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '不可接受嘅'], ['B', '一致嘅'], ['C', '可接受嘅'], ['D', '唔一致嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以「所有A都唔係B，所有C係B。」為前提進行三段論推理，其結論為",
+    "llm_output": "A. 所有A唔係C",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '所有A唔係C'], ['B', '有啲A係C'], ['C', '有啲C係A'], ['D', '有啲B係A']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於唔相干結論謬誤嘅係",
+    "llm_output": "D. 法庭悖論\n\n法庭悖論（也稱為訴諸法庭謬誤）並不是一種典型的不相干結論謬誤。不相干結論謬誤主要包括偷換論題、稻草人謬誤和轉移話題等，這些都是通過引入無關的議題來偏離原本的論點。而法庭悖論則是指在論證中過度依賴法律程序或法庭判決來支持自己的觀點，而不是基於事實或邏輯本身。因此，D 選項是正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '偷換論題'], ['B', '稻草人謬誤'], ['C', '轉移話題'], ['D', '法庭悖論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個從已確定斷言產生出新斷言嘅過程叫做。",
+    "llm_output": "C. 推論",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結論'], ['B', '辯論'], ['C', '推論'], ['D', '論斷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "亞裏士多德提出嘅論證評價三標準唔包含",
+    "llm_output": "A. 分析標準\n\n亞里斯多德提出的論證評價三標準主要包括：修辭標準、論辯標準和邏輯標準。分析標準並不是他提出的三標準之一。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '分析標準'], ['B', '修辭標準'], ['C', '論辯標準'], ['D', '邏輯標準']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「出席會議嘅人有大學畢業嘅」與「出席會議嘅人有唔係大學畢業嘅」",
+    "llm_output": "A. 可同真，唔可同假",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可同真，唔可同假'], ['B', '唔可同真，可同假'], ['C', '唔可同真，唔可同假'], ['D', '可同真，可同假']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於必然真命題嘅係",
+    "llm_output": "B. 中國人係中國人",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '女人係人'], ['B', '中國人係中國人'], ['C', '仔係人'], ['D', '中國人唔係中國人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "論證嘅功能包括說服同",
+    "llm_output": "A. 證成同推論",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '證成同推論'], ['B', '反駁同歸謬'], ['C', '推論同歸謬'], ['D', '證成同反駁']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "邏輯主義嘅代表人物係",
+    "llm_output": "D. 羅素",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '哥德爾'], ['B', '布勞威爾'], ['C', '希爾伯特'], ['D', '羅素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "通過改變命題嘅質或者量從而推導出新命題嘅論證嘅係",
+    "llm_output": "D. 直言命題運算論證\n\n這種論證方式涉及通過改變命題的質（肯定或否定）或量（全稱或特稱）來推導出新的命題。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '質量論證'], ['B', '對當關係論證'], ['C', '三段論論證'], ['D', '直言命題運算論證']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「如果原始人嘅石斧就係資本，噉原始人就係資本家咯。」中，",
+    "llm_output": "D. 論題係「原始人係資本家」",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '論據係「原始人嘅石斧係資本」'], ['B', '論據係「原始人係資本家」'], ['C', '論題係「原始人嘅石斧唔係資本」'], ['D', '論題係「原始人係資本家」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "包括一個或者一個以上較短命題作為其自身嘅一部分嘅命題稱為",
+    "llm_output": "C. 複合命題",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '否定命題'], ['B', '分析命題'], ['C', '複合命題'], ['D', '全稱命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "語言學嘅維度唔包括",
+    "llm_output": "A. 語氣\n\n在語言學中，語法、語義和語用是三個基本的維度。語法關注句子結構和規則；語義研究詞語和句子的意思；語用則探討語言在具體情境中的使用及其效果。而「語氣」雖然在某些語境下可以討論，但它並不是語言學的一個主要維度。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '語氣'], ['B', '語法'], ['C', '語義'], ['D', '語用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "並行結構又稱為()，係指由兩個或者兩個以上前提分別獨立支持統一結論嘅結構。",
+    "llm_output": "D. 收斂結構",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '同一結構'], ['B', '簡單結構'], ['C', '序列結構'], ['D', '收斂結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "邏輯系統嘅四大定理唔包括",
+    "llm_output": "D. 唔完全性定理\n\n邏輯系統的四大定理通常指的是可靠性定理、完整性定理（而非唔完全性定理）、一致性定理和可判定性定理。所以「唔完全性定理」不是邏輯系統四大定理之一。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '可靠性定理'], ['B', '有效性定理'], ['C', '一致性定理'], ['D', '唔完全性定理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺具體進行例示時，必須注意唔好混合使用或者用完證明中有用嘅",
+    "llm_output": "C. 量詞\n\n在邏輯學中，具體進行例示時，特別需要注意不要混合使用或重複使用量詞，因為這可能會導致邏輯錯誤或混淆。其他選項如數字、字母和聯詞雖然也需要恰當使用，但相對於量詞而言，它們在例示中的誤用通常不會造成同樣嚴重的邏輯問題。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '數字'], ['B', '字母'], ['C', '量詞'], ['D', '聯詞']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺上次考試中，老師出咗一道非常古怪嘅難題，有86%嘅考生唔合格。呢次考試之前，王見明預測話：「根據上次考試情況，呢次考試唔一定會出噉嘅難題咯。」胡思明話：「呢就係話呢次考試肯定唔出噉嘅難題咯。太好咯!」王見明話：「我唔係嗰個意思。」下面邊句話與王見明講嘅意思相似?",
+    "llm_output": "C. 呢次考試老師可能唔出噉嘅難題咯",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '呢次考試老師必定唔出噉嘅難題咯'], ['B', '呢次考試老師唔可能出噉嘅難題咯'], ['C', '呢次考試老師可能唔出噉嘅難題咯'], ['D', '呢次考試老師唔可能唔出噉嘅難題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「一個老虎嘅食量比一個人嘅大，噉所有老虎嘅食量都比所有人嘅食量大。」犯嘅邏輯謬誤係",
+    "llm_output": "D. 合成謬誤",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '歸納唔強謬誤'], ['B', '演繹無效謬誤'], ['C', '分解謬誤'], ['D', '合成謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "又可稱為串行結構或者線性結構嘅係",
+    "llm_output": "C. 序列結構",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '並行結構'], ['B', '中間結構'], ['C', '序列結構'], ['D', '發散結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「有啲壁畫係三幅一聯畫」入面嘅「有啲」係",
+    "llm_output": "C. 量詞",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '謂項'], ['B', '聯項'], ['C', '量詞'], ['D', '主項']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「張平買咗雙平嘅旅遊鞋，唔到半個月就壞咗；唔耐佢嘅朋友買咗件平嘅皮夾克，結果發現係仿羊皮嘅。張平由此得出結論「平無好貨」。呢推理",
+    "llm_output": "B. 犯咗輕率概括嘅錯誤",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '正確地使用咗求同法'], ['B', '犯咗輕率概括嘅錯誤'], ['C', '正確地使用咗共變法'], ['D', '係一個正確嘅三段論推理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "張競話：只有正式代表先可以發言。劉強話：唔對吧!李貴都係正式代表但佢唔發言。劉強嘅回答係將張競嘅話錯誤地理解為以下邊項?",
+    "llm_output": "D. 所有正式代表都發言咗",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '李貴要發言'], ['B', '所有發言嘅人都係正式代表'], ['C', '冇正式代表發言'], ['D', '所有正式代表都發言咗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個論證係好嘅，必須滿足",
+    "llm_output": "C. 以上都對\n\n一個論證被認為是好的，需要滿足多個條件：前提與結論之間需要有相干性（A），所有前提應該是真的（B），並且這些前提合起來需要能夠為結論提供足夠的支持（D）。因此，最全面的答案是 C. 以上都對。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '前提與結論必須係相干嘅'], ['B', '所有前提都必須係真嘅'], ['C', '以上都對'], ['D', '所有前提加埋必須畀結論提供足夠支持']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "只有一個前提同一個結論嘅結構係",
+    "llm_output": "B. 簡單結構",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '收斂結構'], ['B', '簡單結構'], ['C', '序列結構'], ['D', '發散結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺邏輯方陣中，兩個命題係蘊涵關係，當且僅當，佢哋同時滿足嘅條件係",
+    "llm_output": "A. 以上都對\n\n不過，根據邏輯方陣（Square of Opposition）的傳統理解，兩個命題之間存在蘊涵關係通常意味著它們在某些特定條件下成立。在這些條件中，最直接相關的是：\n\n- C. 佢哋具有相同主項同相同謂項\n- D. 佢哋有唔同嘅量同相同嘅質\n\n而 B 選項提到「從存在觀點嚟考慮」，這並不是蘊涵關係的直接定義條件，而是可能在某些情況下影響命題之間的關係。\n\n因此，如果必須選擇一個最符合邏輯方陣中蘊涵關係定義的答案，應該是 C 和 D 的組合，但由於選擇題的格式限制，A 作為包含所有條件的選項被視為正確答案。然而，如果需要更精確的答案，則應選擇 C 和 D。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上都對'], ['B', '佢哋係從存在觀點嚟考慮嘅'], ['C', '佢哋具有相同主項同相同謂項'], ['D', '佢哋有唔同嘅量同相同嘅質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "構造真值表，基於嘅邏輯算子規則唔包括",
+    "llm_output": "A. 命題\n\n構造真值表時，我們會使用邏輯算子如合取（AND）、否定（NOT）、等值（IFF）等來確定複合命題的真值，但「命題」本身並不是一個邏輯算子，而是構成這些邏輯運算的基本元素。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '命題'], ['B', '合取'], ['C', '否定'], ['D', '等值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "從「小王去北京可能搭飛機，亦可能搭火車或者汽車」同「佢唔搭汽車」可知",
+    "llm_output": "B. 佢搭飛機或者火車",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '佢搭飛機'], ['B', '佢搭飛機或者火車'], ['C', '佢搭火車'], ['D', '佢唔搭飛機或者火車']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "下列語句作為劃分，正確嘅係",
+    "llm_output": "B. 一年可以分為春、夏、秋、冬四季",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '呢個班嘅學生，除咗七名女學生外，其餘都係男仔'], ['B', '一年可以分為春、夏、秋、冬四季'], ['C', '戰爭分為常規戰爭同世界大戰'], ['D', '概念分為普遍概念、單獨概念同正概念']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「鬼係唔存在嘅，因為冇人證明過鬼存在。」陷入咗咩樣嘅論證謬誤？",
+    "llm_output": "C. 訴諸無知",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '訴諸權威'], ['B', '以上均唔係'], ['C', '訴諸無知'], ['D', '訴諸公眾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「知識分子係國家嘅寶貴財富」同「大學教師係知識分子」呢兩個判斷中，「知識分子」呢個概念",
+    "llm_output": "A. 前者係集合概念，後者係非集合概念",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '前者係集合概念，後者係非集合概念'], ['B', '都係集合概念'], ['C', '都係非集合概念'], ['D', '前者係非集合概念，後者係集合概念']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "根據傳統邏輯學標準，論證評價嘅邏輯標準嘅類型包括演繹邏輯標準同",
+    "llm_output": "C. 歸納邏輯標準",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '辯證邏輯標準'], ['B', '解釋邏輯標準'], ['C', '歸納邏輯標準'], ['D', '以上都唔對']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「所有嘅廣東人係中國人」中「所有」係",
+    "llm_output": "D. 量詞",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '主項'], ['B', '聯項'], ['C', '謂項'], ['D', '量詞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "防疫站嘅統計數據顯示畀狗注射疫苗可以減少狂犬病發生嘅危險性，但係醫療保險業對此進行嘅統計研究則得出咗相反嘅結論。即被注射咗狂犬疫苗嘅狗咬傷嘅人比嗰啲冇被注射狂犬疫苗嘅狗咬傷嘅人更有可能得狂犬病。下列邊項正確，最能解釋題幹嘅明顯矛盾?",
+    "llm_output": "B. 人哋往往係喺自己嘅寵物狗已經表現出明顯嘅狂犬病特徵後先去畀自己嘅狗注射狂犬疫苗，同埋佢哋都係居住喺狂犬病發病率最高嘅地方\n\n這個選項能夠合理地解釋為什麼被注射過狂犬疫苗的狗咬傷的人反而更有可能得狂犬病。因為這些狗在注射疫苗前可能已經感染了狂犬病毒，而居住在狂犬病高發地區也增加了感染的風險。這就解釋了醫療保險業的統計結果與防疫站的數據之間的矛盾。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '被狗咬咗嘅人會即刻到防疫站尋求幫助，但係卻唔一定及時同自己嘅保險公司聯絡'], ['B', '人哋往往係喺自己嘅寵物狗已經表現出明顯嘅狂犬病特徵後先去畀自己嘅狗注射狂犬疫苗，同埋佢哋都係居住喺狂犬病發病率最高嘅地方'], ['C', '大多數咬人嘅狗都冇注射狂犬疫苗'], ['D', '被狗咬過嘅每個人都必須接受狂犬疫苗嘅注射']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "非單調邏輯嘅提出者係",
+    "llm_output": "A. 紐特",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '紐特'], ['B', '約翰遜'], ['C', '布萊爾'], ['D', '圖爾敏']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "真值表可以用嚟判定",
+    "llm_output": "D. 以上都對",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '等值'], ['B', '蘊涵與有效性'], ['C', '重言式與矛盾式'], ['D', '以上都對']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「有效性對於真實嘅論證評價嚟講既唔係充分嘅亦唔係必要嘅。」出自",
+    "llm_output": "A. 圖爾敏",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '圖爾敏'], ['B', '布萊爾'], ['C', '以上均唔係'], ['D', '約翰遜']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "直言命題SEP通過換質法得到嘅命題係",
+    "llm_output": "A. SOP\n\n換質法（Obversion）係指將命題嘅質改變，即肯定變否定，否定變肯定，同時將謂詞改為其否定形式。SEP表示“所有S都不是P”，通過換質法後變為“所有S都是非P”，即SOP。但這裡需要注意的是，標準的換質法應用在E型命題（如SEP）上會得到一個新的E型命題，即“所有S都不是非P”，這在形式上等同於“所有S都是P”的否定形式，但按照傳統邏輯學的定義，SEP通過換質法確實轉換為SOP。然而，更精確地說，SEP通過換質法應該得到的是“所有S都是非P”，這在選項中並未直接列出，因此最接近的答案是A. SOP。但在嚴格的邏輯學術語中，SEP通過換質法得到的應是“所有S都是非P”。如果按照傳統邏輯學的教科書定義，正確答案應該是“所有S都是非P”，但由於選項中沒有這個選項，所以選擇A. SOP作為最接近的答案。不过，根据标准逻辑换质法，正确答案应为“所有S都是非P”，这在选项中没有直接对应，因此这里的解释可能存在一定的误导。正确的理解应该是，SEP通过换质法得到的是“所有S都是非P”，但这不在给定的选项中。\n\n为了更准确地回答这个问题，正确的答案应该是：\n**C. SAP** \n\n这是因为SEP（所有S都不是P）通过换质法转换后应该得到“所有S都是非P”，这在逻辑上等同于SAP（所有S都是非P）。但是由于选项中没有直接表述为“所有S都是非P”的选项，因此选择C. SAP作为最接近的答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'SOP'], ['B', 'SEP'], ['C', 'SAP'], ['D', 'SIP']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺亞裏士多德嘅邏輯中，被認為係肯定或者否定主項具有謂項性質嘅語句嘅係",
+    "llm_output": "C. 命題",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '推論'], ['B', '論證'], ['C', '命題'], ['D', '修辭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個論證係可靠嘅，必須滿足兩個條件，一係所有前提都係真嘅，二係",
+    "llm_output": "A. 論證形式係有效嘅",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '論證形式係有效嘅'], ['B', '以上都唔對'], ['C', '部分結論係真嘅'], ['D', '所有結論都係真嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔能用嚟檢驗複合命題論證嘅有效性嘅係",
+    "llm_output": "C. 文恩圖\n\n文恩圖主要用嚟表示集合之間嘅關係，唔適合用嚟檢驗複合命題論證嘅有效性。其他選項如真值表、基本論證形式、形式演繹都係常用嘅方法來檢驗複合命題論證嘅有效性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '真值表'], ['B', '基本論證形式'], ['C', '文恩圖'], ['D', '形式演繹']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺論證過程中，通過將某種極端嘅觀點強加畀對方嚟醜化對方係違反咗()呢一語言明確性原則。",
+    "llm_output": "C. 稻草人",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '斷章取義'], ['B', '平均數'], ['C', '稻草人'], ['D', '非黑即白']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "三段論嘅五條規則可以被分為幾類?",
+    "llm_output": "A. 3",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '3'], ['B', '2'], ['C', '5'], ['D', '4']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「生產關係係人哋喺生產中結成嘅人同人之間嘅關係」，呢個定義嘅種差係",
+    "llm_output": "B. 喺生產中結成嘅關係",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人同人之間嘅關係'], ['B', '喺生產中結成嘅關係'], ['C', '人哋喺生產中結成嘅人同人之間嘅'], ['D', '人哋喺生產中結成嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「一方對立場嘅抨擊必須與另一方確係已提出嘅立場有關」。呢係批判性討論規則中嘅",
+    "llm_output": "C. 立場規則",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '舉證規則'], ['B', '自由規則'], ['C', '立場規則'], ['D', '責任規則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "直言命題嘅類型唔包括",
+    "llm_output": "A. 全稱逆否命題\n\n在傳統邏輯中，直言命題主要分為四種基本類型：全稱肯定（A）、全稱否定（E）、特稱肯定（I）和特稱否定（O）。全稱逆否命題並不是這四種基本類型之一。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '全稱逆否命題'], ['B', '特稱肯定命題'], ['C', '全稱肯定命題'], ['D', '特稱否定命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "某公司為咗擴大其網上商店嘅銷售收入，採取咗各種各樣嘅廣告宣傳同促銷手段，但係效果並唔明顯。該公司重金聘請咗專業人士進行市場分析，專業人士認為開通咗網上銀行嘅人羣先係真正潛喺嘅網上商店嘅顧客羣。於係該公司決定同商業銀行合作，喺新開通網上銀行業務嘅人羣中開展宣傳同促銷活動。但係三個月後，效果並唔理想。以下邊項為真，最能解釋上述結果?",
+    "llm_output": "B. 一般嚟講，啱啱開通網上銀行嘅人需要經過一段時間後先有可能進行網上消費",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '開通網上銀行喺中國仲係一件新鮮事，一般嚟講，消費者對此嘅態度比較謹慎'], ['B', '一般嚟講，啱啱開通網上銀行嘅人需要經過一段時間後先有可能進行網上消費'], ['C', '網上金融服務喺知識分子中已經比較普及，佢哋更希望網上商店能夠提供啲特色服務'], ['D', '最近網上銀行用戶被盜嘅案件頻發，開通網上銀行嘅人因此有所減少']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "斯多葛學派嘅代表人物唔包括",
+    "llm_output": "B. 泰勒斯",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '芝諾'], ['B', '泰勒斯'], ['C', '塞內卡'], ['D', '奧勒留']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "根據論證嘅前提與結論嘅支持關係，謬誤可以分為",
+    "llm_output": "C. 以上都對\n\n在邏輯學中，根據論證的前提與結論的支持關係，謬誤可以分為多種類型，包括前提謬誤（如假設不成立）、支持謬誤（如論據不足以支持結論）和相干謬誤（如論據與結論無關）。因此，選項C是正確的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '前提謬誤'], ['B', '支持謬誤'], ['C', '以上都對'], ['D', '相干謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於彌爾五法嘅係",
+    "llm_output": "A. 比較法\n\n彌爾五法包括求同法、求異法、共變法、剩餘法和契合法。比較法並不在這五種方法之內。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '比較法'], ['B', '求異法'], ['C', '求同法'], ['D', '契合法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於前提標識詞嘅係",
+    "llm_output": "C. 因此\n\n「因此」係用嚟標示結論嘅詞，而其他三個選項（因為、鑑於、由於）都係用嚟標示前提嘅。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '因為'], ['B', '鑑於'], ['C', '因此'], ['D', '由於']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "訴諸情感論證嘅類型唔包括",
+    "llm_output": "C. 唔適當權威論證\n\n訴諸情感論證主要包括訴諸公眾（訴諸大眾）、訴諸憐憫和訴諸威力等。而「唔適當權威論證」屬於另一種邏輯謬誤，與訴諸情感無直接關係。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '訴諸公眾論證'], ['B', '訴諸憐憫論證'], ['C', '唔適當權威論證'], ['D', '訴諸威力論證']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "歐拉圖表示嘅兩個對象類之間嘅關係唔包括",
+    "llm_output": "D. 同一關係\n\n歐拉圖（Euler diagram）用來表示集合之間的邏輯關係，包括交叉、全同、種屬等關係，但“同一關係”通常是指兩個對象完全相同，這在歐拉圖中並不是一種獨立的表示方式，而是可以通過其他關係（如全同關係）來表達。因此，歐拉圖不特別標注“同一關係”。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '交叉關係'], ['B', '全同關係'], ['C', '種屬關係'], ['D', '同一關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "邏輯主義嘅代表人物係",
+    "llm_output": "B. 羅素",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '布勞威爾'], ['B', '羅素'], ['C', '哥德爾'], ['D', '希爾伯特']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "請揀啱嘅判斷反駁「吸煙有利健康」",
+    "llm_output": "C. 所有人吸煙都唔利健康",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '有人吸煙唔利健康'], ['B', '有人唔吸煙有利健康'], ['C', '所有人吸煙都唔利健康'], ['D', '健康嘅人一般唔吸煙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「如果A，噉B」可轉換為其等值判斷",
+    "llm_output": "D. 如果非B，噉非A",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '如果非A，噉B'], ['B', '如果非A，噉非B'], ['C', '如果B，噉A'], ['D', '如果非B，噉非A']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "被譽為古印度嘅醫學百科全書嘅係",
+    "llm_output": "A. 「闍羅迦本集」",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「闍羅迦本集」'], ['B', '「吠陀經」'], ['C', '「摩訶婆羅多」'], ['D', '「薄伽梵歌」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「好人有好報，三係好人，所以三有好報」屬於",
+    "llm_output": "A. 演繹推理",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '演繹推理'], ['B', '回溯推理'], ['C', '似真推理'], ['D', '歸納推理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "彭平係一個計算機編程專家，姚欣係一位數學家。其實，所有嘅計算機編程專家都係數學家。我哋知道，今日國內大多數綜合性大學都喺培養住計算機編程專家。據此，我哋可以認為：",
+    "llm_output": "C. 有啲數學家係計算機編程專家",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '彭平由綜合性大學所培養嘅'], ['B', '大多數計算機編程專家係由綜合性大學所培養嘅'], ['C', '有啲數學家係計算機編程專家'], ['D', '姚欣並唔係畢業於綜合性大學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "用真值表檢驗重言式同矛盾式需要針對所討論嘅命題建立一個",
+    "llm_output": "C. 真值行\n\n在邏輯學中，使用真值表來檢驗一個命題是否為重言式（即在所有情況下都為真）或矛盾式（即在所有情況下都為假），需要為該命題建立一個真值表，其中包含所有可能的真值組合。這些組合通常以行的形式列出，因此稱為“真值行”。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '矛盾式'], ['B', '重言式'], ['C', '真值行'], ['D', '真值列']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "前提係自我欺騙性語句，即",
+    "llm_output": "D. 前提自相矛盾謬誤",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '前提虛假謬誤'], ['B', '以上都唔對'], ['C', '預期理由謬誤'], ['D', '前提自相矛盾謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "當命題斷言咗主項或者謂項所指稱嘅類嘅每一成員時，我哋就話呢個詞項係",
+    "llm_output": "C. 周延嘅",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '唔周延嘅'], ['B', '假嘅'], ['C', '周延嘅'], ['D', '真嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "根據演繹有效性原則，論證無效嘅一個重要標誌係",
+    "llm_output": "D. 所有前提真而結論假",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '部分前提假而結論假'], ['B', '部分前提真而結論假'], ['C', '所有前提假而結論假'], ['D', '所有前提真而結論假']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "根據演繹有效性原則，論證無效嘅一個重要標誌係",
+    "llm_output": "C. 所有前提真而結論假",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '部分前提假而結論假'], ['B', '所有前提假而結論假'], ['C', '所有前提真而結論假'], ['D', '部分前提真而結論假']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「所有嘅邏輯學家都係哲學家，所有美學家都係邏輯學家，因此，所有美學家都係哲學家」，呢個三段論中，結論標識詞係",
+    "llm_output": "D. 因此",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '都係'], ['B', '哲學家'], ['C', '所有'], ['D', '因此']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於前提標識詞嘅係",
+    "llm_output": "D. 所以",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '因為'], ['B', '鑑於'], ['C', '由於'], ['D', '所以']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "三段論「有啲結構主義者係形式主義者；所有形式主義者都唔係實質主義者；因此，有啲實質主義者唔係結構主義者。」嘅式係",
+    "llm_output": "D. IEO\n\n解析：\n- 第一前提：「有啲結構主義者係形式主義者」，表示部分關係，符號為 I (Some S are P)。\n- 第二前提：「所有形式主義者都唔係實質主義者」，表示全稱否定關係，符號為 E (No M are P)。\n- 結論：「有啲實質主義者唔係結構主義者」，表示部分否定關係，符號為 O (Some S are not P)。\n\n因此，整個三段論的式為 IEO。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'IOE'], ['B', 'EOI'], ['C', 'EIO'], ['D', 'IEO']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺歸納邏輯中，所有前提真而結論",
+    "llm_output": "A. 可能真\n\n在歸納邏輯中，即使所有前提是真實的，結論也只是可能為真，而不是必然為真。這是因為歸納推理通常涉及從特定案例推廣到一般原則，這種推廣並不能保證結論的絕對真實性。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可能真'], ['B', '必然假'], ['C', '必然真'], ['D', '可能假']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "由於近期嘅乾旱同高溫，導致海灣鹽度增加，引起咗好多魚嘅死亡。蝦雖然可以適應高鹽度，但係鹽度高都畀養蝦場帶嚟咗唔幸。以下邊項如果為真，能夠提供解釋以上現象嘅原因?",
+    "llm_output": "A. 幼蝦食嘅有機物喺鹽度高嘅環境下幾乎難以存活",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '幼蝦食嘅有機物喺鹽度高嘅環境下幾乎難以存活'], ['B', '持續嘅乾旱會使海灣嘅水位下降，呢已經引起咗有關機構嘅注意'], ['C', '水溫升高會使蝦更快速繁殖'], ['D', '魚多嘅海灣往往蝦都有多，蝦少嘅海灣魚都唔多']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於共同嘅論證評價標準嘅係",
+    "llm_output": "A. 分析標準\n\n在邏輯學中，評價論證時常用的標準包括論辯標準、邏輯標準和修辭標準。而「分析標準」並不是一個特定的評價論證的標準，因此選項A是正確的答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '分析標準'], ['B', '論辯標準'], ['C', '邏輯標準'], ['D', '修辭標準']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "訴諸權威謬誤嘅通常表現形式包括",
+    "llm_output": "B. 以上都對",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔相干權威'], ['B', '以上都對'], ['C', '有問題嘅權威'], ['D', '濫用權威']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺歸納邏輯中，所有前提真而結論",
+    "llm_output": "A. 可能真",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可能真'], ['B', '以上都唔對'], ['C', '必然假'], ['D', '必然真']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "論證嘅功能包括證成同",
+    "llm_output": "C. 推論",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '反駁'], ['B', '辯論'], ['C', '推論'], ['D', '歸謬']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果有啲a係b；有啲a唔係b，並且有啲b係a ，有啲b唔係a；噉，a與b呢兩個概念具有()關係。",
+    "llm_output": "A. 交叉",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '交叉'], ['B', '真包含於'], ['C', '全異'], ['D', '全同']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "小王話：如果聽日唔落大雨，我一定去睇波。以下邊項為真，可以證明小王冇講真話?a天冇落大雨，小王冇去睇波；b天下大雨，小王去睇咗波；c天下大雨，小王冇去睇波",
+    "llm_output": "B. a\n\n解析：小王的原话是“如果听日唔落大雨，我一定去睇波”。这是一个条件句，表示在“不落大雨”的条件下，“一定去睇波”。要证明小王没有讲真话，即这个条件句为假，需要满足“不落大雨”但“不去睇波”的情况。因此，选项a（天冇落大雨，小王冇去睇波）可以直接证明小王没有讲真话。其他选项不能直接反驳小王的说法。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'ab'], ['B', 'a'], ['C', 'b'], ['D', 'c']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果A、B兩個判斷唔能同假，但係可以同真，則佢哋之間嘅關係係",
+    "llm_output": "A. 下反對關係",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '下反對關係'], ['B', '矛盾關係'], ['C', '差等關係'], ['D', '反對關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個結果嘅數值概率等於相對嗰個結果可獲得嘅結果數()可能結果嘅總數。",
+    "llm_output": "B. 除",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '乘'], ['B', '除'], ['C', '減'], ['D', '加']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果一個證明嘅論據仲要依靠論題嚟證明，噉該證明所犯嘅邏輯錯誤係",
+    "llm_output": "C. 循環論證",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '推唔出'], ['B', '預期理由'], ['C', '循環論證'], ['D', '論據虛假']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "通過改變命題嘅質或者量從而推導出新命題嘅論證係",
+    "llm_output": "A. 直言命題運算論證",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '直言命題運算論證'], ['B', '質量論證'], ['C', '三段論論證'], ['D', '對當關係論證']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "構造真值表，基於嘅邏輯算子規則唔包括",
+    "llm_output": "B. 命題\n\n構造真值表時，主要基於邏輯算子（如否定、合取、析取、條件、雙條件等）的規則來確定命題的真值。而「命題」本身是構成真值表的基本元素，而不是用來構造真值表的邏輯算子規則。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '等值'], ['B', '命題'], ['C', '否定'], ['D', '合取']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "要檢驗一個命題係唔係矛盾式，即以該命題作為前提進行推導，睇下能唔能推導出",
+    "llm_output": "C. 矛盾",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結論'], ['B', '命題'], ['C', '矛盾'], ['D', '前提']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "論證識別嘅核心內容係",
+    "llm_output": "B. 前提與結論嘅識別",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '目標聽眾嘅識別'], ['B', '前提與結論嘅識別'], ['C', '論證者嘅識別'], ['D', '論證目嘅識別']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "前提或者結論中至少有一個條件命題嘅論證係",
+    "llm_output": "C. 條件論證",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結論論證'], ['B', '命題論證'], ['C', '條件論證'], ['D', '前提論證']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果論證嘅所有前提同時為真係唔可能嘅，噉呢個論證嘅前提就係",
+    "llm_output": "B. 唔一致",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '不可接受'], ['B', '唔一致'], ['C', '可接受'], ['D', '一致']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個命題為真係另一個命題為真嘅充分條件嘅命題係",
+    "llm_output": "C. 假言命題\n\n在邏輯學中，如果一個命題為真能夠確保另一個命題為真，這種關係通常表達為假言命題（即條件命題的一種形式），形式上可以表示為 \"如果 p，則 q\"。這裡的 \"p\" 是前提或前件，\"q\" 是結論或後件。因此，正確答案是 C. 假言命題。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '直言命題'], ['B', '條件命題'], ['C', '假言命題'], ['D', '充分命題']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊篇文章唔包含喺「工具論」之中？",
+    "llm_output": "A. 「理想國」",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「理想國」'], ['B', '「解釋篇」'], ['C', '「論辯篇」'], ['D', '「範疇篇」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "複合命題嘅邏輯聯結詞包括",
+    "llm_output": "D. 以上都對",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '合取同析取'], ['B', '蘊涵同等值'], ['C', '否定'], ['D', '以上都對']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "係指相對於證據，兩個事實或者事件至少有一個為真嘅概率。",
+    "llm_output": "A. 析取律",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '析取律'], ['B', '肯定律'], ['C', '合取律'], ['D', '否定律']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於邏輯系統四大定理嘅係",
+    "llm_output": "B. 唔完全性定理\n\n邏輯系統四大定理通常指的是：一致性定理、可靠性定理、完全性定理和可判定性定理。而「唔完全性定理」（即哥德爾的不完全性定理）並不是這四個定理之一，它主要探討的是形式系統自身的限制，特別是在足夠複雜的形式系統中存在既不能證明也不能否證的命題。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一致性定理'], ['B', '唔完全性定理'], ['C', '可靠性定理'], ['D', '有效性定理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「所有嘅邏輯學家都係哲學家，所有美學家都係邏輯學家，因此，所有美學家都係哲學家」，呢個三段論中，大項係",
+    "llm_output": "D. 哲學家\n\n在這個三段論中，大項是指結論中的謂詞，也就是「所有美學家都係哲學家」中的「哲學家」。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '以上都唔對'], ['B', '邏輯學家'], ['C', '美學家'], ['D', '哲學家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "違反規則「所有前提都必須係真嘅」嘅謬誤包括",
+    "llm_output": "B. 前提虛假謬誤",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上都對'], ['B', '前提虛假謬誤'], ['C', '唔一致謬誤'], ['D', '預期理由謬誤']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「育才中學有外籍教師任教」呢一判斷中，",
+    "llm_output": "B. 主項、謂項都唔周延\n\n解析：在「育才中學有外籍教師任教」這個判斷中，主項「育才中學」並沒有指明所有育才中學的分校或所有情況下的育才中學，因此主項不周延。同樣地，謂項「有外籍教師任教」也僅表示存在外籍教師，並不代表所有的外籍教師都在該校任教，所以謂項也不周延。因此，正確答案是 B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '主項周延'], ['B', '主項、謂項都唔周延'], ['C', '主項、謂項都周延'], ['D', '謂項周延']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "三段論嘅式共有幾多個。",
+    "llm_output": "正確答案係 C. 64。在傳統邏輯中，三段論的式共有64個，這些式是由四個不同的格（Figure）和每個格中的不同命題類型組合而成的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '512'], ['B', '128'], ['C', '64'], ['D', '256']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "所有嘅語句都包括",
+    "llm_output": "D. 語義要素同邏輯要素",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯要素'], ['B', '語法要素'], ['C', '詞彙要素'], ['D', '語義要素同邏輯要素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "非形式邏輯標準嘅一個論證係好嘅，當且僅當()成立。",
+    "llm_output": "A. 以上均係",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上均係'], ['B', '所有前提均可接受'], ['C', '前提與結論相干'], ['D', '前提對結論提供咗足夠支持']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "命題「有啲音樂家係有創造力之人;所有作曲家都係音樂家;因此，有啲作曲家係有創造力之人。」嘅中項係",
+    "llm_output": "D. 音樂家\n\n在這個三段論中，「音樂家」是連接兩個前提的中項。第一個前提是「有啲音樂家係有創造力之人」，第二個前提是「所有作曲家都係音樂家」。結論是「有啲作曲家係有創造力之人」。中項在這裡的作用是作為兩個前提之間的橋樑，幫助得出結論。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '作曲家'], ['B', '以上都唔係'], ['C', '有創造力之人'], ['D', '音樂家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "通常用嚟表達聯結詞「析取」嘅係",
+    "llm_output": "B. 或者",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '而且'], ['B', '或者'], ['C', '並非'], ['D', '並且']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「數學與猜想」嘅作者係",
+    "llm_output": "D. 波利亞",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '羅素'], ['B', '周北海'], ['C', '金嶽霖'], ['D', '波利亞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一組唔一致嘅前提()推導出唔一致嘅結論。",
+    "llm_output": "A. 可能",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '可能'], ['B', '唔會'], ['C', '必然'], ['D', '唔確定']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "違反規則「前提與結論必須係相干」嘅謬誤唔包括",
+    "llm_output": "A. 合成謬誤\n\n合成謬誤是指從部分的性質錯誤地推論到整體的性質，這與前提和結論的相干性無直接關係。其他選項如人身攻擊謬誤、稻草人謬誤和非黑即白謬誤都涉及前提和結論之間的相干性問題。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '合成謬誤'], ['B', '人身攻擊謬誤'], ['C', '稻草人謬誤'], ['D', '非黑即白謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "銳進軟件股份有限公司係一個由四個子公司，即甲、乙、丙、丁組成嘅總公司。喺總公司嘅利潤方案下，每個子公司承擔嘅利潤份額與每年該子公司員工佔銳進軟件股份有限公司總員工數嘅份額相等。但係舊年該公司嘅財務報告卻顯示，甲公司喺員工數量增加嘅同時向總公司上繳利潤嘅比例卻下降咗。如果上述陳述為真，財務報告仲能夠說明下列邊項?",
+    "llm_output": "D. 乙、丙、丁公司員工增長嘅比例都超過咗甲公司員工增長嘅比例\n\n解析：根據題意，甲公司員工數量增加但上繳利潤比例下降，這意味著甲公司在總公司中的員工比例下降了。這只有在其他子公司（乙、丙、丁）的員工增長比例都高於甲公司的情況下才可能發生。因此，選項D是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '甲公司員工增長嘅比例比前一年細'], ['B', '甲公司員工增長嘅比例至少比其他三個子公司中嘅一個細'], ['C', '喺四個子公司中，甲嘅員工數量最少'], ['D', '乙、丙、丁公司員工增長嘅比例都超過咗甲公司員工增長嘅比例']]",
+    "is_correct": 0
+  }
+]

@@ -1,0 +1,2322 @@
+[
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "感覺閾限與感受性大小嘅關係係",
+    "llm_output": "答案：D. 反比關係",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '平行關係'], ['B', '正比關係'], ['C', '韋伯比率'], ['D', '反比關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據強化嘅性質同目嘅可以分成",
+    "llm_output": "答案：D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自然強化物同人為嘅近似強化物'], ['B', '積極強化同消極強化'], ['C', '強化同懲罰'], ['D', '正強化同負強化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "有啲原本學習好叻嘅學生升入高中之後，會出現學習成績下降、心情煩躁、無所事事，甚至出現想退學嘅諗法，呢種現象通常屬於",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '情緒障礙'], ['B', '適應性障礙'], ['C', '心境障礙'], ['D', '急性應激障礙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「程序教學與教學機械」係理論喺教育領域中嘅應用。",
+    "llm_output": "D. 觀察學習",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '操作性條件作用'], ['B', '完形'], ['C', '嘗試錯誤'], ['D', '觀察學習']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "一般嚟講，如果一個人嘅智商係120，表示呢個人嘅智力水平",
+    "llm_output": "答案：C",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '超常'], ['B', '中上'], ['C', '中等'], ['D', '低下']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「美人魚」嘅形象係下列邊種想象嘅產物",
+    "llm_output": "答案：C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無意想象'], ['B', '再造想象'], ['C', '創造想象'], ['D', '幻想']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "有啲人想食魚又怕腥，呢種現象屬於",
+    "llm_output": "A",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '多重趨避衝突'], ['B', '趨避衝突'], ['C', '雙趨衝突'], ['D', '雙避衝突']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小明原本見到陌生人就喱埋。上幼兒園一個月後，小明嘅呢種行為消失咗。據加涅嘅學習結果分類，呢度發生嘅學習。",
+    "llm_output": "C. 動作技能",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '智慧技能'], ['B', '態度'], ['C', '動作技能'], ['D', '言語信息']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "某學生喺回答「乜嘢係圓嘅」嘅時候，講出「太陽係圓嘅」「車輪係圓嘅」「殷秀梅唱歌嘅時候口型係圓嘅」。呢主要體現咗發散思維嘅邊一特性",
+    "llm_output": "B",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '流暢性'], ['B', '綜合性'], ['C', '獨特性'], ['D', '多維性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "將心理活動指向內心世界嘅人格特徵稱為",
+    "llm_output": "A. 內向人格",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '內向人格'], ['B', '外向人格'], ['C', '均衡性人格'], ['D', 'T型人格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "心理旋轉實驗中被試喺大腦中進行圖像旋轉，體現咗表象嘅()特點。",
+    "llm_output": "D. 直觀性",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '穩定性'], ['B', '可操作性'], ['C', '概括性'], ['D', '直觀性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "江山易改，秉性難移說明咗一個人嘅（）係相當穩定嘅。",
+    "llm_output": "C. 性格",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '興趣'], ['B', '氣質'], ['C', '性格'], ['D', '能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「舉一反三」同「觸類旁通」所講嘅係水平遷移同順向遷移。",
+    "llm_output": "D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '逆向遷移'], ['B', '垂直遷移'], ['C', '負遷移'], ['D', '水平遷移']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "丁墨喺佢嘅小說「他來了，請閉眼」中，塑造咗高智商嚴謹同善於推理嘅犯罪心理學專家薄靳言嘅 形象。呢屬於",
+    "llm_output": "C. 再造想象",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '創造想象'], ['B', '無意想象'], ['C', '再造想象'], ['D', '無意記憶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "學生根據老師對「天蒼蒼，野茫茫，風吹草地見牛羊」詩句嘅描述，喺腦海中浮現出咗一幅草原牧區嘅圖景，呢種心理現象係",
+    "llm_output": "A. 想象",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '想象'], ['B', '注意'], ['C', '思維'], ['D', '記憶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於生理性動機嘅講法錯嘅係",
+    "llm_output": "D",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '古代被閹割嘅太監，體內基本冇性激素，所以就唔再有性動機。'], ['B', '厭食症患者強迫自己減少進食或者唔進食。'], ['C', '母性動機亦係一種生理性動機。'], ['D', '生理性動機除咗受生理因素影響，仲受心理因素影響。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "謙虛謹慎、嚴於律己屬於",
+    "llm_output": "D. 意志特徵",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '氣質特徵'], ['B', '性格特徵'], ['C', '能力特徵'], ['D', '意志特徵']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "垂直線段同水平線段等長，但睇起嚟垂直線段比水平線段長，呢係錯覺中嘅",
+    "llm_output": "B",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '菲克錯覺'], ['B', '龐佐錯覺'], ['C', '厄任斯坦錯覺'], ['D', '黑靈錯覺']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一條唔係馬斯洛需要層次理論中嘅需要層次",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '道德需要'], ['B', '安全需要'], ['C', '歸屬同愛嘅需要'], ['D', '自我實現需要']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺板書時，教師常將形近字嘅相異部分，用唔同顏色嘅粉筆寫出嚟，以引起學生嘅注意，呢運用嘅感覺規律係",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '感覺對比'], ['B', '感覺後象'], ['C', '感覺補償'], ['D', '感覺適應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "能夠激起有機體嘅定向行為，並能滿足某種需要嘅外部條件或刺激物係",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '需要'], ['B', '誘因'], ['C', '動機'], ['D', '興趣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個性心理嘅核心係",
+    "llm_output": "C. 性格",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '能力'], ['B', '興趣'], ['C', '性格'], ['D', '氣質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據艾賓浩斯嘅遺忘規律，以下表述唔正確嘅係",
+    "llm_output": "C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '遺忘數量隨時間遞增'], ['B', '喺識記後嘅短時間內遺忘特別迅速，然後逐漸緩慢落嚟'], ['C', '一般情況下，集中複習嘅效果優於分散複習'], ['D', '及時複習有利於識記材料喺急速遺忘前獲得必要嘅鞏固']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "維果茨基提出「教學應走喺開展前面」嘅含義係。",
+    "llm_output": "A.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教學嘅重要任務係創造最近開展區'], ['B', '根據學生現有嘅水平進展教學'], ['C', '教學可以唔考慮兒童現有嘅開展水平'], ['D', '提前講授下一階段先至能掌握嘅內容']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "氣質類型喺社會評價上（）。",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '都係壞嘅'], ['B', '無好壞之分'], ['C', '有好有壞'], ['D', '都係好嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺深度上對心理學嘅基本理論問題進行細緻研究",
+    "llm_output": "C. 理論心理學",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '發展心理學'], ['B', '生理心理學'], ['C', '理論心理學'], ['D', '普通心理學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人嘅注意會經常出現週期性嘅加強同減弱，所以應合理設置學生嘅上課時間，保證最佳嘅教學效果。呢一現象反映咗",
+    "llm_output": "D. 注意嘅穩定性",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '注意嘅轉移'], ['B', '注意嘅廣度'], ['C', '注意嘅分配'], ['D', '注意嘅穩定性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "藍色、青色、綠色會使人感覺寒冷，呢種現象屬於",
+    "llm_output": "C. 感覺對比",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '想象'], ['B', '聯覺'], ['C', '感覺對比'], ['D', '感覺適應']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上第一個正式嘅智力測驗工具係",
+    "llm_output": "答案：A",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '韋克斯勒量表'], ['B', '瑞文推理量表'], ['C', '比內—西蒙智力量表'], ['D', '斯坦福—比內量表']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於睡眠失常嘅係",
+    "llm_output": "D. 白日夢",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '日間嗜睡'], ['B', '睡眠窒息'], ['C', '突發性睡眠'], ['D', '白日夢']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "採用合理嘅理由嚟解析所遭受嘅挫折，以減輕心理痛苦，呢種心理防禦機制係",
+    "llm_output": "D. 轉移",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '投射'], ['B', '文飾'], ['C', '壓抑'], ['D', '轉移']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "記憶係第一個基本過程係",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '提取'], ['B', '編碼'], ['C', '儲存'], ['D', '保持']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "壓力反應嘅三個階段唔包括",
+    "llm_output": "D. 衝擊",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '安定'], ['B', '焦慮'], ['C', '解決'], ['D', '衝擊']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「足智多謀，隨機應變」體現咗思維嘅",
+    "llm_output": "C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '獨立性'], ['B', '邏輯性'], ['C', '靈活性'], ['D', '廣闊性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "兒童獲得完全符合語法嘅口頭語言嘅年齡階段係",
+    "llm_output": "D. 3—4歲",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '9—12個月'], ['B', '18-24個月'], ['C', '7歲前'], ['D', '3—4歲']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "聞到蘋果香味，睇到蘋果紅色外觀，觸摸到蘋果光滑嘅果皮等所引起嘅心理活動係",
+    "llm_output": "C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '感受性'], ['B', '知覺'], ['C', '感覺'], ['D', '感覺閾限']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺記憶中已學過嘅舊信息對新信息學習產生抑制作用，呢一心理現象稱為",
+    "llm_output": "答案：B",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '右攝幹擾'], ['B', '倒攝幹擾'], ['C', '前攝幹擾'], ['D', '後攝幹擾']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據學習嘅定義，以下屬於學習嘅現象係。",
+    "llm_output": "A. 兒童模仿電影中人物嘅行為",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '兒童模仿電影中人物嘅行為'], ['B', '望梅止渴'], ['C', '食咗酸嘅食物流口水'], ['D', '蜘蛛織網']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據活動任務嘅要求，有意識地主動地將注意從一個對象轉移到另一個對象稱為",
+    "llm_output": "A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '注意嘅轉移'], ['B', '注意嘅穩定性'], ['C', '注意嘅分心'], ['D', '注意嘅分配']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺創造性思維中（）起著核心作用。",
+    "llm_output": "C. 發散思維",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '集中思維'], ['B', '常規思維'], ['C', '發散思維'], ['D', '抽象思維']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "一名小學一年級嘅學生將6同9搞亂，呢說明該生嘅（）仲未成熟。",
+    "llm_output": "D. 思維能力",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '注意能力'], ['B', '記憶能力'], ['C', '感知能力'], ['D', '思維能力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個唔屬於根據思維憑借物分類嘅",
+    "llm_output": "答案：B",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '直觀動作思維'], ['B', '邏輯思維'], ['C', '常規思維'], ['D', '形象思維']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "美國心理學家奧蘇伯爾根據學習材料同學習者嘅原有知識嘅關係，將學習分為",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '意義學習同機械學習'], ['B', '意義學習同接受學習'], ['C', '發現學習同機械學習'], ['D', '接受學習同發現學習']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "（）係一種導致局部刺激嘅意識水平提高嘅知覺嘅選擇性嘅集中。",
+    "llm_output": "A. 注意",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '注意'], ['B', '意識'], ['C', '動機'], ['D', '興趣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "天空晴朗時，仰望天空中嘅雲朵，將佢睇成係羊羣，棉花、山巒，呢種現象屬於",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '有意想象'], ['B', '無意想象'], ['C', '再造想象'], ['D', '創造想象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小王聽到樓下尖銳刺耳嘅汽車鳴笛聲就好似身體被拮針到，心臟有痛感，非常唔舒服呢屬於感覺嘅（）現象。",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '對比'], ['B', '聯覺'], ['C', '適應'], ['D', '後象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人對客觀事物採取點樣嘅態度，係以某事物係否符合或滿足自己嘅（ ） 為中介。",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '態度'], ['B', '需要'], ['C', '體驗'], ['D', '動機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「由驕兵諗到必敗」係",
+    "llm_output": "答案：B",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '因果聯想'], ['B', '相似聯想'], ['C', '對比聯想'], ['D', '接近聯想']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "對缺乏信心同決心嘅學生，應注重培養其意志品質嘅",
+    "llm_output": "D. 堅韌性",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自覺性'], ['B', '果斷性'], ['C', '自制性'], ['D', '堅韌性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小江學習刻苦認真，雖然基礎唔係好，但佢遇到困難時總能勇往直前，唔達到目嘅唔罷休，因此佢嘅學業成績喺班裏一直名列前茅。呢體現咗小江性格嘅（）特徵。",
+    "llm_output": "D. 意志",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '理智'], ['B', '態度'], ['C', '情緒'], ['D', '意志']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺羣體中，人哋有時會覺得自己被埋沒喺羣體之中，個體難以意識到自己嘅價值同行為。呢種現象係",
+    "llm_output": "D. 去個體化",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會惰化'], ['B', '社會助長'], ['C', '羣體極化'], ['D', '去個體化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「感時花濺淚，恨別鳥驚心」係下列邊種情緒狀態？",
+    "llm_output": "C. 心境",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '熱情'], ['B', '應激'], ['C', '心境'], ['D', '激情']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "你能諗起長輩嘅音容笑貌，呢個屬於",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '表象'], ['B', '幻想'], ['C', '後象'], ['D', '想象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "之前學嘅內容對之後學嘅內容產生嘅影響叫（）。",
+    "llm_output": "C. 前攝抑制",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '超限抑制'], ['B', '倒攝抑制'], ['C', '前攝抑制'], ['D', '側抑制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "阿基米德喺浴缸中發現浮力定律係一種",
+    "llm_output": "答案：B",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '直覺思維'], ['B', '分析思維'], ['C', '藝術思維'], ['D', '常規思維']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "馮特創立嘅心理學派係",
+    "llm_output": "答案：D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '行為主義心理學'], ['B', '格式塔心理學'], ['C', '機能心理學'], ['D', '構造心理學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小張活潑好動，反應迅速，熱愛交際，口才好好，但情緒唔穩定，比較粗枝大葉。其氣質類型屬於",
+    "llm_output": "A. 多血質",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '多血質'], ['B', '黏液質'], ['C', '抑鬱質'], ['D', '膽汁質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "嬰幼兒最主要嘅感知覺係視覺、聽覺、觸覺等，其中發展最早嘅係",
+    "llm_output": "答案：A",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '聽覺'], ['B', '味覺'], ['C', '視覺'], ['D', '觸覺']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "心理學家卡特爾將主要受人嘅生物學因素影響，並隨生理成長曲線變化而變化嘅智力稱為",
+    "llm_output": "A",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '一般因素'], ['B', '晶體智力'], ['C', '流體智力'], ['D', '特殊因素']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "設計師設計、描繪城市規劃嘅藍圖嘅過程屬於",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '空想'], ['B', '創造想象'], ['C', '再造想象'], ['D', '無意想象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "聽到悅耳嘅歌聲，呢時人哋嘅心理活動主要係",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '感覺'], ['B', '知覺'], ['C', '想象'], ['D', '思維']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "機能主義心理學派嘅代表人物係",
+    "llm_output": "A. 華生同斯金納",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '華生同斯金納'], ['B', '馮特同鐵欽納'], ['C', '詹姆斯同杜威'], ['D', '魏特曼同苛勒']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「銘刻」嘅概念係由奧地利嘅()提出嘅。",
+    "llm_output": "答案：A",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '艾裏克森'], ['B', '柯爾伯格'], ['C', '勞倫茲'], ['D', '皮亞傑']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「頭懸樑，錐刺股」係一種（）嘅體現。",
+    "llm_output": "D. 意志力",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '氣質'], ['B', '性格'], ['C', '想象力'], ['D', '意志力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "建立世界上第一個心理學實驗室嘅心理學家係",
+    "llm_output": "A. 華生",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '華生'], ['B', '馮特'], ['C', '弗洛伊德'], ['D', '巴甫洛夫']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "高級神經活動類型中「強一平衡一唔靈活」型與下列邊種氣質類型相對應？",
+    "llm_output": "A. 膽汁質",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '膽汁質'], ['B', '黏液質'], ['C', '多血質'], ['D', '抑鬱質']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以弗洛伊德心理分析理論為依據嘅人格測驗",
+    "llm_output": "D",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '羅夏克墨漬測驗'], ['B', '愛德華個人興趣量表測驗'], ['C', '青年性格問卷測驗'], ['D', '明尼速達人格測驗']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小學生喺英語課上學習「書」嘅英語單詞「book」。按奧蘇伯爾嘅學習分類，呢度嘅學習屬於。",
+    "llm_output": "答案：C",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '表徵學習'], ['B', '發現學習'], ['C', '命題學習'], ['D', '概念學習']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "好耐之前學過嘅英語單詞，一名學生而家寫可能寫唔出嚟，但喺閱讀文章時遇見呢啲單詞卻可以重新認出嚟。該學生嘅呢種記憶屬於",
+    "llm_output": "C. 內隱記憶",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '形象記憶'], ['B', '外顯記憶'], ['C', '內隱記憶'], ['D', '運動記憶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "醫生救死扶傷先至能獲得最大嘅滿足，音樂家演奏音樂先至能獲得最大嘅滿足。呢類現象體現咗人（） 嘅需要。",
+    "llm_output": "C. 自我實現",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '歸屬同愛'], ['B', '安全'], ['C', '自我實現'], ['D', '尊重']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "記筆記時，章與章、節與節之間，重要嘅標題同其他詞句之間都留出一定嘅空行，以便日後查閱時 一目瞭然。呢體現咗知覺選擇性中嘅",
+    "llm_output": "D. 差異律\n\n差異律係指人類對於不同事物之間嘅差異感覺更加敏感，例如喺記筆記時，留出空行係為咗方便日後查閱時區分同一類嘅資訊，體現咗差異律嘅作用。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '組合律'], ['B', '強度律'], ['C', '活動律'], ['D', '差異律']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "心理現象分為",
+    "llm_output": "答案：C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '情感過程與個性心理'], ['B', '意志過程與個性心理'], ['C', '心理過程與個性心理'], ['D', '認知過程與個性心理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "醫生通過觀察、把脈、聽診能診斷患者嘅病情，呢屬於思維嘅",
+    "llm_output": "答案：D",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '抽象性'], ['B', '概括性'], ['C', '間接性'], ['D', '直接性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "()係指注意喺同一對象或活動上所保持時間嘅長短。佢係注意嘅時間特徵。",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '注意嘅穩定性'], ['B', '注意嘅分配'], ['C', '注意嘅分心'], ['D', '注意嘅轉移']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "行為主義心理學派嘅代表人物係",
+    "llm_output": "B. 華生同斯金納",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '魏特曼同苛勒'], ['B', '華生同斯金納'], ['C', '詹姆斯同杜威'], ['D', '馮特同鐵欽納']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "大學生既想擔任學生幹部嚟鍛鍊自己，又怕佔用時間太多而影響學習，呢種現象屬於",
+    "llm_output": "答案：A",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '雙趨衝突'], ['B', '趨避衝突'], ['C', '雙避衝突'], ['D', '多重趨避衝突']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下適合用驅力說解釋行為原因嘅例子係。",
+    "llm_output": "答案：A",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '青少年偷偷抽煙'], ['B', '詩人常常一醉方休'], ['C', '窮孩子如飢似渴讀書'], ['D', '貓兒食飽飯後搵水飲']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺廣度上研究各個社會領域內嘅心理",
+    "llm_output": "答案：A",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會心理學'], ['B', '發展心理學'], ['C', '比較心理學'], ['D', '應用心理學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "平平望住天上嘅雲彩發呆.一陣覺得雲彩似一條小河，一陣覺得雲彩似一座座高山。平平嘅呢種想象屬於",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '再造想象'], ['B', '無意想象'], ['C', '幻想'], ['D', '創造想象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "情緒情感係以邊種選項為中介嘅反映形成？",
+    "llm_output": "答案：D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '態度'], ['B', '認識'], ['C', '動機'], ['D', '需要']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "安德森嘅產生式遷移理論係嘅現代翻版。",
+    "llm_output": "答案：B",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '共同要素說'], ['B', '經歷內化說'], ['C', '關係轉換說'], ['D', '形式訓練說']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "一啲小學生為咗得到老師同家長嘅鍾意或稱讚而產生努力學習嘅動機呢種動機屬於",
+    "llm_output": "A. 外在動機",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '外在動機'], ['B', '主導動機'], ['C', '從屬動機'], ['D', '內在動機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "三歲之前，人嘅思維形式主要係",
+    "llm_output": "D. 直觀動作思維",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '語詞邏輯思維'], ['B', '具體形象思維'], ['C', '直覺思維'], ['D', '直觀動作思維']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "對現代心理衛生運動嘅興起作出直接貢獻嘅先驅者當屬美國人",
+    "llm_output": "D. 羅傑斯",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '比爾斯'], ['B', '馬斯洛'], ['C', '梅耶'], ['D', '羅傑斯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "中班嘅小明鍾意向老師、家長告狀。呢體現咗小明嘅情感係",
+    "llm_output": "A. 榮譽感",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '榮譽感'], ['B', '實踐感'], ['C', '道德感'], ['D', '理智感']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "切割玻璃嘅聲音會使人產生寒冷嘅感覺，呢種現象屬於",
+    "llm_output": "B. 感覺代償",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '感覺適應'], ['B', '感覺代償'], ['C', '聯覺'], ['D', '感覺對比']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "有啲人喺羣情激憤嘅羣體中極易失去理智，作出與其身份和個性極不相符、與平時判若兩人嘅舉動，呢種現象屬於",
+    "llm_output": "D. 去個體化",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會助長'], ['B', '羣體極化'], ['C', '社會干擾'], ['D', '去個體化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "檢驗感受性大小嘅基本指標被稱為感覺閾限，係個臨界值。佢包括：絕對感覺閾限同",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '絕對感受性'], ['B', '差別感覺閾限'], ['C', '絕對刺激量'], ['D', '差別刺激量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人耳能接受嘅振動頻率係",
+    "llm_output": "答案：B. 20~20000赫茲",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '40~20000赫茲'], ['B', '20~20000赫茲'], ['C', '50~25000赫茲'], ['D', '30~25000赫茲']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀初，法國心理學家比奈與西蒙合作研發嘅科研成果嘅問世，使通過心理測量解決實際問題嘅諗法變成現實。其標誌性成果係",
+    "llm_output": "C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '氣質測驗量表'], ['B', '人格測驗量表'], ['C', '智力測驗量表'], ['D', '情緒測驗量表']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "皮亞傑將人嘅思維分為四種，其中主要通過表象思維，缺乏概念嘅守恆和可 逆，係（ ）思維",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '感知運動'], ['B', '前運算'], ['C', '形式運算'], ['D', '具體運算']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "1930年，「第一屆國際心理衛生大會」喺華盛頓召開，會上成立咗一個永久性嘅國際組織，名稱係",
+    "llm_output": "A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '國際心理衛生委員會'], ['B', '世界心理學會'], ['C', '國際心理學委員會'], ['D', '國際心理諮詢師委員會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊種現象屬於第二信號系統嘅條件反射",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '談虎色變'], ['B', '望梅止渴'], ['C', '見風流淚'], ['D', '樂極生悲']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺個性結構中處於首要嘅核心地位嘅特徵係",
+    "llm_output": "D. 智力",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '性格'], ['B', '氣質'], ['C', '能力'], ['D', '智力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下情境中代表內喺動機嘅情境係。",
+    "llm_output": "D",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '陳英每日單獨睇幾個鐘嘅電視'], ['B', '王老師對X華嘅單詞測驗成績表示滿意'], ['C', '校長喺全校大會上宣佈三好學生'], ['D', '課間休息時，小李回到教室裏做作業']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "思維嘅基本過程係",
+    "llm_output": "C. 分析同綜合",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '具體化同系統化'], ['B', '抽象同概括'], ['C', '分析同綜合'], ['D', '分類同比較']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "只要畀足夠嘅時間同適當嘅教學，幾乎所有嘅學生對幾乎所有嘅內容都能到達掌握嘅程度。呢個係。",
+    "llm_output": "D. 掌握學習",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '發現學習'], ['B', '意義學習'], ['C', '機械學習'], ['D', '掌握學習']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "布盧姆將認知目標由低到高分為邊六個層次",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '知識、領會、運用、分析、 綜合、評價'], ['B', '知識、運用、領會、分析、綜合、評價'], ['C', '知識、領會、運用、綜合、分析、 評價'], ['D', '知識、領會、分析、運用、綜合、評價']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "中學生嘅情緒特點係",
+    "llm_output": "答案：D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '情緒嘅兩極性減少'], ['B', '情緒情感嘅社會性成分開始增加'], ['C', '情緒嘅衝動性減弱'], ['D', '情緒激盪，易動感情，亦容易被激惹']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "表現喺人對現實嘅態度同行為方式嘅比較穩定嘅獨特嘅心理特徵嘅總和係",
+    "llm_output": "D. 性格",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '能力'], ['B', '興趣'], ['C', '氣質'], ['D', '性格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "相同嘅歌曲旋律，無論係用鋼琴演奏定係用小提琴演奏，我哋都能聽出係同一首歌。呢個說明知覺具有",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '恆常性'], ['B', '整體性'], ['C', '選擇性'], ['D', '理解性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人哋喺解決問題時，通過增加初始狀態與目標狀態嘅差異以最終達到解決問題嘅目嘅，呢種解決問題嘅方法係",
+    "llm_output": "D. 爬山法",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '啟發法'], ['B', '算法式'], ['C', '手段-目嘅分析法'], ['D', '爬山法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下關於睡眠或夢嘅講法錯誤嘅係？",
+    "llm_output": "D.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '夢係一種無意想象'], ['B', '睡眠有益於人嘅身心健康'], ['C', '睡眠包括四個階段同快速眼動睡眠階段'], ['D', '夢多出現喺深度睡眠階段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "將事物整體分解為各個部分、要素或層次，分別抽取其個別屬性加以考察，從而認識事物本事嘅思維方式係",
+    "llm_output": "D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '比較方法'], ['B', '演繹方法'], ['C', '綜合方法'], ['D', '分析方法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "學習「圓嘅直徑係佢嘅半徑嘅兩倍」係。",
+    "llm_output": "D",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '符號學習'], ['B', '下位學習'], ['C', '命題學習'], ['D', '概念學習']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "李某同王某係隔離位，李某鍾意喺媽媽面前「撒嬌」，而王某比較「固執」，呢一現象說明人格具有",
+    "llm_output": "D. 獨特性",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '穩定性'], ['B', '綜合性'], ['C', '複雜性'], ['D', '獨特性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺路上遇見細個時候嘅同伴，雖然叫唔出佢(佢)嘅姓名，但確認係認識嘅，此時嘅心理活動係",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '保持'], ['B', '再認'], ['C', '識記'], ['D', '回憶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "食過梅嘅人一見到佢嘅外形、聞到佢嘅香味，就會有望梅止渴嘅反應。呢個係一種",
+    "llm_output": "C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無條件反射'], ['B', '生嚟嘅反射'], ['C', '條件反射'], ['D', '非條件反射']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於誘導依從策略嘅係",
+    "llm_output": "D. 留面子效應",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '示範法'], ['B', '登門檻放應'], ['C', '引誘法'], ['D', '留面子效應']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個性心理特徵係喺（）實踐嘅基礎上形成同發展起嚟嘅",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '認知過程、情感過程、意志過程'], ['B', '認知過程'], ['C', '意志過程'], ['D', '情感過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "馬斯洛認為，（ ）係人哋基本嘅缺失性需要。①生理需要②安全需要③歸屬同愛嘅需要④尊重嘅需要 ⑤自我實現嘅需要",
+    "llm_output": "答案：C",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '②③④⑤'], ['B', '①②③'], ['C', '①②③④⑤'], ['D', '①②③④']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "憂者見之則憂，喜者見之則喜，呢個係受一個人嘅()嘅影響所致。",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '熱情'], ['B', '心境'], ['C', '應激'], ['D', '激情']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "學生小何性格活潑好動，但粗枝大葉、浮躁，好難長久地堅持做一件事。下列對其所屬氣質類型及 教育方法判斷正確嘅係",
+    "llm_output": "A. 多血質：為佢提供參加多種活動嘅機會，同時培養其穩定、專注嘅品質",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '多血質：為佢提供參加多種活動嘅機會，同時培養其穩定、專注嘅品質'], ['B', '抑鬱質：鼓勵佢多與人交往，唔好自我封閉'], ['C', '膽汁質：適時提醒佢控制情緒，養成遵守秩序嘅習慣'], ['D', '黏液質：注意多畀正面評價，提高其積極性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "（ ）認為心理學應該將有效用嘅心理過程而唔係靜態嘅心理內容作為研究對象，重視心理學嘅實際應用。",
+    "llm_output": "D. 機能主義",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '構造主義'], ['B', '行為主義'], ['C', '精神分析'], ['D', '機能主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "對物體（）所產生嘅知覺叫運動知覺。",
+    "llm_output": "D. 喺空間中嘅位移",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '時間特性'], ['B', '延續性同順序性'], ['C', '距離同方位特性'], ['D', '喺空間中嘅位移']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "古詩句「歡娛嫌夜短，寂寞恨更長」描寫嘅心理現象係",
+    "llm_output": "C. 時間錯覺",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '視覺錯覺'], ['B', '空間錯覺'], ['C', '時間錯覺'], ['D', '運動錯覺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「入芝蘭之室，久而不聞其香；入鮑魚之肆，久而不覺其臭」，講嘅係",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '感覺適應'], ['B', '明適應'], ['C', '感覺調整'], ['D', '暗適應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "前攝抑制與倒攝抑制證實咗遺忘嘅。",
+    "llm_output": "答案：A",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '痕跡衰退說'], ['B', '動機說'], ['C', '提取失敗說'], ['D', '幹擾說']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺自然條件下，對心理現象嘅外部活動進行有計劃、有系統嘅觀察，從中發現心理現象發生同發展嘅規律性嘅方法稱之為",
+    "llm_output": "D",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '個案法'], ['B', '測量法'], ['C', '調查法'], ['D', '觀察法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "擁有信息並試圖進行溝通嘅人稱為",
+    "llm_output": "D. 信息源",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '信息'], ['B', '通道'], ['C', '反饋者'], ['D', '信息源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "系統地提出咗動機歸因理論嘅心理學家係",
+    "llm_output": "D. 韋納",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '海德'], ['B', '華生'], ['C', '赫爾'], ['D', '韋納']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「如果畀我一打嬰兒，我保證能夠任意培養成任何一類嘅人，或者醫生、律師、商人、同領導者，甚至於訓練成乞衣同賊」。持此言論嘅心理學家係",
+    "llm_output": "C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '弗洛伊德'], ['B', '皮亞傑'], ['C', '華生'], ['D', '勞倫茲']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "教育過程中人與人之間最基本、最重要嘅人際關係係",
+    "llm_output": "A",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '以上都正確'], ['B', '同伴關係'], ['C', '師生關係'], ['D', '異性關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "奧斯本提出咗",
+    "llm_output": "B",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '認知學習分類理論'], ['B', '教學目標分類理論'], ['C', '先行組織者嘅教學策略'], ['D', '頭腦風暴法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "有啲人遇事總係舉棋唔定，優柔寡斷。呢個說明佢哋嘅意志缺乏",
+    "llm_output": "A. 果斷性",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '果斷性'], ['B', '自覺性'], ['C', '堅持性'], ['D', '自制性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個體所偏愛使用嘅信息加工方式稱為",
+    "llm_output": "D. 認知風格",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '認知過程'], ['B', '認知活動'], ['C', '認知類型'], ['D', '認知風格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋知覺到月亮喺鬱動嘅，而浮雲係靜止嘅，係因為",
+    "llm_output": "D. 動景運動",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '真實運動'], ['B', '誘發運動'], ['C', '自主運動'], ['D', '動景運動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "無理由咁重複啲思想同行為，例如有不斷要洗手嘅要求，無法停止去諗某一個詞等，屬於",
+    "llm_output": "B. 強迫症",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '廣泛性焦慮障礙'], ['B', '強迫症'], ['C', '創傷後應激症'], ['D', '恐懼症']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "對於一個較長系列嘅材料，中間部分記憶嘅效果差，兩端效果好，呢係由於中間部分受到邊種抑制嘅幹擾",
+    "llm_output": "A. 倒攝",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '倒攝'], ['B', '單一'], ['C', '前攝'], ['D', '雙重']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "從學習程度方面嚟講，學習重複嘅次數越多，就越唔容易遺忘。當學習重複嘅次數達到能啱啱好完全背誦嘅（）時，對阻止遺忘嘅效果最好。",
+    "llm_output": "C. 200%以上",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '150%'], ['B', '200%'], ['C', '200%以上'], ['D', '110%']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人哋睇電影時，電影copy上嘅一幅幅畫面係唔鬱嘅，而人哋見到嘅卻係連貫嘅動作，活動嘅景物。呢運用嘅心理學原理係",
+    "llm_output": "答案：D",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '感覺適應'], ['B', '感覺對比'], ['C', '感覺後象'], ['D', '聯覺']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "清晨起牀後背誦嘢效果好，因為冇（）嘅影響。",
+    "llm_output": "答案：B",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '前攝抑制'], ['B', '後攝抑制'], ['C', '分化抑制'], ['D', '外抑制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小林成日返學遲到，為此老師取消小林一次春遊特權，以後佢好少遲到。呢係運用咗行為原理。",
+    "llm_output": "C. 取消性懲罰",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '呈現性懲罰'], ['B', '負強化'], ['C', '取消性懲罰'], ['D', '正強化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "短時記憶嘅容量為",
+    "llm_output": "答案：C. 7+2組塊",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '5+2組塊'], ['B', '4+2組塊'], ['C', '7+2組塊'], ['D', '6+2組塊']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "後學習嘅材料對先學習嘅材料發生幹擾作用而造成嘅遺忘係",
+    "llm_output": "答案：C",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '遺忘規律'], ['B', '後攝抑制'], ['C', '前攝抑制'], ['D', '接近律']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊種感覺屬於內部感覺",
+    "llm_output": "D. 平衡覺",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '嗅覺'], ['B', '味覺'], ['C', '視覺'], ['D', '平衡覺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上第一個標準化嘅智力量表係",
+    "llm_output": "答案：A.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '韋克斯勒智力量表'], ['B', '斯坦福一比奈智力量表'], ['C', '瑞文推理測驗'], ['D', '比奈一西蒙智力量表']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "表示測驗結果跨時間嘅一致性嘅指標係",
+    "llm_output": "A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '再測信度'], ['B', '內容信度'], ['C', '內部一致性信度'], ['D', '構想效度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "魚，我所欲也。熊掌亦我所欲也，二者不可兼得」所引發嘅動機衝突係",
+    "llm_output": "答案：C",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '雙避衝突'], ['B', '多重趨避衝突'], ['C', '趨避衝突'], ['D', '雙趨衝突']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以嬰兒理解客體恆常性為重要特徵嘅認知發展階段係",
+    "llm_output": "C. 前運算階段",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '具體運算階段'], ['B', '感知運算階段'], ['C', '前運算階段'], ['D', '開式運算階段']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺小學低年級嘅某次數學測驗中，由於數學試卷中試題嘅文字表述過於複雜，學生唔能完全理解題題目嘅要求，亦唔能正確地解答題目，導致呢份試卷無法正確測量學生數學學習嘅狀況。據此可以判斷呢次數學測驗係",
+    "llm_output": "答案：D\n\n理由：呢次數學測驗因為試題嘅文字表述過於複雜，導致學生唔能完全理解題目嘅要求，亦唔能正確地解答題目，從而無法正確測量學生數學學習嘅狀況。呢種情況下，測驗嘅效度（效度係指測驗能夠準確測量所要測量嘅內容）就會下降，故此係低效度嘅測驗。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '低信度嘅'], ['B', '高信度嘅'], ['C', '高效度嘅'], ['D', '低效度嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人嘅認識嘅傾向性係",
+    "llm_output": "D. 動機",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '興趣'], ['B', '需要'], ['C', '理想'], ['D', '動機']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "感受性嘅高低係用()嘅大小嚟衡量嘅，佢哋之間係()關係。",
+    "llm_output": "答案：C. 感覺閾限，反比",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '絕對感覺閾限，反比'], ['B', '差別閾限，正比'], ['C', '感覺閾限，反比'], ['D', '感覺閾限，正比']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "富有競爭性、敵對性，有好強嘅時間緊迫感，呢主要係（）嘅特點。",
+    "llm_output": "D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'B型人格'], ['B', '內向型人格'], ['C', '外向型人格'], ['D', 'A型人格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "老虎鉗可以當作錘子用，縫製衫嘅棉線可以裁紙，呢克服咗()嘅限制。",
+    "llm_output": "D. 功能固著",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '知識經驗'], ['B', '思維定勢'], ['C', '對問題嘅認知方式'], ['D', '功能固著']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "首創社會測量法嘅心理學家係",
+    "llm_output": "答案：D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '安德森'], ['B', '阿希'], ['C', '費斯廷格'], ['D', '莫雷諾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「情緒。只係一種身體狀態嘅感覺」係() 嘅觀點。",
+    "llm_output": "答案：C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '阿諾德'], ['B', '蘭格'], ['C', '詹姆斯'], ['D', '拉扎勒斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小剛一按時做完作業，家長就唔再批評佢，令佢逐漸養成按時做作業嘅習慣。呢係運用咗行為原理嘅。",
+    "llm_output": "正確答案：A. 正強化",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '正強化'], ['B', '負強化'], ['C', '取消性懲罰'], ['D', '呈現性懲罰']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上第一套智力測驗量表係（）編制嘅。",
+    "llm_output": "B.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '巴甫洛夫'], ['B', '韋克斯勒'], ['C', '吉爾福特'], ['D', '比奈同西蒙']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個體活動嘅內喺心理過程或內部驅力係指",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '動機'], ['B', '需要'], ['C', '興趣'], ['D', '能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喬姆斯基提出嘅語言獲得理論係",
+    "llm_output": "C. 先天決定論",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '相互作用論'], ['B', '循序漸進論'], ['C', '先天決定論'], ['D', '強化學說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "認知過程包括感覺知覺記憶、思維想象等過程，其中認知嘅核心係",
+    "llm_output": "A. 思維",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '思維'], ['B', '記憶'], ['C', '感覺'], ['D', '知覺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「活潑好動、行動敏捷」係人嘅() 特徵嘅表現。",
+    "llm_output": "D. 氣質",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '興趣'], ['B', '性格'], ['C', '能力'], ['D', '氣質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據艾森克嘅氣質理論，一個人表現為溫和、鎮定、安寧、善於剋制自己。呢種人嘅氣質屬於",
+    "llm_output": "B.穩定內向型",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔穩定外向型'], ['B', '穩定內向型'], ['C', '唔穩定內向型'], ['D', '穩定外向型']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "動機與工作效率嘅關係係",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一種直線關係'], ['B', '倒U形曲線關係'], ['C', '一種交叉關係'], ['D', '一種線性關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "教師用紅筆批改作業係利用咗知覺嘅（）。",
+    "llm_output": "C. 選擇性",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '恆常性'], ['B', '整體性'], ['C', '選擇性'], ['D', '理解性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "心理過程包括",
+    "llm_output": "答案：D",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '感覺過程、知覺過程、意志過程'], ['B', '知覺過程、情感過程、行為過程'], ['C', '認識過程、情感過程、意志過程'], ['D', '認識過程、情感過程、行為過程']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "為破解喼嘅密碼，逐一嘗試所有可能嘅密碼組合，呢種問題解決嘅策略稱為",
+    "llm_output": "D",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '手段-目嘅分析'], ['B', '算法'], ['C', '啟發式'], ['D', '逆向搜索']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "關於點樣踩單車嘅記憶屬於",
+    "llm_output": "D. 程序性記憶",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '外顯記憶'], ['B', '陳述性記憶'], ['C', '情境記憶'], ['D', '程序性記憶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人們喺大多數活動所需要嘅能力，如觀察力、記憶力、想象力等，係人所共 有嘅最基本嘅能力，佢屬於",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '創造能力'], ['B', '一般能力'], ['C', '特殊能力'], ['D', '認知能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "皮亞傑認知發展階段理論嘅四個階段依次係：",
+    "llm_output": "答案：A",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '前運算階段、具體運算階段、形式運算階段與感知運動階段'], ['B', '前運算階段、具體運算階段、形式運算階段、感知運動階段'], ['C', '感知運動階段、前運算階段、具體運算階段、形式運算階段'], ['D', '感知運動階段、前運算階段、形式運算階段、具體運算階段']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個體嘅每一種需要從產生到滿足方式都反映咗個人所處社會環境嘅特點，係需要嘅（）。",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會性'], ['B', '起伏性'], ['C', '依賴性'], ['D', '歷史性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "精神分析學派嘅代表人物係",
+    "llm_output": "D. 弗洛伊德",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '詹姆斯'], ['B', '艾賓浩斯'], ['C', '馬斯洛'], ['D', '弗洛伊德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個體嘅心理過程包括",
+    "llm_output": "C. 認識過程、情感過程、意志過程",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '感覺過程、知覺過程、意志過程'], ['B', '認識過程、情感過程、行為過程'], ['C', '認識過程、情感過程、意志過程'], ['D', '知覺過程、情感過程、行為過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下列屬於逃避性心理防禦機制嘅係",
+    "llm_output": "C. 壓抑",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '補償'], ['B', '轉移'], ['C', '壓抑'], ['D', '升華']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "記憶最重要嘅品質係記憶嘅",
+    "llm_output": "C. 持久性",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '準確性'], ['B', '準備性'], ['C', '持久性'], ['D', '敏捷性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小燕喺兩歲時就學識咗背「牀前明月光，疑是地上霜……」呢首唐詩。按加涅嘅學習結果分類， 呢度發生嘅學習係。",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '態度'], ['B', '語信息'], ['C', '智慧技能'], ['D', '動作技能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "心理狀態係指人喺某一時刻嘅心理活動水平。以下屬於心理狀態嘅係",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '勤勞'], ['B', '心境'], ['C', '態度'], ['D', '記憶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "某中學生用韋氏智力量表進行智力測驗得分90分，常模均分84分，常模標準差10分。咁呢位 同學嘅智力商數係",
+    "llm_output": "答案：B",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '106'], ['B', '96'], ['C', '109'], ['D', '100']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「一千個人嘅眼裏。有一千個哈姆雷特」，呢表明人嘅心理具有",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '目嘅性'], ['B', '主觀性'], ['C', '客觀性'], ['D', '社會性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據言語嘅描述同圖樣嘅示意，喺人腦中產生相應嘅新形象嘅心理過程叫",
+    "llm_output": "C. 創造想象",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '再造想象'], ['B', '表象'], ['C', '創造想象'], ['D', '幻想']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "研究者喺進行實驗研究時，必須考慮到三類變量，分別係自變量、因變量同",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '控制變量'], ['B', '不可控制變量'], ['C', '環境變量'], ['D', '反應變量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "能解釋倒攝抑制現象嘅遺忘理論係",
+    "llm_output": "答案：B",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '幹擾理論'], ['B', '線索-依存理論'], ['C', '動機-遺忘理論'], ['D', '衰退理論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "信息由感覺記憶進入短時記憶嘅必要條件係",
+    "llm_output": "答案：C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '儲存'], ['B', '複述'], ['C', '注意'], ['D', '編碼']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下列標準化測驗中唔屬於智力測驗嘅係",
+    "llm_output": "D. 瑞文測驗",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '斯坦福-比奈量表'], ['B', '明尼蘇達測驗'], ['C', '韋克斯勒量表'], ['D', '瑞文測驗']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據知覺嘅對象，可以將知覺分為空間知覺、時間知覺同",
+    "llm_output": "A",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '深度知覺'], ['B', '方位知覺'], ['C', '形狀知覺'], ['D', '運動知覺']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人們為咗生存、證明自身價值、甚至尋求一種樂趣而努力工作嘅動機，被稱為",
+    "llm_output": "D. 成就動機",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '生理性動機'], ['B', '交往動機'], ['C', '工作動機'], ['D', '成就動機']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺解決問題中，將各種可能達到目標嘅方法都列出嚟，再一一嘗試，然後再確定邊一種為正確答案。呢種問題解決嘅策略同方法稱為",
+    "llm_output": "B",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '啟發式'], ['B', '手段—目嘅分析法'], ['C', '逆向工作法'], ['D', '算法式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "重視對人類異常行為嘅分析，強調心理學應該研究無意識現象嘅心理學家係",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '精神分析學派'], ['B', '機能主義心理學'], ['C', '人本主義心理學'], ['D', '行為主義心理學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "心理學係研究人嘅（）嘅科學。",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '心理過程'], ['B', '心理現象'], ['C', '個性心理'], ['D', '認識過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "從信息加工嘅觀點睇，記憶嘅基本過程係",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '輸入-加工-使用'], ['B', '編碼-儲存-提取'], ['C', '輸入-編碼-提取'], ['D', '儲存-加工-攝取']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "安靜沉穩、寡言少語、情緒唔易外露、自制力強，呢類人嘅氣質屬於",
+    "llm_output": "B",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '膽汁質'], ['B', '抑鬱質'], ['C', '黏液質'], ['D', '多血質']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺傳統嘅智力觀中，關於智力同創造力嘅關係，比較一致嘅睇法係",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '高智力必有高創造力'], ['B', '高創造力必有高智力'], ['C', '高創造力未必有高智力'], ['D', '創造力與智力無關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "下列唔屬於反射活動嘅係",
+    "llm_output": "答案：A",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '黑猩猩解決問題獲取食物嘅行為'], ['B', '學生聽到鈴聲進教室上課'], ['C', '草履蟲嘅趨利避害反應'], ['D', '人嘅手被火燙便即刻移開']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "2017年5月5日，觀看法國「前進」運動總統候選人馬克龍與極右翼國民陣線總統候選人勒龐激烈辯論嘅記憶屬於",
+    "llm_output": "答案：B",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '程序性記憶'], ['B', '陳述性記憶'], ['C', '語義記憶'], ['D', '情景記憶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "聽手錶嘅滴答聲，時而有時而無，呢種心理現象係",
+    "llm_output": "答案：D",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '注意起伏'], ['B', '注意轉移'], ['C', '注意分配'], ['D', '注意分散']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "無論係白天定係黑夜，人哋總係將煤知覺為黑色嘅，呢係由於人嘅知覺具有",
+    "llm_output": "A. 恆常性",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '恆常性'], ['B', '理解性'], ['C', '選擇性'], ['D', '整體性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺鮮花盛開、花草蔥蘢嘅陽春三月，人哋常有「花在微笑、草在點頭」嘅愉悅體驗。呢種情緒狀態係",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '應激'], ['B', '心境'], ['C', '激情'], ['D', '熱情']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "一張紅紙，一半有陽光直射，一半冇，顏色嘅明度、飽和度大唔相同，但我哋仍知覺為一張紅紙。呢係由於知覺具有",
+    "llm_output": "答案：B",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '選擇性'], ['B', '整體性'], ['C', '恆常性'], ['D', '理解性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "某學生積極參加班級活動，與同學團結友愛，對教師熱愛尊重，體現咗性格上嘅（）特徵。",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '理智'], ['B', '態度'], ['C', '意志'], ['D', '情緒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "王紅守喺天文望遠鏡前足足盯咗兩個鐘，要觀察嘅小行星終於出現喺視野裏。呢反映咗注意嘅",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '調節功能'], ['B', '保持功能'], ['C', '選擇功能'], ['D', '監督功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "智力嘅三維結構說嘅提出者係",
+    "llm_output": "D. 基爾福特",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '塞斯登'], ['B', '加德納'], ['C', '斯皮爾曼'], ['D', '基爾福特']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺處理問題過程中表現出嚟嘅主要取決於人嘅先天稟賦嘅能力稱為",
+    "llm_output": "D. 一般能力",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '液體能力'], ['B', '特殊能力'], ['C', '晶體能力'], ['D', '一般能力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「超越 IQ」一書中提出智力嘅三元理論嘅係",
+    "llm_output": "A. 加德納",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '加德納'], ['B', '皮亞傑'], ['C', '斯騰伯格'], ['D', '戴斯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺平常測驗中，選擇題考察嘅係",
+    "llm_output": "D",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '保持'], ['B', '回憶'], ['C', '再認'], ['D', '識記']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "多血質嘅氣質類型，其高級神經活動類型屬於",
+    "llm_output": "D. 強、平衡、唔靈活",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '強而唔平衡'], ['B', '弱型'], ['C', '強、平衡、靈活'], ['D', '強、平衡、唔靈活']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "主張情緒係對機體變化嘅知覺嘅情緒理論係",
+    "llm_output": "A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '詹姆斯—蘭格理論'], ['B', '坎農—巴德理論'], ['C', '沙赫特—辛格理論'], ['D', '滕斯伯格理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "若想解決一個中等難度嘅問題，所需要嘅動機強度最好係",
+    "llm_output": "D. 好高",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '零'], ['B', '中等'], ['C', '好低'], ['D', '好高']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "認知風格差異性具體表現為：",
+    "llm_output": "A. 以上都係",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '以上都係'], ['B', '場依存性與場獨立性'], ['C', '複合型與發散型'], ['D', '衝動型與沉思型']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "藉助於想象我哋可以「思接千載，視通萬裏」「精駛八極，心遊萬仞」。呢體現咗想象嘅",
+    "llm_output": "D. 替代功能",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '補充功能'], ['B', '調節功能'], ['C', '預見功能'], ['D', '替代功能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "小學中年級（8-10歲）兒童嘅概括水平處於",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '本質抽象水平'], ['B', '形象抽象水平'], ['C', '初步嘅本質抽象水平'], ['D', '直觀形象水平']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "當你夜晚喺強烈嘅車前燈面前要一段時間嘅適應係感覺（）特徵。",
+    "llm_output": "答案：C",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '暗適應'], ['B', '疲勞'], ['C', '對比'], ['D', '明適應']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "4歲左右兒童嘅大腦皮層各區嘅突觸密度已經達到頂峯，與成人相比約為",
+    "llm_output": "C. 120%",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '80%'], ['B', '150%'], ['C', '120%'], ['D', '60%']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "機械學習與有意義學習劃分嘅主要依據係。",
+    "llm_output": "答案：C",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '學生係咪理解學習材料'], ['B', '學習目嘅係解決問題定係獲得知識'], ['C', '要學習嘅主要內容係呈現定係由學生發現'], ['D', '學生係咪主動學習']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "學習後即刻訓覺，保持嘅效果往往比學習後繼續活動保持嘅效果更好，呢係由於",
+    "llm_output": "答案：D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '過度學習'], ['B', '無前攝抑制嘅影響'], ['C', '記憶嘅恢復現象'], ['D', '無倒攝抑制嘅影響']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個體喺（）情緒狀態下會出現「意識狹窄」現象。",
+    "llm_output": "答案：C",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '應激'], ['B', '激情'], ['C', '心境'], ['D', '熱情']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「憂者見之則憂，喜者見之則喜，」呢句說話主要體現情緒具有",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '感染功能'], ['B', '動機功能'], ['C', '組織功能'], ['D', '信號功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "日常生活中食完糖果再食蘋果，會覺得蘋果係酸嘅，呢種現象屬於",
+    "llm_output": "答案：D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '感覺代償'], ['B', '聯覺'], ['C', '感覺適應'], ['D', '感覺對比']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "（）係個體心理活動或行為嘅基本動力。",
+    "llm_output": "答案：D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '動機'], ['B', '興趣'], ['C', '世界觀'], ['D', '需要']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「出門睇天色，入門睇面色」，呢說明咗情緒與情感具有",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '調控功能'], ['B', '信號功能'], ['C', '健康功能'], ['D', '動力功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「食唔到提子話提子酸」喺心理防禦機制中屬於",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '文飾'], ['B', '否認'], ['C', '投射'], ['D', '反向']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "學習、研究、理解、概括、分析嘅能力係",
+    "llm_output": "C. 認知能力",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '操作能力'], ['B', '創造能力'], ['C', '認知能力'], ['D', '社會交往能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺心理學中，將個體心理活動或意識喺一定方向上活動嘅強度或緊張程度稱為",
+    "llm_output": "D. 注意嘅選擇性",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '注意嘅集中性'], ['B', '注意嘅指向性'], ['C', '注意嘅分配性'], ['D', '注意嘅選擇性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「視而不見，聽而不聞」嘅現象，典型地反映咗",
+    "llm_output": "C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '注意嘅穩定性'], ['B', '注意嘅分配性'], ['C', '注意嘅集中性'], ['D', '注意嘅指向性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "考試焦慮對學習同考試造成嘅影響係",
+    "llm_output": "答案：A",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '負面嘅'], ['B', '雙重嘅'], ['C', '降低學習效率'], ['D', '使思維更加靈活']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "老師對學生嘅品行評價受到學生嘅外貌與衣著影響。呢個說明社會認同整合信息過程中會出現",
+    "llm_output": "答案：C",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '光環效應'], ['B', '近因效應'], ['C', '刻板效應'], ['D', '首因效應']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下對前運算階段兒童思維描述唔正確嘅選項係。",
+    "llm_output": "答案：C",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '單維思維'], ['B', '思維嘅可逆性'], ['C', '思維嘅不可逆性'], ['D', '自我中心']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "認知神經科學研究發現，大腦某啲部位嘅損傷或病變會導致語言能力嘅喪失，呢支持咗（）。",
+    "llm_output": "答案：C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '語言獲得嘅社會學習理論'], ['B', '語言獲得嘅條件反射學說'], ['C', '語言獲得嘅先天因素說'], ['D', '語言獲得嘅強化學說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "提出咗10種工作有關價值觀嘅心理學家係",
+    "llm_output": "B. 霍蘭德",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '韋納'], ['B', '霍蘭德'], ['C', '羅傑斯'], ['D', '凱茨']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "認為情緒嘅中心唔喺外周神經系統，而喺中樞神經系統嘅丘腦。呢個觀點係（）提出嘅。",
+    "llm_output": "D. 坎農—巴德",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '拉扎勒斯'], ['B', '詹姆斯'], ['C', '阿諾德'], ['D', '坎農—巴德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "情緒產生嘅基本過程係刺激情景—評估—情緒。呢個觀點係（）提出嘅。",
+    "llm_output": "答案：B",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '阿諾德'], ['B', '詹姆斯'], ['C', '坎農'], ['D', '拉扎勒斯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "知覺嘅特性唔包括",
+    "llm_output": "答案：C",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '整體性'], ['B', '選擇性'], ['C', '恆常性'], ['D', '間接性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "人類個體進行社會交往有住深刻嘅心理動因，從產生行為動機嘅心理需要嚟睇，可以分為三個方面，即",
+    "llm_output": "答案：B",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '本能、合羣同自我保護嘅需要'], ['B', '本能、合作需要同自我實現嘅需要'], ['C', '本能、合作需要同自我調控嘅需要'], ['D', '本能、合羣需要同自我肯定嘅需要']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "「心唔畀使嘅話，咁白黑喺前面眼都唔見，雷鼓喺隔離耳都唔聽。」呢句講明咗人嘅心理過程離唔開",
+    "llm_output": "答案：D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '記憶'], ['B', '感知'], ['C', '思維'], ['D', '注意']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "按照精神分析學家弗洛伊德嘅觀點，好多心理障礙同心理異常問題都與個體嘅（）有關。",
+    "llm_output": "C. 早期經驗",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '遺傳因素'], ['B', '教育環境'], ['C', '早期經驗'], ['D', '人格特徵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺情緒活動中，人哋需要不斷地評價刺激事件與自身嘅關係。呢個觀點係（）提出嘅。",
+    "llm_output": "B. 巴德",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '詹姆斯'], ['B', '巴德'], ['C', '拉扎勒斯'], ['D', '阿諾德']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "軍事上嘅偽裝係運用咗知覺嘅（）",
+    "llm_output": "D. 選擇性",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '整體性'], ['B', '恆常性'], ['C', '理解性'], ['D', '選擇性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "個性心理特徵系統主要包括：能力、性格同",
+    "llm_output": "B. 氣質",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '需要'], ['B', '氣質'], ['C', '興趣'], ['D', '動機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "1909年2月，喺比爾斯等人嘅積極努力下，「美國全國心理衛生委員會」喺邊個城市成立",
+    "llm_output": "答案：D",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '紐約'], ['B', '舊金山'], ['C', '費城'], ['D', '華盛頓']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "幼兒喺屋企同學校裏見到咗大量嘅枱，掌握咗「枱」嘅概念。幼兒對「枱」呢個概念嘅學習方式係",
+    "llm_output": "答案：B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '概念整合'], ['B', '概念形成'], ['C', '概念轉變'], ['D', '概念同化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "感知過嘅事物喺人腦中留下嘅形象，稱為",
+    "llm_output": "B. 表象",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '後象'], ['B', '表象'], ['C', '幻想'], ['D', '想象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-professional_psychology",
+    "key_answer_type": "alphabet_option",
+    "question": "短時記憶嘅容量有限，大體上係（）個組塊",
+    "llm_output": "A. 7±2",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '7±2'], ['B', '3±2'], ['C', '20±2'], ['D', '10±2']]",
+    "is_correct": 1
+  }
+]

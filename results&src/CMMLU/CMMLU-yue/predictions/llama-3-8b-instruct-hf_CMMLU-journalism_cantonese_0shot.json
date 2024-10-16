@@ -1,0 +1,1722 @@
+[
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "拉斯韋爾傳播模式有五個環節，傳播學對其中第一個環節嘅研究叫做乜嘢？",
+    "llm_output": "The correct answer is A. 媒介研究 (Source Research).\n\nThe Laswell's Communication Model has five stages: Who, Says What, In Which Channel, To Whom, and With What Effect. The first stage, \"Who\", refers to the source of the message, and the study of this stage is called Source Research.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '媒介研究'], ['B', '內容研究'], ['C', '控制研究'], ['D', '受眾研究']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "登廣告嘅傳播影響係點嘅？",
+    "llm_output": "The correct answer is D. 有意圖嘅 (Intentional).\n\nThe influence of advertising on the audience is intentional, meaning that advertisers deliberately try to persuade or manipulate the audience's attitudes, beliefs, or behaviors through their messages.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自由選擇嘅'], ['B', '隨便嘅'], ['C', '強制嘅'], ['D', '有意圖嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "信息大量生產同快速傳播超過媒介空間容納能力，造成劇烈傳播反應，呢個叫乜嘢？",
+    "llm_output": "The correct answer is C. 信息爆炸 (Information Explosion).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '信息污染'], ['B', '信息匱乏'], ['C', '信息爆炸'], ['D', '信息侵略']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞傳播過程嘅主要環節係乜嘢？",
+    "llm_output": "The correct answer is B. 揀選事實—加工製作—播報傳遞—受眾接受—信息反饋。\n\nThis option accurately represents the major stages of the news transmission process:\n\n1. Selection of facts: Journalists gather and select relevant information.\n2. Processing and production: The selected facts are processed and produced into a news story.\n3. Broadcasting and transmission: The news story is broadcast or transmitted to the audience.\n4. Audience reception: The audience receives and interprets the news.\n5. Feedback: The audience provides feedback, which can influence the news production process.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '揀選事實—評價事實—播報傳遞—受眾接受—信息反饋'], ['B', '揀選事實—加工製作—播報傳遞—受眾接受—信息反饋'], ['C', '揀選事實—加工製作—分析評論—受眾接受—信息複製'], ['D', '揀選事實—加工製作—分析評論—受眾接受—信息反饋']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀20年代，美國同日本學者最睇重新聞價值構成因素中嘅邊個因素，認為佢係新聞嘅第一因素，係新聞嘅試金石？",
+    "llm_output": "The correct answer is B. 重要性 (Importance).\n\nIn the 1920s, American and Japanese scholars, such as Walter Lippmann and Harold Lasswell, emphasized the importance of importance as a key factor in determining the value of news. They believed that the most important news was that which had the greatest impact on the public's interests and well-being. This perspective is often referred to as the \"importance theory\" of news values.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '趣味性'], ['B', '重要性'], ['C', '顯著性'], ['D', '接近性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞控制嘅目標係乜嘢？",
+    "llm_output": "The correct answer is A. 新聞傳播同新聞接受嘅統一 (News transmission and news reception unity).\n\nNews control aims to control the flow of information and the way people receive and interpret it, in order to shape public opinion and influence social behavior.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新聞傳播同新聞接受嘅統一'], ['B', '新聞管理同新聞自由嘅統一'], ['C', '新聞自由同行為規範嘅統一'], ['D', '新聞責任同新聞自由嘅統一']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "有人宣洩被壓抑咗嘅慾望，呢個喺信息嘅分類上被稱做乜嘢信息？",
+    "llm_output": "The correct answer is A. 復原性信息 (Revelatory information).\n\nRevelatory information refers to information that reveals something previously unknown or suppressed, such as a secret or a hidden truth. In this case, the person is revealing a suppressed desire, which falls under the category of revelatory information.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '復原性信息'], ['B', '知識性信息'], ['C', '維持性信息'], ['D', '教育性信息']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "法西斯嘅新聞事業屬於乜嘢階段？",
+    "llm_output": "The correct answer is C. 集權主義 (Authoritarianism).\n\nUnder fascist regimes, the media is often controlled and manipulated by the government to promote the regime's ideology and suppress opposition. This is a characteristic of authoritarianism, where the government exercises significant control over the media and other institutions.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自由主義'], ['B', '社會主義'], ['C', '集權主義'], ['D', '集團壟斷資本主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "按照選擇性因素理論嘅觀點，大眾傳播嘅信息傳向受眾時遇到嘅最後一關係受眾嘅",
+    "llm_output": "The correct answer is B. 選擇性注意 (Selective Attention).\n\nAccording to the Selective Exposure Theory, the final stage of the communication process is selective attention, where the audience chooses to pay attention to or ignore the information presented to them.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '選擇性理解'], ['B', '選擇性注意'], ['C', '選擇性暴露'], ['D', '選擇性記憶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "音響喺新聞節目中最基本同最重要嘅作用係乜嘢？",
+    "llm_output": "The correct answer is B. 增加報道嘅現場感 (Increase the sense of presence in reporting).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '增加報道嘅可信性'], ['B', '增加報道嘅現場感'], ['C', '增加報道嘅生動性'], ['D', '增加報道嘅感染力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "直接導致「魔彈」被否定嘅理論係",
+    "llm_output": "The correct answer is A. 新嘅強效力論 (New Strong Force Theory).\n\nThe \"Magic Bullet\" theory, also known as the \"Single Cause\" theory, was a concept in sociology and criminology that suggested that a single factor, such as poverty or lack of education, was the primary cause of social problems like crime. However, this theory was later discredited by the discovery of the \"New Strong Force Theory\", which suggested that multiple factors, including social, economic, and psychological factors, contribute to social problems.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新嘅強效力論'], ['B', '信源嘅可信效果論'], ['C', '適度效果論'], ['D', '有限效果論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "事件消息按內容性質可以分為",
+    "llm_output": "The correct answer is A. 概貌性.\n\nEvent messages can be categorized into several types based on their content characteristics. 概貌性 (Overview-type) refers to messages that provide a general overview or summary of an event, such as a news headline or a brief summary of a story.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '概貌性'], ['B', '典型性'], ['C', '階段性'], ['D', '突發性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "如果我哋需要一種具備高度嘅綜合性、充分嘅交互性、方便性同快捷性嘅媒介，應該選擇",
+    "llm_output": "A. 網絡媒介",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '網絡媒介'], ['B', '影視媒介'], ['C', '廣播媒介'], ['D', '印刷媒介']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞媒介開展輿論監督，最常用嘅形式係",
+    "llm_output": "The correct answer is B. 新聞批評 (News Criticism).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '深度報道'], ['B', '新聞批評'], ['C', '新聞評論'], ['D', '專題報道']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺新聞傳播過程中，角色互換嘅根本目的係",
+    "llm_output": "The correct answer is D. 令受者接受傳播者嘅觀點、意圖 (To make the receiver accept the broadcaster's viewpoint, intention).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '令傳播者更加有效地為受者服務'], ['B', '令受者體驗傳播者嘅角色'], ['C', '令受者感知傳播者嘅期望'], ['D', '令受者接受傳播者嘅觀點、意圖']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "麥克盧漢媒介理論嘅中心論點係",
+    "llm_output": "The correct answer is C. 媒介係人體嘅延伸 (Media is an extension of man).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '全球村'], ['B', '媒介即訊息'], ['C', '媒介係人體嘅延伸'], ['D', '媒介有「冷」、「熱」之分']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞傳媒作為社會輿論嘅代表者，佢體現嘅應該係",
+    "llm_output": "The correct answer is C. 社會公眾嘅利益同意志 (The interests of the general public).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '政黨嘅利益同意志'], ['B', '立法機關同司法機關嘅利益同意志'], ['C', '社會公眾嘅利益同意志'], ['D', '權力機關嘅利益同意志']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞信息嘅傳播特性係",
+    "llm_output": "The correct answer is A. 及時又公開 (Timely and Open).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '及時又公開'], ['B', '公開又公正'], ['C', '及時又迅速'], ['D', '公正又及時']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "資本家直接決定新聞傳播嘅方向同規模，主要憑藉",
+    "llm_output": "The correct answer is B. 新聞資產嘅擁有權同支配權 (News assets' ownership and control rights).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '言論出版自由權'], ['B', '新聞資產嘅擁有權同支配權'], ['C', '倫理道德'], ['D', '法律法規']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺我國新聞界，新聞價值呢一概念最早係從美國同日本引入嘅。係邊個引入嘅？",
+    "llm_output": "The correct answer is A. 徐寶璜.\n\nAccording to historical records, Xu Baoquan (徐寶璜) is credited with introducing the concept of \"news value\" (新聞價值) to China's journalism from the United States in the early 20th century.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '徐寶璜'], ['B', '鄒韜奮'], ['C', '邵飄萍'], ['D', '戈公振']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞事業嘅傳播方式係",
+    "llm_output": "The correct answer is C. 點—點傳播 (Point-to-Point Transmission).\n\nIn journalism, point-to-point transmission refers to the process of transmitting news information from a source to a specific audience or recipient, often through various media channels such as newspapers, radio, television, or online platforms.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '面—點傳播'], ['B', '面—面傳播'], ['C', '點—點傳播'], ['D', '點—面傳播']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "大眾傳播嘅傳播者同受傳者可以係",
+    "llm_output": "The correct answer is D. 一班人或者一個人 (a group of people or an individual).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '好多人'], ['B', '兩個人面對面'], ['C', '一個人'], ['D', '一班人或者一個人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "編製問卷首先需要設計提問項目，呢種設計包括幾個步驟，其中第一個步驟係",
+    "llm_output": "The correct answer is B. 課題分析，提出假設 (Topic analysis, propose hypotheses).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '搵變項，編製提問'], ['B', '課題分析，提出假設'], ['C', '確定指標'], ['D', '測定指標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「自我修正」理論係以下邊個理論嘅一個重要觀點？",
+    "llm_output": "The correct answer is A. 自由主義報刊理論 (Liberalist Press Theory).\n\nThe \"self-correction\" theory is a key concept in liberalist press theory, which suggests that the media has the ability to correct itself and maintain a balance of information through the competition among different news sources and the free flow of information.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自由主義報刊理論'], ['B', '極權主義報刊理論'], ['C', '社會責任理論'], ['D', '蘇聯共產主義報刊理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "有論者認為新聞起源於人類與生俱來嘅好奇心，呢種起源觀屬於",
+    "llm_output": "The correct answer is A. 本能說 (Innate Theory).\n\nThe statement \"有論者認為新聞起源於人類與生俱來嘅好奇心\" suggests that some scholars believe that the origin of news is rooted in humans' innate curiosity, which is a key concept in the Innate Theory.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '本能說'], ['B', '信息交往說'], ['C', '意志說'], ['D', '社會需求說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞立法係指",
+    "llm_output": "The correct answer is A. 運用法律手段管理同控制新聞事業嘅程序原則同機制.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '運用法律手段管理同控制新聞事業嘅程序原則同機制'], ['B', '統治階級制定、頒布同修訂新聞法律嘅程序同過程'], ['C', '國家制定同頒布嘅有關新聞傳播嘅法律條文'], ['D', '運用新聞媒體對國家立法嘅宣傳']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一種唔係我哋必須遵循嘅傳播原則",
+    "llm_output": "The correct answer is A. 可行性原則 (Principle of Feasibility).\n\nThe other options are all important principles in journalism:\n\n* 可信性原則 (Principle of Credibility) refers to the importance of maintaining the trust and credibility of the audience.\n* 適量性原則 (Principle of Proportionality) refers to the need to balance the importance of a story with the potential harm or offense it may cause.\n* 適時性原則 (Principle of Timeliness) refers to the importance of reporting news in a timely and up-to-date manner.\n\nHowever, 可行性原則 (Principle of Feasibility) is not a widely recognized principle in journalism. It is possible that it is a concept specific to a particular context or culture, but it is not a universally accepted principle in journalism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可行性原則'], ['B', '可信性原則'], ['C', '適量性原則'], ['D', '適時性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞價值呢一概念以及新聞價值理論嘅真正形成，係喺19世紀30年代嘅",
+    "llm_output": "The correct answer is C. 德國 (Germany).\n\nThe concept of news value and the theory of news value were first developed by German journalist and philosopher Walter Lippmann in the 1920s. Lippmann's work, \"The New York Times\" and \"The Public Interest\", laid the foundation for the modern concept of news value, which emphasizes the importance of relevance, timeliness, and significance in determining what news is worth reporting.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '中國'], ['B', '美國'], ['C', '德國'], ['D', '日本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "根據便士報時期嘅現實，資產階級提出咗「新聞價值」呢一概念，其本意係對追求新聞嘅（）嘅一種概括。",
+    "llm_output": "The correct answer is C. 商業效益.\n\nAccording to the concept of \"news value\" proposed by Walter Lippmann, a journalist and media critic, news value refers to the commercial value of news, which is the degree to which a news story is likely to attract readers, listeners, or viewers and generate revenue for the media organization. This concept was first introduced in Lippmann's 1922 book \"Public Opinion\" and has since become a fundamental principle in journalism.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '輿論效應'], ['B', '娛樂功能'], ['C', '商業效益'], ['D', '社會效益']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺新聞傳播三要素中，除咗事實同新聞接受者之外，另一個係",
+    "llm_output": "The correct answer is B. 媒體 (Media).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新聞報道者'], ['B', '媒體'], ['C', '經營管理者'], ['D', '把關人']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "關於人類傳播嘅演進規律唔正確嘅係",
+    "llm_output": "The correct answer is C. 傳播媒介嘅發展係替代式嘅，新媒介使一切傳統媒介必然消亡\n\nThis option is incorrect because the development of communication media is not a zero-sum game, where new media replaces old media entirely. Instead, new media often coexist and complement traditional media, leading to a more complex and diverse media landscape.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '傳播媒介嘅發展呈現加速度趨勢'], ['B', '傳播媒介嘅發展係疊加式嘅，新老媒介互相競爭又互相促進'], ['C', '傳播媒介嘅發展係替代式嘅，新媒介使一切傳統媒介必然消亡'], ['D', '傳播媒介嘅發展貫穿人類歷史嘅始終']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "直接導致「魔彈」被否定嘅理論係",
+    "llm_output": "The correct answer is A. 有限效果論 (Limited Effect Theory).\n\nThe \"Magic Bullet\" theory, also known as the \"Limited Effect Theory\", was a concept developed by Walter Lippmann in the 1920s. It suggests that mass media has a limited impact on people's attitudes and behaviors, and that individuals are not easily swayed by propaganda or persuasive messages. This theory was directly challenged by the discovery of the \"boomerang effect\", where people's attitudes and behaviors actually changed in the opposite direction of what was intended by the message.\n\nSo, the correct answer is A. 有限效果論 (Limited Effect Theory).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '有限效果論'], ['B', '新嘅強效力論'], ['C', '信源嘅可信效果論'], ['D', '適度效果論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "播音員同主持人喺面臨偶發困境或需要轉換對象時，能夠轉承自然，而且語言豐富多彩，呢屬於創造性思維中嘅",
+    "llm_output": "The correct answer is D. 靈活性 (Flexibility).\n\nAccording to the context, the question is describing the ability of a broadcaster or host to think on their feet and adapt to unexpected situations or changes in audience, using natural and rich language. This is an example of flexibility, which is one of the key components of creative thinking.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '流暢性'], ['B', '獨創性'], ['C', '自然性'], ['D', '靈活性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "而家嘅世界，信息侵略",
+    "llm_output": "正確答案：C. 已經成事實",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '令黑客受益'], ['B', '仲未嚟臨'], ['C', '已經成事實'], ['D', '可能引致戰爭爆發']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞觀指嘅係",
+    "llm_output": "The correct answer is B. 對新聞嘅總體睇法 (Overall perspective on news).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '對新聞嘅一般睇法'], ['B', '對新聞嘅總體睇法'], ['C', '對新聞嘅具體睇法'], ['D', '對新聞嘅正確睇法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀50－60年代，西方新聞學同傳播學研究中，對新聞價值嘅研究頗為突出嘅係蓋爾頓同魯奇嘅",
+    "llm_output": "The correct answer is A. 「選擇性傳播模式」 (Selective Dissemination Model).\n\nGaltung and Ruge's work on the Selective Dissemination Model (1965) is a seminal study in the field of journalism and communication research, which examines how news values influence the selection and dissemination of news.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「選擇性傳播模式」'], ['B', '「輻射性傳播模式」'], ['C', '「選擇性守門模式」'], ['D', '「非羣體化傳播模式」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "中國第一個報業集團係",
+    "llm_output": "The correct answer is B. 人民日報報業集團 (People's Daily Newspaper Group).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '廣州日報報業集團'], ['B', '人民日報報業集團'], ['C', '四川日報報業集團'], ['D', '光明日報報業集團']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞反映社會生活嘅手段係",
+    "llm_output": "The correct answer is D. 忠實 (Truthful).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '虛幻冥想'], ['B', '邏輯推理'], ['C', '藝術再現'], ['D', '忠實']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「合理想象」嘅做法喺新聞報道中",
+    "llm_output": "The correct answer is D. 允許\n\n\"合理想象\" (reasonable imagination) is a journalistic principle that allows journalists to use their imagination to fill in gaps in the information they have, as long as it is reasonable and does not compromise the accuracy of the report.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '唔允許'], ['B', '無所謂'], ['C', '視情況而定'], ['D', '允許']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "語言嘅抽象程度有高低之分，抽象嘅程度越高，佢同具體實際嘅依存關係就越？",
+    "llm_output": "The correct answer is D. 間接 (Indirect).\n\nThe question is referring to the concept of abstraction in language, which refers to the degree to which a concept or idea is removed from concrete reality. The higher the level of abstraction, the more removed it is from concrete reality, and the more indirect the relationship between the abstract concept and the concrete reality it represents.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '有關聯'], ['B', '直接'], ['C', '無關聯'], ['D', '間接']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊個係拉斯韋爾嘅三功能中嘅宣傳作用",
+    "llm_output": "The correct answer is C. 協調社會關係.\n\nLasswell's three functions of communication are:\n\n1. Who says what to whom through which channel?\n2. Who says what to whom through which channel?\n3. Who receives what said from whom through which channel?\n\nThe third function, \"Who receives what said from whom through which channel?\", is about the role of communication in coordinating social relationships. This function refers to the way in which communication helps to maintain and modify social relationships, including the exchange of information, ideas, and attitudes between individuals and groups.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '分析傳播內容'], ['B', '監視社會環境'], ['C', '協調社會關係'], ['D', '傳衍社會遺產']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "決定自我傳播活躍程度嘅係人腦信息庫嘅",
+    "llm_output": "The correct answer is C. 內儲信息量 (Internal Information Storage).\n\nAccording to the concept of Self-Organizing Propaganda (SOP) in journalism, the self-activating degree of self-propaganda is determined by the internal information storage of the human brain, which refers to the individual's existing knowledge, beliefs, and values that influence their perception and processing of information.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '網絡信息量'], ['B', '社會信息量'], ['C', '內儲信息量'], ['D', '外存信息量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "導致羣眾對典型宣傳產生唔真實感嘅主要原因係",
+    "llm_output": "The correct answer is B. 有意拔高典型 (Intentional exaggeration of typical cases).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '報道數量過大'], ['B', '有意拔高典型'], ['C', '報道篇幅長'], ['D', '報道時間集中']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一種唔屬於傳播者嘅責任",
+    "llm_output": "The correct answer is A. 國際性責任 (International responsibility).\n\nAccording to the concept of responsibility in journalism, the three types of responsibility are:\n\n1. 契約性責任 (Contractual responsibility): refers to the responsibility to fulfill the obligations and commitments made to the audience, such as providing accurate and reliable information.\n2. 使命性責任 (Mandate responsibility): refers to the responsibility to fulfill the mission and goals of the organization or institution, such as promoting public interest and serving the community.\n3. 法規性責任 (Legal responsibility): refers to the responsibility to comply with laws and regulations, such as copyright laws and defamation laws.\n\n國際性責任 (International responsibility) is not a type of responsibility in journalism, as it is not a concept that is directly related to the duties and obligations of journalists or media organizations.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國際性責任'], ['B', '使命性責任'], ['C', '契約性責任'], ['D', '法規性責任']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺無產階級新聞史上，第一個明確使用報刊工作「黨性」概念，並對其內容作出系統論述嘅係",
+    "llm_output": "The correct answer is A. 毛澤東 (Mao Zedong).\n\nMao Zedong was the first to explicitly use the concept of \"party nature\" (黨性) in the history of the proletariat press, and systematically expounded on its content.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '毛澤東'], ['B', '馬克思'], ['C', '恩格斯'], ['D', '列寧']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "要保持社會主義新聞事業永遠屬於人民嘅根本屬性，就必須堅持",
+    "llm_output": "The correct answer is A. 對黨負責同對人民負責相一致嘅原則.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '對黨負責同對人民負責相一致嘅原則'], ['B', '新聞嘅指導性原則'], ['C', '正面宣傳為主嘅方針'], ['D', '新聞嘅真實性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞事業產生同發展嘅根本動力係",
+    "llm_output": "The correct answer is B. 生產社會化程度提高帶嚘信息需求增長。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '市場經濟同資本主義生產方式'], ['B', '生產社會化程度提高帶嚟嘅信息需求增長'], ['C', '文化發達程度'], ['D', '技術進展同政治民主']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞傳媒對青少年中出現嘅「追星現象」嘅批評屬於",
+    "llm_output": "The correct answer is C. 對值得關注嘅社會現象嘅監督 (Monitoring of socially significant phenomena worth paying attention to).\n\nThe \"追星現象\" (pursuing celebrity phenomenon) refers to the phenomenon of young people being obsessed with celebrities and trying to imitate their behavior, fashion, and lifestyle. News media criticizing this phenomenon is monitoring a socially significant phenomenon worth paying attention to, as it reflects the values and attitudes of young people and the impact of celebrity culture on society.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '對決策者同管理者行為嘅監督'], ['B', '對決策執行過程嘅監督'], ['C', '對值得關注嘅社會現象嘅監督'], ['D', '對決策出臺過程嘅監督']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個唔係印刷媒介嘅特點",
+    "llm_output": "The correct answer is B. 稍縱即逝 (Fleeting).\n\nThe other options are characteristics of printed media:\n\nA. 長期保存 (Long-term preservation) - Printed materials can be preserved for a long time.\nC. 迅速大量生產 (Rapid mass production) - Printed materials can be produced quickly and in large quantities.\nD. 容納信息多 (Capacity to carry a lot of information) - Printed materials can carry a significant amount of information.\n\nHowever, printed materials are not fleeting, as they can be preserved for a long time.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '長期保存'], ['B', '稍縱即逝'], ['C', '迅速大量生產'], ['D', '容納信息多']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞編排安排結構要遵循嘅三個重要概念係",
+    "llm_output": "The correct answer is C. 峯谷、節奏、分段.\n\nThe three important concepts that news arrangement and structure should follow are:\n\n1. 峯谷 (peak-valley): refers to the balance between the most important and attention-grabbing information (peak) and the less important information (valley) in the news report.\n2. 節奏 (rhythm): refers to the pace and flow of the news report, including the use of transitions, pauses, and emphasis to create a sense of rhythm and engagement.\n3. 分段 (segmentation): refers to the division of the news report into clear and logical sections or segments, such as introduction, body, and conclusion, to make it easier to follow and understand.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '標題、片花、結尾'], ['B', '籌劃、組織、編排'], ['C', '峯谷、節奏、分段'], ['D', '優化、集納、配合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺西方各國嘅新聞評議制度中，邊個國家嘅新聞評議會因其體制完備、組成合理、成效顯著而為各國所效仿？",
+    "llm_output": "The correct answer is A. 瑞典 (Sweden).\n\nSweden's Press Council (Pressens Opinionsnämnd) is considered one of the most effective and influential press councils in the world, known for its comprehensive and well-structured system of self-regulation. It has been a model for many other countries, including the UK, Canada, and Australia.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '瑞典'], ['B', '美國'], ['C', '日本'], ['D', '英國']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "傳播學嘅定量研究方法之一係",
+    "llm_output": "The correct answer is A. 邏輯歸納法 (Logical Induction Method).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯歸納法'], ['B', '客觀描述法'], ['C', '歷史比較法'], ['D', '內容分析法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "日本新聞學家稻葉三千男話：決定新聞價值嘅最終標準係",
+    "llm_output": "The correct answer is B. 普遍興趣 (Universal interest).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '重要性'], ['B', '普遍興趣'], ['C', '真實性'], ['D', '讀者嘅反應']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "資產階級自由主義新聞思想嘅要害係",
+    "llm_output": "The correct answer is A. 觀點嘅公開市場 (Open Market of Views).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '觀點嘅公開市場'], ['B', '反對政府幹預'], ['C', '自我修正過程'], ['D', '強調媒介自律']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「寧要無政府嘅報紙、唔要無報紙嘅政府」，提出呢一觀點嘅著名資產階級政治家係",
+    "llm_output": "The correct answer is A. 約翰·密爾 (John Milton).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '約翰·密爾'], ['B', '約翰·彌爾頓'], ['C', '華盛頓'], ['D', '託馬斯·傑斐遜']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀初，第一個將新聞價值理論引入中國嘅係",
+    "llm_output": "The correct answer is A. 邵飄萍 (Shao Piaoping).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邵飄萍'], ['B', '戈公振'], ['C', '蔡元培'], ['D', '徐寶璜']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "廣播新聞編輯最重要嘅工作係",
+    "llm_output": "The correct answer is A. 組織稿件 (Organizing the script).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '組織稿件'], ['B', '籌劃選題'], ['C', '內容把關'], ['D', '選用同組織音響']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊種傳播效果研究理論認為「大眾傳媒對某啲事情或問題嘅強調程度，同受眾對其重視程度構成咗強烈嘅正比關係」。",
+    "llm_output": "The correct answer is B. 認知一致論 (Agenda-Setting Theory).\n\nAgenda-Setting Theory, proposed by Maxwell McCombs and Donald Shaw in 1972, suggests that the media's coverage of certain issues or topics influences the public's perception of their importance, with the media's emphasis on certain issues corresponding to the public's perceived importance of those issues.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '文化規範論'], ['B', '認知一致論'], ['C', '議程設置論'], ['D', '沉默螺旋論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對「議題」嘅唔同類型進行分類研究嘅係",
+    "llm_output": "The correct answer is B. 麥庫姆斯 (McCombs).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '韋伯'], ['B', '麥庫姆斯'], ['C', '溫達爾'], ['D', '李普曼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "明確地提出「全黨辦報，羣眾辦報」主張嘅係",
+    "llm_output": "The correct answer is D. 毛澤東 (Mao Zedong).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '列寧'], ['B', '馬克思'], ['C', '恩格斯'], ['D', '毛澤東']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "從參與者嘅角色嚟講，網絡傳播唔同於大眾傳播嘅係",
+    "llm_output": "The correct answer is C. 信息傳播者同信息接受者嘅角色可不斷進行互換。\n\nIn traditional mass media, the roles of information sender and receiver are typically fixed, with the sender being the media outlet and the receiver being the audience. In contrast, online communication allows for a more dynamic and interactive process, where individuals can switch between the roles of sender and receiver, and even become both at the same time. This is known as the \"sender-receiver\" or \"sender-receiver-receiver\" model, where individuals can create, disseminate, and receive information in a continuous cycle.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '網絡用戶都以充當信息傳播者為目標'], ['B', '參與者即傳播者'], ['C', '信息傳播者同信息接受者嘅角色可不斷進行互換'], ['D', '網絡用戶都係信息觀察者']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「狗咬人唔係新聞，人咬狗先係新聞」呢一觀點嘅係",
+    "llm_output": "The correct answer is C. 普利策 (Pulitzer). The quote \"Dogs biting people is not news, but people biting dogs is news\" is often attributed to Joseph Pulitzer, an Austrian-born newspaper publisher and journalist who is known for establishing the Pulitzer Prizes.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '本傑明'], ['B', '博加特'], ['C', '普利策'], ['D', '龐德']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "有位傳紀作家形容為「猶如行為科學嘅達爾文」嘅係",
+    "llm_output": "The correct answer is B. 霍夫蘭 (Hofmann).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '勒溫'], ['B', '霍夫蘭'], ['C', '拉斯韋爾'], ['D', '李普曼']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「論出版自由」嘅作者係",
+    "llm_output": "The correct answer is C. 彌爾頓 (Milton).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '伏爾泰'], ['B', '盧梭'], ['C', '彌爾頓'], ['D', '約翰·穆勒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "被譽為中國「新聞教育第一人」嘅係",
+    "llm_output": "The correct answer is C. 徐寶璜 (Xu Baoquan). Xu Baoquan is often referred to as the \"Father of Chinese Journalism Education\" and is considered one of the pioneers of journalism education in China.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '邵飄萍'], ['B', '王韜'], ['C', '徐寶璜'], ['D', '戈公振']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞理論回答新聞學中嘅",
+    "llm_output": "The correct answer is A. 根本問題 (Fundamental questions).\n\nIn journalism, \"基本問題\" (fundamental questions) refers to the core questions that journalists ask themselves when reporting a story, such as \"Who?\", \"What?\", \"When?\", \"Where?\", \"Why?\", and \"How?\". These questions help journalists to gather and present information in a clear and concise manner.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '根本問題'], ['B', '所有問題'], ['C', '一般問題'], ['D', '業務問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「地球村」嘅預言係由下面邊位學者提出嚟嘅？",
+    "llm_output": "The correct answer is A. 梅羅維茨 (Marshall McLuhan). Marshall McLuhan is a Canadian philosopher and media theorist who is known for his concept of the \"Global Village\" (地球村), which refers to the idea that the world is becoming a smaller and more interconnected place through the use of technology.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '梅羅維茨'], ['B', '麥克魯漢'], ['C', '伊尼斯'], ['D', '施拉姆']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "播音員同主持人喺播報同主持節目時，對突發情況或某種失誤作出迅速有效反應嘅能力屬於",
+    "llm_output": "正確答案：D. 應變能力",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '反應能力'], ['B', '適應能力'], ['C', '調整能力'], ['D', '應變能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "鄧小平喺「西南區新聞工作會議上嘅報告」中，將「拿筆杆子」睇作係",
+    "llm_output": "The correct answer is C. 實行領導嘅主要方法 (Implementing leadership's main method).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '普及文化嘅主要方法'], ['B', '宣傳政策嘅主要方法'], ['C', '實行領導嘅主要方法'], ['D', '傳播知識嘅主要方法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "推鏡頭係指",
+    "llm_output": "The correct answer is B. 攝像機固定喺一個支點上，沿水平軸或垂直軸運動拍攝嘅鏡頭\n\nPush-pull shot refers to a camera movement where the camera is fixed to a pivot point and moves along a horizontal or vertical axis to create a sense of depth or to emphasize a particular element in the scene.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '攝像機隨物體運動而進行拍攝嘅鏡頭'], ['B', '攝像機固定喺一個支點上，沿水平軸或垂直軸運動拍攝嘅鏡頭'], ['C', '攝像機變化焦距使畫面框架逐漸遠離被攝對象嘅鏡頭'], ['D', '同拉鏡頭運動方向相反嘅一種拍攝方式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "廣播新聞專題中除咗運用表達等語言手段外，仲將（）作為表現新聞事實、表達思想情感唔可或缺嘅符號。",
+    "llm_output": "The correct answer is A. 音響 (Sound).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '音響'], ['B', '抒情'], ['C', '描寫'], ['D', '議論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "指紀者可以通過一切正當嘅手段自由採訪新聞嘅權力叫做",
+    "llm_output": "The correct answer is C. 採訪權 (Investigative Power).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '報道權'], ['B', '安全保護權'], ['C', '採訪權'], ['D', '批評權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對傳播嘅過程，拉斯韋爾提出嘅模式係",
+    "llm_output": "The correct answer is A. 對稱模式 (Symmetrical Model).\n\nThe Symmetrical Model, also known as the \"hypodermic needle model\", was proposed by Harold Lasswell in 1948. It suggests that the communication process is a one-way flow from the sender to the receiver, with the sender having complete control over the message and the receiver passively receiving and accepting the message.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '對稱模式'], ['B', '數學模式'], ['C', '5W模式'], ['D', '平衡模式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞同信息嘅關係係",
+    "llm_output": "The correct answer is C. 新聞係信息大家族中嘅特殊成員 (News is a special member of the information family).\n\nThis option suggests that news is a subset of information, and that there is a relationship between the two. News is a specific type of information that is intended to inform or entertain the public, whereas information is a broader concept that encompasses a wide range of data, facts, and knowledge.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '信息就係新聞，新聞就係信息，二者毫無差別'], ['B', '信息係信息，新聞係新聞，二者毫不相干'], ['C', '新聞係信息大家族中嘅特殊成員'], ['D', '信息係新聞嘅一種體裁']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "巴斯將傳播媒介嘅把關行動分為前後相連嘅兩個階段，其中第二階段嘅把關人主要係",
+    "llm_output": "The correct answer is D. 編輯 (Editor).\n\nAccording to the Bass model, the two stages of gatekeeping are:\n\n1. The first stage: The selection of news stories and the decision to publish them, which is primarily done by the news provider (A).\n2. The second stage: The editing and refinement of the news stories, which is primarily done by the editor (D).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新聞提供者'], ['B', '特約評論員'], ['C', '紀者'], ['D', '編輯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞價值係傳播者選擇事實同接受者選擇新聞嘅",
+    "llm_output": "The correct answer is C. 主觀意向 (Subjective intention).\n\n新聞價值 (News value) refers to the criteria used by journalists and editors to determine which news stories are worth reporting and which are not. It is a subjective judgment that takes into account various factors, including the relevance, importance, and interest of the story to the audience. The concept of news value is often seen as a way to balance the objective reporting of facts with the subjective judgments of the journalist and the audience.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '心理需求'], ['B', '客觀標準'], ['C', '主觀意向'], ['D', '政治標準']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "傳播嘅信息交流過程係",
+    "llm_output": "The correct answer is A. 互動嘅 (interactive).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '互動嘅'], ['B', '能動嘅'], ['C', '主動嘅'], ['D', '被動嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對事物存在方式同運動狀態加以認識，並用文字等符號表述出嚟就形成咗",
+    "llm_output": "The correct answer is C. 人工信息 (Artificial Information).\n\n人工信息 refers to the information that is created, processed, and disseminated by humans, such as news articles, reports, and other forms of written or spoken communication. It involves the recognition of the existence and movement of things, and the use of symbols such as words, images, and sounds to convey meaning.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '物理信息'], ['B', '自然信息'], ['C', '人工信息'], ['D', '電子信息']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "通常情況下，資產階級新聞事業喺處理與受眾關係時",
+    "llm_output": "The correct answer is A. 喺某啲問題同一定程度上考慮並滿足羣眾嘅某啲信息需要。\n\nThis means that, in general, capitalist news media organizations consider and partially meet the information needs of the audience in certain issues.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '喺某啲問題同一定程度上考慮並滿足羣眾嘅某啲信息需要'], ['B', '喺成個過程中都能夠滿足羣眾嘅需要'], ['C', '喺所有問題上都能夠完全滿足羣眾嘅需要'], ['D', '根本唔考慮滿足羣眾需要嘅問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "學習同研究新聞學嘅基本方法有個案研究、同",
+    "llm_output": "The correct answer is C. 以上全部.\n\nThe basic methods of learning and researching journalism include:\n\n* Case study: a detailed examination of a specific event, issue, or phenomenon\n* Comparative research: a comparison of two or more cases, events, or phenomena\n* Survey research: a study of a population or sample through questionnaires or interviews\n* Content analysis: a systematic analysis of the content of media texts, such as news articles, videos, or social media posts.\n\nSo, the correct answer is C, which includes all of the above methods.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '比較研究'], ['B', '調查研究'], ['C', '以上全部'], ['D', '內容分析']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞立法係指",
+    "llm_output": "The correct answer is B. 運用法律手段管理同控制新聞事業嘅程序、原則同機制",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '通過新聞媒介喺全民中進行普法教育'], ['B', '運用法律手段管理同控制新聞事業嘅程序、原則同機制'], ['C', '統治階級制定、頒布同修訂新聞法規嘅程序同過程'], ['D', '國家制定同頒布嘅有關新聞傳播嘅法律條文嘅總稱']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "從新聞本質同特性到新聞價值及其規律嘅研究，要回答嘅根本問題係",
+    "llm_output": "The correct answer is B. 乜嘢係新聞同點樣獲取名副其實嘅新聞.\n\nThis question is asking about the fundamental question in the study of journalism, which is \"What is news and how to get authentic news?\" This question is related to the nature and characteristics of news, as well as the values and rules that govern the news industry.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '新聞嘅起源同來源'], ['B', '乜嘢係新聞同點樣獲取名副其實嘅新聞'], ['C', '新聞嘅共性同個性'], ['D', '新聞嘅性質同定義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "下列說法唔正確嘅係",
+    "llm_output": "The correct answer is B. 傳播上嘅優勢地位唔會導致文化上嘅優勢地位。\n\nThe other options are all correct:\n\nA. 語言傳播係人類嘅重要特徵 (Language transmission is an important characteristic of humans)\n\nC. 電子傳播將人類由國內傳播引入國際傳播，由大眾傳播帶進跨國傳播 (Electronic transmission has brought humans from national transmission to international transmission, and from mass transmission to global transmission)\n\nD. 印刷傳播打破咗少數人嘅傳播特權 (Print transmission has broken the transmission privileges of the few)",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '語言傳播係人類嘅重要特徵'], ['B', '傳播上嘅優勢地位唔會導致文化上嘅優勢地位'], ['C', '電子傳播將人類由國內傳播引入國際傳播，由大眾傳播帶進跨國傳播'], ['D', '印刷傳播打破咗少數人嘅傳播特權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "通過兩種或兩種以上嘅事物比擬分析嚟論證論點運用嘅係",
+    "llm_output": "The correct answer is D. 比照說理 (Comparative reasoning).\n\nComparative reasoning is a type of argumentation that involves comparing two or more things to illustrate a point or make a claim. This can be done by highlighting similarities and differences between the things being compared, and using the comparison to support or refute a particular argument or claim.\n\nThe other options are not correct:\n\nA. 據事說理 (Argumentation based on facts) refers to the use of facts and evidence to support an argument, but it does not involve comparing multiple things.\n\nB. 論辯說理 (Argumentation by debate) refers to the process of engaging in a debate or discussion with others to argue a point, but it does not necessarily involve comparing multiple things.\n\nC. 兌賬說理 (Accounting reasoning) is not a recognized term in the field of argumentation or rhetoric.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '據事說理'], ['B', '論辯說理'], ['C', '兌賬說理'], ['D', '比照說理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "當採訪對象屬於自卑性格時，記者應採取嘅策略係",
+    "llm_output": "The correct answer is B. 提高警惕，用心核對 (Be cautious and verify carefully).\n\nWhen interviewing someone with a low self-esteem, it's essential to be sensitive and understanding. This means being aware of their feelings and concerns, and taking the time to build trust and rapport. By being cautious and verifying information carefully, you can help to put them at ease and encourage them to open up and share their thoughts and feelings.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '視而不見，唔予理睬'], ['B', '提高警惕，用心核對'], ['C', '多費口舌，消除疑慮'], ['D', '肯定成績，給予表揚']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "被稱為無線電之父嘅係",
+    "llm_output": "The correct answer is D. 馬可尼 (Marconi). Guglielmo Marconi is often referred to as the \"father of radio\" for his pioneering work in developing the first practical wireless telegraph.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '波波夫'], ['B', '馬克斯威爾'], ['C', '赫茲'], ['D', '馬可尼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "明確提出並對黨性原則作出系統論述嘅第一人係",
+    "llm_output": "The correct answer is C. 列寧.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '馬克思'], ['B', '恩格斯'], ['C', '列寧'], ['D', '劉少奇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "近代新聞事業正式形成於",
+    "llm_output": "The correct answer is A. 資本主義社會初期.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '資本主義社會初期'], ['B', '封建社會末期'], ['C', '奴隸社會末期'], ['D', '封建社會中期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對「語言係商品，文字不過係貨幣」呢句話嘅理解，邊個係錯誤嘅",
+    "llm_output": "The correct answer is A. 語言係直接嘅符號，文字係間接嘅符號\n\nThe quote \"語言係商品，文字不過係貨幣\" suggests that language is a commodity, and text is only a medium of exchange. This implies that language has inherent value, while text is merely a representation or a tool to convey that value.\n\nOption A is incorrect because it suggests that language is a direct symbol, while text is an indirect symbol. This is not in line with the quote's idea that language has inherent value, and text is merely a medium of exchange.\n\nThe other options are correct:\n\n* Option B is correct because text can be seen as a record or a representation of language.\n* Option C is correct because language provides the foundation for text to have meaning.\n* Option D is correct because text is often seen as a medium or a tool that serves a purpose, rather than having inherent value.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '語言係直接嘅符號，文字係間接嘅符號'], ['B', '文字係對語言嘅記錄'], ['C', '無語言做依託文字亦都有意義嘅'], ['D', '文字具有從屬性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "影響記者寫作心理狀態嘅客觀因素唔包括",
+    "llm_output": "The correct answer is C. 採訪素材 (Interview materials).\n\nThe objective factors that can influence a journalist's mental state while writing include:\n\n* A. 受眾 (Audience): The journalist's understanding of their target audience can affect their writing style and tone.\n* B. 採訪對象 (Interview subjects): The journalist's interactions with sources and interviewees can impact their mental state and writing.\n* D. 環境 (Environment): The physical and social environment in which the journalist works can influence their mental state and writing.\n\nHowever, 採訪素材 (Interview materials) is not an objective factor that can directly influence a journalist's mental state while writing. The quality and quantity of interview materials can affect the journalist's writing, but it is not a factor that can directly impact their mental state.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '受眾'], ['B', '採訪對象'], ['C', '採訪素材'], ['D', '環境']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於非語言符號嘅係",
+    "llm_output": "The correct answer is D. 文章.\n\nNonverbal symbols refer to non-linguistic communication methods that convey meaning without using words. Examples include facial expressions (A), body language (B), and physical appearance (C).\n\nArticles (D) are a type of written language, which is a linguistic symbol. Therefore, it does not belong to nonverbal symbols.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '開心嘅笑容'], ['B', '同別人握手'], ['C', '着裝打扮'], ['D', '文章']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞選擇有三個環節，除咗搜尋、比較外，另一個係",
+    "llm_output": "The correct answer is A. 權衡 (Weighting).\n\nThe three stages of news selection are:\n\n1. 搜尋 (Search): finding and gathering information\n2. 比較 (Comparison): evaluating and comparing the gathered information\n3. 權衡 (Weighting): determining the importance and relevance of the information\n\nSo, the correct answer is A. 權衡.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '權衡'], ['B', '確認'], ['C', '策劃'], ['D', '反饋']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "拉斯韋爾喺「傳播喺社會中嘅結構同功能」呢篇論文中提出嘅「一句話」、「三功能」中嘅三功能唔包括以下邊一功能？",
+    "llm_output": "The correct answer is C. 傳衍社會遺產.\n\nAccording to Laswell's \"The Structure and Function of Communication in Society\", the three functions of communication are:\n\n1. Who says what to whom through which channel?\n2. Who says what to whom through which channel with what effect?\n3. A. Who says what to whom through which channel for what purpose?\n\nThe three functions are:\n\n* A. 協調社會關係 (Coordinating social relationships)\n* B. 提供娛樂 (Providing entertainment)\n* D. 監視社會環境 (Monitoring social environment)\n\nThe correct answer is C. 傳衍社會遺產 (Transmitting social heritage), which is not one of the three functions proposed by Laswell.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '協調社會關係'], ['B', '提供娛樂'], ['C', '傳衍社會遺產'], ['D', '監視社會環境']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "如果喺傳播學嘅研究中，對於個人特點過分強調或者對於傳播模式無原則無休止爭論嘅話，真正受到傷害嘅將係",
+    "llm_output": "The correct answer is B. 社會 (society).\n\nThis is because overemphasizing individual characteristics or engaging in endless debates about communication models without considering the broader social context can lead to a lack of understanding of the complex social dynamics that shape communication and its effects on society. This can ultimately harm society by neglecting the social implications of communication and failing to address the needs and concerns of the public.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '某個傳播學者'], ['B', '社會'], ['C', '廣大人民'], ['D', '傳播學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "廣播電視新聞中嘅整點新聞為咗以最快嘅速度提供盡可能多嘅信息，常常採用",
+    "llm_output": "The correct answer is B. 消息 (Message).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '述評'], ['B', '消息'], ['C', '錄音通訊'], ['D', '通訊']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "拉斯韋爾傳播模式嘅第三個環節係",
+    "llm_output": "The correct answer is B. 通過乜嘢渠道 (Source).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '講乜嘢'], ['B', '通過乜嘢渠道'], ['C', '邊個'], ['D', '對邊個']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "中央電視臺「焦點訪談」節目屬於",
+    "llm_output": "The correct answer is D. 大眾傳播 (Mass Communication).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '組織傳播'], ['B', '羣體傳播'], ['C', '人際傳播'], ['D', '大眾傳播']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞傳播行為，「三要素說」（事實、新聞報道者同新聞接受者）嘅提出者係",
+    "llm_output": "The correct answer is A. 範長江 (Fán Cháng Jiāng).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '範長江'], ['B', '王中'], ['C', '甘惜分'], ['D', '鄧拓']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "用老百姓喜聞樂見嘅形式講述老百姓自己嘅事情，反映咗編輯嘅",
+    "llm_output": "The correct answer is B. 平民意識 (People-oriented consciousness).\n\nThis refers to the practice of presenting news in a way that is relatable and engaging to ordinary people, often using storytelling techniques and a conversational tone. This approach reflects the editor's people-oriented consciousness, which prioritizes the needs and interests of the audience.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '通俗化意識'], ['B', '平民意識'], ['C', '娛樂化意識'], ['D', '受眾意識']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個選項唔係信息爆炸嘅後果",
+    "llm_output": "The correct answer is C. 信息變質 (Information Degradation).\n\nInformation explosion refers to the rapid and massive increase in the amount of information available, which can lead to:\n\n* 信息超載 (Information Overload)\n* 信息泛濫 (Information Spillover)\n* 信息浪費 (Information Waste)\n\nHowever, information degradation refers to the loss of quality, accuracy, or reliability of information, which is not a direct consequence of information explosion.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '信息超載'], ['B', '信息泛濫'], ['C', '信息變質'], ['D', '信息浪費']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "近代新聞事業誕生嘅時間標誌係",
+    "llm_output": "The correct answer is D. 印刷新聞紙問世.\n\nThe invention of the printing press in the 15th century by Johannes Gutenberg is considered the birth of modern journalism, as it enabled mass production of newspapers and made news dissemination more widespread and accessible to the general public.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '口語新聞出現'], ['B', '手抄新聞出現'], ['C', '新聞書嘅問世'], ['D', '印刷新聞紙問世']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "符號最基本嘅特點在於佢嘅",
+    "llm_output": "The correct answer is D. 指說性 (referentiality).\n\n符號 (symbol) is a fundamental concept in semiotics, and its most basic characteristic is its ability to refer to or represent something else, such as an object, concept, or idea. This is known as referentiality.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '抽象性'], ['B', '普遍性'], ['C', '有效性'], ['D', '指說性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "編輯羣體嘅向性類型應該偏向於",
+    "llm_output": "The correct answer is C. 內向型 (Inward-type).\n\nIn journalism, an inward-type editorial group tends to focus on the internal aspects of the news organization, such as the editorial process, internal communication, and staff relationships. This type of editorial group is often characterized by a strong sense of teamwork, cooperation, and consensus-building among editors.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '混合型'], ['B', '中間型'], ['C', '內向型'], ['D', '外向型']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞嘅價值指嘅係",
+    "llm_output": "The correct answer is C. 新聞作品通過傳播滿足社會及其需求嘅程度 (News values refer to the extent to which news works satisfy social needs and demands through communication).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '新聞滿足傳播者嘅需求程度'], ['B', '新聞事實嘅價值'], ['C', '新聞作品通過傳播滿足社會及其需求嘅程度'], ['D', '新聞自身嘅價值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "大眾傳播大量嘅內容屬於",
+    "llm_output": "正確答案：B. 新聞性內容\n\n大眾傳播大量的內容通常是指新聞、報導、評論等，都是為了讓大眾了解最新的消息和事件，屬於新聞性內容。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '娛樂性內容'], ['B', '新聞性內容'], ['C', '知識性內容'], ['D', '消息性內容']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "隨住社會主義市場經濟體制嘅建立，目前我國新聞機構嘅主要運作方式係",
+    "llm_output": "The correct answer is B. 事業單位，企業化管理。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '事業單位，行政管理'], ['B', '事業單位，企業化管理'], ['C', '事業單位，事業管理'], ['D', '企業單位，企化管理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞輿論產生嘅起點同依據係",
+    "llm_output": "The correct answer is A. 新聞事實 (News facts).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新聞事實'], ['B', '社會傳聞'], ['C', '民間傳說'], ['D', '領導指示']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "於1644年出版嘅小冊子「論出版自由」，作者係",
+    "llm_output": "The correct answer is B. 約翰·彌爾頓 (John Milton).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '李普曼'], ['B', '約翰·彌爾頓'], ['C', '約翰·洛克'], ['D', '卡斯柏·約斯特']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "資產階級新聞自由思想嘅理論基礎係",
+    "llm_output": "The correct answer is A. 天賦人權說 (Natural Rights Theory).\n\nThe concept of asset-based news freedom is rooted in the idea of natural rights, which holds that certain rights, such as freedom of speech and press, are inherent and inalienable to human beings. This idea is often associated with the Enlightenment thinkers, such as John Locke, who argued that individuals have certain natural rights that cannot be taken away by government or other authorities.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '天賦人權說'], ['B', '人道主義'], ['C', '本能說'], ['D', '人本主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞真實最起碼嘅要求係",
+    "llm_output": "The correct answer is B. 具體事實真實準確 (Specific facts are accurate and true).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '概括性事實真實客觀'], ['B', '具體事實真實準確'], ['C', '反映事物嘅本質'], ['D', '對新聞事實嘅解釋同評論實事求是']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞嘅傳播環節中，對新聞價值嘅實現具有相當嘅影響嘅係",
+    "llm_output": "The correct answer is C. 傳播者嘅業務素質 (The broadcaster's professional quality).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '轉載或轉播情況'], ['B', '技術因素'], ['C', '傳播者嘅業務素質'], ['D', '普遍興趣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一個選項唔屬於受眾接受信息嘅動機",
+    "llm_output": "The correct answer is C. 替代性動機 (Replacement Motive).\n\nThe four types of audience acceptance of information are:\n\n* 外發性動機 (External Motive): The audience accepts information because of external factors, such as social pressure or authority.\n* 預期性動機 (Expectancy Motive): The audience accepts information because they expect it to be true or because it confirms their existing beliefs.\n* 直接性動機 (Direct Motive): The audience accepts information because it is directly relevant to their personal interests or needs.\n* 替代性動機 (Replacement Motive): This is not a recognized type of audience acceptance of information. The other three options are all valid and well-established concepts in the field of journalism and communication studies.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '外發性動機'], ['B', '預期性動機'], ['C', '替代性動機'], ['D', '直接性動機']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "現代傳播效果研究興起嘅媒介背景時期係",
+    "llm_output": "The correct answer is A. 電子媒介 (Electronic Media).\n\nThe modern communication effects research, which focuses on the impact of mass media on society, emerged in the 1940s and 1950s with the development of electronic media, such as television and radio.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '電子媒介'], ['B', '大眾報刊'], ['C', '政黨報刊'], ['D', '黃色報刊']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「報刊嘅四種理論」中「報刊」一詞泛指",
+    "llm_output": "The correct answer is B. 出版物.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '一切大眾傳播媒介'], ['B', '出版物'], ['C', '文字'], ['D', '所有報紙雜誌']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "著有「大眾傳播嘅效果」一書，並將受眾對信息接收嘅選擇性行為進行具體分解嘅傳播學者係",
+    "llm_output": "The correct answer is B. 霍夫蘭 (Hovland).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '施拉姆'], ['B', '霍夫蘭'], ['C', '李普曼'], ['D', '克拉帕']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於受眾嘅特點嘅有",
+    "llm_output": "The correct answer is A. 歸屬性 (Belongingness).\n\nThe other options are all characteristics of the audience:\n\n* B. 隨意性 (Randomness) refers to the audience's ability to choose what they want to consume.\n* C. 自主性 (Autonomy) refers to the audience's ability to make decisions about what they want to consume.\n* D. 自在性 (Freedom) refers to the audience's ability to access and consume information without restrictions.\n\n歸屬性 (Belongingness) is not a characteristic of the audience, but rather a concept in social psychology that refers to the need to belong to a group or community.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '歸屬性'], ['B', '隨意性'], ['C', '自主性'], ['D', '自在性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "唔接受自變量作用嘅實驗對象喺控制實驗中構成",
+    "llm_output": "The correct answer is C. 「控制組」.\n\nIn an experiment, the control group is the group that does not receive the treatment or intervention being tested, and is used as a baseline to compare with the experimental group. The control group is often composed of subjects who are similar to the experimental group in all relevant respects, except for the treatment being tested.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「觀測組」'], ['B', '「實驗組」'], ['C', '「控制組」'], ['D', '「對照組」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "評論區別於其他文體嘅主要標誌係",
+    "llm_output": "The correct answer is D. 說理 (Rhetoric).\n\nThe main characteristic that distinguishes commentary from other forms of writing is its use of rhetoric, which involves the use of language and other persuasive devices to convince the reader of the author's point of view.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '論證'], ['B', '論據'], ['C', '論點'], ['D', '說理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個選項唔係施拉姆嘅報刊理論",
+    "llm_output": "The correct answer is C. 資本主義理論.\n\nSchramm's theory of newspaper is actually a theory of mass communication, and it does not specifically focus on the economic system of capitalism. Schramm's theory is more concerned with the social and psychological aspects of communication, and how the media influences society.\n\nThe other options are all incorrect because:\n\n* A. 集權主義理論 (Authoritarianism theory) is indeed one of Schramm's theories, which suggests that the media is controlled by a powerful elite.\n* B. 蘇維埃理論 (Soviet theory) is also one of Schramm's theories, which suggests that the media is controlled by the government.\n* D. 自由主義理論 (Liberalism theory) is not a specific theory of Schramm's, but it is related to his ideas about the importance of a free press in a democratic society.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '集權主義理論'], ['B', '蘇維埃理論'], ['C', '資本主義理論'], ['D', '自由主義理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "認為「媒介就係信息」呢個觀點嘅係以下邊個理論?",
+    "llm_output": "The correct answer is B. 媒介決定論 (Media Determinism).\n\nMedia Determinism is a theory that suggests that the media has a significant impact on shaping public opinion and behavior, and that the media's content and messages can influence people's thoughts and actions. This theory is often associated with the idea that \"the media is the message\" or \"the media is information\", which implies that the media has a direct and significant impact on people's perceptions and behaviors.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '媒介失控論'], ['B', '媒介決定論'], ['C', '媒介情境論'], ['D', '媒介偏倚論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "1948年，拉斯韋爾喺「傳播喺社會中嘅結構同功能」一文中首次提出咗",
+    "llm_output": "The correct answer is C. 大眾傳播學嘅概念 (Mass Communication Theory).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傳播嘅5W模式'], ['B', '政治傳播嘅概念'], ['C', '大眾傳播學嘅概念'], ['D', '內容分析法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊位人物喺「傳播喺社會中嘅結構與功能」論文中嘅「一句話」、「三功能」嚟認定佢喺傳播學中嘅創始人地位。",
+    "llm_output": "The correct answer is C. 拉扎斯菲爾德 (Lazarsfeld).\n\nIn his book \"The People's Choice: How the Voter Makes Up His Mind in a Presidential Campaign\" (1944), Paul Lazarsfeld, along with Bernard Berelson and Hazel Gaudet, introduced the concept of \"one sentence\" and \"three functions\" of communication, which is considered a milestone in the development of communication theory. This work laid the foundation for the study of mass communication and its effects on society, and established Lazarsfeld as a pioneer in the field of communication studies.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '卡爾·霍夫蘭'], ['B', '哈羅德·拉斯韋爾'], ['C', '拉扎斯菲爾德'], ['D', '溫勒']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「國家嘅發展尤其經濟發展係一切發展中國家嘅首要任務，新聞媒介必須服從、服務、促進國家發展尤其經濟發展。」呢係邊種媒介理論嘅核心內容？",
+    "llm_output": "The correct answer is D. 社會責任理論 (Social Responsibility Theory).\n\nThe statement emphasizes the importance of the media serving the national development, especially economic development, which is a key principle of the Social Responsibility Theory. This theory holds that the media has a responsibility to serve the public interest and promote social welfare, rather than just pursuing profit or personal gain.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '發展新聞學'], ['B', '極權主義理論'], ['C', '自由主義理論'], ['D', '社會責任理論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "電視攝錄中最能表達攝像師功力嘅係",
+    "llm_output": "The correct answer is D. 抓.\n\nIn television broadcasting, \"抓\" (grasp) refers to the ability of a camera operator to capture a shot or scene quickly and effectively, often in a dynamic or fast-paced situation. This requires a high level of skill, timing, and creativity on the part of the camera operator.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '挑'], ['B', '等'], ['C', '搶'], ['D', '抓']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "傳播學之父係",
+    "llm_output": "The correct answer is C. 拉扎斯菲爾德 (Lazarsfeld). Paul Felix Lazarsfeld is often referred to as the \"father of communication research\" or the \"father of mass communication research\".",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '勒溫'], ['B', '拉斯韋爾'], ['C', '拉扎斯菲爾德'], ['D', '施拉姆']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞起源於人類社會嘅",
+    "llm_output": "The correct answer is A. 信息交往.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '信息交往'], ['B', '教育進步'], ['C', '戰爭宣傳'], ['D', '產品交換']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "捲入度比較高嘅產品往往喺以下邊類媒介上投放廣告？",
+    "llm_output": "The correct answer is A. 網絡 (Internet).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '網絡'], ['B', '報紙'], ['C', '廣播'], ['D', '電視']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對事物嘅存在方式同運動狀態加以認識然後用文字表達出嚟係",
+    "llm_output": "The correct answer is B. 自然信息 (Natural Information).\n\nNatural information refers to the information that exists independently of human activity, such as the existence and movement of natural phenomena, events, and objects. It is the information that is gathered through observation, measurement, and recording of natural phenomena, and is often used as the basis for scientific research and reporting.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人工信息'], ['B', '自然信息'], ['C', '天然信息'], ['D', '實在信息']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "皮亞傑認為傳播具有兩種功能，一係自我中心嘅功能，一係",
+    "llm_output": "The correct answer is A. 社交性功能 (Social Function).\n\nPiaget believed that communication has two functions: self-centered function and social function. The self-centered function refers to the way individuals use communication to express their own thoughts, feelings, and needs, while the social function refers to the way individuals use communication to interact with others and maintain social relationships.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社交性功能'], ['B', '工具性功能'], ['C', '娛樂性功能'], ['D', '宣傳性功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "現場報道嘅結構形式有",
+    "llm_output": "The correct answer is B. 倒金字塔結構 (Inverted Pyramid Structure).\n\nThe inverted pyramid structure is a common format used in news reporting, where the most important information is presented first, followed by less important details. This structure is often used in live reporting, where the reporter needs to convey the most critical information quickly and efficiently.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '邏輯結構'], ['B', '倒金字塔結構'], ['C', '導引結構'], ['D', '金字塔結構']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上最早嘅通訊社係",
+    "llm_output": "The correct answer is D. 路透社 (Reuters).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '哈瓦斯通訊社'], ['B', '美聯社'], ['C', '法新社'], ['D', '路透社']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「正確輿論」嘅含義通常應當包括",
+    "llm_output": "The correct answer is A. 政治方向正確，思想方法正確，話題內容正確。\n\n\"正確輿論\" refers to the correct and accurate public opinion, which includes three aspects: political direction (正確政治方向), thought method (思想方法), and topic content (話題內容).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '政治方向正確，思想方法正確，話題內容正確'], ['B', '政治方向正確，傳播內容健康，傳播速度快捷'], ['C', '政治方向正確，輿論話題適時，輿論強度適中'], ['D', '政治方向正確，思想方法科學，傳播時間適宜']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "兩個或兩個以上嘅人之間藉助語言同非語言符號互通信息、交流思想感情嘅活動係",
+    "llm_output": "The correct answer is C. 人際傳播 (Interpersonal Communication).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '組織傳播'], ['B', '大眾傳播'], ['C', '人際傳播'], ['D', '內向傳播']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺新聞輿論監督中，最重要嘅監督對象係",
+    "llm_output": "The correct answer is D. 權力組織 (Power organizations).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '各種社會成員'], ['B', '公民團體'], ['C', '基層幹部'], ['D', '權力組織']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "係邊個提出咗「波紋效果」理論",
+    "llm_output": "The correct answer is A. 坦卡德 (Tandem).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '坦卡德'], ['B', '塞弗林'], ['C', '貝雷爾森'], ['D', '洛基奇']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "媒介組織唔係一種",
+    "llm_output": "The correct answer is A. 政治機構.\n\nMedia organizations are not a type of political institution. They are a type of information industry organization that provides news and information to the public.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '政治機構'], ['B', '信息產業機構'], ['C', '公共事業單位'], ['D', '社會機構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "讓受眾透過媒介經常見到你，可以增強",
+    "llm_output": "The correct answer is A. 熟知性 (Familiarity).\n\nThe question is asking about how frequent exposure to a person through media can affect the audience's perception of that person. The correct answer is A. 熟知性, which refers to the degree to which an individual is familiar with a person, place, or thing. By frequently exposing the audience to a person through media, it can increase their familiarity with that person, making them more likely to trust and recognize them.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '熟知性'], ['B', '權威性'], ['C', '可信性'], ['D', '接近性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺信息爆炸嘅今日，我哋應該點做?",
+    "llm_output": "The correct answer is B. 健全同強化大眾傳播法則 (Strengthen and Enforce the Laws of Mass Communication).\n\nThis answer suggests that in today's information explosion, it is important to establish and enforce laws and regulations that govern the dissemination of information, in order to ensure the accuracy, reliability, and responsible use of information.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '崇洋媚外'], ['B', '健全同強化大眾傳播法則'], ['C', '大量蒐集信息為我所用'], ['D', '唔關我嘅事']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "受傳者喺信息接受活動中感到傳播者與自己相似或相同嘅地方，從而提高傳播者嘅影響力",
+    "llm_output": "The correct answer is A. 自己人效應 (Self-Perception Effect).\n\nThe Self-Perception Effect refers to the phenomenon where the audience perceives the communicator as similar or identical to themselves, which can increase the communicator's influence and credibility.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自己人效應'], ['B', '威信效應'], ['C', '名片效應'], ['D', '暈輪效應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "制定「中國新聞工作者職業道德準則」嘅係。",
+    "llm_output": "The correct answer is D. 中華全國新聞工作者協會 (China Association of Journalists).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '中共中央宣傳部'], ['B', '各新聞單位'], ['C', '中華全國紀者協會'], ['D', '中華全國新聞工作者協會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺傳播學研究中，正式調查所採用嘅抽樣形式一般都係",
+    "llm_output": "The correct answer is C. 隨機抽樣 (Random Sampling).\n\nIn communication research, formal surveys typically employ random sampling as the sampling method, which involves selecting a sample of individuals or units from a population in a way that each member of the population has an equal chance of being selected.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '非隨機抽樣'], ['B', '分層抽樣'], ['C', '隨機抽樣'], ['D', '雪球抽樣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "作為新聞類節目，其「媒介共性」應該係",
+    "llm_output": "The correct answer is D. 穩重可信，具有權威性 (Stable and trustworthy, with authority).\n\nAs a news program, its \"mediating commonality\" should be stable and trustworthy, conveying a sense of authority and credibility to the audience.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '親切友善，平易近人'], ['B', '奮發向上，激情洋溢'], ['C', '輕鬆愉悅，清麗高雅'], ['D', '穩重可信，具有權威性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "按照選擇性因素理論嘅觀點，大眾傳媒發出嘅信息傳向受眾時遇到嘅第一關係受眾嘅",
+    "llm_output": "The correct answer is A. 選擇性注意 (Selective Attention).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '選擇性注意'], ['B', '選擇性理解'], ['C', '選擇性記憶'], ['D', '選擇性暴露']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一種唔屬於傳播者與受眾嘅關係",
+    "llm_output": "The correct answer is D. 支配嘅關係 (Dominant relationship).\n\nThe other options are all types of relationships between communicators (transmitters) and their audience (receivers):\n\n* 友善嘅關係 (Friendly relationship) refers to a positive and harmonious relationship between communicators and their audience.\n* 圈層嘅關係 (Segmented relationship) refers to a relationship where communicators target specific groups or segments of their audience.\n* 疏離嘅關係 (Distant relationship) refers to a relationship where communicators and their audience are not closely connected or have little interaction.\n\nOn the other hand, 支配嘅關係 (Dominant relationship) refers to a relationship where one party has power or control over the other, which is not a typical relationship between communicators and their audience.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '友善嘅關係'], ['B', '圈層嘅關係'], ['C', '疏離嘅關係'], ['D', '支配嘅關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "下列選項唔屬於信息社會同工業社會相比嘅嶄新特點嘅係",
+    "llm_output": "The correct answer is C. 生產嘅中心係工廠，而唔係網絡等\n\nThe other options are all characteristic of the information society compared to the industrial society:\n\nA. The core of technology is indeed computer-based, whereas in the industrial society, it was engine-based.\n\nB. The products of technology are indeed information-based, whereas in the industrial society, they were physical goods-based.\n\nD. The economic structure has indeed shifted towards a cooperative, sharing-based economy, whereas in the industrial society, it was based on commodity production.\n\nOption C, on the other hand, is not a characteristic of the information society. In the information society, production is not limited to factories, but is also decentralized and networked.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '科技嘅核心係電腦，而唔係引擎'], ['B', '科技嘅產品係信息，而唔係貨物'], ['C', '生產嘅中心係工廠，而唔係網絡等'], ['D', '經濟結構轉成合作、分享嘅共生型經濟，而唔係商品型經濟']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「守門行為」同「守門人」概念係由下列邊位學者喺第二次世界大戰期間提出嘅?",
+    "llm_output": "The correct answer is C. 施拉姆 (Shram).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '拉斯韋爾'], ['B', '勒溫'], ['C', '施拉姆'], ['D', '霍夫蘭']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對事物發展變化嘅史態、現態同趨態，新聞主要反映",
+    "llm_output": "The correct answer is A. 全態(三態之和).\n\nAccording to the concept of \"三態\" (three attitudes) in journalism, a news report should reflect not only the past (史態), present (現態), but also the future trend or tendency (趨態) of a story or issue. Therefore, the correct answer is A. 全態(三態之和), which means that news should reflect all three attitudes: past, present, and future trend.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全態(三態之和)'], ['B', '趨態'], ['C', '現態'], ['D', '史態']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "西方學者提出嘅報刊四種理論中最早出現嘅係",
+    "llm_output": "The correct answer is A. 自由主義理論 (Liberalism).\n\nThe four theories of the press proposed by Western scholars are:\n\n1. Liberal theory (自由主義理論) - emphasizes the importance of a free press in a democratic society, and argues that the press should be free from government control.\n2. Social responsibility theory (社會責任理論) - emphasizes the press's responsibility to serve the public interest and to report the truth.\n3. Authoritarian theory (集權主義理論) - argues that the press should be controlled by the government to maintain social order and stability.\n4. Soviet communism theory (蘇聯共產主義理論) - argues that the press should be controlled by the government to serve the interests of the working class and to promote socialism.\n\nThe liberal theory is considered the earliest of the four theories, as it was first proposed by John Milton in his book \"Areopagitica\" in 1644.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自由主義理論'], ['B', '社會責任理論'], ['C', '集權主義理論'], ['D', '蘇聯共產主義理論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞價值要素中嘅時新性指嘅係新聞事件嘅",
+    "llm_output": "The correct answer is D. 發生同報道嘅時差 (The time lag between the occurrence of the event and the reporting of the event).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '延續時間'], ['B', '報道時間'], ['C', '發生時間'], ['D', '發生同報道嘅時差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞報道嘅起點係",
+    "llm_output": "The correct answer is D. 採訪 (Interviewing).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '寫作'], ['B', '編輯'], ['C', '評論'], ['D', '採訪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係受眾嘅角色",
+    "llm_output": "The correct answer is A. 傳播內容嘅「翻譯者」.\n\nThe other options are all roles that can be considered as part of the audience:\n\n* B. 信息產品嘅消費者 (consumer of information products)\n* C. 傳播效果嘅反饋者 (feedback provider for communication effects)\n* D. 傳播活動嘅參與者 (participant in communication activities)\n\nThe role of \"翻譯者\" (translator) is not typically considered as part of the audience, as they are more likely to be involved in the production or dissemination of the message rather than receiving it.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傳播內容嘅「翻譯者」'], ['B', '信息產品嘅消費者'], ['C', '傳播效果嘅反饋者'], ['D', '傳播活動嘅參與者']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "廣播電視編輯嘅工作環節包括新聞節目生產過程中嘅",
+    "llm_output": "The correct answer is A. 獲取線索、構思、組織、加工.\n\nThe four stages of the news production process in broadcasting and television editing are:\n\n1. 獲取線索 (obtaining leads): gathering information and leads for news stories.\n2. 構思 (planning): planning and outlining the news story.\n3. 組織 (organization): organizing the news story, including assigning tasks and deadlines.\n4. 加工 (processing): processing and editing the news story, including writing, filming, and sound recording.\n\nSo, option A is the correct answer.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '獲取線索、構思、組織、加工'], ['B', '構思、組織、製作、播出'], ['C', '構思、組織、加工、製作'], ['D', '欄目定位、組織、加工']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞事實或相應作品嘅信息含量如果等於零，其新聞價值",
+    "llm_output": "The correct answer is A. 等於零.\n\nAccording to journalism principles, if the information content of a news fact or a corresponding work is equal to zero, its news value is also zero. This means that the information is not valuable or relevant, and therefore, it does not have any news value.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '等於零'], ['B', '唔確定'], ['C', '好少'], ['D', '好大']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞學嘅母體係",
+    "llm_output": "The correct answer is D. 政治學 (Political Science).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '心理學'], ['B', '文學'], ['C', '語言學'], ['D', '政治學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "雙重行動模式係邊個提出嘅",
+    "llm_output": "The correct answer is C. 施拉姆 (Schramm).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '巴斯'], ['B', '懷特'], ['C', '施拉姆'], ['D', '拉斯韋爾']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "攝像機同被攝對象處於同一水平線上，拍出嘅畫面，俾人嘅感覺係",
+    "llm_output": "The correct answer is C. 縱深感、透視感 (Depth perception, perspective).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '穩重、端莊'], ['B', '莊嚴、崇高'], ['C', '縱深感、透視感'], ['D', '自然、親切']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "主持制定「報人守則」嘅係",
+    "llm_output": "The correct answer is C. 威爾伯·施拉姆 (Willard Scott).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '託馬斯·傑斐遜'], ['B', '沃爾特·威廉'], ['C', '威爾伯·施拉姆'], ['D', '哈欽斯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "某期「非你莫屬」中劉俐俐被主持人攻擊後，受到在場嘉賓都羣起而攻之嘅現象係（）嘅典型表現。",
+    "llm_output": "The correct answer is C. 認知失調論 (Cognitive Dissonance Theory).\n\nThe phenomenon you described, where a group of people in the audience attack Liu Lili after she was attacked by the host, is a classic example of cognitive dissonance. Cognitive dissonance occurs when an individual holds two or more conflicting beliefs or values, and the dissonance created by this conflict leads to a feeling of discomfort or tension. In this case, the audience members may have initially been shocked and outraged by the host's behavior, but when they saw Liu Lili being attacked, their dissonance was reduced by joining in the attack, which allowed them to maintain a consistent and comfortable worldview.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '知識鴻溝論'], ['B', '媒介依賴論'], ['C', '認知失調論'], ['D', '沉默嘅螺旋論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "我國黨同政府一直重視新聞法規政策嘅制定，1994年12月，中共中央宣傳部同新聞出版署有關部門合編咗",
+    "llm_output": "The correct answer is B. 「新聞法規政策須知」.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「期刊出版法規政策須知」'], ['B', '「新聞法規政策須知」'], ['C', '「圖書出版法規政策須知」'], ['D', '「關於黨內政治生活嘅若干準則」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "語言係社會約定俗成嘅並且係比較高級同複雜嘅",
+    "llm_output": "The correct answer is B. 符號.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '信息'], ['B', '符號'], ['C', '媒介所有者'], ['D', '藝術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "受傳者喺信息接受活動中感到傳播者喺許多方面同自己有相似或相同之處，從受眾心理層面上講稱為乜嘢?",
+    "llm_output": "The correct answer is C. 「自己人」效應 (Self-Reference Effect).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '威信效應'], ['B', '「名片」效應'], ['C', '「自己人」效應'], ['D', '暈輪效應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "傳播文化知識，係大眾傳播嘅一個重要功能，呢一功能也就係",
+    "llm_output": "The correct answer is C. 教育功能 (Educational function).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '宣傳功能'], ['B', '娛樂功能'], ['C', '教育功能'], ['D', '認識功能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "媒介即訊息係由邊個提出嚟嘅",
+    "llm_output": "The correct answer is A. 哈羅德·拉斯韋爾 (Harold Lasswell). Harold Lasswell is a pioneer in the field of communication studies, and his definition of the \"who, says what, to whom, through which channel, with what effect\" is a classic formulation of the communication process.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '哈羅德·拉斯韋爾'], ['B', '溫勒'], ['C', '施拉姆'], ['D', '麥克盧漢']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞價值嘅實質係",
+    "llm_output": "The correct answer is C. 生產新聞所消耗嘅社會必要勞動.\n\nAccording to the concept of \"news value\" proposed by Walter Lippmann, news value refers to the social labor required to produce news, which is a measure of the social importance or relevance of a news story.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新聞嘅社會價值'], ['B', '新聞嘅宣傳價值'], ['C', '生產新聞所消耗嘅社會必要勞動'], ['D', '對新聞嘅本質及其特性嘅量化把握']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "有觀點認為，人們對大眾傳媒發出信息嘅選擇會受到家庭、朋友同熟人等嘅影響。該觀點屬於受眾理論中嘅",
+    "llm_output": "The correct answer is D. 社會關係論 (Social Relationship Theory).\n\nSocial Relationship Theory suggests that people's choices and behaviors are influenced by their social relationships, including family, friends, and acquaintances. This theory is relevant to the idea that people's selection of information from mass media is influenced by their social networks.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '選擇性因素理論'], ['B', '個人差異論'], ['C', '社會分類論'], ['D', '社會關係論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺畫面編輯中，將幾個主體內容類似嘅畫面連接喺一齊，以渲染氣氛，強調情節嘅組接方式係",
+    "llm_output": "The correct answer is B. 積累 (Accumulation).\n\nAccumulation is a visual editing technique where similar images are connected to create a cohesive atmosphere or emphasize a story. This technique is often used in news media to create a sense of continuity or to convey a specific mood or tone.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '象徵'], ['B', '積累'], ['C', '比照'], ['D', '比喻']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一種唔屬於傳播者嘅特點",
+    "llm_output": "The correct answer is B. 好奇性 (Curiosity).\n\nThe other options are all characteristics of a communicator:\n\n* A. 自主性 (Autonomy) refers to the ability to make decisions and take actions independently.\n* C. 複雜性 (Complexity) refers to the ability to convey complex information in a clear and concise manner.\n* D. 集體性 (Collectivity) refers to the ability to work together with others to achieve a common goal.\n\nCuriosity, on the other hand, is a characteristic of an audience or a receiver of information, not a communicator.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '自主性'], ['B', '好奇性'], ['C', '複雜性'], ['D', '集體性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "記者採錄嘅音響必須係",
+    "llm_output": "正確答案：B. 被報道人物或事物發出嘅聲響",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人為創造嘅聲音'], ['B', '被報道人物或事物發出嘅聲響'], ['C', '同受眾想象一致嘅「現場」聲音'], ['D', '唔一定係被報道對象發出嘅聲響']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "目前中國一共有家廣電集團",
+    "llm_output": "According to my knowledge, the correct answer is:\n\nC. 32",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '15'], ['B', '30'], ['C', '32'], ['D', '20']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國新聞史上提出「不黨、不私、不賣、不盲」辦報方針嘅係",
+    "llm_output": "The correct answer is A. 新紀「大公報」.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新紀「大公報」'], ['B', '新民報'], ['C', '申報'], ['D', '新華日報']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "當新聞工作者處於焦慮狀態時，對自己身體嘅變化常常表現出",
+    "llm_output": "The correct answer is D. 較為敏感.\n\nWhen journalists are under stress, they often become more sensitive to their physical changes, such as changes in appetite, sleep patterns, and physical symptoms like headaches or fatigue.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無所謂'], ['B', '唔敏感'], ['C', '非常敏感'], ['D', '較為敏感']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "電子媒體傳播嘅最後把關人係",
+    "llm_output": "The correct answer is D. 媒介所有者 (Media owner).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主持人'], ['B', '編輯'], ['C', '紀者'], ['D', '媒介所有者']]",
+    "is_correct": 0
+  }
+]

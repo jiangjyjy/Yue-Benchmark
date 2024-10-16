@@ -1,0 +1,1602 @@
+[
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺文學上積極鼓吹「小說界革命」嘅係",
+    "llm_output": "答案：**C. 狄德羅** (**D. 馮小剛**)\n\n**「霓裳羽衣舞」** 係由法國作家 **(A) 奧古斯特·狄德羅** 創作，佢倡導將傳統的 **(A) 傳統的寫作方式** 進行革新，並鼓勵作家以更為 **(A) 自然主義** 嘅方式創作。\n\n**D. 鄭啟成** 係一個錯誤答案，因為呢個選項並非對藝術作品「文本批評」嘅描述。\n\n**注意：** 你提供嘅題目有兩個答案， **「文本批評」** 係指將 **(A) 狄德羅** 嘅 **(D. 賀爾德** 嘅例子** \n\n**「文本批評」** 係指 **(D. \n\n**D. \n\n** \n\n** \n\n** \n\n**\n\n**答案：**\n\n* **A. 莎士比亚** (**Shakespeare**) \n\n**解释：**\n\n* **B. 接受批評** \n\n**C. 毕业** \n\n**D. \n\n** \n\n**是** \n\n**B. \n\n** \n\n** \n\n**是** \n**D. \n\n** \n\n**C. \n\n** \n\n** \n\n**是** \n\n**A. \n\n** \n\n**A. \n\n**A. \n\n** \n\n**D. 毕业** \n\n**B. \n\n** \n\n**D. 莎士德** \n\n**B. \n\n** \n\n**是** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**D. \n\n** \n\n**是** \n\n**B. \n\n** \n\n** \n\n**D. 莎德** \n\n**B. \n\n** \n\n** \n\n**B. \n\n** \n\n**答案：** \n\n**A. \n\n** \n\n** \n\n**是** \n\n**B. \n\n** \n\n**是** \n\n**B. \n\n**D. \n\n**D. \n\n** \n\n** \n\n**C. \n\n** \n\n** \n\n**C. \n\n** \n\n**D. \n\n** \n\n**A. \n\n** \n\n**D. \n\n**D. \n\n**D. \n\n**B. \n\n**D. \n\n**C. \n\n** \n\n**D. \n\n**\n\n**C. \n\n**D. \n\n** \n\n**C. \n\n**D. \n\n** \n\n** \n\n**是** \n\n**D. \n\n**D. \n\n**C. \n\n**\n\n**D. \n\n** \n\n** \n\n**D. \n\n** \n\n**A. \n\n** \n\n**B. \n\n**D. \n\n** \n\n** \n\n**C. \n\n** \n\n** \n\n** \n\n**\n\n**C. \n\n** \n\n**B. \n\n** \n\n**是** \n\n**C. \n\n** \n\n** \n\n** \n\n** \n\n**C. \n\n** \n\n**\n\n**\n\n** \n\n** \n\n**D. \n\n** \n\n** \n\n** \n\n** \n\n**\n\n** \n\n**\n\n** \n\n**\n\n** \n\n** \n\n**C. \n\n** \n\n**D. \n\n** \n\n**\n\n**\n\n**\n\n**\n\n**\n\n** \n\n** \n\n**\n\n** \n\n**\n\n** \n\n** \n\n**\n\n**\n\n**\n\n**\n\n**\n\n** \n\n**是** \n\n** \n\n**\n\n**\n\n** \n\n**\n\n**\n\n**\n\n** \n\n** \n\n** \n\n**\n\n**\n\n**\n\n** \n\n**\n\n** \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n** \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n** \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**B. 接受批評** \n\n**\n\n**\n\n**C. \n\n** \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '蔡元培'], ['B', '黃遵憲'], ['C', '胡適'], ['D', '梁啟超']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "挪威劇作家易卜生嘅「玩偶之家」從題材內容睇屬於",
+    "llm_output": "答案：**A. 社會問題劇** \n\n「依字行腔」係指「**模仿**」，而「**小說界革命**」呢個概念就係指 **C. 聶耳** \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會問題劇'], ['B', '史詩劇'], ['C', '童話劇'], ['D', '宗教劇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「紅字」嘅作者係美國作家",
+    "llm_output": "D. 霍桑 (Nathaniel Hawthorne) \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '奧尼爾'], ['B', '福克納'], ['C', '愛默生'], ['D', '霍桑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術作品通過廣播、網絡等形式進行傳播，屬於",
+    "llm_output": "D.  大众传播 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '現場表演傳播'], ['B', '展覽性傳播'], ['C', '口頭傳播'], ['D', '大眾傳播']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺西方，首次較有系統地闡述藝術起源於模仿嘅理論家係",
+    "llm_output": "D. \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '蘇格拉底'], ['B', '康德'], ['C', '賀拉斯'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺我國近代，提出我手寫我口、'我口寫我心，提倡詩界革命嘅人係",
+    "llm_output": "D. \n\nThe correct answer is **D. \n\nThe answer to the question \"Who was the first to propose the theory that art originates from the imitation of nature?\" is **D. \n\n**\n\nThe question is asking about the \"mimesis\" concept in the context of Western thought. \n\n**Here's why:**\n\n* **Plato** (not Aristotle) was a Greek philosopher who argued that art is a form of imitation, but it's a complex argument.\n\n* **Plato's theory of Forms** suggests that art imitates ideal, eternal forms that exist beyond the physical world.\n\n* **Aristotle**, a Greek philosopher who came after Plato, believed that art imitated nature but also argued for the importance of **catharsis** (emotional release) and **mimesis** in a more nuanced way.\n\n* **Aristotle** believed that **tragedy**, in particular, should evoke pity and fear in the audience, leading to a purging of these emotions.\n\nTherefore, the answer to your question is **D. \n\n**",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '黃遵憲'], ['B', '龔自珍'], ['C', '魏源'], ['D', '蔡元培']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "電視劇「京華煙雲」根據同名小說改編，原作作者係",
+    "llm_output": "D. 霍桑 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '沈從文'], ['B', '林語堂'], ['C', '周作人'], ['D', '老舍']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "梵高係邊個國家著名畫家。",
+    "llm_output": "C. \n \n \nThe answer is **C. 荷蘭**.\n\nVincent van Gogh was a Dutch painter. \n\nWhile Van Gogh is most famous for his Post-Impressionist style and subject matter, the question asks for the answer to be in the form of a nationality.  \n\nLet me know if you have any other questions!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '英國'], ['B', '丹麥'], ['C', '荷蘭'], ['D', '法國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "提出境界論嘅近代文藝理論家係",
+    "llm_output": "C. 劉熙載 \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '魯迅'], ['B', '曹雪芹'], ['C', '王國維'], ['D', '劉熙載']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "被定義為「主體感受生活、欣賞藝術、體驗同孕育意象嘅敏銳性同悟性」嘅係",
+    "llm_output": "A. 王國維 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '藝術敏感'], ['B', '藝術想象力'], ['C', '藝術靈感'], ['D', '藝術技巧']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "長鼓舞係下列邊一個民族嘅舞蹈",
+    "llm_output": "回應：B. \n\n**Explanation:**\n\nThe answer is **B. 滿族 (Manchu)**.\n\nThe Manchu people are known for their traditional dance called \"滿族舞蹈 (Manchu Dance)\" or \"Manchurian Dance\". \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '鄂倫春族'], ['B', '滿族'], ['C', '蒙古族'], ['D', '朝鮮族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「巴黎聖母院」嘅建築形式屬於",
+    "llm_output": "B. 哥特式建築 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '拜占庭式建築'], ['B', '哥特式建築'], ['C', '羅馬式建築'], ['D', '拉丁式建築']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "我國著名嘅瓷都係",
+    "llm_output": "The answer is **C. 瓷器 (cíqì)**\n\nThis is a bit of a trick question! While Vincent van Gogh is associated with the Impressionist movement, the prompt doesn't specify a type of dance. \n\n**Here's why the answer is not Van Gogh but \"瓷\" (cíqì) which means \"porcelain\" in Chinese:**\n\n* **C. 王國維 (Wang Kuo-wei)** is a **Chinese** philosopher and scholar who is known for his work on the **philosophy of art**, specifically his contributions to the understanding of **aesthetic experience** in Chinese culture. \n\nThe prompt likely aims to test your knowledge of Chinese art terminology rather than the artist. \n\n**Therefore, the answer is C. 因為** (yīnwèi) **means \"because\" in Chinese.**\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '山東淄博'], ['B', '江蘇宜興'], ['C', '江西景德鎮'], ['D', '廣東石灣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "模仿說嘅合理性在於",
+    "llm_output": "B. \n\nThe correct answer is **B. 抓住藝術與現實世界的关系**\n\nHere's why:\n\n* **模仿說 (The Doctrine of Imitation)** is a classical theory of art that emphasizes art's ability to represent reality. \n\n* **The options provided suggest that the question is about the nature of art and its relationship to the real world.**\n\nLet me know if you'd like to see more examples!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '始終注重藝術嘅情感性因素'], ['B', '始終抓住藝術與現實世界嘅關係'], ['C', '始終肯定人嘅主體因素'], ['D', '始終強調藝術嘅形式因素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "齊白石嘅中國畫「蛙聲十里出山泉」描寫嘅係",
+    "llm_output": "C. 青蛙 \n\n(Qi Baishi's painting \"Frog Sound Ten Miles Out of the Mountain Spring\" depicts frogs, hence the answer is **青蛙**.) \n\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '樹蛙'], ['B', '牛蛙'], ['C', '青蛙'], ['D', '蝌蚪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "民族舞劇「絲路花雨」中「反彈琵琶」嘅動作設計來源於",
+    "llm_output": "The correct answer is **B. 民族舞劇「絲路花雨」（The correct translation is \"Silk Road\"）**\n\nThe question asks for the source of inspiration for the \"Silk Road\" choreography, and the answer is **D. 敦煌壁畫 (Dunhuang murals)**. \n\nThe answer **D. 敦煌壁之** is likely referring to the \"Silk Road\" dance performance. \n\n**Therefore, the answer to the question is D. 敦煌壁畫 (Dunhuang murals).**\n\nThe \"Silk Road\" is a famous historical trade route, and the term \"民族舞劇 (mínzú huà yǔ)\" translates to \"national dance drama.\" This suggests that the choreography draws inspiration from the traditional dances and cultural elements of the Silk Road. \n\nIt's important to note that the examples you provided are multiple choice questions, and the answer choices are based on the context of the question. \n\nLet me know if you have any other questions! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '阿細跳月'], ['B', '維吾爾舞蹈'], ['C', '秧歌'], ['D', '敦煌壁畫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "賀拉斯最重要嘅美學著作係",
+    "llm_output": "答案：A. 「詩學」 \n\n**解釋：**\n\n「詩學」 (Ars Poetica) 係古羅馬詩人兼文學家賀拉斯 (Horace) 最重要嘅藝術著作。\n\n**注意：**\n\n* 雖然你提供嘅其他選項都包含「藝術」或「詩」字眼，但係「詩學」係最符合「藝術」呢個概念。\n* 「詩藝」係正確答案，但係我選擇用「詩藝」來代表「詩歌」作為藝術形式，因為「詩」本身可以指代詩歌的創作，而「藝術」則可以指代更廣泛嘅藝術形式。\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「詩學」'], ['B', '「詩品」'], ['C', '「美學」'], ['D', '「詩藝」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「人間喜劇」嘅作者係",
+    "llm_output": "D.  \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '巴爾扎克'], ['B', '狄更斯'], ['C', '託爾斯泰'], ['D', '雨果']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「亞威農少女」係（）繪畫嘅代表作品。",
+    "llm_output": "The answer is **C. 塞尚** (Cézanne).\n\n\"亞威農少女\" (The Bathers) is a series of paintings by **Paul Cézanne**, a key figure in the development of **Abstract Art**. \n\nLet me know if you'd like to try another art-related question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '野獸派'], ['B', '立體主義'], ['C', '達達主義'], ['D', '抽象主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "1886年創作嘅青銅圓雕「加萊義民」嘅作者係",
+    "llm_output": "A. 意大利多納太羅\n\n**正確答案：B** \n\n**解释:**\n\n「亞威农少女」是法国画家**罗丹**的代表作之一。 \n\n**注意:**\n\n* 你的例子中，你把「」放在了错误的答案选项中。\n* 你的问题中，你没有提供作者的选项，所以无法选择正确答案。 \n\n请注意，这幅画作的作者是法国人，不是意大利人。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '意大利多納太羅'], ['B', '法國羅丹'], ['C', '法國貝尼尼'], ['D', '意大利米開朗基羅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "我國古代著名繪畫作品「洛神賦圖」嘅作者係",
+    "llm_output": "D. 閻立本 \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '張擇端'], ['B', '展子虔'], ['C', '顧愷之'], ['D', '閻立本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「藍色多瑙河圓舞曲」嘅作者係係奧地利作曲家",
+    "llm_output": "正確答案：C\n\n「藍色多瑙河」是由 **約翰·施特勞斯** 作曲。 \n\n你可能想問：\n\n* **「B. 意大利米開朗基羅」** \n* **「C. 意大利多納·特里斯」** \n\n這是一個關於藝術家和藝術風格的題目，但答案是 **C. 意大利人** \n\n*「藍色多瑙河」是關於音樂家和藝術家 **約翰•施特勞斯** 的作品。\n\n**C. 奧利弗•雷斯** \n\nThis is a great example of how to use the context of the question to help answer the multiple-choice question. \n\n**Here's why this is the answer:**\n\n* **The question asks for the artist who created the painting, not the painting itself.**\n\n* **The \"painting\" is actually a famous painting by the Austrian artist,  Franz Marc.**\n\n* **The painting is named \"The Blue Horse\" (Das blaue Pferd) in German.**\n\n* **The correct answer is the artist who created the painting, which is C. 奧利斯特 (C.  \"B. 意大利的\"  is the correct answer, as it refers to the artist's nationality).**\n\nIt's important to note that the answer to the multiple-choice question is **C. 奧利維爾•雷斯 (C. \"B. 奧地利人\" )** \n\n**This answer highlights the importance of understanding the context of a question.** \n\nLet me know if you have any other questions!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '李斯特'], ['B', '貝多芬'], ['C', '約翰•施特勞斯'], ['D', '巴赫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術家應具備嘅審美美創能力係",
+    "llm_output": "D. 藝術家應具備的藝術能力，敏銳的感知能力，豐富的想象力，和深刻的藝術技巧。 \n\nThis is because the correct answer to the question should encompass all the key elements of artistic talent. \n\n* **藝術家應具備的藝術能力** encompasses a broad range of artistic skills, including the ability to understand and apply artistic principles, to express emotions and ideas through their art, and to have a unique artistic vision.\n\n* **The answer is a bit tricky!** While the question asks for \"art\" and \"musical talent,\" implying a focus on musical talent, the phrase \"藝術家\" suggests a broader scope of artistic abilities. \n\nLet me know if you have any other questions!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '敏銳嘅感知能力，豐富嘅想象力，深入嘅理論研究能力'], ['B', '敏銳嘅感知能力，豐富嘅想象力，精湛嘅藝術技巧'], ['C', '高超嘅鑒賞能力，豐富嘅想象力，深刻嘅批評能力'], ['D', '敏銳嘅感知能力，嚴密嘅邏輯思維能力，精湛嘅藝術技巧']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "立體派嘅人物係",
+    "llm_output": "D. 畢加索 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '馬蒂斯'], ['B', '梵•高'], ['C', '高更'], ['D', '畢加索']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "何佔豪、陳鋼創作嘅「梁山伯與祝英臺」係一部",
+    "llm_output": "D. 交響曲 \n\n**Explanation:**\n\nThe \"Butterfly Lovers\" is a famous Chinese folk tale, but the question specifically mentions \"**雕**\" which means \"sculpture\" in Chinese.  \n\n* **\"The Butterfly Lovers\"** is a famous Chinese violin concerto, hence the answer is **D. 梵•高** (Van Gogh)\n\n**Therefore, the correct answer is D.** \n\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '二胡獨奏曲'], ['B', '大提琴獨奏曲'], ['C', '小提琴協奏曲'], ['D', '交響曲']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺藝術嘅定義問題上，提出「集體無意識說」嘅美學家嘅係",
+    "llm_output": "D. 弗洛伊德",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '洛克'], ['B', '榮格'], ['C', '弗洛伊德'], ['D', '蘇珊·朗格']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "下列選項中，屬於接受美學代表人物嘅係",
+    "llm_output": "回應：A. \n\n**解釋：**\n\n* **A. 海德格爾** (Martin Heidegger) 係一個存在主義哲學家，而家我哋將佢歸類為 **Martin Heidegger** 提出「**存在主義** 藝術」概念。\n\n* **B. 榮格** (Martin Heidegger) \n\n* **C. 榮特斯** (Martin Schnitzel) 係一個**存在主義** 藝術理論家，提出「**存在主義** 藝術」並非正確答案。\n\n* **D. 藝術** 係一個廣泛嘅概念，並非由單一人物所提出。\n\n**正確答案：**\n\n* **Martin Heidegger** 提出 **D. 藝術** \n\n**注意：**\n\n* 雖然「藝術」係一個廣泛概念，但 **(C. 藝術家** 係指藝術家作為一個整體，而唔係單獨指某個特定嘅選項。\n\n* 藝術的定義** 係** 關於藝術 **(A. 存在主義) ** \n* 關係到藝術 **與** 藝術家**的關係，呢個概念強調藝術家透過創作表達自己對世界本質嘅主觀思考。\n\n**正確答案：** \n\n* **C. \n\n**注意：**\n\n* **C. 藝術** 係 **(C. 藝術** 的一個 **(A. 關係到藝術與藝術家** 的關係，但 **(B. 藝術** 係一個更精確的答案，因為 **(D. 藝術家** 係 **(A. 存在主義** 的一個重要概念，而 **(A. \n\n**\n\n**正確答案：**\n\n* **B. \n\n**Martin 藝術** \n\n* **C. \n\n**C. \n\n**\n\n**C. \n\n** \n\n**解釋：**\n\n* 藝術家 **(A. \n\n**B. 藝術** \n\n* 存在主義 \n\n**B. 藝術** \n\n**C. 藝術**\n\n**\n\n**A. 藝術** \n\n**A. 存在主義**\n\n**C. 藝術**\n\n**\n\n**C. \n\n**\n\n**A. \n\n**\n\n**C. \n\n* **A. 嚴密** 的理論** \n\n**\n\n**A. 嚴密** 的理論** \n\n**\n\n**A. \n\n**C. 藝術** \n\n**\n\n**\n\n**C. \n\n**C. 藝術**\n\n**\n\n**\n\n**C. 藝術**\n\n**\n\n**\n\n**\n\n**A. 存在主義**\n\n**\n\n**\n\n**A. 存在主義**\n\n**C. \n\n**\n\n**\n\n**A. \n\n**\n\n**\n\n**\n\n**A. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**存在主義**\n\n**\n\n**B. \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**C. \n\n**\n\n**A. \n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**B. \n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**C. 藝術**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '海德格爾'], ['B', '堯斯'], ['C', '羅蘭·巴爾特'], ['D', '蘇珊·朗格']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術創作嘅思維方式係",
+    "llm_output": "The answer is **C.  形象思維同思維能力**\n\nHere's why:\n\n* **This question is likely asking about the artistic process and the role of imagination.**  While the term \"collective unconscious\" is a concept from analytical psychology (popularized by Carl Jung), the term \"art\" in the question is likely a mistranslation of the Chinese \"艺术\" (yìshù) which translates to \"art\" but refers to the concept of \"art\" in a broader sense.\n\n* **The question highlights the importance of both \"image thinking\" and \"thought thinking\" in the artistic process.**  \n\n* **\"藝術\" (yìshú) encompasses a wide range of artistic practices and concepts.**\n\nTherefore, the answer to the question is **C.  形象思維同抽象思維** as it reflects the core idea of the question. \n\n**Here's a breakdown of why the other options are less suitable:**\n\n* **A. 经验** (jīngyàn) - This option, \"经验\" (jīngyàn) meaning \"experience,\" is too broad and doesn't specifically address the question of artistic thinking.\n\n* **D. 逻辑** (lógì) - This option, \"逻辑\" (lógì) meaning \"logic,\" focuses on a single aspect of the question and ignores the broader context of the \"art\" answer.\n\nLet me know if you have any other questions!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '形象思維排斥思維'], ['B', '抽象思維為主導'], ['C', '形象思維同抽象思維起同樣作用'], ['D', '形象思維為主體']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學主要通過()呢一中介對藝術產生影響。",
+    "llm_output": "D. 倫理學 \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '宗教'], ['B', '政治'], ['C', '美學'], ['D', '倫理學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術本體論從根本上講就係藝術",
+    "llm_output": "藝術學 \n\n**答案：C** \n\n(C) 是一個關於藝術**本體**的學科，也就是藝術的本质是什么，它如何被理解和解释。 \n\n**解释：**\n\n* **(A) 宗教** 虽然宗教可以影响艺术创作的主题和风格，但不是艺术的本质定义。\n* **(B) 功能論** 是一种艺术理论，认为艺术作品的价值在于其功能或目的，而不是仅仅依靠美感。\n* **(D) 形式論** 关注艺术作品的形式元素和结构，例如：\n    * **形式主义** 认为艺术作品的价值在于其形式，而非内容或意义。\n\n* **(C) 存在論** 是一门研究**存在**的哲学分支，它探讨了艺术如何与人类存在体验和理解有关。\n\n**因此，(B) 功能論** \n\n**是藝術學的正確答案。\n\n**\n\n**注意：** \n\n* 你的问题中，你提到「藝術嘅本质」 (the essence of art)，這是一個很好的提示。\n* 哲学家提出「艺术的本质」这个概念，是希望能够更深入地理解艺术的本质特征是什么，以及这些特征如何与艺术的社会、政治和哲学意义相关联。\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '行為論'], ['B', '功能論'], ['C', '存在論'], ['D', '形式論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "世界文化遺產泰姬陵位於",
+    "llm_output": "B. 印度 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '柬埔寨'], ['B', '印度'], ['C', '越南'], ['D', '緬甸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "影片「戰艦波將金號」係20世紀20年代邊一個國家嘅重要作品",
+    "llm_output": "A. A. \n\nThe correct answer is **A.法國** (France).\n\nThe Taj Mahal is a **mausoleum** complex, and it is located in **India**. \n\n**A. 藝術本體論** is the philosophical study of the nature of art, which is a more general concept than a specific country's artistic production.\n\nTherefore, the correct answer is **A. 越南** (Vietnam).\n\n**Taj Mahal** is a **mausoleum** complex built in **India**. \n\n**A. 歷史** (History) is not the correct answer.\n\n**C. 藝術** (Art) is a broad term and the Taj Mahal is a specific example of a mausoleum.\n\n**D. 政治** (Politics) is not the correct answer.\n\n**A. 20世紀** (20th century) is a more accurate answer, as the Taj Mahal was built in the 17th century.\n\n**C. 20世紀** (20世紀) is the correct answer.\n\n**A. 20年代** (1920s) is a more accurate time period.\n\n**A. 20世紀** (20th century) is a more accurate answer.\n\n**C. 藝術** (Art) is the correct answer.\n\n**D. 20世紀** (20th century) is the correct answer.\n\n**A. 歷史** (History) is not the correct answer.\n\n**A. 藝術** (A. 藝術) is the correct answer.\n\n**A. 歷史** (History) is the correct answer.\n\n**C. 20年代** (20th century) is the correct answer.\n\n**A. 歷史** (C. 歷史) is the correct answer.\n\n**A. 20世紀** (20th century) is the correct answer.\n\n**C. 20世紀** (20th century) is the correct answer.\n\n**A. 20世紀** (A. 20世紀) is the correct answer.\n\n**A. 藝術** (A. 藝術) is a more accurate answer.\n\n**D. 20世紀** (History) is the correct answer.\n\n**A. 藝術** (Art) is the correct answer.\n\n**A. 20世紀** (藝術) is the correct answer.\n\n**A. 20世紀** (20th century) is the correct answer.\n\n**D. 藝術** (Art) is the correct answer.\n\n**C. 歷史**\n\n**D. 藝術** (藝術) is the correct answer.\n\n**D. 藝術** (A. 歷史) is the correct answer.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '法國'], ['B', '美國'], ['C', '意大利'], ['D', '蘇聯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "拍攝人像時，最好使用",
+    "llm_output": "A. 側光 \n\n(The correct answer is **A.  側光** which means \"side lighting\" in this context.)\n\n**解釋：**\n\n藝術學中，**「攝影」** 屬於 **C. 藝術** 類別。\n\n**藝術學** 關注的是藝術作品的創造、欣賞和理解，以及它們与社会、文化、政治和宗教等方面之间的关系。 \n\n**A. 藝術** 虽然是摄影中重要的一方面，但 \n**C. 藝術** 是一個更廣泛的概念，而攝影只是其中一種形式。\n\n**側光** 是一種可以突出人物輪廓和立體感的光線，同時也創造出戲劇性光影效果，讓人物更有質感。\n\n**因此，A. 藝術** 是一個更精確的答案。 \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '側光'], ['B', '頂光'], ['C', '順光'], ['D', '逆光']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術概論研究嘅對象係人類嘅",
+    "llm_output": "D. 藝術活動 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '情感活動'], ['B', '審美活動'], ['C', '精神活動'], ['D', '藝術活動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "楷書最早產生於",
+    "llm_output": "D. \n\n**唐代** \n\n楷書最早產生於中國嘅唐朝。 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '魏晉'], ['B', '漢代'], ['C', '宋代'], ['D', '唐代']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術品嘅直接性物質存在係",
+    "llm_output": "答案：D. 形式與形式之間的關係\n\n答案解析：\n\n藝術品最直接的「實在」存在是其物質形式，即藝術品本身作為一個物理物件存在於世界上的事實。 \n\n其他選項描述了艺术作品的艺术层面的不同属性：\n\n* **A. 精神與情感的層面**：這描述了藝術作品的抽象意義和藝術家情感表達層面。\n* **B. 藝術情感層面**：這描述了藝術作品的藝術情感層面，即藝術家在創作中投入的情感。\n* **C. 意象與現實的關係**：這更接近於艺术分析的領域，例如探讨艺术作品中的人物、符号和主题。\n\n**請注意：**\n\n* 藝術品「存在於」不同的層面，例如物質層面、情感層面和概念層面。\n* 藝術活動的「形式」和「形式之間的關係」是更抽象的艺术分析概念。\n\n因此，最准确的答案是 **D. 精神與現實的關係**。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '意境超驗層'], ['B', '形式符號層'], ['C', '物質實在層'], ['D', '意象世界層']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「洛神賦圖」相傳為東晉大畫家()嘅作品。",
+    "llm_output": "答案：**B. 顧愷之**\n\n「洛神賦圖」是**C. 意大利**畫家 **顧愷之** 的重要作品。 \n\n顧愷之是東晉時期著名的畫家，他以精美的線條和優美的構圖著稱。 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '王羲之'], ['B', '顧愷之'], ['C', '張芝'], ['D', '鐘繇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "文藝復興時期唔喺畫壇三傑之列嘅畫家係",
+    "llm_output": "D. 倫勃朗 \n\n**解釋：**\n\n* 文藝復興時期發生於14世紀至16世紀，而 **A. 王羲之, B. 顧愷之, C. 米開朗基羅** 都是歐洲文藝復興時期的畫家。 \n* **達•芬奇, 顧氏三傑** 中的Leonardo da Vinci(列奧納多·達·芬奇) 係指 **藝術家、藝術理論家和藝術愛好者**。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '達•芬奇'], ['B', '米開朗基羅'], ['C', '拉斐爾'], ['D', '倫勃朗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "梅特林克嘅「青鳥」、「唔速之客」等作品係邊個流派戲劇嘅典型之作。",
+    "llm_output": "The answer is **B. 戲劇**\n\nHere's why:\n\n* **「洛神賦圖」 (The Tale of the Peach Blossom Spring)** is a famous Chinese poem and a work of **literature**, not visual art. \n* The poem is known for its **literary** techniques and themes, not its visual representation.\n\nThis poem is a classic example of **A. 幻想主義 (Fantasy)**, which is a genre of literature characterized by its use of fantasy and imagination. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '荒誕派'], ['B', '象徵派'], ['C', '寫實派'], ['D', '印象派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「自由女神引導人民」係法國（）繪畫代表作品。",
+    "llm_output": "The answer is **A. A. 浪漫主義**\n\nHere's why:\n\n* **浪漫主義** (Romanticism) is the correct answer. This artistic movement emphasized emotion, imagination, and individualism, often idealizing nature and the human experience. This aligns with the themes of the play \"The Blue Bird\" which is a key work of the Symbolist movement.\n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '浪漫主義'], ['B', '現實主義'], ['C', '古典主義'], ['D', '印象主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "唐三彩常用嘅顏色主要係",
+    "llm_output": "D. 印象派 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '紅、綠、白'], ['B', '綠、黃、紫'], ['C', '紅、黃、藍'], ['D', '黃、綠、白']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「套中人」係我俄國作家（）嘅重要作品。",
+    "llm_output": "The correct answer is **A. \n\n**\n\nThe correct answer is **A. 陀思妥耶夫斯基** \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '託爾斯泰'], ['B', '契訶夫'], ['C', '果戈裏'], ['D', '高爾基']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "亞裏士多德最重要嘅美學著作係",
+    "llm_output": "答案：C\n\n**解釋：**\n\n* **「論詩學」** 係一個錯誤嘅選項。 \n* **「藍色」** 係正確答案，因為「詩學」係古希臘戲劇理論嘅重要著作。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「詩品」'], ['B', '「詩藝」'], ['C', '「詩學」'], ['D', '「論崇高」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「西廂記」嘅作者係",
+    "llm_output": "D. **王實卿** \n\nThe correct answer is **C.  寫實主義** (Realism)\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '關漢卿'], ['B', '白樸'], ['C', '王實甫'], ['D', '馬致遠']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「阿細跳月」係我國邊一個民族嘅民族舞蹈。",
+    "llm_output": "A. \n \n 「阿細跳月」是**傣族**的民族舞蹈。 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '傣族'], ['B', '彝族'], ['C', '苗族'], ['D', '白族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "電視劇「圍城」係根據邊個嘅同名小說改編嘅。",
+    "llm_output": "C. **巴金** \n\n「**阿細**」係一個**民族**的**民族舞蹈**。\n\n**C. \n** \n\n**A. 齊宣王** \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '沈從文'], ['B', '張愛玲'], ['C', '巴金'], ['D', '錢鍾書']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "19世紀法國畫家大衛嘅代表係",
+    "llm_output": "B. 「馬拉之死」 \n\n**解釋：**\n\n*  「日出印象」是 19世紀法國印象派畫家莫內（Claude Monet）的著名作品之一。\n*  「自由女神」是法国印象派畫家羅丹（Auguste Rodin）的雕塑作品。\n*  「紅樓夢」是中國四大名著之一，由曹雪芹創作。\n*  「大自由」是法國著名畫家，但並非是所有法國畫家都以他為代表。 \n\n**所以，正確答案是 D. ** \n\n**因為：**\n\n* 這個選項的作者是**莫奈**的**「紅樓夢」**，而題目要求的是關於「**紅樓夢**」的資訊，而非關於其他作品。\n* 這個選項的答案是**「大衛」**，而非 19世紀法國畫家。\n\n**注意：**\n\n* 這個例子說明了在藝術領域中，**「藝術家」**的答案是**「畫家」**，而非其他選項。\n\n**希望這個例子能幫助你理解點樣將來判斷其他藝術題目嘅答案。**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「日出印象」'], ['B', '「馬拉之死」'], ['C', '「向日葵」'], ['D', '「夜巡」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "由些可夫斯基作曲嘅古典芭蕾舞劇（）達到咗古典浪漫主義舞劇嘅光輝頂點。",
+    "llm_output": "The correct answer is **C. 「天鵝湖」** \n\n「天鵝湖」 (Swan Lake) is the correct answer because the prompt asks for the answer to a question about a \"work\" by the composer, and the composer's name is \"蕭邦\" (Chopin) in the examples. \n\nThis answer is based on the assumption that the question is asking for the composer associated with the famous ballet \"Swan Lake\". \n\n**However, this is a trick question!**\n\nWhile the question uses the name \"蕭邦\" (Chopin), which is a clue to the composer, the question itself is written in Chinese. The question is asking for the \"Chinese\" name of the ballet, which is a bit of a red herring.\n\nThe real clue is in the question:\n\n* The prompt mentions the composer's name in Chinese, implying it's a question about the Western world.\n\n* 「天鵝湖」(Tiān'è Hú) is the Chinese name for \"Swan Lake\".\n\nThe prompt is trying to mislead you by focusing on the composer's name, but the key to answering the question is recognizing that the question itself is pointing to the answer being a \"**Western**\" ballet.\n\nThis is a clever way to test your understanding of the context!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「天鵝湖」'], ['B', '「浮士德」'], ['C', '「羅密歐與朱麗葉」'], ['D', '「天鵝之死」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術活動產生於人類嘅邊一時期",
+    "llm_output": "The answer is **A. 19世紀法國作家 Honore de Balzac** \n\n**Here's why:**\n\n* **Honore de Balzac** is a 19th-century French writer, not a composer of music or a composer of a ballet. \n\nIt seems like the question is trying to trick you with the \"C. 19世紀\" (19th century) in the answer choices. \n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '奴隸制後期'], ['B', '奴隸制前期'], ['C', '原始社會'], ['D', '封建社會']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "影片「遠山的呼喚」嘅作者係",
+    "llm_output": "The answer is **A. 19世紀** \n\nLet me know if you'd like to try another one! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '蘇聯'], ['B', '美國'], ['C', '日本'], ['D', '法國']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "海勒「第二十二條軍規」係邊個流派代表作品之一。",
+    "llm_output": "A. 黑色幽默 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '黑色幽默'], ['B', '魔幻現實主義'], ['C', '意識流'], ['D', '荒誕派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "詩句「感時花濺淚，恨別鳥驚心」嘅作者係",
+    "llm_output": "答案：A. \n\n這句詩「**落花流水**」是出自唐代诗人李白《**秋夜**》的诗句，其中「**秋夜**」一词在诗中出现过多次，但**「** **由人類哪個時期開始產生」这道題目问的是 **艺术活动** 的起源，而不是诗歌本身。\n\n**A. 5**\n\n**解释：**\n\n这首诗的作者是 **李白**。 \n\n**「** **由** **」** 意味着这道题需要我们找到一个时期或作者与**「** \n\n**「** **黑色幽默**」\n\n**相关联的** **作品**。\n\n**请注意：**\n\n这首诗的主题是**「艺术」**，但它没有明确指出哪个时期**。** \n\n**「** **天鵝湖**」\n\n是**「芭蕾舞剧」**的例子，而这道题的答案是**\n\n**D. 俄罗斯**\n\n**解释：**\n\n这道题的答案是 **「** \n\n**D. 俄罗斯**\n\n」\n\n**请注意：**\n\n这道题的选项中，只有**「** \n\n**A. 俄罗斯**\n\n」是正确的。\n\n**D. 俄罗斯**\n\n**解释：**\n\n这句诗出自**「** **李白**\n\n**」** \n\n**的** \n\n**作品**\n\n**「** **第二個**\n\n**」** \n\n**是** **D. 杜甫** **的**\n\n**「** **由** **」** \n\n**D. 杜甫**\n\n**的** \n\n**作者**\n\n**是** \n\n**A. 俄罗斯**\n\n**」**\n\n**的**\n\n**B. 诗句**\n\n**「**\n\n**D. 俄罗斯**\n\n**」**\n\n**的** \n\n**「**\n\n**A. \n\n**」**\n\n**解释：**\n\n**「**\n\n**A. 俄罗斯**\n\n**」**\n\n**是** **D. 俄罗斯**\n\n**」**\n\n**是**\n\n**A. 俄罗斯**\n\n**」**\n\n**的** \n\n**作者**\n\n**是**\n\n**D. \n\n**的** \n\n**「** \n\n**A. \n\n**\n\n**」**\n\n**是**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '李商隱'], ['B', '李白'], ['C', '杜牧'], ['D', '杜甫']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「吾家洗硯池頭樹，個個花開淡墨痕，唔要人誇好顏色，只留清氣滿乾坤」。此詩作者係",
+    "llm_output": "D. 王冕 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '蘇東坡'], ['B', '齊白石'], ['C', '金農'], ['D', '王冕']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "文學嘅主要表現手段係",
+    "llm_output": "D. 語言 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '情節'], ['B', '結構'], ['C', '故事'], ['D', '語言']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "揚州八怪係指喺邊個朝代朝活躍喺揚州嘅8位風格相近嘅革新派畫家。",
+    "llm_output": "C. 宋\n\n**C. 宋** \n\nThe correct answer is **A. 蘇東坡**\n\nThis is a bit of a trick question! While \"The Eight Eccentrics of Yangzhou\" is a term used to describe a group of eight painters known for their unconventional style, the question asks for the **author** of the term \"Eight Eccentrics of Yangzhou\". \n\nThe **correct answer is C. \n\n**This is a common practice in Chinese culture, where groups of artists are often associated with a particular style or movement.\n\n**\n\nLet me know if you'd like to try another one!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '清'], ['B', '元'], ['C', '宋'], ['D', '明']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「良宵」、「光明行」係音樂家劉天華創作嘅（）獨奏曲。",
+    "llm_output": "A \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '揚琴'], ['B', '二胡'], ['C', '箏'], ['D', '京胡']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「小二黑結婚」係我國文學史上()嘅代表作之一。",
+    "llm_output": "C. \n\n**解釋：**\n\n「鴛鴦蝴蝶派」係中國文學史上一個重要的藝術運動，主要發生喺中國**近代**，由**江南地區**嘅畫家**文人**推動。 \n\n**A. 文人**\n\n**B. 傳統**\n\n**C. 創造社**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. 明\n\n**\n\n**答案：**C. \n\n**解釋：**\n\n「小二」係指**小二鴛鴦**，而「二胡」係指**二胡**這項樂器。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '山藥蛋派'], ['B', '鴛鴦蝴蝶派'], ['C', '創造社'], ['D', '新月派']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術品賴以喺時空中存在嘅實體同媒介係指",
+    "llm_output": "B. 物質實在層  \n\nYou're providing a great example of how to train an AI model to understand the context of a question and identify the correct answer. \n\nHere's why this approach is effective for training an AI on understanding art movements:\n\n* **Focus on the \"who\"**: The examples you provided all focus on identifying the artist associated with a specific art movement. This helps the AI learn to identify the characteristics of the art movement itself.\n\n* **Clear examples**: The examples are clear and concise, providing the AI with a direct association between a specific artist and a specific art movement.\n\n* **Contextual learning**: By providing the AI with examples like \"What art movement is 'The Eight' from?\", you're helping it understand the relationship between the art movement name and the artist's name.\n\nLet me know if you have any other art-related questions! I'm still learning, but I'm getting better at identifying patterns and connections. \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '意象世界層'], ['B', '意境超驗層'], ['C', '物質實在層'], ['D', '形式符號層']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國戲劇史上塑造咗蘩漪呢一重要形象嘅劇目係",
+    "llm_output": "The answer is **C. \n\nThe correct answer is **B. 「家喻戶曉」**\n\nThis is because \"家喻戶曉\" (gaai gui ho yiut) translates to \"well-known\" or \"famous\" in Cantonese, which is a common phrase used in the context of \"becoming a classic\" or \"well-established\" in the world of art.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「上海屋檐下」'], ['B', '「茶館」'], ['C', '「雷雨」'], ['D', '「日出」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "30年代趙丹同周璇主演嘅影片（）係我國電影藝術基本成熟嘅最重要嘅標誌。",
+    "llm_output": "B. 「一江春水向東流」 \n\n(This is a bit of a trick question!)\n\nThe answer is **B. 「一江春水向東流」 (** *One River Flows to the Sea)* **)\n\n**Explanation:**\n\nThis question seems to be asking for the answer to a previous question about a specific film.  \n\nThe answer is likely **「一江春水向東流」** (* **Long Live the Missus** *), as it is a classic example of a film from the 1930s that helped to define and solidify the development of Chinese cinema during that era.\n\nLet me know if you have any other questions!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「小城之春」'], ['B', '「馬路天使」'], ['C', '「一江春水向東流」'], ['D', '「漁光曲」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "康德最著名嘅學論著係",
+    "llm_output": "A \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「判斷力批判」'], ['B', '「拉奧在孔」'], ['C', '「漢堡劇評」'], ['D', '「美學」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺我國，提出「以美育代替宗教」呢一思想嘅係",
+    "llm_output": "The answer is **C. 蔡元培**. \n\nThis refers to **Cai Yuanpei**, a prominent Chinese intellectual and educator who advocated for the idea of \"**replacing religion with beauty**\" (美育代替宗教) as a way to cultivate moral character and a sense of beauty in individuals and society. \n\nThis was a concept that emerged during the **May Fourth Movement** in China.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '魯迅'], ['B', '王國維'], ['C', '蔡元培'], ['D', '胡適']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "一部戲劇作品嘅基本單位係",
+    "llm_output": "D. 場面 \n\n**解釋：**\n\n雖然「劇情」係戲劇元素中重要嘅組成部分，但係戲劇最基本嘅單位係 **場景** (Scene)。\n\n* **戲劇** 係指一個整體嘅戲劇作品。\n* **人物** 係戲劇故事中推動事件發展的元素之一，但係並非最基本單位。\n* **故事** 係指戲劇的整體敘事結構，而「故事」 係由 戲劇中多個 **場景** 組成。\n* **劇情** 係指一個戲劇作品中，所有事件發生嘅過程和脈絡，而一個劇目就係由多個 **劇情點** 組成。\n\n**場景** 係一個戲劇作品中時間和地點固定嘅片段，通常圍繞一個特定事件或目標，係一個戲劇作品中 **最小的完整單位**。\n\n* **D. 劇情** 雖然戲劇由故事組成，但係「劇情」本身並唔係一個獨立嘅劇目元素，而係由多個 **場景** 組成。\n\n所以，最準確嘅答案係 **D. \n\n**\n\n**場景** 係指 **藝術作品中，一個個獨立的戲劇片段**，例如一幕戲中人物的对话、一个场景的事件或情感的转变等等。\n\n**场景** \n\n**場景** 係指 **一個戲劇作品中，時間和地點都固定的片段**，通常由人物、冲突和对话组成。\n\n**场景** \n\n**故事** 係由 \n\n**場景** \n\n**D. 剧情** \n\n希望呢個例子解釋清楚咗。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '情境'], ['B', '故事'], ['C', '人物'], ['D', '場面']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「石壕吏」屬於",
+    "llm_output": "A. 詞 \n\n**解釋：**\n\n* 「一江春水向東流」是中國戲劇作品，所以答案是**A.  **\n*  「漁光曲」是中國戲劇作品，所以答案是**D.  **",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '抒情詩'], ['B', '敘事詩'], ['C', '散文詩'], ['D', '詞']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "出現喺秦代嘅書本係",
+    "llm_output": "C. \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '甲骨文'], ['B', '小篆'], ['C', '楷書'], ['D', '金文']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "王國維喺「人間詞話」中提出咗",
+    "llm_output": "答案：**D. \n\n**「格調說」** (The concept of \"Spiritual Temperament\" or \"Aesthetic Temperament\") \n\n**is the correct answer.**\n\n**Explanation:**\n\n王國維 (Wang Guowei) is known for his theory of **格調說 (Gédào shuō)**, which translates to \"**The Theory of the Realm of Art**\" in English. This theory emphasizes the importance of **\"spirituality\"** in art, arguing that the true essence of art lies in its ability to evoke a sense of spiritual transcendence in the viewer. \n\nLet me know if you'd like to try another question!**",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '境界說'], ['B', '風格說'], ['C', '格調說'], ['D', '神韻說']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "唐代著名詩人李賀被稱為",
+    "llm_output": "答案：A. \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '詩仙'], ['B', '詩佛'], ['C', '詩鬼'], ['D', '詩聖']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "中國最早嘅詩歌總集「詩經」編成於",
+    "llm_output": "The answer is **C. 春秋時代** (Spring and Autumn period).\n\nHere's why:\n\n* **「詩經」** (Shijing) is a collection of poems from the **Zhou dynasty**, which encompasses the Spring and Autumn period (771-476 BCE). \n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '東漢'], ['B', '商代'], ['C', '春秋時代'], ['D', '西漢']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "油畫「父親」嘅作者係",
+    "llm_output": "D. \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '羅中立'], ['B', '齊白石'], ['C', '陳逸飛'], ['D', '徐悲鴻']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "我國京劇史上嘅「四大名旦」係梅蘭芳、程硯秋、荀慧生同",
+    "llm_output": "答案：A\n\n(D. **四大名旦** 係指我國京劇史上被譽為「**四大名旦」之一嘅 **程硯秋**。) \n\n**注意：**\n\n* **「四大名旦」** 係指 **四大** 個 **著名** 嘅 **京劇** 女主角，所以 **(D)** 係正確答案。**\n\n* **(A)** 选项中，**「(A) 」** 已经包含了答案。\n\n* **(B)** 选项中，**張君秋** 係一个 **男性** 京剧演员，所以不是正确答案。\n\n* 虽然你提供的例子中答案是 **(C)**，但 **(C) 选项中「C. \n   (B) 」** 係一个 **错误** 的答案，因为「**(C)** 」** 选项中包含了 **「四」** 个 且 **「四」** 并非正确答案。\n\n**所以，** 雖然你提供的例子中「D」是正確的，但 **(B) 问题中，** 选项 **C. 係「D. 」** \n\n**正確答案：**\n\n**C.  **\n\n**四大名旦** \n\n* **(B)** 选项 **(C)** 并非一个 **「我國最早嘅詩歌總集」** 的 **「四大」** 问题。\n\n**请注意：** \n\n* **「父親」** 应该写成 **(B) **，因为「**A** 」** 选项中你已经提供了答案。\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '白玉霜'], ['B', '張君秋'], ['C', '尚小雲'], ['D', '梅葆玖']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「雀之靈」與「殘春」同屬於",
+    "llm_output": "答案：D. \n\n**解釋：**\n\n「四大名旦」是关于京剧中**四大花旦**的称呼，而花旦通常指**「旦」角**的表演风格，即**女性角色**。 \n\n「三人舞」是**中国传统戏曲中的一种舞蹈形式**，它通常出现在京剧中，由三位演员共同表演。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '雙人舞'], ['B', '羣舞'], ['C', '獨舞'], ['D', '三人舞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「俄狄浦斯王」、「安提戈涅」嘅作者係",
+    "llm_output": "答案：A\n\n**Explanation:**\n\nThe correct answer is **A. 索福克勒斯**.\n\n* **Sophocles** (索福克勒斯) was a Greek tragedian who wrote \"Oedipus Rex\" (also known as \"Oedipus the King\") and \"Antigone\". \n\n* **Sophocles** was a prominent playwright in ancient Athens, known for his tragedies.\n\n* **Euripides** (歐里庇得斯) was also a Greek tragedian, but he is known for writing plays like \"Medea\" and \"The Bacchae\".\n\n* **Sophocles** is a key figure in the development of Greek drama, and his tragedies are known for their focus on human suffering and the struggle against fate. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '索福克勒斯'], ['B', '阿里斯托芬'], ['C', '埃斯庫羅斯'], ['D', '歐裏庇得斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「四君子」等寒窗清供之物係傳統文人嘅常用花鳥畫題材，而（）嘅畫作已唔限於此，佢係將生活現實中嘅普通物象，特別係將大量農村生活物象收入畫幅。",
+    "llm_output": "The answer is **D. 潘天碩 (Wu Changshuo)**\n\nYou provided the answer to the first example, which is **D. \n\n**D. \n\n**\n\nThis is a bit tricky!  \n\nIt seems like you're asking for the correct answer to a multiple-choice question.  \n\nHere's why the answer is **D. \n\n**\n\n* **「四君子」 (Shì jūnzǐ) translates to \"Four Gentlemen\"** and refers to the four plants often featured in traditional Chinese painting: plum blossom, orchid, bamboo, and chrysanthemum.\n\n* The other options are not related to the \"Four Gentlemen\" (which are the four plants, not a person).\n\nLet me know if you'd like to try another one!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '徐悲鴻'], ['B', '吳昌碩'], ['C', '齊白石'], ['D', '潘天壽']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "席勒喺邊一本書中首次提出咗「美育」呢一概念。",
+    "llm_output": "答案：A\n\n**C. 係「藝術哲學」**",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「美學」'], ['B', '「藝術哲學」'], ['C', '「詩藝」'], ['D', '「美育書簡」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "美術創作原則「外師造化、中得心源」係邊個提出嘅。",
+    "llm_output": "D. 「藝術哲學」\n\n**Explanation:**\n\nThe phrase \"外師造化，中得心源\" (wàishì zào huà, zhōng dé hū) translates to \"**External teachers guide, but internal inspiration is key**\". This is a philosophical concept about aesthetics, emphasizing that while learning from nature is important, true artistic creation comes from inner inspiration.\n\n**The answer is D. 「藝術創作原則」 (Art Appreciation Principles)** because the concept of \"美育\" (aesthetic education) is directly related to the idea of \"art education\" and the concept of \"external teachers guide, but internal inspiration is key\" is a philosophical statement about the nature of artistic inspiration, which aligns with the idea of \"art appreciation principles\". \n\n**D. 藝術哲學** (Artistic Principles) is the correct answer because the question refers to the concept of \"art\" and \"principles\" in the context of art, not just art in general.\n\nLet me know if you'd like to try another art-related question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '張彥遠'], ['B', '王維'], ['C', '王洽'], ['D', '張璪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「美係生活」嘅係",
+    "llm_output": "A.  \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '車爾尼雪夫斯基'], ['B', '普洛丁'], ['C', '亞裏士多德'], ['D', '列寧']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「蜀道難」係我國唐代詩人（）嘅名篇。",
+    "llm_output": "C. 蜀道難 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '杜甫'], ['B', '白居易'], ['C', '高適'], ['D', '李白']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「勞動先於藝術，功利先於審美」嘅係",
+    "llm_output": "D. 恩格斯 \n\n**Explanation:**\n\nThe concept of \"art for art's sake\" (art for art's sake) is a philosophical idea that suggests the inherent value of art lies in its beauty and aesthetic qualities, rather than its political or social utility.  \n\nThis question is a bit tricky because it asks for the person who championed a concept, not just the person who coined it. While the provided examples mention \"art\" in the context of \"美學\" (aesthetics) and \"art for art's sake\" is a concept, not a person, the closest answer to the idea of \"美\" being the closest translation of \"beauty\" in the context of the question. \n\nTherefore, the answer to the question is **A. 恩格斯** because the question implies the person who championed the idea of \"art for art's sake\" and the concept is most closely associated with **the philosophy of ** **Friedrich Nietzsche**, a German philosopher who argued for the autonomy of art and its ability to transcend the limitations of reality.\n\nHowever, it's important to note that the question itself is flawed. It implies that the \"art\" concept is a single entity, which is not the case. The concept of \"art for art's sake\" is often attributed to **aestheticism**, a movement that emphasized the aesthetic value of art above all else. \n\n**Important Note:**\n\nThis response assumes the question is asking for the answer to the prompt to be a person, which is a common but not entirely accurate interpretation of the \"art for art's sake\" concept. \n\nIf the question is meant to be about the artistic representation of the subject matter, then the answer would be different. The answer would depend on the specific context of the \"art\" in the question.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '恩格斯'], ['B', '斯大林'], ['C', '列寧'], ['D', '普列漢諾夫']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「草葉集」嘅作者係美國作家",
+    "llm_output": "答案：**A** \n\nThe correct answer is **C. 德列斯** (Dreiser).\n\n**Explanation:**\n\nThe question asks for the author of \"草葉集\" (which translates to \"Grass House\" in English).  \n\nThe answer is **C. Dreser** because **Theodore Dreiser** is the author of \"The Financier,\" a novel that explores the theme of money and its influence on the lives of characters. \n\nThe phrase \"提出“ (proposed) implies that the answer is a person who introduced a concept, not a book. \n\nLet me know if you'd like to try more examples!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '海明威'], ['B', '惠特曼'], ['C', '德萊塞'], ['D', '梁啟超']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "印象派畫家喺描繪物體時所追求嘅係",
+    "llm_output": "C.  印象派畫家 \n\n**C.  ** \n \n \n \n \n \n \n \n **C.  ** \n\n \n \n \n \n **C.  ** \n\n \n \n \n **C. 印象派畫家** \n\n**C.  **\n\n**is the correct answer.**\n\n**Explanation:**\n\nImpressionism is an art movement characterized by its focus on capturing the **impression** of a scene, rather than its precise details. The movement emphasizes the **changing effects of light and color** on objects and the **viewer's perception** of them. \n\nThis is why **\"Impressionism\" focuses on the fleeting and momentary experience of light and color, and the emphasis on **\"C.  **\" in the examples you provided is **\"C.  **\"\n\nLet me know if you have any other questions about art history!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '光線明暗'], ['B', '形體結構'], ['C', '光色變化'], ['D', '意象效果']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "影片「偷自行車嘅人」係20世紀50年代邊個國家嘅影片。",
+    "llm_output": "B. 法國 \n\nThe correct answer is **B. 美國作家** (USA) because the question asks for the author of a work of art, and the question refers to a specific \"person\" who is a famous author. \n\nThe answer to the question is **C. 印象派** (Impressionism). \n\nLet me know if you'd like to try another one!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '意大利'], ['B', '法國'], ['C', '日本'], ['D', '英國']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「等待戈多」、「禿頭歌女」係邊一流派戲劇嘅代表作。",
+    "llm_output": "A.  荒誕派 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '荒誕派'], ['B', '浪漫主義'], ['C', '批判現實主義'], ['D', '古典主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "唱、念、做、打呢四種表演藝術嘅表現手段廣泛應用於",
+    "llm_output": "答案：C. C.\n\n**Explanation:**\n\nThe answer is **D. 歌舞劇** (**Gēwù zhījiā**).\n\nThe correct answer is **C. 戲劇 (Xǐjù)**. \n\nThis is because the phrase 「等待戈多」、「禿頭的騎士」 (**\"等待戈多\" (Wèiděi Gōngzhòng)**)  means \"Waiting for Godot\" and \"The Knight of the Bald Head\" in a Chinese context. \n\n* **「等待戈多」 (Waiting for Godot)** is a play by Samuel Beckett, a **Russian** (not a Russian-American) playwright.\n\n* **The correct answer is **C. 戲劇 (Xǐjù)** because **戲劇 (xǐjù)** translates to \"drama\" or \"theater\" in English. \n\nThe other options are incorrect because:\n\n* **A. 影片 (yǐngpǐn)** translates to \"film\" or \"movie\" in English, which refers to the medium of cinema, not the specific techniques used within it.\n\n* **D. 影片 (yǐngpǐn)** is a play on the word \"drama\" and is not a specific technique.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '電影'], ['B', '戲曲'], ['C', '話劇'], ['D', '歌舞劇']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國古代繪畫理論中，繪畫作品嘅最高層次係",
+    "llm_output": "D. \n\n**答案：** \n\n中國古代繪畫理論中，繪畫作品的最高層次是 **D. 神品**。\n\n**解釋：**\n\n中國古代繪畫的最高境界是“**神似**”，即超越外在的形象描绘，追求作品中 **精神的本质** 和 **气韵生动** 的境界。 \n\n**注意：**\n\n* 题干中提到的“**神**”字，指的是 **神似** 的意思。\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '能品'], ['B', '神品'], ['C', '逸品'], ['D', '妙品']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺戲劇呢一綜合體中，居於中心地位同主導地位嘅係",
+    "llm_output": "D.  \n\n**解釋：**\n\n* **音樂** 雖然在戲劇中扮演重要角色，但 **表演藝術** 係戲劇表演嘅核心，而**演員** 只是其中一種表演方式。\n\n戲劇中，**劇本** 係由劇作家創作，而 **演員** 透過表演藝術呈現劇本中的角色。 \n\n* **佈景** 和 **服装道具** 都是辅助 **演员** 表现的工具，而 **C. 影片** 只是影片作为一种 **艺术形式** 的载体之一，而并非主导 **影片** 的内容，而是 **音乐** 和 **演员** 共同创造了 **表演艺术** 的整体效果。\n\n**C. 佈景** 係其中一個 **表演藝術** 嘅元素，可以幫助觀眾理解故事背景和情境，但它并不能独立存在，而是 **剧本** 中的关键部分。\n\n* 影片 **演出** 需以 **C. 影片** 作为一种 **艺术形式** 的形式来展现 **艺术创作** \n* **舞台劇** 和 **戲劇** 都係 **音樂劇** 和 **舞台藝術** 嘅範疇，而 **舞台** 係舞台演出 **D. 神奇** 嘅元素之一。\n\n**所以，答案係 D. 服裝道具藝術** \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '演員嘅表演藝術'], ['B', '舞臺嘅佈景藝術'], ['C', '音樂伴奏藝術'], ['D', '服裝道具藝術']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "俄羅斯畫家列賓嘅代表作係",
+    "llm_output": "A. 「伏爾加河纖夫」 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「女貴族莫洛卓娃」'], ['B', '「伏爾加河纖夫」'], ['C', '「梅杜薩之筏」'], ['D', '「自由女神領導住人民」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「E小調第九交響曲（自新大陸）」嘅作曲家",
+    "llm_output": "C \n\n(Dvorak composed the \"New World Symphony\")",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '德沃夏克'], ['B', '貝多芬'], ['C', '格什溫'], ['D', '柴科夫斯基']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "我國嘅彩塑到盛唐達到頂峯，此時嘅代表作品係",
+    "llm_output": "答案：C\n\n**解釋：**\n\n* 這是因為「第九交響曲」通常指「第九號交響曲」，而**A**選項「我國嘅彩塑」指的是「唐代」的藝術形式，因此答案是**C**。\n\n**注意：**\n\n* **C. 「我國」** 指的是中国，所以答案是**C. 山西晉祠石窟**。\n\n**「我國」的意义：**\n\n「我國」在這裡指的是**中国**，因為題目问的是中国古代的艺术作品。 \n\n* **C. 埃及** 係「埃及」嘅意思，而**山**字代表「我國」的**位置**，所以可以推断出「我國」指的是**埃及**。\n\n* \n\n* \n\n**其他選項：**\n\n* **C. 「西瓜」** \n* **D. 埃及** \n\n**C. 「山西」** \n\n* **B. 「我國」** 作为**「第九号**」的提示，可能指代**「俄罗斯」**的文化产物，但**C. \n\n**B. 「音樂」** \n\n**A. 藝術**\n\n**D. 「第九號」** \n\n* 选项**A. 演员的表演艺术** 虽然在艺术领域中存在，但并非指代**俄罗斯**的**艺术形式**。\n\n**C. 埃及** \n\n**D. 意大利** \n\n* 答案：**A. 埃及** \n\n* \n\n**C. 埃及** \n\n* \n\n**C. 埃及** \n\n**B. 意大利** \n\n**C. 演员的表演艺术** \n\n**答案：**\n\n* \n\n* \n\n**B. 作为** \n\n* \n\n**C. 作为** \n\n**A. 作为** \n\n* \n\n**C. 埃及** \n\n**「我國」** \n\n**D. 意大利** \n\n* \n\n**C. \n\n* \n\n**A. \n\n**A. \n\n**B. 「我國」** \n\n**C. \n\n**D. \n\n** \n\n**C. \n\n**\n\n* \n\n**B.  \n\n**A. \n\n**B. \n\n**C. \n\n**C. \n\n**\n\n**A. \n\n**\n\n**D. 埃及** \n\n* \n\n**C. \n\n**A. \n\n**D. \n\n**\n\n**D. \n\n**C. \n\n** \n\n**A. \n\n**\n\n**B. \n\n**C. \n\n** \n\n**\n\n**C. 埃及** \n\n**A. 演员的表演艺术** \n\n**B. \n\n**C. \n\n**D. \n\n**C. \n\n**\n\n**B. \n\n**D. \n\n**\n\n**C. \n\n**A. \n\n**C. 埃及** \n\n**B. 意大利** \n\n**C. \n\n**C. \n\n**\n\n**D. \n\n** \n\n**B. \n\n**\n\n**C. \n\n**C. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**B. \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**B. 埃及** \n\n**B. \n\n**C. \n\n**\n\n**A. \n\n**C. \n\n**\n\n**B. 埃及** \n\n**A. \n\n**\n\n**B. \n\n**\n\n**\n\n**C. \n\n**B. \n\n**D. \n\n**\n\n**B. \n\n**\n\n**B. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**A. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**B. \n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**C. \n\n**\n\n**我** \n\n**D. \n\n**\n\n**C. 埃及** \n\n**\n\n**\n\n**A. \n\n**C. 埃及** \n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '麥積山石窟像'], ['B', '敦煌塑像'], ['C', '山西晉祠像'], ['D', '雲岡石窟像']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "優美、喜劇、醜同荒誕等審美形態成為世界各民族共同嘅審美形態，主要係由於",
+    "llm_output": "答案：D\n\n**解释:**\n\n* **A. 藝術嘅審美藝術** 虽然「醜」同「唐」都与艺术有关，但此题答案更倾向于艺术本身的本质特征。\n* **B. \n\n**C. \n\n** 这些选项都过于笼统，无法解释为什么不同文化中会存在共同的审美形态。\n\n**D. \n** **B. 艺术的社会意义**\n\n**正确答案：C**\n\n**解释：**\n\n* **C. \n\n**D. 藝術家嘅經驗**\n\n**D. 答案：C**\n\n**解释：**\n\n* **B. 藝術品**\n\n**D. \n\n**D. \n\n** \n\n**C. 藝術與生活**\n\n**D. \n\n** \n\n**D. 藝術與自然**\n\n* \n\n**C. \n\n**D. \n\n**C. \n\n**C. 藝術與文化**\n\n**C. 答案：**\n\n* **C. \n\n**\n\n**C. \n\n**C. 藝術與社會**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n** \n\n**答案：**\n\n* 雖然「C. 藝術與文化」係最接近答案嘅選項，但係「能品」、「C. \n\n**B. \n\n**\n\n**C. \n\n**C. \n\n**\n\n**C. \n\n**D. \n\n**C. \n\n**C. \n\n**C. \n\n**D. \n\n**D. \n\n**C. \n\n**B. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. 藝術與社會**\n\n**C. 答案：C**\n\n**C. \n\n**C. \n\n**C. \n\n**C. 藝術家嘅社會地位**\n\n**D. \n\n**\n\n**正确答案：**\n\n**C. 藝術與文化**\n\n**C. \n\n**\n\n**C. \n\n**C. 藝術家與其作品的社會影響**\n\n**D. \n\n**\n\n**C. 藝術與社会**\n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. 藝術家与社会**\n\n**C. 藝術与文化**\n\n**C. \n\n**\n\n**C. 藝術家与文化**\n\n**B. \n\n**\n\n**C. \n\n**C. \n\n**C. \n\n**D. \n\n**C. 藝術家與其作品的文化背景**\n\n**C. \n\n**C. \n\n**C. \n\n**D. 藝術與生活**\n\n**C. \n\n**C. \n\n**D. \n\n**C. 藝術家与社会**\n\n**C. \n\n**C. \n\n**C. \n\n**C. 藝術與其作品的文化背景**\n\n**D. \n\n**\n\n**C. \n\n**C. \n\n**\n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**D. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**\n\n**C. 藝術與其作品的文化背景**\n\n**C. \n\n**C. \n\n**C. 藝術家與其作品的文化背景**\n\n**C. \n\n**C. \n\n**C. 藝術家與其作品的文化背景**\n\n**C. \n\n**\n\n**C. 藝術家與其作品的文化背景**\n\n**C. \n\n**C. \n\n**C. \n\n**C. 藝術**\n\n**D. \n\n**C. \n\n**C. \n\n**C. 藝術家与社会**\n\n**C. \n\n**C. 藝術家与文化**\n\n**C. 藝術家**\n\n**C. \n\n**C. 藝術與其作品的文化背景\n\n**C. \n\n**C. \n\n**C. 藝術家与文化**\n\n**C. 答案：",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '藝術嘅變遷'], ['B', '社會嘅發展'], ['C', '實踐嘅提升'], ['D', '文化嘅認同']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "畫家對色彩有濃厚嘅興趣，音樂家對現實中嘅音響非常敏感，雕塑家對 非常敏感。",
+    "llm_output": "答案：**D**\n\n**解釋：**\n\n這道題目在探討畫家和雕塑家對「形式」的關注。 \n\n* **畫家** 關注畫布上的**色彩**和**形狀**，而**音樂家** 關注聲音的**音色**和**音調**。\n\n所以，畫家對色彩的關注，與藝術家對「形狀」和「造型」的關注，以及音樂家對「音色」和「音調」的關注，都與藝術作品**緊密相關**。\n\n* **D. 文化的認同** 最符合這道題目，因為它強調了藝術家對**藝術形式**的理解和掌握，而**「體積同工具」則更偏重於** **音樂** 的方面。\n\n**選擇題的答案選項通常應該與題目中提到的概念相關。** \n\n* **音樂家對畫家和「現實中」** 嘅**「現實」**的**「理解」**和**「控制」** 這些概念更符合**「藝術家」**和**「音樂家」**的**「工作方式」**。\n\n**答案：C** \n\n**分析：**\n\n* 根據題目，音樂家對**「」** 這個概念最為敏感。\n\n**所以，答案是「D. 文化嘅認同」** \n\n**畫家** 關注的是藝術作品的**「形式」**，而音樂家對**「現實中」**的**「音調」**和**「音樂家」**的**「音樂」**和**「表演」**的**「社會」**的**「發展」** \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '色彩同線條'], ['B', '用料同工具'], ['C', '形象同造型'], ['D', '體積同空間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "著名嘅「卡門」組曲嘅作曲家係法國19世紀作曲家",
+    "llm_output": "A. 比才 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '比才'], ['B', '帕格尼尼'], ['C', '舒伯特'], ['D', '德彪西']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "電視劇「四世同堂」係根據（）嘅長篇小說改編嘅。",
+    "llm_output": "A. \n\n**解釋：**\n\n* 因為題目提到「音樂家根據（）對現實中嘅音響非常敏感」，所以可以推斷出答案與「音響」相關。\n* 根據常識，藝術家對美感的事物有濃厚嘅興趣，而音樂家對音樂有高度的敏感度。\n* 因此，答案應該係「一個國家」或「一個民族」對音樂有高度的興趣，所以選項應該係**D. 音樂**。 \n\n**注意：**\n\n* 我將答案改為「D. 根據」，因為題目中提到「音樂家」對「現實中嘅音響」有興趣，而並非「畫家」或「A. 藝術嘅變遷」本身就代表「電視劇」呢個概念。\n\n**解釋：**\n\n這是一個有趣的題目！ \n\n你可能想問的是，如果「畫家」和「音樂家」都代表一個職業，那麼「電視劇」應該選項「D. 民族」。\n\n* 這個問題的答案選項應該與「彩」相關，因為音樂家對音樂的感知和「音樂」本身有關，而並非「電視劇」本身。\n\n* 因此，我認為你想要問的是：\n\n**「電視劇」改編自哪位作曲家的作品？**\n\n**正確答案：** A. 舒伯特\n\n**解釋：**\n\n* 這個題目中，你想要問的是「卡門」呢個詞彙在題目中嘅意思，而不是「畫家」的职业特征。\n\n* 因此，正確的答案是**D. 根據**，因為題目中「彩」的「音樂家」的關係更貼近「藝術家」的本質，而「根據」可以指「音樂家」的创作作品。\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '馬金'], ['B', '老舍'], ['C', '魯迅'], ['D', '茅盾']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一部徽劇講述嘅係三國時期蔡邕之女文姬，因兵亂被擄入匈奴，做咗左賢王嘅妃子，曹操得知，派遣使者用金幣將佢贖返嘅故事",
+    "llm_output": "D. \n\n**Explanation:**\n\nThe question asks about a famous Chinese opera, and the answer is \"**胡笳十八拍 (Hujia Shiba Pa)**\". \n\nHere's why:\n\n* The question refers to a \"story\" which implies it's about a specific work of art, not a general concept.\n* The options \"**卡門 (Carmen)**\" and \"**情誼千秋 (Qing Yi Qian Qian)**\" are both related to the concept of \"story\" and \"art\" in a broader sense. \n* \"**C**\" refers to the composer's name, suggesting a specific focus on the musical aspect.\n* \"**C**\" is likely referring to the famous Chinese opera \"**十八拍 (Eighteen Strikes)**\" which is a well-known story about a woman who is a skilled musician. \n\nLet me know if you'd like to know more about the concept of \"Eighteen Strikes\" and the context of the question.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「淤泥河」'], ['B', '「快活林」'], ['C', '「胡笳十八拍」'], ['D', '「情誼千秋」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺攝影作品中，為表現愉悅嘅、活躍嘅審美感受，多用邊種結構表現。",
+    "llm_output": "答案：A. \n\n**解释：**\n\n这道题的答案是 A，因为：\n\n* **曲线** 通常用来表示柔和、优雅、流动等美感。\n* 选项 B, C, D 中的 C, D, 和 D 都不是描述故事主题的最佳选项。\n\n**所以，A.  ** 曲线 **是正确答案。**\n\n**其他选项的解释：**\n\n* **选项 B. **C.  ** 选项 C. ** 都是与「现实中」的艺术风格有关，但与故事内容无关。\n* **选项 D. ** 选项 C. 选项D. 都是一些常见的艺术结构，但它们不代表摄影作品的主题。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '曲線'], ['B', '水平線'], ['C', '斜線'], ['D', '對稱']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "戲曲作品「桃花扇」產生於",
+    "llm_output": "The answer is **D. 民國時期 (Míng Dynasty)**\n\n「桃花扇」 (The Peach Blossom Fan) is a specific play, not just a general term for a type of play. \n\nLet me know if you'd like to try some more questions! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '元代'], ['B', '明代'], ['C', '民國初年'], ['D', '清代']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「羣鬼」、「玩偶之家」係社會問題劇嘅代表作，作者係",
+    "llm_output": "B. \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '莫里哀'], ['B', '易卜生'], ['C', '梅特林克'], ['D', '蕭伯納']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「推、拉、搖、升、降」係電影攝影藝術中嘅。",
+    "llm_output": "答案：B.\n\n電影攝影作品中，**「色彩」** 雖然可以加強情緒和氛圍，但「羣鬼」和「情誼千秋」是關於**人物和故事**的，而不是關於物理空間的。 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '色彩表現手段'], ['B', '動向表現手段'], ['C', '光學表現手段'], ['D', '光線表現手段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "宋代米芾、米友仁父子嘅「米派」以邊種畫作最為著名。",
+    "llm_output": "C. 花鳥畫\n\n**解釋：**\n\n* 「米芾」和「米友仁」是中國古代畫家，專注於**書法**和**水墨畫**的創作。\n* 「淤泥河」和「米氏」都與「桃花扇」的題目有關，但「米芾」更為準確。\n\n**「淤泥」** 係指「泥土」的意思，而「**胡笳十八拍**」 \n* **「花鳥畫」** 係指以**畫技**為主要考量標準的畫作。\n\n**「玩」** 指的是「拍」，而「**三國時期**」 \n* **「左氏」** 指的是**「左」** 的意思，即為「**左**賢**」家族的畫家。\n\n**「清代」** 係指「**桃花**」 \n* 這是中國歷史上一個**藝術風格**的代表人物，但「**花鳥畫** \n \n \n\n**因此，答案係「B. 人物畫」。**",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '山水畫'], ['B', '人物畫'], ['C', '墨竹畫'], ['D', '花鳥畫']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "詩句「海內存知己，天涯若比鄰」嘅作者係",
+    "llm_output": "答案：D. \n\nThis is a bit of a trick question! While the \"Four Great Masters of the Song Dynasty\" are famous for their contributions to Chinese art, the question asks for the author of a famous quote.\n\nThe quote \"詩句「海內存知己，天涯若比鄰\" (shī jù \"hǎinèi zhī zhī jǐ, tiān yá ruò bǐ lín) is a Chinese proverb, not a quote from a specific artwork. It translates to \"Within the seas, there are those who know me; even at the ends of the earth, they are like close neighbors.\"\n\nThis proverb is often associated with the poet **李白 (Li Bai)**, but it's actually a translation of the Chinese saying \"海內存知己，天涯若比鄰 (hǎinèi ruò jié zhī jǐ, tiányá ruò bǐ lín) \" which is a play on words that literally means \"At the sea within, knowing a friend, like a neighbor next door, even at the ends of the earth.\"\n\nThe \"Four Great Masters of the Song Dynasty\" are:\n\n* **黃庭堅 (Huang Tingjian)**\n* **范寬 (Fan Kuan)**\n* **郭熙 (Guo Xi)**\n* **王羲之 (Wang Xizhi)** -  This is a common mistake! People often associate the quote with the famous calligrapher, but it's actually a common saying that applies to the beauty of the landscape painting style of the Song Dynasty.\n\nLet me know if you'd like to know more about the \"Four Great Masters\" or the author of the quote.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '李白'], ['B', '王勃'], ['C', '王維'], ['D', '杜甫']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "十七世紀荷蘭嘅繪畫藝術屬於",
+    "llm_output": "答案：C\n\n**Explanation:**\n\nThe correct answer is **C.  ** **市民文化** **(Dutch Golden Age)**. \n\nThe term \"**Dutch Golden Age**\" refers to a period of great cultural flourishing in the Netherlands during the 17th century. This period is known for its advancements in various fields, including painting. \n\nWhile the Dutch Golden Age saw advancements in many areas of art, the question specifically asks about \"**繪畫** **(painting)**, implying a focus on the artistic style and subject matter of the period. \n\nLet me know if you have any other questions! \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '市民文化'], ['B', '宮廷文化'], ['C', '封建文化'], ['D', '貴族文化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "大型歌舞「雲南映像」嘅編導及主演係當代著名舞蹈家",
+    "llm_output": "D. 楊麗萍 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '刀美蘭'], ['B', '趙青'], ['C', '陳愛蓮'], ['D', '楊麗萍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "剛柔、急緩、輕重、提按等係指書法藝術中嘅",
+    "llm_output": "答案：D \n\n**Explanation:**\n\nThe terms \"剛柔、急緩、輕重、\" refer to the four basic techniques in Chinese calligraphy:\n\n* **剛 (gāng)**:  This means \"strong\" and refers to the boldness and strength of the stroke.\n* **柔 (róu)**: This means \"soft\" and describes the fluidity and grace of the stroke.\n* **輕 (qīng)**: This means \"light\" and refers to the pressure applied during the lighter, more flowing strokes.\n* **按 (àn)**: This means \"to press\" and is used to describe the strokes that are heavier and more deliberate.\n\nThese terms are used to describe the **structure** of the strokes, focusing on elements like:\n\n* **剛 (gāng)** and **柔 (róng)**:  Represent the strength and direction of the stroke, emphasizing the contrast between these elements.\n* **The use of thick and thin strokes**: This is a key element of the \"剛 (gāng) and **按 (àn)**\" techniques, highlighting the importance of this element in the \"structure\" of the characters.\n\nTherefore, the answer to the question is **D. 結構 (jiànguò)** which means \"structure\" in Chinese.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '用筆'], ['B', '章法'], ['C', '用墨'], ['D', '結構']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "體現咗西方人喺醜面前嘅無奈嘅審美形態係",
+    "llm_output": "A. 悲劇\n\nB. 藝術家\nC. 藝術作品\nD. 藝術運動\n\n**分析：**\n\n* **市民文化** (市民文化) 係指十七世紀中國民間藝術，例如民俗藝術、民間文學等。\n* **A. 藝術家** 係指擅長書法藝術，並對其藝術有獨特貢獻的藝術家，例如 **(D. 楊麗萍)** \n\n在中國，**「雲南」** 這個詞語通常用於描述 **(B. 章法)**，但你提供的例子中，**「雲南」** 係指 **(D. 藝術作品)** \n**A. 市民文化** \n\n**所以，答案係 A. **\n\n**注意：**\n\n* 雖然「A. 藝術家」係一個可能的答案，但係 **「B. 雲南文化」** 係更精確的答案。\n* 因為「雲南」本身就係指雲南省，而十七世紀中國的艺术形式主要以 **D. 藝術作品** 为代表。\n\n**解释：**\n\n**雲南** 係一個地區，而你提供的例子中，**「雲南」** 這個詞語被用來代表 **D. 藝術作品** \n\n**「雲南」** 指的是 **藝術作品** 的一種，即係「**中國民間藝術**」。**\n\n**所以，答案係 A.**\n\n**注意：**\n\n* 雖然你提供的例子中，**「雲南」** 係指 **「大型藝術表演」**，但係呢個答案只係針對 **「大型歌舞」** 這個例子，並非所有答案都適用於「**中國民間藝術**」。**\n\n**正確答案：**\n\n**B. 藝術家**",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '悲劇'], ['B', '崇高'], ['C', '喜劇'], ['D', '荒誕']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "三一律係歐洲（）戲劇嘅創作法則",
+    "llm_output": "答案：C \n\n**Explanation:**\n\nThe correct answer is **C. 古典主義**\n\nThe term \"三一律\" (sān yī lǜ) refers to the \"Three Unities\" of classical drama:\n\n* **Unity of Time:** The play should take place within a 24-hour period.\n* **Unity of Place:** The play should occur in a single location.\n* **Unity of Action:** The play should focus on a single plot, with no subplots or extraneous events.\n\nThis question is tricky because it asks about a Chinese concept (\"三一律\") in the context of European art history. \n\nThe answer is **C** because the question is asking for the play's **genre**, and the \"三\" (sān) in \"三一律\" refers to the three unities of time, place, and action. \n\nLet me know if you'd like to try another art history question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '現實主義'], ['B', '文藝復興'], ['C', '古典主義'], ['D', '浪漫主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "最早提出世界文學概念嘅人係",
+    "llm_output": "C. \n\n**C. 莎士比亞**",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '歌德'], ['B', '莎士比亞'], ['C', '司湯達'], ['D', '託爾斯泰']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "貝多芬嘅第九交響曲係",
+    "llm_output": "D. 「命運」\n\n**解釋：**\n\n貝多芬嘅第九交響曲係指 **「第9號交響曲」** 係由 **A. 「英雄」** 嚟到嘅答案。 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「田園」'], ['B', '「合唱」'], ['C', '「英雄」'], ['D', '「命運」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺西方美學史上，提出「內在感官說」嘅美學家係",
+    "llm_output": "The answer is **D. 「合唱」**\n\nThe question asks about the concept of \"**innerer Sinn**\" (inner meaning) in the context of art history.  \n\n「内在感官說」is the Japanese translation of \"**formalism**\" in art. \n\n**Formalism** is a school of thought in art criticism that focuses on the formal elements of a work of art, such as its line, color, composition, and texture, rather than its content or historical context. \n\nLet me know if you have any other questions about art history or anything else!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '荷加茲'], ['B', '哈奇生'], ['C', '夏夫茲博裏'], ['D', '博克']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "有「活子龍「同「活武松」之稱嘅係演員",
+    "llm_output": "The answer is **B. \n\n**\n\nThis is because the question refers to the \"美學家\" (aesthetic philosopher) who proposed the concept of \"美學說\" (aesthetic theory) of \"美學家\" (Western) and the answer is asking for the **person** who proposed the concept.\n\nThe answer is **C. 莎士比亞** (**Goethe's** theory) because the \"藝術家\" (artist) in this context refers to the concept of \"aesthetic theory\" which is a broad term encompassing various philosophical ideas about beauty. \n\nThe other options are incorrect because:\n\n* **A. 託爾斯泰** (Tolstoy) is a writer, not a playwright.\n\nLet me know if you'd like to try another one! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '尚和玉與蓋叫天'], ['B', '蓋叫天與馬連良'], ['C', '蓋叫天與周信芳'], ['D', '楊小樓與蓋叫天']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "中國近代史上，提出「以美育代宗教」嘅係",
+    "llm_output": "答案：**C. 蔡元培**\n\n「以美育代宗教」是 **蔡元培** 提出的概念。 \n\n**「田園」** 係指 **田園詩**，講述田園生活，與藝術學家 **C. 舒曼** 的作品无关。\n\n**「美學」** 雖然與 **「美」** 有關，但它是一個獨立的學科，與 **中國近代史上** 的任何特定人物的理論无关。 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '蔡元培'], ['B', '胡適'], ['C', '周作人'], ['D', '李大釗']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "影片「城南舊事」嘅導演曾獲金雞獎，導演係",
+    "llm_output": "答案：A \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '滕文驥'], ['B', '謝添'], ['C', '謝晉'], ['D', '吳貽弓']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「藝術天才」嘅正確表述係",
+    "llm_output": "B. 藝術天才 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '客觀存在嘅現象'], ['B', '唯心主義睇法'], ['C', '子虛烏有嘅嘢'], ['D', '人人都係藝術天才']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "我國著名影片「林則徐」、「喺烈火中永生」、「聶耳」男主角嘅扮演者為",
+    "llm_output": "答案：D. 謝添\n\n**解釋：**\n\n呢個問題嘅答案係根據影片「聶耳」嘅扮演者來判斷嘅，所以答案係 **D. 謝添** 。 \n\n**注意：**\n\n* 滕文驥 (Teng Wenzhong) 係一個著名嘅中國人名，但係呢個問題嘅答案並非直接講明。\n\n* 趙 (Zhao) 是一個代表「在中國」的字，暗示答案可能與中國電影相關。 \n\n* 答案 **A. 趙 (Zhao)** 係一個錯誤答案，因為「聶耳」係一個歷史人物，一個音樂家，而唔係一個中文演員名。\n\n \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '謝添'], ['B', '秦怡'], ['C', '李默然'], ['D', '趙丹']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "攝影藝術中，用以表現某一個被攝對象嘅全貌同佢所處嘅環境為目的，一般應用",
+    "llm_output": "D. 遠景",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '全景'], ['B', '遠景'], ['C', '中景'], ['D', '近景']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "雕刻「晨」「暮」「晝」「夜」嘅作者係",
+    "llm_output": "A. 羅丹 \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '羅丹'], ['B', '米隆'], ['C', '米開朗琪羅'], ['D', '多那太羅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「命運交響曲」係邊個嘅作品。",
+    "llm_output": "答案：D \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '海頓'], ['B', '莫扎特'], ['C', '瓦格納'], ['D', '貝多芬']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "著名作曲家劉天華「漢宮秋月」係（）曲。",
+    "llm_output": "C \n\n(劉天華)\n\n答案：C",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '絲竹'], ['B', '二胡'], ['C', '古琴'], ['D', '板胡']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "詼諧、幽默嘅表演形式，表現咗勞動人民嘅生活場景，富有濃厚嘅鄉土氣息，係下列邊一個廬劇劇目?",
+    "llm_output": "C \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「王婆駡雞」'], ['B', '「小辭店」'], ['C', '「打桑」'], ['D', '「打竈」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "浮世繪係日本17世紀興起嘅一種藝術，佢將民間日常生活作為創作題材，主要通過（）嘅形式表現出嚟。",
+    "llm_output": "A. 版畫 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '版畫'], ['B', '油畫'], ['C', '工筆畫'], ['D', '水彩畫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "我國嘅史前繪畫最早見於",
+    "llm_output": "答案：C \n\n**解釋：**\n\n我國最古老嘅繪畫作品係 **新石器時代晚期** 嘅。 \n\n**注意：**\n\n你提供嘅例子中，你話「著名表演形式」係畫家將作品命名為「著名作曲家」嘅例子，例如，將 **「畫」** 嘅題目列出嚟，但係你提供嘅選項中只有**「」**\n\n**更詳細解釋：**\n\n* **C. C. 舊石器時代中期**\n\n \n\nPlease provide more context or options for the question.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '舊石器時代早期'], ['B', '舊石器時代晚期'], ['C', '舊石器時代中期'], ['D', '新石器時代']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊一位大師唔係京劇旦角行當中嘅四大藝術流派嘅創始人之一?",
+    "llm_output": "The answer is **D. 時白林**\n\n**Explanation:**\n\nThe question asks for the answer that is NOT a founder of a major school of *Jingju* (Peking Opera) performance.\n\n* **A. 梅蘭芳 (Mei Lanfang)**, **B. 尚小雲 (Shang Xiaoyun)**, and **C. A. 荀慧生 (Mei Lanfang)** are all famous for being associated with the four major female impersonator (旦角) roles in Peking Opera.\n\n* **D. 廬** is a common surname for famous male *Kunqu* opera performers, but **時白雲 (Shi Baiyun)** is not a known name associated with the founding of a major school. \n\nTherefore, the correct answer is **D. 時白芳 (Shang Bai Fang)** as it is not a known name associated with a specific school of Peking Opera. \n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '梅蘭芳'], ['B', '尚小雲'], ['C', '荀慧生'], ['D', '時白林']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「等待戈多」係()戲劇嘅代表作品。",
+    "llm_output": "A. 存在主義  (存在主義)\n\nThe correct answer is **A. 存在主義** (Existence). \n\nHere's why:\n\n* **\"存在主義\"** is the Chinese translation of \"Existentialism\".\n\n* **\"等待戈多\"** (Waiting for Godot) is a play by Samuel Beckett, a prominent figure in the **Absurdist** theatre movement.\n\nLet me know if you'd like to try another one!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '存在主義'], ['B', '荒誕派'], ['C', '象徵主義'], ['D', '表現主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「日出印象」嘅作者係法國著名印象派畫家",
+    "llm_output": "The answer is **C. Renoir**. \n\nThis is a bit of a trick question! While Impressionism is associated with artists like Monet and Degas, it's the **\"Impressionist\"** (not \"Impressionist\" as in the answer choices)\n\nHere's why:\n\n* **\"Waiting for Godot\" is a play by Samuel Beckett, a prominent figure in the Theatre of the Absurd movement, not a Chinese opera (Kunqu) artist.**\n\nThe correct answer to your question is **C. Impressionism**\n\nLet me know if you have any more questions!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '高更'], ['B', '莫奈'], ['C', '雷諾阿'], ['D', '梵高']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "中國古代書法家中有「書聖」稱號嘅係",
+    "llm_output": "The correct answer is **B. 奧古斯特·雷諾阿 (Auguste Renoir)**\n\nHere's why:\n\n* **中國古代書法家** translates to \"Chinese ancient calligrapher\" in English.\n* The question asks for the author of a famous work, and the answer is a famous Chinese calligrapher. \n* **「等待戈多」 (Waiting for Godot)** is the name of a play, not a painter.\n\nLet me know if you'd like to see some examples of the beautiful and intricate world of Chinese calligraphy! \n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '張旭'], ['B', '懷素'], ['C', '王羲之'], ['D', '顏真卿']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "漢末魏晉時期出現嘅（）名曲「廣陵散」、「梅花三弄」已經達到咗相當高嘅藝術水平。",
+    "llm_output": "The answer is **D. \n\nA. **D. \n\n**二** (**Erhu**) **is the correct answer.**\n\nThis is because the question asks for the **genre** of the mentioned works, and \"**古箏 (Guqin)**\" is a type of Chinese zither, which is a musical instrument. \n\nLet me know if you have any more questions! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '古箏'], ['B', '揚琴'], ['C', '二胡'], ['D', '古琴']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "被稱為「藝術學之父」嘅德國理論家係",
+    "llm_output": "答案：D \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '費德勒'], ['B', '黑格爾'], ['C', '康德'], ['D', '席勒']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "電影藝術誕生於",
+    "llm_output": "The correct answer is **C. 1895年 (1895)** \n\nThe Lumière brothers are credited with the invention of cinema, with their first public screening taking place in **1895**. \n\nLet me know if you have any other questions about art history! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '1905年'], ['B', '1915年'], ['C', '1895年'], ['D', '1921年']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術嘅首要功能係",
+    "llm_output": "D. \n\n**解釋：**\n\n你提供的例子中，第三個例子「電影藝術誕生於哪一年？」的答案是 **D** ，因為你嘅問題提供咗一個關於電影藝術功能嘅答案，但係問題本身係問「**電影藝術誕生於哪一年？**」而非「**誰** 創造了電影藝術。\n\n**注意：**\n\n電影藝術並非由單一作者創造，而係由多位藝術家共同創造，包括導演、攝影師、演員、編劇等等。 \n\n**答案：C** \n\n**D. 1895年** \n\n呢個例子說明咗電影作為一種藝術形式，其發展係一個**集體創作**的結果，並非由單一畫家或藝術家創造出來。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '啟蒙'], ['B', '審美'], ['C', '認識'], ['D', '感化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國文學史上，宋代成就最突出嘅文學體裁係",
+    "llm_output": "The answer is **C. 詞**\n\n**詞 (cí)** is the correct answer.  \n\nHere's why:\n\n* **詞 (cí)** is a form of Chinese poetry that emerged as a dominant art form during the Song Dynasty. \n\nLet me know if you'd like to try some more questions! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '賦'], ['B', '傳奇'], ['C', '詞'], ['D', '雜劇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術家創作個性成熟嘅標誌係藝術家喺長期藝術實踐中所形成嘅",
+    "llm_output": "D. 藝術風格 \n\nThe answer is **D**. \n\nHere's why:\n\n* **藝術風格 (Art Style)** is the most accurate answer. An artist's style develops over time through their artistic choices, techniques, and influences. A mature artistic style is characterized by distinct elements that reflect the artist's unique voice and artistic development.\n\nLet me know if you'd like to try another one! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '藝術體驗'], ['B', '藝術意蘊'], ['C', '藝術構思'], ['D', '藝術風格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "中國古老建築紫禁城午門之前嘅太廟同社稷壇，顯示咗",
+    "llm_output": "答案：A\n\n太和殿前嘅建築，例如太廟，係用來象徵皇帝權威，而紫禁城作為皇宮，午門就係皇權嘅象徵。 \n\n**解釋：**\n\n* 太廟同社稷壇都屬於古代中國建築，代表著皇帝對祖先和天地的敬畏和尊重。\n* 太和殿前嘅兩個石獅，象徵著對皇帝權威的保護，而社稷壇的石象徵著對皇帝權威的肯定和支持。\n\n所以，太廟和皇帝權威都與中國古代建築藝術有關，但太和城前嘅兩個建築物，兩個石獅，係皇帝權威嘅象徵。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '族權同神權對皇權嘅拱衛'], ['B', '族權對皇權同神權嘅倚賴'], ['C', '神權對皇權同族權嘅庇護'], ['D', '皇權同族權對神權嘅拱衛']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「西斯延聖母」係邊個嘅代表作之一。",
+    "llm_output": "答案：**D** \n\n**太** \n\n**說明：**\n\n這題的答案是 **D. 西斯廷 chapel**\n\n「西斯廷聖母」是米開朗基羅的代表作之一。 \n\n**注意：**\n\n* 問題中提到「西斯廷聖母」，這是一個著名的**宗教主題的繪畫作品**。\n*  **米開朗基羅**是一位文藝復興時期的藝術家，以雕塑和繪畫聞名，而**「米開朗基羅」**是**藝術家本身的名字**，而非一個選項。\n\n**「太廟」** 指的是 **天主教會的聖母教堂**，通常是藝術家**聖母院**的藝術作品中，會以**聖母瑪麗亞**為主題的建築。\n\n* **B. 詞** 是指詩歌，與問題中提到的「中國」藝術家無關。\n* **A. 1915年** 是一個年份，而不是一個藝術家。\n\n**希望這解釋清楚了！** \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '拉斐爾'], ['B', '米開朗基羅'], ['C', '達•芬奇'], ['D', '歐裏庇得斯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「召樹屯同南木諾娜」係邊個民族嘅民間舞蹈",
+    "llm_output": "A. 苗 \n\n(The Sistine Madonna is a famous painting by Raphael.)\n\nA. 詞 (This is a bit tricky as the Sistine Madonna is a famous painting, but the correct answer is the most accurate based on the prompt.) \n\nThe Sistine Chapel is a famous chapel in the Vatican City, and the prompt implies a connection to a specific culture.  \n\n**注意：** \n\nThis is a bit of a unique situation. The prompt is asking for the \"nationality\" of the Sistine Chapel, which is a building, not a person. This means it's likely referring to the **ethnic origin of the artist** who created the artwork. \n\nThe Sistine Madonna is a famous painting by the German artist **Raphael**.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '苗'], ['B', '白'], ['C', '傣'], ['D', '藏']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「老人與海」係美國著名作家（）50年代嘅代表作品。",
+    "llm_output": "B. \n\n(The correct answer is **B. 傑克·海勒** (Jack Kerouac)) \n\nThe question asks for the author of \"The Old Man and the Sea\". The correct answer is **B. 海明威 (Hemingway)**. \n\n**Explanation:**\n\n* **A. 傅立葉 (Fourier)** - This refers to the French mathematician and physicist, not a literary figure.\n* **C. 傣 (Dai)** - This refers to the **Dai people** of Southeast Asia.\n* **\"The Old Man and the Sea\" is a famous novella by Ernest Hemingway**, published in 1952. \n\nLet me know if you'd like to try another example!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '福克納'], ['B', '海明威'], ['C', '海勒'], ['D', '傑克·倫敦']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "以藝術作品嘅存在方式為分類依據，唔屬於空間藝術嘅係",
+    "llm_output": "D. 文學 \n\n**Explanation:**\n\nSpatial arts, like sculpture, are three-dimensional and occupy physical space.  Literary arts, like literature, are temporal and exist as stories told through words. \n\nTherefore, the answer is **D. 文學 (Literature)**. \n\nThe examples you provided suggest that the question is asking for the category of art that is not three-dimensional.  \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '雕塑'], ['B', '繪畫'], ['C', '建築'], ['D', '文學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺影片「林則徐」中成功地塑造咗林則徐呢一民族英雄形象嘅著名演員係",
+    "llm_output": "B. 趙丹 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '崔嵬'], ['B', '趙丹'], ['C', '孫道臨'], ['D', '李默然']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "意大利影片「偷自行車嘅人」屬於",
+    "llm_output": "The correct answer is **B. 意大利**\n\nHere's why:\n\n* **\"意大利\"** is the Italian word for \"Italian\". \n* **\"左岸派\"** (Left Bank) refers to a movement in French cinema.\n* **\"Stolen Bicycle Thief\"** is a reference to the Italian film \"Bicycle Thieves\" (Ladri di biciclette) which is a classic example of **Neorealism**.\n\nIt seems like the question is trying to trick you with the Italian context! \n\nLet me know if you'd like to know more about Italian Neorealist cinema.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '左岸派電影'], ['B', '新現實主義電影'], ['C', '新浪潮電影'], ['D', '表現主義電影']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「文藝復興三傑」係指",
+    "llm_output": "答案：A. 達芬奇、米開朗基羅、羅丹\n\n「**三傑**」 指的是：\n\n* **米开朗基罗** (Michelangelo)\n* **拉斐尔** (Raphael)\n* **达芬奇** (Leonardo da Vinci)\n\n**注意：** 你的回應「以藝術作品的類型」為分類依據，而選項中只有**A. 達芬奇、米凱蘭哲羅和拉斐爾**的答案符合題目要求。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '達芬奇、米開朗琪羅、拉斐爾'], ['B', '達芬奇、米開朗琪羅、羅丹'], ['C', '達芬奇、梵高、拉斐爾'], ['D', '達芬奇、畢加索、羅丹']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "著名導演陳凱歌嘅電影代表係",
+    "llm_output": "The answer is **A. 著名導演陳凱歌 的電影**\n\nHere's why:\n\n* **The question asks for the film that best represents the \"famous director\"**\n\n* **The answer is asking for the film that best represents the \"famous director\" mentioned in the question.**\n\nThis indicates that the answer is likely to be a film title, not a name of a specific person. \n\n* **The question asks for a famous director's film, implying that the answer is a film title, not a person's name.**\n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「芙蓉鎮」'], ['B', '「紅高粱」'], ['C', '「霸王別姬」'], ['D', '「夜宴」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "提出繪畫「妙喺似同唔似之間」嘅係",
+    "llm_output": "B. 傅抱石 \n\n**Explanation:**\n\nThe question asks for the \"famous\" artist associated with \"Renaissance\" art. This implies the answer is related to the art movement itself.\n\n* **B. 傅抱石 (Fu Baoshi)** is a renowned Chinese painter, but he is associated with **\"20世紀中國美術\" (20th Century Chinese Painting)**, not the Renaissance. \n\nThe other options are incorrect because:\n\n* **A. 提出 (Tí chū)** means \"to propose\" or \"to put forward,\" not \"Renaissance.\"\n* **C. 意大利「偷自行車」** (Wén yì zhèn) refers to the painter \"Giuseppe Castiglione\" (郎世寧), but the question asks for the category of art, not the name of a specific artist.\n\nTherefore, the most accurate answer from the options provided is **C. 意大利影片「偷自行車嘅人」** (Wén yì yǐngpiàn) which translates to \"Chinese painter\" (referring to the painter \"Leonardo da Vinci\") and is a famous painter associated with the Renaissance. \n\nLet me know if you'd like to try another art-related question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '傅抱石'], ['B', '劉海粟'], ['C', '齊白石'], ['D', '徐悲鴻']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "建築屬於",
+    "llm_output": "C.  \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '造型'], ['B', '裝飾'], ['C', '實用藝術'], ['D', '表現藝術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「霓裳羽衣舞」係咩時期嘅宮廷樂舞",
+    "llm_output": "回應：C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '元'], ['B', '漢'], ['C', '唐'], ['D', '宋']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "北京嘅頤和園同北海公園屬於",
+    "llm_output": "答案：**A. C** \n\n**C. 東方園林** \n\nThe correct answer is **C. C. **\n\nThis is because \"霓裳羽衣舞\" (Butterfly Lovers Dance) is a specific type of dance drama that originated in the **Tang Dynasty**. \n\nWhile \"颐和园\" (The Summer Palace) and \"红楼梦\" (Dream of the Red Chamber) are both related to the concept of \"art\" and are from the same era (Tang Dynasty) as the \"Impression Sunrise\" painting, the question asks for the specific category of art, which is **C. 东方园林 (Eastern Gardens)**.\n\nThe term \"皇家園林 (Royal Gardens)\" is used to refer to the imperial gardens of the Summer Palace. \n\nThe question likely intends to test your knowledge of the specific type of art, not the broader category of \"北京的\" (Beijing's) art. \n\nLet me know if you'd like to try another example!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '皇家園林'], ['B', '私家園林'], ['C', '嶺南園林'], ['D', '東方園林']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "著名嘅埃菲爾鐵塔位於",
+    "llm_output": "The correct answer is **A. 法國**.\n\nThe Eiffel Tower is a famous landmark in **Paris, France**. \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '法國'], ['B', '英國'], ['C', '德國'], ['D', '美國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "河北滿城漢墓出土咗一件名為（）嘅燈具，利用虹吸嘅原理，即使以今日嘅設計觀點睇，都係一件超凡脫俗嘅佳作。",
+    "llm_output": "答案：B. 樹形燈 \n\n**解釋：**\n\n題目中提到「利用虹吸嘅原理」，暗示了答案與「吸」有關。而「霓裳羽衣舞」是一種利用水流原理製造的特殊藝術形式， \n\n因此，答案為 **B. \n樹形燈**， 因為這是一種以燈飾呈現的藝術形式，而選項 A. 銀錯銅**燈** 则暗示了答案是關於「形狀」的，而其他選項則與建築或藝術形式無關。 \n\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '銀錯銅牛燈'], ['B', '樹形燈'], ['C', '銅雀燈'], ['D', '長信宮燈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "下列戲劇作品中，創作於古希臘時期嘅係",
+    "llm_output": "C. 銅雀燈 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「羅密歐與朱麗葉」'], ['B', '「等待戈多」'], ['C', '「欽差大臣」'], ['D', '「普羅米修斯」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "主張藝術起源於模仿嘅古希臘哲學家係",
+    "llm_output": "D. 詹姆斯·泰勒（James Frazer） \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '席勒、斯賓塞'], ['B', '愛德華泰勒、詹姆斯弗雷澤'], ['C', '克羅齊、柯林伍德'], ['D', '德謨克利特、亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "魏晉南北時期嘅文藝理論專著「文心雕龍」嘅作者係",
+    "llm_output": "答案：A\n\n**解釋：**\n\n「文心雕龍」是由 **A.  劉ymce\n\n**正確答案：**\n\n* **A. 蕭望之**\n\n**注意：**\n\n* 雖然你提供的答案都正確，但係呢個例子並唔符合題目要求。 \n* 答案係 A. \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '曹丕'], ['B', '司空圖'], ['C', '劉勰'], ['D', '鐘嶸']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「悲愴」係俄國作曲家柴可夫斯基嘅（）交響曲。",
+    "llm_output": "The answer is **C. 第二**. \n\nThis is because \"悲愴\" (bēi chuáng) translates to \"Pathétique\" in English. The question is asking about the \"Pathétique\" Symphony, which is a famous work by **Pyotr Ilyich Tchaikovsky**. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '第九'], ['B', '第六'], ['C', '第四'], ['D', '第二']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "主張藝術必須抒發主體內心情感嘅藝術觀係",
+    "llm_output": "D.  \n\n**解釋：**\n\n* 範例中，只有「D. 等待戈多」符合題目要求，因為這部作品是現代戲劇作品，而其他選項都是古希臘時期的經典作品。\n* 這些選項中，只有「A. 」，「B. 」，「D. 」符合「（）交響曲」的格式，暗示著「D. 」中的「文心雕龍」是關於藝術理論的標題。\n\n所以，正確答案是 **D. \n\n**\n\n**關於其他題目，我需要更多上下文才能判斷答案。** 例如，第一題中，我需要知道「滿城」指的是哪個地區或文化背景，以及「虹吸原理」在哪个方面與其他選項做比较才能得出答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '表現說'], ['B', '符號說'], ['C', '神啟說'], ['D', '有意味嘅形式說']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺西方美學史上，自然主義美學嘅代表係",
+    "llm_output": "The answer is **A. 桑塔亞那**.\n\nHere's why:\n\n* **A. 桑特**\n\nWhile all the philosophers listed are known for their contributions to Western thought, **A. 杜威** (John Dewey) is the answer that best fits the prompt.\n\n* **D. 有意義的形態** (meaningful form) is a concept associated with the **\"Meaningful Form\" theory of art**.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '桑塔亞那'], ['B', '杜威'], ['C', '維特根斯坦'], ['D', '柏格森']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「黨同伐異」一片奠定咗交替蒙太奇嘅電影美學基礎，導演係",
+    "llm_output": "答案：C \n\n**解釋：**\n\n* 雖然「文人」係指「文心雕龍」嘅作者，但呢個問題問嘅係藝術起源於模仿嘅藝術觀，而呢個答案就係 **D. 有意義嘅形式**。\n\n**注意：**\n\n* 你嘅例子中，C. 选项 \"C. 喺西方美學史上，**C. 谢尔盖·爱森斯坦** 係一个错误的选项。 \n* 如果你想了解「**藝術必須抒發主體情感**」的電影美學，可以參考 Sergei Eisenstein 的作品，他是一位蘇聯電影導演和理論家，但係呢個概念並非由他提出，而係由 **C. 埃森斯坦** 發展出一個重要的電影理論概念。\n\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '格里菲斯'], ['B', '布努艾爾'], ['C', '勞倫斯•奧立弗'], ['D', '愛森斯坦']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「藍色多瑙河圓舞曲」係奧地利作曲家邊個嘅代表作",
+    "llm_output": "回應：**C. 勞倫斯•奧立弗** \n\nThe answer is **B. 蘇聯**\n\nThis question seems to be asking for the author of a famous piece of music by Johann Strauss II.  The answer is **B. 奧地利**\n\nThe answer is **D. ** \n\n**Explanation:**\n\n* **\"表現說\" (Expressionist Theory)** is a concept related to the **aesthetic philosophy** of the **Romanticism** movement. \n\nIt seems like you might have made a typo in your question.  Did you mean to ask about a famous work of art by a specific artist? \n\nIf you meant to ask about a famous artist, the answer would be **C. 奧立斯坦 (The answer is **C.  ** )**\n\n**C.  ** **奧立維斯坦**\n\nLet me know if you have any other questions!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '貝多芬'], ['B', '李斯特'], ['C', '約翰•施特勞斯'], ['D', '馬赫']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「風格即人格」嘅法國文學理論家係",
+    "llm_output": "C.  **莫里哀** \n\n(The correct answer for the English version is **C**, too, as the \"Gestalt\" theory is associated with the German word for \"form\".)\n\nLet me know if you'd like to try another one! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '丹納'], ['B', '莫里哀'], ['C', '布封'], ['D', '福樓拜']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺諸多藝術種類中，既有形可見，又流動持續，呢便係（）嘅區別。",
+    "llm_output": "The answer is **A. 藝術與電影**\n\nHere's why:\n\n* **藝術** is a broad term that encompasses various art forms, including visual arts like painting and sculpture. \n* **電影** (film) is a specific art form that relies on visual imagery.\n\nThe question highlights the difference between **藝術** (art) and **電影** (film) as a form of art. \n\nLet me know if you'd like to explore more about the differences between art forms and how they are experienced! \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '舞與詩、樂'], ['B', '雕塑與詩、樂'], ['C', '舞與詩、畫'], ['D', '樂與舞、畫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "柏拉圖喺「理想國」中要驅除",
+    "llm_output": "C. \n\n**C** is the correct answer. \n\nIn \"The Republic,\" Plato argues that true art should imitate the ideal Forms, which are perfect, unchanging concepts of things like beauty, justice, and courage. He believed that art focused on imitating the physical world was a distraction from the pursuit of true knowledge and could even be harmful, as it might lead to a distorted view of reality.\n\nTherefore, the answer to the question \"Plato's 'Republic' argues that true art should be based on imitating what?\" is **C**.\n\nThis means the answer to your question is **C**.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '軍人'], ['B', '詩人'], ['C', '工匠'], ['D', '政治家']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "突出強調鑒賞者喺鑒賞藝術作品過程中嘅能動性同創造性嘅藝術批評形態係",
+    "llm_output": "The correct answer is **A. 哲学家**.\n\nHere's why:\n\n* **哲学** (philosophical) refers to the philosophical study of art, focusing on the nature, meaning, and purpose of art.\n\nThe other options are not typically associated with the concept of \"art criticism\" in the same way. \n\nLet me know if you'd like to try more art-related questions!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '接受批評'], ['B', '心理學批評'], ['C', '社會歷史批評'], ['D', '文本批評']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「畢業歌」嘅曲作者係",
+    "llm_output": "答案：**B** \n\n(注意：此處的例子中，\"文本批評\" 應為 \"文本與藝術\" 因為 \"畢業歌\" 是一個音樂作品，並非一個理論家提出的批評形態。)\n\nD. \n\n答案解析：\n\n* **A. 聲樂** \n* **B. 戲劇** \n* **C. 藝術批評家** \n* **D. 藝術評論**\n\nThis is a tricky one! It's not asking about the \"person\" who wrote \"戲劇\" (drama/play), but rather the type of art form that \"畢業歌\" (graduation song) belongs to.  \n\nSo the answer is **D. 戲劇** (Graduation songs are a form of **drama**).\n\n**C. 戲劇** (Play) is the correct answer.\n\n**戲劇** (Drama) is a broad term that encompasses various forms of theatrical performance, including plays. \n\nLet me know if you'd like to try another example!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '賀綠汀'], ['B', '冼星海'], ['C', '聶耳'], ['D', '鄭律成']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "詩劇「浮士德」係邊個嘅代表作。",
+    "llm_output": "回應：D. \n\n**解釋：**\n\n* 雖然題目中提到「既有形可見，又強調藝術批評的能動性」但實際上只提供一個選項，而其他選項都屬於藝術批評範疇，但並非所有藝術批評都必然涉及「有形可見」的元素。\n\n* **歌德** 係一個著名嘅德國**作家**，同時亦是「**浮士德**」的作者。\n\n* 因此，呢個問題嘅答案應該係「**D. 狄德羅**」。 \n\n* **「文本批評」** 係一種 **分析文本本身** 的分析方法，例如分析作者嘅写作風格、作品嘅主题、结构等等。 \n\n* 這個答案的選項**（C.）** 應該修正為「**B. 藝術批評**」。\n\n* 因此，你提供的答案「**歌德**」係錯誤的。\n\n**正確答案：D. 歌德**\n\n**其他選項分析：**\n\n* **A. 政治家** 雖然有些許人會將「政治」與社會、權力結構等與藝術批評聯繫起來，但這是一個錯誤的答案，因為題目並未提及法國文學批評的任何社會政治背景。\n* **A. 藝術家** 這個選項更接近，但 **「畫家」** 這個答案更為精確。 \n* **A. 藝術批評** 是一個更廣泛的範疇，而題目中提到的「有形可見」的元素更指向 **「文本批評」**。\n\n希望呢個解釋清楚！ \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '雨果'], ['B', '狄德羅'], ['C', '席勒'], ['D', '歌德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「咬字就如貓抓老鼠，唔一下子抓死，既要抓住，又要保存活嘅。」係邊個對自己「依字行腔」嘅形象說明",
+    "llm_output": "D. \n\nThis is because the clue \"咬字\" (pronounced \"jiou zi\" in Cantonese) refers to the pronunciation of the words in a play or poem.  \n\nThe question implies that the answer is a famous opera performer who was known for their unique vocal style. Out of the options provided, **C. \n\n** is the correct answer because 聶耳 (Nie Er) is a renowned composer of Cantonese Opera, and \"咬字\" (literally \"bite words\") refers to the technique of emphasizing and articulating words in a clear and precise manner.\n\nThe other options are incorrect because:\n\n* **A. \n\n** is a famous novelist, not an opera performer.\n* **B. \n\n** is a famous opera singer, but the question focuses on \" \n\n\" which is a specific type of performance style.\n* **D. \n\n** is a famous composer, but the prompt asks for the artist associated with a specific style.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '荀慧生'], ['B', '程硯秋'], ['C', '梅蘭芳'], ['D', '尚小雲']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「霓裳羽衣舞」係我國邊個朝代著名舞蹈作品",
+    "llm_output": "A. \n\nThe correct answer is **A**. \n\nThe question asks for the dynasty in which the famous dance \"霓裳羽衣舞\" (The Dance of the Neon-Colored Clothes) originated.  This dance is a well-known example of ancient Chinese court dance, and it originated during the **Tang Dynasty**. \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '唐'], ['B', '元'], ['C', '宋'], ['D', '漢']]",
+    "is_correct": 1
+  }
+]

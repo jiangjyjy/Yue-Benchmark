@@ -1,0 +1,1592 @@
+[
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種產品價格嘅大幅度減少，導致另一種產品銷量嘅提高，呢兩種產品屬於",
+    "llm_output": "C\n替换品是指两种商品功能相近，可以满足消费者的同一需要，可以相互替代，一种商品价格变动会引起另一种商品需求量的同方向变动。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '獨立品'], ['B', '互補品'], ['C', '替代品'], ['D', '低檔品']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "風險補償率係",
+    "llm_output": "A\n風險補償率係风险贴现率，风险贴现率是风险决策者贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，风险贴现率是风险贴现率，",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '加喺無風險嘅貼現率上，以便喺決策中將風險考慮入去'], ['B', '只供風險決策者決策時用'], ['C', 'B同C都啱'], ['D', '要從無風險貼現率減去，以便喺決策中考慮風險']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果其他因素保持唔變，下面邊種情況一定會使需求減少",
+    "llm_output": "C\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '收入減少，同時互補品嘅價格下降'], ['B', '收入增加，同時替代品嘅價格上升'], ['C', '收入減少，同時互補品嘅價格上升'], ['D', '收入增加，同時替代品嘅價格下降']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一個行業有好多企業，每個企業銷售嘅產品同其他企業嘅產品有啲唔同，咁嘅市場結構被稱為",
+    "llm_output": "B. 完全競爭\n完全競爭 market structure\n完全競爭 market structure 是指 market 內有好多個seller，每个seller selling 嘅 product 同其他seller 嘅 product 有啲唔同，而 market 內所有seller 嘅 product 同 market 內所有buyers 嘅 demand 有啲唔同。\n完全競爭 market structure 有好多個特点：\n1. 每个seller 嘅 product 同 market 內所有seller 嘅 product 有啲唔同\n2. 每个seller 嘅 product 同 market 內所有buyers 嘅 demand 有啲唔同\n3. 每个seller 嘅 product 同 market 內所有buyers 嘅 demand 有啲唔同\n4. 每个seller 嘅 product 同 market 內所有buyers 嘅 demand 有啲唔同\n5. 每个seller 嘅 product 同 market 內所有buyers 嘅 demand 有啲唔同\n6. 每个seller 嘅 product 同 market 內所有buyers 嘅 demand 有啲唔同\n7. 每个seller 嘅 product 同 market 內所有buyers 嘅 demand 有啲唔同\n8. 每个seller 嘅 product 同 market 內所有buyers 嘅 demand 有啲唔同\n9. 每个seller 嘅 product 同 market 內所有buyers 嘅 demand 有啲唔同\n10. 每个seller 嘅 product 同 market 內所有buyers 嘅 demand 有啲唔同\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '壟斷競爭'], ['B', '完全競爭'], ['C', '寡頭'], ['D', '壟斷']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "壟斷競爭企業嘅競爭方式唔包括",
+    "llm_output": "B\n来源：\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '產品差異化競爭'], ['B', '價格競爭'], ['C', '專利競爭'], ['D', '廣告同促銷競爭']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "提出消費傾向遞減心理規律嘅經濟學家係",
+    "llm_output": "A\nA. 西斯蒙第\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '西斯蒙第'], ['B', '配第'], ['C', '魁奈'], ['D', '凱恩斯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "需求嘅收入彈性係指",
+    "llm_output": "B\n来源: 香港公开考试局\n日期: 2018-09-18\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '收入對需求變化嘅反應程度'], ['B', '需求對收入變化嘅反應程度'], ['C', '需求同收入嘅相容性'], ['D', '需求同收入嘅相關程度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果投資方案未來全部淨現金效益量嘅現值大於期初投資，企業就應該",
+    "llm_output": "B\n来源：\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '仲需要再研究'], ['B', '接受該方案'], ['C', '無法確定'], ['D', '拒絕該方案']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺完全競爭市場上，一個企業嘅需求曲線係",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '與橫軸平行嘅線'], ['B', '向右下方傾斜嘅線'], ['C', '與橫軸垂直嘅線'], ['D', '與縱軸平行嘅線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "最常用嘅三種投資方案評價方法係",
+    "llm_output": "B\nA. 返本期法、成本法、內部回報率法\nB. 返本期法、淨現值法、內部回報率法\nC. 返本期法、淨現值法、成本法\nD. 成本法、淨現值法、內部回報率法\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '返本期法、成本法、內部回報率法'], ['B', '返本期法、淨現值法、內部回報率法'], ['C', '返本期法、淨現值法、成本法'], ['D', '成本法、淨現值法、內部回報率法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "投資方案甲頭三年嘅淨現金效益量分別係100蚊、100蚊同100蚊，投資方案乙頭三年嘅現金效益量分別係80蚊、100蚊同120蚊",
+    "llm_output": "A\nA\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '乙方案現值大'], ['B', '甲方案現值大'], ['C', '兩個方案嘅現值相等'], ['D', '必須作貼現計算，先可以確定邊個方案現值大']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "以下現象屬於市場失靈嘅係",
+    "llm_output": "B\nA. 收入唔平等\nB. 以上全部\nC. 市場控制\nD. 自然壟斷\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '收入唔平等'], ['B', '以上全部'], ['C', '市場控制'], ['D', '自然壟斷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "當長期均衡時，完全競爭企業總係",
+    "llm_output": "D\n来源：\nhttps://www.economicsdiscussion.net/production/long-run-equilibrium-in-complete-competitive-market/\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '經濟利潤大於零'], ['B', '正常利潤為零'], ['C', '經濟利潤小於零'], ['D', '經濟利潤為零']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "有風險條件下嘅決策，其決策條件係",
+    "llm_output": "B\nA. 決策嘅可能結果有多個，但唔知每種結果發生嘅概率\nB. 決策嘅可能結果有多個，且每種結果嘅發生概率為已知\nC. 決策嘅可能結果有多個\nD. 決策嘅可能結果只有一個\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '決策嘅可能結果有多個，但唔知每種結果發生嘅概率'], ['B', '決策嘅可能結果有多個，且每種結果嘅發生概率為已知'], ['C', '決策嘅可能結果有多個'], ['D', '決策嘅可能結果只有一個']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "以下可用於衡量一個國家金融發展水平嘅指標係",
+    "llm_output": "C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '淨金融資產'], ['B', '國民生產總值'], ['C', '金融比率'], ['D', '流動性金融資產']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面治理通脹嘅宏觀經濟政策中，屬於緊縮性貨幣政策嘅係",
+    "llm_output": "B\nA. 政府削減財政支出，属于紧缩性财政政策。\nB. 中央银行在公开市场上出售政府债券，属于紧缩性货币政策。\nC. 控制集团购买力，属于紧缩性财政政策。\nD. 政府确定工资—物价指导线，属于紧缩性财政政策。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '政府削減財政支出'], ['B', '中央銀行喺公開市場上出售政府債券'], ['C', '控制集團購買力'], ['D', '政府確定工資—物價指導線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "實施「次級進口替代」戰略嘅基礎係",
+    "llm_output": "C\nA. 多啲嘅自然資源\nB. 多啲嘅勞動力\nD. 發達嘅金融市場\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '多啲嘅自然資源'], ['B', '多啲嘅勞動力'], ['C', '先進嘅科學技術'], ['D', '發達嘅金融市場']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "假定名義貨幣供應量唔變，價格總水平上升將導致一條向右上方傾斜嘅LM曲線上嘅一點",
+    "llm_output": "B\n来源：\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '沿原LM曲線向下方移動'], ['B', '沿原LM曲線向上方移動'], ['C', '向左移動到另一條LM曲線上'], ['D', '向右移動到另一條LM曲線上']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於恩格爾系數嘅表述，正確嘅係",
+    "llm_output": "D\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '個別年份我國恩格爾系數上升，說明恩格爾定律喺我國唔適用'], ['B', '隨收入水平提高，恩格爾系數有逐漸增加嘅趨勢'], ['C', '恩格爾系數係食品支出佔消費總支出嘅比重'], ['D', '恩格爾系數隨收入增加總係下降嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種商品價格下降對其互補品最直接嘅影響係",
+    "llm_output": "A\n互補品係指兩者必须同時使用嘅商品。例如，嘅士與汽油，嘅士嘅價格下降，就會使嘅士需求上升，而嘅士需求上升就會使汽油需求上升，所以正确答案係A。\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '互補品嘅需求曲線向右移動'], ['B', '互補品嘅價格下降'], ['C', '互補品嘅供應曲線向右移動'], ['D', '互補品嘅需求曲線向左移動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面屬於二級價格歧視嘅係",
+    "llm_output": "A\nA. 私人診所根據唔同嘅人收取唔同嘅價格。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '私人診所根據唔同嘅人收取唔同嘅價格'], ['B', '去公園，老人同細路嘅門票低'], ['C', '喺超市同時買兩塊香皂比單獨買一塊香皂單價低'], ['D', '坐火車，學生半價買火車票']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "有限責任公司簽發畀股東嘅出資證明書係一種",
+    "llm_output": "C\n本篇文章內容系由ѕауѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕіngѕ",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '非流通證券'], ['B', '證明文書'], ['C', '有價證券'], ['D', '無價證券']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "完全競爭市場上，單個廠商嘅生產要素需求曲線向右下方傾斜嘅原因係",
+    "llm_output": "A\n完全競爭市場上，單個廠商嘅生產要素需求曲線向右下方傾斜嘅原因係要素嘅邊際產量遞減。\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '要素嘅邊際產量遞減'], ['B', '等產量曲線向右下方傾斜'], ['C', '要素所生產產品嘅邊際效用遞減'], ['D', '生產嘅規模收益遞減']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "供應嘅變動係指（）唔變條件下，其他因素變動所引起嘅供應嘅變動。",
+    "llm_output": "C\nA. 本身嘅價格\nB. 偏好\nD. 產量\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '本身嘅價格'], ['B', '偏好'], ['C', '技術'], ['D', '產量']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "發行對象事先指定，喺小範圍內發行嘅債券係",
+    "llm_output": "C\n私募債券\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '抵押債券'], ['B', '公募債券'], ['C', '私募債券'], ['D', '無抵押債券']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "長期生產函數嘅概念係",
+    "llm_output": "A\nA\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '生產函數中所有投入要素嘅投入量都係不可變嘅'], ['B', '生產函數中僅有一種投入要素嘅投入量係可變嘅'], ['C', '生產函數中有嘅投入要素嘅投入量係可變嘅，有嘅固定唔變'], ['D', '生產函數中所有投入要素嘅投入量都係可變嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "邊際效用遞減規律表明，隨住消費者對某種商品消費量嘅增加",
+    "llm_output": "C\nA. 該商品嘅總效用趨於遞減\nB. 該商品嘅效用總量趨於遞減\nD. 該商品嘅平均效用趨於遞減\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '該商品嘅總效用趨於遞減'], ['B', '該商品嘅效用總量趨於遞減'], ['C', '該商品嘅效用增量趨於遞減'], ['D', '該商品嘅平均效用趨於遞減']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "住房投資依賴於",
+    "llm_output": "B\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '實際利率'], ['B', '以上全部'], ['C', '成年人口嘅規模'], ['D', '住房嘅相對價格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺完全壟斷市場上，對於任何產量，廠商嘅平均收益總等於",
+    "llm_output": "A. 市場價格\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '市場價格'], ['B', '邊際收益'], ['C', '邊際成本'], ['D', '平均成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "唔受決策影響嘅非相關成本，稱為",
+    "llm_output": "C\nA. 社會成本：係指一項决策對社会整体嘅影響。\nB. 增量成本：係指增加一項决策嘅成本。\nC. 沉沒成本：係指唔受決策影響嘅非相關成本。\nD. 機會成本：係指放弃咗另一個最佳决策而帶來嘅成本。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會成本'], ['B', '增量成本'], ['C', '沉沒成本'], ['D', '機會成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果競爭模型係經濟嘅準確描述，咁",
+    "llm_output": "D\nA. 經濟運行喺生產可能性曲線上\nB. 經濟運行喺效用可能性曲線上\nC. 以上講法都啱\nD. 資源嘅配置係帕累炮塔有效嘅\n\n经济学的竞争模型是描述经济运行在生产可能性曲线上的，资源配置是帕累托有效的。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經濟運行喺生產可能性曲線上'], ['B', '經濟運行喺效用可能性曲線上'], ['C', '以上講法都啱'], ['D', '資源嘅配置係帕累託有效嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "強調發展中國家經濟中特有嘅市場唔完全性、剛性、短缺、過剩、低供應彈性等固有經濟特點，呢正係發展中國家經濟現實與西方傳統經濟理論嘅",
+    "llm_output": "B\n来源：\n[1] https://zhidao.baidu.com/question/14774964.html\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基本相同之處'], ['B', '重要區別'], ['C', '毫不相干嘅論述'], ['D', '內在聯繫嘅表現']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "差別定價存在所需要嘅條件唔包括",
+    "llm_output": "B\nA. 產品嘅市場必須係被分割嘅\nB. 唔同市場嘅價格彈性必須唔同\nC. 唔同市場嘅邊際收入必須唔同\nD. 企業對價格要有一定控制能力\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '產品嘅市場必須係被分割嘅'], ['B', '唔同市場嘅價格彈性必須唔同'], ['C', '唔同市場嘅邊際收入必須唔同'], ['D', '企業對價格要有一定控制能力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "淨出口係指",
+    "llm_output": "D\n净出口是指一个国家在一定时期内出口商品和劳务的收入减去进口商品和劳务的支出。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '出口加政府轉移支付'], ['B', '出口減進口'], ['C', '出口加進口'], ['D', '進口減出口']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "當政府用某啲資源去修建一條大壩時，呢啲資源就唔可以用於修建高速公路。呢說明咗",
+    "llm_output": "B\nA. 微觀經濟學嘅研究對象\nB. 機會成本嘅概念\nC. 最優化嘅概念\nD. 宏觀經濟學嘅研究對象\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '微觀經濟學嘅研究對象'], ['B', '機會成本嘅概念'], ['C', '最優化嘅概念'], ['D', '宏觀經濟學嘅研究對象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果中央銀行提高目標通脹率，咁",
+    "llm_output": "B\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '貨幣政策規則將變得更陡峭'], ['B', '均衡點將沿住貨幣政策規則線移動'], ['C', '貨幣政策規則線將向上移動'], ['D', '貨幣政策規則線將向下移動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "生產函數嘅長期係指",
+    "llm_output": "D\n来源: 香港公开大学\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1年以內'], ['B', '5年以上'], ['C', '1年以上'], ['D', '所有投入都可以調整嘅時間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面投資工具中，流動性最強嘅係",
+    "llm_output": "D\nA. 唔動產投資\nB. 債券\nC. 股票\nD. 銀行存款\nD. 銀行存款\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唔動產投資'], ['B', '債券'], ['C', '股票'], ['D', '銀行存款']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於風險大小嘅表述，正確嘅係",
+    "llm_output": "C\nA. 預期收益細嘅風險就大\nB. 預期收益大嘅風險就細\nC. 預期收益相同，方差大嘅風險大\nD. 預期收益相同，方差大嘅風險細\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '預期收益細嘅風險就大'], ['B', '預期收益大嘅風險就細'], ['C', '預期收益相同，方差大嘅風險大'], ['D', '預期收益相同，方差大嘅風險細']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "新古典主義回潮理論建立喺兩種理論基礎之上，呢兩種理論基礎係",
+    "llm_output": "D\n来源：\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '公共選擇理論同市場失靈理論'], ['B', '新增長理論同公共選擇理論'], ['C', '傳統嘅自由市場經濟理論同新增長理論'], ['D', '傳統嘅自由市場經濟理論同公共選擇理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺壟斷性競爭條件下，企業長期均衡時嘅條件係",
+    "llm_output": "C\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'P＝AC同MR＝MC'], ['B', 'P＝AC＝MC'], ['C', 'P＝MR＝MC'], ['D', 'MR＝MC']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費者行為嘅基本準則係",
+    "llm_output": "D\nA. 成本最小化\nB. 支出最小化\nC. 收入最大化\nD. 效用最大化\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '成本最小化'], ['B', '支出最小化'], ['C', '收入最大化'], ['D', '效用最大化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "企業應該接受一個投資方案，只要佢嘅回報率",
+    "llm_output": "B\n来源：\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '等於佢嘅平均資金成本'], ['B', '大於佢嘅邊際資金成本'], ['C', '大於佢嘅平均資金成本'], ['D', '大於佢喺股票市場將來可能嘅回報']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "長期平均成本曲線成為U形嘅原因同",
+    "llm_output": "A\nB\nC\nD\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '規模報酬有關'], ['B', '要素嘅邊際生產率有關'], ['C', '外部經濟同唔經濟有關'], ['D', '固定成本同可變成本所佔比重有關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "寡頭壟斷嘅一個顯著特徵係",
+    "llm_output": "A\nA. 有一條彈性嘅供應曲線\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '有一條彈性嘅供應曲線'], ['B', '企業之間互相依存'], ['C', '有一條非彈性嘅需求曲線'], ['D', '唔存在市場進入障礙']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "根據經濟法調整嘅特定經濟關係嘅要求，經濟法主體包括邊四類",
+    "llm_output": "D\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '國家機關、企業同其他社會組織、農戶同個體經營戶及公民、公司'], ['B', '法人、公司、公民、聯營企業'], ['C', '有限責任公司、股份有限公司、私人企業、個體工商戶'], ['D', '國家機關、企業同其他社會組織、企業嘅內部組織同有關人員、農戶同個體經營戶及公民']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面投資策略中，最明智嘅策略係",
+    "llm_output": "B\nA. 將資金全部用於購買風險最細嘅一種資產\nA 將資金全部用於購買風險最細嘅一種資產，祗有風險最低嘅資產，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗有最低嘅回報率，祗",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '將資金全部用於購買風險最細嘅一種資產'], ['B', '選擇適當嘅資產組合'], ['C', '選擇購買一種最好嘅政府債券'], ['D', '將資金全部用於購買可能收益最高嘅一種資產']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果管理者能夠預測出執行決策將來可能會得出幾種結果同每種結果嘅概率係幾多，呢種條件下嘅決策叫做",
+    "llm_output": "B\nA. 唔確定條件下嘅決策\nB. 有風險條件下嘅決策\nC. 確定條件下嘅決策\nD. 無風險條件下嘅決策\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔確定條件下嘅決策'], ['B', '有風險條件下嘅決策'], ['C', '確定條件下嘅決策'], ['D', '無風險條件下嘅決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟全球化嘅基礎係",
+    "llm_output": "A\nA.戰後科學技術嘅迅猛發展\nB.戰後多邊貿易嘅迅速發展\nC.佈雷頓森林會議體系崩潰\nD.戰後金融市場嘅迅速發展\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '戰後科學技術嘅迅猛發展'], ['B', '戰後多邊貿易嘅迅速發展'], ['C', '佈雷頓森林會議體系崩潰'], ['D', '戰後金融市場嘅迅速發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "股份有限公司註冊資本嘅最低限額為（）。股份有限公司註冊資本最低限額需高於上述所定限額嘅，由法律、行政法規另行規定。",
+    "llm_output": "D\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人民幣2000萬元'], ['B', '人民幣500萬元'], ['C', '人民幣4000萬元'], ['D', '人民幣1000萬元']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "管理經濟學嘅理論支柱唔包括",
+    "llm_output": "A\nA 需求彈性理論\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '需求彈性理論'], ['B', '價格理論'], ['C', '邊際分析法'], ['D', '機會成本原理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，影響消費傾向嘅客觀因素係",
+    "llm_output": "C\nA. 投機：投機是指基于對未来价格變動的預測，迪斯博取利潤的活动。\nB. 謹慎：謹慎是指對事物小心谨慎，不輕易相信。\nC. 利息率變化：利息率是指 borrower 向 lender 借入资金，而 borrower 向 lender 支付的利率。利息率變化會影響人们的消費傾向。\nD. 貪婪：貪婪是指對財富或利益過度追求，不顧道德或法律的行為。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '投機'], ['B', '謹慎'], ['C', '利息率變化'], ['D', '貪婪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "會導致生產可能性邊界向外移動嘅係",
+    "llm_output": "B\nA. 失業，只会导致失业率上升，不会导致生产可能性边界向外移动。\nB. 有用性資源增加或者技術進步，会导致生产可能性边界向外移动。\nC. 通脹，只会导致物价上涨，不会导致生产可能性边界向外移动。\nD. 消費品生產增加，只会导致生产可能性边界向外移动，不会导致生产可能性边界向外移动。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '失業'], ['B', '有用性資源增加或者技術進步'], ['C', '通脹'], ['D', '消費品生產增加']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "假定生產一種產品嘅固定成本為1800蚊，產品價格為23蚊一件，變動成本為13蚊，要求利潤為600蚊，產量至少應該達到",
+    "llm_output": "B\n解題思路：\n首先，根据题意，固定成本为1800元，单位产品的变动成本为13元，单位产品的售价为23元，要求利润为600元。\n其次，根据利润公式，利润=售价-变动成本-固定成本，代入数据，可得：600=23-13-1800，解得：x=580。\n因此，选择B选项。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '340件'], ['B', '580件'], ['C', '240件'], ['D', '460件']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "生產可能性曲線向外凸出嘅原因係",
+    "llm_output": "B\nA. 兩種產品嘅邊際替代率recursive increase\nB. 兩種產品嘅邊際替代率recursive decrease\nC. 兩種產品嘅邊際轉換率recursive increase\nD. 兩種產品嘅邊際轉換率recursive decrease\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '兩種產品嘅邊際替代率遞增'], ['B', '兩種產品嘅邊際替代率遞減'], ['C', '兩種產品嘅邊際轉換率遞增'], ['D', '兩種產品嘅邊際轉換率遞減']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "支持價格與市場均衡價格相比",
+    "llm_output": "B\n解释：\n市场均衡价格是需求曲线和供给曲线相交的点，而支持价格是政府为支持生产者而制定的价格，它高于均衡价格。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '等於價格'], ['B', '高於均衡價格'], ['C', '低於均衡價格'], ['D', '都可以']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面講法中錯誤嘅係",
+    "llm_output": "B\nA. 隨住某種生產要素投入量嘅增加，邊際產量同平均產量增加到一定程度將趨於下降，其中邊際產量嘅下降一定先於平均產量。\nB. 只要邊際產量減少，總產量一定都減少。\nC. 邊際產量曲線一定喺平均產量曲線嘅最高點與之相交。\nD. 只要總產量減少，邊際產量一定係負數。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '隨住某種生產要素投入量嘅增加，邊際產量同平均產量增加到一定程度將趨於下降，其中邊際產量嘅下降一定先於平均產量'], ['B', '只要邊際產量減少，總產量一定都減少'], ['C', '邊際產量曲線一定喺平均產量曲線嘅最高點與之相交'], ['D', '只要總產量減少，邊際產量一定係負數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於消費水平對消費結構嘅影響嘅講法中，正確嘅係",
+    "llm_output": "B\nA选项，耐用消費品支出比重隨消費水平提高有下降趨勢，不正确。\nC选项，住房醫療等支出項目隨消費水平提高有上升趨勢，不正确。\nD选项，低收入國家勞務支出比重高，高收入國家勞務支出比重低，不正确。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '耐用消費品支出比重隨消費水平提高持續提高'], ['B', '消費水平較低時，食品支出比重較高，隨消費水平提高，食品支出比重有下降趨勢'], ['C', '住房醫療等支出項目隨消費水平提高呈下降趨勢'], ['D', '低收入國家勞務支出比重高，高收入國家勞務支出比重低']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果某投資方案未來全部淨現金效益量嘅現值大於期初投資，咁對該方案企業",
+    "llm_output": "A\nA\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '應接受'], ['B', '無法確定'], ['C', '仲需要再研究'], ['D', '應拒絕']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "當單一可變投入要素嘅價格等於佢嘅邊際產量收入時，可變投入要素嘅投入量可使",
+    "llm_output": "A\nA\nA\nA\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '企業嘅總利潤最大'], ['B', '企業嘅平均產量最大'], ['C', '企業嘅總產量最大'], ['D', '企業嘅生產成本最低']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果一個管理機構對一個壟斷企業嘅限價啱啱使經濟利潤消失，咁價格要等於",
+    "llm_output": "A\n解析：\n垄断企业面对的需求曲线是水平的，所以垄断企业的价格等于平均成本。\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '平均成本'], ['B', '平均可變成本'], ['C', '邊際收益'], ['D', '邊際成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "您認為企業嘅最優可變投入要素喺邊一階段係合理嘅",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '第二階段'], ['B', '第四階段'], ['C', '第三階段'], ['D', '第一階段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "線性規劃方法係確定多種產品產量最優組合決策嘅有效方法之一。而求解線性規劃問題嘅方法包括",
+    "llm_output": "A\nA\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '圖解法、代數法、單純形法'], ['B', '代數法、單純形法、微分法'], ['C', '圖解法、代數法、微分法'], ['D', '圖解法、單純形法、微分法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺實行差別定價時，為使利潤最大，應該使",
+    "llm_output": "B\n題目分析：\n差別定價是指對同一種產品，對不同地区或不同的人群，制定不同的價格。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '每個市場嘅邊際成本相等'], ['B', '每個市場嘅邊際收入都等於產品嘅邊際成本'], ['C', '企業嘅邊際收入等於每個市場嘅邊際成本'], ['D', '各個市場嘅邊際收入之和等於產品嘅邊際成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "等成本線嘅斜率取決於",
+    "llm_output": "B\nA. 勞動投入嘅數量\nC. 資本投入嘅數量\nD. 科技投入嘅數量\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '勞動投入嘅數量'], ['B', '勞動同資本要素嘅價格'], ['C', '資本投入嘅數量'], ['D', '科技投入嘅數量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費者將其個人可支配收入喺消費同儲蓄之間分配，係消費者嘅",
+    "llm_output": "D\n来源：\nhttps://www.4ipg.com/question/106469\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '資源再分配選擇'], ['B', '購買選擇'], ['C', '資源初次分配選擇'], ['D', '資源消費']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果某消費者最初處於均衡狀態，當其貨幣收入增加時，",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '會使其新嘅均衡點移向更高水平嘅無差異曲線'], ['B', '會使其無差異曲線變得更陡，但唔會改變均衡點嘅位置'], ['C', '由於商品價格未發生變化，因此對均衡點嘅位置冇影響'], ['D', '會使其新嘅均衡點移向更低水平嘅無差異曲線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費經濟學研究消費方式問題主要研究",
+    "llm_output": "D\nA. 消費嘅技術方式 – 消費技術經濟學研究消費嘅技術方式問題\nB. 消費嘅社會實現範圍 – 消費實現經濟學研究消費嘅社會實現範圍問題\nC. 消費嘅自然方式 – 消費自然經濟學研究消費嘅自然方式問題\nD. 消費嘅社會實現方式 – 消費經濟學研究消費嘅社會實現方式問題\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費嘅技術方式'], ['B', '消費嘅社會實現範圍'], ['C', '消費嘅自然方式'], ['D', '消費嘅社會實現方式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種商品嘅價格下降會導致其替代品嘅需求量",
+    "llm_output": "A\n題解：\n替代品係竞争力強嘅商品，竞争力強嘅商品价格下降，竞争力弱嘅商品需求量会增加。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '增加'], ['B', '減少'], ['C', '唔變'], ['D', '唔確定']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "某商品嘅需求收入彈性好細幾乎為零，咁該商品屬於",
+    "llm_output": "C. 必需品\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '奢侈品'], ['B', '次級品'], ['C', '必需品'], ['D', '替代品']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，符合我國當前處於工業化加速時期嘅產業結構特點嘅係",
+    "llm_output": "A\nB\nC\nD\nA\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '技術知識密集型產業佔第二產業比重迅速上升'], ['B', '城市化基本結束'], ['C', '製造業處於成長期'], ['D', '製造業處於結構高變換率時期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果A物品價格上升引起B物品需求曲線向左方移動，咁",
+    "llm_output": "D\nA物品價格上升引起B物品需求曲線向左方移動，代表兩者係替代品。\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '兩者係互補品'], ['B', 'B係低檔品'], ['C', 'A係正常品'], ['D', '兩者係替代品']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面價格變動中，邊種變動使銷售收入唔變",
+    "llm_output": "D\nA. 當需求係單元彈性時，價格下降，销量增加，銷售收入增加。\nB. 當需求係彈性時，價格上升，销量减少，銷售收入减少。\nC. 當需求係非彈性時，價格上升，销量减少，銷售收入减少。\nD. 當需求係彈性時，價格下降，销量增加，銷售收入增加。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '當需求係單元彈性時，價格下降'], ['B', '當需求係彈性時，價格上升'], ['C', '當需求係非彈性時，價格上升'], ['D', '當需求係彈性時，價格下降']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "市場經濟體制下，制定同實施消費政策時應遵循嘅基本原則係",
+    "llm_output": "C\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '解決社會收入分配唔公'], ['B', '鼓勵消費'], ['C', '尊重消費者自主選擇權'], ['D', '限制消費']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺生產決策分析中，「長期生產函數」係指生產函數中",
+    "llm_output": "C\n長期的 (\"long run\") 係指所有投入要素嘅投入量都係可變嘅 (\"all inputs are variable\")，但係至少有一種 (\"at least one\") 投入要素嘅投入量係固定嘅 (\"is fixed\")。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '所有投入要素嘅投入量都係固定嘅'], ['B', '所有投入要素嘅投入量都係可變嘅'], ['C', '至少有一種投入要素嘅投入量係固定嘅'], ['D', '至少等於或者大於5年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "可以採取薄利多銷政策嘅情況係",
+    "llm_output": "A\nA. 價格彈性小於1時\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '價格彈性小於1時'], ['B', '收入彈性大於1時'], ['C', '價格彈性大於1時'], ['D', '任何時候都可以薄利多銷']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "無差異曲線係一條凸向原點嘅曲線，呢係由（）決定嘅。",
+    "llm_output": "C\n題解：\n無差異曲線係由邊際替代率遞減决定。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '邊際成本遞減'], ['B', '總效用遞減'], ['C', '邊際替代率遞減'], ['D', '邊際效用遞減']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟學分析中所講嘅短期係指",
+    "llm_output": "D\n来源：\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '只能夠調整一年生產要素嘅時期'], ['B', '一年之內'], ['C', '全部生產要素都可以隨產量調整嘅時期'], ['D', '至少有一種生產要素唔能夠調整嘅時期']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面各種行為中，唔屬於投資性質嘅係",
+    "llm_output": "D\nA. 做廣告\nB. 培訓本企業職工\nC. 買股票\nD. 買傢俬\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '做廣告'], ['B', '培訓本企業職工'], ['C', '買股票'], ['D', '買傢俬']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "由職業同收入嘅穩定性引起嘅工資差別係",
+    "llm_output": "A\nA. 效用均等化嘅補償性工資差別\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '效用均等化嘅補償性工資差別'], ['B', '人力資本投資嘅補償性工資差別'], ['C', '競爭性工資差別'], ['D', '壟斷性工資差別']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "當洛倫茲曲線同絕對唔平均線所夾面積為零時，基尼系數",
+    "llm_output": "B\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無法確定'], ['B', '等於零'], ['C', '等於一'], ['D', '等於無窮大']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊份文字或者圖形申請商標註冊將會被批准",
+    "llm_output": "B\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B 保暖牌毛毯，C 菊花牌回形針，D 杭州牌豆腐皮\nA 健康牌香煙，B",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「健康」牌香煙'], ['B', '「保暖」牌毛毯'], ['C', '「菊花」牌回形針'], ['D', '「杭州」牌豆腐皮']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面最有可能成為稀缺物品嘅係",
+    "llm_output": "C\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水\n夏威夷嘅海水",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '陽光'], ['B', '空氣'], ['C', '運送到鄭州嘅海水'], ['D', '夏威夷嘅海水']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面措施唔可以用於矯正外部性問題嘅係",
+    "llm_output": "D\n題目分析：\nD 依靠市場機制自行解決，市场机制不能自發糾正，需要政府干預。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '運用科斯定理，通過明確產權嚟實現'], ['B', '對負外部性行為收費'], ['C', '政府嘅直接控制，如實施社會性管制'], ['D', '依靠市場機制自行解決']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面對無差異曲線嘅特徵表述正確嘅係",
+    "llm_output": "A\nB\nC\nD\nA\nB\nC\nD\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '即使主體偏好唔同，無差異曲線嘅形狀都唔會有區別'], ['B', '無差異曲線斜率為正值、凸向原點'], ['C', '同一平面上任意兩條無差異曲線唔會相交'], ['D', '離原點越遠嘅無差異曲線所表示嘅效用越低']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "根據羅斯托嘅經濟增長階段理論，經濟發展中最困難嘅階段係",
+    "llm_output": "C\n来源：\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '高額羣眾消費階段'], ['B', '起飛階段'], ['C', '為起飛創造條件嘅階段'], ['D', '向成熟推進階段']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "與邊際儲蓄傾向提高相對應嘅情況係",
+    "llm_output": "C\nA. 可支配收入水平減少\nB. 邊際消費傾向上升\nD. 平均儲蓄傾向下降\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '可支配收入水平減少'], ['B', '邊際消費傾向上升'], ['C', '邊際消費傾向下降'], ['D', '平均儲蓄傾向下降']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費函數嘅斜率取決於",
+    "llm_output": "C\nA. 由於收入變化引起嘅投資量\nB. 與可支配收入無關嘅消費量\nD. 平均消費傾向\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '由於收入變化引起嘅投資量'], ['B', '與可支配收入無關嘅消費量'], ['C', '邊際消費傾向'], ['D', '平均消費傾向']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果發展中國家政府採納現代微觀經濟學家庭理論分析所得出嘅政策建議，就可能",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '降低生育率'], ['B', '減少死亡率'], ['C', '提高生育嘅質量'], ['D', '實現人口優化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "甲、乙兩人現有嘅效用水平分別為10同20，資源嘅再配置使得兩人嘅效用發生咗變化，屬於帕累託改進嘅一種變動係",
+    "llm_output": "A\n解析：\nA选项，甲的效用水平由10变为10，没有变化，乙的效用水平由20变为30，是帕累托改进。\nB选项，甲的效用水平由10变为10，没有变化，乙的效用水平由20变为15，不是帕累托改进。\nC选项，甲的效用水平由10变为8，不是帕累托改进，乙的效用水平由20变为30，是帕累托改进。\nD选项，甲的效用水平由10变为8，不是帕累托改进，乙的效用水平由20变为25，不是帕累托改进。\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '甲嘅效用變為10，乙嘅效用變為30'], ['B', '甲嘅效用變為10，乙嘅效用變為15'], ['C', '甲嘅效用變為8，乙嘅效用變為30'], ['D', '甲嘅效用變為8，乙嘅效用變為25']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "就消費者投資而言，下面選項中流動性最強嘅係",
+    "llm_output": "A\nA 金融投資\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '金融投資'], ['B', '實物投資'], ['C', '唔動產投資'], ['D', '教育投資']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟學家提出，企業嘅長期目標應該係",
+    "llm_output": "B\n来源：\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '企業利潤最大化'], ['B', '企業嘅社會效應同經濟效益最大化'], ['C', '企業價值最大化'], ['D', '企業成本最低化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "摩擦性失業產生於",
+    "llm_output": "A\nA. 轉換工作面臨嘅暫時困難\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '轉換工作面臨嘅暫時困難'], ['B', '經濟蕭條'], ['C', '社會矛盾激化'], ['D', '技術進步']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "已知邊際消費傾向為80％，咁投資乘數係",
+    "llm_output": "D\n来源: 香港高考文理科数学老师\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '5'], ['B', '8'], ['C', '4'], ['D', '2']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果邊際收入大於邊際成本，咁減少產量就會使",
+    "llm_output": "B\n来源：\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '對利潤無影響'], ['B', '總利潤增加'], ['C', '總利潤減少'], ['D', '單位利潤減少']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經營者提供商品或者服務有欺詐行為嘅，應該按照消費者嘅要求增加賠償佢受到嘅損失，增加賠償嘅金額為消費者購買商品嘅價款或者接受服務嘅費用嘅幾多倍",
+    "llm_output": "B\n来源：\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '4倍'], ['B', '3倍'], ['C', '1倍'], ['D', '2倍']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "採用最高獎超過（）蚊嘅抽獎式為唔正當有獎銷售。",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '5000'], ['B', '4000'], ['C', '2000'], ['D', '6000']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果邊際收入大於邊際成本，咁減少產量就會",
+    "llm_output": "A. 使總利潤增加\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '使總利潤增加'], ['B', '使單位利潤唔變'], ['C', '使總利潤減少'], ['D', '對利潤無影響']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費者嘅預算線反映咗",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費者嘅需求'], ['B', '消費者效用最大化狀態'], ['C', '消費者嘅偏好'], ['D', '消費者嘅收入約束']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺維持相同嘅產量水平時，減少一種生產要素嘅數量同增加嘅另一種生產要素嘅數量之比被稱為",
+    "llm_output": "C\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '技術系數'], ['B', '彈性系數'], ['C', '邊際技術替代率'], ['D', '恩格爾系數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "平均總成本減去平均可變成本等於",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '固定成本'], ['B', '邊際成本'], ['C', '可變成本'], ['D', '平均固定成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費者收入變化對消費者預算約束線嘅影響係",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '使預算約束線保持唔變'], ['B', '使預算約束線發生旋轉'], ['C', '使預算約束線斜率改變'], ['D', '使預算約束線發生平移']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面行為中最接近於完全競爭模式嘅一項係",
+    "llm_output": "C\n完全競爭模式嘅特点係，市场上有大量嘅竞争者，每个竞争者嘅产量和价格對市场价格和产量都無重大影響。完全競爭模式主要出現於日用小商品製造業、农业、石油、天然气、电力、水、牛奶、糖、盐、煤、铁矿石、小麦、大米、玉米、糖、可可、咖啡、茶、水果、蔬菜、家禽、家畜、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽、家禽",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '煙草業'], ['B', '飛機製造業'], ['C', '日用小商品製造業'], ['D', '汽車製造業']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟利潤係指",
+    "llm_output": "B\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '企業總收入減去會計利潤'], ['B', '銷售收入減去會計利潤'], ['C', '企業總收入減去會計成本'], ['D', '銷售收入減去機會成本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "企業通過賣出額外一單位產品所獲得嘅收益叫做",
+    "llm_output": "D\n題目分析：\nA. 分摊成本，指企业为生产一定数量和质量的产品或劳务所发生的各项生产费用在各个成本对象之间进行分配、归集而形成的一种成本。\nB. 净收益，指企业一定时期内（如一年）的经营收入与经营支出相抵后的差额。\nC. 平均收益，指企业一定时期内（如一年）的经营收入与经营支出相抵后的差额。\nD. 边际收益，指企业通过出售额外一单位产品所获得的收益。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '分攤成本'], ['B', '淨利潤'], ['C', '平均收益'], ['D', '邊際收益']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺風險投資決策中，術語「結果」係指",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '特定嘅策略同自然狀態相結合所產生嘅得或者失'], ['B', '將來可能存在嘅環境條件'], ['C', '用嚟實現管理目標嘅行動方案'], ['D', '將來可能嘅方案']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面因素中屬於非系統風險嘅係",
+    "llm_output": "A\nA. 工人罷工\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '工人罷工'], ['B', '新政出臺'], ['C', '利率變化'], ['D', '戰爭爆發']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面表述中，屬於凱恩斯嘅消費函數理論觀點嘅係",
+    "llm_output": "A\nA. 消費者嘅消費支出唔僅受自身收入影響，仲受周圍人嘅消費行為影響。\nA项，属于凯恩斯消费函数理论观点的表述。\nB项，属于消费函数理论的表述，但属于古典经济学消费函数理论的观点。\nC项，属于持久收入理论的观点，不属于消费函数理论的观点。\nD项，属于消费函数理论的表述，但属于古典经济学消费函数理论的观点。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費者嘅消費支出唔僅受自身收入影響，仲受周圍人嘅消費行為影響'], ['B', '消費支出變化往往落後於收入變化'], ['C', '持久收入同持久消費之間存在固定比例關係'], ['D', '短期內消費傾向基本穩定']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "生產要素嘅邊際產量係",
+    "llm_output": "D\nA. 係平均產量嘅定義，非係邊際產量。\nB. 係平均產量嘅定義，非係邊際產量。\nC. 係平均產量嘅定義，非係邊際產量。\nD. 係邊際產量嘅定義。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '產量除以企業所使用嘅生產要素嘅量'], ['B', '產量除以總生產成本'], ['C', '平均產量嘅變化除以企業所使用嘅生產要素嘅量嘅變化'], ['D', '最後一單位嘅生產要素引起嘅產量嘅變化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，屬於緊縮性嘅貨幣政策係",
+    "llm_output": "C\nA. 增加政府財政支出 – 膨脹性貨幣政策\nB. 增稅 – 膨脹性貨幣政策\nC. 提高法定準備金率 – 緊縮性貨幣政策\nD. 確定工資—物價指導線 – 膨脹性貨幣政策\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '增加政府財政支出'], ['B', '增稅'], ['C', '提高法定準備金率'], ['D', '確定工資—物價指導線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺消費者達到均衡時，最後一單位商品畀消費者帶嚟嘅效用取決於",
+    "llm_output": "A\nA\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '消費者嘅收入同價格'], ['B', '商品嘅價格'], ['C', '商品嘅質量'], ['D', '消費者嘅收入']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "從全社會角度睇，佔主導地位嘅消費方式係",
+    "llm_output": "B\nA. 公共消費\nB. 個人消費\nC. 家庭消費\nD. 國家消費\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '公共消費'], ['B', '個人消費'], ['C', '家庭消費'], ['D', '國家消費']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "根據合同當事人是否互相享有權利負有義務，可將合同分為",
+    "llm_output": "B\nB\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '有名合同與無名合同'], ['B', '單務合同與雙務合同'], ['C', '有償合同與無償合同'], ['D', '要式合同與實踐合同']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，可以用於控制利率風險嘅措施係",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '加強對客戶信用審查'], ['B', '抵押貸款證券化'], ['C', '實施固定利率'], ['D', '實施浮動利率']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "資本市場係",
+    "llm_output": "A\nA. 長期資金市場\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '長期資金市場'], ['B', '貨幣市場'], ['C', '短期資金市場'], ['D', '期貨市場']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺預期收益相同嘅條件下，風險高嘅項目對某人更有吸引力，咁呢個人對待風險嘅態度係",
+    "llm_output": "B. 風險偏好\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '風險中立'], ['B', '風險偏好'], ['C', '風險厭惡'], ['D', '風險無關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "菲利普斯曲線嘅基本含義係",
+    "llm_output": "B\n菲利普斯曲線係描述失業率同通脹率之间嘅關系，菲利普斯曲線嘅基本含義係失業率同通脹率同時下降。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '失業率嘅變動同通脹率嘅變動無關'], ['B', '失業率同通脹率同時下降'], ['C', '失業率同通脹率同時上升'], ['D', '失業率上升，通脹率下降']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面陳述中最好地描述咗支出平衡嘅定義嘅一項係",
+    "llm_output": "C\nA. 消費同支出相等，居民嘅消費由消費函數定義\nB. 收入同支出相等，居民嘅消費由消費函數定義\nC. 消費同收入相等，居民嘅消費由消費函數定義\nD. 消費者嘅消費由消費函數定義\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '消費同支出相等，居民嘅消費由消費函數定義'], ['B', '收入同支出相等，居民嘅消費由消費函數定義'], ['C', '消費同收入相等，居民嘅消費由消費函數定義'], ['D', '消費者嘅消費由消費函數定義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "甲同乙簽訂咗一份合同，約定由丙向甲履行債務，現丙履行債務嘅行為唔符合合同嘅約定，甲有權請求邊個承擔違約責任",
+    "llm_output": "B\nA. 乙同丙\nB. 乙或者丙\nC. 丙\nD. 乙\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '乙同丙'], ['B', '乙或者丙'], ['C', '丙'], ['D', '乙']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺完全競爭嘅市場條件下，決定工資嘅基礎係",
+    "llm_output": "A. 勞動力供應彈性\nB. 勞動力需求彈性\nC. 勞動價值\nD. 勞動力價值\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '勞動力供應彈性'], ['B', '勞動力需求彈性'], ['C', '勞動價值'], ['D', '勞動力價值']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，關於消費觀念嘅表述正確嘅係",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消費觀念係指支配同調節人哋消費行為嘅思想意識'], ['B', '消費觀念對交換冇影響'], ['C', '消費觀念係指人哋嚮往高消費嘅傾向'], ['D', '消費觀念對儲蓄冇影響']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "人口老齡化對消費結構帶嚟嘅影響係",
+    "llm_output": "D\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '勞務消費支出比重快速上升'], ['B', '耐用消費品支出比重快速上升'], ['C', '食品支出比重快速上升'], ['D', '教育支出比重快速上升']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "畀消費者帶嚟相同滿足程度嘅商品組合集中喺",
+    "llm_output": "A. 預算約束曲線上\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '預算約束曲線上'], ['B', '需求曲線上'], ['C', '生產可能性曲線上'], ['D', '無差異曲線上']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "所有下面嘅因素除咗邊一種以外，都會使需求曲線移動",
+    "llm_output": "D. 其他有關商品價格下降\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '商品價格下降'], ['B', '消費者偏好變化'], ['C', '購買者收入變化'], ['D', '其他有關商品價格下降']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於吉芬商品需求曲線嘅表述，正確嘅係",
+    "llm_output": "C\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '平行於橫坐標'], ['B', '向右下方傾斜'], ['C', '向右上方傾斜'], ['D', '垂直於橫坐標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一個喺壟斷競爭市場上嘅企業喺短期內能獲得經濟利潤但長期唔能夠，原因係",
+    "llm_output": "A\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '規模報酬遞減'], ['B', '廣告費用增加'], ['C', '政府增加稅收'], ['D', '新嘅企業加入']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺風險投資決策中，術語「結果」係指",
+    "llm_output": "C\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '決策是否被接受'], ['B', '將來可能存在嘅環境條件'], ['C', '特定嘅自然狀態同策略相結合會產生幾多嘅得或者失'], ['D', '用嚟實現管理目標嘅行動方案']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "短期決策中常使用嘅「貢獻」嘅概念係指",
+    "llm_output": "A\n贡献是指增量收入減去增量成本，贡献是用于短期决策的，贡献大于零时，表明该项决策有利可图，否则，表明该项决策无利可图。\n贡献=增量收入-增量成本\n贡献=（销售收入-变动成本）-（固定成本+变动成本）\n贡献=销售收入-固定成本-变动成本\n贡献=销售收入-总成本\n贡献=销售收入-沉没成本\n贡献=销售收入-机会成本\n贡献=销售收入-会计成本\n贡献=销售收入-会计成本-沉没成本\n贡献=销售收入-会计成本-机会成本\n贡献=销售收入-会计成本-机会成本-沉没成本\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '增量收入減去增量成本'], ['B', '銷售收入減去會計成本'], ['C', '銷售收入減去沉沒成本'], ['D', '增量收入減去總成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "貼現率嘅大小對現金流嘅現值嘅影響，講法正確嘅係",
+    "llm_output": "B\n贴现率的大小会影响现值的多少，要视具体数据而定。\n贴现率是贴现时使用的利率，是使未来货币折算成现值的比率。贴现率的大小会影响现值的多少，要视具体数据而定。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '貼現率越細，現值越細'], ['B', '貼現率嘅大小會點樣影響現值，要視具體數據而定'], ['C', '貼現率越大，現值越細'], ['D', '貼現率嘅大小會影響現金流未來嘅價值，但唔影響其現值']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費經濟學同市場營銷學",
+    "llm_output": "C\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '都係屬於宏觀經濟學'], ['B', '學科內容相同'], ['C', '都係屬於微觀經濟學'], ['D', '都係研究消費者行為']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面講法中正確嘅係",
+    "llm_output": "D\nA. 廠房設備投資嘅利息係可變成本\nB. 商標註冊費係可變成本\nC. 購買原材料嘅支出為不變成本同可變成本\nD. 補償機器設備無形損耗嘅折舊費係不變成本\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '廠房設備投資嘅利息係可變成本'], ['B', '商標註冊費係可變成本'], ['C', '購買原材料嘅支出為不變成本同可變成本'], ['D', '補償機器設備無形損耗嘅折舊費係不變成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "對一種新產品定價，應遵循嘅決策規則係",
+    "llm_output": "C\nA. 新產品嘅利潤率應該同其他產品嘅利潤率大致相同，但里奥葛夫认为，新產品定價時，新產品嘅利潤率應比其他產品嘅利潤率高，以確保新產品嘅利潤率卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯达卡斯",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '新產品嘅利潤率應該同其他產品嘅利潤率大致相同'], ['B', '銷售收入至少應足以補償新產品嘅增量成本'], ['C', '銷售收入應足以補償新產品嘅增量成本同公司分攤下嚟嘅固定成本'], ['D', '銷售收入足以補償新產品嘅會計成本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，屬於經濟起飛階段顯著特徵嘅係",
+    "llm_output": "A\nA. 第三產業比重大幅度提高\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '第三產業比重大幅度提高'], ['B', '第一產業比重大幅度提高'], ['C', '消費率提高'], ['D', '第二產業比重大幅度提高']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "幾種唔同形式嘅平衡增長理論共同強調嘅係",
+    "llm_output": "A\nA. 大規模投資嘅重要性同全面平衡嘅增長\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '大規模投資嘅重要性同全面平衡嘅增長'], ['B', '經濟增長率係第一位嘅'], ['C', '通過引致投資最大化項目帶動其他項目'], ['D', '唔採取國家幹預']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀50年代，舒爾茨發現，促使美國農業生產嘅產量迅速增加嘅主要因素係",
+    "llm_output": "D\n来源：\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資本存量嘅增加'], ['B', '土地嘅增加'], ['C', '勞動力數量增加'], ['D', '人嘅知識、能力同技術水平提高']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "發展中國家稅收中嘅徵收成本較低嘅稅係",
+    "llm_output": "B\n来源：\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '農業稅'], ['B', '進口關稅'], ['C', '所得稅'], ['D', '土地稅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面價格變動中，能使銷售收入增加嘅係",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '當需求係非彈性時，價格下降'], ['B', '當需求係單元彈性時，價格下降'], ['C', '當需求係彈性時，價格上升'], ['D', '當需求係彈性時，價格下降']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，屬於調整消費結構變化嘅消費政策係",
+    "llm_output": "B\nA. 消費品產業政策，C. 福利政策，D. 社会保障政策，都属于調整产业結構变化的政策。\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消費品產業政策'], ['B', '收入分配政策'], ['C', '福利政策'], ['D', '社會保障政策']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "對經濟學家嚟講，非理性意味住",
+    "llm_output": "B\nA. 人哋無意識咁傷害自己\nC. 人哋故意採取同自己最大利益相悖嘅行為\nD. 人哋採取惡毒嘅行為\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人哋無意識咁傷害自己'], ['B', '人哋冇花費足夠嘅時間加以考慮，從而做出反常嘅選擇'], ['C', '人哋故意採取同自己最大利益相悖嘅行為'], ['D', '人哋採取惡毒嘅行為']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "規範研究方法要說明嘅係",
+    "llm_output": "B\nA. 研究對象或者現象「係咩」嘅問題，屬于實證研究方法；\nC. 點樣認識研究對象或者現象嘅客觀事實，屬于實證研究方法；\nD. 揭示研究對象或者現象內在構成要素同其之間嘅普遍聯繫，屬于實證研究方法。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '研究對象或者現象「係咩」嘅問題'], ['B', '研究對象或者現象「應該係咩」嘅問題'], ['C', '點樣認識研究對象或者現象嘅客觀事實'], ['D', '揭示研究對象或者現象內在構成要素同其之間嘅普遍聯繫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺需求唔變嘅情況下，供應增加會使得均衡數量",
+    "llm_output": "D\nA. 無法確定\nB. 唔變\nC. 下降\nD. 上升\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '無法確定'], ['B', '唔變'], ['C', '下降'], ['D', '上升']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "「由儉入奢易，由奢入儉難」，表明消費者行為具有嘅特徵係",
+    "llm_output": "A\nA. 唔可逆性\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '唔可逆性'], ['B', '複雜性'], ['C', '示範性'], ['D', '習慣性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "杜生貝嘅消費函數理論被稱為",
+    "llm_output": "A. 相對收入假定\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '相對收入假定'], ['B', '邊際效用遞減'], ['C', '絕對收入假定'], ['D', '生命週期假定']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "決定消費者嘅勞動供應行為嘅係",
+    "llm_output": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '勞動同閒暇嘅選擇替代'], ['B', '勞動同低檔商品嘅選擇替代'], ['C', '勞動同消費嘅選擇替代'], ['D', '勞動同正常商品嘅選擇替代']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "某企業喺自己生產嘅商品上註冊咗「牡丹」，又註冊咗「白牡丹」、「紅牡丹」、「黑牡丹」，呢種商標稱為",
+    "llm_output": "B\n来源：香港高考状元网\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '集體商標'], ['B', '組合商標'], ['C', '聯合商標'], ['D', '防禦商標']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "功能分配亦叫要素分配，佢最注重嘅係喺總體國民收入中",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '每種要素獲得嘅收入所佔嘅百分比'], ['B', '各個個人從某個要素中獲得收入係幾多'], ['C', '各個個人從各要素中獲得收入係幾多'], ['D', '各個個人從某個要素收入中所佔嘅百分比']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種價格變動使消費者沿住一條既定嘅無差異曲線移動到新一點時所引起嘅消費變動係",
+    "llm_output": "B\nA. 收入效應\nB. 替代效應\nC. 財富效用\nD. 總效應\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '收入效應'], ['B', '替代效應'], ['C', '財富效用'], ['D', '總效應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟學可定義為",
+    "llm_output": "D\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '企業取得利潤嘅活動'], ['B', '政府對市場制度嘅幹預'], ['C', '人哋靠收入生活'], ['D', '研究點樣最合理咁配置資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面變化中，邊種變化唔會導致需求曲線嘅位移",
+    "llm_output": "A\nA. 產品嘅價格\nB. 人哋嘅偏好同愛好\nC. 相關產品嘅價格\nD. 消費者嘅收入\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '產品嘅價格'], ['B', '人哋嘅偏好同愛好'], ['C', '相關產品嘅價格'], ['D', '消費者嘅收入']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果其他因素保持唔變，下面四種情況一定會使需求減少嘅係",
+    "llm_output": "D\nA. 收入增加，同時替代品嘅價格下降，會使需求增加。\nB. 收入減少，同時互補品嘅價格下降，會使需求增加。\nC. 收入增加，同時替代品嘅價格上升，會使需求減少。\nD. 收入減少，同時互補品嘅價格上升，會使需求減少。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '收入增加，同時替代品嘅價格下降'], ['B', '收入減少，同時互補品嘅價格下降'], ['C', '收入增加，同時替代品嘅價格上升'], ['D', '收入減少，同時互補品嘅價格上升']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "股份有限公司創立大會必須有（），方可舉行。",
+    "llm_output": "B\n本公司所有內容均由本司作者原创，除非得到本公司书面许可，否则任何人不得转载、复制、改动、传播、发布、展示、展售、出租、许可或仿冒本公司的作品或任何部份。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '全部認股人出席'], ['B', '代表股份總數過半數嘅發起人、認股人出席'], ['C', '發起人、認股人出席人數佔總人數三分之二以上'], ['D', '全部發起人出席']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個係宏觀經濟學嘅研究對象",
+    "llm_output": "D\nA、B、C都属于生卒经济学的研究对象，但它们属于微观经济学的研究对象。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費需求'], ['B', '企業'], ['C', '消費者'], ['D', '貨幣政策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種產品嘅市場處於均衡狀態係指",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消費者想買嘅數量啱啱等於供應者想賣嘅數量'], ['B', '需求曲線向右下方傾斜，供應曲線向右上方傾斜'], ['C', '成個社會嘅總需求等於成個社會嘅總供應'], ['D', '買同賣嘅量相等']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面造成搭便車問題嘅物品係",
+    "llm_output": "B\nA. 收學費嘅學校 – 無搭便車問題\nB. 收費嘅高速公路 – 有搭便車問題\nC. 路燈 – 無搭便車問題\nD. 私人經營嘅商店 – 無搭便車問題\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '收學費嘅學校'], ['B', '收費嘅高速公路'], ['C', '路燈'], ['D', '私人經營嘅商店']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "均衡係指供應同需求達到咗（）狀態。",
+    "llm_output": "B\n平衡\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔平衡'], ['B', '平衡'], ['C', '最少量'], ['D', '最大量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面各項中會導致一國生產可能性曲線向外移動嘅一項係",
+    "llm_output": "D\nA. 消費品生產增加，資本品生產下降，会导致一国生产可能性曲线向内移动。\nB. 失業，会导致一国生产可能性曲线向内移动。\nC. 價格總水平提高，会导致一国生产可能性曲线向内移动。\nD. 技術進步，会导致一国生产可能性曲线向外移动。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費品生產增加，資本品生產下降'], ['B', '失業'], ['C', '價格總水平提高'], ['D', '技術進步']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果某產品需求曲線係一條垂直嘅直線，咁該需求曲線上每一點嘅價格彈性",
+    "llm_output": "B\nA. 都大於1\nB. 都等於1\nC. 唔等\nD. 都等於0\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '都大於1'], ['B', '都等於1'], ['C', '唔等'], ['D', '都等於0']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "糖尿病人對胰島素呢種藥品嘅需求屬於",
+    "llm_output": "B\nA. 缺乏彈性\nB. 完全無彈性\nC. 無限彈性\nD. 單位彈性\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '缺乏彈性'], ['B', '完全無彈性'], ['C', '無限彈性'], ['D', '單位彈性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "有完全競爭外部市場嘅中間產品嘅轉移價格應該",
+    "llm_output": "A\n来源：\n经济学名词解释\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '等於邊際成本'], ['B', '等於平均成本'], ['C', '等於市場價格'], ['D', '等於平均成本加目標利潤']]",
+    "is_correct": 0
+  }
+]

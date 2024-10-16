@@ -1,0 +1,1232 @@
+[
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "唔相干結論謬誤嘅情形唔包括",
+    "llm_output": "正確答案：C. 法庭悖論\n\n邏輯學中，「唔相干結論謬誤」（Irrelevant Conclusion Fallacy）是指一個論證的結論與其前提之間沒有足夠的邏輯關聯，即結論並不是由前提正當推論出來的。以下是各選項的解釋：\n\nA. 轉移論題（Red Herring Fallacy）：這是一種分散注意力的方法，通過引入一個不相關的議題來轉移對原議題的討論。這是相干結論謬誤的一種。\n\nB. 偷換論題（Begging the Question or Circular Reasoning）：這是一種邏輯謬誤，其中結論已經假設在論證的前提中，形成一種循環的論證，但這與相干結論謬誤無關。\n\nC. 法庭悖論（Burden of Proof Fallacy）：這是一種謬誤，指要求對方負有提供證據來證明其立場的責任，但這與相干結論謬誤無關。\n\nD. 稻草人謬誤（Straw Man Fallacy）：這是一種謬誤，涉及曲解或夸大對方的立場，然後攻擊這個被曲解的立場，而非對方的真實立場，這屬於相干結論謬誤。\n\n因此，法庭悖論（C選項）是唯一與相干結論謬誤無關的情形。其他選項都是相干結論謬誤的範例。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '轉移論題'], ['B', '偷換論題'], ['C', '法庭悖論'], ['D', '稻草人謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "被馬克思稱之為古代最偉大嘅思想家係",
+    "llm_output": "正確答案係：D. 亞裏士多德\n\n根據歷史資料，馬克思曾經評價亞裏士多德是古代最偉大的思想家。亞裏士多德是古希臘的哲學家、科學家，他的工作涵蓋了邏輯學、形而上學、倫理學、政治學和生物學等領域，對後世產生了深遠的影響。雖然柏拉圖也是一位非常重要的思想家，但根據馬克思的評價，亞裏士多德更被高度讚譽。馬丁·路德和奧古斯丁雖然在其他領域有重要貢獻，但並不是被馬克思稱為古代最偉大思想家的人。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '馬丁·路德'], ['B', '柏拉圖'], ['C', '奧古斯丁'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "同時肯定「所有嘅人都會犯錯誤」與「有嘅人唔會犯錯誤」呢兩個命題會違反",
+    "llm_output": "正確答案係B. 排中律。\n\n根據排中律，兩個互相排斥的命題不能同時為真。在這個情況下，「所有嘅人都會犯錯誤」與「有嘅人唔會犯錯誤」是互相排斥的命題，因為如果「所有嘅人」都會犯錯誤，則不可能「有嘅人」不會犯錯誤。因此，同時肯定這兩個命題會違反排中律。其他選項並不符合這個情境：同一律要求命題應保持一致，矛盾律禁止命題之間存在矛盾，而充足理由律則與此情境無關。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '同一律'], ['B', '排中律'], ['C', '矛盾律'], ['D', '充足理由律']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "英國嘅一項實驗發現，將母狗同佢哋嘅幼細子女分開後，將呢啲子女混入一羣同類嘅成年狗同幼狗中去，然後再將母狗放入狗羣。母狗好快就同自己嘅子女會合埋一齊。研究表明，狗身上嘅體味係佢哋互相辨認嘅依據。而幼狗無法區分自己母親同其他母狗身上嘅味道。因此每個母狗都能分辨出自己子女嘅體味。上述論證採用咗下列邊種論述方法?",
+    "llm_output": "正確答案嘅選項是：\nB. 喺對某種現象嘅兩種可供揀嘅解釋中，通過排除其中嘅一種，嚟確定另一種\n\n論證過程中，研究者提出了兩種可能的解釋：一是母狗能夠辨認自己子女的體味，二是幼狗無法區分不同母狗之間的味道。實驗結果顯示母狗能夠迅速與自己子女會合，這一結果排除了幼狗無法辨認的假設，從而支持了母狗能夠通過體味辨認自己子女的解釋。因此，這段論證採用了排除法，即通過排除一種解釋來確定另一種解釋。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '說明某一特殊情況，以論證一個規律'], ['B', '喺對某種現象嘅兩種可供揀嘅解釋中，通過排除其中嘅一種，嚟確定另一種'], ['C', '通過對發生現象嘅客觀描述，支持關於某個可能發生現象嘅假說'], ['D', '運用類比嘅方法，根據兩組對象有某啲類似嘅特徵，得出佢哋具有另一個相同特徵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一階邏輯即係指",
+    "llm_output": "正確答案：B. 謂詞邏輯\n\n一階邏輯（First-order logic），亦稱為一階謂詞邏輯，是數學邏輯中的一個分支，它使用謂詞來描述物體和其性質，以及這些物體之間的關係。一階邏輯是比圖式邏輯、數值邏輯和概率邏輯更基礎和廣泛使用的邏輯系統。圖式邏輯主要關注圖形結構，數值邏輯處理數值和數學運算，而概率邏輯則涉及概率和機率論的概念。因此，選項B \"謂詞邏輯\" 是描述一階邏輯的正確選項。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '圖式邏輯'], ['B', '謂詞邏輯'], ['C', '數值邏輯'], ['D', '概率邏輯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "甲話乙肥，乙話丙肥，丙同丁都話自己唔肥。如果四人陳述淨係一人錯，噉邊個一定肥?",
+    "llm_output": "正確答案：D. 僅乙\n\n解題思路：\n1. 根據題意，只有一個人的陳述是錯的。\n2. 甲說乙肥，乙說丙肥，丙和丁都說自己唔肥（不肥）。\n3. 如果丙肥，則丙的陳述錯，但同時乙的陳述也錯，這與只有一個人錯矛盾。\n4. 如果丁肥，則丙的陳述錯，但同時甲的陳述也錯，這也與只有一個人錯矛盾。\n5. 因此，唯一可能的情況是乙肥，這樣乙的陳述錯，而其他人的陳述都對。\n6. 所以，乙一定肥。\n\n因此，選擇D. 僅乙。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '僅丙'], ['B', '僅甲'], ['C', '僅乙同丙'], ['D', '僅乙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於周延詞項嘅係",
+    "llm_output": "正確答案係：\nA. SAP謂項\n\n在傳統邏輯學中，SAP（全称肯定命題，即“所有S都是P”）的謂項（P）是周延的，因為它涉及到所有個體。主項（S）則不一定周延，因為它僅表示“某些”或“所有”，視具體命題而定。SIP（特稱否定命題，即“有些S不是P”）和SOP（特稱肯定命題，即“有些S是P”）的主項和謂項均不必然周延，因為它們僅涉及部分個體。因此，只有SAP的謂項在傳統邏輯學中是周延的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'SAP謂項'], ['B', 'SAP主項'], ['C', 'SIP主項'], ['D', 'SOP主項']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "允許我哋從所有情形推導出特殊情形嘅係",
+    "llm_output": "正確答案嘅選項係：\n\nC. 全稱例示規則\n\n全稱例示規則允許從一般情況（全称命题）推導出特殊情況（特称命题）。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '存在例示規則'], ['B', '真值表'], ['C', '全稱例示規則'], ['D', '全稱命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "析取命題又稱為",
+    "llm_output": "正確答案嘅選項是：\nA. 選言命題\n\n析取命題（Disjunction）在邏輯學中通常稱為選言命題，表示至少有一個命題是真的。其他選項分別代表不同的邏輯概念：\nB. 全稱命題（Universal Proposition）指的是對所有個體都為真的命題。\nC. 否定命題（Negation）是指否定一個命題的真值，即如果原命題為真，否定後為假；如果原命題為假，否定後為真。\nD. 肯定命題（Affirmation）則是指肯定一個命題的真值，即原命題本身。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '選言命題'], ['B', '全稱命題'], ['C', '否定命題'], ['D', '肯定命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺下列語句中，喺集合意義下使用語詞「人」嘅係",
+    "llm_output": "在邏輯學中，當我們在集合意義下使用語詞「人」時，我們指的是將所有符合某個特定條件的個體集合起來，這個條件通常與人的本質特徵相關。在所給的選項中，只有選項A「人係有思維能力嘅」提供了一個可以明確界定集合的條件，即「有思維能力」，這是一個可以客觀判斷的特徵。\n\n其他選項則涉及價值判斷或哲學思考，這些並不符合集合意義下對「人」的使用。例如，B選項「人係世間萬物中第一個可寶貴嘅」涉及價值觀，C選項「人貴有自知之明」和D選項「人非聖賢，孰能無過」則涉及個人修養和道德觀念，這些都不足以作為明確界定一個集合的標準。\n\n因此，正確答案是A。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人係有思維能力嘅'], ['B', '人係世間萬物中第一個可寶貴嘅'], ['C', '人貴有自知之明'], ['D', '人非聖賢，孰能無過']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "有時唔清楚一個語篇到底係論證定係解釋，我哋稱之為",
+    "llm_output": "正確答案嘅選項係：\nB. 兩可情形\n\n咁解嘅原因係，當一個語篇既似係解釋又似係論證，即係說佢既能夠解釋某個現象，又能夠作為一個論證來支持某個結論，咁嗰時就稱佢為「兩可情形」。其他選項並無此特定用語。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '解釋論證'], ['B', '兩可情形'], ['C', '識別論證'], ['D', '論證解釋']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺具體進行例示時，必須注意唔好混合使用或者用完證明中有用嘅",
+    "llm_output": "正確答案嘅選項係：C. 量詞\n\n喺邏輯學中，量詞（quantifiers）係用來描述範圍或數量嘅詞語，例如「所有」、「某些」、「沒有」等。喺進行例示時，使用量詞時要特別小心，確保其範圍與上下文一致，唔好混淆或者錯誤使用，因為佢哋對證明嘅正確性至關重要。其他選項如數字、字母同聯詞雖然亦可能在邏輯學中使用，但喺例示時特別需要注意嘅係量詞嘅使用。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '數字'], ['B', '字母'], ['C', '量詞'], ['D', '聯詞']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "標誌詞「如果」後面嘅命題被稱為",
+    "llm_output": "正確答案：D. 前件\n\n在邏輯學中，當使用「如果」這個標誌詞時，它用來連接兩個命題，其中「如果」後面的命題稱為前件（Antecedent），而後面的命題則稱為後件（Consequent）。因此，在這個單項選擇題中，「如果」後面的命題被稱為前件。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '結論'], ['B', '前提'], ['C', '條件'], ['D', '前件']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺三段論中，如果前提中有一個係否定命題，噉結論必定係",
+    "llm_output": "正確答案係：\n\nD. 否定命題\n\n喺三段論中，如果前提中有一個係否定命題，結論必定係否定命題。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '真命題'], ['B', '假命題'], ['C', '肯定命題'], ['D', '否定命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺文恩圖中，用嚟標記特稱命題嘅係",
+    "llm_output": "正確答案嘅選項係：\nB. 星號\n\n喺文恩圖中，星號（•）通常用嚟標記特稱命題，而陰影（即填充區域）則通常用嚟標記普遍命題。數字和圓圈則有其他特定用途，例如數字可能標記命題嘅序號，圓圈則可能標記命題之間嘅關係。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '陰影'], ['B', '星號'], ['C', '數字'], ['D', '圓圈']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "有啲教授留長頭髮，因此，有啲留長頭髮嘅人係科學家。為使上述推理成立，需要補充以下邊項作為前提?",
+    "llm_output": "正確答案嘅選項係：\n\nB. 所有教授都係科學家\n\n補充呢個前提後，可以得出「有啲留長頭髮嘅人係科學家」呢個結論。因為如果所有教授都係科學家，而「有啲教授留長頭髮」，則可以推論「有啲留長頭髮嘅人係科學家」。其他選項並不能夠保證上述推理成立。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '所有科學家都係教授'], ['B', '所有教授都係科學家'], ['C', '有啲科學家唔係教授'], ['D', '有啲教授係科學家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺世界範圍內禁止生產各種破壞臭氧層嘅化學物質可能僅僅係一種幻想，大量噉嘅化學物質已經生產出嚟，並且以成千上萬臺雪櫃嘅冷卻劑嘅形式而存在。當呢啲化學物質到達大氣層中嘅臭氧層時，其作用唔可能停止。因此，冇任何方式可以阻止呢類化學物質進一步破壞臭氧層。以下邊項如果為真，則能最嚴重地削弱以上論證?",
+    "llm_output": "正確答案係A。\n\n解析：原論證認為無法阻止化學物質破壞臭氧層，但若選項A為真，即雪櫃使用壽命結束時冷卻劑可完全回收並且重新利用，則提供了一種方法來減少這些化學物質對臭氧層的破壞，從而削弱了原論證中認為無法阻止破壞的觀點。其他選項並無提供能夠削弱原論證的方法。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '當雪櫃嘅使用壽命結束時，雪櫃入面嘅冷卻劑可完全回收並且重新利用'], ['B', '唔會破壞臭氧層嘅替代品仲未開發出嚟，並且替代品可能比雪櫃目前使用嘅冷卻劑貴'], ['C', '即使人哋放棄使用冷藏設備，已經存在嘅雪櫃入面嘅冷卻劑都係對大氣臭氧層嘅一個威脅'], ['D', '唔可能精確地測量雪櫃入面冷卻劑呢種破壞臭氧層嘅化學物質嘅量係幾多']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "金嶽霖嘅著作唔包括",
+    "llm_output": "金嶽霖（Gong Sheng You），即金岳霖，是中國著名的哲學家和邏輯學家。他的著作包括《知識論》、《邏輯》和《論道》。然而，《中國哲學史》並非金嶽霖的著作，而是其他學者如馮友蘭的作品。因此，根據提供的信息，正確答案是：\n\nA. 「中國哲學史」\n\n金嶽霖確實撰寫了其他與哲學和邏輯相關的重要著作，但《中國哲學史》不是他的作品。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「中國哲學史」'], ['B', '「知識論」'], ['C', '「邏輯」'], ['D', '「論道」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "古代邏輯嘅發源地包括",
+    "llm_output": "正確答案：B. 以上都對\n\n古代邏輯的發源地不僅僅是古希臘，還包括古印度和中國。古印度的因明學、中國的墨家邏輯以及古希臘的傳統邏輯都是古代邏輯的重要組成部分。因此，選項B \"以上都對\" 是正確的，因為它涵蓋了所有提及的地區。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '古印度'], ['B', '以上都對'], ['C', '中國'], ['D', '古希臘']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「問:鐵點解能壓延?答:因為鐵有壓延嘅特性。」屬於",
+    "llm_output": "正確答案係：\nA. 直接循環論證\n\n這個問題和答案形成了一個直接循環論證，因為答案只是重複了問題中的部分內容，沒有提供任何新的信息或解釋。這類論證形式在邏輯上是不充分的，因為它沒有展示出支持結論的證據或推理過程。其他選項B. 相干謬誤，C. 支持謬誤和D. 間接循環論證均不符合這個問題和答案之間的關係。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '直接循環論證'], ['B', '相干謬誤'], ['C', '支持謬誤'], ['D', '間接循環論證']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "所有嘅語句都包含",
+    "llm_output": "正確答案：D. 語義要素同邏輯要素\n\n解釋：語句作為語言的基本單位，既包含語義要素，也包含邏輯要素。語義要素指的是語句所表達的意義，而邏輯要素則是指語句內部結構的邏輯性，如主語、謂語、宾语之間的關係。因此，所有語句都必然包含語義和邏輯兩方面的要素。其他選項只提及了語句的一部分特性，而非全部。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯要素'], ['B', '語法要素'], ['C', '詞彙要素'], ['D', '語義要素同邏輯要素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個優秀嘅領導人係唔會脫離羣眾嘅。所以，如果一個領導人脫離羣眾，佢就唔係一個能夠得到大多數羣眾擁護嘅人。以下邊項與上面嘅議論方式最相似?",
+    "llm_output": "正確答案嘅選項係：\n\nB. 呢道題喺5分鐘內答唔完。要係邊個喺5分鐘內答完，佢就唔係一個死記硬背嘅學員。\n\n呢個選項與上面嘅議論方式最相似，因為佢都係根據一個特定條件（5分鐘內完成題目）來判斷一個結果（非死記硬背），同原問題根據領導人是否脫離羣眾來判斷是否能夠得到大多數羣眾擁護嘅邏輯結構相似。其他選項嘅論述方式與原問題嘅結構有所不同。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '好多領導人係脫離羣眾嘅人'], ['B', '呢道題喺5分鐘內答唔完。要係邊個喺5分鐘內答完，佢就唔係一個死記硬背嘅學員。'], ['C', '所有仔都鍾意同佢人進行遊戲活動。如果幼兒園多安排啲仔之間嘅遊戲活動，噉一定會受到家長嘅好評'], ['D', '所有電腦都需要安裝相應嘅軟件先能運行某種程序。因此，如果電腦冇安裝相應嘅軟件，則呢個程序就唔會運行']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「所有S係P」與「所有S唔係P」之間具有",
+    "llm_output": "正確答案係D。「所有S係P」與「所有S唔係P」之間具有矛盾關係，因為這兩個命題不能同時為真，即如果所有S都是P，則不可能所有S都不是P，反之亦然。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '反對關係'], ['B', '下反對關係'], ['C', '差等關係'], ['D', '矛盾關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果論證嘅所有前提同時為真係唔可能嘅，噉呢個論證嘅前提就係",
+    "llm_output": "正確答案嘅選項係：\n\nD. 唔一致嘅\n\n如果論證嘅所有前提同時為真係唔可能嘅，噉呢個論證嘅前提就係唔一致嘅。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '不可接受嘅'], ['B', '一致嘅'], ['C', '可接受嘅'], ['D', '唔一致嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以「所有A都唔係B，所有C係B。」為前提進行三段論推理，其結論為",
+    "llm_output": "根據邏輯學的三段論推理規則，我們有：\n\n- 大前提：所有A都唔係B（即沒有A是B）\n- 小前提：所有C係B（即所有C都是B）\n\n根據這些前提，我們可以推論出：\n\n- 所有A都唔係B，而所有C都是B，因此A和C之間沒有交集。\n\n因此，結論應該是：\n\nA. 所有A唔係C\n\n這是因為根據大前提，A和B之間沒有交集，而根據小前提，C和B之間有交集，所以A和C之間也沒有交集。所以正確答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '所有A唔係C'], ['B', '有啲A係C'], ['C', '有啲C係A'], ['D', '有啲B係A']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於唔相干結論謬誤嘅係",
+    "llm_output": "正確答案係：\n\nD. 法庭悖論\n\n唔相干結論謬誤（Fallacy of Irrelevant Conclusion）通常涉及提出一個與論證主旨無關的結論。選項A、B、C均與此謬誤相關，因為它們都涉及將話題轉移或曲解，導致結論與原本的論證無關。而選項D「法庭悖論」則是指在法庭上提出的論證，其結論與法規或事實無關，因此它屬於唔相干結論謬誤。其他選項則屬於其他類型的邏輯謬誤。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '偷換論題'], ['B', '稻草人謬誤'], ['C', '轉移話題'], ['D', '法庭悖論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個從已確定斷言產生出新斷言嘅過程叫做。",
+    "llm_output": "正確答案係C. 推論。\n\n推論（Deduction）係一種從已知事實或原則出發，通過邏輯推理得出新結論的過程。在邏輯學中，推論通常涉及從一般原則（大前提）到特定情況（小前提），然後得出特定結論的過程。其他選項中，結論（Conclusion）係推論過程的結果，辯論（Debate）係討論或爭論的過程，而論斷（Judgment）則泛指對某事作出決定或評價的行為。因此，根據問題描述，最符合的選項是C. 推論。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結論'], ['B', '辯論'], ['C', '推論'], ['D', '論斷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "亞裏士多德提出嘅論證評價三標準唔包含",
+    "llm_output": "正確答案：A. 分析標準\n\n亞里士多德在他的著作《論辯術》（\"On Sophistical Refutations\" 或 \"De Sophisticis Elenchi\"）中提出了論證評價的三標準，分別是修辭標準（ethos）、論辯標準（pathos）和邏輯標準（logos）。這些標準分別對應於說話者的信譽、聽眾的情緒反應以及論證的理性與邏輯性。分析標準（analytic standard）並不在亞里士多德提出的這三標準之列。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '分析標準'], ['B', '修辭標準'], ['C', '論辯標準'], ['D', '邏輯標準']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「出席會議嘅人有大學畢業嘅」與「出席會議嘅人有唔係大學畢業嘅」",
+    "llm_output": "正確答案係D。\n\n「出席會議嘅人有大學畢業嘅」與「出席會議嘅人有唔係大學畢業嘅」兩個命題可以同時為真，例如會議中既有大學畢業嘅人，亦有唔係大學畢業嘅人。但佢哋唔可以同時為假，因為如果兩個命題同時為假，就會導致一個矛盾，即會議中既無大學畢業嘅人，亦無唔係大學畢業嘅人，這與「出席會議嘅人」這一前提矛盾。因此，兩個命題可以同時為真，但唔可以同時為假。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可同真，唔可同假'], ['B', '唔可同真，可同假'], ['C', '唔可同真，唔可同假'], ['D', '可同真，可同假']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於必然真命題嘅係",
+    "llm_output": "正確答案係：\n\nA. 女人係人\n\n必然真命題指的是無論在什麼情況下都為真嘅命題。根據這個定義，選項A「女人係人」是一個必然真命題，因為所有女人都是人這是一個事實。其他選項則不是必然真命題，因為它們可能會隨著情況的改變而變假。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '女人係人'], ['B', '中國人係中國人'], ['C', '仔係人'], ['D', '中國人唔係中國人']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "論證嘅功能包括說服同",
+    "llm_output": "正確答案嘅選項是 D. 證成同反駁。\n\n論證嘅功能主要系通過提出理由來證成某個主張，並且反駁對方嘅異議，從而確立主張嘅正當性。選項D中嘅「證成」與「反駁」恰當地概括了論證嘅這兩個核心功能。選項A、B和C均未能同時涵蓋「證成」與「反駁」這兩個方面。因此，D係最符合問題描述嘅答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '證成同推論'], ['B', '反駁同歸謬'], ['C', '推論同歸謬'], ['D', '證成同反駁']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "邏輯主義嘅代表人物係",
+    "llm_output": "正確答案嘅選項係：\n\nD. 羅素\n\n邏輯主義（Logicalism）係一種哲學觀點，認為數學可以完全基於邏輯來建立。伯特蘭·羅素（Bertrand Russell）係邏輯主義嘅代表人物之一，他同其他邏輯主義者一樣，認為數學概念可以通過邏輯概念來定義，並且數學真理可以從邏輯真理中推導出來。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '哥德爾'], ['B', '布勞威爾'], ['C', '希爾伯特'], ['D', '羅素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "通過改變命題嘅質或者量從而推導出新命題嘅論證嘅係",
+    "llm_output": "正確答案係：\n\nA. 質量論證\n\n這是因為質量論證專指通過改變命題的質（肯定與否定）或量（全称、特稱與單稱）來推導出新命題的論證方式。其他選項並不符合這個描述：B選項的對當關係論證通常涉及命題之間對應的關係；C選項的三段論論證則依賴於三個命題之間的前提與結論的關係；D選項的直言命題運算論證則專指對直言命題進行運算以得出結論的論證方式。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '質量論證'], ['B', '對當關係論證'], ['C', '三段論論證'], ['D', '直言命題運算論證']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「如果原始人嘅石斧就係資本，噉原始人就係資本家咯。」中，",
+    "llm_output": "正確答案嘅選項係：\n\nD. 論題係「原始人係資本家」\n\n呢個問題中，「如果原始人嘅石斧就係資本，噉原始人就係資本家咯。」係一個假設性陳述，其中「原始人嘅石斧就係資本」係一個假設，而「原始人就係資本家」係基於此假設的結論。因此，論題是關於「原始人係資本家」的陳述，而論據是假設「原始人嘅石斧係資本」。所以選項D正確。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '論據係「原始人嘅石斧係資本」'], ['B', '論據係「原始人係資本家」'], ['C', '論題係「原始人嘅石斧唔係資本」'], ['D', '論題係「原始人係資本家」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "包括一個或者一個以上較短命題作為其自身嘅一部分嘅命題稱為",
+    "llm_output": "正確答案係C. 複合命題。\n\n複合命題是由兩個或兩個以上較短命題通過邏輯運算（如合取、析取、否定等）組成的命題。這些較短的命題通常稱為子命題。複合命題的真假取決於其包含的子命題的真假以及它們之間的邏輯連接詞。其他選項中，否定命題是指否定某個命題的真假狀態，分析命題是指將命題分解成更基本的部分，全稱命題則是指涉及所有個體或情況的命題。因此，根據問題描述，複合命題是符合條件的命題類型。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '否定命題'], ['B', '分析命題'], ['C', '複合命題'], ['D', '全稱命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "語言學嘅維度唔包括",
+    "llm_output": "正確答案：A. 語氣\n\n語言學主要研究語言的結構、使用和發展，其核心維度包括語法、語義和語用。語法指的是語言的結構和規則，語義涉及語言中詞語和句子的意義，而語用則研究語言在實際使用中的情境和功能。語氣通常不被視為語言學的核心維度，因為它更多地與口語表達的情感和態度相關，而非語言結構本身。因此，語氣不是語言學研究的主要對象。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '語氣'], ['B', '語法'], ['C', '語義'], ['D', '語用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "並行結構又稱為()，係指由兩個或者兩個以上前提分別獨立支持統一結論嘅結構。",
+    "llm_output": "正確答案嘅選項係：\n\nA. 同一結構\n\n並行結構又稱為同一結構，係指由兩個或者兩個以上前提分別獨立支持統一結論嘅結構。其他選項並不符合並行結構嘅定義。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '同一結構'], ['B', '簡單結構'], ['C', '序列結構'], ['D', '收斂結構']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "邏輯系統嘅四大定理唔包括",
+    "llm_output": "正確答案嘅選項係：\n\nD. 唔完全性定理\n\n邏輯系統嘅四大定理通常包括可靠性定理、有效性定理、一致性定理和完全性定理。而「唔完全性定理」並不是邏輯系統中常見的四大定理之一，因此選項D係正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '可靠性定理'], ['B', '有效性定理'], ['C', '一致性定理'], ['D', '唔完全性定理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺具體進行例示時，必須注意唔好混合使用或者用完證明中有用嘅",
+    "llm_output": "正確答案：C. 量詞\n\n在邏輯學中，量詞（quantifiers）是用來描述範圍或數量關鍵詞，例如「所有」、「某些」、「沒有」等。在進行例證時，使用正確的量詞至關重要，因為錯誤的量詞可能會導致論證的誤解或錯誤。因此，在具體進行例示時，必須注意不應混合使用或者錯誤地使用這些在證明中有用的量詞。其他選項如數字、字母和聯詞，雖然在數學和邏輯表述中也很重要，但與量詞在論證中的角色相比，它們不是在這個上下文中需要特別注意的元素。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '數字'], ['B', '字母'], ['C', '量詞'], ['D', '聯詞']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺上次考試中，老師出咗一道非常古怪嘅難題，有86%嘅考生唔合格。呢次考試之前，王見明預測話：「根據上次考試情況，呢次考試唔一定會出噉嘅難題咯。」胡思明話：「呢就係話呢次考試肯定唔出噉嘅難題咯。太好咯!」王見明話：「我唔係嗰個意思。」下面邊句話與王見明講嘅意思相似?",
+    "llm_output": "王見明所講的話：「根據上次考試情況，呢次考試唔一定會出噉嘅難題咯。」這句話的意思是說，根據上次的考試情況，這次考試出難題並不是必然的，即有可能不會出那麼難的題目。這裡表達的是一種可能性，而非確定性。\n\n我們來分析以下選項：\n\nA. 呢次考試老師必定唔出噉嘅難題咯 —— 這句話表示確定性，即老師一定不會出難題，這與王見明講的意思不相似。\n\nB. 呢次考試老師唔可能出噉嘅難題咯 —— 這句話表示否定可能性，即老師不可能出難題，這與王見明講的意思也不相似。\n\nC. 呢次考試老師可能唔出噉嘅難題咯 —— 這句話表示存在可能性，即老師可能不會出難題，這與王見明講的意思相似。\n\nD. 呢次考試老師唔可能唔出噉嘅難題 —— 這句話可以理解为老師一定會出難題，這與王見明講的意思相反。\n\n因此，與王見明講的意思最相似的話是選項C：「呢次考試老師可能唔出噉嘅難題咯」。所以正確答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '呢次考試老師必定唔出噉嘅難題咯'], ['B', '呢次考試老師唔可能出噉嘅難題咯'], ['C', '呢次考試老師可能唔出噉嘅難題咯'], ['D', '呢次考試老師唔可能唔出噉嘅難題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「一個老虎嘅食量比一個人嘅大，噉所有老虎嘅食量都比所有人嘅食量大。」犯嘅邏輯謬誤係",
+    "llm_output": "正確答案嘅選項係：\n\nD. 合成謬誤\n\n此題中嘅邏輯謬誤係「合成謬誤」，即以局部嘅特質推斷整體嘅特質，將一個老虎嘅食量大於一個人嘅食量，不合理地推論出所有老虎嘅食量都比所有人嘅食量大。此類謬誤忽略了個體差異及整體中可能存在的例外情況。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '歸納唔強謬誤'], ['B', '演繹無效謬誤'], ['C', '分解謬誤'], ['D', '合成謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "又可稱為串行結構或者線性結構嘅係",
+    "llm_output": "正確答案嘅選項係：\nC. 序列結構\n\n序列結構（Sequential Structure），亦稱串行結構或線性結構，是指數據元素按照一定的順序排列，每個元素的位置都有明確的先後關係，並且一次只能處理一個元素。這種結構通常用於描述一系列按照特定順序排列的步驟或操作。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '並行結構'], ['B', '中間結構'], ['C', '序列結構'], ['D', '發散結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「有啲壁畫係三幅一聯畫」入面嘅「有啲」係",
+    "llm_output": "正確答案嘅選項係：\n\nC. 量詞\n\n「有啲」在呢度係一個量詞，用來表示「啲」後面嘅嘢有咁多咁多，但係又唔系全部，即係「有啲」咁多咁多。所以「有啲」係一個量詞，答案係C。其他選項，如謂項、聯項同主項，都唔係咁解。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '謂項'], ['B', '聯項'], ['C', '量詞'], ['D', '主項']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「張平買咗雙平嘅旅遊鞋，唔到半個月就壞咗；唔耐佢嘅朋友買咗件平嘅皮夾克，結果發現係仿羊皮嘅。張平由此得出結論「平無好貨」。呢推理",
+    "llm_output": "正確答案嘅選項係：\n\nB. 犯咗輕率概括嘅錯誤\n\n張平根據個別事件來概括一個普遍原則，即「平無好貨」，這種推理方式忽略了可能存在的其他情況，因此屬於輕率概括的錯誤。其他選項並不正確：A選項「正確地使用咗求同法」不適用，因為求同法需要多個相似案例；C選項「正確地使用咗共變法」亦不適用，因為共變法關注的是變量之間的關係；D選項「係一個正確嘅三段論推理」同樣不適用，因為張平的結論基於不足夠的證據。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '正確地使用咗求同法'], ['B', '犯咗輕率概括嘅錯誤'], ['C', '正確地使用咗共變法'], ['D', '係一個正確嘅三段論推理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "張競話：只有正式代表先可以發言。劉強話：唔對吧!李貴都係正式代表但佢唔發言。劉強嘅回答係將張競嘅話錯誤地理解為以下邊項?",
+    "llm_output": "正確答案係D。\n\n張競嘅話是「只有正式代表先可以發言」，這句話的意思是發言的人必須是正式代表，但並不代表所有正式代表都發言了。而劉強嘅回答「李貴都係正式代表但佢唔發言」，反映出他將張競嘅話理解為「所有正式代表都發言咗」，這是一種錯誤的理解，因為張競嘅話並沒有說所有正式代表都發了言，只是說發言的人必須是正式代表。因此，選項D「所有正式代表都發言咗」是對張競話錯誤理解的选项。其他選項均不符合張競原意。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '李貴要發言'], ['B', '所有發言嘅人都係正式代表'], ['C', '冇正式代表發言'], ['D', '所有正式代表都發言咗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個論證係好嘅，必須滿足",
+    "llm_output": "正確答案係D。一個論證被視為好，必須滿足所有前提加埋必須為結論提供足夠支持，即結論必須能夠從前提中合理推導出來。雖然前提與結論相干（A選項）以及所有前提必須為真（B選項）亦重要，但這些條件並不足以保證論證之好壞。因此，最全面的要求是所有前提必須共同為結論提供足夠支持，即D選項。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '前提與結論必須係相干嘅'], ['B', '所有前提都必須係真嘅'], ['C', '以上都對'], ['D', '所有前提加埋必須畀結論提供足夠支持']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "只有一個前提同一個結論嘅結構係",
+    "llm_output": "正確答案係：\nB. 簡單結構\n\n邏輯學中，簡單結構（也稱為直接推理）是指只有一個前提引導出一個結論的推理形式。其他選項描述的結構不符合只有一個前提和一個結論的特徵。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '收斂結構'], ['B', '簡單結構'], ['C', '序列結構'], ['D', '發散結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺邏輯方陣中，兩個命題係蘊涵關係，當且僅當，佢哋同時滿足嘅條件係",
+    "llm_output": "正確答案嘅選項係：\n\nA. 以上都對\n\n喺邏輯方陣中，兩個命題係蘊涵關係，當且僅當，佢哋同時滿足嘅條件包括：佢哋具有相同主項同相同謂項，佢哋有唔同嘅量同相同嘅質，以及佢哋係從存在觀點嚟考慮嘅。所以選項A「以上都對」係正確嘅。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上都對'], ['B', '佢哋係從存在觀點嚟考慮嘅'], ['C', '佢哋具有相同主項同相同謂項'], ['D', '佢哋有唔同嘅量同相同嘅質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "構造真值表，基於嘅邏輯算子規則唔包括",
+    "llm_output": "正確答案嘅選項係：\n\nD. 等值\n\n构造真值表时，通常涉及的逻辑算子包括命题、合取（与）、否定（非）、析取（或）、蕴含（如果...那么...）、等价（当且仅当）等。然而，“等值”并非一个标准的逻辑算子，它通常是指两个命题在所有情况下都具有相同的真值，这在逻辑运算中并不构成一个独立的运算规则。因此，在构造真值表时，我们不会基于“等值”这一规则。所以正确答案是D。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '命題'], ['B', '合取'], ['C', '否定'], ['D', '等值']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "從「小王去北京可能搭飛機，亦可能搭火車或者汽車」同「佢唔搭汽車」可知",
+    "llm_output": "正確答案嘅選項是 B. 佢搭飛機或者火車。\n\n根據題目提供的信息，小王去北京有三種可能的交通方式：搭飛機、搭火車或者搭汽車。但後面又提到「佢唔搭汽車」，即排除了搭汽車的可能性。因此，小王去北京只能選擇搭飛機或者搭火車。選項 A 和 C 都只提及了其中的一種可能性，而選項 D 則提出了錯誤的否定性結論。所以，最符合邏輯推理的答案是 B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '佢搭飛機'], ['B', '佢搭飛機或者火車'], ['C', '佢搭火車'], ['D', '佢唔搭飛機或者火車']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "下列語句作為劃分，正確嘅係",
+    "llm_output": "正確嘅選項係：\n\nB. 一年可以分為春、夏、秋、冬四季\n\n呢個選項正確地描述了季節的劃分，而其他選項則存在邏輯上的問題。選項A的問題在於它暗示班中只有男學生和女學生兩類，但實際上可能存在其他性別或身份的學生。選項C的問題在於它將戰爭分為兩類，但這兩類之間沒有明確的劃分標準。選項D的問題在於它將概念分為三類，但這三類之間缺乏清晰的區分和邏輯聯繫。因此，選項B是唯一正確的劃分描述。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '呢個班嘅學生，除咗七名女學生外，其餘都係男仔'], ['B', '一年可以分為春、夏、秋、冬四季'], ['C', '戰爭分為常規戰爭同世界大戰'], ['D', '概念分為普遍概念、單獨概念同正概念']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「鬼係唔存在嘅，因為冇人證明過鬼存在。」陷入咗咩樣嘅論證謬誤？",
+    "llm_output": "正確答案係C. 訴諸無知。\n\n解題思路：\n原句「鬼係唔存在嘅，因為冇人證明過鬼存在。」反映出一種邏輯謬誤，即認為某事未被證明即等同於該事不存在。這種論證方式忽略了未被證明並不等於證明不存在，因為可能存在多種原因導致某事未被證明，例如技術限制、研究不足或該事實本身難以證明等。這種謬誤通常稱為「訴諸無知」或「負證據」，即假設缺乏證據證明某事即等同於該事不成立。\n\n其他選項分析：\nA. 訴諸權威 - 這涉及依賴權威人士的意見而非事實本身，與本題情境不符。\nB. 以上均唔係 - 這選項表示其他選項均不正確，但根據上述分析，C選項是正確的。\nD. 訴諸公眾 - 這涉及依賴大多數人的意見而非事實本身，與本題情境不符。\n\n因此，最符合問題描述的論證謬誤是C選項「訴諸無知」。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '訴諸權威'], ['B', '以上均唔係'], ['C', '訴諸無知'], ['D', '訴諸公眾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「知識分子係國家嘅寶貴財富」同「大學教師係知識分子」呢兩個判斷中，「知識分子」呢個概念",
+    "llm_output": "正確答案係A。\n\n「知識分子係國家嘅寶貴財富」呢個判斷中，「知識分子」係指一個整體，即所有知識分子的集合，所以係集合概念。\n\n「大學教師係知識分子」呢個判斷中，「知識分子」係指個別的大學教師，即非集合概念。\n\n因此，前者係集合概念，後者係非集合概念。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '前者係集合概念，後者係非集合概念'], ['B', '都係集合概念'], ['C', '都係非集合概念'], ['D', '前者係非集合概念，後者係集合概念']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "根據傳統邏輯學標準，論證評價嘅邏輯標準嘅類型包括演繹邏輯標準同",
+    "llm_output": "正確答案嘅選項係：\nC. 歸納邏輯標準\n\n根據傳統邏輯學標準，論證評價嘅邏輯標準主要分為演繹邏輯標準和歸納邏輯標準。演繹邏輯標準關注於從已知真實的前提能否必然導出真實的結論，而歸納邏輯標準則關注於從觀察到的現象中能否合理推斷出一般性的規律或法則。辯證邏輯標準和解釋邏輯標準並不在傳統邏輯學標準的分類之中。因此，選項D是錯誤的，而選項C是正確的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '辯證邏輯標準'], ['B', '解釋邏輯標準'], ['C', '歸納邏輯標準'], ['D', '以上都唔對']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「所有嘅廣東人係中國人」中「所有」係",
+    "llm_output": "正確答案係D。「所有」係一個量詞，用於描述主項「廣東人」的範圍。在邏輯學中，量詞用於指明主項的數量或範圍，例如「所有」、「某些」、「沒有」等。所以，「所有」在這裡是描述「廣東人」這個主項的量詞。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '主項'], ['B', '聯項'], ['C', '謂項'], ['D', '量詞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "防疫站嘅統計數據顯示畀狗注射疫苗可以減少狂犬病發生嘅危險性，但係醫療保險業對此進行嘅統計研究則得出咗相反嘅結論。即被注射咗狂犬疫苗嘅狗咬傷嘅人比嗰啲冇被注射狂犬疫苗嘅狗咬傷嘅人更有可能得狂犬病。下列邊項正確，最能解釋題幹嘅明顯矛盾?",
+    "llm_output": "正確答案：B\n\n解釋：選項B最能解釋防疫站與醫療保險業之間統計數據的矛盾。防疫站的數據顯示注射疫苗的狗減少狂犬病風險，而醫療保險業的數據則顯示被注射疫苗的狗咬傷的人反而更有可能得狂犬病。選項B提出了一個合理的解釋：人們通常在狗已經表現出明顯的狂犬病症狀後才去注射疫苗，這些狗可能已經具有較高的傳播狂犬病的風險。此外，這些狗的主人多居住在狂犬病高發地區，因此這些地區的人被咬後得狂犬病的風險自然會較高。這解釋了為什麼醫療保險業的數據會與防疫站的數據相反。其他選項並不能充分解釋這一矛盾。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '被狗咬咗嘅人會即刻到防疫站尋求幫助，但係卻唔一定及時同自己嘅保險公司聯絡'], ['B', '人哋往往係喺自己嘅寵物狗已經表現出明顯嘅狂犬病特徵後先去畀自己嘅狗注射狂犬疫苗，同埋佢哋都係居住喺狂犬病發病率最高嘅地方'], ['C', '大多數咬人嘅狗都冇注射狂犬疫苗'], ['D', '被狗咬過嘅每個人都必須接受狂犬疫苗嘅注射']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "非單調邏輯嘅提出者係",
+    "llm_output": "正確答案係：\n\nD. 圖爾敏\n\n圖爾敏（Stephen Toulmin）係非單調邏輯（Non-Monotonic Logic）嘅提出者。非單調邏輯係一種邏輯系統，其中新增前提可能會改變原有結論的真實性，與傳統邏輯系統中新增前提不會改變結論的真實性形成對比。圖爾敏在1950年代提出此概念，並在後續工作中發展出圖爾敏模型（Toulmin Model），用於分析論證結構。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '紐特'], ['B', '約翰遜'], ['C', '布萊爾'], ['D', '圖爾敏']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "真值表可以用嚟判定",
+    "llm_output": "正確答案嘅選項係：\nD. 以上都對\n\n真值表可以幫助我們判定等值（A），因為它顯示了在所有可能的真值指派下，兩個命題是否總是同時為真或同時為假。真值表亦可用來判斷蘊涵（B）與有效性，因為它能夠展示一個命題是否從另一個命題中逻辑地推導出來。此外，真值表還能判別重言式（即無論變量取何值均為真的命題）與矛盾式（即無論變量取何值均為假的命題）（C）。因此，真值表確實能夠用於上述所有情況，選項D是正確的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '等值'], ['B', '蘊涵與有效性'], ['C', '重言式與矛盾式'], ['D', '以上都對']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「有效性對於真實嘅論證評價嚟講既唔係充分嘅亦唔係必要嘅。」出自",
+    "llm_output": "正確答案係：C. 以上均唔係\n\n解題思路：\n- 圖爾敏（Stephen Toulmin）係邏輯學界知名人物，但「有效性對於真實嘅論證評價嚟講既唔係充分嘅亦唔係必要嘅」並唔係佢嘅名言。\n- 布萊爾（Blair）並唔係邏輯學界知名人物，亦無此名言。\n- 約翰遜（Johnson）亦無此名言。\n\n因此，根據提供嘅選項，正確答案係C，即以上均唔係。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '圖爾敏'], ['B', '布萊爾'], ['C', '以上均唔係'], ['D', '約翰遜']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "直言命題SEP通過換質法得到嘅命題係",
+    "llm_output": "正確答案係：C. SAP\n\n換質法（Obversion）是一種邏輯運算，通過將原命題的質（肯定或否定）轉換為其對立面，同時保持命題的真假值不變。對於直言命題SEP（Some Not P），通過換質法得到的新命題是SAP（Some All P），因為否定\"Some\"（有）變成\"All\"（所有），否定\"Not P\"（不是P）變成\"P\"（是P）。所以，SEP通過換質法得到的是SAP。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'SOP'], ['B', 'SEP'], ['C', 'SAP'], ['D', 'SIP']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺亞裏士多德嘅邏輯中，被認為係肯定或者否定主項具有謂項性質嘅語句嘅係",
+    "llm_output": "正確答案係C. 命題。\n\n在亞里斯多德嘅邏輯中，命題（Proposition）係指一個可以肯定或者否定嘅陳述，通常包含主項同謂項。命題可以表達對事物性質嘅肯定或否定，例如「所有男人係有智慧嘅」或「某些男人係有智慧嘅」。而推論（Inference）、論證（Argument）、修辭（Rhetoric）則分別係推理過程、支持命題嘅過程以及運用言語技巧來影響聽眾嘅過程。因此，根據題目描述，命題最符合「肯定或者否定主項具有謂項性質嘅語句」嘅定義。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '推論'], ['B', '論證'], ['C', '命題'], ['D', '修辭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個論證係可靠嘅，必須滿足兩個條件，一係所有前提都係真嘅，二係",
+    "llm_output": "正確答案嘅選項係：\n\nA. 論證形式係有效嘅\n\n一個論證要可靠，確實需要所有前提都係真嘅，並且論證形式必須有效，即從前提到結論的推理過程必須是正確無誤的。其他選項並不符合可靠論證的標準。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '論證形式係有效嘅'], ['B', '以上都唔對'], ['C', '部分結論係真嘅'], ['D', '所有結論都係真嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔能用嚟檢驗複合命題論證嘅有效性嘅係",
+    "llm_output": "正確答案嘅選項係：\n\nB. 基本論證形式\n\n基本論證形式通常是指一些標準的、已知的有效推理形式，例如模態邏輯中的「必然性推理」或「可能性推理」。這些形式本身並不能用來檢驗複合命題論證的有效性，因為它們僅能確保基本推理步驟的正確性，而複合命題論證的有效性則取決於整個論證鏈的結構和內容。\n\n真值表（A選項）、文恩圖（C選項）和形式演繹（D選項）均可用來檢驗複合命題論證的有效性。真值表通過列出所有可能的真值組合來檢查命題之間的邏輯關係；文恩圖則通過視覺化命題之間的重疊關係來分析邏輯結構；形式演繹則通過遵循特定的規則從前提推導出結論，以檢驗論證的有效性。\n\n因此，基本論證形式（B選項）不能單獨用來檢驗複合命題論證的有效性，而其他選項則可以。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '真值表'], ['B', '基本論證形式'], ['C', '文恩圖'], ['D', '形式演繹']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺論證過程中，通過將某種極端嘅觀點強加畀對方嚟醜化對方係違反咗()呢一語言明確性原則。",
+    "llm_output": "正確答案係C. 稻草人。\n\n解題思路：\n- A選項「斷章取義」指的是引用某人的話時，只選擇對自己有利的片段，而忽視了上下文或整體意圖，這與問題描述的「強加極端觀點」不完全吻合。\n- B選項「平均數」是統計學上的概念，與語言明確性原則無關。\n- C選項「稻草人」在論證中指的是虛構或夸大對方的立場，使其變得容易攻擊，這與問題描述的「強加極端觀點」以醜化對方吻合。\n- D選項「非黑即白」描述的是一種過於簡化對立面的思考方式，雖然與強加極端觀點有關，但問題中強調的是「醜化對方」，因此C選項更為貼切。\n\n因此，最符合問題描述的選項是C. 稻草人。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '斷章取義'], ['B', '平均數'], ['C', '稻草人'], ['D', '非黑即白']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "三段論嘅五條規則可以被分為幾類?",
+    "llm_output": "正確答案係D。三段論嘅五條規則可以被分為兩大類：形式規則和內容規則。形式規則包括：(1) 每一個含三個詞項嘅三段論必須有且僅有三個詞項；(2) 如果一個詞項在前提中做為中詞，咁喺結論中亦必須做為中詞；(3) 一個詞項如果在結論中做為否定詞項，咁喺前提中亦必須做為否定詞項。內容規則包括：(4) 一個詞項必須在至少一個前提中做為肯定詞項出現；(5) 兩個否定的前提不能得出結論。所以，五條規則可以被分為兩類，即形式規則和內容規則。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '3'], ['B', '2'], ['C', '5'], ['D', '4']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「生產關係係人哋喺生產中結成嘅人同人之間嘅關係」，呢個定義嘅種差係",
+    "llm_output": "正確答案嘅選項係：\nB. 喺生產中結成嘅關係\n\n此問題來自於對「生產關係」概念的定義分析。生產關係通常指的是在生產過程中，人們之間因為分工、合作而形成的一種社會關係。在上述定義中，「喺生產中結成嘅關係」是描述生產關係特質的關鍵部分，它標識了這種關係是在生產活動中形成的，這是與其他社會關係的區別所在。選項A描述的是人與人之間的關係，這是一個廣泛的概念，不特指生產關係；選項C和D則包含了不必要的詞語，使得表述變得冗餘。因此，選項B最精確地捕捉了生產關係的種差，即在生產過程中形成的特定社會關係。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人同人之間嘅關係'], ['B', '喺生產中結成嘅關係'], ['C', '人哋喺生產中結成嘅人同人之間嘅'], ['D', '人哋喺生產中結成嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「一方對立場嘅抨擊必須與另一方確係已提出嘅立場有關」。呢係批判性討論規則中嘅",
+    "llm_output": "正確答案係：\n\nC. 立場規則\n\n呢條規則要求批判者必須針對對方真實提出嘅立場進行抨擊，而唔系無的放矢或者誤導性嘅攻擊。呢種做法有助於確保討論嘅建設性同真實性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '舉證規則'], ['B', '自由規則'], ['C', '立場規則'], ['D', '責任規則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "直言命題嘅類型唔包括",
+    "llm_output": "正確答案：A. 全稱逆否命題\n\n邏輯學中，直言命題（Categorical Propositions）通常分為四種基本類型，分別是：\n\n1. 全稱肯定命題（Universal Affirmative）：所有S都是P（例如：所有狗都是動物）。\n2. 全稱否定命題（Universal Negative）：沒有S是P（例如：沒有狗是貓）。\n3. 特稱肯定命題（Particular Affirmative）：有些S是P（例如：有些狗是動物）。\n4. 特稱否定命題（Particular Negative）：有些S不是P（例如：有些狗不是貓）。\n\n全稱逆否命題（Universal Negative）實際上是全稱否定命題的逆否形式，它本身不是直言命題的一種獨立類型，而是通過邏輯運算可以從全稱否定命題導出來的。因此，在直言命題的分類中不包括全稱逆否命題。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '全稱逆否命題'], ['B', '特稱肯定命題'], ['C', '全稱肯定命題'], ['D', '特稱否定命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "某公司為咗擴大其網上商店嘅銷售收入，採取咗各種各樣嘅廣告宣傳同促銷手段，但係效果並唔明顯。該公司重金聘請咗專業人士進行市場分析，專業人士認為開通咗網上銀行嘅人羣先係真正潛喺嘅網上商店嘅顧客羣。於係該公司決定同商業銀行合作，喺新開通網上銀行業務嘅人羣中開展宣傳同促銷活動。但係三個月後，效果並唔理想。以下邊項為真，最能解釋上述結果?",
+    "llm_output": "正確答案：B\n\n解釋：選項B指出一般剛開通網上銀行的人需要一段時間後才可能進行網上消費，這解釋了為什麼即使針對新開通網上銀行的人羣進行宣傳和促銷活動，三個月後的效果仍不理想。這表明消費者可能需要時間來適應和信任新的金融服務，然後才會願意進行相關的網上消費活動。其他選項並不能夠充分解釋為什麼三個月後的效果不理想。選項A提到消費者對開通網上銀行的謹慎態度，但這不一定能解釋為什麼三個月後的效果不佳。選項C提到知識分子對網上金融服務的普及，但這與三個月後的效果不佳無直接關聯。選項D提到網上銀行用戶被盜案件頻發，這可能會影響消費者對網上銀行和商店的信任，但這也無法充分解釋為什麼三個月後的效果不理想。因此，選項B是最能解釋上述結果的選項。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '開通網上銀行喺中國仲係一件新鮮事，一般嚟講，消費者對此嘅態度比較謹慎'], ['B', '一般嚟講，啱啱開通網上銀行嘅人需要經過一段時間後先有可能進行網上消費'], ['C', '網上金融服務喺知識分子中已經比較普及，佢哋更希望網上商店能夠提供啲特色服務'], ['D', '最近網上銀行用戶被盜嘅案件頻發，開通網上銀行嘅人因此有所減少']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "斯多葛學派嘅代表人物唔包括",
+    "llm_output": "正確答案嘅選項係：\nB. 泰勒斯\n\n斯多葛學派（Stoicism）係古希臘及古羅馬時期嘅一種哲學流派，主要代表人物包括芝諾（Zeno of Citium）、塞內卡（Seneca）、奧勒留（Marcus Aurelius）等。而泰勒斯（Thales）係米利都學派（Milesian School）嘅人物，與斯多葛學派無關。所以選項B是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '芝諾'], ['B', '泰勒斯'], ['C', '塞內卡'], ['D', '奧勒留']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "根據論證嘅前提與結論嘅支持關係，謬誤可以分為",
+    "llm_output": "正確答案嘅選項是 C. 以上都對。\n\n邏輯學中，謬誤通常根據其出現的場合和性質被分類。根據論證的結構，謬誤可以分為多種類型，包括但不限於：\n\n- 前提謬誤（Fallacy in the Premise）：當論證的某個前提本身是錯誤的，這就構成了前提謬誤。\n- 支持謬誤（Fallacy of Support）：這通常指的是支持結論的論據不足或錯誤，導致結論缺乏足夠的證據支持。\n- 相干謬誤（Fallacy of Relevance）：當論證的內容與結論無關或不相干時，就會出現這種謬誤。\n\n因此，選項 C 正確地總括了這些不同的謬誤類型，指出所有這些選項都是正確的分類方式。選項 A、B 和 D 分別只提及了其中一種謬誤，而問題要求的是根據論證的結構來分類謬誤，所以 C 是最全面的回答。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '前提謬誤'], ['B', '支持謬誤'], ['C', '以上都對'], ['D', '相干謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於彌爾五法嘅係",
+    "llm_output": "正確答案係：\nA. 比較法\n\n彌爾五法包括：契合法、差異法、同異並用法、契同法、求同求異並用法。比較法並唔屬於彌爾五法。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '比較法'], ['B', '求異法'], ['C', '求同法'], ['D', '契合法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於前提標識詞嘅係",
+    "llm_output": "正確答案係：C. 因此\n\n邏輯學中，前提標識詞通常用於引導出一個結論或結果，而“因此”是一個結論標識詞，用來標示一個由前提導出的結論，而非引導前提本身。其他選項A. 因為、B. 鑑於、D. 由於均可用作引導前提的詞語。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '因為'], ['B', '鑑於'], ['C', '因此'], ['D', '由於']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "訴諸情感論證嘅類型唔包括",
+    "llm_output": "正確答案：C. 唔適當權威論證\n\n邏輯學中，訴諸情感的論證是指那些試圖通過引發聽眾的情感反應（如恐懼、憤怒、同情感等）來支持其論點的論證方式。選項A的「訴諸公眾論證」（Appeal to Popularity）是指依賴大多數人的意見來支持一個論點，這屬於一種情感論證，因為它依賴的是群體情感和壓力。選項B的「訴諸憐憫論證」（Appeal to Pity）是通過引發聽眾對某人的不幸或困難的同情來支持一個論點，這也是一種情感論證。選項D的「訴諸威力論證」（Appeal to Force）是威脅或強迫聽眾接受一個論點，這同樣是一種情感論證，因為它依賴的是恐懼或強迫的情感反應。\n\n然而，選項C「唔適當權威論證」（Appeal to Inappropriate Authority）是指依賴一個不具權威性或專業知識的人士的意見來支持一個論點。這是一種邏輯錯誤，因為它沒有依據專業知識或權威性來支持論點，而是依賴了不相關的權威。因此，它不是一種訴諸情感的論證，而是屬於邏輯錯誤的範疇。所以，正確答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '訴諸公眾論證'], ['B', '訴諸憐憫論證'], ['C', '唔適當權威論證'], ['D', '訴諸威力論證']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "歐拉圖表示嘅兩個對象類之間嘅關係唔包括",
+    "llm_output": "正確答案嘅選項係：\n\nA. 交叉關係\n\n歐拉圖（Euler Diagram）通常用於表示集合之間嘅關係，包括全同（同一）、包含（種屬）、交叉等關係。交叉關係指的是兩個集合之間有部分重疊但並非完全相同或包含的關係。歐拉圖不表示兩個對象類之間嘅交叉關係，因為交叉關係通常用文氏圖（Venn Diagram）來表示。所以，選項A係正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '交叉關係'], ['B', '全同關係'], ['C', '種屬關係'], ['D', '同一關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "邏輯主義嘅代表人物係",
+    "llm_output": "正確答案嘅選項係：\nB. 羅素\n\n邏輯主義（Logicalism）係一種哲學觀點，認為數學可以完全基於邏輯來建立。伯特蘭·羅素（Bertrand Russell）係邏輯主義嘅代表人物之一，他同其他邏輯主義者一樣，認為數學概念可以通過邏輯概念來定義，並且數學真理可以從邏輯真理中推導出來。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '布勞威爾'], ['B', '羅素'], ['C', '哥德爾'], ['D', '希爾伯特']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "請揀啱嘅判斷反駁「吸煙有利健康」",
+    "llm_output": "正確嘅答案系C：「所有人吸煙都唔利健康」。\n\n呢個判斷反駁「吸煙有利健康」嘅方式，係通過否定所有情況下吸煙對健康嘅利益，即無論何人吸煙，其對健康都無利。呢種反駁方式符合邏輯學中「否定普遍性」原則，即否定一個普遍性陳述（所有人吸煙都有利健康），需要提出一個同樣具有普遍性嘅陳述（所有人吸煙都唔利健康）。\n\n其他選項分析：\nA選項「有人吸煙唔利健康」只否定了个別情況，不足以反駁普遍性陳述。\nB選項「有人唔吸煙有利健康」亦只否定了个別情況，不足以反駁普遍性陳述。\nD選項「健康嘅人一般唔吸煙」提供嘅信息與吸煙與健康之間嘅關係無關，因此亦不足以反駁普遍性陳述。\n\n因此，C選項最符合邏輯學中反駁普遍性陳述嘅方式。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '有人吸煙唔利健康'], ['B', '有人唔吸煙有利健康'], ['C', '所有人吸煙都唔利健康'], ['D', '健康嘅人一般唔吸煙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「如果A，噉B」可轉換為其等值判斷",
+    "llm_output": "正確答案嘅選項係：\n\nD. 如果非B，噉非A\n\n這是因為「如果A，噉B」可以轉換為「如果非B，噉非A」，這在邏輯學中稱為逆否命题，它是原命题的等值判断。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '如果非A，噉B'], ['B', '如果非A，噉非B'], ['C', '如果B，噉A'], ['D', '如果非B，噉非A']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "被譽為古印度嘅醫學百科全書嘅係",
+    "llm_output": "正確答案係A. 「闍羅迦本集」。\n\n闍羅迦本集（Sushruta Samhita）係古印度著名嘅醫學著作，由古代印度醫學家闍羅迦所撰寫，被譽為醫學百科全書。該書詳細介紹了各種醫療技術、外科手術、藥物學以及疾病診斷等知識，對後世醫學發展有著深遠影響。其他選項中，「吠陀經」（Vedas）係宗教經典，「摩訶婆羅多」（Mahabharata）和「薄伽梵歌」（Bhagavad Gita）則係宗教哲學作品，並非醫學百科全書。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「闍羅迦本集」'], ['B', '「吠陀經」'], ['C', '「摩訶婆羅多」'], ['D', '「薄伽梵歌」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「好人有好報，三係好人，所以三有好報」屬於",
+    "llm_output": "正確答案係：\n\nA. 演繹推理\n\n解題思路：\n「好人有好報，三係好人，所以三有好報」這句話符合演繹推理的結構，即從一般原則（好人有好報）推導出特定情況下的結論（三有好報）。演繹推理是由一般到個別的推理過程，與此相反的是歸納推理，它是從個別事實中推導出一般規律。回溯推理和似真推理則涉及不同的推理方式，與此問題不相關。因此，最符合問題描述的選項是A. 演繹推理。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '演繹推理'], ['B', '回溯推理'], ['C', '似真推理'], ['D', '歸納推理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "彭平係一個計算機編程專家，姚欣係一位數學家。其實，所有嘅計算機編程專家都係數學家。我哋知道，今日國內大多數綜合性大學都喺培養住計算機編程專家。據此，我哋可以認為：",
+    "llm_output": "正確答案係：\n\nC. 有啲數學家係計算機編程專家\n\n根據提供的信息，所有計算機編程專家都係數學家，而綜合性大學喺培養住計算機編程專家，因此可以推斷出有部分數學家同時也是計算機編程專家。其他選項並無足夠信息支持。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '彭平由綜合性大學所培養嘅'], ['B', '大多數計算機編程專家係由綜合性大學所培養嘅'], ['C', '有啲數學家係計算機編程專家'], ['D', '姚欣並唔係畢業於綜合性大學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "用真值表檢驗重言式同矛盾式需要針對所討論嘅命題建立一個",
+    "llm_output": "正確答案嘅選項係：\n\nC. 真值行\n\n真值表通常會以真值行（True-Value Lines）的形式來展示，每一行代表一個命題的真值指派，即該命題在所有可能的真值情況下的真值。通過真值表可以檢驗一個命題是否為重言式（即在所有真值指派下都為真）或矛盾式（即在所有真值指派下都為假）。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '矛盾式'], ['B', '重言式'], ['C', '真值行'], ['D', '真值列']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "前提係自我欺騙性語句，即",
+    "llm_output": "正確答案係D。「前提自相矛盾謬誤」是指一個語句或論證中，前提與結論之間存在矛盾，即前提本身是自我矛盾的。根據您提供的情況，前提是一個自我欺騙性的語句，這通常意味著它包含內在的矛盾，因此符合「前提自相矛盾謬誤」的定義。其他選項並不符合自我欺騙性語句的特點。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '前提虛假謬誤'], ['B', '以上都唔對'], ['C', '預期理由謬誤'], ['D', '前提自相矛盾謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "當命題斷言咗主項或者謂項所指稱嘅類嘅每一成員時，我哋就話呢個詞項係",
+    "llm_output": "正確答案嘅選項係：\n\nC. 周延嘅\n\n喺邏輯學中，當一個命題斷言咗主項或者謂項所指稱嘅類嘅每一成員時，即係話呢個詞項係周延嘅。周延嘅詞項表示該詞項涵蓋咗其所指稱類嘅所有成員。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '唔周延嘅'], ['B', '假嘅'], ['C', '周延嘅'], ['D', '真嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "根據演繹有效性原則，論證無效嘅一個重要標誌係",
+    "llm_output": "正確答案係D。根據演繹有效性原則，一個論證無效的重要標誌是當所有前提都為真時，結論卻為假。這表示即使所有支持論點的前提都是真實的，結論依舊不能從這些前提中合理地推導出來，從而證明了論證的無效性。其他選項並不符合演繹有效性原則對無效論證的定義。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '部分前提假而結論假'], ['B', '部分前提真而結論假'], ['C', '所有前提假而結論假'], ['D', '所有前提真而結論假']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "根據演繹有效性原則，論證無效嘅一個重要標誌係",
+    "llm_output": "根據演繹有效性原則，一個論證無效的重要標誌是所有前提真而結論假，因為這表示即使所有前提都是真實的，結論卻是錯誤的，這表明從前提到結論的推理過程存在問題。因此，正確答案是 C. 所有前提真而結論假。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '部分前提假而結論假'], ['B', '所有前提假而結論假'], ['C', '所有前提真而結論假'], ['D', '部分前提真而結論假']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「所有嘅邏輯學家都係哲學家，所有美學家都係邏輯學家，因此，所有美學家都係哲學家」，呢個三段論中，結論標識詞係",
+    "llm_output": "正確答案嘅選項係：\nB. 哲學家\n\n呢個三段論中，結論標識詞係「哲學家」，因為結論部分係「所有美學家都係哲學家」。其他選項並無標識結論，所以不係正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '都係'], ['B', '哲學家'], ['C', '所有'], ['D', '因此']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於前提標識詞嘅係",
+    "llm_output": "正確答案係：\n\nD. 所以\n\n「所以」通常標識結果或結論，而非前提。其他選項A「因為」、B「鑑於」、C「由於」均可用於引出前提或理由。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '因為'], ['B', '鑑於'], ['C', '由於'], ['D', '所以']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "三段論「有啲結構主義者係形式主義者；所有形式主義者都唔係實質主義者；因此，有啲實質主義者唔係結構主義者。」嘅式係",
+    "llm_output": "正確答案係C. EIO。\n\n解析：\n根據三段論的結構，我們可以將原來的句子轉化為標準形式：\n- 大前提：所有形式主義者都唔係實質主義者（E）\n- 小前提：有啲結構主義者係形式主義者（I）\n- 結論：因此，有啲實質主義者唔係結構主義者（O）\n\n根據標準形式的三段論標記法，大前提標記為E，小前提標記為I，結論標記為O，所以這個三段論的式係EIO。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'IOE'], ['B', 'EOI'], ['C', 'EIO'], ['D', 'IEO']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺歸納邏輯中，所有前提真而結論",
+    "llm_output": "在歸納邏輯中，即使所有前提都是真確的，結論也不一定是真確的，因為歸納法是從特殊到一般的推理方法，它不能保證從特殊事例推導出來的結論對所有情況都適用。因此，結論可能是真的，也可能不是真的。所以正確答案是：\n\nA. 可能真\n\n這是因為歸納推理的結論不是由必然的邏輯聯繫得出的，而是基於觀察到的模式或趨勢所作的推斷，因此它存在一定的風險，即結論可能與實際情況不符。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可能真'], ['B', '必然假'], ['C', '必然真'], ['D', '可能假']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "由於近期嘅乾旱同高溫，導致海灣鹽度增加，引起咗好多魚嘅死亡。蝦雖然可以適應高鹽度，但係鹽度高都畀養蝦場帶嚟咗唔幸。以下邊項如果為真，能夠提供解釋以上現象嘅原因?",
+    "llm_output": "正確答案嘅選項係：\n\nA. 幼蝦食嘅有機物喺鹽度高嘅環境下幾乎難以存活\n\n呢個選項能夠解釋養蝦場嘅唔幸，因為幼蝦嘅食物來源喺高鹽度環境下難以存活，進而影響到幼蝦嘅生長同存活率。其他選項並無提供能夠解釋现象嘅原因。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '幼蝦食嘅有機物喺鹽度高嘅環境下幾乎難以存活'], ['B', '持續嘅乾旱會使海灣嘅水位下降，呢已經引起咗有關機構嘅注意'], ['C', '水溫升高會使蝦更快速繁殖'], ['D', '魚多嘅海灣往往蝦都有多，蝦少嘅海灣魚都唔多']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於共同嘅論證評價標準嘅係",
+    "llm_output": "正確答案：D. 修辭標準\n\n邏輯學中，共同論證評價標準通常包括分析標準、論辯標準和邏輯標準。這些標準是評估論證是否有效和合理的基本依據。分析標準關注於論證結構的清晰度與合理性；論辯標準則涉及論證過程中對立觀點的處理；邏輯標準則是指論證必須遵守的邏輯法則，如同一律、不矛盾律、排中律和充足理由律。\n\n修辭標準則更多地關注於如何以最有效的方式表達和傳達論證，包括使用語言的技巧、情感的動員等，這些與論證的邏輯有效性不直接相關。因此，修辭標準不是共同論證評價的標準之一。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '分析標準'], ['B', '論辯標準'], ['C', '邏輯標準'], ['D', '修辭標準']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "訴諸權威謬誤嘅通常表現形式包括",
+    "llm_output": "正確答案嘅選項是 B. 以上都對。\n\n訴諸權威謬誤（Appeal to Authority Fallacy）通常表現形式包括：\n- A. 唔相干權威（Irrelevant Authority）：引用與該話題無關或沒有專業知識的權威意見。\n- C. 有問題嘅權威（Questionable Authority）：引用有爭議、聲譽不佳或其專業性受到質疑的權威。\n- D. 濫用權威（Abuse of Authority）：過度依賴或濫用權威的意見，忽視其他證據或論據。\n\n因此，選項 B 涵蓋了所有這些形式，是正確的選擇。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔相干權威'], ['B', '以上都對'], ['C', '有問題嘅權威'], ['D', '濫用權威']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺歸納邏輯中，所有前提真而結論",
+    "llm_output": "在歸納邏輯中，即使所有前提都是真確的，結論也不一定是真確的，因為歸納法不能保證從前提到結論的推理是必然正確的。因此，結論可能是真的，但這不是必然的。所以，正確的選項是：\n\nA. 可能真\n\n這是因為歸納推理的性質是從觀察到的特定個案推斷出一般性的結論，這種推理方式不能保證結論的絕對真實性，但提供了結論可能為真的可能性。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可能真'], ['B', '以上都唔對'], ['C', '必然假'], ['D', '必然真']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "論證嘅功能包括證成同",
+    "llm_output": "正確答案：C. 推論\n\n邏輯學中，論證的主要功能是通過一系列的推理來證成某個命題的真實性。推論（C選項）是論證過程中的一個關鍵步驟，它涉及到從已知事實或原則出發，通過邏輯規則導出新的結論。其他選項，如反駁（A選項）、辯論（B選項）和歸謬（D選項），都是與論證相關的概念，但它們不是論證功能的一部分。反駁涉及對對方論點的否定，辯論是交換論據的過程，而歸謬則是一種通過指出某論斷的荒謬性來證明其錯誤的方法。因此，最符合問題描述的選項是C，推論。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '反駁'], ['B', '辯論'], ['C', '推論'], ['D', '歸謬']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果有啲a係b；有啲a唔係b，並且有啲b係a ，有啲b唔係a；噉，a與b呢兩個概念具有()關係。",
+    "llm_output": "正確答案嘅選項係：\n\nA. 交叉\n\n解題思路：\n根據題意，有啲a係b；有啲a唔係b，並且有啲b係a ，有啲b唔係a，這表示a與b之間既有交集，又有各自獨有的部分，即a與b之間存在交叉關係。其他選項B. 真包含於、C. 全異、D. 全同均不符合題意。所以，正確答案係A. 交叉。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '交叉'], ['B', '真包含於'], ['C', '全異'], ['D', '全同']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "小王話：如果聽日唔落大雨，我一定去睇波。以下邊項為真，可以證明小王冇講真話?a天冇落大雨，小王冇去睇波；b天下大雨，小王去睇咗波；c天下大雨，小王冇去睇波",
+    "llm_output": "正確答案係B。\n\n根據小王嘅話，「如果聽日唔落大雨，我一定去睇波」，可以理解為一個條件句，即「如果P（聽日唔落大雨），則Q（我一定去睇波）」。要證明小王冇講真話，即是要找到一個情況，P發生了但Q沒有發生。\n\n選項分析：\n- a. 「a天冇落大雨，小王冇去睇波」：這符合我們要找的情況，即P發生了（冇落大雨），但Q沒有發生（冇去睇波），因此可以證明小王冇講真話。\n- b. 「天下大雨，小王去睇咗波」：這不符合我們要找的情況，因為P（落大雨）發生了，但Q（去睇波）也發生了，這不能證明小王冇講真話。\n- c. 「天下大雨，小王冇去睇波」：這也不符合我們要找的情況，因為P（落大雨）發生了，但Q（去睇波）沒有發生，但這不能證明小王冇講真話，因為小王講的是「如果唔落大雨」，而不是「如果落大雨」。\n\n因此，只有選項a符合我們要找的情況，可以證明小王冇講真話。所以正確答案係B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'ab'], ['B', 'a'], ['C', 'b'], ['D', 'c']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果A、B兩個判斷唔能同假，但係可以同真，則佢哋之間嘅關係係",
+    "llm_output": "正確答案係：\n\nA. 下反對關係\n\n在邏輯學中，如果兩個判斷不能同時為假，但可以同時為真，那麼它們之間存在的是下反對關係。這意味著一個判斷為真時，另一個判斷必定為真，而當一個判斷為假時，另一個判斷的真假性不確定。這與矛盾關係不同，矛盾關係要求兩個判斷不能同時為真，也不能同時為假。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '下反對關係'], ['B', '矛盾關係'], ['C', '差等關係'], ['D', '反對關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個結果嘅數值概率等於相對嗰個結果可獲得嘅結果數()可能結果嘅總數。",
+    "llm_output": "正確答案嘅選項是 B. 除。\n\n在概率論中，一個結果嘅數值概率等於該結果可獲得嘅結果數除以所有可能結果嘅總數。即概率 P 可以表示為：\n\n\\[ P = \\frac{\\text{特定結果的數目}}{\\text{所有可能結果的總數}} \\]\n\n因此，正確嘅運算是除法。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '乘'], ['B', '除'], ['C', '減'], ['D', '加']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果一個證明嘅論據仲要依靠論題嚟證明，噉該證明所犯嘅邏輯錯誤係",
+    "llm_output": "正確答案係C. 循環論證。\n\n循環論證（Begging the Question）係一種邏輯錯誤，指论证的论据已经预设了结论为真，即论证的出发点已经包含了结论本身，因此论证并未真正提供支持结论的独立证据。在您提供的情況中，如果一個證明嘅論據還要依賴於論題本身來證明，即表明論據與論題之間存在循環依賴，這就構成了循環論證。其他選項：A. 推唔出（非正確推論）通常指推理過程中從前提到結論的過渡不合理；B. 預期理由（Expectation Reason）非標準邏輯術語，且在此上下文中不適用；D. 論據虛假（False Premise）指论证的根据是错误的，但這與依賴論題本身來證明並無直接關聯。因此，最符合問題描述的邏輯錯誤是循環論證。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '推唔出'], ['B', '預期理由'], ['C', '循環論證'], ['D', '論據虛假']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "通過改變命題嘅質或者量從而推導出新命題嘅論證係",
+    "llm_output": "正確答案係B. 質量論證。\n\n質量論證（也稱為質量轉化）係一種論證形式，其中通過改變命題的質（肯定與否定）或量（單稱、特稱與全稱）來推導出新命題。其他選項分別代表不同的論證形式：\n\nA. 直言命題運算論證 - 這涉及使用直言命題（A、E、I、O型）通過運算（如對當、矛盾、蕴含等）來推導結論。\nC. 三段論論證 - 這是一種基於兩個前提推導出結論的論證形式，通常包含三個命題。\nD. 對當關係論證 - 這涉及使用對當關係（如矛盾、蕴含、等值）來推導結論。\n\n因此，根據問題描述，改變命題的質或量來推導新命題的論證形式是質量論證，即選項B。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '直言命題運算論證'], ['B', '質量論證'], ['C', '三段論論證'], ['D', '對當關係論證']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "構造真值表，基於嘅邏輯算子規則唔包括",
+    "llm_output": "正確答案嘅選項係：\nB. 命題\n\n邏輯學嘅真值表通常基於以下基本邏輯算子規則：\n- 否定（Negation）\n- 合取（Conjunction）\n- 析取（Disjunction）\n- 蕴含（Implication）\n- 等值（Equivalence）\n\n命題（Proposition）本身並唔係一個邏輯算子，而係一個可以真或假嘅陳述。命題之間嘅關係通過邏輯算子來連接，而真值表則係用來表示這些命題之間真值關係嘅表格。因此，命題唔係基於真值表构造嘅邏輯算子規則之一。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '等值'], ['B', '命題'], ['C', '否定'], ['D', '合取']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "要檢驗一個命題係唔係矛盾式，即以該命題作為前提進行推導，睇下能唔能推導出",
+    "llm_output": "正確答案係C。\n\n在邏輯學中，矛盾式是指一個命題與其否定同時為真，這是根本不可能的情況。要檢驗一個命題是否為矛盾式，就是試圖從該命題作為前提進行推導，看能否得出一個與該命題完全相反的結論，即矛盾。如果得出了矛盾，則原命題是矛盾式。所以，正確的選項是C，矛盾。其他選項如結論、命題和前提均不符合矛盾式檢驗的標準。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結論'], ['B', '命題'], ['C', '矛盾'], ['D', '前提']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "論證識別嘅核心內容係",
+    "llm_output": "正確答案嘅選項係：\nB. 前提與結論嘅識別\n\n論證識別嘅核心內容確實係識別出論證中嘅前提與結論，因為這兩個部分是構成論證最基本且關鍵的元素。通過識別出這些部分，我們才能進一步分析論證的有效性。其他選項，如目標聽眾、論證者以及論證目，雖然在實際情境中可能會影響論證，但並非識別論證核心內容所必需。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '目標聽眾嘅識別'], ['B', '前提與結論嘅識別'], ['C', '論證者嘅識別'], ['D', '論證目嘅識別']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "前提或者結論中至少有一個條件命題嘅論證係",
+    "llm_output": "正確答案係C. 條件論證。\n\n根據邏輯學的定義，條件論證（Conditional Argument）係指一個論證，其中至少一個命題是條件命題，即命題之間存在條件與結果的關係。在條件論證中，通常有一個「如果...則...」形式的命題，表示某個條件成立時，另一個命題也成立。因此，根據題目描述，前提或者結論中至少有一個條件命題，符合條件論證的定義。其他選項如結論論證、命題論證和前提論證均不符合條件命題的特定要求。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結論論證'], ['B', '命題論證'], ['C', '條件論證'], ['D', '前提論證']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果論證嘅所有前提同時為真係唔可能嘅，噉呢個論證嘅前提就係",
+    "llm_output": "正確答案嘅選項係：\n\nB. 唔一致\n\n如果論證嘅所有前提同時為真係唔可能嘅，噉呢個論證嘅前提就係唔一致，因為唔一致嘅前提會導致矛盾，從而使得所有前提同時為真嘅情況變得唔可能。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '不可接受'], ['B', '唔一致'], ['C', '可接受'], ['D', '一致']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個命題為真係另一個命題為真嘅充分條件嘅命題係",
+    "llm_output": "正確答案係C. 假言命題。\n\n假言命題（Conditional Proposition）係指一個命題的真實性依賴於另一個命題的真實性，即「如果...則...」形式。在假言命題中，「如果」後面嘅命題稱為前件，「則」後面嘅命題稱為後件。假言命題表達嘅係前件為真時後件亦為真嘅條件性關係，符合題目中「一個命題為真係另一個命題為真嘅充分條件」嘅描述。其他選項並不符合此定義：\n\n- A. 直言命題（Categorical Proposition）係最基本嘅命題形式，不涉及條件性。\n- B. 條件命題（Conditional Proposition）與假言命題同義，但題目中已經提及「一個命題為真係另一個命題為真嘅充分條件」，故B選項重複，不如C選項準確。\n- D. 充分命題（Sufficient Proposition）並無此專有名詞，且其涵義與假言命題相似，但假言命題更為準確。\n\n因此，最適合嘅答案是C. 假言命題。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '直言命題'], ['B', '條件命題'], ['C', '假言命題'], ['D', '充分命題']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊篇文章唔包含喺「工具論」之中？",
+    "llm_output": "正確答案：A. 「理想國」\n\n解釋：「工具論」（Organon）是亞里士多德的作品，主要包含他的邏輯學著作，包括「解釋篇」、「論辯篇」和「範疇篇」。而「理想國」是柏拉圖的作品，與亞里士多德的「工具論」無關。因此，「理想國」是這組選項中唯一不包含在「工具論」之中的文章。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「理想國」'], ['B', '「解釋篇」'], ['C', '「論辯篇」'], ['D', '「範疇篇」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "複合命題嘅邏輯聯結詞包括",
+    "llm_output": "正確答案嘅選項是 D. 以上都對。\n\n複合命題嘅邏輯聯結詞包括合取（AND）、析取（OR）、否定（NOT）、蘊涵（IMPLICATION）、同等值（EQUIVALENCE）等。所以選項 A、B、C 嘅內容均屬複合命題嘅邏輯聯結詞，故 D 選項「以上都對」為正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '合取同析取'], ['B', '蘊涵同等值'], ['C', '否定'], ['D', '以上都對']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "係指相對於證據，兩個事實或者事件至少有一個為真嘅概率。",
+    "llm_output": "正確答案係A. 析取律。\n\n析取律（Disjunction）在邏輯學中指的是，假設A和B是兩個命題，如果至少有一個命題是真的，那麼A或B（A ∨ B）就是真的。這與問題中描述的「兩個事實或者事件至少有一個為真嘅概率」相符。其他選項：B. 肯定律、C. 合取律、D. 否定律，均不符合問題描述的邏輯概念。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '析取律'], ['B', '肯定律'], ['C', '合取律'], ['D', '否定律']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於邏輯系統四大定理嘅係",
+    "llm_output": "正確答案嘅選項係：\nB. 唔完全性定理\n\n邏輯系統四大定理通常包括一致性定理、可靠性定理、完備性定理和有效性定理。唔完全性定理（即不完全性定理）通常不被視為邏輯系統四大基本定理之一。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一致性定理'], ['B', '唔完全性定理'], ['C', '可靠性定理'], ['D', '有效性定理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「所有嘅邏輯學家都係哲學家，所有美學家都係邏輯學家，因此，所有美學家都係哲學家」，呢個三段論中，大項係",
+    "llm_output": "正確答案嘅選項係：\n\nD. 哲學家\n\n呢個三段論中，大項係「哲學家」，因為結論「所有美學家都係哲學家」中，「哲學家」係最廣泛嘅概念，涵蓋了「邏輯學家」同「美學家」。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '以上都唔對'], ['B', '邏輯學家'], ['C', '美學家'], ['D', '哲學家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "違反規則「所有前提都必須係真嘅」嘅謬誤包括",
+    "llm_output": "正確答案嘅選項係：\nB. 前提虛假謬誤\n\n解釋：\n「所有前提都必須係真嘅」係邏輯推理中一個基本原則，即所有用來支持結論的前提必須本身為真。當前提虛假時，無論推理過程是否正確，結論都無法保證為真，這就形成了所謂的「前提虛假謬誤」。其他選項並不符合問題中提及的「所有前提都必須係真嘅」這一特定條件。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上都對'], ['B', '前提虛假謬誤'], ['C', '唔一致謬誤'], ['D', '預期理由謬誤']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「育才中學有外籍教師任教」呢一判斷中，",
+    "llm_output": "正確答案係B。\n\n喺「育才中學有外籍教師任教」呢一判斷中，主項係「育才中學」，謂項係「有外籍教師任教」。根據邏輯學中周延性嘅概念，主項「育才中學」係一個具體嘅單一實體，故周延；而謂項「有外籍教師任教」則暗示存在多於一個外籍教師，即不周延。因此，主項周延，謂項唔周延。所以，正確答案係B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '主項周延'], ['B', '主項、謂項都唔周延'], ['C', '主項、謂項都周延'], ['D', '謂項周延']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "三段論嘅式共有幾多個。",
+    "llm_output": "正確答案：C. 64\n\n解釋：三段論是由三個命題組成，通常形式為「所有A都是B，所有B都是C，因此所有A都是C」。根據中間詞的不同位置，可以有三種不同的排列方式，即Barbara, Celarent, Darii。每個基本形式都可以通過換位和換質運算得到其他形式，但總共只有64個不同的三段論形式。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '512'], ['B', '128'], ['C', '64'], ['D', '256']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "所有嘅語句都包括",
+    "llm_output": "正確答案：D. 語義要素同邏輯要素\n\n解釋：語句作為語言的基本單位，既包含語義要素，也包含邏輯要素。語義要素指的是語句所表達的意義，而邏輯要素則是指語句內部結構的邏輯性，例如主語、謂語、宾语之間的關係。因此，所有語句都同時包括語義和邏輯要素。其他選項只涵蓋了語句的一部分特性，而非全部。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯要素'], ['B', '語法要素'], ['C', '詞彙要素'], ['D', '語義要素同邏輯要素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "非形式邏輯標準嘅一個論證係好嘅，當且僅當()成立。",
+    "llm_output": "正確答案嘅選項係D。在非形式邏輯中，一個論證被視為好嘅，當且僅當其前提對結論提供咗足夠支持。這意味著結論必須由前提合理推導出來，並且這個推導過程應該是無誤嘅。雖然前提的可接受性（選項B）和前提與結論之間相干（選項C）亦係重要因素，但它們並不足以單獨決定一個論證是否好。因此，最全面且正確的標準是選項D，即前提對結論提供咗足夠支持。選項A表示以上均係，但由於每個選項代表嘅標準都係評判論證好壞嘅不同面向，所以A選項並不足以作為一個完整嘅判斷標準。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上均係'], ['B', '所有前提均可接受'], ['C', '前提與結論相干'], ['D', '前提對結論提供咗足夠支持']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "命題「有啲音樂家係有創造力之人;所有作曲家都係音樂家;因此，有啲作曲家係有創造力之人。」嘅中項係",
+    "llm_output": "正確答案係D。\n\n根據邏輯學中三段論的結構，中項係用來連接大前提和小前提的命題。喺呢個命題中，大前提是「有啲音樂家係有創造力之人」，小前提是「所有作曲家都係音樂家」，而結論係「因此，有啲作曲家係有創造力之人」。中項需要出現喺大前提同小前提中，並且系兩者之間建立聯繫。\n\n喺呢個命題中，「音樂家」同時出現喺大前提同小前提中，因此「音樂家」係中項。其他選項「作曲家」出現喺結論中，「有創造力之人」出現喺大前提中，而「以上都唔係」則不符合三段論的結構。\n\n因此，正確答案係D，中項係「音樂家」。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '作曲家'], ['B', '以上都唔係'], ['C', '有創造力之人'], ['D', '音樂家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "通常用嚟表達聯結詞「析取」嘅係",
+    "llm_output": "正確答案嘅選項係：\nB. 或者\n\n在邏輯學中，「析取」表示的是兩個或多個選項中至少有一個是正確的。在中文裏，「或者」通常用來表達這種至少有一個選項為真的情況，因此選項B是正確的。其他選項如「而且」、「並非」和「並且」並不符合「析取」的邏輯含義。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '而且'], ['B', '或者'], ['C', '並非'], ['D', '並且']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「數學與猜想」嘅作者係",
+    "llm_output": "正確答案係D. 波利亞。\n\n波利亞（George Pólya）係匈牙利數學家，他嘅著作「數學與猜想」（Mathematics and Plausible Reasoning, Vol. I: Induction and Analogy in Mathematics）係關於數學推理與猜想的重要著作，對數學教育與研究都有深遠影響。其他选项中，羅素（Bertrand Russell）係英國哲學家，周北海和金嶽霖則不是以「數學與猜想」這本書聞名。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '羅素'], ['B', '周北海'], ['C', '金嶽霖'], ['D', '波利亞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一組唔一致嘅前提()推導出唔一致嘅結論。",
+    "llm_output": "正確答案嘅選項是：D. 唔確定\n\n邏輯學中，即使前提不一致，亦有可能推導出一致嘅結論，但亦有可能推導出不一致嘅結論。因此，結果並非必然，亦非絕對唔會，故答案為「唔確定」。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '可能'], ['B', '唔會'], ['C', '必然'], ['D', '唔確定']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "違反規則「前提與結論必須係相干」嘅謬誤唔包括",
+    "llm_output": "正確答案嘅選項係：\nB. 人身攻擊謬誤\n\n人身攻擊謬誤是指攻擊提出論點的人，而非針對其論點本身，這與「前提與結論必須係相干」嘅規則無關。其他選項均涉及論證中前提與結論之間相干性問題。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '合成謬誤'], ['B', '人身攻擊謬誤'], ['C', '稻草人謬誤'], ['D', '非黑即白謬誤']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "銳進軟件股份有限公司係一個由四個子公司，即甲、乙、丙、丁組成嘅總公司。喺總公司嘅利潤方案下，每個子公司承擔嘅利潤份額與每年該子公司員工佔銳進軟件股份有限公司總員工數嘅份額相等。但係舊年該公司嘅財務報告卻顯示，甲公司喺員工數量增加嘅同時向總公司上繳利潤嘅比例卻下降咗。如果上述陳述為真，財務報告仲能夠說明下列邊項?",
+    "llm_output": "正確答案嘅選項係：\n\nB. 甲公司員工增長嘅比例至少比其他三個子公司中嘅一個細\n\n根據題目描述，每個子公司承擔嘅利潤份額與每年該子公司員工佔總公司員工數嘅份額相等。甲公司員工數量增加但上繳利潤嘅比例下降，這表明甲公司員工數量增加嘅比例較小，即甲公司員工增長嘅比例至少比其他三個子公司中嘅一個細。其他選項並無足夠信息支持。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '甲公司員工增長嘅比例比前一年細'], ['B', '甲公司員工增長嘅比例至少比其他三個子公司中嘅一個細'], ['C', '喺四個子公司中，甲嘅員工數量最少'], ['D', '乙、丙、丁公司員工增長嘅比例都超過咗甲公司員工增長嘅比例']]",
+    "is_correct": 1
+  }
+]

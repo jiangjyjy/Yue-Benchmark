@@ -1,0 +1,1722 @@
+[
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "拉斯韋爾傳播模式有五個環節，傳播學對其中第一個環節嘅研究叫做乜嘢？",
+    "llm_output": "A. 媒介研究",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '媒介研究'], ['B', '內容研究'], ['C', '控制研究'], ['D', '受眾研究']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "登廣告嘅傳播影響係點嘅？",
+    "llm_output": "D. 有意圖嘅",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自由選擇嘅'], ['B', '隨便嘅'], ['C', '強制嘅'], ['D', '有意圖嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "信息大量生產同快速傳播超過媒介空間容納能力，造成劇烈傳播反應，呢個叫乜嘢？",
+    "llm_output": "C. 信息爆炸",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '信息污染'], ['B', '信息匱乏'], ['C', '信息爆炸'], ['D', '信息侵略']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞傳播過程嘅主要環節係乜嘢？",
+    "llm_output": "D. 揀選事實—加工製作—分析評論—受眾接受—信息反饋",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '揀選事實—評價事實—播報傳遞—受眾接受—信息反饋'], ['B', '揀選事實—加工製作—播報傳遞—受眾接受—信息反饋'], ['C', '揀選事實—加工製作—分析評論—受眾接受—信息複製'], ['D', '揀選事實—加工製作—分析評論—受眾接受—信息反饋']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀20年代，美國同日本學者最睇重新聞價值構成因素中嘅邊個因素，認為佢係新聞嘅第一因素，係新聞嘅試金石？",
+    "llm_output": "C. 顯著性",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '趣味性'], ['B', '重要性'], ['C', '顯著性'], ['D', '接近性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞控制嘅目標係乜嘢？",
+    "llm_output": "A. 新聞傳播同新聞接受嘅統一",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新聞傳播同新聞接受嘅統一'], ['B', '新聞管理同新聞自由嘅統一'], ['C', '新聞自由同行為規範嘅統一'], ['D', '新聞責任同新聞自由嘅統一']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "有人宣洩被壓抑咗嘅慾望，呢個喺信息嘅分類上被稱做乜嘢信息？",
+    "llm_output": "A. 復原性信息",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '復原性信息'], ['B', '知識性信息'], ['C', '維持性信息'], ['D', '教育性信息']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "法西斯嘅新聞事業屬於乜嘢階段？",
+    "llm_output": "C. 集權主義",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自由主義'], ['B', '社會主義'], ['C', '集權主義'], ['D', '集團壟斷資本主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "按照選擇性因素理論嘅觀點，大眾傳播嘅信息傳向受眾時遇到嘅最後一關係受眾嘅",
+    "llm_output": "B. 選擇性注意",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '選擇性理解'], ['B', '選擇性注意'], ['C', '選擇性暴露'], ['D', '選擇性記憶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "音響喺新聞節目中最基本同最重要嘅作用係乜嘢？",
+    "llm_output": "D. 增加報道嘅感染力",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '增加報道嘅可信性'], ['B', '增加報道嘅現場感'], ['C', '增加報道嘅生動性'], ['D', '增加報道嘅感染力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "直接導致「魔彈」被否定嘅理論係",
+    "llm_output": "D. 有限效果論",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新嘅強效力論'], ['B', '信源嘅可信效果論'], ['C', '適度效果論'], ['D', '有限效果論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "事件消息按內容性質可以分為",
+    "llm_output": "D. 突發性",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '概貌性'], ['B', '典型性'], ['C', '階段性'], ['D', '突發性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "如果我哋需要一種具備高度嘅綜合性、充分嘅交互性、方便性同快捷性嘅媒介，應該選擇",
+    "llm_output": "A. 網絡媒介",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '網絡媒介'], ['B', '影視媒介'], ['C', '廣播媒介'], ['D', '印刷媒介']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞媒介開展輿論監督，最常用嘅形式係",
+    "llm_output": "B. 新聞批評",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '深度報道'], ['B', '新聞批評'], ['C', '新聞評論'], ['D', '專題報道']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺新聞傳播過程中，角色互換嘅根本目的係",
+    "llm_output": "D. 令受者接受傳播者嘅觀點、意圖",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '令傳播者更加有效地為受者服務'], ['B', '令受者體驗傳播者嘅角色'], ['C', '令受者感知傳播者嘅期望'], ['D', '令受者接受傳播者嘅觀點、意圖']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "麥克盧漢媒介理論嘅中心論點係",
+    "llm_output": "C. 媒介係人體嘅延伸",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '全球村'], ['B', '媒介即訊息'], ['C', '媒介係人體嘅延伸'], ['D', '媒介有「冷」、「熱」之分']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞傳媒作為社會輿論嘅代表者，佢體現嘅應該係",
+    "llm_output": "C. 社會公眾嘅利益同意志",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '政黨嘅利益同意志'], ['B', '立法機關同司法機關嘅利益同意志'], ['C', '社會公眾嘅利益同意志'], ['D', '權力機關嘅利益同意志']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞信息嘅傳播特性係",
+    "llm_output": "A. 及時又公開",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '及時又公開'], ['B', '公開又公正'], ['C', '及時又迅速'], ['D', '公正又及時']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "資本家直接決定新聞傳播嘅方向同規模，主要憑藉",
+    "llm_output": "B. 新聞資產嘅擁有權同支配權",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '言論出版自由權'], ['B', '新聞資產嘅擁有權同支配權'], ['C', '倫理道德'], ['D', '法律法規']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺我國新聞界，新聞價值呢一概念最早係從美國同日本引入嘅。係邊個引入嘅？",
+    "llm_output": "B. 鄒韜奮",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '徐寶璜'], ['B', '鄒韜奮'], ['C', '邵飄萍'], ['D', '戈公振']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞事業嘅傳播方式係",
+    "llm_output": "D. 點—面傳播",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '面—點傳播'], ['B', '面—面傳播'], ['C', '點—點傳播'], ['D', '點—面傳播']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "大眾傳播嘅傳播者同受傳者可以係",
+    "llm_output": "D. 一班人或者一個人",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '好多人'], ['B', '兩個人面對面'], ['C', '一個人'], ['D', '一班人或者一個人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "編製問卷首先需要設計提問項目，呢種設計包括幾個步驟，其中第一個步驟係",
+    "llm_output": "B. 課題分析，提出假設",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '搵變項，編製提問'], ['B', '課題分析，提出假設'], ['C', '確定指標'], ['D', '測定指標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「自我修正」理論係以下邊個理論嘅一個重要觀點？",
+    "llm_output": "D. 蘇聯共產主義報刊理論",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自由主義報刊理論'], ['B', '極權主義報刊理論'], ['C', '社會責任理論'], ['D', '蘇聯共產主義報刊理論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "有論者認為新聞起源於人類與生俱來嘅好奇心，呢種起源觀屬於",
+    "llm_output": "A. 本能說",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '本能說'], ['B', '信息交往說'], ['C', '意志說'], ['D', '社會需求說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞立法係指",
+    "llm_output": "A. 運用法律手段管理同控制新聞事業嘅程序原則同機制",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '運用法律手段管理同控制新聞事業嘅程序原則同機制'], ['B', '統治階級制定、頒布同修訂新聞法律嘅程序同過程'], ['C', '國家制定同頒布嘅有關新聞傳播嘅法律條文'], ['D', '運用新聞媒體對國家立法嘅宣傳']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一種唔係我哋必須遵循嘅傳播原則",
+    "llm_output": "B. 可信性原則",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可行性原則'], ['B', '可信性原則'], ['C', '適量性原則'], ['D', '適時性原則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞價值呢一概念以及新聞價值理論嘅真正形成，係喺19世紀30年代嘅",
+    "llm_output": "C. 德國",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '中國'], ['B', '美國'], ['C', '德國'], ['D', '日本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "根據便士報時期嘅現實，資產階級提出咗「新聞價值」呢一概念，其本意係對追求新聞嘅（）嘅一種概括。",
+    "llm_output": "D. 社會效益",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '輿論效應'], ['B', '娛樂功能'], ['C', '商業效益'], ['D', '社會效益']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺新聞傳播三要素中，除咗事實同新聞接受者之外，另一個係",
+    "llm_output": "B. 媒體",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新聞報道者'], ['B', '媒體'], ['C', '經營管理者'], ['D', '把關人']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "關於人類傳播嘅演進規律唔正確嘅係",
+    "llm_output": "C.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '傳播媒介嘅發展呈現加速度趨勢'], ['B', '傳播媒介嘅發展係疊加式嘅，新老媒介互相競爭又互相促進'], ['C', '傳播媒介嘅發展係替代式嘅，新媒介使一切傳統媒介必然消亡'], ['D', '傳播媒介嘅發展貫穿人類歷史嘅始終']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "直接導致「魔彈」被否定嘅理論係",
+    "llm_output": "B. 新嘅強效力論",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '有限效果論'], ['B', '新嘅強效力論'], ['C', '信源嘅可信效果論'], ['D', '適度效果論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "播音員同主持人喺面臨偶發困境或需要轉換對象時，能夠轉承自然，而且語言豐富多彩，呢屬於創造性思維中嘅",
+    "llm_output": "D. 靈活性",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '流暢性'], ['B', '獨創性'], ['C', '自然性'], ['D', '靈活性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "而家嘅世界，信息侵略",
+    "llm_output": "C. 已經成事實",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '令黑客受益'], ['B', '仲未嚟臨'], ['C', '已經成事實'], ['D', '可能引致戰爭爆發']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞觀指嘅係",
+    "llm_output": "B. 對新聞嘅總體睇法",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '對新聞嘅一般睇法'], ['B', '對新聞嘅總體睇法'], ['C', '對新聞嘅具體睇法'], ['D', '對新聞嘅正確睇法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀50－60年代，西方新聞學同傳播學研究中，對新聞價值嘅研究頗為突出嘅係蓋爾頓同魯奇嘅",
+    "llm_output": "C. 「選擇性守門模式」",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「選擇性傳播模式」'], ['B', '「輻射性傳播模式」'], ['C', '「選擇性守門模式」'], ['D', '「非羣體化傳播模式」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "中國第一個報業集團係",
+    "llm_output": "B. 人民日報報業集團",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '廣州日報報業集團'], ['B', '人民日報報業集團'], ['C', '四川日報報業集團'], ['D', '光明日報報業集團']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞反映社會生活嘅手段係",
+    "llm_output": "D. 忠實",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '虛幻冥想'], ['B', '邏輯推理'], ['C', '藝術再現'], ['D', '忠實']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「合理想象」嘅做法喺新聞報道中",
+    "llm_output": "D. 允許",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '唔允許'], ['B', '無所謂'], ['C', '視情況而定'], ['D', '允許']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "語言嘅抽象程度有高低之分，抽象嘅程度越高，佢同具體實際嘅依存關係就越？",
+    "llm_output": "D. 間接",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '有關聯'], ['B', '直接'], ['C', '無關聯'], ['D', '間接']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊個係拉斯韋爾嘅三功能中嘅宣傳作用",
+    "llm_output": "C. 協調社會關係",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '分析傳播內容'], ['B', '監視社會環境'], ['C', '協調社會關係'], ['D', '傳衍社會遺產']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "決定自我傳播活躍程度嘅係人腦信息庫嘅",
+    "llm_output": "C. 內儲信息量",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '網絡信息量'], ['B', '社會信息量'], ['C', '內儲信息量'], ['D', '外存信息量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "導致羣眾對典型宣傳產生唔真實感嘅主要原因係",
+    "llm_output": "B. 有意拔高典型",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '報道數量過大'], ['B', '有意拔高典型'], ['C', '報道篇幅長'], ['D', '報道時間集中']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一種唔屬於傳播者嘅責任",
+    "llm_output": "D. 法規性責任",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國際性責任'], ['B', '使命性責任'], ['C', '契約性責任'], ['D', '法規性責任']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺無產階級新聞史上，第一個明確使用報刊工作「黨性」概念，並對其內容作出系統論述嘅係",
+    "llm_output": "A. 毛澤東",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '毛澤東'], ['B', '馬克思'], ['C', '恩格斯'], ['D', '列寧']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "要保持社會主義新聞事業永遠屬於人民嘅根本屬性，就必須堅持",
+    "llm_output": "A. 對黨負責同對人民負責相一致嘅原則",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '對黨負責同對人民負責相一致嘅原則'], ['B', '新聞嘅指導性原則'], ['C', '正面宣傳為主嘅方針'], ['D', '新聞嘅真實性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞事業產生同發展嘅根本動力係",
+    "llm_output": "B. 生產社會化程度提高帶嚟嘅信息需求增長",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '市場經濟同資本主義生產方式'], ['B', '生產社會化程度提高帶嚟嘅信息需求增長'], ['C', '文化發達程度'], ['D', '技術進展同政治民主']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞傳媒對青少年中出現嘅「追星現象」嘅批評屬於",
+    "llm_output": "C. 對值得關注嘅社會現象嘅監督",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '對決策者同管理者行為嘅監督'], ['B', '對決策執行過程嘅監督'], ['C', '對值得關注嘅社會現象嘅監督'], ['D', '對決策出臺過程嘅監督']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個唔係印刷媒介嘅特點",
+    "llm_output": "B. 稍縱即逝",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '長期保存'], ['B', '稍縱即逝'], ['C', '迅速大量生產'], ['D', '容納信息多']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞編排安排結構要遵循嘅三個重要概念係",
+    "llm_output": "C. 峯谷、節奏、分段",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '標題、片花、結尾'], ['B', '籌劃、組織、編排'], ['C', '峯谷、節奏、分段'], ['D', '優化、集納、配合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺西方各國嘅新聞評議制度中，邊個國家嘅新聞評議會因其體制完備、組成合理、成效顯著而為各國所效仿？",
+    "llm_output": "D. 英國",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '瑞典'], ['B', '美國'], ['C', '日本'], ['D', '英國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "傳播學嘅定量研究方法之一係",
+    "llm_output": "D. 內容分析法",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯歸納法'], ['B', '客觀描述法'], ['C', '歷史比較法'], ['D', '內容分析法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "日本新聞學家稻葉三千男話：決定新聞價值嘅最終標準係",
+    "llm_output": "C. 真實性",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '重要性'], ['B', '普遍興趣'], ['C', '真實性'], ['D', '讀者嘅反應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "資產階級自由主義新聞思想嘅要害係",
+    "llm_output": "D. 強調媒介自律",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '觀點嘅公開市場'], ['B', '反對政府幹預'], ['C', '自我修正過程'], ['D', '強調媒介自律']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「寧要無政府嘅報紙、唔要無報紙嘅政府」，提出呢一觀點嘅著名資產階級政治家係",
+    "llm_output": "B. 約翰·彌爾頓",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '約翰·密爾'], ['B', '約翰·彌爾頓'], ['C', '華盛頓'], ['D', '託馬斯·傑斐遜']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀初，第一個將新聞價值理論引入中國嘅係",
+    "llm_output": "A. 邵飄萍",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邵飄萍'], ['B', '戈公振'], ['C', '蔡元培'], ['D', '徐寶璜']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "廣播新聞編輯最重要嘅工作係",
+    "llm_output": "C. 內容把關",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '組織稿件'], ['B', '籌劃選題'], ['C', '內容把關'], ['D', '選用同組織音響']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊種傳播效果研究理論認為「大眾傳媒對某啲事情或問題嘅強調程度，同受眾對其重視程度構成咗強烈嘅正比關係」。",
+    "llm_output": "C. 議程設置論",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '文化規範論'], ['B', '認知一致論'], ['C', '議程設置論'], ['D', '沉默螺旋論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對「議題」嘅唔同類型進行分類研究嘅係",
+    "llm_output": "C. 溫達爾",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '韋伯'], ['B', '麥庫姆斯'], ['C', '溫達爾'], ['D', '李普曼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "明確地提出「全黨辦報，羣眾辦報」主張嘅係",
+    "llm_output": "D. 毛澤東",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '列寧'], ['B', '馬克思'], ['C', '恩格斯'], ['D', '毛澤東']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "從參與者嘅角色嚟講，網絡傳播唔同於大眾傳播嘅係",
+    "llm_output": "C. 信息傳播者同信息接受者嘅角色可不斷進行互換",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '網絡用戶都以充當信息傳播者為目標'], ['B', '參與者即傳播者'], ['C', '信息傳播者同信息接受者嘅角色可不斷進行互換'], ['D', '網絡用戶都係信息觀察者']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「狗咬人唔係新聞，人咬狗先係新聞」呢一觀點嘅係",
+    "llm_output": "正確答案：D. 龐德",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '本傑明'], ['B', '博加特'], ['C', '普利策'], ['D', '龐德']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "有位傳紀作家形容為「猶如行為科學嘅達爾文」嘅係",
+    "llm_output": "C. 拉斯韋爾",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '勒溫'], ['B', '霍夫蘭'], ['C', '拉斯韋爾'], ['D', '李普曼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「論出版自由」嘅作者係",
+    "llm_output": "D. 約翰·穆勒",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '伏爾泰'], ['B', '盧梭'], ['C', '彌爾頓'], ['D', '約翰·穆勒']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "被譽為中國「新聞教育第一人」嘅係",
+    "llm_output": "A. 邵飄萍",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '邵飄萍'], ['B', '王韜'], ['C', '徐寶璜'], ['D', '戈公振']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞理論回答新聞學中嘅",
+    "llm_output": "C. 一般問題",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '根本問題'], ['B', '所有問題'], ['C', '一般問題'], ['D', '業務問題']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「地球村」嘅預言係由下面邊位學者提出嚟嘅？",
+    "llm_output": "B. 麥克魯漢",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '梅羅維茨'], ['B', '麥克魯漢'], ['C', '伊尼斯'], ['D', '施拉姆']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "播音員同主持人喺播報同主持節目時，對突發情況或某種失誤作出迅速有效反應嘅能力屬於",
+    "llm_output": "D. 應變能力",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '反應能力'], ['B', '適應能力'], ['C', '調整能力'], ['D', '應變能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "鄧小平喺「西南區新聞工作會議上嘅報告」中，將「拿筆杆子」睇作係",
+    "llm_output": "C. 實行領導嘅主要方法",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '普及文化嘅主要方法'], ['B', '宣傳政策嘅主要方法'], ['C', '實行領導嘅主要方法'], ['D', '傳播知識嘅主要方法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "推鏡頭係指",
+    "llm_output": "D. 同拉鏡頭運動方向相反嘅一種拍攝方式",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '攝像機隨物體運動而進行拍攝嘅鏡頭'], ['B', '攝像機固定喺一個支點上，沿水平軸或垂直軸運動拍攝嘅鏡頭'], ['C', '攝像機變化焦距使畫面框架逐漸遠離被攝對象嘅鏡頭'], ['D', '同拉鏡頭運動方向相反嘅一種拍攝方式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "廣播新聞專題中除咗運用表達等語言手段外，仲將（）作為表現新聞事實、表達思想情感唔可或缺嘅符號。",
+    "llm_output": "A. 音響",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '音響'], ['B', '抒情'], ['C', '描寫'], ['D', '議論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "指紀者可以通過一切正當嘅手段自由採訪新聞嘅權力叫做",
+    "llm_output": "C. 採訪權",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '報道權'], ['B', '安全保護權'], ['C', '採訪權'], ['D', '批評權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對傳播嘅過程，拉斯韋爾提出嘅模式係",
+    "llm_output": "A. 對稱模式",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '對稱模式'], ['B', '數學模式'], ['C', '5W模式'], ['D', '平衡模式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞同信息嘅關係係",
+    "llm_output": "C. 新聞係信息大家族中嘅特殊成員",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '信息就係新聞，新聞就係信息，二者毫無差別'], ['B', '信息係信息，新聞係新聞，二者毫不相干'], ['C', '新聞係信息大家族中嘅特殊成員'], ['D', '信息係新聞嘅一種體裁']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "巴斯將傳播媒介嘅把關行動分為前後相連嘅兩個階段，其中第二階段嘅把關人主要係",
+    "llm_output": "D. 編輯",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新聞提供者'], ['B', '特約評論員'], ['C', '紀者'], ['D', '編輯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞價值係傳播者選擇事實同接受者選擇新聞嘅",
+    "llm_output": "C. 主觀意向",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '心理需求'], ['B', '客觀標準'], ['C', '主觀意向'], ['D', '政治標準']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "傳播嘅信息交流過程係",
+    "llm_output": "D. 被動嘅",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '互動嘅'], ['B', '能動嘅'], ['C', '主動嘅'], ['D', '被動嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對事物存在方式同運動狀態加以認識，並用文字等符號表述出嚟就形成咗",
+    "llm_output": "C. 人工信息",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '物理信息'], ['B', '自然信息'], ['C', '人工信息'], ['D', '電子信息']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "通常情況下，資產階級新聞事業喺處理與受眾關係時",
+    "llm_output": "A. 喺某啲問題同一定程度上考慮並滿足羣眾嘅某啲信息需要",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '喺某啲問題同一定程度上考慮並滿足羣眾嘅某啲信息需要'], ['B', '喺成個過程中都能夠滿足羣眾嘅需要'], ['C', '喺所有問題上都能夠完全滿足羣眾嘅需要'], ['D', '根本唔考慮滿足羣眾需要嘅問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "學習同研究新聞學嘅基本方法有個案研究、同",
+    "llm_output": "C. 以上全部",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '比較研究'], ['B', '調查研究'], ['C', '以上全部'], ['D', '內容分析']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞立法係指",
+    "llm_output": "B. 運用法律手段管理同控制新聞事業嘅程序、原則同機制",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '通過新聞媒介喺全民中進行普法教育'], ['B', '運用法律手段管理同控制新聞事業嘅程序、原則同機制'], ['C', '統治階級制定、頒布同修訂新聞法規嘅程序同過程'], ['D', '國家制定同頒布嘅有關新聞傳播嘅法律條文嘅總稱']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "從新聞本質同特性到新聞價值及其規律嘅研究，要回答嘅根本問題係",
+    "llm_output": "B. 乜嘢係新聞同點樣獲取名副其實嘅新聞",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '新聞嘅起源同來源'], ['B', '乜嘢係新聞同點樣獲取名副其實嘅新聞'], ['C', '新聞嘅共性同個性'], ['D', '新聞嘅性質同定義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "下列說法唔正確嘅係",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '語言傳播係人類嘅重要特徵'], ['B', '傳播上嘅優勢地位唔會導致文化上嘅優勢地位'], ['C', '電子傳播將人類由國內傳播引入國際傳播，由大眾傳播帶進跨國傳播'], ['D', '印刷傳播打破咗少數人嘅傳播特權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "通過兩種或兩種以上嘅事物比擬分析嚟論證論點運用嘅係",
+    "llm_output": "D. 比照說理",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '據事說理'], ['B', '論辯說理'], ['C', '兌賬說理'], ['D', '比照說理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "當採訪對象屬於自卑性格時，記者應採取嘅策略係",
+    "llm_output": "D. 肯定成績，給予表揚",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '視而不見，唔予理睬'], ['B', '提高警惕，用心核對'], ['C', '多費口舌，消除疑慮'], ['D', '肯定成績，給予表揚']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "被稱為無線電之父嘅係",
+    "llm_output": "D. 馬可尼",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '波波夫'], ['B', '馬克斯威爾'], ['C', '赫茲'], ['D', '馬可尼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "明確提出並對黨性原則作出系統論述嘅第一人係",
+    "llm_output": "C. 列寧",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '馬克思'], ['B', '恩格斯'], ['C', '列寧'], ['D', '劉少奇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "近代新聞事業正式形成於",
+    "llm_output": "A. 資本主義社會初期",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '資本主義社會初期'], ['B', '封建社會末期'], ['C', '奴隸社會末期'], ['D', '封建社會中期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對「語言係商品，文字不過係貨幣」呢句話嘅理解，邊個係錯誤嘅",
+    "llm_output": "D. 文字具有從屬性",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '語言係直接嘅符號，文字係間接嘅符號'], ['B', '文字係對語言嘅記錄'], ['C', '無語言做依託文字亦都有意義嘅'], ['D', '文字具有從屬性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "影響記者寫作心理狀態嘅客觀因素唔包括",
+    "llm_output": "D. 環境",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '受眾'], ['B', '採訪對象'], ['C', '採訪素材'], ['D', '環境']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於非語言符號嘅係",
+    "llm_output": "D. 文章",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '開心嘅笑容'], ['B', '同別人握手'], ['C', '着裝打扮'], ['D', '文章']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞選擇有三個環節，除咗搜尋、比較外，另一個係",
+    "llm_output": "A. 權衡",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '權衡'], ['B', '確認'], ['C', '策劃'], ['D', '反饋']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "拉斯韋爾喺「傳播喺社會中嘅結構同功能」呢篇論文中提出嘅「一句話」、「三功能」中嘅三功能唔包括以下邊一功能？",
+    "llm_output": "D. 監視社會環境",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '協調社會關係'], ['B', '提供娛樂'], ['C', '傳衍社會遺產'], ['D', '監視社會環境']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "如果喺傳播學嘅研究中，對於個人特點過分強調或者對於傳播模式無原則無休止爭論嘅話，真正受到傷害嘅將係",
+    "llm_output": "D. 傳播學",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '某個傳播學者'], ['B', '社會'], ['C', '廣大人民'], ['D', '傳播學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "廣播電視新聞中嘅整點新聞為咗以最快嘅速度提供盡可能多嘅信息，常常採用",
+    "llm_output": "D. 通訊",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '述評'], ['B', '消息'], ['C', '錄音通訊'], ['D', '通訊']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "拉斯韋爾傳播模式嘅第三個環節係",
+    "llm_output": "D. 對邊個",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '講乜嘢'], ['B', '通過乜嘢渠道'], ['C', '邊個'], ['D', '對邊個']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "中央電視臺「焦點訪談」節目屬於",
+    "llm_output": "D. 大眾傳播",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '組織傳播'], ['B', '羣體傳播'], ['C', '人際傳播'], ['D', '大眾傳播']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞傳播行為，「三要素說」（事實、新聞報道者同新聞接受者）嘅提出者係",
+    "llm_output": "D. 鄧拓",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '範長江'], ['B', '王中'], ['C', '甘惜分'], ['D', '鄧拓']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "用老百姓喜聞樂見嘅形式講述老百姓自己嘅事情，反映咗編輯嘅",
+    "llm_output": "D. 受眾意識",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '通俗化意識'], ['B', '平民意識'], ['C', '娛樂化意識'], ['D', '受眾意識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個選項唔係信息爆炸嘅後果",
+    "llm_output": "D. 信息浪費",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '信息超載'], ['B', '信息泛濫'], ['C', '信息變質'], ['D', '信息浪費']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "近代新聞事業誕生嘅時間標誌係",
+    "llm_output": "D. 印刷新聞紙問世",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '口語新聞出現'], ['B', '手抄新聞出現'], ['C', '新聞書嘅問世'], ['D', '印刷新聞紙問世']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "符號最基本嘅特點在於佢嘅",
+    "llm_output": "D. 指說性",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '抽象性'], ['B', '普遍性'], ['C', '有效性'], ['D', '指說性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "編輯羣體嘅向性類型應該偏向於",
+    "llm_output": "A. 混合型",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '混合型'], ['B', '中間型'], ['C', '內向型'], ['D', '外向型']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞嘅價值指嘅係",
+    "llm_output": "C. 新聞作品通過傳播滿足社會及其需求嘅程度",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '新聞滿足傳播者嘅需求程度'], ['B', '新聞事實嘅價值'], ['C', '新聞作品通過傳播滿足社會及其需求嘅程度'], ['D', '新聞自身嘅價值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "大眾傳播大量嘅內容屬於",
+    "llm_output": "D. 消息性內容",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '娛樂性內容'], ['B', '新聞性內容'], ['C', '知識性內容'], ['D', '消息性內容']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "隨住社會主義市場經濟體制嘅建立，目前我國新聞機構嘅主要運作方式係",
+    "llm_output": "C. 事業單位，事業管理",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '事業單位，行政管理'], ['B', '事業單位，企業化管理'], ['C', '事業單位，事業管理'], ['D', '企業單位，企化管理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞輿論產生嘅起點同依據係",
+    "llm_output": "A. 新聞事實",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新聞事實'], ['B', '社會傳聞'], ['C', '民間傳說'], ['D', '領導指示']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "於1644年出版嘅小冊子「論出版自由」，作者係",
+    "llm_output": "B. 約翰·彌爾頓",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '李普曼'], ['B', '約翰·彌爾頓'], ['C', '約翰·洛克'], ['D', '卡斯柏·約斯特']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "資產階級新聞自由思想嘅理論基礎係",
+    "llm_output": "A. 天賦人權說",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '天賦人權說'], ['B', '人道主義'], ['C', '本能說'], ['D', '人本主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞真實最起碼嘅要求係",
+    "llm_output": "正確答案：B. 具體事實真實準確",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '概括性事實真實客觀'], ['B', '具體事實真實準確'], ['C', '反映事物嘅本質'], ['D', '對新聞事實嘅解釋同評論實事求是']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞嘅傳播環節中，對新聞價值嘅實現具有相當嘅影響嘅係",
+    "llm_output": "C. 傳播者嘅業務素質",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '轉載或轉播情況'], ['B', '技術因素'], ['C', '傳播者嘅業務素質'], ['D', '普遍興趣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一個選項唔屬於受眾接受信息嘅動機",
+    "llm_output": "C. 替代性動機",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '外發性動機'], ['B', '預期性動機'], ['C', '替代性動機'], ['D', '直接性動機']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "現代傳播效果研究興起嘅媒介背景時期係",
+    "llm_output": "A. 電子媒介",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '電子媒介'], ['B', '大眾報刊'], ['C', '政黨報刊'], ['D', '黃色報刊']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「報刊嘅四種理論」中「報刊」一詞泛指",
+    "llm_output": "D. 所有報紙雜誌",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '一切大眾傳播媒介'], ['B', '出版物'], ['C', '文字'], ['D', '所有報紙雜誌']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "著有「大眾傳播嘅效果」一書，並將受眾對信息接收嘅選擇性行為進行具體分解嘅傳播學者係",
+    "llm_output": "D. 克拉帕",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '施拉姆'], ['B', '霍夫蘭'], ['C', '李普曼'], ['D', '克拉帕']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於受眾嘅特點嘅有",
+    "llm_output": "D. 自在性",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '歸屬性'], ['B', '隨意性'], ['C', '自主性'], ['D', '自在性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "唔接受自變量作用嘅實驗對象喺控制實驗中構成",
+    "llm_output": "C. 「控制組」",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「觀測組」'], ['B', '「實驗組」'], ['C', '「控制組」'], ['D', '「對照組」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "評論區別於其他文體嘅主要標誌係",
+    "llm_output": "C. 論點",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '論證'], ['B', '論據'], ['C', '論點'], ['D', '說理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個選項唔係施拉姆嘅報刊理論",
+    "llm_output": "D. 自由主義理論",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '集權主義理論'], ['B', '蘇維埃理論'], ['C', '資本主義理論'], ['D', '自由主義理論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "認為「媒介就係信息」呢個觀點嘅係以下邊個理論?",
+    "llm_output": "B. 媒介決定論",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '媒介失控論'], ['B', '媒介決定論'], ['C', '媒介情境論'], ['D', '媒介偏倚論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "1948年，拉斯韋爾喺「傳播喺社會中嘅結構同功能」一文中首次提出咗",
+    "llm_output": "C. 大眾傳播學嘅概念",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傳播嘅5W模式'], ['B', '政治傳播嘅概念'], ['C', '大眾傳播學嘅概念'], ['D', '內容分析法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊位人物喺「傳播喺社會中嘅結構與功能」論文中嘅「一句話」、「三功能」嚟認定佢喺傳播學中嘅創始人地位。",
+    "llm_output": "B. 哈羅德·拉斯韋爾",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '卡爾·霍夫蘭'], ['B', '哈羅德·拉斯韋爾'], ['C', '拉扎斯菲爾德'], ['D', '溫勒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「國家嘅發展尤其經濟發展係一切發展中國家嘅首要任務，新聞媒介必須服從、服務、促進國家發展尤其經濟發展。」呢係邊種媒介理論嘅核心內容？",
+    "llm_output": "B. 極權主義理論",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '發展新聞學'], ['B', '極權主義理論'], ['C', '自由主義理論'], ['D', '社會責任理論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "電視攝錄中最能表達攝像師功力嘅係",
+    "llm_output": "D. 抓",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '挑'], ['B', '等'], ['C', '搶'], ['D', '抓']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "傳播學之父係",
+    "llm_output": "B. 拉斯韋爾",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '勒溫'], ['B', '拉斯韋爾'], ['C', '拉扎斯菲爾德'], ['D', '施拉姆']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞起源於人類社會嘅",
+    "llm_output": "A. 信息交往",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '信息交往'], ['B', '教育進步'], ['C', '戰爭宣傳'], ['D', '產品交換']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "捲入度比較高嘅產品往往喺以下邊類媒介上投放廣告？",
+    "llm_output": "D. 電視",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '網絡'], ['B', '報紙'], ['C', '廣播'], ['D', '電視']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對事物嘅存在方式同運動狀態加以認識然後用文字表達出嚟係",
+    "llm_output": "D. 實在信息",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人工信息'], ['B', '自然信息'], ['C', '天然信息'], ['D', '實在信息']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "皮亞傑認為傳播具有兩種功能，一係自我中心嘅功能，一係",
+    "llm_output": "A. 社交性功能",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社交性功能'], ['B', '工具性功能'], ['C', '娛樂性功能'], ['D', '宣傳性功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "現場報道嘅結構形式有",
+    "llm_output": "B. 倒金字塔結構",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '邏輯結構'], ['B', '倒金字塔結構'], ['C', '導引結構'], ['D', '金字塔結構']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上最早嘅通訊社係",
+    "llm_output": "D. 路透社",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '哈瓦斯通訊社'], ['B', '美聯社'], ['C', '法新社'], ['D', '路透社']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「正確輿論」嘅含義通常應當包括",
+    "llm_output": "A. 政治方向正確，思想方法正確，話題內容正確",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '政治方向正確，思想方法正確，話題內容正確'], ['B', '政治方向正確，傳播內容健康，傳播速度快捷'], ['C', '政治方向正確，輿論話題適時，輿論強度適中'], ['D', '政治方向正確，思想方法科學，傳播時間適宜']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "兩個或兩個以上嘅人之間藉助語言同非語言符號互通信息、交流思想感情嘅活動係",
+    "llm_output": "C. 人際傳播",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '組織傳播'], ['B', '大眾傳播'], ['C', '人際傳播'], ['D', '內向傳播']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺新聞輿論監督中，最重要嘅監督對象係",
+    "llm_output": "D. 權力組織",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '各種社會成員'], ['B', '公民團體'], ['C', '基層幹部'], ['D', '權力組織']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "係邊個提出咗「波紋效果」理論",
+    "llm_output": "B. 塞弗林",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '坦卡德'], ['B', '塞弗林'], ['C', '貝雷爾森'], ['D', '洛基奇']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "媒介組織唔係一種",
+    "llm_output": "B. 信息產業機構",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '政治機構'], ['B', '信息產業機構'], ['C', '公共事業單位'], ['D', '社會機構']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "讓受眾透過媒介經常見到你，可以增強",
+    "llm_output": "正確答案：A. 熟知性",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '熟知性'], ['B', '權威性'], ['C', '可信性'], ['D', '接近性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺信息爆炸嘅今日，我哋應該點做?",
+    "llm_output": "B. 健全同強化大眾傳播法則",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '崇洋媚外'], ['B', '健全同強化大眾傳播法則'], ['C', '大量蒐集信息為我所用'], ['D', '唔關我嘅事']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "受傳者喺信息接受活動中感到傳播者與自己相似或相同嘅地方，從而提高傳播者嘅影響力",
+    "llm_output": "A. 自己人效應",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自己人效應'], ['B', '威信效應'], ['C', '名片效應'], ['D', '暈輪效應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "制定「中國新聞工作者職業道德準則」嘅係。",
+    "llm_output": "D. 中華全國新聞工作者協會",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '中共中央宣傳部'], ['B', '各新聞單位'], ['C', '中華全國紀者協會'], ['D', '中華全國新聞工作者協會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺傳播學研究中，正式調查所採用嘅抽樣形式一般都係",
+    "llm_output": "C. 隨機抽樣",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '非隨機抽樣'], ['B', '分層抽樣'], ['C', '隨機抽樣'], ['D', '雪球抽樣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "作為新聞類節目，其「媒介共性」應該係",
+    "llm_output": "D.穩重可信，具有權威性",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '親切友善，平易近人'], ['B', '奮發向上，激情洋溢'], ['C', '輕鬆愉悅，清麗高雅'], ['D', '穩重可信，具有權威性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "按照選擇性因素理論嘅觀點，大眾傳媒發出嘅信息傳向受眾時遇到嘅第一關係受眾嘅",
+    "llm_output": "D. 選擇性暴露",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '選擇性注意'], ['B', '選擇性理解'], ['C', '選擇性記憶'], ['D', '選擇性暴露']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一種唔屬於傳播者與受眾嘅關係",
+    "llm_output": "C. 疏離嘅關係",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '友善嘅關係'], ['B', '圈層嘅關係'], ['C', '疏離嘅關係'], ['D', '支配嘅關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "下列選項唔屬於信息社會同工業社會相比嘅嶄新特點嘅係",
+    "llm_output": "C. 生產嘅中心係工廠，而唔係網絡等",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '科技嘅核心係電腦，而唔係引擎'], ['B', '科技嘅產品係信息，而唔係貨物'], ['C', '生產嘅中心係工廠，而唔係網絡等'], ['D', '經濟結構轉成合作、分享嘅共生型經濟，而唔係商品型經濟']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「守門行為」同「守門人」概念係由下列邊位學者喺第二次世界大戰期間提出嘅?",
+    "llm_output": "C. 施拉姆",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '拉斯韋爾'], ['B', '勒溫'], ['C', '施拉姆'], ['D', '霍夫蘭']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對事物發展變化嘅史態、現態同趨態，新聞主要反映",
+    "llm_output": "A. 全態(三態之和)",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全態(三態之和)'], ['B', '趨態'], ['C', '現態'], ['D', '史態']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "西方學者提出嘅報刊四種理論中最早出現嘅係",
+    "llm_output": "C. 集權主義理論",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自由主義理論'], ['B', '社會責任理論'], ['C', '集權主義理論'], ['D', '蘇聯共產主義理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞價值要素中嘅時新性指嘅係新聞事件嘅",
+    "llm_output": "D. 發生同報道嘅時差",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '延續時間'], ['B', '報道時間'], ['C', '發生時間'], ['D', '發生同報道嘅時差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞報道嘅起點係",
+    "llm_output": "D. 採訪",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '寫作'], ['B', '編輯'], ['C', '評論'], ['D', '採訪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係受眾嘅角色",
+    "llm_output": "B. 信息產品嘅消費者",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傳播內容嘅「翻譯者」'], ['B', '信息產品嘅消費者'], ['C', '傳播效果嘅反饋者'], ['D', '傳播活動嘅參與者']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "廣播電視編輯嘅工作環節包括新聞節目生產過程中嘅",
+    "llm_output": "A. 獲取線索、構思、組織、加工",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '獲取線索、構思、組織、加工'], ['B', '構思、組織、製作、播出'], ['C', '構思、組織、加工、製作'], ['D', '欄目定位、組織、加工']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞事實或相應作品嘅信息含量如果等於零，其新聞價值",
+    "llm_output": "A. 等於零",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '等於零'], ['B', '唔確定'], ['C', '好少'], ['D', '好大']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞學嘅母體係",
+    "llm_output": "D. 政治學",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '心理學'], ['B', '文學'], ['C', '語言學'], ['D', '政治學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "雙重行動模式係邊個提出嘅",
+    "llm_output": "D. 拉斯韋爾",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '巴斯'], ['B', '懷特'], ['C', '施拉姆'], ['D', '拉斯韋爾']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "攝像機同被攝對象處於同一水平線上，拍出嘅畫面，俾人嘅感覺係",
+    "llm_output": "D. 自然、親切",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '穩重、端莊'], ['B', '莊嚴、崇高'], ['C', '縱深感、透視感'], ['D', '自然、親切']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "主持制定「報人守則」嘅係",
+    "llm_output": "C. 威爾伯·施拉姆",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '託馬斯·傑斐遜'], ['B', '沃爾特·威廉'], ['C', '威爾伯·施拉姆'], ['D', '哈欽斯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "某期「非你莫屬」中劉俐俐被主持人攻擊後，受到在場嘉賓都羣起而攻之嘅現象係（）嘅典型表現。",
+    "llm_output": "C. 認知失調論",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '知識鴻溝論'], ['B', '媒介依賴論'], ['C', '認知失調論'], ['D', '沉默嘅螺旋論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "我國黨同政府一直重視新聞法規政策嘅制定，1994年12月，中共中央宣傳部同新聞出版署有關部門合編咗",
+    "llm_output": "B. 「新聞法規政策須知」",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「期刊出版法規政策須知」'], ['B', '「新聞法規政策須知」'], ['C', '「圖書出版法規政策須知」'], ['D', '「關於黨內政治生活嘅若干準則」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "語言係社會約定俗成嘅並且係比較高級同複雜嘅",
+    "llm_output": "B. 符號",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '信息'], ['B', '符號'], ['C', '媒介所有者'], ['D', '藝術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "受傳者喺信息接受活動中感到傳播者喺許多方面同自己有相似或相同之處，從受眾心理層面上講稱為乜嘢?",
+    "llm_output": "C. 「自己人」效應",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '威信效應'], ['B', '「名片」效應'], ['C', '「自己人」效應'], ['D', '暈輪效應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "傳播文化知識，係大眾傳播嘅一個重要功能，呢一功能也就係",
+    "llm_output": "C. 教育功能",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '宣傳功能'], ['B', '娛樂功能'], ['C', '教育功能'], ['D', '認識功能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "媒介即訊息係由邊個提出嚟嘅",
+    "llm_output": "D. 麥克盧漢",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '哈羅德·拉斯韋爾'], ['B', '溫勒'], ['C', '施拉姆'], ['D', '麥克盧漢']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞價值嘅實質係",
+    "llm_output": "C. 生產新聞所消耗嘅社會必要勞動",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新聞嘅社會價值'], ['B', '新聞嘅宣傳價值'], ['C', '生產新聞所消耗嘅社會必要勞動'], ['D', '對新聞嘅本質及其特性嘅量化把握']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "有觀點認為，人們對大眾傳媒發出信息嘅選擇會受到家庭、朋友同熟人等嘅影響。該觀點屬於受眾理論中嘅",
+    "llm_output": "D. 社會關係論",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '選擇性因素理論'], ['B', '個人差異論'], ['C', '社會分類論'], ['D', '社會關係論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺畫面編輯中，將幾個主體內容類似嘅畫面連接喺一齊，以渲染氣氛，強調情節嘅組接方式係",
+    "llm_output": "B. 積累",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '象徵'], ['B', '積累'], ['C', '比照'], ['D', '比喻']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一種唔屬於傳播者嘅特點",
+    "llm_output": "D. 集體性",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '自主性'], ['B', '好奇性'], ['C', '複雜性'], ['D', '集體性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "記者採錄嘅音響必須係",
+    "llm_output": "C. 同受眾想象一致嘅「現場」聲音",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人為創造嘅聲音'], ['B', '被報道人物或事物發出嘅聲響'], ['C', '同受眾想象一致嘅「現場」聲音'], ['D', '唔一定係被報道對象發出嘅聲響']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "目前中國一共有家廣電集團",
+    "llm_output": "C. 32",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '15'], ['B', '30'], ['C', '32'], ['D', '20']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國新聞史上提出「不黨、不私、不賣、不盲」辦報方針嘅係",
+    "llm_output": "D. 新華日報",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新紀「大公報」'], ['B', '新民報'], ['C', '申報'], ['D', '新華日報']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "當新聞工作者處於焦慮狀態時，對自己身體嘅變化常常表現出",
+    "llm_output": "C. 非常敏感",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無所謂'], ['B', '唔敏感'], ['C', '非常敏感'], ['D', '較為敏感']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3_1-8b-instruct-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "電子媒體傳播嘅最後把關人係",
+    "llm_output": "D. 媒介所有者",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主持人'], ['B', '編輯'], ['C', '紀者'], ['D', '媒介所有者']]",
+    "is_correct": 0
+  }
+]

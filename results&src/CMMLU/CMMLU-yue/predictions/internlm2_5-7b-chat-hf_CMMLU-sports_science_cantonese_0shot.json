@@ -1,0 +1,1652 @@
+[
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "肘關節從生理學同運動學角度講，佢包括兩種截然唔同嘅功能，屈伸運動同前臂",
+    "llm_output": "A. 旋轉運動\n\n肘關節的主要功能包括屈伸運動和前臂的旋轉運動。屈伸運動是指肘關節在矢狀面內進行屈曲和伸展的運動，而旋轉運動則是指前臂在額狀面內進行旋內（旋前）和旋外（旋後）的運動。其他選項如內收、內翻和外展通常不屬於肘關節的主要運動範圍。因此，正確答案是A. 旋轉運動。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '旋轉運動'], ['B', '內收'], ['C', '內翻'], ['D', '外展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "「尚武」指（）武術鍛煉，以求強身健體，自強不息，培養人面對現實嘅競爭意識。",
+    "llm_output": "B. 倡導與參與",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '開展'], ['B', '倡導與參與'], ['C', '倡導'], ['D', '參與']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "耐力運動主要目嘅",
+    "llm_output": "耐力運動主要目的是增加心肺功能。因此，正確答案選項是 B。耐力運動通常涉及長時間、低強度的運動，如長跑、游泳和騎自行車。這些運動可以增強心臟和肺部的功能，提高氧氣的攝取和利用效率，從而提升整體的心肺耐力。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '增強肌力'], ['B', '增加心肺功能'], ['C', '增加關節活動度'], ['D', '增加抗阻力能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "馬步要求兩腳左右開空約為本人腳長嘅幾多倍。",
+    "llm_output": "正確答案：B. 3\n\n馬步是中國武術中的一個基本姿勢，要求兩腳左右開空，距離約為本人腳長的3倍。這個距離有助於穩定身體重心，同時也能夠增強下肢力量。因此，選項B是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '2'], ['B', '3'], ['C', '5'], ['D', '4']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "與呼吸運動無關嘅肌係",
+    "llm_output": "正確答案：A. 大收肌\n\n大收肌（Adductor Magna）是腿部肌肉之一，主要功能是内收大腿，即向身体中线靠拢。它不直接参与呼吸运动。而其他选项中的肌肉都与呼吸有关：\n\n- B. 肋間內肌（Intercostal Internal Muscles）：位于肋骨之间，负责帮助吸气。\n- C. 胸大肌（Pectoralis Major）：位于胸部前侧，参与吸气和上肢运动。\n- D. 膈肌（Diaphragm）：位于胸腔和腹腔之间，是主要的呼吸肌，负责吸气和呼气。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '大收肌'], ['B', '肋間內肌'], ['C', '胸大肌'], ['D', '膈肌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "脊柱節段運動嘅最大自由度為",
+    "llm_output": "正確答案為 A. 6。\n\n脊柱節段運動的最大自由度是指脊柱在運動時能夠自由移動的度數。人類脊柱由33個椎骨組成，每個椎骨之間都有關節，這些關節的運動範圍總和就是脊柱的最大自由度。一般來說，脊柱的運動範圍包括屈曲、伸展、側彎和旋轉等方向。\n\n根據解剖學和運動學的研究，脊柱的這些運動範圍總和通常被估算為6度。因此，選項 A 是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '6'], ['B', '4'], ['C', '3'], ['D', '5']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "關於等長運動嘅描述，錯誤嘅係",
+    "llm_output": "正確答案係 B。等長運動（Isometric Exercise）是指在運動過程中，肌肉的長度保持不變，肌肉两端之骨頭之間沒有明顯的位移。因此，A選項描述“起止點無位移”是正確嘅。C選項“固定體位”也是正確嘅，因為等長運動通常需要保持一個固定的姿態。D選項“不做功”亦是正確嘅，因為等長運動中肌肉力量主要用於克服阻力和維持姿態，而非產生位移，因此不產生傳統意義上嘅機械功。\n\nB選項“長度縮短”描述錯誤，因為等長運動中肌肉的長度是不變的，肌肉的縮短通常發生在等張運動（Isotonic Exercise）中，其中肌肉的長度會隨著關節的運動而改變。因此，B選項是錯誤嘅選項。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '起止點無位移'], ['B', '長度縮短'], ['C', '固定體位'], ['D', '不做功']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "游泳轉身動作屬於乜嘢速度",
+    "llm_output": "C. 動作\n\n游泳轉身動作主要涉及到的是游泳者的身體協調性和技術動作，因此最適合的描述是“動作”速度。其他選項如位移、靈敏和反應速度，則分別指的是物體位置變化、身體反應速度和反應時間，這些與游泳轉身動作並不直接相關。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '位移'], ['B', '靈敏'], ['C', '動作'], ['D', '反應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於閉合性軟組織損傷嘅係",
+    "llm_output": "正確答案係 D. 骨折。\n\n解析：閉合性軟組織損傷通常指的是肌肉、韌帶、關節囊等軟組織的損傷，而骨折則屬於骨骼系統的損傷，不属于軟組織損傷的範圍。其他選項 A、B、C 均屬於閉合性軟組織損傷。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '挫傷'], ['B', '韌帶拉傷'], ['C', '肌肉拉傷'], ['D', '骨折']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一項係訓練過程嘅特性。",
+    "llm_output": "正確答案係：A. 階段性同變化性。\n\n訓練過程通常具有階段性，因為訓練計劃通常會按照不同的階段進行，例如基礎訓練、技術提升、比賽準備等。此外，訓練過程亦具有變化性，因為訓練計劃需要根據運動員的進步、比賽需求、環境變化等因素進行調整。\n\n其他選項描述的特點並不準確：\nB. 連續性同階段性 - 連續性通常指的是訓練過程的持續不斷，但訓練過程同時也具有階段性。\nC. 有效性同客觀性 - 有效性指的是訓練計劃能否達到預期效果，而客觀性則是指訓練過程的評估和監測是否客觀公正。\nD. 及時性同可靠性 - 及時性指的是訓練計劃的實施是否能夠及時進行，可靠性則是指訓練計劃的穩定性和可預測性。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '階段性同變化性'], ['B', '連續性同階段性'], ['C', '有效性同客觀性'], ['D', '及時性同可靠性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "肌實現向心運動或者離心運動最基本嘅功能單位係",
+    "llm_output": "正確答案：B. 肌小節\n\n肌小節是肌肉收缩的基本功能單位，它由兩條Z線之間的一段肌原纖維組成，包含肌動蛋白和肌球蛋白的交互結構。肌小節的長度變化是肌肉向心運動（縮短）和離心運動（延長）的基礎。肌動蛋白和肌球蛋白是肌小節內部的蛋白質，肌纖維是由多個肌原纖維組成的更粗大的結構，而肌原纖維則是由肌小節組成的。因此，肌小節是實現向心運動或離心運動的基本功能單位。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '肌動蛋白'], ['B', '肌小節'], ['C', '肌纖維'], ['D', '肌原纖維']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "採用四周散步健身時，散步距離係3200~4000米，速度為每30~35米/分鐘，每週4-5次嘅鍛煉目標係",
+    "llm_output": "正確答案：C. 控制體重\n\n解析：\n四周散步健身的目標是通過持續的步行運動來達到一定的鍛煉效果。散步距離在3200~4000米，速度為每30~35米/分鐘，每週4-5次的鍛煉計劃，主要是針對心肺功能和體能的提升。\n\nA選項「使心臟安康」，散步確實有助於心臟健康，但這不是此運動計劃的主要目標。\n\nB選項「加強肌肉力量」，散步對於肌肉力量的提升效果有限，主要針對的是心肺功能和耐力。\n\nC選項「控制體重」，散步是一種低強度有氧運動，能夠消耗熱量，有助於控制體重，尤其是長期堅持下對體重管理有積極作用。\n\nD選項「消減壓力」，散步有助於放鬆心情，減少壓力，但這不是此運動計劃的主要目標。\n\n因此，最符合問題描述的答案是C，即控制體重。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '使心臟安康'], ['B', '加強肌肉力量'], ['C', '控制體重'], ['D', '消減壓力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "有關制動對運動系統嘅影響嘅描述，錯誤嘅講法係",
+    "llm_output": "選項C“骨質疏鬆”是錯誤的講法。制動對運動系統的影響主要包括以下幾個方面：\n\nA. 韌帶的剛度、強度增高：制動通常會增加韌帶的剛度和強度，這是因為制動會增加韌帶承受的壓力和拉力，從而促進韌帶的結構改組和功能適應。\n\nB. 肌肉張力、肌力下降：制動會減少肌肉的活動量，從而導致肌肉的張力和肌力下降。這是因為肌肉需要持續的運動刺激來維持其功能，長期制動會導致肌肉萎缩和力量下降。\n\nD. 出現關節攣縮：制動可能會導致關節的僵硬和挛縮，這是因為制動會限制關節的活動範圍，長期不動會導致關節周圍的軟組織挛縮，從而影響關節的靈活性。\n\n因此，正確答案為C。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '韌帶嘅剛度、強度增高'], ['B', '肌肉張力、肌力下降'], ['C', '骨質疏鬆'], ['D', '出現關節攣縮']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "乜嘢運動屬於靜力性力量訓練",
+    "llm_output": "D. 蹲馬步\n\n蹲馬步屬於靜力性力量訓練，因為它需要肌肉在一段時間內保持一定的張力，而不像動力性訓練那樣需要肌肉進行連續的運動。其他選項如仰臥起坐、俯臥撐和舉槓鈴均屬於動力性力量訓練。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '仰臥起坐'], ['B', '俯臥撐'], ['C', '舉槓鈴'], ['D', '蹲馬步']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "間歇訓練法係指對多次練習時嘅()作出嚴格規定，反復進行練習嘅訓練方法。",
+    "llm_output": "D. 間歇時間",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '練習方式'], ['B', '間歇方式'], ['C', '練習次數'], ['D', '間歇時間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動處方鍛煉主要係採用乜嘢運動",
+    "llm_output": "正確答案：D. 有氧與無氧相結合嘅運動\n\n運動處方鍛煉通常旨在提高心肺功能、增強肌肉力量和耐力，以及改善身體的柔韌性和協調性。有氧運動，如跑步、游泳和騎自行車，能夠有效增強心肺功能，促進脂肪燃燒，是運動處方中常見的一部分。無氧運動，如重量訓練，則有助於增強肌肉力量和體型。\n\n運動處方通常會根據個人的健康狀況、目標和能力，設計一個包含有氧運動和無氧運動的綜合鍛煉計劃。這樣的計劃能夠全面提升身體的各項能力，並且有助於預防和治療多種慢性疾病。因此，運動處方鍛煉主要採用有氧與無氧相結合的運動。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '無氧運動'], ['B', '有氧運動'], ['C', '乜嘢運動都可以'], ['D', '有氧與無氧相結合嘅運動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "腦組織中無能量儲備，全靠血糖供應能量，大腦每天需要嘅糖大約係幾多，先至可以使血糖水平正常能保證大腦嘅正常生理功能。",
+    "llm_output": "B. 100-120克\n\n大腦每天需要大约100-120克的糖来维持其正常的生理功能，并保持血糖水平在正常范围内。这是因为大腦不像其他器官那样储存有能量，它完全依赖于血糖（葡萄糖）来获取能量。因此，保持稳定的血糖水平对于确保大腦的正常运作至关重要。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '70-80克'], ['B', '100-120克'], ['C', '90-100克'], ['D', '80-90克']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "推掌嘅力點係",
+    "llm_output": "推掌的力点通常是指掌根。掌根是手掌最宽厚的部分，它提供了最大的接触面积和力量，因此是推掌时力点的最佳选择。掌外沿、掌心和掌指虽然也是手掌的一部分，但它们在推掌时提供的力量和稳定性不如掌根。因此，正确答案是：\n\nA. 掌根",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '掌根'], ['B', '掌外沿'], ['C', '掌心'], ['D', '掌指']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "我國跳水界根據運動員少年時期體重輕、心理負荷小嘅特點，躍進式嘅發展難度技術，呢係有效嘅處理咗",
+    "llm_output": "正確答案：D. 循序漸進與難點先行嘅關係\n\n解析：跳水運動中，運動員在少年時期體重較輕、心理負荷較小，因此可以選擇較為進階的難度技術。這種做法有效地處理了運動技能學習過程中「循序漸進」與「難點先行」的關係。這意味著在訓練過程中，先掌握基礎動作，然後逐步增加難度，最終達到技術的精進。這種方法有助於運動員在心理和技術上更好地適應更高難度的動作，從而提升整體表現。其他選項描述的關係雖然也是跳水運動中需要考慮的因素，但不如D選項直接對應到問題中提及的「有效處理」。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '規範化同個體差異嘅關係'], ['B', '特長技術同全面技術嘅關係'], ['C', '合理嘅內部機制同正確嘅外部形態嘅關係'], ['D', '循序漸進與難點先行嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "直伸前掃動作掃轉腿必須伸直，腳尖內扣，腳掌擦地，掃轉度數為",
+    "llm_output": "正確答案：C. 360度以上\n\n直伸前掃動作是体操中的一個動作，要求运动员在完成掃轉時，腿部必須伸直，腳尖內扣，腳掌擦地，並且掃轉的度數必須超過360度。因此，選項C是正確的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '180度'], ['B', '270度'], ['C', '360度以上'], ['D', '360度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "越女論劍，理論深奧，論述精闢，至今不失光彩，記載越女論劍嘅係。",
+    "llm_output": "C. 「吳越春秋」\n\n越女論劍的故事出自《吳越春秋》，這部書記錄了春秋戰國時期的一些傳說和故事，其中越女論劍是關於劍術理論的經典論述。越女，即古代女性劍士，她的劍術理論深邃，至今仍被後人引為典範。因此，正確答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「漢書」'], ['B', '「呂氏春秋」'], ['C', '「吳越春秋」'], ['D', '「記效新書」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "1910年成立嘅「精武體育會」係維持時間最長、影響最大嘅民間武術團體，成立地喺。",
+    "llm_output": "C. 上海\n\n精武体育会成立于1910年，其成立地点在上海。该组织由霍元甲创立，旨在推广武术，并培养了一批武术人才。精武体育会不仅在武术方面有深远影响，还涉及其他体育项目，如拳击、摔跤等，对中国的体育事业和武术文化的发展产生了重要影响。因此，正确答案是C. 上海。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '北京'], ['B', '廣州'], ['C', '上海'], ['D', '杭州']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "劇烈運動後，尿中發現肉眼或者顯微鏡下可見嘅紅血球，叫做",
+    "llm_output": "正確答案：A. 運動性血尿\n\n解釋：運動性血尿是指在劇烈運動後，尿中出現肉眼或顯微鏡下可見的紅血球。這通常發生在長時間、高強度或高負荷的運動後，如長跑、跳躍運動等。運動性血尿通常不是嚴重的健康問題，而是運動引起的暫時性變化，通常會隨著運動後休息和補水而自行消失。其他選項如中暑（B）、血紅蛋白（C）和蛋白尿（D），均不符合問題描述。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '運動性血尿'], ['B', '中暑'], ['C', '血紅蛋白'], ['D', '蛋白尿']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺水中游泳時，如果遇到身體抽筋應該先",
+    "llm_output": "D. 呼喊周圍環境嘅人",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唔理佢繼續游泳'], ['B', '聽天由命'], ['C', '自己諗辦法自救'], ['D', '呼喊周圍環境嘅人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "唔係踝關節外側韌帶比內側韌帶扭傷多嘅原因係",
+    "llm_output": "B. 內翻比外翻角度明顯大\n\n踝關節外側韌帶通常比內側韌帶更容易受損，這是因為當足部受到外力時，內翻（足部向內側彎曲）比外翻（足部向外側彎曲）更容易發生。由於內翻時，足部會向內側彎曲，這會對外側韌帶施加更大的壓力，從而增加其受損的風險。因此，選項B是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '外側韌帶比內側韌帶細'], ['B', '內翻比外翻角度明顯大'], ['C', '外側韌帶比內側三角韌帶鬆弛'], ['D', '外踝較低，內踝較高']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋國家嘅現代體育基本上係由三個方面組成，三者之間既唔可以相互代替，亦唔可以混淆。呢三個方面係",
+    "llm_output": "正確答案係C。我哋國家嘅現代體育基本上由三個方面組成，即羣眾體育、運動訓練、競技體育。\n\n- 羣眾體育指的是全民參與的體育活動，旨在提高全民健康水平，促進全民健身。\n- 運動訓練則是指專業運動員的訓練過程，目的是提高運動員的競技水平，為國家贏得榮譽。\n- 競技體育則是指各種體育比賽，包括國內和國際比賽，是體育活動的一個重要組成部分。\n\n以上三者之間既不能相互代替，亦不能混淆，各自扮演著不同的角色，共同推動了我哋國家體育事業的發展。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '羣眾體育、競技體育、學校體育'], ['B', '社會體育、運動訓練、學校體育'], ['C', '羣眾體育、運動訓練、競技體育'], ['D', '羣眾體育、體育訓練、學校體育']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "體質嘅水平反映住人體嘅",
+    "llm_output": "C. 質量\n\n體質的水平通常是指一個人體在健康、體能、機能、力量等多方面的綜合表現。體質的質量，即是指這些方面的綜合質量，它能夠反映出一個人的整體健康狀況和身體能力。因此，正確答案是C. 質量。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '機能'], ['B', '體能'], ['C', '質量'], ['D', '力量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "骨喺外力作用下嘅局部變形叫做",
+    "llm_output": "正確答案係 A. 應變。\n\n應變是指材料在外力作用下發生形變的能力，通常以百分率表示。在體育學中，應變通常用於描述運動中肌肉和骨骼的形變。例如，當你進行拉伸運動時，肌肉和骨骼都會產生應變，以應對運動帶來的壓力。\n\n其他選項描述的概念如下：\nB. 應變能量 - 這是指材料在應變過程中儲存的能量。\nC. 壓縮 - 這是指材料在外力作用下變短或變小的過程。\nD. 應力 - 這是指材料表面单位面積上所承受的力。\n\n因此，最符合問題描述的答案是 A. 應變。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '應變'], ['B', '應變能量'], ['C', '壓縮'], ['D', '應力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "採用大重量次數少而阻力大嘅練習有利於",
+    "llm_output": "正確答案：C. 開展力量\n\n解析：\n在體育學中，訓練的重量、次數和組數是影響肌肉力量、體重、肌肉圍度和心肺功能的主要因素。採用大重量次數少而阻力大的訓練方法，通常是指重量訓練中的重量較重，每組次數較少（通常在6-12次之間），這種訓練方式主要針對肌肉的力量和耐力。\n\nA選項「減肥」通常需要通過減少熱量攝入和增加能量消耗的結合來實現，而大重量訓練更偏向於增加肌肉力量，而非直接減少體重。\n\nB選項「加強耐力同心肺血管功能」通常需要較長時間、較低重量但較多次數的運動，如長跑、游泳等有氧運動，這些運動可以增強心肺功能和耐力。\n\nD選項「增加肌肉圍度」通常需要較高重量、較多次數的訓練，並且需要持續的訓練和適當的營養補充，以促進肌肉的生長和恢復。\n\n因此，最符合問題描述的訓練方式是C選項「開展力量」。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '減肥'], ['B', '加強耐力同心肺血管功能'], ['C', '開展力量'], ['D', '增加肌肉圍度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "武術嘅本質特性係",
+    "llm_output": "正確答案係 B. 攻防技擊性。武術不僅僅是身體的鍛煉，更強調攻防技擊的實用性。雖然健身性、技術性和藝術性也是武術的重要方面，但最根本的特性是它的攻防技擊性，這是武術與其他體育項目之間的主要區別。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '健身性'], ['B', '攻防技擊性'], ['C', '技術性'], ['D', '藝術性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "肌肉喺收縮產生力嘅同時被拉長嘅收縮叫做",
+    "llm_output": "C. 離心收縮\n\n肌肉在收縮产生力的同时被拉长的收缩称为离心收缩。离心收缩通常发生在肌肉对抗外部阻力或重力时，例如在下楼或放下重物时。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '等動收縮'], ['B', '等長收縮'], ['C', '離心收縮'], ['D', '向心收縮']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列那種情況唔可以用MMT評定",
+    "llm_output": "D. 上運動神經元損傷嘅痙攣期\n\nMMT（Modified Motor Scale，改良版运动量表）主要用来评定肌肉力量和运动功能，通常用于评估上运动神经元损伤的恢复情况。然而，在痙攣期，即肌肉痉挛和强直状态，由于肌肉的异常收缩和僵硬，MMT可能无法准确反映肌肉的真实功能状态。因此，在痙攣期，MMT不是最合适的评定工具。其他选项描述的情况，如下运动神经元损伤、上运动神经元损伤的弛缓期和恢复期，MMT都可以用来评定患者的运动功能。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '下運動神經元損傷'], ['B', '上運動神經元損傷嘅弛緩期'], ['C', '上運動神經元損傷嘅恢復期'], ['D', '上運動神經元損傷嘅痙攣期']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "男仔喺幾多歲左右達到成人所能表現嘅最大力量",
+    "llm_output": "A. 20\n\n男仔一般在20岁左右达到成人所能表现的最大力量。这是因为在这个年龄段，肌肉质量、力量和耐力都达到了顶峰。虽然有些个体可能在稍早或稍晚达到这个峰值，但20岁左右通常被视为男性力量发展的典型时期。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '20'], ['B', '25'], ['C', '11'], ['D', '15']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "王某抓住自己嘅頭髮想將自己提起身，結果卻失敗咗，可能原因係",
+    "llm_output": "正確答案係 B. 單一內力運動唔可以改變人嘅整體運動狀態。\n\n解析：王某想通過抓住自己嘅頭髮提起身，但失敗咗，主要原因是單一內力（即王某抓住自己頭髮的力）無法改變整體運動狀態。根據物理學原理，要改變物體運動狀態，需要施加外力，並且需要外力大於或等於物體所受的阻力。王某所施加的內力，即是他抓住自己頭髮的力，並不能克服他自身的重力，因此無法提起自己。\n\n選項 A 提到“內力唔夠”，但這不是失敗的主要原因，因為內力不夠是指力的大小不夠，而王某的失敗是因為單一內力無法改變整體運動狀態。\n\n選項 C 提到“外力唔夠”，這也非失敗原因，因為王某沒有施加任何外力來幫助自己提起身。\n\n選項 D 提到“頭髮承受唔夠”，這同樣不是失敗的原因，因為即使頭髮能夠承受更大的拉力，王某仍然需要施加足夠的外力來改變整體運動狀態。\n\n因此，最符合問題描述的正確答案是 B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '內力唔夠'], ['B', '單一內力運動唔可以改變人嘅整體運動狀態'], ['C', '外力唔夠'], ['D', '頭髮承受唔夠']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動技術喺唔同項羣項目中嘅作用係唔同嘅，其中運動技術起決定作用嘅項目係",
+    "llm_output": "選項A「跳水」是正確答案。\n\n跳水運動中，技術的精細度、姿態的優美度以及入水的準確性都是決定比賽成績的重要因素。跳水運動員需要掌握多種翻轉和旋轉動作，並且要在空中保持完美的姿態，這些都需要高度的技術水平和經驗。\n\n跳高、跨欄和標槍等項目雖然也需要技術，但它們更強調力量、速度和策略。跳高和跨欄主要考驗運動員的彈跳力和過障礙的技術；標槍則需要運動員掌握投擲的技術和力量。\n\n因此，跳水運動中運動技術的作用是最為決定性的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '跳水'], ['B', '跳高'], ['C', '跨欄'], ['D', '標槍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列各項中協助圍成椎管嘅韌帶係",
+    "llm_output": "正確答案係C. 黃韌帶。\n\n黃韌帶，又稱為黃韌帶黃韌帶，是連接椎骨之間的重要韌帶，位於椎管內，主要功能是維持椎骨之間的穩定性，並保護脊髓。其他選項如棘間韌帶、前縱韌帶和棘上韌帶，雖然也是關鍵的脊柱韌帶，但它們主要參與其他方面的運動和穩定性，而非直接圍成椎管。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '棘間韌帶'], ['B', '前縱韌帶'], ['C', '黃韌帶'], ['D', '棘上韌帶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "屬於無氧運動嘅項目係",
+    "llm_output": "C. 跳遠\n\n跳遠是一種典型的無氧運動，因為它需要瞬間爆发出大量的能量，且運動過程中氧氣的攝入量不足以滿足肌肉所需的能量需求。相比之下，爬山、單車和游泳都可以持續一段時間，並且在運動過程中能夠較好地利用氧氣，因此它們更接近有氧運動。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '爬山'], ['B', '單車'], ['C', '跳遠'], ['D', '游泳']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "體能主導類項目運動員喺專項提高階段同最佳競技階段訓練嘅首要任務係",
+    "llm_output": "C. 發展素質，完善技術\n\n在體能主導類項目中，運動員在專項提高階段和最佳競技階段的首要任務是發展素質，並完善技術。這是因為，在這些項目中，運動員的物理能力（如力量、速度、耐力等）是取得優異成績的關鍵。然而，單純的體能是不夠的，技術的精確性和細膩度同樣至關重要。因此，在這個階段，訓練計劃應該強調技術的細膩化，同時不忽視基礎素質的發展，以確保運動員能夠在比賽中發揮最佳水平。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '發展技、戰術'], ['B', '發展心理能力'], ['C', '發展素質，完善技術'], ['D', '發展智能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "一般情況下，領做武術操或者準備活動時可以採用()示範。",
+    "llm_output": "C. 鏡面\n\n在體育教學中，尤其是當領做武術操或準備活動時，通常會採用鏡面示範。這種示範方式能夠讓學生清晰地看到教師的動作，因為教師和學生面對面，動作能夠被完整且清晰地呈現。背面、側面或正面示範在某些情況下也可以使用，但鏡面示範是最常見且最有效的方式。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '背面'], ['B', '側面'], ['C', '鏡面'], ['D', '正面']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "人體經常受外力同內力呢兩大類力嘅影響，以下唔屬於內力嘅係",
+    "llm_output": "正確答案係 D. 支撐反作用力。\n\n解析：\n內力是指人體內部各組織器官之間的作用力，例如肌肉的收縮力、內臟器官之間的摩擦力以及組織器官之間的被動阻力。這些力來自於人體內部，是身體內部結構和功能活動的結果。\n\n而支撐反作用力屬於外力，是外界對人體的作用力，例如地面對站立或行走中的人體的支撐力。因此，支撐反作用力不属于內力。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '組織器官間嘅被動阻力'], ['B', '肌肉收縮力'], ['C', '內臟器官嘅摩擦力'], ['D', '支撐反作用力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "為運動員進行肩關節前側痛改善時，我哋可以揀用以下邊個動作進行訓練？",
+    "llm_output": "正確答案：D. 跪姿脊柱屈曲\n\n解析：肩關節前側痛通常與肩部肌肉不平衡、過度使用或受傷有關。在改善這種疼痛時，需要避免對肩關節造成壓力的動作，並集中於增強關節周圍的穩定性和靈活性。\n\nA選項的側支撐和B選項的側臥單腿上抬都可能對肩關節造成額外的壓力，不適合用於改善肩關節前側痛。C選項的蚌式主要針對臀部肌肉，對改善肩關節疼痛的效果有限。\n\nD選項的跪姿脊柱屈曲可以幫助伸展和加強背部肌肉，同時減少對肩關節的直接壓力。這個動作有助於改善肩關節的靈活性，並增強核心穩定性，從而間接改善肩關節前側痛。因此，D選項是這些選項中最適合用於改善肩關節前側痛的一個動作。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '側支撐'], ['B', '側臥單腿上抬'], ['C', '蚌式'], ['D', '跪姿脊柱屈曲']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊種運動項目唔屬於快速力量性項羣嘅項目？",
+    "llm_output": "正確答案：A. 網球\n\n快速力量性項羣通常指的是那些需要快速爆发力、力量与速度相结合的体育项目。举重（C）、跳躍（B）和標槍（D）都涉及到爆发力和力量的运用，符合快速力量性項羣的特征。\n\n網球（A）虽然需要爆发力、速度和力量，但更侧重于技巧、耐力和策略，因此不属于典型的快速力量性項羣。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '網球'], ['B', '跳躍'], ['C', '舉重'], ['D', '標槍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "50米跑係國際上通用嘅測試項目，用嚟測定",
+    "llm_output": "50米跑是田径运动中的一个短跑项目，主要测试运动员的速度素质。速度素质是指人体快速运动的能力，包括反应速度、动作速度和位移速度。在50米跑中，运动员需要尽可能快地从起点跑到终点，因此速度素质是此项目的主要考察指标。\n\n因此，正确答案是：\nB. 速度素質",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '力量素質'], ['B', '速度素質'], ['C', '耐力素質'], ['D', '靈敏素質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "一般認為青春期女子耐力性運動成績相當於男子嘅",
+    "llm_output": "正確答案為 A。一般認為青春期女子耐力性運動成績等於男子的大約在70—80%之間。這個比例會隨著運動的具體類型和個體的差異而有所變化，但這個範圍通常被視為青春期女子在耐力性運動中與男子相對應的表現水平。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '70—80%'], ['B', '60—80%'], ['C', '50—80%'], ['D', '50—70%']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "衡量運動員技術水平嘅重要指標係",
+    "llm_output": "D. 特長技術\n\n衡量運動員技術水平的指標通常包括其特長技術。特長技術是指運動員在比賽中能夠發揮出最高水平且具有個人特色的技術。這些技術往往是運動員通過長期訓練和經驗累積而形成的，能夠在比賽中起到關鍵作用。雖然常用技術、防守技術和進攻技術都是體育運動中重要的技術環節，但特長技術更能體現運動員的個性與技術層次，因此是衡量運動員技術水平的重要指標。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '常用技術'], ['B', '防守技術'], ['C', '進攻技術'], ['D', '特長技術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "大躍步前穿要求前跳距離須（）弓步。",
+    "llm_output": "正確答案：D. 小於\n\n大躍步前穿是体操中的一种动作，要求运动员在空中完成前跳动作，并在落地前进行弓步。根据体操规则，前跳的距离必须小于弓步的距离，以确保动作的连贯性和稳定性。因此，正确答案是D，即前跳距離须小于弓步。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '大於'], ['B', '等於'], ['C', '唔做要求'], ['D', '小於']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "武術基本功中，屈伸性腿法有幾多種。",
+    "llm_output": "正確答案為 B. 4。\n\n屈伸性腿法是武術基本功中非常重要的一部分，它包括四種基本動作：前踢、後踢、側踢和旋風踢。這些腿法不僅要求腿部力量和靈活性，還需要良好的平衡和協調能力。\n\n- 前踢：腿向前方踢出，通常用於近距離攻擊。\n- 後踢：腿向後方踢出，通常用於遠距離攻擊或閃避。\n- 側踢：腿向側方踢出，通常用於攻擊側面目標或閃避。\n- 旋風踢：腿以圓形轨迹踢出，通常用於展示技巧或攻擊。\n\n這些腿法在武術比賽和訓練中都有廣泛應用，並且是武術學習者必備的基本技能。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '2'], ['B', '4'], ['C', '3'], ['D', '5']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "持續訓練法係指邊一種訓練方法。",
+    "llm_output": "A. 負荷時間較長",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '負荷時間較長'], ['B', '負荷強度較大'], ['C', '負荷時間較短'], ['D', '有間歇時間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "承擔負荷嘅極限性係（）嘅特點之一",
+    "llm_output": "C. 運動訓練\n\n承擔負荷的極限性是運動訓練的特點之一。在運動訓練中，運動員需要通過承擔各種負荷，如重量訓練、耐力訓練等，來提升自身的體能和技能。而運動競賽、群众体育和学校体育虽然也涉及負荷的承擔，但它們更注重競技性、普及性和教育性，而不是負荷承擔的極限性。因此，正確答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '運動競賽'], ['B', '羣眾體育'], ['C', '運動訓練'], ['D', '學校體育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "從生物學角度睇，運動技術嘅形成歸功於",
+    "llm_output": "正確答案：A. 條件反射嘅建立與鞏固\n\n解釋：從生物學角度來看，運動技術的形成主要與條件反射的建立與鞏固有關。條件反射是指生物體在特定情境下學習到對特定刺激產生特定反應的過程。在運動技能學習中，當運動員反覆練習某個動作，他們會逐漸學會如何對特定的運動刺激（如球拍接觸球）做出恰當的反應（如揮拍擊球）。這個過程中，運動神經路徑會被強化和鞏固，從而形成穩定的運動技術。\n\n其他選項：\nB. 運動技能嘅儲存數量 - 這是指運動技能在大腦中儲存的量，而非形成過程。\nC. 靈敏素質好 - 這是指身體對外界刺激的反應速度和準確性，是運動技能形成的一個方面，但不是主要因素。\nD. 心理素質嘅發展水平 - 這涉及運動學習中的心理因素，如動機、信心和集中力等，對運動技術的形成有重要影響，但不是生物學角度的主要解釋。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '條件反射嘅建立與鞏固'], ['B', '運動技能嘅儲存數量'], ['C', '靈敏素質好'], ['D', '心理素質嘅發展水平']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "參加體育鍛煉以及運動訓練同比賽，到一定程度嘅時候，人體就會產生()暫時降低嘅現象，叫做運動性疲勞。",
+    "llm_output": "C. 體力\n\n運動性疲勞是指在進行體育鍛煉、運動訓練或比賽時，人體因持續或高強度的工作而導致的暫時性體力下降現象。這一現象主要體現在肌肉疲勞、能量供應不足以及代謝產物積累等方面。因此，正確答案是C. 體力。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '工作能力'], ['B', '機能狀況'], ['C', '體力'], ['D', '生活能力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺腰椎運動中，邊項可以被睇作剛體",
+    "llm_output": "B. 椎體\n\n在腰椎運動中，椎體可以被視為剛體。椎體是腰椎的基本結構單元，具有較高的剛性，能夠承受壓力和剪力，並參與運動的穩定性。其他選項如關節囊、椎間盤和韌帶，雖然在腰椎運動中發揮著重要作用，但它們通常不視為剛體，因為它們具有較大的形變能力。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '關節囊'], ['B', '椎體'], ['C', '椎間盤'], ['D', '韌帶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "完成「足尖喺地面上劃一個圈嘅動作」，髓關節需要做啲乜嘢運動",
+    "llm_output": "正確答案：B. 以上都有\n\n解析：完成「足尖喺地面上劃一個圈嘅動作」，涉及到足部的多種運動。首先，足尖在地面上劃圈需要足部進行內旋和外旋運動，這是為了使足部能夠順利地轉動。同時，此動作也需要足部進行前屈和後伸運動，以確保足尖能夠接觸地面並進行圓周運動。此外，內收和外展運動也是必不可少的，因為它們涉及到足部的側向移動，以配合圓周運動。因此，完成這個動作需要足部進行內旋、外旋、前屈、後伸、內收和外展等多種運動。所以，正確答案是 B. 以上都有。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '內旋同外旋'], ['B', '以上都有'], ['C', '前屈同後伸'], ['D', '內收同外展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "傳統武德嘅內容中最為重要嘅係",
+    "llm_output": "C. 義\n\n傳統武德中，「義」被視為最為重要的內容。傳統武德強調個人應以義務感、正義感為導向，在面對不公不義時，應勇於挺身而出，捍衛正義。「信」、「仁」、「勇」也是武德的重要組成部分，但傳統武德中，「義」被視為核心價值。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '信'], ['B', '仁'], ['C', '義'], ['D', '勇']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列四種選項中，邊一項唔屬於競技體育社會功能嘅選項。",
+    "llm_output": "C. 最大限度地挖掘人嘅生理潛力\n\n解析：\n競技體育的主要社會功能包括促進經濟發展、振奮民族精神、豐富文化生活等。選項C \"最大限度地挖掘人嘅生理潛力\" 更偏向於體育訓練和競技的個人層面，而不是社會功能。因此，C選項不属于競技體育的社會功能。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '促進經濟嘅發展同繁榮'], ['B', '振奮民族精神'], ['C', '最大限度地挖掘人嘅生理潛力'], ['D', '豐富人哋嘅文化同精神生活']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "側踹腿屬於基本功嘅（）腿法。",
+    "llm_output": "正確答案：C. 直擺性\n\n解析：側踹腿是跆拳道基本腿法之一，属于直摆性腿法。直摆性腿法是指踢击时腿部在空中保持直线，没有屈伸动作的腿法。而跳躍性腿法、掃轉性腿法和屈伸性腿法则分别指踢击时伴随有跳跃、扫转或屈伸动作的腿法。因此，側踹腿属于直擺性腿法。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '跳躍性'], ['B', '掃轉性'], ['C', '直擺性'], ['D', '屈伸性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬醫療體育鍛煉工程嘅係",
+    "llm_output": "C. 太極拳\n\n太極拳是一種傳統的中國內家拳，它強調柔和、連貫和內在的力量。太極拳不僅是一種防身技能，還被廣泛認為對健康有積極影響，特別是對於老年人或體弱者，因為它有助於增強平衡能力、提高心肺功能和減少壓力。因此，太極拳通常被納入醫療體育鍛煉工程中，以促進身體健康和疾病預防。其他選項如柔道、划船和擊劍，雖然也是體育鍛煉的形式，但它們通常不被視為醫療體育鍛煉的一部分。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '柔道'], ['B', '划船'], ['C', '太極拳'], ['D', '擊劍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "將湯羹送至口中，肘關節同時進行嘅運動係",
+    "llm_output": "正確答案係 D. 屈曲同旋前。\n\n解析：當你將湯羹送至口中時，肘關節需要進行屈曲運動，以便手部能夠靠近嘴巴。同時，你的手臂也需要旋前，即手掌朝向身體的內側，這樣才能更自然地握住湯匙或筷子。因此，屈曲同旋前是描述肘關節運動的準確選項。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '伸展同旋前'], ['B', '屈曲同旋後'], ['C', '伸展同旋後'], ['D', '屈曲同旋前']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動員邊個部位開始動作即為起勢。",
+    "llm_output": "正確答案：D. 任何部分\n\n在體育運動中，起勢是指運動員開始進行動作或運動的瞬間。起勢可以是任何部位的动作，例如頭部、腳、手或全身的协调动作。因此，起勢不限于某一个特定的部位，而是指整個身體開始動作的過程。所以，最全面的答案是D，即任何部分。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '頭部'], ['B', '腳'], ['C', '手'], ['D', '任何部分']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "心血管耐力又叫",
+    "llm_output": "C. 有氧耐力\n\n心血管耐力通常指的是人体在长时间运动中，心血管系统（包括心脏和血管）能够持续供氧和输送血液至肌肉的能力。这种耐力主要依赖于有氧代谢过程，因此被称为有氧耐力。与有氧耐力相对的是无氧耐力，它涉及短时间、高强度的运动，主要依赖于无氧代谢过程。力量耐力和一般耐力则分别指肌肉长时间对抗阻力的能力和整体身体在各种运动中的持续能力。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無氧耐力'], ['B', '力量耐力'], ['C', '有氧耐力'], ['D', '一般耐力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動停止後，當運動中所消耗嘅能源物質恢復到原來水平後，繼續持續到超過原來嘅水平，呢種現象叫做",
+    "llm_output": "B. 超量恢復\n\n超量恢復是指在運動後，身體消耗的能量和物質會逐漸恢復到甚至超過運動前的水平。這個現象通常發生在運動後的幾小時內，是體能恢復過程中的一個重要階段。在這個階段，身體會積極地進行代謝和修復，以增強肌肉力量和耐力，為下一次運動做準備。因此，正確答案是B. 超量恢復。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '正常恢復'], ['B', '超量恢復'], ['C', '持續恢復'], ['D', '緩慢恢復']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "衡量人體氧系統功能嘅強弱除咗可以用呼吸系統或者心血管系統嘅啲指標外，常用嘅衡量氧運輸系統整體功能嘅綜合性指標就係",
+    "llm_output": "B. 最大吸氧量\n\n最大吸氧量（VO2 max）是衡量人体氧运输系统整体功能的一个综合性指标。它反映了人体在最大运动强度下，单位时间内能够摄取、运输和利用氧气的最大能力。这个指标不仅考虑了呼吸系统和心血管系统的功能，还综合了它们协同工作的效率。其他选项如肺通气量、肺泡通气量和肺血流量虽然与氧气的摄取和运输有关，但它们并不像最大吸氧量那样全面地反映整个氧运输系统的功能。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '肺通氣量'], ['B', '最大吸氧量'], ['C', '肺泡通氣量'], ['D', '肺血流量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "健康係人體嘅最正確狀態，即為第一狀態。失去安康嘅疾病狀態，表現為對外界環境變化嘅適應能力降低，勞動能力受到限制或者喪失，並出現一系列嘅臨牀病症，叫做第二狀態，自覺生理唔舒服，心理疲憊，對社會適應能力差，但醫學檢查往往並無明確嘅機體疾病，呢種介於安康同疾病嘅邊緣狀態，醫學上叫做第三狀態或者",
+    "llm_output": "正確答案：A. 亞健康\n\n解析：根據問題描述，第三狀態是指介於健康與疾病之間，表現為自覺不適、疲憊、社會適應能力差，但醫學檢查無明確疾病的情況。這種狀態在醫學上通常稱為「亞健康」。因此，選項A「亞健康」是正確答案。其他選項B「第二狀態」、C「第一狀態」和D「第三狀態」均不符合問題描述的狀態。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '亞健康'], ['B', '第二狀態'], ['C', '第一狀態'], ['D', '第三狀態']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺50米短距離跑嘅比賽中，運動員嘅能量直接供能嘅係。",
+    "llm_output": "C. 磷酸原系統（三磷酸腺苷－磷酸肌酸ATP－CP）\n\n50米短距離跑属于短时间、高强度的无氧运动，运动员的能量主要由磷酸原系统（ATP-CP系统）提供。该系统通过肌肉中储存的三磷酸腺苷（ATP）和磷酸肌酸（CP）迅速释放能量，以支持极短时间的爆发力活动。有氧氧化系统主要负责长时间低强度运动时的能量供应，而乳酸能系统（无氧糖酵解系统）则是在磷酸原系统供能不足时，通过糖酵解过程产生能量，但效率较低且会产生乳酸积累，导致肌肉疲劳。因此，在50米短距離跑比赛中，运动员的能量主要由磷酸原系统直接供能。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '有氧氧化系統'], ['B', '磷酸原系統同有氧氧化系統'], ['C', '磷酸原系統（三磷酸腺苷－磷酸肌酸ATP－CP）'], ['D', '乳酸能系統（無氧糖酵解系統）']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "描述錯誤嘅係",
+    "llm_output": "正確答案係 A。\n\nA 選項描述錯誤，因為一個人轉身通常是指在垂直平面上（即矢狀面）的運動，而不是在水平面上。水平面運動通常是指在地面上平行移動，例如向前走或向后走。\n\nB 選項描述正確，一個人前行確實可以話佢喺水平面運動。\n\nC 選項描述正確，描述人體空間內嘅運動，通常用矢狀面、冠狀面、水平面嚟表示。\n\nD 選項描述正確，描述人體空間運動嘅三個平面互相間呈垂直關係。\n\n因此，只有 A 選項描述錯誤。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一個人轉身可以話佢喺水平面運動'], ['B', '一個人前行可以話佢喺水平面運動'], ['C', '描述人體空間內嘅運動，通常用矢狀面、冠狀面、水平面嚟表示'], ['D', '描述人體空間運動嘅三個平面互相間呈垂直關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "因受外力作用，使關節面失去正常嘅連接關係，係",
+    "llm_output": "D. 關節脫位\n\n關節脫位是指關節面因受外力作用而失去正常連接關係，通常伴隨著關節的疼痛、僵硬和功能受限。半脫位是指關節部分脫位，而關節受傷則是指關節結構或周圍組織的損傷，但不一定涉及關節面的脫位。完全脫位是指關節面完全脫離正常位置，是關節脫位的一種嚴重形式。因此，正確答案是D. 關節脫位。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '半脫位'], ['B', '關節受傷'], ['C', '完全脫位'], ['D', '關節脫位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "短跑係指",
+    "llm_output": "D. 400米同400米以下\n\n短跑通常指的是400米及400米以下的赛跑项目，包括100米、200米、400米等。这些项目要求运动员在短时间内爆发最大的速度和力量。而800米和1500米则属于中距离跑，50米属于短距离游泳项目，因此选项A、B和C都不符合短跑的定义。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '200米同200米以下'], ['B', '800米同1500米'], ['C', '50米'], ['D', '400米同400米以下']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊項唔係足底筋膜炎嘅損傷機制？",
+    "llm_output": "正確答案：D. 足旋後\n\n足旋後是指腳部內側向下捲曲，通常與足旋前綜合症相反，而足旋前綜合症是指腳部外側向下捲曲。足旋後通常不是足底筋膜炎的直接原因，但它可以增加足底筋膜的壓力，從而導致或加剧足底筋膜炎。\n\n足底筋膜炎的主要損傷機制包括：\n\nA. 足旋前綜合症：當足部過度旋前時，會增加足底筋膜的壓力，導致足底筋膜炎。\n\nB. 腓腸肌過緊：腓腸肌緊張或過度使用可以導致足底筋膜的壓力增加，從而導致足底筋膜炎。\n\nC. 足底塌陷：足底塌陷或足弓變形可以導致足底筋膜承受過多壓力，從而引起足底筋膜炎。\n\n因此，選項D“足旋後”不是足底筋膜炎的直接損傷機制，但它可以增加足底筋膜的壓力，從而導致或加剧足底筋膜炎。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '足旋前綜合症'], ['B', '腓腸肌過緊'], ['C', '足底塌陷'], ['D', '足旋後']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "全身耐力訓練嘅核心部分係",
+    "llm_output": "C. 運動持續時間\n\n全身耐力訓練的核心部分是運動持續時間。这是因为耐力训练旨在提高身体在长时间内维持特定运动强度或速度的能力。通过增加运动持续时间，身体能够适应更长时间的体力活动，从而提高整体耐力水平。虽然运动程序、运动方式的选择和运动强度都是训练的重要组成部分，但它们通常围绕着如何有效地安排和执行训练计划，以实现特定的耐力目标。因此，运动持续时间是决定全身耐力训练效果的关键因素。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '運動程序'], ['B', '運動方式嘅選擇'], ['C', '運動持續時間'], ['D', '運動強度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "武術喺歷史上曾有過唔同嘅稱謂，民國時期叫做",
+    "llm_output": "D. 國術\n\n在民國時期，武術通常被稱作「國術」。這個詞彙反映了當時政府對於傳統武術的推廣和重視，並強調了武術與國家文化之間的緊密聯繫。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '武藝'], ['B', '技擊'], ['C', '武術'], ['D', '國術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "少兒耐力訓練以邊一項為主",
+    "llm_output": "C. 有氧耐力\n\n少兒耐力訓練主要應著重於有氧耐力（Aerobic Endurance）的培養。有氧耐力是指身體在持續運動過程中，利用氧氣進行能量代謝的能力。對於少兒而言，發展有氧耐力有助於提升他們的心肺功能，增強體能，促進身體各部位的協調發展，並且對長期健康有積極影響。\n\n專項耐力（Specialized Endurance）通常是指針對某項運動的耐力訓練，如游泳、跑步等，這對於專業運動員而言是必要的，但對於一般少兒的全面發展來說，過於專注於某項運動可能會限制其他運動技能的發展。\n\n無氧耐力（Anaerobic Endurance）是指在高強度運動中，肌肉在氧氣供應不足的情況下進行代謝，產生能量的能力。對於少兒來說，無氧耐力的訓練應該在他們達到一定的有氧耐力基礎後，再適度進行，以避免過度負荷。\n\n肌肉耐力（Muscular Endurance）是指肌肉在反覆或持續用力時，能夠維持一定強度而不感到疲勞的能力。這對於少兒的肌肉發展和力量提升是重要的，但肌肉耐力的訓練應該在有氧耐力的基礎上進行，以確保身體各部位的協調發展。\n\n總結來說，少兒的耐力訓練應該以有氧耐力為主，這樣不僅有助於他們長遠的健康，還能為他們未來的運動表現打下堅實的基礎。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '專項耐力'], ['B', '無氧耐力'], ['C', '有氧耐力'], ['D', '肌肉耐力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "關節運動中患者能夠主動完成嘅動作為",
+    "llm_output": "正確答案：D. 解剖位置運動\n\n解釋：解剖位置運動是指患者能夠在關節的正常解剖位置上，主動完成的一系列運動。這些運動通常不需要額外的輔助或代償機制，反映了關節的正常功能。其他選項描述的運動類型不符合問題中“主動完成”的描述。生理性運動（A）通常指自然發生的運動，附屬運動（B）是指需要輔助或代償機制的運動，而病理性運動（C）則是指因病理狀態而產生的運動。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '生理性運動'], ['B', '附屬運動'], ['C', '病理性運動'], ['D', '解剖位置運動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺單練嘅基礎上兩人或者兩人以上，喺預定條件下進行嘅假設性攻防練習係",
+    "llm_output": "B. 對練\n\n對練是指在單人練習的基礎上，兩個人或兩個人以上在預定條件下進行的假設性攻防練習。這種練習有助於提高應對真實對手的反應能力和技術水平。搏擊運動、散打和功法運動都是具體形式的對練，但對練本身是一個更廣泛的概念，涵蓋了這些具體形式。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '搏擊運動'], ['B', '對練'], ['C', '散打'], ['D', '功法運動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "慢跑30秒，步行60秒，反復10-20次，總時間為12-30分鐘嘅運動方式係",
+    "llm_output": "D. 間歇跑\n\n間歇跑是一種結合高強度運動和低強度運動的訓練方式，其中高強度運動（如慢跑）和低強度運動（如步行）交替進行。根據描述，這種運動方式符合間歇跑的特點，即在短時間內進行高強度運動，然後是低強度運動的恢復期，並反復進行。因此，正確答案是D. 間歇跑。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '交替跑'], ['B', '原地跑'], ['C', '勻速跑'], ['D', '間歇跑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺競技活動中，運動員嘅體能水平集中表現喺三個方面，下列邊一項唔係嘅？",
+    "llm_output": "正確答案係 D. 運動素質。\n\n在競技活動中，運動員的體能水平主要集中表現於身體形態、技術和身體機能三個方面。身體形態指的是運動員的體型、體重、肢體長度等物理特徵；技術則是指運動員掌握和運用運動技能的能力；身體機能則涉及心肺功能、肌肉力量、耐力、靈活性、協調性等多方面的身體能力。\n\n運動素質則是指運動員在心理、情感、意志等方面所表現出的特質，例如競爭心、毅力、專注力、壓力管理等，這些特質對於運動員在比賽中的表現至關重要，但它們並不屬於體能水平的三個主要方面。因此，D 選項「運動素質」不是運動員體能水平集中表現的方面。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '身體形態'], ['B', '技術'], ['C', '身體機能'], ['D', '運動素質']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於靜力性力量工程嘅係",
+    "llm_output": "C. 游泳\n\n靜力性力量工程是指需要保持身体某一部位静止不动，以维持特定姿势或施加稳定力量的运动。选项中，頭手倒立（A）、鞍馬（B）和舉重（D）均属于靜力性力量工程，因为这些运动都需要维持特定的姿势或施加稳定力量。而游泳（C）则属于動力性力量工程，因为它主要依赖于身体的连续运动和肌肉的动态力量来推动身体前进。因此，不属于靜力性力量工程的是游泳。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '頭手倒立'], ['B', '鞍馬'], ['C', '游泳'], ['D', '舉重']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "骨槓桿上肌肉嘅附著點屬於",
+    "llm_output": "正確答案：A. 力點\n\n解析：在體育學中，杠杆原理被用來解釋肌肉如何產生力量。杠杆系統包括支點（支點是杠杆的固定點，通常是人體骨骼的关节）、力點（肌肉的附着點，肌肉施力的地方）和阻力點（杠杆系統需要克服的阻力所在的位置）。因此，肌肉在骨槓桿上的附著點是力點。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '力點'], ['B', '原點'], ['C', '起點'], ['D', '阻力點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "實施有效訓練控制嘅理論基礎係",
+    "llm_output": "正確答案係 A. 現代控制論。\n\n現代控制論是實施有效訓練控制嘅理論基礎。它提供了關於如何設計、實施和評估訓練計劃的科學方法，並能夠應對訓練過程中出現的各種變量和挑戰。其他選項如訓練過程嘅多變性、教育論和訓練信息，雖然它們在訓練過程中扮演角色，但並不是實施有效訓練控制的主要理論基礎。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '現代控制論'], ['B', '訓練過程嘅多變性'], ['C', '教育論'], ['D', '訓練信息']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺基礎訓練階段，訓練負荷增加嘅方式係",
+    "llm_output": "C. 循序漸進\n\n在基礎訓練階段，訓練負荷增加的方式應該是循序漸進的。這種方法可以幫助運動員逐步適應增加的負荷，減少受傷風險，並確保訓練效果。跳躍式、鋸齒式和波浪式增加負荷的方式可能會導致運動員過度疲勞或受傷，因此不是適當的訓練方法。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '跳躍式'], ['B', '鋸齒式'], ['C', '循序漸進'], ['D', '波浪式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺現代競技比賽同運動訓練過程中，需要對原有計劃進行必要嘅變更。呢個反映嘅運動訓練嘅特點係",
+    "llm_output": "C. 訓練調控嘅必要性同應變性\n\n在現代競技比賽和運動訓練過程中，由於各種不可預見的因素，如受傷、天氣變化、對手策略調整等，原定的訓練計劃可能無法完全實施。因此，訓練調控的必要性同應變性成為了運動訓練的重要特點。訓練調控指的是根據比賽的實際情況和運動員的狀態，對訓練計劃進行調整和控制，以確保最佳的比賽表現。應變性則是指在面對突發情況時，能夠靈活調整策略，以應對變化。\n\n其他選項描述的特點如下：\nA. 運動訓練過程嘅連續性同組織實施嘅階段性 - 這描述的是訓練過程的連續性和分階段進行，強調了訓練的系統性和計劃性。\nB. 現代科技支持嘅全面性及導向性 - 這強調了現代科技在運動訓練中的全面支持和指導作用。\nD. 訓練目標嘅專一性同實現途徑嘅多元性 - 這描述的是訓練目標的專注性和實現目標的多樣方法。\n\n因此，最符合問題描述的答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '運動訓練過程嘅連續性同組織實施嘅階段性'], ['B', '現代科技支持嘅全面性及導向性'], ['C', '訓練調控嘅必要性同應變性'], ['D', '訓練目標嘅專一性同實現途徑嘅多元性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "RICE方法可以用嚟防止以下邊一種關節活動障礙",
+    "llm_output": "正確答案：A. 關節損傷造成嘅關節活動障礙\n\nRICE方法是一種常用的物理治療技術，用於處理關節或肌肉的急性損傷。RICE是休息（Rest）、冰敷（Ice）、壓力（Compression）和抬高（Elevation）的英文首字母縮寫。\n\n- 休息（Rest）：減少受損關節或肌肉的使用，以減少進一步的損傷。\n- 冰敷（Ice）：使用冰袋或冰水混合物對受損部位進行冷敷，以減少疼痛和肿胀。\n- 壓力（Compression）：使用彈性包扎帶或壓力衣對受損部位進行壓迫，以減少血液流動和減輕肿胀。\n- 抬高（Elevation）：將受損部位抬高至心臟水平以上，以促進血液和淋巴液回流，減少肿胀。\n\nRICE方法主要針對關節或肌肉的急性損傷，如扭傷、拉傷或撞擊傷等。對於神經肌肉型攣縮、軟組織粘連或關節周圍軟組織攣縮造成的關節活動障礙，RICE方法可能不是最有效的治療方法，因為這些情況可能需要更專業的物理治療或醫療干預。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '關節損傷造成嘅關節活動障礙'], ['B', '神經肌肉型攣縮造成嘅關節活動障礙'], ['C', '軟組織粘連形成嘅關節活動障礙'], ['D', '關節周圍軟組織攣縮造成嘅關節活動障礙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "脫水量佔體重嘅4％至6％，就會減少肌力及耐力，同時引起熱痙攣，令長時間活動能力下降大約()，亦會影響體內無氧代謝嘅供能過程。",
+    "llm_output": "C. 20-30%",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '30-40%'], ['B', '10-20%'], ['C', '20-30%'], ['D', '40-50%']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "由於精神壓力引起嘅分泌系統疾病有",
+    "llm_output": "C. 甲狀腺機能亢進\n\n精神壓力可以引起多種分泌系統疾病，其中甲狀腺機能亢進（Hyperthyroidism）是其中之一。甲狀腺機能亢進通常由多種原因引起，包括Graves病，它是一種自身免疫性疾病，其中抗體刺激甲狀腺過度分泌 thyroxine（T4）和 triiodothyronine（T3），從而導致心悸、焦慮、震顫、體重下降和神經系統問題等症狀。\n\n其他選項如昏厥（A）、心律失常（B）和痤瘡（D）雖然也可能與壓力有關，但它們不是由精神壓力直接引起的分泌系統疾病。昏厥和心律失常通常與心血管系統的問題相關，而痤瘡則是一種皮膚疾病，主要與皮脂腺分泌過多和毛孔阻塞有關。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '昏厥'], ['B', '心律失常'], ['C', '甲狀腺機能亢進'], ['D', '痤瘡']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊種訓練方法係發展爆發力最常用方法",
+    "llm_output": "D. 重量大、練習次數少\n\n發展爆發力通常需要高強度、低次數的訓練，這樣可以刺激肌肉快速產生力量，並且減少肌肉疲勞的機會，從而提高單次發揮的強度。重量大且次數少的訓練方法能夠更好地達到這個效果。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '重量細、練習次數少'], ['B', '重量細、練習次數多'], ['C', '重量大、練習次數多'], ['D', '重量大、練習次數少']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "學生或者運動員及教練員喺比賽中具有規意識及紀律修養，呢係文明嘅表現，都係對體育事業具有高度責任感嘅表達，係一種",
+    "llm_output": "正確答案：D. 道德修養\n\n解析：此題考查的是體育學中道德修養的概念。體育學強調體育活動中個人與團隊的規範行為，以及對體育事業的責任感。這些規範行為和責任感體現出的是個體在體育活動中對道德規範的認同和遵守，這就是道德修養的表現。因此，選項D“道德修養”最恰當地描述了學生、運動員和教練員在比賽中展現的規範行為和責任感。其他選項如道德義務、道德行為和道德表達，雖然與道德修養相關，但不如道德修養直接和全面地涵蓋了問題中描述的行為特質。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '道德義務'], ['B', '道德行為'], ['C', '道德表達'], ['D', '道德修養']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺長跑、游泳等體能主導類項羣嘅週期性項目中運動較多嘅戰術形式係",
+    "llm_output": "B. 體力分配戰術\n\n在長跑、游泳等體能主導類項羣的週期性項目中，戰術形式主要是體力分配戰術。這些項目通常要求運動員在整个比賽過程中保持穩定的體能水平，因此，如何合理分配體力，以確保在比賽關鍵階段有足夠的體力發揮至極致，是戰術的核心。心理戰術、陣形戰術和參賽目的戰術雖然在某些項目中也很重要，但在體能主導的週期性項目中，體力分配戰術是最為關鍵的戰術形式。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '心理戰術'], ['B', '體力分配戰術'], ['C', '陣形戰術'], ['D', '參賽目嘅戰術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "弓步嘅動作要點係",
+    "llm_output": "正確答案：B. 沉髖\n\n弓步是武术、太极等传统体育项目中常见的一种基本步法，其动作要领主要包括沉髖、挺胸和塌腰三个方面。其中，“沉髖”指的是在弓步时，将臀部下沉，重心前移，使身体重心落在支撑脚上，同时保持上身挺直，这有助于稳定身体重心，增加步法的稳健性。\n\n“挺胸”则是指在弓步时，保持胸部挺直，避免含胸，这有助于维持良好的身体姿态，同时也有助于呼吸顺畅。\n\n“塌腰”是指在弓步时，腰部不要过度前凸，而是保持一定的弧度，这有助于维持身体的平衡和稳定。\n\n因此，弓步的动作要领是以上三点的综合体现，但如果要选择一个最核心的要点，“沉髖”是弓步动作中最为关键的部分，因为它直接关系到步法的稳定性和身体的重心分布。所以，正确答案是B。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上三點都對'], ['B', '沉髖'], ['C', '挺胸'], ['D', '塌腰']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "青年大學生嘅人際交往，係佢哋認識自我、認識社會、適應環境同社會，展現自我、開展自我，形成健全人格嘅",
+    "llm_output": "C. 重要途徑\n\n青年大学生的人际交往是他们认识自我、认识社会、适应环境和社会，展现自我、开展自我，形成健全人格的重要途径。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '重要特點'], ['B', '根本特點'], ['C', '重要途徑'], ['D', '根本途徑']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "鍛煉後點樣預防肌肉痠痛",
+    "llm_output": "D. 多做整理運動\n\n鍛煉後，多做整理運動是預防肌肉痠痛的有效方法。整理運動有助於逐步降低運動強度，促進血液循環，幫助肌肉恢復，減少肌肉痠痛和僵硬感。此外，適當的拉伸和冷熱敷也是緩解肌肉痠痛的有效手段。而藥物治療應在醫生的指導下進行，不宜自行使用。忽視疼痛或長時間休息可能會導致肌肉疲勞和僵硬，進一步加劇疼痛。因此，正確的答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '藥物治療'], ['B', '唔理佢'], ['C', '坐低休息'], ['D', '多做整理運動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "鎖骨嘅形狀係內側凸外側凹嘅曲線形。當上肢處於解剖位時，鎖骨嘅長軸稍微高於水平面，並位於冠狀面後",
+    "llm_output": "正確答案係 C. 20°。\n\n鎖骨（clavicle）是連接上肢與胸廓的重要骨骼，其形狀確實是內側凸出、外側稍微凹陷的曲線。當上肢處於解剖位，即自然下垂且手掌向前的姿態時，鎖骨的長軸通常會稍微高於水平面，並且大致位於冠狀面後方。\n\n具體角度會因人而異，但一般認為鎖骨的長軸與水平面之間的角度大約在20°左右。因此，選項 C 是正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '40°'], ['B', '10°'], ['C', '20°'], ['D', '30°']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動損傷防護處喺SPT訓練模型中嘅邊個層級？",
+    "llm_output": "C. 體適能層級\n\n在SPT（Sport Performance Training）訓練模型中，運動損傷防護屬於體適能層級。此層級的訓練強調提升身體的基礎能力，包括力量、靈活性、協調性和耐力，以減少運動中受傷的風險。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '專項運動層級'], ['B', '運動表現層級'], ['C', '體適能層級'], ['D', '功能層級']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊項係運動損傷防護課程嘅正確處理流程？",
+    "llm_output": "正確答案：C. 鬆解-拉伸-訓練\n\n運動損傷防護課程的正確處理流程通常包括鬆解、拉伸和訓練。首先，鬆解旨在減少肌肉緊張，以降低受損風險並促進恢復。接著，拉伸有助於增加肌肉和關節的靈活性，並有助於預防運動損傷。最後，訓練是恢復和強化肌肉和關節功能的重要環節，以確保受損部位能夠安全地重新參與運動。因此，選項C描述的處理流程是正確的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '訓練-拉伸-鬆解'], ['B', '訓練-鬆解-拉伸'], ['C', '鬆解-拉伸-訓練'], ['D', '拉伸-鬆解-訓練']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "當運動員喺做推肩時出現肩關節前側痛，我哋訓練以下邊塊肌肉會對其疼痛有所幫助？",
+    "llm_output": "B. 肩帶穩定肌\n\n肩關節前側痛通常與肩帶穩定肌群的力量不足或協調性差有關。肩帶穩定肌群包括肩胛提肌、菱形肌、前锯肌和下部斜方肌等，它們共同作用以保持肩胛骨的穩定，並提供必要的支撐和協調，以避免肩關節的過度移動和疼痛。\n\n在推肩運動中，如果肩帶穩定肌群的力量不足，肩胛骨可能無法正確地固定在胸廓上，從而導致肩關節的過度旋轉和不穩定，進而引起疼痛。因此，訓練這些肌肉可以幫助改善肩關節的穩定性和協調性，從而減輕疼痛。\n\n其他選項如上斜方肌、肩胛提肌和豎脊肌，雖然也是背部和肩部的肌肉，但它們主要不是用來穩定肩關節，而是分別負責上背部的伸展、提拉和脊柱的後仰。因此，針對肩關節前側痛，最直接有效的訓練是針對肩帶穩定肌群。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '上斜方肌'], ['B', '肩帶穩定肌'], ['C', '肩胛提肌'], ['D', '豎脊肌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗發展學生嘅身體素質同跑嘅能力，下列一組輔助練習中用嚟增強腿部力量，提高大腿高抬幅度，發展跑嘅頻率嘅練習係",
+    "llm_output": "C. 高抬腿跑\n\n高抬腿跑是一种有效的体能训练方法，它主要针对的是发展腿部力量、提高大腿高抬幅度以及增加跑步的频率。通过高抬腿跑，学生可以加强腿部肌肉，提高步频，从而提升整体跑步能力。其他选项如弓箭步走、单足跳和后蹬跑虽然也是体能训练的方法，但它们对腿部力量的增强、大腿高抬幅度的提高以及跑步频率的增加不如高抬腿跑直接和有效。因此，正确答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '弓箭步走'], ['B', '單足跳'], ['C', '高抬腿跑'], ['D', '後蹬跑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "制定運動處方具有五個步驟，其中第一步應該係",
+    "llm_output": "正確答案：D. 一般體檢\n\n制定運動處方的第一步應該是進行一般體檢，以評估個人的健康狀況和體能水平。這一步驟有助於確定個人的健康狀況，並識別任何可能限制運動能力的健康問題。在進行一般體檢後，接下來的步驟可能包括體力測試、臨牀檢查、運動試驗等，這些步驟將進一步細化和個性化運動處方，以確保運動計劃的安全性和有效性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '體力測試'], ['B', '臨牀檢查'], ['C', '運動試驗'], ['D', '一般體檢']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "握力能夠間接反映一個人嘅健康狀況，一個人嘅握力與之成高度相關嘅係。",
+    "llm_output": "D. 全身力量\n\n握力是衡量一个人肌肉力量和整体健康状况的一个指标。它主要反映的是一个人上肢和核心肌群的力量，而这些肌肉群在完成各种日常活动和体育运动中起着重要作用。虽然握力与速度、爆发力和耐力都有一定程度的关联，但它们之间并不是高度相关的。全身力量则是一个更为综合的指标，它包括了肌肉的耐力、爆发力和力量，因此与握力之间存在高度的相关性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '速度'], ['B', '爆發力'], ['C', '耐力'], ['D', '全身力量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "對鍛煉嘅表述正確嘅係",
+    "llm_output": "正確答案係C。\n\n解析：\nA選項“每日爬山5個鐘”，僅僅指出了鍛煉的時間長度，但並無提及鍛煉的頻率、強度、方式等因素，因此不能全面表述鍛煉。\nB選項“聞雞起舞”，這是一個典故，形容人勤奮，但僅僅是形容一個動作，並沒有涉及到鍛煉的具體內容。\nC選項“量力而行，持之以恆”，這是一個正確的鍛煉原則。它強調了鍛煉時應考慮個人的身體狀況，不要過度用力，同時也強調了鍛煉應持續進行，不能間斷，這符合科學鍛煉的態度。\nD選項“三日打魚，兩日曬網”，這是一個比喻，形容做事不持久，有間歇，這對於鍛煉來說並不是一個正確的態度，因為鍛煉需要持之以恆。\n\n因此，最正確的表述鍛煉的選項是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '每日爬山5個鐘'], ['B', '聞雞起舞'], ['C', '量力而行，持之以恆'], ['D', '三日打魚，兩日曬網']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "燒傷患者嘅主要運動正確嘅係",
+    "llm_output": "正確答案係A。燒傷患者如果沒有禁忌症，應該盡早進行運動。這是因為早期運動有助於促進患者身體功能恢復，增強肌肉力量，提高代謝率，有助於預防肌肉萎縮和深静脉血栓等併發症。然而，運動計劃應該在醫療專業人員的指導下進行，以確保運動的安全性和有效性。\n\n選項B是不正確的，因為運動量應該適中，過多可能會導致疲勞和傷害。\n選項C是正確的，但這不是主要運動的正確描述，而是運動進行過程中的一個建議。\n選項D提高患者自信心是運動的一個好處，但不是主要運動的正確描述。\n\n因此，最符合問題描述的正確答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '如果無禁忌，應該盡早進行'], ['B', '只做患側，越多越好'], ['C', '每次都要喺治療師指導下進行'], ['D', '提高患者嘅自信心']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動嘅時間超過幾耐以上，可以揀升糖指數較低嘅食物，例如水果、脫脂牛奶、米飯、豆類，呢啲食物緩慢咁被消化成糖類，能夠長時間咁供應糖類畀運動中嘅肌肉使用。",
+    "llm_output": "C. 30-40分鐘\n\n運動時間超過30-40分鐘以上，可以選擇升糖指數較低的食物，例如水果、脫脂牛奶、米飯、豆類。這些食物消化速度較慢，可以持續供應糖類給運動中的肌肉使用。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '60-90分鐘'], ['B', '50-60分鐘'], ['C', '30-40分鐘'], ['D', '40-50分鐘']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動員喺做史密斯推肩時出現肩關節外側疼痛，我哋應該鬆解以下邊塊肌肉幫助其改善疼痛完成訓練？",
+    "llm_output": "正確答案：B. 岡上肌\n\n史密斯推肩（Smith Machine Press）是一種常見的上肢訓練動作，主要針對胸肌、三頭肌和三角肌。當運動員在進行史密斯推肩時出現肩關節外側疼痛，通常與冈上肌（Supraspinatus Muscle）過度使用或緊張有關。冈上肌是肩關節周圍的四個肌群之一，主要功能是外展和旋外肩关节。\n\n如果冈上肌過度使用或緊張，可能會導致肩關節的疼痛和功能受限。因此，針對冈上肌進行鬆解，可以幫助減輕疼痛，並改善訓練效果。\n\n其他選項如冈下肌（A）、小圆肌（C）和腹直肌（D），雖然也與肩關節運動相關，但它們不是導致史密斯推肩時肩關節外側疼痛的主要原因。因此，最適合的答案是B. 冈上肌。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '岡下肌'], ['B', '岡上肌'], ['C', '小圓肌'], ['D', '腹直肌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "中國傳統哲學對武術影響極為深遠，以陰陽八卦化生觀念為理論基礎嘅拳術係",
+    "llm_output": "正確答案係 D. 太極拳。\n\n太極拳，又稱為太极拳，是中國傳統武術中非常重要的一個派別。它強調以柔克剛，以慢制快，並且融合了中國傳統哲學中的陰陽對立統一、八卦轉化等理念。太極拳的動作流暢，講究內在氣息的調節，並且強調整體性、均衡性和連貫性。\n\n其他選項如A. 象形拳，C. 形意拳，以及B. 八卦掌，雖然也是中國傳統武術中的重要派別，但它們的理論基礎和太極拳不同。象形拳多模仿動物動作，強調形似；形意拳則強調剛猛和直線攻擊；八卦掌則以八卦方位為基礎，動作多變。因此，這些拳術均不符合以陰陽八卦化生觀念為理論基礎的描述。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '象形拳'], ['B', '八卦掌'], ['C', '形意拳'], ['D', '太極拳']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "據國內外科研成果表明，運動鍛煉心率達到（）次/分鐘時人體內嘅免疫蛋白減少，易感染疾病，易產生疲勞或者運動傷病。",
+    "llm_output": "C. 180",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '150'], ['B', '170'], ['C', '180'], ['D', '160']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "當今世界上開展最廣泛，影響最大，被譽為世界第一運動嘅係",
+    "llm_output": "D. 足球\n\n足球是世界上開展最廣泛、影響最大的運動之一，被譽為「世界第一運動」。這一稱號主要源自於足球在全球範圍內的普及程度、觀賽人數、職業聯賽的經濟價值以及國際足球比賽（如世界杯）的巨大影響力。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '排球'], ['B', '拳擊'], ['C', '籃球'], ['D', '足球']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗幫助學生掌握較難動作而採取嘅技術結構與所學身體練習相似嘅簡單技術動作嘅練習係",
+    "llm_output": "C. 輔助性練習\n\n輔助性練習是指在學習複雜技術動作時，先從簡單且與目標動作結構相似的技巧開始練習，以幫助學生逐步掌握較難的動作。這種方法有助於建立基礎技能，並通過逐步增加難度來達到最終的技術目標。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '專門性練習'], ['B', '一般性練習'], ['C', '輔助性練習'], ['D', '綜合性練習']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺幫助運動員進行背闊肌拉伸時，我哋需要固定以下邊個點嚟確保拉伸效果？",
+    "llm_output": "正確答案：D. 脊柱中立位\n\n在幫助運動員進行背闊肌拉伸時，需要固定脊柱中立位以確保拉伸效果。這有助於防止不必要的代償運動，並專注於背闊肌的拉伸。其他選項如大腿、髂骨和小腿，雖然在拉伸過程中也可能需要保持穩定，但它們不是背闊肌拉伸時需要固定的主要點。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '大腿'], ['B', '髂骨'], ['C', '小腿'], ['D', '脊柱中立位']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "從運動生理嚟講，全身耐力運動所需嘅最短時間係",
+    "llm_output": "B. 30分鐘\n\n全身耐力運動通常需要至少30分鐘才能達到最佳效果，因為這段時間內，身體可以進入穩定的有氧代謝狀態，從而有效地提高心肺功能和耐力。其他選項的時間太短，無法充分發揮全身耐力運動的效益。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '5分鐘'], ['B', '30分鐘'], ['C', '15分鐘'], ['D', '10分鐘']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "掌揉法同掌根揉法常用於",
+    "llm_output": "掌揉法同掌根揉法常用於 **C. 面積較大部位**。\n\n掌揉法是指用手掌的掌面或掌根部位在身体表面进行揉动，适用于需要大面积按摩的部位，如背部、腰部等。掌根揉法则是指使用手掌根部进行揉动，同样适用于需要大面积按摩的部位。这两种手法通常用于放松肌肉、缓解疼痛和促进血液循环。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '面積較細部位'], ['B', '上肢部位'], ['C', '面積較大部位'], ['D', '大腿部位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "機械性疼痛嘅表現形式以下邊項正確？",
+    "llm_output": "正確答案：C. 休息時、傷側溫度過高\n\n解析：機械性疼痛通常是由於肌肉、韌帶或關節的損傷或炎症引起的。這種疼痛的特點包括：\n- 持續痛：疼痛可能持續存在，而非間歇性。\n- 休息時、傷側溫度過高：休息時，受傷部位可能會因為炎症反應而變得溫度較高。\n- 夜間痛：疼痛在夜間可能會更加明顯，這是因為休息時，身體的代謝率降低，炎症反應可能更加明顯。\n\n因此，選項C描述的是機械性疼痛的一個特點，即休息時受傷部位溫度過高。其他選項描述的疼痛形式可能與機械性疼痛不同，例如選項A描述的持續痛和選項D描述的夜間痛可能是其他類型的疼痛。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '持續痛'], ['B', '間歇疼痛'], ['C', '休息時、傷側溫度過高'], ['D', '夜間痛']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "跳躍中嘅高度比賽，運動員喺每個高度連續幾次試跳失敗，即被取消比賽資格。",
+    "llm_output": "正確答案係 D. 三次。\n\n跳躍中嘅高度比賽，比如跳高，運動員在每個高度連續三次試跳失敗後，即被取消比賽資格。這一規則旨在確保比賽的公平性和節奏，避免運動員無限次試跳而延誤比賽進程。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '四次'], ['B', '六次'], ['C', '兩次'], ['D', '三次']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "發展一般運動能力係全過程多年訓練階段中嘅邊一個階段。",
+    "llm_output": "D. 基礎訓練\n\n發展一般運動能力通常是在全過程多年訓練的基礎訓練階段中進行。這個階段的主要目的是建立全面的運動基礎，包括身體素質、技術、戰術知識和心理素質。在這個階段，運動員會接受多種運動的訓練，以確保他們擁有均衡的發展，並為未來的專項提高打下堅實的基礎。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '最佳競技'], ['B', '競技保持'], ['C', '專項提高'], ['D', '基礎訓練']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "肌力唔受下列邊項因素影響",
+    "llm_output": "肌力是指肌肉在收缩时产生的力量，它受到多种因素的影响。我们来逐一分析选项：\n\nA. 皮膚溫度 - 皮膚溫度对肌力没有直接影响。肌力主要取决于肌肉本身的状态和神经系统的控制。\n\nB. 肌肉嘅生理橫斷面 - 肌肉的生理横断面，也就是肌肉的横截面积，直接影响肌力。横截面积越大，肌肉产生的力量就越大。\n\nC. 運動單位籌集 - 运动单位是指神经系统中控制单个肌纤维的神经元及其所控制的肌纤维群。运动单位的募集数量（即参与收缩的肌纤维数量）直接影响肌力。募集更多的运动单位可以产生更大的力量。\n\nD. 肌肉嘅初長度 - 肌肉的初长度对肌力有影响。根据肌肉的初长度，肌肉可以处于不同的收缩状态，从而影响其产生的力量。\n\n综上所述，肌力不受皮膚溫度影响，因此正确答案是 A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '皮膚溫度'], ['B', '肌肉嘅生理橫斷面'], ['C', '運動單位籌集'], ['D', '肌肉嘅初長度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "柔韌素質測定方法有立位體前屈、同",
+    "llm_output": "B. 坐位體前屈\n\n柔韌素質測定方法包括立位體前屈和坐位體前屈。這些測驗旨在評估身體的靈活性，特別是腰部和腿部的靈活性。50米和折線跑是速度和敏捷性的測驗，而300米則是一個長距離跑步的測驗， none of these are related to flexibility assessment.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '50米'], ['B', '坐位體前屈'], ['C', '折線跑'], ['D', '300米']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺進行胸大肌增肌訓練時出現肩關節前側疼痛，我哋可以採取以下邊套訓練方案為其進行10-15分鐘嘅熱身改善，嚟使其更好咁進入到增肌訓練中？",
+    "llm_output": "正確答案：D。\n\n在進行胸大肌增肌訓練時，如果出現肩關節前側疼痛，通常表示肩部和胸部周圍的肌肉可能過度緊張或疲勞。熱身和拉伸可以幫助放鬆這些肌肉，從而減少疼痛並提高訓練效果。\n\n選項D建議放鬆肱二頭肌、胸小肌，並訓練肩帶穩定肌。肱二頭肌和胸小肌的放鬆可以減少它們對肩關節的壓力，而肩帶穩定肌的訓練可以增強肩部的穩定性，從而幫助預防和減輕疼痛。\n\n選項A、B和C的建議並不針對肩關節前側疼痛的問題，因此不是最適合的熱身方案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '放鬆胸大肌、背闊肌，訓練上斜方肌'], ['B', '直接訓練唔需要進行處理'], ['C', '放鬆上斜方肌、頸闊肌，訓練深層頸屈肌'], ['D', '放鬆肱二頭肌、胸小肌、訓練肩帶穩定肌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "格鬥對抗性項羣競技能力嘅決定因素中，起主導作用，並對提高運動成績起決定性作用嘅因素係",
+    "llm_output": "D. 體能、技能與戰術能力\n\n在格鬥對抗性項羣競技中，體能、技能與戰術能力是決定運動成績的關鍵因素。體能包括力量、速度、耐力、靈活性和協調性，這些都是格鬥運動中不可或缺的基礎。技能則是指技術動作和戰術運用的熟練程度，而戰術能力則涉及如何運用技能和體能來應對比賽中的各種情況。心理和智能雖然也對運動成績有影響，但它們通常是在體能、技能和戰術能力得到充分發揮的前提下，進一步提升競技表現的輔助因素。因此，正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '心理'], ['B', '體能'], ['C', '智能'], ['D', '體能、技能與戰術能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動員參訓嘅重要原動力係",
+    "llm_output": "正確答案：A. 成功動機\n\n運動員參訓的重要原動力是成功動機。成功動機是指運動員希望通過訓練和比賽達到個人最佳表現，並取得成功和成就的內在驅動力。這種動機通常來自運動員對運動的熱愛、對勝利的渴望、以及對自我的挑戰和超越。成功動機能夠激發運動員的潛力，促進他們在訓練和比賽中付出更多的努力，並持續追求進步。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '成功動機'], ['B', '行為'], ['C', '結果'], ['D', '性格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "以下關於制動嘅描述唔正確嘅係",
+    "llm_output": "選項D“制動唔會引起其他系統嘅功能障礙”是正確答案。\n\n制動（immobilization）是指限制或固定身體某一部分的運動，通常用於治療某些傷病，特別是關節或肢體受損的情況。制動的目的是促進傷口的癒合、減少疼痛和預防進一步的損傷。然而，長期制動可能帶來多種負面影響，包括但不限於：\n\nA. 長期制動可增加新嘅功能障礙：制動可能導致肌肉萎缩、關節僵硬和運動能力下降，這些都是新的功能障礙。\n\nB. 長期制動可引起失用綜合症：失用綜合症是指因長期不使用某個身體部位而導致的運動控制能力下降。\n\nC. 制動係某啲傷病危重期嘅必要措施：在特定情況下，制動確實是必要的，例如在骨折初期或關節受損的情況下，以確保受損部位得到適當的休息和治療。\n\nD. 制動唔會引起其他系統嘅功能障礙：這一選項描述不準確。長期制動不僅會影響局部肌肉和關節，還可能導致心肺功能下降、肌肉代謝異常、骨密度下降等全身性問題。\n\n因此，選項D是不正確的描述。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '長期制動可增加新嘅功能障礙'], ['B', '長期制動可引起失用綜合症'], ['C', '制動係某啲傷病危重期嘅必要措施'], ['D', '制動唔會引起其他系統嘅功能障礙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "「兩人手持一種藤、皮、棉製作嘅短棒似嘅器械，喺16市尺直徑嘅圓形場地內，按照一定規則使用劈、砍、刺、崩、點、斬等方法以決勝負」，具體嚟講呢係下列邊種運動。",
+    "llm_output": "B. 短兵\n\n這描述的是短兵運動，一種傳統的中國武術項目，使用短棒狀的武器，如藤、皮、棉製成的短兵，在圓形場地上進行。短兵運動的規則涉及劈、砍、刺、崩、點、斬等技術動作，目的是通過這些動作來決出勝負。搏鬥運動通常指的是兩方使用拳腳等肢體進行競爭的運動，而擊劍和器械對練則涉及使用刀劍等武器，並且通常有較為嚴格的規則和裝備要求。因此，最符合描述的是短兵運動。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '搏鬥運動'], ['B', '短兵'], ['C', '擊劍'], ['D', '器械對練']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "武術嘅主要內容係",
+    "llm_output": "正確答案係 A. 技擊動作。武術主要強調的是技擊技能，包括踢、打、摔、拿等動作，旨在提高個人防衛能力及體能。雖然武術中亦包含表演、舞蹈和雜技元素，但這些通常被視為輔助或展示性技能，而非武術的主要內容。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '技擊動作'], ['B', '表演動作'], ['C', '舞蹈動作'], ['D', '雜技動作']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "持續5分鐘以上尚有餘力嘅運動叫做",
+    "llm_output": "正確答案為 D. 有氧運動。\n\n有氧運動是指一種持續時間較長、低至中等強度、能夠通過氧氣供應維持運動的運動形式。有氧運動可以增強心肺功能，提高身體的氧氣利用效率，並且有助於燃燒脂肪，促進體重控制。\n\n其他選項的解釋如下：\nA. 恆常運動 - 這一術語通常不常用於描述運動類型，可能是指某種運動習慣或運動強度保持不變。\nB. 無氧運動 - 這是指高強度、短時間的運動，例如重量訓練，這些運動主要依賴肌肉中的磷酸肌酸系統供能，而非氧氣。\nC. 非恆常運動 - 這一術語同樣不常用於描述運動類型，可能是指運動強度或形式不固定。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '恆常運動'], ['B', '無氧運動'], ['C', '非恆常運動'], ['D', '有氧運動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動員喺做槓鈴推肩時出現肩關節外側疼痛，我哋應該訓練以下邊塊肌肉幫助其改善疼痛完成訓練？",
+    "llm_output": "正確答案：B. 肩帶穩定肌\n\n解析：運動員在做槓鈴推肩時出現肩關節外側疼痛，通常與肩帶穩定肌群的力量不足或協調性差有關。肩帶穩定肌群包括肩胛提肌、菱形肌、前锯肌等，這些肌肉在保持肩關節穩定和協調運動中發揮重要作用。訓練這些肌肉可以增強肩帶的穩定性，從而改善疼痛並提高訓練效果。\n\n其他選項如胸小肌、三角肌和背闊肌雖然也是體內重要的肌肉群，但它們在改善肩關節外側疼痛方面的效果不如肩帶穩定肌群直接。因此，選擇B作為正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '胸小肌'], ['B', '肩帶穩定肌'], ['C', '三角肌'], ['D', '背闊肌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "二十四式簡化太極拳係以（）太極拳為基礎。",
+    "llm_output": "二十四式簡化太極拳是以**C. 楊式**太極拳為基礎。\n\n二十四式簡化太極拳是在傳統太極拳的基礎上，經過簡化與標準化而形成的一套拳法。它主要參考了楊式太極拳的架式和動作，並且在動作要求、架式結構和動作流暢性上進行了簡化，使之更加適合大眾學習和練習。因此，正確答案是C. 楊式。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '武術'], ['B', '陳式'], ['C', '楊式'], ['D', '吳式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺一個完整嘅訓練大週期入面，訓練準備期與競技狀態變化相對應嘅階段係",
+    "llm_output": "D. 獲得階段\n\n在一個完整的訓練大週期中，訓練準備期通常是指運動員在比賽前進行系統性訓練的階段。在這一階段，運動員的競技狀態會經歷一系列變化，最終達到最佳狀態。\n\nA選項“相對穩定階段”通常指的是訓練過程中的一個穩定期，而不是專門針對競技狀態變化。\n\nB選項“恢復階段”是指在訓練過程中，運動員需要進行休息和恢復，以避免過度疲勞，這不是專門針對競技狀態變化。\n\nC選項“暫時消失階段”可能是指在訓練過程中，運動員的某些技術或能力可能會暫時下降，但這不是專門針對競技狀態變化。\n\nD選項“獲得階段”是指在訓練準備期，運動員通過系統性訓練逐漸獲得和提升競技能力，這正符合訓練準備期競技狀態變化相對應的階段。\n\n因此，正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '相對穩定階段'], ['B', '恢復階段'], ['C', '暫時消失階段'], ['D', '獲得階段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "身體素質係人嘅體能狀態嘅反映，係指人體喺運動、工作同生活中所表現出嚟嘅力量、耐力同。",
+    "llm_output": "正確答案係 A. 速度。\n\n身體素質通常包括力量、耐力、速度、靈活性、協調性和平衡性等多個方面。這些素質是人體在運動、工作和生活等不同情境下所表現出來的綜合能力。速度是其中的一個重要組成部分，它反映了人體快速移動的能力。其他選項如呼吸系統、身體機能和骨骼，雖然對身體素質有影響，但它們不是直接描述身體素質的詞彙。因此，最符合問題描述的選項是 A. 速度。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '速度'], ['B', '呼吸系統'], ['C', '身體機能'], ['D', '骨骼']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "維持人體姿勢同產生運動嘅動力係",
+    "llm_output": "正確答案係 D. 肌肉收縮產生嘅主動拉力。\n\n肌肉是人体内产生运动和维持姿势的关键力量来源。当肌肉收缩时，会产生主动的拉力，这种拉力通过肌腱传递到骨骼，进而引起关节的运动。肌肉的收缩和放松是人体运动的基础，也是维持身体姿势的必要条件。\n\n其他选项：\nA. 支撐反作用力通常是指物体在接触面产生的反作用力，例如地面支撑人体时产生的反作用力，虽然对维持姿势和运动很重要，但不是主要动力来源。\nB. 重力是地球对物体施加的吸引力，它影响着物体的运动和姿势，但不是产生运动的主要动力。\nC. 機械摩擦力是指物体与接触面之间因表面不光滑而产生的阻力，它对运动的产生和维持有一定的影响，但不是主要动力来源。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '支撐反作用力'], ['B', '重力'], ['C', '機械摩擦力'], ['D', '肌肉收縮產生嘅主動拉力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "人體喺單位時間吸入或者呼出嘅氣量叫做",
+    "llm_output": "正確答案：C. 肺通氣量\n\n解析：肺通氣量是指人體在單位時間內吸入或呼出的氣量。這個概念涉及到呼吸系統的運作，包括肺部和氣道。而其他選項所指的肺血流量、肺泡通氣量和最大吸氧量都是與肺功能相關的指標，但它們不是指代单位時間內吸入或呼出的氣量。因此，最符合問題描述的答案是C. 肺通氣量。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '肺血流量'], ['B', '肺泡通氣量'], ['C', '肺通氣量'], ['D', '最大吸氧量']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "套路運動主要嘅內容有拳術、器械、對練同",
+    "llm_output": "正確答案係 A. 集體表演。\n\n套路運動主要包括以下幾個方面：拳術、器械、對練以及集體表演。拳術和器械是套路運動中常見的個人表演形式，而對練則是指兩個人或兩個人以上進行對戰或配合的動作。集體表演則是指多人共同完成一套精心設計的動作，通常需要高度的協調和同步性。\n\n搏鬥運動（C）通常指的是像摔跤、跆拳道、柔道等直接對抗的運動。而套路運動（B）和功法運動（D）則是指更注重形式和技巧的運動，但這些選項並不適用於描述套路運動的主要內容。因此，最合適的答案是 A. 集體表演。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '集體表演'], ['B', '套路運動'], ['C', '搏鬥運動'], ['D', '功法運動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "體育運動作為學校教育嘅重要組成部分，喺培養學生嘅人文素質方面具有其他學科唔可以比較嘅",
+    "llm_output": "B. 特點\n\n體育運動在學校教育中扮演着独特的角色，它不仅关注学生的身体健康，还通过团队合作、竞争精神、规则意识等培养学生的人文素质。这些特质是其他学科所不能替代的，因为体育运动提供了一种独特的学习体验，它结合了身体活动、社交互动和心理挑战，从而培养出学生多方面的能力。因此，体育运动在培养学生人文素质方面具有其他学科不可比拟的特点。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '優勢'], ['B', '特點'], ['C', '優點'], ['D', '特長']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "中風早期患側臥位嘅唔正確姿勢係",
+    "llm_output": "正確答案係 A. 患肩後縮。\n\n中風早期患側卧位時，患側的肩部應該保持前伸，而不是後縮。這樣做有助於防止肩部受壓，減少疼痛和肌肉僵硬，並有助於維持良好的肢體對稱性。其他選項描述的姿勢，如肘伸直、前臂旋後和掌面向上，都是中風早期患側卧位時應保持的正常姿勢。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '患肩後縮'], ['B', '肘伸直'], ['C', '前臂旋後'], ['D', '掌面向上']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "關於人體嘅基本運動平面嘅講法正確係",
+    "llm_output": "正確答案係C。\n\n人體的基本運動平面包括矢狀面、額狀面和水狀面。矢狀面將人體分為左右兩面，額狀面將人體分為上下兩面，而水狀面則將人體分為前後兩面。這三個平面相互垂直，形成了人體的三個基本運動軸。因此，選項C描述正確，即“以上三個平面相互垂直”。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '水狀面將人體分為左右兩面'], ['B', '額狀面將人體分為上下兩面'], ['C', '以上三個平面相互垂直'], ['D', '矢狀面將人體分為前後兩面']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺同場對抗性項羣中，各個項目運動員嘅競技能力起住決定作用嘅係",
+    "llm_output": "C. 技能同戰術能力\n\n在體育學中，同場對抗性項目的競技能力通常是由多方面因素共同決定的。其中，技能和戰術能力是關鍵因素。技能包括技術動作、反應速度、協調性等，而戰術能力則涉及如何運用這些技能來應對比賽中的各種情況，包括防守、進攻、配合等。\n\n心理狀態（A）對運動員的表現也有重要影響，但通常不是決定性的因素。體能（B）是所有運動項目都需要的基礎，但在同場對抗中，體能通常不是唯一決定勝負的因素。智能（D）在戰術決策中扮演角色，但與技能和戰術能力相比，其影響力較小。\n\n因此，最符合問題描述的答案是C，技能同戰術能力。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '心理'], ['B', '體能'], ['C', '技能同戰術能力'], ['D', '智能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "對花樣游泳、藝術體操等需要長時間創編新動作同套路嘅項目，年度訓練一般安排",
+    "llm_output": "B. 多週期\n\n對花樣游泳、藝術體操等需要長時間創編新動作同套路的項目，年度訓練一般安排多週期。多週期訓練模式允許運動員在一年中進行多次訓練週期的輪換，每次周期專注於不同的訓練目標，例如技術提升、體能增強或心理準備。這種訓練方法有助於運動員在比賽季節中保持最佳狀態，並能夠不斷創新和改進動作。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '混合週期'], ['B', '多週期'], ['C', '單週期'], ['D', '雙週期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "對於高難度技術一般應安排喺訓練課嘅",
+    "llm_output": "A. 後半部分\n\n在體育訓練中，高難度技術通常應安排在訓練課的後半部分。這是因為在訓練的初期，運動員需要建立基礎技能和體能，隨著訓練的進展，他們的身體和技術能力逐漸提升，這時引入高難度技術能夠更好地被掌握和應用。此外，在訓練的後半部分進行高難度技術的練習，有助於運動員在精神和體能上保持最佳狀態，從而達到最佳訓練效果。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '後半部分'], ['B', '中間部分'], ['C', '任何部分都可以'], ['D', '前半部分']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "軟組織損傷後應儘早進行被動運動嘅目嘅",
+    "llm_output": "B. 保持同恢復關節嘅活動範圍\n\n軟組織損傷後，被動運動的目的是为了保持和恢复关节的活动范围。通过被動运动，可以在不增加受伤部位压力的情况下，维持关节的灵活性和活动能力，防止关节僵硬和活动受限。虽然其他选项描述的也是软组织损伤后的可能目标，但根据问题的具体要求，保持和恢复关节活动范围是被動运动的直接目的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '減輕水腫同疼痛'], ['B', '保持同恢復關節嘅活動範圍'], ['C', '保持軟組織彈性'], ['D', '恢復同增加肌力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "排球比賽中，發球後每隊可接觸球幾多次。",
+    "llm_output": "正確答案：B. 三次\n\n在排球比賽中，每支隊伍在接發球後，可以接觸球三次。這次數限制是為了促進快速對抗和流暢的比賽節奏。在第三次接觸後，球必須被傳給隊友，不能再次觸碰。這條規則適用於國際排球聯合會（FIVB）和國際排球協會（USAV）等主要排球機構的比賽。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '兩次'], ['B', '三次'], ['C', '五次'], ['D', '四次']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "由於精神壓力引起嘅呼吸系統疾病有",
+    "llm_output": "C. 支氣管哮喘\n\n精神壓力可以引致多種身體疾病，其中支氣管哮喘（Asthma）是常見的呼吸系統疾病之一。哮喘通常由氣道過敏反應、氣道慢性炎症等因素引起，而長期精神壓力可能會加劇這些情況，進而導致或加重哮喘的症狀。其他選項如胃潰瘍、神經性嘔吐和神經性皮炎，雖然也可能受到壓力的影響，但它們主要不属于呼吸系統疾病。因此，正確答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '胃潰瘍'], ['B', '神經性嘔吐'], ['C', '支氣管哮喘'], ['D', '神經性皮炎']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "手嘅休息位係",
+    "llm_output": "正確答案係 B. 半握拳姿勢。\n\n手嘅休息位，即係指手自然放鬆時嘅姿態。在體育運動中，半握拳姿勢通常被視為手嘅休息位，因為這種姿態下，手掌和手指都處於放鬆狀態，但手掌仍保持一定程度的緊張度，以便於快速出拳或進行其他手部動作。\n\n其他選項描述嘅姿態，如直拳、完全握掌和勾拳，都是特定動作或技術中手部應有的姿態，而非休息位。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '直拳'], ['B', '半握拳姿勢'], ['C', '完全握掌'], ['D', '勾拳']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "旋風腳動作身體轉體唔少於",
+    "llm_output": "正確答案：B. 360度\n\n旋風腳（Whip Kick）是跆拳道中的一個動作，要求踢擊者將腿部以極快的速度和力量旋轉，並將腳踢出。在這個動作中，身體的轉體角度必須達到至少360度，也就是一整圈，以確保踢擊的力量和準確性。因此，選項B是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '270度'], ['B', '360度'], ['C', '180度'], ['D', '90度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "正式排球比賽中，球員嘅輪轉方式為",
+    "llm_output": "D. 順時針\n\n在正式的排球比賽中，球員的輪轉方式是按照順時針的方向進行。這一規則不僅適用於國際比賽，也適用於國內比賽。輪轉的目的是為了確保比賽的公平性和流暢性，並且讓每名球員都有機會參與到比賽中。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '以上皆非'], ['B', '隨意輪轉'], ['C', '逆時針'], ['D', '順時針']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "全程性多年訓練過程基礎階段嘅首要任務係發展運動員嘅",
+    "llm_output": "D. 協調能力\n\n在體育學中，全程性多年訓練過程通常被分為基礎階段、提高階段和最佳階段。在基礎階段，主要任務是發展運動員的基本技術、協調能力、身體素質和運動知識。因此，協調能力是這個階段的首要任務之一，因為它對學習和掌握其他技術能力至关重要。心理品質、技術能力和戰術能力在提高階段和最佳階段中扮演着更加重要的角色。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '心理品質'], ['B', '技術能力'], ['C', '戰術能力'], ['D', '協調能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "國務院學位辦公室正式批准體育學設立武術學科專業方向博士點學位係喺。",
+    "llm_output": "正確答案係C. 2000。\n\n武術學科專業方向博士點學位於2000年由國務院學位辦公室正式批准設立。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1994'], ['B', '1998'], ['C', '2000'], ['D', '1996']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於落枕嘅病因係",
+    "llm_output": "落枕通常是指頸椎肌肉或韌帶因過度使用或受損而導致的疼痛和僵硬。以下是各選項對應落枕病因的解釋：\n\nA. 頸部活動過多 - 落枕通常與頸部過度使用或受損有關，因此過多的頸部活動可能會導致落枕。\n\nB. 瞓時感受風寒 - 受涼也是落枕的一個常見原因，特別是在睡眠時受涼可能會導致肌肉收縮或僵硬。\n\nC. 枕頭過低 - 枕頭的高度不當可能會導致頸椎不正確的對齊，從而增加落枕的風險。\n\nD. 睡姿唔當 - 不當的睡姿可能會導致頸椎肌肉和韌帶的過度伸展或壓縮，從而導致落枕。\n\n因此，不属于落枕病因的选项是 A. 頸部活動過多。落枕的病因通常涉及頸部肌肉或韌帶的受損，而過度使用本身不必然導致落枕，除非同時伴隨著其他因素，如受涼或枕頭高度不當。所以，正確答案是 A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '頸部活動過多'], ['B', '瞓時感受風寒'], ['C', '枕頭過低'], ['D', '睡姿唔當']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列四種因素中，唔係構成負荷強度嘅因素係",
+    "llm_output": "負荷強度通常是指運動或訓練中對身體所施加的力量大小。在體育學中，負荷強度通常由以下幾個因素來衡量：\n\nA. 密度 - 這通常是指物體中物質的密集程度，與負荷強度無直接關係。\nB. 難度 - 這涉及到運動的複雜性和技術要求，可以間接地影響負荷強度，例如高難度動作可能對肌肉和關節造成較大的負荷。\nC. 組數 - 這是指在訓練中進行某個動作或運動的次數，組數的增加可以增加負荷強度。\nD. 質量 - 這是指施加在身體上的重量，質量越大，通常負荷強度也越大。\n\n因此，不構成負荷強度因素的是 A. 密度。所以正確答案是 A。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '密度'], ['B', '難度'], ['C', '組數'], ['D', '質量']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "訓練課係運動訓練最基本嘅",
+    "llm_output": "正確答案：A. 組織形式\n\n訓練課是運動訓練中最基本的組織形式。它通常是指在特定時間和地點，按照一定的訓練計劃和目標，有組織地進行運動訓練的活動。訓練課的目的是通過系統的、有針對性的運動，提高運動員的技術水平、體能和心理素質，最終達到比賽的目標。\n\n其他選項如B. 組織措施、C. 組織制度和D. 組織手段，雖然也與運動訓練的組織相關，但它們不是指訓練課本身，而是指在組織訓練課時所採取的方法、制度和手段。因此，這些選項並不適用於描述訓練課作為運動訓練最基本組織形式的特點。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '組織形式'], ['B', '組織措施'], ['C', '組織制度'], ['D', '組織手段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "武術起源於原始嘅",
+    "llm_output": "正確答案：D. 狩獵活動\n\n武術的起源可以追溯到人類的狩獵活動。在古代，狩獵不僅是獲取食物的方式，同時也是一種訓練體能和技能的活動。人們在狩獵過程中，學會了如何使用武器和防禦技巧，這些技能逐漸演變成為了早期的武術形式。雖然部落戰爭、生產勞動和宗教活動在人類歷史中也有其重要性，但狩獵活動對武術的發展影響尤為深遠。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '部落戰爭'], ['B', '生產勞動'], ['C', '宗教活動'], ['D', '狩獵活動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "正確嘅訓練模型進階應該係？",
+    "llm_output": "正確答案係C。功能-體適能-運動表現。\n\n這個訓練模型進階的順序反映了訓練的層次性。首先，強調功能訓練，因為功能訓練是基礎，它涉及至關重要的運動模式和動作控制。接著，進行體適能訓練，這包括力量、速度、耐力、靈活性和協調性等，這些都是提升運動表現的關鍵因素。最後，運動表現訓練，這涉及到將所有學到的技能和能力應用於具體的運動項目中，以達到最佳競技水平。\n\n因此，C選項（功能-體適能-運動表現）提供了一個合乎邏輯且系統的訓練進階順序。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '體適能-功能-運動表現'], ['B', '運動表現-體適能-功能'], ['C', '功能-體適能-運動表現'], ['D', '功能-運動表現-體適能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "散打比賽每場比賽採用三局兩勝制，每局淨打3分鐘，局間休息",
+    "llm_output": "正確答案為：A. 1分鐘\n\n在散打比賽中，每場比賽採用的確是三局兩勝制，每局比賽的時間是3分鐘，而局間休息的時間是1分鐘。因此，選項A是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '1分鐘'], ['B', '1分30秒'], ['C', '2分鐘'], ['D', '30秒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "邊一項目嘅專項能力特徵唔係「以最大強度重複完成比賽動作」？",
+    "llm_output": "D. 籃球\n\n籃球運動中，專項能力特徵並不僅僅是「以最大強度重複完成比賽動作」。相比之下，其他選項如舉重、標槍和跳高，它們的專項能力特徵更接近於「以最大強度重複完成比賽動作」。舉重需要重複舉起重物，標槍需要投掷標槍，跳高需要重複跳躍過橫桿，這些動作都具有重複性和強度要求。而籃球運動則更注重技術、戰術和團隊合作，專項能力包括運球、傳球、射籃、防守和協作等，這些能力並不需要以最大強度重複完成單一動作。因此，正確答案是D. 籃球。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '舉重'], ['B', '標槍'], ['C', '跳高'], ['D', '籃球']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "頸部骨質增生最多嘅部位係",
+    "llm_output": "正確答案係 B. C6。\n\n頸部骨質增生，又稱為頸椎骨刺，通常發生在頸椎的後方。其中，C6（即第六颈椎）是最常見出現骨質增生的部位之一。這是因為C6位於頸椎的轉折點，承受著頭部重量和運動的壓力，因此容易產生骨質增生。其他選項如C5、C3和C4雖然也可能出現骨質增生，但C6是最常見的部位。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'C5'], ['B', 'C6'], ['C', 'C3'], ['D', 'C4']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "運動後補充乜嘢有提高最大吸氧量、減少氧債同血乳酸嘅作用。",
+    "llm_output": "C. 維生素C\n\n運動後補充維生素C有助於提高最大吸氧量、減少氧債和血乳酸。維生素C是一種強大的抗氧化劑，它有助於增強免疫系統，促進肌肉修復，並且能夠幫助身體更有效地利用氧氣，從而提高運動時的耐力。此外，維生素C還能幫助減少運動後的氧債（即氧氣債務），這是因為它能夠促進血液中氧氣的利用效率。血乳酸是肌肉運動時產生的酸性物質，維生素C的抗氧化作用有助於減少其生成，從而減輕運動後的肌肉疲勞和酸痛。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '維生素A'], ['B', '維生素E'], ['C', '維生素C'], ['D', '維生素B']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "化學性疼痛唔具備以下邊項表現形式？",
+    "llm_output": "D. 休息痛\n\n化學性疼痛通常是指由体内化学物质（如炎症介质）引起的一种疼痛。这类疼痛的特点包括：\n\nA. 持續痛：由于炎症介质的持续存在，化学性疼痛往往是持续性的。\n\nB. 夜間痛：炎症介质在夜间可能更加活跃，导致化学性疼痛在夜间加剧。\n\nC. 間歇疼痛：在某些情况下，化学性疼痛也可能表现为间歇性的，尤其是在炎症初期或炎症介质水平波动时。\n\nD. 休息痛：休息痛通常是指在休息时疼痛加剧，这与化学性疼痛的典型表现不符。休息痛更多地见于肌肉骨骼疼痛，如肌肉拉伤或关节问题。\n\n因此，化学性疼痛不具备的表现形式是D. 休息痛。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '持續痛'], ['B', '夜間痛'], ['C', '間歇疼痛'], ['D', '休息痛']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "通過不斷變換條件同要求嚟激發興趣，調節生理負荷嘅方法叫做",
+    "llm_output": "D. 變換鍛煉法\n\n變換鍛煉法是指通過不斷改變運動的條件和要求，如改變運動的場地、設備、方式、強度、時間和頻率等，以激發運動者的興趣，調節其生理負荷，從而達到更好的鍛煉效果。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '負重鍛煉法'], ['B', '循環鍛煉法'], ['C', '連續鍛煉法'], ['D', '變換鍛煉法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "根據運動時心率同強度相關關係標準，心率110次/分鐘嘅鍛煉強度大約係",
+    "llm_output": "正確答案係C。\n\n運動時心率同強度之間存在著一定的相關關係。一般來說，運動強度可以用心率百分比來表示。具體來說，220減去年齡（次/分鐘）就是最大心率。然後，可以通過心率百分比來評估運動強度。\n\n例如，假設一個30歲的人，其最大心率為220 - 30 = 190次/分鐘。如果這個人在運動時心率達到110次/分鐘，那麼心率百分比可以通過以下公式計算：\n\n心率百分比 = (運動時心率 / 最大心率) × 100%\n\n代入數字：\n\n心率百分比 = (110 / 190) × 100% ≈ 57.9%\n\n根據一般運動強度劃分標準，50%-60% 屬於低強度運動，60%-70% 屬於中等強度運動，70%-85% 屬於高強度運動。因此，心率110次/分鐘屬於中等強度運動，即大約70%。\n\n然而，由於問題中提供的是標準答案C，這可能意味著在特定情境或標準下，110次/分鐘的心率被定義為80%的運動強度。但根據一般運動科學的常規標準，110次/分鐘的心率應該更接近70%的運動強度。\n\n因此，如果依據一般運動科學的標準，正確答案應該是D，即70%。但根據問題中提供的信息，假設存在特殊標準或上下文，正確答案可能是C，即80%。在沒有更多上下文的情況下，基於一般運動科學的標準，我們選擇D作為正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '60%'], ['B', '50%'], ['C', '80%'], ['D', '70%']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "一個運動員嘅「絕招」嘅核心構成部分係",
+    "llm_output": "正確答案係C. 基本技術。\n\n在體育學中，「絕招」通常指的是某位運動員在比賽中經常使用的、能夠有效應對特定情況的技術動作。這些動作往往是運動員經過反覆練習和精確調整而形成的，它們通常基於基本技術。基本技術是所有運動項目中最基礎的技術動作，它們是運動員學習和掌握更高級技術的基石。\n\n雖然高難度技術（A）和特長技術（D）確實是運動員在比賽中可能會展示的，但它們通常是在基本技術的基礎上進一步發展和完善的。全面技術（B）則是指運動員在比賽中能夠運用的各種技術動作，它包括了基本技術、高難度技術和特長技術。\n\n因此，一個運動員的「絕招」的核心構成部分是基本技術（C），因為它是所有技術動作發展的基礎。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '高難度技術'], ['B', '全面技術'], ['C', '基本技術'], ['D', '特長技術']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "相比較而言，下列項目中運動員喺少年時期就可能表現出世界級競技水平嘅係",
+    "llm_output": "C. 跳水\n\n跳水运动员通常在少年时期就能展现出世界级的竞技水平。这是因为跳水是一项技术要求高、对体型和柔韧性要求严的运动，而少年时期正是发展这些特质的最佳时期。此外，跳水动作的完成需要良好的身体协调性和灵活性，这些能力在少年时期相对容易培养和提高。\n\n柔道（A）、射擊（B）和举重（D）虽然也是竞技体育项目，但它们对运动员的成熟度、力量和心理素质要求较高，因此运动员通常在青少年后期或成年早期开始专业训练，并可能需要更长时间才能达到世界级的竞技水平。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '柔道'], ['B', '射擊'], ['C', '跳水'], ['D', '舉重']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "可繞三個基本軸運動嘅關節係",
+    "llm_output": "正確答案係：\n\nA. 髓關節\n\n髓關節（Ball-and-socket joint）是關節中能绕三個基本軸運動的一種，它允許關節頭在關節槽內進行多方向運動，包括屈伸、旋內旋外和環轉運動。其他選項如肘關節（B）、腕關節（C）和膝關節（D）雖然也能進行多方向運動，但不如髓關節那麼靈活。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '髓關節'], ['B', '肘關節'], ['C', '腕關節'], ['D', '膝關節']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "賽前訓練周技術訓練嘅基本特點係",
+    "llm_output": "正確答案：A. 同時增加完整同分解練習。\n\n在體育學中，賽前訓練周的技術訓練旨在提高運動員的技術水平和應對比賽的能力。此階段訓練的基本特點是同時增加完整和分解練習。完整練習指的是整體技術動作，而分解練習則是指將技術動作分解成若干個單元進行訓練。這樣的訓練方式能夠幫助運動員更好地掌握技術動作，並且在比賽中能夠迅速且準確地執行。因此，選項A是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '同時增加完整同分解練習'], ['B', '增加完整練習'], ['C', '增加分解練習'], ['D', '減少完整練習']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "喺發動口令之前，加上動作名稱或者簡明術語作為預令進行啟發提示嘅口令係",
+    "llm_output": "D. 提示性口令\n\n提示性口令是指在执行动作之前，通过动作名称或简明术语作为预令进行启发提示的口令。这类口令的目的是帮助运动员更好地理解动作要领，提高动作的准确性和一致性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '一般口令'], ['B', '單字口令'], ['C', '常用口令'], ['D', '提示性口令']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "根據參賽年齡嘅發展趨勢，屬於「少年型」嘅運動項目係",
+    "llm_output": "正確答案：C. 田徑\n\n解析：「少年型」運動項目通常是指那些較早能夠開始參與並達到較高水平的運動。田徑運動通常需要較早的開始訓練，因為它強調基本的身體素質和技術，如速度、力量、耐力和協調性。這些素質通常可以在較早的年齡段開始培養。\n\n相比之下，籃球和排球需要較高的技術水平和團隊協作能力，這些通常需要較長時間的訓練和更多的身體發展。體操則需要極高的身體控制能力和柔韌性，這些能力通常在青少年階段開始發展。因此，田徑是這些選項中最符合「少年型」運動項目的描述。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '籃球'], ['B', '排球'], ['C', '田徑'], ['D', '體操']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "安康成年人男性肺活量值大約為3000～4000毫升，而女性則為",
+    "llm_output": "正確答案為 B. 2000～3000毫升。\n\n肺活量是衡量肺功能的重要指标，通常以毫升（ml）为单位。成年男性的肺活量一般比女性大，这是因为男性的胸腔和肺容量通常更大。根据世界卫生组织（WHO）和国际肺功能测试协会（ATS）的标准，成年女性的肺活量大约在2000～3000毫升之间。\n\n因此，选项 B 是正确的。其他选项要么与女性肺活量的实际范围不符，要么与男性肺活量的范围重叠，因此不正确。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '3000～4000毫升'], ['B', '2000～3000毫升'], ['C', '3000～3500毫升'], ['D', '2500～3500毫升']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "中重量、中次數、中組數、中間歇嘅力量練習鍛煉目嘅係",
+    "llm_output": "正確答案：C. 突出肌肉線條\n\n解析：中重量、中次數、中組數、中間歇的力量訓練通常被称作「 hypertrophy 訓練」，其目的是通過對肌肉施加適當的壓力，促進肌肉的生長和肌肉線條的突出。這種訓練方式通常不強調單一組的重量或次數，而是注重組數和間歇時間的平衡，以達到最佳的效果。\n\n其他選項分析：\nA. 提高絕對力量 - 通常需要較高的重量和較少的次數，並且組數和間歇時間也較少。\nB. 增加肌肉圍度 - 這也是 hypertrophy 訓練的一個目標，但更偏向於描述肌肉的总体增長，而不是線條的突出。\nD. 加強耐力同心肺血管功能 - 這通常需要較低的重量和較高的次數，以及較長的間歇時間，並且通常屬於有氧運動或心肺訓練的範疇。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '提高絕對力量'], ['B', '增加肌肉圍度'], ['C', '突出肌肉線條'], ['D', '加強耐力同心肺血管功能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "單手肩上投籃將球投出時，使肘關節伸嘅肌肉係",
+    "llm_output": "正確答案係 A. 肱三頭肌。\n\n單手肩上投籃時，肘關節的伸展主要是由肱三頭肌負責。肱三頭肌位於上臂後側，當它收縮時，會拉動肘關節後方的骨頭，從而使肘關節伸直。其他選項，如背闊肌、肱肌和前臂屈羣肌，在這個動作中不是主要負責肘關節伸展的肌肉。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '肱三頭肌'], ['B', '背闊肌'], ['C', '肱肌'], ['D', '前臂屈羣肌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "太極拳最早係由邊個所創。",
+    "llm_output": "正確答案係B. 陳王廷。太極拳，又稱為太极拳，起源於明朝末年，由河南温县的陳家沟的陳王廷所創。他融合了少林拳、形意拳和道家哲學的理念，創造了這一獨特的拳術。雖然有其他人物如張三豐和楊露禪對太極拳的發展做出了貢獻，但普遍認為太極拳的創始人是陳王廷。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '陳長興'], ['B', '陳王廷'], ['C', '張三豐'], ['D', '楊露禪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "下列有關肌力嘅練習錯誤嘅係",
+    "llm_output": "C. 肌力為2級時可以進行免負荷運動\n\n肌力訓練是增強肌肉力量和耐力的重要手段。在肌力训练中，根据肌力水平的不同，训练方法和强度也会有所不同。\n\nA选项错误，即使是肌力为0级，也就是完全瘫痪的情况下，也可以通过被动运动来维持肌肉的张力和关节的活动度，防止肌肉萎缩和关节僵硬。\n\nB选项正确，进行肌力训练时，确实需要注意心血管的反应，以避免过度负荷导致的心血管问题。\n\nC选项正确，肌力为2级时，肌肉可以产生收缩，但无法克服地心引力，此时可以进行免负重运动，如水中运动或使用辅助器械，以增强肌肉的收缩能力。\n\nD选项错误，肌力为3-4级时，肌肉已经可以克服地心引力进行运动，此时应进行主动运动，以进一步增强肌肉力量和耐力。\n\n因此，正确答案是C。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '肌力為0級時唔使做肌力嘅訓練'], ['B', '注意心血管嘅反應'], ['C', '肌力為2級時可以進行免負荷運動'], ['D', '肌力為3—4級時由主動運動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "中國傳統哲學對武術影響極為深遠，以五行說為理論基礎嘅拳術係",
+    "llm_output": "C. 形意拳\n\n形意拳是中國傳統拳術之一，其理論基礎深受中國傳統哲學，特別是五行說的影響。五行說是中國古代哲學中的一個核心概念，它將世界分為金、木、水、火、土五類元素，並認為它們之間存在著相互影響和轉化的關係。形意拳的動作和架式設計，正是基於五行相生相克的原理，通過拳法來體現和調和五行之氣。\n\n其他選項，如長拳、太極拳和八卦掌，雖然也是中國傳統拳術，但它們的理論基礎和五行說的關係不如形意拳那麼直接和深遠。因此，正確答案是C. 形意拳。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '長拳'], ['B', '太極拳'], ['C', '形意拳'], ['D', '八卦掌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-sports_science",
+    "key_answer_type": "alphabet_option",
+    "question": "柔韌性訓練嘅基本方法係",
+    "llm_output": "正確答案係 D. 拉伸法。\n\n柔韌性訓練的主要目的是增加肌肉、肌腱和關節的伸展範圍，以提高運動時的力量和靈活性。拉伸法是柔韌性訓練的基本方法，通過各種拉伸動作來逐步增加肌肉的伸展範圍，包括靜態拉伸、動態拉伸和彈性帶拉伸等。\n\n其他選項如變換訓練法、間歇訓練法和重複訓練法，通常用於其他類型的運動訓練，如增強力量、耐力和速度等，而非專注於提高柔韌性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '變換訓練法'], ['B', '間歇訓練法'], ['C', '重複訓練法'], ['D', '拉伸法']]",
+    "is_correct": 1
+  }
+]

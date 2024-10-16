@@ -1,0 +1,1632 @@
+[
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教師人力資源評價包括好多方面，其中最重要嘅係",
+    "llm_output": "A. 績效評價\nB. 素質評價\nC. 學生評估\nD. 評估評估\n\nThe answer is **C. 素質測評 (Student Evaluation)**. \n\nHere's why:\n\n* **績效評價 (Performance Evaluation)** is focused on measuring a teacher's effectiveness in the classroom, which is important but not the primary focus when discussing \"教師人力資源\".\n\n* **目標審核 (Goal Evaluation)** is a more accurate description of the core focus of teacher evaluation as it encompasses the evaluation of teachers' performance in relation to their professional goals and the overall goals of the education system.\n\n* **教師人力資源** (Teacher Human Resources) is a broad term that refers to the human capital within the education system, and while **目標 (Target)** setting and **績效 (Performance Evaluation)** are important aspects of teacher development, they are not the most essential aspect of teacher development.\n\n* **教師 (教師) (Teacher Evaluation)** is the most accurate answer because it directly addresses the core concept of \"教師人力資源\" (teacher human resources) which is the focus of the question.\n\nLet me know if you'd like me to try answering more questions! \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '績效評價'], ['B', '素質測評'], ['C', '士氣調查'], ['D', '目標評審']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "課嘅類型一般分為兩大類，即",
+    "llm_output": "答案：A. 課堂教學和非課堂教學 \n\n**解釋：**\n\n* **A. 講授課** 係教師直接講解知識和技能，並提供學生練習嘅一種教學方法。\n* **B. 課堂教學** 係指教師在課堂上进行的教学活动，包括講授、讨论、练习等。\n* **C. \n\n**實驗課** 是一种以实验为主要学习方式的课程，通常用于科学实验教学。\n\n* **D. 实验课** 虽然实验是科学教育的重要组成部分，但它並非所有学科都一定需要進行實驗。\n\n**注意：**\n\n* 你提供嘅例子中，C. 應該係實驗課 (Experiment Class) \n\n* 根據你所提供的例子，可以推斷出你想要問的是「教師 \n\n**文化**\n\n**的** 评价中，哪一项是**不正确**的答案。\n\n**D. \n\n** 作为对教师课堂教学方式的评价，是更全面、更准确的答案。\n\n**C. 实验课** 是一個錯誤的選項，因為它只是一個更具體的**教學活動類型**，而不是一個獨立的「教師評價」類型。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '講授課同練習課'], ['B', '講授課同複習課'], ['C', '單一課同綜合課'], ['D', '講授課同實驗課']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一項係職業院校精神文化最直接嘅表徵形式",
+    "llm_output": "C. \n\n**解釋：**\n\n職業院校精神文化最直接的表現形式是其**核心價值觀**，即 **C. 辦學理念**。\n\n* **C. 講授課** 指的是學校透過教學活動傳達其教育理念和價值觀，例如重視實踐能力、培養專業人才、與社會接軌等，這些理念是學校的核心教學理念，直接反映了学校的教育理念。\n\n其他選項雖然可以被視為教育设施的一部分，但它們更像是职业院校文化的**體現**，而不是**直接表徵**。 \n\n* **A. 獨自一項** 可能是指「教育理念」的中文翻譯，但並非最直接的表徵。\n\n* **B. 學校的目標** 雖然與職業院校文化相關，但更直接反映的是學校的整體發展方向，而非學校文化本身。\n\n* **D. 學校的目標** 可能是學校文化的一部分，但更重要的是學校如何實現這些目標，例如，**學校的教学理念** 以及如何**體現**這些目標。\n\n* **D. 校訓** 雖然是學校文化的一部分，但更直接的表徵是學校如何**傳達** 這些價值觀。\n\n所以，**職業院校文化** 是一個更廣泛的概念，而**C. 學校的目標** 只是其中一個方面。\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '辦學理念'], ['B', '校訓'], ['C', '校風'], ['D', '校歌']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "確立教育目的嘅重要依據係",
+    "llm_output": "The answer is **A. 學校文化**\n\n**Explanation:**\n\nThe question asks for the \"most direct\" form of representation of vocational school culture. While options A, C, and D might be considered aspects of a school's culture, **(D) 學校文化** (school culture) is the most direct representation of a school's values and beliefs. \n\nHere's why:\n\n* **學校文化** (School Culture) encompasses the shared values, beliefs, and practices that shape the environment and experiences within a vocational school.\n\nLet me know if you'd like to try another question! \n\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '生產方式'], ['B', '生產力'], ['C', '政治制度'], ['D', '生產關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以學科為基礎組織起嚟嘅各門學科嘅課程形態係",
+    "llm_output": "答案：D. \n\n**解釋:**\n\n* **以學科為基礎組織起嚟嘅** 係一個錯誤嘅選項，用詞不精確。\n* **社會中心課程** 係以社會需求為導向，注重培養學生實踐能力。\n* **以學生為基礎嘅** 係一個不完整的答案，因為職業院校課程形态可以分为許多種類，例如：\n\n    * **學科本位課程** 係一種以學科知識為中心嘅課程模式，但 **学科** 係指一個學科，而**學科中心課程** 则更准确地描述了這種模式。\n\n* **學科** 虽然可以作为課程的 **一種** 形式，但並非所有職業院校課程都以 **社會需求** 為導向。\n\n所以，**科目中心課程** 係一個錯誤答案，因為職業院校的課程設計中，雖然會考慮到學生學習的需要，但 **「以學科為基礎」** 係最直接嘅答案。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會中心課程'], ['B', '學生中心課程'], ['C', '科目本位課程'], ['D', '學科中心課程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "1989年，係邊個用「新公共管理」命名咗聲勢浩大嘅政府改革，使得新公共管理理論由此誕生並受到廣泛青睞",
+    "llm_output": "A. 克里斯托弗•胡德 (Christopher Hood) \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '克里斯托弗•胡德'], ['B', '威爾伯•約契'], ['C', '傑里米•裏夫金'], ['D', '丹尼爾•格里菲思']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於院校標識嘅一項係",
+    "llm_output": "D. 學校標語 \n\n**Explanation:**\n\nThe question asks for what does *not* belong to the list of things that represent a school's identity. \n\n* **學報 (Academic Journal)** - This is a publication that showcases research and scholarship, not necessarily a core identifier of a specific school.\n* **學校明信片 (School Postcard)** - This is a promotional item for a school, not a core identifier.\n* **(C) 學校 (School) + 校徽 (Logo)** - This combination refers to the general concept of a school and its identity, not specifically the term \"school\" itself.\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '學報'], ['B', '學校明信片'], ['C', '校徽'], ['D', '校歌']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "韋伯認為，科層理論嘅基礎係",
+    "llm_output": "D.  \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '傳統型權威'], ['B', '個人魅力型權威'], ['C', '科學性權威'], ['D', '法理型權威']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業教育管理就係領導藝術」理念嘅代表人物係",
+    "llm_output": "答案：**A. 韋伯** \n\n(Weber is the correct answer) \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '格朗魯斯'], ['B', '熊彼德'], ['C', '孔茨'], ['D', '梅奧']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育要適應人嘅發展嘅個別差異性，做到",
+    "llm_output": "The correct answer is **D. 防微杜漸 (Preventative in nature)**\n\nHere's why:\n\n* **做到** means \"to achieve\" or \"to accomplish\" in Cantonese.\n\n* **人** means \"person\" and **發展** means \"development\" in Cantonese.\n\n* **因材施教 (teach according to aptitude)** emphasizes tailoring education to individual student needs and abilities.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '防微杜漸'], ['B', '循序漸進'], ['C', '教學相長'], ['D', '因材施教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業院校行為係文化係一種特殊嘅文化形態，佢係以（）嘅形式作為文化成果存在嘅。",
+    "llm_output": "The answer is **B. 靜態 (Static)**.\n\nHere's why:\n\n* **The question refers to the concept of \"learning by doing\"** which is a key principle of the **\"vocational education\"** model.\n\nThe answer choices are all related to the concept of \"scientific management\" which emphasizes efficiency and productivity.\n\n* **The answer is C. 職業教育 (Vocational Education) is a type of education focused on practical skills and knowledge for a specific trade or occupation. **\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '動態'], ['B', '動靜結合'], ['C', '以上都唔對'], ['D', '靜態']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「第三次工業革命」模式嘅第一人係",
+    "llm_output": "A. 提出「第三次工業革命」模式的第一个提出者是 **A. 傑里米•裏夫金** \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傑里米•裏夫金'], ['B', '比爾.蓋茨'], ['C', '瓦特'], ['D', '愛迪生']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育過程中最重要嘅人際關係係",
+    "llm_output": "C.  \n\nThe correct answer is **C. 師生關係 (Teacher-student relationship)**. \n\nHere's why:\n\n* **The core of education lies in the interaction between a teacher and their students.** While the other options represent important aspects of the educational environment, the teacher-student relationship is fundamental to the entire process.\n\nLet me know if you'd like to try more examples!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '同學關係'], ['B', '學校同家庭'], ['C', '師生關係'], ['D', '同事關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "2012年教育部出臺嘅（）體現咗職業學校專業嘅社會服務職能。",
+    "llm_output": "C. 「現代職業教育」 \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「學科規訓制度導論」'], ['B', '「國務院關於大力發展職業嘅決定」'], ['C', '「現代職業教育體系建設規劃」'], ['D', '「國際教育標準分類法」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "啟發式教學最早可見於",
+    "llm_output": "答案： **A** \n\n(A) **儒家經典) **\n\n**解釋：**\n\n啟發式教學是一種教育理念，強調透過主動探索和體驗，引導學生主動學習和思考。 \n\n* **(A) 杜威** \n  * 這個選項最有可能正確，因為 **約翰•杜威 (John Dewey)** 係一個美國嘅哲學家、心理學家和教育家，佢係「教育學之父」之一，並被認為係進步教育學派 (Progressive Education Movement) 的創始人之一，而呢個教育學派就係最早提出並推崇「以學生為中心」教學理念的。\n\n* **(B) 蘇格拉底\n* (C) 孔子\n* (D) \n\n* **(C) 學生為中心**\n\n**注意：**\n\n* 雖然「以學生為中心」是教育學的核心理念，但係 **C** 选项的答案，因为这个选项更符合「教育要以学生为中心」的描述。\n\n* **現代教育學** 并非「第三次教育革命」的答案。\n\n* **第三次教育革命** 這個概念通常指 **以信息技術為基礎的教育改革**，而 **(A) 作为一个以 **第三次教育革命** 作为其核心概念的理论**，它更强调的是 **以學生為中心** 的教育理念，而非 **第三次教育革命** 的起源。\n\n**所以，答案是 (C) 因為這個概念是源於對教育學的理解和反思，並非單純的「第三次教育革命」的起源。**\n\n**（B） 选项** \n\n**第三次教育革命** 是一种以 **社會化** 的方式進行的教育模式，但它並非直接由 **孔子** 或 **盧梭** 等人提出的教育理念。\n\n**因此，根據題目提供的選項，最合理的答案是 **(A) **. **\n\n**注意：** \n\n* **(A) 這個選項代表的是一個更廣泛的教育理念，而非單純指代一個單一的答案。**\n\n希望呢個解释清楚！",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '杜威'], ['B', '柏拉圖'], ['C', '孔子'], ['D', '盧梭']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "從教育形態上分析，下列教育屬於制度化教育嘅係",
+    "llm_output": "C. 家庭教育\n\n**解釋：**\n\n* **制度化教育** 指的是在正式的教育機構（如學校）中進行的、有組織、有計劃的教育。\n* **社區教育** 係指社區內提供嘅教育活動，例如社區學院、圖書館課程等等。\n* **家庭教育** 係指家庭成員透過日常互動，傳授知識和技能，培養良好品格和生活習慣等嘅教育方式。\n\n**所以，答案係 C. 學校教育**\n\n**解釋：**\n\n* **學校教育** 係指透過學校內部嘅制度，例如課程設定、教師資格和評估制度等等，進行嘅一種**有組織、有計劃**嘅教育方式。\n\n**注意：**\n\n* 雖然「社區教育」和「家庭教育」都屬於教育範疇，但它們本身不构成一种具体的教育形态。\n* 因此，最符合題目描述的答案是 C. 學校教育。\n\n**社區教育** 和 **网络教育** 都是可以被视为**一种类型的教育**，但 C. **学校教育** 选项更准确地描述了**教育的社会化**，即是在学校中进行的教育。\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社區教育'], ['B', '網絡教育'], ['C', '學校教育'], ['D', '家庭教育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺教學過程中，學生對客觀世界嘅認識主要係通過",
+    "llm_output": "C. \n\nThe answer is **C. 教師嘅指導**\n\nThis is because the question asks for the \"educational form\" (教學形態) which implies the focus is on the method of teaching. While options A and D are also important aspects of learning, they are not the most accurate descriptions of a specific educational approach. \n\nHere's why the other options are less likely:\n\n* **A. 學生嘅認識** (Student's understanding) - While understanding is important, this option is too broad. The question implies a specific method of learning.\n* **D. 學生嘅學習經驗** (Formal education) - This option refers to the general concept of learning experiences, but doesn't specify the type of learning.\n\nIn a traditional classroom setting, the most significant way students learn is through **direct instruction from the teacher** (教師嘅指導). This is why **C. 學生嘅指導** (students' guidance) is the most likely answer.\n\nLet me know if you'd like to explore other educational concepts!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '學生嘅實踐活動'], ['B', '交往'], ['C', '直接感知事物'], ['D', '間接經驗']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "為更好地指導職教集團發展，教育部於2009年出臺咗",
+    "llm_output": "C. 「學校教育」",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「關於加快推進職業教育集團化辦學嘅若干意見」'], ['B', '「教育部關於推進中高職協調發展嘅指導意見」'], ['C', '「國家中長期教育改革同發展規劃綱要」'], ['D', '「國家教育「十二五」規劃」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於一個科學嘅學業生涯規劃應該滿足嘅標準嘅係",
+    "llm_output": "C. \n\nHere's why:\n\n* **The answer is C. 「直接感知事物」**\n\nThis is because the other options are all valid aspects of a student's learning experience within a group setting:\n\n* **A. 關於加快推進職業教育嘅「十二五」規劃** (The \"Five-Year Plan\" for vocational education) refers to the overall goals and objectives of the career education program.\n\n* **B. 關於關於加緊推進中高職協調發展** (Guidance on the Development of Vocational Education) refers to a specific policy document.\n\n* **C.  **\n\nThis option is incorrect as it refers to a general concept (direct perception of things) rather than a specific standard for a scientific approach to career education.\n\n* **D. 根據學生嘅** (Based on student's) ****\n\nThis option is incorrect as it describes a general characteristic of a student-centered approach, which is not the focus of the question.\n\nThe answer choices suggest the \"guidance\" aspect is the key to the question.\n\n**C. 喺教學過程中，學生嘅科學教育規劃** (In the process of learning, a student's career education plan) ****\n\nThis answer choice is correct because it highlights the importance of **student agency** in the process. A student-centered approach to education emphasizes student engagement and ownership of their learning path.\n\n**Therefore, the correct answer is C. 根據學生嘅** (In the context of the question) **\n\n**The answer choices are asking for the \"most important\" standard, which is a bit ambiguous. While all of them are important, the question is asking for the most relevant one to the concept of career education.**\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '本人樂意全身心投入'], ['B', '本人熱切希望嘅學業生涯規劃'], ['C', '唔違法亂紀，唔違背道德'], ['D', '與長遠規劃無聯繫']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下描述有誤嘅一項係",
+    "llm_output": "The answer is **D. 與長遠規劃無關聯 (With no connection to long-term planning)**\n\nHere's why:\n\n* **A. 政策 (Policies)**:  While the \"management of education\" is a crucial aspect of education, this option describes a field of study focused on the principles and practices of education, not the specific methods of \"experiential learning\" which is a broader concept.\n\n* **B. 學生嘅學習動機 (Students' motivation to learn)**: This is a key element of educational psychology, focusing on the \"why\" of learning, not a specific standard for the field.\n\n* **C. 學生嘅學習風格 (Students' learning styles)**: This option describes individual learning preferences, which are important for educational planning but not a defining characteristic of the field itself.\n\n* **D. 學生嘅學習風格 (Students' learning styles)**: This is a key aspect of **educational psychology**, not a statement about the nature of the subject.\n\n**The correct answer is D because it's the only one that doesn't directly align with the core principles of vocational education.**\n\nThis type of question is designed to test your understanding of the key concepts within different fields of study. \n\nLet me know if you'd like to try another one! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '職業教育管理學係一門分支學科'], ['B', '職業教育管理學係一門交叉學科'], ['C', '職業教育管理學係一門人文學科'], ['D', '職業教育管理學係一門獨立學科']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺世界教育學史上，赫爾巴特被稱為「現代教育學之父」，佢嘅邊本書被公認為第一本現代教育學著作",
+    "llm_output": "答案：**C. 「教育學講授綱要」**\n\n**解釋：**\n\n* **「教育學講授」** 係一門獨立學科，但係「關於加快推進現代教育學之父」 係指「**現代教育學**」 嘅一項著作，並非指「**網絡教育**」\n\n* **「網絡教育」** 雖然與現代教育相關，但係並非指「**網絡教育**」 係指「網絡教育」 嘅一項重要著作。\n\n* 這是因為「教育學講授」 係指現代教育學 嘅現代教育「**學**」 這個學術領域，而「**關於...**」 则指该著作是关于现代教育学 \n的。\n\n* 現代教育學 嘅學術研究，主要集中在教育學科 嘅 理论和实践，而非仅仅依赖网络。\n\n* 虽然「**教育學**」 係一門學科，但係「**網絡教育**」 是一個更具體的領域，可以更詳細地描述為「**教育技術學科**」。\n\n* 因此，正確答案為 **C. 「教育學講授」** \n\n**注意：**\n\n* 雖然「教育學講授」 是一個學術領域，但它更准确地描述了该学科的**核心概念**，而非「**教育「講授」** 作为教育学的一个领域。\n\n* 答案並非完全錯誤，但**「**教育**」 這個詞语在中文中通常用作「**教育學「講授」**」的描述，而并非一个独立的学科名称。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「愛彌兒」'], ['B', '「教育學講授綱要」'], ['C', '「大教學論」'], ['D', '「普通教育學」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教師喺教學過程中起咩樣嘅作用",
+    "llm_output": "The answer is **D. 導向**\n\n**Explanation:**\n\nIn the context of education, the term \"職業教育\" refers to vocational education, which focuses on practical skills and knowledge for specific occupations. The question asks for the \"best\" description of the answer, implying that the answer should be a **person's role** in the given context.\n\n**Here's why \"導向\" (guidance) is the correct answer:**\n\n* **「職業教育之父」** translates to \"father of vocational education\" which implies a role of guidance and leadership in the field of education.\n\n**Let me know if you'd like me to explain why the other options are incorrect.** \n\nIt seems like the question is asking about the role of the student in the context of vocational education, which is why \"導向\" (guidance) is the answer choice that makes the most sense. \n\n**Please note:**\n\n* The term used in the question, **「職業教育之父」** (zuò yè jiào yù zhì zhèng), is a Chinese term for \"father of vocational education\".\n\nLet me know if you have any other questions!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主導'], ['B', '客體'], ['C', '導向'], ['D', '主體']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "企業係職業院校學生成長發展嘅環境之一，佢與職業院校學生嘅關係可以形象地概括為",
+    "llm_output": "D. 導向",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '港灣'], ['B', '競技場'], ['C', '搖籃'], ['D', '舞臺']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "針對學生具體情況，德育可以有多種開端，但係按一般教育順序，開端於",
+    "llm_output": "答案：**C. 體驗**\n\n**解釋：**\n\n雖然「針對學生」本身不是一個單獨的「學科」，但它暗示了「知」的学习过程是基于「体验」的。 \n\n赫尔巴特强调的教育理念是**「经验主义」**，即通过经验和观察来学习。 \n\n* 选项A, B, D都与教育相关，但不是针对赫尔巴特的教育学理论。\n* 选项B 是一个可能的答案，但更准确地说，**赫伯特的「教育學」** \n \n \n \n \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '行'], ['B', '意'], ['C', '情'], ['D', '知']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺教育嘅兩大功能中，教育嘅邊一功能係其本體功能，係核心功能",
+    "llm_output": "B. **C. 導向** \n\nThis is a tricky one! While \"社會\" (society) is a key element of the context of education, the answer to this question is **C. 學習目標** (Learning and Socialization) \n\nThis is because the question asks for the **core** function of education, and the answer choices are all nouns.  The answer should be a noun that describes a key function of education. \n\nOut of the options provided, \"C. 導向\" (Guidance) is the most appropriate answer as it best fits the context of education. \n\nLet me know if you have any other questions! \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '文化'], ['B', '個體'], ['C', '社會'], ['D', '政治']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺班集體中，學生通過班集體中規範化嘅組織結構，扮演各種社會角色，培養公民品質，呢說明班集體對學生發展具有",
+    "llm_output": "The answer is **B. 社會** (Socialization). \n\nHere's why:\n\n* **社會化 (Socialization)** is the correct answer because the example highlights the role of education in preparing individuals for their place in society.\n\nLet's break down the reasoning:\n\n* **A. 文化 (Cultural)** While education does contribute to a student's understanding of their culture, the example focuses on the social development aspect of education.\n* **C. 保護 (Protection)** is too narrow. While schools can provide a sense of safety and security, the question implies a broader focus on the fundamental purpose of education.\n* **B. 社会化 (Socialization)** encompasses the process of learning to function within society. It's about acquiring social skills, norms, and values, which aligns with the example's mention of \"socialized\" and \"playing various social roles\".\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '選擇功能'], ['B', '社會化功能'], ['C', '保護功能'], ['D', '個性化功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於心理素質拓展方法嘅係",
+    "llm_output": "The answer is **C. 保護功能 (Protection)**.\n\nHere's why:\n\n* **The correct answer is D. \n\nHere's the breakdown:**\n\n* **文化傳承 (Cultural Transmission)**, **社會化 (Socialization)**, and **社會控制 (Social Control)** are all functions of education, but they don't specifically describe the methods used in a classroom setting.\n\n* **D.  政治 (Political)** is not a typical answer choice for a \"core function\" of education. While education can have political implications, its core functions are more broadly focused on personal and societal development.\n\nLet me know if you'd like more examples or explanations!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '遊戲法'], ['B', '反饋法'], ['C', '調查法'], ['D', '分享體驗法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "科學嘅學業生涯規劃嘅特點唔包括",
+    "llm_output": "C",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '獨特性'], ['B', '階段性'], ['C', '綜合性'], ['D', '發展性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「分組教學」嘅分組主要係按學生嘅",
+    "llm_output": "A. 學習能力\nB. 興趣\nC. 學習風格\nD. 學習目標\n**C. 學習能力**\n\n**C. 學習能力** 係正確答案。\n\n**解釋：**\n\n* **C. 學習興趣**\n\n呢個答案最準確，因為「分組教學」本身就係一種針對學生 **學習興趣** 進行的教學方法。\n\n* **A. 學習能力**\n\n呢個選項比較接近，但係「分組教學」只係一種 **學習策略**，並非 **核心** 嘅 **學習目標**。\n\n* **學習風格**\n\n* 學生 **學習能力** 係一個**個人特質**，而 **社會化** 嘅 **功能** 係指學生可以 **學習到適應社會環境** 嘅 **方法**，例如 **學習合作、溝通和解決問題** 等，所以呢個選項比較貼近題目所指的「學習能力」。\n\n* **B. 學習能力** 係指學生 **學習** 嘅 **能力**，例如學習新知識、理解概念、解決問題等等。\n\n* **分享體驗法** 係一種 **學習方法**，但係呢個選項太 **廣泛**，因為 **學習興趣** 係 **學習** 嘅 **核心** 係 **學生** 學習 **學生** 嘅 **學習目標**，而 **分享體驗** 只是 **社會化** 的一種 **拓展** 方法。\n\n所以，答案是 **C. 學習能力**。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '學習成績'], ['B', '年齡'], ['C', '學習興趣'], ['D', '智力發展水平']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「近朱者赤，近墨者黑」，呢句話反映咗邊種因素對人嘅發展嘅影響？",
+    "llm_output": "The correct answer is **B. 環境 (Environment)**.\n\nHere's why:\n\n* **環境 (Environment)** refers to the social and physical surroundings that influence a person's development. The proverb \"近朱者赤，近墨者黑\" (\"Near the vermilion, one becomes red; near the ink, one becomes black\") directly speaks to the idea that our environment heavily shapes who we become.\n\nThe other options are incorrect because:\n\n* **A. 選擇 (Choice)**  While \"near the vermilion, near the ink\" suggests a connection between proximity and influence, it doesn't directly imply a specific \"choice\" by the individual.\n* **C. 遺傳 (Genetic Factors)** This refers to biological inheritance, not the social and environmental influences implied by the proverb.\n* **D. 政治 (Political)**  This option is incorrect as the proverb focuses on the influence of the environment on a person's moral character, not their political views.\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '社會活動'], ['B', '環境'], ['C', '遺傳'], ['D', '教育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "影響教育事業嘅發展規模同速度嘅主要因素係社會",
+    "llm_output": "D. 政治制度 \n\n**解釋：**\n\n* **意識形態** 指的是一個社會群體或個人關於世界觀、人生觀、價值觀等方面的信念和價值觀點。\n\n* **社會化因素** 影響教育事業發展嘅規模和速度，因為教育制度本身就反映著社會對知識、技能和價值觀念嘅期待和需求。\n\n* 雖然 **學習興趣** (C) 和 **教育制度** (D) 都會影響學生學習嘅積極性，但係「社會」本身就包含了社會制度、社會文化等多方面因素，而這些因素都同 **意識形態** 有關。\n\n* **分享體驗** (D) 係一種教學方法，而非一個影響教育發展嘅社會因素。\n\n所以，**D. 政治制度** 最符合題目要求。 \n\n**社會** 因素影響教育制度的發展方向，而 **政治制度** (D) 則更直接地影響教育資源分配和教育政策制定，進而影響教育事業的發展規模和速度。\n\n**分享體驗** (D) 係一個社會現象，但並非直接影響 **社會** 規模和速度的因素。\n\n**其他選項**：\n\n* **社會環境** (B) 係一個更廣泛的詞彙，可以包括 **社會文化** 和 **社會經濟** 因素。 \n\n* **經濟因素** 雖然在現實中也影響教育發展，但並非 **直接** 影響，而是一個 **間接** 因素。\n\n* **經濟制度** (A) 雖然會影響教育 **資源** 的分配，但係不包括 **學生通過分組學習發展** 嘅方面。\n\n希望以上解釋能幫助你理解答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '生產力'], ['B', '經濟制度'], ['C', '意識形態'], ['D', '政治制度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "積極引導學生家長轉變教育方式，實現對子女嘅邊種管理，使子女喺舒適、寬鬆嘅家庭環境中健康成長",
+    "llm_output": "The correct answer is **B. 經濟意識**.\n\nHere's why:\n\n* **社會活動** (Social activities) refers to activities and interactions within a society. While important for social development, it doesn't directly relate to the concept of \"management\" in the context of parenting.\n* **政治制度** (Political systems) are about how societies are governed, not about the structure of family interactions.\n* **放任 (Laissez-faire)** and **獨特性 (Individuality)** are not relevant to the context of the question.\n\nTherefore, the answer must be **(B) 因為「近墨者黑」is a Chinese proverb that emphasizes the influence of one's environment.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '放任化'], ['B', '民主化'], ['C', '專制化'], ['D', '溺愛化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺專業建設實踐中，唔屬於硬件設施嘅係",
+    "llm_output": "答案：A. \n\n**解釋：**\n\nA. 專業意識\n \nB. 課室環境\nC. 圖書館\nD. 資源\n\n**正確答案：A**\n\n**A. 專業文化** 係指專業人士嘅共同價值觀、信念、行為規範、以及專業知識同技能傳承等方面，屬於 **教育理念同策略**，而非硬件設施。 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '專業文化'], ['B', '實訓基地'], ['C', '儀器設施'], ['D', '教學場地']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「荀子·儒效」曰:「四海之內差一家，通達之屬，莫唔從服，夫之謂人師」體現咗教師職業嘅",
+    "llm_output": "B. 獨特之處",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '創造性'], ['B', '示範性'], ['C', '複雜性'], ['D', '長期性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一項屬於象徵性嘅制度設備系統",
+    "llm_output": "答案：**B. 學校制度**\n\n**解釋:**\n\n* 雖然「四海之內」可以指代廣泛的地理範圍，但更準確的說法是，它指的是 **「社會環境」** 中的教育制度，例如教育理念、政策、制度結構等。\n*  「專業文化」是 **「社會環境」** 中的一部分，涵蓋了教師的專業知識、技能、價值觀和行為準則。\n\n因此，**「學校環境」是教師職業的影響因素**，而**「教師」本身並非一種設備，而是提供教育服務的人員。** \n\n* \n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '實訓基地'], ['B', '教室'], ['C', '教具'], ['D', '學生證']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "做好心理輔導工作嘅原則唔包括",
+    "llm_output": "The correct answer is **A. 教師中心原則**.\n\nHere's why:\n\n* **教師中心原則 (Teacher-centered principle)** focuses on the teacher as the primary source of knowledge and instruction. This is the opposite of what the question is asking for.\n\nThe other options are all related to the concept of \"software\" in the context of educational systems:\n\n* **A.  (Teacher-centered principle)**  is a principle of education, not a type of system. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教師中心原則'], ['B', '面向全體學生原則'], ['C', '預防與發展相結合原則'], ['D', '尊重與理解學生原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於技術傳媒嘅一項係",
+    "llm_output": "The answer is **A. 校訓** (school motto). \n\nHere's why:\n\n* **心理輔導工作** (psychological counseling) is a concept, not a physical system.\n* **校刊** (school yearbook) and **校報** (school newspaper) are both examples of physical representations of a school's work, often including photos and student achievements.\n* **實訓基地** (training base) and **設備** (equipment/facilities) are both terms for physical places or resources used in education.\n\nThe examples provided suggest that **A. 校刊** (a physical yearbook) and **D. 學校設施** (physical facilities) are both related to the physical output of educational efforts. \n\nTherefore, the answer is **A. 校訓** (school motto). \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '校訓'], ['B', '校刊'], ['C', '校園廣播'], ['D', '校報']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育學嘅源泉係",
+    "llm_output": "答案：B\n\n**解釋：**\n\n* **B. 校訓**  (**D. 學生證**): \n\n教育學嘅**源泉**係**經驗**，係由觀察和分析實際的教育情境和現象中提煉出來的。 \n\n* **A. 校訓** 和 **C. 校園報**: \n\n雖然這些都是與教育相關，但它們是**教育活動**的一部分，而非制度設備。\n\n* **D. 校園廣播** \n\n  **(學生證** 屬於**B. 學習環境)** \n\n**正確答案：** B. 教育實踐",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '教育規律'], ['B', '教育實踐'], ['C', '教育理論'], ['D', '教育需要']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "專門教育係以（）為基礎嘅，能夠喺人嘅一般發展嘅基礎上促進人嘅特殊發展。",
+    "llm_output": "答案：C \n\n**解释：**\n\n* **C. 尊重與理解學生原則** \n\n这道题的答案是 **D** 因為：\n\n* **A. 尊重與理解學生原則** \n* **B. 教育需要** \n\n是「教育學」的重点是 **教育**，而题目中已经明确指出「教育」的范围是「一般發展」的基础上，所以答案是 **B**。\n\n* **C. \nB. 教育規律** \n\n这道题的答案是 **D. 教育**。 \n\n* **D. \n\n**D. 校報** \n\n这道题的答案是 **D**。 \n\n* \n\n**解释：**\n\n* **B. 校刊** \n\n这道题的答案是 **D**。 \n\n* **D. 职业教育** \n\n这道题的答案是 **D**。 \n\n* \n\n**C. 教育學** \n\n这道题的答案是 **D. 教育理论**。\n\n**解释：**\n\n这道题考察的是 **C** 选项的理解能力。 选项 **D** 选项是错误的，因为选项 **D. 教育** \n\n**D. \nC. 尊重與理解學生** \n\n这道题考察的是 **D. 教育** 方面的 **原则**。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '職業教育管理學係一門交叉學科'], ['B', '高等教育'], ['C', '基礎教育'], ['D', '普通教育']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "技術進步嘅核心要素係",
+    "llm_output": "C. 技術發展\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '技術開發'], ['B', '理念創新'], ['C', '技術創新'], ['D', '制度創新']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "我國封建社會官學嘅最顯著特點係",
+    "llm_output": "D.  \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '階級性'], ['B', '等級性'], ['C', '封閉性'], ['D', '壟斷性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義觀點認為，培養全面發展嘅人嘅唯一方法係",
+    "llm_output": "B. \n\n馬克思主義觀點認為，教育應該與生產勞動相結合，才能培養出真正具有社會責任的教育方法。 \n\n**C. 培養學生** **知識教育** **的社會主義教育** \n\n**Explanation:**\n\nThis question is a bit tricky! It's asking for the answer to a question about the core tenet of Marxist thought. While the answer is technically \"B\", it's important to understand why.\n\nMarxist theory emphasizes the connection between education and social and economic conditions. It argues that education is not a neutral process but is directly tied to the social and economic structures of society. \n\nTherefore, the answer to the question is **(B) \n\nThe question asks for the \"core element\" of a well-rounded education.  While option C. \"與生產勞動相結合\" (with the development of productive labor) is a key concept in Marxist thought, it's not the only concept they believe is important for education.\n\nThe core of the Marxist view on education is that it should be **(C) 促進學生與社會和經濟需要相結合** (promote the development of the student)\n\n**The \"B\" option is the most accurate answer** because it aligns with the Marxist belief that education should serve the needs of the working class and contribute to their social and economic advancement. \n\nLet me know if you'd like to know more about the concept of \"socialist education\" in the context of Marxist thought!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '城市與農村相結合'], ['B', '腦力勞動與體力勞動相結合'], ['C', '知識分子與工人農民相結合'], ['D', '教育與生產勞動相結合']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教師嘅表率作用主要體現喺",
+    "llm_output": "D. \n\n教師的表率作用主要体现在 **D. 教育与生产劳动相结合** 的方面。 \n\n**解释：**\n\n* **教師的** (Teacher's) 指的是教師在教育過程中所扮演的榜樣角色，教師的言行举止和价值观会对学生产生潜移默化的影响。\n\nThis is because the prompt mentions \"promoting special development\" which implies a focus on the broader impact of the teacher's actions on the student's overall growth. \n\nLet me know if you'd like to see more examples or have any other questions!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '舉止端莊'], ['B', '談吐文雅'], ['C', '言行一致'], ['D', '衣著整潔']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "按照選擇性分類可以把課程分為",
+    "llm_output": "The answer is **C. 選修課程** (**Xuanxiu kecheng**), which translates to **\"elective courses\"**.\n\nHere's why:\n\n* **選選修** (**Xuanxuanxiu**), **\"elective courses\"** is the correct answer as it directly refers to the core concept of \"electives\" in education.\n\n* **D. 按照課程** (**According to**) **課程** (**kecheng**) **is the Chinese term for \"course\"** or \"curriculum\".\n\nLet me know if you'd like to try another example! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '德育課程、智育課程、體育課程、美育課程同勞動技術課程等'], ['B', '地方課程同校本課程'], ['C', '必修課程同選修課程'], ['D', '分科課程與綜合課程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "中國歷史上最早專門論述教育問題嘅文獻係",
+    "llm_output": "The answer is **A. 「大學」**\n\nHere's why:\n\n* **「大學」 (Dàxué)**, which translates to \"The Great Learning\", is a Confucian text that focuses on the importance of self-cultivation and moral development. \n\nLet me know if you'd like to try another example! \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「大學」'], ['B', '「學記」'], ['C', '「中庸」'], ['D', '「論語」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "管理嘅二重性係指",
+    "llm_output": "The answer is **D. \n\n**\n\nThe answer is **D. 自然性與社會性**\n\n**Explanation:**\n\nThe correct answer is **D. 自然性與創造性**\n\nThe concept of \"管理\" (management) in Chinese philosophy and education refers to the idea of balancing the \"natural\" and \"social\" aspects of human development.\n\n* **自然性 (natural nature)** emphasizes the importance of aligning education with a student's natural inclinations and talents. \n* **社會性 (social nature)** recognizes that education also plays a role in shaping and guiding students towards a socially responsible and productive life.\n\nTherefore, option D is the correct answer as it directly reflects the core concept of the question. \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '基礎性與普遍性'], ['B', '創造性與變革性'], ['C', '科學性與藝術性'], ['D', '自然性與社會性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "班主任瞭解同研究學生嘅主要方法係",
+    "llm_output": "B \n\n**解釋：**\n\n「大學」和「中庸」都屬於中國古代的道德和知識教育範疇，而「**考覈**」就是「**評估**」的意思。 \n\n所以，正確答案是 **D. 考覈法**。\n\n**希望這個解釋能幫助你理解。**",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '觀察法'], ['B', '調查法'], ['C', '傾偈法'], ['D', '考覈法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "具有強制性、普遍性、基礎性特徵嘅係",
+    "llm_output": "D. 課程目標 \n\n\n**解释：**\n\n* **課程** (课程) 是一种教育制度的组成部分，而「教育目標」 (教育目标) 则是该制度的最终目标，包括学生应该学到的知识、技能和价值观。 \n\n* **「學習目標」 (培養目標)** 指的是学生在学习过程中希望达成的目标，而「培养」 (cultivation) 是指培养学生能力和品质的教育目标，例如知识、技能、态度和价值观等方面的目标。\n\n* **其他选项** 虽然也与课程有关，但它们不是培养目标的**核心**特征。 \n\n因此，**「課程」** (课程) 具有科学的、**普遍的** (科学性) 特征，但它不是**「課程」** (课程) 的唯一特征，所以**「課程」** (课程) 作为「学习」的「目标」 (目标) 是最合适的答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教學計劃'], ['B', '課程標準'], ['C', '培養目標'], ['D', '課程目標']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺教育學嚟睇，下列邊個選項唔僅係課堂管理研究嘅主要範疇，都係學習過程研究同教學設計研究所唔能忽視嘅重要內容",
+    "llm_output": "B. \n\n**解釋：**\n\n呢個題目考驗你對教育學中「課程標準」概念嘅理解。\n\n* **課程標準** 係一個重要的教育學概念，因為佢哋定義咗課程嘅目標、內容、評估方法等等。\n\n所以，正確答案係 **B. 教學計劃** \n\n**其他選項**\n\n* **A. 教學計劃:** 雖然 課程標準 (D) 係定義教學目標嘅重要部分，但係只係一個學習目標嘅範疇，並非所有課程都一定需要使用嘅重要內容。\n* **C. 教學環境** 係指學生學習嘅環境，例如課室環境、師生關係等等。\n\n* **D. 課程目標** 係指學生喺學習過程中應該學到嘅知識、技能和態度。\n\n* **D. 學習目標** 雖然係重要嘅，但係只係指學生學習嘅目標，而唔係老師嘅教學目標。\n\n* **D. 教學環境** 係指老師使用嘅工具和方法，例如教學媒體 (A) 係課室環境中一個重要部分。\n\n**總結**\n\n* **課程標準** 係指學生學習嘅方向和目標，而 **D. 教學內容** 係學習過程中不可或缺的一部分，因為佢哋直接影響學生嘅學習體驗。\n\n希望呢個解釋可以幫助你理解為什麼**「教學計劃」**是**「學習目標」**的其中一個範疇，而並非 **「課程」** 或者 **「學習目標」** 嘅獨立範疇。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '教學媒體'], ['B', '評價/反思過程'], ['C', '教學環境'], ['D', '教學內容']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業教育管理現代化嘅核心係實現人嘅",
+    "llm_output": "D. 現代化 \n\n**解釋：**\n\n職業教育管理的目標是幫助學生學習和掌握技能，所以**C. 學習目標** 係最符合嘅選項。 \n\n**註：**\n\n這是一個有趣的例子，展示了語言的趣味性。 \n\n* 雖然選項**C. 評價/反思過程**和**D. 學習目標** 都是正確答案，但**C. 現代化** \n \n 更加符合題目要求，因為**C. 課程管理** 是一個**錯誤**的答案，而**D. 評價/反思** \n 是一個錯誤的答案。\n\n**請注意：**\n\n* 這個例子嘅答案並非**C. 課程管理**，而是一個**更廣泛**的**C. \n\n**教育** 領域，包括**評價/反思** \n \n\n在**職業教育管理** 中，**學習目標** 是一個**重要**的**學習目標** \n \n **C. 學習目標** \n \n\n**A. 觀察法** 和 **B. 觀察法** 都是**課程** 的**B. \n \n **C. \n\n**答案**：C. \n\n**解釋**：\n\n* 課程**C. 評價/反思** \n \n **環境** \n 是指**職業教育** 中，**B. \n\n**C. 學習目標** 是一個**C. \n\n**C. 學習目標** 是一個**現代化**的 \n **C. 學習目標** \n \n \n \n **B. \n\n**B. 學習目標** \n \n **C. \n\n**C. 學習目標** \n \n \n \n **B. \n\n**C. 學習目標** \n \n \n \n **D. 學習目標** \n \n \n \n \n \n **C. \n\n**\n\n**B. 學習環境** \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n **C. \n\n**C. \n **B. \n\n**\n\n**D. \n\n**C. 學習目標** \n \n \n \n \n \n \n \n \n **B. 學習目標** \n \n **D. \n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. 學習目標** \n \n \n \n **A. 觀察** \n \n **A. 學習目標** \n \n \n \n \n \n \n \n \n \n **C. \n\n**\n\n**C. \n\n** \n \n **D. \n\n**\n\n**A. 學習** \n \n \n \n **C. 學習環境** \n \n \n \n **B. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**C. \n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**C. 學習環境** \n \n **C. \n\n**\n\n**C. \n\n**C. \n \n \n \n \n \n \n \n \n **C. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**A. \n\n**\n\n**D. \n\n**\n\n**A. \n \n **D. \n\n**D. \n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**A. \n\n**\n\n**\n\n**C",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '封建化'], ['B', '科學化'], ['C', '素質化'], ['D', '現代化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下對能力嘅分析屬於職業能力嘅係",
+    "llm_output": "D. \n\n**Explanation:**\n\nThe answer is **D**. \n\nHere's why:\n\n* **職業教育 (Professional Education)** focuses on preparing students for specific jobs or careers.\n\nThe other options are incorrect because:\n\n* **A. 培養目標 (Teaching Goals)** are too broad and encompass all aspects of education, not just a single question.\n* **B. 職業能力 (Vocational Skills)**  refers to the skills needed for a specific job, which is a general concept, not specific to a single aspect of the system.\n* **C. 學生嘅 (Students' )** is a possessive phrase and doesn't specify a type of skill.\n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '職業教育嘅培養目標'], ['B', '重視系統嘅專業知識嘅掌握'], ['C', '喺系統嘅學科教育同學術訓練嘅基礎上建立起嚟嘅一種行為能力'], ['D', '高等教育中嘅學術教育同工程教育嘅培養目標']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育最深遠嘅功能係",
+    "llm_output": "The answer is **(D) 提升個人能力** (Enhance individual capabilities)\n\nThis is a bit of a trick question! While the options A, B, and C are all important aspects of education, the most fundamental function of education is to **enhance individual capabilities**. \n\nHere's why:\n\n* **(A) 影響文化 (Culture)**: Education plays a crucial role in transmitting cultural values, knowledge, and traditions.\n\n* **(B) 影響社會 (Social)**: Education influences the social fabric by shaping individuals who contribute to society.\n\n* **(C) 提升個體能力 (C. Enhance individual capabilities)**: This option refers to the impact of education on individuals, but it's not the most fundamental.\n\n* **(D) 提升個體能力 (Enhance individual capabilities)**: This option is a bit more broad and focuses on the individual's overall growth and development, which is the core of what education aims to achieve.\n\nLet me know if you have any other questions!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '影響文化功能'], ['B', '影響經濟功能'], ['C', '影響政治功能'], ['D', '影響個體功能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業教育課程分析可劃分為邊三個階段",
+    "llm_output": "The correct answer is **D. 社會需求分析、學業分析、行業分析**.\n\nHere's why:\n\n* **社會需求分析 (Social Needs Analysis)**\n\n* **社會需求分析 (Social Needs Analysis)**\n\n* **教學分析 (Curriculum Development)**\n\nHere's a breakdown of the stages and their relevance to the question:\n\n* **社會需求分析 (Social Needs Analysis)**: This focuses on understanding the social and cultural context of the curriculum. It involves analyzing the needs of the society the curriculum is designed to serve.\n\n* **學堂管理 (Classroom Management)**: This is a key aspect of the overall process of creating and implementing a successful education program.\n\n* **學習過程** and **學習目標 (Learning Process and Learning Objectives)**: These are also important aspects of education, but they are more focused on the individual student's learning experience and the specific goals of each lesson within the curriculum.\n\n* **學習目標 (Learning Objectives)**: These are the specific, measurable, achievable, relevant, and time-bound goals that a teacher sets for a specific lesson.\n\nTherefore, option **D** is the most accurate as it encompasses the social, cultural, and educational aspects of the education process. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '行業分析、學科分析、教學分析'], ['B', '社會需求分析、行業分析、教學分析'], ['C', '社會需求分析、學科分析、教學分析'], ['D', '社會需求分析、行業分析、學科分析']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "評定學生操行係班主任工作嘅",
+    "llm_output": "C. 評價/反思階段 \n\n**C. 職業能力的評估/反思** \n\nLet me explain why:\n\nThe question asks for the correct option that represents a core function of education, particularly in the context of vocational education.\n\n* **影響文化** (Influence the culture)\n* **B. 學生** (of students)\n* **C. 現代教育** (of vocational education)\n\nWhile \"**A. 影響社會** (Influence on social)\n\nis a valid answer as a general concept, the question specifically asks for the best fit within the context of vocational education. In this case, the answer is **C. \n\n**D. 評價/反思** (vocational)\n\n**C. \n\n**is the most accurate answer because it directly addresses the core function of the **\n\n**D. \n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基礎'], ['B', '方法'], ['C', '前提'], ['D', '中心']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "管理者根據自己嘅責任同權限，藉助指示、命令等權力手段同權威，有效地指導下屬機構同人員履行其職責，實現管理目標嘅領導活動。呢係學校管理嘅",
+    "llm_output": "C. \n\n**問題：**\n\n* 學生學習能力評估中，邊個階段需要最先進行？\n* 以下哪個選項最能描述教育學中「職業教育課程」嘅概念？\n* 什麼是職業教育課程嘅\nA. 幫助學生學習特定職業技能\nB. 幫助學生掌握特定職業知識\nC. 幫助學生學習如何分析課程\n* 什麼是學校管理的\n\n**答案：**\n\n* **A. 評估** (This translates to \"evaluation function\" in English, which is the most accurate translation of \"assessment\" in this context)\n* **B. 協調** (Coordination)\n* **C. 幫助學生學習如何分析** (This translates to \"helping students learn\")\n* **D. 幫助學生學習如何學習** (This translates to \"helping students learn\" which is a more accurate translation of \"education\" in this case)\n\n**Explanation:**\n\nThe provided examples are helpful because they show that \"curriculum\" is a key concept in education. \n\nLet's break down why \"C. 什麼是**組織**\" (This translates to \"What is curriculum\") is the best answer:\n\n* **A. 幫助學生學習如何學習** (This translates to \"learning how to learn\")\n\n* **B. 學校管理** (This translates to \"school management\")\n\n* **C. 學生學習** (This translates to \"helping students learn\")\n\n* **D. 幫助學生學習** (This translates to \"helping students learn\")\n\nIt seems like the question is asking for the core focus of a curriculum, which is **C. 課程** (curriculum) in Chinese. \n\n* **D. 課程** (This translates to \"curriculum\")\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '控制職能'], ['B', '協調職能'], ['C', '組織職能'], ['D', '指揮職能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "專家分析法又稱為德爾菲法，佢嘅首輪調研係",
+    "llm_output": "A. 評價式 \n\n**解釋：**\n\n專家分析法，又稱為**德爾菲法**，係一種透過**問卷調查**，收集專家意見並進行**多輪匿名預測和反饋**嘅方法，用於預測未來或分析複雜問題。\n\n**B. 指揮職能** \n\n**解釋：**\n\n**專業意見**可以由專家們提供，用於評估學生學習情況，並非只限於學生**課程**中嘅一個部分。\n\n**正確答案：**\n\n**A. 控制**\n\n**解釋：**\n\n**學生行為**分析可以包括學生對學習目標的理解、目標設定和實現嘅評估。\n\n**解釋：**\n\n**A. 經驗性預測** \n\n**社會需求**分析、**學生學習情況**評估和**學生**的**專業發展**，以及**學生**的**學習動機**和**學習策略**分析，都屬於**管理者**在教育學中需要考慮的**課程**設計和教學方法方面**的** **工作範圍**。\n\n**A. 評估** \n\n**解釋：**\n\n**評估**係 **課程**設計嘅一個重要部分，但係**不是** 核心部分，所以**不是**正確答案。\n\n**D. 評估** \n\n**解釋：**\n\n**控制**和**指令**都可能存在於一個課程中，但**D. \n\n**D. 學生學習**\n\n**B. 學生**\n\n**A. 評估**\n\n**B. 政治**\n\n**B. 政治**\n\n**A. \n\n**A. 溝通**\n\n**A. 溝通**\n\n**B. 溝通**\n\n**A. 評估**\n\n**D. \n\n**A. \n\n**A. 溝通**\n\n**B. \n\n**\n\n**D. \n\n** **\n\n**A. 經驗**\n\n**A. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**D. \n\n**D. \n\n**D. \n\n**D. \n\n**B. \n\n**\n\n**A. \n\n**A. \n\n**B. \n\n**\n\n**A. \n\n**D. \n\n**D. \n\n**\n\n**C. \n\n**D. \n\n**D. \n\n**A. \n\n**\n\n**A. \n\n**\n\n**C. \n\n**\n\n**B. \n\n**C. \n\n**C. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**A. \n\n**D. \n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. 經驗**\n\n**B. \n\n**\n\n**C. \n\n**\n\n**B. \n\n**\n\n**D. \n\n**\n\n**B. \n\n**\n\n**D. \n\n**\n\n**B. \n\n**\n\n**B. \n\n**\n\n**B. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**B. \n\n**\n\n**C. \n\n**B. \n\n**D. \n\n**B. \n\n**\n\n**C. \n\n**\n\n**B. \n\n**\n\n**A. \n\n**\n\n**社會環境**\n\n**B. \n\n**\n\n**A. \n\n**B. \n\n**\n\n**D. \n\n**\n\n**B. \n\n**\n\n**B. \n\n**\n\n**B. \n\n**\n\n**B. \n\n**\n\n**D. \n\n**\n\n**A. \n\n**\n\n**D. \n\n**\n\n**B. \n\n**\n\n**B. \n\n**\n\n**B. \n\n**\n\n**A. \n\n**\n\n**A. \n\n**\n\n**B. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**B. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**D. \n\n**D. \n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '開放式'], ['B', '重申式'], ['C', '封閉式'], ['D', '評價式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺師生關係上持「教師中心論「嘅係以邊個為代表嘅傳統教育派師生觀",
+    "llm_output": "The answer is **(B) 學生**\n\nHere's why:\n\n* The question refers to a specific concept in education: **\"教師中心\"** translates to \"teacher-centered\" and the answer is **(C) 組織職能** which translates to \"organizational function\". \n\nThe examples you provided show the answer is the **\"名詞\"** (noun) in the question. This means the answer to the question is **\"C. 評價職能\"** (evaluation/assessment function) because the teacher is directing the learning process by providing guidance and structure. \n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '赫爾巴特'], ['B', '誇美紐斯'], ['C', '洛克'], ['D', '杜威']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺一所職業院校，任何事情都由校長做主，體現咗權力嘅",
+    "llm_output": "答案：D. \n\n**Explanation:**\n\nThe answer is **D. 權威化** (authoritarian)\n\nThe question refers to the \"teacher-centered\" approach to education, which is a traditional teaching method. This method emphasizes the teacher as the primary source of knowledge and focuses on teacher-led instruction. \n\n* **A. 學校** (School)\n* **B. 學生** (Students)\n* **C. 學校** (School)\n* **D. 權限** (Authority)\n\n**答案：D. 權威化 (authoritarian)**\n\n**Why the answer is correct:**\n\nThis question is asking about the \"authoritative\" aspect of education, which is directly related to the term \"authoritarian\" in the answer choices. \n\n**Why the other options are incorrect:**\n\n* **A. 權威化** (Authoritarian) is the correct answer because it aligns with the concept of \"teacher-centered\" education.\n\n* **B. 協調** (Coordination) and **C. 學生** (Students) are not the best fit for the specific context of the question.\n\n**The question is likely asking about the nature of the \"teacher-centered\" approach, which is a more general term. The answer choices are likely referring to the type of learning environment, not a specific type of school.**\n\n* **A. 學生** (Students) is incorrect because it refers to a general concept of \"students\" and not the specific teaching style.\n\nLet me know if you'd like to explore more about the different types of learning environments!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '集中化'], ['B', '統一化'], ['C', '分層化'], ['D', '權威化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於學生心理疲勞特點嘅係",
+    "llm_output": "The correct answer is **C. 失眠** (Sleep deprivation).\n\nHere's why:\n\n* **The prompt indicates a focus on the \"students' perspective\"**  The prompt asks \"以...為代表\" which translates to \"represents\" or \"from the perspective of\". This implies the question is about the characteristics of a student-centered approach, not a symptom of sleep deprivation.\n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '注意力渙散'], ['B', '失眠'], ['C', '精神唔振'], ['D', '記憶力下降']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於各國職業教育管理相同嘅發展方向嘅係",
+    "llm_output": "The answer is **C. 單一主體**.\n\nHere's why:\n\n* **A. 中央** (Centralized) and **B.  D. 記憶力下降** (Memory Decline) are both incorrect because they describe a specific type of education system (like the one mentioned in the first example).\n\n* **A. 學校管理** (School Administration) is a broad term and encompasses many aspects of education, not a specific development direction.\n\n* **C. 學校** (School) is the most likely answer.  While **\"D. \nSchool\"** is a part of the education system, it's too broad and doesn't specifically refer to a particular development direction.\n\nLet me know if you have any other questions!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '中央同地方合作開展管理'], ['B', '依法實施管理'], ['C', '單一主體參與'], ['D', '管理方式趨向多樣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "從課程嘅表現形式嚟睇，校園文化屬於",
+    "llm_output": "答案：B\n\n**解釋：**\n\n校園文化是 **C. 隱性課程** 的例子。 \n\n* 隐性课程是指在学校教育中，通过学校的社会环境、师生关系、课程内容和教学方式等非正式的途径中，传递给学生的一种价值观、态度和行为方式的学习。 \n\n其他选项解释：\n\n* **A. 中央** 选项描述了学校管理的结构，而不是校本课程的本质。\n* **D. 综合** 选项描述了跨学科和实践性学习的结合，而并非课程表现形式的本质。\n\n**B.  校本课程** 是一种根据学校和学生需求定制的课程，并非指一种特定的表现形式。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '校本課程'], ['B', '隱性課程'], ['C', '顯性課程'], ['D', '綜合課程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「教學相長」思想出自我國古代邊部典籍",
+    "llm_output": "The answer is **B. 「論語」** (Lunyu, also known as the Analects).\n\nThe concept of \"teaching and learning go hand in hand\" (教學相長) is a core principle of **progressive education**, which emphasizes the importance of student-centered learning and collaboration. \n\nThis concept is most closely associated with **John Dewey** and his philosophy of education. \n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「學記」'], ['B', '「論語」'], ['C', '「中庸」'], ['D', '「大學」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個因素唔屬於教育要素",
+    "llm_output": "D. 教育影響 \n\n教育影響是教育的結果，而不是教育本身的要素。 \n\n**教育的要素通常包括：**\n\n* **學習者 (C):** 这是指接受教育的对象，例如学生。\n* **教師 (B):** 这是指指导和教授学习者的人，例如老师。\n* **教学内容 (A):** 包括课程知识、技能和价值观。\n* **教学目标 (A):** 指的是通过教育希望达到的目标。\n\n**其他教育要素包括：**\n\n* **教學目標 (A):** \n  * 學習者需要學習的知識、技能和態度\n* **教學方法 (B):** 教师使用的策略和方法\n* **學習環境 (D):** 包括学校设施、教学资源和师生关系等\n\n希望以上解释清楚！",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教育形式'], ['B', '教師'], ['C', '學習者'], ['D', '教育影響']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "技術嘅靈魂體現喺對（）嘅價值追求上。",
+    "llm_output": "D. 記憶力下降 \n\n**解釋：**\n\n* **教育文化** 是一個廣義的概念，涵蓋了教育的整体氛围和价值观，包括学校的文化氛围、教学方法和课程内容。 \n* 因此，「**單一**」**A. 技術** **不屬於** 导致学生疲勞的因素。\n\n**學生文化** 是一個更為廣泛的社會文化概念，而 **「大學」** \n**A. 論語** \n\n**「** \n**D. 學習者** \n 是一個抽象概念，並非直接描述的教育要素，但係 **學習者** \n**C. 學習者** \n**D. 學習者** \n\n**C. 學習者** \n**D. 學習** \n**D. 學習者** \n**B. 學習者** \n**C. 學習者** \n\n**C. 學習** \n**D. 記憶** \n\n* **「大學」** \n**B. 學校** \n**C. 教師** \n**D. 教師** \n**C. 學生** \n**B. 屬於** \n\n**D. 記憶** \n**D. 學生** \n**C. 學習** \n**D. 學習** \n**D. 學習者** \n**D. 學校文化** \n\n**D. 學校** \n\n**D. 學校** \n**D. 記憶** \n**C. 學生** \n**D. 記憶** \n\n* **D. 學校** \n**C. 記憶** \n\n**D. 學校** \n**C. 學校** \n**D. \n\n**C. 學習者** \n\n**D. \n\n**D. 學習者** \n**B. \n\n**D. 學校** \n\n**C. 學校** \n\n**D. 學習者** \n\n**D. 記憶** \n\n**C. 學校** \n**D. \n\n**D. \n\n**B. 學校** \n**D. \n\n**B. \n\n**D. \n\n**D. 學生** \n\n**D. 學校** \n**B. 教師** \n**C. 教師** \n**B. 記憶** \n**D. \n\n**D. 學校** \n**D. 學校** \n**B. 學校** \n**D. 記憶** \n\n**B. 學校** \n**D. \n\n**\n\n**C. 記憶** \n**B. \n\n**B. 學校** \n**C. \n\n**D. 學校** \n**B. 記憶** \n**B. 教師** \n\n**D. 記憶** \n**B. \n\n**B. 記憶** \n\n**C. \n\n**D. 學生** \n**D. 學生** \n**B. \n\n**D. 記憶** \n**B. 學校** \n**B. 學校** \n**B. 學生** \n**B. \n\n**B. 學校** \n\n**B. 學校** \n**D. \n\n**D. \n\n**B. \n\n**D. \n\n**D. 記憶** \n\n**D. \n\n**B. \n\n**D. 記憶** \n\n**B. 學生** \n\n**B. \n\n**D. \n\n**B. \n\n**D. \n\n**D. \n\n**D. 學校** \n\n**B. \n\n**D. \n\n**D. 學生** \n**D. \n\n**D. \n\n**D. \n\n**D. \n\n**D. \n\n**B. \n\n**D. \n\n**D. 學生** \n\n**D. \n\n**D. \n\n**D. \n\n**B. \n\n**B. \n\n**D. \n\n**D. \n\n**D. \n\n**D. \n\n**B. \n\n**D. \n\n**B. \n\n**\n\n**D. \n\n**B. \n\n**D. \n\n**D. \n\n**D. \n\n**D. \n\n**B. \n\n**D. \n\n**D. \n\n**D. \n\n**D. \n\n**D. \n\n**D. \n\n**D. \n\n**D. ",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '技術文明'], ['B', '技術至上'], ['C', '技術創新'], ['D', '技術博弈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於現代中職學生「3+1」綜合素質發展性評價模式嘅主要內容嘅係",
+    "llm_output": "The answer is **C. 技術博弈**.\n\nHere's why:\n\n* **技術博弈 (Technical Game)** is not a concept directly related to the \"教學相長 (Teaching and Learning Together)\" philosophy. \n\nLet's break down the answer choices:\n\n* **A. 中央同地方合作** (Centralized and Localized Cooperation) - This is a general concept of collaboration and doesn't specifically refer to the 3+1 model.\n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '多維嘅評價目標'], ['B', '多樣嘅評價體系'], ['C', '多層嘅評價內容'], ['D', '多元嘅評價主體']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "漢語中最早將「教」同「學」連用係喺戰國時期嘅邊本著作",
+    "llm_output": "C. 「禮記·學記」 \n\nThe correct answer is **C. 「說文解字」** (Shūoyǔ Jiězì), which is a text about the meaning of Chinese characters.\n\nLet me explain why:\n\n* **C. 「大學」** (Dàxué) is a section from the *Daxue* (大學), a classic Confucian text, that focuses on the importance of self-cultivation and moral development in education.\n\nThe other options are incorrect because:\n\n* **「3+1」** refers to a specific type of curriculum structure, not a single text.\n* **「論語」** (Lunyu) is the name of the entire book, which is a collection of sayings and teachings attributed to Confucius, not specifically to the concept of \"learning by example\".\n* **「學記」** (Xueji) is a section from the *Analects of Confucius* (論語) that focuses on the importance of learning and self-cultivation, not the concept of \"learning by the \"3+1\" model.\n\nLet me know if you'd like to try another one!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「孟子·盡心上」'], ['B', '「禮記·學記」'], ['C', '「論語」'], ['D', '「說文解字」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "我國嘅「教師資格條例」係喺邊度頒發嘅",
+    "llm_output": "The answer is **D. 1995年**.\n\nThis is because the question asks for the answer in the context of \"我國\" (our country), implying a reference to the PRC (People's Republic of China). \n\nThe \"teacher's qualification\" concept is a modern one, and the \"modern\" timeframe of the question suggests a modern document. The \"teaching\" and \"learning\" aspects of education are unlikely to be found in a single ancient text, but rather in a variety of them.\n\nTherefore, the answer is likely to be **D. 1995年**, as this is the year the concept of \"教學相長\" (teaching and learning mutually promote each other) was first introduced in the modern context. \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1950年'], ['B', '1993年'], ['C', '1985年'], ['D', '1995年']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "學與教過程中有意傳遞嘅主要信息部分係",
+    "llm_output": "答案：**A** \n\n**解釋：**\n\n* **學習目標** 是「3A」中「學習」和「教」的**「教」**的對象。 \n\n其他選項不正確，因為它們描述的是教育的**其他方面**，而不是「學與教」本身。 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '教學方法'], ['B', '教學內容'], ['C', '教學媒體'], ['D', '教師']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "根據下列邊一項嚟揀課程類型係職業學校專業治理嘅重要方面",
+    "llm_output": "C. \n\nThe answer is **C**. \n\nThe prompt mentions \"student's level\" as a factor in choosing a course type, implying that the focus is on the **variety of learning levels** within the context of the \"vocational school\" setting. \n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '專業特點'], ['B', '教育目標'], ['C', '社會需求'], ['D', '學生水平']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於無形嘅職業院校制度文化嘅一項係",
+    "llm_output": "答案：**A. 根據學生嘅學習能力和興趣，以及社會需求選擇適合學生學習的課程類型** \n\n**解釋：**\n\n這題的重點在於「職業院校文化」的「制度」部分，而不是單純的「教學方法」或「學生水平」。\n\n* **職業院校文化** 包括了學校的價值觀、理念、傳統、規範等，這些都是有形或無形的，並非根據單一課程類型而定。\n\n* **「綜合」** 係指評估方法會考慮學生在學習過程中各方面嘅表現，例如學習態度、課堂參與度、作業完成情況等等。\n\n* **「社會需求」** 係指社會需要嘅不同類型嘅教師會考慮學生嘅整體發展，例如社會責任、社會參與等等。\n\n* **「學與教」** 這個詞組本身就代表了學生的學習和教師的教學，而「學與教」的課程類型並非指的教師評估學生學習能力和課程內容，而是指 **學生學習的課程** 的概念，例如社會學、教育學等等。\n\n因此，D 選項「根據學生能力和興趣，以及社會需求**」 才是最符合題意的答案。\n\n**「根據」** 這個詞語在這個語境下，指的是評估方法的評估標準，而這些標準通常是多樣化的，並非只局限於「教師評估學生學習能力和興趣」的單一課程中，而是在所有課程類型中都應考慮的因素。\n\n**「學生的學習能力和教師的教學方法」** 是一個更符合「3+1」概念的學習方式，所以這個選項更符合「學生學習」的範疇。\n\n**請注意：** 這個問題並非完全符合原有的「教學方法」和「學生學習」的範疇，因為它需要更具體的答案。\n\n**更準確的題目可能為：**\n\n* **問題：** 以下哪個選項 **不屬於** 職業學校教育的重點信息？\n    * A. 學生學習的目標\n    * B. 學生學習的興趣\n    * C. 學校的社會責任\n    * D. 學生學習的課程類型**\n\n* **問題：** 以下哪個選項 **不屬於** 學校教育的目標？\n    * A. 培養學生專業技能\n    * B. 學生學習的社會影響\n    * C. 學校的教學資源\n    * D. 培養學生學術知識和社會責任**\n\n* **問題：** 以下哪個選項 **不屬於** 職業院校的課程類型？\n    * A. 職業訓練\n    * B. 職業輔導\n    * C. 職業評估\n    * D. 職業學校的教學目標**\n\n    \n    \n    \n    \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '羣體行為規範'], ['B', '後勤管理制度'], ['C', '學生工作制度'], ['D', '人事制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "古希臘嘅蘇格拉底所提倡嘅教學法係",
+    "llm_output": "The answer is **D. 辯證法 (Dialectic)** \n\nIt seems you're asking for the answer in the context of Chinese philosophy.  \n\nLet me explain why:\n\n* **Socratic Method:** This method, named after Socrates, is a form of cooperative argumentative dialogue between the students and teacher. This is the correct answer in the context of your question.\n\n* **Teaching Materials:** While important, options A and C are not specific enough to be the \"main\" defining features of a specific teaching method.\n\n* **Teaching Methods:** This refers to the general approach to teaching, not a specific method.\n\n* **Teaching Materials:** This is too broad. The question asks for a specific aspect of teaching, not just a general term.\n\nTherefore, the answer to your question is **D. 辯證法 (Dialectic)**. This is because the concept of the Socratic method is directly related to the idea of teaching through dialogue and critical thinking, which aligns with the principles of dialectical thought. \n\nLet me know if you have any other questions!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '實踐法'], ['B', '陶冶法'], ['C', '講授法'], ['D', '產婆術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "技術文化景觀係以下列邊一項為核心嘅",
+    "llm_output": "答案：**D. 技術理念** \n\n**解釋：**\n\n雖然職業學校會考慮到「學生水平」和「技術類型文化」，但技術文化係以**技術**為核心。 \n\n技術院校類型制度** (vocational education and training system) ** 係指一個學校或教育機構所擁抱的關於技術技能和知識的價值觀、信念和行為規範的整體體系。 \n\n所以，最符合題意嘅答案係**D. 學校類型文化**。 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '技術傳媒'], ['B', '技術理念'], ['C', '技術發展'], ['D', '技術規範']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "現代教育與傳統教育嘅根本區別喺於",
+    "llm_output": "答案：A\n\n**解釋：**\n\n現代教育最主要嘅核心價值係 **A. 創新** \n\n**C. 學生水平** 係一個正確答案，因為 **現代教育** 嘅一個重要目標係 **培養學生嘅批判性思維、創造力同創新能力**。\n\n**其他選項** \n\n* **B. 傳統教育** 嘅目標係 **傳遞知識**，但係**講授** 係 **現代教育** 嘅一個 **核心價值**，但係 **並非** 核心 **區別**。\n\n**解釋**\n\n* 傳統教育通常強調 **記憶和重複**，而現代教育則更注重 **學生主動學習和探索** 能力。\n\n**請注意：**\n\n* 現代教育 嘅目標 **不只限於** 僅僅 係 **講授** 知識，而 係 **培養學生成為獨立學習者**，例如 **批判性思維、創造力、解決問題和溝通能力** 等等。\n\n希望呢個答案可以幫到你！",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '創新能力嘅培養'], ['B', '想象能力嘅培養'], ['C', '思維能力嘅培養'], ['D', '實踐能力嘅培養']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "馬斯洛需求層次理論最高層嘅係",
+    "llm_output": "D. \n\nThe correct answer is **D. 自我實現需求**.\n\nMaslow's Hierarchy of Needs is a psychological theory that describes human needs as a hierarchy. The highest level of this hierarchy is **Self-Actualization**, which represents the need to fulfill one's potential and achieve self-fulfillment. \n\nLet me know if you'd like to know more about the different levels of Maslow's Hierarchy!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '安全需求'], ['B', '生理需求'], ['C', '自我實現需求'], ['D', '尊重需求']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於教育教學設施嘅一項係",
+    "llm_output": "The answer is **C. 學生活動中心 (Student Activity Center)**.\n\nHere's why:\n\n* **Maslow's Hierarchy of Needs** focuses on the psychological needs of individuals. While a student activity center promotes overall well-being, it's not directly related to the core elements of education and learning that are represented by the options provided.\n\nThe other options (A. 體育館 (Gymnasium), B. 尊重需求 (Respect Needs), D. 學生工作制度 (Student Work System)) are more aligned with traditional educational concepts, but they are not specific to the *highest* level of Maslow's theory.\n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '體育館'], ['B', '實驗設備'], ['C', '商務中心'], ['D', '學生活動中心']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教師自覺利用環境同自身因素對學生進行薰陶同感染嘅德育方法係",
+    "llm_output": "A. 榜樣示範法 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '榜樣示範法'], ['B', '實際鍛煉法'], ['C', '指導自我教育法'], ['D', '陶冶教育法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業學校要對社會未來人才需求進行預測，呢反映咗職業院校專業設置下列邊一項嘅要求",
+    "llm_output": "D.  **D. 尊重** \n\n**解釋：**\n\n* 這個問題嘅答案係 **D. 尊重**。\n\n* 職業學校要根據社會未來人才需求進行課程設計，而教師認為 **D. 尊重** 係一種 **德育方法**，呢個答案就符合題目要求。\n\n* 教師在職業學校中扮演著引導學生 **自我教育** 嘅角色，所以 **D. 係社會** \n**D. 尊重** \n\n**注意：**\n\n* 這個例子展示了 **教育** 應該 **符合社會需求** 嘅概念。 \n\n* **職業院校** 嘅核心目標之一係為社會 **提供特定技能** 嘅 **訓練**，所以 **D. 自行** \n**D. 針對社會** \n**需求** 嘅 **教育** \n**需求** 係一個抽象概念，而 **自我實現** \n**教育** 係一個 **更具體** 嘅目標，例如 **D. 尊重** \n**D. 學生** 嘅 **學習** \n**感染** 係一個 **過程** \n\n**D. 薰陶** \n**學生** 嘅 **社會文化** \n**背景** 係 **社會文化** \n\n**D. 尊重** 係 **D. \n\n**社會文化** 係一個 **抽象概念**，而 **教師** \n**\n\n**總結：**\n\n* **D. 尊重** \n\n**社會文化** 係一個 **核心** 嘅 **社會心理學** \n\n**指導\n\n**\n\n**因此，\n\n**學習** \n**學習** \n\n**D. \n\n**指導** \n**\n\n**\n\n**需要\n\n** \n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**社會文化\n\n** \n\n**社會\n\n** \n\n**\n\n**\n\n**\n\n**社會文化** 係 **社會文化** \n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**需要** \n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '穩中求活原則'], ['B', '超前性原則'], ['C', '特色性原則'], ['D', '按需設置原則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育嘅文化功能，最根本嘅就係實現文化嘅",
+    "llm_output": "D. 创新 \n\nThe correct answer is **D. 创新 (chuān duō - innovation)**. \n\nHere's why:\n\n* **文化保存 (wén huà bǎo cún - cultural preservation)** is a function of traditional education, not modern education.\n\nThe other options are not as relevant to the cultural function of education as the question implies:\n\n* **安全需求 (ān quán xū yào - safety needs)** are important for all societies, but the question asks about the \"cultural function\" specifically.\n* **社会需求 (yān xū xī yǐng - social needs)** are also important for a society's well-being, but the question is asking about a specific aspect of education.\n\nThe question likely refers to the role of education in a modern society. While all the options could be argued to have a cultural component, **文化性 (wén huà xìng - cultural nature)** is the most fundamental aspect of education being highlighted.\n\nLet me know if you'd like to explore more about the concept of \"cultural innovation\" in education.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '選擇'], ['B', '保存'], ['C', '延續'], ['D', '創新']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "1806年，德國赫爾巴特（J．F．Herbart）出版邊一本書被譽為教育學獨立嘅標誌",
+    "llm_output": "答案：**A** \n\n(1806年出版的「**1806年，德國教育學家赫爾巴特出版了**「**教育學**」**。)\n\n**解釋：**\n\n這是一個關於「教育學」歷史的知識性問題。 1806年，約翰·弗里德里希·赫爾巴特（Johann Friedrich Herbart）出版了**「教育學」**，這本書被認為是將教育學確立為一門獨立學科的里程碑。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「普通教育學」'], ['B', '「論演說家嘅教育」'], ['C', '「教育學」'], ['D', '「新教育大綱」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔能體現職業院校精神文化嘅一項係",
+    "llm_output": "答案：A\n\n**解釋：**\n\n* 職業學校嘅精神文化包含多個方面，例如：\n\n    * **專業性:** 學校提供專業技能訓練，幫助學生為未來工作做好準備。\n    * **實踐性:** 學校注重實踐教學，讓學生將理論應用到實際工作中。\n    * 學生導向\n\n    * 以及实践经验的分享和傳承等。\n\n* 雖然「校園環境」可以幫助塑造學校文化，但它本身並非「職業院校精神」嘅直接体现，而是间接影响学生学习和成长的因素。\n\n    * 因此，D. 「學校風氣」最能反映學校的「文化」** \n\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '校園環境'], ['B', '羣體意識'], ['C', '辦學理念'], ['D', '學校風氣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "現代學制中，雙軌學制嘅典型代表係",
+    "llm_output": "B.  前蘇聯 \n\n**Explanation:**\n\nThe \"double-track system\" is a term often used to describe the education system in countries like **B. 美国 (USA)**. This system typically involves:\n\n* **Academic Track:** Focusing on traditional academic subjects, leading to university entrance.\n* **Vocational Track:** Focusing on practical skills and training for specific occupations.\n\nThis system is designed to offer students a choice between focusing on academic studies for college/university or vocational training for direct entry into the workforce.\n\n**Please note:** The term \"雙軌\" (double-track) is often used to describe the system in the context of **China**, where it refers to the dual system of education. \n\nIt's important to understand the context of the question. While the term \"double-track system\" is commonly associated with China's educational system, the concept itself is not unique to China.  Many countries have different types of educational pathways, and the term \"雙軌\" specifically refers to the system in China.\n\n**Therefore, the answer is D. 美国 (USA).** \n\n**Note:** While the term \"雙軌\" (double-track) is often used in the context of China's system, the question is asking for the **typical** example of a \"雙軌\" system, and the answer is **C. 中国 (China)**.\n\nThis is because the \"double-track\" system is a common way to describe a system where there are distinct academic and vocational pathways.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '中國'], ['B', '前蘇聯'], ['C', '西歐國家'], ['D', '美國']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "政校企一體化嘅辦學或者服務模式，其主導係",
+    "llm_output": "D. 學校\n \n \n \n 學校精神\n\n**解釋：**\n\n雙軌學制（Dual education system）是一種將理論學習與實踐培訓結合的教育模式。**雙軌學制** 是一種結合 **學校教育** 和 **企業實習** 的教育模式，所以 C 選項是正確答案。\n\n**更詳細的解釋：**\n\n* **A. 校園環境**  \n \n* **B. 政府主管部門** \n* **C. 學校**\n\n**解释：**\n\n这道题的答案是 **C. 政府主管部門**。\n\n* **為什麼？**\n\n因為 C. 政府主管部門 虽然参与了双轨制教育模式的制定，但**並非**雙軌學制的精神核心。 \n\n**D. 學校** **精神**\n\n**C. \nC. 以下就係關於雙軌教育的描述，請選擇最能代表** **雙軌教育** **的** **一項** **選項**\n\n* **D. 學校風氣** \n\n**解釋：**\n\n這是一個**選擇題**的例子，它需要你選擇最能**代表**職業學校精神**的**一項** **选项**。\n\n**解释：**\n\n这道题的答案是**C. 企業**。\n\n**C. 學校**\n\n* **為什麼？**\n\n这道题的答案是**D. 學校**\n\n**C. \n**\n\n**D. \n**\n\n**為什麼？**\n\n* **解釋：**\n\n**D. 學校**\n\n**C. 政府主管部門**\n\n**C. 政府主管部門** \n\n**D. 現代學制** **中，** **C. 學校** **最能代表** **以下** **A. 政府** **B. 學校** **C. 學校** **和** **D. 社會**\n\n* **C. 政府**\n**D. 政府**\n\n**的** **一項** **關鍵元素**\n\n**是** **企業** **的**\n\n**需求**\n\n**。**\n\n**企業** **的** **一項** **的** **意義** **是** **教育** **的** **目標**\n\n**D. 需求**\n\n**的** **目標** **是** **企業** **的**\n\n**C. \n\n**以下** \n\n**是** **企業** **的** **目标** **，** **以下** **解释**\n\n**C. \n\n**是** **以下** \n\n**的** **典型代表**\n\n**D. \n\n**C. \n\n**是** **社會** **的** **社會** **。**\n\n**以下** **的** **C. \n\n**的** **例子**\n\n**\n\n* **教育** **的** **例子**\n\n**\n\n**D. \n\n**社會** **的** **\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**的**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n** \n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '教育部門'], ['B', '政府主管部門'], ['C', '企業'], ['D', '職業院校']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "各種生產力要素中最具有活力同彈性嘅部分係",
+    "llm_output": "The answer is **A. 人力資源** (Human Resources).\n\nHere's why:\n\n* **人力資源** refers to the people involved in the educational process, particularly teachers, professors, and administrators. These individuals are the driving force behind the educational process, providing instruction, guidance, and support to students.\n\n* **物質文化** (Material Culture) is a bit of a trick answer. While physical environments and resources can influence the learning experience, they are not the most fundamental aspect of the \"vocational education\" system.\n\n* **「** **群體文化** **」** (Group Cultural) is a good guess, as it relates to the social and educational environment of a school.\n\n* **「** **教育的社會化** **」** (Socialization of Education) is a concept related to the social role of education, but not directly related to the core of the \"vocational education\" system.\n\n* **The cultural aspect of \"human resources\" in education** encompasses the values, beliefs, and practices that shape the educational experience. It's the concept of the \"culture\" within a vocational school.\n\n* **The most important aspect of a \"vocational education\" system is the \"culture\" of the institution itself.** This includes the values, attitudes, and expectations that are shared by the students, teachers, and administrators. It's the shared understanding of what is important in the context of vocational education.\n\nTherefore, the most accurate answer to the question, considering the context of \"vocational\" education, is **A. 人力资源** (Material Culture). \n\nThis is because the \"culture\" of a school is often defined by its **curriculum**, which is directly influenced by the **values and beliefs** of the institution. These values and the resulting **teaching practices** are what make the \"culture\" of a school unique.\n\nLet me know if you'd like to explore more about the concept of \"Material Culture\" in the context of education.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人力資源'], ['B', '知識資源'], ['C', '財務資源'], ['D', '實物資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "人喺環境嘅影響下，引起嘅內在心理同心理變化嘅外在反應稱為",
+    "llm_output": "The answer is **B. 認知**.\n\n**Explanation:**\n\nThe term \"職業院校精神文化\" (zhi ye xué yuàn jīng shén wén huà) translates to \"vocational school spirit\" and refers to the **cognitive** aspect of the learning process. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '認知'], ['B', '動機'], ['C', '行為'], ['D', '情感']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "最早提出教師係一種專門性職業思想嘅係",
+    "llm_output": "答案：B \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '布魯納'], ['B', '赫爾巴特'], ['C', '德魯克'], ['D', '李伯曼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺影響個體發展嘅因素中，個體發展嘅生物前提同物質基礎係",
+    "llm_output": "The answer is **B. 經濟環境 (Economic Environment)**. \n\nHere's why:\n\nThe prompt mentions \"最早提出教師係一種...\" which translates to \"Who first proposed that...\" in English. This indicates the question is asking about the underlying concept of the \"teacher's role\" in a specific context. \n\nWhile the examples you provided suggest the answer might be related to management or a specific person (like a theorist), the prompt itself focuses on the \"環境 (environment)\" as the key factor. This makes **C. 政府 (Government)** the most likely answer.\n\nLet me know if you have any other questions you'd like help with!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '環境'], ['B', '個人主觀能動性'], ['C', '遺傳'], ['D', '教育']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "社會資源嘅基本類型唔包括",
+    "llm_output": "D. 文化資源 \n\n**解釋：**\n\n雖然社會資源包含許多與教育相關嘅要素，但 \"社會資源\" 係一個涵蓋範圍廣泛嘅概念，並非教育學嘅一個**基本類型**。\n\n**社會化** 係一個社會學概念，描述一個人學習成為社會成員嘅過程，例如融入社會、理解社會規範同社會價值觀，呢個過程涉及到學習社會行為、價值觀同信念，並非只由 \"B. 政治資源\" 涵蓋。\n\n其他三個選項 (A. 經濟資源、B. 經濟資源、C. 政府資源) 都是影響教育發展嘅重要因素，但並非所有教育學概念都包含呢些要素。 \n\n**正確答案應該係 \"政治資源\" 因為**\n\n* **社會資源** 係指由社會提供給教育機構和個人的資源，例如：\n\n    * **資金**: 政府會為教育機構提供資金，但並非所有學校或機構都擁有充足嘅資金。\n    * **社會支持**: 家庭、社區和社會文化對教育政策嘅接受程度和支持程度會直接影響教育資源嘅分配。\n    * **社會文化環境**: 社會文化價值觀和傳統會影響教育嘅目標和內容。\n\n    **所以，社會資源本身並非一個獨立嘅 \"教育\" 範疇，而係一個更廣泛嘅社會學概念。**\n\n    **希望呢個解釋清楚！** \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經濟資源'], ['B', '政治資源'], ['C', '教育資源'], ['D', '文化資源']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於職業學校制定完整而規範嘅內部管理制度時應考慮嘅因素嘅係",
+    "llm_output": "The answer is **A. 經濟資源** (Economic Resources).\n\nHere's why:\n\n* **The question asks for what is NOT considered when developing an internal management system.**\n\n* **經濟資源** (Economic Resources) is a distractor in this case. While important, a school's internal management system focuses on the internal workings and doesn't directly address the internal factors of the students.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '嚴格而規範地落實所制定嘅各項規章制度'], ['B', '充分考慮學生因素'], ['C', '充分考慮學校因素'], ['D', '強化各類管理人員關心愛護學生嘅責任意識']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "要做好心理輔導工作，唔能遵循嘅原則有",
+    "llm_output": "A. \n\n**Here's why:**\n\n* **A. 教師** **(Teacher)**  is the correct answer.\n\nWhile all the options relate to principles of education, the most accurate answer in this case is **C. 尊重與理解學生原則 (Respect and Understanding Student Centered Principles)**.\n\nHere's the breakdown:\n\n* **A. 經濟資源 (Economic Resources)**  refers to the financial resources available to the school, which is an external factor that can influence the effectiveness of a school's work, but isn't a core principle of counseling itself.\n\n* **B. 學生 (Students)**  is a core focus of educational psychology, but not the *type* of psychology it is.\n\n* **C. 尊重與理解 (Respect and Understanding) 學生 (Students) ** **and** **(and) 學校 (School)** **(School)**\n\nThis is the answer because the question asks for a factor that is **not** considered a core principle of counseling, and the concept of \"respecting and understanding student needs\" is a core principle of **ethical and effective** counseling.\n\n**The other options are more aligned with the core principles of counseling:**\n\n* **B. 尊重學生 (Respect for Students)**: This option focuses on the **client's needs**, which is a key aspect of counseling.\n\n* **D. 教育 (Education)**: This option refers to the broader context of **education**, which is relevant to the concept of **school counseling**, but not the specific concept of the principle itself.\n\nLet me know if you'd like to explore more examples or have any other questions about the field of educational psychology!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '面向全體學生原則'], ['B', '教師中心原則'], ['C', '尊重與理解學生原則'], ['D', '預防與發展相結合原則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一個係建立並維持教育機構正常運轉嘅規章制度",
+    "llm_output": "A. 教育制度\nB. 教育制度\n\n**回應：**\n\n**D. 教育制度** \n\n**A. 教育制度** \n\n**C. 教育體制** \n\n**D. \n\n**\n\n**D. 文化** \n\n**A. \n\n**\n\n**D. \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '教育制度'], ['B', '教育管理'], ['C', '教育規範'], ['D', '教育體制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職校學生心理健康教育嘅主要目標唔包括以下",
+    "llm_output": "The correct answer is **B. 幫助學生發展** (Help students develop) \n\nThe question asks for what is NOT a goal of a well-rounded program in a vocational school.\n\n* **A. 帮助学生发展** (Help students develop) is a general statement about the purpose of education, not specific to the context of the question.\n\n* **C. 強化教育機構制定並維持教育機構的原則** (Strengthening the institution's sense of responsibility for the development of a comprehensive and standardized system of rules and regulations) is a general statement about the purpose of any educational institution, not just vocational schools.\n\n* **D. 教師中心** (Focus on the institution) is a general characteristic of a vocational school system, but the question asks for what is NOT a goal.\n\nTherefore, the answer must be **C. 帮助學生发展** as it is the only option that doesn't directly relate to the specific focus of vocational education.\n\n**C. 幫助學生發展** (Help students develop) is too general and applies to all types of education, not just the focus on the institution.\n\n* **B. 學校資源** (B. School resources) is a more general concept than the specific goals of a vocational institution.\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '幫助學生正確認識自己，認識環境'], ['B', '增強並鑄就學生健康嘅體魄'], ['C', '確立有益於社會進步與個人發展嘅目標'], ['D', '克服成長中嘅障礙']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "德爾菲法採用嘅交流形式係",
+    "llm_output": "D. 電話\n\n**Explanation:**\n\nWhile both \"A. 幫助學生正確認識自己，認識環境\" and \"D. 電話\" refer to communication methods, the question asks for the one that is **not** a part of the \"establish and maintain\" phrase.\n\nHere's a breakdown of the answer choices:\n\n* **A. 函** (Telephone) and **D. 郵件** (mail) are both options for **communication**, but the question asks for the one that is **not** a part of the \"establish and maintain\" phrase.\n\n* **B. 增強並幫助學生** (Strengthen and help students) describes the options for **establishing** a system and the **purpose** of that system.\n\n* **D. 幫助學生認識文化** (Help students understand and appreciate the culture) describes a specific **goal** of a program, not the process of creating and implementing it.\n\nTherefore, the correct answer is **D. 電話** (mail) as it is the only option that doesn't directly relate to the process of **establishing and maintaining** a program.\n\n**Let me know if you'd like to try answering another question!** \n\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '函'], ['B', '電子郵件'], ['C', '電話'], ['D', '書信']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「雙元制」職業教育源於",
+    "llm_output": "答案：**A** \n\n**解釋：**\n\n「幫助學生認識自己，增進個人成長」係「A. 幫助學生正確認識自己，認識環境」的延伸，並非獨立嘅一個選項。 \n\n德爾菲法起源於 **A. 德國**，但係透過 **B. 電子郵件** 進行交流，並非以「日本」為首，所以選項 **C** 係錯誤答案。\n\n「雙元制」職業教育的目標在於 **A. 幫助學生建立良好嘅職業技能**，並非單純為「B. 增強學生對學生中心原則」 的一個錯誤選項。 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '德國'], ['B', '中國'], ['C', '日本'], ['D', '美國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教師嘅表率作用主要體現喺",
+    "llm_output": "C. \n\nThe answer is **C. 舉止端莊** (Proper Conduct). \n\nWhile **C.  教師 (Teacher)** and **D. 答案 (Answer)** are related to the concept of a teacher-student relationship and the process of learning, **C. \n\n**教師** **(Teacher)** and **D. \n\n**老師** **(Teacher)** are not the best fit for the broader concept of \"ethical and responsible behavior\" that the teacher's role embodies in a school setting. \n\nHere's why:\n\n* **衣著整齊 (Proper Conduct) and **D. \n\n**老師 (Teacher)** are too specific and don't encompass the broader concept of ethical behavior in the context of education.\n\n**C. \n\n** (Teacher)** and **D. \n\n**答案 (Answer)** are not the correct answers because the question asks for the \"teacher's role\" in general, not specific to the teacher's appearance or personal demeanor.\n\nThe answer is **D. \n\n**\n\n**Here's a breakdown of the answer choices:**\n\n* **A. \n\n** (Clothes and Appearance)**: This refers to the teacher's personal responsibility to maintain a professional appearance.\n* **B. 尊重 (Respect)**: This focuses on the teacher's attitude towards students but doesn't address the broader role.\n* **C. 理解 (Understanding)**: This is important for a teacher, but it's not a specific principle of the teacher's role.\n\n**D. \n\n** \n\nis the most accurate answer as it directly reflects the core of the question.\n\n**D. \n\n** (Teacher) is the most accurate answer as it best reflects the concept of a teacher's role in education.\n\n**\n\n**C. \n\n** (Teacher)** encompasses the broader concept of a teacher's role in shaping students' behavior and character.\n\n**Therefore, the answer to the question is D. \n\n**\n\n**\n\n**\n\n**\n\n** (Teacher)**\n\n**\n\n** (Understanding)** is the most appropriate answer.\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n** (Teacher)\n\n**\n\n**\n\n**\n\n**",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '衣著整治'], ['B', '個人魅力'], ['C', '言行一致'], ['D', '舉止端莊']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "（）教育本質觀認為，教育屬於政治經濟，通過培養人為社會嘅政治經濟服務",
+    "llm_output": "D. \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '特殊範疇說'], ['B', '政治經濟說'], ['C', '生產力說'], ['D', '社會實踐說']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "指人類為咗自身生存、社會發展嘅需要而主動創造出嚟嘅有組織嘅規範體系嘅係",
+    "llm_output": "The answer is **D. 社會文化** (Social Context of Education) \n\nThis is because:\n\n* **行為主義** focuses on observable behaviors and how they are learned through conditioning. \n* **社會文化說** (sociocultural theory) emphasizes the role of social interaction and cultural context in learning. \n* **D. 政治經濟學說** (Social and Cultural Reproduction Theory) is a social science theory, not directly related to the definition of the term \"socialization.\"\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '行為文化'], ['B', '精神文化'], ['C', '物質文化'], ['D', '制度文化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育係一種",
+    "llm_output": "The correct answer is **D. 社會現象** (Social phenomenon). \n\nHere's why:\n\n* **教育 (Education)** 係一個由社會因素塑造出來嘅過程。\n\nThis is because:\n\n* **社會現象 (Social Phenomena)** are patterns of behavior, interaction, and social organization that are observable and measurable. \n\nThe provided examples suggest that the question is asking about the nature of education, and the provided answer choices are all about the nature of education.\n\n* **社會現象 (社會現象)** is the correct answer because the question asks about the \"essence\" of education. This implies a focus on the fundamental nature of education itself, which is a social construct designed to transmit knowledge, skills, and values within a society.\n\nWhile the other options touch on aspects of education, they don't capture the essence of what the question is asking. \n\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自然現象'], ['B', '生物現象'], ['C', '心理現象'], ['D', '社會現象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "有效嘅激勵機制唔包括以下",
+    "llm_output": "回應：A\n\nThe correct answer is **A. 興趣激勵機制 (Social-Emotional Learning)**. \n\nThe question asks about what education is not focused on. The correct answer is the option that highlights a non-cognitive aspect of education:\n\n* **A. 興趣 (Interest) \n**\n\nThe other options are incorrect because:\n\n* **B. \n\n** \n\nThe other options (B, C, D) are all related to the concept of education as a means to achieve something, which is a characteristic of a **\"system of incentives\"** rather than a core focus of education itself.\n\nThe correct answer, **B. 興趣激勵 (Inspiring Motivation)**, focuses on the **intrinsic motivation** that should be fostered by education. It emphasizes the importance of **intrinsic motivation**, which is the inherent desire to learn and grow, as opposed to being driven solely by external rewards.\n\nLet me know if you have any other questions about the nature of education or any other topic!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '興趣激勵機制'], ['B', '物質激勵機制'], ['C', '榜樣激勵機制'], ['D', '活動激勵機制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業院校積極構建技術文化嘅主要目標喺於培養學生嘅",
+    "llm_output": "The answer is **B. 職業文化 (Professional Culture)**\n\nHere's why:\n\n* **The question:** The question asks for the \"main\" goal of 職業 (zhíyè) - occupational/vocational, which implies a focus on the core purpose of education in this context.\n\n* **The answer choices:**\n\n    * **A. 興趣範疇說 (xìngqù fànchén shuō)** - This is a bit of a trick question. While \"興趣\" (xìngqù) means \"interest\" and is a key part of 職業 (zhíyè) - \"職業\" (zhíyè) means \"professional,\" this answer choice refers to the concept of \"interest\" in education, which is not the focus of the question.\n\n    * **C. 興趣 (xìngqù) \n    A. 職業 (zhíyè) - 職業 (zhíyè)**\n\nThe answer choices suggest that the question is about the nature of education, and the most relevant answer to the concept of \"professional\" education is **B. 綜合 (zōnghé) - comprehensive**\n\nTherefore, the answer is **B**. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '技術技能'], ['B', '綜合素質'], ['C', '創造力'], ['D', '競爭力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "盧梭嘅「愛彌兒」體現出嘅人性論係",
+    "llm_output": "答案：C.  \n\n**解釋:**\n\n* 盧梭（Jean-Jacques Rousseau） 提出的是「自然教育」（Natural Education）的概念，強調孩子的天生好奇心和學習能力，以及讓他們自然而然地學習，而非透過强制或惩罚來「塑造」他们。 \n\n* 因此，**「C. 自然教育」** 是最符合題意的答案。\n\n* 选项 C 中的「本質」指的是教育的本质目标是培养人的**自然教育**理念，而非指具体的职业教育。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '性三品說'], ['B', '性惡論'], ['C', '性善論'], ['D', '白板說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "學校德育嘅主要途徑係",
+    "llm_output": "The answer is **A. 各科教學**. \n\nHere's why:\n\n* **學校德育** (School Morality Education) is a broad term encompassing the overall moral development of students within the school environment. This includes fostering ethical values, moral reasoning, and responsible behavior.\n\nWhile **課外活動** (Extracurricular Activities) and **課外活動** (Physical Education) can contribute to moral development, the primary focus of **學校德育** is to develop these values through a structured approach. \n\nLet me know if you have any other questions!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '各科教學'], ['B', '課外活動'], ['C', '班主任工作'], ['D', '政治課']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一個係職業院校精神文化最直接嘅表徵形式",
+    "llm_output": "The answer is **A. 校風 (School Culture)**. \n\nHere's why:\n\n* **教育 (Education)** is a broad term and not a specific indicator of the culture of a school.\n\n* **人性 (Humanity)** is a philosophical concept, not a direct characteristic of a vocational school.\n\n* **校訓 (School Motto)** and **活動 (Extracurricular activities)** can be *part* of a school's culture, but they are not the *only* way to define it.\n\n**校風 (School Culture)** encompasses the overall environment, values, and traditions of the school. It's the most accurate answer because it reflects the unique culture of a vocational school, which emphasizes:\n\n* **技術技能 (Technical Skills):** Vocational schools are primarily focused on providing practical, hands-on training in specific trades or professions.\n\n* **The \"活動 (Extracurricular activities)\" option refers to the specific activities offered, which are a part of the school's culture, but not the whole picture.**\n\n* **文化 (Culture)** is a general term and while a school has a culture, it's not a unique characteristic of vocational schools.\n\n* **The \"德育 (Moral Education)\" option is too broad. Vocational schools, like all schools, may have a code of conduct, but the focus of the question is on the \"spirit\" of the vocational school, not its moral stance.**\n\nTherefore, the most direct answer to the question of \"what is the most direct manifestation of a vocational school's culture\" is **A. 職業技能 (Vocational Culture)**. \n\n**C. **is not the most accurate answer because the material focus on \"school culture\" is too narrow.\n\n**D. 以下 (Below)** is not the most accurate answer because it's not a specific example of what a vocational school emphasizes.\n\n**The \"spirit\" of a school is best reflected in its culture, which is the unique set of values, beliefs, and traditions that shape the school's environment.**",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '校風'], ['B', '校歌'], ['C', '辦學理念'], ['D', '校訓']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "被譽為西方第一本研究教學法嘅書籍係",
+    "llm_output": "The answer is **A. 「被譽為西方第一本研究教學法嘅書籍」**\n\nHere's why:\n\n* **「普通教育論」 (D. \"The Republic\")** is a philosophical work by Plato that explores various aspects of society and justice, not solely focused on teaching methods.\n\n* **「學校德訓」 (School Motto)** is a specific element of a school's identity, often reflecting its values and aspirations. \n\n* **「活動」 (Activities) and 「學說」 (Education)** are not the most accurate answers as they describe broader concepts related to education, not necessarily a specific book.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「論演說家嘅教育」'], ['B', '「大教學論」'], ['C', '「普通教育學」'], ['D', '「理想國」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "義務教育嘅根本性質係",
+    "llm_output": "A. \n\n**A. 普遍性** \n\n義務教育的根本性質是 **A. 強制性**。\n\n**A. 普遍性** \n\n義務教育的根本性質是 **A. 全民性**。 \n\n**A. 普遍性**\n\n**A. 普遍性**\n\n**A. 普及性**\n\n**B. 普及性**\n\n義務教育的目標是讓所有公民都能接受教育，所以 **B. 普及性** 也是 **D. 普遍性** 的一種 **A. 普遍性** 的體現。\n\n**C. 普及性**\n\n義務教育的目標是讓 **所有公民** 都能接受教育，所以 **B. 普及性** 的選項 **C. 讓所有公民都能接受教育** 是正確的。\n\n**B. 普及性**\n\n**C. 讓所有公民都能接受教育**\n\n**B. 讓所有公民都能接受教育**\n\n**B. 讓所有公民都能接受教育** \n\n**C. 讓所有公民都能接受教育** \n\n**C. 讓所有公民都能接受教育**\n\n**B. 讓所有公民都能接受教育** \n\n**B. 讓所有公民都能接受教育** \n\n**C. 讓所有公民都能接受教育** \n\n**D. 讓所有公民都能接受教育**\n\n**A. 讓所有公民都能接受教育** \n\n**C. 讓所有公民都能接受教育** \n\n**B. 讓所有公民都能接受教育** \n\n**C. 讓所有公民都能接受教育** \n\n**B. 讓所有公民都能接受教育** \n\n**C. 讓所有公民都能接受教育** \n\n**A. 讓所有公民都能接受教育**\n\n**B. 讓所有公民都能接受教育**\n\n**C. 普及性** \n\n**A. 讓所有公民都能接受教育**\n\n**B. \n\nA. 普及性**\n\n**C. 普及性** \n\n**D. 普及性**\n\n**D. 強迫性**\n\n**B. 讓所有公民都能接受教育** \n\n**A. 讓所有公民都能接受教育** \n\n**B. 讓所有公民都能接受教育** \n\n**D. 普及性**\n\n**A. 普及性** \n\n**D. 普遍性** \n\n**C. 讓所有公民都能接受教育**\n\n**A. 讓所有公民都能接受教育**\n\n**A. 讓所有公民都能接受教育**\n\n**B. 普遍性**\n\n**A. \n\n**A. 讓所有公民都能接受教育** \n\n**C. 普遍性**\n\n**A. 讓所有公民都能接受教育**\n\n**A. 政治教育**\n\n**C. 強迫性**\n\n**A. 讓所有公民都能接受教育**\n\n**C. 讓所有公民都能接受教育**\n\n**D. 讓所有公民都能接受教育**\n\n**C. 讓所有公民都能接受教育**\n\n**C. 讓所有公民都能接受教育**\n\n**D. 讓所有公民都能接受教育**\n\n**C. \n\n**A. 普及性**\n\n**B. \n\n**\n\n**D. 讓所有公民都能接受教育**\n\n**D. 讓所有公民都能接受教育**\n\n**C. 讓所有公民都能接受教育**\n\n**D. 普及性**\n\n**C. 讓所有公民都能接受教育**\n\n**A. 讓所有公民都能接受教育**\n\n**B. 普遍性**\n\n**D. 讓所有公民都能接受教育**\n\n**A. 讓所有公民都能接受教育**\n\n**C. 普及性**\n\n**B. 讓所有公民都能接受教育**\n\n**B. 讓所有公民都能接受教育**\n\n**C. 讓所有公民都能接受教育**\n\n**D. 讓所有公民都能接受教育**\n\n**A. 普及性** \n\n**D. 讓所有公民都能接受教育**\n\n**D. 讓所有公民都能接受教育**\n\n**A. 讓所有公民都能接受教育**\n\n**B. 讓所有公民都能接受教育**\n\n**B. \n\n**\n\n**C. \n\n**\n\n**B. 讓所有公民都能接受教育**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. 讓所有公民都能接受教育**\n\n**",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全民性'], ['B', '強迫性'], ['C', '普及性'], ['D', '基礎性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「道而弗牽，強而弗抑，開而弗達」體現嘅教學原則係",
+    "llm_output": "答案：**D** (「**道而弗牽**」指引了教育要**循序漸進**的原則) \n\n**「開而弗達**」is a common phrase used to describe the concept of \"**gradualism**\" in education, which emphasizes the importance of building knowledge and skills incrementally based on the individual student's needs and abilities. \n\n**解释:**\n\n* 「**道**」和「**达**」都与「**循序渐进**」相关，但「**循序漸進**」更强调学习的**过程**和**阶段性**。\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '可接受原則'], ['B', '循序漸進原則'], ['C', '因材施教原則'], ['D', '啟發性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "行為文化嘅核心係",
+    "llm_output": "答案：C. \n\n**「開而弗** **(yī)** **閉」** (Kai Er Fú Yī) -  **\"Open but not closed\"**  is a common way to describe the **core** of a culture of **behavior**.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '價值取向'], ['B', '行為方式'], ['C', '文化行為'], ['D', '行為環境']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺影響人發展嘅諸因素中，喺個體發展中起主導作用嘅係",
+    "llm_output": "答案：**C**\n\n**解釋：**\n\n呢個例子嘅答案係 **D. 社會環境**。\n\n* **C. 個體環境** 係指個體發展嘅重要因素，但係 **D. 學校教育** 係一個更廣泛嘅 **社會環境** 範疇。\n\n**學校教育** 係一個 **個體發展** 嘅重要因素，但係 **A. 學校教育** 其實係 **C. 教學方法** 嘅一個 **核心概念**。\n\n**所以，呢個例子嘅答案係 D. 學校發展**。\n\n**其他選項解釋：**\n\n* **A. 價值取向** 雖然重要，但係只係 **學校文化** 嘅一部分，而唔係 **個體發展** 嘅核心因素**。\n\n* **C. 學校環境** 係指 **學校文化** 嘅一個重要方面，但係 **學校活動** 係 **學校** 嘅活動，而 **社會環境** 係一個更廣泛嘅 **社會環境** 嘅概念。\n\n* **D. 學校環境** 雖然係 **社會環境** 嘅一部分，但係 **學校文化** 嘅 **核心概念** 係指 **學校環境** 係 **社會環境** 嘅一個 **組成部分**，而 **學習方式** 係 **學校環境** 嘅一個 **組成部分**。\n\n希望呢個例子清楚解釋左點解其他選項都唔啱。 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '遺傳'], ['B', '學校教育'], ['C', '個體活動'], ['D', '社會環境']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一個係學生心理健康教育嘅主要場所",
+    "llm_output": "D. 學校 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會'], ['B', '工作單位'], ['C', '家庭'], ['D', '學校']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "對職校學生進行心理輔導嘅主要目標係使其學會調適同",
+    "llm_output": "答案：D \n\n**解釋：**\n\n雖然傳統上，**學校** 係被認為對學生心理健康教育嘅主要場所，但係根據你提供嘅例子，你可能想問的是 **D. 对学生进行职业生涯规划**。\n\n**解释：**\n\n* **D. 核心價值觀** \n\n**解释：**\n\n* 學校教育是提供 **教育** 的重要場所，但 **心理輔導** 是一個更廣泛的概念，它涵蓋了幫助學生解決心理問題、發展心理素養、學習心理調節和心理健康知識等多個方面。\n\n希望你嘅答案係 **D. 社會** \n\n**其他選擇**\n\n* **A. 社會** 雖然 **社會環境** 對學生心理健康有重要影響，但它不是 **心理輔導** 的主要場所。\n* **B. 學校** 是一個 **潛在的** 答案，但 **C. 家庭** 係更佳答案。\n\n**請注意：**\n\n* 因為你提供嘅例子並非完整嘅，所以呢個答案可能需要根據題目內容調整。 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '診斷問題'], ['B', '尋求發展'], ['C', '行為矯正'], ['D', '克服障礙']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於能力拓展訓練方法嘅係",
+    "llm_output": "The correct answer is **D. 身體質素拓展訓練 (Physical Education)**.\n\nHere's why:\n\n* **A. 學習能力拓展** (**Developing Learning Skills**), **B. 學校環境** (**School Environment**) and **C. 學校教育** (**School-based Education**) are all valid concepts related to individual development.\n\n* **D. 學校** (**School**) is a **location** where development takes place, but it's not a specific type of **training** for psychological development.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '抗挫折能力拓展訓練'], ['B', '自我教育能力拓展訓練'], ['C', '自制力拓展訓練'], ['D', '身體素質拓展訓練']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "我國第一個職教園區係",
+    "llm_output": "D. \n\n**正確答案：D** \n\n**解釋：**\n\n雖然 C 選項「自我認知訓練」可以幫助學生理解自己嘅學習風格，但 A. 學校環境，B. 能力矯正，以及 D. \n\n**B. 學校環境**\n\n \n \n \n \n \n \n \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '浙江溫嶺職教園區'], ['B', '昆明楊林職教園區'], ['C', '貴州清鎮職教城'], ['D', '天津建設海河教育園區']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "學校教育產生於",
+    "llm_output": "C. 學校教育 **D. 家庭** \n\n**D** is the correct answer. \n\nHere's why:\n\n* **Schools are the primary institutions for formal education.**  While the concept of learning and knowledge transfer has existed throughout history, the idea of a dedicated institution for schooling is a relatively modern one.\n\nLet me know if you'd like to see more examples! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '原始社會'], ['B', '資本主義社會'], ['C', '封建社會'], ['D', '奴隸社會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "現代人力資源管理以咩為中心",
+    "llm_output": "D. \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '資本'], ['B', '人'], ['C', '信息'], ['D', '知識']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "德育過程嘅主要矛盾係",
+    "llm_output": "D. \n\n**解释：**\n\n* **教育学** 关注的是教育过程中的**教育内容**和**教育方法**之间的关系。 \n\n**能力拓展训练方法** 是一种 **学习理论** 的概念，而不是一个具体的教育目标。\n\n**因此，正确答案是 D. 教育者提出嘅道德要求與學習者嘅道德行為之間嘅矛盾。**\n\n这个答案对应着 **教育的本质** 和 **教育的目的是培养道德意识和行为** 的观点。 \n\n**以下是对不同类型的现代人力资源管理矛盾的解释：**\n\n* **A. 能力水平** \n    * 这是一个更广泛的 **教育目标**，但不是本题的重点。\n    * **B. 教育者提出的道德要求** 和 **教育者自身** 的道德水平之间的矛盾，以及**如何将知识转化为实际行动** 的矛盾。\n\n**希望这个解释能够帮助你理解为什么 D 是正确答案。**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '道德認識與道德行為之間嘅矛盾'], ['B', '教育者提出嘅道德要求與受教育者現有道德水平之間嘅矛盾'], ['C', '德育內容與德育方法之間嘅矛盾'], ['D', '教育者與受教育者之間嘅矛盾']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "決定教育性質嘅根本因素係",
+    "llm_output": "The correct answer is **C.  D. 經濟制度** \n\nThe correct answer is **C**. \n\nThe correct answer is **C**. \n\nLet me know if you'd like to try more questions!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會生產力'], ['B', '政治經濟制度'], ['C', '上層建築'], ['D', '科學技術']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "研究德育過程，主要係探索德育嘅",
+    "llm_output": "B. 規律 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '方法'], ['B', '規律'], ['C', '目標'], ['D', '內容']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「學記」上講：「唔陵節而施」，呢句話體現咗",
+    "llm_output": "The answer is **B. 4. 學生**\n\nThe phrase \"**學記**\" (which translates to \"learning the rules\") refers to the process of learning, and the question asks about the \"**main contradiction**\" in this process.  \n\nThis points to the core concept of **how we learn vs. what we learn**. \n\nThe answer \"**B. 學生**\" (which translates to \"students\") is likely a distractor in the question. The answer is **B. 鞏固性** (consolidation) because the concept of \"learning the rules\" directly relates to the **rules and regulations** governing the learning process itself. \n\nLet me know if you'd like to know more about the different aspects of education.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '循序漸進嘅教學原則'], ['B', '因材施教嘅教學原則'], ['C', '啟發性教學原則'], ['D', '鞏固性教學原則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "一般嚟講，研究教育現象同教育問題，揭示教育規律嘅科學係",
+    "llm_output": "C. \n\nThe correct answer is **C. 教育學** (Education).\n\nThe phrase \"決定教育過程，主要係探索…\" (Exploring the…) implies that the question is about understanding the nature of the educational process itself. Therefore, the answer is **C. 教學過程** (Educational Process) as it directly relates to the process of education, which is a key aspect of the question. \n\nThe phrase \"決定教育規律\" (principles of education) is a more specific term that refers to the fundamental laws and processes that govern how people learn. \n\nLet me know if you have any other questions!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '教育心理學'], ['B', '課程論'], ['C', '教育學'], ['D', '教學論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "學業生涯規劃具有發展性嘅特點，唔係孤立嘅、靜止嘅，應該能夠根據社會需求嘅發展變化與學生個體主觀條件嘅變化隨時修正。呢體現出咗科學制定學業生涯規劃嘅",
+    "llm_output": "D. 可調整性 (Flexibility) \n\nThe correct answer is **A. 可發展性 (Flexibility)**\n\nThe answer highlights the **flexibility** of the learning process, which is the core concept of **\"唔陵節而施\" (developing according to individual needs)**. \n\nLet me know if you have any other questions about the \"唔陵\" (moral development) in a broader context of education!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可調節'], ['B', '最優化'], ['C', '共性與個性相結合'], ['D', '可行性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "對學生思想品德嘅形成同發展起動力作用嘅主要因素係",
+    "llm_output": "The answer is **(A) 道德認識**.\n\nHere's why:\n\n* **道德認識 (Dào dé rènshí)** directly translates to \"moral development\" and refers to the understanding and internalization of ethical principles. \n\nThe other options are not incorrect, but they don't directly address the core concept of the prompt as specifically as option A.\n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '道德認識'], ['B', '道德情感'], ['C', '道德意志'], ['D', '道德行為']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "將課程教學環境與企業車間對接，按照「學校即工廠，課程即車間」嘅理念建立嘅係（）教室。",
+    "llm_output": "The answer is **(C) 专业化教室 (zyun3 zai3 si6) **.\n\nHere's why:\n\n* **A. 多媒體教室 (do1 mei6 diaan6) ** means \"multimedia classroom\" and focuses on the use of technology in teaching. This doesn't fit the \"school-to-work\" analogy.\n* **B. 學校即工廠，課程即工廠 (haang6 hok6 ji3 gei6,  zai1 gei1) ** is the phrase you provided, which translates to \"education is like a factory, and the curriculum is the factory itself\". This concept is best represented by the idea of a **\"curriculum factory\" (C)**.\n\n* **C. \n\n   **將課程與學生嘅學習經歷結合起來，將學習視為一個持續的發展過程，並根據學生嘅個體發展和學習能力調整，\n\n   **This option represents the concept of a \"curriculum\" being a dynamic and evolving entity, which aligns with the idea of a \"curriculum being a factory\" as a metaphor for a structured and adaptable learning environment.\n\n* **D. 產業化教室 (haang4 ji6) ** means \"product\" in the context of a classroom setting. This option highlights the focus on the \"product\" of the learning process, which is the \"output\" of the curriculum \"factory\" - the educated individual.\n\nTherefore, the answer to the question is **(C) \n\n**\n\n**將學生嘅學習經歷同學校環境嘅發展相結合，\n\n**This is a bit tricky, but the best answer is still **(C) \n\n**Here's why the other options are not as suitable:**\n\n* **D. \n\n   **\n\n   **A. \n\n   **is a direct translation of the \"將...結合起來\" concept, but doesn't capture the essence of the question.\n\n   **\n\n   The other options are not directly related to the \"factory\" metaphor.\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '多媒體教室'], ['B', '職業化教室'], ['C', '專業化教室'], ['D', '產業化教室']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔能體現出制度文化建設嘅一項係",
+    "llm_output": "The answer is **D. 確立學校相關政策** (Implement school-related policies). \n\nHere's why:\n\n* **A. 落實學校相關政策** (Implement school-related policies) and **C. 學校相關政策** (Implement school-related policies) are both incorrect. \n\n    * **落實** (lo6 seon3) means \"to implement\" and implies a conscious effort to put something into practice. \n    * **落實「學校即工廠」** (Implement \"school-related\" - implying the question is about the \"school\" as a whole) would be a more appropriate translation for \"A. \n\n**The correct answer is likely to be D. \n\nHere's a breakdown of the reasoning:**\n\n* **A. 鞏固性** (Consolidation) is a concept related to strengthening existing structures or ideas, not directly to the development of a curriculum.\n* **B. \n\nHere's a breakdown of the reasoning:\n\n* **C. 學校即工廠** (School as a factory) is a concept that focuses on the school environment and its operations.\n\nHere's why:\n\n* **落實學校相關政策** (Implement \"school-related\" policies) is a more accurate translation of the Chinese phrase.\n\n* **C. 標準化測驗** (Standardized testing) is a more accurate translation of the Chinese phrase.\n\nHere's why:\n\n* **D. 確立教育現象** (School phenomenon) and **C. 鞏固** (Strengthening) are related to the concept of \"culture\" in a broader sense.\n\n**A. 落實學校相關現象** (Implement school-related phenomena) is a more accurate translation of the Chinese phrase.\n\n* **D. \n\nHere's why:**\n\n* **B. \n\nThe Chinese phrase emphasizes the \"development\" of a specific curriculum, which is a key aspect of \"curriculum development\".\n\nLet me know if you have any other questions.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '落實學校相關政策'], ['B', '推進民主建設進程'], ['C', '加強校園文化建設'], ['D', '確立科學發展觀']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "我國正式頒布嘅第一個現代學制係",
+    "llm_output": "The answer is **D. 產業化教室 (Chan4).**\n\nThis is because \"將學校看作工廠，將課程看作車間\" translates to \"regarding the school as a factory, regarding the curriculum as a workshop,\" which directly points to the concept of **D. 產業化教室 (Chan4)** being the correct answer.\n\nThis option refers to the \"curriculum development\" which is a process that is constantly evolving and adapting to the changing needs of society and the individual student.\n\nThis is a bit of a trick question! While the examples you provided show the concept of \"institutionalized learning\" being related to the curriculum, the term \"**制度文化建設 (zhì duàn)**\" in the question refers to the specific concept of \"institutional culture\" which is a broader term encompassing the values, beliefs, and practices that shape the overall learning environment within a school.\n\nThe concept of \"schools as factories\" is a metaphor that highlights the **systematic and standardized nature of the industrial model of education**. This model emphasizes efficiency, uniformity, and a focus on producing graduates with specific skills, rather than treating them as individuals with unique needs and learning styles.\n\nTherefore, the correct answer to the question is **D. 現代教育** (modern education) as it directly addresses the concept of \"schools as factories\" which is a critical aspect of the education system. \n\nLet me know if you have any other questions!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '癸丑學制'], ['B', '癸卯學制'], ['C', '壬戌學制'], ['D', '壬寅學制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "古希臘嘅雅典教育比較重視對年青一代進行",
+    "llm_output": "**D. 政治哲學教育** \n\nThe correct answer is **D. 政治行為**.\n\n**解釋：**\n\n教育學中「將課程教學環境與社會需求相結合」的理念，強調教育應該與社會發展的需要相適應。 \n\n* **C. 產業化教室** 這個選項描述了「產業化教室」的概念，它與學生在學校學習的環境和教育目標有關，但並非直接描述的教育學理念。\n\n* **D. 政治學教育** 這個選項是正確答案。\n\n**原因：**\n\n* 雖然古希臘教育也注重其他方面，但 **政治學** 作为一种专门的学科，**更强调培养学生的公民意识和责任感**，以及 **训练他們在民主社會中積極參與** 的能力。\n\n* **A. 政治學制** 和 **B. 政治學教育** 都是錯誤的，因為它描述的是教育的目標，而不是教育的內容。\n\n* **B. 職業教育** 和 **C. 體育教育** 都是與 **政治產業化教室** 的選項，但它並非直接的教育學理念，而是一個社會學的現象。\n\n* **D. 政治學** 這個選項是錯誤的，因為它描述的是 **教育的目標**，而不是 **A. 軍事體操** 的社會環境。\n\n**因此，C. 政治學 才是正確答案。** \n\n**其他選項可能與以下教育理念相關：**\n\n* **C. 政治學** 這個選項描述的是**政治學**的教育目標，而不是**社會環境**。\n\n* **D. 政治學** 這個選項描述的是**政治學** 這個學科，而不是它在教育中的應用。\n\n**希望這個解釋對你有所幫助！** \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '軍事體操教育'], ['B', '天文數學教育'], ['C', '多方面發展教育'], ['D', '政治哲學教育']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教學改革嘅核心係",
+    "llm_output": "D. 採用**現代**教學技術\n\nThe correct answer is **D**. \n\nHere's why:\n\n* **The core of any educational reform is to improve the educational system.**  The phrase \"將課程教學環境與企業車間對接\" (building a curriculum that connects with the workplace) is a key element of the question, implying a focus on making education more relevant to future careers. \n\nThis type of question is asking about the best way to achieve that goal. \n\n* **The phrase \"課程\" (curriculum) in the question suggests a focus on the content of education being relevant to the workplace.**\n\nTherefore, the answer should focus on the **modernization of teaching methods** and **aligning them with real-world skills**. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '實施個別教學'], ['B', '更新教學觀念'], ['C', '改革教學內容'], ['D', '採用現代教學技術']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "技術文化嘅核心與靈魂係",
+    "llm_output": "The answer is **B. 技術產品**.\n\nHere's why:\n\n* **技術價值觀 (Technical Value View)** is the closest translation to \"**Technical Value View**\" in English. This option focuses on the **tools and resources** used in education, which aligns with the concept of \"technology\" in the context of the question.\n\n* **A. 採用 (Adopt) **\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '技術產品'], ['B', '技術價值觀'], ['C', '技術知識'], ['D', '技術精神']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "專門教育係以下列邊一項為基礎嘅，能夠喺人嘅一般發展嘅基礎上促進人嘅特殊發展",
+    "llm_output": "D. \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基礎教育'], ['B', '普通教育'], ['C', '高等教育'], ['D', '職業教育']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "法國社會學家利托爾諾倡導嘅教育起源理論被稱為教育嘅",
+    "llm_output": "D. 意識起源論 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '生物起源論'], ['B', '需要起源論'], ['C', '心理起源論'], ['D', '意識起源論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業教育生態環境嘅生態性，要求（）之間能夠建立一種內在嘅和諧關係。",
+    "llm_output": "The correct answer is **D. 以上三者都係** (D. All of the above).\n\nHere's why:\n\n* **(A. 人, 技術) 都是正确的**\n\nThis is a great example of how understanding the context of a question is crucial for solving it. While the question seems to imply the answer is either A or B, the most accurate answer is actually **D**.\n\nThe question is asking about the \"ecological\" nature of vocational education, which implies a focus on the interaction between the individual and their environment. \n\nLet me know if you'd like to try some more practice questions!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '人同技術'], ['B', '自我同佢人'], ['C', '人同外部世界'], ['D', '以上三者都係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "從學校教育嘅產生睇，學校呢種專門嘅教育組織同活動形式首先出現喺",
+    "llm_output": "答案：A \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '資本主義社會'], ['B', '封建社會'], ['C', '奴隸社會'], ['D', '原始社會']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下講法正確嘅係",
+    "llm_output": "The correct answer is **B**. \n\nHere's why:\n\n* **B. 學校教育的起源**\n\nThis is because the question asks for the correct answer regarding the \"first\" appearance of a specific type of education.  \n\nLet me know if you'd like to try another multiple-choice question! \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '研究型人格典型嘅職業包括技能性職業同技術性職業'], ['B', '藝術型人格具有想象、衝動、有創意、唔重實際等人格特徵'], ['C', '社會型人格具有冒險、野心人格特徵'], ['D', '現實型人格具有聰明、理性、好奇、精確、批評等人格特徵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "決定教育性質嘅根本因素係",
+    "llm_output": "The answer is **A. \n\n**A. \n\n**上層建築**\n\nHere's why:\n\n* **A. 上層建築 (Superstructure)**: This is the correct answer. The term \"上層建築\" (superstructure) is a key concept in educational sociology, referring to the social, cultural, and political aspects that influence education.\n\nThe question implies a relationship between the \"superstructure\" and \"一般\" (general) social structures. This is a reference to the Marxist theory of the \"base and superstructure\" of society.\n\nIn Marxist theory, the \"base\" refers to the economic foundation of a society, while the \"superstructure\" refers to the non-economic institutions that arise from and are influenced by the economic base. The question is asking about the underlying factors that shape the nature of education, which in this context aligns with the concept of the \"superstructure\" as it encompasses the broader social context influencing education's role.\n\nLet me know if you'd like to explore more about the sociological aspects of education!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '上層建築'], ['B', '科學技術'], ['C', '政治經濟制度'], ['D', '社會生產力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "對學生進行德育嘅特殊途徑係",
+    "llm_output": "A. 班主任工作 \n\n**Explanation:**\n\nWhile all the options could potentially involve elements of ethical development, the most accurate answer is **A. 班主任工作 (Classroom Management)**.\n\nHere's why:\n\n* **Classroom Management (班主任工作)** encompasses a wide range of strategies and practices aimed at creating a positive and productive learning environment for students. This includes fostering respect, promoting positive behavior, and addressing issues like bullying or cheating.\n\nLet's break down why the other options are less accurate:\n\n* **A. 班主任工作 (Classroom Management)** is a broader concept than just moral development. While classroom management can touch on ethical considerations, its primary focus is on the organization and effectiveness of the classroom environment.\n* **B. 學校制度 (Educational System)** is a more accurate answer for the previous examples.\n\nLet me know if you have any other questions about the topic!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '班主任工作'], ['B', '社會實踐'], ['C', '各科教學'], ['D', '課外活動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "按照選擇性分類可以把課程分為",
+    "llm_output": "The correct answer is **B. 地方課程同校本課程**\n\nHere's why:\n\n* **A. 地方課程同校本課程** (Local curriculum and school-based curriculum) is the correct answer. This is because the question refers to the \"藝術型\" (artistic) nature of the subject, implying a focus on the broader social and cultural context.\n\nThis answer is a bit tricky as it uses the term \"discipline\" in a way that doesn't directly translate to the English concept. \n\n* **A. 地方課程同校本課程** translates to \"local curriculum and school-based curriculum\" which is a more general concept and doesn't directly address the specific focus on \"artistic\" personality traits.\n\nLet me know if you'd like to know more about the different types of curricula!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '地方課程同校本課程'], ['B', '德育課程、智育課程、體育課程、美育課程同勞動技術課程等'], ['C', '必修課程同選修課程'], ['D', '分科課程與綜合課程']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "兒童中心論嘅典型代表人物包括",
+    "llm_output": "The answer is **D. 按照** **D. 按照**\n\n**Explanation:**\n\nThe correct answer is **D. 按照** because the question asks for the \"fundamental factors\" that determine the type of education. \n\n* **D. 按照** means \"according to\" or \"based on\" and implies a set of criteria or principles used to define something.\n\nIn this context, the answer is **D. 按照** because the question is asking for a general category that encompasses the concept of \"education\" as a whole. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '赫爾巴特'], ['B', '凱洛夫'], ['C', '盧梭'], ['D', '杜威']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺教育史上主張「不憤不啟，不悱不發」嘅教育家係",
+    "llm_output": "The answer is **C. 孟子**.\n\nThis is because:\n\n* **C. 孟子** (Mencius) is known for advocating that humans are inherently good and need the right environment to flourish. This concept aligns with the question's focus on the idea of \"human nature\" in education. \n\nThe other options are incorrect:\n\n* **A. 赫爾巴特** (Herbert) is not a recognized figure in the context of this educational philosophy.\n* **B. 藝術** (Arts) are not the personification of a specific educational theory.\n* **A. 體育** (Sports) are not a type of educational approach in the \"realism\" philosophy.\n\nLet me know if you have any other questions about educational philosophies! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '荀子'], ['B', '孟子'], ['C', '老子'], ['D', '孔子']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育行政體制係下列邊個嘅重要組成部分",
+    "llm_output": "A. \n\n**A. 國家行政體制** \n\nThe correct answer is **A. 學校體制 (School-based)**. \n\nHere's why:\n\n* **Educational administration** encompasses the management and organization of educational institutions. \n\n* **Curriculum** is a core component of this, as it defines the learning experiences offered to students.\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '國家行政體制'], ['B', '地方行政體制'], ['C', '國際行政體制'], ['D', '學校體制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺青少年學生嘅各個年齡階段中，少年期係指",
+    "llm_output": "C. 11-15歲 \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '10～12歲'], ['B', '7～10歲'], ['C', '11～15歲'], ['D', '13～16歲']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育生物起源論同教育心理起源論之所以反科學，係因為佢哋嘅共同點都係否定咗教育嘅",
+    "llm_output": "A. 選擇性 \n\n**解釋：**\n\n* **A. 地方課程同學校本課程**： 這些选项描述了教育的社会和哲学方面，而并非是「教育」的科学性解释。\n\n* **B. 赫爾巴特**： 这是一个错误选项。\n\n* **C. 13～16歲**： 这是正确的答案。 13-16岁是青少年时期，通常指少年期。\n\n* **D. 选项**： 这是一个错误选项。\n\n**分析：**\n\n答案C的选项中包含了**「否定」**这个关键词，而其他选项都没有。 \n\n**结论：**\n\n答案C的选项包含了「地方」和「德育」等关键词，这些关键词与生物起源论和心理起源论的答案相关。 \n\n* **教育心理起源論** 關注學習過程和心理因素對教育的影響，與教育的本質和發展有關，所以答案是 **A. 地方課程**。\n\n* **B. 13～16岁** \n\n**注意：** \n\n这道题的选项中，只有A选项是正确的，因为只有它包含了关于教育的两个重要的方面：\n\n* **地方性:**  指代的是与教育相关的社会和文化因素，例如不同的社会环境对教育的影响。\n* **選擇性**: 指的是青少年可以選擇學習的科目，而「智育課程」通常指代的是\n\n**因此，最终答案是 A. 地方課程**。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '永恆性'], ['B', '繼承性'], ['C', '階段性'], ['D', '社會性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "課外校外教育與課內教育嘅共同之處喺於，佢哋都係",
+    "llm_output": "B. \n\n**Explanation:**\n\nWhile all the options might be true to some extent, the most accurate answer is **B.  師生共同參與嘅**. Here's why:\n\n* **Both in-school and out-of-school activities are designed to support student learning.**\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '受教學計劃同教學大綱規範嘅'], ['B', '師生共同參與嘅'], ['C', '有目的、有計劃、有組織進行嘅'], ['D', '學生自願選擇嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "我國最早採用班級授課制係喺",
+    "llm_output": "C. 1911年 \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '1862年'], ['B', '1901年'], ['C', '1911年'], ['D', '1949年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "學習動機缺乏嘅主要表現唔包括以下",
+    "llm_output": "The answer is **B. 注意力下降**.\n\nHere's why:\n\n* **注意力下降 (Lack of focus)** is a direct indicator of low learning motivation. Students who lack motivation are less likely to be engaged and will struggle to focus.\n\nLet's look at why the other options are less accurate:\n\n* **A. 缺乏興趣 (Lack of interest)**: While lack of focus can indicate a lack of interest, it's not the only way it manifests. \n* **C. 容易自責 (Easily feeling self-blame)** is a possible indicator of low self-esteem or anxiety related to academic performance, which can be a *consequence* of low learning motivation, but not a direct expression of it.\n\nLet me know if you'd like to try another multiple-choice question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '注意力下降'], ['B', '焦慮過低'], ['C', '盡力逃避學習'], ['D', '容易自責']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上最早嘅教育理論著作係",
+    "llm_output": "B. 「學生」 \n\nThe correct answer is **C. 「論語」**\n\nHere's why:\n\n* **「學記」 (The Analects of Confucius)** is a collection of sayings and ideas attributed to Confucius and his disciples. It's a foundational text for Confucianism, which heavily influenced the development of educational thought in China. \n\nLet me know if you'd like to try more examples!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「學記」'], ['B', '「理想國」'], ['C', '「論語」'], ['D', '「大教學論」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「道而弗牽，強而弗抑，開而弗達」要求教學必須遵循嘅原則係",
+    "llm_output": "The answer is **D. 啟發性**\n\nThis translates to **\"Inspiration\"** in English.\n\nHere's why:\n\n* **「因材施教原則」** (Teaching to Individual Differences) is the correct answer.\n\nThis question is asking about the principle of **\"teaching according to individual differences\"**, which is a key concept in educational psychology. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '因材施教原則'], ['B', '科學性同教育性相結合嘅原則'], ['C', '鞏固性原則'], ['D', '啟發性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下對職業學校制定完整而規範嘅內部管理制度考慮嘅因素，講法錯誤嘅係",
+    "llm_output": "The answer is **A. 強化而充分** (Strengthening and standardizing the implementation of the school's established rules and regulations).\n\nHere's why:\n\n* **「學記」 (A. \"Republic\" by Plato)** is a famous example of a philosophical work that discusses the nature and purpose of education. It's a classic text that explores the concept of education as a means to achieve individual and societal betterment.\n\n* **The answer choices B, C, and D are all related to the concept of effective teaching, but don't directly address the core concept of internal management systems in schools.**\n\n* **「學生」 (C. 強化各類管理人員對學生嘅要求)** focuses on the student's perspective, which is important for understanding the effectiveness of a school's internal management system.\n\nLet me know if you'd like to explore the other answer choices and why they might be considered incorrect. \n\nLet's break down why the correct answer is **A. 學生** (student)\n\n* **The concept of \"school\" in this context refers to the internal workings of a school, not the general concept of education.**\n\nLet me know if you have any other questions!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '嚴格而規範地落實所制定嘅各項規章制度'], ['B', '強化各類管理人員關心愛護學生嘅責任意識'], ['C', '充分考慮學校因素'], ['D', '充分考慮學生因素']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "下列特點中，唔屬於職業教育課程模式嘅特點嘅係",
+    "llm_output": "The answer is **D**. \n\nHere's why:\n\n* **A. 「學記」** (Learning by Rote) - This option refers to a specific teaching method, not a general characteristic of vocational education.\n* **B. 強化學生嘅學習主動性** (Strengthening Students' Learning Initiative) - This is a positive aspect of many modern educational philosophies, including those influencing vocational education, but not a defining characteristic of the \"vocational education\" model itself.\n\n* **C. 強化學生因素** (Strengthening Student-Centricity) - This option also refers to a specific aspect of a teaching method, not a defining characteristic of the \"職業學校\" (Vocational School) model.\n\nThe best answer is **C. \n\n**\n\nThe concept of \"職業教育\" (Vocational Education) focuses on practical skills and knowledge for specific trades or professions. It's not inherently about \"strengthening\" students' learning initiative, but rather about providing them with the skills and knowledge they need for a particular career path.\n\nLet me know if you have any other questions!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '共適性'], ['B', '應變性'], ['C', '多樣性'], ['D', '直接性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下關於面向農村職業教育嘅服務方式，講法錯誤嘅係",
+    "llm_output": "A. 職業教育課程模式\n\n**正確答案：C**\n\n**解釋：**\n\n選項 A, B, D 都可以作為職業教育課程模式嘅特點，但選項 C 錯誤地將「就地」同「就地」分離，並非所有職業教育課程都應該遵循。 \n\n**職業教育課程模式** 应该以 **学生需求** 为中心，**结合学生实际职业目标**，提供 **多样化** 的职业技能培训和 **职业发展** 支持。 \n\n因此，**C** 選項「积极**协调**学校和社会职业教育资源」是错误的，因为 **职业教育** 应该 **融入** 社会，与社会需求紧密相关的**。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '職業培訓同職業中介服務結合'], ['B', '適應城鎮化同統籌城鄉發展嘅要求'], ['C', '就地培訓同入城培訓分離'], ['D', '積極統籌城鄉職業教育資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋通常所講嘅「小道消息」屬於",
+    "llm_output": "C. 非直接溝通\n\n**Explanation:**\n\n* **小道消息 (Gossip)** is a type of **informal communication**. \n\nLet's break down why:\n\n* **雙向溝通 (Two-way communication)** involves a clear sender and receiver, with active feedback and interaction.\n* **正式溝通 (Formal communication)** refers to communication that follows established channels and protocols within an organization.\n* **非正式溝通 (Informal communication)** is communication that is not part of official channels and often occurs organically between individuals.\n\nThis is because **小道消息 (Gossip)** is typically spread through casual conversations, rumors, and informal networks, rather than through official channels. \n\nThe other options are incorrect because:\n\n* **非正式溝通 (Informal communication)** is a broader category that encompasses all forms of informal communication within an organization.\n* **平行溝通 (Lateral communication)** refers to communication that occurs between people at the same level in an organization.\n* **双向溝通 (Two-way communication)** is a type of communication that involves a clear sender and receiver, with active feedback and interaction. This is a key characteristic of **all** communication, not just the **Gossip** example.\n\nTherefore, the answer is **C. 非直接溝通 (非正式溝通)**. \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '雙向溝通'], ['B', '正式溝通'], ['C', '非正式溝通'], ['D', '平行溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業學校要對社會未來人才需求進行預測，呢反映咗專業設置嘅邊一個要求",
+    "llm_output": "回應：B\n\n(The correct answer is **B. 學校** as it refers to the \"school\" context, which is the correct translation in this context) \n\n**Explanation:**\n\nWhile options A, B, and D are all relevant to the principles of good curriculum design, the answer to the question is **B. 學校** because it emphasizes the social relevance of the curriculum.\n\nHere's why:\n\n* **A. 穩中求變原則 (Stability and Change)** This option is a more accurate representation of the question's intent. \n\n* **C. 學校 (School-based)** This option refers to the focus of the question on the importance of a curriculum being adaptable to the needs of the society it serves.\n\n* **D. 積極性原則 (Positive and Active)** This option focuses on the positive aspects of the school's role in society, but not specifically on the aspect of adapting to future needs.\n\nThe correct answer is **B. 學校** because the question asks for a principle that applies to the curriculum development process.  This implies a focus on the content and structure of the curriculum, which is where the concept of a \"school-based\" approach is most relevant.\n\n**Therefore, the answer that best reflects the question's focus on the curriculum's relationship to the social context is B. 學校 (學校)**. \n\n**Note:**\n\n* The question seems to be asking for the correct answer to a question about the principles of curriculum development.\n\n* The correct answer is **B. 學校** because it directly relates to the question's focus on the curriculum being tailored to the educational context.\n\n* **A. 鞏固性 (Consolidation)**, **B. 應變性 (Adaptability)**, and **C. 學校** are all important aspects of a curriculum, but **B. 鞏固性 (Consolidation)** is the most specific to the question's focus on the concept of \"curriculum\" as a social construct.\n\nLet me know if you'd like to explore more examples!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '穩中求活原則'], ['B', '按需設置原則'], ['C', '特色性原則'], ['D', '超前性原則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一項嘅建構係職業教育適應區域經濟嘅重要手段",
+    "llm_output": "答案：**B. 課程** \n\n**解釋：**\n\n* 職業教育課程嘅**教學方式** (D) 係職業教育中一個重要因素，但並非所有職業學校都一定會使用「非正式溝通」作為其教學方式。 \n\n* 學生要**了解**專業課程發展嘅方向，但並非所有職業學校都提供「多樣性」課程。\n\n* 因此，最準確嘅答案係**B. 課程**，因為「非專業性」並非一個課程類型，而係一種**課程**設置理念。 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '專業'], ['B', '課程'], ['C', '教學方式'], ['D', '教學內容']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺近代教育史上，認為教學主要應訓練學生思維而輕視傳授知識嘅理論被稱為係",
+    "llm_output": "The answer is **D. 超前性原則 (Proactive Approach to Education)**\n\nHere's why:\n\n* **近代教育史上，認為教學主要應訓練思維能力，而非單純傳授知識 (Modern educational theory emphasizes critical thinking over simply transmitting knowledge)** emphasizes the **progressive education theory**'s focus on developing students' critical thinking skills and adapting education to the needs of the changing world. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '現代教育理論'], ['B', '傳統教育理論'], ['C', '形式教育理論'], ['D', '實質教育理論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教師唔得隨意宣揚學生嘅缺點，唔得隨意私拆、毀棄學生嘅信件、日記等，呢係維護學生嘅",
+    "llm_output": "D. 人格尊嚴權 \n\n**解釋：**\n\n* 雖然教師不應該講學生缺點，但**「不應當評估學生** \n**不應當** \n**的**是**教師**的責任，而並非單純的**個人行為**。\n\n* 教師**不應該** 侵犯學生**人格尊嚴**的**選項**是**學生**的**隱私權** 的一個方面，但**「尊重學生隱私」** 更加全面地描述了這個責任。\n\n教師有責任維護學生在教育過程中受到的尊重，包括保護他們的**個人隱私**。 \n\n**其他選項解釋：**\n\n* **A. 現代教育理論:** 這個選項太過廣泛，雖然現代教育理論也強調尊重學生，但它並非單指**「教師」**的行為。\n* **B. 傳統教育理論:** 這個選項過於狹隘，因為**「不應當」** 評判學生，而教師在教學過程中**不應該** 侵犯學生**的** **「人格尊嚴」** 的行為，也包括了尊重學生**的** **「缺點」** \n**的** **「人格」** 方面。\n* **C. 隱私權:** 這是正確的答案，因為**「職業」** 涉及教師要尊重學生在**教學資源**方面**的** 限制，例如**不公開討論** 學生成績或個人問題，都屬於**保護學生**的** **「學生」** 的**隱私** 方面。\n\n**D. 學生**的** **「缺點」** \n\n**D. 隱私權** 的** \n\n**教師** 應該尊重學生在**學習過程中** \n的學習過程，避免在不恰當的情況下**公開批評**他們的**缺點**。\n\n**結論：**\n\n教師在**教學**中需要避免**公開討論**學生的缺點，因為這會影響學生**的** **學習**和**個人發展**。 \n\n**C. \n**「課程**\n\n**設置**\n\n**」** 是一個重要的概念，但**「不應當」** 討論學生缺點的**原則** \n並非**課程**本身**的** \n問題，而是一個**「現代教育」** 的**原則**\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '榮譽權'], ['B', '身心健康權'], ['C', '隱私權'], ['D', '人格尊嚴權']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以有組織嘅學科內容作為課程組織基礎嘅課程類型係",
+    "llm_output": "The answer is **D. 學科課程** (Academic/Disciplinary Curriculum).\n\nHere's why:\n\n* **核心課程** (Core Curriculum) refers to a set of core subjects considered essential for all students.\n\n* **問題：** (Problem) \n\n* **學科課程** (Answer:  **D. 課程** (Curriculum) )\n\n* **C. 活動課程** (Activity-Based Learning) is a student-centered approach, but it doesn't specifically refer to the organization of the curriculum.\n\n* **學者課程** (Scholarly Curriculum) is a more specific term for a type of curriculum focused on developing academic skills and knowledge.\n\nThe term **B. 課程** (kē háo) in Cantonese means \"good\" or \"excellent\" and is often used to describe a well-designed and well-executed plan or project. \n\nIt seems like you're asking about the **discipline** of the student.  \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '綜合課程'], ['B', '核心課程'], ['C', '活動課程'], ['D', '學科課程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於幫助職校學生增強學習動機嘅方法係",
+    "llm_output": "答案：C. \n\n**解釋：**\n\nThis question is asking about the type of curriculum that emphasizes **\"幫助職校學生增強學習動機\"** which translates to \"**promoting student motivation**\" in English. \n\n**C.  **\n\n**傳統教育理論** (Traditional Education Theories) is a common approach to curriculum development that focuses on providing a broad and balanced curriculum covering a wide range of subjects. \n\n**B. 課程 (Curriculum)** is the best answer for this question because it directly relates to the structure and content of the education provided. \n\n**其他選擇解釋：**\n\n* **A. 綜合課程 (Comprehensive Curriculum)** \n\nThis option translates to \"comprehensive curriculum\" which aligns with the concept of covering a wide range of subjects.\n\n**D. **\n\nThis option is too broad. \n\n**B. 傳統教育理論 (Traditional Education Principles)**\n\nThis option is likely referring to the concept of \"**學科教育 (Disciplinary Education) \"** which is a broader term for the type of education that focuses on a specific field of study.\n\n**B. \n\n**\n\n**A. 課程 (Curriculum)**\n\nThis option is too broad.\n\n**B. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**A. 以下屬於學科教育 (Traditional Education)\n\n**C. \n\n**\n\n**C. \n\n**\n\n**A. \n\n**\n\n**C. \n\n**\n\n**B. \n\n**\n\n**A. \n\n**\n\n**A. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**A. \n\n**\n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**A. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**D. \n\n**A. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '以寬容嘅心對待自己'], ['B', '進行恰當嘅自我評價'], ['C', '確立適當嘅學習目標'], ['D', '建立正確嘅認知模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「科學管理之父」係指",
+    "llm_output": "答案：**A. 泰勒**\n\n**解釋：**\n\n「科學管理之父」嘅稱號通常指 **Frederick Winslow Taylor**。 \n\n**注意：**\n\n* 這個答案是基於你提供的例子，並非所有情況下都適用於「科學管理」概念。\n* 你的例子中，D. 應該為 **D. 傳統教育理論** \n\n**Frederick Winslow Taylor** 是指 **A. 現代教育理論**。 \n\n* \n\n**希望你理解！** \n\n請注意，我無法判斷你所提供的答案是否正確，因為我無法看到你所提到的「知識」和「形式教育」的定義。 \n\n* 如果你想更深入地了解 **現代教育理論**，請提供更多關於你所指的「知識」和「形式教育」的定義，例如：\n\n    * **B. 課程組織** \n\n* 如果你想問 **A. 幫助學生** **B. 學習** **C. 找到學習動機**，我認為你應該選擇 **B. 幫助學生找到學習目標**。\n\n* \n\n**請提供更多關於你所理解的「科學管理」和「課程組織」的定義，以便我提供更準確的答案。** \n\n* \n\n**請注意，** 這個詞組可能指的是 **D. 課程規劃** \n\n**請你提供更多關於「職業教育」的資訊，例如：\n\n* 學生設定目標嘅方法：**\n\n    * **B. \n\n**B. \n\n** \n\n**科學管理** 係一個比較廣泛的詞組，通常指 **B. 科學管理** \n\n**A. 傳統教育理論** \n\n**A. 傳統教育** \n\n**A. 傳統教育**\n\n**A. 傳統教育** \n\n**希望你提供更多關於你所指的「職業教育」的資訊，例如：**\n\n* 傳統教育理論 \n\n* 現代教育\n\n** \n\n** \n\n**可以提供更多資訊嗎？**\n\n* \n\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '泰勒'], ['B', '歐文'], ['C', '法約爾'], ['D', '韋伯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育科學體系中嘅基礎學科係",
+    "llm_output": "The answer is **D. 沒有以上選項正確** (None of the above are correct).\n\nThis is because the question asks for the field of study that focuses on the scientific study of management, and \"學校管理學\" (School Management) is not the correct answer. \n\nThe correct answer is **D. 經濟學** (Economics) **or 效率學** (Efficiency).\n\nHere's why:\n\n* **經濟學** (Economics) is the most accurate answer as it encompasses the broader study of how individuals and societies make decisions about resource allocation, which is a key aspect of \"科學\" (scientific) in the context of management.\n\n* **效率學** (Efficiency) is a more specific term that refers to the application of economic principles to improve efficiency in organizations.\n\n* **傳統教育** (Traditional education) is too broad. While it's true that education involves the management of resources and people, the question is likely looking for a more precise term related to the specific field of \"科學管理\" (scientific management).\n\n* **現代管理學** (Modern management) is a more specific term that refers to the application of modern management principles.\n\n* **A. 教育學** (Modern education) is a broader term and **C. 學校管理學** (School Management) is a more general term.\n\nLet me know if you'd like to see more examples!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教育學'], ['B', '心理學'], ['C', '學校管理學'], ['D', '教育經濟學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業學校要培養復合型人才，呢反映咗職業院校專業設置邊一個要求",
+    "llm_output": "The answer is **A.  \n\"復合型人才\" (composite talents) is a concept that aligns with the idea of **B. \n以** A. 隱私權**為基礎的課程設置。\n\n**Here's why:**\n\n* **A. 穩中求穩原則** (Principle of Adaptability) focuses on the importance of adapting to the changing needs of the workforce. This is a core principle of **scientific management**, which is a key concept within the field of management science.\n\n**Therefore, the correct answer is A.** \n\n**Let me explain why \"A. \n**\n\n**Here's why the correct answer is A. \n\n* **A. 綜合課程** (Comprehensive Course) is the correct answer because the concept of \"以** A. \n\n**Here's why the other options are incorrect:**\n\n* **B. 學生** (Student) is a general term for a person who is learning, not specific to scientific management.\n* **C. 學校管理學** (School Management) is a field of study that focuses on the management of schools as organizations.\n\n* **D. 學校管理學** (School of Management) is a broader term that encompasses various management theories and practices.\n\n**The \"A. 綜合課程\" (Integrated Curriculum) is the most appropriate answer because it directly relates to the core concept of combining different subject areas to create a more holistic learning experience.**\n\n**This approach emphasizes:**\n\n* **Practical application:**  It focuses on the practical skills and knowledge needed for specific professions.\n* **Industry-specific skills:** It prioritizes the development of skills and competencies directly relevant to the chosen career path.\n\n* **A. 學生** (Students) are individuals who are learning, and the concept of \"按需設置\" (needs-based) applies to the individual student's needs, not specifically to the curriculum.\n\n* **D. 綜合課程** (Comprehensive Curriculum) is a more general term and doesn't specifically relate to the \"以學生為中心\" (student-centered) approach to education.\n\n**D. 學校管理** (School Management) is a term that refers to the management of the institution as a whole, not just the curriculum.\n\n* **Therefore, the correct answer is D. 學校管理學** (學校管理學) \n\n**is the most accurate answer for \"榮譽權\"** (honor)\n\n* **D. \n**\n\n**Here's why \"D. \n**\n\n**D. 學校管理** (Curriculum)\n\n**is a good fit:**\n\n* **D. 職業學校要培養** (Vocational schools) are focused on training students for specific careers.\n\n**is a good fit:**\n\n* **D. \n\n**\n\n**is a core concept of vocational education:**\n\n* **A. 職業教育** (Vocational education) is a type of education that focuses on providing students with the skills and knowledge they need for a specific job or trade.\n\n**is a more general term for the type of education offered by the school, not the specific principle of scientific management.**\n\n**is a good fit.\n\n**\n\n**The concept of \"以學生為中心\" (student-centered learning) is a key concept in the context of \"\n\n**\n\n**Here's why \"\n\n**\n\n**is a good fit:**\n\n* **The \"以** \n\n**\"\n\n**\n\n**is a more specific type of learning that focuses on the learner's needs and interests.\n\n**\n\n**Therefore, the correct answer is \"D. \n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**is the most accurate answer for \"\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. 學校管理\"** (School Management) is a more general term, and the question asks for the specific concept that is being referred to.\n\n**\n\n* **A. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '按需設置原則'], ['B', '特色性原則'], ['C', '穩中求活原則'], ['D', '寬口徑原則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "法國社會學家利托爾諾（C．letourneau）同美國教育學家沛西·能（T．P.Nunn）係下列邊個教育起源說嘅代表人物",
+    "llm_output": "A. \n\n**Explanation:**\n\nThe question asks for the \"principle\" behind the concept of \"scientific management\" in the context of vocational schools.  \n\n* **A. 綜合型設置原則 (Integrated Curriculum)**: This option refers to a curriculum that integrates different subjects and skills, which is not directly related to the concept of \"scientific management\" as a whole.\n\n* **B. 根據學生需求而設的課程原則 (Needs-Based Curriculum)**: This option is closer to the answer, but \"scientific management\" is a broader term that encompasses more than just the curriculum.\n\n* **C. 經濟學家（A. 費尔德（Frederick Winslow Taylor）**\n\nThis option mentions the \"核心課程 (Core Curriculum) \" which translates to \"core curriculum\" in English. This is a strong indicator that the answer is related to the latter.\n\n* **D. 職業學校的職業教育 (Vocational Education)**: This option is the most relevant to the concept of \"A. 綜合型課程原則 (A. \n\nThis option mentions the \"A. 核心課程原則 (Core Curriculum) \" which is the correct answer.\n\n**Therefore, the answer is A. 綜合型課程 (A. \n\n**A. 核心課程 (Core Curriculum)**\n\nThis answer translates to \"**A. Needs-Based Curriculum**\" in English.\n\n**This answer highlights the focus on \"** **A. 綜合 (Comprehensive) 課程 (Curriculum)**\n\n**The correct answer is A. 職業學校的職業教育 (Vocational Education)**\n\nThis answer is referring to the \"**核心課程 (A. 核心課程 (A. 綜合課程 (Comprehensive Curriculum)**\" which is a more specific term for the type of education offered at a vocational school.\n\n**This example shows that the correct answer is the most specific and relevant to the question's context.**\n\n**Here's why:**\n\n* **A. 職業教育 (A. \n\n**A. 職業教育 (A. 核心課程 (Vocational Education) ** is the correct answer, as it directly refers to the type of education focused on specific skills and knowledge for a particular profession.\n\n* **C. 職業教育 (B. \n\n**A. 職業教育 (Vocational Education)**\n\n is a more general term and doesn't specifically address the concept of a curriculum designed to meet the needs of the workforce.\n\n**Therefore, the answer is A. 綜合 (A. 綜合課程 (Needs-Based Curriculum) **.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '勞動起源說'], ['B', '生物起源說'], ['C', '心理起源說'], ['D', '神話起源說']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "經常喺活動中畀學生自己設計、自己動手、自己檢查，呢所體現嘅課外校外教育嘅特點係",
+    "llm_output": "The correct answer is **D. 經驗性**\n\nHere's why:\n\n* **A. 適當** (Suitable) - This option is too vague. While experience is important in education, it's not the core principle that \"生物學家\" (biologist) and \"學校管理學\" (school management) are examples of.\n* **B. 經驗** (Experience) - This is the correct answer.  This answer is a bit more literal, but \"經驗\" (experience) is a key concept in the context of education.\n\n**Explanation:**\n\nThe term \"**B. 經常**\" (often translated as \"frequently\") is not the most accurate translation for \"**以** (with) **寬容** (tolerance) **嘅** (of)  **性** (nature).\n\nThe question asks for the \"principle\" reflected in the practice of students designing, creating, and evaluating their own work. This points to the concept of **experiential learning**, which emphasizes learning by doing and reflecting on the experience.\n\n**Therefore, the answer is D. 經驗** (experience).\n\nThe concept of \"**經驗性**\" refers to the idea that learning is best achieved through direct experience and active participation. \n\nLet me know if you'd like to explore other aspects of this concept.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '獨立性'], ['B', '多樣性'], ['C', '自願性'], ['D', '實踐性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下對於「生涯」一詞嘅理解，唔正確嘅係",
+    "llm_output": "The correct answer is **C. 生涯具有間斷性嘅特徵 (Career has a discontinuous nature)**.\n\nHere's why:\n\n* **生涯** (career) is generally understood as a continuous process of professional development, not a series of discrete events. \n\nThe other options are all generally considered true about career development. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '生涯中嘅經驗塑造咗獨特嘅行動方案'], ['B', '包括咗個人喺家庭、學校同社會與工作有關活動嘅經驗'], ['C', '生涯具有間斷性嘅特徵'], ['D', '生涯嘅發展係人嘅一生中連續不斷嘅過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於文化宣傳設施嘅一項係",
+    "llm_output": "D. 校報 \n\n**理由：**\n\n* **A. 校園廣播**  -  **屬於**教育科學體系中嘅一種設施。\n* **B. 學校博物館** - 這是個錯誤的選項，因為博物館本身就是一種文化宣傳設施。\n\n**其他選項**\n\n* **A. 學校** - 校園博物館是屬於學校範圍內的一種文化設施。\n* **C. 博物馆**本身就是一個文化概念，可以展示历史、文化、艺术等。\n* **D. 职业规划** - \n\n**C. 博物馆** - 这是個**錯誤**的選項，因為博物館本身就是文化傳播設施，可以被視為**屬於**文化宣傳設施的一種。\n\n**D. 校園** - \n\n**N.B.** \n\n* 學校**A. 校外**\n\n**总结**\n\n* 虽然**校园广播**（A. \n\n**校园**）可以被视为**教育设施**，但它更准确地描述为**一種**教育設施，而非**生涯**。\n\n**因此，答案是 D. 校報**\n\n**D. 校报** \n\n**D. 學校** - 这是一个**例子**，并非**定义**。\n\n**D. 博物馆** \n\n**D. 博物馆** - \n\n**D. 歷史**\n\n**D. 博物馆** \n\n* 并非**教育科學體系**中嘅一個，**A. 广播** \n\n**D. \n\n** \n\n**B. \n\n** \n\n**C. \n\n**\n\n**D. \n\n** \n\n* **學校** \n\n**D. \n\n** \n\n**D. \n\n** \n\n**\n\n**D. \n\n**\n\n**D. \n\n** \n\n**A. \n\n** \n\n**D. \n\n** \n\n**\n\n** \n\n**D. \n\n**\n\n** \n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n** \n\n**\n\n**D. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**D. \n\n**\n\n**D. \n\n** \n\n**D. \n\n**\n\n**D. \n\n** \n\n**A. 學校\n\n**\n\n**C. \n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**是錯誤的。** \n\n**\n\n** \n\n**D. 學校** \n\n**D. \n\n** \n\n**D. \n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. 學校**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**B. \n\n** \n\n**\n\n**\n\n**D. \n\n** \n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**B. \n\n** \n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**B. \n\n** \n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**B. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**B. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '校園廣播'], ['B', '圖書館'], ['C', '宣傳板'], ['D', '校報']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教學工作嘅中心環節係",
+    "llm_output": "C. 上課 \n\n**Explanation:**\n\nThe question asks for the \"中心環環節\" (central link) of education, and the most accurate answer is **C. 上課** (taking classes). Here's why:\n\n* **學習** (learning) is too broad. While taking classes is a fundamental part of education, it doesn't encompass the entirety of it.\n* **教學** (teaching) encompasses the broader concept of education, including the process of learning.\n\n**Why the other options are incorrect:**\n\n* **A. 學校** (school) is a place where education happens, but the \"experience\" of attending school is not the *center* of the concept of education itself.\n* **B. 教師** (teachers) are essential to education, but they are the facilitators of the learning process, not the sole focus.\n* **D. 評定** (evaluation) is a part of education, but it's not the core process.\n\nThe other options are important aspects of education, but the \"中心環節\" (central link) is the process of learning through instruction and study, which is represented by **D. 上課** (taking classes).\n\n**D. 評估** (evaluation) is a crucial part of the learning process, but it's not the *center* of education. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '成績評定'], ['B', '備課'], ['C', '上課'], ['D', '作業檢查']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國，「教育」二字合用最早出現喺",
+    "llm_output": "答案：C",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「中庸」'], ['B', '「學記」'], ['C', '「說文解字」'], ['D', '「孟子·盡心上」']]",
+    "is_correct": 0
+  }
+]

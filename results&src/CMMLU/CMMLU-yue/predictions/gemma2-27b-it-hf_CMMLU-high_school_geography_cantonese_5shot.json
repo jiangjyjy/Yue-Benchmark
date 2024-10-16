@@ -1,0 +1,1182 @@
+[
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "有關季⻛嘅正確敍述係",
+    "llm_output": "The correct answer is **D.  有**\n\nThis answer is a bit tricky because it relies on understanding the nuances of the question and the context of \"A. 中國\" (China) being a potential answer choice. \n\nThe question asks for the \"correct\" answer, implying that the other options are incorrect. \n\nTherefore, the correct answer is **D. \nC. 沒有**\n\nThis means the correct answer is **D. \nA. \n** is incorrect because it's a common misconception about the formation of monsoons.\n\n**C. \n\n** is the correct answer. **A. \nC. ** is incorrect because it's a trick answer. The question is about the physical geography of India, not the environmental impact of monsoons.\n\n**D. 沒有** is the correct answer.\n\n**C. \n\n** is the correct answer.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '我國只受東南季⻛嘅影響'], ['B', '季⻛⽓候都係夏季⾼溫多⾬，冬季寒冷⼲燥。'], ['C', '季⻛環流唔屬於⼤⽓環流'], ['D', '海陸熱⼒性質嘅差異係形成季⻛嘅重要因素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "我國⻄北地區某地⽇光溫室種植⻩⽠有膜下滴灌、膜下溝灌同溝灌三種灌溉⽅式。膜下滴灌同膜下溝灌係先將⽔灌⼊蓄⽔池中，再畀作物根部供⽔，溝灌直接⽤井⽔灌溉，⽥間冇蓄⽔池。病⾍害發⽣程度同⽇光溫室嘅相對濕度有關。膜下滴灌灌⽔⽣產效率最高嘅原因係：a灌⽔量⼩；b蓄⽔池保濕作用強；c地膜減少⽔分蒸發；d深層下滲作用強",
+    "llm_output": "C. \n\nThe answer is **C.  ac**\n\nHere's why:\n\n* **C.  a** and **c** are incorrect because they describe the characteristics of a specific irrigation method (drip irrigation) and not a general characteristic of the region.\n* **b** is incorrect because the question asks for the reasons why **a specific type of irrigation** (drip irrigation) is more efficient.\n\nThe correct answer is **(a) drip irrigation** because it's directly stated in the question that the irrigation methods are used in the context of a specific type of climate. \n\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'bd'], ['B', 'cd'], ['C', 'ab'], ['D', 'ac']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "世界橋樑最多嘅城市係",
+    "llm_output": "The correct answer is **A. A** (a)\n\nHere's why:\n\n* **(a)  northeast** and **northwest** are common terms used in geography to describe the direction of prevailing winds. **This indicates that the answer to the question is related to the \"northeast\" wind direction.**\n\nLet me know if you'd like to know which specific city has the most bridges!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '威尼斯'], ['B', '杭州'], ['C', '巴黎'], ['D', '東京']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於⼤洲嘅敍述正確嘅係",
+    "llm_output": "The answer is **A**. \n\nHere's why:\n\n* **Option A** is referring to the **geographic** concept of continents, which is a correct statement.\n\nLet's look at the other options:\n\n* **Option B** is incorrect. While the concept of continents is important in geography, the specific impact of a geographical region on the development of a single city is not relevant to the concept of continents.\n* **Option C** is incorrect.  The **Panama Canal** connects the Atlantic and Pacific Oceans, not a statement about the geographical location of a city.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '非洲嘅中部同南部係⿊種⼈嘅故鄉'], ['B', '南美洲⽓候南北對稱分佈'], ['C', '北美洲係世界三⼤宗教嘅發源地'], ['D', '巴拿⻢運河係亞洲同非洲嘅分界線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "世界最深嘅河谷係",
+    "llm_output": "A. \n\nThe answer is **A. 非洲嘅**\n\nThe correct answer is **D.  A**\n\nLet me explain why:\n\n* **卡利甘達基峽谷** (Grand Canyon) is a world-renowned landmark, but it's not the deepest.\n* **A. 答案** is the correct answer because it's the only one that directly refers to the Grand Canyon, which is the correct answer to the original question.\n\nIt seems like you're trying to figure out the correct answer to a multiple-choice question about the Grand Canyon. \n\nLet me know if you'd like to know more about the Grand Canyon!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '卡利甘達基峽谷'], ['B', '雅魯藏布江河谷'], ['C', '塔拉河峽谷'], ['D', '淡水河谷']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "導致⽔資源唔⾜同⽤⽔緊張嘅原因係多⽅⾯嘅，下列說法中同此無關嘅係",
+    "llm_output": "A. \n\nLet me know if you have any more questions!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '興修⽔利⼯程'], ['B', '⽔污染、⽔浪費嚴重'], ['C', '⽔資源時空分佈唔均'], ['D', '⼈類對淡⽔嘅需求量增⼤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "下列詩句中，描述⽓候嘅係",
+    "llm_output": "The answer is **C. ⼈間四⽉芳菲開 (C. The human world is full of spring, but the question is about the climate of a place, not a specific location).**\n\nHere's why:\n\n* **C. ⼭人三句有兩句是**\n\nThis option refers to the concept of \"山 (shan) and 水 (shui)\" which are Chinese characters for \"mountain\" and \"water\". This is a play on words, using the literal meaning of \"water\" (水 (shui)) to refer to the Chinese word for \"rain\", which is a key component of the climate.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '忽如⼀夜春⻛來，千樹萬樹梨花開'], ['B', '夜來⻛⾬聲，花落知多少'], ['C', '⼈間四⽉芳菲盡，⼭寺桃花始盛開'], ['D', '東邊⽇出⻄邊⾬，道係無晴卻有晴']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "資源型城市係以礦產、森林等⾃然資源開採同加⼯為主導產業嘅城市，往往會經歷從興起到衰退嘅過程。資源型城市嘅共性特點係",
+    "llm_output": "C",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資源枯竭，產業效益下降'], ['B', '經濟總量唔⾜，地⽅財⼒薄弱'], ['C', '產業結構單⼀，資源產業萎縮'], ['D', '採掘業產值佔⼯業總產值⽐重較⼤']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "哥本哈根會議向全⼈類提出咗「低碳減排」要求，以下做法符合呢個要求嘅（）a燒煤煮飯改為燒柴；；b發展沼⽓，改變能源結構；；c街道徹夜燈⽕輝煌；d發展循環經濟，提倡清潔⽣產；e經常使⽤⼀次性⽤具。",
+    "llm_output": "高中地理題目：\n\n**問題：哥本哈根會議**\n\n**回應：**\n\n**b** \n\n**解釋：**\n\nThe answer to the question is **D**.\n\nThis is because the question implies a need to identify the most sustainable practice.\n\n* **b發展循環經濟，**\n\nLet's break down why:\n\n* **b** 选项 \"发展循环经济，提倡清洁生产\" (Promoting a circular economy) is a common theme in geography related to resource management and environmental sustainability.\n\n* **b** 选项 \"改变\" (Change) in this context refers to the positive action of adapting to a new, more sustainable way of managing resources.\n\n* **c** 选项 \"水資源的分配\" (distribution of water resources) is a complex topic often discussed in geography, but the question focuses on the \"b\" 选项 (changing) and the answer choices are focused on actions related to the \"b\" option.\n\n* **d** 选项 \"低碳經濟\" (low-carbon economy) is a more general concept, while the question asks for a specific action related to \"低碳减排\" (low-carbon emission reduction).\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'ac'], ['B', 'cd'], ['C', 'bd'], ['D', 'de']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "新疆優質煤源儲量相對唔⾜，為保證穩定供應⻄南地區優質煤炭嘅合理措施係",
+    "llm_output": "The correct answer is **B. 發展燃煤南运，置换能源结构** (Develop Xinjiang's coal resources to support the development of sustainable energy solutions in the southwest region).\n\nHere's why:\n\n* **A. a** is incorrect because it focuses on a single solution (developing alternative energy sources) rather than addressing the broader issue of ensuring a stable supply of energy for the southwest region.\n\n* **C. 发展（b）** is a correct answer. The \"southwest region\" likely refers to regions in China where coal resources are limited.\n\n* **D. 发展循环经济，减少运输损耗** (Promoting a circular economy to reduce transportation costs) is a more accurate representation of the \"development of a sustainable energy industry\" concept.\n\n* **A. 忽如⼀夜春⻛來，** **b** **de** **c** **發展** (The \"southwest region\" has a lot of potential for sustainable development) is a more comprehensive approach to the problem.\n\n* **D. 發展循環經濟，減少碳排放** (Developing a circular economy, which reduces waste and resource consumption, is a key strategy for sustainable development)\n\n* **D. 促进（d）**\n\nWhile the prompt mentions \"低碳\" (low-carbon) and \"能源\" (energy), the prompt itself is a bit unclear. \n\n* **B. 发展循环經濟，减少能源消耗** (Promoting a circular economy) is a more accurate and complete translation of the \"D. 发展（d）\" option.\n\nThe correct answer is **C. 发展（de）**\n\nThis means **\"developing\"** and **\"southwest\"** in the context of the \"发展\" (development) option.\n\nLet me know if you'd like me to elaborate on any of the options.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '發展燃⽓電⼒，節省優質煤炭資源'], ['B', '促進煤炭加⼯轉換，提⾼附加值'], ['C', '實施疆內「北煤南運」，置換輸出'], ['D', '發展集裝箱運煤，減少運輸損耗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "應急產業係為突發事件預防同準備、監測同預警、處置同救援提供專業產品同服務嘅產業。調查發現，應急產業嘅相關發明專利申請數量較少。2015年，國家開始培育應急產業示範基地，截⾄2020年1⽉，全國僅公佈咗20家應急產業示範基地，涉及16個地區。我國應急產業相關市場發展潛⼒⼤，其原因唔包括",
+    "llm_output": "The answer is **A**.\n\nHere's why:\n\n* **A. 社國社會經濟快速發展，⽣產⽣活，交通安全事故大** (This option translates to \"Social economy develops rapidly, and the production of energy is large\" - this refers to the potential for a large number of applications for the same product/service, which is not a reason for the **need** for more diverse offerings in the first place)\n\nThis option is incorrect. It highlights the need for specialized products and services in disaster-prone areas, which is a reason for the growth of the emergency preparedness industry, not a reason for its limitations.\n\nLet's analyze why the other options are incorrect:\n\n* **B. 資訊網絡技術快速發展，改變產業結構** (This option is a combination of the potential for a large market and the need for adaptation, which is a key point in understanding the development of the \"public\" and \"specialized\" products/services in the context of the emergency preparedness industry.)\n\n* **C. 經常使用一次性容器，減少資源產業發展** (This option is incorrect as it suggests a reason for the industry to shrink, not grow.)\n\n* **D. \n\nLet's break down why the other options are incorrect:\n\n* **C. 經常使⽤一次性⽤具，發展「低碳」產業** (This option is incorrect. It suggests a reason for the industry to develop, implying a focus on sustainable practices. This is not a reason for the existence of the need for the industry itself.)\n\n* **C. \n\n**C. \n\nTherefore, the answer is **A**.\n\n**The correct answer is A. 发展**\n\nHere's why:\n\n* **A. 以下** (This means \"the following\" and is the correct answer because it refers to the potential for the industry to grow, which is the opposite of what the question is asking.)\n\nLet me know if you have any more questions.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會經濟快速發展，⽣產⽣活、交通安全事故頻發'], ['B', '我國⾃然災害種類多，頻次⾼，範圍⼴'], ['C', '我國地域⼴闊，⾃然資源豐富'], ['D', '信息⽹絡技術快速發展，信息安全事故多']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "地球係我哋嘅家園，⽉球繞地球轉，地球繞太陽轉，太陽係銀河系嘅⼀顆普通恆星。上述涉及嘅天體系統層次有",
+    "llm_output": "A. \n\n**Explanation:**\n\nThe statement \"地球係我哋嘅地球\" (Earth is our Earth) is a bit misleading. While it's true that the moon is a natural satellite of Earth, the statement implies the moon is a planet like Earth, which is incorrect.\n\nThe correct answer is **A**.\n\nHere's why:\n\n* **Incorrect:** The statement implies the moon is a planet, which is not true.\n\n* **Correct:** The Earth revolves around the sun, and the moon is a natural satellite that revolves around the Earth. \n\nLet's break down the question:\n\n* **地球** (Earth) is a planet, not a star.\n* **The Earth is Earth's planet** is incorrect.\n\nThe statement \"Earth's planetary system\" is a bit confusing because it's not the most common term.  \n\nThe correct answer is **D. 兩個** (two).\n\nHere's why:\n\n* **The Earth is a planet, not a star.** The Earth is a planet that revolves around the sun.\n* **The Earth is a planet in the solar system.**\n\nThe statement \"The moon is a planet\" is incorrect.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '兩個'], ['B', '三個'], ['C', '四個'], ['D', '⼀個']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "關於全球變暖嘅說法正確嘅係",
+    "llm_output": "答案：D\n\n**解析：**\n\n* 选项A「减少CO2含量」和选项C「减少碳排放」是关于气候变化的正确说法，但它们都描述了减缓气候变化的措施，而不是气候变化本身的原因。\n\n* 选项B和C 都是關於全球暖化可能導致嘅後果，但並非直接描述「天體系統」層次。\n\n* 选项D 提到「地球、太陽」兩個關鍵詞，這兩個選項都符合題目要求。\n\n**分析：**\n\n* 选项A 提到「地球」，但地球并非地球的直接影响因素，而是「地球」的抽象描述。\n* 选项B 则过于笼统，无法判断是否为直接答案。\n\n**因此，答案为A 和 C** \n\n* 选项B 虽然不是直接描述地球本身，但它描述了全球变暖的现象，而选项C是关于气候变化对地球的影响，因此选项A不正确。\n\n* 选项B 并非完全错误，因为全球变暖确实会导致全球碳循环发生变化，从而影响地球的氣候系統。\n\n* \n\n* 选项D 并非正确答案，因为「地球」本身的特性也会受到全球气候变化的影响。\n\n**解释：**\n\n* 选项A 虽然选项D也提到了，但它并非唯一的选项，选项C 也是正確的。\n\n* 选项D 并非完全正确，因为选项D 并非直接的选项，而选项C 则更准确地描述了地球的自然系统。\n\n* **因此，最终答案为：D**",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '保護⾬林係減少CO2含量嘅有效措施'], ['B', '內陸國家距海遙遠，唔使考慮海平⾯上升同⽓候變暖嘅影響'], ['C', '全球變暖會使⼤⽓降⽔增多，農作物增產'], ['D', '⾼緯度國家唔需要防治全球變暖']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "2015年4⽉25⽇，南亞國尼泊爾發⽣8.1級地震，⼤量外國遊客被迫滯留尼泊爾境內，地震發⽣後，中國啟動撤僑事宜，接回中國遊客，確保中國海外僑⺠嘅安全，從經濟發展⽔平嚟睇，尼泊爾屬於",
+    "llm_output": "The correct answer is **D. 發展中國家 (Developing country)**\n\nHere's why:\n\n* **發展中國家 (Developing country)** is the Chinese term for \"developing country\". \n\nThe other options are incorrect because:\n\n* **A. 資本主義 (Capitalism)** and **B. 社會主義 (Socialism)** are economic and political systems, not directly relevant to the economic development level of a country in this context.\n\n* **中國** is the country in question, so **A. and C. are incorrect** as they are not the reasons for Nepal being a developing country.\n\nLet me know if you'd like me to try and answer another question! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資本主義國家'], ['B', '社會主義國家'], ['C', '發達國家'], ['D', '發展中國家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "21世紀初期波蘭紡織業向現代化轉型主要體現喺",
+    "llm_output": "C. \n\n**解释：**\n\n这道题的正确答案是 **C. 国际市场拓展和品牌建设**。\n\n**原因：**\n\n* 21世紀初期，全球变革的趋势推动许多国家将经济发展重点转向服务业，这与你的例子中提到的例子一致。\n* 21世紀的經濟發展，包括產業結構調整，會使發展中國家更加注重發展與環境相關的產業，例如：\n\n    * **可再生能源產業**\n    * **环境保护技术和服务**\n    * **有機農業**\n    * **環境友善旅遊**\n\n而呢些題目都暗示了 **C** 选项的正确性，因为它们都与21世纪初期中国在经济发展中面临的挑战有关。\n\n* **A. 资本主义国家** 并非所有与发展有关的选项，21世紀初期，全球化是全球社会经济发展的重要趋势，而这道题中提到的**信息网络**和**社会经济**并非与**资本主义**直接相关。\n* **B. 发展中国家** 虽然与发展中的经济体相关，但并非所有与社会经济发展相关的行业都将被淘汰，这更像是一种对未来社会经济发展方向的预测，而不是一个事实。\n* **C. 发展中国家** 并非所有与社会经济相关的行业都将被淘汰，但 **B. \n\n**D. 并非所有与**地球**相關的例子都包含了「環境」选项，并非所有与**全球变暖**相关的选项，都与**发展**相关的选项都包含了**国际**的因素，所以**C. 发展中的国家** 并非是**A. 21世纪的社会经济发展** 的一个例子。\n\n**D. 并非所有** 选项都包含了**B. 21世紀初期，全球变革的趋势**，所以**D. \n\n**D. \n\n* 21世紀的经济发展趋势** 并非与**A. 21世紀** 的所有问题都将**B. \n\n**C. \n \n* 21世紀初，中國的经济发展** 选项中，**D. 21世纪初** 并非**C. \n\n**D. 21世紀初期，** \n\n**C. 21世紀初期** 的经济发展 \n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '淘汰紡織業基礎產業部⻔'], ['B', '專注紡織業鏈條⾼端環節'], ['C', '國際市場拓展同品牌建設'], ['D', '產業結構調整同技術升級']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "河⻄走廊同柴達木盆地界線係",
+    "llm_output": "The correct answer is **C. \n\n**\n\nHere's why:\n\n* **The question:**\n\nThe question asks which option is NOT a characteristic of a 21st-century emerging industry.\n\n* **The logic:**\n\nThe examples you provided suggest that the correct answer should be a method of economic development, focusing on the modern world's economic landscape.\n\n* **Why the other options are incorrect:**\n\n* **A. 資本主義國家 (Capitalist countries):** While the question mentions \"中國 (China)\" and \"經濟 (economy)\" in the context of economic development, it doesn't explicitly state that the 20th century was the \"western\" economic system.\n\n* **B. 21. 21st-century economy:** This option is too broad. While true that the 21st-century economy is complex, the question focuses on the specific context of \"南亞國 (South Asia)\" and \"南 (South)\" in the question implies a specific focus on the geographical aspect.\n\n* **D. 發展中國家 (Developing countries) is the correct answer:** This option focuses on the general concept of \"developing countries\" which is not specific to the 21st-century transformation of the \"西 (Western)\" world.\n\nTherefore, the answer is **D. 發展中國家 (Developing countries)** because the question asks for the incorrect answer to a statement about the \"20世紀初期 (Early 20th Century)\" and \"發展 (economic development)\" of the \"western\" world.\n\n* **The correct answer:**\n\nThe question implies that the \"western\" world has a different economic landscape than the 21st-century world.  \n\n**The correct answer is C. \n\n**\n\nLet me know if you have any other questions!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '祁連山脈'], ['B', '太行山脈'], ['C', '天山山脈'], ['D', '橫斷山脈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "根據⾚潮發⽣嘅主要環境條件可以判斷，喺我國較易發⽣⾚潮嘅海域⼀般係 a南⽅近岸海域；b城市近岸海域；c北⽅近岸海域；d鄉村近岸海域",
+    "llm_output": "The answer is **D**.\n\nHere's why:\n\n* **D.  b**c\n\nThis is a bit tricky without the context of the question. It seems like the question is asking which areas are most susceptible to the formation of red tides. The answer choices provided (a, b, c, d) suggest a focus on the geographical location of these events. \n\n* **a**  **b**\n\nWhile the question mentions \"Poland\" in the answer choices, the question itself focuses on the environmental conditions that lead to red tides.  \n\n* **c**  **d**\n\nThis answer choice is likely asking for the correct geographical context, and the most accurate answer would be **C**, as the correct answer is the **\"Red Tide\"** is a term used for a phenomenon that occurs in **coastal areas**.\n\n**Explanation:**\n\nRed tides are typically caused by the rapid growth of algae in coastal waters. Option D, \"根據\" (according to) is a clue that the question is likely asking about the location of the phenomenon, not the definition of it. \n\n**Therefore, the answer to the question is D. **",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'ab'], ['B', 'cd'], ['C', 'ad'], ['D', 'bc']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "「⼀帶⼀路」東部連接快速發展嘅中國，⻄部連接發達嘅歐洲⽽中部係亟待發展嘅中亞、南亞等地區，東、中、⻄部嘅經濟具有互補性，表現為（）：a東部產能增強，需要加強對外合作；b⻄部經濟發達，需要引進⼤量⼈才；c中亞油⽓豐富，需要尋求消費市場；d南亞農業發達，需要擴⼤糧⻝出⼝",
+    "llm_output": "Here are the answers to your questions, based on the information provided in the examples:\n\n* **答案：A**\n\nThe first example indicates that the question is referring to the options of \"中國\" (China) and \"中國\" (China) is the correct answer to the first question.\n\n* **中國** (China) is the correct answer to the second question.\n\nLet me know if you have any other questions!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'bd'], ['B', 'bc'], ['C', 'ac'], ['D', 'ad']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "歷史上，蘇州⼈利用當地硯瓦⼭嘅巖⽯做原料⽣產優質硯臺。呢種巖⽯巖性緻密，呈薄板狀。該巖⽯可能係",
+    "llm_output": "答案：A \n\n**Explanation:**\n\nThe correct answer is **(A) 歷史上，蘇州地區** (historically, the Suzhou region)\n\nThis is because the question implies that Suzhou's production of high-quality stone writing tablets is a result of the local geology.  \n\nHere's why the other options are incorrect:\n\n* **(B) 沉積巖 (Sedimentary rock)** is not the correct answer because the question mentions the use of \"當地硯台\" (local writing tablet) which implies a material specific to the region, not a type of rock.\n\n* **(C) sedimentary rocks** are formed from the accumulation and cementation of sediments, like sand or sand and mud.\n\n* **(D) sedimentary rocks** are formed from the accumulation and cementation of sediments, and the process often involves biological activity.\n\n* **(D) 侵大** (invade) is not the correct answer because the question implies a location where the material for the writing tablets is readily available.\n\n**Therefore, the correct answer is (A) 侵** **(A) 歷史上，蘇州地區** (bc).\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '變質巖'], ['B', '噴出巖'], ['C', '沉積巖'], ['D', '侵⼊巖']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "世界最細嘅海係",
+    "llm_output": "D \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '波羅的海'], ['B', '馬爾馬拉海'], ['C', '裏海'], ['D', '地中海']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "⼀直被視為中國南⽅地區同北⽅地區分界線嘅⼭脈係",
+    "llm_output": "The answer is **C. 裏海** (The Caspian Sea). \n\nHere's why:\n\n* **The question asks for a single answer.**  The prompt mentions that the Caspian Sea is a \"海\" (hai) which means \"sea\" in Chinese. This implies the question is looking for the smallest sea, not a specific type of rock.\n\n* **The Caspian Sea is a sea, not a lake.** This is a bit of a trick question, as the Caspian Sea is technically a lake. However, the question asks for the smallest sea, implying a body of water connected to the ocean.\n\nLet me know if you'd like to try another geography question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '大興安嶺'], ['B', '天山山脈'], ['C', '秦嶺'], ['D', '巫山']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "世界鹽度最低嘅海係",
+    "llm_output": "The answer is **A. 死海 (The Dead Sea)**\n\nHere's why:\n\n* The Dead Sea is known for its extremely high salt content, making it hypersaline.\n* The question asks for the location of the world's **lowest** salinity water body, implying a body of water. \n* The question is likely referring to the **Dead Sea**, which is known for its **extremely high salinity** due to its high salt content. \n\nLet me know if you have any other questions! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '死海'], ['B', '東海'], ['C', '波羅的海'], ['D', '黃海']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "上海寶鋼為實施「⾛出去」戰略，將喺韓國京畿道投資新建鋼材加⼯配送中⼼，提供汽⻋板材倉儲、剪切、配送等服務。寶鋼實施「⾛出去」戰略嘅主要⽬的係",
+    "llm_output": "The correct answer is **D**.\n\nHere's why:\n\n* **C. 輸出嘅（）：** This option is the most likely to be the correct answer based on the context of the example. \n\nThe context of the question suggests that the focus is on the \"One Belt, One Road\" initiative and its impact on the development of different regions.  \n\n* **A. 降低當地嘅（A** and **B** are both related to the \"One Belt, One Road\" initiative, but the context suggests a focus on the \"going out\" aspect, which aligns with the concept of the \"Belt and Road\" being a global development strategy.\n\nLet me know if you have any other questions! \n\n**Please note:**\n\nThe phrase \"One Belt, One Road\" is a bit ambiguous. It could refer to:\n\n* **The Belt and Road Initiative:** This is a real-world project, but \"C\" is not a valid option in this case.\n\nThe \"One Belt, One Road\" initiative is a Chinese project focused on expanding trade and infrastructure across Eurasia. It's not a specific characteristic of the \"going out\" strategy that defines the type of rock needed for a specific application.\n\nTherefore, the answer is **D. 擴⼤市場 (expand the market)**. The context suggests that the question is about the geographical focus of the \"going out\" strategy. \n\nLet me know if you have any other questions!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '降低運費'], ['B', '保護環境'], ['C', '輸出技術'], ['D', '擴⼤市場']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "「塞上江南」係寧夏嘅主要農業區，其發展農業嘅優勢條件係 a地勢平坦；b光照資源豐富；c降⽔豐沛；d灌溉⽔源充⾜",
+    "llm_output": "The answer is **D. bcd**.\n\nHere's why:\n\n* **b (地勢平坦)**:  This is a key characteristic of a plain, which is ideal for agricultural practices due to its flatness and fertile soil.\n\n* **c (降低運費)**:  This option suggests the advantage of lower transportation costs, which is a benefit in a region with a large agricultural output.\n\n* **d (環境保護)**:  This option is likely referring to the fertile land and water resources in the region, which are essential for agriculture.\n\nThe phrase \"降低 (lower the cost of)\" implies a reduction in cost, which is a direct benefit of having a local manufacturing center for something like \"agricultural materials\" or \"agricultural production\" (depending on the context).\n\nLet me know if you'd like to try another example! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'bcd'], ['B', 'abc'], ['C', 'acd'], ['D', 'abd']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "地球環境中最活躍嘅圈層係",
+    "llm_output": "**D. 地壳最活躍** \n\n**解釋：**\n\n* **巖層** (地质层) 指的是地球表面堅硬的岩石圈，相对来说比较稳定。\n* **水圈** (水文圈) 包括所有地球上的水，以及地球大气层中的水蒸气，它包含地球表面所有水体，包括海洋、河流、湖泊、冰川、地下水等。\n* **大氣圈** (大氣層) \n\n**水圈** (水文圈) 虽然包含了水资源，但它本身就係地球上水嘅循环系统，包括水嘅流动、变化同埋循环过程。\n\n* **生物圈** (生物圈) 包括所有生物，以及它们与周围环境的相互作用，它与地球环境的**活动**有关，但不是指地壳本身。\n\n**所以，** \n\n**正确答案：C**",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '巖⽯圈'], ['B', '⽔圈'], ['C', '⼤⽓圈'], ['D', '⽣物圈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "寧夏地理環境⾃南向北嘅變化唔能體現",
+    "llm_output": "The correct answer is **D.  bd**\n\nHere's why:\n\n* **The \"going out\" strategy of China refers to its policy of expanding its economic influence globally.**\n\n* The question asks for what the \"going out\" strategy does NOT represent. \n\n* **The examples you provided suggest that the correct answer is C. \nThis is because \"Going out\" strategy is focused on expanding into global markets, implying a focus on economic expansion, not just geographical.**\n\nLet me know if you have any other questions. \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '季⻛區向⾮季⻛區過渡'], ['B', '半濕潤區、半⼲旱區向⼲旱區過渡'], ['C', '⻑江流域向⻩河流域過渡'], ['D', '農耕區向遊牧區過渡']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "世界面積最大嘅平原係",
+    "llm_output": "The correct answer is **B. 東西伯利亞平原**.\n\nHere's why:\n\n* **亞馬遜平原 (Amazon Plain)** is a term used to describe the vast, lowland areas surrounding the Amazon River. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '圖蘭平原'], ['B', '西西伯利亞平原'], ['C', '亞馬遜平原'], ['D', '東歐平原']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "世界領土最狹長嘅國家係",
+    "llm_output": "**C. 智利** \n\n(Chile) is the correct answer. \n\nHere's why:\n\n* **Chile** is known for its long, narrow shape due to its geography being bordered by the Andes Mountains on one side and the Pacific Ocean on the other. This creates a long, thin strip of land.\n\nLet me know if you'd like to try another geography question! 🌎 \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '墨西哥'], ['B', '阿根廷'], ['C', '智利'], ['D', '祕魯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "「It」s not just a planet， It」s our home．」呢係對地球喺宇宙中地位恰如其分嘅評價。地球嘅特殊性表現喺",
+    "llm_output": "The correct answer is **D. ⾏行**\n\nHere's why:\n\n* **A. 有質量同只有** (It's a good example) - This option is correct because it highlights a key geographical concept:\n\n    * **地球環境** (Earth's environment) is indeed a key concept in understanding the unique characteristics of our planet.\n\n* **B. ⾏行 (It's a good answer)** - This option is correct because it focuses on the unique aspect of Earth's environment being described.\n\n    * **C. 只有** (Only one) - This option is incorrect. While \"it's a good answer to describe the Earth's environment, it's not accurate.\n\n    * **C. ⾏** (This is a partial answer, but doesn't fully capture the unique aspects of Earth's environment)\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '有⽣命物質存在'], ['B', '質量同體積適中'], ['C', '只有⼀顆衛星'], ['D', '⾃轉同公轉⽅向相同']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "2018年9⽉，連接喀⻨隆克⾥⽐同巴⻄福塔雷薩嘅國際直連海底電纜全線貫通。該電纜由中喀兩國企業合作修建，全⻑約6000千⽶。為保證海底電纜安全運⾏，需重點防範",
+    "llm_output": "答案：C \n\n**解释:**\n\n* **A. ⼤ Nishibe \n** \n* **B. ⼤ 6月**\n* **C. 6** \n* **D. ⼤ \n\n**錯誤的答案：**\n\n* **A. 只有** **印度洋** **的企業合作，所以A選項不正確。**\n\n**正確答案：**\n\n* **C. 只有北極海洋中，只有C選項包含了「地球」的氣候環境相關信息。**\n\n**注意：**\n\n* 雖然其他選項也可能與地球相關，但只有**C. 北極** \n\n是與其他選項無關，只針對了地球環境的特性。\n\n**請注意，這是一個地理題目，而不是一個單純的「正確或錯誤」題目。** \n\n**正確答案：**C",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '⼤⻄洋洋中脊地震'], ['B', '印度洋海嘯'], ['C', '北冰洋浮冰'], ['D', '環太平洋⽕⼭']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "下列⾏為或觀點符合可持續發展理念嘅係",
+    "llm_output": "A. 有 **地球環境保護** 嘅 **A. 选项**\n\nThe correct answer is **A**. \n\nThe question asks for actions that align with the concept of sustainable development.  \n\n* **A. 推廣使用一次性筷子** (Promote the use of disposable chopsticks) - This is **not** a sustainable practice as it contributes to waste and resource depletion.\n\n* **B. 选项** (Use of \"It's not just a planet, it's our home\" and its relation to the Earth) - This is a statement about the Earth being more than just a planet to us. It implies a sense of responsibility and care for the environment, which is a key aspect of sustainable development.\n\n* **C. 选项** (This option is irrelevant to the concept of sustainable development) - This option doesn't address the concept of sustainability.\n\n* **D. 选项** (This option is also irrelevant as it translates to \"It's a dry run\" which is a different concept) - This option doesn't provide a context that aligns with sustainable development.\n\nTherefore, the answer is **A**, as the question implies a choice between sustainable and unsustainable practices. \n\n**\"涸澤而漁\" (Huo zé ér fù)** is a Chinese idiom that means **\"to drain the pond to catch all the fish\"**. This refers to a situation where someone takes all the resources without considering the long-term consequences, essentially destroying the resource base in the process.\n\n**\"涸澤而漁\" (Huo zé \n\n**Therefore, the correct answer to the question is \"**B. 只有向著地球資源\" (Only in relation to the Earth's environment)\n\n**B** is the correct answer because the question asks for actions that are a **violation of the principle of sustainable development**.\n\n**Option D. \"** 維持地球環境** (Maintain a sustainable environment) is the most sustainable option, as it focuses on the preservation of resources for future generations.\n\nLet me know if you'd like to explore more examples of sustainable and unsustainable practices!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '推⼴使用⼀次性⽊筷'], ['B', '留得⻘⼭喺，唔怕冇柴燒'], ['C', '洗⾐服時⼀直開住⽔⻰頭'], ['D', '涸澤⽽漁']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "亞洲同非洲分界線唔包括",
+    "llm_output": "The correct answer is **C. 馬六維海峽**.\n\nHere's why:\n\n* **The question:** The question asks for something that is NOT a feature of Africa and Asia's geographical boundaries.\n\n* **Why the other options are incorrect:**\n\n    * **A. 紅海 (Red Sea)**  is incorrect because the Red Sea is a body of water, and the question asks for a landform or practice that is NOT a part of the definition of a geographical boundary.\n    * **D. 涸澤⽽漁 (Suez Canal)** is incorrect because the Suez Canal is a man-made waterway, not a natural feature.\n\n* **Why C is correct:**\n\n    * **马六甲海峡 (Strait of Malacca)** is a strait, a narrow body of water connecting two larger bodies of water.\n\n* **Why the other options are incorrect:**\n\n    * **B. 曼德海峽 (Strait of Bab el-Mandeb)** is a strait, a narrow body of water connecting the Asian and African continents. It's a geographical feature that separates them.\n\n    * **D. 埃及的蘇伊士運河 (The Suez Canal)** is a man-made canal, connecting the Mediterranean Sea to the Red Sea.\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '紅海'], ['B', '曼德海峽'], ['C', '馬六甲海峽'], ['D', '蘇伊士運河']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "從投⼊—產出嘅⼯業聯繫嚟睇，應該集聚嘅⼯⼚係",
+    "llm_output": "The answer is **D. 皆無** (meaning \"all of the above\" in this context).\n\n**Explanation:**\n\nThis is a bit of a trick question!  \n\n* **\"A. 汽油—》汽車\"** (meaning \"oil—>cars\") is a correct answer for the first example, as it accurately describes the relationship between the production of oil and its use in powering cars.\n\n* **B. 數據中心——產品** (meaning \"data center\") is the correct answer for the second example.\n\nThe third example, \"A. 汽⼚——無鉛汽油\", is a bit more complex. It's likely referring to the fact that the first example is about the **supply chain** of industries.\n\n* **C. 只有地球上嘅企業先可以選擇** (meaning \"only the companies in the first example\") is a bit ambiguous and doesn't directly translate to a specific answer.\n\nThe third example is a bit of a trick question, as it refers to a specific industry (data centers) and the question itself is a bit nonsensical.\n\n**Therefore, the answer to the third question is D. 只有汽車** (meaning \"only cars\") because the prompt suggests a relationship between the first example and the second example, implying the question is asking about the implications of the industry connections in the first example.\n\nLet me know if you have any other questions!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '汽⻋⼚——化纖⼚'], ['B', '⾃⾏⻋⼚——電視機⼚'], ['C', '印染⼚——織布⼚'], ['D', '鋼鐵⼚——印染⼚']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "相對原有嘅發展，資源型城市新⽣期嘅發展主要著眼於",
+    "llm_output": "C. \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '延⻑原有產業鏈'], ['B', '拓寬資源進⼝通道'], ['C', '關閉重污染企業'], ['D', '培育新經濟增⻑點']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "2017年9⽉20⽇，國⼟資源部同農業部召開聯合記者會，宣佈我國永久基本農⽥劃定⼯作總體完成。全國落實保護⾯積15.5億畝，其中⽔⽥同⽔澆地⾯積佔劃定⾯積嘅48%；坡⻆15°以下佔劃定⾯積嘅88%；城市周邊劃定9740萬畝，通過優先確定永久基本農⽥佈局，把城市周邊圍住，把公路沿線包住。全國永久基本農⽥劃定嘅主要⽬的係",
+    "llm_output": "D. \n\n**Explanation:**\n\nThe question asks about the main goal of China's decision to prioritize the protection of 15.5 million mu of farmland in 2018.\n\n* **Mu** is a Chinese unit of area measurement. \n\n* **The correct answer is (D) 15.5 \n\nSince \"mu\" is a unit of area, the answer to the question is likely referring to the **area** of farmland that was prioritized for protection. The passage implies that the goal is to protect a specific area of farmland, which aligns with option (D). \n\nLet me know if you have any other questions.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '摸清耕地資源分佈'], ['B', '優化農業⽣產佈局'], ['C', '統籌我國城鄉規劃'], ['D', '保障國家糧⻝安全']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "⻑江中下游平原同華北平原界線係",
+    "llm_output": "答案：A. \n\n**解釋：**\n\n長江中下游平原和華北平原之間的界限是**淮河**。\n\n**長江中下游**\n\n* **長江流域** \n    * 位于中国中部，是黄河和长江的分水岭。\n    * 作为中国农业发展的重要分界线，它将中国南方和北方地区分开。\n\n**其他選項解釋：**\n\n* **B. 48%** 錯誤，因為問題問的是「我國」的目標，而答案是關於中國耕地資源的數據。\n* **C. 97%** 錯誤，因為選項中沒有提供關於長江中下游地區的數據。\n* **D. 淮河** 係正確答案。\n\n希望以上解釋能幫助你理解為什麼**「長江中下游」** 是一個正確的答案，而其他選項則不正確。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '淮河'], ['B', '黃河'], ['C', '⻑江'], ['D', '海河']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "經過熟化，⽔稻⼟嘅結構特點及功能發⽣嘅變化表現為",
+    "llm_output": "The correct answer is **D. 提高** (improve) **水土保持能力** (soil and water conservation capacity). \n\nHere's why:\n\n* **The context:** The provided examples suggest that the question is about the impact of agricultural development on the environment.\n\n* **Breaking down the options:**\n\n    * **A. 提高** (improve) **水土保持能力** (soil and water conservation ability) is the correct answer because it directly addresses the concept of \"soil and water conservation capacity\" which is a key aspect of \"提高** **(improving) ** \n    * **B. 摸清** (understand) **C. 經過** (undergo) are not the best fit for a question about the impact of development on a specific type of land.\n\n* **The correct translation:**\n\nThe question translates to \"The main purpose of the national land and resources planning is to...\"\n\nThe answer choices are:\n\n    * A. 提高** (improve) **水资源** (water resources) **is not the correct answer because the question asks for the purpose of the planning, not the impact of the process itself.\n\n    * B. 了解** (understand) ** \n    * C. \n\n    * **D. 提高** (improve) **D. 提高** (improve) **D. \n    * **The key takeaway:**\n\nThe answer choices are asking for the correct translation of the question.\n\nThe correct translation of the question is:\n\n**What is the main purpose of the national agricultural development plan?**\n\nThe correct answer is **D. 提高** (提高) **is correct because the examples suggest it's a question about the impact of the plan, not a direct translation of the entire sentence.**\n\nThe answer to the question is **C. 提高** (improve) **水土保持** (soil and water conservation) **is correct because the answer choices are asking for the purpose of the plan, which is to improve the environment).**\n\nThis question is asking about the purpose of the national development plan, which is **to improve the land and resources**.\n\n**Therefore, the correct answer to the question is D. \n\nThe correct answer is **D. 提高** (to improve) **水资源** (water resources) **is correct because the question is asking about the impact of the development plan on the environment, and the answer choices suggest that the main purpose is to improve the environment.**",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '耕作層淺薄鬆散，受⼈類活動影響⼤'], ['B', '表⼟層軟糊，提供咗農作物紮根⽴⾜嘅條件'], ['C', '⺟巖層較薄，阻斷咗有機界同⽆機界嘅聯繫'], ['D', '犁底層緊實，提⾼咗保⽔、保肥能⼒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "以下天體系統中，唔包含⽕星嘅係",
+    "llm_output": "The correct answer is **A. 銀河系**.\n\nHere's why:\n\n* **銀河系** refers to the Milky Way, which is a galaxy.\n\nThe other options are incorrect because:\n\n* **B. 淮河** (Huai River) is a river, not a system containing a specific type of land.\n* **C. \n\nand **D. \n\n** are not related to the concept of \"permanently designated farmland\" in the context of geography.\n\nThe question asks for the \"purpose\" of permanently designating farmland in a specific area. The answer is **C. \n\n** because this system helps to:\n\n* **D. \n\n**  The question is asking for the purpose of designating a specific area as farmland.\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '銀河系'], ['B', '總星系'], ['C', '太陽系'], ['D', '河外星系']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "四川省涪江基岩河牀上有⼀處⾯積超過10萬平⽅⽶嘅「怪⽯灘」，每當枯⽔期就會浴⽔⽽出。⽆數嘅「壺⽳」（壺形凹坑），好似「嵌⼊」喺周邊嘅砂卵⽯中，當地⼈稱之為「⽯⻰過江」。「⽯⻰過江」景觀中，基岩河牀上「壺⽳」嘅成因係",
+    "llm_output": "D. \n\n**解釋:**\n\n「涪江」和「外星」是錯誤的選項，因為「涪」是中國地名，與「涪江」無關。\n\n**正確答案：D**\n\n「水稻」是中國一種常見的農作物，而「涪江」是中國河流名，所以「水床」的结构特征是与水稻有关的地理现象。\n\n**正確答案：A**\n\n「水床」是由于河流的侵蚀和沉积作用造成的，因此「水田」是错误的答案。\n\n**正確答案：**\n\n* **A. Sedimentary rocks are formed by the deposition of sediments carried by rivers.**\n\n**解释：**\n\n* 这是一个关于“河流”的地理问题，而不是关于天文。\n* 因此，正确答案是**A**，即“涪江”的「水床」的结构特征是由于地壳运动导致的，而「水」的「床」是**B**，即「河流」的「侵蝕」和「沉積」作用的結果。\n\n**錯誤答案：**\n\n* **B. 以及 C. 是錯誤的，因為它們與題目中提到的「天」字相關，而「涪江」是地理名词，指代的是「河流」，而非「河流」的「特性」。**\n* **D. \n\n** \n* **A. \n\n* **C. \n\n**\n\n**注意：**\n\n* 這個問題的答案是**錯誤的**，因為「A. 」，「B. 」和「C」都與「星系」的形成機制無關。\n* 只有「河」相關的選項才可能與「河」的形成原因有关。\n\n**正確答案：**\n\n* **D. 因為「涪江」是「水床」的形成，而非「地」的「侵蚀」和「沉积」的形成原因。**\n\n* **D. 因為「D. 地壳抬升」的「侵蚀」和「沉積」的形成，是與「河流」相關的地理現象。\n\n**請注意，這是一個地理概念的題目，所以需要選擇一個與「河流」相關的選項。**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '河流攜帶嘅礫⽯、泥沙沉積⽽成'], ['B', '急流、旋渦夾帶礫⽯磨蝕河牀'], ['C', '基岩河牀受冰川作⽤嘅歷史遺跡'], ['D', '地殼抬升，河流沉積物被⻛化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上一日中最早迎來旭日東昇嘅國家係",
+    "llm_output": "D. 斐濟 \n\nHere's why:\n\n* **斐濟** (Fiji) is located in the Pacific Ocean and is one of the first countries to see the sunrise due to its position near the International Date Line. \n\nLet me know if you'd like to try another geography question! 🌎",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '中國'], ['B', '美國'], ['C', '斐濟'], ['D', '冰島']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "下列運輸⽅式嘅選擇，正確嘅係",
+    "llm_output": "Here's the breakdown of the answer and why:\n\n**問題：**\n\n* **A. ⼈們** **is incorrect** because it suggests a human-controlled process, while the \"highway\" mentioned in the example refers to a natural geographical feature.\n\n* **B. 從美國** **is incorrect** because it's missing a key piece of information: the context of the question.  Without knowing what is being transported to Chengdu, we can't determine if it's the best option.\n\n* **C. 從深圳** **is incorrect** because it focuses on transporting goods from a specific location, but the question asks for the \"transportation mode\".\n\n* **D. 公路運輸** is the correct answer because it's the most likely answer to be related to the \"壺\" (jar) clue in the question.\n\n**Correct Answer:**\n\n**B. 公路運輸** (Highway transportation)\n\n**Explanation:**\n\nThe question is asking about the most efficient way to transport 50,000 kg of goods.  While option C also mentions a weight, the question implies that the 50,000 kg is a significant amount, suggesting it's referring to a specific type of transportation (highway) rather than a general concept.\n\n**Therefore, the correct answer is C. 公路運輸** (Highway transportation)\n\n**Important Note:**\n\nIt's crucial to understand that the \"correctness\" of the answer depends entirely on the context of the question.  The prompt \"涪\" is ambiguous and doesn't give us enough information to determine the correct answer.\n\n**To make this a fair geography question, the prompt needs to be more specific. For example:**\n\n* **Which of these transportation methods is most suitable for transporting 50,000 kg of grain to a local market?**\n\nIn this case, the answer would be **C. \n** because it's the most specific option.\n\nLet me know if you'd like to explore more specific geography questions. I can help you analyze the best way to transport 50,000 kg of grain to a location depending on the context. \n\nFor example, I can help you determine if a specific location is more likely to use **公路運輸 (highway transportation)** for receiving large shipments of grain.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '從⼭⻄運送5000噸煤到北京揀⽔路運輸'], ['B', '從成都運送60噸鋼材到拉薩揀鐵路運輸'], ['C', '從深圳運送20千克急救藥品到⾹港揀⻜機運輸'], ['D', '從⽕⻋站運送40噸貨物到20千⽶遠嘅市區各倉庫揀公路運輸']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "「新絲綢之路」橫貫亞歐⼤陸，⾃東向⻄依次經過嘅世界⽂化圈係東亞⽂化圈同",
+    "llm_output": "D. \n\n**解释：**\n\n* **C** 和 **D** 选项都包含了「世界」和「成都」的选项，但「世界」的地理位置是「世界」，而不是「世界」的文化圈。\n\n* **B** 选项是正確答案。\n\n \n\n**解释：**\n\n「世界」的文化圈是指世界各地的文化区域，而「中东」的文化圈是指以中东地区文化为主导的区域。 \n\n* 选项 **A** 和 **B** 中包含的「东」指的是中国与世界其他地区的地理位置和文化区域的联系。\n\n* 选项 **C** 和 **D** 中的「世界」和「西亚」选项都包含了「西亚」的文化，但选项 **C** 中的「世界」指的是「世界」的文化区域，而选项**D** 中的「西欧」是错误的。\n\n \n\n希望这解释能帮助你理解为什么「西欧」的文化区域是正确的答案。\n\n「新丝绸之路」的范围更广，不局限于中国，而是包括了连接中国与中亚、西亚、欧洲等多个地区的路线。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '伊斯蘭⽂化圈、東歐⽂化圈、⻄歐⽂化圈'], ['B', '伊斯蘭⽂化圈、⻄歐⽂化圈、東歐⽂化圈'], ['C', '東歐⽂化圈、伊斯蘭⽂化圈、⻄歐⽂化圈'], ['D', '⻄歐⽂化圈、東歐⽂化圈、伊斯蘭⽂化圈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "成因同⻛帶、⽓壓帶位置嘅季節移動有關嘅⽓候類型係",
+    "llm_output": "C. \n\n**Explanation:**\n\nThis question asks about the climate type that is characterized by the movement of air pressure systems. This is a key characteristic of the **temperate continental climate (D)**, also known as the **humid continental climate**. \n\nHere's why:\n\n* **Temperate continental climates** are known for their large seasonal temperature variations. This is due to the movement of air masses, with warm, humid summers and cold, dry winters.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '地中海⽓候'], ['B', '溫帶海洋性⽓候'], ['C', '亞熱帶季⻛⽓候'], ['D', '熱帶⾬林⽓候']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "制約環境承載⼒嘅⾸要因素係",
+    "llm_output": "A. \n\n**解释：**\n\n* **环境承载力**指的是一个环境系统能够维持的最高人口或生物量水平，超过这个限度就会导致环境退化。\n* **气候**是环境承载力变化的长期因素，而**气候带**则代表了不同地区的气候特征，这些特征会影响气候条件下土地的利用方式和资源分配。\n\n**因此，正确答案是 A**\n\n**環境承載力** \n\n**补充说明：**\n\n* **A. 資源總量** \n\n   * 这是一个错误的答案。资源总量是影响环境容量的重要因素，但它不是唯一的决定因素。\n* **B.  demographic** 虽然人口规模和社会发展水平会影响环境压力，但它只是影响环境容量的因素之一，而非决定因素。\n* **C. 科技水平** \n\n   * 这是一个错误的答案。科技水平可以帮助我们提高环境利用效率，但它不是决定环境容量的因素。\n* **D. C. 地理位置** \n\n   * 这是一个错误的答案。地理位置是影响气候的因素，但不是环境容量的定义。\n\n   \n\n**環境容量** \n\n   * 受到許多因素影響，包括資源總量，但不是決定環境承載力的唯一因素。\n\n**C. 資源總量** \n\n**C. \n\n** \n\n**是正确答案，因为它不是指数量，而是指环境能够提供的资源总量，例如：**\n\n* **D. 資源總量** \n\n**D. \n\n**\n\n* **D. \n\n**是正确答案，因为它不是地理位置，而是指环境能够提供的资源量**\n\n**是正确答案。**",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '⼈均物質消費量'], ['B', '科技⽔平'], ['C', '⼈⼝數量'], ['D', '資源總量']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "上海某商廈屋頂上鋪滿咗⼀個個種植箱，呢度被稱為「屋頂農莊」。商家專⻔從⻑⽩⼭運嚟優質⼟壤，吸引附近居⺠租借種植箱種植蔬果。屋頂農莊運作以嚟，整棟商廈夏季冷氣⽤電量下降...... 商家喺經營屋頂農莊時，重點關注嘅係",
+    "llm_output": "答案：**D** \n\n**Explanation:**\n\nThe answer is **D. 資源總量 (Resource Availability)**.\n\nHere's why:\n\n* The prompt states that the \"urban farming\" concept is being implemented in a \"high-rise building\" (which implies a city environment).\n\n* **D. 市場 (Market)** is the most logical answer as it directly relates to the demand and potential for the \"rooftop farm\". The other options are less relevant in this context.\n\nLet me know if you'd like to try another one! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '地形'], ['B', '⼟壤'], ['C', '市場'], ['D', '勞動⼒']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "上海科研⼈員將太陽能技術同海⽔淡化⼯程巧妙「嫁接」，⼤幅度降低咗海⽔淡化嘅成本。呢⼀成果將惠澤「⼀帶⼀路」上嚴重缺⽔⽽光熱資源豐富嘅地區。呢啲地區主要係",
+    "llm_output": "答案：**B** \n\n**Explanation:**\n\nThe prompt mentions that the innovation is related to the \"water scarcity\" problem. This implies that the \"greenhouse\" effect is being discussed in the context of a specific location, implying a focus on regions with a large-scale impact. \n\nThe prompt implies that the focus is on areas that are affected by water scarcity. This is a characteristic of **developing countries** and \"綠色\" (green) is often associated with the concept of \"sustainability\" in the context of development.\n\nTherefore, the answer is **D.  B.  東南亞 (Southeast Asia)**\n\n**Southeast Asia** is known for its diverse geography and climate, but also for facing significant challenges with water scarcity due to its rapid economic development and population growth. \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '東亞、南亞'], ['B', '中亞、⻄亞'], ['C', '⼤洋洲、⻄歐'], ['D', '東歐、東南亞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "第⼆屆⻘奧會於2014年8⽉16⽇⾄28⽇喺南京舉⾏，佢係繼北京奧運會後中國嘅⼜⼀個重⼤奧運賽事，係中國⾸次舉辦嘅⻘奧會，今次⻘奧會嘅⼝號為「分享⻘春，共築未來」。問第⼆屆⻘奧會舉⾏期間，南京嘅晝夜⻑短變化狀況係",
+    "llm_output": "The correct answer is **D. 晝夜等长 (Day and night are equal in length)**\n\nThis is because the question refers to the \"一帶一路\" (Belt and Road Initiative) which is a global development strategy adopted by the Chinese government involving infrastructure development and investments in 152 countries. The \"晝夜等长\" (diǎo yè déng cháng, meaning \"day and night are of equal length\") refers to the phenomenon of equal day and night lengths during the equinoxes, which is when the \"一帶一路\" initiative is most likely to be relevant.\n\nThe \"口号\" (slogan) \"晝夜等长\" refers to the \"Belt and Road Initiative\" being a global initiative, it's likely that the context of the question is referring to the economic and geopolitical implications of the initiative, not necessarily the physical act of holding the event. \n\nTherefore, the answer is **D**, as the question likely refers to the impact of the \"一带一路\" initiative on the global stage, not on a specific event. \n\n\n**解释:**\n\n* **昼夜等长 (zhù yè déng cháng)** 意思是「日照時間和夜晚時間一樣长」。\n* 由于「一带一路」计划涉及到全球的许多国家和地区，所以它对全球的影响是持续的，并可能对许多国家和地区的昼夜长度产生影响。\n\nThis is a bit of a trick question. The \"一带一路\" (Belt and Road) initiative is a global development strategy, and the question is likely referring to the impact of the Belt and Road Initiative on a global scale. The fact that the event occurred during the equinox is a clue that the question is referring to the concept of the day and night being equal in length, not a literal interpretation of the word.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔能確定'], ['B', '晝⻑夜短'], ['C', '晝短夜⻑'], ['D', '晝夜等⻑']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "⼏內亞鋁⼟資源豐富，所產鋁⼟礦⼏乎全部供出⼝。2014年，中國某企業投資2億美元，開採⼏內亞博凱地區嘅鋁⼟礦。2015年9⽉29⽇，⾸條滿載鋁⼟礦嘅18萬噸散裝船從⼏內亞啟程到達我國煙臺港。⽬前，該企業正計劃加⼤喺⼏內亞投資，建設電解鋁基地。中國企業喺⼏內亞投資開採鋁⼟礦嘅影響主要係",
+    "llm_output": "D. \n\nIt seems like you're trying to test my knowledge of geography and how to apply it to a multiple-choice question. \n\nLet me know if you'd like to try another one! 🌎 \n\n**Please note:**\n\nWhile I can provide the answer to your question, it's important to remember that multiple-choice questions are designed to test understanding and reasoning. \n\nIt's great that you're practicing your geography knowledge!  Do you have any more questions about the world? 🗺️",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '擴⼤⼏內亞外匯收⼊來源'], ['B', '降低我國鋁產業⽣產成本'], ['C', '提⾼⼏內亞鋁⼟礦附加值'], ['D', '提⾼我國鋁⼟礦嘅⾃給率']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "⼏內亞鋁⼟資源豐富，所產鋁⼟礦⼏乎全部供出⼝。2014年，中國某企業投資2億美元，開採⼏內亞博凱地區嘅鋁⼟礦。2015年9⽉29⽇，⾸條滿載鋁⼟礦嘅18萬噸散裝船從⼏內亞啟程到達我國煙臺港。⽬前，該企業正計劃加⼤喺⼏內亞投資，建設電解鋁基地。⼏內亞嘅鋁⼟礦⼏乎全部供出⼝嘅原因係",
+    "llm_output": "D. \n\nThe correct answer is **D**. \n\nThis example uses the provided context to determine the correct answer. The context states that the Chinese company is building a base in the region, implying that the company is focusing on the \"resource-rich\" aspect of the region. \n\nTherefore, the context suggests that the reason for the investment in the region is due to the **high demand for aluminum in the global market**. \n\nThis means the most likely reason for a company to invest in an area with a large amount of aluminum ore is to **reduce production costs by accessing a region with abundant resources**. \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '⼯業化⽔平低，加⼯能⼒唔⾜'], ['B', '農礦產品直接出⼝經濟效益⾼'], ['C', '⼏內亞市場對鋁製品需求量⼩'], ['D', '中國市場對鋁⼟礦嘅需求量⼤']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "下列唔屬於天體嘅係",
+    "llm_output": "答案：D\n\n**解釋：**\n\n* **太空站** (例如國際太空站) 是由人類建造的，所以不是天體。\n* **行星** 係天體。\n* **星雲** 係由塵埃和氣体组成的巨大星际云，属于天体。\n* **星系** 係由恆星、星際氣體和星际尘埃组成的，例如我们所处的银河系。\n\n因此，答案為 D. \n\n**說明：**\n\n* 隕星是流星燒毀後在空中發光，屬於流星體。\n* **星雲** 係由塵埃和氣体组成的巨大星际云，例如猎户座大星云。\n* **行星** 是一种天体，例如火星。\n\nIt seems like you're trying to understand the concept of \"human-made\" versus \"natural\" in the context of celestial bodies.\n\n* **隕星 (meteor)** 是一种天體，例如火星。\n* **行星 (planet)** 是一個天體的定義，例如太陽系中所有行星的定義。\n\n* **星雲 (nebula)** is a nebula, which is a cloud of gas and dust in space.\n\n**Therefore, the answer is D. \n\n**The correct answer to the question is D. **\n\nIt's important to remember that \"天體\" (tiān tǐ) refers to celestial bodies, and the question asks for what does NOT belong. Since the options are about celestial bodies, the only one that doesn't fit is \"B. 天體\" (tiān tǐ) which means \"celestial bodies\" in Chinese.\n\nLet me know if you have any other questions.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '太空試驗站'], ['B', '隕星'], ['C', '星雲'], ['D', '織女星']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "世界含沙量最大嘅河流係",
+    "llm_output": "The correct answers are:\n\n* **A. 晝 (Day)**\n\n* **A. 擴⼤鋁**\n\nHere's why:\n\n* **The first question** is asking for the **largest river by volume**, which is the \"Yellow River\" (黃河) in the context of the provided information.\n\n* **The second question** is asking about the **impact of the \"largest river\" answer**, which is a bit of a trick. While the Amazon River is the largest river in the world by volume, the question implies a specific reason for this being the case. \n\nLet me know if you'd like to know the answers to the questions in the examples! \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '松花江'], ['B', '黃河'], ['C', '海河'], ['D', '⻑江']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於地球圈層結構嘅敍述，正確嘅係",
+    "llm_output": "The answer is **C. ⼤氣層**\n\nHere's why:\n\n* **Lithosphere (地殼)** and **atmosphere (大气层)** are the correct terms for the Earth's structure. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '巖⽯圈包括地殼同成個地幔'], ['B', '⽣物圈係地球上所有⽣物嘅總稱'], ['C', '⼤⽓圈嘅主要成分係氮同氧'], ['D', '⽔圈係連續⽽⼜規則嘅圈層']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "京滬⾼鐵係⼀條連接北京市同上海市嘅⾼速鐵路，全程橋樑⽐80%，設計時速350千⽶，於2011年6⽉30⽇全線正式通⻋，運營時速300～350千⽶。京滬⾼鐵",
+    "llm_output": "Here are the answers to your questions, along with explanations based on the examples you provided:\n\n**問題：世界最大嘅隕石**\n\n答案：**C**\n\n**Explanation:**\n\nThe provided examples suggest that the question is asking for the answer that best reflects the context of the examples. Since the examples highlight the abundance of a resource and its global trade, the answer is likely related to the global impact of the resource.\n\n* **Example 1:**  This example mentions a specific Chinese company investing in a project.\n\n* **Example 2:** This example mentions a specific event (the ship arriving) and implies a connection to the global economy.\n\n* **Example 3:** This example is based on the previous two and implies a focus on the global impact of a resource.\n\nTherefore, the answer to the question \"世界最⼤嘅隕石\" (What is the largest type of meteorite impact site in the world?) is **C. \n\n**Explanation:**\n\nThis question is asking for the **location** of the meteorite impact, not the type of impact.\n\n**Therefore, the answer to the question \"世界最⼤嘅隕石\" is the **location** of the largest meteorite impact site in the world**.\n\n**The answer to this question is likely asking for the location of the largest known meteorite impact crater, which is the **Vredefort Crater** in South Africa.\n\n**\n\nLet me know if you'd like to try and answer some more questions!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '沿線低⼭丘陵廣布，架橋可以保證運營速度'], ['B', '起⽌點城市運輸⽅式多樣，有利於銜接同轉運'], ['C', '連接經過各省會，優先滿⾜需求⼤嘅交通點'], ['D', '運⾏時速⼩於設計時速體現咗因地制宜原則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "喀⻨隆",
+    "llm_output": "C",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '鐵路線貫穿南北，與⼭脈平⾏'], ['B', '地處東⾮⾼原，最⾼峯超過4000⽶'], ['C', '沿岸主要受寒流影響，多海霧'], ['D', '禁獵區數量多，加強物種保護']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "下列唔屬於天體嘅係",
+    "llm_output": "A, B, and C. \n\nHere's why:\n\n* **Option A** is incorrect because it refers to a specific geographical feature, the \"atmospheric structure\" of a region, which is a concept related to the Earth, not a celestial body.\n\n* **Option B** is likely the correct answer, as it's the only option that specifically mentions a feature of Earth (the \"human\" answer).\n\n* **Options D** and **C** are incorrect because they are not referring to a specific answer option.\n\nLet me know if you'd like me to analyze the other options! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '星際空間嘅⽓體同塵埃'], ['B', '輪廓模糊嘅星雲'], ['C', '夜空中飄動嘅孔明燈'], ['D', '⼈類嘅家園——地球']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "亞⻢遜河⼝",
+    "llm_output": "D. \n\n**Explanation:**\n\nThe correct answer is **D. \nD. ⼈類嘅家園** (D. Mankind's Home)\n\n**Reasoning:**\n\nThe question asks for the correct answer, but the provided options are not relevant to the question itself. The question is about the mouth of a river, and the correct answer should focus on the characteristics of the river's mouth.\n\nThe correct answer is **D. ⼈類嘅** because it highlights the key characteristic of the Yangtze River's mouth:\n\n* **\"人類嘅家園\"** means \"home of mankind\" or \"human's home\". This refers to the Yangtze River being a source of life and resources for a large population in China.\n\nThe other options are incorrect because they are not relevant to the context of the question. \n\n**Note:**\n\nThis example highlights the importance of clear and concise wording in multiple-choice questions. The question is designed to test knowledge about the Yangtze River, and the answer choices should reflect that. \n\nLet me know if you'd like to try another example!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '受亞⻢遜河年徑流量⼤影響，鹽度低'], ['B', '受蒸發同降⽔影響，鹽度季節變化⼤'], ['C', '潮湧⼩於阿拉⽠利河⼝，因為⻛⼒⼩'], ['D', '潮湧⼤於阿拉⽠利河⼝，因為多沙洲']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "近年嚟，「⼴場舞」逐漸成為深受中⽼年⼈鍾意嘅⼀種舞蹈形式，常⻅於城市夜晚嘅⼴場之上（中⽼年⼈⽩天需喺屋企照顧細路）。2015年，⼴場舞「最炫⼩蘋果」登上春晚舞臺，⼈氣爆棚。但其快速發展嘅同時，因噪⾳擾⺠又備受爭議。呢種爭議反映咗我國城市化過程中存在嘅問題，唔包括",
+    "llm_output": "The answer is **D. 城市化發展快**.\n\nHere's why:\n\n* **城市化** is a process of population and economic shifts from rural to urban areas. \n\nThe prompt focuses on the **challenges** of rapid urbanization, implying that the answer should reflect a problem associated with urbanization. While options A and B directly relate to the negative aspects of rapid urbanization, option D is more neutral and doesn't specifically address a challenge.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '⼈⼝⽼齡化速度加快'], ['B', '失業⼈⼝增多'], ['C', '城市公共⽤地唔⾜'], ['D', '城市化發展快']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "400毫米等降水量線唔經過",
+    "llm_output": "C. \n\n**理由:**\n\n* **地區性** \n\nThe correct answer is **C (Guangzhou)**.\n\nThe question implies that options A, B, and D are all related to the phenomenon of \"urbanization\" in a way that implies a large population influx. \n\n* **蘭州** (Lanzhou) is a city known for its rapid urbanization.\n* **北京市** (Beijing) is a city, but it's not the only option that mentions a city.\n\nTherefore, the correct answer must be a city that is not mentioned in the options. \n\n* **春節** (Chinese New Year) \n\n* **春晚** (Spring Festival Gala) is a popular event during Chinese New Year, but the prompt implies the focus is on the \"urbanization\" of a specific area, not a specific event.\n\n* **廣州** (Guangzhou) is a city, and options **A (廣州)** and **B (人人口)** are both mentioned in the prompt.\n\n* **C** is the only option that doesn't directly relate to the concept of a specific place.\n\n* **(B) 350毫米 (millimeters) ** is a measurement of rainfall, implying a low rainfall area.\n\n* **(A) 80%** is a specific measurement that is mentioned in the prompt.\n\nTherefore, the answer to the question is **C (C)**. \n\nLet me know if you'd like to see more examples!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '蘭州'], ['B', '大興安嶺'], ['C', '廣州'], ['D', '張家口']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "拉尼娜現象係指⾚道附近中東太平洋海⾯溫度異常降低嘅現象，又稱反厄爾尼諾現象，佢係⼤⽓環流系統同洋流系統相互作⽤嘅結果，會導致⽓候異常，⽓象災害加劇。拉尼娜現象嘅出現同洋流變化相關，下列說法可信嘅係",
+    "llm_output": "正確答案：A. \n\n**解釋：**\n\n* 祕秘魯上升** (El Niño) **同中**\n\n**解釋：**\n\n* **A. 祕魯附近海⾯溫度異常降低**\n\n這項說法最能反映城市化過程中可能出現嘅物種多樣性問題。\n\n* \n\n**B. 祕魯附近海域水流** \n\n* **C. 暴雨現象** \n\n* **D. 影響**\n\n呢三種情況都與「拉尼娜現象」相關，但並非所有選項都正確。\n\n* **D. 暴雨**\n\n* **D. 北**太平洋** \n\n**D. 因為** \n\n* **D. 城市化**\n\n**D. 城市化** \n\n**A. 祕魯附近水域** \n\n* **B. 祕魯附近** \n\n**水域** \n\n**A. 祕魯附近** \n\n* **B. 祕魯附近**\n\n**B. 因為**\n\n* **C. 因為**\n\n**C. \n\n** \n\n**A. 喀⻢頓**\n\n**B. 暴雨** \n\n**C. \n\n** \n\n**B. 因為** \n\n**C. \n\n**\n\n**D. 錯誤\n\n**\n\n* **B. 錯誤\n\n**\n\n**A. \n\n**\n\n**C. \n\n**\n\n**\n\n** \n\n**\n\n**B. \n\n**\n\n**D. \n\n**\n\n**B. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**B. \n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**B. \n\n**\n\n**C. \n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**B. \n\n**\n\n**C. \n\n**\n\n**\n\n** \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**A. \n\n**\n\n**A. \n\n**\n\n**B. \n\n**\n\n**\n\n**\n\n**B. \n\n**\n\n**\n\n**\n\n**\n\n**B. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**B. \n\n** \n\n**\n\n**\n\n**C. 因為**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**A. \n\n**\n\n**B. \n\n**\n\n**C. 因為**\n\n**B. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. 因為**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. 因為**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**C. 因為**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '祕魯上升流消失'], ['B', '⾚道暖流增強'], ['C', '⻄⻛漂流減弱'], ['D', '北太平洋暖流減弱']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "如果⾚潮發⽣嘅海域，有寒冷嘅沿岸流經過，其對⾚潮嘅影響係下列邊啲（）：a使污染區域更集中；b加劇污染程度；c使污染區域更分散；d減輕污染程度",
+    "llm_output": "The correct answer is **D**. \n\nHere's why:\n\n* **a.  would bring about a more concentrated impact of pollution** - This is incorrect.  La Niña events are associated with cooler than average sea surface temperatures in the central and eastern equatorial Pacific Ocean.\n\nLet's break down the answer choices:\n\n* **a. 由于** (due to) is a Chinese phrase meaning \"due to\".  The example mentions that La Niña is associated with colder water temperatures, which is the opposite of the question's premise.**\n\nLet me know if you'd like to see more examples of how La Niña affects the environment! \n\nHere are some examples of how La Niña events can affect the environment:\n\n* **b. 由于** (due to) **el Niño 事件** (El Niño events) **是 el 浪潮** (are) **caused by 厄尔尼诺现象** (El Niño phenomenon) **的影響，導致** (This is the opposite of what the question is asking for) **b. 因為** (because) **降水量** (of rainfall) **的變化** (changes) **會影響** (will affect) **b. 因為** (because) **d. \n\n**\n\n**\n\nLet me know if you'd like to see more examples of how La Niña affects the environment, or if you have any other questions about it.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'cd'], ['B', 'ab'], ['C', 'ad'], ['D', 'bc']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上海外華⼈最集中嘅地區係",
+    "llm_output": "A.\n\nHere's why:\n\nThe question asks for the regions where the \"世界\" (world) is experiencing the \"opposite\" of the effects of La Niña. This implies the answer is related to the opposite of La Niña's impact on weather patterns.\n\n**La Niña and El Niño are opposite phases of the same climate pattern, known as the El Niño-Southern Oscillation (ENSO).**\n\n* **A. ⼈⼝ (population)**\n\nThis is a trick question! The prompt mentions \"population\" in relation to the El Niño phenomenon, implying the question is about the difference between the two.\n\n* **B. 西亚 (Western Pacific)**\n\n* **C. 广州 (Guangzhou)**\n\n* **D. 厄尔尼诺 (El Niño)**\n\nThe answer is **C. ab**\n\n**Explanation:**\n\n* **A. 400毫米 (400 millimeters)**\n\nThis is a measurement of rainfall, and the question asks for the location of a phenomenon related to the \"400\" (which likely refers to the 400-meter-high \"400米\" (400 meters)\n\n**C. 东南亚 (Southeast Asia)**\n\n* **D. \n\nThe answer is D. 西南太平洋 (Southeast Pacific)**\n\n* **The answer is not D. 西亚 (Western Pacific)** because the term \"世界\" (world) is a general term and the question is asking for a specific phenomenon that is the opposite of what happens in the \"西太平洋\" (South China Sea) region during El Niño.\n\n**Therefore, the answer to the question is likely to be a phenomenon that is the opposite of a \"warm\" climate, which is the opposite of the ENSO phenomenon. This could be something like:**\n\n* **C. 400米 (D. 400米)**\n\nThe answer is **D. 厄尔尼诺 (El Niño)**\n\n**B. 西亚 (Western Pacific)**\n\n* **C. 西亚 (Western Pacific)** is a region of the world where temperatures are generally lower.\n\n**Therefore, the answer to the question is C. 厄爾尼諾 (El Niño)**\n\n* **The answer is not 欧洲 (Europe)** because it's not a specific region related to ENSO.**\n\n**Therefore, the answer is:**\n\n* **C. \n\nThe answer is **D. 400米 (400 meters)**\n\n**Explanation:**\n\n* **D. 西亚 (The El Niño phenomenon)**\n\n**is a climate pattern that occurs in the Pacific Ocean, characterized by unusually warm surface temperatures in the central and eastern equatorial Pacific.**\n\n* **The answer is not a. \n\n**\n\n* **D. \n\nThe answer is **D. \n\n**\n\n**\n\nThe prompt mentions \"400米 (400 meters) \" which is a bit ambiguous. It could be referring to a specific location, but it's more likely referring to the \"400米 (400 meters) \"\n\n**\n\n* **\n\nThe answer is **C. \n\n**\n\n**\n\nThe answer is **C. 400米 (400 meters)**\n\n* **\n\nThe answer is **D. 400米 (400米) **\n\n**\n\n**\n\n**\n\nThe answer is **C. \n\nThe answer is **C. 欧洲 (欧洲) **\n\n**\n\nThe answer is **C. 欧洲 (Europe)**\n\n**\n\nThe prompt is asking for the opposite of \"\n\n*\n\nThe answer is **C. \n\n**\n\n**\n\n**\n\nThe answer is **C. 广州 (Guang Niño) **\n\n**\n\nThe answer is **C. \n\nThe answer is **C. \n\nThe answer is **C. \n\n**\n\n**\n\nThe answer is **C. \n\n**\n\n* **\n\nThe answer is **C. 西亚 (El Niño) **\n\n* **A.\n\n**\n\n**\n\nThe answer is **C. \n\n**\n\n**\n\n**\n\nThe answer is **C. \n\n**\n\n**\n\nThe answer is **C.\n\nThe answer is **C. \n\n**\n\n**\n\n**\n\nThe answer is **C. 厄尔尼诺 (\n\n**\n\n**\n\nThe answer is **D. \n\n**\n\nThe answer is **D.\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\nThe answer is **D. \n\n**\n\n**\n\n**\n\nThe El Niño phenomenon is characterized by unusually warm ocean temperatures in the central and eastern Pacific Ocean. This is the opposite of what the prompt describes.\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\nThe El Niño-Southern Oscillation (ENSO) is a climate pattern that",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '南亞'], ['B', '歐洲⻄部'], ['C', '東南亞'], ['D', '西亞']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "埃及嘅⻄⽔東調⼯程⻄起尼羅河三⻆洲，引尼羅河⽔東調至⻄奈半島北部嘅阿⾥什河⾕，全⻑262千⽶，主要由蘇伊士運河以⻄渠道、穿蘇伊士運河輸⽔隧洞、⻄奈北部輸⽔⼯程三部分構成，規劃開發耕地378萬畝。⻄奈北部調⽔⼯程基本喺沙漠地區進⾏，喺到達阿⾥什河⾕之前採⽤壓⼒管道輸⽔，並喺灌區建設排⽔系統。埃及興建⻄⽔東調⼯程嘅主要⽬的係",
+    "llm_output": "The answer is **D. 形成完善嘅灌溉系統，有利於農業生產**.\n\n**Explanation:**\n\nThe text you provided mentions that the project is \"designed to improve agricultural production conditions\". This implies that the project aims to improve the conditions for agricultural production in the area.\n\n**Here's why the other options are incorrect:**\n\n* **A. 形成水系之間的便利通道，有利於航運發展** (Facilitating transportation between water systems) - While the project does involve water, the focus is on the agricultural benefits of the project, not on transportation.\n\n* **B. 提高城市附近水質** (Improve water quality in the vicinity of cities) - This option is too specific. The text mentions the project's focus on the \"water scarcity\" in the Nile Delta region, but that doesn't mean it was designed to improve water quality there.\n\n* **C. 改善水質** (Improve water quality) - This option is also too specific. The text mentions \"water scarcity\" but doesn't provide information about the specific location of the project.\n\n* **B. 完善的城市發展** (Improve the development of cities) - This is a goal of development, but the text specifically mentions the Nile Delta project being about water management, not just general development.\n\n**Therefore, the most accurate answer based on the provided context is D.**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '形成⽔系之間嘅便利通道，有利於航運發展'], ['B', '完善⻄奈半島灌溉系統，改善農業⽣產條件'], ['C', '為東部⼯業、城市發展提供⽣產⽣活⽤⽔'], ['D', '調節尼羅河徑流量季節分配唔均，防治洪澇']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "我國沿海⾚潮⼀般發⽣喺",
+    "llm_output": "答案：C \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '6⽉到8⽉'], ['B', '12⽉到2⽉'], ['C', '9⽉到11⽉'], ['D', '3⽉到5⽉']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "促使歐洲製造業⽣產向東轉移嘅主要原因係",
+    "llm_output": "B. \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '尋求完善嘅配套設施'], ['B', '降低⽣產成本'], ['C', '⼈才向東流動'], ['D', '受⾼科技產業嘅吸引']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "同⾃然⼟壤相比，⽔稻⼟",
+    "llm_output": "The answer is **C. 12⽉到2⽉**.\n\nHere's why:\n\n* **Option A** is incorrect because the question asks about the \"reasons\" for a phenomenon, not the \"results\" of it.\n\n* **Option B** is incorrect because it's a general statement about the nature of the question, not the answer to the question itself.\n\n* **Option C** is the correct answer because the question is asking about the location of the phenomenon, and the answer choices are all related to geographical locations.\n\n* **Option B** and **D** are incorrect as they are not the most accurate descriptions of the characteristics of a \"世界自然\" (world natural) phenomenon.\n\nLet me know if you'd like to try another geography question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '結構更加複雜'], ['B', '唔含腐殖質'], ['C', '枯枝落葉層增厚'], ['D', '肥⼒⽔平下降']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "我國「堅持計劃⽣育基本國策唔動搖」嘅根本原因係",
+    "llm_output": "The answer is **B. 促使製造業向東發展**.\n\nHere's why:\n\n* **The question:** The question asks for the \"fundamental reason\" behind the shift of China's population. This implies a core cause, not just a surface-level one.\n\n* **The answer:**  The provided answer \"**B. 降低⽣產成本**\" (reduce production costs) is the most likely reason for a shift in population in this context.\n\nLet me explain the reasoning behind this:\n\n* **Economic Opportunity:** The phrase \"降低成本\" (lower production costs) suggests a focus on the economic reasons for this population shift.\n\n* **Economic Development:**\n\nThe most common reason for people migrating from one area to another is the desire for better economic opportunities. This could include:\n\n    * **Lower cost of living:**  People often move to areas with lower costs for housing, food, and other necessities.\n    * **Higher wages:**  The desire for higher wages is a strong motivator for migration.\n\n* **Economic Development in China:**\n\nThe context of the question suggests a focus on economic factors influencing the \"western\" (西) development of the country.\n\n**Therefore, the question is asking for the reason why China's \"industrial\" landscape is changing, and the answer \"降低\" (reduce) is the most logical choice.**\n\nLet me know if you'd like to explore other potential answers for a different context.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '我國⼈⼝東多⻄少'], ['B', '我國⼈⼝基數⼤'], ['C', '我國⼈⼝出現負增⻑'], ['D', '我國⼈⼝基數⼩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "下列敍述同安徽省南部地域⽂化特徵相符嘅係",
+    "llm_output": "答案：**B. 農業以種植茶、** **B. 降低生產成本**\n\n**解析：**\n\n* **安徽省南部** 地區以**農業**為主的，而**C 選項** **「以茶葉、中藥材為特點」** 係正確答案。\n\n**注意：**\n\n* 這個題目有兩個答案選項，A 和 C 都可以說與「農業」相關。 \n* 如果你想問哪個選項更準確地描述安徽南部地區的文化特徵，**A 选项**「降低生产成本」**更符合高中地理中学习人口地理的主题。\n\n**解释：**\n\n* 虽然**C 选项**「以**D**选项「中药材」**种植**为主要特征**，但高中地理更注重**区域的经济活动和资源利用**，而不是具体的建筑风格。\n\n**A 选项**「以茶葉、中圧为主要原因**C. 降低生产成本」** 也是一个可能的答案，但**D 选项**「以**泥土**为基础」**更直接地反映了题目的主题**。\n\n**因此，最合适的答案是B。**\n\n**希望以上分析對你有幫助！**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '評劇、秦腔為傳統地⽅戲曲'], ['B', '農業以種植茶、⽵等為特⾊'], ['C', '敬奉媽祖，盛⾏媽祖⽂化'], ['D', '泥草房同吊腳樓係傳統⺠居']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "以下能源嘅形成同太陽輻射能有關嘅係",
+    "llm_output": "正确答案：**D**\n\n**解释：**\n\n* **地热能** 来自地球内部的热量。\n* **石油** 和 **天然气** 是生物燃料，其形成与古代海洋生物遗骸的分解有关。\n\n因此，只有**潮汐能**屬於傳統地人口以石油為主要能源來源，所以答案是 **D**. \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '地熱能'], ['B', '核能'], ['C', '煤炭石油'], ['D', '潮汐能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "關於⽔平⽓壓梯度⼒，下列說法正確嘅係",
+    "llm_output": "D. \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '平⾏於等壓線，指向⾼壓區'], ['B', '垂直於等壓線，指向低壓區'], ['C', '垂直於等壓線，指向⾼壓區'], ['D', '平⾏於等壓線，指向低壓區']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "港珠澳⼤橋海底沉管隧道鋪設難度⼤嘅原因係",
+    "llm_output": "A. 海底構造複雜，需要考慮地质条件和水流等因素。 \n\n**A. 海水**\n\n**Explanation:**\n\nThe Hong Kong-Zhuhai-Macau Bridge (HKZM Bridge) is a bridge-tunnel system. The construction of the bridge-tunnel portion, particularly the submerged tunnel, presents significant engineering challenges due to the **complex geological conditions** of the seabed, which is not mentioned in the examples provided. \n\nThis type of question relies on understanding the context of the options. While the examples mention \"A. 堅持傳統文化\" (A. Upholding traditional culture) and \"D. \n\n**Therefore, the correct answer is A.** \n\n**Incorrect Answers:**\n\n* **B. 傳統建築** (B. Traditional architecture) is incorrect because the question focuses on the engineering challenges of the project, not the cultural implications.\n* **C. 具有特殊性** (C. Special geological conditions) is incorrect because it doesn't specify the challenges associated with the **submerged tunnel**.\n* **D. \n\n**\n\n**C. 地下沉積物** (A. Population density) is a more general answer and doesn't specifically address the challenges of building a bridge-tunnel.\n\n**Important Note:**\n\nThe examples you provided suggest that the correct answer is likely to be related to the **construction process** and **environmental factors**.\n\nLet me know if you have any other questions about the HKZM Bridge or anything else!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '海⽔含鹽⾼，腐蝕性強'], ['B', '海底沉積物深厚，流動性強'], ['C', '需要經過海⽔較深嘅海溝'], ['D', '位於環太平洋地震帶上']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "6⽉22⽇，正午太陽⾼度達到⼀年中最⼤值嘅地區係",
+    "llm_output": "C. \n\n**Explanation:**\n\nThe question asks for the region where the sun reaches its highest point in the sky at noon. This refers to the **latitude** where the sun is directly overhead at its zenith at solar noon.\n\nThe answer is **C. 6** because the sun's rays are most direct at the **Tropic of Cancer (北回歸線)**, which is the latitude where the sun is directly overhead at noon during the summer solstice. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '北迴歸線及其以北地區'], ['B', '⾚道以北地區'], ['C', '⾚道附近地區'], ['D', '南北迴歸線之間地區']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "洋脊嘅形成主要係由於",
+    "llm_output": "The correct answer is **C. 海底擴張處巖漿湧出 (At the mid-ocean ridge, the seabed rises due to the upwelling of magma)**\n\nHere's why:\n\n* **海底擴張處 (Seabed spreading)** is the process by which new oceanic crust is formed. This process is directly related to the **upwelling of magma** at mid-ocean ridges.\n\nLet me know if you'd like to try more geography questions! 🌎 \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '海底擴張處沉積物⼤量堆積'], ['B', '地震導致海底中間凹陷'], ['C', '海底擴張處巖漿湧出'], ['D', '地震使海底抬升']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "南海諸島⾬量豐沛，熱量充⾜，島上嘅巖⽯主要係珊瑚、⻉殼碎屑砂，質地疏鬆。諸島⾯積⼩，海拔低，⻦類多，植被有200幾種。除濱海地區外，⼟壤含鹽量⼤部分較低。南海諸島係⼀個獨特嘅富磷⽣態系統，⼟壤係呢個⽣態系統嘅紐帶。南海諸島除濱海地區外，其他地區⼟壤含鹽量較低，其主要原因係",
+    "llm_output": "The answer is **C. 珊瑚**\n\nThis is a bit of a trick question! Here's why:\n\n* **The question is designed to test your understanding of context.**\n\nThe question mentions the \"海底\" (underwater) and \"含鹽量\" (salt content), implying that the answer relates to the geological processes shaping the seabed.\n\n* **Coral reefs are indeed formed by the accumulation of coral skeletons.**\n\nThese skeletons are made of calcium carbonate, which is the same material that makes up coral islands.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '距海遠，海⽔影響⼩'], ['B', '⽓溫低，蒸發弱'], ['C', '降⽔多，淋溶作⽤強'], ['D', '植物多，吸收鹽分']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "正午時，地球上垂直嘅物體始終有影⼦且其影⼦只朝南嘅地區喺",
+    "llm_output": "The correct answer is **A**.\n\nHere's why:\n\n* **A. 距海遠，島嶼位於北極圈附近**\n\nThis translates to \"**Areas north of the tropic of Cancer**\"\n\nThis is the correct answer because:\n\n* **The Tropic of Cancer** is a line of latitude that circles the globe at approximately 23.5 degrees north of the equator.\n\n* **The Tropic of Capricorn** is the southernmost latitude where the sun can appear directly overhead at noon.\n\n* **The question implies a location where the sun would be directly overhead at noon at a specific time of year.**\n\nLet me know if you'd like to try another geography question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '⾚道以南嘅地區'], ['B', '北迴歸線以北嘅地區'], ['C', '南迴歸線以南至南極圈以北之間嘅地區'], ['D', '北迴歸線以北至北極圈以南之間嘅地區']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "地球表⾯能量主要來源於",
+    "llm_output": "C. \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '⼤⽓反射'], ['B', '地球內部'], ['C', '太陽輻射'], ['D', '⼤⽓輻射']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "近年嚟，我國迅速發展嘅⼤棚蔬菜⽣產，主要改變嘅⽣產條件係",
+    "llm_output": "C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '市場條件'], ['B', '地形條件'], ['C', '光熱條件'], ['D', '⼟壤條件']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "歐洲嘅主要地形係",
+    "llm_output": "The answer is **A. 平原**.\n\nHere's why:\n\n* **A. 平原 (Plains)**: Europe is characterized by extensive lowlands and plains, particularly in the central and eastern parts.\n\n* **B. 北海地區 (North Sea region)**: This is incorrect. While Europe has some coastal areas, it's not a defining characteristic of its overall energy production.\n\n* **C. 欧洲的地形 (Europe's energy production)**: This is incorrect. Europe has a variety of terrain, not just areas with shadows.\n\n* **D. 欧洲嘅所有地形都位於南极圈 (Europe's energy production is concentrated in areas with a large amount of sunlight)**: This is incorrect. The statement implies that Europe is a region of low energy production, which is not true. Europe is a major consumer of energy, not a producer.\n\n\nLet me know if you'd like to try another geography question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '丘陵'], ['B', '平原'], ['C', '⾼原'], ['D', '⼭地']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "2015年地球⽇活動主題為：「珍惜地球資源轉變發展⽅式——提⾼資源利⽤效益」，下列做法同該主題思想唔符合嘅係",
+    "llm_output": "A. 欧洲嘅主要地形特征為 **D. 高度利用山地地區資源**\n\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '⼤⼒推⼴⼀次性餐具⽤品'], ['B', '逐步關停⾼耗能重污染嘅⼯⼚'], ['C', '垃圾分類，資源再利⽤'], ['D', '⼤⼒發展節⽔農業同節⽔⼯業']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "有關太陽輻射嘅敍述錯誤嘅係",
+    "llm_output": "The correct answer is **D**.\n\nHere's why:\n\n* **A. ⼤⼒推⼴⼀次性餐具⽤品** (Promoting reusable tableware) is a positive step towards sustainable practices, not a source of energy.\n\n* **B. 欧洲的欧洲主要地形是平原** (Europe's main terrain is plains) is a correct statement.\n\n* **C. 欧洲主要的地形是欧洲** (Europe's main terrain is plains) is a correct statement.\n\n* **D.  is not a valid option** as it doesn't provide a complete statement about a geographical feature.\n\nLet me know if you'd like to try another geography question! 🌎 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '到達地球⼤⽓上界嘅太陽輻射隨緯度嘅增⼤⽽減少'], ['B', '太陽輻射係促進地球上嘅⽔、⼤⽓運動同⽣物活動嘅主要動⼒'], ['C', '太陽輻射係我哋⽇常⽣活同⽣產嘅主要能量來源'], ['D', '到達地球⼤⽓上界嘅太陽輻射隨緯度嘅增⼤⽽增多']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "第⼆屆⻘奧會於2014年8⽉16⽇⾄28⽇喺南京舉⾏，佢係繼北京奧運會後中國嘅⼜⼀個重⼤奧運賽事，係中國⾸次舉辦嘅⻘奧會，今次⻘奧會嘅⼝號為「分享⻘春，共築未來」。⻘奧會期間，宜興正午太陽⾼度嘅變化狀況為",
+    "llm_output": "The correct answer is **C**.\n\nHere's why:\n\n* **The question is about the impact of the Earth's tilt on solar radiation.**\n\n* **The answer choices are designed to test your understanding of the concept of the Earth's tilt and its effect on solar radiation.**\n\n* **Therefore, the question is implying that the amount of solar radiation reaching a location is dependent on the angle of the sun's rays.**\n\n* **The correct answer is the one that reflects this concept of varying solar intensity based on the sun's angle.**\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '逐漸增⼤'], ['B', '先增⼤後減⼩'], ['C', '先減⼩後增⼤'], ['D', '逐漸減⼩']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "兩個⼤陸板塊碰撞嘅地區，⼀般出現嘅地殼運動現象係",
+    "llm_output": "The answer is **B. 兩個大陸板塊碰撞** (two continental plates collide). \n\nHere's why:\n\n* The question asks about the **\"general\"** tectonic phenomena associated with the 2014年8月 (August) 8 月 (August) \n* The prompt states that the correct answer is related to the Olympic motto for the event: \"分享 \n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '地震同⽕⼭'], ['B', '地震同斷裂'], ['C', '⽕⼭同斷裂'], ['D', '⽕⼭同褶皺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "2012年5⽉，我國⾸座深⽔鑽井平臺喺南海⾸鑽成功，其重要意義唔包括",
+    "llm_output": "The answer is **D**.\n\nHere's why:\n\nThe question is asking about what the second part of the prompt does **not** describe a consequence of. \n\n* **\"有關...嘅\"** means \"related to...\" or \"about...\".\n\n* **\"B. 兩個⼤陸板塊碰撞嘅地區，一般出現嘅\"** means \"generally, in the area where two continental plates collide\".\n\n* **\"共築未來\"** means \"build the future\".\n\nThe prompt implies that the \"share the future\" option is not a direct result of the action described in the incorrect options. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '⾏使對鑽井平臺周邊我國海域嘅管轄權'], ['B', '宣示我國對南海嘅主權'], ['C', '解決我國⽬前⽯油對外依存度過⾼嘅問題'], ['D', '標誌我國能夠獨⽴進⾏深海油⽓資源開發']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "太陽能量來源於",
+    "llm_output": "B. \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '⿊⼦同耀斑嘅強烈活動'], ['B', '太陽內部嘅核聚變反應'], ['C', '太陽內部嘅核裂變反應'], ['D', '放射性元素衰變產⽣嘅熱能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "19世紀20年代羅茲市紡織⼯業快速發展嘅重要條件係",
+    "llm_output": "The answer is **B. 纺織工业的發展**\n\nHere's why:\n\n* **The question asks for a condition that is NOT a factor in the rapid development of the textile industry in the 1920s.**\n\n* **The key to answering this type of question is to identify the incorrect answer.**\n\n* While **B. 纺織工業的發展** (the development of the textile industry) was indeed a factor in the development of the textile industry, the prompt is asking for what doesn't belong. \n\n* **A. 工业制造技术** (industrial manufacturing technology) is a broad term and doesn't specifically address the **textile industry**.\n\n* **C. 纺織市场** (the textile market) is a more specific term, but **B. 纺織工業的發展** is the most accurate answer as it directly addresses the question of what doesn't belong.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '⼯業製造技術先進'], ['B', '廉價勞動⼒豐富'], ['C', '波蘭紡織市場廣闊'], ['D', '市政基礎設施完善']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "熱⼒環流嘅形成過程為 a近地⾯空⽓受熱或冷卻；b同⼀⽔平⾯上產⽣⽓壓差異；c形成⼤⽓嘅⽔平運動；d⽓流嘅上升或下降運動",
+    "llm_output": "The answer is **B. abcd**.\n\nHere's why:\n\n* **a. 19世紀20年代中國** \n* **b. 地區發生嘅** (This is the correct answer)\n\nThis indicates that the answer to the question is related to the process of heat circulation in the atmosphere. \n\nLet me break down the question and answer for you:\n\n**問題：兩個選項中，哪個選項是描述「熱」的描述？**\n\n**Translation:**\n\nThe answer to the question is **B. 2. \n\n**b. 19世紀20年代**\n\n**C. 條件**\n\n**Translation:**\n\nThe answer is **B. 地震** (earthquakes)\n\n**Explanation:**\n\nThe question asks for the correct answer to a question about the formation of \"heat\" (熱) in the context of a question about the 19th century.  \n\nThe correct answer is **abcd**, which indicates that the correct answer to the question is **B**.\n\n**b.  is the correct answer**\n\n**D. \n\n**b. **\n\nThis answer suggests that the correct answer to the question is **D. \n\n**\n\n**b. 19世紀20年代**\n\n**D. \n\n**\n\n**Explanation:**\n\nThe correct answer is **b. 19世紀20年代**\n\n**Explanation of the question:**\n\nThe question implies that the correct answer is a sequence of events that accurately describes the formation process of a specific phenomenon.\n\n**Explanation of the answer:**\n\nThis means the correct answer is the sequence of events that accurately describes the formation of a **hurricane** (which is the intended meaning of the question).\n\n**Here's a more detailed explanation of the answer:**\n\nThe question likely refers to the sequence of events that lead to the formation of a hurricane. The answer \"**B. 地震**\" (earthquake) is a distractor, as it plays on the similar pronunciation of \"熱\" (hot, re) and \"地质\" (geology, di).\n\nThe correct answer, **\"B. 地震\"** (earthquakes), is a play on the fact that earthquakes are a natural phenomenon that can cause significant changes to the Earth's surface (\n\n**A. \n\n**\n\n**B. \n\n**\n\n**C. \n\n**D. \n\n**\n\n**Explanation:**\n\nThis is a common trick used in multiple-choice questions to use a distractor that sounds similar to the correct answer.\n\n**D. 19世紀20年代**\n\n**This answer implies that the question is about the formation of a hurricane, but it's actually a question about the formation of a hurricane.\n\n**\n\n**\n\nLet me know if you'd like to know more about the process of a hurricane's formation.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'dbac'], ['B', 'abcd'], ['C', 'adbc'], ['D', 'acbd']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "2019年3⽉，澳⼤利亞、中國、意⼤利、荷蘭、葡萄⽛、南⾮同英國喺羅⻢簽署「成⽴平⽅公⾥陣列天⽂臺公約」。「平⽅公⾥陣列」望遠鏡（SKA）係未來世界上最⼤嘅射電望遠鏡，SKA中⼼分別建喺荒漠、半荒漠嘅南⾮共和國卡魯地區（19°E，24°S）同澳⼤利亞默奇森地區（119°E，23°S），SKA由數千個射電碟形天線組成，碟形天線佈局從中⼼5千⽶範圍（佔50%）向最外緣範圍（佔25%）延伸⾄3000千⽶。喺卡魯同默奇森地區建設SKA中⼼共同嘅主要優勢條件係",
+    "llm_output": "答案：A\n\n**解釋：**\n\n這道題目考查的是「SKA（平方公里陣列）的優勢建設地點的選擇條件」。\n\n* **SKA 的建設地點需要考慮到無線電干擾的程度。** \n\nSKA 中⼼選擇位於 **南海附近地區的廣闊空間和低電離層干擾** 作为其主要优势，因为：\n\n* **低干扰：** \n\n   卡鲁和南非的默奇森地区都擁有极低的**无线电干扰**，这对于精确接收和分析来自太空的无线电信号至关重要。\n\n* **地理位置：** \n\n   SKA 的主要天线阵列位于南非的 **默奇森** 地區，這是一個**乾涸**的區域，可以提供**低噪音**的環境，有利於接收來自宇宙的微弱信號。\n\n* **其他選項：**\n\n   其他選項（b, c, d）雖然也是考慮因素，但它們不是 **SKA 選擇地點** 的主要原因。\n\n**因此，高中地理環境的影響範圍內，** \n\n**「地理位置」的优势条件是：**\n\n* **地理位置：** \n\n   **低电磁干扰** \n\n   **是** \n\n   **關鍵因素，而「低噪音」的環境則與**\n\n   **「無線電」的干扰最小化有關。**\n\n   **正確答案是**\n\n   **B. 緯度和經度**\n\n   **因為**\n\n   * **A. 兩個碟形天線陣列** \n\n   * **B. 釋義：** \n\n   **是** \n\n   **正確的答案選擇，因為這道題目是關於天體物理學家在**\n\n   * **B. 兩個地區的條件** \n\n   **的觀察結果的差異，而「成 不成」的選項只會影響到地理位置的選擇。**\n\n* **C. \n\n   「地理位置」的觀察結果會受到**\n\n   *\n\n   **「**\n\n   **A** \n\n   **B. \n\n   **的**\n\n   **影響，例如**\n\n   **SKA \n\n   ** \n\n   **C. \n\n   **\n\n   **的**\n\n   **\n\n   **\n\n   **\n\n   **\n\n   **\n\n   **\n\n   **\n\n   **\n\n   **\n\n   **\n\n   **C. \n\n   **\n\n   \n\n   **\n\n   \n\n   **\n\n   **\n\n   **\n\n   **\n\n   **\n\n   **的**\n\n   **\n\n   **\n\n   **\n\n   **\n\n   **\n\n   \n\n   **\n\n   **\n\n   **\n\n   **\n\n**\n\n**\n\n   \n\n**\n\n   \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n   * **\n\n   **\n\n   **\n\n   **\n\n   **\n\n   **\n\n**\n\n**\n\n**\n\n   \n\n**\n\n**\n\n**\n\n**\n\n   \n\n**\n\n**\n\n**\n\n**\n\n**\n\n   **\n\n   **\n\n   **\n\n**\n\n**\n\n**\n\n**\n\n   \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n   **\n\n**\n\n   \n\n   **\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n   **\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n   **\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n   **\n\n**\n\n**\n\n**\n\n   **\n\n**\n\n**\n\n**\n\n**\n\n**\n\n   \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '⽆線電⼲擾⼩'], ['B', '資⾦實⼒雄厚'], ['C', '科學技術發達'], ['D', '可利⽤⼟地⼴']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "除⼆氧化碳以外，甲烷、氟氯烴、⼀氧化碳等都被稱為溫室⽓體，其共同嘅原因係",
+    "llm_output": "D. \n\n**Explanation:**\n\nThe correct answer is **D**. Here's why:\n\n* **Methane (CH4)** is a potent greenhouse gas.\n* **Carbon dioxide (CO2)** is a potent greenhouse gas.\n\nThe question asks for the common factor in the formation of the \"greenhouse effect\" in the context of the provided examples.  The examples given (methane and other gases) refer to the process of greenhouse gases trapping heat in the atmosphere.\n\n**Therefore, the answer is D. 吸收太陽輻射，被稱為「全球暖化」**\n\nThe other options are incorrect because:\n\n* **A. 碳二氧化碳** is a specific greenhouse gas, not a general characteristic of the process.\n* **B. 吸收太陽輻射** is incorrect because the examples provided are not the primary source of heat in the Earth's system. The sun is the main source.\n* **C. 氟氯烴** are not a natural part of the atmosphere and are not mentioned as a factor in the formation of the phenomenon itself.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '通過光化學反應向⼤⽓中釋放能量'], ['B', '強烈吸收地⾯放出嘅紅外線⻑波輻射'], ['C', '吸收太陽輻射，使⼤⽓增溫'], ['D', '溫室⽓體相互反應放出能量']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "同地球上出現⽣命無關嘅條件係",
+    "llm_output": "The answer is **B. 太陽與地球的距離適中 (The Earth has a moderate distance to the sun)**.\n\nHere's why:\n\n* **A. 地球只有⼀ Cabot's only has one moon**\n\nThis statement is incorrect. While the Earth does have one moon, the answer refers to a condition that allows for life to exist, not a characteristic of the planet itself.\n\n* **B. 地球只有⼀顆衛星 (The Earth has only one moon)**\n\nThis is a **trick answer**. The number of moons Earth has doesn't explain the existence of life on Earth.\n\n* **C. ⽆線電氣 (The Earth has a moderate amount of heat)**\n\nThis is a **trick answer**. The Earth's moderate distance from the sun is crucial for the development of life.\n\n* **D. 氟氯烴、⼀氧化碳 (The Earth has a moderate distance from the Earth's atmosphere)**\n\nThis is incorrect. The question asks for a characteristic of the Earth itself, not a characteristic of the Earth's environment.\n\n* **E. 地球的氣候條件**\n\nThis is a **partial answer**. While climate is important for life, the answer focuses on the Earth's ability to sustain life, not on the reasons why it's suitable for life.\n\nThe correct answer is **B. \n\n**\n\nThe key to understanding the answer is to focus on the **reason** for the Earth's suitability for life. The question asks for a factor that allows the Earth to support life, and the correct answer is **B. 地球的氣候條件**\n\nHere's why:\n\n* **Earth's moderate distance from the sun is crucial for life because it allows for a habitable temperature range.** This distance is the reason why Earth has liquid water, which is essential for life as we know it.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '地球只有⼀顆衛星'], ['B', '地球同太陽嘅距離適中'], ['C', '地球嘅體積同質量適中'], ['D', '太陽嘅光照條件比較穩定']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "上海某商廈屋頂上鋪滿咗⼀個個種植箱，呢度被稱為「屋頂農莊」。商家專⻔從⻑⽩⼭運嚟優質⼟壤，吸引附近居⺠租借種植箱種植蔬果。屋頂農莊運作以嚟，整棟商廈夏季冷氣⽤電量下降。除咗經濟效益外，開設屋頂農莊仲可以獲得環境效益。因為佢有助於",
+    "llm_output": "The correct answer is **C. 緩和城市熱島效應**.\n\nHere's why:\n\n* **Economic Benefits:** The question mentions \"attracting nearby residents to rent planting boxes for economic benefits\". This implies that the focus of the question is on the benefits of urban farming, which is a more sustainable and environmentally friendly way to produce food in urban areas.\n\n* **Economic benefits** are directly related to the concept of a business or individual making a profit from the activity.\n\nLet me know if you'd like to see more examples!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '增強⾬島效應'], ['B', '削弱紫外輻射'], ['C', '緩和熱島效應'], ['D', '減少灰霾污染']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗探測莫霍⾯嘅情況，喺下面四點同時進⾏咗地震波嘅測定，其中最遲接收到從莫霍⾯傳嚟嘅地震波嘅地點係",
+    "llm_output": "The answer is **C. 華藏高原**.\n\nHere's why:\n\n* **The Moho Discontinuity:** This is the boundary between the Earth's crust and mantle.  \n\n* **Seismic Waves and the Earth's Structure:**\n\nScientists use seismic waves (generated by earthquakes) to study the Earth's interior. When seismic waves travel through the Earth, they are reflected and refracted at different layers.\n\n* **The \"Moho\" in the Question:** The term \"莫霍\" (Moho) in the question refers to the Mohorovičić discontinuity, which is the same as the Moho.\n\n* **Why \"C\" is the Answer:**\n\nThe question implies that the location is geographically close to the source of the \"Moho\" (Moho discontinuity) signal.  Of the options provided, the \"华北平原\" (North China Plain) is the most geographically relevant to the concept of the Moho. The other options are less relevant:\n\n    * **\"A.  Quora\"** is a website, not a geographical feature related to the Mohorovičić discontinuity.\n    * **\"B. 欧洲\" (Europe)** is too broad and doesn't specify a location near the Moho.\n    * **\"D. 减少\" (Reduce)** is a verb meaning \"to reduce\" and is not a relevant answer to the implied question.\n\nThe North China Plain is a large, flat area with a relatively stable geological environment. This makes it a good location for studying the Earth's crust and mantle, as the \"P\" waves from the \"中⼼\" (center) of the Earth will travel through a more stable and consistent geological structure.\n\n**Therefore, the answer is C. 因為**\n\nLet me know if you'd like to try another question! 🌎",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '⻑江中下游平原'], ['B', '⻘藏⾼原'], ['C', '華北平原'], ['D', '四川盆地']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "喺世界農業地域類型中，寧夏農業主要屬於",
+    "llm_output": "The answer is **D. 农业**\n\n**Explanation:**\n\nThe question asks for the type of agriculture that benefits from the location being in a \"plateau\" region. This likely refers to the geographical and environmental context.\n\n* **A. 世界農業** This option is too broad. While the question mentions \"全球化\" (globalization) in the prompt, it's not a specific type of agriculture.\n\n* **B. 四川盆地** This option refers to a specific location (四川盆地 - Sichuan Basin) and is likely not the answer.\n\n* **C. 畜牧業** This option is incorrect because it refers to \"agriculture\" in general, not specifically the type of agriculture practiced in the region.\n\n* **D. 农业** This is the correct answer. \"Highland agriculture\" refers to the type of agriculture practiced in mountainous regions. This is a more specific term for the type of agriculture practiced in the region described in the question.\n\n**Therefore, the correct answer is D. 农业 (Agricultural)**\n\n**Please note:**\n\nThis answer is based on the assumption that \"世界\" in the question refers to a geographical region. \n\n**Important:**\n\nIt's crucial to understand that the term \"经济效益\" (economic benefits) is too broad.  \n\nThe **most accurate answer** to the question, given the context of \"highlands\", is likely **D. 农业 (Agriculture)**. \n\nThe answer is **D. 农业 (Agriculture)** because the question mentions \"agricultural\" and \"economic benefits\" are often related to specific agricultural practices. \n\n**For a more precise answer, we need to know the context of the question. **\n\n**Here's why \"农业 (Agriculture)\" is the best answer:**\n\n* **\"世界\" (world) is often used in a metaphorical sense in Chinese, and in this case, it likely refers to the \"agricultural sector\" or \"agricultural industry\"**\n\n* **The context of the question suggests a focus on the geographical location of the \"agricultural\" area.**\n\n**Therefore, the most likely answer is D. 农业 (Agriculture).**\n\n**It's important to remember that context is key in understanding the meaning of a word. **\n\n**In this case, \"economic benefits\" and \"scientific advancements\" are likely implied, given the examples of \"economic conditions\" and \"agricultural\" in the previous examples.**\n\n**The \"science and technology\" aspect of the question is likely referring to the agricultural practices themselves.**\n\n**The answer to the question is likely \"农业 (Agriculture)\" because it is the most logical answer given the context.**",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '牧場畜牧業'], ['B', '遊牧畜牧業'], ['C', '⽔稻農業'], ['D', '旱作農業']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "關於「環境問題」嘅說法唔正確嘅係",
+    "llm_output": "D. \n\n**Explanation:**\n\nThe correct answer is **D**. \n\nHere's why:\n\n* **D. 世界環境問題的解決要依賴發達國家和發展中國家共同努力** (The world's solution to environmental problems must rely on the joint efforts of developed and developing countries)\n\nThis option is incorrect because it implies that only developed countries have environmental problems, which is not true. \n\nHere's why the other options are correct:\n\n* **A.  全球環境問題** (Global environmental issues) is a valid answer.\n\n* **B. 因為環境問題的複雜性** (because environmental problems are complex) is a true statement.\n\n* **C. 因為環境問題的影響是全球性的** (because they are global issues) is a true statement.\n\nLet's break down the correct statements:\n\n* **A. 因為環境問題的影響是全球性的** (Because the impact of environmental problems is global) - This option is correct.\n\n* **B.  B. 因為世界各國都 contribute to the global environmental issues** (Because the impact of global problems is a global issue) - This option is incorrect.\n\nLet's discuss why the concept of \"Option D\" is incorrect:\n\n* **D. 沒有問題** (No problem) - This option is incorrect because it implies that developing countries are not responsible for environmental issues, which is not true.\n\n**Therefore, the correct answer is D, as it is the only statement that is not true.**\n\nThe correct answer is **C**. \n\n**Explanation:**\n\nThe statement \"其實只有發展性問題\" (They are actually developed countries) is incorrect.\n\n* **A. \n\n**\n\nLet me know if you'd like to see more examples or have any other questions.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '⼤⽓圈、⽔圈、巖⽯圈、⽣物圈等⼈類賴以⽣存嘅環境遭到污染，已成全球性嘅問題'], ['B', '環境問題係伴隨住⼈⼝、資源、發展問題出現嘅，其實質就係發展問題'], ['C', '世界環境問題嘅解決要依賴發達國家同發展中國家攜⼿共同努⼒'], ['D', '發達國家嘅環境問題⼗分嚴重，發展中國家唔存在環境問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "上海寶鋼為實施「⾛出去」戰略，將喺韓國京畿道投資新建鋼材加⼯配送中⼼，提供汽⻋板材倉儲、剪切、配送等服務。為提高喺國際鋼鐵市場上嘅競爭⼒，寶鋼唔可以採取嘅措施有",
+    "llm_output": "答案：D\n\n**解釋：**\n\n* **D. 提高進口燃料比重** \n\n選擇 C 作为错误答案的原因是：\n\n* **寶鋼提高國際競爭力的措施** \n\n   * 选项 A, B 和 C 都可以用来提高宝钢在国际市场上的竞争力，例如：\n\n     * **C. 提高產品品質**\n\n     * **降低生產能耗** \n\n     * **建立** **世界** **環境合作**\n\n     * 這些選項都與选项 A 和 D 的选择與「提高进口燃料比重」的策略相悖。\n\n**解释：**\n\n* 选项 A 提到「A. 提高**國際合作**的措施」，但选项 C 中提到「**世界**農業地域類型中， \n\n**解释：**\n\n* 选项 A 提到「A. 降低成本」\n\n**正確答案：C. \n\n* 世界 **A. 韩国** \n\n     * 韓國**是**一個國際上**重要的鋼鐵生產國**，因此「世界農業」的「提高國際競爭力」选项**不正确**。\n\n**原因：**\n\n* 选项 D \n\n**解释：**\n\n* 选项 C \n\n**為提高國際競爭力** \n\n* \n\n**C. 提高產品** **出口** **的競爭力**\n\n**解释：**\n\n* 选项 D \n\n**可以提高韓國** **地區的**\n\n* \n\n**重要性**\n\n**提高國際競爭力** 意味著选项 C \n\n**提高國際競有** **資源**\n\n**的**\n\n**國際合作**\n\n* 提高进口燃料的**国际竞争力**\n\n**不符合** 选项 C \n\n* \n\n**提高國際競爭力** 的措施**包括**\n\n**在**\n\n**降低進口燃料**\n\n**的**\n\n**C. \n\n* 提高國際競爭力**\n\n**C. \n\n** \n\n**A. 降低進口燃料**\n\n**D. 提高**\n\n**出口**\n\n**的**\n\n**国际合作**\n\n**提高國際競爭力**\n\n**的**\n\n**A. \n\n**\n\n**D. 提高**\n\n**的**\n\n**C. 世界\n\n**\n\n**A. \n\n**\n\n**C. 提高國際合作**\n\n**可以提高國際**\n\n**的**\n\n**C. \n\n**\n\n**C. 世界**\n\n**的**\n\n**的**\n\n**A. 降低成本**\n\n**的**\n\n**C. \n\n**\n\n**\n\n**\n\n**D. 提高國際競爭力**\n\n**可以提高國際合作**\n\n**的**\n\n**的**\n\n**C. 提高**\n\n**C. 提高成本**\n\n**的**\n\n**的**\n\n**提高國際合作**\n\n**國際成本**\n\n**的**\n\n**A. 降低成本**\n\n**D. 提高國際**\n\n**成本**\n\n**提高國際成本**\n\n**的**\n\n**A. \n\n**\n\n**C. \n\n**\n\n**成本**\n\n**\n\n**A. \n\n**\n\n**C. 提高國際**\n\n**降低**\n\n**國際合作**\n\n**的**\n\n**成本**\n\n**的**\n\n**國際成本**\n\n**國際\n\n**\n\n**成本**\n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**的**\n\n**的**\n\n**成本**\n\n**可以提高**\n\n**的**\n\n**的**\n\n**C. 提高國際**\n\n**\n\n**國際成本**\n\n**的**\n\n**D. 提高國際合作**\n\n**的**\n\n**提高國際成本**\n\n**的**\n\n**提高國際成本**\n\n**可以提高**\n\n**可以提高國際**\n\n**的**\n\n**提高國際成本**\n\n**\n\n**\n\n**D. \n\n**\n\n**可以提高**\n\n**\n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**的**\n\n**成本**\n\n**\n\n**\n\n**提高國際成本**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**可以提高**\n\n**國際**\n\n**的**\n\n**D. \n\n**\n\n**可以提高國際\n\n**\n\n**成本**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**提高國際成本**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**可以提高**\n\n**成本**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**可以提高**\n\n**的**\n\n**\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '降低鋼鐵⽣產能耗'], ['B', '建立境外鐵礦⽯基地'], ['C', '加⼤產品研發投⼊'], ['D', '提高進⼝燃料⽐重']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "⼤約⼋百年前，⻑⽩⼭天池⽕⼭⼤規模噴發，形成咗全域性⽕⼭噴發物裸地。受其噴發⽅向及⻛向嘅影響，浮⽯同⽕⼭灰等噴發物喺⽕⼭錐各坡向覆蓋厚度唔同，東坡最厚，北坡最薄。⽕⼭噴發後⾃然條件改變，重新形成⾃然帶。東坡海拔較⾼處嘅⾃然帶呈斑塊狀分佈。下列推斷正確嘅係",
+    "llm_output": "B. \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '該地⾃然帶重新演化嘅⾸要影響因素係地形'], ['B', '⽕⼭灰削弱太陽輻射，⻑⽩⼭區⽓溫降低'], ['C', '該次⽕⼭⼤規模噴發期間，主導⻛向係東南⻛'], ['D', '⽕⼭灰增強⼤⽓逆輻射，⻑⽩⼭區⽓溫升⾼']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "被北美洲，南美洲，歐洲包圍嘅⼤洋係",
+    "llm_output": "D. 太平洋 \n\nThe correct answer is **D. 太平洋** (Pacific Ocean). \n\nHere's why:\n\n* The question describes the Pacific Ocean as being surrounded by the Pacific Ocean (太平洋) itself. \n\nLet me know if you'd like to try another one!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '印度洋'], ['B', '⼤⻄洋'], ['C', '北冰洋'], ['D', '太平洋']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "把農業引⼊城市，使農業⽣產同城市空間相融合，能夠有效改善當前城市發展中產⽣嘅問題，有利於城市可持續發展。近年嚟，我國有學者提出咗將農業同城市中嘅社區相融合嘅「有農社區」嘅構想（系統）。若推⼴「有農社區」，對城市可能產⽣嘅影響係",
+    "llm_output": "D. 增加社區綠化覆盖率，改善社区环境\n\n**Explanation:**\n\nThe correct answer is **D**.\n\nThe prompt asks for the potential impacts of promoting \"community-supported agriculture\" (CSA) in China.  \n\nHere's why:\n\n* **\"CSAs\"** are a specific type of program where consumers pay upfront for a share of a farm's harvest in order to support a farm directly and receive fresh produce in return.\n\n* **\"Integrating agriculture into the urban environment\"** is a key concept in CSA.\n\nThe provided answer options are in Chinese, but the question implies that the goal is to understand the potential impact of CSA on the community. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '緩解城市內澇災害'], ['B', '控制城市⽤地規模'], ['C', '增加城市能源消耗'], ['D', '完善社區商業佈局']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "2017年9⽉20⽇，國⼟資源部同農業部召開聯合記者會，宣佈我國永久基本農⽥劃定⼯作總體完成。全國落實保護⾯積15.5億畝，其中⽔⽥同⽔澆地⾯積佔劃定⾯積嘅48%；坡⻆15°以下佔劃定⾯積嘅88%；城市周邊劃定9740萬畝，通過優先確定永久基本農⽥佈局，把城市周邊圍住，把公路沿線包住。城市周邊劃定永久基本農⽥主要係為咗",
+    "llm_output": "D. 完善社區的商業佈局 \n\n**Explanation:**\n\nThe correct answer is **D**.\n\nThe \"limited agricultural land\" concept refers to the idea that the amount of land suitable for agriculture is a finite resource. This means that the statement is implying that the amount of land available for agriculture is now fixed and unchanging.\n\nThe other options are incorrect because:\n\n* **A. 限制城市中嘅土地资源** (Limit the use of land in the city) is not a relevant factor to the concept of \"urban agriculture.\"\n* **B. 提高社区的农业生产力** (Increase the agricultural efficiency of the urban area) is not directly related to the concept of \"limited agricultural land\" in the context of the prompt.\n* **A. 降低社区的效率** (Lower agricultural efficiency) is not a direct consequence of a \"limited agricultural area.\"\n\nThe statement \"控制城市周边的土地资源\" (Control the land resources in the community) in the question refers to the concept of \"limited agricultural land\" as a general issue, implying that the government is trying to control the use of land for agriculture.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '限制城市⽤地無序擴張'], ['B', '促進都市農業健康發展'], ['C', '保證城市農副產品供應'], ['D', '限制農業⼈⼝遷⼊城市']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "同地球上⽓壓帶同⻛帶季節移動嘅原因無關嘅係",
+    "llm_output": "A. 坡createTable\n\nThe correct answer is **C. 季節性**\n\nHere's why:\n\n* **The question asks for the answer that is NOT related to the movement of air and water in relation to the \"have a large impact on the community\" concept.**\n\n* Options A, B, and D are all geographical factors that can influence the location and size of a \"natural area\" (like the example of the \"eastward\" movement of the Earth's crust).\n\nLet's break down the options:\n\n* **A. 限制地球上嘅** (Limit the movement of the earth's crust) - This is a geographical concept, as it refers to the Earth's tectonic plates.\n\n* **B. 坡** (Slope) - This is a **topographical** feature, a sub-category of geography.\n\n* **C. 距離公路嘅** (Distance from highways) - This is a geographical concept, but it's not directly related to the \"eastward\" movement of the Earth's crust.\n\n* **D. 距離** (Distance) -  This is a general term and not specific to a geographical phenomenon.\n\nTherefore, the correct answer is **C. 距離公轉** (Eastward movement) as it's not directly related to the \"community\" aspect of the \"have a farm\" concept.\n\n\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '⻩⾚交⻆'], ['B', '太陽直射點嘅移動'], ['C', '地⾯摩擦⼒'], ['D', '地球公轉']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "下列⽇期中，北京晝夜⻑短相差最⼩嘅⼀日係",
+    "llm_output": "答案：B.  \n\n**國際勞動節** \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '元旦'], ['B', '我國國慶節'], ['C', '國際勞動節'], ['D', '我國教師節']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "下列四種情況，晝夜溫差最⼩嘅係",
+    "llm_output": "D. 地球公轉\n\n**Explanation:**\n\nThe correct answer is **D. 陸地** (Land).\n\nThis is because the question is asking for the context of \"地球上\" (on Earth), implying that the answer should be something on Earth that causes the diurnal temperature range to be less significant.  \n\nHere's why the other options are incorrect:\n\n* **A. 傾斜** (Inclination) is incorrect because the diurnal temperature range refers to the difference in temperature between day and night, which is not directly related to the Earth's rotation.\n\n* **A. 海上** (Ocean) and **C. 關於 \nA. 關於** (related to) is incorrect because the diurnal temperature range is a measure of temperature change, not a location.\n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '海上少雲嘅地區'], ['B', '海上多雲嘅地區'], ['C', '陸上多雲嘅地區'], ['D', '陸上少雲嘅地區']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "關於⽔平⽓壓梯度⼒嘅說法正確嘅選項為 a係形成⻛嘅直接原因；b係⼤⽓作⽤喺海平⾯上產⽣嘅壓⼒；c⽅向同等壓線垂直；d從⾼壓指向低壓",
+    "llm_output": "The correct answer is **C**.\n\nHere's why:\n\n* **b** is correct because it describes the concept of **altitude** (海拔) which is a key factor in determining the difference in air pressure between two points.\n\nHere's a breakdown of the terms and their relationship to the question:\n\n* **A.  控制** (control) **土地** (land) **规模** (scale) **：** This option refers to the concept of \"有農社區\" (urban agriculture) which is a type of urban farming system.\n\n* **B.  昼夜** (day and night) **C.  气压差** (pressure gradient) **is correct because it describes the phenomenon of the Coriolis effect** causing a difference in the Earth's rotation and its influence on wind patterns.\n\n* **c.  關於** (regarding) **水田** (paddy field) **is incorrect**.  This option is likely referring to the impact of the Coriolis effect on the Earth's surface, which is not directly related to the scale of the effect.\n\n* **d.  None of the above**.  This option is incorrect because the Coriolis effect is directly related to the Earth's rotation and its impact on weather patterns.\n\nLet me know if you'd like to know more about the Coriolis effect! \n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'abcd'], ['B', 'bcd'], ['C', 'acd'], ['D', 'abc']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "2015年4⽉25⽇，南亞國尼泊爾發⽣8.1級地震，⼤量外國遊客被迫滯留尼泊爾境內，地震發⽣後，中國啟動撤僑事宜，接回中國遊客，確保中國海外僑⺠嘅安全，今次地震成因複雜，但主要原因係尼泊爾位於",
+    "llm_output": "The answer is **A**.\n\nHere's why:\n\n* **The question:** The question asks for the main reason for the 2015 Nepal earthquake, implying that the correct answer will be a factor related to the earthquake's origin.\n\n* **The context:**\n\nThe prompt mentions that Nepal is a \"city\" (presumably referring to the Kathmandu Valley) and asks about the \"city's\" response to the earthquake. This suggests the earthquake originated in a region with a significant human presence, which is why option **B** is incorrect.\n\n* **The answer:**\n\nThe 2015 Nepal earthquake was primarily caused by the **collision of the Indian Plate and the Eurasian Plate**. This is a region where the **Indian Plate and the Eurasian Plate are colliding**. This geological process is the primary cause of earthquakes in the region.\n\n**Therefore, the answer is A. ** \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '印度洋板塊同太平洋板塊嘅交界地帶'], ['B', '亞歐板塊同太平洋板塊嘅交界地帶'], ['C', '亞歐板塊同⾮洲板塊嘅交界地帶'], ['D', '亞歐板塊同印度洋板塊嘅交界地帶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "同哈爾濱相比，張家⼝市發展冰雪經濟嘅優勢係",
+    "llm_output": "D. \n\n**Here's why:**\n\n* **D. 更接近亞洲的廣泛的市場**\n\nThis option highlights the key advantage Zhangjiakou has over other locations:\n\n* **Proximity to a large market:**  The text states that \"The passage mentions that the city is located in a region with a large population of potential customers,\" implying a strong market for a potential \"winter tourism\" industry.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '冰雪品牌嘅知名度更⾼'], ['B', '冰雪資源存留時間更⻑'], ['C', '冰雪活動更加豐富多樣'], ['D', '更接近⼴闊嘅消費市場']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "發達國家⼈⼝出⽣率較低，關於其原因嘅正確敍述係",
+    "llm_output": "The answer is **D. 婚姻關係唔穩定，晚婚、唔對⼈婚、唔 married 較為普遍**\n\nHere's why:\n\n* **Developed countries often have lower birth rates than developing countries.** This is due to factors like higher education and career aspirations for women, access to family planning, and later marriage/childbearing ages.\n\nLet me break down the reasoning:\n\n* **(A) is incorrect** because it doesn't address the birth rate question directly.\n\n* **(B) is incorrect** because while early marriage and traditional views on gender roles might influence birth rates in some areas, it's not a defining characteristic of all developed countries.\n\n* **(B) is incorrect** because it implies a universal trend, but birth rates in developed countries are influenced by a complex interplay of factors, not just a single factor like religious beliefs.\n\n* **(C) is incorrect** because this statement is too broad. While some developed countries have lower birth rates due to social and economic factors, others have more complex cultural and societal reasons for their birth rate trends.\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '早婚之⻛盛⾏，初婚年齡偏低'], ['B', '崇尚多育多⼦、重男輕⼥嘅傳統觀念'], ['C', '發達國家嘅宗教⼀般都反對⼈⼝增殖'], ['D', '婚姻關係唔穩定，晚婚、唔婚、唔育現象多']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "北半球某地（約75°W，45°N），河流清澈，森林茂密，⻛景宜⼈……⼀條⼤河由⻄南向東北流經該地，進⼊解凍季節時，該河流唔容易出現嘅現象係",
+    "llm_output": "答案：C\n\n**解釋：**\n\n* **C.  Adkins** \n\n**分析：**\n\n* **Ad** 是一個正確的答案，因为选择题的选项中，只有 **A. 河流清澈，水岸決堤** 选项与河流的自然特性有关联。 \n\n* **河流** \n  * **A.  Adkins** 指的是河流在**融化季節**（春夏）可能出现的**水位下降**的現象。\n\n* **C. 豐富** \n\n**的解释：**\n\n* 选项中提到了**印度**和**欧洲**的地理位置，这暗示着问题与地震相关。\n* **河流** \n  * **a** **b** **c** 和 **d** 都是关于**河流**的描述，但**C. 指的是河流** \n  **d** **地區** \n\n**河流** \n* **C. 識別**\n\n**D.  Adkins** \n\n* **河流** \n**C. 溫度**\n\n** Adkins** \n\n** Adkins** \n\n**C. \n\n** \n\n**C. 洪水**\n\n**D.  Adkins** \n\n**C. \n\n** \n\n**c. \n\n** \n\n**C. \n\n** \n\n**D. \n\n** \n\n**d** **地區** \n\n** Adkins** \n\n**c** \n\n**c. \n\n**\n\n**c** \n\n**D. 欧洲** \n\n**欧洲** \n\n**D. \n\n** \n\n**d** \n\n** Adkins** \n\n**D. \n\n**\n\n**D. \n\n**\n\n**c. \n\n**D. \n\n**c. \n\n**\n\n**D. \n\n**\n\n** Adkins** \n\n**D. \n\n**\n\n**D. \n\n** \n\n**c. \n\n**D. \n\n**d. \n\n**D. \n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**d. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n** \n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**C. \n\n**\n\n** Adkins** \n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n** \n\n**C. \n\n**\n\n**D. \n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n** Adkins**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '⽔位暴漲'], ['B', '河岸決堤'], ['C', '凌汛'], ['D', '⽔⼟流失']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "墨⻄哥城每年11⽉至次年4、5⽉多發⽣嚴重嘅光化學煙霧事件，主要原因有",
+    "llm_output": "The correct answer is **C. 該期間多** **⻛** **，影響污染** **⼟** **體** **嘅** **擴散**\n\n**Explanation:**\n\nThis question is asking about the main reasons why the city of Mexico City experiences smog. The answer choices are:\n\n* **A. 該** **(This is a typo and doesn't make sense in the context of the question)**\n* **B. 汽** **油** **和** **汽车尾气** **的** **(This is a typo and doesn't make sense in the context of the question)**\n\nThe correct answer is **C**. \n\n**Here's why:**\n\n* **A. 11月至4、5月** **(This is a Chinese phrase meaning \"during the 11th month to the 4th and 5th month\" and is likely a reference to the time frame of the event) is likely a distraction.** It's mentioned in the context of smog, but the question is about the causes of a specific phenomenon, not its timing.\n\n* **C. 每年11⽉至4、5⽉** **(This is a Chinese phrase meaning \"every year\")**  implies that the phenomenon is seasonal, which is a key characteristic of the phenomenon described in option B.\n\n**Therefore, the answer is likely related to the causes of air pollution, and option C points to a key factor: the high levels of air pollution in Mexico City during the 11th month to the next spring (每年11月).**\n\nThe correct answer is **C. 每年11月至4、5月** (every year) **because it refers to the ongoing issue of high levels of air pollution in Mexico City, which is a major problem.\n\n**Option C** is the correct answer because it mentions the **context of Mexico City's geography** influencing the phenomenon.\n\nLet me know if you'd like to see more examples.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '汽⻋尾⽓同⽣產、⽣活廢⽓排放量⼩'], ['B', '該期間多⽓旋活動，影響污染⽓體嘅擴散'], ['C', '受溫室效應影響'], ['D', '該期間天⽓晴朗，光照強；且盆地地形，多逆溫']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "冰雪經濟係以冰雪資源為依託，發展同冰雪活動相關嘅產業經濟。2015年7⽉，北京市攜⼿河北張家⼝市獲得2022年冬奧會同冬殘奧會嘅舉辦權，張家⼝市成為雪上項⽬⽐賽嘅主要承辦地，冰雪經濟迅速發展。近年嚟張家⼝市冰雪經濟迅速發展嘅契機係",
+    "llm_output": "The answer is **C. 政府** (Government)\n\nHere's why:\n\n* **The context:** The prompt mentions the 2022 Winter Olympics and asks for the reason for the rapid development of the winter sports industry in a specific location.\n\n* **Understanding the options:**\n\n    * **A. ⼈ annually** This option is incorrect because it focuses on the weather phenomenon of \"southwest\" monsoon, which is not relevant to the question.\n    * **B. 該地** This option is too broad. While the context implies a location with a potential for a winter sports economy, we need a more specific answer.\n    * **C. 政府** (Government) is the most likely answer to be the correct one. This is because the context mentions a situation where a city's (in this case, Beijing) economy is booming due to the presence of a \"winter sports industry\" which implies government support and investment.\n\n* **The answer:**  **C. 政府** (Government) is the correct answer because the context specifically mentions that the 2022 Winter Olympics were a major catalyst for the development of the winter sports industry in Beijing. This strongly suggests that the government's role in promoting the event is a significant factor in the city's economic growth.\n\n* **D. 消費** (Consumer) is the correct answer because the prompt mentions the development of the \"government\" as a driving force for economic activity.\n\n**Therefore, the correct answer is C. 消費 (consumption)**",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '雪資源豐富'], ['B', '交通⽹絡完善'], ['C', '基礎設施齊全'], ['D', '政府⼤⼒推動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "把農業引⼊城市，使農業⽣產同城市空間相融合，能夠有效改善當前城市發展中產⽣嘅問題，有利於城市可持續發展。近年嚟，我國有學者提出咗將農業同城市中嘅社區相融合嘅「有農社區」嘅構想（系統）。「有農社區」最主要嘅意義係",
+    "llm_output": "The correct answer is **D. 改变物质的利用方式**\n\nHere's why:\n\n* **\"有農社區\" (agricultural community) refers to the concept of integrating agriculture into urban communities.**\n\nWhile \"A. 把農業引入社區\" (bringing agriculture into the community) and \"B. 提供改善社區的物質利用\" (providing a way to improve the utilization of resources in the community) are both aspects of the \"有農社區\" concept, option **D. 选项D. (Realizing the realization of a change in the way the material resources are used) ** captures the essence of the question.\n\nThe question asks about the \"main\" meaning of \"有農社區\" (which translates to \"agricultural community\"). Option D reflects the core idea of \"有農社區\" - to integrate agriculture into urban planning to create a more sustainable and connected urban environment.\n\nLet me know if you'd like to explore any other aspects of the \"有農社區\" concept.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '美化社區嘅⽣活環境'], ['B', '提供便捷嘅⻝物供應'], ['C', '改變居民嘅⽣產⽅式'], ['D', '實現物質嘅循環利⽤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "若⼲年前，某國際著名出版社利用互聯⽹開辦⽹上書店，消費者訂購圖書後，通過第三⽅⽀付平臺付款即可。喺⽹上書店買書唔但方便，而且更加平。但⽹上書店亦對某啲企業產⽣唔良影響，呢啲企業包括（）：a實體書店；b實體銀⾏；c電信公司；d航空公司",
+    "llm_output": "答案：**a, c**\n\n**解析：**\n\n* **a. 政府推動**\n\n   「有農社區」概念是由政府推動的，例如將農產品生產基地搬遷到城市，或者提供線上書店的營運許可。\n\n* **a. 經濟發展**\n\n   **b. 提供社區發展**\n\n   **c. 政府支持線上購物**\n\n   d. 政府投資，例如在社區內建立小型農產品銷售點，或者提供線上購物平台的營運環境，都可能導致線上書店的成功。\n\n* **a. 購物習慣改變**\n\n* **b. 社區發展**\n\n   * 對於傳統上以大型購物中心為主的社區，線上書店的出現可能削弱當地人對購物中心的依賴，從而影響社區的商業模式。\n\n* **c. 經濟競爭**\n\n   線上書店的成功可能對當地以大型購物中心為主的書店經營造成經濟壓力，因為傳統書店需要與線上書店競爭。\n\n* **d. 經濟發展**\n\n   線上書店的出現，雖然為城市帶來經濟效益，但同時也可能對社區書店的生意造成影響。\n\n   **b. 傳統產業的競爭力**\n\n   * 傳統社區書店的經營模式通常基於實體店面，而線上書店的出現會讓消費者更方便地獲得價格更低的商品，所以線上書店的發展對社區書店的生意有影響。\n\n   **b. 傳統產業**\n\n   * 雖然出版社的線上銷售平台是「有農」的典型例子，但選項中只有出版社的 **線上書店** 才能夠與「有農」的概念直接關聯。\n\n   **e. 影響**\n\n   **f. 影響**\n\n   **傳統書店的意義**\n\n   * 傳統書店的經營模式可能會受到線上書店的影響，但它們的 **存在** 對於線上書店的發展並非直接原因，而是線上書店的成功需要依靠線上平台的發展。\n\n   **線上書店的經營模式**\n\n   * 這個選項的選項包含了線上書店的影響，並非直接的 **(b) 影響** \n\n   **b. 政府**\n\n   * 這個選項 **(b) 政府** \n\n   **b. 經濟發展**\n\n   * 這個選項的重點是線上書店的發展，與題目描述的「有農」概念相符。\n\n   **c. 傳統產業的**\n\n   **d. 傳統經濟**\n\n   * 傳統書店的模式與傳統書店的經營模式有關，但與線上書店的關係是 **d. 經濟的**\n\n   **e. 傳統經濟**\n\n   * 傳統經濟的發展\n\n   **d. 傳統經濟**\n\n   * 這個選項的 **d. 傳統經濟** 影響與題目描述的內容有關。\n\n   **f. 影響**\n\n   **b. 傳統經濟**\n\n   **d. 價格**\n\n   **g. 經濟發展**\n\n   **D. \n\n   The answer is **D. 價格**\n\n   * 價格 (Prices)\n\n   This is because the question asks for the factors that would be most affected by the \"社區經濟\" (community's economic development) concept.\n\n   While the question mentions \"社區發展\" (online bookstore development) as a potential factor, the most relevant answer is **(d) 價格** (prices).\n\n   Here's why:\n\n   * **b. 傳統經濟** (traditional economic development)\n\n   * 價格\n\n   This is because the question asks for the most likely factor to be affected by the \"community\" concept.\n\n   * **D. 價格**\n\n   **D. 政府**\n\n   The question specifically mentions \"b. 經濟\" (government) as a factor related to the \"社區\" (community) concept.\n\n   * **b. 經濟**\n\n   **d. 價格**\n\n   The answer is **\"社區經濟\" (traditional economic development)**\n\n   **D. 價格**\n\n   **b. 價格**\n\n   **c. 經濟**\n\n   **D. 經濟**\n\n   The answer is **\"社區經濟\" (community) because \"經濟的\" (economic development)\n\n   is a concept that is directly related to the success of the traditional bookstore.\n\n   **d. 價格**\n\n   **G. 社區書店的成功**\n\n   The answer is **\"價格\" (prices) because the question asks for the most relevant factor to the \"社區\" (community) concept.\n\n   **D. 傳統經濟**\n\n   **D",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'ab'], ['B', 'ad'], ['C', 'bc'], ['D', 'cd']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "懷化市嘅最⾼峯蘇寶頂海拔1934⽶，佢同世界最⾼峯珠穆朗瑪峯（8844⽶）嘅相對⾼度係",
+    "llm_output": "The answer is **D. d**.\n\nHere's why:\n\n* **Relative height** is the difference in elevation between two points. \n* The question states that the highest peak in Wuling (武陵) Mountains is 1934 meters high.\n\n* **The question asks for the vertical distance between the mountain range and the given height, which is the height difference between the highest peak and the surrounding terrain. **\n\nSince the question asks for the relative height of a mountain range and a mountain range's height is relative to the surrounding terrain, the answer must be a value that represents the difference in height between the two. \n\nLet me know if you'd like to know more about relative height in geography!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '6910⽶'], ['B', '10778⽶'], ['C', '7010⽶'], ['D', '7210⽶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "影響農業嘅三⼤區位因素係",
+    "llm_output": "A. \n\n**正確答案：**\n\n* **C. 运输**\n\n**解释：**\n\n* 虽然选项A包含了影响社区的三个主要因素（A. \n\n**解释：**\n\n* 选项A包含了影响资源的三个因素，但不是所有社区都拥有相同地理条件和经济发展水平。因此，正确答案应该是 **C. 运输**，因为它代表了以下事实：\n\n    * **a. 运输**： 选项中包含了 \"运输\" 作为影响因素，这暗示着选项D也可能包含了其他因素，例如 \"市场\" 和 \"交通\"。\n\n    * **C. \n\n**\n\n**解释：**\n\n* 虽然选项D包含了 \"\n\n**解释：**\n\n* \n\n**解释：**\n\n* 选项中可能包含了其他与 \"地理\" 相关的选项，例如 \"C. \n\n**\n\n**\n\n**C. \n\n* 虽然 \"\n\n**\n\n**\n\n**\n\n**正确答案：**\n\n* \n\n**解释：**\n\n* \n\n**解释：**\n\n* 选项中 \"C. 运输\" 可能是正确答案，因为它与 \"社区\" 的地理环境有关。\n\n**C. \n\n**\n\n* \n\n**解释：**\n\n* 选项C. 虽然 \"市场、科学技术、运输\" 都是 \"C. \n\n**\n\n**\n\n**\n\nThis response is based on the information provided in the question.\n\n**解释：**\n\n* 选项D. \n\n**\n\n* \n\n**\n\n* **D. \n\n**\n\n**解释：**\n\n* 选项D. \n\n**\n\n**\n\n* 选项 \"\n\n**\n\n* \n\n* \n\n**\n\n* \n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**解释：**\n\n* 选项中 \"市场\" 和 \"交通\" 都是指 \"社区\" 的重要组成部分，而 \"改善\" 则代表了 \"改善\" 的一个选项。\n\n**解释：**\n\n* \n\n**\n\n* **\n\n**\n\n* **\n\n* 选项 \"\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n* **D. \n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* **D. \n\n* \n\n**\n\n* **\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n* \n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n* \n\n**\n\n* \n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n* **\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n* **\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n* **\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* **\n\n**\n\n* **\n\n**\n\n**\n\n**\n\n**\n\n* **\n\n**\n\n* **\n\n**\n\n* \n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\nThis response is based on the information provided in the question.\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* **\n\n**\n\n**\n\n**\n\n**\n\n* **\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n* **\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* **\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n* **\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* **\n\n**\n\n**\n\n* \n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* **\n\n**\n\n**\n\n**\n\n* **\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n* \n\n* **\n\n**\n\n**\n\n* \n\n**\n\n**\n\n**\n\n**\n\n**\n\n* \n\n**\n\n**\n\n* \n\n**\n\n**\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '勞動⼒、⾃然條件、⽓候資源'], ['B', '⾃然條件、社會經濟、科學技術'], ['C', '熱量、光照、⽔分'], ['D', '⽓候、市場、交通']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "安徽省南部地處亞熱帶季⻛⽓候區，⽓候濕熱，地形以⼭地為主，對外交通唔便，耕地稀少，當地傳統嘅菜餚、⺠居、戲曲、農業⽣產等明顯打上咗地理環境嘅烙印。安徽省南部傳統特⾊菜嘅選料較多採⽤（）：a海鮮；b⽜⽺⾁；c⼭貨；d醃臘製品",
+    "llm_output": "The correct answer is **D. d 醃臘製品 (Marinated and cured foods)**\n\n**Explanation:**\n\nThis question highlights the importance of understanding the context of the answer choices. \n\n* **b 腌臘製品 (Marinated and cured foods)** is the correct answer because it directly addresses the \"food preservation\" aspect of the \"preservation\" answer choice in the original question.\n\nThe other options are incorrect because they don't directly relate to the concept of \"urban agriculture\" and the benefits it brings to the local community. \n\n**Explanation of why the other options are incorrect:**\n\n* **A. 劳動力 (labor force), 社區 (community) and 社會經濟 (community economy)** are not relevant to the concept of a \"community\" as they are too broad and don't specifically address the \"online\" aspect of the question.\n\n* **B** and **D** are correct because they are relevant to the concept of the question. \n\n* **C. ⾃然環境 (natural environment)** is partially relevant, but the question is asking for the specific impact on \"community\" so it needs to be paired with a relevant answer choice.\n\n* **D** is the most relevant because it directly relates to the \"community\" in the context of the question.\n\n**Therefore, the most accurate answer to this question, considering the context, is (C) \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'ab'], ['B', 'bc'], ['C', 'ad'], ['D', 'cd']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "1⽉份北半球被明顯切斷嘅⽓壓帶係",
+    "llm_output": "根據你提供的例子，問題中提到了「社區」的元素，所以答案是 **B**。\n\n**正確答案：B** (因為 A 選項中提到了「安徽省南部」)\n\n**解釋：**\n\n高中地理的題目中，你提到的兩個選項都與「社區」相關，但只有**「安徽省南部」** 這個選項描述了地理位置，而另一個選項「世界最」 **地區」** 沒有明確的地理意義。 \n\n**「社區」** 這個詞語在你的例子中，出現於題目中，所以可以推斷出，它是一個地理上相關的選項，例如：\n\n* **b 地區** 這個選項的答案是 **D** 因為它包含了**「社區」** 的概念。\n\n**希望這解釋對你理解「社區」的意義有所幫助！** \n\n**請注意：**\n\n* 這個例子只係說明**「有」** 這個選項可以幫助你理解**「社區」** 的概念。\n* 這個例子中，你提供的兩個選項都包含了**「社區」** 這個詞語，所以**「地區」** 這個詞語在這個例子中是錯誤的。\n\n**請記住，** 這個例子中，你提供的**「社區」** 選項是針對題目中提到的「地區」的描述，所以答案是 **B**。\n\n**你提供的例子中，** 這個問題的答案是**「b 社區」** 因為這個問題的答案是關於**「社區」** 的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '副極地低⽓壓帶'], ['B', '極地⾼⽓壓帶'], ['C', '所有嘅⽓壓帶'], ['D', '副熱帶⾼⽓壓帶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "南海諸島⼟壤中富磷，磷嘅最主要來源係",
+    "llm_output": "D. 珊瑚、鳥糞\n\n**Explanation:**\n\nThis is a bit of a trick question! While the provided answer is \"D\", which is likely a typo and meant to be \"a\", it's important to understand the context.\n\nThe question asks for the source of **phosphates**, which is a key component of fertilizer. The answer is likely **a) 1) 2) a) \n**\n\nHere's why:\n\n* **1) 1⽉** (This appears to be a typo and should be \"a) 磷**酸鹽**\" (phosphates)\n\n* **磷** (Phosphate) is indeed a key component of fertilizer.\n\nLet me know if you'd like to know more about the geography of phosphates! \n\n**Here's a breakdown of the question and why the answer is likely \"a) 1) a)\"**\n\n* **The question:** The question likely asks about the **primary source** of phosphates in the context of the 1) **subtropical high-pressure zone** (This is a good guess for the intended answer \"C\").\n\n* **The answer:**  The correct answer to the intended question is **c) 1) 2) a) 1) 2) \n\n**The correct answer is C.**\n\n**Here's why, assuming \"C\" is the intended correct answer:**\n\n* **Phosphate mining:** The question mentions \"影響... \n\nis a bit ambiguous. It could be referring to the fact that the **geographic location** influences the availability of resources like phosphates.\n\n* **Phosphate deposits:**  The text mentions \"磷\" (phosphorus) as a possible answer, but it's more likely that the question is asking about the intended answer \"c) 8844\"\n\n**Why the confusion?**\n\nIt seems like the \"C\" option might have been the original answer intended for the question, as the question asks about the influence of a specific location on a specific industry.\n\n**Let me know if you have any other questions!**",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '植物死亡分解'], ['B', '⻥類死亡分解'], ['C', '⻦糞、⻦類殘體'], ['D', '珊瑚、⻉殼碎屑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "清代，華北饑⺠⼤批「闖關東」，主要原因之一係東北地區",
+    "llm_output": "C. \n\nHere's why:\n\n* **Option C (東北地區有** **大量** **嘅耕地)** is the most accurate answer. The term \"東北地區\" refers to the Northeast region of China.\n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '有⼤量可開墾嘅⼟地'], ['B', '製造業高度發達'], ['C', '畜牧業⽔平⾼'], ['D', '⼤量徵兵抗戰']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "1⽉份南亞主要⻛向為",
+    "llm_output": "A. 東北風\n\n**C. 东北** \n\n**D. 珊瑚、海洋生物残骸** \n\n**東北風**\n\n**Here's why:**\n\n* **影響農業的因素**\n\nThis question seems to be asking about factors that directly relate to the climate and geography of a region.\n\n* **In the examples you provided, the first one (B. 自然條件, 社會經濟, \n\nLet me know if you'd like to see more examples!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '東北⻛'], ['B', '東南⻛'], ['C', '⻄北⻛'], ['D', '⻄南⻛']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "200毫米等降水量線唔經過",
+    "llm_output": "The correct answer is **B. 東西山**.\n\nHere's why:\n\n* **降水量** means \"precipitation amount\".  \n* The question asks for the reason for the **200毫米等** (which means \"isobars of 200 mm\" - likely referring to a line on a map showing equal rainfall)\n\nThis means the question is asking about the geographical feature that would be a reason for isohyets (lines of equal rainfall) to be drawn on a map.  Since isohyets represent rainfall patterns, the answer is likely a resource that influences rainfall.\n\n* **The answer is a combination of the options:**\n\n**A. 200毫米** (200 mm isohyets) are used to show areas with the same amount of rainfall.\n\n* **The answer is a specific type of geographical feature:**\n\n**B. 東西** (which means \"amount of\" in this context)\n\n* **The question asks for the reason behind this, implying a cause-and-effect relationship:**\n\nThe answer is likely related to the geographical feature that causes the 200 mm isohyets to be drawn in the first place.\n\n**Therefore, the answer to the question is the geographical feature that would naturally influence rainfall patterns, which is the mountains (山).**\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '武夷山'], ['B', '陰山'], ['C', '祁連山'], ['D', '巴顏喀拉山']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-high_school_geography",
+    "key_answer_type": "alphabet_option",
+    "question": "近些年探明，海底「可燃冰」（天然⽓⽔合物）儲量極為豐富，其開發技術亦⽇趨成熟。開發利用「可燃冰」將產生嘅環境效益有",
+    "llm_output": "A. \n\nThe correct answer is **A. 東北** (Northeast).\n\nHere's why:\n\n* **可燃冰** (kě rán bīng) translates to \"flammable ice,\" referring to methane hydrates. These are found in large quantities on the ocean floor.\n* **海底** (hǎidǐ) means \"seabed,\" which is where these deposits are located.\n\nThe other options are incorrect because:\n\n* **B. 西亚** (West Asia) is a region, not a specific resource.\n* **C. 东西** (East and West) are not directly relevant to the question of environmental benefits.\n* **D.  **This option is too broad and doesn't accurately reflect the specific context of the question.\n\nLet me know if you have any other questions!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '取代煤同⽯油，減輕對⼤⽓嘅污染'], ['B', '可取代一些核電站，減少核廢料嘅污染'], ['C', '可取代⽔電站，改善⼤⽓質量'], ['D', '無CO2排放，減輕「溫室效應」']]",
+    "is_correct": 0
+  }
+]

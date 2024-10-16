@@ -1,0 +1,1632 @@
+[
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教師人力資源評價包括好多方面，其中最重要嘅係",
+    "llm_output": "The correct answer is A. 績效評價 (Performance Evaluation).\n\nTeacher human resource evaluation typically includes various aspects, and performance evaluation is considered the most important one, as it assesses a teacher's job performance, teaching effectiveness, and student learning outcomes.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '績效評價'], ['B', '素質測評'], ['C', '士氣調查'], ['D', '目標評審']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "課嘅類型一般分為兩大類，即",
+    "llm_output": "The correct answer is D. 講授課同實驗課.\n\nIn education, lessons are typically categorized into two main types:\n\n1. Lecture-based lessons (講授課): These are lessons where the teacher delivers information to the students through lectures, presentations, or discussions.\n2. Experimental or hands-on lessons (實驗課): These are lessons where students engage in practical activities, experiments, or projects to learn and apply concepts and skills.\n\nSo, option D is the correct answer.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '講授課同練習課'], ['B', '講授課同複習課'], ['C', '單一課同綜合課'], ['D', '講授課同實驗課']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一項係職業院校精神文化最直接嘅表徵形式",
+    "llm_output": "The correct answer is B. 校訓 (School motto).\n\nExplanation: A school motto is a concise phrase or sentence that reflects the values, principles, and ideals of a school. It is a direct expression of the school's spiritual and cultural identity, and is often displayed prominently on school badges, logos, and other materials.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '辦學理念'], ['B', '校訓'], ['C', '校風'], ['D', '校歌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "確立教育目的嘅重要依據係",
+    "llm_output": "The correct answer is C. 政治制度.\n\nEstablishing educational goals is closely related to the political system of a country, as the political system shapes the values, beliefs, and priorities of a society, which in turn influence the goals of education.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '生產方式'], ['B', '生產力'], ['C', '政治制度'], ['D', '生產關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以學科為基礎組織起嚟嘅各門學科嘅課程形態係",
+    "llm_output": "The correct answer is C. 科目本位課程 (Subject-centered curriculum).\n\nThis type of curriculum is organized around specific subjects or disciplines, such as mathematics, language, science, and social studies. The curriculum is structured around the content and skills of each subject, and the teacher is seen as a subject matter expert.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會中心課程'], ['B', '學生中心課程'], ['C', '科目本位課程'], ['D', '學科中心課程']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "1989年，係邊個用「新公共管理」命名咗聲勢浩大嘅政府改革，使得新公共管理理論由此誕生並受到廣泛青睞",
+    "llm_output": "The correct answer is A. 克里斯托弗•胡德 (Christopher Hood).\n\nIn 1989, Christopher Hood coined the term \"New Public Management\" (NPM) to describe a major government reform movement that aimed to introduce business-like practices and market-oriented reforms into the public sector. This marked the birth of NPM theory, which has since been widely adopted and influential in public administration and policy studies.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '克里斯托弗•胡德'], ['B', '威爾伯•約契'], ['C', '傑里米•裏夫金'], ['D', '丹尼爾•格里菲思']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於院校標識嘅一項係",
+    "llm_output": "The correct answer is B. 學校明信片 (school postcard).\n\nThe other options are all correct examples of institutional identity elements:\n\n* A. 學報 (school journal or publication) is a common way for schools to showcase their achievements and share information with stakeholders.\n* C. 校徽 (school emblem or crest) is a visual symbol that represents the school's identity and values.\n* D. 校歌 (school song) is a musical representation of the school's spirit and identity.\n\nHowever, a school postcard is not typically considered an element of institutional identity.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '學報'], ['B', '學校明信片'], ['C', '校徽'], ['D', '校歌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "韋伯認為，科層理論嘅基礎係",
+    "llm_output": "The correct answer is D. 法理型權威 (Legal-Rational Authority).\n\nAccording to Max Weber, the basis of bureaucracy is Legal-Rational Authority, which is characterized by a system of rules and regulations that are impersonal, universal, and based on rational principles.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '傳統型權威'], ['B', '個人魅力型權威'], ['C', '科學性權威'], ['D', '法理型權威']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業教育管理就係領導藝術」理念嘅代表人物係",
+    "llm_output": "The correct answer is A. 格朗魯斯 (Gorton).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '格朗魯斯'], ['B', '熊彼德'], ['C', '孔茨'], ['D', '梅奧']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育要適應人嘅發展嘅個別差異性，做到",
+    "llm_output": "The correct answer is:\n\nD. 因材施教\n\nThis option means \"teaching according to individual abilities\" or \"tailoring instruction to meet the needs of each student\", which is in line with the idea of adapting education to individual differences in human development.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '防微杜漸'], ['B', '循序漸進'], ['C', '教學相長'], ['D', '因材施教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業院校行為係文化係一種特殊嘅文化形態，佢係以（）嘅形式作為文化成果存在嘅。",
+    "llm_output": "The correct answer is D. 靜態.\n\n職業院校行為文化 (occupational culture) is a type of cultural form that exists in a static form, meaning it is a relatively stable and fixed set of values, norms, and practices that are shared among members of a particular occupation or profession.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '動態'], ['B', '動靜結合'], ['C', '以上都唔對'], ['D', '靜態']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「第三次工業革命」模式嘅第一人係",
+    "llm_output": "The correct answer is A. 傑里米•裏夫金 (Jeremy Rifkin).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傑里米•裏夫金'], ['B', '比爾.蓋茨'], ['C', '瓦特'], ['D', '愛迪生']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育過程中最重要嘅人際關係係",
+    "llm_output": "The correct answer is:\n\nC. 師生關係 (Teacher-student relationship)\n\nIn the educational process, the teacher-student relationship is considered the most important interpersonal relationship, as it has a significant impact on student learning outcomes, motivation, and overall educational experience.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '同學關係'], ['B', '學校同家庭'], ['C', '師生關係'], ['D', '同事關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "2012年教育部出臺嘅（）體現咗職業學校專業嘅社會服務職能。",
+    "llm_output": "The correct answer is C. 「現代職業教育體系建設規劃」.\n\nIn 2012, the Ministry of Education issued the \"Modern Vocational Education System Construction Plan\", which emphasized the social service function of vocational schools.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「學科規訓制度導論」'], ['B', '「國務院關於大力發展職業嘅決定」'], ['C', '「現代職業教育體系建設規劃」'], ['D', '「國際教育標準分類法」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "啟發式教學最早可見於",
+    "llm_output": "The correct answer is B. 柏拉圖 (Plato).\n\nPlato's philosophy of education, as outlined in his book \"The Republic\", emphasizes the importance of questioning and dialogue in the learning process, which is a key characteristic of inquiry-based learning.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '杜威'], ['B', '柏拉圖'], ['C', '孔子'], ['D', '盧梭']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "從教育形態上分析，下列教育屬於制度化教育嘅係",
+    "llm_output": "The correct answer is:\n\nC. 學校教育\n\nExplanation: 制度化教育 (institutionalized education) refers to education that is provided within a formal, structured, and organized system, such as schools. School education is a typical example of institutionalized education, where students attend classes, follow a curriculum, and are taught by trained teachers.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社區教育'], ['B', '網絡教育'], ['C', '學校教育'], ['D', '家庭教育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺教學過程中，學生對客觀世界嘅認識主要係通過",
+    "llm_output": "The correct answer is C. 直接感知事物.\n\nIn the learning process, students' recognition of the objective world is mainly through direct perception of things, which means they learn through their senses and direct experience with the world around them.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '學生嘅實踐活動'], ['B', '交往'], ['C', '直接感知事物'], ['D', '間接經驗']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "為更好地指導職教集團發展，教育部於2009年出臺咗",
+    "llm_output": "The correct answer is A. 「關於加快推進職業教育集團化辦學嘅若干意見」.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「關於加快推進職業教育集團化辦學嘅若干意見」'], ['B', '「教育部關於推進中高職協調發展嘅指導意見」'], ['C', '「國家中長期教育改革同發展規劃綱要」'], ['D', '「國家教育「十二五」規劃」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於一個科學嘅學業生涯規劃應該滿足嘅標準嘅係",
+    "llm_output": "The correct answer is D. 與長遠規劃無聯繫.\n\nA scientific career planning should be aligned with long-term goals, so option D is the one that does not belong to the standards of a scientific career planning.\n\nHere's why the other options are correct:\n\nA. 本人樂意全身心投入 (One should be willing to fully commit to their career planning)\n\nB. 本人熱切希望嘅學業生涯規劃 (One's career planning should be based on their own aspirations and interests)\n\nC. 唔違法亂紀，唔違背道德 (One's career planning should not violate laws or ethics)",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '本人樂意全身心投入'], ['B', '本人熱切希望嘅學業生涯規劃'], ['C', '唔違法亂紀，唔違背道德'], ['D', '與長遠規劃無聯繫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下描述有誤嘅一項係",
+    "llm_output": "The correct answer is C. 職業教育管理學係一門人文學科.\n\n職業教育管理學 (Vocational Education Management) is a branch of education that focuses on the management and administration of vocational education programs. It is an interdisciplinary field that draws on concepts and theories from education, management, psychology, and sociology. Therefore, it is not a humanities discipline.\n\nThe correct classification of 職業教育管理學 is:\n\n* A. 職業教育管理學係一門分支學科 (correct) - It is a branch of education.\n* B. 職業教育管理學係一門交叉學科 (correct) - It is an interdisciplinary field that draws on multiple disciplines.\n* D. 職業教育管理學係一門獨立學科 (correct) - It is a distinct field of study with its own theories, concepts, and methods.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '職業教育管理學係一門分支學科'], ['B', '職業教育管理學係一門交叉學科'], ['C', '職業教育管理學係一門人文學科'], ['D', '職業教育管理學係一門獨立學科']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺世界教育學史上，赫爾巴特被稱為「現代教育學之父」，佢嘅邊本書被公認為第一本現代教育學著作",
+    "llm_output": "The correct answer is B. 「教育學講授綱要」.\n\nHerbart's book \"Umriss padagogischer Vorlesungen\" (Outline of Pedagogical Lectures) is widely recognized as the first modern educational theory book, and he is often referred to as the \"Father of Modern Education\".",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「愛彌兒」'], ['B', '「教育學講授綱要」'], ['C', '「大教學論」'], ['D', '「普通教育學」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教師喺教學過程中起咩樣嘅作用",
+    "llm_output": "The correct answer is D. 主體 (Main Body/Leading Role).\n\nIn the teaching process, the teacher plays a leading role, guiding and facilitating students' learning, and taking responsibility for creating a conducive learning environment.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主導'], ['B', '客體'], ['C', '導向'], ['D', '主體']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "企業係職業院校學生成長發展嘅環境之一，佢與職業院校學生嘅關係可以形象地概括為",
+    "llm_output": "The correct answer is B. 競技場.\n\nExplanation: The relationship between an enterprise and vocational school students can be metaphorically described as a \"競技場\" (arena or competition field), where students can apply their skills and knowledge in a real-world setting, compete with others, and gain practical experience.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '港灣'], ['B', '競技場'], ['C', '搖籃'], ['D', '舞臺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "針對學生具體情況，德育可以有多種開端，但係按一般教育順序，開端於",
+    "llm_output": "The correct answer is D. 知.\n\nIn general, moral education (德育) in schools typically starts with knowledge (知), then moves to emotions (情), intentions (意), and finally to actions (行). This is because students need to first understand and learn about moral values and principles before they can develop emotional connections to them, form intentions to act on them, and finally put them into practice through actions.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '行'], ['B', '意'], ['C', '情'], ['D', '知']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺教育嘅兩大功能中，教育嘅邊一功能係其本體功能，係核心功能",
+    "llm_output": "The correct answer is B. 個體 (Individual).\n\nIn education, there are two main functions: social function and individual function. The individual function is considered the core or essential function of education, as it focuses on the development and growth of individual students.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '文化'], ['B', '個體'], ['C', '社會'], ['D', '政治']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺班集體中，學生通過班集體中規範化嘅組織結構，扮演各種社會角色，培養公民品質，呢說明班集體對學生發展具有",
+    "llm_output": "The correct answer is B. 社會化功能.\n\nExplanation: The description mentions that students play various social roles and develop civic qualities through the normative organizational structure of the class collective, which is a key aspect of socialization. Socialization refers to the process by which individuals learn and internalize the norms, values, and behaviors of a society or group, and the class collective provides an opportunity for students to develop these skills.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '選擇功能'], ['B', '社會化功能'], ['C', '保護功能'], ['D', '個性化功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於心理素質拓展方法嘅係",
+    "llm_output": "The correct answer is C. 調查法 (Survey method).\n\nPsychological quality expansion methods refer to techniques used to enhance an individual's psychological abilities, such as self-awareness, self-regulation, and self-motivation. The options A, B, and D are all related to psychological quality expansion methods:\n\n* 遊戲法 (Game method) involves using games or playful activities to promote learning and personal growth.\n* 反饋法 (Feedback method) involves providing individuals with feedback on their performance or behavior to help them identify areas for improvement.\n* 分享體驗法 (Sharing experience method) involves sharing personal experiences or stories to promote reflection, empathy, and understanding.\n\n調查法 (Survey method), on the other hand, is a research method used to collect data through questionnaires, interviews, or observations, and is not directly related to psychological quality expansion.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '遊戲法'], ['B', '反饋法'], ['C', '調查法'], ['D', '分享體驗法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "科學嘅學業生涯規劃嘅特點唔包括",
+    "llm_output": "The correct answer is C. 綜合性.\n\nScientific career planning in education does not include comprehensiveness as one of its characteristics. The other options are correct:\n\n* A. 獨特性 (Uniqueness): Each student's career plan is unique to their individual strengths, interests, and goals.\n* B. 階段性 (Stage-based): Career planning is a stage-based process, with different stages of development and exploration.\n* D. 發展性 (Developmental): Career planning is a developmental process, with students learning and growing over time.\n\nComprehensiveness is not a characteristic of scientific career planning in education.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '獨特性'], ['B', '階段性'], ['C', '綜合性'], ['D', '發展性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「分組教學」嘅分組主要係按學生嘅",
+    "llm_output": "The correct answer is D. 智力發展水平.\n\nIn \"分組教學\" (ability grouping), students are grouped based on their cognitive abilities or intellectual development levels, which is option D. This approach aims to cater to the diverse learning needs of students by grouping them according to their academic abilities, allowing for more targeted instruction and support.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '學習成績'], ['B', '年齡'], ['C', '學習興趣'], ['D', '智力發展水平']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「近朱者赤，近墨者黑」，呢句話反映咗邊種因素對人嘅發展嘅影響？",
+    "llm_output": "The correct answer is B. 環境.\n\nThe phrase \"近朱者赤，近墨者黑\" is a Chinese idiom that means \"Near the red, one becomes red; near the black, one becomes black.\" It suggests that the environment and the company one keeps can influence one's behavior and development. Therefore, the correct answer is B. 環境 (environment).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '社會活動'], ['B', '環境'], ['C', '遺傳'], ['D', '教育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "影響教育事業嘅發展規模同速度嘅主要因素係社會",
+    "llm_output": "The correct answer is B. 經濟制度 (Economic System).\n\nThe development scale and speed of education are largely influenced by the economic system of a society, as it determines the allocation of resources, funding, and priorities for education.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '生產力'], ['B', '經濟制度'], ['C', '意識形態'], ['D', '政治制度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "積極引導學生家長轉變教育方式，實現對子女嘅邊種管理，使子女喺舒適、寬鬆嘅家庭環境中健康成長",
+    "llm_output": "The correct answer is B. 民主化.\n\nThe question is asking about a positive guidance approach that helps parents change their educational method to create a comfortable and relaxed family environment, where children can grow healthily. Democratic parenting is an approach that encourages children to take responsibility, make decisions, and develop self-regulation skills, which aligns with the description in the question.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '放任化'], ['B', '民主化'], ['C', '專制化'], ['D', '溺愛化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺專業建設實踐中，唔屬於硬件設施嘅係",
+    "llm_output": "The correct answer is A. 專業文化.\n\nExplanation: Hardware facilities refer to the physical infrastructure and equipment needed for professional development, such as training bases, instruments, and teaching venues. Professional culture, on the other hand, refers to the values, norms, and attitudes that shape the behavior and practices of professionals in a particular field. It is a soft aspect of professional development, not a physical facility.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '專業文化'], ['B', '實訓基地'], ['C', '儀器設施'], ['D', '教學場地']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「荀子·儒效」曰:「四海之內差一家，通達之屬，莫唔從服，夫之謂人師」體現咗教師職業嘅",
+    "llm_output": "The correct answer is B. 示範性.\n\nThe quote from \"Xunzi·Ru Xiao\" suggests that a teacher's influence extends far and wide, and that people from all over the world will follow their example. This illustrates the demonstrative or exemplary role of a teacher, which is a key aspect of their profession.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '創造性'], ['B', '示範性'], ['C', '複雜性'], ['D', '長期性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一項屬於象徵性嘅制度設備系統",
+    "llm_output": "The correct answer is D. 學生證 (Student ID card).\n\nExplanation: Symbolic institutional devices refer to systems or structures that convey meaning and significance beyond their functional purpose. In this case, a student ID card is a symbolic representation of a student's identity and membership in an educational institution, beyond its functional purpose of identification.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '實訓基地'], ['B', '教室'], ['C', '教具'], ['D', '學生證']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "做好心理輔導工作嘅原則唔包括",
+    "llm_output": "The correct answer is A. 教師中心原則.\n\nThe principles of doing psychological counseling work do not include the \"teacher-centered principle\" because counseling work should be student-centered, focusing on the needs and well-being of the students, rather than the teacher's own interests or perspectives.\n\nThe other options are all correct principles of psychological counseling work:\n\n* B. 面向全體學生原則 (facing all students principle) emphasizes that counseling services should be available to all students, regardless of their background or needs.\n* C. 預防與發展相結合原則 (prevention and development integration principle) highlights the importance of integrating preventive measures with developmental strategies to promote students' overall well-being.\n* D. 尊重與理解學生原則 (respect and understanding students principle) emphasizes the importance of respecting and understanding students' individual differences, needs, and perspectives in the counseling process.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教師中心原則'], ['B', '面向全體學生原則'], ['C', '預防與發展相結合原則'], ['D', '尊重與理解學生原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於技術傳媒嘅一項係",
+    "llm_output": "The correct answer is A. 校訓.\n\nExplanation: 技術傳媒 (technical media) refers to the use of technology to convey information or messages. The options B, C, and D are all forms of technical media used in educational settings:\n\n* 校刊 (school magazine) is a print or digital publication that uses technology to disseminate information to students and staff.\n* 校園廣播 (school broadcasting) uses audio technology to broadcast messages or programs to students and staff.\n* 校報 (school newspaper) is a print or digital publication that uses technology to disseminate news and information to students and staff.\n\nOn the other hand, 校訓 (school motto) is a phrase or slogan that represents the values and mission of the school, and is not a form of technical media.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '校訓'], ['B', '校刊'], ['C', '校園廣播'], ['D', '校報']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育學嘅源泉係",
+    "llm_output": "The correct answer is B. 教育實踐 (Educational Practice).\n\nExplanation: Educational practice is the source of educational theory, as it is through observing and reflecting on teaching and learning experiences that educators develop theories and principles to guide their practice.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '教育規律'], ['B', '教育實踐'], ['C', '教育理論'], ['D', '教育需要']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "專門教育係以（）為基礎嘅，能夠喺人嘅一般發展嘅基礎上促進人嘅特殊發展。",
+    "llm_output": "The correct answer is D. 普通教育 (General Education).\n\nSpecial education is based on general education and aims to promote special development on the foundation of general development.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '職業教育管理學係一門交叉學科'], ['B', '高等教育'], ['C', '基礎教育'], ['D', '普通教育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "技術進步嘅核心要素係",
+    "llm_output": "The correct answer is C. 技術創新 (Technological innovation).\n\nTechnological progress is driven by the development and application of new technologies, which is the core element of technological innovation.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '技術開發'], ['B', '理念創新'], ['C', '技術創新'], ['D', '制度創新']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "我國封建社會官學嘅最顯著特點係",
+    "llm_output": "The correct answer is D. 壟斷性.\n\nIn ancient China's feudal society, the most prominent feature of official education (官學) was its monopolistic nature, where the government controlled and dominated the education system, restricting access to education to a select few, mainly the children of officials and aristocrats.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '階級性'], ['B', '等級性'], ['C', '封閉性'], ['D', '壟斷性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義觀點認為，培養全面發展嘅人嘅唯一方法係",
+    "llm_output": "The correct answer is D. 教育與生產勞動相結合.\n\nAccording to Marxist theory, the only way to cultivate all-around developed individuals is to combine education with productive labor. This approach emphasizes the importance of integrating theoretical knowledge with practical experience and manual labor, allowing individuals to develop their intellectual, physical, and social abilities in a holistic manner.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '城市與農村相結合'], ['B', '腦力勞動與體力勞動相結合'], ['C', '知識分子與工人農民相結合'], ['D', '教育與生產勞動相結合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教師嘅表率作用主要體現喺",
+    "llm_output": "The correct answer is C. 言行一致 (Consistency between words and actions).\n\nThe \"表率作用\" (demonstration effect) of a teacher refers to the influence they have on their students through their behavior, attitude, and values. A teacher's consistency between their words and actions is a key aspect of this demonstration effect, as it shows students that they practice what they preach and are committed to upholding the values they teach.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '舉止端莊'], ['B', '談吐文雅'], ['C', '言行一致'], ['D', '衣著整潔']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "按照選擇性分類可以把課程分為",
+    "llm_output": "The correct answer is C. 必修課程同選修課程.\n\nAccording to the classification of curriculum by selectivity, courses can be divided into compulsory courses and elective courses.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '德育課程、智育課程、體育課程、美育課程同勞動技術課程等'], ['B', '地方課程同校本課程'], ['C', '必修課程同選修課程'], ['D', '分科課程與綜合課程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "中國歷史上最早專門論述教育問題嘅文獻係",
+    "llm_output": "The correct answer is B. 「學記」.\n\n「學記」 is a chapter in the Book of Rites, a Confucian classic, and it is considered the earliest Chinese document that specifically discusses educational issues.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「大學」'], ['B', '「學記」'], ['C', '「中庸」'], ['D', '「論語」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "管理嘅二重性係指",
+    "llm_output": "The correct answer is C. 科學性與藝術性.\n\nThe dual nature of management refers to the fact that management involves both scientific and artistic aspects. Management is a science because it involves the application of principles, theories, and methods to achieve organizational goals. At the same time, management is also an art because it requires creativity, intuition, and judgment to deal with unique and complex situations.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '基礎性與普遍性'], ['B', '創造性與變革性'], ['C', '科學性與藝術性'], ['D', '自然性與社會性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "班主任瞭解同研究學生嘅主要方法係",
+    "llm_output": "The correct answer is C. 傾偈法 (Interview method).\n\nAs a class teacher, the primary method to understand and research students is through interviews or conversations with them, which allows the teacher to gather information about the students' thoughts, feelings, and experiences.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '觀察法'], ['B', '調查法'], ['C', '傾偈法'], ['D', '考覈法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "具有強制性、普遍性、基礎性特徵嘅係",
+    "llm_output": "The correct answer is B. 課程標準 (Curriculum Standards).\n\nHere's why:\n\n* 強制性 (Compulsoriness): Curriculum standards are mandatory and must be followed by all schools and educators.\n* 普遍性 (Universality): Curriculum standards apply to all students and schools, regardless of their location or background.\n* 基礎性 (Foundational nature): Curriculum standards provide a foundation for teaching and learning, outlining the essential knowledge, skills, and values that students should acquire.\n\nWhile the other options are related to education, they don't possess all three characteristics:\n\n* A. 教學計劃 (Teaching Plan) is a specific plan for a lesson or series of lessons, but it's not necessarily compulsory, universal, or foundational.\n* C. 培養目標 (Cultivation Goals) refers to the long-term goals of education, but it's not a specific standard or requirement.\n* D. 課程目標 (Curriculum Objectives) are specific goals for a particular course or program, but they may not be compulsory or universal.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教學計劃'], ['B', '課程標準'], ['C', '培養目標'], ['D', '課程目標']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺教育學嚟睇，下列邊個選項唔僅係課堂管理研究嘅主要範疇，都係學習過程研究同教學設計研究所唔能忽視嘅重要內容",
+    "llm_output": "The correct answer is C. 教學環境.\n\nIn educational research, teaching environment is not only a major area of study in classroom management, but also a crucial aspect of learning process research and instructional design research that cannot be ignored. The teaching environment refers to the physical, social, and psychological context in which teaching and learning take place, and it has a significant impact on student learning outcomes and teacher effectiveness.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '教學媒體'], ['B', '評價/反思過程'], ['C', '教學環境'], ['D', '教學內容']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業教育管理現代化嘅核心係實現人嘅",
+    "llm_output": "The correct answer is C. 素質化.\n\nThe core of modernizing vocational education management is to achieve the quality-oriented development of people, which means to focus on cultivating students' overall quality, including their knowledge, skills, and values, rather than just imparting technical skills.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '封建化'], ['B', '科學化'], ['C', '素質化'], ['D', '現代化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下對能力嘅分析屬於職業能力嘅係",
+    "llm_output": "The correct answer is C. 喺系統嘅學科教育同學術訓練嘅基礎上建立起嚟嘅一種行為能力.\n\nThis option describes the analysis of ability as a behavioral ability established on the basis of systematic subject education and academic training, which is a key characteristic of vocational ability.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '職業教育嘅培養目標'], ['B', '重視系統嘅專業知識嘅掌握'], ['C', '喺系統嘅學科教育同學術訓練嘅基礎上建立起嚟嘅一種行為能力'], ['D', '高等教育中嘅學術教育同工程教育嘅培養目標']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育最深遠嘅功能係",
+    "llm_output": "The correct answer is D. 影響個體功能.\n\nThe deepest and most profound function of education is to influence the individual, shaping their thoughts, values, and behaviors, and helping them to develop their full potential.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '影響文化功能'], ['B', '影響經濟功能'], ['C', '影響政治功能'], ['D', '影響個體功能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業教育課程分析可劃分為邊三個階段",
+    "llm_output": "The correct answer is D. 社會需求分析、行業分析、學科分析.\n\n職業教育課程分析 typically involves three stages:\n\n1. 社會需求分析 (Social Needs Analysis): identifying the needs of the society and the labor market.\n2. 行業分析 (Occupational Analysis): analyzing the occupation or job to identify the skills, knowledge, and attitudes required.\n3. 學科分析 (Curriculum Analysis): designing the curriculum to meet the needs identified in the previous two stages.\n\nSo, option D is the correct answer.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '行業分析、學科分析、教學分析'], ['B', '社會需求分析、行業分析、教學分析'], ['C', '社會需求分析、學科分析、教學分析'], ['D', '社會需求分析、行業分析、學科分析']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "評定學生操行係班主任工作嘅",
+    "llm_output": "The correct answer is A. 基礎.\n\nExplanation: Evaluating students' behavior is a fundamental aspect of a class teacher's work, as it helps to assess their overall development and provide guidance for their growth.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基礎'], ['B', '方法'], ['C', '前提'], ['D', '中心']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "管理者根據自己嘅責任同權限，藉助指示、命令等權力手段同權威，有效地指導下屬機構同人員履行其職責，實現管理目標嘅領導活動。呢係學校管理嘅",
+    "llm_output": "The correct answer is D. 指揮職能.\n\nThis is because the description provided matches the definition of directing, which involves guiding and instructing subordinates to achieve organizational goals and objectives.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '控制職能'], ['B', '協調職能'], ['C', '組織職能'], ['D', '指揮職能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "專家分析法又稱為德爾菲法，佢嘅首輪調研係",
+    "llm_output": "The correct answer is A. 開放式 (Open-ended).\n\nThe Delphi technique, also known as expert analysis, typically involves a first round of open-ended questions to gather opinions and ideas from a panel of experts. This allows for a free flow of thoughts and ideas without any constraints or predetermined options.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '開放式'], ['B', '重申式'], ['C', '封閉式'], ['D', '評價式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺師生關係上持「教師中心論「嘅係以邊個為代表嘅傳統教育派師生觀",
+    "llm_output": "The correct answer is A. 赫爾巴特 (Herbart).\n\nHerbart's educational philosophy is characterized by a teacher-centered approach, where the teacher is seen as the authority figure and the primary transmitter of knowledge. This approach is often contrasted with student-centered approaches, such as those advocated by Dewey.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '赫爾巴特'], ['B', '誇美紐斯'], ['C', '洛克'], ['D', '杜威']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺一所職業院校，任何事情都由校長做主，體現咗權力嘅",
+    "llm_output": "The correct answer is A. 集中化 (Centralization).\n\nIn this scenario, the fact that the principal makes all the decisions suggests that power is concentrated in one person, which is a characteristic of centralization.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '集中化'], ['B', '統一化'], ['C', '分層化'], ['D', '權威化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於學生心理疲勞特點嘅係",
+    "llm_output": "The correct answer is B. 失眠.\n\nThe other options are all characteristics of student psychological fatigue:\n\n* A. 注意力渙散 (difficulty concentrating) is a common symptom of psychological fatigue.\n* C. 精神唔振 (lack of motivation) is another characteristic of psychological fatigue.\n* D. 記憶力下降 (decreased memory) can also be a result of psychological fatigue.\n\n失眠 (insomnia) is a sleep disorder, but it is not a direct characteristic of psychological fatigue.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '注意力渙散'], ['B', '失眠'], ['C', '精神唔振'], ['D', '記憶力下降']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於各國職業教育管理相同嘅發展方向嘅係",
+    "llm_output": "The correct answer is:\n\nC. 單一主體參與\n\nExplanation: The development direction of vocational education management in various countries tends to be decentralized, with multiple stakeholders involved, rather than a single entity. Therefore, option C \"單一主體參與\" (single entity involvement) is not a common development direction.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '中央同地方合作開展管理'], ['B', '依法實施管理'], ['C', '單一主體參與'], ['D', '管理方式趨向多樣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "從課程嘅表現形式嚟睇，校園文化屬於",
+    "llm_output": "The correct answer is B. 隱性課程 (Hidden Curriculum).\n\nExplanation: School culture refers to the unwritten rules, values, and norms that shape the behavior and attitudes of students and teachers in a school. It is not a formal or explicit part of the curriculum, but rather a subtle and implicit influence on students' learning experiences. Therefore, it is considered a form of hidden curriculum.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '校本課程'], ['B', '隱性課程'], ['C', '顯性課程'], ['D', '綜合課程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「教學相長」思想出自我國古代邊部典籍",
+    "llm_output": "The correct answer is A. 「學記」.\n\n\"教學相長\" is a concept that originated from the ancient Chinese classic \"Xue Ji\" (學記), which is a chapter in the Book of Rites (禮記).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「學記」'], ['B', '「論語」'], ['C', '「中庸」'], ['D', '「大學」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個因素唔屬於教育要素",
+    "llm_output": "The correct answer is D. 教育影響 (Educational influence).\n\nThe four elements of education are:\n\n1. 教育形式 (Educational form) - refers to the structure and organization of the educational process.\n2. 教師 (Teacher) - refers to the person who provides guidance and instruction to the students.\n3. 學習者 (Learner) - refers to the student who receives the education.\n4. 教育內容 (Educational content) - refers to the knowledge, skills, and values that are taught.\n\n教育影響 (Educational influence) is not one of the four elements of education. It is a broader concept that refers to the impact of education on individuals, society, and culture.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教育形式'], ['B', '教師'], ['C', '學習者'], ['D', '教育影響']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "技術嘅靈魂體現喺對（）嘅價值追求上。",
+    "llm_output": "The correct answer is B. 技術至上 (Technological supremacy).\n\nThe phrase \"技術嘅靈魂\" (the soul of technology) refers to the values and principles that guide the development and application of technology. Therefore, the correct answer is B, which suggests that the soul of technology is reflected in the pursuit of technological supremacy or excellence.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '技術文明'], ['B', '技術至上'], ['C', '技術創新'], ['D', '技術博弈']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於現代中職學生「3+1」綜合素質發展性評價模式嘅主要內容嘅係",
+    "llm_output": "The correct answer is C. 多層嘅評價內容.\n\nThe \"3+1\" comprehensive development assessment model for modern vocational students consists of:\n\n* 3 dimensions: knowledge, skills, and attitudes\n* 1 core element: comprehensive development\n\nThe main contents of this model include:\n\n* 多維嘅評價目標 (A): multiple dimensions of assessment goals\n* 多樣嘅評價體系 (B): diverse assessment systems\n* 多元嘅評價主體 (D): multiple assessment subjects or stakeholders\n\nHowever, 多層嘅評價內容 (C) is not a main content of the \"3+1\" model.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '多維嘅評價目標'], ['B', '多樣嘅評價體系'], ['C', '多層嘅評價內容'], ['D', '多元嘅評價主體']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "漢語中最早將「教」同「學」連用係喺戰國時期嘅邊本著作",
+    "llm_output": "The correct answer is B. 「禮記·學記」.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「孟子·盡心上」'], ['B', '「禮記·學記」'], ['C', '「論語」'], ['D', '「說文解字」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "我國嘅「教師資格條例」係喺邊度頒發嘅",
+    "llm_output": "The correct answer is B. 1993年.\n\nAccording to the Hong Kong Government's website, the \"Teachers' Qualifications Regulation\" was gazetted in 1993.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1950年'], ['B', '1993年'], ['C', '1985年'], ['D', '1995年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "學與教過程中有意傳遞嘅主要信息部分係",
+    "llm_output": "The correct answer is B. 教學內容 (Teaching content).\n\nIn the teaching and learning process, the primary information that is intentionally transmitted is the teaching content, which refers to the knowledge, skills, and values that are being taught to the students.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '教學方法'], ['B', '教學內容'], ['C', '教學媒體'], ['D', '教師']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "根據下列邊一項嚟揀課程類型係職業學校專業治理嘅重要方面",
+    "llm_output": "The correct answer is A. 專業特點.\n\nIn vocational education, the professional characteristics of a particular occupation or industry are a crucial aspect of curriculum design. This involves identifying the specific skills, knowledge, and attitudes required for a particular job or profession, and designing the curriculum to equip students with those competencies.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '專業特點'], ['B', '教育目標'], ['C', '社會需求'], ['D', '學生水平']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於無形嘅職業院校制度文化嘅一項係",
+    "llm_output": "The correct answer is A. 羣體行為規範.\n\nExplanation: 無形 (intangible) refers to non-physical or abstract aspects of a school's culture. 羣體行為規範 (group behavior norms) refers to the unwritten rules and expectations that govern how students and teachers interact with each other, which is an intangible aspect of a school's culture.\n\nThe other options are tangible aspects of a school's system:\n\n* B. 後勤管理制度 (logistics management system) refers to the physical infrastructure and resources of the school.\n* C. 學生工作制度 (student work system) refers to the formal rules and procedures governing student activities.\n* D. 人事制度 (personnel system) refers to the formal rules and procedures governing the management of school staff.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '羣體行為規範'], ['B', '後勤管理制度'], ['C', '學生工作制度'], ['D', '人事制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "古希臘嘅蘇格拉底所提倡嘅教學法係",
+    "llm_output": "The correct answer is D. 產婆術 (Midwifery method).\n\nSocrates is known for his method of questioning, which is often referred to as the \"Socratic method\" or \"midwifery method\". This method involves asking a series of questions to encourage critical thinking and to help students arrive at their own understanding of a concept or idea.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '實踐法'], ['B', '陶冶法'], ['C', '講授法'], ['D', '產婆術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "技術文化景觀係以下列邊一項為核心嘅",
+    "llm_output": "The correct answer is B. 技術理念 (Technological concept).\n\nTechnical cultural landscape refers to the way technology is perceived, understood, and used within a particular cultural context. At its core, it is concerned with the underlying concepts and values that shape our relationship with technology. Therefore, option B, 技術理念 (Technological concept), is the correct answer.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '技術傳媒'], ['B', '技術理念'], ['C', '技術發展'], ['D', '技術規範']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "現代教育與傳統教育嘅根本區別喺於",
+    "llm_output": "The correct answer is C. 思維能力嘅培養 (Cultivating thinking ability).\n\nThe fundamental difference between modern education and traditional education lies in the emphasis on cultivating thinking ability. Modern education focuses on developing critical thinking, problem-solving, and analytical skills, whereas traditional education tends to focus on memorization and rote learning.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '創新能力嘅培養'], ['B', '想象能力嘅培養'], ['C', '思維能力嘅培養'], ['D', '實踐能力嘅培養']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "馬斯洛需求層次理論最高層嘅係",
+    "llm_output": "The correct answer is:\n\nC. 自我實現需求\n\nAccording to Maslow's Hierarchy of Needs, the highest level of need is Self-Actualization (自我實現需求), which involves personal growth, creativity, and fulfilling one's potential.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '安全需求'], ['B', '生理需求'], ['C', '自我實現需求'], ['D', '尊重需求']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於教育教學設施嘅一項係",
+    "llm_output": "The correct answer is:\n\nC. 商務中心\n\nExplanation: A commercial center is not typically considered an educational facility, whereas a gymnasium (體育館), laboratory equipment (實驗設備), and a student activity center (學生活動中心) are all common facilities found in educational institutions.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '體育館'], ['B', '實驗設備'], ['C', '商務中心'], ['D', '學生活動中心']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教師自覺利用環境同自身因素對學生進行薰陶同感染嘅德育方法係",
+    "llm_output": "The correct answer is D. 陶冶教育法.\n\n陶冶教育法 (Molding Education Method) refers to the teacher's conscious use of environmental and personal factors to influence and shape students' moral character and behavior. This method involves creating a positive learning environment and using the teacher's own behavior and example to inspire and guide students.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '榜樣示範法'], ['B', '實際鍛煉法'], ['C', '指導自我教育法'], ['D', '陶冶教育法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業學校要對社會未來人才需求進行預測，呢反映咗職業院校專業設置下列邊一項嘅要求",
+    "llm_output": "The correct answer is B. 超前性原則.\n\nExplanation: 職業學校 (vocational schools) need to predict future talent demands in society, which reflects the requirement of \"超前性原則\" (prospective principle) in professional setting. This principle emphasizes the need for vocational education to anticipate and prepare students for future job market demands.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '穩中求活原則'], ['B', '超前性原則'], ['C', '特色性原則'], ['D', '按需設置原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育嘅文化功能，最根本嘅就係實現文化嘅",
+    "llm_output": "The correct answer is C. 延續 (Transmission).\n\nThe cultural function of education is primarily to transmit or pass on the cultural heritage from one generation to the next.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '選擇'], ['B', '保存'], ['C', '延續'], ['D', '創新']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "1806年，德國赫爾巴特（J．F．Herbart）出版邊一本書被譽為教育學獨立嘅標誌",
+    "llm_output": "The correct answer is A. 「普通教育學」.\n\nJohann Friedrich Herbart's book \"Allgemeine Pädagogik\" (General Pedagogy) published in 1806 is considered a milestone in the development of education as an independent field of study.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「普通教育學」'], ['B', '「論演說家嘅教育」'], ['C', '「教育學」'], ['D', '「新教育大綱」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔能體現職業院校精神文化嘅一項係",
+    "llm_output": "The correct answer is A. 校園環境.\n\nExplanation: 校園環境 (campus environment) is a physical aspect of a school, whereas 職業院校精神文化 (vocational school spirit and culture) refers to the intangible values, beliefs, and attitudes that shape the school's identity and community. The other options, 羣體意識 (group consciousness), 辦學理念 (educational philosophy), and 學校風氣 (school atmosphere), are all related to the spiritual and cultural aspects of a vocational school.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '校園環境'], ['B', '羣體意識'], ['C', '辦學理念'], ['D', '學校風氣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "現代學制中，雙軌學制嘅典型代表係",
+    "llm_output": "The correct answer is B. 前蘇聯.\n\nIn the modern education system, the dual-track education system is typically represented by the former Soviet Union. The dual-track system refers to a system where students are divided into two tracks: one track focuses on academic education, while the other track focuses on vocational or technical education. This system was widely used in the Soviet Union and is still seen in some Eastern European countries today.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '中國'], ['B', '前蘇聯'], ['C', '西歐國家'], ['D', '美國']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "政校企一體化嘅辦學或者服務模式，其主導係",
+    "llm_output": "The correct answer is C. 企業.\n\n政校企一體化 (Government-School-Enterprise Integration) is a model where enterprises take the lead in providing education and training services, often in collaboration with schools and government agencies. Therefore, the main driver of this model is the enterprise.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '教育部門'], ['B', '政府主管部門'], ['C', '企業'], ['D', '職業院校']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "各種生產力要素中最具有活力同彈性嘅部分係",
+    "llm_output": "The correct answer is A. 人力資源 (Human Resources).\n\nExplanation: Human resources refer to the skills, abilities, and efforts of individuals who contribute to the production process. They are considered the most dynamic and flexible factor of production because they can be trained, developed, and adapted to new situations, making them a key driver of innovation and growth.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人力資源'], ['B', '知識資源'], ['C', '財務資源'], ['D', '實物資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "人喺環境嘅影響下，引起嘅內在心理同心理變化嘅外在反應稱為",
+    "llm_output": "The correct answer is C. 行為 (Behavior).\n\nThe description \"人喺環境嘅影響下，引起嘅內在心理同心理變化嘅外在反應\" refers to the external responses or reactions that result from internal psychological changes or processes that are influenced by the environment. This is the definition of behavior.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '認知'], ['B', '動機'], ['C', '行為'], ['D', '情感']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "最早提出教師係一種專門性職業思想嘅係",
+    "llm_output": "The correct answer is B. 赫爾巴特 (Herbart).\n\nHerbart was a German philosopher and educator who is considered one of the founders of modern pedagogy. He was one of the first to emphasize the importance of teacher training and to view teaching as a specialized profession.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '布魯納'], ['B', '赫爾巴特'], ['C', '德魯克'], ['D', '李伯曼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺影響個體發展嘅因素中，個體發展嘅生物前提同物質基礎係",
+    "llm_output": "The correct answer is C. 遺傳.\n\nExplanation: Biological prerequisites and material basis refer to the genetic and physiological factors that influence an individual's development. This includes the genetic makeup and physical characteristics that an individual is born with, which provide the foundation for their growth and development.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '環境'], ['B', '個人主觀能動性'], ['C', '遺傳'], ['D', '教育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "社會資源嘅基本類型唔包括",
+    "llm_output": "The correct answer is C. 教育資源.\n\nThe basic types of social resources typically include:\n\n* 經濟資源 (Economic resources)\n* 政治資源 (Political resources)\n* 文化資源 (Cultural resources)\n\n教育資源 (Educational resources) is not typically considered one of the basic types of social resources.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經濟資源'], ['B', '政治資源'], ['C', '教育資源'], ['D', '文化資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於職業學校制定完整而規範嘅內部管理制度時應考慮嘅因素嘅係",
+    "llm_output": "The correct answer is A. 嚴格而規範地落實所制定嘅各項規章制度.\n\nThis option is not a factor to be considered when establishing a comprehensive and standardized internal management system in a vocational school. The other options are all relevant factors to be considered:\n\n* B. 充分考慮學生因素 (fully considering student factors)\n* C. 充分考慮學校因素 (fully considering school factors)\n* D. 強化各類管理人員關心愛護學生嘅責任意識 (strengthening the sense of responsibility among management personnel to care for students)",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '嚴格而規範地落實所制定嘅各項規章制度'], ['B', '充分考慮學生因素'], ['C', '充分考慮學校因素'], ['D', '強化各類管理人員關心愛護學生嘅責任意識']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "要做好心理輔導工作，唔能遵循嘅原則有",
+    "llm_output": "The correct answer is B. 教師中心原則.\n\nIn counseling, the teacher-centered approach is not suitable because it focuses on the teacher's expertise and authority, rather than the student's needs and autonomy. Effective counseling requires a student-centered approach, where the counselor listens to and empowers the student to make their own decisions.\n\nThe other options are all important principles in counseling:\n\nA. 面向全體學生原則 (Whole-student approach) emphasizes the importance of considering the student's overall well-being, including their academic, social, and emotional development.\n\nC. 尊重與理解學生原則 (Respect and understanding students) is essential in building trust and rapport with students, and creating a safe and non-judgmental environment for them to open up.\n\nD. 預防與發展相結合原則 (Prevention and development integration) highlights the importance of addressing potential issues before they become major problems, and promoting students' overall development and well-being.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '面向全體學生原則'], ['B', '教師中心原則'], ['C', '尊重與理解學生原則'], ['D', '預防與發展相結合原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一個係建立並維持教育機構正常運轉嘅規章制度",
+    "llm_output": "The correct answer is C. 教育規範 (Educational Regulations).\n\nEducational Regulations refer to the rules and guidelines that govern the operation of educational institutions, ensuring that they function smoothly and efficiently.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '教育制度'], ['B', '教育管理'], ['C', '教育規範'], ['D', '教育體制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職校學生心理健康教育嘅主要目標唔包括以下",
+    "llm_output": "The correct answer is:\n\nB. 增強並鑄就學生健康嘅體魄\n\nThe main goals of psychological health education for vocational school students do not include enhancing and strengthening students' physical health. While physical health is important, the focus of psychological health education is on promoting students' mental and emotional well-being, rather than physical health.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '幫助學生正確認識自己，認識環境'], ['B', '增強並鑄就學生健康嘅體魄'], ['C', '確立有益於社會進步與個人發展嘅目標'], ['D', '克服成長中嘅障礙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "德爾菲法採用嘅交流形式係",
+    "llm_output": "The correct answer is A. 函 (Letter).\n\nThe Delphi method is a structured communication technique that involves a series of rounds of questioning and feedback, typically conducted through written correspondence, such as letters or questionnaires.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '函'], ['B', '電子郵件'], ['C', '電話'], ['D', '書信']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「雙元制」職業教育源於",
+    "llm_output": "The correct answer is A. 德國 (Germany).\n\nThe dual system of vocational education, also known as the \"dual education system\", originated in Germany in the late 19th century. It combines theoretical education in a vocational school with practical training in a company or organization. This system has been adopted by many countries around the world, including Switzerland, Austria, and others.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '德國'], ['B', '中國'], ['C', '日本'], ['D', '美國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教師嘅表率作用主要體現喺",
+    "llm_output": "The correct answer is C. 言行一致 (consistency between words and actions).\n\nThe \"表率作用\" (demonstration effect) of a teacher refers to the influence they have on their students through their behavior, attitude, and values. A teacher's consistency between their words and actions is a key aspect of this demonstration effect, as it shows students that they practice what they preach and are committed to the values they teach.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '衣著整治'], ['B', '個人魅力'], ['C', '言行一致'], ['D', '舉止端莊']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "（）教育本質觀認為，教育屬於政治經濟，通過培養人為社會嘅政治經濟服務",
+    "llm_output": "The correct answer is B. 政治經濟說.\n\nThis perspective views education as a means to serve the political and economic interests of society, and that education is a tool to cultivate people to serve the needs of the political and economic system.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '特殊範疇說'], ['B', '政治經濟說'], ['C', '生產力說'], ['D', '社會實踐說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "指人類為咗自身生存、社會發展嘅需要而主動創造出嚟嘅有組織嘅規範體系嘅係",
+    "llm_output": "The correct answer is D. 制度文化 (Institutional Culture).\n\nInstitutional Culture refers to the organized system of norms, values, and rules created by humans to meet their needs for survival and social development. It includes social institutions, laws, and regulations that govern human behavior and social interactions.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '行為文化'], ['B', '精神文化'], ['C', '物質文化'], ['D', '制度文化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育係一種",
+    "llm_output": "The correct answer is D. 社會現象 (social phenomenon).\n\nEducation is a social phenomenon because it is a process that occurs within a social context, involves social interactions, and is shaped by social norms, values, and institutions.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自然現象'], ['B', '生物現象'], ['C', '心理現象'], ['D', '社會現象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "有效嘅激勵機制唔包括以下",
+    "llm_output": "The correct answer is C. 榜樣激勵機制 (Modeling incentive mechanism).\n\nEffective incentive mechanisms include:\n\n* 興趣激勵機制 (Interest-based incentive mechanism): motivating students through their interests and passions.\n* 物質激勵機制 (Material incentive mechanism): motivating students through tangible rewards or benefits.\n* 活動激勵機制 (Activity-based incentive mechanism): motivating students through engaging and interactive activities.\n\nHowever, 榜樣激勵機制 (Modeling incentive mechanism) is not a type of incentive mechanism, as it refers to the process of learning through observing and imitating others, rather than a mechanism to motivate students.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '興趣激勵機制'], ['B', '物質激勵機制'], ['C', '榜樣激勵機制'], ['D', '活動激勵機制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業院校積極構建技術文化嘅主要目標喺於培養學生嘅",
+    "llm_output": "The correct answer is B. 綜合素質 (comprehensive quality).\n\nThe main goal of vocational education in building a technical culture is to cultivate students' comprehensive quality, which includes not only technical skills but also other essential qualities such as critical thinking, problem-solving, communication, and teamwork skills.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '技術技能'], ['B', '綜合素質'], ['C', '創造力'], ['D', '競爭力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "盧梭嘅「愛彌兒」體現出嘅人性論係",
+    "llm_output": "The correct answer is C. 性善論.\n\nJean-Jacques Rousseau's \"Emile\" embodies a optimistic view of human nature, which is known as the \"noble savage\" theory. He believed that humans are inherently good and that it is society and civilization that corrupt them. This is in line with the concept of 性善論 (innate goodness).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '性三品說'], ['B', '性惡論'], ['C', '性善論'], ['D', '白板說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "學校德育嘅主要途徑係",
+    "llm_output": "The correct answer is A. 各科教學.\n\nExplanation: School moral education is primarily achieved through various subjects and curriculum, which is option A. While extracurricular activities (option B), class teacher's work (option C), and political education (option D) may also play a role, the main avenue for moral education is through the curriculum and teaching of various subjects.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '各科教學'], ['B', '課外活動'], ['C', '班主任工作'], ['D', '政治課']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一個係職業院校精神文化最直接嘅表徵形式",
+    "llm_output": "The correct answer is B. 校歌 (school anthem).\n\nExplanation: A school anthem is a direct and tangible representation of a vocational school's spiritual and cultural identity. It is a unique and distinctive symbol that reflects the school's values, mission, and spirit.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '校風'], ['B', '校歌'], ['C', '辦學理念'], ['D', '校訓']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "被譽為西方第一本研究教學法嘅書籍係",
+    "llm_output": "The correct answer is B. 「大教學論」.\n\n\"Didactica Magna\" (大教學論) is considered the first comprehensive treatise on education in the Western world, written by John Amos Comenius in 1632.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「論演說家嘅教育」'], ['B', '「大教學論」'], ['C', '「普通教育學」'], ['D', '「理想國」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "義務教育嘅根本性質係",
+    "llm_output": "The correct answer is D. 基礎性 (Fundamental nature).\n\n義務教育 (Compulsory education) is considered to be fundamental in nature because it provides the foundation for future learning and development. It is the basic education that every individual should receive, and it lays the groundwork for further education and personal growth.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全民性'], ['B', '強迫性'], ['C', '普及性'], ['D', '基礎性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「道而弗牽，強而弗抑，開而弗達」體現嘅教學原則係",
+    "llm_output": "The correct answer is D. 啟發性原則.\n\n\"道而弗牽，強而弗抑，開而弗達\" is a Chinese idiom that means \"Guide without forcing, strengthen without suppressing, and open up without overwhelming.\" This idiom embodies the principle of \"啟發性\" (启发性), which is a teaching principle that emphasizes guiding students to discover and learn on their own, rather than forcing or imposing knowledge on them.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '可接受原則'], ['B', '循序漸進原則'], ['C', '因材施教原則'], ['D', '啟發性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "行為文化嘅核心係",
+    "llm_output": "The correct answer is A. 價值取向 (Value Orientation).\n\nBehavioral culture refers to the values, beliefs, and attitudes that influence an individual's behavior. At its core, behavioral culture is about the values that guide and shape an individual's actions and decisions.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '價值取向'], ['B', '行為方式'], ['C', '文化行為'], ['D', '行為環境']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺影響人發展嘅諸因素中，喺個體發展中起主導作用嘅係",
+    "llm_output": "The correct answer is A. 遺傳.\n\nIn the context of human development, genetics (遺傳) plays a dominant role in shaping an individual's traits, abilities, and characteristics. While other factors such as school education, individual activities, and social environment also influence development, genetics provides the foundation and sets the boundaries for an individual's potential.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '遺傳'], ['B', '學校教育'], ['C', '個體活動'], ['D', '社會環境']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一個係學生心理健康教育嘅主要場所",
+    "llm_output": "The correct answer is D. 學校.\n\nSchool is considered a primary setting for promoting students' psychological health and well-being, as it is where students spend a significant amount of time and are influenced by teachers, peers, and the school environment.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會'], ['B', '工作單位'], ['C', '家庭'], ['D', '學校']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "對職校學生進行心理輔導嘅主要目標係使其學會調適同",
+    "llm_output": "The correct answer is B. 尋求發展.\n\nThe main goal of providing psychological counseling to vocational school students is to help them develop adaptive skills and strategies to achieve their personal and career goals, which is aligned with the option \"尋求發展\" (seeking development).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '診斷問題'], ['B', '尋求發展'], ['C', '行為矯正'], ['D', '克服障礙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於能力拓展訓練方法嘅係",
+    "llm_output": "The correct answer is:\n\nB. 自我教育能力拓展訓練\n\nExplanation: 自我教育能力拓展訓練 (Self-Education Ability Expansion Training) is not a type of ability expansion training method. The other options are all valid types of ability expansion training methods:\n\n* 抗挫折能力拓展訓練 (Resilience Ability Expansion Training) helps individuals develop coping skills and resilience in the face of adversity.\n* 自制力拓展訓練 (Self-Control Ability Expansion Training) aims to improve individuals' self-regulation and self-control abilities.\n* 身體素質拓展訓練 (Physical Fitness Ability Expansion Training) focuses on developing individuals' physical abilities and fitness.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '抗挫折能力拓展訓練'], ['B', '自我教育能力拓展訓練'], ['C', '自制力拓展訓練'], ['D', '身體素質拓展訓練']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "我國第一個職教園區係",
+    "llm_output": "The correct answer is A. 浙江溫嶺職教園區 (Zhejiang Wenling Vocational Education Park).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '浙江溫嶺職教園區'], ['B', '昆明楊林職教園區'], ['C', '貴州清鎮職教城'], ['D', '天津建設海河教育園區']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "學校教育產生於",
+    "llm_output": "The correct answer is C. 封建社會.\n\nSchool education as we know it today originated in feudal societies, where education was primarily reserved for the elite classes and was focused on preparing them for leadership roles.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '原始社會'], ['B', '資本主義社會'], ['C', '封建社會'], ['D', '奴隸社會']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "現代人力資源管理以咩為中心",
+    "llm_output": "The correct answer is B. 人 (People).\n\nIn modern human resource management, the focus is on the people or employees, recognizing that they are the most valuable asset of an organization. This approach emphasizes the importance of recruiting, training, developing, and retaining talented individuals to achieve organizational goals.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '資本'], ['B', '人'], ['C', '信息'], ['D', '知識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "德育過程嘅主要矛盾係",
+    "llm_output": "The correct answer is A. 道德認識與道德行為之間嘅矛盾.\n\nThe main contradiction in the moral education process is the contradiction between moral cognition and moral behavior. This means that there is a gap between what students know is right and wrong, and what they actually do in practice. This contradiction is a key challenge in moral education, as it requires educators to find ways to bridge the gap between moral knowledge and moral action.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '道德認識與道德行為之間嘅矛盾'], ['B', '教育者提出嘅道德要求與受教育者現有道德水平之間嘅矛盾'], ['C', '德育內容與德育方法之間嘅矛盾'], ['D', '教育者與受教育者之間嘅矛盾']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "決定教育性質嘅根本因素係",
+    "llm_output": "The correct answer is B. 政治經濟制度.\n\nAccording to Marxist theory, the fundamental factor that determines the nature of education is the political economic system. The political economic system shapes the social relations of production, which in turn influence the education system and its goals, values, and practices.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會生產力'], ['B', '政治經濟制度'], ['C', '上層建築'], ['D', '科學技術']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "研究德育過程，主要係探索德育嘅",
+    "llm_output": "The correct answer is B. 規律.\n\nThe question is asking about the focus of research on moral education (德育) process, and the correct answer is \"規律\" which means \"principles\" or \"laws\". This refers to the underlying principles or patterns that govern the process of moral education.\n\nHere's why the other options are incorrect:\n\nA. 方法 (methods) refers to the ways or approaches used to achieve moral education, but it's not the primary focus of research on moral education process.\n\nC. 目標 (objectives) refers to the goals or outcomes of moral education, but it's not the primary focus of research on moral education process.\n\nD. 內容 (content) refers to the subject matter or material being taught in moral education, but it's not the primary focus of research on moral education process.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '方法'], ['B', '規律'], ['C', '目標'], ['D', '內容']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「學記」上講：「唔陵節而施」，呢句話體現咗",
+    "llm_output": "The correct answer is A. 循序漸進嘅教學原則.\n\nThe phrase \"唔陵節而施\" from the \"Xue Ji\" (a classic Chinese educational text) means \"not to skip the sequence and proceed\" or \"not to omit the steps and proceed\". This phrase embodies the principle of gradual progression in teaching, which is the core idea of the \"循序漸進\" (jiàn xù jiàn jìn) principle. This principle emphasizes the importance of following a logical and sequential order in teaching, starting from the basics and gradually building up to more complex concepts.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '循序漸進嘅教學原則'], ['B', '因材施教嘅教學原則'], ['C', '啟發性教學原則'], ['D', '鞏固性教學原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "一般嚟講，研究教育現象同教育問題，揭示教育規律嘅科學係",
+    "llm_output": "The correct answer is:\n\nC. 教育學",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '教育心理學'], ['B', '課程論'], ['C', '教育學'], ['D', '教學論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "學業生涯規劃具有發展性嘅特點，唔係孤立嘅、靜止嘅，應該能夠根據社會需求嘅發展變化與學生個體主觀條件嘅變化隨時修正。呢體現出咗科學制定學業生涯規劃嘅",
+    "llm_output": "The correct answer is A. 可調節 (Flexibility).\n\nThe description mentions that the career development plan should be able to adjust and revise according to changes in social needs and individual students' subjective conditions, which reflects the flexibility of the plan.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可調節'], ['B', '最優化'], ['C', '共性與個性相結合'], ['D', '可行性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "對學生思想品德嘅形成同發展起動力作用嘅主要因素係",
+    "llm_output": "The correct answer is B. 道德情感 (Moral Emotions).\n\nMoral emotions, such as empathy, guilt, and shame, play a crucial role in shaping students' moral character and behavior. They provide the motivation and drive for students to develop moral values and principles, and to act accordingly.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '道德認識'], ['B', '道德情感'], ['C', '道德意志'], ['D', '道德行為']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "將課程教學環境與企業車間對接，按照「學校即工廠，課程即車間」嘅理念建立嘅係（）教室。",
+    "llm_output": "The correct answer is D. 產業化教室.\n\nThis concept is known as \"industrialization of education\" or \"industrialized classroom\", where the classroom is designed to mimic a real-world industrial or enterprise setting, with the goal of providing students with practical skills and experience.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '多媒體教室'], ['B', '職業化教室'], ['C', '專業化教室'], ['D', '產業化教室']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔能體現出制度文化建設嘅一項係",
+    "llm_output": "The correct answer is D. 確立科學發展觀.\n\nExplanation: 制度文化建設 (institutional culture building) refers to the process of establishing and promoting a positive and supportive culture within an educational institution. Options A, B, and C are all related to institutional culture building, whereas Option D (確立科學發展觀) refers to establishing a scientific outlook on development, which is a broader concept that is not directly related to institutional culture building.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '落實學校相關政策'], ['B', '推進民主建設進程'], ['C', '加強校園文化建設'], ['D', '確立科學發展觀']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "我國正式頒布嘅第一個現代學制係",
+    "llm_output": "The correct answer is B. 癸卯學制 (Guī Mǎo Education System).\n\nThe 癸卯學制 (Guī Mǎo Education System) was the first modern education system formally promulgated in China, introduced in 1902 during the Qing dynasty.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '癸丑學制'], ['B', '癸卯學制'], ['C', '壬戌學制'], ['D', '壬寅學制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "古希臘嘅雅典教育比較重視對年青一代進行",
+    "llm_output": "The correct answer is D. 政治哲學教育.\n\nIn ancient Athens, education focused on preparing young men for citizenship and leadership, with an emphasis on philosophy, politics, and rhetoric. The goal was to produce well-rounded individuals who could participate in the democratic process and make informed decisions. While physical education was also important, the primary focus was on intellectual and moral development.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '軍事體操教育'], ['B', '天文數學教育'], ['C', '多方面發展教育'], ['D', '政治哲學教育']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教學改革嘅核心係",
+    "llm_output": "The correct answer is B. 更新教學觀念 (Updating teaching concepts).\n\nThe core of educational reform is to update and transform the underlying teaching concepts, philosophies, and approaches, which in turn can lead to changes in teaching methods, content, and technology.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '實施個別教學'], ['B', '更新教學觀念'], ['C', '改革教學內容'], ['D', '採用現代教學技術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "技術文化嘅核心與靈魂係",
+    "llm_output": "The correct answer is B. 技術價值觀 (Technical values).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '技術產品'], ['B', '技術價值觀'], ['C', '技術知識'], ['D', '技術精神']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "專門教育係以下列邊一項為基礎嘅，能夠喺人嘅一般發展嘅基礎上促進人嘅特殊發展",
+    "llm_output": "The correct answer is B. 普通教育 (General Education).\n\nSpecial education is built on the foundation of general education, which provides a broad-based education that caters to the general development of individuals. Special education then builds upon this foundation to promote the special development of individuals with special needs.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基礎教育'], ['B', '普通教育'], ['C', '高等教育'], ['D', '職業教育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "法國社會學家利托爾諾倡導嘅教育起源理論被稱為教育嘅",
+    "llm_output": "The correct answer is B. 需要起源論.\n\nÉmile Durkheim, a French sociologist, advocated for the \"need-based origin theory\" of education, which suggests that education arises from the needs of society and is shaped by the social and cultural context in which it operates.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '生物起源論'], ['B', '需要起源論'], ['C', '心理起源論'], ['D', '意識起源論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業教育生態環境嘅生態性，要求（）之間能夠建立一種內在嘅和諧關係。",
+    "llm_output": "The correct answer is D. 以上三者都係 (All of the above).\n\nThe ecological environment of vocational education emphasizes the importance of establishing a harmonious relationship between:\n\n* 人同技術 (human and technology)\n* 自我同佢人 (individual and others)\n* 人同外部世界 (human and the external world)\n\nThese three aspects are interconnected and interdependent, and a harmonious relationship between them is essential for a healthy and effective vocational education ecosystem.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '人同技術'], ['B', '自我同佢人'], ['C', '人同外部世界'], ['D', '以上三者都係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "從學校教育嘅產生睇，學校呢種專門嘅教育組織同活動形式首先出現喺",
+    "llm_output": "The correct answer is C. 奴隸社會.\n\nExplanation: The modern school system as we know it today originated in ancient Greece and Rome, which were slave societies. The concept of formal education and organized schooling emerged during this period, with the establishment of schools and academies that catered to the children of the elite.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '資本主義社會'], ['B', '封建社會'], ['C', '奴隸社會'], ['D', '原始社會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下講法正確嘅係",
+    "llm_output": "The correct answer is:\n\nB. 藝術型人格具有想象、衝動、有創意、唔重實際等人格特徵",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '研究型人格典型嘅職業包括技能性職業同技術性職業'], ['B', '藝術型人格具有想象、衝動、有創意、唔重實際等人格特徵'], ['C', '社會型人格具有冒險、野心人格特徵'], ['D', '現實型人格具有聰明、理性、好奇、精確、批評等人格特徵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "決定教育性質嘅根本因素係",
+    "llm_output": "The correct answer is C. 政治經濟制度.\n\nAccording to Marxist theory, the fundamental factor that determines the nature of education is the political economic system of a society. The political economic system shapes the social relations, institutions, and ideologies of a society, including its education system.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '上層建築'], ['B', '科學技術'], ['C', '政治經濟制度'], ['D', '社會生產力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "對學生進行德育嘅特殊途徑係",
+    "llm_output": "The correct answer is B. 社會實踐 (Social Practice).\n\nSocial practice is a special approach to moral education, which involves students participating in social activities and services to develop their moral values and character.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '班主任工作'], ['B', '社會實踐'], ['C', '各科教學'], ['D', '課外活動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "按照選擇性分類可以把課程分為",
+    "llm_output": "The correct answer is C. 必修課程同選修課程.\n\nAccording to the classification of curriculum by selectivity, courses can be divided into compulsory courses (必修課程) and elective courses (選修課程).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '地方課程同校本課程'], ['B', '德育課程、智育課程、體育課程、美育課程同勞動技術課程等'], ['C', '必修課程同選修課程'], ['D', '分科課程與綜合課程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "兒童中心論嘅典型代表人物包括",
+    "llm_output": "The correct answer is C. 盧梭 (Jean-Jacques Rousseau).\n\nRousseau is a key figure in the development of child-centered education, which emphasizes the importance of children's natural curiosity and autonomy in the learning process. His book \"Emile\" (1762) is a seminal work in this area, advocating for a more natural and spontaneous approach to education.\n\nHerbart (A) was a German philosopher and educator who focused on the role of interest and motivation in learning, but he is not typically associated with child-centered education.\n\nKilpatrick (B) was an American educator who developed the \"project method\" of teaching, which involves students working on real-world problems and projects. While this approach has some similarities to child-centered education, Kilpatrick is not a primary representative of this philosophy.\n\nDewey (D) was an American philosopher and educator who is known for his progressive and student-centered approach to education. While he shares some similarities with child-centered education, his focus is more on the social and democratic aspects of education, rather than the specific emphasis on children's autonomy and natural development.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '赫爾巴特'], ['B', '凱洛夫'], ['C', '盧梭'], ['D', '杜威']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺教育史上主張「不憤不啟，不悱不發」嘅教育家係",
+    "llm_output": "The correct answer is D. 孔子 (Confucius).\n\nThe phrase \"不憤不啟，不悱不發\" is a quote from Confucius, which means \"If the student is not confused, I will not instruct; if the student is not struggling, I will not help.\" This quote highlights Confucius' emphasis on student-centered learning and the importance of encouraging students to think critically and independently.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '荀子'], ['B', '孟子'], ['C', '老子'], ['D', '孔子']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育行政體制係下列邊個嘅重要組成部分",
+    "llm_output": "The correct answer is A. 國家行政體制.\n\nEducation administrative system is an important component of the national administrative system, as it is responsible for overseeing and regulating education policies, laws, and institutions at the national level.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '國家行政體制'], ['B', '地方行政體制'], ['C', '國際行政體制'], ['D', '學校體制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺青少年學生嘅各個年齡階段中，少年期係指",
+    "llm_output": "The correct answer is C. 11～15歲.\n\nIn the field of education, adolescence is typically defined as the stage of development between childhood and adulthood, roughly spanning from 11 to 15 years old.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '10～12歲'], ['B', '7～10歲'], ['C', '11～15歲'], ['D', '13～16歲']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育生物起源論同教育心理起源論之所以反科學，係因為佢哋嘅共同點都係否定咗教育嘅",
+    "llm_output": "The correct answer is D. 社會性.\n\nBoth biological and psychological determinism theories in education are considered unscientific because they deny the social nature of education. They focus on innate or individual factors, neglecting the role of social and environmental influences on learning and development.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '永恆性'], ['B', '繼承性'], ['C', '階段性'], ['D', '社會性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "課外校外教育與課內教育嘅共同之處喺於，佢哋都係",
+    "llm_output": "The correct answer is C. 有目的、有計劃、有組織進行嘅.\n\nBoth in-school and out-of-school education share the commonality of being purposeful, planned, and organized.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '受教學計劃同教學大綱規範嘅'], ['B', '師生共同參與嘅'], ['C', '有目的、有計劃、有組織進行嘅'], ['D', '學生自願選擇嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "我國最早採用班級授課制係喺",
+    "llm_output": "The correct answer is B. 1901年.\n\nIn 1901, the Qing dynasty introduced the \"School Regulations of 1901\", which marked the beginning of the modern education system in China. One of the key features of this system was the adoption of the classroom teaching method, also known as the \"班級授課制\" (class-based teaching system).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '1862年'], ['B', '1901年'], ['C', '1911年'], ['D', '1949年']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "學習動機缺乏嘅主要表現唔包括以下",
+    "llm_output": "The correct answer is B. 焦慮過低.\n\nLack of learning motivation is typically characterized by:\n\n* Decreased attention (A. 注意力下降)\n* Avoidance of learning tasks (C. 盡力逃避學習)\n* Self-blame or negative self-talk (D. 容易自責)\n\nHowever, low anxiety (B. 焦慮過低) is not typically a characteristic of lack of learning motivation. In fact, anxiety can sometimes be a motivator for learning.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '注意力下降'], ['B', '焦慮過低'], ['C', '盡力逃避學習'], ['D', '容易自責']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上最早嘅教育理論著作係",
+    "llm_output": "The correct answer is A. 「學記」.\n\n「學記」 (Xue Ji) is an ancient Chinese educational text attributed to Confucius, and it is considered one of the earliest educational theory works in the world.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「學記」'], ['B', '「理想國」'], ['C', '「論語」'], ['D', '「大教學論」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「道而弗牽，強而弗抑，開而弗達」要求教學必須遵循嘅原則係",
+    "llm_output": "The correct answer is D. 啟發性原則.\n\nThe phrase \"道而弗牽，強而弗抑，開而弗達\" is a Chinese idiom that means \"to guide without forcing, to strengthen without suppressing, and to open up without overwhelming.\" This idiom is related to the principle of \"啟發性\" (启发性) or \"启发原则\" in education, which emphasizes the importance of guiding students to learn and discover knowledge on their own, rather than forcing or imposing it on them.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '因材施教原則'], ['B', '科學性同教育性相結合嘅原則'], ['C', '鞏固性原則'], ['D', '啟發性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下對職業學校制定完整而規範嘅內部管理制度考慮嘅因素，講法錯誤嘅係",
+    "llm_output": "The correct answer is C. 充分考慮學校因素.\n\nThe correct consideration factors for establishing a complete and standardized internal management system in a vocational school should include both school factors and student factors. Therefore, option C, which only considers school factors, is incorrect.\n\nThe correct answer should consider both school factors and student factors, which are options A, B, and D.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '嚴格而規範地落實所制定嘅各項規章制度'], ['B', '強化各類管理人員關心愛護學生嘅責任意識'], ['C', '充分考慮學校因素'], ['D', '充分考慮學生因素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "下列特點中，唔屬於職業教育課程模式嘅特點嘅係",
+    "llm_output": "The correct answer is D. 直接性.\n\n職業教育課程模式 (Vocational Education Curriculum Model) typically emphasizes the development of practical skills and knowledge that are directly applicable to a specific occupation or industry. The other options are all characteristics of vocational education:\n\nA. 共適性 (Flexibility) refers to the ability of the curriculum to adapt to changing industry needs and student interests.\n\nB. 應變性 (Responsiveness) refers to the curriculum's ability to respond to the needs of the labor market and the community.\n\nC. 多樣性 (Diversity) refers to the inclusion of a wide range of subjects, skills, and experiences in the curriculum to prepare students for different career paths.\n\n直接性 (Directness) is not a characteristic of vocational education, as it implies a more rigid and linear approach to learning, which is not typical of vocational education.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '共適性'], ['B', '應變性'], ['C', '多樣性'], ['D', '直接性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下關於面向農村職業教育嘅服務方式，講法錯誤嘅係",
+    "llm_output": "The correct answer is C. 就地培訓同入城培訓分離.\n\nThe correct approach for rural vocational education should be to integrate on-site training and off-site training, rather than separating them. This allows students to receive training that is tailored to their local needs and context, while also providing them with opportunities to gain experience and skills in other settings.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '職業培訓同職業中介服務結合'], ['B', '適應城鎮化同統籌城鄉發展嘅要求'], ['C', '就地培訓同入城培訓分離'], ['D', '積極統籌城鄉職業教育資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋通常所講嘅「小道消息」屬於",
+    "llm_output": "The correct answer is C. 非正式溝通 (Informal Communication).\n\n\"小道消息\" (grapevine or rumor) refers to unofficial, casual, and often unverified information that is spread through personal networks, which is a characteristic of informal communication.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '雙向溝通'], ['B', '正式溝通'], ['C', '非正式溝通'], ['D', '平行溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業學校要對社會未來人才需求進行預測，呢反映咗專業設置嘅邊一個要求",
+    "llm_output": "The correct answer is B. 按需設置原則 (Demand-oriented principle).\n\nThis principle requires vocational schools to predict future talent needs of society and set up professional courses accordingly, ensuring that graduates meet the labor market demands.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '穩中求活原則'], ['B', '按需設置原則'], ['C', '特色性原則'], ['D', '超前性原則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一項嘅建構係職業教育適應區域經濟嘅重要手段",
+    "llm_output": "The correct answer is D. 教學內容.\n\nExplanation: Vocational education adapting to regional economic needs requires a curriculum that is relevant to the local industry and labor market. The content of the curriculum should be tailored to meet the specific needs of the region, making it an important means of vocational education adapting to regional economic needs.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '專業'], ['B', '課程'], ['C', '教學方式'], ['D', '教學內容']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺近代教育史上，認為教學主要應訓練學生思維而輕視傳授知識嘅理論被稱為係",
+    "llm_output": "The correct answer is C. 形式教育理論.\n\nThis theory, also known as \"Formal Education Theory\", emphasizes the development of students' thinking and problem-solving skills, and de-emphasizes the transmission of knowledge. It focuses on the process of learning rather than the content of learning.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '現代教育理論'], ['B', '傳統教育理論'], ['C', '形式教育理論'], ['D', '實質教育理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教師唔得隨意宣揚學生嘅缺點，唔得隨意私拆、毀棄學生嘅信件、日記等，呢係維護學生嘅",
+    "llm_output": "The correct answer is:\n\nC. 隱私權\n\nThis is because the question states that teachers should not randomly disclose students' weaknesses, or randomly open, read, or destroy students' private letters, diaries, etc., which is related to the protection of students' privacy rights.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '榮譽權'], ['B', '身心健康權'], ['C', '隱私權'], ['D', '人格尊嚴權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以有組織嘅學科內容作為課程組織基礎嘅課程類型係",
+    "llm_output": "The correct answer is D. 學科課程 (Subject-based curriculum).\n\nThis type of curriculum is organized around a specific subject area or discipline, with a focus on the transmission of knowledge and skills within that subject.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '綜合課程'], ['B', '核心課程'], ['C', '活動課程'], ['D', '學科課程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於幫助職校學生增強學習動機嘅方法係",
+    "llm_output": "The correct answer is C. 確立適當嘅學習目標 (Setting appropriate learning goals).\n\nThis is because setting specific, achievable, and meaningful goals can help vocational school students increase their motivation to learn. By having clear goals, students can focus their efforts, feel a sense of direction, and experience a sense of accomplishment as they progress towards their goals.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '以寬容嘅心對待自己'], ['B', '進行恰當嘅自我評價'], ['C', '確立適當嘅學習目標'], ['D', '建立正確嘅認知模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "「科學管理之父」係指",
+    "llm_output": "The correct answer is A. 泰勒 (Frederick Winslow Taylor).\n\nTaylor is known as the \"Father of Scientific Management\" because of his pioneering work in developing the principles of scientific management, which aimed to improve industrial efficiency and productivity through the application of scientific methods and analysis.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '泰勒'], ['B', '歐文'], ['C', '法約爾'], ['D', '韋伯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教育科學體系中嘅基礎學科係",
+    "llm_output": "The correct answer is B. 心理學.\n\nIn the educational science system, psychology is considered a foundational discipline, as it provides the theoretical foundation for understanding human behavior, learning, and development, which are essential for education.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教育學'], ['B', '心理學'], ['C', '學校管理學'], ['D', '教育經濟學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "職業學校要培養復合型人才，呢反映咗職業院校專業設置邊一個要求",
+    "llm_output": "The correct answer is D. 寬口徑原則.\n\nThis is because \"寬口徑原則\" (broad-based training principle) emphasizes the development of versatile and adaptable talents, which is in line with the goal of cultivating compound talents in vocational education.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '按需設置原則'], ['B', '特色性原則'], ['C', '穩中求活原則'], ['D', '寬口徑原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "法國社會學家利托爾諾（C．letourneau）同美國教育學家沛西·能（T．P.Nunn）係下列邊個教育起源說嘅代表人物",
+    "llm_output": "The correct answer is A. 勞動起源說 (Labor Origin Theory).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '勞動起源說'], ['B', '生物起源說'], ['C', '心理起源說'], ['D', '神話起源說']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "經常喺活動中畀學生自己設計、自己動手、自己檢查，呢所體現嘅課外校外教育嘅特點係",
+    "llm_output": "The correct answer is D. 實踐性 (Practicality).\n\nThis type of educational approach, where students are encouraged to design, execute, and evaluate their own activities, reflects the characteristic of practicality in extracurricular and out-of-class education.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '獨立性'], ['B', '多樣性'], ['C', '自願性'], ['D', '實踐性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下對於「生涯」一詞嘅理解，唔正確嘅係",
+    "llm_output": "The correct answer is C. 生涯具有間斷性嘅特徵.\n\nThe concept of \"生涯\" (career) refers to the continuous and ongoing process of learning, growth, and development throughout one's life. It is not characterized by interruptions or discontinuities.\n\nThe other options are correct:\n\nA. 生涯中嘅經驗塑造咗獨特嘅行動方案 (Experiences in one's career shape unique action plans)\n\nB. 包括咗個人喺家庭、學校同社會與工作有關活動嘅經驗 (Includes personal experiences related to family, school, and social and work activities)\n\nD. 生涯嘅發展係人嘅一生中連續不斷嘅過程 (Career development is a continuous and ongoing process throughout one's life)",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '生涯中嘅經驗塑造咗獨特嘅行動方案'], ['B', '包括咗個人喺家庭、學校同社會與工作有關活動嘅經驗'], ['C', '生涯具有間斷性嘅特徵'], ['D', '生涯嘅發展係人嘅一生中連續不斷嘅過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於文化宣傳設施嘅一項係",
+    "llm_output": "The correct answer is B. 圖書館 (Library).\n\nExplanation: Cultural propaganda facilities refer to tools or media used to disseminate and promote cultural values, ideas, and information. Among the options, library (B) is not a typical cultural propaganda facility, as its primary function is to provide access to books, resources, and knowledge, rather than to promote specific cultural values or ideologies.\n\nThe other options are all related to cultural propaganda:\n\nA. 校園廣播 (School broadcasting) is a means of disseminating information and cultural values to students.\n\nC. 宣傳板 (Propaganda board) is a physical space used to display cultural propaganda materials.\n\nD. 校報 (School newspaper) is a publication that can be used to promote cultural values and ideas.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '校園廣播'], ['B', '圖書館'], ['C', '宣傳板'], ['D', '校報']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "教學工作嘅中心環節係",
+    "llm_output": "The correct answer is C. 上課 (Teaching).\n\nTeaching is the central link of educational work, as it is the process of imparting knowledge, skills, and values to students. While preparation (備課) is important, it is a precursor to teaching. Assessment (成績評定) and homework checking (作業檢查) are also important, but they are not the central link of educational work.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '成績評定'], ['B', '備課'], ['C', '上課'], ['D', '作業檢查']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-education",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國，「教育」二字合用最早出現喺",
+    "llm_output": "The correct answer is B. 「學記」.\n\nIn China, the two characters \"教育\" (jiào yù) first appeared together in the \"Xue Ji\" (學記), a chapter in the Book of Rites, a Confucian classic.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「中庸」'], ['B', '「學記」'], ['C', '「說文解字」'], ['D', '「孟子·盡心上」']]",
+    "is_correct": 0
+  }
+]

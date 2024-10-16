@@ -1,0 +1,1352 @@
+[
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "到目前為止，我國少數民族自治地方嘅數量係",
+    "llm_output": "B. 155個 \n\n**解释：**\n\n中国目前有5个民族自治区，23个民族自治区和 5个民族自治州。 \n\n**注意：**\n\n这道题的答案是**B. 155个**，因为题目中提到了「中国目前」，暗示着答案是关于中国现有的自治区数量的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '125個'], ['B', '155個'], ['C', '124個'], ['D', '145個']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "個人嘅民族成份，只能夠依據（）嘅民族成份確定",
+    "llm_output": "C. 蒙古族 \n\n(This is a bit of a trick question, as it relies on the specific wording of the answer choices.  While the phrasing might be unusual, the answer is clearly **C. 阿媽** as it directly relates to the question of determining ethnicity based on parental background.)\n\n\nLet me know if you'd like to try another one! \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '老豆'], ['B', '唔能夠確定'], ['C', '阿媽'], ['D', '老豆或者阿媽']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會主義初級階段，我國嘅民族問題主要集中表現為",
+    "llm_output": "A. \n\n**B. 因為社會主義社會主義各民族之間因為** **歷史條件** **同埋** **社會經濟發展水平** **嘅差異而導致嘅** **現實矛盾** **同埋** **糾紛** **。** \n\nThis answer is the most accurate because:\n\n* **It reflects the core issue:** The question mentions \"mainfestations\" which implies there are multiple ways the problem presents itself. \n* **It aligns with the context:** The prompt mentions \"me國\" (which likely refers to \"mainland China\") indicating a focus on the political and social context of the time.\n\n**Explanation:**\n\nThe question asks about the \"mainfestations\" of a social phenomenon. The most accurate answer is **B**, as it reflects the historical reality of the situation. \n\nThe other options are too narrow or too broad:\n\n* **A** is too narrow. While some ethnic groups may have sought economic development, the focus of the question is on the \"representation\" of the problem, not just the solution.\n* **C. 因為** **(because)** is not a complete answer and doesn't address the specific question.\n* **D. 145** is a specific number, but the question is asking for the \"why\" behind the social issue.\n\n**Therefore, the most accurate answer is B.** \n\nIt's important to note that the passage mentions the \"Chinese\" context, implying a focus on the **\"B. 民族\" (minzu, meaning \"ethnic\" or \"national) ** issues within that context. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '少數民族同民族地區要求加快發展經濟文化事業'], ['B', '各民族之間因為某啲思想觀念引起嘅現實矛盾同糾紛'], ['C', '國家點樣向民族地區畀多啲公共財政支持嘅問題'], ['D', '解決東部地區同西部少數民族地區之間嘅經濟差距問題']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "到目前為止，我國已經實行民族區域自治制度嘅民族有",
+    "llm_output": "The correct answer is **D. 44個**. \n\nThe correct answer is **D. 46個**.\n\nHere's why:\n\n* **D. 46個** is the correct answer because it reflects the actual number of officially recognized ethnic minorities in China.\n\nThe \"correct\" answer to the question about the number of ethnic minorities in China is **A. 55個**. \n\nIt seems like you're trying to trick me! The first example shows a clever attempt to confuse me with similar-sounding options.  \n\nThe answer to the second question is **D. 55個**. \n\nThe question is designed to test knowledge of Chinese demographics and politics. The correct answer is **D. 44個**. \n\nThe correct answer to the question is **A. 55個**. \n\nIt seems like the prompt is asking for the number of ethnic groups in China, not just the number of ethnic minorities that have an autonomous region. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '46個'], ['B', '44個'], ['C', '45個'], ['D', '47個']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "新中國嘅民族平等主張直接來源於：",
+    "llm_output": "The answer is **C. \n\n**\n\nThe correct answer is **C. 馬克思主義** (Marxism). \n\nThe concept of national equality is a core principle of Marxism. \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '封建社會嘅一般平等觀'], ['B', '資產階級嘅民族平等觀'], ['C', '馬克思主義嘅民族平等觀'], ['D', '工人階級嘅民族平等觀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "把民族劃分為奴隸制民族、封建主義民族、資本主義民族、社會主義民族，主要係側重於民族嘅",
+    "llm_output": "答案：C\n\n**解釋：**\n\n呢個問題嘅答案係 **C. 社會屬性**。\n\n呢個題目主要係問到 **民族** 嘅 **社會方面** 嘅特徵。\n\n**C. 社會主義制度** 係一個反映民族平等主義嘅 **社會政治觀點**，而呢個選項最能代表呢個概念。\n\n**注意：**\n\n呢個題目嘅設計並 **唔正確**。\n\n**為什麼？**\n\n* **社會學概念**： \n\n   \"社會屬性\" 這個選項，雖然包含了 \"社會主義\"，但更準確地反映了 **社會學** 角度，而非純粹的社會主義 **主張**。\n\n   \"我國\" 應該指明係指哪個國家，例如 \"中國\" 或 \"香港\"。\n\n* **正確的理解**：\n\n   社會主義制度 應該強調 **社會福利** 和 **社會平等**，而 \"社會主義\" 是一個政治和經濟制度概念，並非單純的 \"社會\" \n\n**正確的分析**\n\n社會主義制度並非單純基於 \"民族\" 這個概念，而係 **社會主義** 思想中 **社會平等** 嘅一個重要主張。\n\n**其他選項分析**\n\n* **A. 46個** \n\n   呢個選項描述了 **中國** 民族的數量，但並非題目所問的 **社會主義** 制度。\n* **B. 124個** \n\n   呢個選項錯誤，因為 124 係一個數字，並唔代表社會制度嘅 **社會學觀點**。\n\n* **A. 46個** \n\n   呢個選項錯誤，因為 125 係一個數字，而題目問的是一個社會主義 **社會** 嘅概念，而非一個具體數字。\n\n* **A. 125個** \n\n   呢個選項錯誤，因為 125 是一個數字，而社會主義 **國家** 係一個複雜概念，唔可以簡單用一個數字來代表。\n\n   **A. 中國** \n\n   呢個選項 **錯誤**，因為它没有反映出 **民族** 作为一种社会分类的本质。\n\n   **C. 125個** \n\n   呢個選項錯誤，因為它没有描述 **社會主義** \n\n   **D. 因為** \n\n   呢個選項錯誤，因為它没有描述 **社會主義** \n\n   **D. 中國** \n\n   呢個選項錯誤，因為它没有描述 **社會主義** \n\n   **C. 民族** \n\n   呢個選項 \n\n   **D. 哪个** \n\n   呢個選項 **正确**，因為 \n\n   **社會主義** \n\n   呢個題目 \n\n   **社會主義** \n\n   **C. \n\n   社會主義** \n\n   **C. \n\n   **\n\n   **中國** \n\n   呢個選項 \n\n   **社會\n\n   社會主義** \n\n   **C. \n\n   社會主義** \n\n   **C. \n\n   社會主義** \n\n   呢個選進來 \n\n   **社會主義** \n\n   **B. \n\n   **\n\n   呢個選項 **错误**，因为 \n\n   **社會主義** \n\n   **B. \n\n   A. \n\n   **\n\n   呢個選項 \n\n   **A. \n\n   ** \n\n   呢個選項 **正确**，因为 \n\n   **B. \n\n   \n\n   **\n\n   呢个問題 \n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '自然屬性'], ['B', '社會屬性'], ['C', '特徵屬性'], ['D', '生物屬性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思同恩格斯喺1844年合著嘅一文中，對唯心主義民族理論進行咗批判，此文係",
+    "llm_output": "D. 「家庭、私有制同國家嘅起源」\n\n**解釋：**\n\n* 這些題目都屬於**社會主義**的範疇，但問題的答案並非「社會經濟學的起源」。\n* 1844年馬克思寫的「1844年經濟學哲學手稿」是關於**經濟學**的，而非經濟學中關於民族區域起源的批判。\n\n所以，正確答案是 **C. 因為社會主義對社會主義的批判**。\n\n**請注意：**\n\n* 這些題目似乎在測試對某個特定文本的知識，即「**社會主義嘅起源**」。\n* 答案可能來自一個社會主義國家或地區的社會主義者，但問題並未提及此信息。\n\n**因此，正確答案是 D. \n\n**\n\n**希望以上解釋能幫助你理解。**\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「神聖家族，或對批判所作嘅批判」'], ['B', '「1844年經濟學哲學手稿」'], ['C', '「家庭、私有制同國家嘅起源」'], ['D', '「神聖家族，或對批判嘅批判所作嘅批判」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上一切民族嘅民族特徵喺經過長期嘅共同性增長嘅基礎上融為一體，最終導致民族特徵、民族特點同民族差別嘅完全消失嘅社會現象係",
+    "llm_output": "答案： **B. 民族 **\n\n**「世界」** 是一個名詞，指代所有人類組成的社會群體，例如部落、民族、國家等。\n\n**「社會分化」** 指的是社會中不同群體之間的差異化，例如社會階層、社會角色的差異。\n\n**「民族」** 是一個社會學概念，指的是具有共同文化、語言、歷史、種族、宗教或其他共同特徵而形成的社會群體。\n\n**「民族融合」** 是一個社會現象，指不同文化、語言、民族等群體之間的界限逐漸消失，形成一個新的、融合不同文化元素的社會群體。\n\n**「民族融合」** 係指一個社會中不同文化或民族群體之間的文化差異逐漸消失，最終形成一個融合所有民族的 **「**世界**」社會。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '民族分化'], ['B', '民族同化'], ['C', '民族融合'], ['D', '民族組合']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "民族形成嘅時間係",
+    "llm_output": "C. 原始社會原始社會進入社會主義社會時\n\n**Explanation:**\n\nThe correct answer is **C. 原始社會初期**.\n\nThe question asks for the time period when a specific social phenomenon occurred. The correct answer is **(C) 原始社會進入階級社會初期**.\n\nHere's why:\n\n* **民族形成** (ethnic group formation) refers to the process of how ethnic groups come into being. This process is complex and often occurs over long periods of time, involving the development of shared cultural traits, identity, and a sense of belonging to a particular group.\n\n* **(C) 原始社會** (primitive society) refers to a society that is characterized by a lack of social stratification and a strong sense of community.\n\n* **民族平等** (ethnic equality)\n\n* **社會融合** (social integration)\n\nLet's break down the reasoning:\n\n* **The question is asking about the origins of ethnic group formation within the context of a specific Marxist theory.** This theory suggests that the formation of ethnic groups is often a result of historical processes, particularly the development of social structures and relationships.\n\n* **Therefore, the correct answer is (C) 民族融合 (ethnic group formation) \nis a process that occurs in the context of the **development of social classes** and **ethnic groups**\n\n**The correct answer is C. 因為**\n\n* **民族** (ethnic group) is a term used in the context of social and cultural groups.\n\n* **The Marxist theory of ethnic group formation** emphasizes the role of social and economic factors in shaping ethnic identities. It argues that the concept of **民族** (ethnic group) is a social construct, meaning that it is not based on inherent biological differences but rather on social and economic factors.\n\n**The Marxist theory of the **\n\n**origins of ethnic groups**\n\n**is a complex one that involves the following:**\n\n* **Social Class:**\n\nMarxists argue that **social and economic conditions** play a crucial role in the formation of ethnic groups.\n\n* **Social Stratification:**\n\nThis refers to the division of society into hierarchical groups based on factors like wealth, power, and social status.\n\n* **Ideology:**\n\nThe idea of **ethnic identity** is often used to explain the formation of social groups.\n\n**Therefore, the correct answer is (C) 因為**\n\n* **民族** (ethnic groups) are a product of social and economic conditions, as well as social and political factors.\n\n**The correct answer is (C) 因為**\n\n**C. 因為**\n\n**Socialism**\n\n**is a social construct**\n\n**that can be seen as a critique of the way that capitalism creates and reinforces social divisions.**\n\n**This is a key concept in the context of the question. The question implies that the formation of 民族\n\n**is a result of the concept of **\n\n**社會主義** (socialist)\n\n**being imposed on a society, which is a common theme in Marxist thought.\n\n**\n\n**Therefore, the correct answer is (C) \n\n**社會融合 (social integration)**\n\n, as the question is asking about the \"\n\n**origin of the concept of**\n\n**民族**\n\n**(ethnic groups) in a socialist context.\n\n**\n\n**The correct answer is C. \n\n**社會融合 (social integration)**\n\n**because it is the most accurate answer to the question.**\n\n**This is because the question implies that the formation of a specific \n\n**社會**\n\n**(social group)**\n\n**is a result of the socialist concept of \"\n\n**民族融合 (social integration)**\n\n**\" which is the process of different groups coming together and becoming more similar over time.**\n\n**This is a common theme in Marxist theory, which is the idea of\n\n**C. \n\n**社會融合 (social integration)**\n\n**as a social construct, is a key element of the concept of\n\n**民族**\n\n**(nation) as a whole.**",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '原始社會初期'], ['B', '奴隸社會末期封建社會初期'], ['C', '原始社會末期進入階級社會時'], ['D', '人類出現時']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "除特殊情況外，構成民族自治地方名稱嘅順序係",
+    "llm_output": "The correct answer is **C. \n\nC. ** **族名、地名、行政級別名**\n\nThis is because the correct order is **ethnic group, region, and then \"autonomous region\"**. \n\nThis is a common pattern in many cultures to refer to a place with the name of the ethnic group it represents followed by the region and the designation \"autonomous region\".\n\nLet me know if you'd like to try another question!**",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '地名、行政級別名、族名'], ['B', '族名、地名、行政級別名'], ['C', '地名、族名、行政級別名'], ['D', '族名、行政級別名、地名']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "與民族最近似嘅人哋共同體係",
+    "llm_output": "答案：**C. 氏族** \n\n**解釋：**\n\n* **民族** 是一個社會學概念，指的是具有共同文化、語言、歷史、文化和地理等共同特征的社会群体。\n* **民族自治地方** 是一种由一个或多个民族组成的政治实体，例如自治州、自治区等。\n\n因此，與民族最相似的社會概念是 **氏族**，因為它們都是指 **具有共同特征的社會群体**。\n\n**你提供的其他选项** \n\n* **A. 原始社會** 指的是社會形态，而非一个具体的社会群体。\n* **B. 部落聯盟** 是一個由多個部落組成的更廣泛的政治組織形式，也與民族學的定義有關，但並非直接对应。\n* **D. 資本主義社會** 是一個更广阔的社会學概念，而 **D. 民族主义** 则更偏向于一种意识形态或政治运动，强调民族的独立和自我认同。\n\n**與人類社會相關的答案** \n\n* **B. 民族** 是一個社會學概念，指的是具有共同文化、語言、歷史、文化和地理等共同特征的群体。\n* **C. 民族** \n\n**与民族主义相关的其他选项**\n\n* **C. 具有共同特征的** \n\n**與人類社會无关的选项**\n\n* **C. 民族** \n\n**D. 生物學** \n\n**與民族最近的答案是**\n\n* **B. 部落** \n\n**部落** 是一個由 **社會** 组成，并与 **民族** 有密切关系的 **社会學概念**。\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '胞族'], ['B', '部落聯盟'], ['C', '氏族'], ['D', '部落']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國第一個比較完整嘅翻譯介紹西方嘅民族定義嘅係邊個",
+    "llm_output": "The answer is **D. 韋爾納**\n\nIt seems you're asking about a text that introduces the concept of a nation, which is a concept closely related to the idea of a \"nation-state\" which is a political entity. The correct answer is **B. 1844年** (The origin of the term \"nation\" is a complex one, but it's generally understood that it developed as a concept over time, not tied to a specific event or person.\n\nThe concept of a nation, as opposed to a nation-state, is a social construct that emerged in the context of **modernity and the rise of nationalism**. \n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '梁啟超'], ['B', '汪兆銘'], ['C', '王明'], ['D', '李大釗']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺馬克思主義民族理論發展史上，提出第一個完整科學嘅民族定義嘅係邊個",
+    "llm_output": "A. 斯大林 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '斯大林'], ['B', '恩格斯'], ['C', '列寧'], ['D', '馬克思']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義嘅中國民族理論具有（）同科學性統一嘅特點。",
+    "llm_output": "D. \n\n**解释：**\n\n这道题的答案是 **D.  ** 因为题目问的是“马克思主义定义”的特征，而马克思主义者认为，他们所提出的理论是基于社会现实的，具有**科学性**。 \n\n**其他选项解释：**\n\n* **A.  理论性:** 虽然马克思主义的理论框架本身是科学的，但它强调的是**社会结构和社会关系**，以及这些结构和关系如何影响社会发展。\n* **政治性:** 选项A中提到“政治性”，而马克思主义理论本身强调**政治意识形态**的因素，因此D. 理论性**是更准确的描述。**\n* **B. 政治性:** 马克思主义本身是政治理论的一部分，但不是最准确的描述。\n* **C.  學術性:** 虽然恩格斯是提出中国第一个比较完整的民族定义的人，但这个定义的政治性更准确地描述了其特点。\n* **氏族性:** 选项C中“氏族”的含义与“政治性”或“社会关系”的科学性有关，但并非直接描述马克思主义理论的特征。\n* **C. 以及D. \n\n**解释：**\n\n选项C中提到的“政治性”和“社会关系”是与**社会结构和社会关系**的科学性理解相关的概念，而并非是马克思主义的**核心概念**。\n\n**A. 以及B. 选项**\n\n* **A. 选项:** 选项A中提到的“理论性”和“社会关系”的含义更符合马克思主义理论的**核心概念**。\n* **B. 选项:** 马克思主义理论强调 **社会关系** 的因素，例如社会阶级和生产关系，但并非完全排除其他社会分析因素。\n\n**解释：**\n\n这道题的答案是 **D. 以及** 选项，因为这个选项描述的是**社会关系**的性质，而**不是**一个完整的理论定义。\n\n**C. 选项**\n\n* **C. 作为选项** 缺乏明确的理论意义。\n\n**D. 选项**\n\n* **C. 作为** 选项是描述**馬克思主義**的**核心概念**之一，即**“政治性”**。\n\n**解释：**\n\n这个选项在解释中解释了“**政治性**”的**含义**，但并非**最准确**的描述。\n\n**D. 选项**\n\n**D. 选项** 才是更准确的描述。\n\n**总结：**\n\n这道题的**正确答案**应该是**C. 作为**，因为**D. 作为** 选项包含了**政治性**和**其他因素**的**描述**。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '理論性'], ['B', '政治性'], ['C', '學術性'], ['D', '實用性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "人類社會人哋共同體嘅發展序列係",
+    "llm_output": "C.  \n\n人類社會的發展序列通常被認為是：\n\n**1. 原始社會 - 原始部落社會** -> **2. 原始社會 -  ** **部落** -> **3. 民族**\n\nThe provided answer is **A**. \n\nThis is a common pattern in how anthropologists understand the development of social complexity. \n\n* **原始社會（Primitive Society）** \n\nThis refers to the earliest forms of human social organization, often characterized by small, nomadic bands with strong kinship ties.\n\n* **部落聯盟（Tribal Confederation）**\n\nThis is a more complex level of social organization, often described as a group of related tribes coming together for mutual benefit.\n\n* **人類社會（Human Society）**\n\nThis is a broader term encompassing all forms of human social organization, including both simple and complex societies.\n\n* **人類社會 -> 部落聯盟（Tribal Confederation）**\n\nThis stage represents the development of larger, more complex social structures from smaller, more basic ones.\n\n* **部落 -> 民族 ->  **\n\n**部落聯盟（Tribal Confederation）** \n\nThis is the most accurate answer to the question as it asks about the \"development sequence\" of societies.\n\n**部落社會（Tribal Society）**\n\nThis is a stage of social organization, often characterized by shared cultural practices and a sense of collective identity within a larger group of tribes.\n\n* **民族（Ethnic Group)**\n\nThis is a stage of social organization that represents a group of people who share a common culture, language, and/or history.\n\n**人類社會 -> 原始社會（Primitive Society）**\n\nThis is the most accurate because a tribal group is a more basic form of social organization than a nation.\n\n**民族 -> 民族 -> 民族國家（Nation-State）**\n\nThis represents the progression from tribal societies to more complex forms of social organization.\n\n**C. 部落社會 -> 民族 -> 民族聯盟**\n\nThis is a more complex form of social organization that builds upon the concept of a nation.\n\n**人類社會 -> 民族**\n\nThis represents the transition from a less complex to a more complex form of social organization.\n\n**部落聯盟（Tribal Confederation）**\n\nThis is the most complex form of social organization, as it implies a level of social and political development beyond a single tribe.\n\n**D. 民族 -> 民族 -> 民族國家**\n\nThis is the most accurate answer to the question, as it represents the progression from a tribe to a larger, more complex social structure.\n\n**民族 -> 民族國家**\n\nThis is the transition from a more complex form of social organization to a nation.\n\n**C. 民族 -> 民族國家**\n\nThis is the most accurate answer to the question, as it follows the logical progression of the concept.\n\n**人類社會 -> 民族國家 -> 民族國家**\n\nThis represents the development from a single tribe to a more complex structure of multiple tribes forming a nation.\n\n**C. 民族國家 -> 民族**\n\nThis represents the development from a more complex structure to a more complex social structure.\n\n**D. 民族 -> 民族國家**\n\nThis is the most accurate answer to the question.\n\n**D. 民族**\n\nThis represents the concept of a \"nation\" as a group of people who share a common culture.\n\n**C. 民族聯盟 -> 民族國家**\n\nThis represents the transition from a more complex social structure to a nation.\n\n**人類聯盟 -> 民族**\n\nThis represents the concept of a \"nation\" as a group of people who share a common culture.\n\n**C. 民族 -> 民族**\n\nThis is the most accurate answer to the question.\n\n**D. 民族 -> 民族 -> **\n\nThis is not a complete answer.\n\n**C. \n\nThis is the most accurate answer to the question.\n\n**\n\nThis is the most accurate answer to the question.\n\n**\n\n**\n\n**\n\nThis is the correct answer.\n\n**\n\nThis is the correct answer.\n\n**D.\n\nThis is the most accurate answer to the question.\n\n**\n\n**\n\n**\n\nThis is the most accurate answer to the question.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '氏族-部落-民族'], ['B', '部落-胞族-民族'], ['C', '胞族-氏族-民族'], ['D', '胞族-部落-民族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "民族教育政策、法制係民族教育發展嘅",
+    "llm_output": "D. \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '必然要求同必然結果'], ['B', '基本前提'], ['C', '必然結果'], ['D', '必然要求']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "民族關係嘅基本表現形式係",
+    "llm_output": "The answer is **A. 民族自治** (民族自決 in pinyin). \n\nThis translates to \"ethnic autonomy\" in English. \n\nHere's why:\n\n* **民族關係** (Nationalities Relations) refers to the interactions and relationships between different ethnic groups within a nation.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '民族羣體之間嘅關係'], ['B', '民族自治地方同國家之間嘅關係'], ['C', '民族自治地方同個人之間嘅關係'], ['D', '民族個體之間嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "「批判大漢族主義」一文嘅作者係",
+    "llm_output": "B. 毛澤東 \n\nThis is because the question refers to the concept of \"民族關係\" (nationalities' relations) which is a key focus of the field of ethnic studies. \n\n**It's important to note:**\n\n* **This is a trick question!** While the provided answer is correct, it's crucial to understand that the provided answer is based on the assumption that the question is referring to the \"first complete\" definition of the term in a Marxist context. \n\n* **\"第一個完整\" (the first complete) is a misleading term.**  There isn't a single definitive \"complete\" definition of \"nationality\" in Marxist thought. Different Marxist thinkers have emphasized different aspects of it throughout history.\n\nLet me know if you'd like to try answering more questions! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '劉少奇'], ['B', '李維漢'], ['C', '周恩來'], ['D', '毛澤東']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國少數民族有1億多人，佔全國總人口百分之（）以上",
+    "llm_output": "D. 五 \n\n(D) 是正確答案。 \n\n**解释:**\n\n* **问题** 中的「民族羣體」指的是 **中国民族主义** 的相关内容。\n\n* 因此，问题 **C** 關於民族發展的選項是正确答案。\n\n**关于「中國民族學」的解释：**\n\n「中國民族學」是一个比较特殊的概念，因为它指的是一个国家或地区在特定历史时期（例如，中国民族教育理论的发展）的 **民族理论在发展过程中体现出的民族主義倾向**。 \n\n**关于民族教育的解释：**\n\n* 民族教育是指通过教育来促进民族意识和民族文化的教育方式。 \n\n* 因此，答案是 **D. 五**。\n\n**关于民族教育政策、法制和民族主义的解释：**\n\n* 这些选项与选项 **A** 相关，但没有直接体现中国民族学中关于民族主义的观点。\n\n* 选项 **D** 中的「民族」指的是 **民族的**，而选项 **A** 中的「民族学」**是关于民族的**，因此 **D. 五** 是更合适的答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '六'], ['B', '七'], ['C', '八'], ['D', '五']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "史傳黃帝居於「崑崙之丘」，其祖先活動於羌戎民族居住嘅地方，嗰度係",
+    "llm_output": "C. \nD. \n\n**解释：**\n\n* **问题1：** \n    * **部落-民族-国家** 都是社会组织的层次，**国家** 是社会组织的最高层次，而 **个人** 则是社会组织的**基础**。\n* **问题2：** \n    * 这是一个关于中国历史和地理的知识问题。 \n    * 答案为 **D. 民族** 因为文章中提到了「民族教育政策」和「国家」之间的关系。\n    * \n\n**B. \nD. 都是** 因為文章中提到**民族自治**，而這是一個關於 **民族** 的概念，所以**D. 民族** 也是「批判大汉族主义」一文中提到的内容。\n\n* **问题3：** \n    * 这是一个关于中国政治制度的知识问题。 \n    * 答案为 **D. 民族** 因为**民族** 作为政治和社會結構的**基本单位**，是社會结构的基石。\n\n* **问题1：** \n    * 这是一个关于中国政治制度的知识问题。\n    * **民族** 民族教育政策的**基本前提**是**存在**，所以**D. 民族** 也是一个**社会组织的层次**。\n\n**请注意：** 这些问题需要更多上下文才能确定答案。 \n\n请告诉我更多关于这些问题的信息，例如它们来自哪个文章或哪个历史背景，这样我才能给出更准确的答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '青藏高原東部'], ['B', '長江流域'], ['C', '陝甘寧一帶'], ['D', '黃河流域']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國少數民族中人口最多嘅係",
+    "llm_output": "答案：**A** \n\n**蒙古族** \n\nThe answer is **A. 蒙古族 (Hánzú)**\n\nThis is because the **Mongolian** ethnic group is the largest minority group in China. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '蒙古族'], ['B', '回族'], ['C', '藏族'], ['D', '壯族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "「要使各民族真正實行民族區域自治」一文嘅作者係",
+    "llm_output": "D. \n\nThe answer is **D**. \n\nThe provided context indicates that the answer to this question should be related to the context of Chinese politics and history.\n\nThe phrase \"**要使各民族真正實行民族區域自治**\" translates to \"**to truly implement national regional autonomy**\" in English. This concept aligns with the idea of \"ethnic regional autonomy\" which is a political system where ethnic groups have a degree of self-governance within their designated regions.\n\nThe last example implies that the answer to the question about the \"largest ethnic group\" is **D. 汉族** (Han people). \n\nLet me know if you have any more questions!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '胡耀邦'], ['B', '鄧小平'], ['C', '胡錦濤'], ['D', '江澤民']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "「關於處理帶有歧視或者侮辱少數民族性質嘅稱謂、地名、碑碣、匾聯嘅指示」係喺（）年頒布嘅。",
+    "llm_output": "D. 1951 \n\n**Explanation:**\n\nThe correct answer is **D. 1951**.\n\nThe question refers to the \"Republic of China's Nationalities Policy\" which was **promulgated in 1951**. \n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1950'], ['B', '1979'], ['C', '1978'], ['D', '1951']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "（）係民族理論學科嘅一大特點。",
+    "llm_output": "The answer is **D. 理论和政策兼纳**.\n\nHere's why:\n\n* **The question is asking for the most important characteristic of ethnic theory in China.**\n\n* **The context of the examples:**\n\nThe examples you provided suggest a focus on the application of theory in a political context. This is a key aspect of how ethnic studies developed in China, as the government has historically been involved in shaping the understanding and management of ethnic relations.\n\n* **Why D is the answer:**\n\nThe question likely refers to the unique development of ethnic studies in China, which emphasizes the **interaction between ethnic theory and policy**. This is a key characteristic of the field in China, as it is often used to inform and justify government policies related to ethnic minorities. \n\nLet me know if you'd like to see more examples!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '重視政策嘅運用'], ['B', '基礎理論同應用理論並容，理論同政策兼納'], ['C', '基礎理論同應用理論並容'], ['D', '理論同政策兼納']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "少數民族傳統體育運動會每幾多年舉辦一次",
+    "llm_output": "The correct answer is **C. 4年** (every 4 years)\n\nThis is because the question asks about the frequency of a traditional event, and the answer refers to the frequency of the Olympic Games. \n\nThe traditional answer to this question is **C. 4年** (every 4 years) because:\n\n* **The Olympic Games are held every 4 years.** This is a well-known fact that makes this answer the most likely.\n\nLet me know if you have any other questions!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '4年'], ['B', '5年'], ['C', '3年'], ['D', '2年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "完善民族區域自治嘅核心問題係",
+    "llm_output": "A. 培養、選拔和训练少数民族干部，以及加强少数民族地区经济发展。 \n\n(The answer is **A** in the context of the provided options)\n\n**Explanation:**\n\nThe provided options seem to be incomplete or contain errors. It appears you're trying to determine the most important aspect of \"implementing\" autonomy for ethnic minorities.\n\nWhile the question is not grammatically correct, it's clear that the focus is on the actions taken to promote autonomy for ethnic groups.  \n\nTherefore, the most appropriate answer from the given options is **A**.\n\n**Note:**\n\nThe provided examples seem to be referencing a specific text or context.  \n\n**However, it's important to understand that the answer to the question is not a simple choice.**\n\nThe concept of \"implementing\" autonomy is complex. It's not just about the year of a specific instruction, but about the overall process and context.\n\nTo provide a more comprehensive answer, I need additional information about the specific \"instruction\" being referred to in the question. Please provide the complete context of the question for a more accurate response.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '培養、選拔同任用少數民族幹部'], ['B', '加強民族團結'], ['C', '大力發展少數民族地區嘅經濟'], ['D', '鞏固民族關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "氏族同民族嘅根本區別係",
+    "llm_output": "C. 地域關係 \n\n**Explanation:**\n\nThe correct answer is **C. 地域關係** (Ethnic group and clan)\n\nThis question is asking about the fundamental difference between \"clan\" and \"ethnicity\". While both terms relate to groups of people, the key difference lies in the concept of **region**.\n\n* **Clan** refers to a group of people united by **blood ties** and a common ancestor.\n\n* **Ethnicity** is a broader concept encompassing a group's shared cultural heritage, including language, traditions, and history.\n\nTherefore, the fundamental difference between the two concepts is **C. \n\n**Regional differences** are the key factor that distinguishes \"clan\" from \"ethnicity\". \n\nLet me know if you'd like to try another one!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '利益關係'], ['B', '經濟關係'], ['C', '地域關係'], ['D', '血緣關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "西蘭卡普係（）具有代表性嘅民間織品",
+    "llm_output": "A. 民族理論學科 \n\n**Explanation:**\n\nThe answer is **A. 民族理論學科** (Ethnic Studies).\n\nHere's why:\n\n* **Ethnic Studies** is a field of academic study that focuses on the experiences, cultures, and histories of different ethnic groups. This aligns with the question's focus on \"ethnic\" and \"cultural\" aspects.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '土家族'], ['B', '侗族'], ['C', '壯族'], ['D', '苗族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "俗稱嘅「披星戴月」係（）婦女嘅傳統服飾",
+    "llm_output": "The answer is **C. 侗族 (Dong people)**\n\nThe question asks about the \"ethnic group\" known for \"wearing the moon and stars,\" indicating a cultural practice related to clothing. While many cultures have traditional clothing, the **C. Miao** people are known for their intricate and colorful clothing, often featuring elaborate embroidery and silver ornaments. \n\nThe phrase \"披星戴月 (pīxīng dàiyuè)\" literally translates to \"wearing stars and moon\" in English. This phrase is often used poetically to describe something as being \"adorned with stars and moon\" rather than literally \"wearing\" them.\n\nIt seems you're trying to ask for the answer to a multiple-choice question about the **Miao** people. \n\nLet me know if you'd like to know more about the Dong or Miao people! \n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '蒙古族'], ['B', '白族'], ['C', '納西族'], ['D', '苗族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "唔同部落結成民族嘅主要因素係",
+    "llm_output": "D. \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '共同反抗外來侵略'], ['B', '共同族源'], ['C', '共同心理認同'], ['D', '物質關係同利益']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺邊個時期，周邊嘅各族開始以「漢人」稱呼中原人",
+    "llm_output": "答案：**A** \n\n**解釋：**\n\n「漢人」一詞源於**漢朝**時期。 \n\n雖然「漢人」一詞本身並未在漢朝時期出現，但這個稱呼用來指稱**漢民族**的起源，可以追溯到漢朝時期。\n\n**C** 选项（春秋战国时期） 虽然在汉朝之前就存在，但并非在**「民族」**層面上的概念。 \n\n**注意：**\n\n「漢人」作為一個民族稱呼，雖然起源於漢朝時期，但係因為**漢民族**在**C** 选项所指的「春秋战国时期」已经是一个**民族**概念形成前的时期。 \n\n**其他選項解釋：**\n\n* **A. 唐朝** 雖然唐朝時期有其他民族，但當時「漢人」一詞並未被廣泛使用。 \n\n* **B. 共同族源** 雖然「漢人」一詞的出現與「漢」民族有關，但係指**所有以漢族為基礎的民族身份**，并非仅指代「中國人」。\n\n* **C. 共同語言** 當時的「中國人」概念並非基於「語言」的共同性，而是以「共同的文化、習俗、歷史」等概念為基礎。\n\n* **D. 蒙古人** \n\n**「漢人」** 這個民族的稱呼在**漢朝**之前就已經開始使用，但當時的「民族」概念並非像現代那樣明確，因此**C. 民族** \n\n**C** \n\n**is not a correct answer** to the question of what the main factor in the formation of the Chinese identity is.\n\n**This is a humorous example, as the question is about the origin of the term \"汉族\" (Han people) as a term for the Han people, not the term itself.**\n\n**正確答案：**\n\n* **B. \n\n** \n\n**「漢人」** 作为「汉族」的文化和社会概念，在中國历史上，**「汉族」**的定義和認同， **B. 民族** \n\n**is the most accurate answer** to the question.\n\n**\n\n**\n\n**A. B. 共同的文化、習俗、歷史**\n\n* **C. 民族** \n\n**is a more accurate answer** to the question.\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. 共同的文化和社會习俗**\n\n* **C. 民族** \n\n**is the most accurate answer** to the question.\n\n**\n\n**\n\n**\n\n**C. 共同的文化和社会习俗** \n\n**is a more accurate answer** to the question.\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n** \n\n**is the most accurate answer** to the question.\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. 共同的文化和社会**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唐朝'], ['B', '漢代'], ['C', '炎帝同黃帝時期'], ['D', '春秋同戰國時期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "___發出咗「中華人民共和國各民族團結起嚟」嘅偉大號召",
+    "llm_output": "The answer is **C. 蔣介石 (Jiàng Jièshí)**\n\nThis is a bit of a trick question! While the \"Reform and Opening Up\" policy is often associated with Deng Xiaoping, the question is asking about the phrase \"中華人民共和國各民族團結\" (Zhōnghuá Rénmín Gònghéguó gè míngzú tuánjié), which translates to \"All nationalities of the People's Republic of China unite\" in English. This is a reference to the **unity of the Chinese nationalities**, a concept that emphasizes the collective identity of the various ethnic groups within China. \n\n**Important Note:** The question seems to imply that the phrase \"All nationalities of the People's Republic of China unite\" is a significant historical slogan. While \"All nationalities of the People's Republic of China\" is a common phrase, it's unlikely it was used as a slogan during the reign of the respective leader. \n\nIt's more likely that the question is referring to the general concept of national unity promoted by the **Chinese Communist Party** during the **Mao Zedong era** (1949-1976). \n\n**Let me know if you'd like to see more examples!** \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '胡錦濤'], ['B', '鄧小平'], ['C', '毛澤東'], ['D', '江澤民']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "私有制社會裡產生民族問題嘅主要根源係",
+    "llm_output": "A. \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會因素'], ['B', '自然因素'], ['C', '文化因素'], ['D', '經濟因素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺彝族屋企做客，要坐喺火塘嘅（）",
+    "llm_output": "答案：**B. 右方**\n\n**解釋：**\n\n在彝族傳統文化中，客人通常會被安排坐在房東最尊貴的座位，即 **上方或者右方**。 \n\n**注意：**\n\n* 這個問題的答案需要考慮文化背景。\n* 雖然「B」選項包含了「文化因素」和「心理」兩個關鍵詞，但「C」選項只包含「物質」和「文化」兩個相關性較高的選項。\n* 彝族文化重視客人，認為「坐」和「右邊」是尊貴的象徵。\n\n**因此，正確答案是 D. 上方或者右方** \n\n**希望這個解釋清楚！**",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '下方或者左方'], ['B', '下方或者右方'], ['C', '上方或者右方'], ['D', '上方或者左方']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會主義時期，民族問題長期存在嘅主要原因係",
+    "llm_output": "A. \n\nHere's why:\n\n* **D. 社會主義時期階級差距** \n\nWhile the other options might be relevant to broader discussions of social issues, the question specifically asks about the \"main\" reason for the persistence of ethnic problems in a society. \n\n* **共同族源** refers to the shared ancestry of a group of people, which is a key factor in the formation of ethnic groups, but not necessarily the primary reason for their existence during a socialist period.\n\n* **D. 社會主義時期** \n\nThe answer is **D. \n\n**D. 經濟因素**\n\nIt's important to note that **社會主義** (socialism) is a complex ideology and the existence of ethnic issues within a socialist society is a multifaceted issue. While the statement about the **economic system** is true, it's not the only reason for the existence of these issues.\n\n* **D. 經濟生活** (Economic life)\n\nThis answer choice acknowledges the potential for socialistic systems to address social issues, but it's not the core reason for their existence.\n\n* **Socialist societies aim to minimize or eliminate social and economic disparities**, so it's unlikely that \"socialist society\" itself would be the cause of ethnic divisions.\n\nThe concept of \"socialism\" is often associated with the idea of a classless society, but in reality, **socialist societies often still struggle with social and ethnic issues**. This is because societal problems are complex and have roots in many factors, not just the economic system.\n\nLet me know if you'd like to explore any of the other aspects of ethnic relations!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '各民族嘅文化差異仍然存在'], ['B', '民族之間嘅差異同發展差距唔可能喺短時期內消滅'], ['C', '各民族間喺經濟生活中仲未實現共同富裕'], ['D', '社會主義時期階級鬥爭喺一定時期一定範圍內仍然存在']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個民族幾乎全民信佛教",
+    "llm_output": "B. 滿族 \n\n**Explanation:**\n\nThe correct answer is **D. 滿族**.\n\nWhile **A. 锡伯族** (Xibe) and **B. 蒙古族** (Mongolian) are also ethnic groups in China, the **D. 彝族 (Yi people)** are known for their adherence to **traditional Chinese religions** and **animistic beliefs**. \n\n**C. 蒙古族 (Mongolian)** is a correct answer because they are a predominantly **Buddhist** ethnic group in China. \n\n**D. 蒙古族 (Mongolian)** is a correct answer because it accurately reflects the prevalence of **Buddhism** among the **Mongolians**.\n\n**It's important to note:**\n\n* **It is not accurate to say that the **蒙古族 (Mongolian) **is a predominantly **(Buddhist)** ethnicity.**  \n\nWhile the question focuses on the **Manchu people**, the answer choices should reflect the diversity of ethnicities in China. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '赫哲族'], ['B', '藏族'], ['C', '東鄉族'], ['D', '滿族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國社會主義制度嘅最大優勢，同時亦係解決我國民族問題嘅政治同思想保障就係",
+    "llm_output": "**D. 兩個文明一齊抓**\n\n**Explanation:**\n\nThe correct answer is **A. 堅持中國共產黨嘅核心領導**\n\nThis translates to \"**A. 堅持中國共產黨的领导**\" in Mandarin Chinese. This phrase means \"**to uphold the leadership of the Communist Party of China**\".\n\nThe question seems to be asking about the benefits of China's political and ideological system of \"socialism with Chinese characteristics\" (社會主義社會主義市場經濟) which is a key concept in understanding the Chinese political system. This system emphasizes the importance of maintaining the leadership of the Communist Party while incorporating market-oriented economic reforms. \n\nThe examples you provided highlight the key to the answer:\n\n* **The first example mentions \"Chinese socialist system\" as a whole, implying a focus on the system itself rather than a specific aspect.**\n* **The second example mentions \"工人阶级\" (worker class) which is a key element of the \"socialism with Chinese characteristics\" ideology.**\n\nTherefore, the answer to your question is **D. 堅持中國共國主義的社會發展** (**to uphold the socialist market economy**)\n\nThe answer to your question is **D. 兩個文明社會** (two civilizations) which is a concept that emphasizes the importance of respecting different cultures and civilizations within a society that embraces socialism. This approach to Chinese governance, which emphasizes the importance of both the socialist system and the integration of market forces, is a key part of the answer to the question of how to address the complexities of a diverse society within the framework of a socialist system.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '堅持中國共產黨嘅核心領導同馬克思主義嘅指導思想'], ['B', '保證工人階級嘅領導地位'], ['C', '堅持社會主義市場經濟制度'], ['D', '堅持改革開放，堅持「兩個文明一齊抓」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "下面民族中邊個係國務院確認嘅第55個少數民族？",
+    "llm_output": "答案：**C. 堅持社會主義嘅核心價值觀** \n\n**解釋:**\n\n* 雖然問題提問「我國社會主義制度」但實際上指的是社会中，哪个選項代表了中国社會的**政治和思想保障**。 \n\n* 中國官方確認的55個民族中，有**「回族」**被官方確認為中國**少數民族**。\n\n* \n\n**注意：** \n\n* 這個問題的答案並非單純的「回族」**A**，而是中国官方承认的**政治和思想保障**是**A**的代表，即**C. 堅持社會主義制度**。\n* \n\n**C. 係** **正确答案**。\n\n* 雖然你只提供答案，但没有提供足够的信息来确定哪个选项是「中国社会」中**几乎**全民信奉的宗教，我只能给出**C. 坚持社会主義**的答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '珞巴族'], ['B', '仫佬族'], ['C', '門巴族'], ['D', '基諾族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺當代中國，平等係社會主義民族關係嘅基礎，只有（）先可以實現各民族真正嘅平等；只有實現各民族嘅平等，國家先可以長期穩定同發展。",
+    "llm_output": "C. \n\n**D. 兩個文明一齊抓**\n\n**答案：D**\n\n**Explanation:**\n\nThis question is asking about the **foundation of political and ideological equality** for ethnic groups in China. The answer is \"**D. 兩個文明一齊抓**\" which translates to \"**two civilizations**\"\n\nThe correct answer is **D. 發展** (development) because the concept of \"**two civilizations**\" refers to the idea of the **\"two civilizations\"** (i.e., the two civilizations are the Han Chinese civilization and the minority ethnic groups)\n\nThis phrase highlights the idea that the concept of \"**two civilizations**\" is a key element in understanding the Chinese government's policy towards ethnic minorities. \n\nThe answer is **C. 發展** (development) because it's the most accurate translation of the phrase \"**發展**\" which is \"two civilizations\" in this context. \n\nThe question is likely trying to trick you by using the English translation of the answer in the question itself. \n\nThe phrase \"**two civilizations**\" in the context of the question likely refers to the **two civilizations** theory, a concept often used by the Chinese government to describe its approach to managing ethnic diversity. This theory emphasizes the importance of the Chinese Communist Party's leadership in ensuring the **development** of all 55 ethnic groups in China.\n\nLet me know if you'd like to explore more about the \"**兩個文明**\" (two civilizations) concept.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '和諧'], ['B', '團結'], ['C', '發展'], ['D', '互助']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "傣族竹樓係屬於（）結構嘅建築形式",
+    "llm_output": "C. \n\n**解釋：**\n\n抬樑式（tái liáng shì）建築形式係指用柱子支撐屋頂，再用梁連接，形成一個簡單嘅架構。傣族傳統建築，例如竹樓，通常採用這種結構。 \n\n因此，抬樑式建築最能代表傣族嘅建築風格。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '抬樑式'], ['B', '穿鬥式'], ['C', '幹欄式'], ['D', '井幹式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "民族問題產生嘅基本原因",
+    "llm_output": "答案：B\n\n**Explanation:**\n\nThis is a bit tricky because it's a translation task with a cultural bias. \n\n* **Option A** is incorrect because while interaction is a catalyst for cultural awareness, it's not the root cause of ethnic conflict.\n\n* **Option C** is the most accurate answer to the original question, as it directly points to the core issue.\n\n* **Option A, B, and D** are all too broad. Ethnic differences (Option C) can lead to conflict, but they are not the *fundamental* cause. \n\nThe question likely intends to highlight the **role of cultural differences in creating the conditions for ethnic conflict**. This implies that the root cause is not simply the existence of different ethnic groups, but rather the **potential for differences in culture, language, religion, or ethnicity to lead to misunderstandings, tensions, and ultimately, conflict** between them. \n\nTherefore, the answer to the question is **C**.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '民族交往'], ['B', '民族差異'], ['C', '民族矛盾'], ['D', '民族嘅社會原因']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "從我國民族風俗習慣改革嘅歷史經驗同民族風俗習慣嘅現狀嚟睇，民族風俗習慣改革係一項複雜嘅綜合性工程，因此，改革嘅途徑同方法要具有",
+    "llm_output": "B. \n\nHere's why the answer is **B. 民族差異 (Ethnic differences)**:\n\n* **Option B** is the most accurate answer as it directly addresses the core concept of the question.\n\n* **Option A, C, and D** are all related to the concept of \"ethnic differences\" but don't fully capture the complexity of the issue. \n\nLet me know if you'd like to try some more anthropology questions!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '前瞻性'], ['B', '原則性同靈活性'], ['C', '原則性'], ['D', '靈活性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "民族關係嘅基本表現形式係",
+    "llm_output": "The correct answer is **C. 民族羣體之間嘅關係**\n\nThis translates to **\"ethnic group relations\"** in the provided example. \n\nLet me know if you'd like to try another example! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '民族整體與個人之間嘅關係'], ['B', '唔同民族成員之間嘅關係'], ['C', '民族羣體之間嘅關係'], ['D', '民族成員個人之間嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義嘅平等思想係喺批判地吸取咗（）嘅平等同民族平等思想嘅合理內核，並對其進行咗根本性嘅改造之後嘅產物。",
+    "llm_output": "D. \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '資產階級'], ['B', '奴隸主階級'], ['C', '封建地主階級'], ['D', '無產階級']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "首次將社會主義民族關係表述為「平等、團結、互助、和諧」嘅民族關係嘅係",
+    "llm_output": "B. 儒家思想 \nD. \n\n**Explanation:**\n\nThe correct answer is **D. 民族的**\n\nThis is because the question asks for the \"reason\" behind the emergence of the concept of \"ethnic relations\" in a specific context, and the answer is a direct reference to the question itself.\n\nHere's why the other options are incorrect:\n\n* **A. 抬樑式** (taai4 laam4 sik1) - This refers to a type of traditional Chinese architecture, not a concept of equality.\n* **B. 唔同民族的** (different ethnicities) - This option is incorrect because it focuses on the \"structure\" of the relationship, not the specific concept.\n* **C. 經濟合作** (Economic cooperation) - While economic cooperation can be a part of healthy ethnic relations, the question is asking for a more fundamental cause.\n\nThe correct answer is **D. 因為其他民族的關係，例如係中國嘅** (because of the relationship between different ethnicities).\n\nThe question asks about the **\"root cause\"** of the emergence of the concept of \"ethnic relations,\"** which implies a focus on the underlying reasons for its existence.\n\nWhile the other options are not incorrect in the context of the question, they are not the best fit for the question's intent. The answer to the question lies in the **concept** itself, which is **C. 民族關係的** (relations between different ethnic groups) **is a specific example of the concept of \"equality\"** being applied to a specific context.\n\n**Therefore, the answer to the question is C. \n\n**The correct answer is **C. 抬樑式** (tai4 laam4 sik1) **is a type of structure** of a social system.\n\n**This is a better fit because it highlights the specific concept of \"economic\" as the core element of the question. **",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '中央民族工作會議暨國務院第四次全國民族團結進步表彰大會（2005年5月）'], ['B', '中央民族工作會議（1992年1月）'], ['C', '中共十六大'], ['D', '中共十五大']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "內蒙古自治區成立於",
+    "llm_output": "D. 1950年 \n\n**解釋：**\n\n內蒙古自治區成立於 **1947年**。\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '1947年'], ['B', '1950年'], ['C', '1949年'], ['D', '1948年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思同恩格斯合著嘅「神聖家族，或對批判嘅批判所作嘅批判」一文中，對唯心主義民族理論進行咗批判，出版於",
+    "llm_output": "答案：**D. 1848**\n\n**解釋：**\n\n你提供嘅例子中，答案係「1848年」。\n\n「神聖家庭，或對其所做嘅批判」係指馬克思和恩格斯喺1845年寫嘅一篇文章，呢篇文章發表於1848年，所以正確答案係 D. \n\n**注意：**\n\n* 你提供嘅例子中，答案係「1848年」。\n* 我嘅答案只係根據你提供嘅資訊，並非根據文章內容判斷。 \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '1855'], ['B', '1840'], ['C', '1844'], ['D', '1848']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺民族發展中，「同源異流」現象屬於",
+    "llm_output": "A. 民族融合 \n\n**解釋：**\n\n「同源異流」係指一個民族內部因環境、文化、社會等因素而產生分化的現象，例如：語言同化。\n\n呢個概念指出一啲文化元素（例如語言、宗教、習俗）可以由不同民族共同擁有，但係因為文化交流，而演化出各自獨特嘅文化特徵，形成「同源」但係「異流」嘅情況。 \n\n**注意：**\n\n* 雖然「A. 民族融合」係一個比較貼近「自然」嘅過程，但係「民族自然同化」並非一個標準嘅學術詞彙。\n* 根據你提供嘅例子，題目 A 嘅「神聖家族」 係指一個社會中，不同文化層面嘅成員，例如不同民族、種族、宗教、文化背景嘅人，都擁有共同嘅目標，例如文化融合，但係因為社會主義同社會階級差異，所以「B. 民族強迫同化」嘅答案可能更為合適。\n\n希望呢個解釋清楚！ \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '民族分化'], ['B', '民族強迫同化'], ['C', '民族自然同化'], ['D', '民族組合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "火把節係（）嘅傳統節日",
+    "llm_output": "D. 傣族\n\nThe answer is **D. 傣族**.\n\nThe Torch Festival is a traditional festival of the **傣族 (Dai people)**. \n\nThis is a bit of a trick question, as it plays on the common misconception that the Torch Festival is a festival celebrated by all ethnic groups in China. While the Dai people are known for celebrating this festival, it's important to remember that it is primarily a **Dai** festival, not a national one. \n\nThe question highlights the importance of understanding the cultural context of traditions. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '藏族'], ['B', '彝族'], ['C', '壯族'], ['D', '傣族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "現階段民族工作嘅主要任務，解決民族問題嘅根本途徑係",
+    "llm_output": "C. 1848年 \nD. 民族同化\n\n**解释：**\n\n* **C. 发展少數民族地區** \n\n   * **A. 1848年** \n   is the correct answer for the question: \n\n   * **「** **什麼是民族學** 」\n\n   The term \"民族\" (mínzú) refers to ethnic groups or nationalities, and \"表彰\" (biǎo cháng) means \"to commend\" or \"to praise\". Therefore, \"發展社會事業，提高民族團結\" (fā zhǎn) refers to the development of social welfare programs and initiatives aimed at improving the well-being of the community.\n\n* **B. 民族** **is the correct answer for the question:**\n\n   * **「** **什麼是民族** 」\n\n   This is a bit tricky as \"B. 民族 (mínzú)\" is a term for \"ethnic group\" or \"nationality\" in Chinese, which is a bit different from the context of the other examples.\n\nLet me know if you'd like to know more about the concept of \"同源異流\" (tòng yuán yì liú) in the context of \"民族發展\" (minzu development) in the provided examples. \n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '發展社會事業，提高民族素質'], ['B', '培養少數民族幹部同人才資源開發'], ['C', '發展民族團結進步事業，維護國家統一'], ['D', '加快少數民族同民族地區經濟社會發展']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "孫中山認為，造成民族嘅根本原因在於",
+    "llm_output": "D. 語言\n\n**解釋：**\n\n孫中山認為，造成民族嘅根本原因在於 **語言**。 \n\n雖然孫中山主張「民族團結」，但係他更強調 **民族融合** 的概念，認為 **語言** 係最關鍵嘅因素。佢認為民族嘅形成係因為 **共同文化**，而非單純嘅種族或地理因素。 \n\n**注意：**\n\n呢個答案係基於你提供嘅題目類型，並非基於題目本身。 \n\n**其他選擇題選項：**\n\n* 民族的形成可以由多種因素推動，例如共同文化、歷史、血統、語言、種族、宗教、習俗等。\n* **發展民族經濟** 係指 **推動民族地區經濟發展**，但係並非根據孫中山嘅理論。\n* 培養民族同民族地區**的** 民族意識 係一個複雜嘅議題，而並非你提供嘅選擇題中所描述嘅「民族**的**形成」概念。\n\n希望呢個解釋有幫助！",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '風俗習慣'], ['B', '自然力'], ['C', '血統'], ['D', '語言']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "三朵節係（）舉行嘅祭拜三朵嘅傳統節日",
+    "llm_output": "B. \n\n**解釋：**\n\nThe correct answer is **B. 民族團結** (National Unity)\n\nThis is because the provided text indicates that the question is about a \"festival\" and the answer choices are related to the concept of \"ethnicity\".  \n\n**The answer choices suggest that the question is about the \"essential\" characteristics of a culture that celebrates a specific tradition.**\n\nLet me know if you have any other questions!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '白族'], ['B', '納西族'], ['C', '苗族'], ['D', '黎族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "黎族主要分佈喺我國嘅（）",
+    "llm_output": "C. 雲南省 \n\n(This is a trick question! While the answer is technically correct, it's important to remember that the Zhuang people are primarily found in **雲南省 (Guangxi)**, not necessarily the same province as the one mentioned in the example.)\n\n**Explanation:**\n\nThe question asks about the primary location of the Zhuang people, which is **Guangxi Province in China**.  \n\n* **A. 風俗習慣 (Customs)** is a distractor, as the question focuses on the ethnic group's distribution, not the broader concept of cultural practices.\n* **B. 培養少數民族幹部 (Cultivate the ethnic minority)** is a distractor, as it refers to a specific aspect of \"ethnic work\" rather than the general location of the Zhuang people.\n* **C. 發展民族團結進步事業 (Promote the development of ethnic unity)** is a distractor as it focuses on the political aspect of \"ethnic work\" rather than the geographical distribution.\n* **D. 民族問題 (Ethnic problems)** is a distractor because it's too broad. The question is about the location of the \"Zhuang\" people, not about all the reasons why they are a distinct group.\n\n**Zhuang** is the correct answer.\n\n**A. 民族** is a general term for \"ethnicity\" and is not specific enough for the question.\n\n**Important Note:**\n\nIt's crucial to understand that \"民族\" (minzu) is a complex term in Chinese that encompasses a broader concept of \"ethnic group\" than the typical understanding in English. In the Chinese context, \"民族\" can refer to a shared ethnicity, culture, or even geographical origin. \n\nWhile the examples provided suggest a focus on \"ethnic\" as a geographical concept, the question itself uses \"ethnicity\" as a category. This means the answer is likely related to the **ethnicities** that are concentrated in specific areas.\n\nTherefore, the answer to the question \"發展\" 係 **C. 民族** is the correct answer. \n\n**It's important to note:**\n\nThe term \"民族\" is often translated as \"ethnic group\" or \"nationality\" in English, but it can be a bit ambiguous. In this case, it's likely referring to the **Zhuang people**, as the context mentions \"民族地區\" (minzu diqu) which means \"ethnic minority areas\".\n\nLet me know if you have any other questions.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '貴州省'], ['B', '四川省'], ['C', '雲南省'], ['D', '海南省']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "民族平等團結係馬克思主義處理民族問題嘅",
+    "llm_output": "The correct answer is **C.  C. 民族社會問題** (ethnic minority issues) **and D. 民族關係** (ethnic relations).\n\nHere's why:\n\n* **C. 民族平等** (national equality) is a broad concept, but **C. 民族平等** (ethnic equality) is the best fit for the context of the first answer.\n\n* **D. 提高民族社會** (improving the lives of ethnic minorities) is a key part of **C. 促進民族關係** (promoting social development for all ethnicities) in the context of the second question.\n\n* **B. 促進民族經濟社會發展** (promoting economic and social development) is a key goal of the **C. 民族平等** (equality of ethnicities)\n\nLet me know if you'd like to try more examples! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '總政策'], ['B', '前提'], ['C', '根本原則'], ['D', '基本出發點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義嘅民族團結，具有特定嘅階級內容，其核心係",
+    "llm_output": "C. \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '同一民族嘅無產階級同資產階級嘅團結'], ['B', '各民族嘅無產階級同勞動人民嘅團結'], ['C', '同一民族嘅無產階級嘅團結'], ['D', '各民族嘅無產階級同資產階級嘅團結']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "滿族建立咗一統全國將近三百年嘅清王朝，對祖國疆域嘅開拓同鞏固做出咗嘅歷史貢獻除咗下面邊項",
+    "llm_output": "The answer is **C**. \n\nHere's why:\n\n* **A. 改革開放** (Reform and opening up) - This refers to a period of economic reforms in China initiated by Deng Xiaoping in 1978, not a historical concept related to the Qing Dynasty.\n* **B. 統一了民族關係** (Unified the nation) - This is a general statement about the Qing Dynasty's impact on China.\n\nThe correct answer is **C. 對西藏的社會進行了改革** (Unified society in Tibet). \n\nWhile the **Qing Dynasty** did indeed unify various regions through conquest and political integration, it's important to note that the **Qing Dynasty's** unification of China was not a long-term goal. The **Qing Dynasty** was focused on maintaining its own rule and consolidating its power, not on unifying the entire country through its actions.\n\nHere's a breakdown of why:\n\n* **The question refers to the historical impact of the Qing Dynasty on the **Qing Dynasty**'s own people**, which is a bit ambiguous. It's more accurate to say that the **Qing Dynasty was established by the Manchus**, who were a distinct ethnic group within the larger Chinese empire.\n\nThe **Qing Dynasty** was established by the **Manchus** during the **Qing Dynasty**'s rule. \n\nLet me know if you'd like to see more examples!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '改革開放'], ['B', '統一咗西南地區嘅行政管理體系'], ['C', '對西藏嘅社會進行咗改革'], ['D', '統一臺灣']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國民族眾多，各民族都有自己嘅風俗習慣，以下民族節日同所屬民族搭配唔正確嘅係",
+    "llm_output": "The correct answer is **B**.\n\nHere's why:\n\n* **The question:**\n\nThe question asks for the incorrect pairing of a festival and its associated ethnicity.\n\n* **Analyzing the options:**\n\n    * **A. 歲（Sui）** This is a **correct** answer, as the 潑水節 (Po Shui Jie) is a festival associated with the **傣族 (Dai) people, not the Han ethnicity.**\n\n* **The correct answer:**\n\nSince 歲 (Sui) is the name of a festival, and the question refers to a \"traditional festival\" associated with the **Han** ethnicity, the answer is **B**. \n\n* **Why not the other options?**\n\n    * **A. 歲（Sui）**  This is a **general term for a festival** and doesn't specify a particular ethnicity.\n    * **C. 侗（Dong）** This option is incorrect because it suggests the Dai people are associated with a specific festival. This is misleading as the **Dai people** are associated with the **潑水節 (Songkran Festival)**, which is a traditional **Thai** New Year festival.\n\nLet me know if you'd like to see more examples!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '賽龍舟—漢族'], ['B', '潑水節—維吾爾族'], ['C', '那達慕大會—蒙古族'], ['D', '蘆笙節—侗族、苗族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "實行民族區域自治嘅關鍵係",
+    "llm_output": "B. \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自治機關嘅設立同建設'], ['B', '自治權嘅行使'], ['C', '自治機關嘅民主化'], ['D', '自治機關嘅民族化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "民族自治地方地廣物博，面積佔全國總面積嘅",
+    "llm_output": "D. 54% \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '44%'], ['B', '64%'], ['C', '74%'], ['D', '54%']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國人口最多嘅少數民族係",
+    "llm_output": "答案：A. \n\n**Explanation:**\n\nThe question asks for the percentage of China's land area that is covered by areas of ethnic autonomy. The correct answer is **B. 64%**.\n\n**Here's why:**\n\n* **The Zhuang people** are the largest ethnic minority group in China. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '回族'], ['B', '滿族'], ['C', '壯族'], ['D', '蒙古族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下選項中唔屬於民族基本特徵嘅係",
+    "llm_output": "The correct answer is **C. 共同地域 (Common territory)**.\n\nHere's why:\n\n* **A. 共同風俗習慣 (Common customs and habits)**: While common language and culture are often associated with ethnicity, they are not defining characteristics.  People within the same ethnic group can live in different regions and have diverse practices.\n\n* **B. 共同語言 (Common language)**: This is a characteristic often associated with ethnicity, but it's not a universal one. Many ethnic groups have diverse languages within their communities.\n\n* **C. 共同地域 (Common territory)**: This is a trick answer! While many cultures have a strong connection to a specific territory, it's not a requirement for defining an ethnic group.\n\n* **D. 共同語言 (Common language)**: This is a characteristic of a shared cultural identity, but it's not a defining characteristic of ethnicity itself.\n\n**共同血統 (Common ancestry)** is not a necessary condition for defining a person's ethnicity. \n\n**D. 共同血統 (共同血統)** is the answer because it refers to a shared ancestry, which is not a defining characteristic of ethnicity.\n\n**Ethnicity is a complex social construct that encompasses:**\n\n* **文化 (Culture):** Shared traditions, customs, beliefs, and practices.\n* **語言 (Language):** Shared language, though not always a strict requirement (see explanation for \"共同語言\" below).\n* **語言 (Language):**  While language can be a strong marker of cultural identity, it's not the only factor.\n\n**Therefore, the answer to the question is C. 共同語言 (Common language) is not a defining characteristic of ethnicity.**\n\n**Explanation for 共同語言 (Common language) as a trick answer:**\n\nThe question asks for a characteristic that is *not* a part of 民族 (ethnicity).  While language is often a shared characteristic within an ethnic group, 共同語言 (共同語言) is not a defining characteristic of ethnicity.\n\n**Here's why \"共同語言\" is not a defining characteristic of ethnicity:**\n\n* **Ethnicity is about shared cultural identity:** This includes factors like ancestry, shared history, cultural practices, and a sense of belonging to a particular group.\n\n* **\"共同語言\" is not a defining characteristic:**\n\nPeople of the same ethnicity can speak different languages. For example, someone from China might speak Mandarin, Cantonese, or a regional dialect.\n\n* **Culture is complex:**\n\nIt's not just about language. Many other factors contribute to a person's cultural identity, including shared religion, ethnicity, history, ethnicity, values, beliefs, and traditions.\n\n* **Language can change:**\n\nLanguage is fluid and evolves over time. People within a single ethnic group may have different dialects or even different languages altogether.\n\n* **Common language is not a guarantee of shared culture:**\n\nWhile language can be a strong indicator of cultural connection, people who speak the same language can have diverse cultural backgrounds and identities.\n\nTherefore, the answer to the question is **C. 共同語言 (共同語言)**.\n\n**共同語言 (Common language)** is not a defining characteristic of ethnicity because:\n\n* **Shared ancestry is not a requirement:** People from different backgrounds can adopt and use the same language.\n* **Cultural practices and traditions define ethnicity:**  \n\nWhile \"共同語言\" (common language) is a common characteristic, it's the shared cultural practices and a sense of belonging that truly define an ethnic group.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '共同風俗習慣'], ['B', '共同地域'], ['C', '共同血統'], ['D', '共同語言']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺少數民族嘅傳統民居中，船形屋係（）嘅特色民居",
+    "llm_output": "D. 侗族",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '朝鮮族'], ['B', '黎族'], ['C', '土家族'], ['D', '壯族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "東巴教為（）所信仰",
+    "llm_output": "B. \n\n**Explanation:**\n\nThe correct answer is **B. 蒙古族** (Mongolian)\n\nThis question is asking about the origin of a belief system. The answer must be a specific ethnic group. \n\n* **東巴族** (Dongba) refers to the **Naxi** people, not a specific belief system. \n\nTherefore, the answer is **B**. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '滿族'], ['B', '白族'], ['C', '蒙古族'], ['D', '納西族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "首次將社會主義民族關係表述為「平等、團結、互助、和諧」嘅民族關係嘅係",
+    "llm_output": "D. \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '胡錦濤'], ['B', '鄧小平'], ['C', '毛澤東'], ['D', '江澤民']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "下面少數民族中主要生活喺我國四大牧區嘅係",
+    "llm_output": "答案：B. \n\n**解释：**\n\n这道题的答案是**哈薩克族**。\n\n* **A. 哈薩克族、蒙古族、** \n\n* **C. 侗族** \n\n* **D. 蒙古族**\n\n这三个选项都包含了**汉族**以外的民族，而汉族是**中国**的多数民族，所以答案是**C. \n\n**B. 蒙古族**\n\n* **C. 侗族** \n\n* **D. 蒙古族**\n\n**答案：** 选项**A** 和 **D** 都有重复，所以答案是 **D. 蒙古族** 和 **C. \n\n**解释：** \n\n这道題目在考察中国少数民族的分布特点，以及对中国文化的影响。 \n\n**正确答案：**\n\n**C. 哈薩克族、** \n\n**D. 蒙古族** \n\n**解释：**\n\n* **C. 蒙古族** \n\n* **C. \n\n* **A. 蒙古族** \n\n* **C. \n\n**C. 侗族** \n\n* **D. 侗族** \n\n* **A. 侗族** 和 **B. \n\n**C. 侗族** \n\n* \n\n**C. \n\n** \n\n**C. \n\n** \n\n* **C. 侗族** \n\n* **C. \n\n**C. \n\n** \n\n**C. \n\n** \n\n**A. 侗族** \n\n**C. \n\n** \n\n**C. 侗族**\n\n* \n\n**A. \n\n** \n\n**C. 侗族** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**A. \n\n** \n\n**B. \n\n** \n\n**C. \n\n** \n\n**B. \n\n** \n\n**D. \n\n** \n\n**B. \n\n** \n\n**D. \n\n** \n\n**B. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**D. \n\n** \n\n**C. \n\n** \n\n**A. \n\n**C. \n\n** \n\n**C. \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**B. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**A. \n\n** \n\n**D. \n\n** \n\n**C. \n\n** \n\n** \n\n**C. \n\n** \n\n**D. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**B. \n\n** \n\n** \n\n** \n\n**D. \n\n** \n\n**C. \n\n** \n\n** \n\n**D. \n\n** \n\n**C. \n\n** \n\n** \n\n** \n\n**C. \n\n** \n\n** \n\n** \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n** \n\n** \n\n**C. \n\n** \n\n** \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n** \n\n** \n\n** \n\n** \n\n**C. \n\n** \n\n** \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**D. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n**C. \n\n** \n\n**C. \n\n** \n\n**C. \n\n** \n\n** \n\n** \n\n**C. \n\n**C. \n\n** \n\n**C. \n\n** \n\n**B. \n\n** \n\n** \n\n** \n\n**C. \n\n** \n\n** \n\n** \n\n** \n\n** \n\n**C. \n\n** \n\n** \n\n** \n\n**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '藏族、朝鮮族、高山族'], ['B', '哈薩克族、蒙古族、藏族'], ['C', '維吾爾族、壯族、侗族'], ['D', '蒙古族、土家族、苗族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "「馬克思主義同民族問題」一書嘅作者係",
+    "llm_output": "答案：**C. 馬克思** \n\nThe correct answer is **C. 馬克思** (Marx). \n\nThis is a bit of a trick question! While the examples you provided mention \"A. 共同\" (which translates to \"common language\") as a possible answer, the question is likely asking for the **author** of the book \"Marxism and the National Question\". \n\nThe answer is **C. 赫魯曉夫** (B. Khrushchev) because **B. 勃列日涅夫** (Brezhnev) was a Soviet leader, and the book \"Marxism and the National Question\" is often associated with **列寧** (Lenin) due to his significant contributions to the theory of imperialism and its relationship to national liberation movements. \n\nThis type of question highlights the importance of understanding the context of the question and the nuances of language. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '勃列日涅夫'], ['B', '赫魯曉夫'], ['C', '列寧'], ['D', '斯大林']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "民族平等作為一種政治要求，係（）革命嘅產物。",
+    "llm_output": "C. \n\nThe answer is **C. 民族平等** (Minzu 평등) which translates to **\"ethnic minority\"** in English. \n\nThis is because the question asks for the answer to be a **political concept** related to the examples given. The examples provided highlight the **concept of ethnic equality** as a core principle in the context of the examples.\n\nLet's break down why:\n\n* **The question:**\n\nThe question asks about \"ethnic equality\" as a concept that is a result of a political movement.\n\n* **The answer:**\n\nThis points to the fact that the question is likely asking about the **social and political status of ethnic minorities** in the context of a political movement.\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '工人階級'], ['B', '無產階級'], ['C', '資產階級'], ['D', '農民階級']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "中國古代歷史上比較多使用嘅對民族共同體嘅特定稱呼係",
+    "llm_output": "答案：D. 族類 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '族種'], ['B', '種類'], ['C', '部類'], ['D', '族類']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於少數民族風俗習慣嘅係",
+    "llm_output": "D. 語言 \n\n**解釋：**\n\n* **A. 語言** 雖然語言係文化組成部分，但係並非所有文化都用「平等、團結、互助、和諧」呢四個字來概括。** \n\n* **語言** 係少數民族文化嘅重要組成部分，但係並非所有少數民族都用呢個詞語來描述自己嘅文化。\n\n* **婚姻、葬禮和節慶** 係中國古代文化中常見嘅社會儀式，而 **「平等、團結、互助、和諧」** 係中國古代社會價值觀中，並非 **平等** 的概念，而係 **宗教信仰** 嘅一種形式。\n\n \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '語言'], ['B', '婚嫁'], ['C', '喪葬'], ['D', '節慶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義民族關係確立嘅標誌係",
+    "llm_output": "The answer is **D. \n\n**\n\nThe question asks for the defining characteristic of socialist society. While the provided options are related to the concept of socialism, the most accurate answer would be **D. 新中國嘅成立** (The establishment of New China)\n\nHere's why:\n\n* **A. 语言 (yǔyán)** - While language can be a factor in discussions of cultural identity and cultural groups, it's not a unique identifier of a socialist society.\n\n* **B. 革命（革命）** - This is too broad. Many societies have experienced revolutions without becoming socialist.\n\n* **C.  改革开放** (Reform and opening up) is a policy implemented in China, not a defining characteristic of socialism in general.\n\n* **C.  社會主義 (socialist) and D. 社會主義 (社会平等)** - These options are related to the broader context of socialism but don't specifically address the question of \"socialist nations\" arising from this context.\n\n**Therefore, the most accurate answer is D. 新中國的成立**\n\nThis is because the phrase \"新中國\" (New China) specifically refers to the People's Republic of China, which is a communist state, a specific type of socialist society.\n\n**It's important to note:**\n\nThe concept of \"New China\" is a loaded term, often used to refer to the period after the Communist Party's victory in the Chinese Civil War in 1949. This is a specific historical context for the term \"中國\" (China) in the answer choices.\n\n**A more accurate translation of the question:**\n\n\"The establishment of which of the following is a sign of a socialist society?\"\n\n**A more accurate translation of the answer choices:**\n\nA. 民族平等 (mínzú píngděng) - (Social equality)\nB. 民族文化（D. 民族的）\n\nC. 民族文化（D. 民族的）的建立 (民族的建立)\n\n**A. 民族平等（社會主義）** is the most accurate answer to the question as it directly relates to the establishment of the PRC as a socialist state.\n\n**D. 社民主義** (Social Democracy) is a more specific and accurate answer to the question.\n\n**Explanation:**\n\nThe question asks for the defining characteristic of the establishment of a socialist society, and the best answer is **D. 社交主義 (socialist)**, as it refers to the broader context of socialism being established in China.\n\nThe answer choices provided are a bit tricky because of the ambiguity of \"新中國\" (new society). While it can be interpreted as a general concept of a socialist society, it's not the most precise answer to the question.\n\n**It's important to remember that the context of the question is crucial for understanding the intended meaning. **\n\n**Without the original question in Chinese, it's impossible to say for sure which answer is the most appropriate. However, based on the context of the provided examples, the most accurate answer to the question is \"新社會的建立 (the establishment of a new socialist society) \"**\n\nThis is because the concept of \"the establishment of a socialist society\" is a broader concept that encompasses the entire process of building a socialist society, which is a complex and multifaceted process that is not fully captured by the examples provided.\n\n**Therefore, the provided English translation of the answer choices is not entirely accurate in representing the original question.**",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會主義市場經濟制度嘅實行'], ['B', '改革開放'], ['C', '民主改革同社會主義改造嘅完成'], ['D', '新中國嘅成立']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國少數民族主要分佈喺",
+    "llm_output": "The answer is **D. 東北、華北、华南**.\n\nHere's why:\n\n* **A. 族種** (zú zhǒng) - This translates to \"ethnic group\" and is a general term for a group of people sharing a common culture and ethnicity. \n* **B. 華北、西北、华南** (Huáběi, xīi běi, xī běi,  xī nán) - This translates to \"North China, Northeast, North China\" (repeated). This is not a specific answer to the question.\n* **C. 西北、西南、東北** (xī běi, xī běi、xī nan、) - This option focuses on geographical regions, not the concept of \"ethnic group\"\n\n**東北** (Northeast) is a region in China, so it's not a specific answer to the question.\n\n* **D.  民族主義** (mín tú jǔ tú) - This translates to \"nationalism\" and is a relevant concept to the question.\n\n**B. 民族平等** (mín tú jǔ deng) is a term that means \"equality of nationalities\" and is a key concept in understanding the complexities of nationalism in China.**\n\n**Therefore, the answer to the question is B. 民族主義 (mín tú jǔ tú) **\n\n**\n\nThe examples you provided show that the answer is **C. 民族主義 (mín tú jǔ) **\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '華北、西北、西南'], ['B', '華北、華南、華東'], ['C', '西北、西南、東北'], ['D', '東北、華北、華東']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "從1840年嘅鴉片戰爭到孫中山先生領導嘅辛亥革命，包括咗各民族地區好多次英勇嘅反帝鬥爭，終於使帝國主義瓜分中國嘅陰謀徹底破產；並終於喺（）年推翻咗清王朝，結束咗中國幾千年嘅封建君主專制統治。",
+    "llm_output": "D. 1911 \n\n**解釋:**\n\n辛亥革命發生於1911年。 \n\n其他選項（1917年、1919年、1949年）都唔正確。 1911年係武昌起義嘅年份，而1949年係中華人民共和國成立嘅年份。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '1917'], ['B', '1911'], ['C', '1919'], ['D', '1949']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "權利同義務最根本嘅區別係",
+    "llm_output": "答案：D \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '權利具有廣泛性，義務唔具有廣泛性'], ['B', '義務具有廣泛性，權利唔具有廣泛性'], ['C', '權利必須享受，義務可以放棄'], ['D', '權利可以放棄，義務必須履行']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "鄧恩銘係中國共產黨第一次全國代表大會13位代表之一，佢係",
+    "llm_output": "The answer is **D. 土族**.\n\nHere's why:\n\n* **D. 1911** is the correct answer. \n\nThe other options (A, B, and C) are incorrect as they don't reflect the reality of China's ethnic makeup. \n\nThe other options (A, B, and C) are incorrect because they are not relevant to the concept of \"ethnic group\" in the context of the question.\n\n* **Explanation:**\n\nThe question asks for the \"nationality\" of the person mentioned. The provided answer choices are all ethnicities found in China.\n\nThe question is likely asking about the year the **Republic of China** was founded.  The **1911 Xinhai Revolution** led by Sun Yat-sen resulted in the **overthrow of the Qing dynasty** and the establishment of the Republic of China. \n\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '苗族'], ['B', '水族'], ['C', '土家族'], ['D', '布依族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "民族風俗習慣喺傳承嘅過程中，由於受各民族經濟嘅、社會嘅、政治嘅、文化嘅種種因素嘅影響而喺內容同形式上發生緊某種程度嘅變化。呢種變化係一種歷史嘅變異，係",
+    "llm_output": "C. 喺 \n\n**Explanation:**\n\nThe correct answer is **C. 民族嘅進化** (ethnic evolution)\n\nHere's why:\n\n* **傳** (chuen) means \"to transmit\" or \"to pass on\".\n* **習** (seep) means \"habit\" or \"custom\".\n* The prompt translates to \"The customs and habits of a nation are constantly changing in content and form in the process of transmission.\"\n\nThis statement highlights the concept of **cultural change** within a nation's customs and habits.  \n\nLet's break down the reasoning:\n\n* **Option A (民族嘅** (ethnic evolution)** is the most accurate translation of the question's prompt. The prompt focuses on the transmission of culture, which is a key aspect of how cultures, including their customs and traditions, evolve over time.\n\nLet me know if you'd like to try another example!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '民族嘅進化'], ['B', '一種突變'], ['C', '喺相對穩定中發生嘅漸變'], ['D', '民族嘅發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "國家制定咗少數民族節日放假制度，建立咗每幾多年舉辦一次全國少數民族文藝滙演制度？",
+    "llm_output": "The correct answer is **C. 2年 (2 years)**.\n\nThis is a bit of a trick question! It seems like you're trying to figure out a pattern in the way the question is worded. The question is likely trying to test your understanding of the context of the question rather than just the answer to the question itself. \n\nThe question implies that the answer should be a factor contributing to the \"decline\" of the \"obligations\" of the \"Chinese people\" in the context of the \"1911 Revolution\".\n\nThis is a crucial point in history, as the answer to the first part of the question implies. \n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '3年'], ['B', '4年'], ['C', '2年'], ['D', '5年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "使民族定義建立喺辯證唯物主義同歷史唯物主義嘅基礎上，從而徹底否定咗「民族文化自治」論嘅係",
+    "llm_output": "D. 5年 \n\n**解釋：**\n\nThe correct answer is **C. 斯大林 (Stalin)**\n\nThe passage states that the question is about the establishment of a system for national holidays for ethnic minorities.  The \"民族同中國嘅關係\" (relationship between ethnicities and the state) is a key concept in the **Marxist** theory of the state, which is based on the idea of **historical materialism**. \n\n**歷史主義 (Historical Materialism)** is a concept within Marxism that emphasizes the role of material conditions in shaping history and society. This theory, developed by **Marx** and furthered by **恩格斯 (Engels)**, argues that economic factors, particularly the struggle between social classes, are the primary drivers of social and political change.\n\nTherefore, the answer is **D (Stalin)** because the passage specifically mentions the \"1840年\" (1940s) and the \"1911\" (referring to the year 1911) revolution, which is a key example of **Marxist** thought. \n\nLet me know if you have any other questions! \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '恩格斯'], ['B', '斯大林'], ['C', '馬克思'], ['D', '列寧']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國成立最早嘅自治區係",
+    "llm_output": "D. \n \n \n \n**內蒙古自治區**\n\n**D. \n**\n\n**D** \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '西藏自治區'], ['B', '寧夏回族自治區'], ['C', '廣西壯族自治區'], ['D', '內蒙古自治區']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "下面有關民族素質嘅講法中正確嘅係",
+    "llm_output": "The answer is **D. 民族的文化和藝術成就**\n\nHere's why:\n\n* **The question asks for the correct answer regarding the concept of \"ethnic quality\" (民族素質)**.  While the question mentions \"ethnic autonomous region\" (自治區), the focus is on the concept itself, not the specific political structure.\n\nLet's break down why the other options are incorrect:\n\n* **A. 民族的文化和藝術成就 (ethnic culture and arts achievements)** are not the focus of the question. The question is about the concept of \"ethnic quality\" as a general concept, not a specific characteristic.\n\n* **B. 民族的文化和藝術成就 (nationalities' cultural and artistic achievements)** are incorrect because they are too specific. The question asks for the general concept of \"ethnic quality\" as a whole.\n\n* **C. 民族的文化和藝術成就 (ethnic groups' cultural and artistic achievements)** is incorrect because it's not necessarily true. While cultural and artistic practices are part of a culture's identity, they are not the only factors that define a nationality.\n\nLet me know if you have any other questions! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '民族素質唔具有傳承性'], ['B', '民族素質通過傳承持續存在，基本唔發生變異'], ['C', '民族素質就係民族成員嘅個體素質'], ['D', '民族素質係一個民族發展嘅綜合指標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "自治機關民族化嘅核心任務係",
+    "llm_output": "The answer is **D. 民族**\n\nThe question asks for the core mission of \"ethnic regional autonomy\" (民族自治).  \n\n* **Ethnic regional autonomy** is a concept that focuses on the self-governance and cultural preservation of ethnic groups within a larger nation.\n\nTherefore, the answer to the question is **D. 大力發展少數民族嘅經濟** (D.  Promote the development of ethnic minority cultures).\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '鞏固少數民族同漢族嘅關係'], ['B', '大力發展少數民族文教事業'], ['C', '培養、選拔同任用少數民族幹部'], ['D', '大力發展少數民族嘅經濟']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於社會主義時期民族問題產生嘅社會根源嘅論述中正確嘅係",
+    "llm_output": "The correct answer is **B**. \n\nHere's why:\n\n* **A is incorrect** because it implies that social issues disappear under socialism, which is not necessarily true.\n\n* **B is correct** because it highlights a key aspect of the Marxist understanding of social issues.\n\n* **C is incorrect** because it makes a blanket statement about the elimination of class conflict, which is a central tenet of Marxist thought.\n\n* **D is incorrect** because it's a false statement. While socialism aims to reduce class disparities, it doesn't necessarily mean all social issues vanish.\n\n**Explanation:**\n\nMarxist theory emphasizes that the concept of \"nation\" and \"nationalism\" are social constructs that often arise from and are shaped by the economic system. It argues that the capitalist system, with its emphasis on competition and private ownership, creates divisions and inequalities that can contribute to the rise of nationalism.\n\n**Therefore, option B is the most accurate:**\n\n**B. 民族文化**\n\nThis is because option B is the only one that reflects the understanding that the nature of social issues, including those related to ethnic tensions, is influenced by the underlying economic structures of a society. \n\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會主義時期，喺一定條件下尚存嘅階級鬥爭並唔會再反映到民族問題上嚟'], ['B', '社會主義時期，似私有制社會嗰種造成民族問題嘅好多社會因素依然存在'], ['C', '無產階級掌握國家政權嘅社會主義制度下，民族內部嘅階級對立已經消失，民族問題嘅性質同以往已經唔同咗'], ['D', '喺社會主義條件下，民族問題產生嘅社會根源已經完全消失']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "俗稱嘅「一正兩耳」、「三坊一照壁」、「四合五天井」係形容（）嘅民居佈局嘅",
+    "llm_output": "A. 傣族 \n\nThe answer to the question is **A. 傣族** (Dai people). \n\nThis is a bit of a trick question!\n\n* **\"One house, two courtyards, and three halls\"** is a common way to describe the traditional **Dai** house layout. \n\nLet me know if you'd like to know more about this type of architecture!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '滿族'], ['B', '白族'], ['C', '土家族'], ['D', '傣族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我黨民族政策嘅基本出發點同歸宿係",
+    "llm_output": "The answer is **A. 民族團結 (National Unity)**. \n\nWhile all the options listed relate to the concept of a \"unified\" structure, the core of the Chinese Communist Party's national policy is focused on the concept of **national unity**, which is a key principle in the Party's ideology. \n\nThe phrase \"**一正兩壁**\" (one main building, two wings) is a common way to refer to the Party's approach to ethnic relations.\n\nLet me know if you'd like to see more examples of the \"one main building, two wings\" concept in the context of Chinese history and politics. \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '民族團結'], ['B', '民族和諧'], ['C', '民族平等'], ['D', '加快少數民族同民族地區發展']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋黨同國家民族政策中嘅總政策係",
+    "llm_output": "The correct answer is **A. 民族平等** (mìn zú píngděng) which means **ethnic equality**. \n\nThis is because the answer choices you provided suggest that the question is about a core principle of the Chinese Communist Party's national policy, and ethnic equality is a fundamental principle of their national policy. \n\nLet me know if you'd like to know more about the Chinese Communist Party's policy on ethnic equality!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '民族平等團結'], ['B', '民族區域自治'], ['C', '民族文化教育發展'], ['D', '民族經濟發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "決定民族性質嘅屬性係",
+    "llm_output": "C. 社會主義社會的社會主義社會的社會結構和社會關係 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '語言屬性'], ['B', '族體屬性'], ['C', '文化屬性'], ['D', '社會屬性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺民族六要素中，具有相當穩定性、歷史連續性同持久性嘅要素係",
+    "llm_output": "C. 共同文化\n\n**解釋：**\n\n社會主義制度下，語言、文化、習俗等因素並非決定國家政治制度嘅因素，而係社會主義政策嘅一個重要方面。 \n\n**共同語言**、**共同歷史**、**共同文化** 以及 **共同語言** 等等，都屬於社會主義政策嘅重要目標，並非完全消失，但依然存在於社會中嘅社會主義社會，但係 **共同文化** 係指一個社會群體共同擁有嘅文化元素，而呢個概念係一個 **社會學概念**，而非 **政治制度** 嘅一個要素。\n\n所以，呢個題目嘅答案係 **A**。 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '共同風俗習慣'], ['B', '共同生產方式'], ['C', '共同文化'], ['D', '共同心理認同']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國分佈最廣嘅少數民族係",
+    "llm_output": "A. \n\n**解釋：**\n\n呢個問題嘅答案係 **A. 漢族**。\n\n**原因：**\n\n* 因為中國有56個民族，而漢族人口最多，所以佢哋喺中國各地都有分佈。\n* 雖然我國有其他民族，但係漢族係中國人口最眾多嘅民族，所以答案係 **A**。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '漢族'], ['B', '壯族'], ['C', '蒙古族'], ['D', '回族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "民族結構合理化、優化嘅標準在於",
+    "llm_output": "D. \n\n**Explanation:**\n\nThe correct answer is **D. 民族結構合理化、優化嘅標準在於**\n\nThis is because the answer is related to the concept of **\"ethnic structure\"** which is a key aspect of the study of ethnicity. \n\nHere's a breakdown of why the other options are incorrect:\n\n* **A. 共同風俗習慣 (Common customs and habits)** is a characteristic of ethnicity, but not a standard for its structure.\n* **B. 民族文化 (Ethnic culture)** is another characteristic of ethnicity, but not the answer to the question.\n* **C. 共同生產方式 (Common means of production)** is a factor in understanding the historical development of a culture, but it doesn't define its structure.\n\n**Why D. is the correct answer:**\n\nThe concept of **\"民族結構合理化 (Rationalization of ethnic structure)\"** is a complex one, and it's not as simple as saying it's about \"stability\" or \"production.\" It's more about the **processes that shape and influence the relationships between different ethnic groups within a society**.\n\nThis means the correct answer is **D. 共同文化** (Common cultural traits) because it best reflects the focus on the concept of **\"structure\"** within the context of ethnicity.\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '民族結構內部各要素嘅關係長期穩定唔變'], ['B', '民族結構內部各要素之間可以相互影響'], ['C', '民族結構內部各要素嘅關係經常變化'], ['D', '民族結構內部各要素之間可以相互協調']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "鍾意冷麵、打糕、松餅並鍾意以湯、醬、泡菜為副食嘅民族係",
+    "llm_output": "B. \n\n**解釋：**\n\n* 根據你提供的三個例子，題目描述的是韓國人以**冷麵**為主要食物，而答案D \n\n**\"韓國人**\" 係指韓國人。\n\n**韓國人** 習慣食 **麵食**，而你提供的答案 \"韓國人\" 已經包含了 \"韓國\" 這個關鍵詞，所以它本身就暗示了答案。\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '朝鮮族'], ['B', '白族'], ['C', '滿族'], ['D', '赫哲族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義民族平等思想認為私有制係造成民族剝削同壓迫關係嘅制度根源，「人對人嘅剝削一消滅，民族對民族嘅剝削就會隨之消滅」，係馬恩曾喺嗰篇文章中提到嘅",
+    "llm_output": "A. \n\n**正確答案：A**\n\n**解釋：**\n\n這題目與馬克思主義哲學家有關，而馬克思主義理論家認為，共同語言、文化、文化習俗等因素是造成社會中民族關係的根源。 \n\n**正確答案：A**\n\n**解釋：**\n\n這是一個引述題，答案是 **D. 韓國** \n\n這題目是關於馬克思主義對民族平等的看法，而「韓國」的民族理論，即「民族的六要素」是出自馬克思和恩格斯所著的 **《共產黨宣言》**。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「共產黨宣言」'], ['B', '「神聖家族，或對批判嘅批判所作嘅批判」'], ['C', '「1857-1858年經濟學-哲學手稿」'], ['D', '「關於費爾巴哈嘅提綱」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺我國55個少數民族中，最後被確認為一個少數民族嘅係",
+    "llm_output": "The answer is **C. 土家族 (Tujia)**.\n\nThe examples you provided indicate that the question is asking for the confirmed minority ethnicity. \n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '基諾族'], ['B', '赫哲族'], ['C', '土家族'], ['D', '畲族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "土家族比較流行嘅古老舞蹈係",
+    "llm_output": "問題：A. 鼓舞\nB. 傣族舞蹈\nC. 民族舞蹈\nD. 民族學家\n\n**正確答案：A** (A. 蘆笙舞)\n\n**解釋：**\n\n* 畲族 係中國少數民族之一，佢哋有豐富嘅傳統舞蹈，其中最著名嘅就係 **A. 蘆笙舞**。 \n\n**注意：** \n\n* 你的例子中，選項「C」同「D」都包含「A. 傣族」在內，但「C」选项只係指「**一種**」古老舞蹈，而「D. 擺手舞」呢個選項並非畲族獨有嘅舞蹈類型。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '蘆笙舞'], ['B', '長鼓舞'], ['C', '頂碗舞'], ['D', '擺手舞']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "目前，我國已建立嘅民族自治地方有幾多個",
+    "llm_output": "C. 55個\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '145'], ['B', '135'], ['C', '155'], ['D', '165']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於漢族傳統節日嘅係",
+    "llm_output": "The answer is **C. 民族自治州** (minzu zizhizhou)\n\nThis translates to \"autonomous prefecture\" in English. While the other options are all types of celebrations or events, this option refers to a specific administrative division in China. \n\nHere's why:\n\n* **A. 神聖的家庭** (Shen sheng de jiā tíng) - This translates to \"sacred family\" and is not a recognized traditional Chinese festival.\n* **B. 元宵節** (Yuánxiāojié) - This is the correct term for the Lantern Festival, which is a traditional Chinese festival.\n\nTherefore, the correct answer is **C. 民族自治州** (minzu zizhizhou) as it is the only option that specifically refers to a type of administrative division. \n\n* **C. 民族自治州** (minzu zizhizhou) is the Chinese term for \"autonomous prefecture,\" a type of administrative division.\n\nLet me know if you'd like to see more examples of your \"問題\" (question) format!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '開齋節'], ['B', '那達慕節'], ['C', '元宵節'], ['D', '火把節']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "實行民族區域自治嘅核心係",
+    "llm_output": "B.  **自決權** \n\nThe correct answer is **B. 自決權**.\n\nWhile the other options are related to the concept of autonomy, the core principle of regional autonomy is the right of a region to govern itself, which is best represented by the term \"自決權\" (self-determination). \n\nHere's why:\n\n* **自決權** is the right of a people to determine their own political status, including the right to self-governance. This concept aligns directly with the idea of a region having the power to govern itself.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '自治機關嘅設立同建設'], ['B', '自治權嘅行使'], ['C', '自治機關嘅民主化'], ['D', '自治機關嘅民族化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "新世紀新階段民族工作嘅主題係",
+    "llm_output": "B. \n\n**平等、團結、互助、互助、** \n\nThis is because the question asks for the theme of the new century, and the answer is likely to be a broad concept related to national unity and progress. \n\n**\"Equality among all ethnic groups\"** is a core value of the Chinese Communist Party's policy on ethnic minorities, and it is likely to be the focus of the question. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '堅持同完善民族區域自治制度'], ['B', '各民族共同團結奮鬥、共同繁榮發展'], ['C', '平等、團結、互助、和諧'], ['D', '各民族一律平等']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "「那達慕」大會係（）嘅主要節日",
+    "llm_output": "D. 火把節 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '藏族'], ['B', '滿族'], ['C', '壯族'], ['D', '蒙古族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "「歌圩節」係邊個民族嘅民間傳統歌節",
+    "llm_output": "答案：**D. 壯族**\n\n「歌圩」是壮族的传统节日之一。 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '黎族'], ['B', '侗族'], ['C', '苗族'], ['D', '壯族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國處理民族自治機關同上級國家機關關係嘅基本原則係",
+    "llm_output": "D. 民族區域自治\n\n**解釋：**\n\n* 雖然「燈會」是苗族的重要節日，但「歌圩」是**侗族**的传统节日，所以答案是 **D**。 \n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '地方自主制'], ['B', '政治協商制'], ['C', '中央集權制'], ['D', '民主集中制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "「家庭·私有制同國家嘅起源」一書嘅作者係",
+    "llm_output": "A.  恩格斯 \n\n**Explanation:**\n\nThe question asks for the author of a book titled \"家庭、私有制同國家嘅起源\" (Family, Private Property, and the Origin of the State). This is a classic work of Marxist theory, and the author is **Friedrich Engels**. \n\nThe prompt likely refers to the book's original language title, which is why the answer is not immediately obvious. \n\nLet me know if you'd like to know more about the author or the book!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '斯大林'], ['B', '馬克思'], ['C', '恩格斯'], ['D', '列寧']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "民族同化分為強迫同化與",
+    "llm_output": "D. 自然同化 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自覺同化'], ['B', '自願同化'], ['C', '自由同化'], ['D', '自然同化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義嘅民族平等觀同資產階級民族平等觀嘅根本區別在於",
+    "llm_output": "C\n\n**解釋：**\n\n馬克思主義主張 **「民族平等」**，而「強迫同化」和「自然同化」等概念則强调的是 **民族融合** 的方式，而非是否融合本身。 \n\n**以下是選項的解釋：**\n\n* **A. 主張通過消滅強迫同化與** \n* **B. 堅持一切民族嘅平等**\n\n**正確答案：**\n\n* **C. 民族平等**\n\n**解釋：**\n\nA. 选项 **「C. 民族融合」** 强调的是不同民族之间的文化交流和融合，而非单一的「民族平等」概念。\n\n**D. 民族平等** 选项 **「D. 民族平等」** 强调的是 **民族平等**，但没有说明其与其他概念的差异。\n\n**C. 民族平等** 选项 **D. 民族平等** 强调的是 **「尊重民族文化」** 的社會制度，而「C. 民族融合」是关于社会现象的描述，而非马克思主义的立场。\n\n**D. 坚持**\n\n**D. 民族平等** 选项 **D. 坚持** 强调的是 **「民族平等」** 的概念，而非仅仅是「民族平等」本身。\n\n**D. 坚持** 强调的是 **「尊重民族融合」** 的社会融合的理念，而 **「民族平等」** 则强调的是所有民族 **平等** 的权利，这两种理念在 **概念上** 是不同的。\n\n**C. 民族融合** 选项 **C. 民族融合** 强调的是 **民族融合** 的概念，而非仅仅是 **「C. 民族平等」** 作为一种 **社会现象** 的存在。\n\n**C. 民族融合** 强调的是 **「** **国家** **的」** \n\n**「** **民族平等**」 是一种 **政治理念**，它强调所有民族在法律、政治、经济和社会地位上享有平等的权利。 \n\n**C. 民族平等** 是一种 **政治理念**，它强调的是 **民族之间的平等**。\n\n**因此，答案是 D. \n\n** \n\n**B. 政治集中** 强调的是 **「** **国家** **」** 的 **「** **所有民族** **」** \n\n**D. 民族** **」** 的地位。\n\n**马恩主义的民族平等觀** 强调的是 **「** **国家** **」** 的地位，而非仅仅是 **「** 民族融合」 的方式。**\n\n**C. 民族融合**\n\n**C. 民族融合** 的观点是 \n\n**民族融合** 是一种 **社会现象**，它强调的是 **民族之间的文化融合**。\n\n**马列主义的民族平等** \n\n**概念** \n\n**C. \n\n** \n\n**C. 选项** **C. \n\n**C. 民族平等** 的概念** \n\n**D. \n\n** \n\n**D. 尊重民族差异**\n\n**\n\n** \n\n**而「」** \n\n**\n\n** \n\n**D. \n\n** \n\n**D. 尊重民族差异**\n\n**\n\n** \n\n**D. \n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n** \n\n**D. \n\n** \n\n**C. 尊重民族平等** 的观点是 \n\n**D. \n\n**\n\n**\n\n**\n\n**D. \n\n** \n\n**D. 尊重所有民族的文化差异**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n** \n\n**D. \n\n** \n\n**C. \n\n**C. 民族差异** \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n** \n\n**D. \n\n** \n\n**C. \n\n**D. \n\n** \n\n**C. \n\n** \n\n**C. \n\n**\n\n**\n\n**C. \n\n**C. \n\n**D. \n\n**\n\n**C. \n\n** \n\n**\n\n** \n\n**C. \n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**C. \n\n** \n\n**D. \n\n**D. \n\n**C. \n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**C. \n\n**C. \n\n**\n\n**C. \n\n**C. \n\n**C. \n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主張通過消滅私有制、消滅階級，剷除導致民族唔平等嘅社會根源嚟實現各民族真正嘅平等'], ['B', '主張同堅持一切民族嘅平等'], ['C', '主張實現民族平等同民族團結、民族聯合、民族發展嘅有機統一'], ['D', '主張同堅持對少數民族嘅權利畀多啲保護']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國55個少數民族中，目前通用漢語嘅民族係",
+    "llm_output": "A. \n\n**A. 55個少數民族中，目前目前通用漢語嘅民族**\n\n**作者：**\n\n**A. 民族學**\n\n**D. 55個民族**\n\n**B. 55個少數民族中，目前有** **56個民族** **在推動國家政策，例如：**\n\n**我國處理民族自治與否的國家政策，例如：**\n\n**A. 民族**\n\n**D. 民族** \nA. 民族\n\n**C. 民族**\n\n**B. 民族平等**\n\n**D. 民族**\n\n**A. 56個民族**\n\n**B. 56個民族**\n\n**A. 56個民族**\n\n**B. \n\n**\n\n**A. 56個民族**\n\n**D. 56個民族**\n\n**A. 55個民族**\n\n**D. 56個民族**\n\n**C. \n\n**\n\n**作者：**\n\n**B. \n\n**\n\n**C. \n\n**\n\n**C. 56個民族**\n\n**C. 56個民族**\n\n**D. 56個民族**\n\n**C. 56個民族**\n\n**C. 56個民族**\n\n**D. 56個民族**\n\n**C. 56個民族**\n\n**C. 56個民族**\n\n**A. \n\n**\n\n**C. 56個民族**\n\n**C. \n\n**\n\n**C. 56個民族**\n\n**C. 56個民族**\n\n**D. 56個民族**\n\n**C. 56個民族**\n\n**C. 56個民族**\n\n**A. 56個民族**\n\n**D. 56個民族**\n\n**A. 56個民族**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**Answer:**\n\n**C. 56個民族**\n\n**Explanation:**\n\nThis is a bit of a trick question!\n\nWhile many of China's ethnic groups have their own unique cultural traditions, the concept of \"ethnic equality\" in this context is likely referring to the idea that all 56 officially recognized ethnic groups in China are equal under the law.\n\nThis is a key principle in China's constitution, but the question seems to be asking about which of the options is the most accurate representation of the situation.\n\n**Explanation of the \"D. \n\n**Answer:**\n\n**A. 56個民族**\n\n**Explanation:**\n\n**A. 56個民族**\n\n**A. 56個民族**\n\n**B. \n\n**\n\n**Note:**\n\nThe answer to the question \"我國目前有幾個民族\" (How many ethnic groups are there in China) is **56**.\n\nThis answer is based on the fact that China officially recognizes **56 ethnic groups**.\n\n**Answer:**\n\n**C. 56個民族**\n\n**B. \n\n**\n\n**Explanation:**\n\nThe first question seems to be a bit unclear. It's likely asking about the concept of \"ethnic equality\" as a whole, which is a complex issue.\n\nWhile the Chinese constitution states that all ethnic groups are equal, in reality, there are still **disparities and inequalities** between them.\n\n**Answer:**\n\n**A. \n\n**\n\n**Explanation:**\n\n**D. \n\n**\n\n**Explanation:**\n\n**56個民族**\n\n**Explanation:**\n\n**All 56** of China's officially recognized ethnic groups are **equal** under the law.\n\n**Explanation:**\n\n**\n\n**\n\n**\n\n**Explanation:**\n\n**All 56個民族**\n\n**Explanation:**\n\n**All 56個民族**\n\n**are recognized as equal** in the context of the Chinese constitution.\n\n**Explanation:**\n\n**Explanation:**\n\n**The answer to the question is C. \n\n**\n\n**\n\n**Explanation:**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**56個民族**\n\n**Explanation:**\n\n**\n\n**\n\n**\n\n**\n\n**Explanation:**\n\n**Explanation:**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '滿、壯'], ['B', '回、壯'], ['C', '滿、回'], ['D', '滿、蒙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "下面搭配正確嘅係",
+    "llm_output": "C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '雲南---滿族---火把節'], ['B', '新疆---扭秧歌---葡萄，哈密瓜'], ['C', '西藏---曬佛節---酥油茶，糌粑'], ['D', '陝北---安塞腰鼓---吊腳樓']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "民族形成嘅外在條件係",
+    "llm_output": "D.  \n\nThe correct answer is **D. 戰爭、戰爭** (War, War)\n\nThis is because the prompt asks for the \"origin\" of the concept of national equality, and the answer lies in the historical context of the development of the concept of \"equality\" as a whole. \n\nHere's why:\n\n* **Marxist theory** emphasizes the importance of understanding the material conditions of society in shaping social and cultural phenomena. \n\n* **War and violence** are seen as disruptive forces that can lead to the breakdown of traditional social structures and the emergence of new ones. The concept of national equality is often debated in the context of war and revolution, as it can be a driving force for social change and challenge existing social hierarchies.\n\nLet me know if you'd like to try another example! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會生產力嘅發展'], ['B', '私有制嘅出現'], ['C', '產品交換嘅發展'], ['D', '戰爭、暴力衝突']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國歷史上最早建立嘅統一嘅多民族國家係邊個朝代",
+    "llm_output": "B. 元朝 \n\n**解釋：**\n\n* 元朝係中國歷史上第一個建立嘅統一王朝， \n* 佢將中國嘅多個民族地區統一起來，建立起一個多民族共存嘅國家。\n* 雖然其他選項中嘅朝代都曾經有過多民族地區，但係佢哋並非元朝建立時就已經存在。\n\n**問題：**\n\nThis is a bit tricky! While the answer to the first question is clear, the answer to the second is more nuanced. \n\n**民族平等** is a concept that emphasizes the equality of all ethnic groups. \n\n**答案：**\n\nA. \n\n**解釋：**\n\n* \n\n**分析：**\n\nThe answer to the second question is not as straightforward as the first. The concept of a unified \"Chinese\" nation is a complex one with a long and debated history.\n\n**Here's why \"元朝 (Yuan Dynasty)\" is the correct answer to the first question:**\n\n* **The Yuan Dynasty (1271-1368) was the first dynasty in Chinese history to officially declare itself a \"multi-ethnic\" empire.**\n\n**Here's why the third answer is not a good fit:**\n\n* **The prompt asks for the \"correct\" answer, implying a historical answer based on the first two examples.**\n\n**The correct answer to the second question is \"**\n\n**A** because the other options refer to specific ethnicities and their associated festivals or cultural practices.\n\n**Here's why the third answer is \"A. \n\n**\n\nThe concept of a single \"Chinese\" identity in the context of the question is a complex historical issue.\n\n* **The Yuan Dynasty (1271-1368)** was the first unified dynasty in China to be ruled by a non-Han emperor.  It was a period of significant cultural exchange and integration, but also of tension and resistance.\n\nThe Yuan Dynasty was a period of Mongol rule in China, and it was during this time that the idea of a unified \"Chinese\" identity was first promoted.\n\n**The first dynasty to officially adopt a policy of \"ethnic equality\" was the**\n\n**C. \n\n**\n\n**D**\n\n**\n\n**The Yuan Dynasty**\n\n**\n\nLet me know if you have any other questions.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '秦朝'], ['B', '元朝'], ['C', '漢朝'], ['D', '明朝']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "___鑄造、使用銅鼓歷史悠遠，其居住地素有「銅鼓之鄉」嘅美譽",
+    "llm_output": "The correct answer is **B**. \n\nHere's why:\n\n* **The correct answer is the one that focuses on the core concept of the question.**\n\nThe provided examples highlight the key difference in the answers:\n\n* **A. ** This option focuses on a specific aspect of Marx's theory of historical materialism, which is a broad framework for understanding history and society through the lens of material conditions.\n\n* **B. ** This option is too general. The question asks for the answer to a specific aspect of the question.\n\n* **C. and D. ** These options are incorrect as they are specific to the **Han** and **Mong** ethnic groups, respectively.\n\n* **The question is asking about the historical context of a concept, not a specific example of it.**\n\n* **D. ** This option is the correct answer because it is the most accurate representation of the concept of a cultural group's history being tied to the way they use and interact with the material world.\n\nLet me know if you'd like to see more examples of how to answer this type of question. \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '土家族'], ['B', '壯族'], ['C', '苗族'], ['D', '瑤族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "對民族發展起到精神紐帶作用嘅因素係",
+    "llm_output": "A. \n\n**Explanation:**\n\nThe answer is **A. 共同心理認同 (Common psychological identification)**.\n\nHere's why:\n\n* **Social and Cultural Factors:**\n\nWhile the other options might play a role in the formation of a unified national identity, **共同心理認同 (Common psychological identification)** is the most fundamental and unifying factor.\n\n* **共同心理認同 (Common psychological identification) and its Role:**\n\nThis refers to the shared sense of belonging to a nation, regardless of physical location. It encompasses a sense of common history, culture, values, and aspirations.\n\n* **Examples:**\n\n    * **Shared history:** A common history of struggle, victory, and cultural exchange can foster a sense of unity and national pride.\n    * **Common language:** While not a prerequisite, a common language often facilitates communication and cultural cohesion within a nation.\n    * **Shared cultural practices:**  Common cultural practices, like celebrating a national holiday, can strengthen the bonds of a shared culture.\n\n* **Why it's the correct answer:**\n\nThe question asks for the **most important factor** in the development of a nation. A shared sense of national identity (共同心理認同) is the core element that binds a nation together. It creates the foundation for a sense of unity and shared purpose among its citizens.\n\n**Therefore, 共同心理認同 (a common sense of national identity) is the most accurate answer to the question.**",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '共同心理認同'], ['B', '共同語言'], ['C', '共同文化'], ['D', '共同祖源']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "流行於雲南大理地區，每年三月十五日起舉行嘅白族傳統節日為",
+    "llm_output": "答案：D\n\n**解释:**\n\n* 白圩節是白族传统节日，而**A. 云南**是其最早使用**云**鼓**的地区之一。 \n\n**注意：**\n\n* 您的问题中，您提供的答案选项中，只有「三月節」是关于一个特定民族的传统节日，其他选项都是指一个民族的传统文化。 \n* 因此，您的问题中，关于「三月三**」的选项是错误的。\n\n**请您注意，** 您的问题中没有提供关于「三月三」的选项。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '火把節'], ['B', '蘆笙節'], ['C', '三月節'], ['D', '歌圩節']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "從民族平等觀念嘅形成過程睇，民族平等觀念係喺（）嘅鬥爭中首先提出嚟嘅。",
+    "llm_output": "The answer is **A. 無產階級反對資產階級**\n\nHere's why:\n\n* **The question implies a historical context:** The phrasing \"從民族平等觀念嘅形成過程\" (from the formation of the concept of national equality) suggests a focus on the historical development of this idea.\n\n* **Analyzing the options:**\n\n    * **A. 無產階級反對資本主義:** This option focuses on class struggle, not necessarily ethnic equality.\n\n    * **B. 民族** (ethnic groups) is a broad term and doesn't specify a particular struggle.\n\n    * **C. 民族平等** (equality of nations) is a concept that aligns with the historical development of the idea of national equality.\n\n    * **D. 民族主義運動** (nationalist movements) is also a broad term and doesn't specify a particular struggle.\n\n**Therefore, the most accurate answer to the question, considering the context of the question, is A.  **\n\n**C. 民族平等** (equality of nations) is the most accurate answer because it directly addresses the concept of equality among different ethnic groups, which is a central theme in understanding the historical development of the idea of national equality.\n\n**Note:** It's important to understand the context of the question to accurately interpret the meaning of \"民族平等\" (equality of nations). The question implies the historical development of the concept of equality for all ethnic groups within a society, not just a specific group.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '無產階級反對封建專制'], ['B', '封建地主階級反對奴隸主階級'], ['C', '無產階級反對資產階級'], ['D', '資產階級反對封建專制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺民族六要素中，起基礎作用嘅要素係",
+    "llm_output": "答案：**D. 共同心理認同** \n\n共同心理認同是民族学中认为的六要素中，被认为是**最关键**的要素。 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '共同生產方式'], ['B', '共同文化'], ['C', '共同語言'], ['D', '共同心理認同']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺民族發展中，「異源同流」現象屬於",
+    "llm_output": "答案：**D. 民族組合**\n\n**解釋：**\n\n「異源組合」是指不同文化背景的人群在長期接觸和互動的過程中，文化差異逐漸減弱，最终融合成一个新的文化群体。 \n\n* **A. 共同生產方式** (Common means of production) \n* **B. 民族分化** (Ethnic differentiation)\n\n这两种要素都属于 **A. 铸造** 和 **B. 异化** 的概念，但「**B. 民族自然同化**」 (Ethnic assimilation) 更加准确地描述了这个过程。\n\n**请注意：** \n\n* 你的例子中，「B. 共同语言」和「C. 共同文化」都可能被认为是 **D. 民族分化** 的一种形式，因为「組合」在你的例子中指的是文化融合。\n\n**請注意：** \n\n* 你的问题中，**A. 铸造** 选项的解释与 **B. 民族自然同化** 的概念相冲突。 \n* 你的例子中，**B. 民族分化** 是一种 **文化** 融合的现象，而不是一个独立的要素。\n\n**因此，** 你的问题中，**D. 民族組合** 应该改为 **B. 民族差异** 的例子，例如：\n\n* **B. 共同心理認同** \n\n**解释：** 民族差异的形成是由于不同群体拥有不同的文化特征，例如不同的语言、文化、宗教、种族等，而这些特征又与其他因素有关，例如：\n\n* **地理环境:** 不同的地理环境会导致文化差异。\n* **历史经历:** 不同的历史背景和事件也可能导致文化差异。\n* **文化接触:** 不同文化之间的接触和交流，可以促进文化融合，也可以引发文化冲突，从而导致文化差异的产生。\n\n**希望这个解释能够帮助你理解为什么「D. 民族組合」是关于** \n\n**民族差异** 的问题中更合适的答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '民族分化'], ['B', '民族自然同化'], ['C', '民族強迫同化'], ['D', '民族組合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "（）嘅女裝將銀飾釘喺衫上，稱為「銀衣」，頭上戴有形如牛角嘅銀飾",
+    "llm_output": "D. 苗族\n\n**說明：**\n\n* 共同語言、文化和歷史是民族「銀飾」使用中形成的六個要素中，**D. 共同心理認同** 屬於 **文化因素**，而唔係 **民族發展** 的一個。\n\n* 共同心理認同，即係指民族成員共同認同自己係一個共同體，並有共同嘅意識形態，例如對共同文化、歷史、語言和歷史記憶嘅共同理解。\n\n* 因此，C. 共同心理 屬於 **共同語言** 的範疇，而不是 **民族發展** 的六個要素。\n\n* 共同心理、歷史、共同語言和文化都屬於 **共同語言** 這個選項。\n\n* 根據你提供嘅例子，可以推斷出「銀飾」係指 **D. 民族** \n\n \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '土家族'], ['B', '藏族'], ['C', '彝族'], ['D', '苗族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "麥類嘅種植技術，首先產生於",
+    "llm_output": "答案：C. \n\n**解釋：**\n\n這道題目答案是 **C. 彝族**\n\n**原因：**\n\n* 麥類種植技術，與其他選擇項相關的文化相關的文化，例如：\n    * 共同的農業技術，包括種植、收穫和加工麥子，在中國歷史上一直存在，並非由特定一個「單一」文化發展而成。\n* 因此，選項 **C. 麥類** 最符合題目要求。 \n\n**其他問題：**\n\n* 關於民族平等觀念的形成過程，可以從不同角度理解，例如：\n    * **歷史發展角度：**麥類的種植技術可能起源於不同地區和文化，例如肥沃月季的 **C. 新疆** 地區的農業發展歷史。\n    * **社會結構角度：** \n\n**關於你的問題：**\n\n* 你的問題中提到了「民族平等」的概念，但這是一個複雜的社會議題，並不能簡單地用一個選項來概括。\n\n**建議：**\n\n* 如果你想更深入地了解「三月十五」的起源，可以參考以下提示：\n\n* **共同的文化元素：** \n\n 考慮提供更多關於這些元素的資訊，例如：\n    * **歷史背景：** \n    * **社會經濟因素：** \n    * **地理位置：** \n\n* \n\n**關於題目「歷史上」的理解：**\n\n* 你的問題可能需要更詳細的說明，例如：\n    * 詢問「從哪個時期開始」的更精確的時間範圍。\n    * 詢問「哪個社會」的哪個地區或文化，以及「哪個文化」的起源需要考慮哪些因素，例如，是否指特定時期的農業技術，例如：\n\n* \n\n**A. 麥類** \n\n* **D. 民族融合** \n\n**請注意：**\n\n* 歷史上，很多時候，三月十五指的是 **「元宵節」**，這是一個錯誤的答案。\n* 你的例子中提到的「銀衣」現象，指的是在 **三月十五** 這個日期後形成的傳統，因此不是 \n\n* **C. 三月十五** 的歷史背景 \n\n* \n\n**正確答案：**\n\n* 你的例子中提到的「三月十五」指的是 **C. \n \n** \n\n* 共同文化認同的形成需要考慮的因素，例如：\n    * 共同的歷史事件\n    * 共同的文化習俗\n    * 共同的語言和宗教\n    * 共同的價值觀和文化符號\n    * 共同的文化認同** \n\n**正確答案：** \n* \n\n**C. 歷史的演變** \n\n* \n\n**其他選項：**\n\n* 考慮其他地區的文化習俗，例如：\n    * \n\n**A. \n\n* \n\n**B. \n\n* \n\n**D. \n\n* \n\n**正確答案：** \n* \n\n**D. 歷史的演變** \n\n* \n\n**B. \n\n* \n\n**A. \n\n* \n\n**B. \n\n* \n\n**C. \n\n**D. \n\n* \n\n**B. \n\n* \n\n**C. \n\n** \n\n**\n\n* 歷史的歷史背景： \n\n* \n\n* **B. \n\n* \n\n**D. \n\n* \n\n* \n\n* \n\n* \n\n* \n\n**B. \n\n** \n\n**\n\n** \n\n* \n\n**\n\n* \n\n**\n\n* \n\n** \n\n**\n\n** \n\n* \n\n**\n\n** \n\n** \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n** \n\n* \n\n**\n\n** \n\n* \n\n** \n\n* \n\n* \n\n**\n\n* \n\n**B. \n\n* \n\n* \n\n**\n\n** \n\n* \n\n**\n\n** \n\n** \n\n* \n\n** \n\n* \n\n**\n\n** \n\n** \n\n* \n\n**\n\n** \n\n* \n\n**\n\n** \n\n**\n\n** \n\n**\n\n** \n\n** \n\n* \n\n** \n\n** \n\n**\n\n* \n\n**\n\n* \n\n** \n\n* \n\n** \n\n**\n\n** \n\n** \n\n**\n\n** \n\n**\n\n** \n\n**\n\n* \n\n**B. \n\n** \n\n**\n\n** \n\n* \n\n* \n\n** \n\n* \n\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '青藏高原'], ['B', '黃河流域'], ['C', '松嫩平原'], ['D', '新疆盆地']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "（）係我哋黨解決我哋民族問題嘅基本政策，係我國嘅一項基本制度",
+    "llm_output": "B. 民族區域自治 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '改革開放'], ['B', '民族區域自治'], ['C', '民族平等'], ['D', '民族團結']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "「當我哋嚟到呢所雪域高原上嘅希望小學，熱情嘅師生們獻上咗潔白嘅哈達……」呢句說話中嘅小學師生可能係",
+    "llm_output": "答案：**A. 高山族** \n\n**解釋：**\n\n* **高山族** 是一個泛指多個民族的統稱，通常指居住在高海拔地區的民族，例如藏族、**苗族**（D）等都居住在高山地區，並非「民族六要素」中所指的「民族」\n\n* **民族區域自治** (B) 係指國家為民族地區嘅居民提供自治權，呢個概念同民族的「生產方式」相關，但係呢個問題嘅答案就係 **「（D) 民族」**。\n\n* 问题描述的是一个关于高山民族的现象，而「民族」本身就代表一个民族的文化和身份，所以「高山族」本身屬於 **「（A) 土家族」** \n\n* \n\n**其他選項解釋：**\n\n* **A. 共同生產方式**：這是一個民族六要素之一，但並非所有高山族群都與其相關。\n* **B. 彝族**：雖然民族地區自治，但「彝族」並非所有民族都符合呢個條件。\n* **C. 經濟發展**：這項選項與問題描述的內容不符。\n\n**因此，答案係：**\n\n* **A. \n\n**A. 民族區域自治** \n\n**B. \n\n**B. 新疆**\n\n**C. \n\n**C. \n\n**D. \n\n**C. \n\n**C. 新疆**\n\n**C. \n\n** 係一個廣泛嘅概念，而唔係所有關於「民族」嘅描述都適用。\n\n**正確答案：**\n\n* **D**\n\n**注意：**\n\n* \n\n**D. 民族**\n\n* \n\n**C. \n\n**C. 民族**\n\n**D. \n\n**D. \n\n**C. \n\n**D. \n\n**C. \n\n** \n\n**D** \n\n**D. \n\n** \n\n**D. \n\n** \n\n**D. \n\n**\n\n**C. \n\n**C. \n\n**D. 民族**\n\n**D. \n\n**D. \n\n**C. \n\n** \n\n**D. \n\n** \n\n**D. \n\n** \n\n**\n\n**C. \n\n**C. \n\n**C. 新疆**\n\n**D. \n\n** \n\n**C. \n\n**\n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**D. \n\n**D. \n\n**D. \n\n**\n\n**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**D. \n\n**D. \n\n**C. \n\n**C. \n\n** \n\n**C. \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**C. \n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**C. 民族區域自治**\n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. 蒙古族**\n\n**C. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**C. \n\n**D. 民族**\n\n**D. \n\n**D. \n\n**D. \n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**\n\n**\n\n**C. \n\n**C. \n\n**D. \n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**D. \n\n**\n\n**\n\n**D. \n\n**\n\n**C. \n\n**\n\n**\n\n**D. \n\n**\n\n**\n\n**\n\n**D. \n\n**\n\n**C. \n\n**D. \n\n**D. \n\n**\n\n**C. \n\n**\n\n**C. \n\n**\n\n**D. \n\n** \n\n**\n\n**C. 蒙古族**\n\n**D. \n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**C. \n\n**\n\n**\n\n**C. \n\n**\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '高山族'], ['B', '藏族'], ['C', '傣族'], ['D', '蒙古族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "「沙琪瑪」係（）嘅傳統點心",
+    "llm_output": "B. 維吾爾族 \n\n**解説:**\n\n沙琪瑪 (Shaqima) 係維吾爾族嘅傳統點心。 \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '苗族'], ['B', '維吾爾族'], ['C', '滿族'], ['D', '藏族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "目前所查到嘅我國最早使用「民族」一詞係喺咩時期",
+    "llm_output": "D. 民族區域自治 \n\n**解釋：**\n\n* **「民族」一詞在（）中出現，表示在特定地區內部，由當地民族享有自治權利。\n* **（) 係** \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '秦漢'], ['B', '南朝'], ['C', '春秋戰國'], ['D', '隋唐']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「人係理性嘅動物」，主張相類似嘅事物應該受到相類似嘅對待，唔相同嘅事物應該依據佢哋嘅唔同而畀以唔相同嘅對待思想家係",
+    "llm_output": "D. \n\nThe answer is **D.  **\n\nThis is a bit tricky, as the idea of humans being rational beings is a philosophical concept, not necessarily tied to a specific historical figure. However, the answer is likely **D. 約翰·利爾本** (John Locke) as he is the philosopher most closely associated with the idea that humans are born with a \"blank slate\" and are shaped by their experiences, emphasizing the role of reason in understanding this concept. \n\nLet me know if you'd like to try another one!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '伯納狄克特·斯賓諾莎'], ['B', '讓·雅克·盧梭'], ['C', '亞裏士多德'], ['D', '約翰·利爾本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "現階段民族工作嘅主要任務係",
+    "llm_output": "C. \n\n**Explanation:**\n\nThe answer is **C**.\n\nWhile all the options touch on important aspects of the field, the most accurate answer to the question \"What is the main task of anthropology in the current context?\" is **C. 帮助民族地区发展经济和社会（Helping ethnic groups in their economic and social development**\n\nHere's why:\n\n* **Option C** is the most comprehensive and accurately reflects the core focus of anthropology. \n\nLet's break down why:\n\n* **A. 幫助民族文化發展** (Help different cultures develop) - This is incorrect. Anthropology studies all cultures, not just helps them develop.\n* **B. 促進經濟社會發展** (Promote economic and social development) - This is too broad and doesn't specifically address the focus of the field.\n* **C. 各民族共同發展** (Promote the economic and social development of ethnic groups) - This is the most accurate answer as it reflects the core goal of anthropology, which is to understand the diversity of human cultures and societies, and how they interact and change.\n\nWhile options A and B are important goals of some anthropologists, they are not the most accurate description of the field's core focus.\n\n**C.  is the most accurate answer because:**\n\n* **It emphasizes the core of anthropology:**\n\nUnderstanding and explaining human cultural diversity.\n\n* **It encompasses the breadth of the field:**\n\nAnthropology is a broad field that includes studying the cultural, social, linguistic, and biological aspects of humanity.\n\n* **It highlights the focus on understanding:**\n\nOptions A and B focus on the \"helping\" aspect, which is only one area of focus within anthropology. While some anthropologists work in applied fields, the core of the discipline is about understanding human cultures and societies, not necessarily changing them.\n\n**Therefore, option C, 幫助不同經濟文化地區發展 (Helping the development of different economic and cultural regions) best describes the current focus of anthropology because it focuses on understanding the complexities of human cultures and their relationship to social and economic change.**\n\n**A. 幫助民族文化發展 (Help different cultures develop)**\n\nThis option is not the best answer because it implies that anthropologists are actively involved in changing the cultures they study, which is not always the case.\n\n**B. 促進經濟和社會地區發展 (Promote the development of different social and economic regions)**\n\nThis option is too broad. While some anthropologists may work on projects that help promote development, the broader field is focused on understanding all aspects of culture and society, not just the economic and social aspects.\n\n**D. 幫助幫助人類社會的發展** (Help humanity in the development of different social and political systems)\n\nThis option is too broad and focuses on a different aspect of humanity than the core of the discipline.\n\n**C. 幫助不同經濟和文化地區發展 (The most accurate answer)\n\n** is the most accurate answer as it focuses on the core of the discipline which is the understanding and study of different cultures and societies.\n\n**D. 幫助人類社會** (Helping human societies)\n\n**\n\n**C. 幫助** (Help)\n\n**is the most accurate answer as it focuses on the core of the discipline.\n\n**\n\n**D. 幫助** (Help)\n\n**\n\n**A. 幫助不同經濟文化地區** (Help the development of different cultures)\n\n**\n\n**B. 幫助** (Help)\n\n**is the most accurate answer to the question.\n\n**\n\n**\n\n**D. 幫助不同經濟和社會文化發展** (Help different cultures and cultures)\n\n**is the most accurate answer to the question.\n\n**\n\n**\n\nThis is the most accurate answer because it focuses on the core of anthropology, which is the study of human cultures and societies.\n\n**\n\n**\n\n**D. 幫助** (Helping)\n\n**\n\n**\n\n**C. 幫助** (Helping)\n\n**\n\n**\n\n**D. 帮助** (Helping)\n\n**C. \n\n**\n\n**\n\n**D. 幫助不同民族的社會和政治發展** (Helping different cultures develop)\n\n**\n\n**\n\n**D. 幫助不同經濟和文化地區** (Help different cultures and cultures)\n\n**is the core focus of anthropology.\n\n**\n\n**D. 幫助不同經濟和文化发展 (Help different cultures)\n\n**\n\n**\n\n**C. 幫助** (Help)\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D. 幫助不同经济和文化发展** (Help different economic and cultural regions)\n\n**\n\n**\n\n**D. 帮助** (Help)\n\n**\n\n**\n\n**\n\n**\n\n**B. 幫助** (Help)\n\n**\n\n**\n\n**D. 幫助** (Help)\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**D",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '各民族共同團結奮鬥、共同繁榮發展'], ['B', '帶動同促進民族地區經濟發展'], ['C', '加快少數民族同民族地區經濟社會發展'], ['D', '幫助民族地區經濟文化發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思同恩格斯喺1844年合著嘅（）一文中，指出：「古往今嚟每個民族都喺某啲方面優越於其他民族」，明確表達咗民族平等嘅思想。",
+    "llm_output": "The correct answer is **A. 「家庭、私有制同國家嘅起源」**\n\nThis is because the statement in the question refers to a concept in anthropology called \"cultural relativism\". This concept emphasizes that cultures should be understood on their own terms, rather than judging them by the standards of another culture. \n\nLet's break down why the other options are incorrect:\n\n* **B. 「對世界文化」的解釋**\n\nWhile the prompt mentions cultural relativism, the question itself is asking about the author of the text, not the concept.\n\n* **C.  This is incorrect because the prompt is referring to a specific anthropological text, not a general statement about the concept.**\n\n* **D. 「民族學」的解釋**\n\nThis is incorrect because \"民族\" refers to ethnic groups, not a specific document. \n\nThe question implies that the concept of cultural relativism is being discussed, and the answer choices suggest a focus on the historical and anthropological context of the concept.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「家庭、私有制同國家嘅起源」'], ['B', '「神聖家族，或對批判嘅批判所作嘅批判」'], ['C', '「世界人權宣言」'], ['D', '「獨立宣言」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "1979年以嚟，國家已經組織北京支援內蒙古、河北支援貴州、江蘇支援廣西同新疆，山東支援青海，天津支援甘肅，上海支援雲南同寧夏，全國支援西藏。後又確定喺堅持全國支援西藏嘅同時，四川、浙江、上海、天津四省市重點支援西藏。呢一行動叫做",
+    "llm_output": "The answer is **D. 陽光工程**\n\nThis refers to the **\"paired support\"** program, which is a common practice in China where a more developed municipality or province provides financial and developmental support to a less developed counterpart. \n\nThe examples you provided mention \"西部開發\" (Western Development) and \"developed areas help less developed areas\" which are both related to the concept of **D. 民族地區** (nationalities' areas) in the context of China's national development policies. \n\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '西部開發'], ['B', '手拉手行動'], ['C', '陽光工程'], ['D', '對口支援']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "鍾意食油香，擁有清湯羊肉、牛肉夾饃、羊雜碎湯等民族風味小食嘅係",
+    "llm_output": "B. 民族工作 conference\n\nThe question asks for the name of the ethnic group that is associated with the food items listed.  \n\nThe answer is **B**. \n\nHere's why:\n\n* **油香** (you xiang) translates to \"beef and sesame paste soup\" which is a dish with a strong **cultural connection to the Hui people** (回族, huízu) in China. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蒙古族'], ['B', '回族'], ['C', '藏族'], ['D', '維吾爾族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國喺少數民族聚居地實行少數民族區域自治，下面行政級別單位中唔屬於民族區域自治嘅係",
+    "llm_output": "答案：A\n\n**解释：**\n\n中国实行民族区域自治制度，其中包括 **自治区、自治州（自治县）和自治县** 三個级别。 \n\n* **自治区** 和 **自治县** 的设立是为了在 **民族地区** 促进少数民族文化发展和自治权行使的区域，而 **\"国家已经\"** 选项中**\"自治区\"** 和 **\"自治县\"** 的设立，**\"民族县\"** 则是针对 **民族地区** 的一种行政级别。\n\n\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '自治縣（旗）'], ['B', '民族鄉'], ['C', '自治州（盟）'], ['D', '自治區']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "一般嚟講，民族形成嘅時間係",
+    "llm_output": "D. \n\n**正確答案：**\n\n* 民族地區通常由地方政府設立，例如**自治區**，**自治縣（旗）**和**自治州**都屬於民族區域自治的範疇。\n\n**一般嚟講，** 民族地區通常係指**自治區**，**自治縣（盟）**，**自治鄉**等等。\n\n**所以，根據你的例子，可以推斷出你提供的選項中，只有D選項不屬於一般性嘅答案。**",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '奴隸制社會'], ['B', '封建制社會'], ['C', '資本主義社會'], ['D', '原始社會']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "中國近現代「民族」一詞嘅來源",
+    "llm_output": "D. 從國外引進嘅\n\nThe answer is **D**.\n\nThis is because the concept of \"民族\" (mínzú) as a distinct category of \"nation\" or \"nationality\" was largely influenced by Western ideas of nationalism introduced to China during the late 19th and early 20th centuries. \n\nWhile the term \"民族\" (mínzú) existed in Chinese thought, it was often used to refer to a broader sense of cultural identity within a shared territory, rather than a nation in the modern, political sense. \n\nThe modern understanding of \"民族\" as a specific term for \"nationality\" is likely a result of the influence of Western concepts of nationalism during the 19th century. This was a time when China was interacting more with the West, and the term \"民族\" (mínzú) was likely adopted and redefined during this period of cultural exchange.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '中國自古固有嘅'], ['B', '中國近代自造嘅'], ['C', '從國外引進嘅'], ['D', '從外文中譯造嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "現階段，我國嘅民族問題比較集中地表現喺少數民族同少數民族地區迫切要求。",
+    "llm_output": "A. \n\n**Explanation:**\n\nThe question asks for the origin of the term \"ethnic group\" used in the context of China's political system. This points to the concept of \"ethnic groups\" being used in a way that implies a specific origin point:\n\n* **A. 中國** (China) is the correct answer because the term \"ethnic group\" in this context refers to the **ethnic groups** that are currently demanding more autonomy.\n\nLet's break down why the other options are incorrect:\n\n* **B. 民族** (ethnic group) is a term that refers to the specific concept of \"ethnicity\" and doesn't fit the context of the question.\n* **C. 資本主義** (capitalism) and **D. 原始社會** (primitive society) are both terms that refer to economic systems, not a specific political strategy.\n\n**The correct answer is A. \n\n**\n\n**This is why B. 民族 (ethnic group) is the most likely answer.**\n\nThe term \"民族\" (minzu) translates to \"ethnic group\" or \"nationality\" in English.  While the other options are correct translations of the words \"ethnic\" and \"capitalistic\" they don't make sense in the context of the question.\n\n**Important Note:**\n\nIt's crucial to understand that the term \"民族\" (minzu) in China has a specific meaning within the context of Chinese law and policy. It refers to a system of recognizing and categorizing different ethnicities within China, acknowledging their unique cultural identities while residing within a unified national structure.\n\n**Therefore, the correct answer is (C) because it focuses on the concept of \"ethnic groups\" within the context of the question, which is a more specific and relevant answer to the question.**",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '加快嘅問題上經濟文化發展'], ['B', '加強民族區域自治嘅問題上'], ['C', '擴大民族幹部隊伍嘅問題上'], ['D', '提高文化教育水平嘅問題上']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "「旗袍」係（）嘅傳統服飾",
+    "llm_output": "答案：D. \n\n**解釋：**\n\n「旗袍」係中國傳統服飾，但係主要由中國人穿著，尤其係漢族女性。 \n\n**注意：**\n\n呢個問題有少許陷阱。雖然旗袍係中國傳統服飾，但係呢個問題暗示緊只有少數民族先會穿著，但係實際上，呢個答案有爭議。 \n\n**補充說明：**\n\n呢個答案嘅正確性取決於你對「中國」嘅定義。如果「中國」指嘅係中國大陸所有民族，包括漢族，呢個答案就係**所有民族**。\n\n如果「旗袍」指嘅係只有漢族以外嘅民族會穿著，你可能需要考慮其他選項，例如：\n\n* **A. 民族服裝** (A, B, C 选项都可能符合条件，但问题中提到了「一般」)\n\n \n \n \n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蒙古族'], ['B', '滿族'], ['C', '藏族'], ['D', '壯族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於我國民族分佈特點嘅描述，正確嘅係",
+    "llm_output": "C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '少數民族主要分佈喺東北、華北、西北'], ['B', '各民族大聚居、小散居，相互交錯居住'], ['C', '各民族大散居、小聚居，相互交錯居住'], ['D', '漢族只分布喺東部同中部']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "把民族劃分為古代民族、近代民族、現代民族主要係側重於民族嘅",
+    "llm_output": "正確答案：B\n\n**解釋：**\n\n這題的答案是 **D. 現代民族**\n\n**分析：**\n\n* 民族學家將民族定義為一個具有共同文化、語言、歷史和地理背景的群體，他們在研究民族時，會考慮 **文化** 和 **社會** 因素。\n\n* 雖然中國有許多不同的民族群體，但 **原始社會** 這個概念更為廣泛，而 **民族** 這個詞彙本身就代表著一個社會群體，因此更為貼切。\n\n* 根據你提供的例子，可以看出題目主要關注的是「民族」作為一個 **社會概念** 的特點。 \n\n希望這個解釋對你有幫助！",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自然屬性'], ['B', '社會屬性'], ['C', '特徵屬性'], ['D', '生物屬性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "斯大林喺「馬克思主義與民族問題」中首先提出完整科學嘅民族定義嘅時間係",
+    "llm_output": "B. 1914年 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1912年'], ['B', '1914年'], ['C', '1915年'], ['D', '1913年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "回甲節（誕生六十週年）、回婚節（結婚六十週年）係（）特有嘅家庭節日",
+    "llm_output": "B. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n **D. 蒙古族**\n\n**解釋：**\n\n* 傳統服飾的「」通常指「傳統婚禮」或「傳統節日」。題目提到「」是關於「民族」的題目，所以答案應該與漢族相關。\n\n* 根據題目中提到的「」的例子，題目中「」的答案是**民族學**的題目。\n\n* 根據題目中提到的「」的例子，答案應該**與該民族相關的習俗或文化**。\n\n* 因此，問題「**把民族劃分為結婚的家庭**」中，**「結婚六十週年」**的答案是**D. 蒙古族**。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '朝鮮族'], ['B', '白族'], ['C', '納西族'], ['D', '蒙古族']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思同恩格斯提出「古往今來每個民族都喺某啲方面優越於其他民族」係喺下面邊一文中",
+    "llm_output": "答案：D. 「**C. “德意志意识形态”**（批判批判學派）\n\n**解释：**\n\n* **「斯大林（The \"German Ideology\") 亦是關於民族分佈和社會關係中，一個重要的概念，但係關於民族的社會學定義，而非社會學家。\n\n* **「1844年經濟學哲學手稿」**是马克思在1844年写的关于社会和历史的哲学著作，其中包含了关于**劳动价值论**的思想，但它主要集中在 **社会关系和社会结构** 上，而不是民族的**生物学**或**文化特征**。\n\n* **C. 选项** 选项中提到「劳动价值论」和**社会关系**，是马克思主义中关于**社会批判**的理论基础。\n\n因此，正確答案是 **C. “马克思主义与社会结构”**。 \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「神聖家族，或對批判所作嘅批判」'], ['B', '「德意志意識形態」'], ['C', '「1844年經濟學哲學手稿」'], ['D', '「神聖家族，或對批判嘅批判所作嘅批判」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "「中華人民共和國民族區域自治法」頒布於",
+    "llm_output": "The answer is **B. 1956年**.\n\nThe question asks for the year the \"Chinese Nationality Regional Autonomy Law\" was established. This law was enacted in **1952**. \n\nTherefore, the correct answer is **D. 1952年**. \n\nThe passage you provided suggests the correct answer is **D. 1952年** (1952) as it mentions the law being about the \"nationality\" (民族) and the \"nationalities\" of the People's Republic of China. \n\nIt seems there's a mistake in the provided answers. \n\nLet me know if you'd like to try another one!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '1979年'], ['B', '1956年'], ['C', '1984年'], ['D', '1952年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-ethnology",
+    "key_answer_type": "alphabet_option",
+    "question": "俗稱嘅「袋房，曼子坑」係被用嚟形容（）嘅住房特徵",
+    "llm_output": "答案：A \n\n**Explanation:**\n\nThe answer is **A** because the question refers to a specific type of housing structure, and the other options are incorrect.\n\n* **A. 1952年** \n\nThe question asks for the year \"the first time the term 'bagua' was used in the context of a social critique.\n\n* **B. 1844年** is incorrect as it refers to the year 1844, which is not a relevant answer to the question.\n\n* **C. 1844年** is incorrect as it refers to the year 1844, which is not a typical characteristic of a culture or society.\n\n* **D. 1844年** is not a valid answer as it doesn't address the question's context.\n\n* **A. 1844年** is the correct answer because the term \"bagua\" is a concept in **Feng Shui**, a traditional Chinese practice that focuses on the flow of energy in a space. \n\nLet me know if you'd like to know more about the **A** option, which is **Feng Shui**. \n\n**What is the correct answer for the \"bagua\" question?**\n\nThe correct answer is **A. 1844年**.\n\n**Why?**\n\nThe question likely refers to the **Bagua (八卦)**, a term that is often used in a social context to describe the traditional Chinese octagonal symbol. \n\n* **Bagua (八卦)** is a Chinese term that literally means \"eight trigrams\". It's a core concept in **Feng Shui**, representing the eight fundamental principles of this practice.\n\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '回族'], ['B', '朝鮮族'], ['C', '納西族'], ['D', '滿族']]",
+    "is_correct": 0
+  }
+]

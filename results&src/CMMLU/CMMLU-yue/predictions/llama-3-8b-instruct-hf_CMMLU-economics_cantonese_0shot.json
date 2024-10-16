@@ -1,0 +1,1592 @@
+[
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種產品價格嘅大幅度減少，導致另一種產品銷量嘅提高，呢兩種產品屬於",
+    "llm_output": "正確答案：C. 替代品",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '獨立品'], ['B', '互補品'], ['C', '替代品'], ['D', '低檔品']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "風險補償率係",
+    "llm_output": "The correct answer is D. 要從無風險貼現率減去，以便喺決策中考慮風險。\n\nThe risk premium is the additional return required by investors to compensate for taking on risk, and it is typically added to the risk-free rate to reflect the expected return of a risky investment.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '加喺無風險嘅貼現率上，以便喺決策中將風險考慮入去'], ['B', '只供風險決策者決策時用'], ['C', 'B同C都啱'], ['D', '要從無風險貼現率減去，以便喺決策中考慮風險']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果其他因素保持唔變，下面邊種情況一定會使需求減少",
+    "llm_output": "The correct answer is C. 收入減少，同時互補品嘅價格上升。\n\nWhen income decreases and the price of a complementary good increases, the consumer's ability to purchase the good decreases, and the good becomes more expensive relative to other goods. This would lead to a decrease in demand.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '收入減少，同時互補品嘅價格下降'], ['B', '收入增加，同時替代品嘅價格上升'], ['C', '收入減少，同時互補品嘅價格上升'], ['D', '收入增加，同時替代品嘅價格下降']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一個行業有好多企業，每個企業銷售嘅產品同其他企業嘅產品有啲唔同，咁嘅市場結構被稱為",
+    "llm_output": "正確答案：A. 壟斷競爭",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '壟斷競爭'], ['B', '完全競爭'], ['C', '寡頭'], ['D', '壟斷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "壟斷競爭企業嘅競爭方式唔包括",
+    "llm_output": "The correct answer is C. 專利競爭 (Patent Competition).\n\nIn a monopolistically competitive market, firms compete with each other through non-price factors such as product differentiation (A), advertising and promotion (D), and price competition (B). However, they do not compete through patent competition, as patents are a means of exclusive rights granted to inventors and do not involve direct competition with other firms.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '產品差異化競爭'], ['B', '價格競爭'], ['C', '專利競爭'], ['D', '廣告同促銷競爭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "提出消費傾向遞減心理規律嘅經濟學家係",
+    "llm_output": "The correct answer is A. 西斯蒙第 (Simon). The law of diminishing marginal utility, which states that as a consumer consumes more of a good or service, the additional utility or satisfaction they derive from each additional unit decreases, is attributed to Herbert Simon.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '西斯蒙第'], ['B', '配第'], ['C', '魁奈'], ['D', '凱恩斯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "需求嘅收入彈性係指",
+    "llm_output": "The correct answer is B. 需求對收入變化嘅反應程度 (Demand's response to changes in income).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '收入對需求變化嘅反應程度'], ['B', '需求對收入變化嘅反應程度'], ['C', '需求同收入嘅相容性'], ['D', '需求同收入嘅相關程度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果投資方案未來全部淨現金效益量嘅現值大於期初投資，企業就應該",
+    "llm_output": "正確答案：B. 接受該方案",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '仲需要再研究'], ['B', '接受該方案'], ['C', '無法確定'], ['D', '拒絕該方案']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺完全競爭市場上，一個企業嘅需求曲線係",
+    "llm_output": "The correct answer is B. 向右下方傾斜嘅線 (a downward-sloping line).\n\nIn a perfectly competitive market, the demand curve for a firm's product is downward-sloping, meaning that as the price of the product increases, the quantity demanded by consumers decreases. This is because higher prices make the product less attractive to consumers, leading to a decrease in demand.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '與橫軸平行嘅線'], ['B', '向右下方傾斜嘅線'], ['C', '與橫軸垂直嘅線'], ['D', '與縱軸平行嘅線']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "最常用嘅三種投資方案評價方法係",
+    "llm_output": "The correct answer is B. 返本期法、淨現值法、內部回報率法",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '返本期法、成本法、內部回報率法'], ['B', '返本期法、淨現值法、內部回報率法'], ['C', '返本期法、淨現值法、成本法'], ['D', '成本法、淨現值法、內部回報率法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "投資方案甲頭三年嘅淨現金效益量分別係100蚊、100蚊同100蚊，投資方案乙頭三年嘅現金效益量分別係80蚊、100蚊同120蚊",
+    "llm_output": "The correct answer is D. 必須作貼現計算，先可以確定邊個方案現值大 (We need to calculate the present value of each scheme to determine which one has a higher present value.)",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '乙方案現值大'], ['B', '甲方案現值大'], ['C', '兩個方案嘅現值相等'], ['D', '必須作貼現計算，先可以確定邊個方案現值大']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "以下現象屬於市場失靈嘅係",
+    "llm_output": "The correct answer is B. 以上全部 (All of the above).\n\nMarket failure, also known as market inefficiency, refers to situations where the market fails to allocate resources efficiently, resulting in outcomes that are not optimal for society. The options listed are all examples of market failure:\n\n* Income inequality (A) is a market failure because it arises from the unequal distribution of resources and opportunities, leading to inefficiencies in the allocation of resources.\n* Market control (C) is a market failure because it refers to situations where a single entity or group has significant influence over the market, leading to inefficiencies and distortions.\n* Natural monopoly (D) is a market failure because it arises when a single firm can supply the entire market at a lower cost than multiple firms, leading to inefficiencies and a lack of competition.\n\nTherefore, the correct answer is B. 以上全部 (All of the above).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '收入唔平等'], ['B', '以上全部'], ['C', '市場控制'], ['D', '自然壟斷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "當長期均衡時，完全競爭企業總係",
+    "llm_output": "The correct answer is B. 正常利潤為零 (Normal Profit is zero).\n\nIn a long-run equilibrium, a perfectly competitive firm will earn normal profit, which is the minimum profit required to keep the firm in business. This means that the firm's revenue equals its total cost, and it does not earn any economic profit (surplus).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '經濟利潤大於零'], ['B', '正常利潤為零'], ['C', '經濟利潤小於零'], ['D', '經濟利潤為零']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "有風險條件下嘅決策，其決策條件係",
+    "llm_output": "The correct answer is A. 決策嘅可能結果有多個，但唔知每種結果發生嘅概率。\n\nThis option describes a situation where there are multiple possible outcomes, but the probability of each outcome is unknown. This is a classic example of a decision-making problem under uncertainty, which is a fundamental concept in economics.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '決策嘅可能結果有多個，但唔知每種結果發生嘅概率'], ['B', '決策嘅可能結果有多個，且每種結果嘅發生概率為已知'], ['C', '決策嘅可能結果有多個'], ['D', '決策嘅可能結果只有一個']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "以下可用於衡量一個國家金融發展水平嘅指標係",
+    "llm_output": "The correct answer is C. 金融比率 (Financial Ratio).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '淨金融資產'], ['B', '國民生產總值'], ['C', '金融比率'], ['D', '流動性金融資產']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面治理通脹嘅宏觀經濟政策中，屬於緊縮性貨幣政策嘅係",
+    "llm_output": "The correct answer is B. 中央銀行喺公開市場上出售政府債券。\n\nThis is a monetary policy that aims to reduce the money supply and curb inflation by selling government bonds in the open market, thereby increasing interest rates and reducing the amount of money in circulation.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '政府削減財政支出'], ['B', '中央銀行喺公開市場上出售政府債券'], ['C', '控制集團購買力'], ['D', '政府確定工資—物價指導線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "實施「次級進口替代」戰略嘅基礎係",
+    "llm_output": "The correct answer is C. 先進嘅科學技術.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '多啲嘅自然資源'], ['B', '多啲嘅勞動力'], ['C', '先進嘅科學技術'], ['D', '發達嘅金融市場']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "假定名義貨幣供應量唔變，價格總水平上升將導致一條向右上方傾斜嘅LM曲線上嘅一點",
+    "llm_output": "The correct answer is B. 沿原LM曲線向上方移動。\n\nWhen the nominal money supply is constant, an increase in the price level will lead to a rightward shift of the LM curve, as the demand for money decreases and the demand for goods and services increases. As a result, the LM curve will shift upward and to the right, indicating a higher level of aggregate demand at each level of interest rates.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '沿原LM曲線向下方移動'], ['B', '沿原LM曲線向上方移動'], ['C', '向左移動到另一條LM曲線上'], ['D', '向右移動到另一條LM曲線上']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於恩格爾系數嘅表述，正確嘅係",
+    "llm_output": "The correct answer is C. 恩格爾系數係食品支出佔消費總支出嘅比重\n\nThe Engel coefficient (恩格爾系數) is a measure of the proportion of income spent on food, and it is defined as the percentage of total consumption expenditure that is spent on food. It is not necessarily related to the overall trend of income or the applicability of Engel's Law (恩格爾定律) in a particular country.\n\nOption A is incorrect because an increase in the Engel coefficient over time does not necessarily mean that Engel's Law is not applicable. It could simply mean that the proportion of income spent on food has increased.\n\nOption B is also incorrect because the Engel coefficient is not necessarily related to the level of income. It is a measure of the proportion of income spent on food, not the overall trend of income.\n\nOption D is incorrect because the Engel coefficient is not necessarily inversely related to income. In some cases, the proportion of income spent on food may increase as income increases, while in other cases it may decrease.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '個別年份我國恩格爾系數上升，說明恩格爾定律喺我國唔適用'], ['B', '隨收入水平提高，恩格爾系數有逐漸增加嘅趨勢'], ['C', '恩格爾系數係食品支出佔消費總支出嘅比重'], ['D', '恩格爾系數隨收入增加總係下降嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種商品價格下降對其互補品最直接嘅影響係",
+    "llm_output": "The correct answer is A. 互補品嘅需求曲線向右移動 (The demand curve of the complementary good shifts to the right).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '互補品嘅需求曲線向右移動'], ['B', '互補品嘅價格下降'], ['C', '互補品嘅供應曲線向右移動'], ['D', '互補品嘅需求曲線向左移動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面屬於二級價格歧視嘅係",
+    "llm_output": "The correct answer is B. 去公園，老人同細路嘅門票低。\n\nThis is an example of second-degree price discrimination, where the price is adjusted based on the consumer's willingness to pay, but not necessarily based on their individual characteristics. In this case, the park offers a lower price to seniors and children, who are likely to be more price-sensitive and have a lower willingness to pay.\n\nThe other options are not examples of second-degree price discrimination:\n\nA. Private clinics charging different prices to different patients is an example of first-degree price discrimination, where the price is adjusted based on individual characteristics.\n\nC. Buying two bars of soap at a discount is an example of a quantity discount, which is a type of price discrimination, but not second-degree.\n\nD. Offering a discounted ticket to students is an example of third-degree price discrimination, where the price is adjusted based on a characteristic (in this case, age) rather than willingness to pay.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '私人診所根據唔同嘅人收取唔同嘅價格'], ['B', '去公園，老人同細路嘅門票低'], ['C', '喺超市同時買兩塊香皂比單獨買一塊香皂單價低'], ['D', '坐火車，學生半價買火車票']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "有限責任公司簽發畀股東嘅出資證明書係一種",
+    "llm_output": "The correct answer is A. 非流通證券 (Non-tradable securities).\n\nThe certificate of capital contribution issued by a limited liability company to its shareholders is a non-tradable security, as it is not a tradable instrument that can be bought or sold on the market.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '非流通證券'], ['B', '證明文書'], ['C', '有價證券'], ['D', '無價證券']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "完全競爭市場上，單個廠商嘅生產要素需求曲線向右下方傾斜嘅原因係",
+    "llm_output": "The correct answer is A. 要素嘅邊際產量遞減 (The marginal product of the factor decreases).\n\nIn a perfectly competitive market, a single firm's demand for a factor of production (such as labor) is downward sloping because the marginal product of that factor decreases as the firm hires more of it. This means that the additional output generated by each additional unit of the factor decreases, making it less valuable to the firm.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '要素嘅邊際產量遞減'], ['B', '等產量曲線向右下方傾斜'], ['C', '要素所生產產品嘅邊際效用遞減'], ['D', '生產嘅規模收益遞減']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "供應嘅變動係指（）唔變條件下，其他因素變動所引起嘅供應嘅變動。",
+    "llm_output": "The correct answer is D. 產量.\n\nThe concept of supply refers to the amount of a good or service that producers are willing and able to produce and sell at a given price level, ceteris paribus (all other things being equal). The supply of a good or service can change due to changes in other factors such as technology, preferences, or the price of related goods, but the supply itself is not considered to be one of the factors that can cause its own variation.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '本身嘅價格'], ['B', '偏好'], ['C', '技術'], ['D', '產量']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "發行對象事先指定，喺小範圍內發行嘅債券係",
+    "llm_output": "The correct answer is C. 私募債券 (Private Placement Bond).\n\nPrivate placement bonds are issued to a specific group of investors, usually institutional investors, and are not publicly offered. The issuer specifies the investors to whom the bonds will be sold, and the issue is typically small-scale.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '抵押債券'], ['B', '公募債券'], ['C', '私募債券'], ['D', '無抵押債券']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "長期生產函數嘅概念係",
+    "llm_output": "The correct answer is C. 生產函數中有嘅投入要素嘅投入量係可變嘅，有嘅固定唔變。\n\nThe concept of long-run production function refers to a production function where some inputs are variable, while others are fixed. This means that some inputs, such as labor and capital, can be adjusted in the short run, but others, such as the firm's organizational structure or the location of the factory, are fixed in the long run.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '生產函數中所有投入要素嘅投入量都係不可變嘅'], ['B', '生產函數中僅有一種投入要素嘅投入量係可變嘅'], ['C', '生產函數中有嘅投入要素嘅投入量係可變嘅，有嘅固定唔變'], ['D', '生產函數中所有投入要素嘅投入量都係可變嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "邊際效用遞減規律表明，隨住消費者對某種商品消費量嘅增加",
+    "llm_output": "The correct answer is C. 該商品嘅效用增量趨於遞減 (The marginal utility of the good tends to decrease).\n\nThe law of diminishing marginal utility states that as a consumer consumes more of a good, the additional utility or satisfaction they derive from each additional unit of the good decreases.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '該商品嘅總效用趨於遞減'], ['B', '該商品嘅效用總量趨於遞減'], ['C', '該商品嘅效用增量趨於遞減'], ['D', '該商品嘅平均效用趨於遞減']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "住房投資依賴於",
+    "llm_output": "The correct answer is B. 以上全部 (All of the above).\n\nThe demand for housing investment is influenced by several factors, including:\n\n* Real interest rate (A): As the real interest rate increases, the opportunity cost of investing in housing increases, which may reduce the demand for housing investment.\n* The size of the adult population (C): As the population grows and ages, the demand for housing may increase.\n* The relative price of housing (D): The demand for housing investment is also influenced by the relative price of housing compared to other assets, such as stocks or bonds.\n\nTherefore, the correct answer is B. 以上全部 (All of the above).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '實際利率'], ['B', '以上全部'], ['C', '成年人口嘅規模'], ['D', '住房嘅相對價格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺完全壟斷市場上，對於任何產量，廠商嘅平均收益總等於",
+    "llm_output": "The correct answer is B. 邊際收益 (Marginal Revenue)",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '市場價格'], ['B', '邊際收益'], ['C', '邊際成本'], ['D', '平均成本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "唔受決策影響嘅非相關成本，稱為",
+    "llm_output": "The correct answer is C. 沉沒成本 (Sunk Cost).\n\nSunk costs are costs that have already been incurred and cannot be changed by any future decision. They are not relevant to the decision-making process because they are not affected by the choice made.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會成本'], ['B', '增量成本'], ['C', '沉沒成本'], ['D', '機會成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果競爭模型係經濟嘅準確描述，咁",
+    "llm_output": "The correct answer is A. 經濟運行喺生產可能性曲線上 (Economic operation is on the production possibility curve).\n\nIn a competitive market, firms produce goods and services at the lowest possible cost, given the available resources and technology. This is represented by the production possibility curve, which shows the various combinations of goods and services that can be produced with a given set of resources.\n\nThe other options are not correct:\n\nB. The utility possibility curve represents the combinations of goods and services that consumers are willing to consume, given their preferences and budget constraints. This is not directly related to the competitive market model.\n\nC. The statement is not entirely accurate. While the production possibility curve is relevant in a competitive market, it is not the only relevant concept. Other factors, such as consumer preferences and market structure, also play important roles in determining the allocation of resources.\n\nD. The Pareto efficiency concept is related to the idea that resources are allocated in a way that is optimal, given the available information and technology. However, this concept is not directly related to the competitive market model.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經濟運行喺生產可能性曲線上'], ['B', '經濟運行喺效用可能性曲線上'], ['C', '以上講法都啱'], ['D', '資源嘅配置係帕累託有效嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "強調發展中國家經濟中特有嘅市場唔完全性、剛性、短缺、過剩、低供應彈性等固有經濟特點，呢正係發展中國家經濟現實與西方傳統經濟理論嘅",
+    "llm_output": "正確答案是 B. 重要區別。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基本相同之處'], ['B', '重要區別'], ['C', '毫不相干嘅論述'], ['D', '內在聯繫嘅表現']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "差別定價存在所需要嘅條件唔包括",
+    "llm_output": "The correct answer is C. 不同市場嘅邊際收入必須唔同。\n\n差別定價 (Price Discrimination) requires that the firm has some degree of control over the price, and that the market is segmented or divided into different groups with different willingness to pay. The firm must also be able to charge different prices to each group without being able to arbitrage the difference.\n\nThe other options are all correct conditions for price discrimination:\n\nA. 產品嘅市場必須係被分割嘅 (The market must be segmented or divided into different groups)\n\nB. 唔同市場嘅價格彈性必須唔同 (The price elasticity of demand must be different in each market)\n\nD. 企業對價格要有一定控制能力 (The firm must have some degree of control over the price)\n\nSo, the correct answer is C. 不同市場嘅邊際收入必須唔同 (The marginal revenue must be different in each market).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '產品嘅市場必須係被分割嘅'], ['B', '唔同市場嘅價格彈性必須唔同'], ['C', '唔同市場嘅邊際收入必須唔同'], ['D', '企業對價格要有一定控制能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "淨出口係指",
+    "llm_output": "The correct answer is B. 出口減進口 (Exports minus Imports)",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '出口加政府轉移支付'], ['B', '出口減進口'], ['C', '出口加進口'], ['D', '進口減出口']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "當政府用某啲資源去修建一條大壩時，呢啲資源就唔可以用於修建高速公路。呢說明咗",
+    "llm_output": "The correct answer is B. 機會成本嘅概念 (Opportunity Cost).\n\nThe statement describes the idea that when the government uses resources to build a dam, those resources cannot be used to build a highway. This illustrates the concept of opportunity cost, which is the value of the next best alternative that is given up when a choice is made. In this case, the opportunity cost of building the dam is the highway that could have been built with those resources.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '微觀經濟學嘅研究對象'], ['B', '機會成本嘅概念'], ['C', '最優化嘅概念'], ['D', '宏觀經濟學嘅研究對象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果中央銀行提高目標通脹率，咁",
+    "llm_output": "The correct answer is C. 貨幣政策規則線將向上移動。\n\nWhen the central bank increases its inflation target, it means it wants to achieve a higher rate of inflation. To achieve this, the central bank would need to loosen monetary policy, which would shift the monetary policy rule line upwards. This is because a higher inflation target requires a more expansionary monetary policy to achieve the desired level of inflation.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '貨幣政策規則將變得更陡峭'], ['B', '均衡點將沿住貨幣政策規則線移動'], ['C', '貨幣政策規則線將向上移動'], ['D', '貨幣政策規則線將向下移動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "生產函數嘅長期係指",
+    "llm_output": "The correct answer is D. 所有投入都可以調整嘅時間 (All inputs can be adjusted over time).\n\nIn economics, the long run refers to a period of time in which all inputs (such as labor, capital, and technology) can be adjusted to their optimal levels. This means that firms can change their production processes, invest in new equipment, and adjust their workforce to maximize their efficiency and profitability. In contrast, the short run refers to a period of time in which some inputs are fixed, such as the number of machines or buildings, and can only be adjusted partially.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1年以內'], ['B', '5年以上'], ['C', '1年以上'], ['D', '所有投入都可以調整嘅時間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面投資工具中，流動性最強嘅係",
+    "llm_output": "正確答案：D. 銀行存款",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唔動產投資'], ['B', '債券'], ['C', '股票'], ['D', '銀行存款']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於風險大小嘅表述，正確嘅係",
+    "llm_output": "The correct answer is C. 預期收益相同，方差大嘅風險大。\n\nThis is because the size of a risk is often measured by its volatility or standard deviation, which is represented by the variance or standard deviation of the returns. If the expected return is the same, but the variance (or standard deviation) is larger, the risk is considered to be higher. This is because a larger variance means that the returns are more spread out, and there is a greater possibility of large losses or gains.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '預期收益細嘅風險就大'], ['B', '預期收益大嘅風險就細'], ['C', '預期收益相同，方差大嘅風險大'], ['D', '預期收益相同，方差大嘅風險細']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "新古典主義回潮理論建立喺兩種理論基礎之上，呢兩種理論基礎係",
+    "llm_output": "The correct answer is D. 傳統嘅自由市場經濟理論同公共選擇理論",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '公共選擇理論同市場失靈理論'], ['B', '新增長理論同公共選擇理論'], ['C', '傳統嘅自由市場經濟理論同新增長理論'], ['D', '傳統嘅自由市場經濟理論同公共選擇理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺壟斷性競爭條件下，企業長期均衡時嘅條件係",
+    "llm_output": "The correct answer is A. P＝AC同MR＝MC.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'P＝AC同MR＝MC'], ['B', 'P＝AC＝MC'], ['C', 'P＝MR＝MC'], ['D', 'MR＝MC']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費者行為嘅基本準則係",
+    "llm_output": "The correct answer is D. 效用最大化 (Utility Maximization).\n\nUtility Maximization is the fundamental principle of consumer behavior, which states that consumers aim to maximize their satisfaction or utility from the goods and services they consume, given their budget constraint.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '成本最小化'], ['B', '支出最小化'], ['C', '收入最大化'], ['D', '效用最大化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "企業應該接受一個投資方案，只要佢嘅回報率",
+    "llm_output": "The correct answer is B. 大於佢嘅邊際資金成本 (Greater than its marginal cost of capital).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '等於佢嘅平均資金成本'], ['B', '大於佢嘅邊際資金成本'], ['C', '大於佢嘅平均資金成本'], ['D', '大於佢喺股票市場將來可能嘅回報']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "長期平均成本曲線成為U形嘅原因同",
+    "llm_output": "The correct answer is D. 固定成本同可變成本所佔比重有關 (The reason is related to the proportion of fixed costs and variable costs).\n\nThe U-shaped long-run average cost curve is due to the combination of fixed and variable costs. As the firm increases production, it first experiences decreasing average costs as it takes advantage of economies of scale, but then it reaches a point where the fixed costs become a larger proportion of the total costs, causing average costs to increase.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '規模報酬有關'], ['B', '要素嘅邊際生產率有關'], ['C', '外部經濟同唔經濟有關'], ['D', '固定成本同可變成本所佔比重有關']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "寡頭壟斷嘅一個顯著特徵係",
+    "llm_output": "The correct answer is C. 有一條非彈性嘅需求曲線。\n\nIn a monopoly, one firm supplies the entire market, and there is no close substitute for its product. As a result, the demand curve for the monopolist's product is non-elastic, meaning that a change in the price of the product will lead to a relatively large change in the quantity demanded. This is in contrast to a competitive market, where the demand curve is typically elastic, meaning that a change in price will lead to a relatively small change in quantity demanded.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '有一條彈性嘅供應曲線'], ['B', '企業之間互相依存'], ['C', '有一條非彈性嘅需求曲線'], ['D', '唔存在市場進入障礙']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "根據經濟法調整嘅特定經濟關係嘅要求，經濟法主體包括邊四類",
+    "llm_output": "The correct answer is D. 國家機關、企業同其他社會組織、企業嘅內部組織同有關人員、農戶同個體經營戶及公民",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '國家機關、企業同其他社會組織、農戶同個體經營戶及公民、公司'], ['B', '法人、公司、公民、聯營企業'], ['C', '有限責任公司、股份有限公司、私人企業、個體工商戶'], ['D', '國家機關、企業同其他社會組織、企業嘅內部組織同有關人員、農戶同個體經營戶及公民']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面投資策略中，最明智嘅策略係",
+    "llm_output": "The correct answer is B. 選擇適當嘅資產組合 (Selecting an appropriate asset allocation).\n\nThis is because diversification is a key principle in investing, and selecting a mix of assets that align with an individual's risk tolerance, investment goals, and time horizon can help to minimize risk and maximize returns.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '將資金全部用於購買風險最細嘅一種資產'], ['B', '選擇適當嘅資產組合'], ['C', '選擇購買一種最好嘅政府債券'], ['D', '將資金全部用於購買可能收益最高嘅一種資產']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果管理者能夠預測出執行決策將來可能會得出幾種結果同每種結果嘅概率係幾多，呢種條件下嘅決策叫做",
+    "llm_output": "The correct answer is A. 不確定條件下嘅決策 (Uncertain Decision-Making).\n\nThis is because the manager is able to predict multiple possible outcomes and their corresponding probabilities, which is a characteristic of uncertain decision-making.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔確定條件下嘅決策'], ['B', '有風險條件下嘅決策'], ['C', '確定條件下嘅決策'], ['D', '無風險條件下嘅決策']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟全球化嘅基礎係",
+    "llm_output": "The correct answer is B. 戰後多邊貿易嘅迅速發展 (Post-war multilateral trade's rapid development).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '戰後科學技術嘅迅猛發展'], ['B', '戰後多邊貿易嘅迅速發展'], ['C', '佈雷頓森林會議體系崩潰'], ['D', '戰後金融市場嘅迅速發展']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "股份有限公司註冊資本嘅最低限額為（）。股份有限公司註冊資本最低限額需高於上述所定限額嘅，由法律、行政法規另行規定。",
+    "llm_output": "The correct answer is B. 人民幣500萬元 (500 million CNY).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人民幣2000萬元'], ['B', '人民幣500萬元'], ['C', '人民幣4000萬元'], ['D', '人民幣1000萬元']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "管理經濟學嘅理論支柱唔包括",
+    "llm_output": "The correct answer is A. 需求彈性理論 (Demand Elasticity Theory).\n\nThe four pillars of management economics are:\n\n1. Price Theory (B)\n2. Cost-Benefit Analysis (C)\n3. Opportunity Cost Principle (D)\n4. Marginal Analysis (not listed, but a fundamental concept in management economics)\n\nDemand Elasticity Theory is a concept in microeconomics, but it is not one of the four pillars of management economics.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '需求彈性理論'], ['B', '價格理論'], ['C', '邊際分析法'], ['D', '機會成本原理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，影響消費傾向嘅客觀因素係",
+    "llm_output": "Correct answer: C. 利息率變化",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '投機'], ['B', '謹慎'], ['C', '利息率變化'], ['D', '貪婪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "會導致生產可能性邊界向外移動嘅係",
+    "llm_output": "正確答案：B. 有用性資源增加或者技術進步",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '失業'], ['B', '有用性資源增加或者技術進步'], ['C', '通脹'], ['D', '消費品生產增加']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "假定生產一種產品嘅固定成本為1800蚊，產品價格為23蚊一件，變動成本為13蚊，要求利潤為600蚊，產量至少應該達到",
+    "llm_output": "Let's calculate the total revenue and total cost:\n\nTotal Revenue = Price x Quantity = 23 x Quantity\nTotal Cost = Fixed Cost + Variable Cost = 1800 + 13x\n\nSince the profit is 600, we can set up the equation:\n\nTotal Revenue - Total Cost = 600\n(23x) - (1800 + 13x) = 600\n\nSimplifying the equation:\n\n10x - 1800 = 600\n10x = 2400\nx = 240\n\nSo, the quantity should be at least 240.\n\nAccording to the options, the correct answer is:\n\nC. 240件",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '340件'], ['B', '580件'], ['C', '240件'], ['D', '460件']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "生產可能性曲線向外凸出嘅原因係",
+    "llm_output": "The correct answer is A. 兩種產品嘅邊際替代率遞增 (The marginal rate of substitution between the two products increases).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '兩種產品嘅邊際替代率遞增'], ['B', '兩種產品嘅邊際替代率遞減'], ['C', '兩種產品嘅邊際轉換率遞增'], ['D', '兩種產品嘅邊際轉換率遞減']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "支持價格與市場均衡價格相比",
+    "llm_output": "The correct answer is C. 低於均衡價格.\n\nWhen the market is not in equilibrium, the price is either above or below the equilibrium price. If the price is below the equilibrium price, it means that the market is in surplus, and the price is too low to clear the market. In this case, the price is said to be \"supporting\" the market, meaning that it is holding up the market and preventing it from clearing.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '等於價格'], ['B', '高於均衡價格'], ['C', '低於均衡價格'], ['D', '都可以']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面講法中錯誤嘅係",
+    "llm_output": "The correct answer is:\n\nB. 只要邊際產量減少，總產量一定都減少\n\nThe statement is incorrect because a decrease in marginal product does not necessarily lead to a decrease in total product. Total product is the sum of all marginal products, and a decrease in marginal product can be offset by an increase in the quantity of the variable input.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '隨住某種生產要素投入量嘅增加，邊際產量同平均產量增加到一定程度將趨於下降，其中邊際產量嘅下降一定先於平均產量'], ['B', '只要邊際產量減少，總產量一定都減少'], ['C', '邊際產量曲線一定喺平均產量曲線嘅最高點與之相交'], ['D', '只要總產量減少，邊際產量一定係負數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於消費水平對消費結構嘅影響嘅講法中，正確嘅係",
+    "llm_output": "The correct answer is B. 消費水平較低時，食品支出比重較高，隨消費水平提高，食品支出比重有下降趨勢。\n\nThis is because when the consumption level is low, people tend to spend a larger proportion of their income on essential goods such as food, clothing, and housing. As the consumption level increases, people are able to afford more discretionary goods and services, such as entertainment, travel, and education, which reduces the proportion of income spent on essential goods like food.\n\nThe other options are incorrect:\n\nA. The proportion of durable goods in consumption expenditure does not necessarily increase with the consumption level.\n\nC. The proportion of expenditure on housing, healthcare, and other essential goods and services does not necessarily decrease with the consumption level.\n\nD. The proportion of labor income in consumption expenditure is not necessarily higher in low-income countries and lower in high-income countries.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '耐用消費品支出比重隨消費水平提高持續提高'], ['B', '消費水平較低時，食品支出比重較高，隨消費水平提高，食品支出比重有下降趨勢'], ['C', '住房醫療等支出項目隨消費水平提高呈下降趨勢'], ['D', '低收入國家勞務支出比重高，高收入國家勞務支出比重低']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果某投資方案未來全部淨現金效益量嘅現值大於期初投資，咁對該方案企業",
+    "llm_output": "The correct answer is A. 應接受 (Should Accept).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '應接受'], ['B', '無法確定'], ['C', '仲需要再研究'], ['D', '應拒絕']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "當單一可變投入要素嘅價格等於佢嘅邊際產量收入時，可變投入要素嘅投入量可使",
+    "llm_output": "The correct answer is D. 企業嘅生產成本最低。\n\nWhen the price of a single variable input equals its marginal product, it means that the marginal revenue product (MRP) of that input is equal to its price. This is known as the optimal input level, where the firm is producing at the point where the marginal benefit of adding one more unit of the input is equal to the marginal cost.\n\nAt this point, the firm's total cost is minimized, which means that the average cost is also minimized. Therefore, option D, \"企業嘅生產成本最低\", is the correct answer.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '企業嘅總利潤最大'], ['B', '企業嘅平均產量最大'], ['C', '企業嘅總產量最大'], ['D', '企業嘅生產成本最低']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果一個管理機構對一個壟斷企業嘅限價啱啱使經濟利潤消失，咁價格要等於",
+    "llm_output": "The correct answer is C. 邊際收益 (Marginal Revenue).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '平均成本'], ['B', '平均可變成本'], ['C', '邊際收益'], ['D', '邊際成本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "您認為企業嘅最優可變投入要素喺邊一階段係合理嘅",
+    "llm_output": "The correct answer is C. 第三階段.\n\nIn the third stage of production, the marginal product of labor is decreasing, and the marginal product of capital is increasing. This means that the optimal variable input for the firm is at the point where the marginal product of labor equals the marginal product of capital, which is the third stage.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '第二階段'], ['B', '第四階段'], ['C', '第三階段'], ['D', '第一階段']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "線性規劃方法係確定多種產品產量最優組合決策嘅有效方法之一。而求解線性規劃問題嘅方法包括",
+    "llm_output": "The correct answer is A. 圖解法、代數法、單純形法 (Graphical method, Algebraic method, Simplex method).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '圖解法、代數法、單純形法'], ['B', '代數法、單純形法、微分法'], ['C', '圖解法、代數法、微分法'], ['D', '圖解法、單純形法、微分法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺實行差別定價時，為使利潤最大，應該使",
+    "llm_output": "The correct answer is C. 企業嘅邊際收入等於每個市場嘅邊際成本。\n\nWhen a firm practices price discrimination, it sets different prices for different markets to maximize its profit. To achieve this, the firm should set its marginal revenue equal to the marginal cost in each market. This is because the firm wants to produce the quantity where the marginal revenue equals the marginal cost, and this quantity is the same for all markets.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '每個市場嘅邊際成本相等'], ['B', '每個市場嘅邊際收入都等於產品嘅邊際成本'], ['C', '企業嘅邊際收入等於每個市場嘅邊際成本'], ['D', '各個市場嘅邊際收入之和等於產品嘅邊際成本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "等成本線嘅斜率取決於",
+    "llm_output": "The correct answer is B. 勞動同資本要素嘅價格 (The slope of the isoquant depends on the prices of labor and capital inputs.)",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '勞動投入嘅數量'], ['B', '勞動同資本要素嘅價格'], ['C', '資本投入嘅數量'], ['D', '科技投入嘅數量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費者將其個人可支配收入喺消費同儲蓄之間分配，係消費者嘅",
+    "llm_output": "The correct answer is A. 資源再分配選擇 (Resource Re-allocation Choice).\n\nExplanation: The consumer's decision to allocate their personal disposable income between consumption and savings is an example of resource re-allocation choice, as they are re-allocating their resources from one use (consumption) to another (savings).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '資源再分配選擇'], ['B', '購買選擇'], ['C', '資源初次分配選擇'], ['D', '資源消費']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果某消費者最初處於均衡狀態，當其貨幣收入增加時，",
+    "llm_output": "The correct answer is A. 會使其新嘅均衡點移向更高水平嘅無差異曲線\n\nWhen a consumer's income increases, they can afford to consume more goods and services, which means they will move up along their indifference curve. As a result, their new equilibrium point will be at a higher level on the indifference curve, which is represented by a higher level of consumption.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '會使其新嘅均衡點移向更高水平嘅無差異曲線'], ['B', '會使其無差異曲線變得更陡，但唔會改變均衡點嘅位置'], ['C', '由於商品價格未發生變化，因此對均衡點嘅位置冇影響'], ['D', '會使其新嘅均衡點移向更低水平嘅無差異曲線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費經濟學研究消費方式問題主要研究",
+    "llm_output": "The correct answer is D. 消費嘅社會實現方式 (Consumption's social implementation way).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費嘅技術方式'], ['B', '消費嘅社會實現範圍'], ['C', '消費嘅自然方式'], ['D', '消費嘅社會實現方式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種商品嘅價格下降會導致其替代品嘅需求量",
+    "llm_output": "The correct answer is B. 減少。\n\nWhen the price of a good decreases, the demand for its substitute goods will also decrease. This is because the good becomes relatively cheaper and more attractive to consumers, leading to a decrease in demand for the substitute goods.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '增加'], ['B', '減少'], ['C', '唔變'], ['D', '唔確定']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "某商品嘅需求收入彈性好細幾乎為零，咁該商品屬於",
+    "llm_output": "The correct answer is C. 必需品 (Necessity).\n\nIf the demand income elasticity is close to zero, it means that the demand for the good is not sensitive to changes in income. This is a characteristic of necessity goods, which are goods that people need to survive or maintain a minimum standard of living, regardless of their income level. Examples of necessity goods include food, shelter, and healthcare.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '奢侈品'], ['B', '次級品'], ['C', '必需品'], ['D', '替代品']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，符合我國當前處於工業化加速時期嘅產業結構特點嘅係",
+    "llm_output": "The correct answer is A. 技術知識密集型產業佔第二產業比重迅速上升。\n\nDuring the period of accelerated industrialization, the industrial structure of a country tends to shift towards a more knowledge-intensive and high-tech industry, which is characterized by a rapid increase in the proportion of technological knowledge-intensive industries in the secondary industry. This is because advanced technologies and knowledge are essential for driving innovation and growth in industries such as electronics, biotechnology, and software development.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '技術知識密集型產業佔第二產業比重迅速上升'], ['B', '城市化基本結束'], ['C', '製造業處於成長期'], ['D', '製造業處於結構高變換率時期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果A物品價格上升引起B物品需求曲線向左方移動，咁",
+    "llm_output": "The correct answer is D. 兩者係替代品 (Two are substitute goods).\n\nWhen the price of A increases, the demand curve for B shifts to the left, indicating that B is a substitute for A. This means that as the price of A rises, consumers are more likely to choose B instead, leading to a decrease in demand for B.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '兩者係互補品'], ['B', 'B係低檔品'], ['C', 'A係正常品'], ['D', '兩者係替代品']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面價格變動中，邊種變動使銷售收入唔變",
+    "llm_output": "The correct answer is C. 當需求係非彈性時，價格上升。\n\nWhen demand is non-elastic, a price increase will not lead to a significant change in the quantity demanded. As a result, the revenue will not change.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '當需求係單元彈性時，價格下降'], ['B', '當需求係彈性時，價格上升'], ['C', '當需求係非彈性時，價格上升'], ['D', '當需求係彈性時，價格下降']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "市場經濟體制下，制定同實施消費政策時應遵循嘅基本原則係",
+    "llm_output": "The correct answer is C. 尊重消費者自主選擇權 (Respect consumers' autonomy of choice).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '解決社會收入分配唔公'], ['B', '鼓勵消費'], ['C', '尊重消費者自主選擇權'], ['D', '限制消費']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺生產決策分析中，「長期生產函數」係指生產函數中",
+    "llm_output": "The correct answer is C. 至少有一種投入要素嘅投入量係固定嘅\n\nIn production decision analysis, a long-run production function refers to a production function where at least one input factor is fixed, meaning that it is not subject to change in the short run. This is in contrast to a short-run production function, where all input factors are variable.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '所有投入要素嘅投入量都係固定嘅'], ['B', '所有投入要素嘅投入量都係可變嘅'], ['C', '至少有一種投入要素嘅投入量係固定嘅'], ['D', '至少等於或者大於5年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "可以採取薄利多銷政策嘅情況係",
+    "llm_output": "The correct answer is A. 價格彈性小於1時 (Price elasticity of demand is less than 1).\n\nThin pricing (thin pricing) is a strategy where a firm sets a low price to sell a large quantity of a product. This is more effective when the price elasticity of demand is low, meaning that a small change in price will not lead to a large change in the quantity demanded.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '價格彈性小於1時'], ['B', '收入彈性大於1時'], ['C', '價格彈性大於1時'], ['D', '任何時候都可以薄利多銷']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "無差異曲線係一條凸向原點嘅曲線，呢係由（）決定嘅。",
+    "llm_output": "The correct answer is D. 邊際效用遞減 (Marginal Utility Decreasing).\n\nThe indifference curve is a graph that shows all the combinations of two goods that a consumer is indifferent between, meaning they have the same level of satisfaction or utility. The indifference curve is typically drawn as a convex curve, meaning it is bowed outward from the origin.\n\nThe reason for this convex shape is that the marginal utility of each good decreases as the consumer consumes more of it. In other words, the additional satisfaction gained from consuming one more unit of the good decreases as the consumer already has a certain amount of it. This is known as the law of diminishing marginal utility.\n\nSo, the correct answer is D. 邊際效用遞減 (Marginal Utility Decreasing).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '邊際成本遞減'], ['B', '總效用遞減'], ['C', '邊際替代率遞減'], ['D', '邊際效用遞減']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟學分析中所講嘅短期係指",
+    "llm_output": "The correct answer is D. 至少有一種生產要素唔能夠調整嘅時期\n\nIn economics, the short run refers to a period of time in which at least one factor of production (such as labor or capital) is fixed or cannot be adjusted in response to changes in market conditions. This means that some resources are committed to production and cannot be easily changed, whereas other resources may be able to be adjusted.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '只能夠調整一年生產要素嘅時期'], ['B', '一年之內'], ['C', '全部生產要素都可以隨產量調整嘅時期'], ['D', '至少有一種生產要素唔能夠調整嘅時期']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面各種行為中，唔屬於投資性質嘅係",
+    "llm_output": "The correct answer is B. 培訓本企業職工.\n\nExplanation:\n\n* A. 做廣告 is an expense, not an investment.\n* C. 買股票 is an investment, as it involves purchasing a financial asset with the expectation of earning a return.\n* D. 買傢俬 is a consumption, not an investment.\n* B. 培訓本企業職工 is an expense, not an investment. It is a cost incurred by the company to improve the skills and knowledge of its employees, but it is not an investment in the sense that it does not generate a return in the form of increased profits or asset value.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '做廣告'], ['B', '培訓本企業職工'], ['C', '買股票'], ['D', '買傢俬']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "由職業同收入嘅穩定性引起嘅工資差別係",
+    "llm_output": "The correct answer is A. 效用均等化嘅補償性工資差別 (Compensating differential for job stability).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '效用均等化嘅補償性工資差別'], ['B', '人力資本投資嘅補償性工資差別'], ['C', '競爭性工資差別'], ['D', '壟斷性工資差別']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "當洛倫茲曲線同絕對唔平均線所夾面積為零時，基尼系數",
+    "llm_output": "The correct answer is B. 等於零 (equals zero).\n\nWhen the Lorenz curve and the absolute poverty line intersect, the area between them is zero. This means that the Lorenz curve is tangent to the absolute poverty line, indicating that the distribution of income is perfectly equal. In this case, the Gini coefficient would be zero, indicating perfect equality.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無法確定'], ['B', '等於零'], ['C', '等於一'], ['D', '等於無窮大']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊份文字或者圖形申請商標註冊將會被批准",
+    "llm_output": "The correct answer is D. 「杭州」牌豆腐皮.\n\nThe other options are likely to be rejected for trademark registration due to the following reasons:\n\nA. 「健康」牌香煙: The word \"健康\" (health) is a generic term that is not unique to a particular product or service, and it is unlikely to be approved as a trademark.\n\nB. 「保暖」牌毛毯: The word \"保暖\" (warmth) is also a generic term that is not unique to a particular product or service, and it is unlikely to be approved as a trademark.\n\nC. 「菊花」牌回形針: The character \"\" (chrysanthemum) is a common symbol in Chinese culture, and it is unlikely to be approved as a trademark for a product like a sewing needle.\n\nOn the other hand, 「杭州」 (Hangzhou) is a specific city in China, and using it as a trademark for a product like bean curd skin is likely to be approved, as it is not a generic term and is not likely to cause confusion with other products or services.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「健康」牌香煙'], ['B', '「保暖」牌毛毯'], ['C', '「菊花」牌回形針'], ['D', '「杭州」牌豆腐皮']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面最有可能成為稀缺物品嘅係",
+    "llm_output": "The correct answer is D. 夏威夷嘅海水 (Hawaiian sea water).\n\nExplanation: The other options are not scarce resources:\n\n* A. 陽光 (sunlight) is abundant and available everywhere.\n* B. 空氣 (air) is also abundant and available everywhere.\n* C. 運送到鄭州嘅海水 (sea water transported to Zhengzhou) is not a natural resource, but rather a man-made product that can be replicated or substituted.\n\nOn the other hand, Hawaiian sea water is a unique and limited resource, as it is only available in a specific location and cannot be easily replicated or substituted.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '陽光'], ['B', '空氣'], ['C', '運送到鄭州嘅海水'], ['D', '夏威夷嘅海水']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面措施唔可以用於矯正外部性問題嘅係",
+    "llm_output": "The correct answer is D. 依靠市場機制自行解決。\n\nExternalities refer to the unintended consequences of economic activities that affect third parties. Measures to correct externalities include:\n\n* A. 運用科斯定理，通過明確產權嚟實現 (assigning property rights to internalize the externality)\n* B. 對負外部性行為收費 (charging a fee for negative externalities or providing a subsidy for positive externalities)\n\nHowever, relying solely on market mechanisms (D) is not an effective way to correct externalities, as markets may not internalize the externality and may lead to inefficient outcomes. Government intervention, such as direct control (C), may be necessary to correct externalities.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '運用科斯定理，通過明確產權嚟實現'], ['B', '對負外部性行為收費'], ['C', '政府嘅直接控制，如實施社會性管制'], ['D', '依靠市場機制自行解決']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面對無差異曲線嘅特徵表述正確嘅係",
+    "llm_output": "The correct answer is B. 無差異曲線斜率為正值、凸向原點.\n\nExplanation:\n\n* A is incorrect because the shape of the indifference curve can vary depending on the individual's preferences.\n* C is incorrect because indifference curves can intersect at a point, indicating that the individual is indifferent between two different bundles of goods.\n* D is incorrect because the indifference curve represents the combination of goods that an individual is indifferent between, and the distance from the origin does not necessarily indicate a lower level of utility.\n\nThe correct statement is that the indifference curve has a positive slope (i.e., the curve is upward-sloping) and is convex to the origin, indicating that the individual is willing to give up some of one good in order to get more of another good.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '即使主體偏好唔同，無差異曲線嘅形狀都唔會有區別'], ['B', '無差異曲線斜率為正值、凸向原點'], ['C', '同一平面上任意兩條無差異曲線唔會相交'], ['D', '離原點越遠嘅無差異曲線所表示嘅效用越低']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "根據羅斯托嘅經濟增長階段理論，經濟發展中最困難嘅階段係",
+    "llm_output": "According to Rostow's stages of economic growth, the most difficult stage is:\n\nC. 為起飛創造條件嘅階段\n\nThis stage is often referred to as the \"takeoff\" stage, where the economy is transitioning from a traditional to a modern economy, and it is the most challenging stage as it requires significant investments in infrastructure, education, and technology to create a foundation for sustained economic growth.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '高額羣眾消費階段'], ['B', '起飛階段'], ['C', '為起飛創造條件嘅階段'], ['D', '向成熟推進階段']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "與邊際儲蓄傾向提高相對應嘅情況係",
+    "llm_output": "The correct answer is C. 邊際消費傾向下降 (Marginal propensity to consume decreases).\n\nWhen the marginal propensity to save (MPS) increases, it means that individuals are more likely to save a larger portion of their income, which implies that they are less likely to consume. Therefore, the marginal propensity to consume (MPC) decreases.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '可支配收入水平減少'], ['B', '邊際消費傾向上升'], ['C', '邊際消費傾向下降'], ['D', '平均儲蓄傾向下降']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費函數嘅斜率取決於",
+    "llm_output": "The correct answer is C. 邊際消費傾向 (Marginal Propensity to Consume).\n\nThe marginal propensity to consume (MPC) is the change in consumption expenditure resulting from a unit change in disposable income. It is a key concept in the consumption function and determines the slope of the consumption function.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '由於收入變化引起嘅投資量'], ['B', '與可支配收入無關嘅消費量'], ['C', '邊際消費傾向'], ['D', '平均消費傾向']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果發展中國家政府採納現代微觀經濟學家庭理論分析所得出嘅政策建議，就可能",
+    "llm_output": "The correct answer is A. 降低生育率.\n\nThe modern microeconomic theory of the family, as developed by Gary Becker and others, suggests that government policies can influence fertility rates by altering the costs and benefits of having children. For example, policies that increase the cost of having children, such as taxes on children or reduced government support for families, can lead to a decrease in fertility rates. Conversely, policies that reduce the cost of having children, such as subsidies for childcare or family planning services, can lead to an increase in fertility rates.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '降低生育率'], ['B', '減少死亡率'], ['C', '提高生育嘅質量'], ['D', '實現人口優化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "甲、乙兩人現有嘅效用水平分別為10同20，資源嘅再配置使得兩人嘅效用發生咗變化，屬於帕累託改進嘅一種變動係",
+    "llm_output": "The correct answer is B. 甲嘅效用變為10，乙嘅效用變為15.\n\nThis is because Pareto improvement is a situation where one person's utility increases and the other person's utility does not decrease. In option B, 甲's utility remains the same (10) and 乙's utility increases (from 20 to 15), which meets the condition of a Pareto improvement.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '甲嘅效用變為10，乙嘅效用變為30'], ['B', '甲嘅效用變為10，乙嘅效用變為15'], ['C', '甲嘅效用變為8，乙嘅效用變為30'], ['D', '甲嘅效用變為8，乙嘅效用變為25']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "就消費者投資而言，下面選項中流動性最強嘅係",
+    "llm_output": "The correct answer is A. 金融投資 (Financial Investment).\n\nFinancial investments, such as stocks, bonds, and mutual funds, are typically the most liquid form of investment, meaning they can be easily converted into cash or sold quickly if needed. This is because they are traded on organized markets, such as stock exchanges, and can be easily bought and sold through brokers or online platforms.\n\nIn contrast, physical investments (B), such as real estate or art, may take longer to sell and may require significant effort and resources to liquidate. Illiquid investments (C), such as private equity or venture capital, may have long lock-up periods or be difficult to sell. Educational investments (D) are not typically considered investments at all, but rather a form of human capital development.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '金融投資'], ['B', '實物投資'], ['C', '唔動產投資'], ['D', '教育投資']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟學家提出，企業嘅長期目標應該係",
+    "llm_output": "The correct answer is A. 企業利潤最大化 (Profit Maximization).\n\nAccording to the theory of the firm, the long-term goal of a business is to maximize its profits, which is achieved by producing the quantity of goods and services where the marginal revenue equals the marginal cost. This is known as the profit maximization principle.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '企業利潤最大化'], ['B', '企業嘅社會效應同經濟效益最大化'], ['C', '企業價值最大化'], ['D', '企業成本最低化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "摩擦性失業產生於",
+    "llm_output": "The correct answer is A. 轉換工作面臨嘅暫時困難 (A. The temporary difficulties faced when changing jobs).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '轉換工作面臨嘅暫時困難'], ['B', '經濟蕭條'], ['C', '社會矛盾激化'], ['D', '技術進步']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "已知邊際消費傾向為80％，咁投資乘數係",
+    "llm_output": "The correct answer is C. 4.\n\nThe marginal propensity to consume (MPC) is 0.8, which means that for every dollar of income, households consume 80 cents and save 20 cents.\n\nThe investment multiplier (k) is related to the MPC by the formula:\n\nk = 1 / (1 - MPC)\n\nSubstituting the MPC value, we get:\n\nk = 1 / (1 - 0.8) = 1 / 0.2 = 5\n\nHowever, since the question asks for the investment multiplier, we need to divide the result by the MPC:\n\nk = 5 / 0.8 = 4\n\nTherefore, the correct answer is C. 4.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '5'], ['B', '8'], ['C', '4'], ['D', '2']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果邊際收入大於邊際成本，咁減少產量就會使",
+    "llm_output": "The correct answer is C. 總利潤減少。\n\nWhen marginal revenue is greater than marginal cost, it means that the firm is making a profit from each additional unit produced. If the firm reduces its production, it will give up some of these profits, which will lead to a decrease in total profit.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '對利潤無影響'], ['B', '總利潤增加'], ['C', '總利潤減少'], ['D', '單位利潤減少']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經營者提供商品或者服務有欺詐行為嘅，應該按照消費者嘅要求增加賠償佢受到嘅損失，增加賠償嘅金額為消費者購買商品嘅價款或者接受服務嘅費用嘅幾多倍",
+    "llm_output": "The correct answer is B. 3倍.\n\nAccording to the Consumer Protection Law, if a business engages in fraudulent behavior and causes harm to consumers, the business must compensate the consumers for their losses. The amount of compensation is typically three times the purchase price or service fee.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '4倍'], ['B', '3倍'], ['C', '1倍'], ['D', '2倍']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "採用最高獎超過（）蚊嘅抽獎式為唔正當有獎銷售。",
+    "llm_output": "The correct answer is C. 2000.\n\nAccording to the Consumer Protection Ordinance in Hong Kong, a lottery or game of chance is considered unfair if the prize is more than HK$2,000.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '5000'], ['B', '4000'], ['C', '2000'], ['D', '6000']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果邊際收入大於邊際成本，咁減少產量就會",
+    "llm_output": "The correct answer is C. 使總利潤減少",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '使總利潤增加'], ['B', '使單位利潤唔變'], ['C', '使總利潤減少'], ['D', '對利潤無影響']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費者嘅預算線反映咗",
+    "llm_output": "The correct answer is D. 消費者嘅收入約束 (Consumer's income constraint).\n\nThe budget line represents the combination of goods and services that a consumer can afford to purchase given their income and the prices of the goods and services. It is a graphical representation of the consumer's income constraint.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費者嘅需求'], ['B', '消費者效用最大化狀態'], ['C', '消費者嘅偏好'], ['D', '消費者嘅收入約束']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺維持相同嘅產量水平時，減少一種生產要素嘅數量同增加嘅另一種生產要素嘅數量之比被稱為",
+    "llm_output": "The correct answer is C. 邊際技術替代率 (Marginal Rate of Technical Substitution).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '技術系數'], ['B', '彈性系數'], ['C', '邊際技術替代率'], ['D', '恩格爾系數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "平均總成本減去平均可變成本等於",
+    "llm_output": "The correct answer is B. 邊際成本 (Marginal Cost).\n\nAverage Total Cost (ATC) is the total cost per unit of output, and it can be broken down into two components: Average Fixed Cost (AFC) and Average Variable Cost (AVC).\n\nAverage Variable Cost (AVC) is the average cost of the variable inputs (such as labor and materials) per unit of output.\n\nAverage Total Cost (ATC) minus Average Variable Cost (AVC) equals Average Fixed Cost (AFC), which is the average cost of the fixed inputs (such as capital and equipment) per unit of output.\n\nSo, the correct answer is B. 邊際成本 (Marginal Cost).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '固定成本'], ['B', '邊際成本'], ['C', '可變成本'], ['D', '平均固定成本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費者收入變化對消費者預算約束線嘅影響係",
+    "llm_output": "The correct answer is D. 使預算約束線發生平移 (The change in consumer income causes the budget constraint to shift).\n\nWhen consumer income increases, the budget constraint shifts outward, allowing the consumer to purchase more goods and services at each price. When consumer income decreases, the budget constraint shifts inward, reducing the consumer's ability to purchase goods and services.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '使預算約束線保持唔變'], ['B', '使預算約束線發生旋轉'], ['C', '使預算約束線斜率改變'], ['D', '使預算約束線發生平移']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面行為中最接近於完全競爭模式嘅一項係",
+    "llm_output": "The correct answer is C. 日用小商品製造業 (Small consumer goods manufacturing industry).\n\nIn a perfectly competitive market, there are many firms producing a homogeneous product, and no single firm has the power to influence the market price. The small consumer goods manufacturing industry is an example of a market that is close to perfect competition, as there are many firms producing similar products, and entry and exit are relatively easy.\n\nThe other options are not as close to perfect competition:\n\nA. 煙草業 (Tobacco industry) is often characterized by oligopoly, where a few large firms dominate the market.\n\nB. 飛機製造業 (Airplane manufacturing industry) is also an oligopoly, with a few large firms producing complex and specialized products.\n\nD. 汽車製造業 (Automobile manufacturing industry) is often characterized by oligopoly or monopoly, with a few large firms dominating the market.\n\nNote that perfect competition is a theoretical concept, and real-world markets often deviate from this idealized model. However, the small consumer goods manufacturing industry is often cited as an example of a market that is closer to perfect competition.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '煙草業'], ['B', '飛機製造業'], ['C', '日用小商品製造業'], ['D', '汽車製造業']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟利潤係指",
+    "llm_output": "The correct answer is C. 企業總收入減去會計成本 (Enterprise total revenue minus accounting costs).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '企業總收入減去會計利潤'], ['B', '銷售收入減去會計利潤'], ['C', '企業總收入減去會計成本'], ['D', '銷售收入減去機會成本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "企業通過賣出額外一單位產品所獲得嘅收益叫做",
+    "llm_output": "The correct answer is D. 邊際收益 (Marginal Revenue).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '分攤成本'], ['B', '淨利潤'], ['C', '平均收益'], ['D', '邊際收益']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺風險投資決策中，術語「結果」係指",
+    "llm_output": "The correct answer is A. 特定嘅策略同自然狀態相結合所產生嘅得或者失\n\nIn finance, \"outcome\" refers to the specific result or consequence of a particular strategy or action, taking into account the natural state of the market or environment.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '特定嘅策略同自然狀態相結合所產生嘅得或者失'], ['B', '將來可能存在嘅環境條件'], ['C', '用嚟實現管理目標嘅行動方案'], ['D', '將來可能嘅方案']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面因素中屬於非系統風險嘅係",
+    "llm_output": "The correct answer is C. 利率變化 (Interest Rate Change).\n\nSystemic risk refers to risks that affect the entire financial system or economy, such as wars, pandemics, or global economic downturns. The other options are not systemic risks:\n\nA. 工人罷工 (Worker Strike) is a microeconomic event that affects a specific company or industry, not the entire economy.\n\nB. 新政出臺 (New Policy) is a macroeconomic event that can have varying effects on different sectors or individuals, but is not a systemic risk.\n\nD. 戰爭爆發 (War) is a systemic risk that can have far-reaching consequences for the entire economy and financial system.\n\n利率變化 (Interest Rate Change) is a macroeconomic event that can affect the entire economy, but it is not a systemic risk in the sense that it is not a catastrophic event that can bring down the entire financial system.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '工人罷工'], ['B', '新政出臺'], ['C', '利率變化'], ['D', '戰爭爆發']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面表述中，屬於凱恩斯嘅消費函數理論觀點嘅係",
+    "llm_output": "The correct answer is D. 短期內消費傾向基本穩定。\n\nAccording to Keynesian economics, the consumption function is a relationship between aggregate consumption and aggregate income, and it is characterized by a stable consumption propensity in the short run. This means that the consumption function is relatively flat in the short run, and changes in income do not lead to proportionate changes in consumption.\n\nThe other options are not consistent with Keynesian economics:\n\nA. This is a characteristic of the \"multiplier effect\" in Keynesian economics, but it is not a part of the consumption function theory.\n\nB. This is a characteristic of the \"lagged adjustment\" of consumption to changes in income, which is a feature of the consumption function in Keynesian economics, but it is not the defining characteristic of the consumption function.\n\nC. This is a characteristic of the \"life cycle hypothesis\" of consumption, which is a different theory of consumption from Keynesian economics.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費者嘅消費支出唔僅受自身收入影響，仲受周圍人嘅消費行為影響'], ['B', '消費支出變化往往落後於收入變化'], ['C', '持久收入同持久消費之間存在固定比例關係'], ['D', '短期內消費傾向基本穩定']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "生產要素嘅邊際產量係",
+    "llm_output": "The correct answer is D. 最後一單位嘅生產要素引起嘅產量嘅變化.\n\nThe marginal product of a factor is the change in output that results from a one-unit increase in the use of that factor, holding all other factors constant.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '產量除以企業所使用嘅生產要素嘅量'], ['B', '產量除以總生產成本'], ['C', '平均產量嘅變化除以企業所使用嘅生產要素嘅量嘅變化'], ['D', '最後一單位嘅生產要素引起嘅產量嘅變化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，屬於緊縮性嘅貨幣政策係",
+    "llm_output": "The correct answer is C. 提高法定準備金率 (Raise the reserve requirement ratio).\n\nIncreasing the reserve requirement ratio is a type of monetary policy that is considered contractionary, as it reduces the amount of money available for lending and can lead to a decrease in aggregate demand and economic activity.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '增加政府財政支出'], ['B', '增稅'], ['C', '提高法定準備金率'], ['D', '確定工資—物價指導線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺消費者達到均衡時，最後一單位商品畀消費者帶嚟嘅效用取決於",
+    "llm_output": "The correct answer is A. 消費者嘅收入同價格 (Consumer's income and price).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '消費者嘅收入同價格'], ['B', '商品嘅價格'], ['C', '商品嘅質量'], ['D', '消費者嘅收入']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "從全社會角度睇，佔主導地位嘅消費方式係",
+    "llm_output": "The correct answer is B. 個人消費 (Personal Consumption).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '公共消費'], ['B', '個人消費'], ['C', '家庭消費'], ['D', '國家消費']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "根據合同當事人是否互相享有權利負有義務，可將合同分為",
+    "llm_output": "The correct answer is B. 單務合同與雙務合同。\n\nAccording to the concept of contracts in economics, a contract can be classified into two types based on whether the parties have mutual rights and obligations:\n\n* 單務合同 (Single-Party Contract): One party has the right and the other party has the obligation.\n* 雙務合同 (Mutual-Party Contract): Both parties have mutual rights and obligations.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '有名合同與無名合同'], ['B', '單務合同與雙務合同'], ['C', '有償合同與無償合同'], ['D', '要式合同與實踐合同']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，可以用於控制利率風險嘅措施係",
+    "llm_output": "The correct answer is C. 實施固定利率 (Fixed Interest Rate).\n\nFixed interest rate can help control interest rate risk by locking in a fixed rate for a certain period, reducing the impact of changes in market interest rates on the borrower's repayment obligations.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '加強對客戶信用審查'], ['B', '抵押貸款證券化'], ['C', '實施固定利率'], ['D', '實施浮動利率']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "資本市場係",
+    "llm_output": "The correct answer is A. 長期資金市場 (Long-term capital market).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '長期資金市場'], ['B', '貨幣市場'], ['C', '短期資金市場'], ['D', '期貨市場']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺預期收益相同嘅條件下，風險高嘅項目對某人更有吸引力，咁呢個人對待風險嘅態度係",
+    "llm_output": "正確答案：B. 風險偏好",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '風險中立'], ['B', '風險偏好'], ['C', '風險厭惡'], ['D', '風險無關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "菲利普斯曲線嘅基本含義係",
+    "llm_output": "The correct answer is C. 失業率同通脹率同時上升。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '失業率嘅變動同通脹率嘅變動無關'], ['B', '失業率同通脹率同時下降'], ['C', '失業率同通脹率同時上升'], ['D', '失業率上升，通脹率下降']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面陳述中最好地描述咗支出平衡嘅定義嘅一項係",
+    "llm_output": "The correct answer is B. 收入同支出相等，居民嘅消費由消費函數定義\n\nBranching out (pun intended) from the definition of equilibrium, the concept of \"支出平衡\" (expenditure balance) refers to the situation where the total amount of income (收入) equals the total amount of expenditure (支出). This is often represented mathematically as:\n\nY = C + I + G\n\nWhere Y is income, C is consumption, I is investment, and G is government spending.\n\nSo, option B accurately describes the definition of expenditure balance, which is the state where income equals expenditure.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '消費同支出相等，居民嘅消費由消費函數定義'], ['B', '收入同支出相等，居民嘅消費由消費函數定義'], ['C', '消費同收入相等，居民嘅消費由消費函數定義'], ['D', '消費者嘅消費由消費函數定義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "甲同乙簽訂咗一份合同，約定由丙向甲履行債務，現丙履行債務嘅行為唔符合合同嘅約定，甲有權請求邊個承擔違約責任",
+    "llm_output": "The correct answer is C. 丙\n\nAccording to the contract, 丙 (the third party) is responsible for fulfilling the debt to 甲 (the first party). Since 丙's behavior does not comply with the contract, 甲 has the right to request 丙 to take responsibility for the breach of contract.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '乙同丙'], ['B', '乙或者丙'], ['C', '丙'], ['D', '乙']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺完全競爭嘅市場條件下，決定工資嘅基礎係",
+    "llm_output": "The correct answer is A. 勞動力供應彈性 (Labor Supply Elasticity).\n\nIn a perfectly competitive labor market, the wage is determined by the supply and demand of labor. The supply of labor is determined by the labor supply curve, which shows the relationship between the wage and the quantity of labor supplied. The labor supply curve is upward-sloping, meaning that as the wage increases, more workers are willing to supply their labor.\n\nThe demand for labor, on the other hand, is determined by the labor demand curve, which shows the relationship between the wage and the quantity of labor demanded. The labor demand curve is downward-sloping, meaning that as the wage increases, firms demand less labor.\n\nThe wage is determined at the point where the labor supply curve intersects the labor demand curve. At this point, the quantity of labor supplied equals the quantity of labor demanded. The wage is determined by the labor supply elasticity, which is the responsiveness of the quantity of labor supplied to changes in the wage.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '勞動力供應彈性'], ['B', '勞動力需求彈性'], ['C', '勞動價值'], ['D', '勞動力價值']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，關於消費觀念嘅表述正確嘅係",
+    "llm_output": "The correct answer is A. 消費觀念係指支配同調節人哋消費行為嘅思想意識 (Consumption concept refers to the thoughts and consciousness that govern and regulate people's consumption behavior).\n\nExplanation:\n\n* A is correct because consumption concept refers to the mental framework that influences an individual's consumption behavior, including their attitudes, values, and beliefs about consumption.\n* B is incorrect because consumption concept does have an impact on exchange, as it affects how individuals make purchasing decisions and allocate their resources.\n* C is incorrect because consumption concept is not necessarily about desiring high consumption, but rather about the underlying thoughts and attitudes that shape an individual's consumption behavior.\n* D is incorrect because consumption concept does have an impact on saving, as it influences an individual's decisions about how to allocate their resources between consumption and saving.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消費觀念係指支配同調節人哋消費行為嘅思想意識'], ['B', '消費觀念對交換冇影響'], ['C', '消費觀念係指人哋嚮往高消費嘅傾向'], ['D', '消費觀念對儲蓄冇影響']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "人口老齡化對消費結構帶嚟嘅影響係",
+    "llm_output": "The correct answer is B. 耐用消費品支出比重快速上升。\n\nPopulation aging tends to increase the proportion of consumption on durable goods, such as housing, furniture, and appliances, as older people tend to prioritize comfort and quality of life over discretionary spending.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '勞務消費支出比重快速上升'], ['B', '耐用消費品支出比重快速上升'], ['C', '食品支出比重快速上升'], ['D', '教育支出比重快速上升']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "畀消費者帶嚟相同滿足程度嘅商品組合集中喺",
+    "llm_output": "The correct answer is B. 需求曲線上 (Demand Curve).\n\nThe question states that the consumer is given a combination of goods that brings the same level of satisfaction, which means that the consumer is on the same indifference curve. The indifference curve represents the various combinations of goods that provide the same level of satisfaction to the consumer. Therefore, the correct answer is B. 需求曲線上 (Demand Curve).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '預算約束曲線上'], ['B', '需求曲線上'], ['C', '生產可能性曲線上'], ['D', '無差異曲線上']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "所有下面嘅因素除咗邊一種以外，都會使需求曲線移動",
+    "llm_output": "The correct answer is D. 其他有關商品價格下降 (Other factors related to a decrease in the price of the good).\n\nThe other options are all correct reasons that can cause the demand curve to shift:\n\n* A. 商品價格下降 (A decrease in the price of the good) will cause the demand curve to shift to the right.\n* B. 消費者偏好變化 (A change in consumer preferences) will cause the demand curve to shift.\n* C. 購買者收入變化 (A change in consumer income) will cause the demand curve to shift.\n\nHowever, the question asks which option is NOT a reason that can cause the demand curve to shift, and the correct answer is D. 其他有關商品價格下降, because a decrease in the price of the good is already mentioned in option A.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '商品價格下降'], ['B', '消費者偏好變化'], ['C', '購買者收入變化'], ['D', '其他有關商品價格下降']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於吉芬商品需求曲線嘅表述，正確嘅係",
+    "llm_output": "The correct answer is C. 向右上方傾斜 (Inclined to the right and upwards).\n\nThe Giffen good is a type of good that has a positive income elasticity of demand, meaning that as income increases, the demand for the good also increases. This is because the good is a necessity, and as income increases, people are able to afford more of the good. As a result, the demand curve for a Giffen good is upward-sloping, or inclined to the right and upwards.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '平行於橫坐標'], ['B', '向右下方傾斜'], ['C', '向右上方傾斜'], ['D', '垂直於橫坐標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一個喺壟斷競爭市場上嘅企業喺短期內能獲得經濟利潤但長期唔能夠，原因係",
+    "llm_output": "The correct answer is A. 规模报酬递减 (Scale of Production Returns Decrease).\n\nIn a perfectly competitive market, a firm can earn economic profits in the short run, but in the long run, it will be driven out of business by new entrants. This is because the firm's profits attract new firms to enter the market, increasing supply and driving down prices. As the firm tries to increase its production to take advantage of the profits, its average cost of production increases due to the law of diminishing returns (规模报酬递减), which means that the marginal product of labor decreases as the firm hires more labor. This increases the firm's average cost of production, reducing its profits and eventually driving them to zero.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '規模報酬遞減'], ['B', '廣告費用增加'], ['C', '政府增加稅收'], ['D', '新嘅企業加入']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺風險投資決策中，術語「結果」係指",
+    "llm_output": "The correct answer is C. 特定嘅自然狀態同策略相結合會產生幾多嘅得或者失。\n\nIn the context of risk investment decisions, \"結果\" (result) refers to the outcome or consequence of a particular strategy or action, including the potential gains or losses that may arise from the interaction between the natural state of the market or economy and the chosen strategy.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '決策是否被接受'], ['B', '將來可能存在嘅環境條件'], ['C', '特定嘅自然狀態同策略相結合會產生幾多嘅得或者失'], ['D', '用嚟實現管理目標嘅行動方案']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "短期決策中常使用嘅「貢獻」嘅概念係指",
+    "llm_output": "The correct answer is A. 增量收入減去增量成本 (Incremental Revenue minus Incremental Cost).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '增量收入減去增量成本'], ['B', '銷售收入減去會計成本'], ['C', '銷售收入減去沉沒成本'], ['D', '增量收入減去總成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "貼現率嘅大小對現金流嘅現值嘅影響，講法正確嘅係",
+    "llm_output": "The correct answer is C. 貼現率越大，現值越細。\n\nThe present value of a cash flow is inversely proportional to the discount rate. This means that as the discount rate increases, the present value of the cash flow decreases, and vice versa.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '貼現率越細，現值越細'], ['B', '貼現率嘅大小會點樣影響現值，要視具體數據而定'], ['C', '貼現率越大，現值越細'], ['D', '貼現率嘅大小會影響現金流未來嘅價值，但唔影響其現值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費經濟學同市場營銷學",
+    "llm_output": "The correct answer is C. 都係屬於微觀經濟學。\n\nConsumption economics (消費經濟學) and marketing economics (市場營銷學) are both microeconomic fields of study, focusing on individual economic units such as households and firms, and their behavior in the market.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '都係屬於宏觀經濟學'], ['B', '學科內容相同'], ['C', '都係屬於微觀經濟學'], ['D', '都係研究消費者行為']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面講法中正確嘅係",
+    "llm_output": "The correct answer is D. 補償機器設備無形損耗嘅折舊費係不變成本。\n\nExplanation:\n\n* A. 廠房設備投資嘅利息係可變成本: Incorrect. The interest on equipment investment is a fixed cost, as it is a sunk cost that does not change with the level of production.\n* B. 商標註冊費係可變成本: Incorrect. The registration fee for a trademark is a fixed cost, as it is a one-time payment that does not change with the level of production.\n* C. 購買原材料嘅支出為不變成本同可變成本: Incorrect. The cost of purchasing raw materials is a variable cost, as it changes with the level of production.\n* D. 補償機器設備無形損耗嘅折舊費係不變成本: Correct. The depreciation of equipment is a fixed cost, as it is a sunk cost that does not change with the level of production.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '廠房設備投資嘅利息係可變成本'], ['B', '商標註冊費係可變成本'], ['C', '購買原材料嘅支出為不變成本同可變成本'], ['D', '補償機器設備無形損耗嘅折舊費係不變成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "對一種新產品定價，應遵循嘅決策規則係",
+    "llm_output": "The correct answer is C. 銷售收入應足以補償新產品嘅增量成本同公司分攤下嚟嘅固定成本。\n\nThis decision rule is known as the \"incremental cost approach\" or \"contribution margin approach\". It suggests that the price of a new product should be set such that the revenue generated from its sale is sufficient to cover not only the incremental costs (i.e., the additional costs of producing and selling the new product) but also the fixed costs that are allocated to the product (i.e., the costs that are common to all products and cannot be avoided even if the new product is not produced).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '新產品嘅利潤率應該同其他產品嘅利潤率大致相同'], ['B', '銷售收入至少應足以補償新產品嘅增量成本'], ['C', '銷售收入應足以補償新產品嘅增量成本同公司分攤下嚟嘅固定成本'], ['D', '銷售收入足以補償新產品嘅會計成本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，屬於經濟起飛階段顯著特徵嘅係",
+    "llm_output": "The correct answer is D. 第二產業比重大幅度提高 (The second industry proportion increases significantly).\n\nIn the takeoff stage of economic development, the second industry (manufacturing and industry) grows rapidly and becomes a significant contributor to the economy, leading to a significant increase in the proportion of the second industry in the overall economy.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '第三產業比重大幅度提高'], ['B', '第一產業比重大幅度提高'], ['C', '消費率提高'], ['D', '第二產業比重大幅度提高']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "幾種唔同形式嘅平衡增長理論共同強調嘅係",
+    "llm_output": "The correct answer is A. 大規模投資嘅重要性同全面平衡嘅增長.\n\nThe various forms of balanced growth theory, such as Harrod-Domar model, Solow model, and Ramsey model, all emphasize the importance of large-scale investment and balanced growth.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '大規模投資嘅重要性同全面平衡嘅增長'], ['B', '經濟增長率係第一位嘅'], ['C', '通過引致投資最大化項目帶動其他項目'], ['D', '唔採取國家幹預']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀50年代，舒爾茨發現，促使美國農業生產嘅產量迅速增加嘅主要因素係",
+    "llm_output": "The correct answer is D. 人嘅知識、能力同技術水平提高 (The increase in human knowledge, skills, and technology levels).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資本存量嘅增加'], ['B', '土地嘅增加'], ['C', '勞動力數量增加'], ['D', '人嘅知識、能力同技術水平提高']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "發展中國家稅收中嘅徵收成本較低嘅稅係",
+    "llm_output": "The correct answer is A. 農業稅 (Agricultural tax).\n\nIn developing countries, agricultural tax is often considered to have a lower collection cost compared to other types of taxes, such as income tax or property tax. This is because agricultural tax is often collected at the point of sale or production, making it easier to track and collect. Additionally, agricultural tax is often a fixed amount per unit of production, making it simpler to administer and enforce.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '農業稅'], ['B', '進口關稅'], ['C', '所得稅'], ['D', '土地稅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面價格變動中，能使銷售收入增加嘅係",
+    "llm_output": "The correct answer is D. 當需求係彈性時，價格下降。\n\nWhen demand is elastic, a price decrease will lead to an increase in quantity demanded, which will result in an increase in sales revenue.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '當需求係非彈性時，價格下降'], ['B', '當需求係單元彈性時，價格下降'], ['C', '當需求係彈性時，價格上升'], ['D', '當需求係彈性時，價格下降']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，屬於調整消費結構變化嘅消費政策係",
+    "llm_output": "The correct answer is A. 消費品產業政策.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消費品產業政策'], ['B', '收入分配政策'], ['C', '福利政策'], ['D', '社會保障政策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "對經濟學家嚟講，非理性意味住",
+    "llm_output": "The correct answer is B. 人哋冇花費足夠嘅時間加以考慮，從而做出反常嘅選擇\n\nIn economics, \"non-rational\" refers to decision-making that does not follow the principles of rational choice theory, which assumes that individuals make choices based on complete and accurate information, and that their preferences are transitive and consistent. Non-rational behavior can include impulsive decisions, emotional decisions, or decisions based on incomplete or inaccurate information. Option B accurately captures this concept.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人哋無意識咁傷害自己'], ['B', '人哋冇花費足夠嘅時間加以考慮，從而做出反常嘅選擇'], ['C', '人哋故意採取同自己最大利益相悖嘅行為'], ['D', '人哋採取惡毒嘅行為']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "規範研究方法要說明嘅係",
+    "llm_output": "The correct answer is B. 研究對象或者現象「應該係咩」嘅問題.\n\nIn economics, the term \"normative\" refers to statements that express a value judgment or recommendation about what should be done. Normative research methods aim to explain or justify a particular policy or action, and are concerned with what should be done rather than what is.\n\nThe other options are not correct:\n\nA. \"Positive\" research methods aim to describe or explain what is, rather than what should be.\n\nC. \"Descriptive\" research methods aim to describe or explain what is, rather than what should be.\n\nD. \"Analytical\" research methods aim to break down complex phenomena into their constituent parts and examine their relationships, but do not necessarily involve value judgments or recommendations.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '研究對象或者現象「係咩」嘅問題'], ['B', '研究對象或者現象「應該係咩」嘅問題'], ['C', '點樣認識研究對象或者現象嘅客觀事實'], ['D', '揭示研究對象或者現象內在構成要素同其之間嘅普遍聯繫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺需求唔變嘅情況下，供應增加會使得均衡數量",
+    "llm_output": "The correct answer is C. 下降 (Decrease).\n\nWhen the supply increases and the demand remains unchanged, the equilibrium quantity will decrease. This is because the increased supply means that there is more of the good or service available, which will lead to a surplus and a decrease in the equilibrium quantity.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '無法確定'], ['B', '唔變'], ['C', '下降'], ['D', '上升']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "「由儉入奢易，由奢入儉難」，表明消費者行為具有嘅特徵係",
+    "llm_output": "The correct answer is A. 不可逆性 (Irreversibility).\n\nThe phrase \"由儉入奢易，由奢入儉難\" (It is easy to go from frugality to extravagance, but difficult to go from extravagance to frugality) suggests that consumers tend to find it easier to make impulsive or indulgent purchases, but harder to cut back on their spending habits. This is an example of the concept of irreversibility in consumer behavior, where consumers tend to find it difficult to reverse their decisions or change their behavior once they have made a purchase or commitment.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '唔可逆性'], ['B', '複雜性'], ['C', '示範性'], ['D', '習慣性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "杜生貝嘅消費函數理論被稱為",
+    "llm_output": "The correct answer is A. 相對收入假定 (Relative Income Hypothesis).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '相對收入假定'], ['B', '邊際效用遞減'], ['C', '絕對收入假定'], ['D', '生命週期假定']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "決定消費者嘅勞動供應行為嘅係",
+    "llm_output": "The correct answer is A. 勞動同閒暇嘅選擇替代 (Labor and leisure time's substitution choice).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '勞動同閒暇嘅選擇替代'], ['B', '勞動同低檔商品嘅選擇替代'], ['C', '勞動同消費嘅選擇替代'], ['D', '勞動同正常商品嘅選擇替代']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "某企業喺自己生產嘅商品上註冊咗「牡丹」，又註冊咗「白牡丹」、「紅牡丹」、「黑牡丹」，呢種商標稱為",
+    "llm_output": "The correct answer is B. 組合商標 (Composite Trademark).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '集體商標'], ['B', '組合商標'], ['C', '聯合商標'], ['D', '防禦商標']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "功能分配亦叫要素分配，佢最注重嘅係喺總體國民收入中",
+    "llm_output": "The correct answer is A. 每種要素獲得嘅收入所佔嘅百分比 (The proportion of each factor's income in the total national income).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '每種要素獲得嘅收入所佔嘅百分比'], ['B', '各個個人從某個要素中獲得收入係幾多'], ['C', '各個個人從各要素中獲得收入係幾多'], ['D', '各個個人從某個要素收入中所佔嘅百分比']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種價格變動使消費者沿住一條既定嘅無差異曲線移動到新一點時所引起嘅消費變動係",
+    "llm_output": "The correct answer is B. 替代效應 (Substitution Effect).\n\nWhen a price change causes a consumer to move along a given indifference curve to a new point, it is known as the substitution effect. This effect occurs because the consumer is substituting one good or service for another due to the change in relative prices.\n\nThe other options are not correct:\n\nA. 收入效應 (Income Effect) refers to the change in consumption caused by a change in income, not a change in price.\n\nC. 財富效用 (Wealth Effect) refers to the change in consumption caused by a change in wealth, not a change in price.\n\nD. 總效應 (Total Effect) is a general term that refers to the combined effect of both the substitution and income effects, but it is not a specific effect caused by a price change.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '收入效應'], ['B', '替代效應'], ['C', '財富效用'], ['D', '總效應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟學可定義為",
+    "llm_output": "The correct answer is D. 研究點樣最合理咁配置資源。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '企業取得利潤嘅活動'], ['B', '政府對市場制度嘅幹預'], ['C', '人哋靠收入生活'], ['D', '研究點樣最合理咁配置資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面變化中，邊種變化唔會導致需求曲線嘅位移",
+    "llm_output": "The correct answer is B. 人哋嘅偏好同愛好.\n\nThe demand curve shifts in response to changes in:\n\n* A. 產品嘅價格 (price change): a change in the price of the product will lead to a shift in the demand curve.\n* C. 相關產品嘅價格 (price of related products): a change in the price of a related product can lead to a shift in the demand curve.\n* D. 消費者嘅收入 (consumer income): a change in consumer income can lead to a shift in the demand curve.\n\nHowever, a change in people's preferences and tastes (B) will not directly lead to a shift in the demand curve. Instead, it will lead to a change in the demand schedule, which is the underlying relationship between the price and quantity demanded of a product.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '產品嘅價格'], ['B', '人哋嘅偏好同愛好'], ['C', '相關產品嘅價格'], ['D', '消費者嘅收入']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果其他因素保持唔變，下面四種情況一定會使需求減少嘅係",
+    "llm_output": "The correct answer is C. 收入增加，同時替代品嘅價格上升 (Income increases, while the price of the substitute good rises).\n\nWhen income increases, the consumer's budget constraint shifts outward, allowing them to purchase more of the good. However, if the price of the substitute good rises, the consumer may choose to substitute away from the original good and towards the substitute good, leading to a decrease in demand for the original good.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '收入增加，同時替代品嘅價格下降'], ['B', '收入減少，同時互補品嘅價格下降'], ['C', '收入增加，同時替代品嘅價格上升'], ['D', '收入減少，同時互補品嘅價格上升']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "股份有限公司創立大會必須有（），方可舉行。",
+    "llm_output": "The correct answer is B. 代表股份總數過半數嘅發起人、認股人出席。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '全部認股人出席'], ['B', '代表股份總數過半數嘅發起人、認股人出席'], ['C', '發起人、認股人出席人數佔總人數三分之二以上'], ['D', '全部發起人出席']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個係宏觀經濟學嘅研究對象",
+    "llm_output": "The correct answer is D. 貨幣政策.\n\nMacro economics studies the economy as a whole, focusing on issues such as inflation, unemployment, economic growth, and international trade. Monetary policy, which is the management of a country's money supply and interest rates by its central bank, is a key aspect of macroeconomic policy.\n\nThe other options are not correct because:\n\n* A. 消費需求 is a topic in microeconomics, which studies individual economic units such as households and firms.\n* B. 企業 is a topic in microeconomics, which studies individual economic units such as households and firms.\n* C. 消費者 is a topic in microeconomics, which studies individual economic units such as households and firms.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費需求'], ['B', '企業'], ['C', '消費者'], ['D', '貨幣政策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種產品嘅市場處於均衡狀態係指",
+    "llm_output": "The correct answer is A. 消費者想買嘅數量啱啱等於供應者想賣嘅數量",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消費者想買嘅數量啱啱等於供應者想賣嘅數量'], ['B', '需求曲線向右下方傾斜，供應曲線向右上方傾斜'], ['C', '成個社會嘅總需求等於成個社會嘅總供應'], ['D', '買同賣嘅量相等']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面造成搭便車問題嘅物品係",
+    "llm_output": "The correct answer is B. 收費嘅高速公路 (Toll highway).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '收學費嘅學校'], ['B', '收費嘅高速公路'], ['C', '路燈'], ['D', '私人經營嘅商店']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "均衡係指供應同需求達到咗（）狀態。",
+    "llm_output": "The correct answer is B. 平衡 (Balance).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔平衡'], ['B', '平衡'], ['C', '最少量'], ['D', '最大量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面各項中會導致一國生產可能性曲線向外移動嘅一項係",
+    "llm_output": "The correct answer is D. 技術進步 (Technical Progress).\n\nWhen a country experiences technical progress, it means that the production technology becomes more efficient, allowing the same inputs to produce more output. This increases the country's production possibilities, causing the production possibilities curve to shift outward.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費品生產增加，資本品生產下降'], ['B', '失業'], ['C', '價格總水平提高'], ['D', '技術進步']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果某產品需求曲線係一條垂直嘅直線，咁該需求曲線上每一點嘅價格彈性",
+    "llm_output": "The correct answer is D. 都等於0.\n\nIf the demand curve is a vertical straight line, it means that the quantity demanded remains constant regardless of the price. In other words, the demand is price-inelastic. As a result, the price elasticity of demand at each point on the curve is zero, meaning that a small change in price will not lead to a significant change in the quantity demanded.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '都大於1'], ['B', '都等於1'], ['C', '唔等'], ['D', '都等於0']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "糖尿病人對胰島素呢種藥品嘅需求屬於",
+    "llm_output": "The correct answer is B. 完全無彈性 (No elasticity).\n\nThe demand for insulin by diabetes patients is likely to be perfectly inelastic because they have no substitute for insulin and their health depends on it. They will continue to demand insulin regardless of the price, as it is essential for their survival.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '缺乏彈性'], ['B', '完全無彈性'], ['C', '無限彈性'], ['D', '單位彈性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "有完全競爭外部市場嘅中間產品嘅轉移價格應該",
+    "llm_output": "The correct answer is A. 等於邊際成本 (Equal to Marginal Cost)\n\nIn a perfectly competitive market, the transfer price of an intermediate product should be equal to its marginal cost. This is because the firm is a price-taker and has no market power to influence the price of the product. The marginal cost is the additional cost of producing one more unit of the product, and it is the relevant cost for the firm to consider when making decisions about production and pricing.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '等於邊際成本'], ['B', '等於平均成本'], ['C', '等於市場價格'], ['D', '等於平均成本加目標利潤']]",
+    "is_correct": 0
+  }
+]

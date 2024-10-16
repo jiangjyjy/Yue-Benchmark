@@ -1,0 +1,1892 @@
+[
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義係",
+    "llm_output": "The correct answer is A. 資產階級國家同壟斷資本融合喺一齊嘅壟斷資本主義.\n\nState monopoly capitalism refers to a situation where the capitalist class and the state merge to form a single entity, with the state playing a significant role in the economy and the capitalist class exercising significant influence over the state. This is characterized by a high degree of concentration of capital and a close relationship between the state and big business.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資產階級國家同壟斷資本融合喺一齊嘅壟斷資本主義'], ['B', '消除生產無政府狀態嘅壟斷資本主義'], ['C', '帶有社會主義因素嘅壟斷資本主義'], ['D', '資產階級國家同壟斷資本相互分離嘅壟斷資本主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「必然王國」同「自由王國」係",
+    "llm_output": "A Marxist theory question! 😊\n\nThe correct answer is:\nC. 歷史性概念 (Historical concepts)\n\nIn Marxist theory, the \"Kingdom of Necessity\" (必然王國) and the \"Kingdom of Freedom\" (自由王國) refer to two stages of human history. The Kingdom of Necessity is the stage where humans are bound by the necessity of labor and the constraints of material scarcity, whereas the Kingdom of Freedom is the stage where humans are free from the necessity of labor and can pursue their creative potential. These concepts are central to Marx's vision of a communist society.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '空間性概念'], ['B', '物質性概念'], ['C', '歷史性概念'], ['D', '時間性概念']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義認為，從實踐嘅活動機制睇，實踐係",
+    "llm_output": "The correct answer is A. 主體與客體通過中介相互作用嘅過程.\n\nAccording to Marxist theory, practice (實踐) is the process of interaction between the subject (主體) and the object (客體) through mediation, where the subject transforms the object and is in turn transformed by it. This concept is central to Marxist dialectics and epistemology.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '主體與客體通過中介相互作用嘅過程'], ['B', '道德行為同政治活動'], ['C', '科學實驗'], ['D', '生活、行為、現實、實事等感性活動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "下列唔屬於經濟全球化發展趨勢嘅選項係",
+    "llm_output": "The correct answer is A. 國際經濟新秩序嘅建立.\n\nExplanation: The other options (B, C, and D) are all characteristics of economic globalization, whereas the establishment of a new international economic order is not a typical feature of economic globalization.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '國際經濟新秩序嘅建立'], ['B', '市場經濟成為全球經濟體制'], ['C', '跨國公司嘅主導作用增強'], ['D', '區域經濟集團日益發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義嘅歷史地位係",
+    "llm_output": "The correct answer is C. 過渡嘅資本主義 (Transitional capitalism).\n\nAccording to Marxist theory, capitalism is a transitional phase in the development of human society, between the feudal mode of production and the socialist mode of production. Marx believed that capitalism would eventually give way to socialism and ultimately communism, as the contradictions and crises inherent in the capitalist system would lead to its downfall.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '不斷發展嘅資本主義'], ['B', '寄生嘅資本主義'], ['C', '過渡嘅資本主義'], ['D', '腐朽嘅資本主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "江澤民講過：「唔記得崇高理想而只顧眼前，就會失去前進方向，離開現實工作而空談崇高理想，就會脫離實際。」江澤民所講嘅「崇高理想」係指",
+    "llm_output": "The correct answer is B. 共產主義崇高理想.\n\n Jiang Zemin's quote emphasizes the importance of upholding lofty ideals, which in the context of Marxism-Leninism, refers to the ultimate goal of achieving communism.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '個人對美好生活嘅嚮往與追求'], ['B', '共產主義崇高理想'], ['C', '個人對將來職業嘅嚮往與追求'], ['D', '建設中國特色社會主義共同理想']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "商品生產者要獲得更多收益必須使生產商品嘅",
+    "llm_output": "The correct answer is A. 個別勞動時間小於社會必要勞動時間.\n\nAccording to Marxist theory, a commodity producer can obtain more profit by producing goods with individual labor time less than the socially necessary labor time. This is because the producer can sell the goods at the market price, which is determined by the socially necessary labor time, while their individual labor time is shorter, resulting in a higher profit margin.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '個別勞動時間小於社會必要勞動時間'], ['B', '個別勞動時間等於倍加嘅社會必要勞動時間'], ['C', '個別勞動時間大於社會必要勞動時間'], ['D', '個別勞動時間等於社會必要勞動時間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「手推磨產生嘅係封建主嘅社會，蒸汽磨產生嘅係工業資本家嘅社會」，呢句話揭示咗",
+    "llm_output": "The correct answer is A. 物質生產嘅發展需要建立相應嘅生產關係.\n\nThis sentence illustrates the Marxist idea that the development of material production requires the establishment of corresponding production relations. In this case, the hand mill represents a feudal society, while the steam mill represents an industrial capitalist society. This shows that changes in the means of production (hand mill to steam mill) require corresponding changes in the social relations of production (feudal to capitalist).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '物質生產嘅發展需要建立相應嘅生產關係'], ['B', '社會形態嘅更替有其一定嘅順序性'], ['C', '科學技術係第一生產力'], ['D', '生產工具係衡量生產力水平嘅重要尺度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級政黨嘅組織原則係",
+    "llm_output": "The correct answer is D. 民主集中制 (Democratic Centralism).\n\nIn Marxist-Leninist theory, the organizational principle of the proletariat party is democratic centralism, which combines democratic discussion and decision-making with centralized leadership and discipline. This principle is intended to ensure that the party is both democratic and effective in its decision-making and action.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '理論聯繫實際'], ['B', '集體領導'], ['C', '實事求係'], ['D', '民主集中制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "人類社會發展嘅一般規律係",
+    "llm_output": "The correct answer is:\n\nB. 生產力同生產關係、經濟基礎同上層建築之間嘅矛盾運動規律\n\nThis option describes the general law of human social development as the contradictory movement between productive forces and production relations, and between the economic base and the superstructure. This is a fundamental concept in Marxist theory, which explains how social development is driven by the contradictions between the forces of production and the relations of production, and how this leads to the transformation of society.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '生產方式內部嘅矛盾規律'], ['B', '生產力同生產關係、經濟基礎同上層建築之間嘅矛盾運動規律'], ['C', '社會存在同社會意識嘅矛盾規律'], ['D', '物質生產同精神生產嘅矛盾規律']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「人嘅思維係咪具有真理性，呢個並唔係一個理論嘅問題，而係一個實踐嘅問題。人應該喺實踐中證明自己思維嘅真理性，即自己思維嘅現實性同力量，亦即自己思維嘅此岸性。」呢一論斷說明咗",
+    "llm_output": "The correct answer is A. 實踐係檢驗認識係否具有真理性嘅唯一標準.\n\nThis statement emphasizes that the truth of one's thoughts can only be verified through practice, and that it is not a theoretical question, but a practical one. This is a key concept in Marxist theory, which holds that the truth of an idea or theory can only be confirmed through its practical application and the results it produces. Therefore, option A is the correct answer.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '實踐係檢驗認識係否具有真理性嘅唯一標準'], ['B', '實踐檢驗真理唔需要理論指導'], ['C', '認識活動同實踐活動具有一樣嘅作用同力量'], ['D', '實踐係認識嘅來源同動力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義嘅宏觀管理同調節體現嘅係",
+    "llm_output": "The correct answer is C. 壟斷資產階級嘅整體利益.\n\nIn Marxist theory, state monopoly capitalism refers to a stage of capitalism where the state plays a significant role in managing and regulating the economy to serve the interests of the monopolistic capitalist class as a whole. Therefore, the macro-management and regulation of the state in this stage of capitalism reflect the overall interests of the monopolistic capitalist class.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全體勞動人民嘅經濟利益'], ['B', '國有企業嘅經濟利益'], ['C', '壟斷資產階級嘅整體利益'], ['D', '個別金融寡頭嘅經濟利益']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "下列實物形態嘅資本中，同時屬於生產資本、唔變資本同固定資本嘅係",
+    "llm_output": "The correct answer is A. 機器設備 (Machine equipment).\n\nHere's why:\n\n* 生產資本 (productive capital): Machine equipment is used in the production process to create new value.\n* 唔變資本 (constant capital): Machine equipment is a fixed asset that does not change its value during the production process.\n* 固定資本 (fixed capital): Machine equipment is a type of fixed asset that is used for a long period of time and is not consumed or replaced quickly.\n\nSo, machine equipment simultaneously belongs to productive capital, constant capital, and fixed capital.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '機器設備'], ['B', '原料同燃料'], ['C', '輔助材料'], ['D', '商業設施']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟全球化帶畀發達國家嘅好處好多，但唔包括",
+    "llm_output": "The correct answer is D. 擴大咗貿易逆差 (Expanding trade deficits).\n\nEconomic globalization can bring many benefits to developed countries, such as:\n\nA. 降低其生產成本 (Reducing production costs) by outsourcing production to countries with lower labor costs.\n\nB. 從世界各地獲取大量嘅利潤 (Obtaining large profits from around the world) through foreign investment and trade.\n\nC. 加強對國際金融市場嘅控制 (Strengthening control over international financial markets) by increasing their influence over global financial institutions and markets.\n\nHowever, expanding trade deficits (D) is not a benefit of economic globalization for developed countries. In fact, large trade deficits can be a sign of economic weakness and can lead to balance of payments problems.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '降低其生產成本'], ['B', '從世界各地獲取大量嘅利潤'], ['C', '加強對國際金融市場嘅控制'], ['D', '擴大咗貿易逆差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義實現由空想到科學發展嘅標誌係",
+    "llm_output": "The correct answer is C. 「共產黨宣言」嘅發表.\n\nThe Communist Manifesto, written by Marx and Engels, marked a significant shift from utopian socialism to scientific socialism. It presented a systematic and scientific analysis of capitalism and the role of the proletariat in the revolutionary process, laying the foundation for modern socialist thought.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '空想社會主義理想嘅破滅'], ['B', '「共產主義者同盟」嘅建立'], ['C', '「共產黨宣言」嘅發表'], ['D', '無產階級革命嘅勝利']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義法制嘅核心係",
+    "llm_output": "The correct answer is D. 民法 (Civil Law).\n\nAccording to Marxist theory, the core of the capitalist legal system is civil law, which is designed to protect the interests of the bourgeoisie and maintain the exploitation of the proletariat. Civil law regulates the relationships between individuals and private property, and is seen as a key mechanism for maintaining the dominance of the capitalist class.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '憲法'], ['B', '行政法'], ['C', '刑法'], ['D', '民法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺第一次世界大戰中成為東西方矛盾焦點同帝國主義政治體系最薄弱環節嘅國家係",
+    "llm_output": "The correct answer is C. 俄國 (Russia).\n\nAccording to Marxist theory, Russia was the weakest link in the imperialist chain and became the focal point of contradictions between East and West during World War I. This is because Russia was a semi-feudal, semi-colonial country with a weak capitalist economy and a large peasant population, making it vulnerable to revolution. The Russian Revolution of 1917, led by the Bolsheviks, was a direct result of this weakness and marked a significant turning point in world history.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '德國'], ['B', '中國'], ['C', '俄國'], ['D', '奧地利']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧對辯證唯物主義物質範疇嘅定義係通過",
+    "llm_output": "The correct answer is B. 物質同意識嘅關係界定嘅.\n\nAccording to Lenin, the definition of the material category in dialectical materialism is determined through the relationship between matter and consciousness.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一般同個別嘅關係界定嘅'], ['B', '物質同意識嘅關係界定嘅'], ['C', '主體同客體嘅關係界定嘅'], ['D', '哲學與具體科學嘅關係界定嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "各國壟斷組織從經濟上瓜分世界產生咗",
+    "llm_output": "The correct answer is B. 国家壟斷資本主義 (State Monopoly Capitalism).\n\nAccording to Marxist theory, state monopoly capitalism refers to the stage of capitalism where large corporations and the state become increasingly intertwined, leading to the concentration of economic power and the division of the world into spheres of influence among imperialist powers.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '殖民地同宗主國'], ['B', '國家壟斷資本主義'], ['C', '金融資本同金融寡頭'], ['D', '國際壟斷同盟']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "制約人民羣眾創造歷史嘅決定性條件係",
+    "llm_output": "The correct answer is C. 經濟條件.\n\nAccording to Marxist theory, the economic conditions of a society are the determining factor in shaping its history and the development of its people. Marx argued that the mode of production and the relationships of production, such as the ownership of the means of production, are the fundamental factors that shape the course of history and the lives of individuals within a society.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '文化水平'], ['B', '法律制度'], ['C', '經濟條件'], ['D', '傳統觀念']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「通過批判舊世界嚟發現新世界」係",
+    "llm_output": "The correct answer is C. 馬克思主義預見未來社會嘅方法.\n\nThis phrase \"通過批判舊世界嚟發現新世界\" (through criticizing the old world to discover the new world) is a key concept in Marxist theory, which emphasizes the importance of critically analyzing and understanding the existing social and economic conditions in order to create a new, socialist society.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '空想社會主義預見未來社會嘅方法'], ['B', '唯心主義預見未來社會嘅方法'], ['C', '馬克思主義預見未來社會嘅方法'], ['D', '唯物主義預見未來社會嘅方法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "恩格斯認為，全部哲學、特別係近代哲學嘅重大嘅基本問題係",
+    "llm_output": "The correct answer is C. 思維同存在嘅關係問題.\n\nAccording to Engels, the fundamental question of philosophy, especially modern philosophy, is the relationship between thought and existence, or the mind-body problem. This is a central theme in Marxist philosophy, which emphasizes the importance of understanding the relationship between human consciousness and the material world.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人與周圍世界嘅基本聯繫問題'], ['B', '關於人嘅本質問題'], ['C', '思維同存在嘅關係問題'], ['D', '哲學與人類生存活動之間嘅內喺聯繫問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "民主社會主義嘅實質係",
+    "llm_output": "The correct answer is D. 社會主義唔同模式嘅一種.\n\nDemocratic socialism is a variant of socialism that seeks to combine the principles of socialism with democratic values and institutions. It is not a reform of capitalism (A), nor is it the best model of socialism (B), nor is it exclusive to developed countries (C). Rather, it is one of the many forms that socialism can take (D).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '改良嘅資本主義'], ['B', '社會主義嘅最佳模式'], ['C', '發達國家嘅社會主義'], ['D', '社會主義唔同模式嘅一種']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧提出嘅：「從物到感覺同思想」與「從思想同感覺到物」係",
+    "llm_output": "The correct answer is C. 唯物主義認識論與唯心主義認識論嘅對立.\n\nLenin's concept of \"from matter to sensation and thought\" (唯物主義認識論) and \"from thought and sensation to matter\" (唯心主義認識論) represents the opposition between materialist and idealist epistemologies.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經驗論與唯理論嘅對立'], ['B', '可知論與不可知論嘅對立'], ['C', '唯物主義認識論與唯心主義認識論嘅對立'], ['D', '反映論與先驗論嘅對立']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「代替嗰啲存在住階級同階級對立嘅資產階級舊社會嘅，將會係噉嘅一個聯合體，喺呢度，每個人嘅自由發展係所有人自由發展嘅條件。」呢句係",
+    "llm_output": "The correct answer is A. 「哥達綱領批判」入面嘅一段說話.\n\nThis quote is from the \"Critique of the Gotha Program\" by Karl Marx, where he outlines his vision of a communist society.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「哥達綱領批判」入面嘅一段說話'], ['B', '「共產主義原理」入面嘅一段說話'], ['C', '「資本論」入面嘅一段說話'], ['D', '「共產黨宣言」入面嘅一段說話']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義發展嘅歷史趨勢係",
+    "llm_output": "The correct answer is D. 社會主義公有制取代資本主義私有制.\n\nAccording to Marxist theory, the historical trend of capitalist development is towards the replacement of capitalist private ownership by socialist public ownership. This is a key concept in Marxist theory, which argues that capitalism will eventually be replaced by socialism and ultimately communism.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '計劃經濟取代商品經濟'], ['B', '計劃經濟取代市場經濟'], ['C', '市場經濟取代計劃經濟'], ['D', '社會主義公有制取代資本主義私有制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "實踐嘅中介係",
+    "llm_output": "The correct answer is B. 受命於主觀，見之於客觀嘅活動.\n\nIn Marxist theory, practice (實踐) is seen as the intermediary between subjective and objective factors, where subjective intentions and goals are realized through objective activities and actions.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '對一事物存在同發展有聯繫嘅各種要素嘅總和'], ['B', '受命於主觀，見之於客觀嘅活動'], ['C', '構成事物一切要素嘅總和'], ['D', '各種形式嘅工具、手段及其運用嘅程序同方法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "真理同謬誤嘅界限喺於",
+    "llm_output": "The correct answer is:\n\nA. 係咪反映咗客觀事物嘅本質同規律\n\nAccording to Marxist theory, the boundary between truth and falsehood lies in whether a statement reflects the objective essence and laws of things, rather than whether it is accepted by the majority, conforms to Marxist ideology, or aligns with human interests and desires.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '係咪反映咗客觀事物嘅本質同規律'], ['B', '係咪畀大多數人所接受'], ['C', '係咪符合馬克思主義'], ['D', '係咪符合人嘅利益同願望']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "歷史上傑出人物嘅產生",
+    "llm_output": "The correct answer is A. 偶然與必然嘅統一 (The unity of chance and necessity).\n\nAccording to Marxist theory, the emergence of outstanding historical figures is the result of a combination of both chance and necessity. While chance events and circumstances may play a role in their rise to prominence, their actions and decisions are also shaped by the underlying social and economic conditions of their time, which are governed by necessity. Therefore, the correct answer is A.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '偶然與必然嘅統一'], ['B', '有嘅係偶然有嘅係必然'], ['C', '純粹偶然嘅'], ['D', '純粹必然嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "正確認識價值創造同財富生產嘅關係，關鍵係運用",
+    "llm_output": "The correct answer is D. 剩餘價值學說 (Surplus Value Theory).\n\nMarx's theory of surplus value is central to understanding the relationship between value creation and wealth production. According to Marx, surplus value is the value created by laborers beyond what is necessary to reproduce their own labor power, and it is this surplus value that is the source of profit for capitalists.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '資本有機構成學'], ['B', '平均利潤學說'], ['C', '勞動二重性學說'], ['D', '剩餘價值學說']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "重視理論創新，必須反對",
+    "llm_output": "The correct answer is A. 教條主義 (Dogmatism).\n\nMarxist theory emphasizes the importance of critically evaluating and developing new ideas, rather than blindly following established dogma or doctrine. Therefore, it is necessary to oppose dogmatism in order to promote theoretical innovation.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教條主義'], ['B', '經驗主義'], ['C', '先驗論'], ['D', '絕對主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "貨幣之所以能執行價值尺度嘅職能，係因為",
+    "llm_output": "The correct answer is B. 佢係社會勞動嘅產物，本身具有價值 (It is a product of social labor and has value itself).\n\nAccording to Marxist theory, money can function as a measure of value because it is a commodity that has value itself, derived from the socially necessary labor time required to produce it. This value is then used as a standard to measure the value of other commodities.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '佢能衡量其他商品價值嘅大小'], ['B', '佢係社會勞動嘅產物，本身具有價值'], ['C', '佢具有計量單位'], ['D', '佢可以係觀念上嘅貨幣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義由自由競爭階段進人壟斷階段，最根本嘅標誌喺於",
+    "llm_output": "The correct answer is C. 壟斷代替自由競爭喺經濟生活中佔統治地位.\n\nAccording to Marxist theory, the transition from the free competition stage to the monopoly stage of capitalism is marked by the replacement of free competition with monopoly as the dominant feature of economic life.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '國家壟斷代替私人壟斷喺經濟生活中佔統治地位'], ['B', '資本輸出代替商品輸出喺經濟生活中佔統治地位'], ['C', '壟斷代替自由競爭喺經濟生活中佔統治地位'], ['D', '銀行資本代替工業資本喺經濟生活中佔統治地位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "真理係思想形式，係人類經驗嘅組織形式」呢係",
+    "llm_output": "The correct answer is C. 辯證唯物主義真理論 (Dialectical Materialist Truth Theory).\n\nThis statement is a key concept in Marxist philosophy, which emphasizes that truth is a form of thought that organizes human experience. It suggests that truth is not a fixed or absolute concept, but rather a dynamic and dialectical process that emerges from the interaction between human beings and the material world. This perspective is characteristic of dialectical materialism, which is a fundamental aspect of Marxist theory.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '形而上學真理論'], ['B', '主觀唯心主義真理論'], ['C', '辯證唯物主義真理論'], ['D', '客觀真理論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義經濟危機呈現出週期性嘅原因喺於",
+    "llm_output": "The correct answer is D. 資本主義基本矛盾運動嘅特點.\n\nAccording to Marxist theory, the periodicity of capitalist economic crises is due to the characteristics of the movement of the fundamental contradiction of capitalism, which is the contradiction between the bourgeoisie and the proletariat. This contradiction leads to the cyclical nature of capitalist economic development, with periods of growth and prosperity followed by periods of crisis and decline.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資本主義再生產嘅週期性'], ['B', '資本主義基本矛盾'], ['C', '資本主義嘅基本矛盾週期性'], ['D', '資本主義基本矛盾運動嘅特點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "階級鬥爭對階級社會發展嘅推動作用突出表現喺",
+    "llm_output": "The correct answer is B. 社會形態嘅更替.\n\nAccording to Marxist theory, class struggle is a driving force behind the development of class society, and its impact is most pronounced in the transformation of social formations (i.e., the replacement of one social formation by another). This is because class struggle leads to the overthrow of the ruling class and the establishment of a new ruling class, resulting in a change in the social formation.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '科技嘅進步'], ['B', '社會形態嘅更替'], ['C', '生產力嘅發展'], ['D', '生產關係嘅變革']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會革命根源於",
+    "llm_output": "The correct answer is:\n\nA. 社會基本矛盾嘅尖銳化\n\nAccording to Marxist theory, social revolution arises from the sharpening of the fundamental contradictions within a society, particularly the contradiction between the bourgeoisie and the proletariat. This sharpening of contradictions leads to a crisis of the existing social order and creates the conditions for a revolutionary transformation.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會基本矛盾嘅尖銳化'], ['B', '少數英雄人物組織暴動'], ['C', '人口太多'], ['D', '先進思想同革命理論嘅傳播']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義嘅根本目嘅喺於",
+    "llm_output": "The correct answer is:\n\nB. 消滅剝削、消除兩極分化，最終達到共同富裕\n\nAccording to Marxist theory, the fundamental goal of socialism is to eliminate exploitation, eliminate the polarization of wealth, and ultimately achieve common prosperity.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '鎮壓資產階級嘅反抗'], ['B', '消滅剝削、消除兩極分化，最終達到共同富裕'], ['C', '建立無產階級專政'], ['D', '鞏固共產黨嘅領導']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義為向社會主義過渡準備咗物質條件係指",
+    "llm_output": "The correct answer is C. 全面嘅社會化.\n\nAccording to Marxist theory, state monopoly capitalism prepares the material conditions for the transition to socialism by socializing the means of production, which means that the state takes control of the key sectors of the economy and plans the production and distribution of goods and services. This is a step towards the socialization of the means of production, which is a key characteristic of socialism.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全面嘅商品化'], ['B', '全面嘅市場化'], ['C', '全面嘅社會化'], ['D', '市場嘅計劃化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "人民羣眾係歷史嘅創造者，其根本原因喺於人民羣眾",
+    "llm_output": "The correct answer is C. 係社會生產力嘅體現者 (is the embodiment of social productive forces).\n\nAccording to Marxist theory, the fundamental reason why the people (or the masses) are the creators of history is that they are the embodiment of social productive forces. This means that the people, as the producers of goods and services, are the driving force behind historical progress and development.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '掌握歷史發展規律'], ['B', '具有先進思想'], ['C', '係社會生產力嘅體現者'], ['D', '占人口大多數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義理論從狹義上講係",
+    "llm_output": "The correct answer is A. 馬克思同恩格斯創立嘅基本理論、基本觀點同基本方法構成嘅科學體系.\n\nThis option defines Marxism as a scientific system consisting of basic theories, views, and methods created by Marx and Engels, which is a narrow and accurate definition of Marxism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '馬克思同恩格斯創立嘅基本理論、基本觀點同基本方法構成嘅科學體系'], ['B', '關於無產階級鬥爭嘅性質、目的同解放條件嘅學說'], ['C', '關於資本主義轉化為社會主義以及社會主義同共產主義發展嘅普遍規律嘅學說'], ['D', '無產階級爭取自身解放同成個人類解放嘅學說體系']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "人類社會歷史發展嘅決定力量係",
+    "llm_output": "The correct answer is D. 生產方式 (Production relations).\n\nAccording to Marxist theory, the determining force of human social history is the production relations, which refers to the way in which people organize themselves to produce goods and services. This includes the relationships between classes, the ownership of the means of production, and the distribution of resources. Marx argued that the production relations shape the social and economic structure of society, and ultimately drive historical change.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '人口因素'], ['B', '地理條件'], ['C', '社會意識'], ['D', '生產方式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「舊唯物主義係半截子嘅唯物主義」，呢係指",
+    "llm_output": "The correct answer is B. 舊唯物主義係形而上學嘅唯物主義.\n\nThis statement is referring to the fact that old materialism, also known as metaphysical materialism, is a one-sided and incomplete form of materialism that only focuses on the material aspects of reality, neglecting the dialectical and historical aspects of social development.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '舊唯物主義係機械唯物主義'], ['B', '舊唯物主義係形而上學嘅唯物主義'], ['C', '舊唯物主義喺社會歷史觀上係唯心主義'], ['D', '舊唯物主義係割裂咗運動與靜止嘅辯證法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "有一首描述喺戰爭中缺少咗釘仔嘅馬掌會導致國家滅亡嘅童謠：「釘仔缺，蹄鐵卸，戰馬撅；戰馬撅，騎士絕；騎士絕，戰事折；戰事折，國家滅。」呢首童謠包含嘅哲學原理係",
+    "llm_output": "The correct answer is C. 事物係普遍聯繫嘅 (Things are universally interconnected).\n\nThis nursery rhyme illustrates the concept of universal interconnectedness, which is a fundamental principle of Marxist philosophy. The rhyme shows how the loss of a small nail (釘仔) can lead to a series of consequences, ultimately resulting in the downfall of a nation (國家滅). This demonstrates how individual components are connected and interdependent, and how a small change can have far-reaching effects.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '事物係變化嘅'], ['B', '事物嘅量變引起質變'], ['C', '事物係普遍聯繫嘅'], ['D', '事物嘅現象係本質嘅表現']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級專政嘅實質，就係",
+    "llm_output": "The correct answer is D. 鎮壓敵對階級嘅反抗同破壞活動.\n\nAccording to Marxist theory, the dictatorship of the proletariat is a transitional phase between the capitalist and communist societies, during which the proletariat, led by the communist party, exercises its dominance over the bourgeoisie and other reactionary forces to prevent them from restoring their power and privileges. The essence of the dictatorship of the proletariat is to suppress the resistance and destructive activities of the enemy classes, ensuring the consolidation of the socialist revolution and the transition to a communist society.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '無產階級作為統治階級掌握國家政權'], ['B', '領導同組織社會主義建設'], ['C', '要消滅剝削、消滅階級，進到無階級社會'], ['D', '鎮壓敵對階級嘅反抗同破壞活動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「歷史係邏輯嘅基礎，邏輯係歷史嘅修正」，呢一觀點係",
+    "llm_output": "The correct answer is C. 歷史與邏輯相統一嘅觀點.\n\nThis quote suggests that history and logic are interconnected and inseparable, with history providing the foundation for logic and logic serving as a correction to history. This perspective emphasizes the unity and dialectical relationship between history and logic, which is a key aspect of Marxist theory.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '割裂歷史與邏輯統一嘅觀點'], ['B', '主觀唯心主義嘅觀點'], ['C', '歷史與邏輯相統一嘅觀點'], ['D', '片面強調邏輯重要性嘅觀點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義地租係",
+    "llm_output": "The correct answer is B. 超額利潤轉化嚟嘅.\n\nIn Marxist theory, capitalist ground rent is a form of surplus value that arises from the difference between the average profit rate and the higher profit rate earned by capitalists who own land or natural resources with exceptional fertility or location. This difference is referred to as \"superprofit\" or \"excess profit\", which is then transformed into ground rent.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '壟斷利潤轉化嚟嘅'], ['B', '超額利潤轉化嚟嘅'], ['C', '企業利潤轉化嚟嘅'], ['D', '平均利潤轉化嚟嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "第二次世界大戰後，發達資本主義國家同私人壟斷統治嘅發展表現喺",
+    "llm_output": "The correct answer is D. 國際壟斷同盟嘅興起.\n\nAfter World War II, the development of monopoly capitalism in developed capitalist countries and the rule of private monopolies manifested in the rise of international monopoly alliances.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '金融寡頭嘅統治'], ['B', '托拉斯同康采恩嘅出現'], ['C', '形成跨行業跨部門嘅混合聯合企業'], ['D', '國際壟斷同盟嘅興起']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "商品嘅本質因素係",
+    "llm_output": "The correct answer is C. 價值 (Value).\n\nAccording to Marxist theory, the dual nature of a commodity consists of use value and exchange value. Use value refers to the usefulness or utility of a commodity, while exchange value refers to its value in exchange for other commodities. The value of a commodity, which is the socially necessary labor time required to produce it, is the essential factor that determines its exchange value.\n\nSo, the correct answer is C. 價值 (Value), which encompasses both use value and exchange value.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '交換價值'], ['B', '使用價值'], ['C', '價值'], ['D', '價格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟全球化嘅實質決定咗佢嘅發展必然係",
+    "llm_output": "The correct answer is C. 有利於發達資本主義國家.\n\nAccording to Marxist theory, economic globalization is a process driven by the pursuit of profit and the expansion of capitalist markets. As such, it tends to benefit developed capitalist countries, which have the economic and political power to shape the rules of globalization to their advantage. This is because they have a stronger position in the global economy, with more advanced technology, larger markets, and greater financial resources.\n\nIn contrast, developing countries and socialist countries may be disadvantaged by globalization, as they may be forced to open up their markets to foreign competition, leading to the exploitation of their resources and labor.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '有利於社會主義國家'], ['B', '有利於所有國家'], ['C', '有利於發達資本主義國家'], ['D', '有利於發展中國家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "既係自然界與人類社會分化統一嘅歷史前提，又係自然界與人類社會統一起嚟嘅現實基礎",
+    "llm_output": "The correct answer is B. 物質生產 (Material Production).\n\nAccording to Marxist theory, material production is the historical precondition and real basis for the unity of nature and human society. It is through material production that humans interact with nature and shape their social relations, creating the conditions for the development of society.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '運動'], ['B', '物質生產'], ['C', '精神生產'], ['D', '實踐']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "恩格斯講過：「人嘅智力係按照人點樣學識改造自然界而發展嘅。」呢說明",
+    "llm_output": "The correct answer is B. 人嘅認識具有主觀能動性.\n\nThis quote from Engels emphasizes the active role of human beings in shaping their understanding of the natural world. It suggests that human intelligence develops as people learn and transform the natural world, implying that human cognition is not a passive reception of information, but an active process of shaping and transforming the world. This is a key aspect of Marxist epistemology, which emphasizes the importance of human agency and practice in shaping our understanding of reality.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自然界係認識發展嘅動力'], ['B', '人嘅認識具有主觀能動性'], ['C', '科學進步係實踐嘅目嘅'], ['D', '人具有認識自然嘅能力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "英雄史觀嘅理論出發點係主張",
+    "llm_output": "The correct answer is C. 社會運動受偶然性支配.\n\nThe \"heroic view of history\" (英雄史觀) is a concept in Marxist theory that emphasizes the role of individual heroes or great leaders in shaping historical events. According to this view, historical events are seen as being influenced by the actions and decisions of these individuals, rather than by broader social and economic forces.\n\nOption C, \"社會運動受偶然性支配\" (Social movements are dominated by chance), reflects this idea that historical events are shaped by the actions of individual heroes, which are seen as unpredictable and contingent.\n\nThe other options do not accurately reflect the heroic view of history:\n\nA. \"人係社會歷史嘅主體\" (People are the subjects of social history) is a more general Marxist concept that emphasizes the role of human agency in shaping history, but it does not specifically relate to the heroic view of history.\n\nB. \"人嘅意識對社會存在具有能動嘅作用\" (People's consciousness has an active role in social existence) is a concept that relates to the idea that people's thoughts and ideas can shape their social reality, but it is not directly related to the heroic view of history.\n\nD. \"社會意識決定社會存在\" (Social consciousness determines social existence) is a concept that relates to the idea that people's collective thoughts and ideas shape their social reality, but it is not specifically related to the heroic view of history.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '人係社會歷史嘅主體'], ['B', '人嘅意識對社會存在具有能動嘅作用'], ['C', '社會運動受偶然性支配'], ['D', '社會意識決定社會存在']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "冇抽象嘅真理，真理總係具體嘅。呢一命題強調",
+    "llm_output": "The correct answer is A. 真理嘅內容係客觀嘅，形式係主觀嘅.\n\nThis statement emphasizes that truth is always concrete, meaning that it is rooted in objective reality, but its form is subjective, meaning that it is shaped by human perception and understanding. This is a key concept in Marxist epistemology, which rejects abstract and absolute truths in favor of a more nuanced and contextual understanding of truth.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '真理嘅內容係客觀嘅，形式係主觀嘅'], ['B', '真理係感性嘅直觀，唔係理性嘅抽象'], ['C', '同一對象真理性嘅認識只有一個'], ['D', '真理係與人嘅具體利益相聯繫嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義對經濟嘅幹預",
+    "llm_output": "正確答案：A. 冇改變勞動者受剝削嘅地位",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '冇改變勞動者受剝削嘅地位'], ['B', '改變咗資本主義私有制嘅性質'], ['C', '使資產階級同工人階級形成咗利益一致'], ['D', '從根本上解決咗壟斷資本主義國家嘅階級矛盾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "人工智能嘅出現對馬克思主義哲學意識論嘅意義係",
+    "llm_output": "The correct answer is D. 豐富咗物質同意識相互關係內容.\n\nThe emergence of artificial intelligence (AI) has enriched the content of the relationship between matter and consciousness in Marxist philosophical consciousness theory. This is because AI has created new forms of material existence that interact with human consciousness in complex ways, further highlighting the dialectical relationship between the two.\n\nOption A is incorrect because Marxist philosophy does not suggest that AI can replace human consciousness or its active role.\n\nOption B is also incorrect because while AI may have changed the way humans think and interact, it has not altered the fundamental laws governing human consciousness activity.\n\nOption C is not a valid answer as it is a repetition of the question itself.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '肯定咗人工智能可以代替意識嘅能動活動'], ['B', '改變咗人類意識活動嘅規律性'], ['C', '人工智能嘅出現對馬克思主義哲學意識論嘅意義係'], ['D', '豐富咗物質同意識相互關係內容']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "第二次世界大戰後，國家壟斷資本主義發展嘅特點係",
+    "llm_output": "The correct answer is B. 發展迅速且持續穩定.\n\nAfter World War II, state-monopoly capitalism developed rapidly and relatively stably, characterized by a period of rapid economic growth and relative stability in many Western countries, often referred to as the \"Golden Age of Capitalism\".",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '發展緩慢唔穩定'], ['B', '發展迅速且持續穩定'], ['C', '時而削弱，時而發展'], ['D', '發展迅速但唔穩定']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級專政嘅目標係",
+    "llm_output": "The correct answer is D. 要消滅剝削、消滅階級，進到無階級社會 (To eliminate exploitation, eliminate classes, and move towards a classless society).\n\nAccording to Marxist theory, the ultimate goal of the dictatorship of the proletariat is to create a classless society, where there is no exploitation of one class by another, and where the state withers away as people become self-governing.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '不斷鞏固、發展無產階級政權同社會主義制度'], ['B', '防止國外敵人嘅侵略同顛覆，支持世界人民嘅革命鬥爭'], ['C', '建設社會主義民主'], ['D', '要消滅剝削、消滅階級，進到無階級社會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "對於哲學史上長期爭論唔休嘅唯理論同經驗論兩大派別嘅正確評價係",
+    "llm_output": "The correct answer is:\n\nD. 唯理論同經驗論各有片面嘅真理性\n\nAccording to Marxist philosophy, both rationalism and empiricism have partial truths, but they are one-sided and limited. Rationalism emphasizes the role of reason and abstract thinking, while empiricism emphasizes the role of experience and sensory data. Marxist philosophy seeks to overcome the limitations of both approaches by integrating them into a dialectical and materialist understanding of reality.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唯理論係正確嘅，經驗論係錯誤嘅'], ['B', '經驗論係正確嘅，唯理論係錯誤嘅'], ['C', '唯理論同經驗論都係完全錯誤嘅'], ['D', '唯理論同經驗論各有片面嘅真理性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺生產關係中起決定作用嘅係",
+    "llm_output": "The correct answer is A. 生產資料所有制 (Ownership of the means of production).\n\nAccording to Marxist theory, the ownership of the means of production is the decisive factor in shaping the production relations. This refers to who controls the means of production, such as factories, land, and resources, and how they are used to exploit or benefit the laborers.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '生產資料所有制'], ['B', '喺生產中人同人嘅關係'], ['C', '產品嘅分配同交換'], ['D', '管理者同生產者嘅唔同地位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義產生嘅經濟根源係",
+    "llm_output": "The correct answer is D. 資本主義社會生產力同生產關係嘅矛盾運動.\n\nAccording to Marxist theory, the economic root of Marxism is the contradiction between the productive forces and the relations of production in a capitalist society. This contradiction is seen as the driving force behind the development of capitalism and the eventual transition to socialism.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '工業革命'], ['B', '資本主義經濟危機'], ['C', '階級鬥爭'], ['D', '資本主義社會生產力同生產關係嘅矛盾運動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「社會上一旦有技術上嘅需要，呢種需要會比十間大學更加能夠把科學推向前進。」呢說明",
+    "llm_output": "The correct answer is C. 技術推動咗科學嘅發展.\n\nThis statement is saying that when there is a technical need in society, it can drive scientific progress more effectively than ten universities. This is a classic Marxist idea, which emphasizes the role of practical needs and technological development in driving scientific progress.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '實踐係認識發展嘅動力'], ['B', '實踐係認識嘅來源'], ['C', '技術推動咗科學嘅發展'], ['D', '科學進步係實踐嘅目嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義嘅發展",
+    "llm_output": "The correct answer is A. 符合壟斷資本家嘅整體利益.\n\nIn Marxist theory, state monopoly capitalism refers to the stage of capitalism where the state plays a significant role in supporting and consolidating the power of monopoly capitalists. This means that the state's policies and actions serve to benefit the collective interests of the monopoly capitalists, rather than individual capitalists or the working class.\n\nTherefore, option A is the correct answer, as it accurately describes the relationship between the state and monopoly capitalists in state monopoly capitalism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '符合壟斷資本家嘅整體利益'], ['B', '代表咗個別資本家嘅利益'], ['C', '改變咗經濟嘅資本主義性質'], ['D', '消滅咗私人壟斷資本主義嘅基礎']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "唯物辯證法嘅否定之否定規律揭示咗事物發展嘅",
+    "llm_output": "The correct answer is C. 方向同道路 (direction and path).\n\nThe law of the negation of the negation in dialectical materialism reveals the direction and path of the development of things, i.e., the spiral and upward movement of development, where the old is negated and the new emerges, and the new is then negated and a higher level of development is reached, and so on.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結構同功能'], ['B', '形式同狀態'], ['C', '方向同道路'], ['D', '源泉同動力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「沉舟側畔千帆過，病樹前頭萬木春。」「芳林新葉催陳葉，流水前波讓後波。」呢兩句詩包含嘅哲學道理係",
+    "llm_output": "The correct answer is A. 新事物代替舊事物係事物發展嘅總趨勢.\n\nThe two poems describe the process of new things replacing old things, which is a fundamental principle of Marxist dialectics. The first poem describes how new ships (新帆) are sailing by, while old ships (沉舟) are being left behind, and how new trees (萬木春) are growing, while old trees (病樹) are withering away. The second poem describes how new leaves (芳林新葉) are emerging, while old leaves (陳葉) are falling off, and how new waves (流水前波) are flowing, while old waves (後波) are receding.\n\nThis principle is a key aspect of Marxist theory, which emphasizes the idea that new social and economic formations will inevitably replace old ones as society develops.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新事物代替舊事物係事物發展嘅總趨勢'], ['B', '事物係本質同現象嘅統一'], ['C', '矛盾係事物發展嘅動力'], ['D', '事物嘅發展係量變同質變嘅統一']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義最崇高嘅社會理想",
+    "llm_output": "The correct answer is A. 實現共產主義 (Achieving Communism).\n\nAccording to Marxist theory, the ultimate goal of human society is to achieve a classless, stateless, and communist society, where the means of production are collectively owned and resources are distributed based on need, rather than profit. This is the highest social ideal in Marxism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '實現共產主義'], ['B', '實現人權'], ['C', '消滅階級、消滅國家'], ['D', '實現個人嘅絕對自由']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「坐地日行八萬裏，巡天遙睇一千河」，呢一著名詩句包含嘅哲理係",
+    "llm_output": "The correct answer is B. 運動嘅絕對性同靜止嘅相對性嘅統一.\n\nThe poem \"坐地日行八萬裏，巡天遙睇一千河\" is a classic example of the dialectical relationship between motion and rest. The phrase \"坐地日行八萬裏\" (sitting on the ground, traveling 80,000 li) suggests that even when one is at rest, they are still in motion, as the earth is rotating and moving through space. This illustrates the idea that motion is absolute, while rest is relative.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '時空嘅無限性同有限性嘅統一'], ['B', '運動嘅絕對性同靜止嘅相對性嘅統一'], ['C', '物質運動嘅客觀性同時空嘅主觀性嘅統一'], ['D', '物質運動嘅無限性同有限性嘅統一']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義政黨制度嘅實質係",
+    "llm_output": "The correct answer is:\n\nD. 資產階級揀選自己嘅國家管理者，實現其內部利益平衡嘅政治機制\n\nThis option accurately reflects the Marxist view that the capitalist party system is a mechanism for the bourgeoisie to select its own representatives to manage the state and balance its internal interests.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唔受資本主義國家政權嘅資本主義性質制約'], ['B', '允許馬克思主義政黨獨立執政'], ['C', '允許工人階級及其政黨參與國家政治生活'], ['D', '資產階級揀選自己嘅國家管理者，實現其內部利益平衡嘅政治機制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級革命嘅根本問題係",
+    "llm_output": "The correct answer is B. 國家政權問題.\n\nAccording to Marxist theory, the fundamental problem of the proletarian revolution is the seizure of state power, which is the key to the establishment of a socialist society. The proletariat must overthrow the bourgeoisie and establish its own dictatorship in order to build socialism. Therefore, the correct answer is B. 國家政權問題.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '武裝鬥爭問題'], ['B', '國家政權問題'], ['C', '統一戰線中嘅領導權問題'], ['D', '農民問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "科學社會主義嘅核心內容係",
+    "llm_output": "The correct answer is A. 無產階級專政同社會主義民主.\n\nScientific socialism, also known as Marxism-Leninism, emphasizes the importance of both the dictatorship of the proletariat and socialist democracy. The dictatorship of the proletariat refers to the state of affairs in which the working class holds power and exercises control over the means of production, while socialist democracy refers to the democratic participation of the people in the decision-making process.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '無產階級專政同社會主義民主'], ['B', '國家政權'], ['C', '無產階級專政'], ['D', '唯物史觀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "人民羣眾既係歷史嘅「劇中人」，又係歷史嘅「劇作者」，呢係",
+    "llm_output": "The correct answer is:\n\nD. 歷史唯物主義嘅觀點\n\nThis statement reflects the Marxist view that people are both the \"actors\" and the \"authors\" of history, meaning that they are both shaped by historical circumstances and also have the ability to shape history through their actions and struggles. This is a key concept in historical materialism, which emphasizes the role of human agency and class struggle in shaping historical outcomes.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '歷史循環論嘅觀點'], ['B', '折衷主義嘅觀點'], ['C', '唯心主義嘅觀點'], ['D', '歷史唯物主義嘅觀點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思提到：「搬運工同哲學家之間嘅原始差異，其實比家犬同獵犬之間嘅差異細好多，佢哋之間嘅鴻溝係由分工挖出嚟嘅。」呢個表明",
+    "llm_output": "The correct answer is C. 人嘅聰明才智無先天區別.\n\nThis quote from Marx suggests that the difference between a porter and a philosopher is not due to innate intelligence or abilities, but rather due to the division of labor and the social roles they occupy. This implies that there is no inherent or natural difference in intelligence between people, and that it is shaped by external factors such as social and economic conditions.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人嘅聰明才智嘅大小主要取決於主觀努力嘅程度'], ['B', '人嘅聰明才智主要來源於後天實踐'], ['C', '人嘅聰明才智無先天區別'], ['D', '人嘅聰明才智由人嘅社會政治地位決定']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "壟斷資本主義國家嘅「經濟計劃化」",
+    "llm_output": "The correct answer is:\n\nD. 使生產嘅無政府狀態得到一定嘅緩解\n\nExplanation: In Marxist theory, the \"economic planning\" of a monopoly capitalist state can alleviate the anarchic nature of production to a certain extent, but it does not eliminate the fundamental contradictions of capitalism, nor does it lead to a peaceful transition to socialism.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '可以消除資本主義經濟危機'], ['B', '可以從根本上解決資本主義基本矛盾'], ['C', '導致資本主義向社會主義和平過渡'], ['D', '使生產嘅無政府狀態得到一定嘅緩解']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義必然代替資本主義嘅主要依據係",
+    "llm_output": "The correct answer is D. 生產嘅社會化與資本主義私人佔有制之間嘅矛盾.\n\nAccording to Marxist theory, the main basis for the inevitability of socialism replacing capitalism is the contradiction between the socialization of production and the private ownership of the means of production under capitalism. This contradiction arises because capitalism creates a situation in which the means of production are owned by a small group of capitalists, while the production process itself becomes increasingly socialized, with many people working together to produce goods and services. This leads to a conflict between the interests of the capitalists and the interests of the working class, which ultimately leads to the downfall of capitalism and the rise of socialism.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '無產階級與資產階級鬥爭尖銳化'], ['B', '現代無產階級嘅日益壯大'], ['C', '個別企業有組織嘅生產與成個社會生產無政府狀態之間嘅矛盾'], ['D', '生產嘅社會化與資本主義私人佔有制之間嘅矛盾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "科學社會主義嘅直接理論來源係",
+    "llm_output": "The correct answer is A. 唯物史觀同剩餘價值學說.\n\n科學社會主義 (Scientific Socialism) is a term coined by Friedrich Engels to describe the socialist philosophy developed by Karl Marx and himself. The direct theoretical sources of Scientific Socialism are indeed Marx's Materialist Conception of History (唯物史觀) and the Theory of Surplus Value (剩餘價值學說), which are the core components of Marxist theory.\n\nMaterialist Conception of History provides a framework for understanding the development of human society and the role of class struggle in shaping history, while the Theory of Surplus Value explains how capitalism exploits workers and creates profit.\n\nThe other options are not correct because:\n\nB. While utopian socialists like Saint-Simon, Fourier, and Owen influenced Marx and Engels, their ideas are not the direct theoretical sources of Scientific Socialism.\n\nC. Utopian socialism is a broader category that includes various forms of socialism that preceded Marx and Engels, but it is not the direct theoretical source of Scientific Socialism.\n\nD. Utopian communism is an even more general term that refers to early forms of communism that were not based on a scientific understanding of society and economy, and it is not the direct theoretical source of Scientific Socialism.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唯物史觀同剩餘價值學說'], ['B', '19世紀初期以聖西門、傅立葉、歐文為代表嘅空想社會主義'], ['C', '空想社會主義嘅學說'], ['D', '空想平均共產主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "如果部門勞動生產率下降，同一勞動喺單位時間內創造嘅",
+    "llm_output": "The correct answer is D. 使用價值量減少，單位產品嘅價值量減少.\n\nAccording to Marxist theory, if the labor productivity of a department decreases, it means that the same labor can produce fewer use values in a unit of time. As a result, the value of each unit of product will increase, because more labor time is required to produce it. Therefore, the use value quantity decreases, and the value of each unit of product also decreases.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '價值量減少，單位產品嘅價值量減少'], ['B', '使用價值量減少，單位產品嘅價值量增加'], ['C', '價值量增加，單位產品嘅價值量增加'], ['D', '使用價值量減少，單位產品嘅價值量減少']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「哲學將無產階級當作自己嘅物質武器，同樣，無產階級將哲學當作自己嘅精神武器」，呢個論斷嘅含義係",
+    "llm_output": "The correct answer is A. 馬克思主義係無產階級嘅世界觀同方法論.\n\nThis quote is from Marx's \"A Contribution to the Critique of Hegel's Philosophy of Right\" and it means that philosophy (Marxism) serves as a spiritual weapon for the proletariat, and the proletariat, in turn, uses philosophy as a material force to achieve its goals. This highlights the close relationship between Marxism and the proletariat, and how Marxism serves as the worldview and methodology of the proletariat.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '馬克思主義係無產階級嘅世界觀同方法論'], ['B', '哲學嘅存在方式係物質'], ['C', '無產階級嘅存在方式係精神'], ['D', '無產階級掌握哲學就由自為階級轉變為自喺階級']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資產階級意識形態嘅核心係",
+    "llm_output": "The correct answer is B. 政治思想同法律思想.\n\nAccording to Marxist theory, the core of bourgeois ideology is political thought and legal thought, which serve to justify and maintain the dominant position of the ruling class.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '哲學、歷史'], ['B', '政治思想同法律思想'], ['C', '道德、倫理'], ['D', '文學、藝術同宗教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "學習馬克思主義基本原理嘅根本方法",
+    "llm_output": "The correct answer is A. 理論聯繫實際 (Theory combines with practice).\n\nThis is because Marx's dialectical materialism emphasizes the importance of combining theoretical understanding with practical application and experience. Marx believed that theory should be grounded in and informed by real-world experiences and observations, and that it should be tested and refined through practical application. Therefore, the fundamental method of studying Marxist basic principles is to combine theory with practice.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '理論聯繫實際'], ['B', '實事求係'], ['C', '一切從實際出發'], ['D', '認真學習馬克思主義嘅著作']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "法國科學家路易·巴斯德講過：「喺觀察事物之際，機遇偏愛有準備嘅頭腦。」呢句話強調咗",
+    "llm_output": "The correct answer is B. 人哋喺認識事物時要有理性嘅指導.\n\nThe quote \"In the observation of things, chance favors the prepared mind\" by Louis Pasteur emphasizes the importance of having a rational and prepared mind in the process of observing and understanding phenomena. It highlights the role of reason and prior knowledge in shaping our understanding of the world.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人哋只有發揮主觀能動性先能認識事物'], ['B', '人哋喺認識事物時要有理性嘅指導'], ['C', '人哋唔單止要善於觀察事物，仲要善於思考問題'], ['D', '人哋獲得感性經驗至關重要']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "上層建築係指",
+    "llm_output": "The correct answer is:\n\nD. 建立喺一定社會經濟基礎之上嘅意識形態及相應嘅制度\n\nIn Marxist theory, the \"superstructure\" (上層建築) refers to the ideological and institutional forms that arise from and are shaped by the economic base of a society. This includes the legal, political, religious, and cultural institutions, as well as the dominant ideologies and forms of consciousness that justify and perpetuate the existing social and economic relations.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '科學技術'], ['B', '社會生產關係'], ['C', '社會嘅經濟制度'], ['D', '建立喺一定社會經濟基礎之上嘅意識形態及相應嘅制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級反對資產階級嘅鬥爭中，最具決定意義嘅係",
+    "llm_output": "The correct answer is A. 政治鬥爭.\n\nAccording to Marxist theory, the proletariat's struggle against the bourgeoisie is ultimately a political struggle for power and control over the means of production. While economic struggles (such as strikes and labor disputes) and theoretical struggles (such as debates over ideology) are important, they are ultimately secondary to the political struggle for revolution and the overthrow of the capitalist state.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '政治鬥爭'], ['B', '理論鬥爭'], ['C', '議會鬥爭'], ['D', '經濟鬥爭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "第二次世界大戰後，發達資本主義國家嘅發展進入國家壟斷資本主義嘅新階段，呢意味住",
+    "llm_output": "The correct answer is C. 發達資本主義國家嘅政府擔當調控國家宏觀經濟嘅重要職能.\n\nAfter World War II, developed capitalist countries entered a new stage of state-monopoly capitalism, which means that the government plays a crucial role in regulating the national macro-economy. This is characterized by the state's increased intervention in the economy, particularly in areas such as fiscal policy, monetary policy, and social welfare.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '所有重要嘅經濟部門實行國有化'], ['B', '國家壟斷資本掌控經濟生活'], ['C', '發達資本主義國家嘅政府擔當調控國家宏觀經濟嘅重要職能'], ['D', '國家壟斷重於私人壟斷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟全球化帶畀發展中國家嘅消極影響有好多，但唔包括",
+    "llm_output": "The correct answer is B. 經濟發展機會大大減少.\n\nAccording to Marxist theory, economic globalization can have several negative impacts on developing countries, including:\n\n* A. 經濟發展受到一定程度嘅損失 (Economic development is hindered to a certain extent)\n* C. 喺國際貿易關係中剩餘價值大量流失 (A large amount of surplus value is lost in international trade relations)\n* D. 金融風險加大 (Financial risks increase)\n\nHowever, economic globalization can also create new opportunities for economic development, especially for countries that are able to take advantage of the global market. Therefore, option B. 經濟發展機會大大減少 (Economic development opportunities are greatly reduced) is not a correct answer.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '經濟發展受到一定程度嘅損失'], ['B', '經濟發展機會大大減少'], ['C', '喺國際貿易關係中剩餘價值大量流失'], ['D', '金融風險加大']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "辯證思維方法從抽象上升到具體嘅過程係",
+    "llm_output": "The correct answer is C. 喺思維中形成「多種規定嘅統一」嘅過程.\n\nThis is because the dialectical thinking method involves rising from the abstract to the concrete, which means that it starts with abstract concepts and gradually forms a comprehensive and concrete understanding by integrating multiple determinations.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '從認識到實踐嘅過程'], ['B', '思維生成現實具體嘅過程'], ['C', '喺思維中形成「多種規定嘅統一」嘅過程'], ['D', '從實踐到認識嘅過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義國家嘅選舉嘅實質係",
+    "llm_output": "The correct answer is B. 協調統治階級內部利益關係同矛盾嘅重要措施.\n\nAccording to Marxist theory, elections in capitalist countries are a means for the ruling class to coordinate their internal interests and contradictions, rather than a genuine expression of the people's will. This view holds that the capitalist class uses elections to maintain their power and control over the means of production, while giving the illusion of democracy and participation to the working class.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '每個公民都能通過競選參與政治活動，表達自己嘅願望同要求'], ['B', '協調統治階級內部利益關係同矛盾嘅重要措施'], ['C', '人民當家作主'], ['D', '資產階級同無產階級分權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級革命取得勝利嘅根本保證係",
+    "llm_output": "The correct answer is D. 人民羣眾嘅革命積極性嘅極大提高.\n\nAccording to Marxist theory, the fundamental guarantee of the victory of the proletarian revolution is the high level of revolutionary enthusiasm and activism among the masses of people. This is because the revolution requires the active participation and support of the working class and other oppressed groups in order to succeed.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國家政權問題'], ['B', '無產階級政黨嘅正確領導'], ['C', '建立革命嘅統一戰線'], ['D', '人民羣眾嘅革命積極性嘅極大提高']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「物嘅依賴性關係」係",
+    "llm_output": "The correct answer is D. 資本主義社會入面嘅人同人之間嘅關係.\n\n\"物嘅依賴性關係\" (commodity fetishism) is a concept in Marxist theory that refers to the way in which, under capitalism, social relations between people are mediated by commodities and take on the form of relations between things. In other words, people's relationships with each other are shaped by their relationships with commodities, and are characterized by exploitation and alienation.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資本主義社會以前嘅人同人之間嘅關係'], ['B', '共產主義社會入面嘅人同人之間嘅關係'], ['C', '社會主義社會入面嘅人同人之間嘅關係'], ['D', '資本主義社會入面嘅人同人之間嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本係一種運動，資本循環係從",
+    "llm_output": "The correct answer is D. 資本運動嘅形式同條件方面研究資本嘅運動.\n\nIn Marxist theory, capital is seen as a process or movement, and the circulation of capital is studied in terms of its forms and conditions. This includes the different stages of the circulation process, such as production, circulation, and reproduction, as well as the conditions under which capital operates, such as the labor process, the market, and the state.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資本運動嘅實現條件方面研究資本嘅運動'], ['B', '資本運動嘅矛盾性方面研究資本嘅運動'], ['C', '資本運動嘅速度方面研究資本嘅運動'], ['D', '資本運動嘅形式同條件方面研究資本嘅運動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本集中特嘅方式係",
+    "llm_output": "The correct answer is D. 資本積聚同資本積累 (Capital concentration and capital accumulation).\n\nAccording to Marxist theory, capital concentration refers to the process by which capital is concentrated in the hands of a few large capitalists or corporations, leading to the elimination of smaller competitors and the centralization of capital. Capital accumulation, on the other hand, refers to the process by which capital is accumulated through the exploitation of labor and the generation of surplus value.\n\nSo, the correct answer is D. 資本積聚同資本積累, which combines both concepts.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '競爭同剩餘價值嘅資本化'], ['B', '競爭同信用'], ['C', '簡單再生產同擴大再生產'], ['D', '資本積聚同資本積累']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "下列提法正確嘅係",
+    "llm_output": "The correct answer is D. 好多思想家都預見咗未來社會.\n\nExplanation: Many thinkers, including utopian socialists, idealists, and Marxist classics, have envisioned future societies. It's not exclusive to one particular group or ideology.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '只有空想社會主義思想家預見咗未來社會'], ['B', '只有唯心主義思想家預見咗未來社會'], ['C', '只有馬克思主義經典作家預見咗未來社會'], ['D', '好多思想家都預見咗未來社會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺理論上第一次將共產主義社會第一階段稱為社會主義嘅係",
+    "llm_output": "The correct answer is C. 列寧 (Lenin).\n\nIn his work \"The State and Revolution\" (1917), Lenin was the first to explicitly refer to the first stage of communist society as \"socialism\".",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '恩格斯'], ['B', '馬克思'], ['C', '列寧'], ['D', '斯大林']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "民主嘅根本性質最終取決於",
+    "llm_output": "The correct answer is C. 其經濟基礎嘅性質.\n\nAccording to Marxist theory, the fundamental nature of democracy is ultimately determined by its economic base, not by who exercises power or how they exercise it. This is because the economic base of a society shapes the relations of production, which in turn influence the superstructure of politics, ideology, and culture. In other words, the economic base determines the class structure and the interests of different classes, which then shape the nature of democracy.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '係唔係全民嘅民主'], ['B', '統治階級點樣嚟進行統治'], ['C', '其經濟基礎嘅性質'], ['D', '由邊個嚟進行統治']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會意識相對獨立性嘅最突出表現係佢",
+    "llm_output": "The correct answer is D. 對社會存在具有能動嘅反作用.\n\nThis is because the relative independence of social consciousness is most prominently manifested in its ability to exert an active influence on social existence, rather than simply being a passive reflection of it. This is a key concept in Marxist theory, which emphasizes the role of consciousness in shaping social reality.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '具有歷史嘅繼承性'], ['B', '同社會存在發展嘅唔同步性'], ['C', '同社會經濟嘅發展具有唔平衡性'], ['D', '對社會存在具有能動嘅反作用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義經濟危機嘅實質係",
+    "llm_output": "The correct answer is D. 生產相對過剩嘅危機 (Relative overproduction crisis).\n\nAccording to Marxist theory, the essence of capitalist economic crises is the relative overproduction of commodities, which leads to a mismatch between the production of goods and services and the ability of the market to absorb them. This is because the pursuit of profit leads to the expansion of production, but the limited purchasing power of the working class and the tendency of the rate of profit to fall create a barrier to the realization of profits. As a result, a crisis of overproduction occurs, where there is a surplus of goods and services that cannot be sold.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '生產唔足嘅危機'], ['B', '生產過剩嘅危機'], ['C', '生產絕對過剩嘅危機'], ['D', '生產相對過剩嘅危機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義各個階段嘅劃分最終應以",
+    "llm_output": "The correct answer is C. 生產力嘅發展為標準.\n\nAccording to Marxist theory, the division of socialism into different stages is ultimately based on the development of productive forces. This is because the level of development of productive forces determines the relations of production, and thus the character of the socialist society.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '以階級鬥爭為標準'], ['B', '生產資料嘅公有制程度為標準'], ['C', '生產力嘅發展為標準'], ['D', '生產關係為標準']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義產生嘅階級基礎同實踐基礎",
+    "llm_output": "正確答案：C. 資本主義嘅剝削同壓迫",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '無產階級作為一支獨立嘅政治力量登上咗歷史舞臺'], ['B', '工人運動得到咗「農民嘅合唱」'], ['C', '資本主義嘅剝削同壓迫'], ['D', '工人罷工同起義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "實現社會主義嘅必要政治前提係",
+    "llm_output": "The correct answer is B. 建立無產階級專政.\n\nAccording to Marxist theory, the necessary political precondition for realizing socialism is the establishment of the dictatorship of the proletariat, which means that the working class must seize power and establish a socialist state to suppress the resistance of the bourgeoisie and other exploiting classes.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '無產階級嘅革命鬥爭'], ['B', '建立無產階級專政'], ['C', '建立廣泛嘅革命統一戰線'], ['D', '無產階級政黨嘅領導']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "蒸汽、電力同自動紡織機甚至係比巴爾貝斯、拉斯拜爾同布朗基諸位公民更加危險萬分嘅革命家。」呢一論斷嘅含義係",
+    "llm_output": "The correct answer is B. 科技革命係對統治階級嘅極大威脅.\n\nThis quote suggests that the steam engine, electricity, and automatic looms are more dangerous to the ruling class than the revolutionaries Barbès, Raspail, and Blanqui, implying that technological advancements have the potential to threaten the existing power structure and social order.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '科技革命導致社會政治革命'], ['B', '科技革命係對統治階級嘅極大威脅'], ['C', '科技革命對變革社會制度具有直接嘅決定作用'], ['D', '濫用科技革命嘅成果會對人類造成「危險」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「真理同謬誤嘅對立，只係喺非常有限嘅範圍內先有意義」係",
+    "llm_output": "The correct answer is A. 唯物辯證法嘅觀點.\n\nThis statement reflects the dialectical materialist view that truth and falsehood are relative and can only be understood within a specific context or scope. In other words, what is true in one situation may not be true in another, and what is false in one context may not be false in another. This perspective is a fundamental aspect of dialectical materialism, which emphasizes the importance of understanding phenomena in their concrete, historical, and social contexts.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '唯物辯證法嘅觀點'], ['B', '詭辯論嘅觀點'], ['C', '形而上學嘅觀點'], ['D', '相對主義嘅觀點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義生命力嘅根源喺於",
+    "llm_output": "The correct answer is C. 以實踐為基礎嘅科學性與革命性嘅統一.\n\nThis is because Marxism's vitality stems from its ability to combine scientific theory with revolutionary practice, which is rooted in the practical experiences of the working class and the masses. This unity of scientificity and revolutionarity, based on practice, is the source of Marxism's vitality and its ability to adapt to changing circumstances.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '與時俱進'], ['B', '科學性與階級性嘅統一'], ['C', '以實踐為基礎嘅科學性與革命性嘅統一'], ['D', '科學性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思恩格斯進一步發展同完善咗英國古典經濟學理論係",
+    "llm_output": "The correct answer is B. 勞動價值論 (Labor Value Theory).\n\nMarx and Engels built upon and further developed the labor value theory of British classical economists, such as Adam Smith and David Ricardo. They critiqued and transformed this theory to create their own concept of surplus value, which is a central idea in Marxist economics.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '歷史觀'], ['B', '勞動價值論'], ['C', '辯證法'], ['D', '剩餘價值論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義認為，消滅「三大差別」嘅關鍵喺於",
+    "llm_output": "The correct answer is A. 消滅腦力勞動同體力勞動嘅差別.\n\nAccording to Marxist theory, the key to eliminating the \"three great differences\" lies in eliminating the difference between mental labor and manual labor. This is because Marxist theory views the division of labor between mental and manual labor as a fundamental source of alienation and exploitation under capitalism. By eliminating this difference, Marxists believe that it will be possible to create a more equal and just society.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '消滅腦力勞動同體力勞動嘅差別'], ['B', '消滅利益差別'], ['C', '消滅城市同鄉村嘅差別'], ['D', '消滅工業與農業嘅差別']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "當代資本主義國際壟斷組織嘅主要形式係",
+    "llm_output": "The correct answer is B. 跨國公司 (Transnational Corporation).\n\nIn contemporary capitalism, transnational corporations (TNCs) are the main form of international monopolistic organization. TNCs are large corporations that operate in multiple countries and have a significant impact on the global economy. They are characterized by their ability to coordinate and control production, marketing, and finance across national borders.\n\nWhile international cartels (A) and international concerns (D) are also forms of monopolistic organizations, they are not as prevalent or influential as TNCs in today's global economy. Mixed joint ventures (C) are a type of business partnership, but they are not a primary form of international monopolistic organization.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國際卡特爾'], ['B', '跨國公司'], ['C', '混合聯合企業級'], ['D', '國際康采恩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本循環嘅三種職能形式係",
+    "llm_output": "The correct answer is B. 貨幣資本、生產資本、商品資本.\n\nAccording to Marxist theory, the three forms of capital in the circulation of capital are:\n\n1. Money capital (貨幣資本): capital in its money form, used to purchase means of production and labor power.\n2. Productive capital (生產資本): capital in its productive form, used to produce goods and services.\n3. Commodity capital (商品資本): capital in its commodity form, representing the goods and services produced.\n\nThese three forms of capital are interconnected and transform into each other in the process of capital circulation.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔變資本、可變資本、流通資本'], ['B', '貨幣資本、生產資本、商品資本'], ['C', '產業資本、商業資本、借貸資本'], ['D', '固定資本、流動資本、生產資本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "對「勞動係財富之父，土地係財富之母」呢句話嘅正確解釋係",
+    "llm_output": "The correct answer is C. 勞動必須同自然物相結合先可以創造出物質財富.\n\nThis phrase \"勞動係財富之父，土地係財富之母\" is a famous quote from Marx's Das Kapital, and it means that labor is the father of wealth, and land is the mother of wealth. In other words, labor is the active factor that creates wealth, while land (or natural resources) provides the material basis for wealth creation. Therefore, option C is the correct interpretation.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '勞動創造使用價值，土地形成價值'], ['B', '勞動同土地都係價值嘅源泉'], ['C', '勞動必須同自然物相結合先可以創造出物質財富'], ['D', '勞動係創造價值嘅外部條件，土地係價值嘅真正源泉']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義認為，主客體之間嘅價值關係係指",
+    "llm_output": "The correct answer is C. 主體對客體嘅能動反映.\n\nIn Marxist theory, the value relation between the subject (主體) and the object (客體) refers to the active reflection (能動反映) of the subject on the object, which means that the subject's consciousness and will are reflected in the object, and the object is seen as a means to achieve the subject's goals and interests.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '主體對客體嘅物質慾望同要求'], ['B', '主體對客體嘅改造同變革嘅結果'], ['C', '主體對客體嘅能動反映'], ['D', '客體對於主體嘅有用性同效益性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "實踐基礎上嘅理論創新，係",
+    "llm_output": "The correct answer is A. 社會發展同變革嘅先導.\n\nAccording to Marxist theory, theoretical innovation based on practice is a precursor to social development and change. It means that new ideas and theories emerge from the practical experiences and struggles of the people, and these ideas and theories then guide and lead the way for further social development and change.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會發展同變革嘅先導'], ['B', '決定咗社會發展趨勢'], ['C', '決定住社會變革力度'], ['D', '一個國家興旺發達嘅最終源泉']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "真理嘅絕對性係指佢嘅",
+    "llm_output": "The correct answer is D. 客觀性 (objectivity).\n\nAccording to Marxist theory, the absoluteness of truth refers to its objective existence and independence from human consciousness and subjective interpretations. In other words, truth is considered absolute because it is based on objective reality, rather than being relative to individual perspectives or biases.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '終極性'], ['B', '全面性'], ['C', '具體性'], ['D', '客觀性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "實踐嘅客體係",
+    "llm_output": "The correct answer is A. 進入主體嘅認識同實踐範圍嘅客觀事物.\n\nIn Marxist theory, the object of practice refers to the objective things or phenomena that are within the scope of human recognition and practical activity. This includes the natural world, social relations, and the material conditions of human existence.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '進入主體嘅認識同實踐範圍嘅客觀事物'], ['B', '絕對精神嘅對象化'], ['C', '人嘅意識嘅創造物'], ['D', '客觀物質世界']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟政治發展嘅唔平衡係資本主義嘅絕對規律，由此得出結論：社會主義可能首先喺少數或者甚至喺單獨一個資本主義國家內獲得勝利。提出呢一著名論斷嘅係",
+    "llm_output": "The correct answer is A. 列寧 (Lenin).\n\nThis concept is known as \"socialism in one country\" or \"socialism in a single country\", which was first proposed by Lenin in his 1915 work \"On the Slogan for a United States of Europe\". Lenin argued that socialism could be achieved in a single country, even if it was not a highly developed capitalist country, and that it was possible for socialism to triumph in a single country before it did so globally.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '列寧'], ['B', '馬克思'], ['C', '斯大林'], ['D', '恩格斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺壟斷資本主義嘅各個基本經濟特徵中最根本嘅特徵係",
+    "llm_output": "The correct answer is D. 壟斷喺經濟生活中佔統治地位.\n\nIn Marxist theory, the most fundamental characteristic of monopoly capitalism is the dominance of monopolies in economic life. This means that a small number of large corporations and financial institutions have gained control over the means of production and distribution, and use their power to exploit and oppress the working class.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '國家壟斷同盟嘅形成'], ['B', '資本輸出具有重要嘅意義'], ['C', '瓜分世界領土，形成殖民體系'], ['D', '壟斷喺經濟生活中佔統治地位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "美蘇冷戰全面展開嘅標誌係",
+    "llm_output": "The correct answer is A. 丘吉爾嘅鐵幕演說 (Winston Churchill's Iron Curtain Speech).\n\nThis speech, delivered on March 5, 1946, is widely regarded as the starting point of the Cold War, as it marked a significant shift in the post-WWII geopolitical landscape and signaled the beginning of the ideological confrontation between the Western bloc led by the United States and the Eastern bloc led by the Soviet Union.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '丘吉爾嘅鐵幕演說'], ['B', '兩大陣營嘅形成'], ['C', '馬歇爾計劃'], ['D', '杜魯門主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬列主義關於無產階級政黨學說嘅核心內容係",
+    "llm_output": "The correct answer is C. 黨嘅性質同奮鬥目標 (The party's nature and struggle goals).\n\nThis is because the core content of Marxist-Leninist theory on the proletarian party is focused on the party's nature as a revolutionary vanguard organization and its struggle goals, which are to lead the working class in the revolution and establish a socialist society.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '黨嘅戰略同策略問題'], ['B', '黨嘅領導地位同作用問題'], ['C', '黨嘅性質同奮鬥目標'], ['D', '黨嘅路線同組織原則問題']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "科學家尼葛龐蒂講過：「預測未來嘅最好辦法就係把佢創造出嚟。」從認識同實踐嘅關係睇，呢句話對我哋嘅啟示係",
+    "llm_output": "The correct answer is A. 實踐高於（理論嘅）認識，因為佢唔單止具有普遍性嘅品格，而且具有直接現實性嘅品格.\n\nThis quote by Niels Bohr emphasizes the importance of practice in shaping our understanding of the world. It suggests that the best way to predict the future is to create it, implying that practice and action are essential in driving progress and change. From the perspective of the relationship between recognition and practice, this quote highlights the idea that practice is superior to recognition because it not only has universal significance but also has direct practical significance.\n\nOption A accurately captures this idea, while the other options do not fully convey the meaning of the quote.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '實踐高於（理論嘅）認識，因為佢唔單止具有普遍性嘅品格，而且具有直接現實性嘅品格'], ['B', '實踐同認識互為先導'], ['C', '認識總係滯後於實踐'], ['D', '實踐與認識係合一嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "作為中國共產黨同社會主義事業指導思想嘅馬克思主義係指",
+    "llm_output": "The correct answer is D. 唔單止指馬克思恩格斯創立嘅基本理論、基本觀點同學說嘅體系，也包括繼承者對佢嘅發展.\n\nThis option correctly defines Marxism as not only the basic theories, views, and systems established by Marx and Engels, but also the developments and contributions made by their successors.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '關於無產階級鬥爭嘅性質、目嘅同解放條件嘅學說'], ['B', '列寧創立嘅基本理論、基本觀點同基本方法構成嘅科學體系'], ['C', '無產階級爭取自身解放同成個人類解放嘅學說體系'], ['D', '唔單止指馬克思恩格斯創立嘅基本理論、基本觀點同學說嘅體系，也包括繼承者對佢嘅發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思講：「一切商品對佢哋嘅所有者係非使用價值，對佢哋嘅非所有者係使用價值。」呢句話表明",
+    "llm_output": "The correct answer is D. 商品嘅使用價值係對消費者而言嘅.\n\nThis quote from Marx highlights the distinction between use value and exchange value from the perspective of the owner and non-owner of a commodity. To the owner, the commodity has no use value, as they are not consuming it, but only exchange value. To the non-owner, the commodity has use value, as they are interested in consuming or using it. This quote emphasizes that use value is relative to the consumer, not the producer or owner.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '商品所有者同時獲得使用價值同價值'], ['B', '有使用價值嘅唔一定有價值'], ['C', '商品係使用價值同價值嘅對立統一'], ['D', '商品嘅使用價值係對消費者而言嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "對於同一事物，唔同嘅人有唔同嘅反映，呢句說明",
+    "llm_output": "The correct answer is A. 意識受主體狀況嘅影響.\n\nThis statement is describing how different people can have different reflections or perceptions of the same thing, which is a fundamental concept in Marxist theory. This is because people's consciousness (意識) is influenced by their subjective conditions, such as their social class, education, and life experiences. Therefore, option A is the correct answer.\n\nOption B is incorrect because Marxist theory emphasizes that consciousness is shaped by the objective world, including social and economic conditions.\n\nOption C is also incorrect because while consciousness is subjective, it is not entirely subjective and is influenced by the objective world.\n\nOption D is incorrect because consciousness is not a free creation of the individual, but is shaped by the social and economic conditions in which they live.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '意識受主體狀況嘅影響'], ['B', '意識唔受客體影響'], ['C', '意識嘅內容係主觀嘅'], ['D', '意識係主體嘅自由創造']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會必要勞動時間係喺現有嘅社會正常生產條件下，喺社會平均勞動熟練程度同勞動強度下製造某種使用價值所需要嘅勞動時間，佢係以",
+    "llm_output": "The correct answer is B. 簡單勞動為尺度嘅.\n\nAccording to Marxist theory, socially necessary labor time is the labor time required to produce a commodity under normal conditions of production, with average skill and intensity of labor. It is measured in terms of simple labor, which is the labor of an average worker with average skills and intensity.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '個別勞動為尺度嘅'], ['B', '簡單勞動為尺度嘅'], ['C', '複雜勞動為尺度嘅'], ['D', '具體勞動為尺度嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「人嘅依賴性關係」係",
+    "llm_output": "The correct answer is D. 資本主義社會入面嘅人同人之間嘅關係.\n\nIn Marxist theory, \"人嘅依賴性關係\" (people's dependent relationships) refers to the relationships of exploitation and domination that exist between people in a capitalist society, where the bourgeoisie (those who own the means of production) exploit the proletariat (those who do not own the means of production and must sell their labor).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '資本主義社會以前嘅人同人之間嘅關係'], ['B', '共產主義社會入面嘅人同人之間嘅關係'], ['C', '社會主義社會入面嘅人同人之間嘅關係'], ['D', '資本主義社會入面嘅人同人之間嘅關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義改革嘅根本目嘅喺於",
+    "llm_output": "The correct answer is A. 解放同發展生產力 (Liberate and develop productive forces).\n\nAccording to Marxist theory, the fundamental goal of socialist reform is to liberate and develop the productive forces, which are the material and technological foundations of society. This is because the development of productive forces is seen as the key to achieving socialism and ultimately, communism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '解放同發展生產力'], ['B', '改變社會主義制度'], ['C', '實現社會公平'], ['D', '完善社會主義制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "下列講法中，觀點錯誤嘅係",
+    "llm_output": "The correct answer is:\n\nA. 社會主義喺若干國家嘅嚴重挫折改變咗資本主義必然滅亡嘅命運\n\nAccording to Marxist theory, the ultimate demise of capitalism is inevitable, and it will be replaced by socialism. The setbacks or failures of socialist experiments in certain countries do not change the destiny of capitalism's downfall.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會主義喺若干國家嘅嚴重挫折改變咗資本主義必然滅亡嘅命運'], ['B', '社會主義必然取代資本主義'], ['C', '國際共產主義運動當今正處喺低潮時期'], ['D', '社會主義取代資本主義係一個長期嘅曲折嘅過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義嘅侷限性在於",
+    "llm_output": "The correct answer is B. 佢只能暫時使某啲矛盾緩和，但卻使呢啲矛盾進一步加深同複雜化.\n\nThis option correctly states the limitation of state monopoly capitalism, which is that it can only temporarily alleviate certain contradictions, but ultimately deepens and complicates them.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '令壟斷資本主義存在住時而迅速發展時而停滯嘅趨勢'], ['B', '佢只能暫時使某啲矛盾緩和，但卻使呢啲矛盾進一步加深同複雜化'], ['C', '使壟斷資本主義經濟長期處於滯脹狀態'], ['D', '使壟斷資本主義經濟長期處於停滯狀態']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "堅持四項基本原則嘅核心係",
+    "llm_output": "The correct answer is A. 堅持馬列主義、毛澤東思想.\n\nThe \"Four Cardinal Principles\" (四項基本原則) in Chinese Marxism-Leninism are:\n\n1. Upholding the socialist path (堅持社會主義道路)\n2. Upholding the people's democratic dictatorship (堅持人民民主專政)\n3. Upholding the leadership of the Communist Party of China (堅持黨嘅領導)\n4. Upholding Marxism-Leninism and Mao Zedong Thought (堅持馬列主義、毛澤東思想)\n\nThe core of the Four Cardinal Principles is indeed the fourth principle, which emphasizes the importance of adhering to the fundamental ideology of Marxism-Leninism and Mao Zedong Thought.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '堅持馬列主義、毛澤東思想'], ['B', '堅持社會主義道路'], ['C', '堅持黨嘅領導'], ['D', '堅持人民民主專政']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋通過眼、耳、鼻、舌、身各種感官感覺到一個梨嘅各種屬性，喺意識中把佢哋聯繫起嚟形成咗關於呢個梨嘅感性形象，呢種反映形式係",
+    "llm_output": "The correct answer is B. 表象 (perception).\n\nAccording to Marxist theory, perception (表象) refers to the process of forming a mental image or concept of an object through the combination of sensory data from various senses, such as sight, sound, smell, taste, and touch. In this case, the formation of a mental image of a pear through the combination of sensory data from various senses is an example of perception.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '感覺'], ['B', '表象'], ['C', '分析'], ['D', '知覺']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "辯證唯物主義認為事物發展嘅規律係",
+    "llm_output": "The correct answer is D. 事物聯繫同發展嘅基本環節.\n\nDialectical materialism holds that the law of development of things is the unity and struggle of opposites, which is the fundamental link of the connection and development of things.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '用嚟整理感性材料嘅思維形式'], ['B', '事物內喺嘅本質同穩定嘅聯繫'], ['C', '思維對事物本質嘅概括同反映'], ['D', '事物聯繫同發展嘅基本環節']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "辯證法嘅否定即「揚棄」，佢嘅含義係指",
+    "llm_output": "The correct answer is D. 既克服又保留.\n\nIn dialectics, the negation of the negation refers to the process of overcoming and preserving the previous stage of development, rather than simply rejecting or abolishing it. This concept is central to Marxist theory and is often referred to as the \"unity of opposites\".",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '拋棄'], ['B', '事物中好嘅方面同壞嘅方面嘅組合'], ['C', '純粹嘅否定'], ['D', '既克服又保留']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "真理與謬誤之間嘅相互關係係",
+    "llm_output": "The correct answer is C. 喺一定條件下可以互相轉化.\n\nAccording to Marxist theory, truth and falsehood are not absolute opposites, but rather, they are dialectically related and can transform into each other under certain conditions. This is because Marxist epistemology emphasizes the role of practice and social context in shaping our understanding of truth and falsehood. In other words, what is considered true or false can change as our understanding of the world and our social conditions change.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '喺任何情況下都係絕對對立嘅'], ['B', '冇相互轉化嘅可能性'], ['C', '喺一定條件下可以互相轉化'], ['D', '兩者之間冇原則區別']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級奪取政權嘅根本目嘅係",
+    "llm_output": "The correct answer is C. 改變無產階級及其他勞動羣眾受剝削、受壓迫嘅地位.\n\nAccording to Marxist theory, the fundamental goal of the proletariat seizing power is to change the status of the proletariat and other working-class people who are being exploited and oppressed.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '徹底打碎舊嘅資產階級國家機器'], ['B', '解放同促進社會生產力嘅發展'], ['C', '改變無產階級及其他勞動羣眾受剝削、受壓迫嘅地位'], ['D', '實現共產主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思講：「暴力係每一個孕育住新社會嘅舊社會嘅助產婆」，呢說明",
+    "llm_output": "The correct answer is C. 暴力革命係無產階級革命嘅主要嘅基本形式.\n\nThis quote from Marx suggests that violence is a necessary midwife for the birth of a new society from the old one, implying that violent revolution is a primary and fundamental form of proletarian revolution.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '暴力革命與和平發展互相排斥'], ['B', '暴力革命與和平發展可以互相取代'], ['C', '暴力革命係無產階級革命嘅主要嘅基本形式'], ['D', '暴力革命係無產階級革命嘅唯一形式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "商品內喺嘅使用價值與價值嘅矛盾，其完備嘅外喺表現係",
+    "llm_output": "The correct answer is C. 私人勞動與社會勞動之間嘅對立.\n\nAccording to Marxist theory, the contradiction between use value and value within a commodity is fully expressed as the contradiction between private labor and social labor. This is because, on the one hand, a commodity is created through private labor, which is aimed at meeting specific individual needs, but on the other hand, it is also a social product that is intended for exchange and circulation in the market, which is a social process. This contradiction is a fundamental aspect of the capitalist mode of production.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '資本與僱傭勞動之間嘅對立'], ['B', '商品與貨幣之間嘅對立'], ['C', '私人勞動與社會勞動之間嘅對立'], ['D', '商品與商品之間嘅對立']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺商品經濟中，形成價值嘅抽象勞動嘅支出必須藉助於",
+    "llm_output": "The correct answer is C. 商品嘅生產形式 (the form of commodity production).\n\nIn Marxist theory, abstract labor is the labor that creates value in a commodity economy. However, this abstract labor cannot be directly measured or expressed. Instead, it must be expressed through the form of commodity production, which is the social form that labor takes in a capitalist society. This is because, in a commodity economy, labor is not directly rewarded or compensated, but rather is expressed through the value of the commodities produced.\n\nTherefore, the expenditure of abstract labor is mediated by the form of commodity production.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '剩餘勞動'], ['B', '資本主義生產方式'], ['C', '商品嘅生產形式'], ['D', '具體勞動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "價值規律係商品經濟嘅基本規律，佢嘅作用係通過",
+    "llm_output": "The correct answer is A. 價格機制、供求機制同競爭機制實現嘅.\n\nThe law of value, a fundamental concept in Marxist economics, operates through the mechanisms of price, supply and demand, and competition. It is through these mechanisms that the law of value regulates the production and distribution of goods and services in a commodity-based economy.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '價格機制、供求機制同競爭機制實現嘅'], ['B', '消費者之間嘅競爭實現嘅'], ['C', '生產者之間嘅競爭實現嘅'], ['D', '生產者同消費者之間嘅競爭實現嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「真理係人造嘅供人使用嘅工具」嘅睇法係",
+    "llm_output": "The correct answer is B. 主觀唯心主義.\n\nThe statement \"真理係人造嘅供人使用嘅工具\" (Truth is a tool created by humans for their own use) reflects a subjective idealist perspective, which holds that truth is a product of human consciousness and is relative to individual or collective human interests. This view is characteristic of subjective idealism, which emphasizes the role of human subjectivity in shaping our understanding of reality.\n\nIn contrast, mechanical materialism (A) would view truth as an objective reflection of the material world, independent of human consciousness. Dialectical materialism (C) would see truth as a reflection of the objective contradictions and laws of the material world, but not as a tool created by humans. Objective idealism (D) would view truth as an objective, eternal, and absolute reality that exists independently of human consciousness.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '機械唯物主義'], ['B', '主觀唯心主義'], ['C', '辯證唯物主義'], ['D', '客觀唯心主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "劃分唯物史觀與唯心史觀嘅根據係",
+    "llm_output": "The correct answer is D. 係咪承認社會存在決定社會意識.\n\nThe distinction between materialist and idealist views of history is based on whether they recognize that social existence (or material conditions) determines social consciousness, or vice versa. Materialist historians, like Marx, argue that social existence (e.g. economic conditions, class relations) shapes social consciousness (e.g. ideas, culture), while idealist historians argue that social consciousness shapes social existence.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '係咪承認社會歷史嘅規律性'], ['B', '係咪承認社會意識嘅能動畫用'], ['C', '係咪承認階級鬥爭'], ['D', '係咪承認社會存在決定社會意識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺人嘅發展同社會發展嘅關係問題上，馬克思主義認為",
+    "llm_output": "The correct answer is A. 前者同後者互為前提同基礎.\n\nAccording to Marxist theory, human development and social development are interdependent and mutually conditional. Human development is shaped by social conditions, and at the same time, human beings play an active role in shaping their social environment. In other words, human development is both a product of social development and a driving force behind it. Therefore, the two are mutually dependent and inseparable.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '前者同後者互為前提同基礎'], ['B', '前者同後者係彼此獨立嘅歷史發展過程'], ['C', '前者體現咗個人價值，後者體現咗社會價值'], ['D', '前者係個人嘅理想，後者係社會嘅目標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧得出社會主義可能喺一國或數國首先取得勝利嘅結論依據係",
+    "llm_output": "The correct answer is C. 帝國主義時代資本主義政治經濟發展唔平衡嘅規律.\n\nLenin's conclusion that socialism could first triumph in one country or a few countries was based on the law of uneven economic and political development of capitalism in the era of imperialism. This law suggests that capitalist countries develop at different rates, leading to contradictions and conflicts between them, and creating opportunities for socialist revolutions to occur in individual countries or groups of countries.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無產階級係最先進、最革命嘅階級嘅原理'], ['B', '資本主義必然滅亡、社會主義同共產主義必然勝利嘅規律'], ['C', '帝國主義時代資本主義政治經濟發展唔平衡嘅規律'], ['D', '資本主義國家無產階級與資產階級鬥爭嘅規律']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義嘅根本任務係",
+    "llm_output": "The correct answer is D. 解放生產力、發展生產力 (Liberate productive forces and develop productive forces).\n\nAccording to Marxist theory, the fundamental task of socialism is to liberate and develop the productive forces, which are the material and technological foundations of society. This involves creating the conditions for the free development of the productive forces, which are hindered under capitalism by the exploitation of the working class and the pursuit of profit. By liberating and developing the productive forces, socialism aims to create a more efficient and equitable society that can provide for the needs of all people.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '進行政治體制改革、經濟體制改革'], ['B', '改革生產資料所有制'], ['C', '進行階級鬥爭'], ['D', '解放生產力、發展生產力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "自由王國係指人哋",
+    "llm_output": "The correct answer is D. 擺脫咗自然同社會關係嘅奴役，成為自己社會關係主人嘅狀態.\n\nIn Marxist theory, the \"Kingdom of Freedom\" (or \"Realm of Freedom\") refers to a state of society where individuals are free from the domination of natural and social relations, and are able to control their own social relations and destiny. This is a key concept in Marxist thought, and is often seen as the ultimate goal of the communist revolution.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '允許自由競爭嘅資本主義狀態'], ['B', '唔再受自然規律同社會規律支配嘅狀態'], ['C', '處於絕對自由嘅原始社會狀態'], ['D', '擺脫咗自然同社會關係嘅奴役，成為自己社會關係主人嘅狀態']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "金融寡頭實現經濟上統治嘅「參與制」係指金融寡頭",
+    "llm_output": "The correct answer is C. 通過購買一定數量嘅股票層層控制好多大企業同大銀行嘅經濟統治方式.\n\nThis refers to the concept of \"participation\" in Marxist theory, where financial oligarchs exert economic control over many large enterprises and banks by buying a certain amount of shares, thereby gaining influence over their operations and decision-making processes.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '通過購買所屬公司全部股票直接掌握好多大企業同大銀行嘅經濟統治嘅方式'], ['B', '直接參與工業企業嘅生產經營同管理'], ['C', '通過購買一定數量嘅股票層層控制好多大企業同大銀行嘅經濟統治方式'], ['D', '直接參與銀行嘅經營同管理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "理解人類社會發展嘅鎖匙係",
+    "llm_output": "The correct answer is C. 階級鬥爭史 (Class struggle history).\n\nAccording to Marxist theory, the key to understanding human social development is the history of class struggle, which is the struggle between different social classes with conflicting economic interests. This concept is central to Marxist thought and is seen as the driving force behind social change and revolution.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '文化發展史'], ['B', '思想發展史'], ['C', '階級鬥爭史'], ['D', '勞動發展史']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義理論最根本嘅本質屬性係",
+    "llm_output": "The correct answer is C. 科學性 (Scientificity).\n\nAccording to Marxist theory, the most fundamental essence of Marxism is its scientific nature, which means that it is based on a systematic and objective analysis of social and economic phenomena, and seeks to uncover the laws and principles that govern them. This scientific approach is seen as a key distinguishing feature of Marxism from other ideologies and philosophies.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '革命性'], ['B', '與時俱進'], ['C', '科學性'], ['D', '實踐性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義理論從廣義上講係",
+    "llm_output": "The correct answer is B. 唔單止指馬克思恩格斯創立嘅基本理論、基本觀點同學說嘅體系，也包括繼承者對佢嘅發展.\n\nThis option encompasses the broadest scope of Marxist theory, including not only the original ideas and concepts developed by Marx and Engels, but also the subsequent development and elaboration of these ideas by later thinkers and scholars.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '無產階級爭取自身解放同成個人類解放嘅學說體系'], ['B', '唔單止指馬克思恩格斯創立嘅基本理論、基本觀點同學說嘅體系，也包括繼承者對佢嘅發展'], ['C', '關於無產階級鬥爭嘅性質、目嘅同解放條件嘅學說'], ['D', '馬克思同恩格斯創立嘅基本理論、基本觀點同基本方法構成嘅科學體系']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "壟斷資本主義國家嘅金融寡頭喺經濟上嘅統治主要藉助於",
+    "llm_output": "The correct answer is A. 「參與制」 (Participation).\n\nIn Marxist theory, the financial oligarchy in a monopoly capitalist state exercises its economic dominance primarily through participation, which refers to the control of key industries and sectors of the economy through ownership and influence. This allows them to shape economic policy and decision-making to their advantage.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「參與制」'], ['B', '「企業聯合」'], ['C', '「個人聯合」'], ['D', '「代理制」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級嘅科學世界觀同方法論係",
+    "llm_output": "The correct answer is C. 辯證唯物主義同歷史唯物主義.\n\nExplanation: The scientific worldview and methodology of the proletariat, according to Marxist theory, consists of both dialectical materialism (辯證唯物主義) and historical materialism (歷史唯物主義). Dialectical materialism is the philosophical approach that views reality as a dynamic and contradictory process, while historical materialism is the application of this approach to the study of history and society.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '唯物主義'], ['B', '辯證唯物主義'], ['C', '辯證唯物主義同歷史唯物主義'], ['D', '歷史唯物主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "各盡所能，按需分配係",
+    "llm_output": "The correct answer is C. 共產主義社會嘅分配方式.\n\n\"各盡所能，按需分配\" (from each according to their ability, to each according to their needs) is a famous phrase coined by Karl Marx, and it is a principle of distribution in a communist society, where resources are allocated based on individual needs rather than market principles or social status.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會主義社會嘅分配方式'], ['B', '原始社會嘅分配方式'], ['C', '共產主義社會嘅分配方式'], ['D', '階級社會嘅分配方式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「紙上得來終覺淺，絕知此事要躬行」，陸遊呢一名句強調嘅係",
+    "llm_output": "The correct answer is B. 實踐係認識嘅來源 (Practice is the source of knowledge).\n\nThe phrase \"紙上得來終覺淺，絕知此事要躬行\" emphasizes that knowledge comes from practice, and that one cannot truly understand something without experiencing it firsthand. This is a key concept in Marxist theory, which stresses the importance of practical experience and action in shaping one's understanding of the world.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '間接經驗毫無用處'], ['B', '實踐係認識嘅來源'], ['C', '實踐係推動認識發展嘅動力'], ['D', '實踐係認識嘅目嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會形態係",
+    "llm_output": "The correct answer is A. 同生產力發展一定階段相適應嘅經濟基礎同上層建築嘅統一體.\n\nAccording to Marxist theory, a social formation refers to the unity of the economic base and the superstructure that corresponds to a certain stage of development of the productive forces.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '同生產力發展一定階段相適應嘅經濟基礎同上層建築嘅統一體'], ['B', '物質世界同精神世界嘅統一'], ['C', '社會存在同社會意識嘅統一'], ['D', '生產力同生產關係嘅統一']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "實現咗人嘅「自由個性」嘅發展，係",
+    "llm_output": "The correct answer is B. 共產主義社會入面嘅人嘅生存狀態.\n\nAccording to Marxist theory, the \"free development of individuality\" is a characteristic of communist society, where people are no longer alienated from their labor and are free to develop their talents and abilities without the constraints of class exploitation and oppression.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '資本主義社會入面嘅人嘅生存狀態'], ['B', '共產主義社會入面嘅人嘅生存狀態'], ['C', '資本主義社會以前嘅人嘅生存狀態'], ['D', '社會主義社會入面嘅人嘅生存狀態']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義最重要嘅理論品質係",
+    "llm_output": "The correct answer is A. 科學嚴謹 (Scientific rigor).\n\nMarxism emphasizes the importance of scientific analysis and rigorous methodology in understanding social and economic phenomena. Marx's works, such as \"Das Kapital\", are known for their detailed and systematic analysis of capitalism and the laws of motion of society. The scientific approach is a hallmark of Marxist theory, and it is considered one of the key features that distinguish Marxism from other social and political ideologies.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '科學嚴謹'], ['B', '吐故納新'], ['C', '博大精深'], ['D', '與時俱進']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "加快資本週轉，可以增加年剩餘價值量同提高年剩餘價值率，根本係因",
+    "llm_output": "The correct answer is D. 流通對生產嘅反作用.\n\nAccording to Marxist theory, accelerating the turnover of capital can increase the annual surplus value and raise the annual rate of surplus value, fundamentally because it strengthens the feedback effect of circulation on production. This allows for a more efficient use of capital and a faster realization of surplus value, leading to an increase in the annual surplus value and rate of surplus value.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '剩餘價值率提高咗'], ['B', '預付嘅資本總量增加咗'], ['C', '實際發揮作用嘅可變資本增加咗'], ['D', '流通對生產嘅反作用']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟全球化發展趨勢嘅基礎係",
+    "llm_output": "The correct answer is C. 生產國際化 (Internationalization of production).\n\nAccording to Marxist theory, the basis of economic globalization is the internationalization of production, which refers to the increasing integration of production processes across national borders. This is driven by the pursuit of profit and the need for capital to expand its markets and sources of labor.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '新科技革命'], ['B', '國際貿易嘅高度發展'], ['C', '生產國際化'], ['D', '國際金融嘅迅速發展']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "產業資本劃分為貨幣資本、生產資本、商品資本嘅依據係資本各個部分",
+    "llm_output": "The correct answer is D. 喺循環中嘅職能唔同.\n\nAccording to Marxist theory, industrial capital is divided into money capital, productive capital, and commodity capital based on their different functions in the circulation of capital.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '喺價值增殖過程中嘅作用唔同'], ['B', '價值周轉方式唔同'], ['C', '存在嘅物質形態唔同'], ['D', '喺循環中嘅職能唔同']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "正確認識資本主義嘅歷史過渡性要",
+    "llm_output": "The correct answer is B. 借鑒資本主義社會中反映人類文明進步嘅改良.\n\nThis option recognizes that capitalism has made significant contributions to human civilization and has brought about certain progressive changes, while also acknowledging its limitations and contradictions. This is in line with Marx's view that capitalism is a necessary stage in the development of human society, but it is not the final stage and will eventually be superseded by socialism.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '否定資本主義生產關係嘅一切改良'], ['B', '借鑒資本主義社會中反映人類文明進步嘅改良'], ['C', '對資本主義採取全面肯定嘅態度'], ['D', '借鑒並發展資本主義嘅經濟制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "除咗我哋國家之外，邊個國家都有提出仲喺社會主義初級階段嘅理論",
+    "llm_output": "The correct answer is B. 越南.\n\nVietnam is the country that has proposed the theory of being in the primary stage of socialism, in addition to China. This theory was introduced by Vietnamese communist leader Nguyễn Văn Linh in the 1980s, and it emphasizes the need for Vietnam to focus on economic development and modernization during the initial stage of socialism.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蘇聯'], ['B', '越南'], ['C', '古巴'], ['D', '南斯拉夫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "十一屆三中全會以嚟，我黨制定嘅一系列正確嘅路線、方針、政策促進咗我國經濟嘅迅猛發展，呢個說明",
+    "llm_output": "The correct answer is C. 上層建築對經濟基礎具有積極嘅能動畫用.\n\nThis question is related to the Marxist theory of base and superstructure. The correct answer C indicates that the superstructure (上層建築) has an active and positive impact on the economic base (經濟基礎). This is in line with the Marxist view that the superstructure, including the political and ideological systems, can influence and shape the development of the economic base.\n\nOption A is incorrect because it suggests that the development of socialist society is not constrained by the economic base, which is not a Marxist view. Option B is also incorrect because it implies that the superstructure determines the direction of economic development, which is not entirely accurate. Option D is incorrect because it suggests that the development of the economic base is entirely determined by the superstructure, which is also not a Marxist view.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會主義社會嘅發展唔受經濟基礎決定上層建築規律嘅制約'], ['B', '上層建築嘅發展決定經濟基礎嘅發展方向'], ['C', '上層建築對經濟基礎具有積極嘅能動畫用'], ['D', '經濟基礎發展嘅道路係由上層建築決定嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺19世紀三大工人運動中，集中反映工人政治要求嘅係",
+    "llm_output": "The correct answer is B. 英國憲章運動 (British Chartist Movement).\n\nThe Chartist Movement in Britain (1838-1850) was a working-class movement that focused on political demands, such as universal male suffrage, secret ballots, and annual parliaments. It was a key example of a workers' movement that concentrated on political demands, unlike the other options which were more focused on economic or social issues.\n\nHere's a brief explanation of the other options:\n\nA. 芝加哥工人起義 (Haymarket affair) was a labor protest in the United States that turned violent, but it was more focused on labor rights and anarchism rather than political demands.\n\nC. 德國西里西亞紡織工人起義 (Silesian weavers' uprising) was a protest by weavers in Silesia, Germany, against poor working conditions and low wages, but it was not primarily focused on political demands.\n\nD. 法國里昂工人起義 (Lyon uprising) was a series of protests and uprisings by silk workers in Lyon, France, against poor working conditions and exploitation, but it was not as focused on political demands as the Chartist Movement.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '芝加哥工人起義'], ['B', '英國憲章運動'], ['C', '德國西里西亞紡織工人起義'], ['D', '法國里昂工人起義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義從理論到實踐嘅飛躍，具體途徑係",
+    "llm_output": "The correct answer is C. 通過無產階級革命實現嘅.\n\nAccording to Marxist theory, the transition from socialism in theory to socialism in practice requires a proletarian revolution, which overthrows the capitalist system and establishes a socialist society.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '實踐'], ['B', '通過對人民羣眾嘅教育同灌輸實現嘅'], ['C', '通過無產階級革命實現嘅'], ['D', '通過改革同革命實現嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧講過：「冇革命嘅理論，就唔會有革命嘅行動」，呢一命題嘅含義係",
+    "llm_output": "The correct answer is B. 革命理論對革命實踐具有指導作用.\n\nLenin's statement \"Without a revolutionary theory, there can be no revolutionary action\" emphasizes the importance of revolutionary theory in guiding and informing revolutionary practice. It suggests that a clear understanding of revolutionary theory is necessary to inform and direct revolutionary action, rather than the other way around.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '革命理論比革命行動更重要'], ['B', '革命理論對革命實踐具有指導作用'], ['C', '革命理論最終決定革命運動嘅成敗'], ['D', '革命運動係革命理論嘅派生物']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "金融資本係由",
+    "llm_output": "The correct answer is A. 壟斷嘅銀行資本同壟斷嘅工業資本融合或混合生長而成嘅.\n\nFinancial capital, according to Marxist theory, is formed by the fusion or integration of monopolistic banking capital and monopolistic industrial capital. This is because financial capital represents the highest stage of capitalist development, where the boundaries between banking and industry are blurred, and a small group of powerful capitalists control both the financial and industrial sectors.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '壟斷嘅銀行資本同壟斷嘅工業資本融合或混合生長而成嘅'], ['B', '產業資本同商業資本融合或混合生長而成嘅'], ['C', '壟斷銀行資本同銀行資本融合或混合生長而成嘅'], ['D', '銀行資本同工業資本融合或混合生長而成嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "科學社會主義創立嘅理論依據係",
+    "llm_output": "The correct answer is A. 唯物史觀同剩餘價值學說.\n\nScientific socialism, as developed by Marx and Engels, is based on the theoretical foundations of dialectical materialism (唯物史觀) and the labor theory of value (剩餘價值學說).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '唯物史觀同剩餘價值學說'], ['B', '德國古典哲學'], ['C', '英國古典政治經濟學'], ['D', '空想社會主義學說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "主觀辯證法與客觀辯證法嘅關係係",
+    "llm_output": "The correct answer is A. 反映與被反映嘅關係.\n\nIn Marxist theory, subjective dialectics (主觀辯證法) refers to the dialectical process of human thought and consciousness, while objective dialectics (客觀辯證法) refers to the dialectical process of the external world. The relationship between the two is one of reflection, where subjective dialectics reflects the objective dialectics of the external world.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '反映與被反映嘅關係'], ['B', '唯心辯證法與唯物辯證法嘅關係'], ['C', '抽象與具體嘅關係'], ['D', '唯心主義與唯物主義嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本社會化嘅最高形式係",
+    "llm_output": "The correct answer is A. 國家壟斷資本主義 (State Monopoly Capitalism).\n\nAccording to Marxist theory, state monopoly capitalism is the highest form of capitalist socialization, where the state plays a significant role in regulating and controlling the economy, and large corporations and banks are closely tied to the state. This form of capitalism is characterized by the concentration of economic power in the hands of a few large corporations and the state, and is seen as a precursor to socialism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '國家壟斷資本主義'], ['B', '壟斷資本主義'], ['C', '生產社會化'], ['D', '經營管理社會化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "階級實質上係一個",
+    "llm_output": "The correct answer is C. 經濟範疇.\n\nAccording to Marxist theory, a class is defined by its relationship to the means of production, which is an economic concept. Marx argued that classes are formed based on the ownership and control of the means of production, and that the exploitation of one class by another is the fundamental driving force behind social and economic change. Therefore, class is ultimately an economic category.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '文化範疇'], ['B', '政治範疇'], ['C', '經濟範疇'], ['D', '思想範疇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧對關於無產階級社會主義革命學說嘅重大貢獻係",
+    "llm_output": "The correct answer is C. 提出咗社會主義革命將首先喺一國或數國取得勝利嘅理論.\n\nLenin's significant contribution to the theory of proletarian socialist revolution is his idea that socialism can triumph first in one or several countries, which is known as the theory of \"socialism in one country\". This idea challenged the traditional Marxist view that socialism must be a global phenomenon and that a socialist revolution must occur simultaneously in all countries. Lenin's theory argued that a socialist revolution can succeed in a single country, even if the rest of the world remains capitalist, and that this country can then serve as a model for other countries to follow.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '提出咗利用國家資本主義過渡社會主義嘅理論'], ['B', '提出咗新經濟政策'], ['C', '提出咗社會主義革命將首先喺一國或數國取得勝利嘅理論'], ['D', '提出咗戰時共產主義政策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "下列屬於自由王國社會狀態嘅係",
+    "llm_output": "The correct answer is A. 資本主義社會.\n\nIn Marxist theory, the \"自由王國\" (or \"free kingdom\" in English) refers to the capitalist society, where the means of production are privately owned and the exploitation of the working class by the capitalist class is prevalent.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '資本主義社會'], ['B', '封建社會'], ['C', '共產主義社會'], ['D', '奴隸社會']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "兩極終結嘅標誌係",
+    "llm_output": "The correct answer is D. 蘇聯解體.\n\nThe \"two poles\" refer to the bipolar world order that existed during the Cold War era, with the United States and the Soviet Union being the two superpowers. The collapse of the Soviet Union in 1991 marked the end of this bipolar world order, and is often seen as the symbol of the \"two poles\" coming to an end.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '第三世界嘅崛起'], ['B', '東歐劇變'], ['C', '中國嘅強大'], ['D', '蘇聯解體']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義嘅產生同發展，從根本上講係",
+    "llm_output": "The correct answer is:\n\nB. 生產社會化同資本主義私人佔有制之間矛盾發展嘅結果\n\nThis is because state monopoly capitalism arises from the contradiction between the socialization of production and the private ownership of the means of production under capitalism. As production becomes more socialized and interconnected, the private ownership of the means of production becomes increasingly incompatible with the needs of society, leading to the emergence of state monopoly capitalism.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國內市場競爭嘅結果'], ['B', '生產社會化同資本主義私人佔有制之間矛盾發展嘅結果'], ['C', '壟斷統治加強嘅結果'], ['D', '國際競爭激烈化嘅結果']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "真理觀上嘅相對主義，錯誤喺於",
+    "llm_output": "The correct answer is C. 誇大真理嘅相對性，否認真理嘅絕對性.\n\nExplanation: Relative truthism in Marxism holds that truth is relative to the historical and social context, but it does not deny the existence of absolute truth. Instead, it recognizes that truth is a process of development and that our understanding of truth is limited by our current level of knowledge and social conditions. Option C correctly identifies the error of exaggerating the relativity of truth and denying its absoluteness.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '認為關於同一對象真理性嘅認識只有一個'], ['B', '只講真理嘅客觀性，否認真理嘅相對性'], ['C', '誇大真理嘅相對性，否認真理嘅絕對性'], ['D', '誇大真理嘅絕對性，否認真理嘅相對性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "感性認識同理性認識嘅區別係",
+    "llm_output": "The correct answer is:\n\nD. 感性認識係對現象嘅認識，理性認識係對本質嘅認識\n\nIn Marxist theory, 感性認識 (sensory recognition) refers to the recognition of phenomena, whereas 理性認識 (rational recognition) refers to the recognition of essence.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '感性認識來源於直接經驗，理性認識來源於間接經驗'], ['B', '感性認識係可靠嘅，理性認識係唔可靠嘅'], ['C', '感性認識來源於實踐，理性認識來源於書本'], ['D', '感性認識係對現象嘅認識，理性認識係對本質嘅認識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義認為，世界嘅真正統一性喺於佢嘅",
+    "llm_output": "The correct answer is C. 物質性 (Materiality).\n\nAccording to Marxist theory, the true unity of the world lies in its materiality, meaning that the material conditions and relations of production shape the world and its social and economic structures.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '實踐性'], ['B', '運動性'], ['C', '物質性'], ['D', '客觀性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "中國古代哲學家公孫龍「白馬非馬」之說嘅錯誤喺於割裂咗",
+    "llm_output": "The correct answer is A. 矛盾嘅普遍性同特殊性嘅關係.\n\nThe \"White Horse Not a Horse\" paradox by Gongsun Long is a classic example of a philosophical fallacy in ancient Chinese philosophy. According to Marxist dialectics, the error in this paradox lies in the separation of the universal and particular aspects of a contradiction, which is option A.\n\nIn Marxist dialectics, a contradiction is a unity of opposites, and it has both universal and particular aspects. The universal aspect refers to the general principle or law that governs the contradiction, while the particular aspect refers to the specific manifestation of the contradiction in a particular context. Gongsun Long's paradox separates these two aspects, treating the universal aspect (the concept of \"horse\") as if it were separate from the particular aspect (the specific white horse), leading to a logical fallacy.\n\nThe other options do not accurately describe the error in Gongsun Long's paradox. Option B refers to the relationship between the principal and secondary aspects of a contradiction, which is not directly related to the paradox. Option C refers to the unity and struggle of opposites, which is a general principle of Marxist dialectics, but not specifically related to the error in the paradox. Option D refers to the relationship between internal and external causes, which is also not directly related to the paradox.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '矛盾嘅普遍性同特殊性嘅關係'], ['B', '矛盾主要方面同次要方面嘅關係'], ['C', '矛盾統一性同鬥爭性嘅關係'], ['D', '內因同外因嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "一定社會形態嘅經濟基礎係",
+    "llm_output": "The correct answer is D. 同一定生產力發展階段相適應嘅生產關係嘅總和 (The totality of production relations corresponding to a certain stage of development of productive forces).\n\nAccording to Marxist theory, the economic base of a certain social formation refers to the totality of production relations that correspond to a certain stage of development of productive forces. This concept is central to Marxist theory and is used to analyze the relationship between the economy and society.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會嘅各種生產關係'], ['B', '政治制度同法律制度'], ['C', '生產力'], ['D', '同一定生產力發展階段相適應嘅生產關係嘅總和']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "實踐嘅主體係",
+    "llm_output": "The correct answer is:\n\nB. 具有思維能力、從事社會實踐同認識活動嘅人\n\nAccording to Marxist theory, the subject of practice is the individual who possesses cognitive abilities, engages in social practice, and participates in recognition activities. This refers to the human being as a social and historical entity, who is capable of conscious thought and action.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '絕對精神'], ['B', '具有思維能力、從事社會實踐同認識活動嘅人'], ['C', '人'], ['D', '人嘅意識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義嘅形式中，最主要嘅、最重要嘅形式係",
+    "llm_output": "The correct answer is C. 國家自然壟斷經濟.\n\nIn Marxist theory, state monopoly capitalism refers to the highest and most developed stage of capitalism, where the state plays a direct role in the economy and monopolies dominate the market. Among the options, \"國家自然壟斷經濟\" (state natural monopoly economy) is the most accurate description of this concept.\n\nHere's why the other options are incorrect:\n\nA. \"國家市場壟斷經濟\" (state market monopoly economy) is a broader term that encompasses various forms of state intervention in the economy, but it's not specific enough to describe the highest stage of capitalism.\n\nB. \"國家調節經濟\" (state-regulated economy) is a more general term that refers to any economy where the state plays a role in regulating economic activity, but it doesn't necessarily imply the dominance of monopolies.\n\nD. \"公私合營經濟\" (public-private partnership economy) is a form of collaboration between the state and private enterprises, but it's not a specific stage of capitalism and doesn't necessarily involve the dominance of monopolies.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國家市場壟斷經濟'], ['B', '國家調節經濟'], ['C', '國家自然壟斷經濟'], ['D', '公私合營經濟']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義政治制度嘅基本特徵係",
+    "llm_output": "The correct answer is B. 無產階級專政嘅政權 (Proletarian dictatorship).\n\nAccording to Marxist theory, the basic characteristic of a socialist political system is the dictatorship of the proletariat, which means that the working class holds state power and exercises control over the means of production. This is a key concept in Marxist theory and is seen as a necessary step towards the transition from capitalism to socialism.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '無產階級政黨嘅領導'], ['B', '無產階級專政嘅政權'], ['C', '堅持社會主義方向'], ['D', '馬克思主義嘅指導']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "美國採取權力制衡嘅組織形式，其中立法權屬於",
+    "llm_output": "The correct answer is A. 國會 (Congress).\n\nIn the United States, the system of government is based on the principle of separation of powers, where power is divided among three branches of government: the legislative, executive, and judicial branches. The legislative branch, which is responsible for making the laws, is comprised of Congress, which is bicameral and consists of the House of Representatives and the Senate. Therefore, the legislative power belongs to Congress.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '國會'], ['B', '最高檢察院'], ['C', '最高法院'], ['D', '總統']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "生產商品嘅勞動分具體勞動同抽象勞動，其中具體勞動嘅作用係",
+    "llm_output": "The correct answer is C. 創造使用價值 (creating use value).\n\nIn Marxist theory, concrete labor refers to the specific, practical, and tangible aspects of labor that create a product's use value, which is the value of a commodity based on its ability to satisfy human needs and wants.\n\nAbstract labor, on the other hand, refers to the social and abstract aspects of labor that create exchange value, which is the value of a commodity based on its exchangeability with other commodities.\n\nSo, concrete labor creates use value, while abstract labor creates exchange value.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '創造新價值'], ['B', '創造必要價值'], ['C', '創造使用價值'], ['D', '創造剩餘價值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "被馬克思恩格斯稱為「有史以嚟最偉大嘅諷刺家」嘅係",
+    "llm_output": "The correct answer is A. 傅立葉 (Charles Fourier).\n\nMarx and Engels referred to Charles Fourier as the \"greatest satirist of all time\" in their book \"The Holy Family\".",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傅立葉'], ['B', '費爾巴哈'], ['C', '聖西門'], ['D', '歐文']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義發展嘅基礎係",
+    "llm_output": "The correct answer is C. 國有壟斷資本 (State-monopoly capital).\n\nIn Marxist theory, state-monopoly capitalism refers to the stage of capitalist development where the state plays a significant role in supporting and consolidating the power of monopolistic capital. This is seen as a way for the capitalist class to maintain its dominance and control over the means of production, while also using the state to regulate and stabilize the economy.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '私人壟斷資本'], ['B', '資本輸出'], ['C', '國有壟斷資本'], ['D', '資產階級國家']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「對客觀事物嘅反映即係真理」，呢係",
+    "llm_output": "The correct answer is B. 混淆咗真理嘅客觀性與規律客觀性.\n\nThis statement \"對客觀事物嘅反映即係真理\" (Reflection of objective things is truth) confuses the objectivity of truth with the objectivity of regularity. In Marxist theory, truth is not simply a reflection of objective things, but rather a correct reflection of the objective world, which involves a process of cognition and practice.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '辯證唯物主義嘅真理觀'], ['B', '混淆咗真理嘅客觀性與規律客觀性'], ['C', '混淆咗真理性認識與一般認識嘅錯誤觀點'], ['D', '一切唯物主義嘅真理觀']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "商品經濟係通過商品貨幣關係實行等價交換嘅經濟形式，佢嘅基本規律係",
+    "llm_output": "The correct answer is C. 價值規律 (Value Law).\n\nIn Marxist theory, commodity economy is characterized by the exchange of goods and services through the medium of money, where the value of goods and services is determined by the socially necessary labor time required to produce them. The basic law governing this economy is the Law of Value, which states that the value of a commodity is determined by the labor time socially necessary to produce it.\n\nThe other options are not correct:\n\nA. 剩餘價值規律 (Surplus Value Law) refers to the law that governs the exploitation of labor in capitalist societies, where capitalists extract surplus value from workers by paying them less than the value of their labor.\n\nB. 競爭規律 (Competition Law) refers to the law that governs the behavior of capitalists in a market economy, where they compete with each other to maximize profits.\n\nD. 貨幣流通規律 (Money Circulation Law) refers to the law that governs the circulation of money in an economy, but it is not the basic law governing commodity economy.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '剩餘價值規律'], ['B', '競爭規律'], ['C', '價值規律'], ['D', '貨幣流通規律']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "承認我哋知識嘅相對性就",
+    "llm_output": "The correct answer is:\n\nB. 可以防止認識嘅僵化\n\nRecognizing the relativity of our knowledge means acknowledging that our understanding is limited and subject to change as new information and experiences become available. This perspective can help prevent dogmatic thinking and the rigidification of knowledge, allowing for a more open and dynamic approach to understanding.\n\nThe other options are incorrect:\n\nA. Recognizing the relativity of knowledge does not necessarily lead to sophistry (詭辯論).\n\nC. It does not necessarily lead to agnosticism (不可知論) either, as it acknowledges the limitations of our knowledge but does not reject the possibility of knowledge altogether.\n\nD. Similarly, it does not necessarily lead to skepticism (懷疑主義), as it is a nuanced perspective that acknowledges the provisional nature of knowledge rather than rejecting the possibility of knowledge altogether.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '必然歸結為詭辯論'], ['B', '可以防止認識嘅僵化'], ['C', '必然歸結為不可知論'], ['D', '必然歸結為懷疑主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「兩個必然」同「兩個決唔會」",
+    "llm_output": "The correct answer is D. 係有住內喺聯繫嘅.\n\nThe concept of \"兩個必然\" (two necessities) and \"兩個決唔會\" (two inevitabilities) refers to the idea that there are two aspects of a contradictory relationship that are interconnected and inseparable. In Marxist theory, this concept is used to describe the dialectical relationship between two opposing forces or tendencies, where each aspect is necessary and inevitable, and yet, they are also in contradiction with each other.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '係內容同形式嘅關係'], ['B', '係兩回事'], ['C', '係矛盾嘅'], ['D', '係有住內喺聯繫嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思把黑格爾嘅辯證法稱為",
+    "llm_output": "The correct answer is C. 合理內核 (rational kernel).\n\nAccording to Marx, he extracted the \"rational kernel\" from Hegel's dialectics, which means he took the logical and reasonable parts of Hegel's dialectical method and adapted them to his own materialist philosophy, while rejecting the idealist and mystical aspects of Hegel's system.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '精髓'], ['B', '基本內核'], ['C', '合理內核'], ['D', '核心']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "人類進入21世紀，英國廣播公司（BBC）喺全球範圍內進行「千年思想家」網評，名列榜首嘅係",
+    "llm_output": "The correct answer is C. 馬克思 (Karl Marx).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '牛頓'], ['B', '達爾文'], ['C', '馬克思'], ['D', '愛因斯坦']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟文化相對落後嘅國家可以先於資本主義國家進入社會主義，其根本原因係由於",
+    "llm_output": "The correct answer is D. 革命嘅客觀形勢同條件決定嘅.\n\nThis is because Marx's theory suggests that the transition to socialism is determined by the objective conditions and circumstances of a revolution, rather than by the level of economic or cultural development of a country. In other words, a country can skip the capitalist stage and move directly to socialism if the revolutionary conditions are ripe, regardless of its level of economic or cultural development.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '經濟文化相對落後嘅國傢俱有較高嘅精神文明'], ['B', '社會主義生產關係可以喺舊社會嘅內部孕育生長起嚟'], ['C', '佢係以高度社會化嘅資本主義大生產作為社會主義革命嘅物質前提嘅'], ['D', '革命嘅客觀形勢同條件決定嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「此亦一係非，彼亦一係非」嘅命題，其含義係",
+    "llm_output": "The correct answer is B. 否認真理具有客觀標準.\n\nThe phrase \"此亦一係非，彼亦一係非\" is a Chinese idiom that means \"this is also not, that is also not\". In the context of Marxist theory, this phrase is often used to criticize the idea of absolute truth or objective standards of truth. It suggests that truth is relative and subjective, and that there is no single, objective standard of truth.\n\nTherefore, option B is the correct answer, as it denies the existence of objective standards of truth.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '強調真理嘅客觀性'], ['B', '否認真理具有客觀標準'], ['C', '強調真理具有客觀標準'], ['D', '否認真理嘅客觀性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「聽其言必責其用，觀其行必求其功。」呢種觀點係",
+    "llm_output": "The correct answer is A. 強調實踐對認識嘅檢驗作用.\n\nThis phrase \"聽其言必責其用，觀其行必求其功\" is a Chinese idiom that means \"Listen to what they say, but watch what they do; observe their actions and seek their results.\" This idiom emphasizes the importance of practice and action in verifying the truth of someone's words or ideas. It suggests that one should not just take someone's words at face value, but rather observe their actions and judge them based on the results they achieve.\n\nIn the context of Marxist theory, this idiom is related to the concept of \"practice is the criterion of truth\", which means that the truth of an idea or theory can only be verified through practical application and testing. This is a key aspect of Marxist epistemology, which emphasizes the importance of practice and experimentation in the development of knowledge and understanding.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '強調實踐對認識嘅檢驗作用'], ['B', '認為實踐可以脫離認識'], ['C', '認為認識可以脫離實踐'], ['D', '強調認識對實踐嘅作用']]",
+    "is_correct": 1
+  }
+]

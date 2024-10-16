@@ -1,0 +1,2042 @@
+[
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「日出」的結構採用嘅係",
+    "llm_output": "選項A「散點透視法」是正確答案。\n\n《日出》是曹禺創作的一部话剧，其結構採用的是散點透視法。這種結構方式不依賴單一焦點或線性敘事，而是通過多個角色的視角和對話，從不同角度和層面來描繪事件和人物，形成一種多重视角和空間的透視效果。這種手法使得话剧更加豐富和立體，能夠更全面地呈現出社會生活的複雜性和人性的多樣性。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '散點透視法'], ['B', '回溯法'], ['C', '拴樁法'], ['D', '心理分析法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "以眉間尺為老豆報仇作為中心線索嘅小說係",
+    "llm_output": "C. 「鑄劍」\n\n這部小說名為《鑄劍》，是中國作家莫言的作品，描繪了眉間尺為其父親報仇的故事。故事中眉間尺的父親被權貴所害，眉間尺為了替父报仇，不惜牺牲自己，與仇人同归于盡。《鑄劍》以其深刻的人性描繪和獨特的敘事手法，成為中國文學中的經典之作。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「九十九度中」'], ['B', '「蝸牛喺荊棘上」'], ['C', '「鑄劍」'], ['D', '「山峽中」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「佢淨係遺憾／佢嘅祖先冇似佢咁諗過／不如，見到大海嘅應該係佢喇」。以此作為結尾嘅詩歌係",
+    "llm_output": "選項A「韓東嘅「山民」」是正確答案。\n\n這段引文來自韓東的詩作《山民》，該詩描繪了一位山民對大海的渴望及對祖先未能親眼見到海洋的遺憾。韓東的詩作經常探討現代人的內心世界和社會現象，這首詩通過山民對大海的向往，反映了現代人對未知世界的渴望和對傳統生活方式的反思。\n\n其他選項B、C和D所對應的詩歌均不符合這段引文。因此，最終答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '韓東嘅「山民」'], ['B', '曾卓嘅「懸崖邊嘅樹」'], ['C', '駱一禾嘅「歲月」'], ['D', '綠原嘅「重讀<聖經>」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面含有小說「傷逝」嘅魯迅作品集係",
+    "llm_output": "D. 「彷徨」\n\n《伤逝》是鲁迅的小说，收录于他的作品集《彷徨》中。这部作品集包含了鲁迅的多篇短篇小说，其中《伤逝》讲述了一个关于爱情与婚姻的故事，反映了鲁迅对于社会和人性的深刻洞察。其他选项中的作品集分别收录了鲁迅的其他作品，但《伤逝》并不在其中。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「朝花夕拾」'], ['B', '「吶喊」'], ['C', '「故事新編」'], ['D', '「彷徨」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "汪靜之屬於",
+    "llm_output": "汪靜之屬於 **C. 湖畔詩人**。\n\n湖畔詩人是指20世紀20年代初期，一群聚集在浙江杭州西湖畔的年輕詩人，他們以自然風光和人文情感為主要創作主題，代表人物包括汪靜之、应修人、潘漠华、冯雪峰等。他們的作品充滿了對自然和人性之美的追求，並強調情感的真實流露，對後續的現代文學發展產生了深遠的影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '現代派詩人'], ['B', '象徵詩派詩人'], ['C', '湖畔詩人'], ['D', '小詩詩人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "雜文「春末閒談」中，細腰蜂嘅故事所要表達嘅係",
+    "llm_output": "選項B \"揭示統治階級麻痹同禁錮人民思想嘅方法\" 是正確答案。\n\n在鲁迅的雜文《春末閒談》中，細腰蜂的故事被用來比喻當時中國社會中對人民思想的控制。細腰蜂捕捉螟蛉後，會在螟蛉身上产卵，讓其子孫在螟蛉身上成长，這象徵著統治者如何利用麻痹和禁錮來控制人民的思想，使他們成為無意識的奴隸。\n\n選項A、C和D都未能準確捕捉到文章的主旨。A選項歌頌人類的科學精神，C選項批判螟蛉的懦弱無能，D選項讚美細腰蜂的聰明，這些都與文章中細腰蜂故事的寓意不符。因此，B選項是此問題的正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '歌頌人類嘅科學精神'], ['B', '揭示統治階級麻痹同禁錮人民思想嘅方法'], ['C', '批判螟蛉嘅懦弱無能'], ['D', '讚美細腰蜂嘅聰明']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "臧克家嘅第一部詩集係",
+    "llm_output": "臧克家的第一部诗集是《烙印》。因此，正确答案是 D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「罪惡嘅黑手」'], ['B', '「我底記憶」'], ['C', '「未明集」'], ['D', '「烙印」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面小說中運用咗「戲劇穿插法」嘅係",
+    "llm_output": "C. 「遊園驚夢」\n\n「遊園驚夢」是著名作家曹禺的代表作品，这部作品采用了「戲劇穿插法」，即在叙述主线故事的同时，穿插进其他人物的戏剧片段，这种手法使得故事层次丰富，人物形象更加立体。其他选项的小说并没有明确指出使用了这种叙事技巧。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「百合花」'], ['B', '「哦，香雪」'], ['C', '「遊園驚夢」'], ['D', '「高女人同佢嘅矮丈夫」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "臺靜農嘅「記波外翁」中波外翁嘅性格係",
+    "llm_output": "選項D \"孤傲嫉俗，重情義輕生死\" 是正確答案。在臺靜農的《記波外翁》中，波外翁的形象被描繪為一個孤傲且具有強烈個性的人物，他對社會的某些方面持有批判態度，同時又非常重視人際關係和情感。波外翁的这种行为和性格特征，使得他在作品中成為一個具有深度的角色，反映了作者對人性複雜性的深刻理解。其他選項描述的性格特徵並不準確反映波外翁在作品中的性格。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唯唯諾諾，毫無主見'], ['B', '隨和質樸，熱情開朗好動'], ['C', '狂放不拘，目空一切'], ['D', '孤傲嫉俗，重情義輕生死']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊一項唔屬於巴金嘅短篇小說集",
+    "llm_output": "D. 「寒夜」\n\n「寒夜」实际上是巴金的长篇小说，而非短篇小说集。其他选项A、B、C都是巴金的短篇小说集。因此，不属于巴金短篇小说集的选项是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「光明集」'], ['B', '「神鬼人」'], ['C', '「將軍集」'], ['D', '「寒夜」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「太陽下嘅風景」以兩代人所走過嘅人生歷程嘅對照為敘述線索，呢兩代人係",
+    "llm_output": "D. 黃永玉、沈從文\n\n《太陽下嘅風景》是沈從文所著，書中通過描述黃永玉與沈從文兩代人的生活經歷，展現了他們之間的生活對照和思想碰撞。黃永玉是沈從文的弟子，兩人在文學和人生觀念上都有著深厚的聯繫。因此，正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '胡適、沈從文'], ['B', '鬱達夫、沈從文'], ['C', '徐志摩、沈從文'], ['D', '黃永玉、沈從文']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「小二黑結婚」中，喺區氏面前反覆講「恩典恩典」嘅人物係",
+    "llm_output": "C. 金旺\n\n在赵树理的小说《小二黑结婚》中，金旺在区氏面前反复讲“恩典恩典”，这是小说中的一个细节描写，反映了金旺在面对区氏时表现出的谦卑和讨好态度。小说通过这一细节，揭示了当时农村社会中的一些矛盾和人物性格。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '小二黑'], ['B', '二諸葛'], ['C', '金旺'], ['D', '大黑']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "關於「鞋」嘅文章內容嘅表述錯誤嘅係",
+    "llm_output": "選項A是錯誤的。在關於「鞋」的文章內容中，守明做鞋時確實表現出認真苛刻的態度，但老母摸鞋底並不是守明鬧起来的直接原因。文章中可能描述的是守明對鞋質量的嚴格要求，而非老母的行為觸發了守明的反應。\n\n選項B、C和D描述的內容是正確的。B選項中，男子對守明提出的試鞋請求充滿愛的寄託，但卻被拒絕，這體現了守明對男子深深的愛意以及對這段關係的珍視。C選項概述了文章的主題，即一個鄉村少女為她未來的丈夫做鞋，這象徵著傳統的婚禮習俗和守明對婚姻的期待。D選項則描繪了守明對未婚夫的愛戀，以及她如何通過做鞋來傳達這種情感。\n\n因此，正確答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '守明喺做鞋時，態度認真苛刻，例如老母摸咗鞋底一下，佢就鬧咗起嚟。'], ['B', '男子外出前約守明，兩人相見時，守明提出畀男子試鞋，幾次請求都被拒絕，充滿住愛嘅寄託嘅鞋並冇得到應有嘅關注。'], ['C', '「鞋」講述咗一個鄉村少女定親後畀未婚夫做鞋嘅故事。'], ['D', '農村姑娘守明對佢嘅未婚夫默默嘅愛戀，以鞋作為紐帶，傳遞佢濃濃嘅深情同期盼。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面屬於王安憶作品嘅係",
+    "llm_output": "C. 「少女小漁」\n\n王安憶（Alessandro Petri），本名安憶，是一位出生于意大利的作家，其作品深受中國文學影響。在所提供的选项中，「少女小漁」（The Story of the Little Fish）是王安憶的代表作品之一，描繪了一個少女在社會變遷中成長的故事。其他選項如「小鮑莊」、「與往事乾杯」和「無處告別」均非王安憶的作品。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「小鮑莊」'], ['B', '「與往事乾杯」'], ['C', '「少女小漁」'], ['D', '「無處告別」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「喺其香居茶館入面」嘅作者係",
+    "llm_output": "正確答案係 D. 沙汀。\n\n小說「喺其香居茶館入面」（原名《在其香居茶馆里》）係由中國現代作家沙汀所著。沙汀，原名張慶祥，四川綿陽人，是中國現代文學史上一位重要的作家，以其描繪中國農村社會的深刻見解和獨特風格著稱。該作品描繪了中國農村社會的各種矛盾和冲突，並通過茶館這個場所，反映了當時社會的風貌和人情世故。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '艾蕪'], ['B', '張天翼'], ['C', '沈從文'], ['D', '沙汀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "豐子愷嘅散文「畀我嘅仔女們」係",
+    "llm_output": "正確答案為：B. 「緣緣堂隨筆」嘅序。\n\n豐子愷的散文「給我嘅仔女們」是收录在《緣緣堂隨筆》這本書中，並且作為該書的序。這篇散文表達了作者對家庭、教育以及親子關係的深刻思考，並流露出濃厚的情感。其他選項如「子愷隨筆錄」、「緣緣堂再筆」和「子恺畫集」代序，均不是這篇散文的出处。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「子愷隨筆錄」嘅後記'], ['B', '「緣緣堂隨筆」嘅序'], ['C', '「緣緣堂再筆」嘅跋'], ['D', '「子愷畫集」嘅代序']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「非攻」與「理水」係",
+    "llm_output": "選項A「哲理性小說」是正確答案。「非攻」和「理水」都是古代中國著名的哲理故事，它們不僅是文學作品，更富含深邃的哲理思考。「非攻」出自《莊子》，讲述的是墨子劝止楚王攻打宋国的故事，体现了墨家的非攻思想；「理水」出自《列子》，讲述了大禹治水的故事，体现了古人对自然规律的认识和利用。這些故事均以哲理为核心，而非单纯的批判、歌頌或抒情。因此，最符合這兩個故事特點的選項是A「哲理性小說」。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '哲理性小說'], ['B', '批判性小說'], ['C', '歌頌性小說'], ['D', '抒情性小說']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "郭沫若創作嘅「屈原」係",
+    "llm_output": "正確答案係D。郭沫若創作嘅「屈原」係富有浪漫主義色彩嘅詩劇。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '富有現實主義色彩嘅悲劇'], ['B', '融詩、歌、舞於一體嘅民族新歌劇'], ['C', '富有浪漫主義色彩嘅喜劇'], ['D', '富有浪漫主義色彩嘅詩劇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "中篇小說「短褲黨」嘅作者係",
+    "llm_output": "正確答案係 C. 許傑。\n\n中篇小說「短褲黨」的作者許傑，是20世紀初期中國文壇上的一位重要作家。他的作品多以描繪社會底層人物的生活和心理狀態為主，具有深刻的社会批判意識。而其他選項中的郭沫若、蔣光慈和王統照，雖然都是中國文學史上的重要人物，但他們並不是「短褲黨」的作者。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '郭沫若'], ['B', '蔣光慈'], ['C', '許傑'], ['D', '王統照']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "詩句「喺人道惡濁嘅澗水度流住，浮荇似嘅，五具殘缺嘅屍體，佢哋係仁義禮智信，向住時間無盡嘅海瀾度流去」感自",
+    "llm_output": "正確答案係C。\n\n這句詩出自於郭沫若的《我用殘損嘅手掌》，這首詩描繪了中國歷史上各種悲慘事件中无辜受難者之苦，並表達了作者對這些不幸事件的深刻反思和悲痛之情。\n\n選項A「毒藥」、選項B「嬰兒」和選項D「白旗」均不是這句詩的出处。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「毒藥」'], ['B', '「嬰兒」'], ['C', '「我用殘損嘅手掌」'], ['D', '「白旗」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "全景式反映咗抗戰勝利前後光明與黑暗，正義與邪惡搏鬥嘅艱苦歲月嘅劇作係田漢嘅",
+    "llm_output": "正確答案係 B. 「麗人行」。\n\n「麗人行」是田漢創作的一部戲劇，它全景式地描繪了抗戰勝利前後，中國社會經歷的複雜變化，以及光明與黑暗、正義與邪惡之間的搏鬥。该剧作以生動的場景和深刻的人物描繪，反映了當時社會的艱苦歲月。其他選項如「武松」、「風雲兒女」和「一致」均不是田漢創作的描繪抗戰的劇作。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「武松」'], ['B', '「麗人行」'], ['C', '「風雲兒女」'], ['D', '「一致」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "刊載「本志罪案之答辯書」嘅雜誌係",
+    "llm_output": "刊載「本志罪案之答辯書」的雜誌是A. 「新青年」。\n\n「新青年」杂志在1915年由陈独秀在上海创办，是新文化运动的重要出版物之一。1919年，该杂志刊登了陈独秀的《本志罪案之答辯书》，公开声明杂志的宗旨和立场，反对封建主义，倡导民主与科学，对中国近代思想史产生了深远影响。其他选项B. 「論語」、C. 「小說月報」和D. 「七月」均不符合此描述。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「新青年」'], ['B', '「論語」'], ['C', '「小說月報」'], ['D', '「七月」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「組織部嚟咗個年輕人」中，「就係咁回事」係邊個嘅處世哲學？",
+    "llm_output": "B. 劉世吾\n\n「就係咁回事」是劉世吾在《组织部新来的年轻人》這部小說中常用的一句話，體現了他對現實問題的冷靜態態和淡泊名利的處世哲學。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '王清泉'], ['B', '劉世吾'], ['C', '韓常新'], ['D', '林震']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面唔屬於左翼作家羣嘅係",
+    "llm_output": "選項D，蕭紅，不属于左翼作家群。\n\n在中國文學史上，左翼作家群是指在20世纪30年代至40年代，以左翼思想为指导，致力于文学创作和革命宣传的作家群体。他们主张文学为政治服务，强调文学的社会功能和教育作用。\n\nA選項艾蕪，B選項華漢，C選項蘆焚，都是左翼作家群的代表人物。而D選項蕭紅，則更偏向于现代主义文学风格，她的作品多以个人情感和内心世界为描写对象，与左翼作家的社会政治倾向有所区别。因此，不属于左翼作家群的作家是蕭紅。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '艾蕪'], ['B', '華漢'], ['C', '蘆焚'], ['D', '蕭紅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "詩集「魚目集」嘅作者係",
+    "llm_output": "選項A：陳敬容。\n\n陳敬容，現代中國著名女詩人，她的詩集「魚目集」是她的主要作品之一，展現了她對現代社會的深刻思考和獨特見解。其他選項B、C、D所列的卞之琳、何其芳和辛笛，雖然都是現代中國文學中的重要人物，但他們與「魚目集」無關。因此，正確答案是A。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '陳敬容'], ['B', '卞之琳'], ['C', '何其芳'], ['D', '辛笛']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面以「刑天」嘅傳說同陶淵明詩句嚟說明人民嘅鬥爭精神嘅作品係",
+    "llm_output": "正確答案係 B. 「春末閒談」。\n\n這部作品由陶淵明所著，其中「刑天」的傳說被用來象徵人民不屈不撓的鬥爭精神。在陶淵明的詩歌中，刑天是一個被砍下頭颅但仍不低頭的巨人，象徵著無畏的抗爭和堅持。而「春末閒談」則通過對自然界和社會現象的觀察，表達了作者對人生哲理的深刻思考，並借此反映出人民在困難中依然堅持斗争的精神。\n\n其他選項如「蛇與塔」、「秋夜」和「春之子」均不符合以「刑天」的傳說和陶淵明的詩句來表達人民鬥爭精神的描述。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「蛇與塔」'], ['B', '「春末閒談」'], ['C', '「秋夜」'], ['D', '「春之子」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「中國，我嘅鑰匙丟咗」主要採用象徵手法表達主題意蘊，詩中構成象徵系列嘅意象係",
+    "llm_output": "D. 鑰匙、屋企、畫片、三葉草、「海涅歌謠」\n\n这首诗《中國，我嘅鑰匙丟咗》主要通过一系列象征性意象来表达主题意蕴。其中，「鑰匙」象征着作者对中国的记忆和情感的钥匙；「屋企」（家）象征着作者对中国的归属感和文化认同；「畫片」（照片）象征着作者对过去的回忆和对现实的反思；「三葉草」象征着幸运和希望；「海涅歌謠」则象征着对德国诗人海涅的文学影响和精神寄托。这些意象共同构成了诗中的象征系列，深刻地表达了作者对中国的复杂情感和深刻思考。因此，正确答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '鑰匙、桅杆、畫片、三葉草、「海涅歌謠」'], ['B', '鑰匙、書櫥、抽屜、畫片、三葉草'], ['C', '鑰匙、門、抽屜、三葉草、書籍'], ['D', '鑰匙、屋企、畫片、三葉草、「海涅歌謠」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "虛擬嘅啤酒店女主人呢個形象出自",
+    "llm_output": "選項B「慕尼黑」是正確答案。\n\n虛擬的啤酒店女主人這個形象出自沈从文的短篇小說《慕尼黑》。這部作品描繪了一個充滿浪漫色彩的啤酒店，以及其中充滿魅力的女主人，她成為了許多男性角色心中理想化的象徵。其他選項A「歸嚟嘅歌」、C「浮躁」和D「與李賀共飲」均不是描述虛擬啤酒店女主人形象的作品。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「歸嚟嘅歌」'], ['B', '「慕尼黑」'], ['C', '「浮躁」'], ['D', '「與李賀共飲」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面作品中，作者唔係鐵凝嘅係",
+    "llm_output": "選項D「無雨之城」係作者莫言的作品，而非鐵凝。莫言是中國著名作家，於2012年獲得諾貝爾文学奖。而鐵凝則以寫作小說、散文和文學評論聞名，其代表作品有「玫瑰門」、「樹王」和「冇鈕扣嘅紅襯衫」等。因此，正確答案係D。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「冇鈕扣嘅紅襯衫」'], ['B', '「樹王」'], ['C', '「玫瑰門」'], ['D', '「無雨之城」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "四鳳呢個人物形象出自於",
+    "llm_output": "四鳳這個人物形象出自於曹禺的話劇《雷雨》。因此，正確答案為：\n\nA. 「雷雨」",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「雷雨」'], ['B', '「北京人」'], ['C', '「日出」'], ['D', '「原野」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "方羅蘭、章秋柳呢兩個人物形象出現於茅盾嘅邊一部小說",
+    "llm_output": "C. 「蝕」\n\n方羅蘭和章秋柳這兩個人物形象出現在茅盾的《蝕》系列小說中，該系列包括《幻灭》、《動搖》、《追求》三部作品。這兩個角色在《動搖》中扮演了重要角色，他們的故事線描繪了中國社會變遷中個體命運的波折。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「虹」'], ['B', '「野薔薇」'], ['C', '「蝕」'], ['D', '「三人行」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「茶花賦」中嘅「茶花」象徵住",
+    "llm_output": "選項A「祖國嘅面貌」是正確答案。在《茶花賦》中，茶花被用來象徵祖國的美麗和堅韌。這首詩歌通過對茶花的描繪，表達了作者對祖國深沉的愛和對美好未來的不懈追求。茶花作為中國傳統花卉之一，其象徵意義在文學作品中常常被用來代表祖國或民族的美好形象。因此，選項A最符合《茶花賦》中茶花的象徵意義。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '祖國嘅面貌'], ['B', '戰士嘅鮮血'], ['C', '美好嘅童年'], ['D', '熱烈嘅愛情']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "茅盾嘅長篇小說代表作係",
+    "llm_output": "正確答案係：A. 「子夜」。\n\n茅盾，原名沈德鸿，是中国现代文学的重要作家之一，他的长篇小说代表作是《子夜》。这部作品创作于1930年代，通过描绘上海都市生活，反映了当时社会的各种矛盾和冲突，具有深刻的社会意义。其他选项如「虹」、「林家鋪子」和「蝕」虽然也是茅盾的作品，但并非其代表作。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「子夜」'], ['B', '「虹」'], ['C', '「林家鋪子」'], ['D', '「蝕」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「你畀我喺舒適嘅靠椅上坐低」／你微現慌張咁為我倒茶，送水。／我眯住隻眼——因為唔能夠習慣光亮'／亦唔能夠習慣你老母咁溫存嘅眼睛。」呢段詩出自",
+    "llm_output": "B. 「有贈」\n\n這段詩出自林語堂的《有贈》。林語堂是20世紀著名的作家、思想家，他的作品多以散文和短篇小說聞名，而《有贈》是他對親人、朋友以及生活的一種抒情表達。其他選項如「童年二題」、「廬山面目」和「與李賀共飲」均非此段詩的出处。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「童年二題」'], ['B', '「有贈」'], ['C', '「廬山面目」'], ['D', '「與李賀共飲」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「紅旗譜」生動描寫咗中國農村三代農民唔同嘅鬥爭道路同命運，其中第三代農民嘅代表係",
+    "llm_output": "正確答案係 D. 朱老忠。\n\n《红旗谱》是梁斌所著的长篇小说，描写了三代中国农村农民的斗争道路和命运。第三代农民的代表是朱老忠，他是一个具有革命精神和反抗精神的农民形象，代表了新一代农民的觉醒和斗争。其他选项中的严老祥、严运涛、朱老明均非第三代农民的代表人物。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '嚴老祥'], ['B', '嚴運濤'], ['C', '朱老明'], ['D', '朱老忠']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「繡枕」中，大小姐精心繡出鳳凰同翠鳥，其用意係",
+    "llm_output": "選項B「求得親事」是正確答案。\n\n在沈從文的小说《繡枕》中，大姑娘精心繡製的鳳凰和翠鳥圖案，象徵著她對美好生活的向往，尤其是對婚姻的渴望。這幅繡品充滿了對幸福生活的期盼，她希望通過這份精緻的手工藝品來吸引有貴族背景的男子，以期求得一段美满的婚姻。\n\n選項A「送畀朋友」、選項C「作為婚慶賀禮」和選項D「用嚟出售」均不符合小說中大姑娘的用意。因此，最符合小說內容的答案是B「求得親事」。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '送畀朋友'], ['B', '求得親事'], ['C', '作為婚慶賀禮'], ['D', '用嚟出售']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "中國現代第一部新詩集「嘗試集」出版於",
+    "llm_output": "正確答案為C. 1921年。\n\n《嘗試集》是中國現代文學史上的第一部新詩集，由郭沫若於1921年出版。這部作品標誌著中國新詩的開端，對後續的文學創作產生了深遠的影響。郭沫若在《嘗試集》中展現了對傳統文學形式的突破，並引入了自由體詩的創作手法，為中國文學的現代轉型做出了重要貢獻。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '1915年'], ['B', '1920年'], ['C', '1921年'], ['D', '1919年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "賈平凹喺「秦腔」中講，八百里秦川農民視為生命「五大要素」嘅，除咗秦腔之外，仲有",
+    "llm_output": "正確答案為 D. 「西鳳」白酒、長線辣椒、大葉卷煙、羊肉泡饃。\n\n在賈平凹的《秦腔》中，他描繪了秦川農民的生活，並強調了他們視為生命「五大要素」的東西。除了秦腔之外，他提到的四大要素包括「西鳳」白酒、長線辣椒、大葉卷煙和羊肉泡饃。這些元素不僅反映了當地農民的生活方式，也體現了他們的文化特色和飲食習慣。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '西河大鼓、「西鳳」白酒、大葉卷煙、牛肉泡饃'], ['B', '黃土高原、「西鳳」白酒、大葉卷煙、羊肉泡饃'], ['C', '「西風」白酒、長線辣椒、大葉卷煙、牛肉泡饃'], ['D', '「西鳳」白酒、長線辣椒、大葉卷煙、羊肉泡饃']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「棋王」嘅主人公係",
+    "llm_output": "B. 王一生\n\n小說「棋王」的主人公是王一生。這部作品由阿城所著，描繪了主人公王一生對象棋的熱愛與追求，以及他在面對生活困難時所展現出的堅韌不拔的精神。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '王醫生'], ['B', '王一生'], ['C', '阿成'], ['D', '阿城']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面詩集中收錄咗「鳳凰涅槃」嘅係",
+    "llm_output": "D. 「女神」\n\n「鳳凰涅槃」是郭沫若的著名詩篇，收錄於其诗集《女神》中。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「雲遊」'], ['B', '「星空」'], ['C', '「曠野」'], ['D', '「女神」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "郭沫若喺話劇「屈原」中，虛構嘅一個為屈原而死嘅女性人物係",
+    "llm_output": "選項A \"嬋娟\" 是正確答案。在郭沫若的話劇「屈原」中，虛構的角色嬋娟是為了保護屈原而自殺的女性人物。其他選項B \"南後\"、C \"宋玉\" 和 D \"靳尚\" 都是其他人物，與問題描述不符。因此，正確答案是A \"嬋娟\"。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '嬋娟'], ['B', '南後'], ['C', '宋玉'], ['D', '靳尚']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「我愛我哋嘅國家，可係邊個愛我呢?」「茶館」中，講呢句臺詞嘅人物係",
+    "llm_output": "B. 常四爺\n\n在老舍的戏剧《茶馆》中，这句台词是由常四爺所说出。常四爺是剧中的一个角色，他是一个正直、有骨气的人，对国家有着深厚的感情。这句台词表达了他对国家的忠诚和对个人遭遇的无奈。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '秦仲義'], ['B', '常四爺'], ['C', '王利發'], ['D', '松二爺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面具有「誠」與「雅」完滿結合藝術特色嘅小說係",
+    "llm_output": "A. 「遊園驚夢」\n\n這部小說由著名作家曹禺所著，融合了中國古典文學的「誠」與「雅」藝術特色，以精緻的語言和深刻的人物描繪，呈現出高度的文學藝術成就。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「遊園驚夢」'], ['B', '「魯魯」'], ['C', '「紅旗譜」'], ['D', '「我嘅第一個上級」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "話劇「茶館」嘅結構方式係",
+    "llm_output": "正確答案係 D. 人像展覽式。\n\n話劇「茶館」係由中國著名作家老舍創作，其結構方式特點係以茶館作為場景，通過不同年代、不同身份的人物在茶館中互動，展現出社會變遷和人物命运的變化。此種結構方式類似於博物館中的人像展覽，每一個人物都代表著一個時代的縮影，觀眾可以通過這些人物的故事來了解整個社會的歷史變遷。因此，選項 D 「人像展覽式」 為正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '冰糖葫蘆式'], ['B', '鎖閉式'], ['C', '一人一事式'], ['D', '人像展覽式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「哎，大森林」嘅情緒基調係",
+    "llm_output": "C. 激憤\n\n「哎，大森林」是中國作家莫言的短篇小说，这部作品通过描绘大森林的景象，反映了主人公对社会不公的愤慨和对自然环境的敬畏。小说中充满了对现实社会问题的批判和对自然生态的深刻思考，因此其情緒基調是激憤的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '冷漠'], ['B', '平靜'], ['C', '激憤'], ['D', '喜悅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「遊園驚夢」反映嘅係臺灣20世紀",
+    "llm_output": "正確答案係D。小說「遊園驚夢」由白先勇所著，描繪了1960年代末至1970年代初的臺灣社會，尤其是上层社会的生活和变迁。這部作品通過對一個傳統家庭及其成員的描繪，反映了當時社會的變遷、傳統與現代的衝突以及人性的複雜性。因此，它主要反映的是五、六十年代之交的現實。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '七十年代嘅現實'], ['B', '八十年代嘅現實'], ['C', '九十年代嘅現實'], ['D', '五、六十年代嘅現實']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「哦，香雪」故事發生嘅地點係",
+    "llm_output": "正確答案係 B. 臺兒溝。\n\n「哦，香雪」是铁凝的一篇短篇小说，故事发生在中国河北省的一个小山村——臺兒溝。故事讲述了一个名叫香雪的少女，她对火车和外面的世界充满了好奇和向往。在一次偶然的机会中，香雪通过交换自己的发卡，换得了她梦寐以求的铅笔盒，这个小小的物品象征着她对知识、对美好生活的渴望。\n\n其他选项A. 周莊、C. 白洋淀和D. 平型關均不是「哦，香雪」故事发生的地方。周莊是江苏的一个古镇，白洋淀是河北的一个湖泊，平型關则是山西的一个关口，均与「哦，香雪」的故事背景不符。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '周莊'], ['B', '臺兒溝'], ['C', '白洋淀'], ['D', '平型關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "巴金嘅小說「家」最初發表於",
+    "llm_output": "正確答案係 A. 20世紀20年代後期。巴金嘅小說「家」最初發表於1931年，屬於20世紀20年代後期。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '20世紀20年代後期'], ['B', '20世紀30年代後期'], ['C', '20世紀30年代初期'], ['D', '20世紀20年代初期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "詩歌「雨巷」中借用「雨巷」同「丁香」等意象所表達嘅「我」嘅情緒係",
+    "llm_output": "選項C「孤獨傷感」是正確答案。\n\n詩歌「雨巷」是現代詩人戴望舒的代表作之一，描繪了一個在雨中彷徨的男子，他渴望遇到一個丁香般的女子，但最終只留下孤獨的身影。「雨巷」和「丁香」等意象，象徵了诗人内心的孤寂与对美好事物的渴望，同时也反映了那个时代人们的普遍情绪。因此，「我」的情緒是孤獨和傷感。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '沉悶絕望'], ['B', '樂觀開朗'], ['C', '孤獨傷感'], ['D', '平和淡泊']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "關於作家馮驥才嘅表述錯誤嘅一項係",
+    "llm_output": "選項C是錯誤的表述。\n\n理由如下：\nA選項描述冯骥才的作品语言清新自然，并具有浓厚的抒情诗意味，这是准确的。冯骥才的文学作品确实以清新自然的语言风格和抒情诗的意味著称。\n\nB選項提到冯骥才是文革后崛起的“伤痕文学”代表作家，其“文化反思小说”对文坛产生了深远影响。这也是正确的。冯骥才的作品常常反映社会变迁和历史创伤，他的文学创作对伤痕文学和文化反思小说的发展有重要影响。\n\nD選項列出了冯骥才的多部作品，包括中篇小说《神鞭》、《雕花烟斗》，长篇小说《三寸金莲》及短篇小说《高女人同他的矮丈夫》等，这些都是冯骥才的代表作，因此D选项是正确的。\n\nC選項提到《高女人同他的矮丈夫》是冯骥才的“伤痕文学”代表作。实际上，《高女人同他的矮丈夫》是冯骥才的短篇小说，虽然它反映了社会和人性的某些方面，但并不完全符合“伤痕文学”的定义。冯骥才的“伤痕文学”作品更多地关注于历史创伤和文化反思，而《高女人同他的矮丈夫》更偏向于对人性和社会现象的细腻描绘。因此，C選項是错误的表述。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '作品語言清新自然，具有濃厚嘅抒情詩嘅意味。'], ['B', '馮驥才係「文革」後崛起嘅「傷痕文學」代表作家，其「文化反思小說」對文壇產生深遠影響。'], ['C', '「高女人同佢嘅矮丈夫」係其「傷痕文學」嘅代表'], ['D', '著有中篇小說「神鞭」、「雕花煙鬥」，長篇小說「三寸金蓮」及短篇小說「高女人同佢嘅矮丈夫」等。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "歌劇「白毛女」塑造嘅壓迫階級嘅人物形象有",
+    "llm_output": "歌劇「白毛女」中，被塑造成壓迫階級的人物形象主要是黃世仁和穆仁智。黃世仁是地主階級的代表，他對農民的壓迫和剥削在劇中被深刻揭示。穆仁智則是一個地痞流氓，他對農民的欺壓和掠奪也體現了當時社會的黑暗面。因此，正確答案是 B. 黃世仁同穆仁智。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '黃世仁同楊白勞'], ['B', '黃世仁同穆仁智'], ['C', '穆仁智同大春'], ['D', '楊白勞同大春']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「喺山區收購站」主要揭示咗",
+    "llm_output": "C. 農民利益同農村政策之間嘅矛盾\n\n小說「喺山區收購站」主要揭示了農民利益与農村政策之间的矛盾。这部作品通过描写收购站的工作情况，反映了农村政策执行过程中出现的问题，以及这些政策对农民生活产生的影响。小说揭示了政策与农民实际需求之间的冲突，以及这种冲突对农民生活的影响，从而突显了农村政策与农民利益之间的矛盾。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '農村家庭矛盾'], ['B', '農村青年、老年兩代人之間嘅矛盾'], ['C', '農民利益同農村政策之間嘅矛盾'], ['D', '農村個別幹部與羣眾之間嘅矛盾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「四世同堂」採用嘅結構方式係",
+    "llm_output": "選項 B. 長河奔流式 是正確答案。\n\n《四世同堂》是著名作家老舍的長篇小說，描繪了北京一個大家庭在戰爭期間的悲歡離合。該作品採用的是「長河奔流式」結構，即以時間軸線為主線，通過不同角色的生活經歷和心理變化，展現出整個社會的變遷和歷史的演進。這種結構方式使得小說能夠全面且深入地描繪出時代背景，並通過家庭的小故事反映出整個社會的大環境。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '冰糖葫蘆式'], ['B', '長河奔流式'], ['C', '雙線交叉式'], ['D', '並列式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「活動變人形」嘅作者係",
+    "llm_output": "正確答案係 D. 王蒙。\n\n「活動變人形」是中國著名作家王蒙於1958年發表的短篇小說，描繪了一個普通家庭在社會變遷中的生活經歷，並通過對人物心理的深入描繪，反映了當時社會的某些面貌。王蒙的文學作品以其獨特的敘事風格和深刻的人性描繪而聞名，這部作品亦是其文學成就的重要代表之一。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '馬烽'], ['B', '馮驥才'], ['C', '白先勇'], ['D', '王蒙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "關於「日出」中陳白露呢個人物嘅準確概括係",
+    "llm_output": "選項A：驕橫自尊，墮落放蕩，但善良富有同情心，是對《日出》中陳白露這個人物準確的概括。\n\n在曹禺的劇作《日出》中，陳白露是一個複雜的人物，她出身貧寒，但擁有優美的外貌和才華。雖然她表面上生活奢華，實際上卻處於一種精神上的掙扎和堕落之中。她既驕傲自尊，又放蕩不羁，但同時也充滿了善良和同情心。她對周圍的弱者抱有同情，但同時又無法自拔地陷入了奢華生活中。\n\n選項B描述的是被壓迫被損害的下層貧民，這不是對陳白露的準確概括。\n\n選項C提到的追求個性自由與解放的時代女性，雖然陳白露確實在一定程度上追求個性自由，但這不是她最核心的特點。\n\n選項D中的自作多情、俗不可耐的富孀，則完全不符合陳白露的人物形象。\n\n因此，正確答案是選項A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '驕橫自尊，墮落放蕩，但善良富有同情心'], ['B', '被壓迫被損害嘅下層貧民'], ['C', '追求個性自由與解放嘅時代女性'], ['D', '自作多情、俗不可耐嘅富孀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "散文「雅舍」中，「雅舍」係指作者梁實秋嘅",
+    "llm_output": "選項B：「簡陋宿舍」是正確答案。\n\n在梁實秋的散文《雅舍》中，「雅舍」指的是作者在台北的住所，这个地方并不豪华，环境简陋，但梁實秋却以幽默和智慧，赋予了这个住所以雅致和诗意。因此，「雅舍」并非指乡间别墅、书房或朋友之乡村别墅，而是指梁實秋居住的简陋宿舍。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '鄉間別墅'], ['B', '簡陋宿舍'], ['C', '書房'], ['D', '朋友嘅鄉間別墅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「桃園」中，種桃人王老大畀生病嘅女買嘅物品係",
+    "llm_output": "C. 玻璃桃子\n\n在沈从文的小说《桃源》中，种桃人王老大给生病的女买的东西是玻璃桃子。这部作品通过王老大与女之间的故事，展现了人物之间的情感纠葛以及社会底层人民的生活状态。玻璃桃子象征着美好而脆弱的理想，与小说中的人物命运形成呼应。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '毛線鞋'], ['B', '繡枕'], ['C', '玻璃桃子'], ['D', '紅頭繩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「遊園驚夢」中，失意急怒之下而啞聲嘅人物係",
+    "llm_output": "B. 錢夫人\n\n在曹禺的戏剧《遊園驚夢》中，钱夫人因失意和急怒而哑声。这部作品是曹禺的代表作之一，讲述了钱夫人因丈夫的背叛而陷入绝望，最终在梦中重温与丈夫的美好时光，但梦醒后更加痛苦的故事。钱夫人在剧中经历了从希望到失望再到绝望的心理变化，哑声是她情绪崩溃的直接体现。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '竇夫人'], ['B', '錢夫人'], ['C', '蔣碧月'], ['D', '賴夫人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「小城三月」中翠姨嘅結局係",
+    "llm_output": "B. 唔能夠嫁畀相愛者而抑鬱致死\n\n在蕭紅所著的小說《小城三月》中，翠姨的形象是一位性格内向、情感丰富且悲剧色彩浓厚的女性。她深爱着表哥，但由于种种原因，包括家族的压力和社会的传统观念，她未能与表哥结合。翠姨的情感得不到释放，最终在压抑和痛苦中离世。因此，正确答案是B，翠姨因未能嫁给所爱之人而抑郁致死。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '貧病而死'], ['B', '唔能夠嫁畀相愛者而抑鬱致死'], ['C', '難產而死'], ['D', '陪伴愛者嘅亡靈孤老終身']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "散文「童年二題」嘅作者係",
+    "llm_output": "C. 琦君\n\n散文「童年二題」的作者是琦君。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '牛漢'], ['B', '周濤'], ['C', '琦君'], ['D', '楊絳']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "敘述咗留學歸嚟嘅「我」與女工陳二妹由相遇、猜忌到互相瞭解、同情嘅小說係",
+    "llm_output": "A. 「春風沉醉嘅晚上」\n\n這部小說由著名作家巴金所著，描繪了留學歸來的「我」與在上海一家工厂工作的女工陳二妹之間的故事。這部作品通過對兩位主角間的情感變化和社會背景的描繪，展現了當時社會中不同階層之間的矛盾和理解。其他選項B「送報夫」、C「金鎖記」和D「荷花澱」均不是描述這個故事的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「春風沉醉嘅晚上」'], ['B', '「送報夫」'], ['C', '「金鎖記」'], ['D', '「荷花澱」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「濃得化唔開」「北戴河海濱嘅幻想」「翡冷翠山居閒話」「我所知道嘅康橋」嘅作者係",
+    "llm_output": "正確答案係 D. 徐志摩。\n\n徐志摩是中國現代文學史上一位重要的詩人、散文家，他的作品充滿了浪漫主義色彩，並且對中國新文學的發展產生了深遠影響。上述四篇作品均出自徐志摩之手，其中「我所知道嘅康橋」是他對在英国剑桥求學時的生活的回憶，而「北戴河海濱嘅幻想」和「翡冷翠山居閒話」則描繪了作者對自然風光和人文景觀的深刻感受。\n\n其他選項的作者與這些作品無關：\nA. 聞一多是著名的詩人和散文家，但這些作品不是他的作品。\nB. 郭沫若是中國現代文學史上的重要作家，但這些作品不是他的作品。\nC. 冰心也是一位著名的女作家，但這些作品不是她的作品。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '聞一多'], ['B', '郭沫若'], ['C', '冰心'], ['D', '徐志摩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "新文化運動中嘅第一部白話新詩集係",
+    "llm_output": "C. 「嘗試集」\n\n新文化運動中第一部白話新詩集是由胡適所編寫的《嘗試集》。這部作品於1920年出版，標誌著中國現代文學史上一個新的詩歌形式的開始。而其他選項，如《女神》、《昨日之歌》和《死水》，雖然也是重要的文學作品，但它們並非新文化運動中第一部白話新詩集。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「女神」'], ['B', '「昨日之歌」'], ['C', '「嘗試集」'], ['D', '「死水」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "批判性小說係",
+    "llm_output": "D. 「傷逝」「孤獨者」「喺酒樓上」\n\n這些作品均屬於批判性小說，反映了作者對社會問題的關注和批判。例如，《傷逝》描繪了女性在社會壓力下的困境，《孤獨者》則揭示了現代社會中人性的孤獨與疏離，而《喺酒樓上》則描繪了都市生活中的種種矛盾和矛盾人物。這些作品均通過對社會現象的描繪和人物心理的剖析，展現了批判性小說的特點。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「補天」「奔月」「鑄劍」'], ['B', '「非攻」「理水」'], ['C', '「採微」「出關」「起死」'], ['D', '「傷逝」「孤獨者」「喺酒樓上」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "詩集「紅燭」嘅作者係",
+    "llm_output": "A. 聞一多",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '聞一多'], ['B', '郭沫若'], ['C', '朱湘'], ['D', '徐志摩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "被胡適認為追求「美與愛與自由」嘅「單純信仰」嘅人生觀嘅作家係",
+    "llm_output": "C. 徐志摩\n\n徐志摩被胡適認為追求「美與愛與自由」的「單純信仰」的人生觀的作家。徐志摩是20世纪初中国新文化运动的重要人物之一，他的诗歌和散文以其自由奔放、追求个人情感表达的风格而著称。他的作品反映了对美好生活、爱情和自由的向往，这与胡適所描述的“单純信仰”相契合。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '聞一多'], ['B', '沈從文'], ['C', '徐志摩'], ['D', '林語堂']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊一項唔屬於20世紀30年代發生嘅關於文藝思想嘅論爭",
+    "llm_output": "選項D「關於「文學基於普遍人性」嘅論爭」不属于20世紀30年代發生嘅關於文藝思想嘅論爭。\n\n在20世紀30年代，中國經歷了許多重要的文藝思想論爭，這些論爭主要集中在對文藝創作的自由、語言的通俗化、以及文藝與社會現實的關係等問題上。\n\n選項A「關於胡風文藝思想嘅論爭」是指對胡風（原名張愛玲）的文藝思想和創作方法的討論，這場論爭主要集中在其對文藝與社會現實關係的理解上。\n\n選項B「關於「文藝自由」嘅論爭」涉及對文藝創作自由度的探討，這場討論反映了當時文藝界對於創作自由與社會責任之間平衡的追求。\n\n選項C「關於「大眾語」嘅論爭」則是指對使用普通話（即大眾語）進行文學創作的討論，這場論爭反映了對文學普及和通俗化的追求。\n\n選項D「關於「文學基於普遍人性」嘅論爭」則是指對文學創作是否應該基於普遍人性的問題的討論。雖然這個問題在文藝理論中一直存在，但這場討論在20世紀30年代並不突出，因為當時中國文藝界更關注的是如何將文藝與社會現實結合，以及如何通過文藝來推動社會變革。\n\n因此，正確答案是D。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '關於胡風文藝思想嘅論爭'], ['B', '關於「文藝自由」嘅論爭'], ['C', '關於「大眾語」嘅論爭'], ['D', '關於「文學基於普遍人性」嘅論爭']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「棋王」嘅時代背景係",
+    "llm_output": "正確答案係C. 文化大革命時期。\n\n《棋王》是阿城所著的一部短篇小说，发表于1980年代，正处于中国文化大革命结束后的时期。这部作品通过描写主人公王一生对棋艺的执着追求，反映了当时社会背景下人们对于精神生活和文化传统的渴望。因此，《棋王》的时代背景是文化大革命时期。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '解放前'], ['B', '社會主義改造時期'], ['C', '文化大革命時期'], ['D', '改革開放時期']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "徐志摩嘅「拜獻」一詩所採用嘅最主要藝術表現手段係",
+    "llm_output": "徐志摩的《拜献》一诗主要采用的艺术表现手段是C. 託物寓情。\n\n徐志摩的《拜献》通过描绘自然景物，如“拜献”的仪式，来表达诗人内心的情感和思想。这种手法强调了诗人通过外在事物来传达内在情感，是典型的“託物寓情”。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '戲劇化'], ['B', '幽默諷刺'], ['C', '託物寓情'], ['D', '設問']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「百合花」嘅主題係",
+    "llm_output": "正確答案係 D. 軍民團結、生死與共。\n\n《百合花》是茹志鹃创作的一部短篇小说，发表于1958年。该作品通过描写一位普通战士与一位农村姑娘之间的纯真友谊，以及他们共同面对生死考验的情节，深刻地反映了军民之间的深厚情感和团结互助的精神。小说以百合花作为象征，寓意着纯洁、美好和牺牲，体现了军民之间生死与共的崇高情操。\n\n其他选项如阶級鬥爭（A）、反官僚、反貪污（B）、歌頌親情、友情（C）均不是《百合花》的主要主题。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '階級鬥爭'], ['B', '反官僚、反貪污'], ['C', '歌頌親情、友情'], ['D', '軍民團結、生死與共']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "曹禺嘅代表作「日出」係一部多幕劇，全劇共有",
+    "llm_output": "正確答案係 A. 四幕。曹禺的代表作《日出》是一部四幕话剧，叙述了上层社会的生活以及底层人民的苦难。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '四幕'], ['B', '三幕'], ['C', '六幕'], ['D', '五幕']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "路翎嘅長篇小說「財主底女們」第二部最著力描寫嘅主人公係",
+    "llm_output": "C. 蔣純祖\n\n在路翎的长篇小说《财主底女人们》中，最着力描写的核心人物是蒋纯祖。这部作品通过蒋纯祖这一角色，深入探讨了当时社会背景下女性的命运和心理变化，以及她们在追求个人价值与传统束缚之间的挣扎。蒋纯祖的形象复杂而深刻，她既是旧社会的叛逆者，也是新思想的追求者，她的故事反映了作者对于女性解放和人性探索的深刻思考。因此，正确答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '金素痕'], ['B', '蔣捷三'], ['C', '蔣純祖'], ['D', '蔣慰祖']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊一項唔屬於老舍喺英國任倫敦大學東方學院講師期間創作嘅小說",
+    "llm_output": "正確答案係 D. 「火葬」。\n\n老舍在倫敦大學東方學院任教期間創作了多部作品，包括「二馬」、「老張嘅哲學」和「趙子曰」。而「火葬」則是在他回國後，即1930年代初期，在中國創作的。因此，這部作品不属于他在英國期間的創作。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「二馬」'], ['B', '「老張嘅哲學」'], ['C', '「趙子曰」'], ['D', '「火葬」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "散文「死火」中，「死火」同「我」要掙脫嘅困境係",
+    "llm_output": "正確答案係 D. 冰谷。\n\n在鲁迅的散文《死火》中，「死火」指的是被冰冻的火焰，而「我」则是在一个冰谷中，两者都处于一种被冰封和冻结的状态。散文通过「死火」和「我」的象征意义，表达了作者对于社会现实和人性困境的深刻思考。冰谷象征着一种冷漠、封闭和绝望的环境，而「死火」则象征着被压抑和冻结的生命力或激情。两者都需要挣脱这种困境，寻找出路。因此，正确答案是 D. 冰谷。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '烈焰'], ['B', '大石車'], ['C', '火宅'], ['D', '冰谷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "聶綱弩「蛇與塔」中認為老百姓偷拆雷峯塔塔磚嘅真正本意係",
+    "llm_output": "選項B：可以避邪鎮妖。\n\n聶綱弩的《蛇與塔》中，描繪了民間傳說中雷峯塔的故事，其中提到老百姓偷拆塔磚的動機是為了避邪鎮妖。雷峯塔是中國古代傳說中用以镇压妖魔的塔，老百姓偷拆塔磚，是出于对塔砖所蕴含的神秘力量和保护作用的一种信仰。因此，選項B最符合聶綱弩在《蛇與塔》中對這個故事的描寫。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '可以賞玩賣錢'], ['B', '可以避邪鎮妖'], ['C', '要塔倒掉'], ['D', '用嚟造牆']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "出自辛笛詩歌「航」，體現咗觀代派濤「思想知覺化」嘅藝術觀，把對生命嘅抽象感知轉化為可視可感嘅審美空間嘅詩句係",
+    "llm_output": "正確答案係 B。\n\n辛笛的詩歌「航」中，體現了現代派詩人「思想知覺化」的藝術觀，即將抽象的思想和感受轉化為具體可感知的藝術形象。選項 B 中的詩句「從日到夜／從夜到日／我哋航唔出呢個圓圈／後一個圓／前一個圓／一個永恆／而無涯溺嘅圓圈」恰當地描繪了這種思想，通過對時間循環和無限航行的描述，展現了對生命和存在的深邃思考。\n\n選項 A、C 和 D 均非辛笛的詩歌「航」中的句子，因此不符合問題要求。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「升咗呀月鉤，／明咗呀織女牽牛；／薄霧呀拂水，／涼風呀飄去蓮舟。」'], ['B', '「從日到夜／從夜到日／我哋航唔出呢個圓圈／後一個圓／前一個圓／一個永恆／而無涯溺嘅圓圈」'], ['C', '「點解我嘅眼常含淚水?／因為我對呢片土地愛得深沉……」'], ['D', '「軟泥上嘅青荇，／油油喺水底招搖；／喺康河嘅柔波度，／我甘心做一條水草!」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "葉紹欽嘅長篇小說係",
+    "llm_output": "正確答案係C。「倪煥之」係葉紹欽嘅長篇小說。其他選項「校長」、「稻草人」和「夜」分別係其他作家嘅作品。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「校長」'], ['B', '「稻草人」'], ['C', '「倪煥之」'], ['D', '「夜」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面文章中，喺順敘之中又時時運用咗插敘同倒敘手法嘅係",
+    "llm_output": "D. 「百合花」\n\n「百合花」这篇小说在叙述上确实运用了插叙和倒叙的手法。作者在叙述主要故事的同时，穿插回忆和倒叙，以丰富故事的层次和人物形象，增强叙述的深度和情感的表达。这种手法使得读者在跟随故事发展的同时，也能了解到更多关于人物背景和事件前因后果的信息，从而更全面地理解故事的主题和人物性格。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「少女小漁」'], ['B', '「組織部嚟咗個年輕人」'], ['C', '「鞋」'], ['D', '「百合花」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "七月派詩人冀汸嘅詩「我」嘅創作年代為",
+    "llm_output": "冀汸，原名冀少雄，是中国现代著名诗人，七月派诗人的代表人物之一。七月派是20世纪30年代至40年代在中国左翼文学运动中形成的一个诗歌流派，以艾青、田间、冀汸等为代表。冀汸的诗作主要集中在20世纪40年代，这一时期正是七月派诗歌创作的高峰期。\n\n因此，冀汸的诗作「我」的创作年代为20世纪40年代。\n\n正确答案是：C. 20世紀40年代。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '20世紀90年代'], ['B', '20世紀80年代'], ['C', '20世紀40年代'], ['D', '20世紀20年代']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「魯魯」中刻畫小狗魯魯形象嘅主要手法係",
+    "llm_output": "選項B「擬人」是正確答案。\n\n在《魯魯》這部作品中，作者通過將小狗魯魯賦予人類的特點和情感，來刻畫其形象。這種手法在文學中稱為「擬人」，即將無生命或非人類的生物賦予人類的特質，使之看起來像是有情感和意志的存在。通過這種方式，作者能夠更深刻地表達小狗魯魯的內心世界和與人之間的情感聯繫。\n\n選項A「暗示」通常指的是通過含蓄的語言或行為來表達某種含義，而非直接描繪小狗的形象。\n選項C「比喻」是指通過將一事物與另一事物進行比較來表達某種意義，但這不是《魯魯》中刻畫小狗形象的主要手法。\n選項D「誇張」是指在描述中過度強調某種特點或情節，以達到強烈的藝術效果，這同樣不是《魯魯》中刻畫小狗形象的主要手法。\n\n因此，最符合問題描述的答案是B「擬人」。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '暗示'], ['B', '擬人'], ['C', '比喻'], ['D', '誇張']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「組織部嚟咗個年輕人」中劉世吾嘅口頭禪「就係咁回事」，表現咗佢",
+    "llm_output": "選項C：「睇透一切、極端冷漠、不思進取嘅人生命態度」是正確答案。\n\n在句子「組織部嚟咗個年輕人」中，劉世吾的口頭禪「就係咁回事」反映了他對周圍事物的一種超然和漠不關心的態度。這句話顯示出他對生活和工作中的各種挑戰和困難看得很淡，對一切似乎都已經失去了興趣和激情，這是一種極端冷漠和不思進取的生活態度。\n\n選項A、B和D都未能準確捕捉到劉世吾的這種心態。A選項的「懦弱無能、不思進取」強調了性格上的弱點，而B選項的「具有好強嘅工作能力」則與他冷漠的態度相悖。D選項的「唔怕困難嘅勇氣」則與他的冷漠態度相反，因為勇氣通常與積極進取相聯繫。\n\n因此，最符合句子中劉世吾口頭禪所表達意義的選項是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '懦弱無能、不思進取嘅性格'], ['B', '具有好強嘅工作能力'], ['C', '睇透一切、極端冷漠、不思進取嘅人生命態度'], ['D', '唔怕困難嘅勇氣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「草木篇」中「白楊」嘅象徵寓意為",
+    "llm_output": "選項B：「蓬勃向上嘅精神」是正確答案。\n\n在中國文學中，白楊常常被用來象徵堅強和不屈不撓的精神。白楊樹能夠在各種環境中生長，並且其樹枝直挺，不彎不曲，象徵著堅定和不屈的品格。雖然白楊也可能象徵著孤獨或寂寥（選項A），但更常見的象徵意義是堅強和向上（選項B）。\n\n選項C「頑強嘅生命力」和選項D「剛直孤傲嘅品性」雖然也與白楊的某些特點相關，但不如選項B那樣直接和準確地捕捉到白楊的象徵寓意。因此，最符合「草木篇」中「白楊」象徵寓意的是選項B。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '寂寥孤獨嘅情緒'], ['B', '蓬勃向上嘅精神'], ['C', '頑強嘅生命力'], ['D', '剛直孤傲嘅品性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「春蠶」反映嘅時代背景係",
+    "llm_output": "正確答案係A。\n\n小說「春蠶」是鲁迅的作品，描繪了20世紀30年代江南農村經濟凋敝的現實。該作品通過對一個普通農民家庭的生活描繪，揭示了當時農民的困苦生活以及社會的不公。其他選項描述的時代背景或地域與「春蠶」所反映的內容不相符。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '20世紀30年代江南農村經濟凋敝嘅現實'], ['B', '20世紀20年代湘西農村封閉嘅生活場景'], ['C', '20世紀20年代江浙軍閥戰亂引起嘅社會動盪'], ['D', '20世紀30年代上海民族資本家慘淡經營嘅狀態']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "散文「廬山面目」中的「濟公活佛」係指",
+    "llm_output": "選項C是正確答案。在散文「廬山面目」中，作者描繪了自己在遊覽廬山時遇到的一位「湖州客」，這位「湖州客」給作者留下了深刻的印象，並且在作者心中留下了「濟公活佛」的形象。這位「湖州客」的形象象徵著作者對人性、自由和超脫的追求，因此選項C是正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「我」喺山上見到嘅一座雕像'], ['B', '「我」喺遊覽時遇到嘅一位大學教授'], ['C', '「我」喺遊覽時遇到嘅一位「湖州客」'], ['D', '「我」喺輪船上遇到嘅一位乘客']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "詩歌「死水」全詩五節，每節四句，每句九字，呢種形式體現咗新格律詩「三美」主張中嘅",
+    "llm_output": "正確答案：B. 建築嘅美\n\n解釋：\n新格律詩「三美」主張包括音樂的美、建築的美和繪畫的美。其中，「建築的美」指的是詩歌的結構形式，包括韻律、節奏和對仗等，這些元素共同構建了詩歌的整體框架，就像建築的結構一样。\n\n在徐志摩的詩歌「死水」中，全詩五節，每節四句，每句九字，這種嚴格的格式和對稱性體現了「建築的美」。這種形式上的對稱和整齊，使得詩歌在閱讀時具有視覺上的美感，恰如建築的結構一般，因此選項B是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '音樂嘅美'], ['B', '建築嘅美'], ['C', '繪畫嘅美'], ['D', '雕塑嘅美']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「少女小漁」一文，係圍繞下面邊個事件展開嘅。",
+    "llm_output": "選項A：「假結婚」。\n\n《少女小漁》是王安憶的短篇小說，描繪了一個年輕女子小漁在海外求學期間，因應經濟壓力，與一男子假结婚以取得居留權，並逐漸陷入真愛的故事。故此，選項A「假結婚」是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「假結婚」'], ['B', '出國留學'], ['C', '「假戀愛」'], ['D', '國外生存']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「喺一定嘅環境度，先可以發揮呢種極致」；「各種事物都有佢嘅極致」。呢兩句出自",
+    "llm_output": "C. 「黃鸝——病期瑣事」\n\n這兩句話出自於中國作家張愛玲的作品《黃鸝——病期瑣事》。這部作品描繪了作者在病榻上對生命、疾病和愛的深刻思考，並表達了對極致美學的追求。張愛玲以其獨特的文學風格和對人性的深刻洞察而聞名，這兩句話正是她對極致之美的哲理性思考的體現。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「秦腔」'], ['B', '「聽聽嗰冷雨」'], ['C', '「黃鸝——病期瑣事」'], ['D', '「懷念蕭珊」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面作品集中，屬於餘秋雨創作嘅散文集係",
+    "llm_output": "正確答案係 B. 「文化苦旅」。\n\n餘秋雨，中國著名散文家、文化評論家，其作品以深度剖析中國歷史文化著稱。「文化苦旅」是餘秋雨的代表作品之一，該作品集收录了作者對中國歷史、文化以及社會的深刻思考和獨到見解，深受讀者喜愛。其他選項如「朗潤集」、「哈拉沙爾隨筆」和「山地筆記」均非餘秋雨的著作。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「朗潤集」'], ['B', '「文化苦旅」'], ['C', '「哈拉沙爾隨筆」'], ['D', '「山地筆記」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "麗尼嘅散文「鷹之歌」嘅主題係",
+    "llm_output": "選項C是正確答案。麗尼的散文「鷹之歌」主要表達的是對童年無憂無慮生活的懷念和留戀。這篇散文通過對鷹的描繪，引發對過去美好時光的回憶，並流露出對那段純真年代的珍視。其他選項描述的內容並不準確反映「鷹之歌」的主題。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '抒發咗對嘹唳而清脆嘅鷹歌嘅懷念同思念之情'], ['B', '抒發咗對被殘酷殺害嘅女友嘅懷念同崇敬之情'], ['C', '抒發咗對幼年時代無憂生活嘅懷念同留戀之情'], ['D', '抒發咗對美麗嘅南方黃昏嘅讚美同思鄉之情']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「哎，大森林」所表達嘅作者情感態度係",
+    "llm_output": "選項B「憂患激憤」是正確答案。\n\n《哎，大森林》是中國作家沈从文的作品，描繪了湘西地區風土人情，以及對社會變遷的深刻思考。作品中的「哎」字，流露出作者對大森林及其所代表自然環境的惋惜和對人類活動帶來的破壞的憤慨。因此，作品表達的情感態度是憂患激憤，即對自然環境的破壞表示出深深的憂慮和憤怒。其他選項如歡欣雀躍、驚異讚歎和幸災樂禍均不符合作品的主題和情感基調。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '歡欣雀躍'], ['B', '憂患激憤'], ['C', '驚異讚歎'], ['D', '幸災樂禍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀30年代報告文學興盛嘅原因唔包括",
+    "llm_output": "選項B \"係由當時嘅經濟狀況決定嘅\" 不是20世紀30年代報告文學興盛的原因。報告文學在這個時期興盛的主要原因是多方面的，包括深刻的社会原因（選項A）、報告文學的文体特点（選項C），以及「左聯」的提倡（選項D）。這些因素共同作用，促進了報告文學的發展和興盛。而經濟狀況固然對文學創作有影響，但報告文學的興起更多是與社會政治事件、思想潮流以及文學運動的推動相關，而非單純由經濟狀況決定。因此，正確答案是選項B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '深刻嘅社會原因'], ['B', '係由當時嘅經濟狀況決定嘅'], ['C', '係由報告文學嘅文體特點決定嘅'], ['D', '「左聯」嘅提倡']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "王一生係下面邊部作品嘅主人公",
+    "llm_output": "正確答案係A。「棋王」係阿城所著嘅一部短篇小說，描繪咗一個愛棋如命嘅年輕人王一生嘅故事。其他選項B「遊園驚夢」、C「組織部嚟咗個年輕人」、D「漏斗戶主」均非以王一生為主人公嘅作品。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「棋王」'], ['B', '「遊園驚夢」'], ['C', '「組織部嚟咗個年輕人」'], ['D', '「漏斗戶主」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "巴金嘅「懷念蕭珊」一文，出自佢嘅散文集",
+    "llm_output": "正確答案係 A. 「隨想錄」。巴金嘅「懷念蕭珊」一文，出自佢嘅散文集「隨想錄」。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「隨想錄」'], ['B', '「英雄嘅故事」'], ['C', '「再思錄」'], ['D', '「新聲集」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "被葉聖陶讚譽為「替新詩嘅音節開咗一個新嘅紀元」嘅現代詩人係",
+    "llm_output": "正確答案係 A. 戴望舒。\n\n戴望舒被譽為「替新詩嘅音節開咗一個新嘅紀元」，他的詩作以音節和韻律的創新著稱，對中國新詩的發展產生了深遠的影響。他的代表作包括《雨巷》等，這些作品不僅在形式上進行了創新，而且在表達情感上也充滿了深度和美感。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '戴望舒'], ['B', '徐志摩'], ['C', '郭沫若'], ['D', '何其芳']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面對香雪換取鉛筆盒後暗夜獨行嘅心理刻畫講法正確嘅係",
+    "llm_output": "C. 既有興奮，亦有恐懼\n\n香雪在《哦，香雪》这篇短篇小说中，通过换得一个铅笔盒，象征性地获得了知识与现代文明的标志。换得铅笔盒的瞬间，她感到无比的兴奋和自豪，因为这对她来说是一个巨大的进步。然而，这种兴奋感并未持续太久，随着夜幕的降临，她独自一人走在回家的路上，心中开始涌起恐惧。她害怕黑暗，害怕未知的危险，害怕自己无法安全回家。\n\n香雪的内心世界是复杂而细腻的，她既体验到了获得新事物的喜悦，也感受到了随之而来的不安和恐惧。这种心理的矛盾和冲突，正是香雪形象的丰富性和立体性的体现。因此，选项C“既有興奮，亦有恐懼”是对香雪心理刻畫講法正確的選項。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '只有興奮，冇恐懼'], ['B', '既無興奮，亦無恐懼'], ['C', '既有興奮，亦有恐懼'], ['D', '冇興奮，只有恐懼']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「與李賀共飲」一詩嘅主要結構方式係",
+    "llm_output": "選項C「先總後分」是正確答案。\n\n李賀的《與李賀共飲》是一首七言絕句，其結構通常遵循先總結後分述的模式。這種結構方式先給出一個總體的概念或情境，然後再細分或說明具體細節。李賀的這首詩通常會先描繪一個場景或情緒，接著再深入描繪人物或事件。\n\n例如，李賀的《金剛經》中，先總結了「金剛經」的意義，然後再細分地描繪了經文中的故事和哲理。\n\n因此，選項C「先總後分」是描述「與李賀共飲」一詩主要結構方式的準確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '遞進'], ['B', '對比'], ['C', '先總後分'], ['D', '先分後總']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊一項唔係周作人嘅散文集",
+    "llm_output": "正確答案係 D. 「談虎集」。\n\n周作人，原名周树人，是中国现代著名的散文家、翻译家、思想家。他的散文集包括「谈龙集」、「谈虎集」、「雨天的书」等。其中「谈虎集」和「谈龙集」是他著名的散文集，而「雨天的书」也是他的一部散文集。\n\n然而，「猛虎集」并非周作人的散文集，而是另一位中国现代文学家鲁迅的散文集。鲁迅，原名周树人，是周作人的弟弟，也是中国现代文学的重要人物之一。鲁迅的散文集「猛虎集」收录了他的一些散文作品，但并非周作人的作品。\n\n因此，选项 D. 「談虎集」不是周作人的散文集，是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「談龍集」'], ['B', '「猛虎集」'], ['C', '「雨天嘅書」'], ['D', '「談虎集」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "何其芳嘅散文「雨前」寫於",
+    "llm_output": "何其芳的散文《雨前》是在20世纪40年代初的延安写成的。因此，正确答案是D。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '20世紀30年代末嘅上海'], ['B', '20世紀40年代末嘅重慶'], ['C', '20世紀30年代初嘅北京'], ['D', '20世紀40年代初嘅延安']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "報告文學「包身工」把包身工嘅生活濃縮為一日中嘅三個場景，佢哋係",
+    "llm_output": "正確答案係 A. 起牀、上工、下工。\n\n報告文學《包身工》由夏衍所著，描繪了20世紀30年代中國上海的包身工生活。該作品通過一日之內三個主要場景——起牀、上工、下工，來展示包身工的艱苦生活。起牀描繪了包身工一天的開始，上工則描繪了他們在工廠中的辛勞，下工則描繪了他們結束一天工作後的疲憊。這些場景集中展示了包身工的生存狀況，揭示了當時社會的不公和勞工的苦難。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '起牀、上工、下工'], ['B', '上工、午餐、下工'], ['C', '早餐、上工、下工'], ['D', '起牀、早餐、上工']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "魯迅嘅作品中唔屬於農民題材嘅係",
+    "llm_output": "正確答案係 C.「明天」。\n\n解析：\nA.「祝福」描繪了農民在新年期間的慶祝活動，以及他們對生活的祈禱和祝福，屬於農民題材。\nB.「白光」描繪了一個貧困的農民家庭，以及他們對美好生活的渴望，屬於農民題材。\nC.「明天」描繪了一個城市的小學教師，以及她對未來的憧憬和對現實的不滿，屬於城市小資階層的題材，不属于農民題材。\nD.「離婚」描繪了一個農民家庭因經濟困難而面臨的離婚問題，屬於農民題材。\n\n因此，不属于農民題材的是 C.「明天」。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「祝福」'], ['B', '「白光」'], ['C', '「明天」'], ['D', '「離婚」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面以「損不足以奉有餘」為作品主題嘅戲劇係",
+    "llm_output": "C. 「升官圖」\n\n這部戲劇的主題是描繪了社會中存在的不平等和腐敗，以及如何通過不正当手段來升遷和獲取權力。而「損不足以奉有餘」則是指利用弱者的困難來滋養那些已經擁有資源的人，這與「升官圖」中描繪的權力運用和社會現象相符。其他選項如「日出」、「雷雨」和「屈原」，它們的主題和「損不足以奉有餘」並不吻合。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「日出」'], ['B', '「雷雨」'], ['C', '「升官圖」'], ['D', '「屈原」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "朱自清曾對一位詩人嘅作品作出咁嘅評價：「呢唔係「惡之花」嘅讚頌，而係索性畀「醜惡」早啲惡貫滿盈，「絕望」入面先有希望」。佢所評價嘅呢位詩人係",
+    "llm_output": "朱自清對艾青的評價：「呢唔係「惡之花」嘅讚頌，而係索性畀「醜惡」早啲惡貫滿盈，「絕望」入面先有希望」。\n\n正確答案：B. 艾青",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '徐志摩'], ['B', '艾青'], ['C', '聞一多'], ['D', '臧克家']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「組織部嚟咗個年輕人」中，對林震嘅形象分析唔正確嘅一項係",
+    "llm_output": "選項D中對林震形象的分析是不正確的。在老舍的《组织部新来的年轻人》中，林震被描繪為一個理想主義、有熱情但缺乏經驗的年輕干部。他確實對舊觀念和舊事物抱有質疑和批判的態度，並且有原則性和正義感。然而，他並不是一個有豐富革命經歷的領導者，而是剛剛踏入社會的年輕人。\n\n選項A說明了林震在面對複雜現象時感到困惑和徬徨，這符合他年輕且缺乏經驗的特點。選項B描述了他對社會的熱情和批判性，這也是對他性格的準確描繪。選項C則總結了林震的理想主義和革命精神，這也是對他形象的準確描述。\n\n因此，正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '面對現實生活中嘅種種複雜現象，佢感到過困惑、徬徨，並唔係一個成熟嘅革命者。'], ['B', '佢滿懷熱情咁踏入社會，對舊觀念、舊事物抱住質疑、批判嘅態度，唔畀陳規陋習所束縛。'], ['C', '林震係一個有理想、有朝氣、富於原則性同正義感嘅青年黨員幹部。'], ['D', '佢有一定嘅革命經歷，有能力、有魄力，識得「領導藝術」，知道點樣去抓重點，「下決心」就可以把工作做得好出色。但係卻唔主動去抓工作。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "王仲昭呢個人物形象出自於茅盾嘅邊一部作品",
+    "llm_output": "王仲昭這个人物形象出自於茅盾的《子夜》。因此，正確答案是C。《子夜》是茅盾創作的長篇小說，描繪了1930年代中國城市中的社會生活，尤其是資本家與工人之間的矛盾。王仲昭在該作品中作為一個資本家形象出現，是小說中重要的角色之一。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「追求」'], ['B', '「幻滅」'], ['C', '「子夜」'], ['D', '「動搖」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「記波外翁」中有兩句輓詩：「門生搔白首，旦夕骨成灰」。其中「門生」係指",
+    "llm_output": "選項A「臺靜農」是正確答案。\n\n這兩句輓詩出自中國著名作家臺靜農的作品《記波外翁》。在該作品中，臺靜農以悼念其老師、著名學者波外翁為背景，表達了對老師的深厚情感和對生命无常的感慨。\n\n波外翁，即許壽裳，是臺靜農的恩師，也是中國近代史上一位重要的文化人物。許壽裳在文學、哲學、教育等多方面都有著卓越的貢獻，對臺靜農的文學創作產生了深遠的影響。\n\n因此，選項A「臺靜農」是「門生」的指代，即波外翁的學生，也就是許壽裳。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '臺靜農'], ['B', '喬大壯'], ['C', '許壽裳'], ['D', '魏建功']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「喺其香居茶館入面」中，邢幺吵吵與方治國爭吵鬧交暴露出嚟嘅主要社會問題係",
+    "llm_output": "選項B：宗法制度嘅不合理。\n\n在老舍的短篇小說《在其香居茶館入面》中，邢幺吵吵與方治國之間的爭吵，主要體現了當時社會中宗法制度的不合理性。這部作品描繪了中國傳統社會中宗法制度對個人自由和社會秩序的限制，以及這種制度下人際關係的緊張和矛盾。老舍通過這部作品批判了當時社會的腐敗和落後，並對宗法制度提出了質疑。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '賦稅制嘅腐敗'], ['B', '宗法制度嘅不合理'], ['C', '兵役制嘅腐敗'], ['D', '婚姻制度嘅不合理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「百合花」圍繞嘅係下面邊一事件展開嘅。",
+    "llm_output": "正確答案係D. 被子事件。\n\n《百合花》是茹志鹃創作的一個短篇小說，描繪了中國人民解放戰爭時期，一個普通農村女青年與一個剛剛參加革命的年輕士兵之間純潔而真摯的友誼。小說中，女青年借給士兵一床百合花被子，這件小事成為了全篇的情感核心，象徵著人性中最純潔、最真挚的情感。\n\n其他選項描述的事件，如擔架事件、傷員事件、饅頭事件，均不是《百合花》的主題。因此，最符合問題描述的事件是被子事件。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '擔架事件'], ['B', '傷員事件'], ['C', '饅頭事件'], ['D', '被子事件']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "關於「空嘅窗」嘅內容表述錯誤嘅係",
+    "llm_output": "選項C是錯誤的。在《空窗》这部小说中，退休老人并不是故事的叙述者，而是故事中的一个角色。小说主要通过第一人称的叙述方式，以“我”的视角来展开故事，讲述“我”与退休老人的相遇和互动。\n\n其他选项描述的内容是准确的：\nA. 小说确实运用了细腻的心理描写，包括大量的内心独白。\nB. 小说确实有明暗两条线索，一条是“我”的故事，另一条是退休老人的故事，它们相互映衬，构成对话关系。\nD. 小说确实采用了第一人称的叙述方式。\n\n因此，正确答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '小說大量運用細膩嘅心理描寫，包括大量嘅內心獨白。'], ['B', '小說有一明一暗兩條線索，一條係「我」嘅故事，一條係退休老人嘅故事，相互映襯，構成對話關係。'], ['C', '退休老人一直潛伏喺故事入面，係呢個故事嘅敘述者。'], ['D', '小說採取第一人稱敘述嘅方式展開。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面小說中明顯具有散文化特點嘅係",
+    "llm_output": "A. 「受戒」\n\n「受戒」是汪君攸所著的一部短篇小说，以其散文化的特点而著称。小说通过细腻的笔触描绘了主人公的内心世界和周围的环境，具有浓厚的抒情色彩和诗意。与其它选项相比，「受戒」更贴近散文化的定义，即注重情感的抒发和氛围的营造，而非紧凑的情节推进和人物冲突。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「受戒」'], ['B', '「三里灣」'], ['C', '「陶淵明寫輓歌」'], ['D', '「組織部嚟咗個年輕人」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "老舍創作嘅科幻形式嘅小說係",
+    "llm_output": "正確答案係B。老舍創作嘅科幻形式嘅小說係「貓城記」。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「趙子曰」'], ['B', '「貓城記」'], ['C', '「小坡嘅生日」'], ['D', '「離婚」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「撿麥穗」中對「我」特別錫嘅老人係",
+    "llm_output": "選項B：「賣竈糖嘅」是正確答案。\n\n在老舍的短篇小說《捡麦穗》中，「我」指的是故事中的小女孩，她對一位卖糖葫芦的老人特别亲切。小说通过小女孩的视角，描绘了那个年代的社会风貌和人与人之间的温情。卖糖葫芦的老人因为小女孩的纯真和善良，对她特别照顾，体现了人与人之间朴素而真挚的情感。因此，正确答案是B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '賣針線嘅'], ['B', '賣竈糖嘅'], ['C', '睇瓜園嘅'], ['D', '賣米酒嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "對「喜宴」一文，「天陰凍得好緊」一句，理解正確嘅係",
+    "llm_output": "正確答案係 B。\n\n「天陰凍得好緊」一句，運用了反襯的手法。雖然描繪了天氣的陰凍，但實際上是在強調婚宴上知青之間熱情相待的場景。這句話通過對天氣的描述，突顯了人們在困難環境中依然能夠保持的熱情和團結，形成了鮮明對比，進一步強調了文章的主題。\n\n選項 A 描述的是環境描寫，但沒有強調反襯手法；選項 C 和 D 則偏向於描繪一種冷漠或無聊的氛圍，與原文的熱情相待相悖。因此，B 選項是對「喜宴」一文中「天陰凍得好緊」一句理解正確的選項。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '出色嘅環境描寫，表現咗喺陰凍嘅天氣下，人哋互相支持，互相慰藉嘅主題。'], ['B', '運用咗反襯嘅手法，雖然天氣陰凍，但係婚宴上，知青之間熱情相待。'], ['C', '係暗示亦係描寫現實，營造出漫唔經心嘅氣氛，畀人一種無聊嘅趣味同冷漠嘅感受。'], ['D', '僅僅係暗示，暗示咗雖然係「喜宴」，但係並唔熱鬧，人與人之間好冷漠。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「青春之歌」中，最初引導林道靜走上革命道路嘅共產黨員係",
+    "llm_output": "C. 盧嘉川\n\n在杨沫的《青春之歌》中，最初引导林道静走上革命道路的共产党员是卢嘉川。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '許寧'], ['B', '羅大方'], ['C', '盧嘉川'], ['D', '江華']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "魯迅「野草」中的散文最初陸續發表喺邊個刊物上",
+    "llm_output": "B. 「晨報副刊」\n\n鲁迅的散文集《野草》最初是陆续发表在《晨报副刊》上的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「莽原」'], ['B', '「晨報副刊」'], ['C', '「語絲」'], ['D', '「新青年」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面以場景展示為主要結構方式嘅小說係",
+    "llm_output": "選項A「春桃」是正確答案。\n\n《春桃》是沈從文所著的一部小說，其結構以場景展示為主，通過對特定場景的描繪來推動故事情節和人物發展。沈從文以其獨特的筆觸描繪了湘西風土人情，並通過場景的描繪來呈現人物內心的變化和社會背景。\n\n選項B「狂人日記」是魯迅的短篇小說，其結構以第一人稱的日記形式呈現，通過狂人的視角來揭示社會的黑暗面。\n\n選項C「拜堂」是張愛玲的短篇小說，其結構以對家庭生活細節的描繪為主，通過對家庭成員間的互動來展現人物性格和社會背景。\n\n選項D「桃園」是林海音的短篇小說，其結構以對家庭和社會變遷的描繪為主，通過對家庭成員間的關係變化來呈現時代背景。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「春桃」'], ['B', '「狂人日記」'], ['C', '「拜堂」'], ['D', '「桃園」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "餘秋雨喺「夜航船」一文中，引咗幾位現代文學大師嘅文字，佢哋係",
+    "llm_output": "正確答案係D。在餘秋雨的《夜航船》一文中，他引用了三位現代文學大師的文字，分別是魯迅、周作人、豐子愷。這三位作家均為中國現代文學的重要人物，對中國文學發展作出了顯著貢獻。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '魯迅、胡適、葉聖陶'], ['B', '魯迅、蔡元培、鬱達夫'], ['C', '魯迅、朱自清、俞平伯'], ['D', '魯迅、周作人、豐子愷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「鄉土詩人」指嘅係",
+    "llm_output": "正確答案係 D. 艾青。\n\n艾青，原名蒋正涵，是中国现代著名的乡土诗人之一。他的诗歌作品深深植根于中国农村的土壤之中，反映出农民的生活状态和情感世界。艾青的诗歌语言朴实无华，情感真挚，具有很强的现实主义色彩，因此他被誉为“乡土诗人”。\n\n其他选项中的何其芳、田间和臧克家虽然也是中国现代文学中的重要诗人，但他们并不以“乡土诗人”著称。何其芳以抒情诗见长，田间和臧克家则分别以诗歌和散文闻名，他们的作品风格和主题各有侧重，并不专指乡土文学。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '何其芳'], ['B', '田間'], ['C', '臧克家'], ['D', '艾青']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「狂人日記」採用嘅創作方法係",
+    "llm_output": "選項A「現代主義與象徵主義相結合」是正確答案。\n\n《狂人日記》是中國現代文學的奠基之作，由魯迅於1918年發表。這部作品採用了現代主義的創作手法，其中包含了象徵主義的元素。作品通過狂人的眼睛，揭示了社會的病態和人性的扭曲，這符合現代主義對傳統價值觀的質疑和解構。同時，作品中的象徵和隱喻，如對封建禮教的象徵性批判，則體現了象徵主義的特點。\n\n因此，《狂人日記》的創作方法最恰當地描述為現代主義與象徵主義相結合。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '現代主義與象徵主義相結合'], ['B', '現實主義與浪漫主義相結合'], ['C', '現實主義與象徵主義相結合'], ['D', '現實主義與現代主義相結合']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「哦，香雪」中，列車上嗰個白白淨淨嘅年輕乘務員最有可能係",
+    "llm_output": "選項A「北京人」最有可能。\n\n在铁凝的短篇小说《哦，香雪》中，作者通过描述列车员的形象，暗示了其可能来自大城市，尤其是北京。北京作为中国的首都，通常与“白白净净”的形象联系在一起，这与小说中对列车员的描述相吻合。此外，北京作为中国的文化中心，其居民往往拥有较高的文化素养和气质，这也与小说中对列车员形象的描述相符合。\n\n上海、天津和山西虽然也是中国的重要城市，但与北京相比，它们在小说中的形象并不突出，也没有北京那样的文化象征意义。因此，根据小说的描述和背景，最有可能的答案是A「北京人」。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '北京人'], ['B', '上海人'], ['C', '天津人'], ['D', '山西人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面屬於許地山嘅散文集係",
+    "llm_output": "正確答案係 A. 「空山靈雨」。\n\n許地山，原名許崇德，是20世紀初期中國著名的散文家、小說家、翻譯家及教育家。他的散文集「空山靈雨」是許地山最具代表性的作品之一，其中充滿了對自然、人生哲理的深刻思考和抒發。\n\n其他選項：\nB. 「綴網勞蛛」是許地山的一部小說集，描繪了社會底層人物的生活和心境。\nC. 「地之子」是許地山的一部短篇小說集，描繪了農村生活的真實面貌。\nD. 「囚綠記」是許地山的一部散文集，描繪了作者對自然和人生的感悟。\n\n因此，A選項「空山靈雨」是許地山的散文集。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「空山靈雨」'], ['B', '「綴網勞蛛」'], ['C', '「地之子」'], ['D', '「囚綠記」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "丁西林嘅第一部獨幕喜劇係",
+    "llm_output": "正確答案係D。丁西林嘅第一部獨幕喜劇係「一隻馬蜂」。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「壓迫」'], ['B', '「兵變」'], ['C', '「終身大事」'], ['D', '「一隻馬蜂」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「將軍族」講述咗",
+    "llm_output": "正確答案係C。小說「將軍族」講述咗一對國民黨將軍夫婦嘅殉情故事。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一對知識分子夫婦嘅殉情故事'], ['B', '一對小人物嘅殉情故事'], ['C', '一對國民黨將軍夫婦嘅殉情故事'], ['D', '一對歌星嘅殉情故事']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "喺小說「哦，香雪」中，質樸美嘅化身係",
+    "llm_output": "D. 香雪\n\n在铁凝的小说《哦，香雪》中，香雪被描绘为质朴美的化身。她代表了纯净、自然和未经污染的乡村生活，与城市文明的冲击形成鲜明对比。香雪的形象体现了作者对于传统与现代、自然与工业化之间的冲突的深刻思考。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '鳳嬌'], ['B', '礦冶學院嘅學生'], ['C', '「北京話」'], ['D', '香雪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "出自「雙桅船」一詩嘅一組意象係",
+    "llm_output": "正確答案係 B. 船、岸、燈、月。\n\n這首詩名為「雙桅船」，由中國現代詩人舒婷所寫。詩中運用了船、岸、燈、月這幾個意象來表達詩人對愛情的追求和對未來的不確定感。船象徵著詩人自己，岸象徵著愛人，燈象徵著希望，月則象徵著理想。這些意象共同構成了一幅充滿象徵和情感的圖畫，表達了詩人對愛情的渴望和對未來美好生活的期待。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '船、岸、風暴、月'], ['B', '船、岸、燈、月'], ['C', '船、岸、風暴、燈'], ['D', '船、岸、霧、浪']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "關於「遊園驚夢」，下面表述錯誤嘅係",
+    "llm_output": "選項D表述錯誤。「遊園驚夢」是白先勇創作的一部短篇小說，描繪了1949年從大陸撤離到臺灣的国民党上层人士的生活际遇、心理反应及其在七八十年代的台湾现实。然而，選項D中提到的“七八十年代”的台湾现实并非小说的主要内容，而是小说中人物所处的时代背景。小说主要聚焦于蓝田玉的内心世界和她的悲剧命运，通过细腻的心理描写和象征、暗示等手法，展现了其性格和小说的悲剧主题。\n\n選項A、B和C都是對「遊園驚夢」正確的描述。A選項中提到的性格化對白、象徵與暗示等手法，確實加強了小說的藝術效果，突顯了人物性格和悲劇主題。B選項中提到的細膩心理描寫同意識流手法，正確地指出了小說在刻畫藍田玉內心活動時所運用的技巧。C選項中提到的小說融合了中國傳統小說與西方現代主義小說藝術手法，也是對「遊園驚夢」特點的準確描述。\n\n因此，正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '性格化嘅對白、象徵與暗示等手法，加強咗藝術效果，突顯咗人物性格同悲劇主題。'], ['B', '小說用細膩嘅心理描寫同意識流手法刻畫藍田玉嘅內心活動。'], ['C', '小說熔中國傳統小說與西方現代主義小說藝術手法於一爐。'], ['D', '小說寫嘅係1949年從大陸撤離到臺灣嘅國民黨上流社會人士嘅生活際遇、心理反應及其七八十年代嘅臺灣現實。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "鳴鳳呢個人物形象出自於下面邊一部作品",
+    "llm_output": "正確答案：A. 「家」\n\n《家》是巴金先生的代表作之一，描繪了20世纪初中國一個大家庭的變遷，其中人物形象豐富，包括主人公觉慧和他所愛的鸣凤。鸣凤是作品中的重要女性角色，她勇敢追求自由和爱情，最终为了爱情而牺牲。其他选项B《寒夜》、C《第四病室》和D《电》都是巴金的其他作品，与鸣凤这一人物形象无关。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「家」'], ['B', '「寒夜」'], ['C', '「第四病室」'], ['D', '「電」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "喺20世紀20年代積極提倡「寫實嘅社會劇」同「愛美劇」嘅戲劇團體係",
+    "llm_output": "正確答案係D. 南國社。\n\n南國社成立于1927年，由田汉、欧阳予倩、洪深等戏剧家发起，他们主张戏剧要反映社会现实，强调戏剧的社会功能，并提倡写实主义和浪漫主义相结合的创作方法。南國社的成立标志着中国现代戏剧的成熟，对中国现代戏剧的发展产生了深远的影响。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '民眾戲劇社'], ['B', '春柳社'], ['C', '辛酉社'], ['D', '南國社']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "1931年9月編造「新月詩選」並為其作序嘅係",
+    "llm_output": "正確答案係 D. 徐志摩。\n\n徐志摩是中國現代文學史上一位重要的詩人，他在1931年編造了《新月詩選》並為其撰寫了序。《新月詩選》是一本重要的現代詩選集，它集中了當時新詩運動中的重要作品，對中國新詩的發展產生了深遠的影響。徐志摩本人也是新詩運動的先驅之一，他的作品充滿了浪漫主義色彩，對後世文學創作產生了重要影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '何其芳'], ['B', '梁實秋'], ['C', '陳夢家'], ['D', '徐志摩']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「慕尼黑」表達咗詩人",
+    "llm_output": "選項B「對人類同世界命運嘅深切關注」是正確答案。\n\n「慕尼黑」是中國現代詩人艾青的詩作，這首詩表達了詩人對人類命運的深刻思考和關注。艾青的詩作經常探討社會問題和人類的困境，這首詩也不例外。\n\n選項A「對堅持真理嘅高貴品格嘅不倦追求」，選項C「渴盼暖春到嚟嘅心情」，以及選項D「對自然與勞作強烈嘅眷戀之情」，這些選項雖然可能反映出艾青其他詩作中的主題，但並不是「慕尼黑」這首詩的主要表達內容。\n\n因此，最符合「慕尼黑」表達的主題是選項B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '對堅持真理嘅高貴品格嘅不倦追求'], ['B', '對人類同世界命運嘅深切關注'], ['C', '渴盼暖春到嚟嘅心情'], ['D', '對自然與勞作強烈嘅眷戀之情']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「少女小漁」中，唔屬於「小漁」性格嘅特點係",
+    "llm_output": "選項D「為自己而活」不是「少女小漁」中角色小漁的性格特點。在王安憶的《少女小漁》中，小漁是一個充滿同情心、純真和善良的角色，她對周圍的人充滿了關愛和理解。然而，小漁的性格並不強調「為自己而活」，而是更多地體現出對他人和社會的關懷。因此，正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '有同情心'], ['B', '純真'], ['C', '善良'], ['D', '為自己而活']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「萘竹山房」為刻畫人物而描寫咗陰森、清冷嘅生活環境，呢種表現手法係",
+    "llm_output": "B. 烘托\n\n小說「萘竹山房」中描寫陰森、清冷的生活環境，主要是為了烘托人物的心理狀態和內在情感，創造出一種特定的氛圍，從而加深讀者對人物性格和故事的體會。這種手法在中國文學中常用，旨在通過環境的描繪來強調人物的特點和故事情感。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '對比'], ['B', '烘托'], ['C', '誇張'], ['D', '反諷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「四世同堂」中塑造嘅一個舊式嘅知識分子形象係",
+    "llm_output": "正確答案係 D. 錢默吟。\n\n在老舍的《四世同堂》中，錢默吟被塑造成一個具有傳統儒雅風範的舊式知識分子形象。他對傳統文化有深厚的感情，但在日本侵略期間，他逐漸轉變為一位堅定的抗日志士，並成為祁家及其周圍人精神上的支柱。其他選項如祁瑞豐、祁瑞宣和祁老人，雖然都是祁家成員，但他們的形象和角色與知識分子並不吻合。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '祁瑞豐'], ['B', '祁瑞宣'], ['C', '祁老人'], ['D', '錢默吟']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞特寫「活寶們喺受難——空襲下嘅英國家畜」中，被賦予「忠誠」品性嘅動物係",
+    "llm_output": "選項A：狼犬。\n\n在中國文學中，狼犬常被賦予「忠誠」的品性。在這個新聞特寫中，狼犬被描繪為在空襲中依然忠於主人，不畏危險，體現了其忠誠的本性。其他選項如肥豬、貓和鳥，雖然各自有其特點，但通常不與「忠誠」這一品性聯繫在一起。因此，正確答案是A。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '狼犬'], ['B', '肥豬'], ['C', '貓'], ['D', '鳥']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "杜運燮嘅詩作「山」嘅意蘊係",
+    "llm_output": "選項C：「對追求者不斷攀升而欲求永遠唔能夠滿足嘅感慨」是正確答案。\n\n杜運燮的詩作《山》通過對山的描繪，寓意了人類永無止境的追求與渴望，以及這種追求永遠無法滿足的感慨。山象徵著目標與理想，而追求者則是在不斷攀登的過程中，永遠面對著新的挑戰和未知，這種永遠無法到達頂峰的狀態，體現了人類內心的渴望與對現實的深刻反思。\n\n選項A、B和D雖然也涉及了追求與挫折、永遠進取等主題，但這些選項未能準確捕捉到《山》中對追求者永遠無法滿足的情感基調。因此，C選項最符合杜運燮《山》一詩的意蘊。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '對追求者喺進取過程中可能遇到嘅挫折嘅警戒'], ['B', '對追求者永唔滿足、不斷攀升卻永遠寂寞嘅惋惜'], ['C', '對追求者不斷攀升而欲求永遠唔能夠滿足嘅感慨'], ['D', '對追求者永唔滿足、永遠進取嘅精神氣概嘅讚歎']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「屐痕處處」係邊個嘅散文集",
+    "llm_output": "正確答案係：C. 鬱達夫\n\n「屐痕處處」係鬱達夫嘅散文集，描寫咗作者嘅遊歷生活，充滿了對自然風光嘅熱愛，以及對人生哲理嘅深刻思考。其他選項，何其芳、麗尼、李廣田，均非該散文集嘅作者。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '何其芳'], ['B', '麗尼'], ['C', '鬱達夫'], ['D', '李廣田']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面唔屬於聞一多嘅「三美」詩歌主張嘅係",
+    "llm_output": "正確答案係 D. 繪畫美。\n\n聞一多，現代中國著名詩人、學者，提倡「三美」，即音樂美、建築美、繪畫美，這些都是他對新詩創作提出的要求。其中，音樂美強調韻律和音調的運用，建築美強調詩行和節奏的整齊對稱，而繪畫美則強調詩詞的視覺效果和意境的描繪。因此，選項 D 不是聞一多「三美」理論的一部分。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '音樂美'], ['B', '建築美'], ['C', '戲劇美'], ['D', '繪畫美']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「百合花」中，藉以刻畫人物性格嘅最主要地點係",
+    "llm_output": "正確答案係 B. 前沿包紮所。\n\n小說「百合花」中，作者藉由描繪前沿包紮所的場景，來刻畫人物性格。此處不僅是故事的主要場景，也是人物間互動的場所，通過對此地的細緻描繪，作者成功地塑造了人物形象，並表達了作品的主題。其他選項如新媳婦屋企、前沿陣地和文工團駐地，雖然在故事中也有出現，但並不是刻畫人物性格的主要地點。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '新媳婦屋企'], ['B', '前沿包紮所'], ['C', '前沿陣地'], ['D', '文工團駐地']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面屬於遊記散文嘅係",
+    "llm_output": "C. 「白馬湖之冬」\n\n白馬湖之冬是朱自清的一篇散文，描述了作者在冬季游览白馬湖时的所见所感，属于典型的游记散文。其他选项如「一九三六年春喺太原」、「荷塘月色」和「釣臺嘅春晝」虽然也是文学作品，但它们分别属于小说、散文和诗歌，并不符合游记散文的范畴。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「一九三六年春喺太原」'], ['B', '「荷塘月色」'], ['C', '「白馬湖之冬」'], ['D', '「釣臺嘅春晝」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "作品大多以塞外大漠為背景，語言雄渾俊邁、奔放灑脫，情感濃烈飽滿，意境闊大深遠。具有上述藝術風格嘅散文作家係",
+    "llm_output": "C. 牛漢\n\n牛漢的作品大多以塞外大漠为背景，其语言风格雄浑俊迈、奔放洒脱，情感浓烈饱满，意境阔大深远。牛漢的散文以其独特的艺术风格和深刻的思想内涵而著称，与题目描述相符。其他选项的作家虽然也是著名的散文家，但并不以塞外大漠为背景为主要创作特色。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '秦牧'], ['B', '周濤'], ['C', '牛漢'], ['D', '楊朔']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「如果唔係有人發明咗火車，如果唔係有人把鐵軌鋪入深山，你無論點都唔會發現臺兒溝呢個小村。」以呢啲句子開頭嘅作品係",
+    "llm_output": "正確答案係 D. 「哦，香雪」。\n\n這段引文出自铁凝的短篇小说《哦，香雪》。该作品讲述了一个偏远山村少女香雪的故事，她因为火车的到来而对现代文明产生了向往，并最终勇敢地追求自己的梦想。小说通过香雪的视角，展现了火车带来的变化以及山村与外界之间的文化碰撞。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「北方嘅河」'], ['B', '「喺山區收購站」'], ['C', '「大淖記事」'], ['D', '「哦，香雪」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊一部作品嘅題材屬於反映湘西人生嘅",
+    "llm_output": "A. 「柏子」\n\n《柏子》是沈从文的作品，属于湘西文学，反映了湘西地区人民的生活和情感。其他选项B、C、D的作品虽然也是沈从文创作的，但它们更多地关注于其他主题，如知识分子的生活、乡村生活、都市生活等。因此，正确答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「柏子」'], ['B', '「有學問嘅人」'], ['C', '「或人嘅太太」'], ['D', '「某夫婦」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "丁玲小說「太陽照喺桑乾河上」嘅時代背景係",
+    "llm_output": "正確答案係C. 抗日戰爭時期。\n\n《太陽照喺桑乾河上》是丁玲於1948年創作的一部小說，描繪了中國北方農村在抗日戰爭期間的生活狀況。該作品通過描述一個農村家庭在戰爭中的經歷，揭示了戰爭對普通百姓生活的深遠影響，並表達了對和平生活的渴望。因此，這部小說的時代背景是抗日戰爭時期。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '建國初期'], ['B', '解放戰爭時期'], ['C', '抗日戰爭時期'], ['D', '大革命時期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「五四」文學革命中，提出「國語嘅文學，文學嘅國語」嘅人物係",
+    "llm_output": "B. 胡適\n\n在「五四」文學革命中，提出「國語嘅文學，文學嘅國語」的著名人物是胡適。胡適強調使用白話文進行文學創作，並提倡文學革命，以推動中國文學的現代化。他的觀點對後續的文學發展產生了深遠的影響。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '陳獨秀'], ['B', '胡適'], ['C', '劉半農'], ['D', '錢玄同']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「祝福」中勸說祥林嫂去土地廟捐門檻嘅係。",
+    "llm_output": "正確答案係A。在鲁迅的短篇小说《祝福》中，劝说祥林嫂去土地庙捐门槛的是卫老婆子。这个角色在小说中扮演了重要的角色，她代表了当时社会中的一种势力，试图通过捐门槛这样的迷信行为来帮助祥林嫂摆脱困境，但最终未能改变祥林嫂的悲惨命运。其他选项B、C和D分别代表四嬸、柳妈和四叔，他们在小说中也有各自的角色，但并非是劝说祥林嫂捐门槛的人物。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '衛老婆子'], ['B', '四嬸'], ['C', '柳媽'], ['D', '四叔']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊一項唔屬於田間嘅詩集",
+    "llm_output": "正確答案係D。「中國農村嘅故事」唔係田間嘅詩集。田間，本名彭燕郊，係中國現代著名詩人，他的詩集包括「大堰河」、「中國牧歌」、「未明集」等。而「中國農村嘅故事」則係另一位作家趙樹理的文學作品，屬於小說而非詩集。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「大堰河」'], ['B', '「中國牧歌」'], ['C', '「未明集」'], ['D', '「中國農村嘅故事」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「斷魂槍」中，至死唔傳「五虎斷魂槍」嘅人物係",
+    "llm_output": "C. 沙子龍\n\n在老舍先生的小说《断魂枪》中，沙子龍是至死都不愿传授“五虎断魂枪”绝技的人物。小说通过沙子龍这个角色，反映了旧中国武术文化的没落和传统武术人对于时代变迁的无奈与坚持。沙子龍的坚持，体现了他对武术精神的尊重和对个人技艺的珍视，同时也折射出一种对时代变迁的无力感和对传统价值的坚守。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '孫老者'], ['B', '鬼冬哥'], ['C', '沙子龍'], ['D', '王三勝']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "香港嘅第一個文學社團「島上社」成立嘅時間係",
+    "llm_output": "正確答案係 D. 1928年。\n\n香港的第一个文学社團「島上社」成立于1928年。這個社團的創立標誌著香港文學史上的重要里程碑，它為香港本土文學的發展提供了平台，並促進了文學創作與交流。島上社的創立者包括了一些著名的作家和文學愛好者，他們致力於推動本地文學的發展，並對後續的文學運動產生了深遠的影響。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '1930年'], ['B', '1929年'], ['C', '1927年'], ['D', '1928年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「空嘅窗」嘅作者係",
+    "llm_output": "選項D是正確答案。「空嘅窗」是中國作家陳染的短篇小說，描繪了女性在現代社會中的心靈掙扎和情感困境。其他選項中的作者嚴歌苓、阿城和茹志鹃雖然都是中國文學界的重要人物，但他們的作品與「空嘅窗」無關。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '嚴歌苓'], ['B', '阿城'], ['C', '茹志鵑'], ['D', '陳染']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「遊園驚夢」係下面邊位作家嘅代表性作品",
+    "llm_output": "正確答案：B. 白先勇\n\n白先勇是著名的華文作家，他的作品《遊園驚夢》是對曹禺的《遊園驚夢》的重新詮釋，描繪了中國傳統文化與現代社會的衝突，並通過對過去美好時光之追憶，表達出對現實的失望與對未來的不確定感。白先勇的文學作品以其深刻的人性描繪和對傳統文化的重新审视而受到廣泛的讚譽。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '馮驥才'], ['B', '白先勇'], ['C', '陳翔鶴'], ['D', '鐵凝']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "創造社1921年7月喺日本東京成立，成員都係當時喺日本東京嘅留學生。佢哋創辦咗「創造」季刊、「創造週刊」、「創造日」、「洪水」等刊物，主張「為藝術而藝術」，強調文學必須忠實地表現作者自己「內心嘅要求」，重視文學嘅美感作用。屬於創造社成員嘅一組係",
+    "llm_output": "正確答案係 A. 郭沫若、張資平、鬱達夫、成仿吾、田壽昌。\n\n創造社成立于1921年7月，成員確實包括郭沫若、張資平、鬱達夫、成仿吾和田壽昌。他們在日本東京創立了多個文學刊物，並主張「為藝術而藝術」，強調文學的個人表達和美感。其他選項中的成員如沈雁冰、許地山、周作人、魯迅和林語堂，他們或是其他文學團體的成員，或是與創造社成員有交集但並非創造社的創始成員。因此，A 選項是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '郭沫若、張資平、鬱達夫、成仿吾、田壽昌'], ['B', '沈雁冰、張資平、鬱達夫、成仿吾、許地山'], ['C', '周作人、張資平、鬱達夫、成仿吾、魯迅'], ['D', '郭沫若、張資平、鬱達夫、成仿吾、林語堂']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "葉聖陶小說塑造嘅卑瑣灰色嘅小知識分子形象係",
+    "llm_output": "正確答案係 D. 潘先生。\n\n葉聖陶，原名葉绍钧，是20世紀中國著名作家、教育家。他的小說作品多以描繪小知識分子形象見長，其中潘先生這個角色尤為典型。潘先生在葉聖陶的短篇小說《潘先生在难中》中，被塑造為一個卑瑣、灰色的小知識分子形象，他性格懦弱的性格和在困難面前的無力感，深刻反映了當時社會中小知識分子的困境和心理狀態。\n\n其他選項如劉向高、黃述泰、方鴻漸，均非葉聖陶小說中代表卑瑣灰色小知識分子形象的主要角色。因此，最符合問題描述的答案是 D. 潘先生。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '劉向高'], ['B', '黃述泰'], ['C', '方鴻漸'], ['D', '潘先生']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "創作小說「送報夫」、「模範村」等作品嘅臺灣作家係",
+    "llm_output": "正確答案係 B. 楊逵。\n\n楊逵（1905-1993），本名楊清臣，是臺灣著名的作家和思想家。他創作了多部文學作品，包括小說《送報夫》（1936）和《模範村》（1938），這些作品描繪了當時臺灣社會的風貌，並對社會問題提出了批判。他的文學作品深受當時社會環境的影響，並對後世文學產生了深遠的影響。\n\n其他選項：\nA. 余光中（1928-2017），是著名的現代詩人、散文家，以《鄉愁》等作品聞名。\nC. 賴和（1894-1943），是臺灣現代文學的奠基人之一，以《送報夫》等作品著稱。\nD. 楊牧（1940-2018），是現代詩人，以《望鄉》等作品聞名。\n\n因此，最符合問題描述的作家是 B. 楊逵。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '余光中'], ['B', '楊逵'], ['C', '賴和'], ['D', '楊牧']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊一部詩集嘅出版為中國新詩開闢咗一個嶄新嘅時代",
+    "llm_output": "正確答案為 D. 「女神」。\n\n《女神》是郭沫若於1921年出版的诗集，它标志着中国新诗的开端，并为中国现代文学的发展奠定了基础。郭沫若的《女神》以其激昂的情感、自由奔放的语言和浪漫主义的风格，对后来的诗人产生了深远的影响，开启了中国新诗的新时代。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「恢復」'], ['B', '「星空」'], ['C', '「瓶」'], ['D', '「女神」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「高女人同佢嘅矮丈夫」一文中，作者塑造「裁縫老婆」呢個形象嘅意義係",
+    "llm_output": "C. 喺文章結尾，通過「裁縫老婆」充分意識到自己嘅錯誤，向矮丈夫道歉嘅細節描寫，反映咗人哋對「文革」嘅反思。\n\n在林白的短篇小说《高女人同佢嘅矮丈夫》中，「裁縫老婆」的形象被用来揭示社会对个体的偏见和歧视，以及这些偏见如何影响人们的日常生活和人际关系。通过「裁縫老婆」的视角，作者展示了社会对“高女人”和“矮丈夫”这对夫妇的冷漠和嘲笑，以及这种社会态度如何加剧了他们的悲剧。\n\n选项C正确地指出了在小说的结尾，「裁縫老婆」意识到自己的错误，并向矮丈夫道歉，这一细节反映了人们对“文革”时期的反思。这不仅是对个人行为的反思，也是对整个社会在“文革”期间所犯错误的一种反思。\n\n其他选项虽然也触及了小说中的一些主题，但它们并不是对「裁縫老婆」形象塑造意义的直接描述。例如，选项A讨论了叙述视角，但并未直接关联到「裁縫老婆」的形象；选项B和D则涉及了小说中的人物和事件，但它们并没有准确捕捉到「裁縫老婆」在小说中的作用和意义。因此，最准确的答案是C。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '以「裁縫老婆」嘅眼光為視角展開敘述，顯示咗一種主觀性嘅敘述風度。'], ['B', '係夫妻悲劇嘅推波助瀾者，係「文革」民族災難嘅社會基礎。'], ['C', '喺文章結尾，通過「裁縫老婆」充分意識到自己嘅錯誤，向矮丈夫道歉嘅細節描寫，反映咗人哋對「文革」嘅反思。'], ['D', '以「裁縫老婆」第一人稱嘅口吻敘述，表現咗國民嘅劣根性。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "冰心屬於下面邊個文學社團",
+    "llm_output": "冰心屬於中國文學史上的文學研究會。因此，正確答案為：\n\nC. 文學研究會",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '新月社'], ['B', '語絲社'], ['C', '文學研究會'], ['D', '創造社']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「我要用手指嗰天邊嘅排浪，我要用手撐嗰托住太陽嘅大海」一句出自",
+    "llm_output": "正確答案為 B. 舒婷嘅「雙桅船」。\n\n這句話出自舒婷的詩作《雙桅船》，該詩描繪了一艘雙桅船在風浪中前進的景象，象徵著作者對自由與理想的追求。舒婷，真名張抗抗，是中國現代文學中著名的女詩人，她的作品多以抒發個人情感和社會理想為主題。\n\n其他選項：\nA. 郭路生，即郭沫若，是20世紀中國著名的文學家、思想家，其代表作品包括《雷雨》等，但這句話並非出自他的作品。\nC. 冀澇，即冀培鼎，是20世紀中國著名作家，其代表作品包括《我》等，但這句話也非出自我。\nD. 穆旦，即查良镛，是20世紀中國著名作家，其代表作品包括《冬》等，但這句話同樣不是出自穆旦的作品。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '郭路生嘅「相信未來」'], ['B', '舒婷嘅「雙桅船」'], ['C', '冀澇嘅「我」'], ['D', '穆旦嘅「冬」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "丁西林「壓迫」中冇出場嘅人物係",
+    "llm_output": "正確答案係：C. 巡警。\n\n丁西林的《压迫》是一部以讽刺社会现象为主题的戏剧作品，剧中主要人物包括房東女、老媽和女客，而巡警在剧中并未直接出场。这部作品通过一系列幽默的情节揭示了当时社会中的一些矛盾和问题，巡警作为社会秩序的维护者，虽然未直接参与剧中事件，但他的存在象征着社会权威和压迫。因此，选项C是正确答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '房東女'], ['B', '老媽'], ['C', '巡警'], ['D', '女客']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "茹志鵑嘅「百合花」所寫故事嘅時代背景係",
+    "llm_output": "B. 抗美援朝戰爭時期\n\n《百合花》是茹志鹃创作的一篇短篇小说，主要讲述了在抗美援朝战争时期，一名年轻的通讯员在执行任务时，与一位新媳妇之间发生的感人故事。故事通过细腻的情感描写，展现了战争背景下人性的光辉。因此，正确答案是B，即抗美援朝战争时期。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '解放戰爭時期'], ['B', '抗美援朝戰爭時期'], ['C', '抗日戰爭時期'], ['D', '紅軍長徵時期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「茶花賦」中，作者通過「茶花」所刻畫同讚美嘅人物係",
+    "llm_output": "選項B：一位作家。\n\n《茶花賦》是著名作家老舍的作品，在這篇賦中，老舍通過對茶花的描繪，表達了他對中國傳統文化的热愛和對生活美好事物的追求。老舍在這篇賦中，并没有直接提及一位教師、農民或花匠，而是通過對茶花的比喻和象征，間接地表達了他對一位作家——即他自己——的自我肯定和對文學創作的熱愛。因此，正確答案是B。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '一位教師'], ['B', '一位作家'], ['C', '一位農民'], ['D', '一位花匠']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "副標題為「紀念魯迅有感」嘅作品係",
+    "llm_output": "選項A「有的人」是正確答案。\n\n《有的人》是中國著名作家郭沫若於1949年創作的一首詩，副標題為「紀念魯迅有感」。此詩歌颂了鲁迅先生的精神，並表達了作者對鲁迅的敬仰之情。其他選項B「風雲初記」、C「太陽下嘅風景」和D「父親，樹林同雀仔」均不是副標題為「紀念魯迅有感」的作品。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「有的人」'], ['B', '「風雲初記」'], ['C', '「太陽下嘅風景」'], ['D', '「父親，樹林同雀仔」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "鬱達夫嘅小說集「沉淪」包括",
+    "llm_output": "正確答案為 C. 「沉淪」「銀灰色嘅死」「迷羊」。\n\n郁达夫的小说集「沉沦」包括了他的三部作品：「沉淪」、「銀灰色嘅死」和「迷羊」。其他选项中提到的「南遷」和「出奔」均非该小说集中的作品。因此，C 选项是正确的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「銀灰色嘅死」「沉淪」「南遷」'], ['B', '「銀灰色嘅死」「迷羊」「南遷」'], ['C', '「沉淪」「銀灰色嘅死」「迷羊」'], ['D', '「沉淪」「迷羊」「出奔」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "喺小說「春天」嘅首尾出現，正好與青年馬倌喬瑪形成對照嘅人物形象係",
+    "llm_output": "D. 駝背老人\n\n在巴金的小说《春天》中，駝背老人是贯穿全书的重要角色，他在小说的开头和结尾都出现了，与青年馬倌喬瑪形成了鲜明对比。駝背老人的形象代表了旧社会的压迫和苦难，而喬瑪则象征着新生活的希望和力量。通过这种对比，小说深刻揭示了社会变革的主题。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '奶奶'], ['B', '紅花姑娘'], ['C', '安巴·烏蘭'], ['D', '駝背老人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「「鍛煉鍛煉」」中有兩位作為「自私自利」典型嘅人物形象。一位係「小腿疼」，另一位係",
+    "llm_output": "B. 張太和\n\n在中國文學中，「鍛煉鍛煉」這部作品描繪了幾位自私自利的人物形象，其中「小腿疼」和「張太和」是代表人物。這兩位角色在作品中通過他們的小气和自私行為，深刻揭示了人性中自私自利的面相。因此，正確答案是 B. 張太和。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「食唔飽」'], ['B', '張太和'], ['C', '「小諸葛」'], ['D', '高秀蘭']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "陳夢家屬於下面邊個詩派",
+    "llm_output": "正確答案：B. 新月詩派\n\n陳夢家（1911-1966），原名陳夢家，字夢家，號夢家，別號夢家生，是中國現代文學史上一位重要的詩人。他屬於新月詩派，這一詩派以1928年《新月》雜誌的創立為標誌，強調形式美、音韻美和意象的精緻，追求現代意識與傳統美學的結合。新月詩派的主要代表人物有徐志摩、聞一多、朱自清等。因此，選項B是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '象徵詩派'], ['B', '新月詩派'], ['C', '小詩派'], ['D', '現代詩派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "周作人散文集最重要嘅一個特色係",
+    "llm_output": "D. 沖淡\n\n周作人的散文集以“冲淡”为特色，他的文字风格平实、淡雅，不事雕琢，追求一种自然、朴素的美感。这种风格与他的文学理念密切相关，他强调文学应反映真实的生活，反对过度修饰和矫揉造作。因此，“冲淡”是周作人散文集最重要的一个特色。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '清新'], ['B', '縝密'], ['C', '華麗'], ['D', '沖淡']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「鞋」一文中，心理描寫嘅特點唔正確嘅係",
+    "llm_output": "正確答案係 D。\n\n解析：\nA選項描述的是「鞋」一文中心理描寫的結合外國「心理分析」式內化法與中國傳統小說利用言行和環境烘托的外化法。這描述是正確的。\n\nB選項中引用的文段，描述了主人公對未來生活的不確定性和內心的焦慮，這是典型的「心理描寫內化」法，即通過對人物內心活動的直接描寫來展現其心理狀態。因此，B選項描述是正確的。\n\nC選項提到用細膩的心理描寫同意識流手法刻畫主人公的內心活動。這也是正確的，因為「心理描寫內化」法通常涉及到對人物內心世界的深入描繪，而這正是意識流手法的一大特點。\n\nD選項中引用的文段描繪了主人公對自然景物的觀察，並通過這些觀察來反映其內心狀態。這屬於「心理描寫外化」法，即通過人物對外在世界的反應來間接描繪其心理狀態。然而，D選項的描述並不準確，因為這段描寫實際上屬於「心理描寫外化」法，而非「心理描寫內化」法。\n\n因此，D選項是錯誤的，是正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '既吸收外國作家「心理分析」式嘅「心理描寫內化」法，又繼續咗中國傳統小說利用人物言行同環境烘托嘅「心理描寫外化」法。'], ['B', '「也許過個一年半載，佢就過橋咗，喺嗰度嘅地度做嘢，喺嗰個唔知幾深幾淺嘅莊度住，嗰陣時，佢就唔係姑娘家咯。至於係咩，佢仲唔敢往深度諗。只係諗少少開頭，佢就愁得唔掂，心度軟得唔掂。」屬於「心理描寫內化」法。'], ['C', '用細膩嘅心理描寫同意識流手法刻畫主人公嘅內心活動。'], ['D', '「棉花地度陡然飛起一隻雀仔，佢打住眼罩子，目光唔捨得把雀仔追住，眼睇住嗰隻雀仔飛過河面河堤，落到嗰邊嘅麥子地度去。」屬於「心理描寫外化」法。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「沉淪」中嘅主人公「佢」係一個",
+    "llm_output": "C. 留學生\n\n小說「沉淪」中，主人公「佢」是一個留學生。这部作品由郭沫若所著，描繪了留學生在異國他鄉的孤獨與掙扎，以及對祖國和民族的深刻思考。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '小學教師'], ['B', '青年演員'], ['C', '留學生'], ['D', '報社記者']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「春天，遂想起」中，「江南」嘅象徵含義唔包括",
+    "llm_output": "選項D「歷代詩文典籍中嘅描述」不是「春天，遂想起」中「江南」的象徵含義。\n\n理由如下：\n- 選項A「故鄉記憶」符合，江南常常被用來代表故鄉，特別是對那些出生或成長於江南地區的人來說。\n- 選項B「早年嘅刻骨銘心嘅愛情」也符合，江南地區在古代文學中常常與浪漫愛情故事相聯繫，如唐代詩人白居易的《江南好》。\n- 選項C「祖國大陸同傳統文化」亦符合，江南地區自古以來就是中國文化的重要發源地之一，代表著中國的傳統文化。\n\n然而，選項D「歷代詩文典籍中嘅描述」並不特指江南，而是泛指中國古代文學作品中的描述，它不具體指向江南的象徵含義。因此，D選項不是「春天，遂想起」中「江南」的象徵含義。\n\n正確答案是D。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '故鄉記憶'], ['B', '早年嘅刻骨銘心嘅愛情'], ['C', '祖國大陸同傳統文化'], ['D', '歷代詩文典籍中嘅描述']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "詩歌「纖夫」嘅寫作年代係",
+    "llm_output": "正確答案係C.「五四」時期。\n\n《纤夫》是郭沫若在1921年創作的一首詩，屬於「五四」運動期間。這首詩描繪了纤夫在長江邊辛勤勞動的情景，表達了對勞動人民的同情和對社會不公的憤慨。因此，選項C是正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「大革命」時期'], ['B', '解放戰爭時期'], ['C', '「五四」時期'], ['D', '抗日戰爭時期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "唔從正面展示主人公嘅內心心理，而係用周圍鄰居嘅外在視角展開敘述，以白描為主，間以客觀性嘅議論，通篇顯示咗客觀、內斂嘅敘述風度嘅小說係",
+    "llm_output": "D. 「高女人同佢嘅矮丈夫」\n\n這部小說由王安憶所著，其敘事風格正符合問題描述，即通過周圍鄰居的外在視角來展示主人公的內心心理，並採用白描手法，穿插客觀性的議論，展現出一種客觀、內斂的敘事風度。其他選項的小說並不具備這樣的敘事風格。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「我嘅第一個上級」'], ['B', '「女房東」'], ['C', '「活動變人形」'], ['D', '「高女人同佢嘅矮丈夫」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊一項唔屬於徐志摩詩歌嘅藝術特色",
+    "llm_output": "正確答案：A. 豐富嘅想象，神奇嘅誇張\n\n徐志摩的詩歌以抒情和浪漫主义著称，他的作品通常具有以下藝術特色：\n\nB. 韻律和諧，富有音樂美 - 徐志摩的詩歌強調韻律和音樂性，他的作品經常採用自由體詩的形式，使得讀者在朗讀時能感受到強烈的音樂感。\n\nC. 構思精巧，意象新穎 - 他的詩歌經常運用精巧的構思和創新的意象，使得作品充滿了新鮮感和創造力。\n\nD. 辭藻華美，風格明麗 - 徐志摩的詩歌語言華麗，風格明快，他擅長用生動的語言描繪情感和自然景觀，給人留下深刻印象。\n\n然而，A選項“豐富嘅想象，神奇嘅誇張”並不屬於徐志摩詩歌的主要藝術特色。徐志摩的詩歌雖然有時會使用夸张手法，但他的作品更注重情感的真挚流露和對自由的追求，而非過度追求想象和誇張。因此，A選項不是徐志摩詩歌的主要藝術特色。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '豐富嘅想象，神奇嘅誇張'], ['B', '韻律和諧，富有音樂美'], ['C', '構思精巧，意象新穎'], ['D', '辭藻華美，風格明麗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「拜堂」表現汪大嫂與汪二拜堂前後嘅驚恐同痛苦所運用嘅手法係",
+    "llm_output": "正確答案係 A. 細節描寫與氣氛營造。\n\n小說「拜堂」中，作者通過細節描寫，如對汪大嫂穿著、神態、心理活動的精細描繪，以及氣氛營造，如場景描繪和氛圍的塑造，來表現汪大嫂與汪二拜堂前後所經歷的驚恐和痛苦。這些手法共同作用，使得讀者能夠深刻感受到角色的內心世界和情感波動。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '細節描寫與氣氛營造'], ['B', '環境描寫與心理獨白'], ['C', '心理獨白與動作描寫'], ['D', '語言描寫與肖像刻畫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「棋王」嘅語言特點係",
+    "llm_output": "選項A「含蓄、內斂」是正確答案。\n\n《棋王》是阿城所著的一部短篇小說，描繪了中國棋界的故事，並通過棋局來反映人物內心的世界。小說的語言特點確實可以概括為含蓄、內斂，因為作者在敘述中往往不直接表達情感或思想，而是通過角色的對話、動作和周圍的環境描繪來間接表達，這種寫作風格使得作品充滿了深層次的含義和內在的哲理。\n\n其他選項描述的語言特點並不適用於《棋王》。B選項「歡快、明暢」通常與輕鬆愉快的敘事風格相聯繫，而《棋王》則更偏向於深刻和內省。C選項「深情、詩意」可能適用於抒情性較強的文學作品，但《棋王》更注重的是對棋局和人物心理的細緻描繪。D選項「樸素、詼諧」則可能適用於一些生活化的敘事風格，而《棋王》則顯得更加凝重和哲學性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '含蓄、內斂'], ['B', '歡快、明暢'], ['C', '深情、詩意'], ['D', '樸素、詼諧']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「自己嘅園地」「雨天嘅書」「澤瀉集」「談龍集」「談虎集」「永日集」「睇雲集」嘅作者係",
+    "llm_output": "正確答案係 B. 周作人。\n\n周作人，原名周树人，字豫才，号启明，是中国现代著名的文学家、翻译家、思想家。他的文学作品风格独特，多以散文为主，内容涉及广泛，包括对自然、人生、文化等各方面的思考和感悟。\n\n周作人的作品集包括《自己の園地》、《雨天の書》、《澤瀉集》、《談龍集》、《談虎集》、《永日集》、《睇雲集》等，这些作品集展示了他深厚的文学功底和对生活的独到见解。\n\n其他选项中，冰心（A）、徐志摩（C）、朱自清（D）都是中国现代文学的重要作家，但他们并非上述作品集的作者。因此，最符合题目描述的答案是 B. 周作人。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '冰心'], ['B', '周作人'], ['C', '徐志摩'], ['D', '朱自清']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "創作咗長詩「毀滅」嘅現代詩人係",
+    "llm_output": "D. 艾青\n\n創作長詩《毀滅》的現代詩人是艾青。艾青，原名蒋正涵，號海澄，浙江金華人，中國現代著名詩人。他的作品多描繪社會底層人物的生活，並充滿對社會不公的批判。《毀滅》是他早期代表作之一，描繪了社會的黑暗面和人性的挣扎。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '朱自清'], ['B', '聞一多'], ['C', '馮至'], ['D', '艾青']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "鬱達夫所開創嘅小說樣式係",
+    "llm_output": "正確答案係C. 「自敘傳」小說。\n\n鬱達夫，原名蘇文炳，是20世紀初期中國著名的作家、詩人。他的小说创作以自传体为主，透过个人经历和情感的抒发，反映社会现实和个人心境。这种小说形式被称为「自敘傳」小說，它强调个人情感的直接表达和内心世界的深度挖掘。\n\n其他選項描述的小說風格，如A. 詩化小說，B. 哲理小說，D. 散文化小說，均非鬱達夫所特開創或以之聞名。因此，最符合問題描述的答案是C. 「自敘傳」小說。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '詩化小說'], ['B', '哲理小說'], ['C', '「自敘傳」小說'], ['D', '散文化小說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "海子喺「麥地」中藉以表現詩歌意蘊嘅主要意象係",
+    "llm_output": "正確答案係：B. 麥地、麥子、太陽。\n\n在海子的詩作「麥地」中，他通過對「麥地」、「麥子」和「太陽」這些自然元素的描繪，表達了對農民生活、自然和生命本質的深刻思考。太陽象徵著希望和生命力，而麥地和麥子則象徵著農民的辛勤和土地對生命的滋養。這些元素共同構成了海子詩歌中強烈且充滿象徵意義的意象，表達了對農民生活深沉的情感和對自然界的敬畏。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '麥地、麥子、白楊'], ['B', '麥地、麥子、太陽'], ['C', '麥地、麥子、金子'], ['D', '麥地、麥子、月亮']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "沈從文嘅小說具有",
+    "llm_output": "沈從文的小說作品以湘西風土人情為背景，描繪了湘西地區獨特的生活方式和風俗習慣，其作品充滿了濃厚的地域色彩和民俗風情。他的作品不僅描繪了湘西的自然風光，還通過對人性的深刻描繪，展現了人性的真、善、美。沈從文的小說具有濃厚的詩意，他常用抒情的筆觸來描繪人物和景物，使得作品充滿了浪漫主義色彩。\n\n因此，正確答案為：\n\nD. 詩化特徵",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '散文化特徵'], ['B', '哲理化特徵'], ['C', '科學化特徵'], ['D', '詩化特徵']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "均屬「七月派」詩人嘅係",
+    "llm_output": "正確答案係D。七月派是中國現代文學中一個重要的文學流派，主要形成於1936年至1937年之間，以《七月》雜誌為中心。該派以強調社會主義思想和革命精神著稱，代表作家包括綠原、曾卓和冀澇。穆旦和流沙河則屬於其他文學流派，穆旦屬於「九叶派」，流沙河則屬於「民間文學」。因此，選項D中的三位詩人均屬於七月派。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '穆旦、冀澇、流沙河'], ['B', '穆旦、流沙河、綠原'], ['C', '流沙河、曾卓、綠原'], ['D', '綠原、曾卓、冀澇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「菉竹山房」、「潘先生喺難中」、「山峽中」、「小城三月」嘅作者依次係",
+    "llm_output": "正確答案係C。\n\n「菉竹山房」、「潘先生喺難中」、「山峽中」、「小城三月」分別係葉聖陶、吳組纘、艾蕪、蕭紅所寫。\n\n- 「菉竹山房」是葉聖陶的作品。\n- 「潘先生喺難中」是吳組纘的作品。\n- 「山峽中」是艾蕪的作品。\n- 「小城三月」是蕭紅的作品。\n\n因此，選項C（葉聖陶 吴組纼 艾蕪 蕭紅）是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '吳組纘 葉聖陶 艾蕪 蕭紅'], ['B', '葉聖陶 吳組纘 蕭紅 艾蕪'], ['C', '葉聖陶 吳組纘 艾蕪 蕭紅'], ['D', '蕭紅 葉聖陶 吳組纘 艾蕪']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊部作品嘅作者唔係白先勇",
+    "llm_output": "選項D「玉卿嫂」的作者不是白先勇。白先勇是著名的台湾作家，而「玉卿嫂」的作者是台湾作家陈映真。其他選項的作者都是白先勇：\n\nA. 「靜靜嘅產院」 - 白先勇\nB. 「紐約客」 - 白先勇\nC. 「孽子」 - 白先勇\n\n因此，正確答案為D。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「靜靜嘅產院」'], ['B', '「紐約客」'], ['C', '「孽子」'], ['D', '「玉卿嫂」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "散文「往事（一）」、「往事（二）」、「山中雜記」嘅作者係",
+    "llm_output": "正確答案係C. 周作人。\n\n周作人，原名周树人，是中國現代著名散文家、文學評論家、翻譯家。他以其平實、深邃的散文風格聞名，散文作品如「往事（一）」、「往事（二）」、「山中雜記」等均展現了他對生活細節的深刻觀察與獨特體驗。這些散文作品不僅描繪了作者的个人生活，還折射出對社會、文化的深刻思考。\n\n其他選項：\nA. 徐志摩，是著名的現代詩人，以浪漫主義風格著稱，代表作品有《再別康橋》等。\nB. 朱自清，是現代著名散文家、詩人，代表作品有《背影》、《荷塘月色》等。\nD. 冰心，是現代著名女作家，以抒情散文和兒童文學著稱，代表作品有《笑聲》、《繁星·春水》等。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '徐志摩'], ['B', '朱自清'], ['C', '周作人'], ['D', '冰心']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「人仲要有啲嘢，先叫活住。」呢句說話出自小說",
+    "llm_output": "C. 「棋王」\n\n「人仲要有啲嘢，先叫活住。」这句说話出自阿城的小说《棋王》。这部小说通过棋王这一角色，探讨了物质与精神、生存与追求之间的关系，是阿城“三王”系列中的第一部。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「受戒」'], ['B', '「陶淵明寫輓歌」'], ['C', '「棋王」'], ['D', '「組織部嚟咗個年輕人」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "小說「「鍛煉鍛煉」」喺藝術上嘅特點係",
+    "llm_output": "正確答案係C。小說「鍛煉鍛煉」喺藝術上嘅特點係積極探索心理描寫嘅新方法。\n\n这部作品由莫言所著，它以其独特的叙事风格和深刻的心理描写而著称。莫言在《锻练锻练》中，通过细腻的心理描写，揭示了人物内心的复杂性和矛盾性，这在当时的文学创作中是一种新颖的尝试。\n\n選項A描述的是白描手法，而白描是古代中国画的一种技法，与小说的叙述手法不完全对应。選項B提到的語言典雅洗練，幽默風趣，虽然可能适用于某些文学作品，但并不是《锻练锻练》的主要艺术特点。選項D提到的线索较多，但情节完整，结构精当，这更像是传统叙事小说的特点，而非《锻练锻练》的风格。\n\n因此，最符合《锻练锻练》艺术特点的選項是C，積極探索心理描寫嘅新方法。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '敘事寫人多用白描手法，注意刻畫人物形象'], ['B', '語言典雅洗練，幽默風趣'], ['C', '積極探索心理描寫嘅新方法'], ['D', '線索較多，但情節完整，結構精當']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "作家余光中屬於",
+    "llm_output": "余光中，著名現代詩人，屬於藍星詩社。因此，正確答案是 D. 藍星詩社。藍星詩社是1950年代在臺灣成立的一個現代詩社，余光中是该社的重要成員之一。其他選項如創世紀詩社、九葉詩派和七月派，都是中國現代文學中的其他詩社或文學團體，但與余光中無關。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '創世紀詩社'], ['B', '九葉詩派'], ['C', '七月派'], ['D', '藍星詩社']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "田漢「五四」時期戲劇創作嘅重要藝術特色係",
+    "llm_output": "田漢在「五四」时期的重要戏剧创作特点，是浪漫主义与现实主义的结合。因此，正确答案是 D. 現實主義與浪漫主義熔為一體。\n\n田漢的作品常常反映社会现实，同时又带有浓厚的浪漫色彩，他善于通过戏剧揭示社会问题，同时又不失对美好生活的向往和追求。这种现实与浪漫的结合，使得他的作品既有深刻的社会意义，又具有较高的艺术审美价值。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '現代主義與象徵主義熔為一體'], ['B', '浪漫主義與象徵主義熔為一體'], ['C', '現實主義與後現代主義熔為一體'], ['D', '現實主義與浪漫主義熔為一體']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "魯迅嘅「野草」係一部",
+    "llm_output": "D. 散文詩集\n\n《野草》是魯迅的一部散文詩集，它融合了詩歌和散文的特點，以深邃的思想和獨特的藝術風格，描繪了作者對社會現實的深刻反思和對人性的探討。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '雜文集'], ['B', '回憶性敘事散文集'], ['C', '抒情散文集'], ['D', '散文詩集']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "魯迅嘅「朝花夕拾」係一部",
+    "llm_output": "正確答案：B. 回憶性敘事散文集\n\n「朝花夕拾」是魯迅於1926年出版的散文集，主要描寫了作者童年和少年時期的經歷和見聞，以及對過往生活的回憶和思考。這部作品以回憶性敘事散文的形式，展現了作者對社會現象的深刻洞察和對人性的深刻描繪。因此，選項B是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '散文詩集'], ['B', '回憶性敘事散文集'], ['C', '雜文集'], ['D', '抒情散文集']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「將軍族」中「三角臉」與「小瘦丫頭」嘅關係係",
+    "llm_output": "選項B「兄妹關係」是正確答案。在沈从文的短篇小說《将军族》中，「三角脸」和「小瘦丫頭」是兄妹。這部作品描繪了在湘西地區一個普通農民家庭的生活，以及他們之間的親情和對生活困苦的堅韌。三角脸是家庭中的男性成員，而小瘦丫頭是他的妹妹。他們之間的關係是親密的兄妹關係，而非其他選項所描述的關係。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '戀人關係'], ['B', '兄妹關係'], ['C', '夫妻關係'], ['D', '父女關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊部作品係以20世紀70年代知識青年「上山下鄉」為歷史背景嘅",
+    "llm_output": "C. 「空嘅窗」\n\n「空嘅窗」（Empty Windows）是著名作家王安忆的作品，这部小说以20世纪70年代中国知识青年“上山下乡”运动为背景，讲述了主人公在乡村的生活经历和心理变化。其他选项A、B和D的作品背景并不符合题目描述的历史时期。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「鞋」'], ['B', '「少女小漁」'], ['C', '「空嘅窗」'], ['D', '「喜宴」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "話劇「雷雨」中，礦主周樸園嘅仔周萍同管家魯貴嘅女四鳳之間嘅關係係",
+    "llm_output": "正確答案係C。在曹禺的話劇《雷雨》中，周萍和四鳳之間存在著同母異父的兄妹關係。周萍是周樸園的兒子，而四鳳是魯貴的女兒，周樸園曾經與四鳳的母親有過一段不為人知的恋情，因此周萍和四鳳是同母異父的兄妹。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '同父同母嘅兄妹'], ['B', '同母異父嘅姐弟'], ['C', '同母異父嘅兄妹'], ['D', '同父異母嘅姐弟']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「哦，香雪」中熱情咁勸香雪留喺話山口站自己親戚屋企住一晚再返臺兒溝嘅人係",
+    "llm_output": "正確答案係 D. 中年女服務員。\n\n在铁凝的短篇小说《哦，香雪》中，香雪在返回家的路上，在话山口站遇到了一位中年女服务員。这位中年女服务員劝香雪留宿一晚，但香雪拒绝了，坚持要回家。其他选项如女大学生、凤娇、“北京话”均非劝香雪留宿的人。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '女大學生'], ['B', '鳳嬌'], ['C', '「北京話」'], ['D', '中年女服務員']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「我嘅第一個上級」中，集中刻畫老田臨危不懼，堅決果斷咁抗洪搶險嘅場景係喺",
+    "llm_output": "D. 海門村\n\n在《我嘅第一個上級》這部作品中，集中刻畫老田臨危不懼，堅決果斷抗洪搶險的場景是在海門村。這裡描繪了老田在面對自然災害時，不畏困難，勇於承擔責任，並帶領村民共同應對危機的場景。其他選項如安樂莊、防汛指揮部和縣醫院，雖然也可能在作品中出現，但並不是集中刻畫老田抗洪搶險場景的主要場所。因此，正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '安樂莊'], ['B', '防汛指揮部'], ['C', '縣醫院'], ['D', '海門村']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「夜航船」從一位明代文人所著嘅同名著作引發聯想，呢位明代文人係",
+    "llm_output": "D. 張岱\n\n《夜航船》這部作品是明代文人張岱所著，這部書描繪了作者在夜航船上的生活經歷和所見所聞，是中國文學史上一部具有重要意義的散文集。其他選項中的孔尚任、紀曉嵐和鄭板橋，雖然都是明代的文人，但他們的作品和《夜航船》無關。因此，正確答案是D. 張岱。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '孔尚任'], ['B', '紀曉嵐'], ['C', '鄭板橋'], ['D', '張岱']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面詩人中，出版咗中國第一部十四行詩集嘅係",
+    "llm_output": "A. 馮至\n\n正確答案係A，馮至。馮至是中國現代著名詩人，他在1927年出版了《十四行集》，這部诗集被譽為中國第一部十四行詩集。其他選項中的徐志摩、戴望舒和胡適，雖然他們都是中國現代文學中的重要人物，但他們並沒有出版中國第一部十四行詩集。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '馮至'], ['B', '徐志摩'], ['C', '戴望舒'], ['D', '胡適']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "詩歌「老馬」中，「老馬」象徵嘅係",
+    "llm_output": "選項A：「老馬」象徵嘅係背負生活重壓、低頭忍耐嘅中國農民。\n\n这首诗《老马》是闻一多先生在1932年创作的一首诗歌，通过对老马的描述，表达了对当时中国农民生活艰辛的同情和关注。老马象征着那些默默承受生活重压、辛勤劳作却得不到应有回报的中国农民。他们就像老马一样，背负着沉重的负担，却依然坚韧不拔地前行。因此，正确答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '背負生活重壓、低頭忍耐嘅中國農民'], ['B', '工作辛苦但工資微薄嘅產業工人'], ['C', '追求進步、堅韌頑強嘅中國知識分子'], ['D', '辛勤勞動、面對苦難積極反抗嘅戰鬥者']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "散文「靈魂嘅呼號」嘅文體及敘述人稱係",
+    "llm_output": "正確答案係 D. 書信體第一人稱。\n\n散文「靈魂嘅呼號」採用書信體第一人稱，作者通過一封書信的形式，以第一人稱的敘述者身份，表達了對生命、存在的深刻思考和內心的呼喚。這種文體使得讀者能夠更直接地感受到作者的真摯情感和思想深度。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '日記體第一人稱'], ['B', '書信體第二人稱'], ['C', '傳記體第三人稱'], ['D', '書信體第一人稱']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "朱自清「槳聲燈影入面嘅秦淮河」中提到與其同遊秦淮河嘅現代作家係",
+    "llm_output": "正確答案係 D. 俞平伯。\n\n朱自清的散文《桨声灯影里的秦淮河》中，他描述了与俞平伯同游秦淮河的经历。这篇文章是朱自清散文中的经典之作，通过细腻的笔触描绘了秦淮河的夜景和两岸的风情，同时也表达了作者对人生和社会的深刻思考。因此，选项 D 是正确答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '豐子愷'], ['B', '林語堂'], ['C', '鬱達夫'], ['D', '俞平伯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "下面作品中，截取主人公一生嘅幾個片段嚟描寫其命運遭遇嘅係",
+    "llm_output": "選項B「邢老漢同狗嘅故事」是正確答案。\n\n這部作品通過截取主人公一生中的幾個片段，描繪了其命運遭遇。作者通過這些片段，展現了主人公的成長、掙扎以及最終的命運轉折，從而深刻地反映了社會背景對個人命運的影響。\n\n選項A「透明嘅紅蘿蔔」、選項C「春天」和選項D「下放記別」均不符合問題描述，它們不是通過截取主人公一生中的幾個片段來描寫其命運遭遇的作品。\n\n因此，最符合問題描述的作品是選項B「邢老漢同狗嘅故事」。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「透明嘅紅蘿蔔」'], ['B', '「邢老漢同狗嘅故事」'], ['C', '「春天」'], ['D', '「下放記別」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "散文「髻」中，最鍾意梳「螺絲髻兒」髮型嘅係",
+    "llm_output": "選項B，即「我」，是正確答案。在散文「髻」中，作者通過描述「我」對梳螺絲髻兒的喜愛，來表達對過去的懷舊情感。螺絲髻兒是一種傳統的髮型，通常與古老的生活方式和價值觀相關聯，作者通過這個細節來反映出對過去時代的缅怀。其他選項，如劉嫂、阿媽和姨娘，雖然在文中也有提及，但並不是最鍾意梳螺絲髻兒的角色。因此，B選項是正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '劉嫂'], ['B', '「我」'], ['C', '阿媽'], ['D', '姨娘']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「四世同堂」中的冠曉荷係",
+    "llm_output": "A. 民族敗類嘅形象\n\n在老舍的《四世同堂》中，冠曉荷被塑造成一個典型的民族敗類形象。他是一個自私、懦弱、屈從於權力的人物，在面對國家的危難時，他選擇了投靠侵略者，出賣同胞，這與民族英雄或革命者、正直的知識分子、老派市民的形象形成了鮮明對比。因此，正確答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '民族敗類嘅形象'], ['B', '革命者嘅形象'], ['C', '正直嘅知識分子形象'], ['D', '老派市民嘅形象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "琦君嘅「髻」係一篇",
+    "llm_output": "正確答案係B。琦君嘅「髻」係一篇優美精緻嘅憶舊抒情散文。此作品通過對過去生活細節的描繪，表達了作者對過往時光和親人情感的懷念，充滿了濃厚的情感色彩和文學藝術性。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '富於童心嘅遊記散文'], ['B', '優美精緻嘅憶舊抒情散文'], ['C', '情節曲折嘅記事散文'], ['D', '質樸平實嘅悼亡散文']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "沈從文嘅以知識分子為題材嘅小說係",
+    "llm_output": "正確答案係 A. 「八駿圖」。沈從文的小說「八駿圖」主要描繪了知識分子在社會變遷中的命運，並探討了他們的思想和心態。其他選項如「蕭蕭」、「邊城」和「二月」均不是以知識分子為主題的小說。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「八駿圖」'], ['B', '「蕭蕭」'], ['C', '「邊城」'], ['D', '「二月」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-chinese_literature",
+    "key_answer_type": "alphabet_option",
+    "question": "「寒夜」中嘅曾樹生係一個",
+    "llm_output": "D. 美麗苦悶嘅知識分子\n\n在巴金的小说《寒夜》中，曾樹生是一位美丽而内心苦闷的知识分子。她与丈夫汪文宣在战乱和贫困中挣扎，她的美丽与才华与现实生活的艰难形成了鲜明对比，使得她成为了一个内心充满矛盾和痛苦的人物。因此，选项D是正确的答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '愚昧嘅農村婦女'], ['B', '軟弱無能嘅知識分子'], ['C', '輕浮嘅交際花'], ['D', '美麗苦悶嘅知識分子']]",
+    "is_correct": 1
+  }
+]

@@ -1,0 +1,2262 @@
+[
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "教育制度嘅潛功能表現之一係",
+    "llm_output": "D. 社會化\n\n教育制度嘅潛功能之一係社會化。社會化係指個體學習社會價值觀、規範、語言同技能嘅過程，使佢能夠適應社會生活並成為社會成員。教育制度通過傳授知識、技能同價值觀，幫助個體融入社會，並培養其成為負責任嘅公民。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會選擇'], ['B', '文憑功能'], ['C', '縮小收入差距'], ['D', '社會化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗追求社會鼓勵嘅目標，採用咗唔被社會認可嘅手段，甚至係違法嘅手段，呢種偏差行為稱之為",
+    "llm_output": "正確答案係 C. 反叛。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '創新'], ['B', '形式主義'], ['C', '反叛'], ['D', '退縮主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "由一對夫婦與父母同未婚子女聚居生活嘅家庭，被稱為",
+    "llm_output": "正確答案係 C.  主幹家庭。\n\n主幹家庭（Nuclear Family）通常指一對夫婦與他們的未婚子女居住在一起的家庭。這種家庭結構是社會學中研究最多的一種家庭類型，也是最傳統的家庭模式之一。在主幹家庭中，父母通常扮演主要照顧者和教育者的角色，而子女則扮演被照顧者和學習者的角色。這種家庭結構在許多文化中都很常見，尤其是在城市化程度較低、家庭價值觀念較為傳統的地區。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '核心家庭'], ['B', '聯閤家庭'], ['C', '主幹家庭'], ['D', '完全家庭']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "把社會行動當做研究對象同建構功能理論嘅出發點嘅學者係",
+    "llm_output": "正確答案係 B. 帕森斯 (Parsons)。\n\n托馬斯·帕森斯（Thomas Parsons）係二十世紀非常重要嘅社會學理論家，佢嘅功能主義理論對於社會學嘅發展有重大影響。帕森斯嘅功能主義強調社會系統嘅穩定性同整合性，並且將社會行動視為研究對象，通過功能主義嘅視角來建構社會理論。佢嘅理論對於理解社會結構同社會行為之間嘅關係有重要嘅啟示。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '韋伯'], ['B', '帕森斯'], ['C', '馬克思'], ['D', '凡勃倫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "1895年，喺「原強」一文中首先介紹咗斯賓塞及其社會學嘅學者係",
+    "llm_output": "正確答案嘅選項係 C. 嚴復。嚴復係中國近代著名嘅翻譯家、教育家同思想家，佢喺1895年通過翻譯英國學者赫伯特·斯賓塞嘅著作《社會學原理》嘅部分章節，並將之引入中國。嚴复嘅翻譯對中國社會學嘅發展有重要嘅啟發作用。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '章太炎'], ['B', '康有為'], ['C', '嚴復'], ['D', '譚嗣同']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會學嘅功能中，教育功能表現喺",
+    "llm_output": "正確答案係 C. 幫助人哋合理選擇。教育功能喺社會學中通常涉及教育系統如何爲個人提供必要的知識、技能和價值觀，幫助他們在社會中作出合理嘅選擇同決定。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '提供模式'], ['B', '社會批評'], ['C', '幫助人哋合理選擇'], ['D', '反饋信息']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "「後工業社會論」提出，處於社會中心地位嘅係",
+    "llm_output": "正確答案係 C. 專業與技術人員。\n\n「後工業社會論」是由美國社會學家丹尼爾・贝尔（Daniel Bell）提出的，他嘅理論指出，隨著社會嘅發展，從工業社會轉向後工業社會，社會嘅中心將從製造業轉向服務業和知識產業。在後工業社會中，專業與技術人員將成為主要嘅工作者，因為社會需要大量嘅專業知識和技術人員來提供各種服務。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '科學技術'], ['B', '信息技術'], ['C', '專業與技術人員'], ['D', '理論知識']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "促進社區居民嘅社會參與，培養社區居民嘅互助合作精神，提高社區居民自力更生同共同合作解決問題嘅能力，呢個屬於社區發展嘅",
+    "llm_output": "B.  基本目標",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '任務目標'], ['B', '基本目標'], ['C', '過程目標'], ['D', '根本目標']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺自然資源嘅分類中，空氣屬於",
+    "llm_output": "D. 環境資源",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '替代資源'], ['B', '礦產資源'], ['C', '生物資源'], ['D', '環境資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "中國學者自己嘅社區研究始於20世紀20年代末嘅",
+    "llm_output": "正確答案係 B. 鄉村建設運動期間。\n\n中國學者自己嘅社區研究始於20世紀20年代末嘅鄉村建設運動。呢個運動係由中國學者同社會運動家推動，響應當時中國社會嘅轉型同埋農村嘅貧困問題。佢哋嘅研究集中喺農村社區，試圖改善鄉村地區嘅經濟、教育同社會狀況。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '社會調查運動期間'], ['B', '鄉村建設運動期間'], ['C', '社會建設運動期間'], ['D', '城市社區運動期間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "斯賓塞認為，社會同生物一樣亦係一個有機體，但社會唔係簡單嘅有機體而係",
+    "llm_output": "正確答案係 B. 超有機體。赫伯特·斯賓塞（Herbert Spencer）認為社會是一種超越簡單有機體層面嘅複雜結構，可以自我調節並具有自身發展嘅趨勢，因此被稱為「超有機體」。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '進化有機體'], ['B', '超有機體'], ['C', '大有機體'], ['D', '聚合有機體']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會學研究方法中，屬於定性方法嘅係",
+    "llm_output": "C.  實地研究 (Field Research)\n\n定性研究方法著重於質性資料，包括文字、圖像、聲音等，而實地研究是一種常見的定性研究方法，涉及直接觀察和參與研究對象的社會環境，以深入理解社會現象的意義、背景和過程。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會實驗方法'], ['B', '問卷調查'], ['C', '實地研究'], ['D', '介入性研究']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "對社會發展總嘅方向、大目標、主要步驟同重大措施嘅設想，被稱做",
+    "llm_output": "正確答案係 B. 社會發展計劃。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '全球化'], ['B', '社會發展計劃'], ['C', '社會現代化'], ['D', '有計劃嘅社會變遷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "家庭矛盾衝突嘅一種極端行為表現係",
+    "llm_output": "A. 家庭暴力",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '家庭暴力'], ['B', '子女離家出走'], ['C', '家庭解組'], ['D', '夫妻離異']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "假設有啲人天生就係唔守規矩嘅人，喺呢個假設基礎上形成嘅關於偏差行為嘅解釋係",
+    "llm_output": "正確答案嘅選項係：\n\nA. 生物學解釋\n\n呢種解釋假設天生嘅唔守規矩係源於生物特徵，而唔係後天嘅社會環境或心理狀態。生物學解釋會探討基因、生理機制或者其他生物學上嘅因素點樣影響一個人嘅行為傾向。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '生物學解釋'], ['B', '生理學解釋'], ['C', '心理學解釋'], ['D', '社會學解釋']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "表示人嘅出身、地位或資格，具有繼承性同唔可更改性嘅概念係",
+    "llm_output": "正確答案係 C. 身份。身份（Identity）通常表示一個人嘅出身、地位或資格，呢種身份係通過社會結構、文化價值觀、經濟背景等等因素形成嘅，而且具有繼承性同唔可更改性。契約（Contract）係一種法律協議，戶籍（Household registration）係指一個人嘅戶口登記，單位（Unit）則係指組織或企業嘅單元，呢三種概念都唔完全符合問題中所描述嘅特點。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '契約'], ['B', '戶籍'], ['C', '身份'], ['D', '單位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "倫斯基嘅社會分層理論，被稱為",
+    "llm_output": "正確答案係 C. 衝突論。倫斯基（John R. Commons）嘅社會分層理論係屬於衝突理論嘅一部份，佢嘅理論強調社會分層係基於權力嘅分配，而唔單止係資源嘅分配。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '符號論'], ['B', '功能論'], ['C', '衝突論'], ['D', '進化論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "城市市區人口尤其係大城市市區人口郊區化、大城市周圍衛星城鎮佈局分散化嘅城鎮化，被稱為",
+    "llm_output": "正確答案係 B. 逆城鎮化。\n\n逆城鎮化（Counterurbanization）係指市區人口離開大城市，移向郊區或者小城市嘅現象。呢個過程可能因為交通嘅改善、通訊技術嘅發展、或者人們對於生活質素嘅追求而發生。逆城鎮化通常會導致大城市周圍衛星城鎮嘅分散化，以及小城市同郊區嘅發展。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '同步城鎮化'], ['B', '逆城鎮化'], ['C', '滯後城鎮化'], ['D', '過度城鎮化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "由於喺一定社會經濟結構中所處嘅地位唔同，其中一個集團能夠佔有另一個集團嘅勞動，咁樣嘅集團被稱為",
+    "llm_output": "正確答案嘅選項係 B. 階級。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '階層'], ['B', '階級'], ['C', '社會分層'], ['D', '等級']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於社區構成要素嘅係",
+    "llm_output": "C. 區位\n\n社區構成要素通常包括經濟、政治、社會和文化等方面，而區位（位置或地點）雖然重要，但一般不被列為社區構成要素的一部分。社區是指一個共同居住的區域，其構成要素更侧重於社區內居民的互動和組織方式。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '經濟'], ['B', '政治'], ['C', '區位'], ['D', '人口']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "以成員嘅互動關係特徵為標準，可以把羣體分為",
+    "llm_output": "正確答案嘅選項係 A. 初級羣體同次級羣體。\n\n社會學中，根據成員之間嘅互動關係特徵，羣體可以分為初級羣體（Primary Groups）同次級羣體（Secondary Groups）。初級羣體通常係小規模嘅、長期嘅，並且關係密切，例如家庭同親密嘅朋友羣體。次級羣體則通常較大，係暫時性嘅或者係職場、組織等嘅成員，例如工作同事或者學校同學。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '初級羣體同次級羣體'], ['B', '成員羣體同參照羣體'], ['C', '內羣體同外羣體'], ['D', '正式羣體同非正式羣體']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "美國社會學家特納提出咗兩種形式嘅社會流動，即",
+    "llm_output": "正確答案嘅選項係 B. 競爭式流動同贊助式流動。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '結構流動同自由流動'], ['B', '競爭式流動同贊助式流動'], ['C', '垂直流動同水平流動'], ['D', '代內流動同代際流動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺文化嘅結構中，一輛馬車係",
+    "llm_output": "A. 文化特質",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '文化特質'], ['B', '文化集叢'], ['C', '文化模式'], ['D', '文化特性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "最早提出「社會控制」一詞並加以闡述嘅社會學家係",
+    "llm_output": "C.  羅斯",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '帕克'], ['B', '庫利'], ['C', '羅斯'], ['D', '米德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "屬於學校教育嘅潛功能嘅係",
+    "llm_output": "正確答案嘅選項係 C. 社會控制功能。\n\n社會學中，學校教育嘅潛功能包括社會化、社會選擇、社會控制、文化傳播等等。其中，社會控制功能指嘅係學校教育通過規範學生嘅行為，強化社會嘅價值觀念同秩序，幫助維持社會穩定。其他選項雖然亦係學校教育嘅功能，但唔係潛功能。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '文憑功能'], ['B', '社會選擇功能'], ['C', '社會控制功能'], ['D', '傳播知識功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "規範社會秩序同管理公共事務呢兩個方面嘅功能集中體現喺",
+    "llm_output": "正確答案係 C. 政治制度。規範社會秩序同管理公共事務通常由政治制度負責，例如政府嘅法律、政策同行政機關。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經濟制度'], ['B', '教育制度'], ['C', '政治制度'], ['D', '宗教制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國社會學界大多將家庭生命週期分為六個階段，其中從最後一個仔女出生之日起到第一個仔女離家之前，被稱為",
+    "llm_output": "正確答案係 A. 繼續撫育階段。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '繼續撫育階段'], ['B', '家庭擴展階段'], ['C', '家庭建立階段'], ['D', '家庭收縮階段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "中國嘅城鎮化應該建立以大城市為領導，以中等城市為骨幹，以各類小城鎮為基礎嘅多層次、多功能嘅網絡系統，呢種觀點屬於",
+    "llm_output": "B.  大中城市論",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '均衡發展論'], ['B', '大中城市論'], ['C', '多元模式論'], ['D', '小城鎮重點論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會學嘅功能中，嗰啲為咗瞭解同掌握發生咗乜事、乜嘢情況而進行嘅探索性研究係",
+    "llm_output": "正確答案係 C. 描述性功能。\n\n描述性功能係社會學中用嚟描述社會現象、社會結構同社會行為嘅研究。呢種研究主要集中喺描述社會事實，而唔係解釋或預測。解釋性功能係關於社會現象嘅原因或解釋，預測性功能係關於社會現象嘅未來趨勢，而規範性功能則涉及建議或制定社會政策。因此，為咗瞭解同掌握發生咗乜事、乜嘢情況而進行嘅探索性研究，屬於描述性功能。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '解釋性功能'], ['B', '預測性功能'], ['C', '描述性功能'], ['D', '規範性功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "功能上互相整合嘅一組文化特質，佢哋結合埋一齊共同發揮一項功能，以滿足人嘅某種需要，呢啲文化特質就組成一個",
+    "llm_output": "正確答案係 D. 文化模式。\n\n文化模式（Cultural Pattern）係指一組文化特質（ Cultural Traits）結合起嚟，互相配合得好好嘅，一齊發揮一項功能，以滿足人嘅某種需要。每個文化模式都係獨特嘅，並且與其他文化模式有互相影響。例如，飲食文化、服裝文化、語言文化等等。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '文化集叢'], ['B', '文化特性'], ['C', '文化功能'], ['D', '文化模式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "下列手段中屬於制度化社會控制嘅係",
+    "llm_output": "D. 社會輿論監督\n\n制度化社會控制通常指通過正式制度和組織來實施的控制，而社會輿論監督往往涉及媒體、公共觀感等正式機制對個體或組織行為的影響和制約。雖然習俗控制、宗教控制和道德控制都是社會控制的形式，但它們通常不被視為制度化社會控制，因為它們更多基於非正式的規範和信念。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '習俗控制'], ['B', '宗教控制'], ['C', '道德控制'], ['D', '社會輿論監督']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "上代人對下代人嘅文化傳遞同教化過程係",
+    "llm_output": "正確答案係 A. 正向社會化。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '正向社會化'], ['B', '反向社會化'], ['C', '重新社會化'], ['D', '基本社會化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "學校為咗促使學生努力學習，建立獎學金、跳級等激勵機制嚟獎勵學習成績優秀嘅學生，同時亦鼓勵其他學生迎頭趕上，呢個屬於",
+    "llm_output": "呢個屬於 D. 制度化控制。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '積極性控制'], ['B', '非制度化控制'], ['C', '消極性控制'], ['D', '制度化控制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據韋伯對合法統治嘅分類，世襲制屬於",
+    "llm_output": "A. 傳統型",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傳統型'], ['B', '魅力型'], ['C', '法理型'], ['D', '法治型']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據埃裏克森對個人心理成長歷程嘅劃分，18—30歲屬於",
+    "llm_output": "C.  成年早期",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '成年期'], ['B', '青年期'], ['C', '成年早期'], ['D', '成熟期']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "就全球化嘅發展進程睇，從 15 世紀末期到 18 世紀中期屬於",
+    "llm_output": "B. 開始階段",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '增強階段'], ['B', '開始階段'], ['C', '萌芽階段'], ['D', '起飛階段']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "1979年，全國哲學社會科學規劃會議籌備處喺北京召開「社會學座談會」，共同探討社會學嘅恢復同重建問題。喺座談會上，代表黨中央為社會學正名嘅係",
+    "llm_output": "A. 鄧小平",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '鄧小平'], ['B', '費孝通'], ['C', '趙紫陽'], ['D', '胡喬木']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「仁學」一書中首次提出「社會學」名稱嘅係",
+    "llm_output": "D. 康有為",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '嚴復'], ['B', '譚嗣同'], ['C', '章太炎'], ['D', '康有為']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺自然資源嘅分類中，天然氣屬於",
+    "llm_output": "C. 礦產資源",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '替代資源'], ['B', '環境資源'], ['C', '礦產資源'], ['D', '生物資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "「組織平衡理論」認為，組織嘅存在同成功取決於兩個因素之間嘅平衡關係，即",
+    "llm_output": "正確答案嘅選項係 C. 組織目標與成員需要。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '組織制度與社會文化'], ['B', '組織成員嘅貢獻與滿足'], ['C', '組織目標與成員需要'], ['D', '組織與環境']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "屬於人羣類別嘅係",
+    "llm_output": "C. 睇熱鬧嘅人羣\n\n人羣類別通常指咁一羣有共同特點或者聚集在一起嘅人。睇熱鬧嘅人羣符合呢個定義，因為佢哋通常因為同一事件或者活動而聚集在一起，即使佢哋之間可能冇直接嘅聯繫或者共同目標。其他選項雖然都涉及到人嘅集合，但更傾向於組織或者團體，而唔係一般意義上嘅人羣。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '訓練嘅軍隊士兵'], ['B', '消費者協會'], ['C', '睇熱鬧嘅人羣'], ['D', '工會組織嘅旅遊團']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "對涉及人哋最基本嘅社會生活需求嘅各個具體領域實現控制嘅形式係",
+    "llm_output": "正確答案係 D. 制度化控制。制度化控制指的是通過正式嘅社會制度，如法律、政策、教育制度等，來實現對社會生活嘅控制。這些控制形式通常係由政府、教育機構、商業組織等正式嘅社會機構來執行，並且係在社會中普遍接受嘅。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '微觀控制'], ['B', '習俗控制'], ['C', '外喺控制'], ['D', '制度化控制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "美國社會學家布勞同鄧肯提出咗一個美國社會中嘅",
+    "llm_output": "正確答案係 B. 社會流動模式。布勞（Blau）同鄧肯（Duncan）提出嘅模型稱為「布勞-鄧肯社會流動模式」，呢個模式係用嚟分析個人喺社會中嘅地位變遷同埋社會階層之間嘅流動。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '地位獲得模式'], ['B', '社會流動模式'], ['C', '社會分層模式'], ['D', '社會階級模式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "認為人類社會由工業社會進入信息社會係一個重要轉折嘅論點係",
+    "llm_output": "正確答案嘅選項係 D. 信息社會論。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '風險社會論'], ['B', '工業社會論'], ['C', '後工業社會論'], ['D', '信息社會論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "「食飯唔係文化，食乜、點樣食先係文化」，指嘅係文化嘅",
+    "llm_output": "正確答案嘅選項係 A. 累積性。\n\n呢句話嘅意思係， 食飯本身唔係一種文化， 而係食嘅嘢同埋食嘅方式先反映出文化嘅特點。 呢種觀點強調咗文化嘅累積性， 即文化係經過長時間積累而形成嘅， 包括咗飲食習慣、 價值觀念、 行為規範等方面。 因此， 食飯嘅具體內容同方式可以反映出一個社會或文化嘅累積性特徵。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '累積性'], ['B', '習得性'], ['C', '創造性'], ['D', '共享性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "本源制度包括",
+    "llm_output": "本源制度通常指的是構成社會基本結構的制度，這些制度存在於其他各種社會制度之中，並對它們具有決定性的影響。在這個定義下，本源制度主要包括：\n\n- 經濟制度\n- 政治制度\n- 法律制度\n- 婚姻家庭制度\n\n因此，根據這個定義，正確答案係：\n\nB. 政治制度",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '思想文化制度'], ['B', '政治制度'], ['C', '教育科學制度'], ['D', '婚姻家庭制度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "常見嘅恐怖活動形式之一係",
+    "llm_output": "D.  劫持飛機\n\n常見嘅恐怖活動形式之一係劫持飛機。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '黑社會'], ['B', '民族主義'], ['C', '極左翼'], ['D', '劫持飛機']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於偏差行為負功能嘅係",
+    "llm_output": "D. 加強社會團結\n\n偏差行為通常被認為是違反社會規範或法律的行為，而其負功能（即消極影響）包括損害個人同社會的利益、干擾正常嘅社會生活秩序、以及減弱其他人遵從規範嘅意願。加強社會團結通常不被視為偏差行為的負功能，反而可能是社會對某些共同價值或規範的承諾所產生的正功能。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '損害個人同社會嘅利益'], ['B', '幹擾正常嘅社會生活秩序'], ['C', '減弱其他人遵從規範嘅意願'], ['D', '加強社會團結']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "通過收集現存嘅以文字、數字、符號、畫面等信息形式出現嘅文獻資料，分析同探討各種個人同社會嘅關係及社會現象嘅一種研究方法，被稱做",
+    "llm_output": "D. 非介入性研究\n\n呢種研究方法被稱為非介入性研究，因為它主要係通過分析現存嘅文獻資料嚟研究社會現象，而唔會直接介入或者干擾研究對象。呢種方法通常包括咗文獻研究、內容分析、archive 研究等等，主要係通過收集同分析各種文獻資料嚟了解社會同個體之間嘅關係。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '問卷調查'], ['B', '實地研究'], ['C', '社會實驗'], ['D', '非介入性研究']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "認為社會分層係社會不平等嘅體現，係社會運行過程嘅需要，呢係社會分層理論流派中嘅",
+    "llm_output": "正確答案嘅選項係：\n\nB. 功能論",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '衝突論'], ['B', '功能論'], ['C', '進化論'], ['D', '交換論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺組織管理嘅研究中，科學管理理論嘅主要代表人物係",
+    "llm_output": "正確答案嘅選項係 A. 泰羅 (Frederick Winslow Taylor)。泰羅被視為科學管理理論嘅主要代表人物之一，佢嘅理論着重於通過科學嘅方法改善工作流程，提高生產效率。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '泰羅'], ['B', '梅約'], ['C', '巴納德'], ['D', '摩爾斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會學成為一門獨立學科後，始終係以社會調查研究所取得嘅經驗知識作為學科發展基礎嘅，呢係社會學嘅",
+    "llm_output": "正確答案係 D. 實證性特徵。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '整體性特徵'], ['B', '綜合性特徵'], ['C', '應用性特徵'], ['D', '實證性特徵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺美國社會學發展史上，對世界社會學發展最具影響力嘅首推",
+    "llm_output": "A.  芝加哥學派",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '芝加哥學派'], ['B', '結構學派'], ['C', '結構功能學派'], ['D', '功能學派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "吳某原本係一名返城知青，後進廠當咗工人，現喺下崗開咗一間飯館，收入頗豐。吳某完成嘅社會流動係",
+    "llm_output": "B. 垂直流動\n\n吳某從返城知青到工人，再到下崗後開設飯館，這過程中既有職業的變遷也有社會階層的變化，屬於垂直社會流動。垂直社會流動指的是個人在社會階層中的向上或向下流動，例如從較低階層上升到較高階層或從較高階層下降到較低階層。在這個例子中，吳某通過開飯館獲得較高收入，顯示出社會地位的提升。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '結構流動'], ['B', '垂直流動'], ['C', '水平流動'], ['D', '代際流動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "按住社會變遷嘅人為參與同控制程度，社會變遷可以分為",
+    "llm_output": "B. 自發變遷與有計劃變遷",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '整體變遷與局部變遷'], ['B', '自發變遷與有計劃變遷'], ['C', '社會進步與社會倒退'], ['D', '社會改革與社會革命']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會制度嘅構成要素中，社會制度運行嘅物質基礎係",
+    "llm_output": "B. 設備要素\n\n社會制度嘅運行需要物質基礎，設備要素就係提供呢種基礎嘅部分，例如社會中嘅建築物、交通設施、通訊設備等等。組織要素、價值要素和規範要素雖然都係社會制度嘅重要組成部分，但佢哋唔直接提供物質基礎。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '組織要素'], ['B', '設備要素'], ['C', '價值要素'], ['D', '規範要素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺美國社會學發展史上，對世界社會學發展最具影響力嘅，首推",
+    "llm_output": "B.  芝加哥學派",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '牛津學派'], ['B', '芝加哥學派'], ['C', '哥倫比亞學派'], ['D', '哈佛學派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "屬於教育制度嘅顯功能嘅係",
+    "llm_output": "A. 文憑功能",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '文憑功能'], ['B', '吸收剩餘勞動力嘅功能'], ['C', '縮小收入差距嘅功能'], ['D', '社會控制功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺組織管理嘅研究中，組織行為理論嘅主要代表人物係",
+    "llm_output": "正確答案嘅選項係 C. 巴納德。\n\n組織行為理論嘅主要代表人物係美國社會學家切斯特·巴納德（Chester Barnard），佢嘅著作《組織與管理》（The Functions of the Executive）於1938年出版，對組織理論同管理學有重大影響。巴納德強調組織係一個協作系統，而管理者嘅角色係促進組織內部嘅協作同溝通，以達到組織目標。佢嘅理論對後來嘅組織行為學、組織理論同管理學有深遠嘅影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '法約爾'], ['B', '洛斯奇'], ['C', '巴納德'], ['D', '摩爾斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "1838年喺「實證哲學教程」中首次提出社會學概念嘅思想家係",
+    "llm_output": "B. 孔德",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '馬克思'], ['B', '孔德'], ['C', '塗爾幹'], ['D', '斯賓塞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "韋伯主張從三項標準嚟進行社會分層，即",
+    "llm_output": "正確答案嘅選項係 A. 經濟、政治同教育。韋伯主張社會分層嘅三項標準就係經濟、政治同教育。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '經濟、政治同教育'], ['B', '政治、文化同教育'], ['C', '經濟、政治同文化'], ['D', '經濟、政治同社會']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社區研究中，全貌研究就係",
+    "llm_output": "D.  描述社區嘅各個唔同部分並解釋呢啲唔同部分嘅相互關係",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '把社區視為人類聚居生活嘅特殊嘅空間現象'], ['B', '分析「社會」同「社區」兩種對立嘅社會聯繫形式嘅類型'], ['C', '綜合性嘅記錄調查，較少理論分析'], ['D', '描述社區嘅各個唔同部分並解釋呢啲唔同部分嘅相互關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "介於農村社區同城市社區之間嘅中間形態係",
+    "llm_output": "A. 城鎮社區",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '城鎮社區'], ['B', '集鎮社區'], ['C', '村落社區'], ['D', '鄉鎮社區']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "明確指出：「社會學係指咁樣一門學科，即佢以解釋嘅方式嚟理解社會行動」嘅學者係",
+    "llm_output": "正確答案嘅選項係 B. 韋伯（Max Weber）。韋伯係社會學嘅三位創始人之一，佢嘗試將科學方法應用於研究社會行為，並且強調社會行動嘅意義和目的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '馬克思'], ['B', '韋伯'], ['C', '孔德'], ['D', '斯賓塞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "人喺成年以後嘅社會化，被稱為",
+    "llm_output": "C. 繼續社會化",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '基本社會化'], ['B', '次級社會化'], ['C', '繼續社會化'], ['D', '再社會化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "使個人改變以前嘅知識結構、價值標準同行為模式，建立起新嘅、符合社會要求同新嘅形勢需要嘅知識結構、價值標準同行為模式嘅過程，被稱為",
+    "llm_output": "B. 再社會化\n\n呢個過程涉及使個人改變以前嘅知識結構、價值標準同行為模式，而呢個係再社會化嘅特點，即係話個人需要重新學習同適應社會嘅要求。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '反社會化'], ['B', '再社會化'], ['C', '繼續社會化'], ['D', '正向社會化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "文化衝突嘅根源除咗民族性之外，更有",
+    "llm_output": "C. 階級性",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '地域性'], ['B', '國家性'], ['C', '階級性'], ['D', '階層性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "提出亞文化再生產機制，即勞工階層嘅子女係點樣再次成為勞工嘅社會學家係",
+    "llm_output": "正確答案嘅選項係 D. 威利斯 (Paul Willis)。他係一位英國社會學家，以佢對於教育、文化、以及亞文化嘅研究而聞名。特別係佢嘅著作《學校的叛逆》(Learning to Labour: How Working Class Kids Get Working Class Jobs)，呢本書中，威利斯探討咗勞工階層子女嘅校園行為如何形成一種亞文化，並最終影響到佢哋成為勞工階層成年人嘅社會再生產過程。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '布迪厄'], ['B', '伊利奇'], ['C', '塗爾幹'], ['D', '威利斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "以問題表格形式向被調查者收集相關資料嘅定量研究方法被稱為",
+    "llm_output": "D. 問卷調查",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '介入性研究'], ['B', '實地研究'], ['C', '社會實驗'], ['D', '問卷調查']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "表現喺勞動者身上嘅以勞動者數量同質量表示嘅資源，被稱為",
+    "llm_output": "正確答案係 D. 人力資源。\n\n人力資源（Human Resources，HR）係指一個組織或經濟體內可用嘅勞動力，包括勞動者嘅數量、質量、技能同知識，呢啲資源可以用嚟生產商品或提供服務。人力資源嘅發展同管理對於組織嘅成功非常重要。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '人際資源'], ['B', '人口資源'], ['C', '勞動資源'], ['D', '人力資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "法律嘅特徵表現喺公正性同",
+    "llm_output": "正確答案係 A. 強制性。\n\n法律嘅特徵表現喺公正性同強制性。法律嘅基本功能係保障社會秩序，維護公正，並且通過強制性手段執行。強制性指咩？指法律對所有人都有約束力，無論係社會地位高低、財富多寡都必須遵守法律，違法者將受到法律制裁。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '強制性'], ['B', '公開性'], ['C', '公平性'], ['D', '懲罰性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會問題往往唔係單個獨立地出現，而係呈羣狀出現，呢係社會問題嘅",
+    "llm_output": "正確答案係 C. 集羣性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '特殊性'], ['B', '複雜性'], ['C', '集羣性'], ['D', '普遍性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "被嚴復翻譯成中文「羣學肄言」嘅社會學著作係斯賓塞嘅",
+    "llm_output": "正確答案係 C.  「社會學研究」。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「社會學原理」'], ['B', '「社會靜力學」'], ['C', '「社會學研究」'], ['D', '「倫理學原理」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "內羣體同外羣體嘅分類標準係",
+    "llm_output": "內羣體同外羣體嘅分類標準係：\n\nC. 成員所喺嘅羣體\n\n解釋：\n社會學中，內羣體（In-group）係指一個人感覺自己屬於其中並與之認同嘅羣體。而外羣體（Out-group）則係指一個人唔屬於或者唔認同嘅羣體。呢種分類唔係基於羣體習慣、心理歸屬或者成員嘅互動關係，而係基於個人對自己歸屬嘅羣體嘅認知。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '羣體習慣'], ['B', '對羣體嘅心理歸屬'], ['C', '成員所喺嘅羣體'], ['D', '成員嘅互動關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗追求社會鼓勵嘅目標，採用咗唔被社會認可嘅手段，甚至係違法嘅手段，呢種偏差行為稱之為",
+    "llm_output": "B.  反叛\n\n呢種偏差行為，即為反叛，係指個體或集體為咗追求社會鼓勵嘅目標，但採用咗唔被社會認可或甚至係違法嘅手段。反叛行為反映咗對現有社會規範或價值觀嘅反抗，並且可能帶有政治、文化或個性嘅含義。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '創新'], ['B', '反叛'], ['C', '形式主義'], ['D', '退縮主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "以從事各種非農業生產為謀生手段嘅具有一定規模嘅人口所構成嘅異質性較高嘅地域性生活共同體，被稱為",
+    "llm_output": "正確答案係 B. 非農社區。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '集鎮社區'], ['B', '非農社區'], ['C', '小城鎮'], ['D', '城市社區']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "實現知識內化同累積，達到社會化目標嘅根本途徑係",
+    "llm_output": "B.  社會實踐\n\n社會學中，實現知識內化與累積，達到社會化目標的根本途徑是社會實踐。社會實踐包括個人在社會中的實際行動和經驗，通過這些行動和經驗，個人能夠學習和適應社會的規範、價值觀和文化，從而實現社會化。社會觀察、社會活動和社會規範都是社會實踐的一部分，但不是根本途徑。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '社會觀察'], ['B', '社會實踐'], ['C', '社會活動'], ['D', '社會規範']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "組織平衡論嘅提出者係",
+    "llm_output": "正確答案嘅選項係 D. 巴納德。 組織平衡論又稱為巴納德組織平衡論，由美國社會學家 切斯特·巴納德 (Chester Barnard) 於 1938 年提出。 泰羅 (Frederick W. Taylor) 係泰羅制嘅提出者，梅約 (Elton Mayo) 係人际关系理論嘅代表人物，而麥克雷戈 (Douglas McGregor) 則係 X 理論與 Y 理論嘅提出者。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '泰羅'], ['B', '梅約'], ['C', '麥克雷戈'], ['D', '巴納德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "關於社會制度嘅基本特徵，表述正確嘅係",
+    "llm_output": "正確答案嘅選項係 D. 社會制度具有抑揚性。\n\n社會制度是指社會中形成嘅一系列規範和組織化嘅行為模式，它們具有穩定的結構和功能。社會制度的抑揚性指的是它們可以同時包含積極（揚）和消極（抑）嘅面。例如，教育制度可以促進知識傳播和文化發展（揚），但同時也可能加深社會不平等和階層固化（抑）。因此，社會制度嘅基本特徵包括佢嘅功能和作用嘅多重性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會制度唔存在差異性'], ['B', '社會制度嘅核心係文化觀念'], ['C', '社會制度係人格化嘅權威力量'], ['D', '社會制度具有抑揚性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "要把社會問題嘅防治擺喺全球環境中進行考察，呢係社會問題防治嘅",
+    "llm_output": "正確答案嘅選項係：\n\nB. 全球性思想",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '整體性思想'], ['B', '全球性思想'], ['C', '長期性思想'], ['D', '全局性思想']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "人哋喺轉換工作過程中導致嘅失業稱為",
+    "llm_output": "C. 摩擦性失業",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結構性失業'], ['B', '週期性失業'], ['C', '摩擦性失業'], ['D', '季節性失業']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社區研究中，全貌研究就係",
+    "llm_output": "A. 描述社區嘅各個唔同部分並解釋呢啲唔同部分嘅相互關係。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '描述社區嘅各個唔同部分並解釋呢啲唔同部分嘅相互關係。'], ['B', '把社區視為人類聚居生活嘅特殊嘅空間現象。'], ['C', '分析「社會」同「社區」兩種對立嘅社會聯繫形式嘅類型。'], ['D', '綜合性嘅記錄調查，較少理論分析。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "「鏡中之我」理論嘅提出者係",
+    "llm_output": "D. 庫利 (Charles Horton Cooley) 是「鏡中之我」理論的提出者。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '加芬克爾'], ['B', '米德'], ['C', '戈夫曼'], ['D', '庫利']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "拒絕社會提供嘅目標，但仍然以符合社會規範嘅手段行事，呢種偏差行為係",
+    "llm_output": "正確答案係 B. 退縮主義。退縮主義（Retreatism）係社會學中一個概念，指的是個體或群體拒絕社會主流價值觀或目標，但同時避免直接反抗社會規範。相反地，他們選擇遵守社會規範，但並不追求社會認可的成就或目標。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '創新'], ['B', '退縮主義'], ['C', '形式主義'], ['D', '反叛']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "成人教育呢種過程屬於",
+    "llm_output": "B. 再社會化",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '基本社會化'], ['B', '再社會化'], ['C', '反社會化'], ['D', '發展社會化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺老師指導下嘅大學生實地研究屬於",
+    "llm_output": "D. 指導性合作\n\n喺老師指導下嘅大學生實地研究通常係一種指導性合作，因為老師擔當指導同監督嘅角色，幫助學生進行研究並學習相關嘅研究技巧。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自發性合作'], ['B', '契約式合作'], ['C', '傳統合作'], ['D', '指導性合作']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "以與社會主流或主導文化所唔同嘅文化表現出嚟嘅偏差行為，被稱為",
+    "llm_output": "正確答案係 B. 偏差行動 (Deviant behavior)。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '偏差文化'], ['B', '偏差行動'], ['C', '偏差習慣'], ['D', '偏差心理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "緩解同解決我國當代社會問題嘅根本途徑係",
+    "llm_output": "C. 解放同發展生產力。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '完善社會保障制度。'], ['B', '改革上層建築同意識形態。'], ['C', '解放同發展生產力。'], ['D', '發展科學技術。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "歷代相沿積久而成嘅被人哋普遍遵守嘅行為模式，係",
+    "llm_output": "正確答案係 D. 習俗。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '法律'], ['B', '宗教'], ['C', '道德'], ['D', '習俗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "以下選項中唔屬於偏差性社會問題嘅係",
+    "llm_output": "B. 食品安全問題",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '毒品問題'], ['B', '食品安全問題'], ['C', '腐敗問題'], ['D', '自殺問題']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "因唔被社會所認可而表現出嚟嘅偏差行為，被稱為",
+    "llm_output": "B. 偏差行動",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '偏差文化'], ['B', '偏差行動'], ['C', '偏差心理'], ['D', '偏差習慣']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "文化嘅整合功能包括價值整合、規範整合同",
+    "llm_output": "B.  符號整合",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '關係整合'], ['B', '符號整合'], ['C', '結構整合'], ['D', '功能整合']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "由個人努力、偶然嘅機遇等而導致嘅社會流動係",
+    "llm_output": "正確答案係 B. 自由流動。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '垂直流動'], ['B', '自由流動'], ['C', '結構性流動'], ['D', '水平流動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "常人方法學嘅創始人係",
+    "llm_output": "B. 加芬克爾 (Harold Garfinkel) 是常人方法學的创始人。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '戈夫曼'], ['B', '加芬克爾'], ['C', '庫利'], ['D', '米德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會問題研究嘅理論中，認為唔存在客觀意義上嘅社會問題嘅理論係",
+    "llm_output": "正確答案嘅選項係 A. 社會建構理論。\n\n社會建構理論（Social Constructivism）認為社會問題嘅定義同認知係由社會成員共同建構出嚟嘅，而唔係客觀存在。呢種理論強調語言、溝通、文化、社會慣例等元素喺創建社會現實嘅過程中嘅重要性。社會建構理論認為唔存在客觀意義上嘅社會問題，而只存在人們共同創造、維護、改變嘅社會慣例同實踐。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會建構理論'], ['B', '社會解組理論'], ['C', '行為偏差理論'], ['D', '文化衝突理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "低於維持身體有效活動最低生存指標嘅貧困狀態，被稱為",
+    "llm_output": "正確答案係 C. 絕對貧困。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '物質貧困'], ['B', '相對貧困'], ['C', '絕對貧困'], ['D', '精神貧困']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "自然災害嘅特徵係",
+    "llm_output": "B. 潛喺性、突發性同有限性",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '潛喺性、突發性同無限性'], ['B', '潛喺性、突發性同有限性'], ['C', '顯喺性、突發性同無限性'], ['D', '顯喺性、突發性同有限性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會學喺中國嘅傳播同發展過程中，1891年，康有為喺教學大綱分類學科中提出咗",
+    "llm_output": "正確答案嘅選項係：\n\nA. 羣學",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '羣學'], ['B', '人學'], ['C', '社會學'], ['D', '仁學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會制度嘅形成，有一種途徑係自發形成，即",
+    "llm_output": "正確答案係 A. 民俗—民德—制度。\n\n社會制度的形成往往經歷一個由俗成規到道德認同再到正式制度的過程。首先，一群體或社會中會形成一些共同遵守的行為規範，這些規範最初可能只是一些民俗或習慣，人們通過模仿和觀察他人來學習和遵守。隨著時間的推移，這些民俗逐漸內化為民德，即社會成員對這些規範產生了共同的道德認同和情感依賴。最終，這些民德可能會進一步發展成為正式的社會制度，例如法律或社會機構，它們具有強制力和正式的組織結構，用來維護和執行這些社會規範。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '民俗—民德—制度'], ['B', '民德—法律—制度'], ['C', '民俗—法律—制度'], ['D', '民德—民俗—制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "研究者喺某種程度上置身於觀察對象嘅環境同社會活動中，使自己成為被研究羣體中一員，呢種觀察方法被稱為",
+    "llm_output": "正確答案係 C. 參與觀察。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '文獻研究'], ['B', '社會實驗'], ['C', '參與觀察'], ['D', '問卷調查']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會學研究應該喺回答「將會點樣」嘅基礎上，進一步回答「應該點樣」嘅問題，呢指嘅係社會學嘅",
+    "llm_output": "正確答案嘅選項係 B. 規範性功能。\n\n社會學嘅規範性功能係指，除咗研究社會現象同埋識別社會問題外，社會學還試圖提出解決方案，以引導社會改變，使社會更加公平、合理。換句話講，社會學不僅研究「將會點樣」，還進一步探討「應該點樣」，從而提出對社會發展嘅指導性建議。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '預測性功能'], ['B', '規範性功能'], ['C', '解釋性功能'], ['D', '描述性功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "由一羣人所共同認可嘅、有意義地代表其自身以外嘅其他事物嘅嘢，被稱為",
+    "llm_output": "正確答案係 A. 符號。符號係一種代表其他事物嘅象征，可以係語言、圖像、手勢、聲音等等，而且可以喺一羣人之间共享同有特定嘅意義。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '符號'], ['B', '語言'], ['C', '語法'], ['D', '詞彙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "人哋有意識地規劃並喺較短時間內實現嘅社會局部調整或全面改良嘅過程，被稱為",
+    "llm_output": "正確答案係 D. 社會改革。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會革命'], ['B', '社會改良'], ['C', '社會進步'], ['D', '社會改革']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "炫耀性消費理論係由（ ）提出嘅。",
+    "llm_output": "A. 凡勃倫",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '凡勃倫'], ['B', '塗爾幹'], ['C', '韋伯'], ['D', '鮑德里亞']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "第二次世界大戰後，社會學理論逐步走向多元化，其中包括舒茲嘅",
+    "llm_output": "正確答案嘅選項係 C. 現象學社會學理論。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會批判理論'], ['B', '溝通理論'], ['C', '現象學社會學理論'], ['D', '結構化理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "根據美國社會學家特納嘅分析，任命某人某項榮譽稱號，屬於",
+    "llm_output": "根據美國社會學家特納的分析，任命某人某项荣誉称号，属于 B. 赞助式流动。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '垂直流動'], ['B', '贊助式流動'], ['C', '代內流動'], ['D', '結構性流動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "教育制度嘅潛功能體現喺",
+    "llm_output": "A. 實現社會化嘅功能",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '實現社會化嘅功能'], ['B', '縮小收入差距嘅功能'], ['C', '文憑功能'], ['D', '傳授知識與科學技術嘅功能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "英國城市學家霍華德提出，應該兼有城市同鄉村各自嘅優點，城鄉交融同羣體組合型城市，呢種城市理論被稱為",
+    "llm_output": "正確答案係 C. 田園城市。\n\nEbenezer Howard 提出嘅呢種理想城市模型，稱為「田園城市」，強調結合城市嘅便利同鄉村嘅寧靜，創造一個平衡嘅居住環境。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '區域整體發展理論'], ['B', '組合城市'], ['C', '田園城市'], ['D', '城市集中發展理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "兩種文化之間互相溝通、採借、衝突與融合嘅過程，被稱為",
+    "llm_output": "正確答案係 D. 文化交流。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '文化比較'], ['B', '文化交往'], ['C', '文化濡化'], ['D', '文化交流']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會制度或社會政策失調誘發嘅社會問題，被稱為",
+    "llm_output": "正確答案係 C. 制度性問題。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '結構性問題'], ['B', '政治性問題'], ['C', '制度性問題'], ['D', '規範性問題']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "用表演同比喻嚟說明日常生活中人同人之間相互作用嘅互動理論係",
+    "llm_output": "正確答案係 C. 擬劇論。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '符號互動論'], ['B', '常人方法學'], ['C', '擬劇論'], ['D', '自我理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗使組織更有效地實現佢嘅目標，必需使組織嘅結構同過程科學化同合理化，呢種觀點嚟自於",
+    "llm_output": "正確答案嘅選項係：\n\nA. 科學管理理論",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '科學管理理論'], ['B', '人際關係理論'], ['C', '組織行為理論'], ['D', '權變理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "由父母同多對已婚子女以及孫（外孫）子女組成嘅家庭，被稱為",
+    "llm_output": "正確答案係 A. 聯閤家庭。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '聯閤家庭'], ['B', '核心家庭'], ['C', '主幹家庭'], ['D', '完全家庭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "按住社會變遷嘅發展方向，社會變遷可分為",
+    "llm_output": "正確答案嘅選項係：\n\nA. 社會進化與社會倒退",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會進化與社會倒退'], ['B', '自發變遷與有計劃變遷'], ['C', '社會改革與社會革命'], ['D', '整體變遷與局部變遷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會制度起源於",
+    "llm_output": "D. 人類嘅需要\n\n社會制度通常被認為是起源於人類的基本需求，如食物、住所、安全、社會連結等。隨著人類社會嘅發展，人們需要建立各種制度來滿足這些需求，從而形成社會結構和秩序。因此，正確答案係 D. 人類嘅需要。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '統治者嘅需要'], ['B', '民俗民德'], ['C', '立法嘅制度'], ['D', '人類嘅需要']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "最古老同最具普遍意義嘅合作形式係",
+    "llm_output": "A. 制度化嘅傳統合作",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '制度化嘅傳統合作'], ['B', '指導性合作'], ['C', '自發性合作'], ['D', '契約式合作']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "家庭、鄰裏、夥伴羣體都屬於",
+    "llm_output": "正確答案為 D. 初級羣體。\n\n家庭、鄰裏、夥伴羣體通常被視為初級羣體（Primary Groups），因為它們係由親密、長期同共嘅關係所構成，並且對個體嘅社會化同身份認同有重要影響。初級羣體重通常被稱為「羣體生活嘅基本單位」。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '正式羣體'], ['B', '次級羣體'], ['C', '參照羣體'], ['D', '初級羣體']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "帕累託嘅社會分層理論被稱為",
+    "llm_output": "正確答案係 A. 精英階級理論。\n\n帕累託（Vilfredo Pareto）嘅社會分層理論主要講嘅係社會中權力同資源嘅分配，佢嘅理論強調嘅係社會上總有一小部分人掌握住大部分嘅權力同資源，而呢一啲人可以被稱為「精英」。因此，帕累託嘅社會分層理論又叫做精英階級理論。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '精英階級理論'], ['B', '社會結構論'], ['C', '政治循環論'], ['D', '文化發散論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "一種行為之所以被視為偏差行為，係因為社會嘅權力集團畀呢種行為貼上咗偏差嘅標籤，偏差行為只係一種被社會定義為偏差嘅行為。呢係解釋偏差行為嘅",
+    "llm_output": "正確答案係 A. 標籤理論。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '標籤理論'], ['B', '示範理論'], ['C', '文化傳遞理論'], ['D', '功能理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "體現統治階級意志，最具有強制力嘅社會行為規範被稱為",
+    "llm_output": "B. 法律",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '道德'], ['B', '法律'], ['C', '習俗'], ['D', '宗教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上第一個社會學系喺",
+    "llm_output": "B.  哥倫比亞大學",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '牛津大學'], ['B', '哥倫比亞大學'], ['C', '芝加哥大學'], ['D', '紐約大學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國嘅農村社區大致有兩種形態，即",
+    "llm_output": "D.  散村同集村",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '鄉鎮同村落'], ['B', '集村同鄉鎮'], ['C', '散村同鄉鎮'], ['D', '散村同集村']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "最早對社會建設嘅基本內涵做出說明嘅中國社會學者係",
+    "llm_output": "A. 費孝通",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '費孝通'], ['B', '吳文藻'], ['C', '孫中山'], ['D', '孫本文']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "勒龐從社會心理學視角對集體行為進行解釋嘅理論被稱為",
+    "llm_output": "正確答案係 A. 烏合之眾理論。勒龐的社會心理學視角對集體行為進行解釋的理論被稱為烏合之眾理論。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '烏合之眾理論'], ['B', '社會運動嘅資源動員理論'], ['C', '搭便車理論'], ['D', '價值累加理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺衝突理論中，達倫多夫提出嘅理論被稱為",
+    "llm_output": "正確答案係 B. 辯證衝突論。\n\n德國社會學家魯道夫・達倫多夫（Rudolf Dahrendorf）提出嘅辯證衝突論（conjunctural conflict theory），又稱為達倫多夫衝突論，係一種社會學理論，強調社會係由權力鬥爭同資源分配嘅不平等所驅動嘅。辯證衝突論認為社會結構同社會變遷源於社會階級之間嘅衝突，並且認為社會嘅穩定同秩序係由強勢嘅統治階級透過控制資源同強化社會制度來維持嘅。達倫多夫嘅理論與馬克思嘅階級鬥爭理論有相似之處，但係辯證衝突論更加強調社會關係同社會結構嘅暫時性同變化性。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '結構衝突論'], ['B', '辯證衝突論'], ['C', '階級鬥爭理論'], ['D', '功能衝突論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "利益羣體嘅核心關係係",
+    "llm_output": "A. 利益關係",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '利益關係'], ['B', '羣體關係'], ['C', '羣體成員交往'], ['D', '羣體規模']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "「文化唔係先天遺傳嘅本能，而係後天通過學習同模仿獲得嘅知識、經驗、技能同習慣等」，呢係指文化嘅",
+    "llm_output": "正確答案嘅選項係 C. 習得性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '累積性'], ['B', '共享性'], ['C', '習得性'], ['D', '創造性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "價值衝突理論認為，造成社會問題嘅根本原因係",
+    "llm_output": "價值衝突理論認為，造成社會問題的根本原因係文化價值或興趣上嘅衝突。因此，正確答案係：\n\nC. 文化價值或興趣上嘅衝突",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會解組'], ['B', '社會價值崩潰'], ['C', '文化價值或興趣上嘅衝突'], ['D', '個人社會化嘅失敗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "對影響社會事實發生、變化嘅主客觀因素，從其因果聯繫上加以說明嘅過程，指嘅係社會學嘅",
+    "llm_output": "正確答案嘅選項係 A. 解釋性功能。\n\n社會學嘅解釋性功能係指對於社會事實發生同變化嘅主觀同客觀因素，從因果聯繫上加以說明，從而對社會現象提供深入嘅理解同解釋。社會學會探討社會結構、文化、制度、個人行為等各方面因素點樣互動同影響，從而解釋社會現象嘅發生同演變。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '解釋性功能'], ['B', '描述性功能'], ['C', '預測性功能'], ['D', '規範性功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會唯名論嘅主要代表人物係",
+    "llm_output": "B.  塗爾幹 (Émile Durkheim)",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '韋伯'], ['B', '塗爾幹'], ['C', '馬克思'], ['D', '布勞']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "各種文化集叢唔係散漫嘅、孤立嘅，佢哋喺功能上互相聯繫、互相依存而構成一個特殊嘅文化整體，呢個文化整體就係",
+    "llm_output": "正確答案嘅選項係：\n\nB. 文化結構",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '文化模式'], ['B', '文化結構'], ['C', '文化特性'], ['D', '文化特質']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "美國心理學家哈維格斯特強調人嘅社會化係持續一生嘅思想，佢把人一生嘅社會化過程分為",
+    "llm_output": "美國心理學家哈維格斯特（E. G. Havelock）將人一生的社會化過程分為「七個階段」，因此正確答案為：\n\nD. 七個階段",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '五個階段'], ['B', '六個階段'], ['C', '八個階段'], ['D', '七個階段']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "1928年10月上海同南京等地嘅社會學教授喺上海成立",
+    "llm_output": "正確答案係 A. 中国社会学社。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '中國社會學社'], ['B', '西南社會學會'], ['C', '東南社會學會'], ['D', '中國社會學會']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "一對夫婦冇仔女並自願終生不育嘅家庭屬於",
+    "llm_output": "D. 核心家庭\n\n一對夫婦沒有子女且自願終生不育的家庭屬於核心家庭。核心家庭通常由父母和未婚子女组成，不包括其他親屬。在這個情況中，夫婦二人自己居住，沒有子女，因此符合核心家庭的定義。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '主幹家庭'], ['B', '完全家庭'], ['C', '聯閤家庭'], ['D', '核心家庭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "我國把「國民經濟發展計劃」改為「國民經濟同社會發展計劃」嘅時間係",
+    "llm_output": "B.  1981 年",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '1984年'], ['B', '1981年'], ['C', '1982年'], ['D', '1983年']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "個人逐漸學習同接受被現有政治制度採用同確定嘅政治信念、思想體系、社會制度同政治態度嘅過程，被稱為",
+    "llm_output": "正確答案嘅選項係 B. 政治社會化。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '行為社會化'], ['B', '政治社會化'], ['C', '制度社會化'], ['D', '思想社會化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "依家嘅家庭暴力同過去相比出現嘅新特點係",
+    "llm_output": "B. 攻擊性增強，後果嚴重\n\n依家嘅家庭暴力比起過去，新特點包括攻擊性增強，後果嚴重。這可能係因為社會對家庭暴力的認知提高，報導和數據收集更加精確，以及暴力行為可能隨著時間變得更為嚴重。其他選項描述嘅特點可能仍然存在，但並唔係新出現嘅特點。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '實行家庭暴力嘅主體係農民同工人'], ['B', '攻擊性增強，後果嚴重'], ['C', '丈夫毆打虐待妻子，妻子多以忍耐居多'], ['D', '實行家庭暴力嘅主體文化層次低']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "同心圓理論嘅提出者係",
+    "llm_output": "正確答案係 D. 伯吉斯（E. W. Burgess）。\n\n伯吉斯於1925年提出了同心圓理論，用嚟描述城市空間結構嘅發展。佢嘅理論將城市中心地區分為幾個同心圓區域，分別對應唔同嘅社會經濟功能同居民階層。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '滕尼斯'], ['B', '哈里斯'], ['C', '霍伊特'], ['D', '伯吉斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社區發展呢個概念由聯合國倡導並喺世界範圍內推廣係喺",
+    "llm_output": "A. 二戰以後",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '二戰以後'], ['B', '二戰以前'], ['C', '一戰以前'], ['D', '一戰以後']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "按住一整套條文規定，有某種組織體系加以推行嘅一種社會控制形式係",
+    "llm_output": "正確答案嘅選項係 D. 制度化控制。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '外部控制'], ['B', '內喺控制'], ['C', '宏觀控制'], ['D', '制度化控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "初級社會關係係次級社會關係嘅基礎，但社會關係大量表現為",
+    "llm_output": "B.  次級社會關係\n\n初級社會關係通常指個人與家庭、親屬、兒時玩伴等長期建立的親密關係。而次級社會關係則是指在特定情境或場合下形成的社會聯繫，例如同事、同學、商業夥伴等，這些關係通常較為正式和情境特定。雖然初級社會關係是基礎，但社會中大量的社會關係實際上是次級社會關係。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '血緣關係'], ['B', '次級社會關係'], ['C', '初級社會關係'], ['D', '結合關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "結構功能主義嘅主要代表人物係",
+    "llm_output": "B.  帕森斯同默頓\n\n結構功能主義嘅主要代表人物係帕森斯（Talcott Parsons）同默頓（Robert Merton）。塗爾幹（Émile Durkheim）同韋伯（Max Weber）係社會學嘅奠基人，但佢哋唔係結構功能主義嘅代表人物。克賽（Lewis Coser）同達倫多夫（Ralf Dahrendorf）係衝突理論嘅學者。庫利（Herbert C. Kelley）同米德（George Herbert Mead）係 Symbolic Interactionism（符號互動主義）嘅代表人物。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '塗爾幹同韋伯'], ['B', '帕森斯同默頓'], ['C', '克賽同達倫多夫'], ['D', '庫利同米德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "一般認為，社會學者對於社區嘅類型學研究始於德國社會學家",
+    "llm_output": "正確答案嘅選項係 A. 滕尼斯（Ferdinand Tönnies）。他提出了兩種社區類型：傳統的社區（Gemeinschaft）和現代社會的社區（Gesellschaft）。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '滕尼斯'], ['B', '伯吉斯'], ['C', '韋伯'], ['D', '林德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺組織控制中，對正在實際進行操作嘅組織成員嘅行為進行指導同監控，使組織成員嘅行為始終指向組織嘅目標，呢一過程被稱為",
+    "llm_output": "正確答案係 A. 現場控制。現場控制（On-site control 或 Concurrent control）又稱為過程控制，係指在組織成員實際進行工作嘅過程中，對佢哋嘅行為進行即時指導同監控，以確保佢哋嘅行為始終指向組織嘅目標。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '現場控制'], ['B', '反饋控制'], ['C', '預先控制'], ['D', '溝通控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會唯實論嘅主要代表人物係",
+    "llm_output": "D. 塗爾幹 (Émile Durkheim) 是社會唯實論的主要代表人物。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '布勞'], ['B', '馬克思'], ['C', '韋伯'], ['D', '塗爾幹']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "以具體嘅行動或動作顯示出嚟嘅偏差行為，被稱為",
+    "llm_output": "正確答案嘅選項係 C. 偏差行動。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '偏差心理'], ['B', '偏差文化'], ['C', '偏差行動'], ['D', '偏差習慣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會分層體系當中嘅唔同層次之間嘅上下流動係",
+    "llm_output": "正確答案係 D. 垂直流動。\n\n社會分層體系中，不同層次之間的上下流動被稱為垂直流動。這指的是個人在社會階層中的位置改變，例如從一個社會階層移動到另一個更高的或更低的社会階層。垂直流動可以是由教育、工作、婚姻、政策等因素所影響。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自由流動'], ['B', '代內流動'], ['C', '競爭式流動'], ['D', '垂直流動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "韋伯嘅主要著作有",
+    "llm_output": "D.  「新教倫理與資本主義精神」\n\n韋伯（Max Weber）嘅主要著作係「新教倫理與資本主義精神」，呢本書探討咗新教倫理對資本主義發展嘅影響。而其他嘅選項：\n\nA.  「宗教生活嘅基本形式」 - 呢本書嘅作者係塩谷勳，而唔係韋伯。\nB.  「社會分工論」 - 呢本書嘅作者係法國社會學家埃米尔·涂爾幹（Émile Durkheim）。\nC.  「社會靜力學」 - 呢本書嘅作者係奥古斯特·孔德（Auguste Comte），被認為係社會學嘅創始人之一。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「宗教生活嘅基本形式」'], ['B', '「社會分工論」'], ['C', '「社會靜力學」'], ['D', '「新教倫理與資本主義精神」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "要把社會問題防治嘅戰略任務納入國家經濟同社會發展規劃，呢係社會問題防治嘅",
+    "llm_output": "正確答案嘅選項係：\n\nD. 全局性思想",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '局部性思想'], ['B', '長期性思想'], ['C', '全球性思想'], ['D', '全局性思想']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "組成文化嘅最小單位係",
+    "llm_output": "A. 文化特質",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '文化特質'], ['B', '文化特性'], ['C', '文化模式'], ['D', '文化集叢']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "違反有關維護社會治安同公共秩序嘅規章條例嘅行為係",
+    "llm_output": "正確答案係 B. 違法行為。違反有關維護社會治安和公共秩序的規章條例的行為，通常被視為違法行為，因為這些行為侵犯了法律所規定的社會秩序和公共利益。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '違章行為'], ['B', '違法行為'], ['C', '違規行為'], ['D', '違例行為']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺失範理論中，既放棄咗社會鼓勵嘅目標，亦都拋棄咗社會認可嘅手段，呢種適應方式被稱為",
+    "llm_output": "正確答案係 C. 退縮主義。退縮主義（Retreatism）係社會學中失範理論（Anomie Theory）嘅一部份，由美國社會學家羅伯特·金·默頓（Robert K. Merton）提出。退縮主義指咁一種行為，即個人放棄咗社會認可嘅成功目標，同時亦都拋棄咗社會所鼓勵嘅達成目標嘅正常手段。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '反叛'], ['B', '革新'], ['C', '退縮主義'], ['D', '形式主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "一切違反既定嘅生活方式、風俗習慣嘅行為，都被稱為",
+    "llm_output": "正確答案係 A. 違例行為。在社會學中，一切違反既定生活方式、風俗習慣嘅行為被稱為違例行為。這種行為可能唔一定係違反法律，但係違反咗社會上普遍接受嘅行為規範。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '違例行為'], ['B', '違章行為'], ['C', '違法行為'], ['D', '違規行為']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "「水唔係文化，自來水先係文化」，指嘅係文化嘅",
+    "llm_output": "正確答案嘅選項係：D. 創造性\n\n「水唔係文化，自來水先係文化」，呢句話強調嘅係人類透過技術創新同社會結構嘅改變，創造出新嘅文化現象。自來水唔單止係一種自然嘅水源，更係一種經過人類加工、處理同傳播嘅資源，反映出人類對環境嘅影響同改造。因此，呢句話強調嘅係文化嘅創造性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '習得性'], ['B', '累積性'], ['C', '共享性'], ['D', '創造性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "唔同羣體針對稀有資源嘅鬥爭稱",
+    "llm_output": "正確答案係 C. 競爭。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '交換'], ['B', '合作'], ['C', '競爭'], ['D', '衝突']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "人口資源具有兩重屬性，即自然屬性同",
+    "llm_output": "正確答案係 A. 社會屬性。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會屬性'], ['B', '資源屬性'], ['C', '價值屬性'], ['D', '羣體屬性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "組織與初級羣體最顯著嘅區別係",
+    "llm_output": "正確答案嘅選項係：D. 對其成員有明確嘅角色規定。\n\n組織與初級羣體（如家庭、朋友等）嘅主要區別之一係組織通常對成員嘅角色和職責有更明確嘅規定，而初級羣體則比較靈活同非正式。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '有一定嘅權威體系'], ['B', '組織規模比較大'], ['C', '正式而比較明確嘅規定'], ['D', '對其成員有明確嘅角色規定']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會學產生嘅直接根源同關鍵因素係",
+    "llm_output": "C. 社會變革嘅需要",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自然科學嘅發展'], ['B', '社會經驗研究嘅積累'], ['C', '社會變革嘅需要'], ['D', '空想社會主義嘅產生']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "由於生產技術或社會體制方面嘅變革而引起嘅規模較大嘅社會流動，被稱為",
+    "llm_output": "正確答案係 C. 結構流動。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自由流動'], ['B', '垂直流動'], ['C', '結構流動'], ['D', '競爭流動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "一般由一對夫婦及其未婚仔女生活喺一齊而組成嘅家庭，被稱為",
+    "llm_output": "正確答案係 D. 核心家庭。\n\n核心家庭一般指由一對夫婦及其未婚子女生活在一起而組成的家庭，呢種家庭模式係社會中最常見同穩定嘅形式。核心家庭嘅成員通常包括父母同埋最多幾個未成年嘅子女，而且呢種家庭模式通常被視為社會嘅基本單位。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '完全家庭'], ['B', '主幹家庭'], ['C', '聯閤家庭'], ['D', '核心家庭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "第二次世界大戰後，社會學理論逐步走向多元化，其中包括吉登斯嘅",
+    "llm_output": "正確答案係 B. 結構化理論。\n\nAnthony Giddens 係 20 世紀後期著名嘅社會學家，佢提出嘅結構化理論強調社會結構同個體行為之間嘅互動關係，認為社會結構係通過個體嘅行動而再生產出嚟嘅，並且具有雙重性質，即係話結構可以影響行為，但同時行為又可以影響結構。所以，正確答案係 B. 結構化理論。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '現象學社會學理論'], ['B', '結構化理論'], ['C', '社會批判理論'], ['D', '溝通理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "第三部門組織同私人組織嘅最根本嘅區別喺於",
+    "llm_output": "D.  非營利性\n\n第三部門組織（例如非政府組織、慈善機構和社區服務機構）同私人組織嘅最根本嘅區別在於第三部門組織通常係非營利性嘅，即佢哋嘅主要目的唔在於賺取利潤或者為股東創造利潤，而係致力於實現某種社會目標或者提供社會服務。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '提供公共物品'], ['B', '有組織性'], ['C', '利潤最大化'], ['D', '非營利性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "初級羣體嘅規模一般喺",
+    "llm_output": "初級羣體（Primary group）係社會學中一個重要嘅概念，由社會學家喬治·梅奧（George Herbert Mead）提出。初級羣體通常指嗰種規模較小、關係密切同埋穩定嘅社交圈子，例如家庭、親戚、 close friends 等等。因此，初級羣體嘅規模一般較細，人數唔會太多。\n\n睇吓個個選項：\n\nA. 0 —10 人\nB. 0 —20 人\nC. 0 —30 人\nD. 0 —40 人\n\n雖然實際上初級羣體嘅人數可以有少少變化，但以社會學嘅普遍定義而言，初級羣體嘅規模一般較細。因此，正確答案應該係：\n\nA. 0 —10 人",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '0—10人'], ['B', '0—20人'], ['C', '0—30人'], ['D', '0—40人']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "唔正當地利用政府同公眾所賦予嘅權利同權威嚟為個人或個人所效忠嘅某個集團謀取利益，呢被稱為",
+    "llm_output": "正確答案係 C. 腐敗（Corruption）。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '恐怖主義'], ['B', '賄賂'], ['C', '腐敗'], ['D', '不當得利']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺關於偏差行為嘅理論解釋中，重視個人嘅精神、情緒、性格等心理因素對行為嘅影響嘅觀點屬於",
+    "llm_output": "正確答案嘅選項係 D. 心理學解釋。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '生物學解釋'], ['B', '社會學解釋'], ['C', '文化學解釋'], ['D', '心理學解釋']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "利益羣體可以分為機構性利益羣體、社團性利益羣體同自組性利益羣體三類，呢種分類係根據",
+    "llm_output": "正確答案嘅選項係 D. 羣體構成形式。利益羣體嘅分類係根據佢哋嘅構成形式，包括機構性（正式組織）、社團性（以社團形式存在）同自組性（非正式或自發組成）嘅利益羣體。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '羣體目標特點'], ['B', '羣體功能'], ['C', '羣體結構'], ['D', '羣體構成形式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會制度嘅構成要素中，制度嘅靈魂係",
+    "llm_output": "C.  價值要素\n\n在社會制度的構成要素中，制度嘅靈魂係價值要素。價值要素涉及咗社會制度中所承載嘅文化價值觀念、信仰、行為準則同社會成員間嘅共識。呢啲價值觀念同信念塑造咗社會行為同互動嘅基礎，並且賦予制度以意義同方向。設備要素、組織要素同規範要素都係構成社會制度嘅重要部分，但係價值要素先係制度嘅核心同靈魂。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '設備要素'], ['B', '組織要素'], ['C', '價值要素'], ['D', '規範要素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "價值衝突理論認為，造成社會問題嘅根本原因係",
+    "llm_output": "C.  文化價值或興趣上嘅衝突",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會解組'], ['B', '個人社會化嘅失敗'], ['C', '文化價值或興趣上嘅衝突'], ['D', '社會價值崩潰']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "被人哋稱為社會學之父嘅係",
+    "llm_output": "B. 孔德（Auguste Comte）被稱為社會學之父。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '韋伯'], ['B', '孔德'], ['C', '斯賓塞'], ['D', '塗爾幹']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會預警系統中，日常生活、學習、工作中認識同參與社會問題防治嘅知識屬於",
+    "llm_output": "正確答案嘅選項係 C.  警示教育體系。\n\n解釋：\n社會預警系統通常包括幾個主要組成部分，分別是監測系統、社會支持網、警示教育體系和社会幹預中心。其中，監測系統負責收集和分析可能預示着社會問題的數據和信息；社會支持網提供給個人或團體以應對問題的支持和資源；社會幹預中心則涉及直接的行動和策略來解決社會問題。\n\n而警示教育體系則是指透過教育和宣傳活動，提高公眾對社會問題的認識，並促使他們在日常生活、學習和工作中能夠識別和參與社會問題的防治。這部分系統的目標是透過知識和意識的提升，來預防問題的發生或減緩其影響。因此，認識和參與社會問題防治的知識屬於警示教育體系。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會支持網'], ['B', '監測系統'], ['C', '警示教育體系'], ['D', '社會幹預中心']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "基金會屬於",
+    "llm_output": "C. 第三部門",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '私人部門'], ['B', '公共部門'], ['C', '第三部門'], ['D', '第二部門']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會學界常以外喺嘅關聯形式為標準，把社會關係分為",
+    "llm_output": "正確答案嘅選項係：C. 地緣關係與業緣關係。\n\n社會學界常以社會關係外顯的關聯形式為標準，將社會關係分為地緣關係與業緣關係。地緣關係通常指個體或團體之間由於地理位置或居住環境相近而形成的社會聯繫，例如鄰居、同鄉等。業緣關係則是指由於共同職業、行業或組織背景而形成的社會聯繫，例如同事、同業等。這些關係的形成與維繫往往與社會結構和文化背景有密切關係，並且對個體的社會行為與社會現象的發展具有重要影響。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '結合關係與對立關係'], ['B', '初級社會關係與次級社會關係'], ['C', '地緣關係與業緣關係'], ['D', '血緣關係與地緣關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "夫妻一方喺外流動打工，一方留守嘅「半流動」家庭以及夫妻雙方都喺外流動打工嘅「雙流動」家庭被稱為",
+    "llm_output": "B. 留守家庭",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '丁克家庭'], ['B', '留守家庭'], ['C', '失獨家庭'], ['D', '重組家庭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "人文主義方法論嘅代表人物係",
+    "llm_output": "A. 狄爾泰同韋伯",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '狄爾泰同韋伯'], ['B', '瑞澤爾'], ['C', '塗爾幹'], ['D', '伽達默爾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "符號互動論嘅主要倡導者係",
+    "llm_output": "A. 米德 (George Herbert Mead)",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '米德'], ['B', '布魯默'], ['C', '庫利'], ['D', '戈夫曼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "以善惡評價嘅方式嚟評價同調節人哋行為嘅觀念同規範，係人類自我完善嘅一種價值標準，呢指嘅係",
+    "llm_output": "D. 道德",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '習俗'], ['B', '宗教'], ['C', '法律'], ['D', '道德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "導致我國食品安全問題嘅最根本原因係",
+    "llm_output": "B. 行業嘅誠信危機同社會責任缺失。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '化學污染、環境污染、生物毒素等使農產品安全生產受到威脅。'], ['B', '行業嘅誠信危機同社會責任缺失。'], ['C', '政府監管缺位。'], ['D', '國家同國民嘅食品安全意識薄弱。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "「後工業社會論」提出，處於主導地位嘅係",
+    "llm_output": "D. 專業與技術人員\n\n「後工業社會論」是由丹尼爾・贝尔（Daniel Bell）提出的，他認為在後工業社會中，專業知識和技術人員將處於主導地位。這是指社會從以製造業為基礎轉向以服務業、教育和醫療等領域為主的經濟結構，這些領域需要高度專業化和技術知識。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '信息技術'], ['B', '科學技術'], ['C', '理論知識'], ['D', '專業與技術人員']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺改革開放前，一個人要進入地位最高嘅幹部階層，一般既要具備政治上被認為可靠嘅家庭出身或階級身份，仲要喺政治上表現得忠誠同積極；而一個農民之所以好難從農村流動到城鎮就業，主要唔係因為呢種流動嘅成本大於其收益，而係因為城鄉分割嘅二元化制度安排限制農民入城，從根本上排除咗其改變農民身份及向上流動嘅可能性。呢種社會流動嘅機制屬於",
+    "llm_output": "A. 制度安排抑制先賦因素或自致因素而導致嘅社會流動。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '制度安排抑制先賦因素或自致因素而導致嘅社會流動。'], ['B', '制度安排本身導致嘅社會流動。'], ['C', '制度安排與先賦因素、自致因素混合導致嘅社會流動。'], ['D', '制度安排中嘅某啲漏洞或偏向，被一部分社會成員利用而導致嘅社會流動。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "人係組織中最重要嘅因素，人唔係簡單嘅生產工具，而係具有複雜嘅個性同多方面嘅需求，呢種觀點嚟自於",
+    "llm_output": "正確答案嘅選項係 D. 人際關係理論。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '組織行為理論'], ['B', '權變理論'], ['C', '科學管理理論'], ['D', '人際關係理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國嘅社區研究中，楊開道同許仕廉主持嘅係",
+    "llm_output": "正確答案係 B. 定縣調查。\n\n楊開道同許仕廉係中國早期社會學家，佢哋喺 1930 年代主持嘅定縣調查（定縣社會經濟調查）係中國現代社會調查嘅重要里程碑之一。呢項調查對中國農村嘅社會結構、經濟狀況、教育水平等方面進行咗深入研究，對後來嘅社會學研究有重大影響。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '易村調查'], ['B', '定縣調查'], ['C', '江村調查'], ['D', '清河調查']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "把違反道德期望嘅人同事物視為「病態嘅」，亦即係社會問題，呢種觀點係",
+    "llm_output": "正確答案嘅選項係 C. 社會病理學。\n\n社會病理學（sociological pathology）研究社會、文化、經濟、政治等社會生活各方面嘅病態現象，即係違反普遍接受嘅道德或行為規範嘅行為或狀況。社會病理學關注嘅係社會中嘅問題行為，而唔係個人嘅健康狀態。因此，將違反道德期望的人和事物視為「病態的」，屬於社會病理學嘅觀點。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會建構理論'], ['B', '社會解組理論'], ['C', '社會病理學'], ['D', '價值衝突理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "亞國家組織或祕密團體對非戰鬥目標發起嘅有預謀、有政治目嘅嘅，通常故意影響視聽嘅暴力行為，稱之為",
+    "llm_output": "正確答案係 D. 恐怖主義。\n\n恐怖主義通常指由國家以外嘅組織或個人進行嘅，針對非戰鬥目標（例如平民或非軍事政府目標）嘅有預謀暴力行為，旨在通過製造恐慌和不安來達到政治或意識形態嘅目的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '暴動'], ['B', '暴亂'], ['C', '騷亂'], ['D', '恐怖主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "對社會運行過程進行幹預，對社會系統施加定向影響，呢實質上係",
+    "llm_output": "正確答案係 A. 有計劃嘅社會變遷。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '有計劃嘅社會變遷'], ['B', '社會改革'], ['C', '社會進步'], ['D', '自發變遷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "進入20世紀之後，社區研究嘅一個重大發展，就係開拓咗對當代社會嘅城市社區嘅研究，其中最著名嘅學派就係",
+    "llm_output": "正確答案嘅選項係 D. 芝加哥學派。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '功能學派'], ['B', '衝突學派'], ['C', '牛津學派'], ['D', '芝加哥學派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺20世紀初嘅美國，開拓咗現代城市社區研究，使社區研究進入咗一個新階段嘅係",
+    "llm_output": "正確答案係 D. 芝加哥學派。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '哈佛學派'], ['B', '地理學派'], ['C', '功能學派'], ['D', '芝加哥學派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "一個社區中嘅各種組織或子系統喺本社區內部彼此之間嘅結構同功能關係，被稱為",
+    "llm_output": "正確答案係 D. 社區縱向格局。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '社區條狀格局'], ['B', '社區橫向格局'], ['C', '社區塊狀格局'], ['D', '社區縱向格局']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "被視為克服「市場失靈」最有效機制嘅社會組織係",
+    "llm_output": "A. 第三部門",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '第三部門'], ['B', '股份制公司'], ['C', '公共部門'], ['D', '政府']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "一種文化接受或吸收另一種文化嘅某啲文化元素或文化叢，融合入本文化嘅過程，被稱為",
+    "llm_output": "正確答案係 A. 文化採借。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '文化採借'], ['B', '文化傳播'], ['C', '文化排斥'], ['D', '文化融合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "以與社會主流或主導文化所唔同嘅文化表現出嚟嘅偏差行為，被稱為",
+    "llm_output": "B. 偏差行動\n\n呢個問題嘅正確答案係「偏差行動」。喺社會學入面，「偏差行為」通常指嘅係一種行為，而唔係文化嘅整體表現。偏差行為通常被理解為違反社會規範或主流文化價值嘅行為。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '偏差文化'], ['B', '偏差行動'], ['C', '偏差心理'], ['D', '偏差習慣']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "中國社會學者獨立進行嘅社會調查始於1923年，係",
+    "llm_output": "正確答案係 C. 晏陽初、李景漢嘅河北定縣調查。\n\n河北定縣調查係中國早期社會學研究中非常重要嘅一項田野調查，由晏陽初和李景漢合作進行。晏陽初係中國社會學嘅奠基人之一，佢哋嘅調查主要集中喺河北定縣（現稱定州市），目的在於深入了解中國農村嘅社會結構、經濟狀況、教育水平以及人民生活嘅方方面面。呢項調查對於後來中國社會學嘅發展具有深遠嘅影響。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '毛澤東嘅農村階級狀況調查'], ['B', '費孝通嘅江村調查'], ['C', '晏陽初、李景漢嘅河北定縣調查'], ['D', '陳達嘅民眾生活費用調查']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "個人地位獲得模式強調對獲得新職業具有重要意義嘅因素係",
+    "llm_output": "正確答案係 B. 本人第一個職業。個人地位獲得模式中，本人第一個職業通常被視為獲得新職業時的一個重要因素，因為它可以提供網絡、技能和資歷，這些都有助於日後的職業發展。雖然受教育水平（A）、父親的職業（D）和現職業（C）也會影響個人的社會地位，但它們通常不被視為是獲得新職業時最直接的決定因素。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '本人受教育水平'], ['B', '本人第一個職業'], ['C', '現職業'], ['D', '父親嘅職業']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "城市化嘅基本動力係",
+    "llm_output": "A. 工業化",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '工業化'], ['B', '經濟發展'], ['C', '服務業發展'], ['D', '農業發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "以血統、血緣同職業為標準，將社會成員劃分為唔同羣體或社會集團，呢種社會等級制度係",
+    "llm_output": "A. 種姓",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '種姓'], ['B', '等級'], ['C', '階層'], ['D', '種族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "衝突論社會階層理論嘅代表係",
+    "llm_output": "A. 達倫多夫 (Ralf Dahrendorf) 是衝突論社會階層理論的代表。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '達倫多夫'], ['B', '倫斯基'], ['C', '摩爾'], ['D', '戴維斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "職業學校教育屬於",
+    "llm_output": "B. 重新社會化",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '反向社會化'], ['B', '重新社會化'], ['C', '再社會化'], ['D', '基本社會化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "行為者之間為咗共同嘅目標而展開嘅較量、爭奪，呢種社會互動形式被稱為",
+    "llm_output": "正確答案係 D. 競爭。\n\n呢種社會互動形式描述嘅過程，係行為者之間為咗達成共同嘅目標而進行嘅较量或爭奪，正正就係競爭嘅特點。競爭可以係協作性嘅，亦可以係對抗性嘅，目的係爭取有限嘅資源或優勢。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '交換'], ['B', '衝突'], ['C', '合作'], ['D', '競爭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺計劃經濟時代，我國實行嘅城市管理體制係",
+    "llm_output": "B.  單位制",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '社區管理體制'], ['B', '單位制'], ['C', '科層制'], ['D', '城鄉二元管理體制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "假設有啲人天生就係唔守規矩嘅人，喺呢個假設基礎上形成嘅關於偏差行為嘅解釋係",
+    "llm_output": "A. 生物學解釋",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '生物學解釋'], ['B', '心理學解釋'], ['C', '社會學解釋'], ['D', '生理學解釋']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺失範理論中，不僅拒絕咗社會認可嘅目標同手段，仲試圖從個人觀念出發，以新嘅目標同手段嚟取代，呢種適應方式被稱為",
+    "llm_output": "C.  反叛\n\n失範理論（Anomie Theory）係由法國社會學家Émile Durkheim提出嘅理論，主要用嚟解釋社會變遷期間出現嘅社會秩序失調現象。根據呢個理論，當社會嘅規範同價值觀念發生衝突或者轉變時，個人可能會感到混亂或者失去方向。反叛（Option C）係指個人或者群體不僅拒絕接受現有嘅社會認可嘅目標同手段，仲試圖從個人觀念出發，提出新嘅目標同手段嚟取代現有嘅社會秩序。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '革新'], ['B', '形式主義'], ['C', '反叛'], ['D', '退縮主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "以農業生產為主要謀生手段嘅人哋為主體構成嘅同質性較高嘅地域性生活共同體，被稱為",
+    "llm_output": "正確答案係 B. 農村社區。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '集鎮社區'], ['B', '農村社區'], ['C', '城市社區'], ['D', '小城鎮']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "某學校為咗促使學生努力學習，建立獎學金、跳級等激勵機制嚟獎勵學生，呢一社會控制形式屬於",
+    "llm_output": "B. 積極性控制\n\n呢一社會控制形式係通過建立獎學金、跳級等激勵機制嚟獎勵學生，從而鼓勵學生努力學習。呢種方法著重於正面鼓勵同獎勵，而唔係懲罰或者限制，所以屬於積極性控制。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '消極性控制'], ['B', '積極性控制'], ['C', '硬控制'], ['D', '非制度化控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "以羣體嘅關係結構同組織功能為標準，可以把羣體分為",
+    "llm_output": "正確答案係 A. 正式羣體同非正式羣體。\n\n以羣體的關係結構和組織功能為標準，社會學家通常將羣體分為正式羣體和非正式羣體。正式羣體通常有明確的組織結構、規則和目標，例如公司、學校、政府機構等。非正式羣體則基於共同的興趣、活動或關係形成，例如朋友羣體、家庭或社交圈。其他選項如初級羣體（primary groups）和次級羣體（secondary groups）是根據羣體成員間的互動頻率和親密程度進行分類的。成員羣體（member groups）和參照羣體（reference groups）則是根據個人的歸屬感和比較標準來區分的。內羣體（in-groups）和外羣體（out-groups）則涉及個體對自身所屬羣體和未屬於其一部分的其他羣體的認知。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '正式羣體同非正式羣體'], ['B', '初級羣體同次級羣體'], ['C', '成員羣體同參照羣體'], ['D', '內羣體同外羣體']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "「當代中國社會階層結構研究報告」（2002）以職業分類為基礎，將全國成年社會成員劃分為",
+    "llm_output": "B. 10個階層",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '16個階層'], ['B', '10個階層'], ['C', '12個階層'], ['D', '9個階層']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "教育科學制度屬於",
+    "llm_output": "B. 本源制度",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '派生制度'], ['B', '本源制度'], ['C', '從屬制度'], ['D', '自發制度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "人哋認知與認同社會主導價值觀念嘅過程，被稱為",
+    "llm_output": "正確答案係 D. 價值觀念社會化。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '思維社會化'], ['B', '思想社會化'], ['C', '文化社會化'], ['D', '價值觀念社會化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "改革開放以嚟，我國城鎮階層結構大體分為",
+    "llm_output": "改革開放以嚟，我國城鎮階層結構大體分為 **D. 17 個階層**。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '18個階層'], ['B', '20個階層'], ['C', '16個階層'], ['D', '17個階層']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "要認識到社會問題嘅長期存在同反覆性，要有持久戰嘅意志同毅力，呢係社會問題防治嘅",
+    "llm_output": "正確答案嘅選項係：\n\nB. 長期性思想",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '整體性思想'], ['B', '長期性思想'], ['C', '全球性思想'], ['D', '全局性思想']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺文化嘅功能中，表現為提供知識同累積成果兩方面嘅係",
+    "llm_output": "B.  社會導向功能",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '整合功能'], ['B', '社會導向功能'], ['C', '價值功能'], ['D', '反功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "最早提出初級羣體概念嘅社會學家係",
+    "llm_output": "C. 庫利 (Charles Horton Cooley)",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '米德'], ['B', '默頓'], ['C', '庫利'], ['D', '霍曼斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺我國改革開放後嘅農村階層結構中，20世紀60年代服從國家安排回鄉嘅下放職工屬於",
+    "llm_output": "A. 離退休人員階層",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '離退休人員階層'], ['B', '社會管理者'], ['C', '專業技術人員'], ['D', '辦事人員']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會預警系統中，對人哋潛伏嘅心理同行為進行溝通、疏導、救助、防止偏差行為嘅發生，呢種任務屬於",
+    "llm_output": "B.  社會幹預中心\n\n喺社會預警系統中，對人哋潛伏嘅心理同行為進行溝通、疏導、救助、防止偏差行為嘅發生，呢種任務屬於社會幹預中心。社會幹預中心通常負責直接嘅社會工作和心理輔導，以及提供必要嘅支援和救助，以預防並解決社會問題。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '監測系統'], ['B', '社會幹預中心'], ['C', '社會支持網'], ['D', '調查研究機構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會學成為一個獨立學科後，始終係以社會調查研究所取得嘅經驗知識作為學科發展基礎嘅，呢反映嘅係社會學嘅",
+    "llm_output": "正確答案係 C. 經驗性特徵。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '整體性特徵'], ['B', '應用性特徵'], ['C', '經驗性特徵'], ['D', '綜合性特徵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "年輕一代用新知識、新觀念影響前輩嘅過程，被稱為",
+    "llm_output": "B.  反向社會化",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '價值社會化'], ['B', '反向社會化'], ['C', '文化社會化'], ['D', '反社會化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "1896年喺「仁學」一書中提出「社會學」名稱嘅學者係",
+    "llm_output": "C. 譚嗣同",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '梁啟超'], ['B', '康有為'], ['C', '譚嗣同'], ['D', '嚴復']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "李某原本係某機械廠廠長，後調到同級嘅公司當經理，李某完成嘅社會流動係",
+    "llm_output": "B.  水平流動\n\n呢個問題嘅答案係 B.  水平流動。李某從一個機械廠廠長調動到另一間同級別嘅公司擔任經理，呢種社會流動喺橫向發生，即係水平流動。水平流動指嘅係在同一社會層級或者職業之間嘅調動，而唔係向上（垂直流動）或者向下。自由流動通常指嘅係個人冇預設或者傳統路徑下嘅流動，而代際流動就係指喺不同世代之間嘅社會地位變化。在呢個例子裏面，李某嘅調動保持咗佢嘅社會地位，所以係水平流動。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '自由流動'], ['B', '水平流動'], ['C', '代際流動'], ['D', '垂直流動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "私人部門嘅優勢體現為",
+    "llm_output": "正確答案係 A. 效率優勢。私人部門通常被認為係比較靈活同效率高嘅，因為佢哋需要面對市場競爭，並且往往有較少嘅規章制度限制。呢種效率優勢使得私人部門能夠快速應對市場需求變化，創新同競爭。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '效率優勢'], ['B', '市場優勢'], ['C', '組織優勢'], ['D', '結構優勢']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺衝突理論中，劉易斯·科塞提出嘅理論被稱為",
+    "llm_output": "正確答案係 B. 辯證衝突論。\n\n劉易斯·科塞（Lewis Coser）係美國社會學家，佢嘅著作《辯證衝突論：社會變遷嘅結構》（\"The Conflict Sociology: A Structure for Social Change\"）中提出嘅理論被稱為辯證衝突論。科塞嘅理論建基於馬克思主義嘅衝突理論，但佢嘗試將之發展成為一個更普遍嘅框架，用嚟解釋社會變遷同社會結構中嘅衝突。辯證衝突論強調社會衝突嘅建設性作用，認為衝突可以引發社會變遷同創新。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '結構衝突論'], ['B', '辯證衝突論'], ['C', '階級鬥爭理論'], ['D', '功能衝突論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "行為者個人將社會規範內化為自己持有嘅觀念，從而自覺地按住社會規範嘅要求約束自己嘅社會行為，呢種控制形式係",
+    "llm_output": "正確答案係 C. 內化控制。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '內心控制'], ['B', '內喺控制'], ['C', '內化控制'], ['D', '內部控制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "美國社會學家霍曼斯同布勞創立嘅社會學理論係",
+    "llm_output": "美國社會學家霍曼斯（George C. Homans）和布勞（Eliot R. Smith）創立的社會學理論是交換理論。因此，正確答案是：\n\nC. 交換理論",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結構理論'], ['B', '衝突理論'], ['C', '交換理論'], ['D', '後現代理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社區發展中，應滿足社會居民嘅共同需求為重點，特別應從解決社區面臨嘅迫切問題入手，呢係社區發展嘅",
+    "llm_output": "正確答案嘅選項係：A. 民眾需要原則。\n\n社區發展中，滿足社會居民嘅共同需求，特別係從解決社區面臨嘅迫切問題入手，呢種做法符合「民眾需要原則」，即係以居民嘅需求為核心進行社區建設同發展。呢個原則強調嘅係直接回應居民嘅基本同迫切需要，從而提升社區嘅凝聚同向心力。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '民眾需要原則'], ['B', '自下而上與自上而下相結合嘅原則'], ['C', '自利原則'], ['D', '民主原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "人哋按住通行嘅社會行為規範模塑自身行為嘅過程，被稱為",
+    "llm_output": "正確答案係 A. 規範社會化。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '規範社會化'], ['B', '角色社會化'], ['C', '價值社會化'], ['D', '行為社會化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會同生物一樣亦係一個有機體，但社會唔係簡單嘅有機體而係「超有機體」，持呢種觀點嘅社會學者係",
+    "llm_output": "正確答案係 B. 塗爾幹（Émile Durkheim）。\n\n塗爾幹係社會學嘅奠基人之一，佢提出咗「社會事實」呢個概念，認為社會係一種獨特嘅存在，並且具有自己嘅結構同規律。塗爾幹用「超有機體」呢個詞嚟形容社會，強調社會唔單止係個體嘅簡單堆砌，而係一個具有自己特點同功能嘅整體。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '韋伯'], ['B', '塗爾幹'], ['C', '斯賓塞'], ['D', '孔德']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "社會學恢復重建後，費孝通話：「我認為社會學最根本嘅任務係要解決一個生活喺社會裏面嘅人，點樣學識做人嘅問題。」呢係指社會學嘅",
+    "llm_output": "正確答案嘅選項係 A. 教育功能。\n\n費孝通嘅講法強調咗社會學嘅一個核心任務，就係幫助個人學習如何在社會中適當地生活同做人。呢種學習同教育過程有助於個人適應社會，並且能夠促進社會中嘅協作同和諧。因此，社會學嘅教育功能係其最根本嘅任務之一，幫助個人發展所需嘅知識、技能同理解，以有效地參與社會生活。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教育功能'], ['B', '社會批評功能'], ['C', '研究功能'], ['D', '社會管理功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "霍爾提出，相距45釐米到約122釐米嘅距離係",
+    "llm_output": "B. 社會距離",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '公眾距離'], ['B', '社會距離'], ['C', '個人距離'], ['D', '親密距離']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-sociology",
+    "key_answer_type": "alphabet_option",
+    "question": "反映並決定其他一切關係嘅基礎嘅原始嘅關係——生產關係以及與之緊密相聯嘅經濟活動嘅規範同制度，被稱為",
+    "llm_output": "正確答案係 B. 本源制度。\n\n在社會學同馬克思主義理論中，本源制度（又稱為基礎制度）指的是生產關係以及與之緊密相聯的經濟活動的規範和制度。這些制度被視為社會結構嘅基礎，因為佢哋決定咗其他社會關係，包括政治關係、法律關係同文化關係。本源制度形成咗社會嘅經濟基礎，而其他制度則喺呢個基礎上發展出來，所以被稱為派生制度。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '自發制度'], ['B', '本源制度'], ['C', '派生制度'], ['D', '從屬制度']]",
+    "is_correct": 1
+  }
+]

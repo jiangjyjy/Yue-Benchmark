@@ -1,0 +1,1052 @@
+[
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「四個關於運動唔可能嘅悖論」係邊個提出嘅？",
+    "llm_output": "The correct answer is C. 芝諾 (Zeno of Elea). Zeno of Elea is known for his paradoxes of motion, which are four paradoxes that attempt to prove that motion is impossible. These paradoxes are:\n\n1. The Dichotomy Paradox: To move from point A to point B, you must first cover half the distance, then half of the remaining distance, and so on ad infinitum.\n2. The Achilles Paradox: The fastest runner in the world will never be able to catch up to a tortoise, even if the tortoise is moving very slowly, because the runner must first cover half the distance, then half of the remaining distance, and so on.\n3. The Arrow Paradox: An arrow in flight is never actually moving, because at any given instant it is occupying a specific point in space and is therefore at rest.\n4. The Stadium Paradox: A runner in a stadium is never actually moving, because at any given instant he is occupying a specific point on the track and is therefore at rest.\n\nThese paradoxes are known as the \"four paradoxes of motion\" and are attributed to Zeno of Elea.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '亞裏士多德'], ['B', '柏拉圖'], ['C', '芝諾'], ['D', '巴門尼德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於哲學思想嘅描述正確嘅係：",
+    "llm_output": "C. 以上都有",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '係各民族成員嘅觀念自覺同思想意識而形成嘅'], ['B', '貫穿於社會生活嘅各個層面'], ['C', '以上都有'], ['D', '係社會生活嘅時代精神']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "集體主義中嘅「集體」應該理解為",
+    "llm_output": "D. 成個社會成個國家嘅",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經濟所有制意義上嘅'], ['B', '某個小團體或者某個單位'], ['C', '以無產階級為核心嘅利益集團'], ['D', '成個社會成個國家嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "神話蘇格拉底最聰明，蘇格拉底點樣去證明神講錯咗？",
+    "llm_output": "C",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔再學習'], ['B', '同自認為有知識嘅人傾偈'], ['C', '詢問其他人對自己嘅睇法'], ['D', '同神辯論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "古代樸素唯物主義將世界嘅本原歸結為",
+    "llm_output": "A. 「原初」物質",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「原初」物質'], ['B', '理念世界'], ['C', '絕對觀念'], ['D', '客觀實喺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "價值理性同工具理性失去平衡嘅結果",
+    "llm_output": "B. 造成科技社會嘅異化",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人哋失去咗追求'], ['B', '造成科技社會嘅異化'], ['C', '人哋更加追求價值理性'], ['D', '社會發展落後']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "巴門尼德從邊度出發去追問事物嘅本質",
+    "llm_output": "According to the examples, the correct answer is:\n\nB. 從概念嘅角度追求關於事物嘅知識\n\nThis is because Parmenides, a Greek philosopher, is known for his concept of \"Being\" and his idea that reality is a single, unchanging, and eternal entity. He believed that the world can be understood by examining the concepts and categories that underlie our experience of reality, rather than by looking at the external world or the materials that make up things.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '從事物嘅外觀上追求關於事物嘅知識'], ['B', '從概念嘅角度追求關於事物嘅知識'], ['C', '從構成事物嘅材料上追求關於事物嘅知識'], ['D', '從時間上追求關於事物嘅知識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「國家篇」入邊柏拉圖為咗說明理念論用咗三個比喻，唔包括：",
+    "llm_output": "According to the text, the correct answer is:\n\nA. 月亮\n\nThe three analogies used by Plato in \"The Republic\" to explain his theory of forms are:\n\n* The Line (B)\n* The Allegory of the Cave (C)\n* The Sun (D)\n\nThe Moon is not mentioned as one of the analogies.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '月亮'], ['B', '線段'], ['C', '洞穴'], ['D', '太陽']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「使專精神，憂念天下，思維得失」出自",
+    "llm_output": "A classic philosophy quiz! 😊\n\nThe correct answer is A. 「莊子•天下」.\n\nThe quote \"使專精神，憂念天下，思維得失\" is from the chapter \"天下\" (The World) of the book \"莊子\" (Zhuangzi), a foundational text of Taoist philosophy.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「莊子•天下」'], ['B', '「荀子•哀公」'], ['C', '「漢書•張世安傳」'], ['D', '「素問•上古天真論」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "聯合國教科文組織將邊一日定為哲學日",
+    "llm_output": "According to the United Nations Educational, Scientific and Cultural Organization (UNESCO), the World Philosophy Day is celebrated on the third Thursday of November every year. Therefore, the correct answer is:\n\nC. 11月嘅第三個星期四",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '10月嘅第三個星期四'], ['B', '11月嘅第三個星期日'], ['C', '11月嘅第三個星期四'], ['D', '10月嘅第三個星期日']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "肯定思維同存在有同一性，呢個係",
+    "llm_output": "C. 形而上學嘅觀點",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唯心主義嘅觀點'], ['B', '辯證法嘅觀點'], ['C', '形而上學嘅觀點'], ['D', '可知論嘅觀點']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "沃爾夫聲稱，解釋康德嘅倫理學使其包含一組有限嘅約束：",
+    "llm_output": "The correct answer is C. 難以置信咁為道德價值設定咁一個「上限」.\n\nWolff's claim is that Kant's ethics includes a set of finite constraints, which implies that there is a limit to moral value, making it difficult to believe that moral values can be set as a \"ceiling\".",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '會產生一幅冇吸引力嘅道德聖徒圖景。'], ['B', '產生一個要求太高嘅理論。'], ['C', '難以置信咁為道德價值設定咗一個「上限」。'], ['D', '將理論轉化為契約主義嘅一種形式。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "人生觀係（）嘅反映。",
+    "llm_output": "B. 自我認識",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自然條件'], ['B', '自我認識'], ['C', '政治關係'], ['D', '社會存在']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "人同人之間通過一定方式進行接觸，喺心理或者行為上產生相互影響嘅過程係",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人際交往'], ['B', '人際溝通'], ['C', '公共活動'], ['D', '人際關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "亞裏士多德認為喺哲學屬於以下邊種人？",
+    "llm_output": "According to Aristotle, philosophy belongs to:\n\nD. 智者同哲學家",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全部城邦公民'], ['B', '君王'], ['C', '自由人'], ['D', '智者同哲學家']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "蘇格拉底嘅對話中，佢總係不斷咁去追問一個事物嘅本質規定係咩，而佢嘅對手經常用咩嚟回答？",
+    "llm_output": "B. 模糊定義",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唔知'], ['B', '模糊定義'], ['C', '抽象概念'], ['D', '具體事物']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "中國古代哲學家荀子講：「天行有常，唔為堯存，唔為桀亡。」呢係一種",
+    "llm_output": "D. 宿命論觀點",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '機械唯物論觀點'], ['B', '唯意志論觀點'], ['C', '樸素唯物論觀點'], ['D', '宿命論觀點']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "柏拉圖嘅理念論具有好強嘅（）色彩。",
+    "llm_output": "B. 神話",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '倫理'], ['B', '神話'], ['C', '政治'], ['D', '科學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "常言道：「滿招損，謙受益。」「虛心使人進步，驕傲使人落後。」呢兩句話共同反映咗唯物論中嘅原理",
+    "llm_output": "The correct answer is B. 人哋對客觀事物嘅反映係有差別嘅\n\nThis quote is reflecting the principle of \"materialism\" in philosophy, which emphasizes the importance of objective reality and the role of external factors in shaping human development. The quote suggests that people's reflections on objective reality can be different, and that humility and modesty can lead to progress, while arrogance and pride can lead to decline. This is in line with the materialist perspective, which emphasizes the importance of external factors in shaping human development.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '意識對事物發展起決定作用'], ['B', '人哋對客觀事物嘅反映係有差別嘅'], ['C', '事物係變化發展嘅'], ['D', '人嘅意識具有能動作用']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "集體主義原則嘅基本要求係",
+    "llm_output": "A. 集體利益高於個人利益，將集體利益放喺第一位",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '集體利益高於個人利益，將集體利益放喺第一位'], ['B', '唔顧個人利益，只顧集體利益'], ['C', '當個人利益同集體利益發生矛盾時，犧牲個人利益'], ['D', '喺維護集體利益嘅同時，兼顧個人利益']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "黑爾聲稱道德判斷邏輯嘅兩個基本特徵係：",
+    "llm_output": "The correct answer is B. 普遍性同規範性。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '結果主義同享樂主義。'], ['B', '普遍性同規範性。'], ['C', '契約主義同遵守規則。'], ['D', '一致性同連貫性。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於義理之學描述正確嘅係：",
+    "llm_output": "B. 講求經義同探究明理嘅學問",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '講求經義同探究明理嘅學問'], ['B', '以上都有'], ['C', '普遍皆宜嘅學術道理'], ['D', '論究言論文章及其內容道理嘅學問']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "蘇格拉底嘅「未經省察嘅人生唔值得過」嘅主張經常被人哋引用為人哋活動嘅中心主題。通過佢，蘇格拉底通常被理解為：",
+    "llm_output": "The correct answer is C. 只係做其他人做嘅事而唔考慮點解我哋應該做我哋做嘅事，好難被認為係有價值嘅、高尚嘅或者令人欽佩嘅。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '有時根本唔值得付出所有努力嚟詳細檢查生活及其問題； 有時最好只係「順其自然」。'], ['B', '坐喺度思考生活係否值得過係浪費時間；我哋應該將呢啲反思留畀脫口秀主持人、政治人物同宗教領袖。'], ['C', '只係做其他人做嘅事而唔考慮點解我哋應該做我哋做嘅事，好難被認為係有價值嘅、高尚嘅或者令人欽佩嘅。'], ['D', '雖然對生活採取反思嘅態度好有趣，有時甚至好重要，但大多數令生活值得過嘅嘢都唔值得研究。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "中國哲學肇端嘅形式係：",
+    "llm_output": "According to the examples you provided, the correct answer is:\n\nA. 關乎天文，關乎人文\n\nThis is because Chinese philosophy is often characterized by its focus on the relationship between heaven (天) and humanity (人), as well as the balance between the natural and human worlds. This is reflected in the concept of \"harmony between heaven and humanity\" (天人合一), which is a central theme in many Chinese philosophical traditions, such as Taoism and Confucianism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '關乎天文，關乎人文'], ['B', '以上都唔啱'], ['C', '神話傳奇'], ['D', '戰爭奪權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「外無勞形之事，內無思想之患」出自：",
+    "llm_output": "The correct answer is B. 道德經 (Tao Te Ching).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '周易'], ['B', '道德經'], ['C', '黃帝內經'], ['D', '老子']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "事物嘅概念，喺柏拉圖呢度具有咩樣嘅意義。",
+    "llm_output": "According to the examples provided, the correct answer is:\n\nD. 本體論",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '實踐論'], ['B', '唯心論'], ['C', '認識論'], ['D', '本體論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「天地之化日新」嘅哲學家係：",
+    "llm_output": "According to the examples, the correct answer is:\n\nA. 王夫之",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '王夫之'], ['B', '顧炎武'], ['C', '董仲舒'], ['D', '李贄']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "下面觀點屬於主觀唯心主義嘅係",
+    "llm_output": "The correct answer is C. 心外無物，心外無理 (There is no thing outside the mind, there is no reason outside the mind). This statement is a characteristic of subjective idealism, which holds that the only reality is the mind and its contents, and that the external world is merely a projection of the mind.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '理喺事先，事隨理變'], ['B', '理喺氣中，理隨事變'], ['C', '心外無物，心外無理'], ['D', '富貴喺天，死生由命']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「周易」變化移易嘅真理性結論體現喺：",
+    "llm_output": "The correct answer is B. 既未.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '以上都唔啱'], ['B', '既未'], ['C', '革鼎'], ['D', '乾坤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "中國古代婦女講求「德」、「容」、「言」、「功」。呢實際上係()嘅範疇。",
+    "llm_output": "D. 美德論",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '義務論'], ['B', '後果論'], ['C', '功利論'], ['D', '美德論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「哲學史講演錄」係邊個嘅著作",
+    "llm_output": "C. 柏拉圖",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蘇格拉底'], ['B', '黑格爾'], ['C', '柏拉圖'], ['D', '亞裏士多德']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「休謨問題」涉及以下邊個內容？",
+    "llm_output": "答案：A",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '真理作為非真理'], ['B', '幻象問題'], ['C', '因果問題'], ['D', '表裏統一問題']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "通種論係探討（）嘅關係。",
+    "llm_output": "The correct answer is A. 理念同事物 (Idea and Reality).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '理念同事物'], ['B', '理念同理念'], ['C', '事物同事物'], ['D', '理念同感覺']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "蘇格拉底認為咩係解決早期希臘自然哲學眾說紛紜、莫衷一係問題嘅關鍵？",
+    "llm_output": "D. 強調知識嘅作用，提高知識嘅地位",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '建立統一而權威嘅學派'], ['B', '建立集權政治'], ['C', '通過一系列戰爭使國家強盛後再整理哲學問題'], ['D', '強調知識嘅作用，提高知識嘅地位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「哲學」一詞係黃宗憲從邊度引介到中國學術界",
+    "llm_output": "According to the examples, the correct answer is:\n\nD. 德國",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '美國'], ['B', '英國'], ['C', '日本'], ['D', '德國']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "柏拉圖認為我哋能夠見到、感覺到嘅世界係？",
+    "llm_output": "D. 假象世界",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可感世界'], ['B', '鏡子世界'], ['C', '模仿世界'], ['D', '假象世界']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "喺討論「美」嘅問題時，蘇格拉底同希庇亞最大嘅唔同喺於？",
+    "llm_output": "D. 蘇格拉底追問「美係咩」，而希庇亞喺問「邊啲係美嘅」。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '蘇格拉底認為人嘅美來自於自然，唔可更改。希庇亞認為唔係。'], ['B', '蘇格拉底認為人係美嘅本質屬性，希庇亞認為唔係'], ['C', '蘇格拉底認為美係因為人同其他事物產生咗關聯，希庇亞認為唔係'], ['D', '蘇格拉底追問「美係咩」，而希庇亞喺問「邊啲係美嘅」。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "關於柏拉圖嘅「理念說」，下面說法錯誤嘅係？",
+    "llm_output": "The correct answer is B. 理念係事物喺通過模仿其他事物而得到嘅\n\nAccording to Plato's theory of forms, the forms or ideas (理念) are not derived from the imperfect and changing physical world, but rather the physical world is a mere shadow or imitation of the perfect and eternal forms. Therefore, option B is incorrect.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '理念係事物嘅共相'], ['B', '理念係事物喺通過模仿其他事物而得到嘅'], ['C', '理念係事物存在嘅根據'], ['D', '理念係事物追求嘅目嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "人嘅社會價值係指",
+    "llm_output": "The correct answer is A. 個體嘅人生對於社會同其他人嘅責任同貢獻",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '個體嘅人生對於社會同其他人嘅責任同貢獻'], ['B', '人生嘅一種社會實踐活動'], ['C', '個人對自我嘅肯定關係'], ['D', '社會對個人嘅尊重同滿足']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "秦漢時期，中國哲學稱為：",
+    "llm_output": "答案：B. 道術之學",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '哲學'], ['B', '道術之學'], ['C', '以上都唔啱'], ['D', '義理之學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學嘅基本問題係",
+    "llm_output": "The correct answer is A. 思維同存在嘅關係問題 (The relationship between thought and existence).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '思維同存在嘅關係問題'], ['B', '社會同自然嘅關係問題'], ['C', '實踐同理論嘅關係問題'], ['D', '政治同經濟嘅關係問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "康德聲稱理性嘅自然目的係",
+    "llm_output": "According to Immanuel Kant, the natural purpose of reason is:\n\nC. 產生知識\n\n(Kant's philosophy emphasizes the importance of reason in seeking knowledge and understanding, rather than mere pleasure, happiness, or good intentions.)",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '產生良好嘅意願'], ['B', '產生快感'], ['C', '產生知識'], ['D', '產生幸福']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "摩爾根認為人類社會嘅三個階段中第二個階段係：",
+    "llm_output": "According to the examples provided, the correct answer is:\n\nA. 文明期 (Civilized period)\n\nMorgan's theory of social evolution proposes that human societies progress through three stages: Savagery, Barbarism, and Civilization. The second stage is indeed Barbarism, not Civilized period.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '文明期'], ['B', '野蠻期'], ['C', '矇昧期'], ['D', '制度期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「判天地之美，析萬物之理」出自",
+    "llm_output": "A. 「莊子·天下」",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「莊子·天下」'], ['B', '「荀子·解蔽」'], ['C', '「荀子·哀公」'], ['D', '「素問·上古天真論」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "中國哲學呢個概念產生於咩時候？",
+    "llm_output": "答案：A. 19世紀末20世紀初",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '19世紀末20世紀初'], ['B', '20世紀末21世紀初'], ['C', '19世紀初'], ['D', '18世紀末']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "沃爾夫聲稱，最終，規範問題必須從以下方面進行評估：",
+    "llm_output": "B",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '道德觀點。'], ['B', '一種同對任何有序嘅價值體系嘅承諾無關嘅觀點。'], ['C', '個人完美嘅觀點。'], ['D', '美德嘅觀點。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "有關專家分析咗互聯網對青少年負面影響嘅三個主要方面：黃毒侵害、上網成癮、陷入虛幻。某地一名曾經係「學習標兵」嘅初三學生，因沉迷網絡遊戲無法自拔，留下兩份遺書後服毒身亡。針對呢種情況，一啲家長建議對學生唔應該開放互聯網。呢種睇法",
+    "llm_output": "答案：C",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '冇分清事物嘅重點同非重點'], ['B', '冇堅持用矛盾嘅分析方法睇問題'], ['C', '冇堅持用一分為二嘅觀點睇問題'], ['D', '冇分清事物嘅主流同非主流']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學所研究嘅一般規律，適用於",
+    "llm_output": "The correct answer is B. 客觀物質世界嘅一切領域 (The general laws of philosophy are applicable to all domains of the objective material world.)",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '客觀物質世界嘅某一領域'], ['B', '客觀物質世界嘅一切領域'], ['C', '社會嘅經濟同政治領域'], ['D', '客觀物質世界嘅某啲領域']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "愛情觀係人哋對於",
+    "llm_output": "C. 人生問題嘅根本觀點同態度",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '世界問題嘅根本觀點同態度'], ['B', '男女問題嘅根本觀點同態度'], ['C', '人生問題嘅根本觀點同態度'], ['D', '愛情問題嘅根本觀點同態度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「科學唔喺遠，就喺豬圈旁。」呢句話出自：",
+    "llm_output": "The correct answer is C. 郭沫若.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '季羨林'], ['B', '蕭紅'], ['C', '郭沫若'], ['D', '朱自清']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「理想國」係邊個嘅作品？",
+    "llm_output": "A classic philosophy quiz! 😊\n\nThe correct answer is A. 柏拉圖 (Plato).\n\n\"理想國\" (The Republic) is a famous philosophical work written by Plato, in which he explores the nature of justice, morality, and the ideal society.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '柏拉圖'], ['B', '芝諾'], ['C', '蘇格拉底'], ['D', '亞力士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "柏拉圖通過畫家畫張枱來比喻理念同具體事物嘅聯繫，咁喺呢個例子入邊，邊張枱先係真實嘅呢？",
+    "llm_output": "According to the examples, the correct answer is:\n\nD. 都唔係真實嘅\n\nExplanation: In Plato's allegory of the cave, the painter creates a shadow of the true reality, which is the ideal form or concept. The painter's creation is not the true reality, but rather a representation or shadow of it. Therefore, the correct answer is D. 都唔係真實嘅 (It is not the true reality).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '畫紙上嘅枱'], ['B', '理念嘅枱'], ['C', '畫家畫嘅對象嘅枱'], ['D', '都唔係真實嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「周易」嘅三層義理唔包括",
+    "llm_output": "According to the principles of the I Ching, the three layers of meaning are:\n\n1. 不易 (Bu Yi) - the unchanging and unyielding\n2. 變易 (Bian Yi) - the changing and yielding\n3. 易 (Yi) - the easy and effortless\n\nSo, the correct answer is:\n\nD. 便易 (Bian Yi is already an option, and 便易 is not a valid term in the I Ching)",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '不易'], ['B', '變易'], ['C', '簡易'], ['D', '便易']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學使用日常生活語言進行思考同表達時，對日常生活語言嘅邊一方面進行咗改造？",
+    "llm_output": "D. 語義",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '語法'], ['B', '語序'], ['C', '字形同字音'], ['D', '語義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "根據拜爾嘅理論，評估一個行為喺道德上係否允許嘅第二步係搵出：",
+    "llm_output": "B. 禁止佢嘅道德規則係否係真正嘅道德規則。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '係否可以贊同。'], ['B', '禁止佢嘅道德規則係否係真正嘅道德規則。'], ['C', '係否被法律禁止。'], ['D', '佢係否被一個羣體嘅道德規則所禁止。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "喺審判期間，蘇格拉底辯稱佢絕對唔會故意腐蝕他人，因為：",
+    "llm_output": "According to the dialogue in Plato's Apology, Socrates' defense is:\n\nC. 呢會令佢哋變得惡毒，然後佢哋會傷害佢。\n\nSo, the correct answer is C.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '如果佢咁做，佢好有可能會被捉到。'], ['B', '佢唔知點做。'], ['C', '呢會令佢哋變得惡毒，然後佢哋會傷害佢。'], ['D', '佢有責任唔咁做。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊項唔屬於哲學產生嘅條件",
+    "llm_output": "According to the examples provided, the correct answer is:\n\nD. 必須有思想嘅自由嘅條件\n\nThis option is not a necessary condition for the development of philosophy, as philosophy can exist and flourish in societies with limited freedom of thought.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人哋開始關注終極關懷嘅問題'], ['B', '人哋有時間去思考呢啲問題'], ['C', '生產力必須得到發展'], ['D', '必須有思想嘅自由嘅條件']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「村子富唔富，關鍵喺幹部。」呢說明喺認識同解決複雜問題時",
+    "llm_output": "D. 要著重把握矛盾嘅主要方面，善於分清主流同支流",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '要首先抓住主要矛盾，要善於抓中心'], ['B', '要堅持黨嘅領導同社會主義道路'], ['C', '要充分發揮共產黨員嘅先鋒模範作用'], ['D', '要著重把握矛盾嘅主要方面，善於分清主流同支流']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "人生嘅生活理想係指人哋對未來",
+    "llm_output": "According to the examples, the correct answer is:\n\nA. 物質生活、精神生活、家庭生活嘅嚮往同追求",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '物質生活、精神生活、家庭生活嘅嚮往同追求'], ['B', '職業及工作部門嘅嚮往同追求'], ['C', '物質生活嘅嚮往同追求'], ['D', '社會制度同政治結構嘅嚮往同追求']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "以下關於哲學說法唔正確嘅係",
+    "llm_output": "The correct answer is B. 哲學係一門科學 (Philosophy is a science).\n\nPhilosophy is often considered a distinct field from natural sciences, and it is not considered a scientific discipline in the classical sense. While philosophy may involve scientific inquiry and analysis, its primary focus is on fundamental questions about existence, knowledge, values, and reality, which are not necessarily subject to empirical verification or falsification.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '哲學同自然科學存在界限'], ['B', '哲學係一門科學'], ['C', '哲學為我哋確立咗價值取向'], ['D', '哲學冇統一嘅標準']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「存在就係被感知」係",
+    "llm_output": "According to the examples provided, the correct answer is:\n\nA. 主觀唯心主義觀點\n\nThe statement \"存在就係被感知\" (Existence is being perceived) suggests that existence is dependent on perception or consciousness, which is a characteristic of subjective idealism or subjective idealism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主觀唯心主義觀點'], ['B', '機械唯物主義觀點'], ['C', '樸素唯物主義觀點'], ['D', '客觀唯物主義觀點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「仁義喺身而色唔伐」中嘅「伐」係指：",
+    "llm_output": "According to the examples provided, the correct answer is B. 閥門.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '以上都唔啱'], ['B', '閥門'], ['C', '軍閥'], ['D', '進攻']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義條件下追求正當嘅個人利益係指",
+    "llm_output": "According to the examples provided, the correct answer is:\n\nC. 喺守法同合乎道德條件靠辛勤勞動而獲得",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '個人利益服從集體利益'], ['B', '集體利益同個人利益嘅兼顧性'], ['C', '喺守法同合乎道德條件靠辛勤勞動而獲得'], ['D', '唔一定考慮法律同道德要求獲得']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學內涵深奧。研究人員越嚟越專業，睇嘅人",
+    "llm_output": "The correct answer is B. 越嚟越少 (As research becomes more specialized, the number of people who can understand it decreases.)",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '越嚟越精'], ['B', '越嚟越少'], ['C', '越嚟越多'], ['D', '越嚟越廣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "唯物主義一元論同唯心主義一元論嘅對立屬於",
+    "llm_output": "B. 世界嘅本質問題上嘅對立",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '世界發展嘅動力問題上嘅對立'], ['B', '世界嘅本質問題上嘅對立'], ['C', '意識嘅本質問題上嘅對立'], ['D', '真理嘅本性問題上嘅對立']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學作為一門專門嘅學科，大約有幾多年嘅歷史？",
+    "llm_output": "According to the examples provided, the correct answer is:\n\nC. 兩千多年",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '一千多年'], ['B', '三千多年'], ['C', '兩千多年'], ['D', '四千多年']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「判天地之美，析萬物之理」出自",
+    "llm_output": "B. 「莊子•天下」",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「荀子•哀公」'], ['B', '「莊子•天下」'], ['C', '「荀子•解蔽」'], ['D', '「素問•上古天真論」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "4G網絡係集3G同WLAN於一體，並能夠快速傳輸數據、音頻、視頻同圖像等。4G傳輸速率比目前嘅家用寬帶ADSL(4M)快20倍，並能夠滿足幾乎所有用戶對於無線服務嘅要求。從哲學角度睇，4G通訊嘅出現",
+    "llm_output": "According to the philosophical perspective, the correct answer is:\n\nB. 係對客觀規律嘅利用同改造\n\nThis option corresponds to the philosophical concept of \"utilizing and transforming objective laws\" (對客觀規律嘅利用同改造), which refers to the ability to recognize and utilize the objective laws and principles that govern the world, and to transform them to achieve specific goals or purposes. In this case, the emergence of 4G communication technology can be seen as an example of utilizing and transforming objective laws, as it leverages the principles of physics and engineering to develop a new technology that can transmit data, audio, video, and images at high speeds.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '表明創新能推動生產關係嘅變革'], ['B', '係對客觀規律嘅利用同改造'], ['C', '係對客觀事物嘅認識同利用'], ['D', '表明運動係物質嘅唯一特性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "霍布斯聲稱，所有嘅自然法則都可以概括為一條格言：",
+    "llm_output": "According to Hobbes, the correct answer is:\n\nC. 永遠唔好將其他人當作達到你目嘅嘅手段。\n\nThis is a direct quote from Hobbes' book \"Leviathan\", where he states that the fundamental law of nature is \"to seek peace and follow it\" (which can be paraphrased as \"never use another person as a means to achieve your own ends\").",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '使幸福最大化。'], ['B', '喺你所做嘅一切中實踐美德。'], ['C', '永遠唔好將其他人當作達到你目嘅嘅手段。'], ['D', '唔好對其他人做你唔會對自己做嘅事。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "根據柏拉圖早期思想嚟睇，美嘅事物之所以係美嘅，係因為？",
+    "llm_output": "According to Plato's early thought, the reason why beautiful things are beautiful is because:\n\nA. 事物分有咗美嘅理念\n\nSo, the correct answer is A.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '事物分有咗美嘅理念'], ['B', '事物模仿咗其他美嘅事物'], ['C', '事物從根本上都係美嘅'], ['D', '人嘅感覺被事物佔有，從而「愛屋及烏」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "以下選項中，吻合柏拉圖嘅觀點嘅係",
+    "llm_output": "A. 理念就係回憶",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '理念就係回憶'], ['B', '學習就係回憶'], ['C', '感覺就係回憶'], ['D', '實踐就係回憶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "科學知識嘅研究對象一般具有以下邊種特性？",
+    "llm_output": "A. 可推理性",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '可推理性'], ['B', '盈利性'], ['C', '實用性'], ['D', '現實性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「理念」可以被視為？",
+    "llm_output": "According to the examples provided, the correct answer is:\n\nA. 真理嘅具體表現\n\nThis answer is consistent with the philosophical concept of \"idea\" or \"form\" in Plato's philosophy, which refers to the eternal and abstract reality that underlies the imperfect and changing world of sensory experience.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '真理嘅具體表現'], ['B', '假象嘅對立面'], ['C', '「類」嘅抽象概念'], ['D', '模仿嘅對象物體']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "知識同智慧最大嘅唔同之處喺於？",
+    "llm_output": "B. 主體本身嘅唔同",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '思考對象嘅唔同'], ['B', '主體本身嘅唔同'], ['C', '思考方法嘅唔同'], ['D', '思考目嘅嘅唔同']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於哲學嘅說法，唔正確嘅係（）",
+    "llm_output": "The correct answer is C. 任何哲學都係科學嘅\n\nThis statement is incorrect because philosophy is not necessarily a scientific discipline. While philosophy can involve scientific inquiry and methodology, it also encompasses other areas such as ethics, aesthetics, and metaphysics that are not necessarily scientific in nature.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '哲學係世界觀同方法論嘅統一'], ['B', '哲學係系統化、理論化嘅世界觀'], ['C', '任何哲學都係科學嘅'], ['D', '哲學係關於世界觀嘅學問']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "唯心主義嘅基本形式係",
+    "llm_output": "A. 辯證唯心主義同形而上學唯心主義",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '辯證唯心主義同形而上學唯心主義'], ['B', '經驗論唯心主義同為理論唯心主義'], ['C', '一元論唯心主義同二元論唯心主義'], ['D', '客觀唯心主義同主觀唯心主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "人生係",
+    "llm_output": "According to the examples provided, the correct answer is:\n\nC. 人嘅整個生命過程",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人嘅創造同享受嘅過程'], ['B', '人嘅痛苦而曲折嘅經歷'], ['C', '人嘅整個生命過程'], ['D', '人嘅自由生活嘅過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "個人基於一定嘅道德認識、自願選擇嘅有利於他人或者社會嘅行為係",
+    "llm_output": "D. 道德行為",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '道德規範'], ['B', '道德評價'], ['C', '道德品質'], ['D', '道德行為']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "喺西方哲學史上，最早對理念論提出批評嘅係",
+    "llm_output": "The correct answer is B. 亞裏士多德 (Aristotle).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '黑格爾'], ['B', '亞裏士多德'], ['C', '柏拉圖'], ['D', '蘇格拉底']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "中國哲學發端於",
+    "llm_output": "According to the examples, the correct answer is:\n\nA. 西周 (Western Zhou)\n\nThis is because the Western Zhou dynasty is considered the earliest period of Chinese philosophy, with the development of Confucianism, Taoism, and other philosophical schools.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '西周'], ['B', '黃帝時期'], ['C', '夏朝'], ['D', '商朝']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "信念係",
+    "llm_output": "D. 認識、情感、意志嘅統一",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '認識嘅科學性'], ['B', '一種思想認識同觀點'], ['C', '情感嘅豐富性'], ['D', '認識、情感、意志嘅統一']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "根據巴門尼德嘅觀點，以下邊個選項入邊嘅內容係一致嘅？",
+    "llm_output": "According to Parmenides' view, the correct answer is:\n\nA. 存在同思想\n\nParmenides believed that being (existence) and thought are identical, and that non-being (non-existence) is impossible to think about.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '存在同思想'], ['B', '非存在同思想'], ['C', '存在同非存在'], ['D', '非存在同邏輯推理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "西方哲學史中公元前6世紀到公元6世紀呢一時期嘅哲學叫做",
+    "llm_output": "D. 古代哲學",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '中古哲學'], ['B', '現代哲學'], ['C', '近代哲學'], ['D', '古代哲學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學係",
+    "llm_output": "D. 理論化同系統化嘅世界觀",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '科學嘅世界觀同方法論'], ['B', '辯證唯物主義同歷史唯物主義'], ['C', '科學性同革命性相統一嘅世界觀'], ['D', '理論化同系統化嘅世界觀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "皮浪學派又叫",
+    "llm_output": "B. 畫廊學派",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '逍遙學派'], ['B', '畫廊學派'], ['C', '折衷主義學派'], ['D', '懷疑主義學派']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "當我哋開心時，覺得太陽喺度笑，花兒喺度點頭；當我哋悲傷時，覺得雨如淚，風喺度喊。呢就係所謂嘅移情現象。移情現象體現嘅哲學觀點係",
+    "llm_output": "C. 意識係客觀事物喺人腦中形成嘅主觀映象",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '意識係人腦嘅機能'], ['B', '意識係客觀世界長期發展嘅產物'], ['C', '意識係客觀事物喺人腦中形成嘅主觀映象'], ['D', '意識能夠反作用於物質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "按照亞裏士多德嘅講法，幸福係：",
+    "llm_output": "According to Aristotle's philosophy, happiness is:\n\nB. 靈魂嘅活動符合美德。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一種工藝。'], ['B', '靈魂嘅活動符合美德。'], ['C', '一種心態。'], ['D', '一種感覺或者感覺。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「四根說」嘅提出者係",
+    "llm_output": "D. 恩培多克勒",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '阿那克薩戈拉'], ['B', '德謨克利特'], ['C', '留基波'], ['D', '恩培多克勒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "喺伊壁鳩魯睇嚟，美好生活所需嘅財富係：",
+    "llm_output": "According to the example, the correct answer is:\n\nC. 每個人都可以實現，但只有通過巨大嘅努力。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '僅供神靈使用。'], ['B', '僅供富人使用。'], ['C', '每個人都可以實現，但只有通過巨大嘅努力。'], ['D', '容易獲得。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "古希臘唯物主義嘅代表係",
+    "llm_output": "B. 德謨克利特",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蘇格拉底'], ['B', '德謨克利特'], ['C', '亞裏士多德'], ['D', '柏拉圖']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「愛美係人嘅天性」嘅講法出自",
+    "llm_output": "According to the sample questions, the correct answer is:\n\nC. 席勒",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '亞裏士多德'], ['B', '尼采'], ['C', '席勒'], ['D', '柏拉圖']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「巴門尼德斯篇」係邊個嘅作品？",
+    "llm_output": "A. 巴門尼德",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '巴門尼德'], ['B', '蘇格拉底'], ['C', '柏拉圖'], ['D', '康德']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「觀乎天文，觀乎人文」出自",
+    "llm_output": "A classic philosophy quiz! 😊\n\nThe correct answer is A. 「論語」 (Analects of Confucius). The phrase \"觀乎天文，觀乎人文\" (to observe the heavens and to observe human affairs) is a famous quote from the Analects of Confucius.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「論語」'], ['B', '「尚書」'], ['C', '「道德經」'], ['D', '「周易」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「畀我物質同運動，我將為你哋構造出世界嚟。」呢係邊個提出嘅？",
+    "llm_output": "A. 笛卡兒",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '笛卡兒'], ['B', '霍布斯'], ['C', '培根'], ['D', '洛克']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學上嘅一元論就係承認",
+    "llm_output": "A. 世界嘅本原只有一個",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '世界嘅本原只有一個'], ['B', '世界係發展嘅'], ['C', '世界喺本質上係精神'], ['D', '世界係物質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "2014年諾貝爾文學獎授予法國作家帕特里克 ·莫迪亞諾。諾貝爾獎委員會嘅頒獎詞稱，帕特里克 ·莫迪亞諾「用記憶嘅藝術展現咗德國佔領時期最難把握嘅人類嘅命運以及人哋生活嘅世界」。呢個體現咗",
+    "llm_output": "B. 文學作品係對人民羣眾生活嘅真實再現",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '意識能夠能動咁改造世界'], ['B', '文學作品係對人民羣眾生活嘅真實再現'], ['C', '意識對人嘅生理活動具有調節同控制作用'], ['D', '思維同存在具有同一性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "宇宙生成論又叫",
+    "llm_output": "A. 早期自然哲學",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '早期自然哲學'], ['B', '中期希臘哲學'], ['C', '前蘇格拉底哲學'], ['D', '晚期希臘哲學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "喺蘇格拉底睇嚟，哲學真正嘅研究對象係？",
+    "llm_output": "C. 人自己",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自然'], ['B', '倫理'], ['C', '人自己'], ['D', '人性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "王國維喺「人間詞語」中講：「詩人對宇宙人生，須入乎其內，又須出乎其外。入乎其內，故能寫之；出乎其外，故能觀之」。同呢段話最切近嘅美論係",
+    "llm_output": "According to the passage, the correct answer is B. 美喺關係 (Beauty in relation). The passage states that Wang Guowei's phrase \"入乎其內，又須出乎其外\" (entering into the inner and exiting from the outer) is closest to the aesthetic theory of \"美喺關係\" (beauty in relation).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '美喺形式'], ['B', '美喺關係'], ['C', '美喺生活'], ['D', '美喺距離']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「吾愛吾師，吾更愛真理。」出自邊位哲學家口中？",
+    "llm_output": "The correct answer is B. 蘇格拉底 (Socrates). The quote \"吾愛吾師，吾更愛真理\" (I love my teacher, I love truth even more) is a famous saying attributed to Socrates.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '柏拉圖'], ['B', '蘇格拉底'], ['C', '黑格爾'], ['D', '亞裏士多德']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "人生價值觀念係",
+    "llm_output": "B. 對人生目嘅同實踐活動進行認識及評價時所持嘅基本觀點",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '對人點解活著嘅基本觀點'], ['B', '對人生目嘅同實踐活動進行認識及評價時所持嘅基本觀點'], ['C', '對自我價值同社會價值嘅認識'], ['D', '對人嘅主體需要同客體滿足主體需要嘅關係嘅認識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "感覺經驗具有",
+    "llm_output": "According to the examples provided, the correct answer is:\n\nA. 絕對性同偶然性",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '絕對性同偶然性'], ['B', '相對性同偶然性'], ['C', '相對性同必然性'], ['D', '絕對性同必然性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義認為，哲學係",
+    "llm_output": "D. 無產階級嘅世界觀",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '理論化、系統化嘅世界觀'], ['B', '科學嘅世界觀'], ['C', '人哋自發形成嘅世界觀'], ['D', '無產階級嘅世界觀']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "叔本華嘅人生態度係咩？",
+    "llm_output": "B. 佢認為生活唔確定但值得。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '佢相信來世，所有嘅苦難都會消失。'], ['B', '佢認為生活唔確定但值得。'], ['C', '佢認為生活好艱難，但最終充滿希望。'], ['D', '佢認為生活失去咗意義。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-8b-instruct-hf",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「人為自然立法」嘅觀點屬於",
+    "llm_output": "答案：A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主觀唯心主義'], ['B', '宿命論'], ['C', '機械唯物主義'], ['D', '客觀唯心主義']]",
+    "is_correct": 1
+  }
+]

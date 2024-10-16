@@ -1,0 +1,1602 @@
+[
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "日耳曼人開始咗日耳曼蠻族大入侵係乜嘢時期。",
+    "llm_output": "B. 4世紀\n\n日耳曼蠻族大入侵，亦稱為「民族大遷徙」，主要發生在西羅馬帝國晚期，即4世紀末至5世紀。這段時期內，多個日耳曼部落如哥特人、汪达尔人、法兰克人等開始大規模地向羅馬帝國境內移動，最終導致西羅馬帝國的衰落和滅亡。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '2世紀'], ['B', '4世紀'], ['C', '3世紀'], ['D', '1世紀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "宗教信仰自由受（）保護，公民有信仰宗教嘅自由。",
+    "llm_output": "D. 憲法",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '國家'], ['B', '政府'], ['C', '條例'], ['D', '憲法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以佛教為國教嘅國家係",
+    "llm_output": "D. 泰國",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '馬來西亞'], ['B', '新加坡'], ['C', '日本'], ['D', '泰國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "早期基督教嘅贖罪方式係",
+    "llm_output": "C. 內心真誠懺悔同肉體自我折磨\n\n早期基督教強調個人內心的真誠懺悔和通過肉體的自我折磨來表達對罪的悔改。其他選項如向教會買贖罪券（A）是在中世紀時期才出現的現象，而祈求教會處死（B）和體罰同流放（D）並非早期基督教的標準贖罪方式。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '向教會買贖罪券'], ['B', '祈求教會處死'], ['C', '內心真誠懺悔同肉體自我折磨'], ['D', '體罰同流放']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "「特蘭託會議」係邊個教派召開嘅改革會議？",
+    "llm_output": "A. 天主教",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '天主教'], ['B', '東正教'], ['C', '基督教'], ['D', '新教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "第一個帶領法蘭克人皈依正統基督教信仰嘅人係",
+    "llm_output": "A. 克洛維",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '克洛維'], ['B', '路易'], ['C', '查理曼'], ['D', '丕平']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺佛教傳入中原之後，修築嘅第一座寺廟係",
+    "llm_output": "B. 白馬寺",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '桑耶寺'], ['B', '白馬寺'], ['C', '潭柘寺'], ['D', '少林寺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "「心經」中嘅觀自喺菩薩係指",
+    "llm_output": "C. 觀音菩薩",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '文殊菩薩'], ['B', '地藏菩薩'], ['C', '觀音菩薩'], ['D', '彌勒菩薩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "君士坦丁皇帝於公元325年主持召開咗第一次基督教世界大會，即",
+    "llm_output": "B. 尼西亞公會議",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '羅馬會議'], ['B', '尼西亞公會議'], ['C', '君士坦丁會議'], ['D', '米蘭會議']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "早期嘅北傳佛教經典多用乜嘢語言寫",
+    "llm_output": "C. 梵文\n\n早期的北傳佛教經典多使用梵文書寫。梵文是印度古代的一種標準書面語言，許多重要的佛教經典都是以這種語言保存下來的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '藏文'], ['B', '漢文'], ['C', '梵文'], ['D', '僧伽羅文']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "雲南地區傣族、德昂族、阿昌族、布朗族、佤族嘅信徒，信仰嘅宗教主要係",
+    "llm_output": "C. 小乘佛教",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '大乘佛教'], ['B', '伊斯蘭教'], ['C', '小乘佛教'], ['D', '藏傳佛教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "希臘神話最初係由乜嘢開始嘅。",
+    "llm_output": "D. 混沌\n\n根據希臘神話，宇宙最初是一片混沌（Chaos），從這片混沌中誕生了其他神祇和物質。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '烏蘭諾斯'], ['B', '赫拉'], ['C', '宙斯'], ['D', '混沌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "「壇經」，係歷史上除佛經外，唯一被尊稱為「經」嘅佛教典籍。此書作者係",
+    "llm_output": "A. 六祖慧能",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '六祖慧能'], ['B', '南天竺菩提達摩'], ['C', '釋迦牟尼'], ['D', '五祖宏忍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "最早到中國傳教嘅耶穌教會人員係",
+    "llm_output": "C. 利瑪竇\n\n不過，如果從最早期的接觸來看，A. 沙勿略（St. Francis Xavier）在1552年曾試圖進入中國傳教，但最終未能成功進入中國內地，他在澳門附近的一個小島上去世。而利瑪竇（Matteo Ricci）則是在1583年成功進入中國，並成為最早在中國內地進行系統性傳教活動的耶穌會士之一。因此，如果嚴格按照「最早到中國傳教」來看，沙勿略雖然試圖傳教但未成功，而利瑪竇則是成功進入中國並展開傳教工作的第一位耶穌會士。但根據常見的歷史敘述，利瑪竇通常被視為最早成功在中國傳教的耶穌會士。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '沙勿略'], ['B', '羅耀拉'], ['C', '利瑪竇'], ['D', '羅明堅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "世界最大嘅佛學院五明佛學院位於邊度？",
+    "llm_output": "B. 喇榮",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '道孚'], ['B', '喇榮'], ['C', '爐霍'], ['D', '德格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "天台宗以邊部經為依據",
+    "llm_output": "D. 法華經",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '華嚴經'], ['B', '圓覺經'], ['C', '楞嚴經'], ['D', '法華經']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "藏傳佛教四大教派係指",
+    "llm_output": "D. 寧瑪、薩迦、噶舉、格魯",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '寧瑪、薩迦、噶舉、覺囊'], ['B', '寧瑪、薩瑪、噶舉、覺囊'], ['C', '寧瑪、薩瑪、噶舉、格魯'], ['D', '寧瑪、薩迦、噶舉、格魯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "世界三大宗教中，佛教創立時間相當於",
+    "llm_output": "B. 春秋戰國時期\n\n佛教由釋迦牟尼在大約公元前5世紀創立，這個時間大致對應中國歷史上的春秋戰國時期。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '西周時期'], ['B', '春秋戰國時期'], ['C', '秦朝'], ['D', '漢朝']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "黃心川巖翻出，償拜道捏出三教合一雖則部係立足於本軟而融據其他兩者，但歸視結底實行嘅遷得係()嘅組合影式",
+    "llm_output": "A. 以上都唔啱\n\n根據問題描述，黃心川巖翻出，償拜道捏出三教合一，雖然立足於某一宗教而融合其他兩者，但具體的組合方式在選項中沒有完全對應的描述。因此，最合適的答案是 \"以上都唔啱\"。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '以上都唔啱'], ['B', '以來為主，儒、道攜手為輔'], ['C', '以道為主，儒，偶攜手為輔'], ['D', '以便為主，佛，造拂手為輔']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "瑞士宗教改革家領袖係",
+    "llm_output": "B. 烏利斯·茨溫利",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '馬丁·路德'], ['B', '烏利斯·茨溫利'], ['C', '亨利八世'], ['D', '加爾文']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "被中國佛教尊為「八宗之祖」嘅係",
+    "llm_output": "C. 龍樹菩薩",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '觀音菩薩'], ['B', '馬明菩薩'], ['C', '龍樹菩薩'], ['D', '準提菩薩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "東方三聖係指",
+    "llm_output": "C. 藥師如來，日光菩薩，月光菩薩",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '藥師如來，彌勒菩薩，地藏菩薩'], ['B', '藥師如來，觀音菩薩，地藏菩薩'], ['C', '藥師如來，日光菩薩，月光菩薩'], ['D', '藥師如來，普賢菩薩，文殊菩薩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋所居嘅娑婆世界，經中稱為",
+    "llm_output": "D. 五濁惡世",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '七濁惡世'], ['B', '三濁惡世'], ['C', '十濁惡世'], ['D', '五濁惡世']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "對中國文化思想同知識分子影響最大嘅宗派係",
+    "llm_output": "B. 禪宗\n\n禪宗對中國文化思想及知識分子的影響非常深遠，它強調直覺體悟、心性本淨和頓悟成佛的理念，在文學、藝術、哲學等多個領域都有重要影響。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '華嚴宗'], ['B', '禪宗'], ['C', '三論宗'], ['D', '法相宗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "下列事件發生嘅先後順序係①穆罕默德兵臨麥加城下②穆罕默德病逝③穆罕默德出走麥地那④穆罕默德出家隱修",
+    "llm_output": "正確答案係 A. ④③①②\n\n解釋如下：\n1. 穆罕默德最初在赫拉洞（Cave of Hira）進行冥想和隱修，這是他接受首次啟示的地方，時間大約是公元610年。\n2. 由於受到麥加當地多神教徒的迫害，穆罕默德於622年從麥加遷移到麥地那，這一事件被稱為「希吉拉」（Hijrah），標誌著伊斯蘭曆的開始。\n3. 630年，穆罕默德率領穆斯林軍隊兵臨麥加城下，最終和平進入麥加，並清除了克爾白內的偶像，使麥加成為伊斯蘭教的聖城。\n4. 穆罕默德於632年病逝於麥地那。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '④③①②'], ['B', '①②③④'], ['C', '③①②④'], ['D', '④③②①']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "保鎮認為其實喺六道之中，雖然每一道修具有平等嘅意義，但具有殊勝性嘅係。",
+    "llm_output": "B. 人\n\n在佛教的六道輪迴觀念中，人類道被視為具有殊勝性，因為人類有足夠的智慧去理解佛法，同時也面臨著足夠的苦難以激發尋求解脫的動力。其他道或缺乏理解佛法的能力，或處境過於極端，不利於修行。因此，人類道被認為是修行成佛的最佳機會。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '天'], ['B', '人'], ['C', '阿修羅'], ['D', '地獄']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "三界係指欲界、色界同",
+    "llm_output": "正確答案係 C. 無色界。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無欲生'], ['B', '天界'], ['C', '無色界'], ['D', '空界']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺猶太教中，把佢哋所期盼嘅救主稱作",
+    "llm_output": "B. 「受膏者」，即（彌賽亞）",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '上帝'], ['B', '「受膏者」，即（彌賽亞）'], ['C', '耶和華'], ['D', '摩西']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "將真理告知大眾喺佛語中稱作",
+    "llm_output": "D. 法施",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '心施'], ['B', '行施'], ['C', '財施'], ['D', '法施']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "供養父母係屬於邊種福田",
+    "llm_output": "D. 孝田",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '悲田'], ['B', '敬田'], ['C', '恩田'], ['D', '孝田']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教嘅精神本質係將人提到光明聖潔嘅神性生活，而中世紀教會嘅實踐活動卻將基督徒哋引向咗",
+    "llm_output": "C. 最粗鄙野蠻嘅肉慾放縱之中\n\n中世紀教會某些時期確實存在著腐敗和道德淪喪的情況，這些情況與基督教原本提倡的聖潔生活背道而馳。教會中的某些成員可能會濫用權力，從而導致信徒陷入肉慾放縱等行為。不過，這並不代表所有中世紀教會的實踐活動，也並非教會的官方教義或普遍現象。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '犬儒主義之中'], ['B', '唯靈主義之中'], ['C', '最粗鄙野蠻嘅肉慾放縱之中'], ['D', '神祕主義之中']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個係古希臘神祕主義思想嘅集大成者，佢所創立嘅理念世界同感覺世界、靈魂同肉體向對立嘅二元論哲學，後來成為（基督神學）嘅主要思想來源。",
+    "llm_output": "A. 柏拉圖",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '柏拉圖'], ['B', '蘇格拉底'], ['C', '斐洛'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "印度中觀理論嘅創始人係",
+    "llm_output": "B. 龍樹大師",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蓮池大師'], ['B', '龍樹大師'], ['C', '道信大師'], ['D', '鳩摩羅什']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "羅馬帝國早期嘅基督教曾以()而著稱。",
+    "llm_output": "C. 信仰堅定同道德高尚",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '內心懺悔同救贖'], ['B', '信仰強化同排除異己'], ['C', '信仰堅定同道德高尚'], ['D', '原罪與懺悔']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "學佛應以乜嘢為首要？",
+    "llm_output": "D. 正見\n\n在佛教中，正見（正確的理解和觀念）被視為修行的基礎，是八正道的第一步，對學佛者來說非常重要。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '正定'], ['B', '持戒'], ['C', '佈施'], ['D', '正見']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "東正教最高首領被稱為",
+    "llm_output": "D. 牧首",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '樞機主教'], ['B', '大主教'], ['C', '都主教'], ['D', '牧首']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "根據猶太人嘅敘述，早喺公元前13世紀末，喺猶太人之間就出現咗一位先知係",
+    "llm_output": "B. 摩西",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基督'], ['B', '摩西'], ['C', '保羅'], ['D', '彼得']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "三寶係指",
+    "llm_output": "C. 佛法僧",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '天地人'], ['B', '戒定慧'], ['C', '佛法僧'], ['D', '斷捨離']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教哲學嘅發展科分為兩個階段，即早期嘅教父哲學同後期嘅",
+    "llm_output": "B. 經院哲學",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '神祕主義哲學'], ['B', '經院哲學'], ['C', '懷疑主義哲學'], ['D', '唯靈主義哲學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "菩薩教化眾生必須博學多聞，要具備五明，其中內明係指",
+    "llm_output": "D. 佛學",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯學'], ['B', '工藝學'], ['C', '語言學'], ['D', '佛學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "一切有為法，如夢幻泡影，如露亦如電，應作如係觀。此段經文出自",
+    "llm_output": "C. 金剛經",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '地藏經'], ['B', '六祖壇經'], ['C', '金剛經'], ['D', '華嚴經']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛經有云「人有三事勝過諸天」，即",
+    "llm_output": "D. 憶念梵行勤勇",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '戒定慧'], ['B', '斷捨離'], ['C', '貪瞋癡'], ['D', '憶念梵行勤勇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "分達賴同班禪兩大系嘅係",
+    "llm_output": "正確答案係 A. 新黃教。新黃教，亦稱為格魯派，係藏傳佛教中嘅一個重要宗派，達賴喇嘛同班禪額爾德尼分別係呢個宗派嘅兩個最重要嘅轉世系統。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新黃教'], ['B', '紅教'], ['C', '老黃教'], ['D', '白教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "猶太人嘅祖先()人大約喺（公元前14世紀上半葉）由沙漠侵入巴勒斯坦，同當地嘅迦南人逐漸融合，形成農耕嘅以色列部落。",
+    "llm_output": "A. 希伯來人",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '希伯來人'], ['B', '腓尼基'], ['C', '亞述'], ['D', '迦太基']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "斷除三界煩惱嘅聖人係",
+    "llm_output": "A. 阿羅漢\n\n阿羅漢是佛教中的一種果位，指已经达到解脱，断除了一切烦恼，不再受生死轮回之苦的圣者。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '阿羅漢'], ['B', '菩薩'], ['C', '佛'], ['D', '神明']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "羅素把邊個稱為「古代偉大哲學家中嘅最後一個人」。",
+    "llm_output": "A. 普羅提諾\n\n伯特蘭·羅素在《西方哲學史》中將普羅提諾視為古代偉大哲學家中的最後一位，因為普羅提諾的哲學思想標誌著古希臘哲學的一個重要轉折點，他的新柏拉圖主義對後世有著深遠的影響。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '普羅提諾'], ['B', '柏拉圖'], ['C', '斐洛'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "1073年，教會嘅強硬派人物希爾德布蘭登上咗教皇寶座，此人即係",
+    "llm_output": "B. 格里高利七世",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '卜尼法斯'], ['B', '格里高利七世'], ['C', '克雷芒七世'], ['D', '英諾森三世']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "羅馬帝國對基督徒進行嘅最後一次大規模鎮壓發生喺邊個嘅執政時期。",
+    "llm_output": "A. 戴克裏先",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '戴克裏先'], ['B', '圖拉真'], ['C', '尼祿'], ['D', '狄奧多西']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "城邦時期嘅宗教文化生活主要係",
+    "llm_output": "A. 祭神",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '祭神'], ['B', '競技會'], ['C', '祭天'], ['D', '廟會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教最初係從乜嘢發展而嚟嘅。",
+    "llm_output": "B. 猶太教",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '伊斯蘭教'], ['B', '猶太教'], ['C', '太陽神教'], ['D', '萬神教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "希臘神話中嘅雷電之神，亦係奧林匹斯眾神之首係邊個。",
+    "llm_output": "A. 宙斯",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '宙斯'], ['B', '阿波羅'], ['C', '該亞'], ['D', '烏蘭諾斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教嘅出家人姓「釋」係由邊個所提出嘅？",
+    "llm_output": "D. 道安大師",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '弘忍大師'], ['B', '玄奘大師'], ['C', '六祖大師'], ['D', '道安大師']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "淨土三經係指",
+    "llm_output": "A. 阿彌陀經、無量壽經、觀無量壽經",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '阿彌陀經、無量壽經、觀無量壽經'], ['B', '楞嚴經、圓覺經、法華經'], ['C', '般若經、華嚴經、法華經'], ['D', '金剛經、心經、壇經']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一位讚普喺自己登位後開始實行大規模滅佛運動",
+    "llm_output": "A. 朗達瑪",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '朗達瑪'], ['B', '赤松德讚'], ['C', '赤德祖讚'], ['D', '赤祖德讚']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係中世紀宗教裁判所迫害嘅所謂「異端」",
+    "llm_output": "B. 「巫士」同猶太人\n\n注意：雖然中世紀宗教裁判所確實有時會針對被指為「巫士」的人進行審判，但猶太人並不是宗教裁判所主要迫害的對象。猶太人在歐洲歷史上遭受過多種形式的迫害，但這些通常是由其他社會和政治因素驅動的，而非直接由宗教裁判所負責。因此，這個選項中的「猶太人」部分不完全符合中世紀宗教裁判所的主要目標。然而，根據題目的設置，最不符合「異端」定義的選項應該是 B。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '信奉他教之人'], ['B', '「巫士」同猶太人'], ['C', '具有新思想嘅科學先驅'], ['D', '持唔同宗教見解者']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "聖經四部福音書指嘅係馬太福音、馬可福音、路加福音同",
+    "llm_output": "C. 約翰福音",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '彼得福音'], ['B', '保羅福音'], ['C', '約翰福音'], ['D', '基督福音']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教史上第一座精舍係",
+    "llm_output": "A. 祇園精舍",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '祇園精舍'], ['B', '竹林精舍'], ['C', '鹿野苑'], ['D', '山谷精舍']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "按產生時間嘅先後順序排列世界三大宗教，應該係①基督教②佛教③伊斯蘭教",
+    "llm_output": "A. ②①③",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '②①③'], ['B', '②③①'], ['C', '③②①'], ['D', '①②③']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "邊部經係佛無問自說",
+    "llm_output": "A. 圓覺經\n\n《圓覺經》是一部佛無問自說的經典，意指佛陀未經他人提問而自說此經。這部經主要講述了圓滿覺悟的法門，是大乘佛教中的一部重要經典。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '圓覺經'], ['B', '阿彌陀經'], ['C', '壇經'], ['D', '金剛經']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教最早傳入中國嘅經典係",
+    "llm_output": "D. 四十二章經",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '般若經'], ['B', '法句經'], ['C', '阿含經'], ['D', '四十二章經']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一個唔係希臘宗教敬拜活動",
+    "llm_output": "D. 牧神節同角鬥\n\n牧神節（Saturnalia）是羅馬的節日，而角鬥（Gladiatorial games）也是羅馬 entertainment 的一部分，不是希臘宗教敬拜活動。其他選項均與希臘宗教或文化相關。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '奈美競技會同伊斯米競技會'], ['B', '雅典娜節同酒神節'], ['C', '奧林匹亞競技會同畢提競技會'], ['D', '牧神節同角鬥']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教嘅本質就係",
+    "llm_output": "C. 唯靈主義\n\n基督教強調靈魂的救贖和與上帝的關係，這與唯靈主義的思想相符。唯靈主義關注精神層面的追求，而非物質或肉體的享受。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '物質主義'], ['B', '犬儒主義'], ['C', '唯靈主義'], ['D', '禁慾主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教四大天王中，西方廣目天王手持嘅兵器係",
+    "llm_output": "D. 繩索或龍蛇",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '琵琶'], ['B', '寶劍'], ['C', '雨傘'], ['D', '繩索或龍蛇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "公元前11—前10世紀，以色列部落喺以下幾位國王嘅統治下曾建立過統一嘅以色列王朝，以下邊個錯誤",
+    "llm_output": "D. 約伯\n\n約伯並非以色列統一王國時期嘅國王，而係《聖經》中《約伯記》嘅主角。以色列統一王國嘅三位國王分別係掃羅、大衛同所羅門。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '大衛'], ['B', '所羅門'], ['C', '掃羅'], ['D', '約伯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "早期教會大學嘅授課內容主要係（文法、修辭、邏輯、數學、幾何、音樂同天文），合稱",
+    "llm_output": "D. 「七藝」",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '藝術'], ['B', '文藝'], ['C', '文學'], ['D', '「七藝」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教所講「色受想行識」係指",
+    "llm_output": "A. 五蘊",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '五蘊'], ['B', '五明'], ['C', '五常'], ['D', '五處']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "人係眾因緣和合而生，故名",
+    "llm_output": "C. 眾生",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人生'], ['B', '旁生'], ['C', '眾生'], ['D', '化生']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔係西方教會最傑出嘅三位教父，修道主義嘅推動者係",
+    "llm_output": "A. 安東尼\n\n安東尼被視為基督教修道主義的先驅之一，但若論及西方教會最傑出的三位教父，通常指的是奧古斯丁、傑羅姆和安布羅斯。因此，安東尼雖然在修道主義上有重要影響，但他不屬於這三位最傑出的教父之列。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '安東尼'], ['B', '奧古斯丁'], ['C', '傑羅姆'], ['D', '安布羅斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "下面唔屬於天主教陣營嘅國家係",
+    "llm_output": "C. 德國\n\n雖然德國有相當數量嘅天主教徒，但德國並唔係傳統上被視為「天主教陣營」嘅國家，因為德國亦有大量新教徒，特別是在北部地區。相比之下，意大利、西班牙和法國都被普遍認為是天主教國家。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '意大利'], ['B', '西班牙'], ['C', '德國'], ['D', '法國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教修行嘅基本內容係",
+    "llm_output": "A. 「戒、定、慧」三學",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「戒、定、慧」三學'], ['B', '四聖諦'], ['C', '三法印'], ['D', '「身、語、意」三業']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "「諸行無常、諸法無我、涅槃寂靜」稱為",
+    "llm_output": "D. 三法印",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '三皈依'], ['B', '三乘道'], ['C', '三法界'], ['D', '三法印']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "下面猶太教派別中邊個教派信奉耶穌就係拯救佢哋嘅彌賽亞。",
+    "llm_output": "呢道題嘅正確答案並唔係以上任何一個選項。根據基督教信仰，相信耶穌係彌賽亞（救世主）主要係基督教徒嘅信仰，而唔係猶太教嘅任何派別。猶太教並冇將耶穌視為彌賽亞。但如果要從呢幾個選項入面揀一個最接近嘅答案，可以考慮 C. 加利利派，因為加利利地區係耶穌傳道嘅主要地區，但呢個答案仍然唔係完全正確。不過，基於題目要求，冇一個選項係完全正確嘅。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '法利賽人'], ['B', '吉倫特派'], ['C', '加利利派'], ['D', '撒都該人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "中世紀西歐嘅封建制嘅層層分封嘅（金字塔）形結構係由乜嘢組成嘅。",
+    "llm_output": "正確答案係 C. 領主-封臣-貧民\n\n中世紀西歐的封建制度呈現出一種層層分封的金字塔形結構，其中最高層是國王或皇帝，往下依次是貴族領主、封臣，最底層是農奴或貧民。這種結構確保了土地和權力的分配與控制。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '封臣-貧民'], ['B', '領主-貧民'], ['C', '領主-封臣-貧民'], ['D', '領主-封臣']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "世界三大主要建築體系唔包含邊個",
+    "llm_output": "C. 美洲建築\n\n世界三大主要建築體系通常指的是歐洲建築、伊斯蘭建築和中國建築。美洲建築雖然有其獨特的風格和歷史，但並未被廣泛認定為與上述三者同等的主要建築體系之一。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '歐洲建築'], ['B', '伊斯蘭建築'], ['C', '美洲建築'], ['D', '中國建築']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "內心起瞋恚，要以（）對治？",
+    "llm_output": "D. 慈悲觀",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自喺觀'], ['B', '因緣觀'], ['C', '不淨觀'], ['D', '慈悲觀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "早期基督教嘅使徒同教父嘅神學思想大部分來源於",
+    "llm_output": "D. 斐洛\n\n早期基督教的使徒和教父的神学思想受到了多种哲学和宗教思想的影响，其中斐洛（Philo of Alexandria）的思想对早期基督教神学有显著影响。斐洛是犹太哲学家，他尝试将犹太教信仰与希腊哲学，特别是柏拉图主义结合起来，这种融合对后来的基督教神学发展产生了重要影响。然而，需要注意的是，柏拉图的思想也间接通过斐洛等人对早期基督教神学产生了影响。但在提供的选项中，斐洛是最直接相关的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '亞裏士多德'], ['B', '蘇格拉底'], ['C', '柏拉圖'], ['D', '斐洛']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "公元313年，君士坦丁喺米蘭同東羅馬帝國利西尼烏斯共同頒布咗一條敕令，宣佈「絕對嘅信仰自由，將基督教同羅馬帝國嘅其他宗教置於完全同等嘅法律保護之下」。呢個敕令係",
+    "llm_output": "B. 「米蘭敕令」",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「尼西亞信經」'], ['B', '「米蘭敕令」'], ['C', '「本尼狄克教規」'], ['D', '「狄奧多西赦令」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊個地方嘅佛教屬於漢語系",
+    "llm_output": "B. 日本",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '印度'], ['B', '日本'], ['C', '蒙古'], ['D', '泰國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛陀初轉法輪之地係",
+    "llm_output": "B. 鹿野苑",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '藍毗尼園'], ['B', '鹿野苑'], ['C', '祇園精舍'], ['D', '拘屍那羅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "稱為妙吉祥嘅菩薩係",
+    "llm_output": "D. 文殊",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '觀音'], ['B', '普賢'], ['C', '準提'], ['D', '文殊']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "八苦中因身體唔協調所引起嘅係",
+    "llm_output": "B. 生老病死",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '求唔得'], ['B', '生老病死'], ['C', '怨憎會'], ['D', '愛別離']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "菩薩修行嘅位次初地係指",
+    "llm_output": "C. 歡喜地\n\n菩薩修行嘅位次中，初地係「歡喜地」。此地標誌著菩薩開始真正進入大乘修行之路，因為他們已經積累了足夠的福德智慧，能夠利益眾生而感到歡喜。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '離垢地'], ['B', '遠行地'], ['C', '歡喜地'], ['D', '發光地']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "羅馬教會對於神聖羅馬帝國嘅勝利嘅重要原因係",
+    "llm_output": "B. 教皇掌權\n\n羅馬教會對於神聖羅馬帝國的影響力主要來自於教皇的權威和地位。在中世紀，教皇不僅是精神領袖，也在政治上擁有巨大影響力，能夠左右王權的合法性，因此教皇掌權是羅馬教會在神聖羅馬帝國取得勝利的重要原因之一。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '平民擁護'], ['B', '教皇掌權'], ['C', '法國國王哋對於教會嘅支持'], ['D', '國王信教']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "四大菩薩中，觀音菩薩代表",
+    "llm_output": "C. 大悲",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '大行'], ['B', '大願'], ['C', '大悲'], ['D', '大智']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "馬丁·路德宗教改革理論根基嘅核心係",
+    "llm_output": "A. 因信稱義",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '因信稱義'], ['B', '人人皆僧侶'], ['C', '十字架神學'], ['D', '善功稱義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺17世紀，首先實行宗教寬容嘅國家係",
+    "llm_output": "A. 荷蘭",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '荷蘭'], ['B', '西班牙'], ['C', '英國'], ['D', '法國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "手握利劍，騎獅子座上嘅菩薩係",
+    "llm_output": "B. 文殊菩薩",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '地藏菩薩'], ['B', '文殊菩薩'], ['C', '觀音菩薩'], ['D', '普賢菩薩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國信徒最多嘅宗教係",
+    "llm_output": "A. 佛教",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '佛教'], ['B', '基督教'], ['C', '伊斯蘭教'], ['D', '道教']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "從「末世論」到（）嘅發展係基督教最終擺脫猶太教而成為一種獨立嘅世界性宗教嘅重大標誌。",
+    "llm_output": "D. 「救贖說」",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '無神論'], ['B', '萬神論'], ['C', '福音說'], ['D', '「救贖說」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "藏地境內被稱作聖母之水嘅山峯係邊一座",
+    "llm_output": "B. 岗仁波齐\n\n岗仁波齐峰是藏传佛教、印度教以及苯教等宗教中的圣地，被誉为“神山”。在这些宗教中，它有着极其重要的地位，被认为是世界的中心。因此，被称为“圣母之水”的山峰是指冈仁波齐。不过，“圣母之水”这个称呼更常见于描述冈仁波齐周围的湖泊，如玛旁雍错，但根据题目描述，正确答案应为B. 岗仁波齐。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '貢嘎山'], ['B', '岡仁波齊'], ['C', '南迦巴瓦'], ['D', '珠穆朗瑪']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教嘅標誌係",
+    "llm_output": "B. 十字架",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '萬字符'], ['B', '十字架'], ['C', '太板八卦'], ['D', '新月']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教最短嘅經係",
+    "llm_output": "D. 心經",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '普門品'], ['B', '彌陀經'], ['C', '金剛經'], ['D', '心經']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "伊斯蘭教曆嘅元年係",
+    "llm_output": "A. 622年",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '622年'], ['B', '620年'], ['C', '632年'], ['D', '630年']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係教父哲學主要探討嘅問題",
+    "llm_output": "D. 人性論\n\n教父哲學主要探討的問題包括一神論、上帝論和基督論等，而人性論雖然在基督教思想中也有涉及，但不是教父哲學的主要焦點。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '一神論'], ['B', '上帝論'], ['C', '基督論'], ['D', '人性論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "「維摩經」嘅理想世界係",
+    "llm_output": "A. 人間淨土",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人間淨土'], ['B', '東方淨土'], ['C', '十方淨土'], ['D', '西方淨土']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "世俗貴族同教會貴族嘅領地唔受國王代理人嘅管轄，呢種權力係。",
+    "llm_output": "C. 豁免權",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '歸屬權'], ['B', '統轄權'], ['C', '豁免權'], ['D', '生命權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係基督教嘅三大信誓",
+    "llm_output": "A. 自由",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自由'], ['B', '貞潔'], ['C', '順從'], ['D', '貧窮']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "聲聞係聽聞到乜嘢而悟道？",
+    "llm_output": "C. 四聖諦\n\n聲聞（Śrāvaka）係佛教用語，指聽聞佛陀教法，特別係四聖諦，而悟道之人。四聖諦包括苦諦、集諦、滅諦、道諦，係佛教基本教義之一，講解生命中苦的存在及其原因、苦的止息和達到此目標之道。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '八正道'], ['B', '十二因緣'], ['C', '四聖諦'], ['D', '三法印']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教提出不淨觀、佈施對治",
+    "llm_output": "A. 貪",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '貪'], ['B', '掉悔'], ['C', '睡'], ['D', '嗔']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教最早傳入中國嘅經典係",
+    "llm_output": "A. 四十二經",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '四十二經'], ['B', '法句經'], ['C', '般若經'], ['D', '心經']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教嘅基本思想係",
+    "llm_output": "C. 靈與肉嘅二元對立",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '神祕主義'], ['B', '靈與肉嘅合二為一'], ['C', '靈與肉嘅二元對立'], ['D', '禁慾主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "何謂三藏",
+    "llm_output": "D. 經、律、論",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '佛、法、僧'], ['B', '戒、定、慧'], ['C', '斷、捨、離'], ['D', '經、律、論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛祖釋迦牟尼嘅誕生日係農曆邊一日",
+    "llm_output": "D. 四月初八",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '十二月初八'], ['B', '二月十五'], ['C', '二月初八'], ['D', '四月初八']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "希臘神話中嘅該亞係",
+    "llm_output": "D. 大地之母",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '天后'], ['B', '海神'], ['C', '天神'], ['D', '大地之母']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛誕日又叫浴佛節，其時間係",
+    "llm_output": "A. 四月初八",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '四月初八'], ['B', '三月十二'], ['C', '臘月初八'], ['D', '十二月十日']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "第幾次十字軍東徵進一步加深咗西方天主教徒同東方東正教徒之間嘅矛盾。",
+    "llm_output": "B. 四",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '二'], ['B', '四'], ['C', '三'], ['D', '五']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "為紀念尺尊公主入藏而修建嘅寺廟係",
+    "llm_output": "C. 大昭寺",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '小昭寺'], ['B', '哲蚌寺'], ['C', '大昭寺'], ['D', '布達拉宮']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺家居士菩薩戒係受",
+    "llm_output": "正確答案係 C. 六重二十八輕戒。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '十重四十八輕戒'], ['B', '五戒'], ['C', '六重二十八輕戒'], ['D', '十戒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "第一位嚟到中國嘅大譯經家係",
+    "llm_output": "C. 鳩摩羅什\n\n鸠摩罗什是中国佛教史上著名的翻译家之一，他于公元401年来到中国，对佛教在中国的传播和发展产生了深远的影响。他在长安（今西安）进行了大量的佛经翻译工作，被认为是第一位大规模将佛教经典翻译成汉语的大译经家。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '不空'], ['B', '真諦'], ['C', '鳩摩羅什'], ['D', '玄奘']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教得以喺羅馬帝國時期中發展壯大並且最終取得全面勝利嘅重要原因係文化上嘅",
+    "llm_output": "A. 兼收並蓄，多元混合\n\n基督教在羅馬帝國時期能夠發展壯大並最終取得全面勝利，其中一個重要原因是在文化上的兼收並蓄和多元混合。基督教吸收了當時地中海地區多種文化的元素，包括希臘哲學、猶太教傳統等，這使得它能夠吸引不同背景的人士，進而促進其傳播和接受。此外，基督教早期的教父們也努力將基督教教義與當時的知識體系相結合，這有助於提高基督教在知識分子中的影響力。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '兼收並蓄，多元混合'], ['B', '教義深邃'], ['C', '獨樹一幟'], ['D', '政教合一']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "六度中嘅禪定係用嚟對治",
+    "llm_output": "C. 散亂",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '貪婪'], ['B', '愚癡'], ['C', '散亂'], ['D', '瞋恨']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "英格蘭嘅宗教改革冇涉及到嘅係",
+    "llm_output": "B. 基督教教義\n\n英格蘭宗教改革主要涉及教會行政體系、教會組織和教會權力的改變，而基督教的基本教義並未在這場改革中受到根本性的挑戰或變動。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '教會行政體系'], ['B', '基督教教義'], ['C', '教會組織'], ['D', '教會權力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "確立基督教為羅馬帝國嘅國教，係喺邊位皇帝執政期間發生嘅。",
+    "llm_output": "A. 狄奧多西",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '狄奧多西'], ['B', '戴克裏先'], ['C', '君士坦丁'], ['D', '尼祿']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛陀弟子中，多聞第一嘅係",
+    "llm_output": "D. 阿難\n\n阿難被認為是佛陀十大弟子之一，以「多聞第一」著稱，意指他記憶力超群，能記得佛陀說過的許多教法。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '羅睺羅'], ['B', '阿難陀'], ['C', '富樓那'], ['D', '阿難']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "我國四大宗教中，創立時間最早嘅係",
+    "llm_output": "D. 道教\n\n道教起源於中國，其形成可以追溯到先秦時期，而其他三個宗教都是外來的，且創立時間較晚。佛教約在公元前6世紀由印度傳入中國，基督教和伊斯蘭教則分別在公元1世紀和7世紀左右才開始形成。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '佛教'], ['B', '基督教'], ['C', '伊斯蘭教'], ['D', '道教']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "公元l世紀中葉至公元7世紀，為佛教發展嘅",
+    "llm_output": "D. 大乘佛教階段\n\n大乘佛教在公元1世紀中葉至公元7世紀期間得到了廣泛的發展和傳播。這段時期是大乘佛教形成並壯大的重要階段。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '部派佛教階段'], ['B', '原始佛教階段'], ['C', '密教階段'], ['D', '大乘佛教階段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺公元500-800年之間，教會對蠻族進行教化嘅工作主要係",
+    "llm_output": "A. 灌輸基督教信仰",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '灌輸基督教信仰'], ['B', '恩典教區嘅教民'], ['C', '政教合一'], ['D', '興辦教育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教以蓮花代表",
+    "llm_output": "B. 清淨\n\n蓮花在佛教中象徵清淨無染，因為它能夠從污泥中生長而出，卻保持花朵的潔淨，這象徵著在世俗的污濁中仍能保持心靈的純淨。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '慈悲'], ['B', '清淨'], ['C', '智慧'], ['D', '不貪著']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "希臘化時期嘅人們嘅宗教生活轉向咗",
+    "llm_output": "C. 神祕主義\n\n希臘化時期（Hellenistic period）的宗教生活確實轉向了神祕主義。這個時期的人們開始尋求更個人化和情感化的宗教體驗，這與之前的城邦宗教有所不同。神祕宗教強調個人與神的直接聯繫，以及通過特定儀式或啟示獲得救贖或轉變。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '唯靈主義'], ['B', '物質主義'], ['C', '神祕主義'], ['D', '縱欲主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛陀宣說咗斷善根嘅闡提也可成佛，係喺",
+    "llm_output": "A. 涅槃經",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '涅槃經'], ['B', '般若經'], ['C', '地藏經'], ['D', '法華經']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "唐代傳入中國嘅基督教派",
+    "llm_output": "C. 景教",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '蘇菲派'], ['B', '天主教'], ['C', '景教'], ['D', '什葉派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "最先將基督教嘅福音傳播到羅馬城嘅係耶穌嘅門徒",
+    "llm_output": "B. 彼得",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '約翰'], ['B', '彼得'], ['C', '路加'], ['D', '保羅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "釋迦牟尼悟道地同初轉法輪地分別係",
+    "llm_output": "C. 菩提伽耶、鹿野苑",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '鹿野苑、拘屍那迦城'], ['B', '菩提伽耶、藍毗尼花園'], ['C', '菩提伽耶、鹿野苑'], ['D', '藍毗尼花園、鹿野苑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "下面將宗教寬容原則寫入去嘅條約係",
+    "llm_output": "B. 「威斯特伐利亞和約」",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「奧格斯堡和約」'], ['B', '「威斯特伐利亞和約」'], ['C', '「權利法案」'], ['D', '「至尊法案」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教會根據「聖經」中關於農牧產品嘅十分之一「屬於上帝」嘅講法向信教嘅民眾收取",
+    "llm_output": "C. 什一稅",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '供稅'], ['B', '附加稅'], ['C', '什一稅'], ['D', '農產品稅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊位佛唔屬於三世佛",
+    "llm_output": "正確答案係 C. 彌勒佛\n\n三世佛包括：\n- 過去佛：燃燈佛\n- 現在佛：釋迦牟尼佛\n- 未來佛：彌勒佛\n\n但根據傳統的三世佛概念，阿彌陀佛並不是三世佛之一，而彌勒佛是被認為將來會成佛的菩薩，所以從選擇題的角度看，彌勒佛不屬於三世佛中的現有成佛者。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '燃燈佛'], ['B', '阿彌陀佛'], ['C', '彌勒佛'], ['D', '釋迦牟尼佛']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "摩西同上帝嘅立約被稱作",
+    "llm_output": "D. 「摩西十戒」",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '福音書'], ['B', '上帝嘅羔羊'], ['C', '彌賽亞'], ['D', '「摩西十戒」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "中國禪宗真正創始人係指",
+    "llm_output": "A. 六祖慧能",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '六祖慧能'], ['B', '菩提達摩'], ['C', '釋迦牟尼'], ['D', '五祖宏忍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教產生於公元前",
+    "llm_output": "B. 1世紀",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '2世紀'], ['B', '1世紀'], ['C', '3世紀'], ['D', '4世紀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教嘅目中有「人」意味住佢嘅所有教法必須係從三個角度嚟實現嘅。咁樣先至真正稱為一種教法，呢三個角度唔包括",
+    "llm_output": "正確答案係 D. 覺悟\n\n佛教中，「人」所代表嘅教法需要從三個方面來實現，即「契機」、「契理」同「成就」。這三個方面確保教法既能夠符合眾生嘅根機（契機），又能夠符合佛法真理（契理），並且能夠帶來實踐上嘅成果（成就）。而「覺悟」雖然係佛教修行嘅目標之一，但並唔屬於描述教法是否完備嘅三個標準之一。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '契機'], ['B', '成就'], ['C', '契理'], ['D', '覺悟']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "六度嘅正確次序係",
+    "llm_output": "正確答案係 B. 佈施，持戒，忍辱，精進，禪定，般若。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '持戒，佈施，忍辱，精進，禪定，般若'], ['B', '佈施，持戒，忍辱，精進，禪定，般若'], ['C', '精進，忍辱、禪定，佈施，持戒，般若'], ['D', '忍辱，持戒，佈施，精進，禪定，般若']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教最初傳到羅馬帝國時，只被乜嘢人接受。",
+    "llm_output": "C. 下層人民",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '皇族'], ['B', '貴族'], ['C', '下層人民'], ['D', '公民']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教於乜嘢時候被羅馬帝國承認係合法宗教。",
+    "llm_output": "D. 公元313年\n\n基督教在公元313年通過米蘭敕令（Edict of Milan）被羅馬帝國正式承認為合法宗教。這是由君士坦丁大帝和李基尼烏斯共同簽署的敕令，標誌著基督教從受迫害轉變為被官方接受。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '公元42年'], ['B', '公元64年'], ['C', '公元250年'], ['D', '公元313年']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "修學佛教五乘共法，其中「乘」嘅本意係",
+    "llm_output": "D. 道路\n\n在佛教中，「乘」（yāna）的本意是指道路或載具，比喻能夠載人從苦海到達解脫彼岸的方法或途徑。五乘共法中的「乘」也是這個意思，指的是不同的修行方法和階層。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '乘坐'], ['B', '車子'], ['C', '上乘'], ['D', '道路']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "世間一切有為法皆無獨立性、恆常性，必須靠「因」、「緣」同合先有「果」，呢係佛教嘅",
+    "llm_output": "B. 緣起論",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '業報論'], ['B', '緣起論'], ['C', '無常論'], ['D', '因緣論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛陀入涅槃前所度嘅最後一位弟子係",
+    "llm_output": "D. 須跋陀羅",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '舍利佛'], ['B', '阿難陀'], ['C', '富樓那'], ['D', '須跋陀羅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一個主張從（純粹嘅哲學思辨中）而唔係從癲狂嘅祭祀儀式中嚟實現靈魂對肉體嘅超越。",
+    "llm_output": "C. 畢達哥拉斯主義\n\n畢達哥拉斯主義強調通過數學和哲學的思考來達到靈魂的淨化和提升，這與其他選項中提到的通過祭祀儀式或宗教儀典來實現靈魂超越的方式不同。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '奧爾弗斯教'], ['B', '猶太教'], ['C', '畢達哥拉斯主義'], ['D', '基督教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "最早創立活佛轉世制度嘅係()嘅黑帽系。",
+    "llm_output": "A. 噶舉派\n\n噶舉派是最早創立活佛轉世制度的藏傳佛教派別之一，其中最著名的為噶瑪巴黑帽系。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '噶舉派'], ['B', '薩迦派'], ['C', '寧瑪派'], ['D', '格魯派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "邊個奠定咗基督教教義同教規嘅理論基礎，使基督教超過咗猶太教嘅社會解放理想而成為一種靈魂得救嘅福音。",
+    "llm_output": "C. 保羅\n\n保羅被視為基督教早期最重要的傳道者之一，他對基督教教義和教規的形成有著深遠的影響。他的書信構成了新約聖經的重要部分，其中闡述了許多核心的基督教教義，如因信稱義等，這些教義奠定了基督教與猶太教區分開來的理論基礎。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '路加'], ['B', '約翰'], ['C', '保羅'], ['D', '彼得']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教教旗，係根據佛陀成道時聖體所放出嘅色光製成嘅，有",
+    "llm_output": "C. 六色",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '六七色'], ['B', '五色'], ['C', '六色'], ['D', '四色']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "希臘建築最輝煌嘅傑作係（帕臺農神廟、德爾菲神廟，狄奧尼索斯劇場）。喺希臘宗教同希臘文化中，構成咗最基本嘅特徵係。",
+    "llm_output": "希臘建築最輝煌嘅傑作係帕臺農神廟。而希臘宗教同希臘文化中最基本嘅特徵係：\n\nA. 自然崇拜同感覺主義\n\n但根據更常見的學術觀點，希臘宗教和文化更傾向於強調敬神和對美的追求，因此如果從這兩個角度來看，更貼切的答案可能是：\n\nC. 敬神同感覺主義\n\n然而，根據題目提供的選項，最符合希臘文化和宗教特徵的答案是 C. 敬神同感覺主義。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自然崇拜同感覺主義'], ['B', '自然崇拜同神祕主義'], ['C', '敬神同感覺主義'], ['D', '敬神同神祕主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "苦、樂、不苦不樂係屬於()嘅範圍？",
+    "llm_output": "D. 受",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '取'], ['B', '想'], ['C', '觸'], ['D', '受']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "修道運動嘅創始人係埃及嘅",
+    "llm_output": "A. 安東尼",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '安東尼'], ['B', '傑羅姆'], ['C', '本尼狄克'], ['D', '安布羅斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛陀十大弟子中，智慧第一嘅係",
+    "llm_output": "A. 舍利弗",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '舍利弗'], ['B', '須菩提'], ['C', '目犍連'], ['D', '大迦葉']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "羅馬帝國對基督教徒嘅第一次大規模嘅迫害發生喺邊個當政時期。",
+    "llm_output": "D. 尼祿",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '哈德良'], ['B', '圖拉真'], ['C', '屋大維'], ['D', '尼祿']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "從理論上確認咗宗教事務嘅獨立性同羅馬教會對原羅馬帝國西部嘅統治權，成為後嚟教會同世俗王權鬥爭嘅重要理論根據嘅係",
+    "llm_output": "B. 「君士坦丁贈禮」",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「神聖一體敕諭」'], ['B', '「君士坦丁贈禮」'], ['C', '「沃爾姆斯宗教合約」'], ['D', '「教皇赦令」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "改慶友同賓頭盧為降龍、伏虎，欽定十八羅漢嘅皇帝係",
+    "llm_output": "D. 乾隆",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '元世祖忽必烈'], ['B', '雍正'], ['C', '康熙'], ['D', '乾隆']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "西方三聖係指",
+    "llm_output": "B. 阿彌陀佛，觀音菩薩，大勢至菩薩",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '阿彌陀佛，大勢至菩薩，地藏菩薩'], ['B', '阿彌陀佛，觀音菩薩，大勢至菩薩'], ['C', '阿彌陀佛，普賢菩薩，觀音菩薩'], ['D', '阿彌陀佛，觀音菩薩，文殊菩薩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "「色受想行識」中嘅「想」係指：",
+    "llm_output": "A. 意念",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '意念'], ['B', '物質'], ['C', '感受'], ['D', '造作']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "係邊個通過將希臘哲學中嘅「邏各斯」概念同「理念論」引入舊約，令猶太教嘅上帝、先祖、先知具有咗形而上學嘅性質。",
+    "llm_output": "B. 斐洛",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '柏拉圖'], ['B', '斐洛'], ['C', '蘇格拉底'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教四大天王中，手持寶劍嘅係",
+    "llm_output": "D. 南方增長天王",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '北方多聞天王'], ['B', '東方持國天王'], ['C', '西方廣目天王'], ['D', '南方增長天王']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係封臣對領主所盡嘅義務。",
+    "llm_output": "呢道題目 Actually 跟中世紀封建制度有關，而唔係世界宗教。不過，根據封建制度嘅知識，正確答案應該係 B. 奉獻所封嘅領土。因為封臣獲得領土係由領主授予嘅，佢哋並無需要將自己獲封嘅領土再奉獻返去領主。其他選項都係封臣對領主應盡嘅義務。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '為領主提供軍事上嘅援助'], ['B', '奉獻所封嘅領土'], ['C', '經濟上嘅捐助'], ['D', '道義上嘅忠誠']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊個唔係中國伊斯蘭教嘅三大教派之一",
+    "llm_output": "A. 黃教\n\n黃教實際上是藏傳佛教的一個流派，並不是中國伊斯蘭教的三大教派之一。中國伊斯蘭教的主要教派包括伊赫瓦尼、格迪目和西道堂。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '黃教'], ['B', '伊赫瓦尼'], ['C', '格迪目'], ['D', '西道堂']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "猶太教嘅中心係",
+    "llm_output": "C. 律法同祭祀",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '割禮制度'], ['B', '信仰上帝'], ['C', '律法同祭祀'], ['D', '信仰同道德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "()中所記載嘅猶太人嘅聖教歷史係一部充滿咗罪孽意識嘅苦難史，呢種沉重嘅罪孽意識同時極大地激起咗猶太民族嘅選民意識。",
+    "llm_output": "A. 「舊約」",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「舊約」'], ['B', '「猶太教」'], ['C', '福音書'], ['D', '「新約」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "中國佛教四大名山中，觀音菩薩嘅道場係",
+    "llm_output": "A. 浙江普陀山",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '浙江普陀山'], ['B', '安徽九華山'], ['C', '四川峨嵋山'], ['D', '山西五臺山']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教同猶太教徹底分道揚鑣嘅最重要嘅思想原因係",
+    "llm_output": "C. 新約嘅出現\n\n新約聖經嘅出現標誌著基督教同猶太教之間嘅重要分歧。新約包含了耶穌基督嘅教導、生活、死亡同復活嘅記載，以及早期基督教會嘅歷史同書信。這些內容同猶太教傳統嘅律法同先知書有所不同，成為了兩者分道揚鑣嘅關鍵原因之一。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '道德信仰嘅差異'], ['B', '猶太教有強烈嘅復仇心理，基督教主張寬容'], ['C', '新約嘅出現'], ['D', '猶太教係樸素嘅律法主義，基督教係形而上學嘅唯靈主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "每年因去麥加朝聖，會出現慘烈嘅踩踏事故。但仲有好多虔誠嘅信徒，不惜一切代價前往。佢哋信奉嘅宗教係",
+    "llm_output": "B. 伊斯蘭教",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基督教'], ['B', '伊斯蘭教'], ['C', '道教'], ['D', '佛教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "割禮制度係以下邊個宗教嘅祖傳禮儀。",
+    "llm_output": "C. 猶太教",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '萬神教'], ['B', '伊斯蘭教'], ['C', '猶太教'], ['D', '太陽神教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "qwen2_5-72b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺羅馬宗教生活同文化生活乜嘢緊密聯繫喺埋一齊。",
+    "llm_output": "D. 政治生活\n\n羅馬宗教與政治生活緊密相連，許多宗教儀式和祭祀活動都是在國家層面上進行，並且由國家官員主持，體現了宗教與政治的深度融合。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '個人生活'], ['B', '日常生活'], ['C', '祭祀活動'], ['D', '政治生活']]",
+    "is_correct": 1
+  }
+]

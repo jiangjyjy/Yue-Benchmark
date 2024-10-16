@@ -1,0 +1,1892 @@
+[
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義係",
+    "llm_output": "正確答案嘅選項係：\n\nA. 資產階級國家同壟斷資本融合喺一齊嘅壟斷資本主義",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資產階級國家同壟斷資本融合喺一齊嘅壟斷資本主義'], ['B', '消除生產無政府狀態嘅壟斷資本主義'], ['C', '帶有社會主義因素嘅壟斷資本主義'], ['D', '資產階級國家同壟斷資本相互分離嘅壟斷資本主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「必然王國」同「自由王國」係",
+    "llm_output": "正確答案嘅選項係：C. 歷史性概念\n\n在馬克思主義中，「必然王國」同「自由王國」係歷史性概念。必然王國指的是人類社會發展嘅初期階段，其中人們嘅活動受到自然力量同社會條件嘅強制性約束，即係受到「必然性」嘅支配。而自由王國則係社會主義或共產主義社會嘅理想狀態，其中人們能夠自主地控制自己嘅活動，並按照自己嘅意願去創造社會同自然界。隨著社會主義革命嘅進行，人類將從必然王國過渡到自由王國。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '空間性概念'], ['B', '物質性概念'], ['C', '歷史性概念'], ['D', '時間性概念']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義認為，從實踐嘅活動機制睇，實踐係",
+    "llm_output": "正確答案嘅選項係：\n\nA. 主體與客體通過中介相互作用嘅過程",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '主體與客體通過中介相互作用嘅過程'], ['B', '道德行為同政治活動'], ['C', '科學實驗'], ['D', '生活、行為、現實、實事等感性活動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "下列唔屬於經濟全球化發展趨勢嘅選項係",
+    "llm_output": "以下係關於馬克思主義理論嘅單項選擇題，請直接畀出正確答案嘅選項。\n\n問題：下列唔屬於經濟全球化發展趨勢嘅選項係\n\nA. 國際經濟新秩序嘅建立\nB. 市場經濟成為全球經濟體制\nC. 跨國公司嘅主導作用增強\nD. 區域經濟集團日益發展\n\n正確答案：A. 國際經濟新秩序嘅建立\n\n解釋：經濟全球化嘅發展趨勢主要包括市場經濟成為全球經濟體制（B）、跨國公司嘅主導作用增強（C）和區域經濟集團日益發展（D）。而國際經濟新秩序嘅建立（A）係一種理想化嘅目標或者說法，唔能夠完全概括經濟全球化嘅發展趨勢。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '國際經濟新秩序嘅建立'], ['B', '市場經濟成為全球經濟體制'], ['C', '跨國公司嘅主導作用增強'], ['D', '區域經濟集團日益發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義嘅歷史地位係",
+    "llm_output": "根據馬克思主義理論，資本主義的歷史地位是過渡性的。馬克思和恩格斯認為，資本主義是一個階級壓迫和剝削的制度，最終會因為其內在矛盾而導致自己的滅亡，並過渡到共產主義社會。因此，正確答案是：\n\nC. 過渡嘅資本主義",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '不斷發展嘅資本主義'], ['B', '寄生嘅資本主義'], ['C', '過渡嘅資本主義'], ['D', '腐朽嘅資本主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "江澤民講過：「唔記得崇高理想而只顧眼前，就會失去前進方向，離開現實工作而空談崇高理想，就會脫離實際。」江澤民所講嘅「崇高理想」係指",
+    "llm_output": "B. 共產主義崇高理想",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '個人對美好生活嘅嚮往與追求'], ['B', '共產主義崇高理想'], ['C', '個人對將來職業嘅嚮往與追求'], ['D', '建設中國特色社會主義共同理想']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "商品生產者要獲得更多收益必須使生產商品嘅",
+    "llm_output": "正確答案係 A. 個別勞動時間小於社會必要勞動時間。\n\n根據馬克思嘅價值論，商品嘅價值決定於生產呢件商品所需嘅社會必要勞動時間。社會必要勞動時間係指在當前生產條件下，生產一件商品所需嘅平均勞動時間。如果一個商品生產者能夠通過提高生產效率或者其他方法將自己生產同一件商品所需嘅個別勞動時間降低到社會必要勞動時間以下，呢啲商品就可以以較高嘅利潤出售，從而獲得更多收益。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '個別勞動時間小於社會必要勞動時間'], ['B', '個別勞動時間等於倍加嘅社會必要勞動時間'], ['C', '個別勞動時間大於社會必要勞動時間'], ['D', '個別勞動時間等於社會必要勞動時間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「手推磨產生嘅係封建主嘅社會，蒸汽磨產生嘅係工業資本家嘅社會」，呢句話揭示咗",
+    "llm_output": "正確答案嘅選項係 D. 生產工具係衡量生產力水平嘅重要尺度。\n\n呢句話由馬克思嘅《政治經濟學批判》嘅導言中嘅一段話而來：「手推磨產生嘅係封建主嘅社會，蒸汽磨產生嘅係工業資本家嘅社會。」呢句話用咗兩個例子嚟闡述馬克思主義中生產工具對於生產力嘅重要性。手推磨同蒸汽磨代表咗兩個不同時代嘅生產工具，而呢兩種生產工具嘅發展同應用，帶咗社會形態嘅轉變，即由封建社會轉變為資本主義社會。由此可見，生產工具嘅進步同發展係推動社會進步嘅重要因素，並且係衡量一個社會生產力水平嘅重要尺度。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '物質生產嘅發展需要建立相應嘅生產關係'], ['B', '社會形態嘅更替有其一定嘅順序性'], ['C', '科學技術係第一生產力'], ['D', '生產工具係衡量生產力水平嘅重要尺度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級政黨嘅組織原則係",
+    "llm_output": "正確答案嘅選項係：\n\nD. 民主集中制\n\n馬克思主義理論中，無產階級政黨嘅組織原則係民主集中制。呢個概念源自於列寧，佢提出咗一個組織模型，當中包括咗民主嘅元素（黨內成員可以參與討論同選舉）以及集中嘅元素（最終決策權喺中央領導層手中）。民主集中制強調咗一個組織要同時具有民主同集中嘅特點，以達到既能夠聽取多數人意見，又能夠保持統一嘅領導同行動能力。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '理論聯繫實際'], ['B', '集體領導'], ['C', '實事求係'], ['D', '民主集中制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "人類社會發展嘅一般規律係",
+    "llm_output": "正確答案嘅選項係：\n\nB. 生產力同生產關係、經濟基礎同上層建築之間嘅矛盾運動規律\n\n呢條係馬克思主義理論入面講嘅人類社會發展嘅一般規律，亦係馬克思同恩格斯嘅社會發展兩大規律理論。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '生產方式內部嘅矛盾規律'], ['B', '生產力同生產關係、經濟基礎同上層建築之間嘅矛盾運動規律'], ['C', '社會存在同社會意識嘅矛盾規律'], ['D', '物質生產同精神生產嘅矛盾規律']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「人嘅思維係咪具有真理性，呢個並唔係一個理論嘅問題，而係一個實踐嘅問題。人應該喺實踐中證明自己思維嘅真理性，即自己思維嘅現實性同力量，亦即自己思維嘅此岸性。」呢一論斷說明咗",
+    "llm_output": "A. 實踐係檢驗認識係否具有真理性嘅唯一標準",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '實踐係檢驗認識係否具有真理性嘅唯一標準'], ['B', '實踐檢驗真理唔需要理論指導'], ['C', '認識活動同實踐活動具有一樣嘅作用同力量'], ['D', '實踐係認識嘅來源同動力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義嘅宏觀管理同調節體現嘅係",
+    "llm_output": "正確答案嘅選項係：C. 壟斷資產階級嘅整體利益。\n\n國家壟斷資本主義係指國家透過政策、法律、經濟手段等，對經濟進行調節同管理，以維護壟斷資產階級嘅整體利益。呢種資本主義形式下，國家唔單止做仲裁者，更成為經濟活動嘅參與者，透過各種手段來維護大型企業同資本家嘅利益，保持經濟穩定同增長。因此，國家壟斷資本主義嘅宏觀管理同調節體現嘅係壟斷資產階級嘅整體利益。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全體勞動人民嘅經濟利益'], ['B', '國有企業嘅經濟利益'], ['C', '壟斷資產階級嘅整體利益'], ['D', '個別金融寡頭嘅經濟利益']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "下列實物形態嘅資本中，同時屬於生產資本、唔變資本同固定資本嘅係",
+    "llm_output": "正確答案嘅選項係 A. 機器設備。\n\n喺馬克思主義經濟學中，資本可以分為唔變資本（Constant Capital, C）、可變資本（Variable Capital, V）同埋固定資本（Fixed Capital）。\n\n唔變資本係指喺生產過程中用作生產手段嘅資本，例如機器、設備、廠房等，呢啲嘢喺生產過程中唔會喺價值上發生改變，因為佢哋嘅價值會隨著每次生產周期逐步轉移到產品上。\n\n可變資本係指用於購買勞動力（工人嘅工資）嘅資本，可變資本嘅價值可以增加，因為工人嘅勞動可以創造出超過佢哋本身價值嘅價值。\n\n固定資本係指用於購買耐用品，如機器、工具、廠房等嘅資本，呢啲嘢喺生產過程中長期使用，並且喺唔多嘅生產周期內逐漸將佢哋嘅價值轉移到產品上。\n\n因此，機器設備同時屬於生產資本（因為佢哋係用於生產過程）、唔變資本（因為佢哋嘅價值喺生產過程中轉移到產品上，唔會改變）同固定資本（因為佢哋係耐用品，喺長期嘅生產過程中逐漸折舊）。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '機器設備'], ['B', '原料同燃料'], ['C', '輔助材料'], ['D', '商業設施']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟全球化帶畀發達國家嘅好處好多，但唔包括",
+    "llm_output": "根據馬克思主義理論，經濟全球化對發達國家有好處，包括降低生產成本、從世界各地獲取利潤以及加強對國際金融市場的控制。因此，經濟全球化帶給發達國家的好處不包括：\n\nD. 擴大咗貿易逆差\n\n馬克思主義批判性地看待經濟全球化，認為這過程有利於發達國家壟斷資本主義的擴張，而不會導致這些國家的貿易逆差，因為它們能夠利用全球化的機制來擴大市場和獲取更多資源。因此，正確答案是 D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '降低其生產成本'], ['B', '從世界各地獲取大量嘅利潤'], ['C', '加強對國際金融市場嘅控制'], ['D', '擴大咗貿易逆差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義實現由空想到科學發展嘅標誌係",
+    "llm_output": "正確答案嘅選項係 C.「共產黨宣言」嘅發表。\n\n「共產黨宣言」嘅發表標誌住社會主義從空想到科學嘅發展，因為呢份文件由馬克思同恩格斯共同撰寫，並喺1848年出版，係第一份系統性嘅馬克思主義文獻，對社會主義運動有重大影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '空想社會主義理想嘅破滅'], ['B', '「共產主義者同盟」嘅建立'], ['C', '「共產黨宣言」嘅發表'], ['D', '無產階級革命嘅勝利']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義法制嘅核心係",
+    "llm_output": "資本主義法制嘅核心係 A. 憲法。憲法作為一國嘅根本法，規定了國家嘅基本制度和基本原則，並保障個人權利和自由，為其他法律嘅制定和實施提供基礎。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '憲法'], ['B', '行政法'], ['C', '刑法'], ['D', '民法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺第一次世界大戰中成為東西方矛盾焦點同帝國主義政治體系最薄弱環節嘅國家係",
+    "llm_output": "正確答案係 C.  俄國",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '德國'], ['B', '中國'], ['C', '俄國'], ['D', '奧地利']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧對辯證唯物主義物質範疇嘅定義係通過",
+    "llm_output": "B. 物質同意識嘅關係界定嘅\n\n列寧在《唯物主義的辯證法》中對物質的定義係通過物質同意識嘅關係來界定的，強調物質是不依赖于意識並且可以為意識所反映嘅對象。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一般同個別嘅關係界定嘅'], ['B', '物質同意識嘅關係界定嘅'], ['C', '主體同客體嘅關係界定嘅'], ['D', '哲學與具體科學嘅關係界定嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "各國壟斷組織從經濟上瓜分世界產生咗",
+    "llm_output": "正確答案嘅選項係 D. 國際壟斷同盟。\n\n根據馬克思主義理論，各國壟斷組織從經濟上瓜分世界會導致國際壟斷同盟嘅形成，即這些壟斷組織會形成跨國嘅聯盟或協議，以控制市場同資源。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '殖民地同宗主國'], ['B', '國家壟斷資本主義'], ['C', '金融資本同金融寡頭'], ['D', '國際壟斷同盟']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "制約人民羣眾創造歷史嘅決定性條件係",
+    "llm_output": "正確答案係 C. 經濟條件。\n\n馬克思主義理論認為，經濟基礎決定上層建築，而人民羣眾在創造歷史過程中受到嘅制約，主要嘅決定性條件在於經濟條件。經濟條件包括生產力發展水平、生產關係、經濟結構等因素，呢啲因素對社會嘅政治、文化、法律和觀念等各方面都有重大影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '文化水平'], ['B', '法律制度'], ['C', '經濟條件'], ['D', '傳統觀念']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「通過批判舊世界嚟發現新世界」係",
+    "llm_output": "C.  馬克思主義預見未來社會嘅方法",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '空想社會主義預見未來社會嘅方法'], ['B', '唯心主義預見未來社會嘅方法'], ['C', '馬克思主義預見未來社會嘅方法'], ['D', '唯物主義預見未來社會嘅方法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "恩格斯認為，全部哲學、特別係近代哲學嘅重大嘅基本問題係",
+    "llm_output": "正確答案嘅選項係：\n\nC. 思維同存在嘅關係問題",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人與周圍世界嘅基本聯繫問題'], ['B', '關於人嘅本質問題'], ['C', '思維同存在嘅關係問題'], ['D', '哲學與人類生存活動之間嘅內喺聯繫問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "民主社會主義嘅實質係",
+    "llm_output": "民主社會主義的實質係：\n\nA. 改良嘅資本主義\n\n民主社會主義通常被視為對資本主義進行漸進式改良的一種政治運動，旨在通過民主手段實現社會福利和經濟平等的目標。因此，選項 A 最能夠反映民主社會主義的實質。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '改良嘅資本主義'], ['B', '社會主義嘅最佳模式'], ['C', '發達國家嘅社會主義'], ['D', '社會主義唔同模式嘅一種']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧提出嘅：「從物到感覺同思想」與「從思想同感覺到物」係",
+    "llm_output": "C. 唯物主義認識論與唯心主義認識論嘅對立",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經驗論與唯理論嘅對立'], ['B', '可知論與不可知論嘅對立'], ['C', '唯物主義認識論與唯心主義認識論嘅對立'], ['D', '反映論與先驗論嘅對立']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「代替嗰啲存在住階級同階級對立嘅資產階級舊社會嘅，將會係噉嘅一個聯合體，喺呢度，每個人嘅自由發展係所有人自由發展嘅條件。」呢句係",
+    "llm_output": "正確答案嘅選項係：\n\nD.  「共產黨宣言」入面嘅一段說話\n\n呢句話係來自馬克思同恩格斯合著嘅「共產黨宣言」，係其中一部最具影響力嘅政治文獻之一。呢句話表達咗共產主義運動嘅終極目標，即建立一個無階級對立嘅社會，其中每個人的自由發展係其他人自由發展嘅條件。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「哥達綱領批判」入面嘅一段說話'], ['B', '「共產主義原理」入面嘅一段說話'], ['C', '「資本論」入面嘅一段說話'], ['D', '「共產黨宣言」入面嘅一段說話']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義發展嘅歷史趨勢係",
+    "llm_output": "D.  社會主義公有制取代資本主義私有制\n\n馬克思主義理論認為，資本主義發展的歷史趨勢是社會主義公有制取代資本主義私有制。這是基于馬克思的歷史唯物主義和共產黨宣言中的觀點，認為資本主義內部的矛盾和衝突將導致其自我消亡，並由社會主義制度取而代之。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '計劃經濟取代商品經濟'], ['B', '計劃經濟取代市場經濟'], ['C', '市場經濟取代計劃經濟'], ['D', '社會主義公有制取代資本主義私有制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "實踐嘅中介係",
+    "llm_output": "實踐嘅中介係「各種形式嘅工具、手段及其運用嘅程序同方法」，所以正確答案係：\n\nD. 各種形式嘅工具、手段及其運用嘅程序同方法",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '對一事物存在同發展有聯繫嘅各種要素嘅總和'], ['B', '受命於主觀，見之於客觀嘅活動'], ['C', '構成事物一切要素嘅總和'], ['D', '各種形式嘅工具、手段及其運用嘅程序同方法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "真理同謬誤嘅界限喺於",
+    "llm_output": "正確答案嘅選項係：A. 係咪反映咗客觀事物嘅本質同規律。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '係咪反映咗客觀事物嘅本質同規律'], ['B', '係咪畀大多數人所接受'], ['C', '係咪符合馬克思主義'], ['D', '係咪符合人嘅利益同願望']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "歷史上傑出人物嘅產生",
+    "llm_output": "正確答案嘅選項係：\n\nA. 偶然與必然嘅統一",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '偶然與必然嘅統一'], ['B', '有嘅係偶然有嘅係必然'], ['C', '純粹偶然嘅'], ['D', '純粹必然嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "正確認識價值創造同財富生產嘅關係，關鍵係運用",
+    "llm_output": "正確答案嘅選項係 C. 勞動二重性學說。\n\n勞動二重性學說，又稱為勞動價值論，係馬克思主義經濟學嘅基礎。呢個學說認為，價值嘅創造源於人類嘅勞動，而且勞動同時具有使用價值（即財富嘅實質內容）同價值（即財富嘅社會形式）兩種性質。正確認識價值創造同財富生產嘅關係，關鍵在於運用勞動二重性學說來分析。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '資本有機構成學'], ['B', '平均利潤學說'], ['C', '勞動二重性學說'], ['D', '剩餘價值學說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "重視理論創新，必須反對",
+    "llm_output": "重視理論創新，必須反對 A. 教條主義。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '教條主義'], ['B', '經驗主義'], ['C', '先驗論'], ['D', '絕對主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "貨幣之所以能執行價值尺度嘅職能，係因為",
+    "llm_output": "正確答案嘅選項係：\n\nB. 佢係社會勞動嘅產物，本身具有價值\n\n貨幣之所以能執行價值尺度嘅職能，係因為它本身具有價值，並且是社會勞動嘅產物。呢點可以通過馬克思主義經濟學中嘅價值形式理論同貨幣嘅基本職能嚟理解。貨幣作為價值尺度，可以將不同商品嘅價值轉化為相應嘅貨幣量，從而進行比較同交換。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '佢能衡量其他商品價值嘅大小'], ['B', '佢係社會勞動嘅產物，本身具有價值'], ['C', '佢具有計量單位'], ['D', '佢可以係觀念上嘅貨幣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義由自由競爭階段進人壟斷階段，最根本嘅標誌喺於",
+    "llm_output": "正確答案嘅選項係：\n\nC. 壟斷代替自由競爭喺經濟生活中佔統治地位",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '國家壟斷代替私人壟斷喺經濟生活中佔統治地位'], ['B', '資本輸出代替商品輸出喺經濟生活中佔統治地位'], ['C', '壟斷代替自由競爭喺經濟生活中佔統治地位'], ['D', '銀行資本代替工業資本喺經濟生活中佔統治地位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "真理係思想形式，係人類經驗嘅組織形式」呢係",
+    "llm_output": "正確答案為 C. 辯證唯物主義真理論。\n\n辯證唯物主義真理論認為真理係人類對客觀世界嘅正確反映，係一種客觀存在，同時真理亦都係一種主觀認識，通過人類嘅實踐活動不斷發展同完善。呢個觀點符合提問中所提到嘅「真理係思想形式，係人類經驗嘅組織形式」。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '形而上學真理論'], ['B', '主觀唯心主義真理論'], ['C', '辯證唯物主義真理論'], ['D', '客觀真理論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義經濟危機呈現出週期性嘅原因喺於",
+    "llm_output": "正確答案嘅選項係：D. 資本主義基本矛盾運動嘅特點。\n\n馬克思主義理論指出，資本主義經濟危機之所以呈現出週期性，是由於資本主義基本矛盾（即生產資料私有制與社會化大生產之間的矛盾）運動的特點所導致。這些基本矛盾在資本主義經濟的運行中不斷積累，直至達到一定程度，引發經濟危機。經濟危機通過清掃過剩生產資料和過剩人口，暫時緩解這些矛盾，然後在經濟恢復和發展過程中再次積累，形成一個週期。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資本主義再生產嘅週期性'], ['B', '資本主義基本矛盾'], ['C', '資本主義嘅基本矛盾週期性'], ['D', '資本主義基本矛盾運動嘅特點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "階級鬥爭對階級社會發展嘅推動作用突出表現喺",
+    "llm_output": "正確答案嘅選項係 B. 社會形態嘅更替。\n\n階級鬥爭係馬克思主義中非常重要嘅概念，被認為係推動階級社會發展嘅關鍵因素。階級鬥爭嘅推動作用突出表現喺社會形態嘅更替，即從一種社會形態轉變到另一種社會形態，例如從封建社會轉變到資本主義社會。馬克思同恩格斯認為，歷史上每一次社會革命，都係透過無產階級對資產階級嘅鬥爭實現嘅。因此，階級鬥爭嘅核心作用在於改變社會制度同結構，從而推動社會形態嘅演變。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '科技嘅進步'], ['B', '社會形態嘅更替'], ['C', '生產力嘅發展'], ['D', '生產關係嘅變革']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會革命根源於",
+    "llm_output": "正確答案係 A. 社會基本矛盾嘅尖銳化。\n\n馬克思主義理論認為，社會革命通常根源於社會基本矛盾（例如資本主義社會中嘅階級對立）嘅尖銳化，而唔係由個人英雄主義、人口多寡或者單純嘅思想傳播引起。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會基本矛盾嘅尖銳化'], ['B', '少數英雄人物組織暴動'], ['C', '人口太多'], ['D', '先進思想同革命理論嘅傳播']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義嘅根本目嘅喺於",
+    "llm_output": "B. 消滅剝削、消除兩極分化，最終達到共同富裕\n\n根據馬克思主義理論，社會主義的目標是通過消滅剝削、消除社會階級分化，最終實現生產資料的公有制和社會成員的共同富裕。這一過程通常被描述為通過無產階級專政來實現，但最終目的是建立一個無階級的社會，其中商品和服務的分配是根據個人的需要和貢獻，而不是市場價值或私人財富。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '鎮壓資產階級嘅反抗'], ['B', '消滅剝削、消除兩極分化，最終達到共同富裕'], ['C', '建立無產階級專政'], ['D', '鞏固共產黨嘅領導']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義為向社會主義過渡準備咗物質條件係指",
+    "llm_output": "正確答案嘅選項係 C. 全面嘅社會化。\n\n馬克思主義理論認為，國家壟斷資本主義階段會導致生產關係嘅社會化程度大幅提高，而生產社會化係向社會主義過渡嘅物質條件。隨著生產力嘅發展，資本主義社會中嘅生產過程同生產資料越來越多嘅掌握喺國家手中，從而為社會主義社會中計劃經濟同生產資料公有制奠定基礎。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全面嘅商品化'], ['B', '全面嘅市場化'], ['C', '全面嘅社會化'], ['D', '市場嘅計劃化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "人民羣眾係歷史嘅創造者，其根本原因喺於人民羣眾",
+    "llm_output": "正確答案嘅選項係：C. 係社會生產力嘅體現者。\n\n根據馬克思主義理論，人民羣眾係社會物質生產過程中嘅主要參與者，因此係社會生產力嘅體現者。馬克思同恩格斯喺《共產黨宣言》中指出：「窮人嘅歷史係一部窮人嘅掙扎史，一部他們為着自己嘅解放而鬥爭嘅歷史。」呢句話強調咗人民羣眾喺社會歷史發展中嘅決定性作用，並且指出呢個作用係通過社會生產活動實現嘅。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '掌握歷史發展規律'], ['B', '具有先進思想'], ['C', '係社會生產力嘅體現者'], ['D', '占人口大多數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義理論從狹義上講係",
+    "llm_output": "正確答案嘅選項係：\n\nA. 馬克思同恩格斯創立嘅基本理論、基本觀點同基本方法構成嘅科學體系\n\n呢個選項係從狹義上描述馬克思主義理論，強調咗馬克思主義嘅理論基礎同創立者。其他選項雖然都係馬克思主義嘅組成部分，但係從更廣義或者講係應用層面上嚟嘅。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '馬克思同恩格斯創立嘅基本理論、基本觀點同基本方法構成嘅科學體系'], ['B', '關於無產階級鬥爭嘅性質、目的同解放條件嘅學說'], ['C', '關於資本主義轉化為社會主義以及社會主義同共產主義發展嘅普遍規律嘅學說'], ['D', '無產階級爭取自身解放同成個人類解放嘅學說體系']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "人類社會歷史發展嘅決定力量係",
+    "llm_output": "正確答案係 D. 生產方式。\n\n馬克思主義理論認為，人類社會歷史發展嘅決定力量係生產方式，即生產力和生產關係嘅結合。生產力包括勞動者、勞動資料和勞動對象，而生產關係則涉及喺生產過程中形成嘅人與人之間嘅關係。馬克思主義認為，生產方式嘅發展變化推動社會歷史嘅進步，並且社會主要矛盾嘅變化會導致社會形態嘅轉變。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '人口因素'], ['B', '地理條件'], ['C', '社會意識'], ['D', '生產方式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「舊唯物主義係半截子嘅唯物主義」，呢係指",
+    "llm_output": "正確答案嘅選項係 C. 舊唯物主義喺社會歷史觀上係唯心主義。\n\n「舊唯物主義係半截子嘅唯物主義」呢句話嘅意思係，舊唯物主義雖然在自然觀上堅持唯物主義，但在社會歷史領域卻陷入唯心主義，因為佢哋通常將社會發展歸因於人類意識或道德水準嘅變化，而唔係基於物質生產條件嘅實際變化。馬克思同恩格斯批判咗舊唯物主義嘅呢一點，並且試圖通過歷史唯物主義嚟解決呢個問題。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '舊唯物主義係機械唯物主義'], ['B', '舊唯物主義係形而上學嘅唯物主義'], ['C', '舊唯物主義喺社會歷史觀上係唯心主義'], ['D', '舊唯物主義係割裂咗運動與靜止嘅辯證法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "有一首描述喺戰爭中缺少咗釘仔嘅馬掌會導致國家滅亡嘅童謠：「釘仔缺，蹄鐵卸，戰馬撅；戰馬撅，騎士絕；騎士絕，戰事折；戰事折，國家滅。」呢首童謠包含嘅哲學原理係",
+    "llm_output": "呢首童謠描述嘅係一連串因為缺少一個小釘仔而引發嘅連鎖反應，最終導致國家滅亡。呢個故事強調嘅係各個因素之間嘅相互聯繫同影響。因此，呢首童謠包含嘅哲學原理係：\n\nC. 事物係普遍聯繫嘅\n\n正確答案係 C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '事物係變化嘅'], ['B', '事物嘅量變引起質變'], ['C', '事物係普遍聯繫嘅'], ['D', '事物嘅現象係本質嘅表現']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級專政嘅實質，就係",
+    "llm_output": "正確答案嘅選項係 A. 無產階級作為統治階級掌握國家政權。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '無產階級作為統治階級掌握國家政權'], ['B', '領導同組織社會主義建設'], ['C', '要消滅剝削、消滅階級，進到無階級社會'], ['D', '鎮壓敵對階級嘅反抗同破壞活動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「歷史係邏輯嘅基礎，邏輯係歷史嘅修正」，呢一觀點係",
+    "llm_output": "正確答案嘅選項係：\n\nC. 歷史與邏輯相統一嘅觀點",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '割裂歷史與邏輯統一嘅觀點'], ['B', '主觀唯心主義嘅觀點'], ['C', '歷史與邏輯相統一嘅觀點'], ['D', '片面強調邏輯重要性嘅觀點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義地租係",
+    "llm_output": "正確答案係 B. 超額利潤轉化嚟嘅。\n\n根據馬克思主義經濟學，資本主義地租係指土地所有者從土地使用者獲得嘅經濟報酬，呢份報酬被視為來自土地生產過程中產生嘅超額利潤。超額利潤係指超過社會平均利潤率嘅利潤，呢啲利潤源於土地嘅獨特性或者因為土地帶嚟嘅自然條件而獲得嘅額外收益。馬克思認為，資本主義地租本質上係一種壟斷收益，因為土地作為有限資源，某些土地由於其優越嘅地理位置或自然條件，可以產生高於平均水平嘅利潤。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '壟斷利潤轉化嚟嘅'], ['B', '超額利潤轉化嚟嘅'], ['C', '企業利潤轉化嚟嘅'], ['D', '平均利潤轉化嚟嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "第二次世界大戰後，發達資本主義國家同私人壟斷統治嘅發展表現喺",
+    "llm_output": "正確答案嘅選項係 C. 形成跨行業跨部門嘅混合聯合企業。\n\n第二次世界大戰後，發達資本主義國家的私人壟斷統治通過跨行業跨部門嘅混合聯合企業嘅形成得到進一步發展。這些企業通常通過跨部門嘅多元化經營，擴大市場份額，增強競爭力，從而加強壟斷地位。金融寡頭嘅統治（A）和托拉斯同康采恩嘅出現（B）可以視為私人壟斷嘅早期形式，而國際壟斷同盟嘅興起（D）雖然係當代資本主義嘅特點，但係並唔係主要嘅發展表現。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '金融寡頭嘅統治'], ['B', '托拉斯同康采恩嘅出現'], ['C', '形成跨行業跨部門嘅混合聯合企業'], ['D', '國際壟斷同盟嘅興起']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "商品嘅本質因素係",
+    "llm_output": "正確答案係 C. 價值。根據馬克思主義經濟學，商品嘅本質因素係價值，即商品中所體現嘅社會必要勞動時間。價值係商品嘅社會屬性，反映咗商品生產者之間嘅社會關係。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '交換價值'], ['B', '使用價值'], ['C', '價值'], ['D', '價格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟全球化嘅實質決定咗佢嘅發展必然係",
+    "llm_output": "C. 有利於發達資本主義國家",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '有利於社會主義國家'], ['B', '有利於所有國家'], ['C', '有利於發達資本主義國家'], ['D', '有利於發展中國家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "既係自然界與人類社會分化統一嘅歷史前提，又係自然界與人類社會統一起嚟嘅現實基礎",
+    "llm_output": "正確答案嘅選項係 D. 實踐。\n\n根據馬克思主義理論，實踐係自然界與人類社會分化統一嘅歷史前提，同時亦係佢哋統一起嚟嘅現實基礎。馬克思主義認為，人類通過實踐活動改造自然界，並在呢個過程中形成同發展人類社會。因此，實踐係聯繫自然界同人類社會嘅橋樑，係佢哋之間相互作用、相互影響嘅中介。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '運動'], ['B', '物質生產'], ['C', '精神生產'], ['D', '實踐']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "恩格斯講過：「人嘅智力係按照人點樣學識改造自然界而發展嘅。」呢說明",
+    "llm_output": "B.  人嘅認識具有主觀能動性\n\n恩格斯的這句話強調了人的智力是通過學習如何改造自然界而發展的，這表明人的認識不僅能夠認識客觀世界（自然界），而且能夠通過這種認識來改造世界，體現了人的主觀能動性。因此，正確答案是 B，人嘅認識具有主觀能動性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自然界係認識發展嘅動力'], ['B', '人嘅認識具有主觀能動性'], ['C', '科學進步係實踐嘅目嘅'], ['D', '人具有認識自然嘅能力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "英雄史觀嘅理論出發點係主張",
+    "llm_output": "英雄史觀通常指強調個別英雄或領袖在歷史發展中的決定性作用，認為他們的意志和行動主宰著社會的變遷。這種觀點與馬克思主義中「社會存在決定社會意識」的原则相悖，因为它過分強調個人意志在歷史中的作用，而不是社會經濟結構和生產方式。\n\n根據馬克思主義，社會存在（即社會的經濟和物質條件）是社會意識（即人們的思想、信仰和價值觀念）的基礎，而社會意識在一定程度上反過來影響社會存在。因此，英雄史觀的理論出發點主張的是「社會意識決定社會存在」，這與馬克思主義的基本原理相矛盾。\n\n所以，正確答案是：\n\nD. 社會意識決定社會存在",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '人係社會歷史嘅主體'], ['B', '人嘅意識對社會存在具有能動嘅作用'], ['C', '社會運動受偶然性支配'], ['D', '社會意識決定社會存在']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "冇抽象嘅真理，真理總係具體嘅。呢一命題強調",
+    "llm_output": "正確答案為 A. 真理嘅內容係客觀嘅，形式係主觀嘅。\n\n呢一命題強調真理嘅內容來源於客觀世界，而形式則係人嘅主觀認識。真理總係針對具體嘅對象同條件，唔係抽象嘅、脫離實際嘅概念。其他選項唔完全符合題目所表達嘅意思。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '真理嘅內容係客觀嘅，形式係主觀嘅'], ['B', '真理係感性嘅直觀，唔係理性嘅抽象'], ['C', '同一對象真理性嘅認識只有一個'], ['D', '真理係與人嘅具體利益相聯繫嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義對經濟嘅幹預",
+    "llm_output": "國家壟斷資本主義對經濟的幹預主要是通過國家介入經濟活動，以調節市場失靈和促進經濟穩定發展。這些幹預措施包括稅收政策、公共支出、貨幣政策、社會福利制度等。然而，這些措施並沒有改變資本主義私有制的性質，也沒有改變勞動者受剝削的地位，而是旨在緩和資本主義經濟的矛盾和副作用。\n\n選項C指出國家幹預使資產階級同工人階級形成咗利益一致，這是不正確的。雖然國家幹預可能會在一定程度上平衡不同社會階級的利益，但基本的分裂和階級對立仍然存在。\n\n選項D聲稱國家幹預从根本上解決了壟斷資本主義國家的階級矛盾，這也是不正確的。階級矛盾仍然是資本主義社會的核心問題，國家幹預只能緩解矛盾，但不能根本解決。\n\n因此，正確答案是：\n\nA. 冇改變勞動者受剝削嘅地位\n\n這個選項最符合馬克思主義理論對於國家壟斷資本主義的評價，即國家幹預並未能改變資本主義的基本性質，包括勞動者受剝削的地位。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '冇改變勞動者受剝削嘅地位'], ['B', '改變咗資本主義私有制嘅性質'], ['C', '使資產階級同工人階級形成咗利益一致'], ['D', '從根本上解決咗壟斷資本主義國家嘅階級矛盾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "人工智能嘅出現對馬克思主義哲學意識論嘅意義係",
+    "llm_output": "正確答案嘅選項係：\n\nD. 豐富咗物質同意識相互關係内容\n\n人工智能嘅出現對馬克思主義哲學意識論嘅意義在於，人工智能作為一種高度發展嘅計算技術，能夠處理大量數據並進行複雜嘅決策過程，從而豐富咗人類對於物質同意識相互關係嘅理解。人工智能並唔係代替人類意識嘅能動活動，而係通過技術嘅手段擴展人類認識世界嘅能力。因此，選項 D 係最合適嘅答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '肯定咗人工智能可以代替意識嘅能動活動'], ['B', '改變咗人類意識活動嘅規律性'], ['C', '人工智能嘅出現對馬克思主義哲學意識論嘅意義係'], ['D', '豐富咗物質同意識相互關係內容']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "第二次世界大戰後，國家壟斷資本主義發展嘅特點係",
+    "llm_output": "正確答案嘅選項係：\n\nB. 發展迅速且持續穩定",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '發展緩慢唔穩定'], ['B', '發展迅速且持續穩定'], ['C', '時而削弱，時而發展'], ['D', '發展迅速但唔穩定']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級專政嘅目標係",
+    "llm_output": "D. 要消滅剝削、消滅階級，進到無階級社會\n\n無產階級專政嘅目標係要消滅剝削同階級間嘅對立，達成一個無階級嘅社會，呢個係馬克思主義理論中嘅最終目標。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '不斷鞏固、發展無產階級政權同社會主義制度'], ['B', '防止國外敵人嘅侵略同顛覆，支持世界人民嘅革命鬥爭'], ['C', '建設社會主義民主'], ['D', '要消滅剝削、消滅階級，進到無階級社會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "對於哲學史上長期爭論唔休嘅唯理論同經驗論兩大派別嘅正確評價係",
+    "llm_output": "D. 唯理論同經驗論各有片面嘅真理性\n\n唯理論同經驗論係哲學上兩大主要認識論派別。唯理論強調知識來自於理性同先天知識，而經驗論強調知識來自於經驗。馬克思主義認為，唯理論同經驗論各有其片面嘅真理性，而唔係一邊正確一邊錯誤。馬克思主義認識論強調實踐嘅重要性，認為知識來自於實踐同經驗嘅結合，並且通過實踐嚟驗證同發展。因此，答案選項 D 係最符合馬克思主義對唯理論同經驗論嘅評價。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唯理論係正確嘅，經驗論係錯誤嘅'], ['B', '經驗論係正確嘅，唯理論係錯誤嘅'], ['C', '唯理論同經驗論都係完全錯誤嘅'], ['D', '唯理論同經驗論各有片面嘅真理性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺生產關係中起決定作用嘅係",
+    "llm_output": "A. 生產資料所有制",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '生產資料所有制'], ['B', '喺生產中人同人嘅關係'], ['C', '產品嘅分配同交換'], ['D', '管理者同生產者嘅唔同地位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義產生嘅經濟根源係",
+    "llm_output": "正確答案嘅選項係：\n\nD. 資本主義社會生產力同生產關係嘅矛盾運動",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '工業革命'], ['B', '資本主義經濟危機'], ['C', '階級鬥爭'], ['D', '資本主義社會生產力同生產關係嘅矛盾運動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「社會上一旦有技術上嘅需要，呢種需要會比十間大學更加能夠把科學推向前進。」呢說明",
+    "llm_output": "正確答案嘅選項係：A. 實踐係認識發展嘅動力。\n\n呢句話嘅意思係，當社會上有實際需要解決嘅技術問題時，呢種需要會推動科學研究進步，從而發展出新的認識和知識。因此，實踐（社會上嘅技術需要）係認識（科學知識）發展嘅動力。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '實踐係認識發展嘅動力'], ['B', '實踐係認識嘅來源'], ['C', '技術推動咗科學嘅發展'], ['D', '科學進步係實踐嘅目嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義嘅發展",
+    "llm_output": "正確答案嘅選項係 A. 符合壟斷資本家嘅整體利益。\n\n國家壟斷資本主義係指政府透過各種手段介入並影響資本主義經濟，包括直接擁有並經營企業、提供補貼、制定規章制度等。呢種形式嘅資本主義仍然以私有製為基礎，但政府嘅參與有時會令壟斷資本家能夠更有效地控制市場，增加利潤，從而符合他們嘅整體利益。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '符合壟斷資本家嘅整體利益'], ['B', '代表咗個別資本家嘅利益'], ['C', '改變咗經濟嘅資本主義性質'], ['D', '消滅咗私人壟斷資本主義嘅基礎']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "唯物辯證法嘅否定之否定規律揭示咗事物發展嘅",
+    "llm_output": "唯物辯證法嘅否定之否定規律揭示咗事物發展嘅「方向同道路」，所以正確答案係 C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結構同功能'], ['B', '形式同狀態'], ['C', '方向同道路'], ['D', '源泉同動力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「沉舟側畔千帆過，病樹前頭萬木春。」「芳林新葉催陳葉，流水前波讓後波。」呢兩句詩包含嘅哲學道理係",
+    "llm_output": "正確答案嘅選項係：A. 新事物代替舊事物係事物發展嘅總趨勢。\n\n呢兩句詩表達嘅係新舊事物之間嘅交替同發展，新事物最終將取代舊事物，成為事物發展嘅主要趨勢。這符合馬克思主義中對於事物發展規律嘅理解，即社會主義最終將取代資本主義，成為更先進嘅社會形態。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新事物代替舊事物係事物發展嘅總趨勢'], ['B', '事物係本質同現象嘅統一'], ['C', '矛盾係事物發展嘅動力'], ['D', '事物嘅發展係量變同質變嘅統一']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義最崇高嘅社會理想",
+    "llm_output": "A. 實現共產主義",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '實現共產主義'], ['B', '實現人權'], ['C', '消滅階級、消滅國家'], ['D', '實現個人嘅絕對自由']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「坐地日行八萬裏，巡天遙睇一千河」，呢一著名詩句包含嘅哲理係",
+    "llm_output": "呢一著名詩句「坐地日行八萬裏，巡天遙睇一千河」所包含嘅哲理係運動嘅絕對性同靜止嘅相對性嘅統一。因此，正確答案為：\n\nB. 運動嘅絕對性同靜止嘅相對性嘅統一",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '時空嘅無限性同有限性嘅統一'], ['B', '運動嘅絕對性同靜止嘅相對性嘅統一'], ['C', '物質運動嘅客觀性同時空嘅主觀性嘅統一'], ['D', '物質運動嘅無限性同有限性嘅統一']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義政黨制度嘅實質係",
+    "llm_output": "正確答案嘅選項係：D. 資產階級揀選自己嘅國家管理者，實現其內部利益平衡嘅政治機制。\n\n馬克思主義認為，資本主義政黨制度係資產階級統治嘅一種形式，係資產階級揀選自己嘅代表來管理國家，並且通過呢種制度達到其內部利益嘅平衡。呢種制度唔能夠真正代表工人階級或者其他非資產階級嘅利益。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唔受資本主義國家政權嘅資本主義性質制約'], ['B', '允許馬克思主義政黨獨立執政'], ['C', '允許工人階級及其政黨參與國家政治生活'], ['D', '資產階級揀選自己嘅國家管理者，實現其內部利益平衡嘅政治機制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級革命嘅根本問題係",
+    "llm_output": "正確答案嘅選項係 B. 國家政權問題。在馬克思主義理論中，無產階級革命主要係指無產階級奪取國家政權，建立共產主義社會嘅過程。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '武裝鬥爭問題'], ['B', '國家政權問題'], ['C', '統一戰線中嘅領導權問題'], ['D', '農民問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "科學社會主義嘅核心內容係",
+    "llm_output": "科學社會主義的核心內容係「無產階級專政同社會主義民主」，所以正確答案為：\n\nA. 無產階級專政同社會主義民主",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '無產階級專政同社會主義民主'], ['B', '國家政權'], ['C', '無產階級專政'], ['D', '唯物史觀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "人民羣眾既係歷史嘅「劇中人」，又係歷史嘅「劇作者」，呢係",
+    "llm_output": "正確答案嘅選項係：\n\nD. 歷史唯物主義嘅觀點",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '歷史循環論嘅觀點'], ['B', '折衷主義嘅觀點'], ['C', '唯心主義嘅觀點'], ['D', '歷史唯物主義嘅觀點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思提到：「搬運工同哲學家之間嘅原始差異，其實比家犬同獵犬之間嘅差異細好多，佢哋之間嘅鴻溝係由分工挖出嚟嘅。」呢個表明",
+    "llm_output": "B. 人嘅聰明才智主要來源於後天實踐\n\n馬克思嘅呢句話唔係講緊人嘅聰明才智先天上嘅差異，而係講緊後天嘅分工同實踐對人嘅智力發展嘅影響。佢想表達嘅係，搬運工同哲學家嘅主要分別在於佢哋嘅社會分工，而唔係先天嘅智力差異。因此，正確答案應該係 B，即人嘅聰明才智主要來源於後天實踐。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人嘅聰明才智嘅大小主要取決於主觀努力嘅程度'], ['B', '人嘅聰明才智主要來源於後天實踐'], ['C', '人嘅聰明才智無先天區別'], ['D', '人嘅聰明才智由人嘅社會政治地位決定']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "壟斷資本主義國家嘅「經濟計劃化」",
+    "llm_output": "D.  使生產嘅無政府狀態得到一定嘅緩解\n\n馬克思主義理論中，壟斷資本主義國家的「經濟計劃化」被視為一種手段，通過國家干預來調節市場運作，從而可能在一定程度上緩解資本主義經濟中嘅無政府狀態。然而，經濟計劃並不能消除資本主義經濟危機或根本解決資本主義基本矛盾，也唔一定導致資本主義向社會主義和平過渡。因此，最正確嘅選項係 D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '可以消除資本主義經濟危機'], ['B', '可以從根本上解決資本主義基本矛盾'], ['C', '導致資本主義向社會主義和平過渡'], ['D', '使生產嘅無政府狀態得到一定嘅緩解']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義必然代替資本主義嘅主要依據係",
+    "llm_output": "正確答案嘅選項係：D. 生產嘅社會化與資本主義私人佔有制之間嘅矛盾。\n\n馬克思主義理論指出，資本主義制度下生產社會化嘅程度日益提高，但生產資料嘅私人佔有制導致嘅矛盾同衝突會日益尖銳化，最終導致社會主義革命，而社會主義將取代資本主義。馬克思認為，隨著生產力嘅發展，資本主義生產關係會成為阻礙生產力發展嘅桎梏，從而導致其自身嘅滅亡同社會主義嘅勝利。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '無產階級與資產階級鬥爭尖銳化'], ['B', '現代無產階級嘅日益壯大'], ['C', '個別企業有組織嘅生產與成個社會生產無政府狀態之間嘅矛盾'], ['D', '生產嘅社會化與資本主義私人佔有制之間嘅矛盾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "科學社會主義嘅直接理論來源係",
+    "llm_output": "正確答案嘅選項係 B. 19 世紀初期以聖西門、傅立葉、歐文為代表嘅空想社會主義。\n\n科學社會主義嘅直接理論來源係 19 世紀初期嘅空想社會主義學說，其中最著名嘅代表人物包括聖西門、傅立葉、歐文等。呢啲學說雖然係基於對當時資本主義社會嘅批評，但係唔能夠提供科學嘅方法去達到社會主義。馬克思同恩格斯嘅唯物史觀同剩餘價值學說為科學社會主義提供了理論基礎。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唯物史觀同剩餘價值學說'], ['B', '19世紀初期以聖西門、傅立葉、歐文為代表嘅空想社會主義'], ['C', '空想社會主義嘅學說'], ['D', '空想平均共產主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "如果部門勞動生產率下降，同一勞動喺單位時間內創造嘅",
+    "llm_output": "正確答案係 B. 使用價值量減少，單位產品嘅價值量增加。\n\n根據馬克思嘅價值理論，勞動時間係決定商品價值量嘅因素。當部門勞動生產率下降時，同一勞動喺單位時間內創造嘅使用價值量會減少，因為需要更多時間先能夠生產出同之前質量相同嘅產品。不過，由於勞動時間嘅增加，單位產品嘅價值量會增加，因為生產每個產品所需嘅社會必要勞動時間更長。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '價值量減少，單位產品嘅價值量減少'], ['B', '使用價值量減少，單位產品嘅價值量增加'], ['C', '價值量增加，單位產品嘅價值量增加'], ['D', '使用價值量減少，單位產品嘅價值量減少']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「哲學將無產階級當作自己嘅物質武器，同樣，無產階級將哲學當作自己嘅精神武器」，呢個論斷嘅含義係",
+    "llm_output": "正確答案嘅選項係 A. 馬克思主義係無產階級嘅世界觀同方法論。\n\n呢個論斷嘅含義係指馬克思主義提供咗一套理論架構，用嚟理解社會、經濟同政治嘅運作，並且提議咗一條達到社會主義，最終達到共產主義嘅道路。馬克思主義認為無產階級（工人階級）係社會中嘅主要革命力量，而哲學可以作為無產階級革命鬥爭嘅指導思想。因此，馬克思主義被視為無產階級嘅世界觀同方法論，用嚟分析社會現實同制定革命策略。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '馬克思主義係無產階級嘅世界觀同方法論'], ['B', '哲學嘅存在方式係物質'], ['C', '無產階級嘅存在方式係精神'], ['D', '無產階級掌握哲學就由自為階級轉變為自喺階級']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資產階級意識形態嘅核心係",
+    "llm_output": "B. 政治思想同法律思想",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '哲學、歷史'], ['B', '政治思想同法律思想'], ['C', '道德、倫理'], ['D', '文學、藝術同宗教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "學習馬克思主義基本原理嘅根本方法",
+    "llm_output": "A. 理論聯繫實際",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '理論聯繫實際'], ['B', '實事求係'], ['C', '一切從實際出發'], ['D', '認真學習馬克思主義嘅著作']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "法國科學家路易·巴斯德講過：「喺觀察事物之際，機遇偏愛有準備嘅頭腦。」呢句話強調咗",
+    "llm_output": "B. 人哋喺認識事物時要有理性嘅指導\n\n路易·巴斯德嘅呢句話強調咗準備好嘅頭腦對於觀察事物嘅重要性，而理性嘅指導正正就係準備好嘅頭腦嘅體現，因為理性思考能夠幫助人們更好地理解同分析觀察到嘅事物。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人哋只有發揮主觀能動性先能認識事物'], ['B', '人哋喺認識事物時要有理性嘅指導'], ['C', '人哋唔單止要善於觀察事物，仲要善於思考問題'], ['D', '人哋獲得感性經驗至關重要']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "上層建築係指",
+    "llm_output": "D. 建立喺一定社會經濟基礎之上嘅意識形態及相應嘅制度",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '科學技術'], ['B', '社會生產關係'], ['C', '社會嘅經濟制度'], ['D', '建立喺一定社會經濟基礎之上嘅意識形態及相應嘅制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級反對資產階級嘅鬥爭中，最具決定意義嘅係",
+    "llm_output": "正確答案係 A. 政治鬥爭。\n\n根據馬克思主義理論，無產階級反對資產階級嘅鬥爭中，最具決定意義嘅係政治鬥爭。政治鬥爭包括爭取政治權力、改變社會制度同確立無產階級嘅領導地位等行動。馬克思同恩格斯喺《共產黨宣言》中指出：「全世界的無產者，聯合起來！」，強調咗政治鬥爭嘅重要性。雖然經濟鬥爭、理論鬥爭同議會鬥爭都係無產階級鬥爭嘅組成部分，但政治鬥爭被視為達到最終革命目標嘅關鍵。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '政治鬥爭'], ['B', '理論鬥爭'], ['C', '議會鬥爭'], ['D', '經濟鬥爭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "第二次世界大戰後，發達資本主義國家嘅發展進入國家壟斷資本主義嘅新階段，呢意味住",
+    "llm_output": "正確答案嘅選項係：C. 發達資本主義國家嘅政府擔當調控國家宏觀經濟嘅重要職能。\n\n國家壟斷資本主義嘅特點係國家同資本嘅結合，而第二次世界大戰後，發達資本主義國家嘅政府擔當咗更加重要嘅角色，透過各種政策同規劃，調控國家宏觀經濟，包括透過財政、貨幣政策等手段，喺經濟發展、就業、通脹等各方面達到更加穩定嘅效果。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '所有重要嘅經濟部門實行國有化'], ['B', '國家壟斷資本掌控經濟生活'], ['C', '發達資本主義國家嘅政府擔當調控國家宏觀經濟嘅重要職能'], ['D', '國家壟斷重於私人壟斷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟全球化帶畀發展中國家嘅消極影響有好多，但唔包括",
+    "llm_output": "經濟全球化對發展中國家有許多消極影響，但以下選項唔包括喺其中：\n\nB. 經濟發展機會大大減少\n\n正確答案係 B。經濟全球化通常被認為為發展中國家帶來更多嘅經濟發展機會，儘管同時亦帶嚟挑戰同消極影響，例如經濟發展受到一定程度嘅損失（A）、喺國際貿易關係中剩餘價值大量流失（C）、金融風險加大（D）等。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '經濟發展受到一定程度嘅損失'], ['B', '經濟發展機會大大減少'], ['C', '喺國際貿易關係中剩餘價值大量流失'], ['D', '金融風險加大']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "辯證思維方法從抽象上升到具體嘅過程係",
+    "llm_output": "正確答案嘅選項係 C. 喺思維中形成「多種規定嘅統一」嘅過程。\n\n辯證思維方法係一種通過分析事物嘅矛盾性、發展變化以及內部聯繫嚟認識事物嘅方法。從抽象上升到具體嘅過程，係指在思維中將事物的各種屬性、方面、關係等從抽象嘅層次逐步結合、發展成為一個具體整體形象嘅過程。呢個過程強調在思維中把握事物嘅多種規定（即各種性質、功能、關係等），並且將呢啲規定統一起嚟，形成一個對事物全面嘅認識。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '從認識到實踐嘅過程'], ['B', '思維生成現實具體嘅過程'], ['C', '喺思維中形成「多種規定嘅統一」嘅過程'], ['D', '從實踐到認識嘅過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義國家嘅選舉嘅實質係",
+    "llm_output": "根據馬克思主義理論，資本主義國家的選舉實質上是統治階級內部利益關係和矛盾的協調手段。因此，正確答案是：\n\nB. 協調統治階級內部利益關係同矛盾嘅重要措施",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '每個公民都能通過競選參與政治活動，表達自己嘅願望同要求'], ['B', '協調統治階級內部利益關係同矛盾嘅重要措施'], ['C', '人民當家作主'], ['D', '資產階級同無產階級分權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級革命取得勝利嘅根本保證係",
+    "llm_output": "正確答案嘅選項係 B. 無產階級政黨嘅正確領導。\n\n根據馬克思主義理論，無產階級革命要取得勝利，需要有堅強嘅領導核心，即係無產階級政黨。無產階級政黨能夠提出正確嘅革命策略，組織無產階級和廣大人民羣眾進行有效的鬥爭，並且引導革命向勝利嘅方向發展。因此，無產階級政黨嘅正確領導係無產階級革命取得勝利嘅根本保證。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國家政權問題'], ['B', '無產階級政黨嘅正確領導'], ['C', '建立革命嘅統一戰線'], ['D', '人民羣眾嘅革命積極性嘅極大提高']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「物嘅依賴性關係」係",
+    "llm_output": "D.  資本主義社會入面嘅人同人之間嘅關係",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資本主義社會以前嘅人同人之間嘅關係'], ['B', '共產主義社會入面嘅人同人之間嘅關係'], ['C', '社會主義社會入面嘅人同人之間嘅關係'], ['D', '資本主義社會入面嘅人同人之間嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本係一種運動，資本循環係從",
+    "llm_output": "正確答案嘅選項係：\n\nA. 資本運動嘅實現條件方面研究資本嘅運動",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資本運動嘅實現條件方面研究資本嘅運動'], ['B', '資本運動嘅矛盾性方面研究資本嘅運動'], ['C', '資本運動嘅速度方面研究資本嘅運動'], ['D', '資本運動嘅形式同條件方面研究資本嘅運動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本集中特嘅方式係",
+    "llm_output": "正確答案嘅選項係 A. 競爭同剩餘價值嘅資本化。\n\n資本集中特嘅方式主要通過競爭導致企業合併同收購，以及剩餘價值嘅資本化，即係企業將賺取嘅利潤再投資入去擴大生產規模或者購買更多生產資料，從而增加僱傭勞動者嘅數量，進一步擴大資本嘅規模。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '競爭同剩餘價值嘅資本化'], ['B', '競爭同信用'], ['C', '簡單再生產同擴大再生產'], ['D', '資本積聚同資本積累']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "下列提法正確嘅係",
+    "llm_output": "D. 好多思想家都預見咗未來社會\n\n這個選項是正確嘅，因為歷史上有多種不同嘅思想學派和哲學家嘗試過預見未來社會，包括空想社會主義、唯心主義、馬克思主義等。每種學派都有其對於理想社會嘅設想和預期。因此，不能說只有某一學派嘅思想家預見了未來社會。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '只有空想社會主義思想家預見咗未來社會'], ['B', '只有唯心主義思想家預見咗未來社會'], ['C', '只有馬克思主義經典作家預見咗未來社會'], ['D', '好多思想家都預見咗未來社會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺理論上第一次將共產主義社會第一階段稱為社會主義嘅係",
+    "llm_output": "正確答案係 C. 列寧。\n\n列寧係喺佢嘅著作《社會主義同社會民主主義》入面，理論上第一次將共產主義社會第一階段稱為社會主義。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '恩格斯'], ['B', '馬克思'], ['C', '列寧'], ['D', '斯大林']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "民主嘅根本性質最終取決於",
+    "llm_output": "根據馬克思主義理論，民主的根本性質最終取決於「其經濟基礎嘅性質」。因此，正確答案係：\n\nC. 其經濟基礎嘅性質",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '係唔係全民嘅民主'], ['B', '統治階級點樣嚟進行統治'], ['C', '其經濟基礎嘅性質'], ['D', '由邊個嚟進行統治']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會意識相對獨立性嘅最突出表現係佢",
+    "llm_output": "正確答案嘅選項係 D. 對社會存在具有能動嘅反作用。\n\n馬克思主義理論中，社會意識嘅相對獨立性包括幾個方面嘅表現，其中最突出嘅表現係社會意識對社會存在嘅能動反作用。社會意識不僅反映社會存在，而唔會完全被動地跟隨社會存在，而係可以影響社會存在、社會生活同社會發展嘅方向。呢種能動反作用體現在社會意識可以促進或阻礙社會發展，並且可以通過意識形態、文化傳統、價值觀念等方式影響社會結構同社會關係。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '具有歷史嘅繼承性'], ['B', '同社會存在發展嘅唔同步性'], ['C', '同社會經濟嘅發展具有唔平衡性'], ['D', '對社會存在具有能動嘅反作用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本主義經濟危機嘅實質係",
+    "llm_output": "正確答案嘅選項係 D. 生產相對過剩嘅危機。\n\n根據馬克思主義理論，資本主義經濟危機嘅實質係生產相對過剩危機。呢種危機並唔係因為生產嘅物質總量過剩，而係因為生產嘅產品唔能夠被有支付能力嘅需求所吸收，即係話，雖然產品數量上可能並唔過剩，但由於財富分配不均等原因，大部份人唔能夠購買呢啲產品，從而導致生產過剩嘅現象。馬克思認為呢種危機係資本主義體系固有嘅矛盾，並且會周期性發生。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '生產唔足嘅危機'], ['B', '生產過剩嘅危機'], ['C', '生產絕對過剩嘅危機'], ['D', '生產相對過剩嘅危機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義各個階段嘅劃分最終應以",
+    "llm_output": "正確答案嘅選項係 C. 生產力嘅發展為標準。\n\n根據馬克思主義理論，社會主義各個階段嘅劃分最終應以生產力嘅發展為標準。馬克思同恩格斯認為，社會形態嘅演變主要取決於生產力嘅發展，以及生產關係同生產力之間嘅矛盾運動。社會主義作為資本主義嘅繼任者，其發展同進步亦都建基於生產力嘅進一步發展之上。因此，社會主義各階段嘅劃分應當以生產力嘅發展水平作為主要標準。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '以階級鬥爭為標準'], ['B', '生產資料嘅公有制程度為標準'], ['C', '生產力嘅發展為標準'], ['D', '生產關係為標準']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義產生嘅階級基礎同實踐基礎",
+    "llm_output": "正確答案嘅選項係：\n\nA. 無產階級作為一支獨立嘅政治力量登上咗歷史舞臺\n\n馬克思主義嘅產生，係基於無產階級作為一支獨立嘅政治力量，開始登上歷史舞臺，並且工人運動嘅發展，成為咗馬克思主義理論形成嘅實踐基礎。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '無產階級作為一支獨立嘅政治力量登上咗歷史舞臺'], ['B', '工人運動得到咗「農民嘅合唱」'], ['C', '資本主義嘅剝削同壓迫'], ['D', '工人罷工同起義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "實現社會主義嘅必要政治前提係",
+    "llm_output": "正確答案嘅選項係：B. 建立無產階級專政。\n\n根據馬克思主義理論，社會主義嘅實現需要通過無產階級革命推翻資本主義制度，並建立無產階級專政，以確保社會主義制度能夠穩固建立同發展。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '無產階級嘅革命鬥爭'], ['B', '建立無產階級專政'], ['C', '建立廣泛嘅革命統一戰線'], ['D', '無產階級政黨嘅領導']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "蒸汽、電力同自動紡織機甚至係比巴爾貝斯、拉斯拜爾同布朗基諸位公民更加危險萬分嘅革命家。」呢一論斷嘅含義係",
+    "llm_output": "正確答案嘅選項係 A. 科技革命導致社會政治革命。\n\n呢一論斷嘅含義在於指出科技進步尤其係蒸汽同電力嘅應用，帶嚟經濟上嘅轉變，從而導致社會結構同政治關係嘅根本變化。馬克思主義認為，資本主義生產方式下嘅科技發展，最終會導致資本主義制度嘅矛盾同衝突，從而引起社會政治革命，引領到新嘅社會形態。因此，科技革命被視為導致社會政治革命嘅重要因素。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '科技革命導致社會政治革命'], ['B', '科技革命係對統治階級嘅極大威脅'], ['C', '科技革命對變革社會制度具有直接嘅決定作用'], ['D', '濫用科技革命嘅成果會對人類造成「危險」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「真理同謬誤嘅對立，只係喺非常有限嘅範圍內先有意義」係",
+    "llm_output": "正確答案嘅選項係：\n\nA. 唯物辯證法嘅觀點\n\n呢個陳述符合唯物辯證法嘅思想，因為唯物辯證法強調事物發展變化嘅過程中，對立統一嘅關係，包括真理同謬誤嘅關係。在唯物辯證法中，真理同謬誤嘅對立並唔是絕對嘅，而係相對嘅，並且喺一定條件下，真理同謬誤可以互相轉化。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '唯物辯證法嘅觀點'], ['B', '詭辯論嘅觀點'], ['C', '形而上學嘅觀點'], ['D', '相對主義嘅觀點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義生命力嘅根源喺於",
+    "llm_output": "正確答案嘅選項係：\n\nC. 以實踐為基礎嘅科學性與革命性嘅統一",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '與時俱進'], ['B', '科學性與階級性嘅統一'], ['C', '以實踐為基礎嘅科學性與革命性嘅統一'], ['D', '科學性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思恩格斯進一步發展同完善咗英國古典經濟學理論係",
+    "llm_output": "B.  勞動價值論\n\n馬克思恩格斯進一步發展和完善了英國古典經濟學的勞動價值論，並將其應用於他們的馬克思主義理論中。他們的勞動價值論主張商品的價值來源於生產該商品所消耗的社會勞動時間，並且商品的價值可以通過生產它所需的社會必要勞動時間來衡量。這理論是馬克思主義經濟學的基礎之一。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '歷史觀'], ['B', '勞動價值論'], ['C', '辯證法'], ['D', '剩餘價值論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義認為，消滅「三大差別」嘅關鍵喺於",
+    "llm_output": "馬克思主義認為，消滅「三大差別」的關鍵在於：\n\nB. 消滅利益差別\n\n這三大差別通常指的是：腦力勞動與體力勞動的差別、城市與鄉村的差別、工業與農業的差別。馬克思主義認為，這些差別的根源在於社會的階級對立和利益衝突，因此消滅利益差別是解決這些問題的關鍵。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '消滅腦力勞動同體力勞動嘅差別'], ['B', '消滅利益差別'], ['C', '消滅城市同鄉村嘅差別'], ['D', '消滅工業與農業嘅差別']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "當代資本主義國際壟斷組織嘅主要形式係",
+    "llm_output": "當代資本主義國際壟斷組織的主要形式係 B. 跨國公司。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國際卡特爾'], ['B', '跨國公司'], ['C', '混合聯合企業級'], ['D', '國際康采恩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本循環嘅三種職能形式係",
+    "llm_output": "正確答案嘅選項係：\n\nB. 貨幣資本、生產資本、商品資本\n\n呢三種職能形式係馬克思主義經濟學入面，資本循環時嘅三個階段。貨幣資本係資本嘅第一個階段，用來購買生產資料同勞動力；生產資本係資本嘅第二個階段，用來進行生產過程；商品資本係資本嘅第三個階段，用來出售生產出嚟嘅商品，換取回報同開始新一輪嘅資本循環。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔變資本、可變資本、流通資本'], ['B', '貨幣資本、生產資本、商品資本'], ['C', '產業資本、商業資本、借貸資本'], ['D', '固定資本、流動資本、生產資本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "對「勞動係財富之父，土地係財富之母」呢句話嘅正確解釋係",
+    "llm_output": "C. 勞動必須同自然物相結合先可以創造出物質財富\n\n呢句話嘅背景來自古典經濟學家，例如 Adam Smith 同 David Ricardo，佢哋嘅理論影響咗馬克思主義理論。呢句話主要想表達嘅係，勞動者通過對自然資源（土地同其他自然物）嘅勞動過程，先可以創造出有使用價值嘅商品，而呢啲商品係人類社會財富嘅體現。馬克思主義認為，勞動係創造價值嘅主要源泉，而土地同其他自然條件係必要嘅基礎，但唔係價值嘅真正源泉。因此，答案選項 C 係最接近呢句話嘅正確解釋。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '勞動創造使用價值，土地形成價值'], ['B', '勞動同土地都係價值嘅源泉'], ['C', '勞動必須同自然物相結合先可以創造出物質財富'], ['D', '勞動係創造價值嘅外部條件，土地係價值嘅真正源泉']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義認為，主客體之間嘅價值關係係指",
+    "llm_output": "正確答案嘅選項係：D. 客體對於主體嘅有用性同效益性。\n\n馬克思主義中，主客體之間嘅價值關係主要講嘅係客體對於主體嘅意義同作用，即係客體對主體嘅有用性同效益性。價值關係強調嘅係客體滿足主體需求嘅能力，而唔單單只係主體對客體嘅物質慾望同要求（選項 A），或者主體對客體嘅改造同變革嘅結果（選項 B），亦或者主體對客體嘅能動反映（選項 C）。雖然這些方面都係人同物質世界互動嘅一部分，但唔係價值關係嘅核心概念。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '主體對客體嘅物質慾望同要求'], ['B', '主體對客體嘅改造同變革嘅結果'], ['C', '主體對客體嘅能動反映'], ['D', '客體對於主體嘅有用性同效益性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "實踐基礎上嘅理論創新，係",
+    "llm_output": "A. 社會發展同變革嘅先導",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會發展同變革嘅先導'], ['B', '決定咗社會發展趨勢'], ['C', '決定住社會變革力度'], ['D', '一個國家興旺發達嘅最終源泉']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "真理嘅絕對性係指佢嘅",
+    "llm_output": "正確答案嘅選項係：\n\nD. 客觀性\n\n真理嘅絕對性係指真理嘅客觀性，即係話，真理唔會因為人嘅主觀意識或者主觀願望而改變，而係基於事物嘅客觀存在和規律。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '終極性'], ['B', '全面性'], ['C', '具體性'], ['D', '客觀性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "實踐嘅客體係",
+    "llm_output": "正確答案係：A. 進入主體嘅認識同實踐範圍嘅客觀事物。\n\n馬克思主義中，實踐嘅客體係指進入主體嘅認識同實踐範圍嘅客觀事物。呢個概念強調嘅係主體（通常係人類）透過實踐活動，將客觀事物納入到自己嘅活動範圍，從而進行改造同認識。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '進入主體嘅認識同實踐範圍嘅客觀事物'], ['B', '絕對精神嘅對象化'], ['C', '人嘅意識嘅創造物'], ['D', '客觀物質世界']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟政治發展嘅唔平衡係資本主義嘅絕對規律，由此得出結論：社會主義可能首先喺少數或者甚至喺單獨一個資本主義國家內獲得勝利。提出呢一著名論斷嘅係",
+    "llm_output": "A. 列寧",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '列寧'], ['B', '馬克思'], ['C', '斯大林'], ['D', '恩格斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺壟斷資本主義嘅各個基本經濟特徵中最根本嘅特徵係",
+    "llm_output": "正確答案嘅選項係：\n\nD. 壟斷喺經濟生活中佔統治地位\n\n壟斷資本主義嘅基本經濟特徵包括咗：壟斷喺經濟生活中佔統治地位、資本輸出嘅重要性、國家壟斷同盟嘅形成、瓜分世界領土形成殖民體系等。當中，壟斷嘅形成係壟斷資本主義嘅最根本特徵，因為佢涉及到生產同埋市場嘅組織形式，係由資本主義內部發展嘅必然結果。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '國家壟斷同盟嘅形成'], ['B', '資本輸出具有重要嘅意義'], ['C', '瓜分世界領土，形成殖民體系'], ['D', '壟斷喺經濟生活中佔統治地位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "美蘇冷戰全面展開嘅標誌係",
+    "llm_output": "美蘇冷戰全面展開的標誌是 D. 杜魯門主義（Truman Doctrine）。\n\n杜魯門主義於1947年3月12日由美國總統哈里·S·杜魯門提出，它標誌著美國對共產主義擴張的遏制政策，以及對苏联在全球范围内扩张势力的对抗態度的開始。杜魯門主義的提出，正式開啟了美蘇之間的冷戰時期。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '丘吉爾嘅鐵幕演說'], ['B', '兩大陣營嘅形成'], ['C', '馬歇爾計劃'], ['D', '杜魯門主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬列主義關於無產階級政黨學說嘅核心內容係",
+    "llm_output": "B.  黨嘅領導地位同作用問題",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '黨嘅戰略同策略問題'], ['B', '黨嘅領導地位同作用問題'], ['C', '黨嘅性質同奮鬥目標'], ['D', '黨嘅路線同組織原則問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "科學家尼葛龐蒂講過：「預測未來嘅最好辦法就係把佢創造出嚟。」從認識同實踐嘅關係睇，呢句話對我哋嘅啟示係",
+    "llm_output": "A. 實踐高於（理論嘅）認識，因為佢唔單止具有普遍性嘅品格，而且具有直接現實性嘅品格\n\n尼葛龐蒂嘅說法強調咗創造未來嘅重要性，從認識同實踐嘅關係角度出發，呢句話啟示我哋實踐嘅重要性。在馬克思主義理論中，實踐被視為認識嘅基礎，因為實踐不僅能夠驗證理論，而且能夠創新生產關係同社會結構，從而改變人們嘅認識。因此，選項A最符合尼葛龐蒂嘅觀點同馬克思主義對於實踐嘅重視。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '實踐高於（理論嘅）認識，因為佢唔單止具有普遍性嘅品格，而且具有直接現實性嘅品格'], ['B', '實踐同認識互為先導'], ['C', '認識總係滯後於實踐'], ['D', '實踐與認識係合一嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "作為中國共產黨同社會主義事業指導思想嘅馬克思主義係指",
+    "llm_output": "D. 唔單止指馬克思恩格斯創立嘅基本理論、基本觀點同學說嘅體系，也包括繼承者對佢嘅發展\n\n呢個選項正確嘅原因係，馬克思主義係一個理論體系，包括馬克思同恩格斯創立嘅基本理論、基本觀點同方法，亦包括後嚟嘅繼承者，例如列寧、斯大林、毛澤東等人，對呢個理論體系嘅發展同應用。中國共產黨將馬克思主義視為其指導思想，並將之應用於中國嘅具體實際，從而發展咗具有中國特色嘅社會主義理論體系。因此，馬克思主義對於中國共產黨同社會主義事業嘅指導，係包括咗理論嘅原創同發展嘅。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '關於無產階級鬥爭嘅性質、目嘅同解放條件嘅學說'], ['B', '列寧創立嘅基本理論、基本觀點同基本方法構成嘅科學體系'], ['C', '無產階級爭取自身解放同成個人類解放嘅學說體系'], ['D', '唔單止指馬克思恩格斯創立嘅基本理論、基本觀點同學說嘅體系，也包括繼承者對佢嘅發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思講：「一切商品對佢哋嘅所有者係非使用價值，對佢哋嘅非所有者係使用價值。」呢句話表明",
+    "llm_output": "正確答案嘅選項係 D. 商品嘅使用價值係對消費者而言嘅。\n\n馬克思嘅呢句話指出，對於商品嘅所有者嚟講，商品嘅價值係最重要嘅，因為所有者已經擁有咗商品嘅使用價值（即商品嘅實用功能）。相對嚟講，對於唔係商品所有者嘅人嚟講，佢哋關心嘅係商品嘅使用價值，即佢哋可以點樣利用商品嘅實用功能。因此，答案 D 正確地總結咗呢句話嘅含義。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '商品所有者同時獲得使用價值同價值'], ['B', '有使用價值嘅唔一定有價值'], ['C', '商品係使用價值同價值嘅對立統一'], ['D', '商品嘅使用價值係對消費者而言嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "對於同一事物，唔同嘅人有唔同嘅反映，呢句說明",
+    "llm_output": "A. 意識受主體狀況嘅影響\n\n呢句話指出，對於同一事物，不同的人有不同的反應，這表明意識受到主體狀況的影響。在馬克思主義中，這反映了意識形態是如何受到個人背景、經歷、利益和社會地位等因素的影響。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '意識受主體狀況嘅影響'], ['B', '意識唔受客體影響'], ['C', '意識嘅內容係主觀嘅'], ['D', '意識係主體嘅自由創造']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會必要勞動時間係喺現有嘅社會正常生產條件下，喺社會平均勞動熟練程度同勞動強度下製造某種使用價值所需要嘅勞動時間，佢係以",
+    "llm_output": "正確答案嘅選項係：\n\nB. 簡單勞動為尺度嘅",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '個別勞動為尺度嘅'], ['B', '簡單勞動為尺度嘅'], ['C', '複雜勞動為尺度嘅'], ['D', '具體勞動為尺度嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「人嘅依賴性關係」係",
+    "llm_output": "A. 資本主義社會以前的人同人之間嘅關係",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '資本主義社會以前嘅人同人之間嘅關係'], ['B', '共產主義社會入面嘅人同人之間嘅關係'], ['C', '社會主義社會入面嘅人同人之間嘅關係'], ['D', '資本主義社會入面嘅人同人之間嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義改革嘅根本目嘅喺於",
+    "llm_output": "正確答案嘅選項係 A. 解放同發展生產力。\n\n根據馬克思主義理論，社會主義改革嘅根本目的在於解放同發展生產力。馬克思主義認為，社會主義係通過革命手段從資本主義社會過渡到共產主義社會第一階段嘅社會制度。社會主義改革嘅目標係消除資本主義制度下嘅剝削同壓迫，通過公有化同計劃經濟來解放生產力，從而為共產主義社會奠定基礎。\n\n其他選項雖然亦可能係社會主義改革嘅目標，但係唔係根本目的。改變社會主義制度同完善社會主義制度嘅說法唔符合馬克思主義對於社會主義嘅定義，而實現社會公平亦係通過解放同發展生產力嘅手段來達成嘅目標之一，唔係根本目的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '解放同發展生產力'], ['B', '改變社會主義制度'], ['C', '實現社會公平'], ['D', '完善社會主義制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "下列講法中，觀點錯誤嘅係",
+    "llm_output": "B.  社會主義必然取代資本主義\n\n根據馬克思主義理論，社會主義最終取代資本主義是歷史唯物主義的預言，因為社會主義被視為資本主義發展後的更高階段。然而，這一過程被認為是長期且充滿曲折的，並且社會主義的勝利並非意味著資本主義的立即消亡。此外，社會主義在某些國家遇到的挫折並不改變其最終取代資本主義的命運，而國際共產主義運動的現階段低潮也不影響這一歷史進程。因此，選項A、C和D的觀點在馬克思主義理論中是正確的，而選項B則是一個錯誤的觀點，因為它忽略了社會主義取代資本主義的長期性和曲折性。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會主義喺若干國家嘅嚴重挫折改變咗資本主義必然滅亡嘅命運'], ['B', '社會主義必然取代資本主義'], ['C', '國際共產主義運動當今正處喺低潮時期'], ['D', '社會主義取代資本主義係一個長期嘅曲折嘅過程']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義嘅侷限性在於",
+    "llm_output": "正確答案嘅選項係 B. 佢只能暫時使某啲矛盾緩和，但卻使呢啲矛盾進一步加深同複雜化。\n\n國家壟斷資本主義雖然可以通過國家干預嘅方式暫時緩解某些資本主義經濟運行中嘅矛盾，例如通過財政政策同貨幣政策調節經濟周期，改善社會福利同公共設施等，但係呢種方式並唔能夠根治資本主義內在矛盾，如生產同消費之間嘅矛盾、資本家同工人之間嘅矛盾等。相反，長遠嚟講，國家壟斷資本主義可能會使到呢啲矛盾更加深化同複雜化，因為呢種方式可能會導致資源浪費、效率低下、市場機制扭曲等問題，並且可能會加劇社會分化同政治權力集中等問題。因此，馬克思主義理論認為國家壟斷資本主義嘅侷限性在於只能暫時緩和矛盾，而唔能夠根本解決資本主義內在矛盾。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '令壟斷資本主義存在住時而迅速發展時而停滯嘅趨勢'], ['B', '佢只能暫時使某啲矛盾緩和，但卻使呢啲矛盾進一步加深同複雜化'], ['C', '使壟斷資本主義經濟長期處於滯脹狀態'], ['D', '使壟斷資本主義經濟長期處於停滯狀態']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "堅持四項基本原則嘅核心係",
+    "llm_output": "堅持四項基本原則嘅核心係 A. 堅持馬列主義、毛澤東思想。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '堅持馬列主義、毛澤東思想'], ['B', '堅持社會主義道路'], ['C', '堅持黨嘅領導'], ['D', '堅持人民民主專政']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋通過眼、耳、鼻、舌、身各種感官感覺到一個梨嘅各種屬性，喺意識中把佢哋聯繫起嚟形成咗關於呢個梨嘅感性形象，呢種反映形式係",
+    "llm_output": "D. 知覺\n\n呢種反映形式係知覺，因為通過眼、耳、鼻、舌、身各種感官感覺到一個梨嘅各種屬性，並喺意識中將其聯繫起來形成關於呢個梨嘅感性形象，屬於知覺過程。知覺係將單獨嘅感官印象組織成一個統一嘅整體，以便我們能夠理解同一個對象嘅多個方面。感覺只會提供單獨嘅感官信息，而表象通常指較為抽象或間接嘅心理表像，分析則涉及對事物嘅細緻考察同分解。因此，正確答案係 D. 知覺。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '感覺'], ['B', '表象'], ['C', '分析'], ['D', '知覺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "辯證唯物主義認為事物發展嘅規律係",
+    "llm_output": "正確答案嘅選項係：\n\nB. 事物內喺嘅本質同穩定嘅聯繫",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '用嚟整理感性材料嘅思維形式'], ['B', '事物內喺嘅本質同穩定嘅聯繫'], ['C', '思維對事物本質嘅概括同反映'], ['D', '事物聯繫同發展嘅基本環節']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "辯證法嘅否定即「揚棄」，佢嘅含義係指",
+    "llm_output": "D. 既克服又保留\n\n「揚棄」係馬克思主義辯證法中嘅一個重要概念，源自德國哲學家黑格爾嘅思想。馬克思同恩格斯喺其哲學理論中進一步發展咗呢個概念。「揚棄」嘅含義係指對事物嘅否定過程中，既包含對舊事物中過時或錯誤方面嘅克服，同時又包含對舊事物中有價值和積極方面嘅保留，從而推動事物嘅發展和進步。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '拋棄'], ['B', '事物中好嘅方面同壞嘅方面嘅組合'], ['C', '純粹嘅否定'], ['D', '既克服又保留']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "真理與謬誤之間嘅相互關係係",
+    "llm_output": "C. 喺一定條件下可以互相轉化",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '喺任何情況下都係絕對對立嘅'], ['B', '冇相互轉化嘅可能性'], ['C', '喺一定條件下可以互相轉化'], ['D', '兩者之間冇原則區別']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級奪取政權嘅根本目嘅係",
+    "llm_output": "正確答案嘅選項係：\n\nB. 解放同促進社會生產力嘅發展\n\n根據馬克思主義理論，無產階級奪取政權嘅根本目嘅係通過解放生產力，從而為共產主義社會嘅建立創造條件。馬克思同恩格斯喺《共產黨宣言》中提到，無產階級革命嘅主要目標係推翻資產階級統治，並建立一個無產階級專政嘅政權，從而解放生產力，促進社會嘅全面發展。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '徹底打碎舊嘅資產階級國家機器'], ['B', '解放同促進社會生產力嘅發展'], ['C', '改變無產階級及其他勞動羣眾受剝削、受壓迫嘅地位'], ['D', '實現共產主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思講：「暴力係每一個孕育住新社會嘅舊社會嘅助產婆」，呢說明",
+    "llm_output": "正確答案嘅選項係：\n\nC. 暴力革命係無產階級革命嘅主要嘅基本形式\n\n馬克思嘅呢句話係指暴力革命通常係社會轉型嘅過程中一個重要環節，特別係對於無產階級而言，通過暴力革命可以推翻現行嘅資本主義制度，從而建立一個新嘅社會主義制度。雖然馬克思主義亦都認可和平發展嘅可能性，但認為暴力革命通常係無產階級革命嘅主要形式。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '暴力革命與和平發展互相排斥'], ['B', '暴力革命與和平發展可以互相取代'], ['C', '暴力革命係無產階級革命嘅主要嘅基本形式'], ['D', '暴力革命係無產階級革命嘅唯一形式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "商品內喺嘅使用價值與價值嘅矛盾，其完備嘅外喺表現係",
+    "llm_output": "正確答案嘅選項係：\n\nC. 私人勞動與社會勞動之間嘅對立",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '資本與僱傭勞動之間嘅對立'], ['B', '商品與貨幣之間嘅對立'], ['C', '私人勞動與社會勞動之間嘅對立'], ['D', '商品與商品之間嘅對立']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺商品經濟中，形成價值嘅抽象勞動嘅支出必須藉助於",
+    "llm_output": "正確答案係 D. 具體勞動。\n\n在馬克思主義理論中，特別是馬克思嘅價值論，價值係通過勞動嘅支出而形成，而呢種勞動分為抽象勞動同具體勞動。抽象勞動係指工人喺生產過程中嘅無差別嘅人類勞動，而具體勞動係指呢種勞動嘅具體形式，即工人用來生產商品嘅特定技能同技術。\n\n馬克思認為，雖然價值由抽象勞動形成，但抽象勞動嘅支出必須通過具體勞動嘅形式實現。換句話講，工人喺生產過程中嘅具體工作（具體勞動）創造出商品嘅使用價值，而呢個過程同時蘊含咗形成商品價值嘅抽象勞動。因此，形成價值嘅抽象勞動嘅支出必須藉助於具體勞動（選項 D）。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '剩餘勞動'], ['B', '資本主義生產方式'], ['C', '商品嘅生產形式'], ['D', '具體勞動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "價值規律係商品經濟嘅基本規律，佢嘅作用係通過",
+    "llm_output": "A. 價格機制、供求機制同競爭機制實現嘅",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '價格機制、供求機制同競爭機制實現嘅'], ['B', '消費者之間嘅競爭實現嘅'], ['C', '生產者之間嘅競爭實現嘅'], ['D', '生產者同消費者之間嘅競爭實現嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「真理係人造嘅供人使用嘅工具」嘅睇法係",
+    "llm_output": "「真理係人造嘅供人使用嘅工具」嘅睇法係主觀唯心主義（Subjective Idealism），因此正確答案為：\n\nB. 主觀唯心主義",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '機械唯物主義'], ['B', '主觀唯心主義'], ['C', '辯證唯物主義'], ['D', '客觀唯心主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "劃分唯物史觀與唯心史觀嘅根據係",
+    "llm_output": "D. 係咪承認社會存在決定社會意識\n\n唯物史觀與唯心史觀嘅主要分別在於對社會歷史發展嘅根本動力嘅理解。唯物史觀認為社會存在（即生產力和生產關係）決定社會意識，而唯心史觀則認為社會意識（如思想、宗教、政治觀念）決定社會存在。因此，正確答案係 D，係咪承認社會存在決定社會意識。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '係咪承認社會歷史嘅規律性'], ['B', '係咪承認社會意識嘅能動畫用'], ['C', '係咪承認階級鬥爭'], ['D', '係咪承認社會存在決定社會意識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺人嘅發展同社會發展嘅關係問題上，馬克思主義認為",
+    "llm_output": "A. 前者同後者互為前提同基礎",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '前者同後者互為前提同基礎'], ['B', '前者同後者係彼此獨立嘅歷史發展過程'], ['C', '前者體現咗個人價值，後者體現咗社會價值'], ['D', '前者係個人嘅理想，後者係社會嘅目標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧得出社會主義可能喺一國或數國首先取得勝利嘅結論依據係",
+    "llm_output": "C. 帝國主義時代資本主義政治經濟發展唔平衡嘅規律\n\n列寧嘅「一國勝利論」建基於帝國主義時代資本主義政治經濟發展唔平衡嘅規律，即係話資本主義國家之間發展嘅不平衡可以導致某一個國家首先有能力實現社會主義革命嘅勝利。列寧認為，隨著資本主義嘅發展，帝國主義階段嘅特點係少數國家壟斷資本嘅極端發展，呢啲國家之間嘅矛盾同競爭可以創造出有利嘅條件，令到其中一個或多個國家嘅無產階級能夠推翻資產階級政權，建立社會主義制度。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無產階級係最先進、最革命嘅階級嘅原理'], ['B', '資本主義必然滅亡、社會主義同共產主義必然勝利嘅規律'], ['C', '帝國主義時代資本主義政治經濟發展唔平衡嘅規律'], ['D', '資本主義國家無產階級與資產階級鬥爭嘅規律']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義嘅根本任務係",
+    "llm_output": "D.  解放生產力、 發展生產力\n\n馬克思主義理論中，社會主義的根本任務是解放生產力和發展生产力，以實現共產主義的最終目標。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '進行政治體制改革、經濟體制改革'], ['B', '改革生產資料所有制'], ['C', '進行階級鬥爭'], ['D', '解放生產力、發展生產力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "自由王國係指人哋",
+    "llm_output": "D.  擺脫咗自然同社會關係嘅奴役，成為自己社會關係主人嘅狀態",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '允許自由競爭嘅資本主義狀態'], ['B', '唔再受自然規律同社會規律支配嘅狀態'], ['C', '處於絕對自由嘅原始社會狀態'], ['D', '擺脫咗自然同社會關係嘅奴役，成為自己社會關係主人嘅狀態']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "金融寡頭實現經濟上統治嘅「參與制」係指金融寡頭",
+    "llm_output": "C.  通過購買一定數量嘅股票層層控制好多大企業同大銀行嘅經濟統治方式",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '通過購買所屬公司全部股票直接掌握好多大企業同大銀行嘅經濟統治嘅方式'], ['B', '直接參與工業企業嘅生產經營同管理'], ['C', '通過購買一定數量嘅股票層層控制好多大企業同大銀行嘅經濟統治方式'], ['D', '直接參與銀行嘅經營同管理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "理解人類社會發展嘅鎖匙係",
+    "llm_output": "正確答案係 C. 階級鬥爭史。\n\n根據馬克思主義理論，人類社會發展嘅鎖匙係階級鬥爭史。馬克思同恩格斯喺佢哋嘅著作中提出，社會發展嘅主要推動力係唔斷嘅階級鬥爭，而呢啲鬥爭係由於生產力同生產關係之間嘅矛盾所引起。馬克思主義認為社會發展嘅歷程可以分為幾個主要階段，包括原始社會、奴隸社會、封建社會、資本主義社會同社會主義社會，而每個階段嘅主要特徵係由社會嘅經濟基礎同上層建築（包括法律、政治制度等）所決定。階級鬥爭喺呢個過程入面係推動社會變遷嘅關鍵因素。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '文化發展史'], ['B', '思想發展史'], ['C', '階級鬥爭史'], ['D', '勞動發展史']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義理論最根本嘅本質屬性係",
+    "llm_output": "D.  實踐性\n\n馬克思主義理論最根本嘅本質屬性係實踐性。馬克思主義強調理論必須與實踐相結合，並且認為社會主義革命和社會進步需要通過實際的社會運動來實現。實踐性是馬克思主義與其他哲學理論相區別嘅重要特點，它強調理論必須經過實踐嘅檢驗，並且要為實踐服務。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '革命性'], ['B', '與時俱進'], ['C', '科學性'], ['D', '實踐性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義理論從廣義上講係",
+    "llm_output": "馬克思主義理論從廣義上講係：\n\nB. 唔單止指馬克思恩格斯創立嘅基本理論、基本觀點同學說嘅體系，也包括繼承者對佢嘅發展",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '無產階級爭取自身解放同成個人類解放嘅學說體系'], ['B', '唔單止指馬克思恩格斯創立嘅基本理論、基本觀點同學說嘅體系，也包括繼承者對佢嘅發展'], ['C', '關於無產階級鬥爭嘅性質、目嘅同解放條件嘅學說'], ['D', '馬克思同恩格斯創立嘅基本理論、基本觀點同基本方法構成嘅科學體系']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "壟斷資本主義國家嘅金融寡頭喺經濟上嘅統治主要藉助於",
+    "llm_output": "正確答案係 A.「參與制」。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「參與制」'], ['B', '「企業聯合」'], ['C', '「個人聯合」'], ['D', '「代理制」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "無產階級嘅科學世界觀同方法論係",
+    "llm_output": "正確答案嘅選項係 C.  辯證唯物主義同歷史唯物主義。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '唯物主義'], ['B', '辯證唯物主義'], ['C', '辯證唯物主義同歷史唯物主義'], ['D', '歷史唯物主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "各盡所能，按需分配係",
+    "llm_output": "C.  共產主義社會嘅分配方式",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會主義社會嘅分配方式'], ['B', '原始社會嘅分配方式'], ['C', '共產主義社會嘅分配方式'], ['D', '階級社會嘅分配方式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「紙上得來終覺淺，絕知此事要躬行」，陸遊呢一名句強調嘅係",
+    "llm_output": "B. 實踐係認識嘅來源\n\n陸遊呢一名句強調嘅係，單純從書本上得到的知識總感覺不夠深刻，要真正了解一件事，必須親自去體驗和實踐。呢個思想符合馬克思主義中實踐對認識嘅重要性，即實踐係認識嘅來源。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '間接經驗毫無用處'], ['B', '實踐係認識嘅來源'], ['C', '實踐係推動認識發展嘅動力'], ['D', '實踐係認識嘅目嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會形態係",
+    "llm_output": "正確答案嘅選項係：\n\nA. 同生產力發展一定階段相適應嘅經濟基礎同上層建築嘅統一體",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '同生產力發展一定階段相適應嘅經濟基礎同上層建築嘅統一體'], ['B', '物質世界同精神世界嘅統一'], ['C', '社會存在同社會意識嘅統一'], ['D', '生產力同生產關係嘅統一']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "實現咗人嘅「自由個性」嘅發展，係",
+    "llm_output": "正確答案嘅選項係：\n\nB. 共產主義社會入面嘅人嘅生存狀態\n\n根據馬克思主義理論，共產主義社會係一個無階級、無私有財產、人人平等嘅社會，而人嘅「自由個性」喺呢個社會中得以充分發展。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '資本主義社會入面嘅人嘅生存狀態'], ['B', '共產主義社會入面嘅人嘅生存狀態'], ['C', '資本主義社會以前嘅人嘅生存狀態'], ['D', '社會主義社會入面嘅人嘅生存狀態']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義最重要嘅理論品質係",
+    "llm_output": "D.  與時俱進\n\n馬克思主義最重要嘅理論品質係與時俱進。呢個概念強調馬克思主義需要隨著時代嘅發展而發展，適應社會主義運動嘅新情況，並且對新問題提出新答案。吐故納新、科學嚴謹、博大精深雖然都係馬克思主義嘅特點，但唔係其最重要嘅理論品質。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '科學嚴謹'], ['B', '吐故納新'], ['C', '博大精深'], ['D', '與時俱進']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "加快資本週轉，可以增加年剩餘價值量同提高年剩餘價值率，根本係因",
+    "llm_output": "正確答案係 C. 實際發揮作用嘅可變資本增加咗。\n\n馬克思主義中，剩餘價值係指資本家從僱傭工人嘅勞動中獲得嘅超額價值，即超過咗支付工人工资所需嘅價值。可變資本（Variable Capital）係指資本家用來購買僱傭工人勞動力嘅部分資本，呢部分資本可以轉化為剩餘價值。加快資本週轉可以令到同一份可變資本在一年內發揮多次作用，從而增加實際產生剩餘價值嘅工人數量，從而增加年剩餘價值量同提高年剩餘價值率。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '剩餘價值率提高咗'], ['B', '預付嘅資本總量增加咗'], ['C', '實際發揮作用嘅可變資本增加咗'], ['D', '流通對生產嘅反作用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟全球化發展趨勢嘅基礎係",
+    "llm_output": "經濟全球化發展趨勢的基礎係新科技革命，因此正確答案為：\n\nA. 新科技革命",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '新科技革命'], ['B', '國際貿易嘅高度發展'], ['C', '生產國際化'], ['D', '國際金融嘅迅速發展']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "產業資本劃分為貨幣資本、生產資本、商品資本嘅依據係資本各個部分",
+    "llm_output": "產業資本劃分為貨幣資本、生產資本、商品資本嘅依據係資本各個部分喺循環中嘅職能唔同。因此，正確答案係：\n\nD. 喺循環中嘅職能唔同",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '喺價值增殖過程中嘅作用唔同'], ['B', '價值周轉方式唔同'], ['C', '存在嘅物質形態唔同'], ['D', '喺循環中嘅職能唔同']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "正確認識資本主義嘅歷史過渡性要",
+    "llm_output": "正確答案嘅選項係：\n\nB. 借鑒資本主義社會中反映人類文明進步嘅改良\n\n馬克思主義認為資本主義係一種歷史階段，最終將會被共產主義所取代。然而，馬克思主義者並唔一昧否定資本主義所有方面，而係認為可以借鑒資本主義社會中反映人類文明進步嘅改良，作為過渡到下一階段嘅基礎。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '否定資本主義生產關係嘅一切改良'], ['B', '借鑒資本主義社會中反映人類文明進步嘅改良'], ['C', '對資本主義採取全面肯定嘅態度'], ['D', '借鑒並發展資本主義嘅經濟制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "除咗我哋國家之外，邊個國家都有提出仲喺社會主義初級階段嘅理論",
+    "llm_output": "正確答案嘅選項係：\n\nA. 蘇聯\n\n在馬克思主義理論中，社會主義初級階段係指從資本主義向共產主義過渡嘅第一個階段，通常被理解為社會主義社會嘅建立和發展階段。蘇聯喺1956年嘅共產黨第20次代表大會上提出咗社會主義初級階段嘅理論，認為當時嘅蘇聯處於社會主義建設嘅初步階段，並喺此基礎上發展咗一系列嘅政治、經濟政策。其他國家如越南、古巴、南斯拉夫等，亦有自己嘅社會主義建設理論，但並唔係以「社會主義初級階段」作為主要理論框架。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蘇聯'], ['B', '越南'], ['C', '古巴'], ['D', '南斯拉夫']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "十一屆三中全會以嚟，我黨制定嘅一系列正確嘅路線、方針、政策促進咗我國經濟嘅迅猛發展，呢個說明",
+    "llm_output": "C. 上層建築對經濟基礎具有積極嘅能動畫用\n\n呢個問題嘅背景係馬克思主義理論中嘅一個基本原理，即經濟基礎決定上層建築，而上層建築對經濟基礎具有能動作用。經濟基礎係指一定社會生產力發展水平相適應嘅生產關係嘅總和；而上層建築則包括政治法律制度、社會意识形态等，佢對經濟基礎具有反作用，可以促進或阻礙經濟基礎嘅發展。\n\n十一屆三中全會以嚟，中國共產黨制定嘅一系列正確嘅路線、方針、政策，可以理解為上層建築嘅一部分，佢哋對中國經濟嘅發展起到咗積極嘅推動作用，正係上層建築對經濟基礎具有能動畫用嘅體現。因此，正確答案係 C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會主義社會嘅發展唔受經濟基礎決定上層建築規律嘅制約'], ['B', '上層建築嘅發展決定經濟基礎嘅發展方向'], ['C', '上層建築對經濟基礎具有積極嘅能動畫用'], ['D', '經濟基礎發展嘅道路係由上層建築決定嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "喺19世紀三大工人運動中，集中反映工人政治要求嘅係",
+    "llm_output": "正確答案係 B. 英國憲章運動。\n\n19 世紀三大工人運動包括英國憲章運動、法國里昂工人起義和德國西里西亞紡織工人起義。然而，集中反映工人政治要求的是英國憲章運動，因為這場運動提出了一份請願書，要求政治改革，包括普選權和立法保障工人權益。雖然其他運動也提出了政治要求，但英國憲章運動在這方面最为突出。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '芝加哥工人起義'], ['B', '英國憲章運動'], ['C', '德國西里西亞紡織工人起義'], ['D', '法國里昂工人起義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義從理論到實踐嘅飛躍，具體途徑係",
+    "llm_output": "正確答案嘅選項係：\n\nC. 通過無產階級革命實現嘅",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '實踐'], ['B', '通過對人民羣眾嘅教育同灌輸實現嘅'], ['C', '通過無產階級革命實現嘅'], ['D', '通過改革同革命實現嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧講過：「冇革命嘅理論，就唔會有革命嘅行動」，呢一命題嘅含義係",
+    "llm_output": "B.  革命理論對革命實踐具有指導作用",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '革命理論比革命行動更重要'], ['B', '革命理論對革命實踐具有指導作用'], ['C', '革命理論最終決定革命運動嘅成敗'], ['D', '革命運動係革命理論嘅派生物']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "金融資本係由",
+    "llm_output": "正確答案係 A. 壟斷嘅銀行資本同壟斷嘅工業資本融合或混合生長而成嘅。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '壟斷嘅銀行資本同壟斷嘅工業資本融合或混合生長而成嘅'], ['B', '產業資本同商業資本融合或混合生長而成嘅'], ['C', '壟斷銀行資本同銀行資本融合或混合生長而成嘅'], ['D', '銀行資本同工業資本融合或混合生長而成嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "科學社會主義創立嘅理論依據係",
+    "llm_output": "正確答案係 A. 唯物史觀同剩餘價值學說。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '唯物史觀同剩餘價值學說'], ['B', '德國古典哲學'], ['C', '英國古典政治經濟學'], ['D', '空想社會主義學說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "主觀辯證法與客觀辯證法嘅關係係",
+    "llm_output": "主觀辯證法與客觀辯證法嘅關係係：\n\nA. 反映與被反映嘅關係\n\n在馬克思主義哲學中，主觀辯證法指的是人們思維過程中辯證法的規律和法則，而客觀辯證法指的是客觀世界本身發展變化的辯證規律和法則。兩者之間的關係是反映與被反映的關係，即主觀辯證法是客觀辯證法的反映，人類思維的辯證法來自並反映客觀世界的辯證法。因此，正確答案是 A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '反映與被反映嘅關係'], ['B', '唯心辯證法與唯物辯證法嘅關係'], ['C', '抽象與具體嘅關係'], ['D', '唯心主義與唯物主義嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "資本社會化嘅最高形式係",
+    "llm_output": "資本社會化嘅最高形式係 A. 國家壟斷資本主義。\n\n在国家垄断资本主义中，资本主义的生产资料和资源在一定程度上被国家所控制和调节。国家通过各种手段，如国有化、财政政策、货币政策等，来干预经济，使得资本的运作超出了个别资本家的控制范围，实现了资本的社会化。这种形式是资本主义发展过程中，资本社会化的一种高级表现形式。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '國家壟斷資本主義'], ['B', '壟斷資本主義'], ['C', '生產社會化'], ['D', '經營管理社會化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "階級實質上係一個",
+    "llm_output": "正確答案係 C. 經濟範疇。\n\n馬克思主義理論中，階級係以經濟關係為基礎嘅社會分類，主要係根據生產資料嘅佔有關係嚟劃分。馬克思同恩格斯認為，階級係社會經濟結構中嘅一個基本組成部分，係通過生產力和生產關係嘅發展而形成嘅。因此，階級實質上係一個經濟範疇。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '文化範疇'], ['B', '政治範疇'], ['C', '經濟範疇'], ['D', '思想範疇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧對關於無產階級社會主義革命學說嘅重大貢獻係",
+    "llm_output": "C.  提出咗社會主義革命將首先喺一國或數國取得勝利嘅理論\n\n列寧嘅重大貢獻在於他嘅理論提出，社會主義革命唔一定需要在全球範圍內同時發生，而可以首先在一個或幾個國家中取得勝利，然後通過這些勝利的國家嘅合作，最終實現全球嘅社會主義。呢個理論有別於馬克思同恩格斯嘅原初觀點，佢哋認為社會主義革命會同時在幾個先進資本主義國家中爆發。列寧嘅呢個理論為俄國十月革命提供咗理論基礎，並且對之後嘅共產主義運動產生咗深遠嘅影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '提出咗利用國家資本主義過渡社會主義嘅理論'], ['B', '提出咗新經濟政策'], ['C', '提出咗社會主義革命將首先喺一國或數國取得勝利嘅理論'], ['D', '提出咗戰時共產主義政策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "下列屬於自由王國社會狀態嘅係",
+    "llm_output": "正確答案嘅選項係 C. 共產主義社會。\n\n馬克思主義理論中，共產主義社會係一個理想嘅社會形態，其中生產資料係公有嘅，而且社會成員可以自由地從事勞動，滿足自己嘅需要而唔需要受到資本或權力嘅壓迫。馬克思認為，共產主義社會係人類社會發展嘅最終階段，到達咗呢個階段，人就可以進入一個自由王國社會狀態，無咗經濟嘅壓迫，可以自由地發展自己嘅個性和才能。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '資本主義社會'], ['B', '封建社會'], ['C', '共產主義社會'], ['D', '奴隸社會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "兩極終結嘅標誌係",
+    "llm_output": "正確答案嘅選項係 D. 蘇聯解體。兩極終結嘅標誌係蘇聯解體，這標誌着冷戰結束同埋結束咗一個時代。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '第三世界嘅崛起'], ['B', '東歐劇變'], ['C', '中國嘅強大'], ['D', '蘇聯解體']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義嘅產生同發展，從根本上講係",
+    "llm_output": "正確答案嘅選項係：\n\nB. 生產社會化同資本主義私人佔有制之間矛盾發展嘅結果",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國內市場競爭嘅結果'], ['B', '生產社會化同資本主義私人佔有制之間矛盾發展嘅結果'], ['C', '壟斷統治加強嘅結果'], ['D', '國際競爭激烈化嘅結果']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "真理觀上嘅相對主義，錯誤喺於",
+    "llm_output": "C.  誇大真理嘅相對性， 否認真理嘅絕對性\n\n真理觀上嘅相對主義者往往過分強調真理嘅相對性，而忽略咗真理嘅絕對性。呢種觀點認為真理係隨著時間、地點、條件而變化，而忽略咗真理所具有嘅客觀性同絕對性。因此，相對主義者嘅錯誤在於誇大真理嘅相對性，否認真理嘅絕對性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '認為關於同一對象真理性嘅認識只有一個'], ['B', '只講真理嘅客觀性，否認真理嘅相對性'], ['C', '誇大真理嘅相對性，否認真理嘅絕對性'], ['D', '誇大真理嘅絕對性，否認真理嘅相對性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "感性認識同理性認識嘅區別係",
+    "llm_output": "D.  感性認識係對現象嘅認識， 理性認識係對本質嘅認識\n\n馬克思主義哲學中，感性認識和理性認識是認識論中的兩個重要概念。感性認識通常指的是人們通過感官直接接觸客觀事物所獲得的對象的表面特徵和現象的認識，是對事物外部聯繫和表面現象的認識。而理性認識則是指人們通過思考、分析、綜合等抽象思維活動，對感性認識進行加工整理，從而達到對事物本質和內部聯繫的認識。因此，感性認識和理性認識的主要區別在於感性認識是對現象的認識，理性認識是對本質的認識。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '感性認識來源於直接經驗，理性認識來源於間接經驗'], ['B', '感性認識係可靠嘅，理性認識係唔可靠嘅'], ['C', '感性認識來源於實踐，理性認識來源於書本'], ['D', '感性認識係對現象嘅認識，理性認識係對本質嘅認識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義認為，世界嘅真正統一性喺於佢嘅",
+    "llm_output": "正確答案係 C. 物質性。\n\n馬克思主義認為，世界嘅真正統一性喺於佢嘅物質性。呢個理論源於唯物主義辯證法，強調一切現象、事物同過程都係物質嘅，而物質係獨立於意識之外存在嘅。物質世界嘅運行遵循客觀規律，而呢些規律可以通过實踐同觀察去認識同掌握。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '實踐性'], ['B', '運動性'], ['C', '物質性'], ['D', '客觀性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "中國古代哲學家公孫龍「白馬非馬」之說嘅錯誤喺於割裂咗",
+    "llm_output": "正確答案嘅選項係 A. 矛盾嘅普遍性同特殊性嘅關係。\n\n公孫龍嘅「白馬非馬」論點，基本意思係指「白馬」呢個概念同「馬」呢個更普遍嘅概念之間嘅關係。公孫龍認為「白馬」唔等同於「馬」，因為「白馬」具有「白色」呢個特殊屬性，而「馬」呢個概念則唔包含呢種顏色嘅特徵。\n\n從馬克思主義哲學嘅角度睇，呢種觀點錯誤喺於割裂咗矛盾嘅普遍性同特殊性嘅關係。馬克思主義認為，矛盾嘅普遍性指嘅係事物發展變化中普遍存在嘅矛盾，而矛盾嘅特殊性則指嘅係每一個具體矛盾嘅特點。「白馬」同「馬」之間嘅關係，正正體現咗矛盾嘅普遍性（馬）同特殊性（白馬）嘅統一。公孫龍嘅錯誤在於過分強調「白馬」同「馬」之間嘅差異，而忽略咗「白馬」作為「馬」嘅一種特殊形態嘅事實。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '矛盾嘅普遍性同特殊性嘅關係'], ['B', '矛盾主要方面同次要方面嘅關係'], ['C', '矛盾統一性同鬥爭性嘅關係'], ['D', '內因同外因嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "一定社會形態嘅經濟基礎係",
+    "llm_output": "正確答案嘅選項係：\n\nD. 同一定生產力發展階段相適應嘅生產關係嘅總和",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '社會嘅各種生產關係'], ['B', '政治制度同法律制度'], ['C', '生產力'], ['D', '同一定生產力發展階段相適應嘅生產關係嘅總和']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "實踐嘅主體係",
+    "llm_output": "正確答案係：B.  具有思維能力、從事社會實踐同認識活動嘅人。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '絕對精神'], ['B', '具有思維能力、從事社會實踐同認識活動嘅人'], ['C', '人'], ['D', '人嘅意識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義嘅形式中，最主要嘅、最重要嘅形式係",
+    "llm_output": "正確答案嘅選項係 B. 國家調節經濟。\n\n國家壟斷資本主義主要包括三種形式：國家市場壟斷經濟、國家自然壟斷經濟和国家調節經濟。在這些形式中，國家調節經濟被認為是最主要、最重要嘅形式，因為它涉及到國家通過各種手段對經濟進行調控和指導，以達到維護資本主義經濟秩序、促進經濟穩定增長和調節社會分配嘅目的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國家市場壟斷經濟'], ['B', '國家調節經濟'], ['C', '國家自然壟斷經濟'], ['D', '公私合營經濟']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義政治制度嘅基本特徵係",
+    "llm_output": "正確答案嘅選項係：B.  無產階級專政嘅政權\n\n社會主義政治制度嘅基本特徵包括咗無產階級專政嘅政權，即係話社會主義國家嘅政治制度建基於無產階級對國家機器嘅控制，以確保社會主義制度嘅穩固同埋推進社會主義建設。雖然無產階級政黨嘅領導（A 選項）、堅持社會主義方向（C 選項）同埋馬克思主義嘅指導（D 選項）都係社會主義政治制度嘅重要組成部分，但係無產階級專政嘅政權（B 選項）先至係社會主義政治制度嘅基本特徵。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '無產階級政黨嘅領導'], ['B', '無產階級專政嘅政權'], ['C', '堅持社會主義方向'], ['D', '馬克思主義嘅指導']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "美國採取權力制衡嘅組織形式，其中立法權屬於",
+    "llm_output": "A. 國會",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '國會'], ['B', '最高檢察院'], ['C', '最高法院'], ['D', '總統']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "生產商品嘅勞動分具體勞動同抽象勞動，其中具體勞動嘅作用係",
+    "llm_output": "C. 創造使用價值",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '創造新價值'], ['B', '創造必要價值'], ['C', '創造使用價值'], ['D', '創造剩餘價值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "被馬克思恩格斯稱為「有史以嚟最偉大嘅諷刺家」嘅係",
+    "llm_output": "正確答案係 A. 傅立葉。\n\n馬克思恩格斯在他們的著作中，尤其是《共產黨宣言》中，稱傅立葉為「有史以嚟最偉大嘅諷刺家」。傅立葉是一位法國的社會主義思想家和批評家，他對資本主義社會的矛盾和問題進行了深刻的批判，並提出了自己的烏托邦社會主義理想。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傅立葉'], ['B', '費爾巴哈'], ['C', '聖西門'], ['D', '歐文']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "國家壟斷資本主義發展嘅基礎係",
+    "llm_output": "正確答案嘅選項係 A. 私人壟斷資本。國家壟斷資本主義發展嘅基礎係私人壟斷資本，隨著私人資本家嘅壟斷，資產階級國家會介入同干預經濟活動，形成國家壟斷資本主義。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '私人壟斷資本'], ['B', '資本輸出'], ['C', '國有壟斷資本'], ['D', '資產階級國家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「對客觀事物嘅反映即係真理」，呢係",
+    "llm_output": "正確答案嘅選項係：\n\nC. 混淆咗真理性認識與一般認識嘅錯誤觀點\n\n呢個問題嘅答案係基於馬克思主義哲學中對於真理嘅定義同理解。按照馬克思主義，真理係一種客觀存在，而對客觀事物嘅反映只係一種主觀意識。真理性認識必須符合客觀實際，而一般認識可能只係對主觀意識嘅描述，唔一定符合客觀實際。因此，單純嘅反映並唔一定等於真理。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '辯證唯物主義嘅真理觀'], ['B', '混淆咗真理嘅客觀性與規律客觀性'], ['C', '混淆咗真理性認識與一般認識嘅錯誤觀點'], ['D', '一切唯物主義嘅真理觀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "商品經濟係通過商品貨幣關係實行等價交換嘅經濟形式，佢嘅基本規律係",
+    "llm_output": "正確答案嘅選項係：\n\nC. 價值規律",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '剩餘價值規律'], ['B', '競爭規律'], ['C', '價值規律'], ['D', '貨幣流通規律']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "承認我哋知識嘅相對性就",
+    "llm_output": "B.  可以防止認識嘅僵化",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '必然歸結為詭辯論'], ['B', '可以防止認識嘅僵化'], ['C', '必然歸結為不可知論'], ['D', '必然歸結為懷疑主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「兩個必然」同「兩個決唔會」",
+    "llm_output": "正確答案嘅選項係：D. 係有住內喺聯繫嘅。\n\n「兩個必然」同「兩個決唔會」都係馬克思主義理論中嘅概念，雖然兩者嘅內容唔同，但係佢哋之間有住內喺聯繫。「兩個必然」源自馬克思同恩格斯嘅著作，指咁資本主義社會最終必然會被共產主義社會取代。而「兩個決唔會」則係馬克思對於歷史唯物主義嘅總結，即「社會主義必然會取代資本主義，但喺任何特定嘅時間同地點，資本主義都唔會必然消亡」。兩者都係講緊社會主義同資本主義之間嘅關係，並且都係馬克思主義理論嘅組成部分。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '係內容同形式嘅關係'], ['B', '係兩回事'], ['C', '係矛盾嘅'], ['D', '係有住內喺聯繫嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思把黑格爾嘅辯證法稱為",
+    "llm_output": "正確答案係 C. 合理內核。\n\n馬克思認為黑格爾嘅辯證法係其哲學體系中嘅合理內核，同時亦批判咗黑格爾哲學中嘅唯心主義，並嘗試將辯證法應用於唯物主義基礎上，創立咗自己嘅馬克思主義哲學。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '精髓'], ['B', '基本內核'], ['C', '合理內核'], ['D', '核心']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "人類進入21世紀，英國廣播公司（BBC）喺全球範圍內進行「千年思想家」網評，名列榜首嘅係",
+    "llm_output": "正確答案嘅選項係：\n\nC. 馬克思（Karl Marx）\n\n在21世紀初，英國廣播公司（BBC）進行咗一場全球網絡投票，以選出「千年思想家」，而馬克思就係呢次投票中名列榜首。馬克思係一位德國哲學家、經濟學家、社會學家、政治理論家，並且係馬克思主義創始人。馬克思主義理論對於社會主義、共產主義運動有重大影響，並且對於當代政治經濟學有深遠嘅影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '牛頓'], ['B', '達爾文'], ['C', '馬克思'], ['D', '愛因斯坦']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟文化相對落後嘅國家可以先於資本主義國家進入社會主義，其根本原因係由於",
+    "llm_output": "正確答案嘅選項係 D. 革命嘅客觀形勢同條件決定嘅。\n\n經濟文化相對落後嘅國家可以先於資本主義國家進入社會主義，呢個現象嘅根本原因在於革命嘅客觀形勢同條件。根據馬克思主義理論，雖然經濟文化落後嘅國家嘅生產力水平未達到資本主義社會嘅最高水平，但如果呢啲國家嘅無產階級能夠聯合其他社會階級，利用特定嘅歷史時機同外部壓力，透過革命行動推翻資本主義制度，建立社會主義生產關係，呢種革命嘅客觀形勢同條件可以導致社會主義嘅建立。因此，答案選項 D 係最合適嘅。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '經濟文化相對落後嘅國傢俱有較高嘅精神文明'], ['B', '社會主義生產關係可以喺舊社會嘅內部孕育生長起嚟'], ['C', '佢係以高度社會化嘅資本主義大生產作為社會主義革命嘅物質前提嘅'], ['D', '革命嘅客觀形勢同條件決定嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「此亦一係非，彼亦一係非」嘅命題，其含義係",
+    "llm_output": "B. 否認真理具有客觀標準",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '強調真理嘅客觀性'], ['B', '否認真理具有客觀標準'], ['C', '強調真理具有客觀標準'], ['D', '否認真理嘅客觀性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-marxist_theory",
+    "key_answer_type": "alphabet_option",
+    "question": "「聽其言必責其用，觀其行必求其功。」呢種觀點係",
+    "llm_output": "正確答案嘅選項係 A. 強調實踐對認識嘅檢驗作用。\n\n「聽其言必責其用，觀其行必求其功」係戰國時期儒家學者荀子嘅言論，意思係講話一定要有實際用途，行為一定要有實際效果。呢種觀點強調嘅係實踐對於檢驗認識嘅重要性，認為認識嘅價值在於佢能夠通過實踐帶來實際嘅效果。呢種思想符合馬克思主義中實踐第一嘅原則，即認為實踐係認識嘅最終目的同檢驗標準。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '強調實踐對認識嘅檢驗作用'], ['B', '認為實踐可以脫離認識'], ['C', '認為認識可以脫離實踐'], ['D', '強調認識對實踐嘅作用']]",
+    "is_correct": 1
+  }
+]

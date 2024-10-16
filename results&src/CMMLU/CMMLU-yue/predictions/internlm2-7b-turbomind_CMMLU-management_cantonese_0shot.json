@@ -1,0 +1,2102 @@
+[
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "全面質量管理嘅重點同核心環節係",
+    "llm_output": "C\nA. 處理環節\nB. 實施環節\nD. 檢查環節\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '處理環節'], ['B', '實施環節'], ['C', '計劃環節'], ['D', '檢查環節']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺職位分類中，司局級正職同巡視員屬於同一",
+    "llm_output": "D\nA. 職系\nB. 職等\nC. 職級\nD. 職位\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '職系'], ['B', '職等'], ['C', '職級'], ['D', '職位']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "可以使管理幅度增加嘅因素係",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '組織所面臨嘅環境變化較快'], ['B', '下屬嘅能力較差'], ['C', '主管人員處於較高層次'], ['D', '下屬嘅工作內容同性質相近']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "使人腦唔經過邏輯思維就直接產生行為同決策嘅因素係",
+    "llm_output": "A\nA\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '非理性因素'], ['B', '超理性因素'], ['C', '理性因素'], ['D', '感性因素']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "以分工為前提，體現現代管理基本特徵嘅係",
+    "llm_output": "B\nA. 社會化\nB. 專業化\nC. 批量化\nD. 技術性\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '社會化'], ['B', '專業化'], ['C', '批量化'], ['D', '技術性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺目標管理過程中，分配資財所屬嘅環節係",
+    "llm_output": "A\nA. 目標嘅實施\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '目標嘅實施'], ['B', '目標嘅監控'], ['C', '目標成果評價'], ['D', '目標嘅制定']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "甲廠長認為，要提高企業勞動生產效率，必須用科學嘅方法對工人嘅生產操作、工具使用、勞動與休息時間嘅搭配，以及設備嘅安置、作業環境嘅佈置進行分析，盡可能消除客觀存在嘅唔合理因素。其理論依據係",
+    "llm_output": "D\nA. 一般管理理論，B. 科學組織理論，C. 行為科學理論，D. 科學管理理論，D. 科學管理理論。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '一般管理理論'], ['B', '科學組織理論'], ['C', '行為科學理論'], ['D', '科學管理理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "美國著名心理學家布爾赫斯•弗雷德裏克•斯金納提出嘅係",
+    "llm_output": "D\nA. 「X—Y」理論\nB. 歸因理論\nC. 雙因素理論\nD. 強化理論\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「X—Y」理論'], ['B', '歸因理論'], ['C', '雙因素理論'], ['D', '強化理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "系統分析最基本同核心嘅原則係",
+    "llm_output": "C\nA. 優化原則\nB. 模型化原則\nD. 層次性原則\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '優化原則'], ['B', '模型化原則'], ['C', '整體性原則'], ['D', '層次性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "對單變量動態概率型決策可採用嘅係",
+    "llm_output": "D\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '非線性規劃'], ['B', '排隊論'], ['C', '矩陣代數'], ['D', '線性規劃']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺生產力系統中，作為獨立嘅實體要素嘅係",
+    "llm_output": "B\nA. 管理\nC. 科學\nD. 技術\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '管理'], ['B', '生產者'], ['C', '科學'], ['D', '技術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "美國著名嘅政治學家同政策科學家查爾斯•林德布洛姆提出嘅決策模式係",
+    "llm_output": "D\n查爾斯•林德布洛姆提出嘅決策模式係漸進決策模式。\n查爾斯•林德布洛姆（Charles Lindblom），美国著名政治学家、政策科学家。1917年出生于美国明尼苏达州。1943年获明尼苏达大学政治学博士学位。1943-1945年在美国陆军服役。1945-1947年在明尼苏达大学任教。1947-1949年在美国国务院任职。1949-1950年在美国陆军服役。1950-1951年在美国陆军服役。1951-1952年在美国陆军服役。1952-1953年在美国陆军服役。1953-1954年在美国陆军服役。1954-1955年在美国陆军服役。1955-1956年在美国陆军服役。1956-1957年在美国陆军服役。1957-1958年在美国陆军服役。1958-1959年在美国陆军服役。1959-1960年在美国陆军服役。1960-1961年在美国陆军服役。1961-1962年在美国陆军服役。1962-1963年在美国陆军服役。1963-1964年在美国陆军服役。1964-1965年在美国陆军服役。1965-1966年在美国陆军服役。1966-1967年在美国陆军服役。1967-1968年在美国陆军服役。1968-1969年在美国陆军服役。1969-1970年在美国陆军服役。1970-1971年在美国陆军服役。1971-1972年在美国陆军服役。1972-1973年在美国陆军服役。1973-1974年在美国陆军服役。1974-1975年在美国陆军服役。1975-1976年在美国陆军服役。1976-1977年在美国陆军服役。1977-1978年在美国陆军服役。1978-1979年在美国陆军服役。1979-1980年在美国陆军服役。1980-1981年在美国陆军服役。1981-1982年在美国陆军服役。1982-1983年在美国陆军服役。1983-1984年在美国陆军服役。1984-1985年在美国陆军服役。1985-1986年在美国陆军服役。1986-1987年在美国陆军服役。1987-1988年在美国陆军服役。1988-1989年在美国陆军服役。1989-1990年在美国陆军服役。1990-1991年在美国陆军服役。1991-1992年在美国陆军服役。1992-1993年在美国陆军服役。1993-1994年在美国陆军服役。1994-1995年在美国陆军服役。1995-1996年在美国陆军服役。1996-1997年在美国陆军服役。1997-1998年在美国陆军服役。1998-1999年在美国陆军服役。1999-2000年在美国陆军服役。2000-2001年在美国陆军服役。2001-2002年在美国陆军服役。2002-2003年在美国陆军服役。2003-2004年在美国陆军服役。2004-2005年在美国陆军服役。2005-2006年在美国陆军服役。2006-2007年在美国陆军服役。2007-2008年在美国陆军服役。2008-2009年在美国陆军服役。2009-2010年在美国陆军服役。2010-2011年在美国陆军服役。2011-2012年在美国陆军服役。2012-2013年在美国陆军服役。2013-2014年在美国陆军服役。2014-2015年在美国陆军服役。2015-2016年在美国陆军服役。2016-2017年在美国陆军服役。2017-2018年在美国陆军服役。2018-2019年在美国陆军服役。2019-2020年在美国陆军服役。2020-2021年在美国陆军服役。2021-2022年在美国陆军服役。2022-2023年在美国陆军服役。2023-2024年在美国陆军服役。2024-2025年在美国陆军服役。2025-2026年在美国陆军服役。2026-2027年在美国陆军服役。2027-2028年在美国陆军服役。2028-2029年在美国陆军服役。2029-2030年在美国陆军服役。2030-2031年在美国陆军服役。2031-2032年在美国陆军服役。2032-2033年在美国陆军服役。2033-2034年在美国陆军服役。2034-2035年在美国陆军服役。2035-2036年在美国陆军服役。2036-2037年在美国陆军服役。2037-2038年在美国陆军服役。2038-2039年在美国陆军服役。2039-2040年在美国陆军服役。2040-2041年在美国陆军服役。2041-",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '集團決策模式'], ['B', '理性決策模式'], ['C', '精英決策模式'], ['D', '漸進決策模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於頭腦風暴法嘅講法，唔正確嘅係",
+    "llm_output": "A\nA. 所發表嘅建議必須深思熟慮\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '所發表嘅建議必須深思熟慮'], ['B', '相關專家或人員各自發表自己嘅意見，對別人嘅建議唔作評論'], ['C', '鼓勵獨立思考，奇思妙想'], ['D', '可以補充完善已有嘅建議']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於激勵因素嘅係",
+    "llm_output": "D\nA. 職業發展\nB. 工作責任\nC. 工作成就\nD. 工資收入\nD\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '職業發展'], ['B', '工作責任'], ['C', '工作成就'], ['D', '工資收入']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列對私人管理嘅表述，正確嘅係",
+    "llm_output": "D\n私人管理係相对封閉嘅管理。私人管理嘅特点是相对封閉，管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。私人管理活动主要為自身利益服务，管理活动對外部的影響相对較小。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '私人管理憑藉嘅係政治權威。'], ['B', '私人管理應以社會責任為要務。'], ['C', '私人管理嘅每一項活動都助於公共利益。'], ['D', '私人管理係相對封閉嘅管理。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "按照控制發生喺一個完整管理過程中嘅階段性，分前饋控制、反饋控制以及",
+    "llm_output": "A\nA. 動態控制\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '動態控制'], ['B', '分散控制'], ['C', '復合控制'], ['D', '現場控制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "定期嘅形勢報告、由下而上嘅定期報表等喺管理信息類型中屬於",
+    "llm_output": "B\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '作業信息'], ['B', '管理控制信息'], ['C', '協調信息'], ['D', '戰略計劃信息']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "根據大衛•麥克利蘭關於人嘅自我實現嘅需要理論，如果一個人希望控制向上同向下嘅信息渠道以便對他人施加影響，那就表明佢係一個",
+    "llm_output": "D\nA.激勵需要強嘅人。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，並對對方嘅回應感到滿意。激勵需要強嘅人希望得到對方嘅回應，",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '激勵需要強嘅人'], ['B', '社會交往需要強嘅人'], ['C', '成就需要強嘅人'], ['D', '權力需要強嘅人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "原始社會係管理思想嘅萌芽階段，其間出現咗按人嘅自然屬性同各成員嘅特殊興趣與能力進行分工嘅即",
+    "llm_output": "A\nA. 簡單嘅自然勞動分工思想\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '簡單嘅自然勞動分工思想'], ['B', '原始嘅科學管理思想'], ['C', '樸素嘅勞動協作思想'], ['D', '原始嘅組織思想']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "以「人」為中心嘅係",
+    "llm_output": "D\nA. 職級\nB. 職位分類\nC. 職等\nD. 品位分類\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '職級'], ['B', '職位分類'], ['C', '職等'], ['D', '品位分類']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀20年代，作為一般系統論嘅創始人，提出系統概念嘅係奧地利理論生物學家",
+    "llm_output": "B\n本篇文章由澳门新葡亰平台发布于澳门新葡亰平台,转载请注明出处：澳门新葡亰平台\n关键词：\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '維納'], ['B', '貝塔朗菲'], ['C', '申農'], ['D', '韋伯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理控制過程嘅第一步係",
+    "llm_output": "C\n參考: 管理控制\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '檢查績效'], ['B', '搵出原因'], ['C', '確立標準'], ['D', '糾正偏差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺實施財務監督時，以會計憑證、賬簿、報表等會計資料為對象進行檢查嘅方法被稱為",
+    "llm_output": "C\n来源：\n《管理學》\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '現場調查'], ['B', '財務分析'], ['C', '財務檢查'], ['D', '實物檢查']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "對指揮嘅實現程度具有決定性作用嘅因素係",
+    "llm_output": "B\nA. 指挥权力分配的基础\nB. 指挥目标与手段的合理性\nC. 指挥客体的潜在能力\nD. 指挥权力的固有基础\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '指揮權力嘅分配基礎'], ['B', '指揮目標與手段嘅合理性'], ['C', '指揮客體嘅潛喺能力'], ['D', '指揮權力嘅固有基礎']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺決策過程中，根據決策目標嘅要求搵實現目標嘅途徑係",
+    "llm_output": "A\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '選擇方案'], ['B', '實施決策'], ['C', '設計方案'], ['D', '發現問題']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "查爾斯•巴貝奇係科學管理嘅先驅者，佢特別重視勞資關係，並為實現勞資協作提出咗",
+    "llm_output": "A\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗固定工資加利潤分享制度。\n查爾斯•巴貝奇為實現勞資協作提出咗",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '固定工資加利潤分享制度'], ['B', '差別計件工資制度'], ['C', '崗位結構工資制度'], ['D', '固定工資加績效工資制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "以「經濟人」為假設條件嘅管理理論係",
+    "llm_output": "C\nA. 需求層次理論\nB. 人際關係理論\nD. 行為科學理論\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '需求層次理論'], ['B', '人際關係理論'], ['C', '古典管理理論'], ['D', '行為科學理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "目標管理嘅基本精神係",
+    "llm_output": "C\nA. 以崗位設置為中心\nB. 以人員編制為中心\nD. 以監督控制為中心\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '以崗位設置為中心'], ['B', '以人員編制為中心'], ['C', '以自我管理為中心'], ['D', '以監督控制為中心']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺協調對象較少、協調範圍細、問題症結暴露充分嘅條件下，一般採用嘅協調方法係",
+    "llm_output": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '醞釀協商'], ['B', '冷處理'], ['C', '建議說明'], ['D', '思想教育']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "王主任通過長期觀察，發現辦公室李祕書係典型嘅做表面文章、善於喺領導面前表現自己、鍾意打小報告嘅人，故而對其許多行為常採用視而不見，唔理睬嘅方法。呢種做法喺強化理論中稱之為",
+    "llm_output": "B\nA. 積極強化：強化理论中，強化理论又分积极强化和消极强化。积极强化是指给予个体以奖励，以增强其某种行为出现的概率。消极强化是指给予个体以惩罚，以减少其某种行为出现的概率。\nB. 消退：消退是指当某一行为出现后，不再有强化物伴随，该行为在将来发生的概率会降低，称之为消退。\nC. 正強化：強化理论中，強化理论又分积极强化和消极强化。积极强化是指给予个体以奖励，以增强其某种行为出现的概率。消极强化是指给予个体以惩罚，以减少其某种行为出现的概率。\nD. 直接懲罰：強化理论中，強化理论又分积极强化和消极强化。积极强化是指给予个体以奖励，以增强其某种行为出现的概率。消极强化是指给予个体以惩罚，以减少其某种行为出现的概率。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '積極強化'], ['B', '消退'], ['C', '正強化'], ['D', '直接懲罰']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺管理方格理論中，領導者既關心生產，又關心人，呢種領導類型被稱之為",
+    "llm_output": "B\n題目: 以下係关于管理學嘅單項選擇題，請直接畀出正確答案嘅選項。\n問題: 喺管理方格理論中，領導者既關心生產，又關心人，呢種領導類型被稱之為\nA. 戰鬥集體型領導\nB. 俱樂部型領導\nC. 任務型領導\nD. 貧乏型領導\n答案係:\nB\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '戰鬥集體型領導'], ['B', '俱樂部型領導'], ['C', '任務型領導'], ['D', '貧乏型領導']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "屬於Z型管理模式特點嘅係",
+    "llm_output": "A\nB\nC\nD\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '靈活僱傭制'], ['B', '拓寬職業發展路徑'], ['C', '集體決策與集體負責'], ['D', '評價與快速晉升']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺組織決策中，注重回溯分析嘅係",
+    "llm_output": "C\nA. 風險型決策\nB. 戰略決策\nD. 危機決策\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '風險型決策'], ['B', '戰略決策'], ['C', '追蹤決策'], ['D', '危機決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "社會系統學派嘅創始人，美國學者切斯特•巴納德嘅重要貢獻係提出咗",
+    "llm_output": "A\n巴納德提出咗權威接受理論，巴納德认为，组织成员接受权威，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员对权威的服从和接受，是组织成员",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '權威接受理論'], ['B', '科層組織理論'], ['C', '人際關係理論'], ['D', '競爭戰略理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "對組織嘅機構設置、人員配備、權責劃分具有決定性作用嘅組織要素係",
+    "llm_output": "C\nA. 目標\nB. 程序\nD. 物財\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '目標'], ['B', '程序'], ['C', '職位'], ['D', '物財']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "根據行為科學嘅研究，人嘅需要、動機、行為與滿足之間嘅關係可以用簡單嘅模式表示為",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '需求→行為→動機→滿足'], ['B', '行為→動機→需求→滿足'], ['C', '動機→需求→行為→滿足'], ['D', '需求→動機→行為→滿足']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "以制針業為例說明勞動分工畀製造業帶嚟變化嘅近代西方管理理論嘅先驅係",
+    "llm_output": "C\nA.亨利•普爾（Henry Fayol），法国古典管理理论家，提出了管理十四条原则。\nB.羅伯特•歐文（Robert Owen），英国空想社会主义者，提出了“和谐管理”理论。\nC.亞當•斯密（Adam Smith），苏格兰经济学家，提出了“劳动分工”理论。\nD.安德魯•尤爾（Andrew Ure），英国经济学家，提出了“科学管理”理论。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '亨利•普爾'], ['B', '羅伯特•歐文'], ['C', '亞當•斯密'], ['D', '安德魯•尤爾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "對於微觀管理系統嚟講，關係到組織嘅輸入同輸出嘅動力問題嘅環境因素係",
+    "llm_output": "C\nA. 社會環境\nB. 技術環境\nD. 政治環境\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會環境'], ['B', '技術環境'], ['C', '經濟環境'], ['D', '政治環境']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理過程學派嘅理論基礎係",
+    "llm_output": "B\nA. 一般管理理論\nB. 科學管理理論\nC. 古典管理理論\nD. 管理組織理論\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '一般管理理論'], ['B', '科學管理理論'], ['C', '古典管理理論'], ['D', '管理組織理論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某企業規定，員工上班遲到一次，扣發當月50％嘅獎金，自此規定出臺後，員工遲到現象基本消除，呢種激勵屬於",
+    "llm_output": "A\nA. 負強化\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '負強化'], ['B', '正強化'], ['C', '懲罰'], ['D', '消退']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列管理行為中，屬於私人管理嘅係",
+    "llm_output": "B\nA. 市場監管\nC. 頒發工商執照\nD. 依法徵稅\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '市場監管'], ['B', '組織生產經營'], ['C', '頒發工商執照'], ['D', '依法徵稅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "期望理論依據嘅假設係",
+    "llm_output": "A\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '滿足-生產效率'], ['B', '滿足-組織績效'], ['C', '唔滿足-組織績效'], ['D', '唔滿足-生產效率']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "依據威廉•大內Z理論，典型嘅日本企業管理模式即J型管理模式嘅特點係",
+    "llm_output": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '終身僱傭制、緩慢評價同晉升、形式化嘅控制方式、集體決策與集體負責'], ['B', '短期僱傭制、緩慢評價同晉升、含蓄同內喺嘅控制、個人決策與個人負責'], ['C', '終身僱傭制、緩慢評價同晉升、含蓄同內喺嘅控制、個人決策與個人負責'], ['D', '終身僱傭制、緩慢評價同晉升、含蓄同內喺嘅控制、集體決策與集體負責']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "科層組織理論係古典管理理論嘅重要組成部分，其代表人物係德國嘅",
+    "llm_output": "C\n科層組織理論係古典管理理論嘅重要組成部分，其代表人物係德國嘅韋伯。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '泰勒'], ['B', '卡斯特'], ['C', '韋伯'], ['D', '法約爾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "由美國著名政治學家同政策科學家查爾斯•林德布洛姆提出嘅決策模式係",
+    "llm_output": "B\n查爾斯•林德布洛姆（Charles Lindblom），美国著名政治学家、政策科學家，提出了决策的渐进模式。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '集團決策模式'], ['B', '漸進決策模式'], ['C', '精英決策模式'], ['D', '理性決策模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理思想史上，德國學者馬克斯•韋伯被譽為係",
+    "llm_output": "D\nA. 科學管理之父 係泰勒\nB. 現代管理之父 係彼得•杜拉克\nC. 人際關係之父 係巴纳德\nD. 組織理論之父 係馬克斯•韋伯\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '科學管理之父'], ['B', '現代管理之父'], ['C', '人際關係之父'], ['D', '組織理論之父']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某公司為咗畀組織成員瞭解組織總體目標同具體措施，將各項管理政策、組織目標、工作程序同規章制度逐級向下傳遞。呢種溝通方式叫",
+    "llm_output": "B\nA. 反饋溝通：是指组织成员在沟通过程中，不僅Listening to others，而且Listening to oneself，Listening to the environment，Listening to the future，Listening to the past。\nB. 單向溝通：是指信息只向一方傳遞，一方只Listening to others，一方Listening to oneself。\nC. 相向溝通：是指信息在组织成员之间双向傳遞，一方Listening to others，一方Listening to oneself。\nD. 輪式溝通：是指信息在组织成员之间双向傳遞，一方Listening to others，一方Listening to oneself。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '反饋溝通'], ['B', '單向溝通'], ['C', '相向溝通'], ['D', '輪式溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理係一種社會現象，佢起源於",
+    "llm_output": "A\nA. 私有制嘅出現\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '私有制嘅出現'], ['B', '人類嘅共同勞動'], ['C', '國家嘅產生'], ['D', '工商業嘅興起']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "與早期行為科學理論相比，古典管理理論嘅重要特點之一係",
+    "llm_output": "A\nA. 注重對人嘅行為嘅研究。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '注重對人嘅行為嘅研究。'], ['B', '強調民主參加管理。'], ['C', '注重對紀律嘅研究。'], ['D', '強調人性激發嘅管理。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "關於亞當斯嘅公平理論，正確嘅表述係",
+    "llm_output": "A\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA\nA\nC\nD\nA",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '職工嘅工作態度與生產積極性既取決於佢哋所獲報酬嘅絕對量，又取決於相對量'], ['B', '職工嘅工作態度與生產積極性與佢哋所獲報酬嘅絕對量同相對量無關'], ['C', '職工嘅工作態度與生產積極性主要取決於佢哋所獲報酬嘅絕對量'], ['D', '職工嘅工作態度與生產積極性唔取決於佢哋所獲報酬嘅相對量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺管理信息系統中，信息嘅輸出形式係",
+    "llm_output": "B\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '公文、檔案'], ['B', '文字、圖形（像）'], ['C', '目錄、卡片'], ['D', '磁帶、磁盤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "亞當斯公平理論側重研究嘅內容係",
+    "llm_output": "B\nA. 個人努力與績效嘅關係\nC. 人類需要層次之間嘅遞進關係\nD. 唔同需要追求者嘅心理與行為特點\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '個人努力與績效嘅關係'], ['B', '工資報酬分配嘅合理性對人心理同行為嘅影響'], ['C', '人類需要層次之間嘅遞進關係'], ['D', '唔同需要追求者嘅心理與行為特點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺目標管理中，要使組織成功咁達到既定目標，管理者必須畀下級充分嘅信任，最有效嘅方法係",
+    "llm_output": "C\nA. 適時控制\nB. 靈活協調\nD. 縝密計劃\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '適時控制'], ['B', '靈活協調'], ['C', '授予權限'], ['D', '縝密計劃']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "與古典組織理論相比，行為科學組織理論嘅缺陷主要表現喺",
+    "llm_output": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '忽視組織結構、人員行為、人際關係嘅作用'], ['B', '忽視組織結構、組織制度、人員行為嘅作用'], ['C', '忽視組織原則、組織結構、人際關係嘅作用'], ['D', '忽視組織原則、組織結構、組織制度嘅作用']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "一項社會調查喺問卷中瞭解唔同年齡嘅居民對網絡購物嘅睇法同態度，其中嘅「睇法同態度」屬於",
+    "llm_output": "A\nA. 中間變量\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '中間變量'], ['B', '因變量'], ['C', '定比變量'], ['D', '自變量']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "公平理論注重嘅係",
+    "llm_output": "C\n公平理論注重嘅係過程公平。\n公平理論是由斯塔西·亚当斯（Stacy Adams）在1963年提出的。公平理論认为，员工会通过比较自己的付出和所得，以及他人的付出和所得，来评估公平性。如果员工觉得不公平，就会产生不满情绪，从而影响工作绩效。因此，管理者需要关注员工对公平的感知，并采取措施来确保公平。公平理論注重的是過程公平，即员工认为自己的付出和所得是公平的，而不是分配公平或程序公平。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '評估公平'], ['B', '分配公平'], ['C', '過程公平'], ['D', '程序公平']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "系統分析方法論中嘅行為研究又被稱為",
+    "llm_output": "C\n本篇文章主要講解以下內容：\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析方法论中行为研究又被称为什么\n系统分析",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '規範研究'], ['B', '價值研究'], ['C', '現狀研究'], ['D', '可行性研究']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某公司開發一新產品準備投放市場，已知喺市場需求好嘅情況下可獲利700萬元；喺市場需求唔好嘅情況下虧損600萬元。由於係新產品，市場需求好與壞嘅概率無從可知。呢種決策屬於",
+    "llm_output": "A\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '風險型決策'], ['B', '危機決策'], ['C', '唔確定型決策'], ['D', '確定型決策']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "人哋嘅行為所要達到嘅道德結果嘅主觀意圖係",
+    "llm_output": "A\nA\nC\nD\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '道德目嘅'], ['B', '道德責任'], ['C', '道德手段'], ['D', '道德品質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "高聳組織結構嘅特點係",
+    "llm_output": "B\nA. 管理層次多，管理幅度大\nB. 管理層次多，管理幅度細\nC. 管理層次少，管理幅度大\nD. 管理層次少，管理幅度細\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '管理層次多，管理幅度大'], ['B', '管理層次多，管理幅度細'], ['C', '管理層次少，管理幅度大'], ['D', '管理層次少，管理幅度細']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某組織對決策方案投票表決時，該方案因一票反對冇通過。呢說明該組織採用嘅決策規則係",
+    "llm_output": "D\nA. 過半數規則：决策方案必须得到超过半数的成员支持，才能通过。\nB. 精英決策規則：决策方案必须得到组织中精英成员的支持，才能通过。\nC. 隨機決策規則：决策方案通过与否，取决于随机因素，如掷硬币等。\nD. 全體一致規則：决策方案必须得到组织中所有成员的一致支持，才能通过。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '過半數規則'], ['B', '精英決策規則'], ['C', '隨機決策規則'], ['D', '全體一致規則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "對組織中操作或事務處理流程嘅一種描述、計劃與規定，被稱為",
+    "llm_output": "A\nA\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '程序'], ['B', '習慣'], ['C', '目標'], ['D', '權力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "統計分析表明，「關鍵嘅事總係少數，一般嘅事常係多數」，呢意味住控制工作最應重視",
+    "llm_output": "D\nA. 客觀、精確同具體\nB. 靈活、及時同適度\nC. 協調計劃同組織工作\nD. 抓住關鍵環節，控制全局\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '客觀、精確同具體'], ['B', '靈活、及時同適度'], ['C', '協調計劃同組織工作'], ['D', '抓住關鍵環節，控制全局']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "現代人事管理嘅基本職能係",
+    "llm_output": "D\nA、B、C三项均是现代人事管理的基本职能，但只有D项是现代人事管理的基本职能。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '加強人事培訓工作'], ['B', '完善人事管理制度'], ['C', '健全人事分類制度'], ['D', '促進人力資源嘅優化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "具有「壓制個人目標，使組織目標凌駕於個人目標之上」特徵嘅係",
+    "llm_output": "B\nA. 目標管理\nB. 傳統管理\nC. 現代管理\nD. 組織管理\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '目標管理'], ['B', '傳統管理'], ['C', '現代管理'], ['D', '組織管理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺網絡圖嘅繪製中，用嚟表示工序嘅開工或完工以及相鄰工序喺時間上嘅分界點嘅係",
+    "llm_output": "A\nA\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '線路'], ['B', '事項'], ['C', '工作'], ['D', '任務']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "近代西方管理理論產生之前，對管理理論嘅誕生貢獻較大嘅係",
+    "llm_output": "D\nA. 施米特（1860-1954），德国著名哲学家，政治学家，历史学家，社会学家，法学家，经济学家，是20世纪德国最有影响的思想家之一，也是西方现代政治学的重要奠基人之一。\nB. 法約爾（1841-1925），法国古典组织理论的主要代表人物，被后人誉为“组织理论之父”。\nC. 麥卡勒姆（1889-1978），美国管理学家，现代管理理论的奠基人之一。\nD. 韋伯（1864-1920），德国著名社会学家、政治学家、经济学家、哲学家，是现代组织理论的创始人之一。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '施米特'], ['B', '法約爾'], ['C', '麥卡勒姆'], ['D', '韋伯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺宏觀經濟管理中，計劃起戰略性、調節性、政策性作用，一般多運用",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '高層計劃嘅形式'], ['B', '指令性計劃嘅形式'], ['C', '綜合計劃嘅形式'], ['D', '指導性計劃嘅形式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "體現組織中橫跨過權力執行路線而直接聯繫嘅原則係",
+    "llm_output": "D\n跳板原則是指组织中下级单位或下级人员向上级单位或上级人员提出申诉或控告，上级单位或上级人员必须接受申诉或控告，并及时予以处理。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '秩序原則'], ['B', '跳板原則'], ['C', '公平原則'], ['D', '適當嘅集權同分權原則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位喺管理中唔設溝通核心，各溝通主體可以同左右兩個溝通對象進行溝通，呢種溝通方式係",
+    "llm_output": "A\nA. 環式溝通\nB. 鏈式溝通\nC. 輪式溝通\nD. Y式溝通\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '環式溝通'], ['B', '鏈式溝通'], ['C', '輪式溝通'], ['D', 'Y式溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "人事分類主要有職位分類同品位分類兩種，近代人事品位分類始創於",
+    "llm_output": "A\nA\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '日本'], ['B', '法國'], ['C', '美國'], ['D', '英國']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "領導者非強制性影響力產生嘅因素係",
+    "llm_output": "B\nA. 資歷因素\nB. 品格因素\nC. 傳統因素\nD. 職位因素\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '資歷因素'], ['B', '品格因素'], ['C', '傳統因素'], ['D', '職位因素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某市喺拆遷過程中，面對拆遷戶多、範圍廣、要求各異，喺呢種情況下管理者宜採用嘅協調方法係",
+    "llm_output": "A\nA. 醞釀協商\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '醞釀協商'], ['B', '冷處理'], ['C', '建議說明'], ['D', '行政處罰']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "科學管理理論最早產生於",
+    "llm_output": "C\n參考答案解析:\n科学管理理论最早产生于资本主义工商企业中。\n科学管理理论又称“泰罗制”，是19世纪末20世纪初在美国产生的一种管理理论。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '國家行政管理中'], ['B', '軍事管理領域'], ['C', '工商企業管理中'], ['D', '社會管理領域']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理主體憑藉組織層級關係，將信息直線逐級傳遞，呢種溝通方式被稱為",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'Y式溝通'], ['B', '環式溝通'], ['C', '輪式溝通'], ['D', '鏈式溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列對人力資源生產同消費雙重屬性嘅表述，錯誤嘅一句係",
+    "llm_output": "C\nC 人係物質財富嘅無條件嘅消費者\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人係物質財富嘅有條件嘅創造者'], ['B', '人力資源嘅消費性大於其生產性'], ['C', '人係物質財富嘅無條件嘅消費者'], ['D', '人力資源嘅消費性維護同發展人力資源']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "上級管理組織或人員把各項管理政策及組織目標、工作程序、規章制度逐級向下傳遞嘅溝通屬於",
+    "llm_output": "C\nA. 鏈式溝通\nB. 雙向溝通\nC. 下行溝通\nD. 上行溝通\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '鏈式溝通'], ['B', '雙向溝通'], ['C', '下行溝通'], ['D', '上行溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺傳統控制方法中，最古老、最直接嘅控制方法係",
+    "llm_output": "B\nA. 人員管理控制法\nB. 現場觀察法\nC. 專題報告分析法\nD. 統計數據資料分析法\nB\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人員管理控制法'], ['B', '現場觀察法'], ['C', '專題報告分析法'], ['D', '統計數據資料分析法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺強化理論中，撤銷對某種所謂「積極」行為嘅強化，以降低該行為出現概率嘅方法稱之為",
+    "llm_output": "A. 消退\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消退'], ['B', '積極強化'], ['C', '懲罰'], ['D', '消極強化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "按照領導生命週期理論，組織成員嘅平均成熟程度處於唔成熟階段，領導者應採取嘅領導方式為",
+    "llm_output": "D\nA. 低工作低關係\nB. 高工作高關係\nC. 低工作高關係\nD. 高工作低關係\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '低工作低關係'], ['B', '高工作高關係'], ['C', '低工作高關係'], ['D', '高工作低關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "以西蒙為代表嘅決策理論學派提出嘅決策準則係",
+    "llm_output": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '最優化'], ['B', '公平'], ['C', '民主化'], ['D', '滿意']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "權限必須事先授予而唔係行動之後先由上級臨時確認。呢度體現嘅授權原則係",
+    "llm_output": "B\nA. 方向正確原則：指管理层必须制定出明确而一致的行动方向，使下级明确工作的目标和方向。\nB. 權力有效原則：指管理层必须授予下属一定的权力，使下属在职责范围内有权力处理问题，并负起责任。\nC. 統一梯次原則：指管理层必须使下属在职责范围内有权力处理问题，并负起责任。\nD. 責任明確原則：指管理层必须明确下属的职责，使下属明确自己的职责范围。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '方向正確原則'], ['B', '權力有效原則'], ['C', '統一梯次原則'], ['D', '責任明確原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺控制類型中，面向未來，比較經濟嘅控制係",
+    "llm_output": "D\nA. 反饋控制\nB. 實時控制\nC. 現場控制\nD. 前饋控制\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '反饋控制'], ['B', '實時控制'], ['C', '現場控制'], ['D', '前饋控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "按照領導四分圖理論，效果最差嘅領導方式係",
+    "llm_output": "C\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '高組織低關心'], ['B', '低組織高關心'], ['C', '低組織低關心'], ['D', '高組織高關心']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "指揮者嘅職位權力喺指揮活動中體現出嚟嘅權威係",
+    "llm_output": "A\nA\nC\nD\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人格權威'], ['B', '技術權威'], ['C', '法規權威'], ['D', '現代權威']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "職務內容嘅擴大化同工作意義嘅豐富化係指",
+    "llm_output": "D\n參考答案解析：\nA. 職務輪換是指將组织中不同職位的員工對調，使他们有機會接触不同的職務，以豐富他们的经验，增強他们的能力。\nB. 參與管理是指將下级单位的部分决策權交給下级，以增強他们的主人翁意识，激发他们的工作积极性。\nC. 工作豐富化是指將组织中不同职位的員工對調，使他们有機會接触不同的職務，以豐富他们的经验，增強他们的能力。\nD. 職務擴大化是指將组织中不同职位的員工對調，使他们有機會接触不同的職務，以豐富他们的经验，增強他们的能力。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '職務輪換'], ['B', '參與管理'], ['C', '工作豐富化'], ['D', '職務擴大化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "針對組織或部門嘅固定資產購置、改造、更新、新建等活動，喺可行性分析嘅基礎上編制嘅預算係",
+    "llm_output": "C\nA. 財務預算\nB. 零基預算\nD. 經營預算\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '財務預算'], ['B', '零基預算'], ['C', '投資預算'], ['D', '經營預算']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "查爾斯•巴貝奇係科學管理嘅先驅，佢特別強調勞資協作，並提出咗",
+    "llm_output": "A\n查爾斯•巴貝奇係科學管理嘅先驅，佢特別強調勞資協作，並提出咗工資加利潤分享制度。\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '工資加利潤分享制度'], ['B', '計件工資制度'], ['C', '差別計件工資制度'], ['D', '計時工資制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "梅奧等人通過霍桑實驗創立咗",
+    "llm_output": "B\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '自我實現人假說'], ['B', '社會人假說'], ['C', '經濟人假說'], ['D', '複雜人假說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "組織生命週期理論認為，組織喺成熟階段後期，官僚主義盛行，文山會海普遍存在，組織將陷於",
+    "llm_output": "D\n參考書目：\n1. 何莲珍，《组织行为学》，高等教育出版社，2009年。\n2. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n3. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n4. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n5. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n6. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n7. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n8. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n9. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n10. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n11. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n12. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n13. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n14. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n15. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n16. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n17. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n18. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n19. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n20. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n21. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n22. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n23. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n24. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n25. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n26. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n27. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n28. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n29. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n30. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n31. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n32. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n33. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n34. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n35. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n36. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n37. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n38. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n39. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n40. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n41. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n42. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n43. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n44. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n45. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n46. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n47. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n48. 陈晓萍，《组织行为学》，高等教育出版社，2009年。\n49. 陈晓萍，《组织行为",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '領導危機'], ['B', '自主性危機'], ['C', '失控危機'], ['D', '硬化危機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺調查研究中，關於一個或更多概念與變量嘅陳述被稱為",
+    "llm_output": "A\nA. 命題\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '命題'], ['B', '問題性指標'], ['C', '假說'], ['D', '診斷性指標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗防止甲型流感大規模爆發，我國政府決定，根據疫苗嘅生產情況，為公民免費接種甲流疫苗。喺控制理論中，呢種控制方式係",
+    "llm_output": "A\nA. 前饋控制\nB. 反饋控制\nC. 現場控制\nD. 隨機控制\nA\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '前饋控制'], ['B', '反饋控制'], ['C', '現場控制'], ['D', '隨機控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "根據價值鏈分析法，下列屬於輔助活動嘅係",
+    "llm_output": "A\nB\nC\nD\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '服務'], ['B', '技術開發'], ['C', '生產作業'], ['D', '內部後勤']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會調查中，要求以事物同現象嘅真實狀況為調查嘅前提同依據，佢所體現嘅基本原則係",
+    "llm_output": "D\nA. 層次性原則：调查研究要按照事物的层次，由表及里，由浅入深，由现象到本质，由低级到高级，由简单到复杂，由个别到一般，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由具体到抽象，由特殊到普遍，由已知到未知，由近及远，由易到难，由",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '層次性原則'], ['B', '整體性原則'], ['C', '相關性原則'], ['D', '客觀性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "通過管理提高效益，需要一個時間過程，呢個表明管理學係一門",
+    "llm_output": "A. 軟科學\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '軟科學'], ['B', '應用性學科'], ['C', '定量化學科'], ['D', '硬科學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "決策樹法屬於",
+    "llm_output": "B\nA. 風險型決策方法\nB. 確定型決策方法\nC. 非確定型決策方法\nD. 程序性決策方法\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '風險型決策方法'], ['B', '確定型決策方法'], ['C', '非確定型決策方法'], ['D', '程序性決策方法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於現代管理基本特徵嘅係",
+    "llm_output": "C\n栏目: 管理學\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '民主化管理'], ['B', '科學化管理'], ['C', '習慣化管理'], ['D', '系統化管理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "反映阻礙社會進步或社會發展嘅社會現象嘅指標係",
+    "llm_output": "C\n本篇文章內容主要來嘅係关于管理學嘅單項選擇題，請直接畀出正確答案嘅選項。反映阻礙社會進步或社會發展嘅社會現象嘅指標係否定性指標。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '主觀性指標'], ['B', '中性指標'], ['C', '否定性指標'], ['D', '肯定性指標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "一份社會調查證明，「沉迷於網絡遊戲」同「暴力傾向」之間嘅相關系數係0.86。呢一結論說明以上兩個變量之間嘅關係係",
+    "llm_output": "C\n題文大意：\n社会调查证明，沉迷于网络游戏的倾向和暴力倾向之间存在高度正相关关系。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '低度正相關'], ['B', '低度負相關'], ['C', '高度正相關'], ['D', '高度負相關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "按照領導作風理論，將權力定位於職工個人手中，採取俱樂部式嘅領導行為，呢種領導作風屬於",
+    "llm_output": "B\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '權變式領導作風'], ['B', '協商式領導作風'], ['C', '任務型領導作風'], ['D', '放任自流嘅領導作風']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於人際關係學說主要觀點嘅係",
+    "llm_output": "A\nA. 企業嘅職工係社會人\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '企業嘅職工係社會人'], ['B', '企業中實際存在住一種非正式組織'], ['C', '人嘅行為都係由一定嘅動機引起嘅'], ['D', '生產效率取決於工人嘅工作態度及與佢人嘅關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "老王做咗5年嘅總經理，工作富有成效。佢嘅基本經驗係：作為高級管理人員必須將日常事務處理權授畀下級，自己只保留重要事項嘅決策權同監督權。其理論依據就係科學管理理論倡導嘅",
+    "llm_output": "B\n跳板原則指：-manager should be able to jump from one position to another in the organisation\n标准化的管理方法是指：-standardization of work methods\n统一指挥原则是指：-manager should be able to jump from one position to another in the organisation\n例外原则是指：-manager should be able to jump from one position to another in the organisation\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '跳板原則'], ['B', '例外原則'], ['C', '統一指揮原則'], ['D', '標準化方法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "1986年瀋陽防爆器械廠宣告破產，呢個係新中國成立後第一間正式宣告破產嘅國有企業。破產係企業嘅悲劇，但卻有利於國家整體利益。呢種思路反映嘅系統分析原則係",
+    "llm_output": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '優化原則'], ['B', '模型化原則'], ['C', '層次性原則'], ['D', '滿意原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "藍海戰略理論中所謂嘅「紅海」係指",
+    "llm_output": "C\n本篇文章主要講解以下內容：\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的“红海”是指什么？\n蓝海战略理论中所说的",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '冇競爭嘅市場'], ['B', '未曾開闢嘅新興市場'], ['C', '業已存在嘅飽和市場'], ['D', '未來有前景嘅市場']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "決策者有明確嘅決策目標，知道唔同行動方案喺唔同環境條件下所獲得嘅結果，雖然唔能完全判斷未來出現嘅係邊一種環境條件，但可以預測其出現概率嘅決策係",
+    "llm_output": "A. 確定型決策\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '確定型決策'], ['B', '程序化決策'], ['C', '非確定型決策'], ['D', '風險型決策']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "具有嚴肅性、規範性、準確性等特點，被各種組織廣泛使用嘅溝通類型係",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '口頭溝通'], ['B', '上行溝通'], ['C', '反饋溝通'], ['D', '書面溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "依據雙因素理論，下列屬於保健因素嘅係",
+    "llm_output": "D\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '工作具有挑戰性'], ['B', '職業發展與成就'], ['C', '管理方式與管理政策'], ['D', '行為表現受表彰']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "合理安排、使用同調配人員嘅基本依據係",
+    "llm_output": "C\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人員培訓'], ['B', '人事監督'], ['C', '人員考評'], ['D', '人事選拔']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "布萊克同穆頓認為，領導者應客觀噉分析企業內外條件，有意識噉採取措施，把自己嘅領導方式改造成為",
+    "llm_output": "D\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '任務型管理方式'], ['B', '戰鬥集體型管理方式'], ['C', '鄉村俱樂部型管理方式'], ['D', '中間型管理方式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "威廉•大內嘅Z理論中所謂嘅「A型管理模式」係指",
+    "llm_output": "B\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '德國企業管理模式'], ['B', '日本企業管理模式'], ['C', '英國企業管理模式'], ['D', '美國企業管理模式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位重要問題決定權屬於最高層，次要問題可由中下層做出決定，上下級之間信息溝通較多，雙方有較高信任度。呢種領導方式係",
+    "llm_output": "A. 協調式\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '協調式'], ['B', '羣體參與式'], ['C', '開明—權威式'], ['D', '專制—權威式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位為咗突出管理者嘅地位，設置一個溝通主體分別同其他幾個溝通主體進行溝通。呢種溝通方式係",
+    "llm_output": "A\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '環式溝通'], ['B', '鏈式溝通'], ['C', '輪式溝通'], ['D', '全通道溝通']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "小張鍾意做表面文章，關於喺領導面前表現自己，領導決定對佢採取視而唔見，唔理睬嘅方法",
+    "llm_output": "A\nA. 消退\nB. 懲罰\nC. 消極強化\nD. 積極強化\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消退'], ['B', '懲罰'], ['C', '消極強化'], ['D', '積極強化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某科研單位嘅組織機構分為兩類，一類係傳統嘅職能管理機構，一類係為完成特定研究任務而設置嘅專門任務小組。其中，職能管理機構為常設機構，專門任務小組為非常設機構。呢兩種機構同時存在嘅管理形態係",
+    "llm_output": "B\nA. 職能制：是指根据组织成员的职能划分部门，每个部门都有一名主管，负责本部门的工作。\nB. 矩陣制：是指在组织中，按职能划分部门的同时，又按产品、项目、地区等划分部门，形成纵横交错的组织结构。\nC. 多維制：是指组织结构中，除了纵向的职能部门外，还设置横向的跨职能部门，以解决组织中的跨职能问题。\nD. 直線制：是指组织结构中，只有纵向的职能部门，没有横向的跨职能部门。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '職能制'], ['B', '矩陣制'], ['C', '多維制'], ['D', '直線制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "規定某一職位嘅工作目標、職責範圍、技能要求、工作條件以及職位關係嘅書面文件，稱為",
+    "llm_output": "B. 職位描述\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '職級說明'], ['B', '職位描述'], ['C', '職位規範'], ['D', '職等分析']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺下列溝通方式中，具有輪式同鏈式溝通嘅優缺點，溝通速度快，組織成員滿意程度低嘅溝通方式係",
+    "llm_output": "D\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '圓周式溝通'], ['B', 'Y式溝通'], ['C', '環式溝通'], ['D', '全通道溝通']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺管理過程中引導組織之間、人員之間建立相互協作同主動配合嘅良好關係，有效利用各種資源，以實現共同預期目標嘅活動係",
+    "llm_output": "C\n本篇文章內容来自香港公开大学《管理学》课程，版权归属香港公开大学，如若转载，请注明来自香港公开大学《管理学》课程，谢谢。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '控制'], ['B', '指揮'], ['C', '協調'], ['D', '決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔確定型決策方法唔包括",
+    "llm_output": "A\nA 盈虧平衡分析法 係线性規劃嘅决策方法\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '盈虧平衡分析法'], ['B', '壞中求好標準'], ['C', '好中求好標準'], ['D', '最小最大後悔值標準']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "與決策目標相比，計劃目標係管理活動嘅",
+    "llm_output": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '綜合目標'], ['B', '戰略目標'], ['C', '整體目標'], ['D', '分支目標']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "一般管理理論係古典管理理論嘅重要組成部分，其代表人物係法國嘅",
+    "llm_output": "B\n法約爾（Fayol）是法国古典管理理论的代表人物之一，他提出了14条管理原则，被后人称为“法約爾定律”。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '亞當斯'], ['B', '法約爾'], ['C', '西蒙'], ['D', '韋伯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺管理上強調外部控制，主張依靠權威嘅力量作為指揮同控制手段嘅係",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'Y理論'], ['B', '領導方格理論'], ['C', '唔成熟-成熟理論'], ['D', 'X理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "領導生命週期理論認為，當下屬嘅成熟程度發展到成熟階段，領導者應採取嘅領導方式為",
+    "llm_output": "A\n来源：\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '授權式領導方式'], ['B', '說服式領導方式'], ['C', '集權式領導方式'], ['D', '命令式領導方式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺現代管理學中，管理人員對當前嘅實際工作係否符合計劃而進行測定並促使組織目標實現嘅過程，被稱為",
+    "llm_output": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '控制'], ['B', '組織'], ['C', '創新'], ['D', '領導']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "泰勒喺科學管理理論中提出咗例外原則，其目嘅係解決",
+    "llm_output": "D\nA. 工商企業嘅利潤分配問題\nB. 管理組織嘅工資發放問題\nC. 總經理嘅職責權限問題\nD. 生產技術同成本控制問題\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '工商企業嘅利潤分配問題'], ['B', '管理組織嘅工資發放問題'], ['C', '總經理嘅職責權限問題'], ['D', '生產技術同成本控制問題']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "提出成就需要理論嘅係",
+    "llm_output": "B\nA. 弗魯姆\nB. 麥克利克兰\nC. 馬斯洛\nD. 赫茨伯格\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '弗魯姆'], ['B', '麥克利蘭'], ['C', '馬斯洛'], ['D', '赫茨伯格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會調查中，兩個變量相關系數喺0.5～0.7之間，說明變量間嘅相關程度",
+    "llm_output": "A\nA\nC\nD\nA\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '一般'], ['B', '極高'], ['C', '較低'], ['D', '顯著']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺系統分析中，強調以政策嘅「機會成本」作為基本依據嘅係",
+    "llm_output": "B\nA.規範研究\nB.價值研究\nC.行為研究\nD.可行性研究\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '規範研究'], ['B', '價值研究'], ['C', '行為研究'], ['D', '可行性研究']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀50年代以前曾經廣泛應用嘅橫道圖嘅發明者係",
+    "llm_output": "B\n本篇文章主要講解以下內容：\n- 甘特圖\n- 甘特圖嘅基本原则\n- 甘特圖嘅优點\n- 甘特圖嘅缺點\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖嘅缺点\n- 甘特圖嘅应用\n- 甘特圖嘅优点\n- 甘特圖",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蒙特卡羅'], ['B', '甘特'], ['C', '泰勒'], ['D', '韋伯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "小李同小王係同事，最近心理上卻係冰火兩重天。小李因圓滿完成工作定額任務，唔淨領到咗全額工資，仲得到咗相當於月工資25％嘅獎勵。小王則因未完成月工作定額任務，淨領到咗80％嘅月工資。佢哋所喺企業嘅工資制度即泰勒所倡導嘅",
+    "llm_output": "A\n解析：泰勒所倡導嘅工資制度即計件工資制，係根据工人的劳动成果，即劳动数量和质量，来支付劳动报酬。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '計件工資制'], ['B', '差別計件工資制'], ['C', '崗位結構工資制'], ['D', '績效工資制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "全面質量管理嘅組織形式中，屬於臨時性嘅團隊係",
+    "llm_output": "B\nA. 過程改正團隊\nB. 質量改進團隊\nC. 行動改正團隊\nD. 過程管理團隊\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '過程改正團隊'], ['B', '質量改進團隊'], ['C', '行動改正團隊'], ['D', '過程管理團隊']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "首次提出「非正式組織」概念嘅係",
+    "llm_output": "D\n(梅奧)\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '德魯克'], ['B', '歐文'], ['C', '巴納德'], ['D', '梅奧']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "美國心理學家同行為科學家埃德加•沙因認為，冇一種適用於任何時代、任何人嘅管理方式，呢種觀點來源於",
+    "llm_output": "C\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經濟人假設'], ['B', '社會人假設'], ['C', '複雜人假設'], ['D', '自我實現人假設']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "所謂公共決策嘅「思想庫」或「智囊團」係指決策體制中嘅",
+    "llm_output": "A\nA\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '諮詢系統'], ['B', '中樞系統'], ['C', '信息系統'], ['D', '監控系統']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "公元前2000多年即有咗較為成熟嘅管理形式，具體表現係制定咗有名嘅漢穆拉比法典，該國家係",
+    "llm_output": "B. 古巴比倫\n(公元前2000多年即有咗較為成熟嘅管理形式，具體表現係制定咗有名嘅漢穆拉比法典，該國家係古巴比倫。)\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '古羅馬'], ['B', '古巴比倫'], ['C', '古希臘'], ['D', '古埃及']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "被稱為係「科學管理之父」嘅係",
+    "llm_output": "A\nA. 泰羅\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '泰羅'], ['B', '法約爾'], ['C', '羅伯特•歐文'], ['D', '亞當•斯密']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "為保持決策嘅連續性，某組織決定喺原有決策方案嘅基礎上做啲修改，以出臺新嘅決策方案。呢種決策係",
+    "llm_output": "B\n来源：\n《管理學》（第3版），复旦大学出版社，2014年。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '集團決策模式'], ['B', '漸進決策模式'], ['C', '理性決策模式'], ['D', '有限理性決策模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "社會調查研究中包含一個以上亞概念或取值嘅概念係",
+    "llm_output": "D\nA. 指標\nB. 命題\nC. 假設\nD. 變量\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '指標'], ['B', '命題'], ['C', '假設'], ['D', '變量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀70年代首先提出系統分析嘅層次性原則嘅係美國著名運籌學家",
+    "llm_output": "C\nA.申農（Claude Shannon），美国著名数学家、信息论的创始人，被誉为“信息论之父”。\nB.西蒙（Herbert Simon），美国著名经济学家、心理学家、计算机科学家、控制论专家、人工智能领域的先驱、诺贝尔经济学奖获得者。\nC.維納（Norbert Wiener），美国著名数学家、控制论的创始人。\nD.薩蒂（Hans Thoma de Sattre），法国著名数学家、运筹学家、系统分析的创始人。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '申農'], ['B', '西蒙'], ['C', '維納'], ['D', '薩蒂']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "組織理論上把管理層次多而管理幅度細嘅結構稱之為",
+    "llm_output": "C\n本篇文章主要講解以下內容：\n- 组织理论\n- 组织结构\n- 直线结构\n- 扁平结构\n- 矩阵结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n- 事业部结构\n- 网络结构\n- 直线结构\n- 职能结构\n- 直线职能结构\n-",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '直線結構'], ['B', '直式結構'], ['C', '扁平結構'], ['D', '矩形結構']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某公司發生安全生產事故，公司領導根據其知識同經驗對問題進行分析，提出解決方案，呢種決策方法屬於",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '個人判斷決策法'], ['B', '模擬決策法'], ['C', '德爾菲法'], ['D', '頭腦風暴法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "赫茨伯格嘅雙因素理論認為，提高勞動效率嘅關鍵喺於",
+    "llm_output": "B\nA. 按時發放工資\nB. 使工作豐富化\nC. 加強工作監督\nD. 改變工作環境\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '按時發放工資'], ['B', '使工作豐富化'], ['C', '加強工作監督'], ['D', '改變工作環境']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "馬斯洛嘅需要層次理論主要解釋咗人類嘅",
+    "llm_output": "A\nA\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '基本需要嘅內容同產生順序'], ['B', '基本需要嘅內容'], ['C', '基本需要嘅程度'], ['D', '基本需要產生嘅順序']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "法約爾所提出嘅管理嘅十四項原則唔包括",
+    "llm_output": "A\n集權與分權\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '集權與分權'], ['B', '權力與責任'], ['C', '統一協調'], ['D', '統一指揮']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "具有機構簡單、權力集中、命令統一、決策迅速、指揮靈便、職責明確特點嘅行政體制形態係",
+    "llm_output": "C\nA. 職能制\nB. 多維制\nD. 矩陣制\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '職能制'], ['B', '多維制'], ['C', '直線制'], ['D', '矩陣制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某市出現交通擠塞，市政府召集相關部門同人員到擠塞地點檢查原因，解決問題，呢做法係",
+    "llm_output": "A\nA. 現場控制\nB. 程序控制\nC. 間接控制\nD. 前饋控制\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '現場控制'], ['B', '程序控制'], ['C', '間接控制'], ['D', '前饋控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係授權必須遵循嘅原則",
+    "llm_output": "A\nA. 控制幅度原則\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '控制幅度原則'], ['B', '責權一致原則'], ['C', '重要性原則'], ['D', '適度原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "職能型組織結構形式嘅優點係實現咗",
+    "llm_output": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '管理專業化'], ['B', '統一領導'], ['C', '統一指揮'], ['D', '管理現代化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位領導唔係把目光侷限喺完成任務上，而係注重畀下屬更多嘅關心，愛護同尊重，注重非正式組織嘅存在，鼓勵上下級之間溝通。呢個說明該領導喺管理中運用嘅係",
+    "llm_output": "C\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '科學管理理論'], ['B', '經濟人假設'], ['C', '社會人假設'], ['D', 'X理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於全面控制法嘅係",
+    "llm_output": "B\nA、C、D都属于全面控制法。B属于局部控制法。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '損益控制法'], ['B', '投資報酬率分析法'], ['C', '項目預算法'], ['D', '管理審計']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺決策模式中，提出咗「最優決策準則」嘅係",
+    "llm_output": "B\nA. 集團決策模式\nB. 理性決策模式\nC. 精英決策模式\nD. 漸進決策模式\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '集團決策模式'], ['B', '理性決策模式'], ['C', '精英決策模式'], ['D', '漸進決策模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺人事職位分類中，工作性質、權力大小、責任輕重、所需資格條件、工作難易程度基本相同嘅一個職位序列稱為",
+    "llm_output": "A. 職等\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '職等'], ['B', '職級'], ['C', '職類'], ['D', '職系']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "影響管理系統生存同發展嘅一切要素嘅總和係",
+    "llm_output": "C\n參考: 管理學 (第 6 版) 第 1 章 管理与管理學\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '管理手段'], ['B', '管理方法'], ['C', '管理環境'], ['D', '管理道德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "職位係組織嘅構成要素之一。下列對職位特徵嘅描述，錯誤嘅一句係",
+    "llm_output": "C\n解析：\nC 项，“因人設崗”是岗位职责的制定原则，而不是职位的设立原则。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '職位嘅數量明確而具體'], ['B', '職位係以工作為中心設置嘅'], ['C', '職位設置體現因人設崗嘅原則'], ['D', '職位係依據目標設立嘅工作崗位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "首開管理定義先河嘅法約爾認為，管理就係實行",
+    "llm_output": "D\nA. 激勵、組織、指揮、協調同控制\nB. 領導、組織、指揮、協調同控制\nC. 決策、組織、指揮、協調同控制\nD. 計劃、組織、指揮、協調同控制\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '激勵、組織、指揮、協調同控制'], ['B', '領導、組織、指揮、協調同控制'], ['C', '決策、組織、指揮、協調同控制'], ['D', '計劃、組織、指揮、協調同控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "貫穿於管理過程嘅始終，係管理活動核心內容嘅係",
+    "llm_output": "B\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特客未经授權，不得翻唱或改寫转载。\n本篇文章內容",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '預測'], ['B', '領導'], ['C', '計劃'], ['D', '決策']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "按高標準行事，或喺競爭中取勝嘅願望屬於",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '關係需要'], ['B', '歸屬需要'], ['C', '權力需要'], ['D', '成就需要']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺管理思想史上，首次提出「非正式組織」概念嘅美國學者係",
+    "llm_output": "A\n巴納德（Chester I. Barnard），美国管理学家，提出了“非正式组织”的概念。\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '巴納德'], ['B', '戴維斯'], ['C', '卡斯特'], ['D', '德魯克']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔以過去嘅實際開支做標準，而係根據組織目前嘅需求同發展趨勢重新估量，通過對每項費用開支合理性嘅重新審定而做出預算嘅方法係",
+    "llm_output": "D\nA. 「總預算」法\nB. 項目預算法\nC. 傳統預算法\nD. 零基預算法\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「總預算」法'], ['B', '項目預算法'], ['C', '傳統預算法'], ['D', '零基預算法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會調查中，表明調查資料係基本可靠嘅信度系數應該喺",
+    "llm_output": "A\nA\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '0.8以上'], ['B', '0.6以上'], ['C', '0.2以上'], ['D', '0.4以上']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某公司通常由公司高層做出決策，普通職工好少參與。呢說明該公司採用嘅係",
+    "llm_output": "C\n本篇文章內容系由香港公开大學管理學系提供，任何机构或洛特人未经授權，不得擅自转载或复制。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '理性決策模式'], ['B', '集團決策模式'], ['C', '精英決策模式'], ['D', '漸進決策模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某縣圍繞發展經濟，召集有關專家開「神仙會」，暢所欲言、獻計獻策，以做出決策，呢種方法屬於",
+    "llm_output": "D\nA. 德爾菲法\nB. 模擬決策法\nC. 方案前提分析法\nD. 頭腦風暴法\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '德爾菲法'], ['B', '模擬決策法'], ['C', '方案前提分析法'], ['D', '頭腦風暴法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "採用函詢嘅方式諮詢專家嘅建議以做出決策嘅方法係",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '德爾菲法'], ['B', '方案前提分析法'], ['C', '頭腦風暴法'], ['D', '模擬決策法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "凡事要「因地制宜，因時制宜，靈活機動」，呢體現咗管理嘅",
+    "llm_output": "A\nA. 藝術性\nB. 科學性\nC. 社會屬性\nD. 自然屬性\nA\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '藝術性'], ['B', '科學性'], ['C', '社會屬性'], ['D', '自然屬性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "直線型組織結構一般只適應於",
+    "llm_output": "D\nA. 跨國企業\nB. 創新任務較高，生產經營多變嘅企業\nC. 大型企業\nD. 規模較細，生產技術同工藝過程比較簡單、產品單一嘅企業\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '跨國企業'], ['B', '創新任務較高，生產經營多變嘅企業'], ['C', '大型企業'], ['D', '規模較細，生產技術同工藝過程比較簡單、產品單一嘅企業']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "建立喺權威與服從關係基礎上，表現為一種權力支配關係嘅係",
+    "llm_output": "D\nA. 經濟手段\nB. 思想教育手段\nC. 法律手段\nD. 行政手段\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '經濟手段'], ['B', '思想教育手段'], ['C', '法律手段'], ['D', '行政手段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位領導高度關心生產同效率，而唔關心人。呢種領導方式喺管理方格中嘅位置為",
+    "llm_output": "A. (9，1)\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '(9，1)'], ['B', '(1，1)'], ['C', '(9，9)'], ['D', '(1，9)']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列對預測與決策關係嘅表述，唔正確嘅一句係",
+    "llm_output": "A\nA.決策係預測嘅前提條件，正確。\nB.預測貫穿於決策嘅全過程，正確。\nC.決策同預測關係密切，正確。\nD.預測係為決策服務嘅，正確。\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '決策係預測嘅前提條件'], ['B', '預測貫穿於決策嘅全過程'], ['C', '決策同預測關係密切'], ['D', '預測係為決策服務嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列管理職能中，具有主體廣泛性特點嘅係",
+    "llm_output": "C\n本篇文章內容来源於：\n《管理学》\n作者：\n彭志文\n出版社：\n高等教育出版社\n出版时间：\n2015-01-01\nISBN：\n9787040443985\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '協調'], ['B', '激勵'], ['C', '組織'], ['D', '計劃']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "作為管理嘅一項基本職能，控制主要體現喺",
+    "llm_output": "A\nA\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '執行過程'], ['B', '協調過程'], ['C', '激勵過程'], ['D', '預測過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理關係主要係指人哋喺管理活動過程中形成嘅一種不斷變化嘅",
+    "llm_output": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人同人嘅關係'], ['B', '人同物嘅關係'], ['C', '人同信息嘅關係'], ['D', '人同財嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "1965年我國開始應用同推廣網絡計劃方法，將其稱為",
+    "llm_output": "C\n甘特圖\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '統籌方法'], ['B', '蒙特卡羅法'], ['C', '甘特圖'], ['D', '泰勒制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "專門研究管理活動及其基本規律同一般方法嘅科學係",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '管理'], ['B', '現代管理學'], ['C', '管理思想'], ['D', '管理學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "根據系統嘅性質同特性，系統分析最基本同核心嘅原則應該係",
+    "llm_output": "B\nA. 要素原則\nB. 整體性原則\nC. 模型化原則\nD. 層次性原則\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '要素原則'], ['B', '整體性原則'], ['C', '模型化原則'], ['D', '層次性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位準備喺7月份上馬一個重大項目，該項目易受天氣狀況嘅影響，已知喺天氣好嘅狀況下上馬該項目將獲益70％，喺天氣唔好嘅情況下上馬該項目將虧損60％。根據以往氣象資料，可知天氣好與壞嘅概率各係50％。呢種決策屬於",
+    "llm_output": "A\n風險型決策\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '風險型決策'], ['B', '確定型決策'], ['C', '唔確定型決策'], ['D', '危機決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "霍桑實驗嘅主持人係",
+    "llm_output": "B\n霍桑實驗嘅主持人係梅奧。\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '亞當斯'], ['B', '梅奧'], ['C', '法約爾'], ['D', '沙因']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "領導方式理論認為，權力控制喺最高一級，但授予中下層部分權力，領導者同下屬之間形成一種「主僕般」嘅信任關係。呢種領導方式屬於",
+    "llm_output": "D\n点开图片查看答案解析\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '羣體參與式'], ['B', '協商式'], ['C', '專制-權威式'], ['D', '開明-權威式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "包含喺管理制度中嘅既定嘅控制程序被稱為",
+    "llm_output": "A. 常規控制\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '常規控制'], ['B', '間接控制'], ['C', '非常規控制'], ['D', '直接控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "三國時，劉備死後，佢嘅仔劉禪雖則無能，但仍然繼承咗帝位。依據科層組織理論，劉禪繼位嘅權威基礎係",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傳統權威'], ['B', '理性權威'], ['C', '超凡權威'], ['D', '自然權威']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "現代管理系統嘅第一資源係",
+    "llm_output": "C\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '財力資源'], ['B', '信息資源'], ['C', '人力資源'], ['D', '物力資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺財務管理中，支出管理嘅最基本內容係",
+    "llm_output": "A\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '管好用好經常性支出'], ['B', '管好用好全部支出'], ['C', '管好用好專項支出'], ['D', '管好用好特殊性支出']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "對於組織變革嘅目標描述唔正確嘅係",
+    "llm_output": "B\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '使員工更具環境適應性'], ['B', '使董事會更具環境適應性'], ['C', '使組織更具環境適應性'], ['D', '使管理者更具環境適應性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "為減少交通事故，保障司機安全，我國相關法律規定，司機駕車必須佩戴安全帶。呢種控制方式係",
+    "llm_output": "B\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '反饋控制'], ['B', '前饋控制'], ['C', '現場控制'], ['D', '隨機控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理科學係隨住工業嘅發展而逐步形成同發展起嚟嘅，一般認為，管理科學始於美國管理學家",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '梅奧'], ['B', '卡斯特'], ['C', '馬斯洛'], ['D', '泰勒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某一溝通主體同兩個以上嘅上級組織進行溝通，同時又同下級組織保持鏈式溝通嘅溝通方式，被形象噉稱為",
+    "llm_output": "B\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'Y式溝通'], ['B', '輪式溝通'], ['C', '環式溝通'], ['D', '全通道溝通']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔同嘅決策規則會導致唔同嘅結果，能夠達到「帕累託最優」嘅決策規則係",
+    "llm_output": "B\nA. 絕對多數規則\nB. 全體一致規則\nC. 相對多數規則\nD. 簡單多數規則\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '絕對多數規則'], ['B', '全體一致規則'], ['C', '相對多數規則'], ['D', '簡單多數規則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "與公共管理相比較，私人管理嘅重要特點係",
+    "llm_output": "A\nA\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '享有較充分嘅自主權利'], ['B', '管理過程充滿政治氣氛'], ['C', '受制於周密嘅政治安排'], ['D', '強調開放性與透明性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "2008年9月8日，山西襄汾發生特大尾礦潰壩事故，事後山西省長引咎辭職，一副省長被免職。呢度應用嘅控制方法係",
+    "llm_output": "B\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '內部審計法'], ['B', '人員管理控制法'], ['C', '現場觀察法'], ['D', '前饋控制法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺決策體制中，主要承擔發現決策問題、提供決策預測研究以及參與決策方案設計、評估同論證任務嘅係",
+    "llm_output": "C\nA. 決策執行系統主要负责將決策方案轉化為具体行动，並督导其实現。\nB. 決策中樞系統主要负责统筹和管理決策過程，並督导決策方案的实施。\nD. 決策監控系統主要负责監控決策過程，並督导決策方案的实施。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '決策執行系統'], ['B', '決策中樞系統'], ['C', '決策諮詢系統'], ['D', '決策監控系統']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗避免循環現象造成永遠達唔到終點嘅結果，網絡圖中唔能出現嘅係",
+    "llm_output": "B\nA. 代號\nB. 迴路\nC. 子系統\nD. 暗橋\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '代號'], ['B', '迴路'], ['C', '子系統'], ['D', '暗橋']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "因考評對象嘅某一特徵、品質或行為表現異常鮮明、突出，從而淡化以至掩蓋咗其他方面嘅表現，由此形成嘅考評偏差稱為",
+    "llm_output": "B\nA. 集中趨勢偏差\nB. 暈輪效應偏差\nC. 刻板印象偏差\nD. 主觀好惡偏差\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '集中趨勢偏差'], ['B', '暈輪效應偏差'], ['C', '刻板印象偏差'], ['D', '主觀好惡偏差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "確定達到組織目標所採取嘅程序、途徑、手段同措施嘅決策係",
+    "llm_output": "C\nA. 戰略決策\nB. 常規決策\nC. 戰術決策\nD. 非常規決策\nC\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '戰略決策'], ['B', '常規決策'], ['C', '戰術決策'], ['D', '非常規決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "傳統人事管理向當代人力資源管理過渡或轉折嘅重要原因係",
+    "llm_output": "A\nA. 人際關係運動嘅興起\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人際關係運動嘅興起'], ['B', '計件工資制嘅實施'], ['C', '員工崗前培訓嘅實行'], ['D', '人事檔案嘅管理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理者喺出席社區嘅集會或參加社會活動時，所行使嘅係",
+    "llm_output": "C\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '聯絡者'], ['B', '談判者'], ['C', '發言人'], ['D', '代表人']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "矩陣制組織結構模式嘅突出特點係",
+    "llm_output": "C\nA. 增強咗組織嘅靈活性\nB. 機構簡單、責任明確\nD. 實現咗管理嘅專業化\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '增強咗組織嘅靈活性'], ['B', '機構簡單、責任明確'], ['C', '單一領導、權力集中'], ['D', '實現咗管理嘅專業化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於控制與計劃關係嘅表述，正確嘅係",
+    "llm_output": "A\nA. 控制為計劃提供標準\nB. 計劃嘅科學性取決於控制\nC. 控制係計劃嘅前提\nD. 控制係計劃嘅繼續\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '控制為計劃提供標準'], ['B', '計劃嘅科學性取決於控制'], ['C', '控制係計劃嘅前提'], ['D', '控制係計劃嘅繼續']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "一個由9人組成嘅決策羣體對A、B、C方案進行投票，結果為：A方案4票，B方案3票，C方案2票，最後A方案勝出。呢說明該決策羣體採用嘅係",
+    "llm_output": "C\nA. 全體一致規則：决策者對决策方案一致通過。\nB. 絕對多數規則：决策者對决策方案大多数通過。\nC. 簡單多數規則：决策者對决策方案大多数通過。\nD. 過半數規則：决策者對决策方案大多数通過。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全體一致規則'], ['B', '絕對多數規則'], ['C', '簡單多數規則'], ['D', '過半數規則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "人事考評中，由於時間同心理因素而引起嘅考評誤差，稱為",
+    "llm_output": "D\nA. 暈輪效應偏差\nB. 近因效應偏差\nC. 刻板印象偏差\nD. 主觀好惡偏差\nD\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '暈輪效應偏差'], ['B', '近因效應偏差'], ['C', '刻板印象偏差'], ['D', '主觀好惡偏差']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "根據經濟人假設理論，領導者喺管理中要採取嘅管理方式係",
+    "llm_output": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '按照唔同人嘅情況採取唔同嘅管理方式'], ['B', '重視非正式組織嘅存在'], ['C', '實行嚴密嘅組織控制'], ['D', '畀下屬提供更多嘅自我實現嘅機會']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "把組織目標分解為項目，按規劃嘅項目進行分階段撥款嘅預算控制方法係",
+    "llm_output": "A\nA. 項目預算\nB. 投資預算\nC. 經營預算\nD. 零基預算\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '項目預算'], ['B', '投資預算'], ['C', '經營預算'], ['D', '零基預算']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "人類嘅實踐活動都有明確嘅目標，而且人哋喺實踐過程中圍繞實現目標常常對自己嘅行為作出調整或抉擇。呢個說明人力資源具有",
+    "llm_output": "C\n来源：\n《管理學》（第2版），高等教育出版社，2015年，第8页。\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '生產與消費屬性'], ['B', '時效性'], ['C', '能動性'], ['D', '可持續開發屬性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "赫茨伯格認為，提高勞動生產效率嘅關鍵喺於",
+    "llm_output": "D\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '加強監督管理'], ['B', '提高工資水平'], ['C', '提高技術能力'], ['D', '使工作豐富化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "提出實現自我超越，改善心智模式等五項修煉嘅係",
+    "llm_output": "D\nA. 科層組織理論\nB. 組織生命週期理論\nC. 組織平衡理論\nD. 學習型組織理論\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '科層組織理論'], ['B', '組織生命週期理論'], ['C', '組織平衡理論'], ['D', '學習型組織理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位領導認為人係勤奮嘅，喺管理上主張啟發內因，發揮人嘅主觀能動性，實行自我控制。這說明該單位領導運用嘅係",
+    "llm_output": "C\nA. X理論\nB. 科學管理理論\nD. 經濟人假設理論\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'X理論'], ['B', '科學管理理論'], ['C', 'Y理論'], ['D', '經濟人假設理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "反映社會進步或社會發展嘅指標係",
+    "llm_output": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '主觀性指標'], ['B', '中性指標'], ['C', '肯定性指標'], ['D', '自變量指標']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "把人看成天生懶惰、厭惡工作，缺乏進取心，主張採取強制、監督、懲罰嘅方法進行管理，這種理論被稱為",
+    "llm_output": "C\nX理論\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'Y理論'], ['B', 'Z理論'], ['C', 'X理論'], ['D', '超Y理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「管理，就係實行計劃、組織、指揮、協調和控制」嘅管理學家係",
+    "llm_output": "A\nA. 法約爾\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '法約爾'], ['B', '西蒙'], ['C', '巴納德'], ['D', '孔茨']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "小趙一貫表現良好，最近又完成了一項技術發明，李主任及時喺車間大會上給予表揚和獎勵。這一強化手段屬於",
+    "llm_output": "C\n本篇文章內容来源於：\n《管理学》\n作者：\n彭麻麻\n出版社：\n高等教育出版社\n出版時間：\n2017-01-01\nISBN：\n9787040482799\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '消極強化'], ['B', '懲罰'], ['C', '積極強化'], ['D', '消退']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "首開管理定義先河嘅法約爾認為，管理就係實行",
+    "llm_output": "C\nA. 決策、組織、激勵、領導和溝通\nB. 決策、組織、激勵、領導和控制\nC. 計劃、組織、指揮、協調和控制\nD. 計劃、溝通、指揮、協調和控制\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '決策、組織、激勵、領導和溝通'], ['B', '決策、組織、激勵、領導和控制'], ['C', '計劃、組織、指揮、協調和控制'], ['D', '計劃、溝通、指揮、協調和控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "按照主管人員與控制對象嘅關係，控制可以分為",
+    "llm_output": "C\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '生產控制和質量控制'], ['B', '復合控制和動態控制'], ['C', '間接控制和直接控制'], ['D', '成本控制和資金控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2-7b-turbomind",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列選項中不屬於目標成果評價內容嘅係",
+    "llm_output": "A\nA 目标实施手段不属于目标成果评价的内容。\n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '目標實施手段'], ['B', '目標狀況'], ['C', '工作態度'], ['D', '目標評價主體']]",
+    "is_correct": 0
+  }
+]

@@ -1,0 +1,1222 @@
+[
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺二分類問題中，當測試集嘅正例同負例數量唔均衡時，以下評價方案邊個係相對唔合理嘅（假設precision=TP/(TP+FP)，recall=TP/(TP+FN)。）",
+    "llm_output": "C. 準確性：(TP+TN)/all",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'F-值：2recall*precision/(recall+precision)'], ['B', 'G-mean：sqrt(precision*recall)'], ['C', '準確性：(TP+TN)/all'], ['D', 'AUC：ROC曲線下面積']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "深度學習中遇見過擬合下列邊個處理辦法唔可取",
+    "llm_output": "正確答案：B. 加深層數\n\n解釋：在深度學習中，過擬合（overfitting）是指模型在訓練數據上表現良好，但在測試數據上表現不佳的情況。加深層數（B選項）通常會增加模型的複雜度，這可能導致模型在訓練數據上過擬合，因為它學會了訓練數據中的噪聲而不是泛化能力。\n\n其他選項：\nA. 加dropout層 - 這是一種常見的正則化技術，可以隨機丟棄一些神經元，從而減少過擬合。\nC. 數據增強 - 通過對訓練數據進行轉換（如旋轉、縮放、平移等），可以增加數據的多樣性，從而幫助模型更好地泛化。\nD. 加正則項 - 正則化技術（如L1、L2正則化）可以限制模型權重的大小，從而減少過擬合。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '加dropout層'], ['B', '加深層數'], ['C', '數據增強'], ['D', '加正則項']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假設我哋有一個數據集，喺一個深度為 6 嘅決策樹嘅幫助下，佢可以使用 100% 嘅精確度被訓練。依家考慮一下兩點，並基於呢兩點揀正確嘅選項。1.深度為 4 時將有高偏差同低方差；2.深度為 4 時將有低偏差同低方差。注意：所有其他超參數係相同嘅，所有其他因子唔受影響。",
+    "llm_output": "正確答案係 D。\n\n解釋：\n1. 深度為 4 時將有高偏差同低方差。\n   - 深度為 4 嘅決策樹，即係話佢嘅樹形結構唔夠複雜，所以佢會有較高嘅偏差，即係話佢會錯誤地將數據集嘅真實模式簡化，而忽略了一些細節。但同時，由於樹嘅深度小，佢嘅模型會比較穩定，即係話佢嘅方差會比較低。\n\n2. 深度為 4 時將有低偏差同低方差。\n   - 這個選項描述嘅情況唔符合深度為 4 嘅決策樹嘅特點。深度為 4 嘅樹形結構，由於深度小，佢嘅模型會比較穩定，即係話佢嘅方差會比較低。但同時，由於樹嘅深度小，佢會錯誤地將數據集嘅真實模式簡化，而忽略了一些細節，即係話佢會有較高嘅偏差。\n\n所以，正確答案係 D，即係話深度為 4 時將有高偏差同低方差。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1 同 2'], ['B', '淨係 2'], ['C', '冇一個'], ['D', '淨係 1']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊啲方法唔可以用嚟對高維數據進行降維",
+    "llm_output": "正確答案：B. Bagging\n\n解釋：\n- A. LASSO (Least Absolute Shrinkage and Selection Operator) 是一種正則化技術，可以通過縮小某些係數來進行降維。\n- C. 主成分分析法 (Principal Component Analysis, PCA) 是一種常用的降維技術，可以通過找到數據的主要變異量來進行降維。\n- D. 聚類分析 (Clustering) 是一種將數據點分成不同群組的技術，但本身不直接進行降維。\n\n而 Bagging (Bootstrap Aggregating) 是一種集成學習技術，通過重複抽樣和建立多個模型來提高模型的穩定性和準確性，但並不能直接對高維數據進行降維。因此，正確答案是 B. Bagging。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'LASSO'], ['B', 'Bagging'], ['C', '主成分分析法'], ['D', '聚類分析']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "機器學習中L1正則化同L2正則化嘅區別係",
+    "llm_output": "C. 使用L1可以得到稀疏嘅權值、使用L2可以得到平滑嘅權值",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '使用L1可以得到稀疏、平滑嘅權值'], ['B', '使用L2可以得到稀疏、平滑嘅權值'], ['C', '使用L1可以得到稀疏嘅權值、使用L2可以得到平滑嘅權值'], ['D', '使用L2可以得到稀疏嘅權值、使用L1可以得到平滑嘅權值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於隱馬模型同條件隨機場模型嘅講法中錯誤嘅係?",
+    "llm_output": "正確答案係 C。隱馬爾可夫模型（Hidden Markov Model, HMM）係一種概率無向圖模型，而條件隨机场等模型（Conditional Random Field, CRF）則不是。其他選項描述嘅內容均係正確嘅。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '隱馬模型同隱馬模型隱可用於命名實體識別、分詞同詞性標注嘅任務'], ['B', '隱馬模型同隱馬模型都係生成模型'], ['C', '隱馬模型唔係概率無向圖模型'], ['D', '特徵嘅揀同優化會嚴重影響隱馬模型嘅結果']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個/啲超參數嘅增加可能會造成隨機森林數據過擬合",
+    "llm_output": "C. 樹嘅深度\n\n隨機森林中，樹的深度增加可能會導致模型過擬合，因為樹越深，它能夠捕捉到的訓練數據中的細微特徵就越多，從而可能會過擬合訓練數據，而無法很好地泛化到新的數據上。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '學習速率'], ['B', '樹嘅數量'], ['C', '樹嘅深度'], ['D', '以上都唔係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於迭代二叉樹3代算法中講法錯誤嘅係",
+    "llm_output": "C",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '迭代二叉樹3代算法係一個二叉樹模型'], ['B', '信息增益可以用熵，而唔係GINI系數嚟計算'], ['C', '迭代二叉樹3代算法要求特徵必須離散化'], ['D', '揀信息增益最大嘅特徵，作為樹嘅根節點']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個/啲選項對 K 摺交叉驗證嘅描述係正確嘅",
+    "llm_output": "正確答案係 C. 以上都係。\n\nA 選項描述留一交叉驗證，當 K 等於樣本數量 N 時，確實稱為留一交叉驗證，但此選項僅描述了留一交叉驗證，而未涵蓋其他 K 值的情況。\n\nB 選項提到更大嘅 K 值相比於細 K 值將對交叉驗證結構有更高嘅信心。這描述是錯誤的，因為 K 值越大，每次分割後用於訓練和驗證的數據量就越少，這可能會導致更不穩定和不可靠的結果。\n\nD 選項提到增加 K 將導致交叉驗證結果時需要更多嘅時間。這描述是正確的，因為 K 值越大，需要進行更多的分割和驗證，因此需要更多的計算時間。\n\n因此，C 選項是正確的，因為它包含了所有正確的描述。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '如果 K=N，噉其稱為留一交叉驗證，其中 N 為驗證集入面嘅樣本數量'], ['B', '更大嘅 K 值相比於細 K 值將對交叉驗證結構有更高嘅信心'], ['C', '以上都係'], ['D', '增加 K 將導致交叉驗證結果時需要更多嘅時間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "已知有m個樣本，進行n（n<=m）次抽樣。bootstrap數據係咩意思？",
+    "llm_output": "正確答案係C。Bootstrap數據指的是有放返地下總共m個樣本中抽樣n個樣本。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無放返地下總共N個樣本中抽樣n個樣本'], ['B', '無放返地下總共M個特徵中抽樣m個特徵'], ['C', '有放返地下總共N個樣本中抽樣n個樣本'], ['D', '有放返地下總共M個特徵中抽樣m個特徵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "如果以特徵向量嘅相關系數作為模式相似性測度，則影響聚類算法結果嘅主要因素有",
+    "llm_output": "A",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '量綱'], ['B', '已知類別樣本質量'], ['C', '以上都唔係'], ['D', '分類準則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "模型訓練過程中，我哋一般將數據分成",
+    "llm_output": "C. 訓練集\n\n在機器學習的模型訓練過程中，我們通常將數據分成三部分：訓練集、驗證集和測試集。訓練集是模型學習的資料，驗證集用來調整模型參數和防止過擬合，而測試集則用來評估模型在未見過的資料上的性能。因此，正確答案是C. 訓練集。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '驗證集'], ['B', '測試集'], ['C', '訓練集'], ['D', '其他選項均可']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "你正在使用帶有 L1 正則化嘅 logistic 回歸做二分類，其中 C 係正則化參數，w1 同 w2 係 x1 同 x2 嘅系數。當你把 C 值由 0 增加至非常大嘅值時，下面邊個選項係正確嘅",
+    "llm_output": "正確答案係 A。當你增加 L1 正則化參數 C 的值時，正則化項會變得更加強大，這會導致模型中的權重參數（即 w1 同 w2）向零靠近。由於 L1 正則化會將權重參數縮小至零，並且會選擇性地將某些權重參數縮小至零，從而實現特徵選擇的效果。因此，當 C 值由 0 增加至非常大時，最先有機會縮小至零的權重參數是那些對分類貢獻較小的參數。在這種情況下，最先縮小至零的通常是那些對分類貢獻較小的參數，也就是最先變成 0 的參數。接著，其他參數也會逐漸縮小，直到它們也變成 0。因此，選項 A 描述的過程是正確的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '第一個 w1 成咗 0，接住 w2 都成咗 0'], ['B', 'w1 同 w2 同時成咗 0'], ['C', '第一個 w2 成咗 0，接住 w1 都成咗 0'], ['D', '即使喺 C 成為大值之後，w1 同 w2 都唔能成 0']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列方法中，唔可以用於特徵降維嘅方法包括",
+    "llm_output": "正確答案係C。\n\n深度學習SparseAutoEncoder（A）、矩陣奇異值分解SVD（B）、主成分分析（D）均係常用嘅特徵降維方法，但線性判別分析（Linear Discriminant Analysis）主要係一種分類方法，唔可以用於特徵降維。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '深度學習SparseAutoEncoder'], ['B', '矩陣奇異值分解SVD'], ['C', '線性判別分析'], ['D', '主成分分析']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "貝葉斯定理求得係咩概率?",
+    "llm_output": "正確答案係C. 條件概率。\n\n貝葉斯定理，又稱為貝葉斯定律或貝葉斯推理，是統計學和機器學習中常用嘅一個定理。它可以用來更新先驗概率，以得到後驗概率，即在考慮到某些新信息後，某事件發生嘅概率。\n\n貝葉斯定理公式如下：\n\nP(A|B) = P(B|A) * P(A) / P(B)\n\n其中，P(A|B) 表示在事件B發生嘅條件下，事件A發生嘅概率，即條件概率。P(B|A) 表示在事件A發生嘅條件下，事件B發生嘅概率。P(A) 和 P(B) 分別表示事件A和事件B嘅先驗概率。\n\n因此，貝葉斯定理求得嘅係條件概率，即在考慮到某些新信息後，某事件發生嘅概率。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '先驗概率'], ['B', '其他選項都唔係'], ['C', '條件概率'], ['D', '聯合概率']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺機器學習中，解釋學習器泛化性能中經常用到偏差-方差分解，下列講法唔正確嘅係",
+    "llm_output": "選項D不正確。\n\n在機器學習中，偏差（Bias）和方差（Variance）是衡量學習器泛化性能的兩個關鍵指標。偏差指的是模型預測值與真實值之間的平均差距，體現了模型對數據本質的捕捉能力，即模型的準確度。方差則是指模型預測值在不同數據集上的變異程度，體現了模型對數據噪聲的敏感度，即預測的穩定性。\n\n選項A說明了方差體現的是學習器預測的穩定性，這是正確的。\n選項B說明了偏差體現的是學習器預測的準確度，這也是正確的。\n選項C說明了泛化性能是由學習算法的能力、數據的充分性以及學習任務本身的難度所共同決定的，這也是正確的。\n\n選項D中提到的“方差指嘅係預測嘅期望值同真實值嘅偏差”是不正確的。方差描述的是預測值之間的變異程度，而不是預測值與真實值之間的偏差。預測值與真實值之間的偏差通常用偏差來衡量。\n\n因此，正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '方差體現嘅係學習器預測嘅穩定性'], ['B', '偏差體現嘅係學習器預測嘅準確度'], ['C', '泛化性能係由學習算法嘅能力、數據嘅充分性以及學習任務本身嘅難度所共同決定嘅'], ['D', '方差指嘅係預測嘅期望值同真實值嘅偏差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假如你用logistic Regression 算法去預測電腦銷量，當你喺新嘅測試集上驗證你嘅假設時，發現預測值有好大嘅偏差，並且你嘅假設喺訓練集上表現都好差，下面啲步驟你應該避免採納",
+    "llm_output": "正確答案：D。\n\n解釋：當你發現預測值有偏差，且假設在訓練集上表現也差，這表示你嘅模型可能存在過擬合（overfitting）問題。過擬合通常發生在模型太複雜或訓練數據太少的情況下。\n\nA選項嘗試減少正則項，這可能會幫助減少過擬合，因為正則項（如L1或L2正則化）有助於控制模型的複雜度，避免過擬合。\n\nB選項嘗試增加交叉特徵，這可能會增加模型的複雜度，但同時也可能幫助提高模型的泛化能力，從而改善預測性能。\n\nC選項增加樣本量，這通常有助於減少過擬合，因為更多的數據可以幫助模型更好地學習數據的一般模式，而不是學習訓練數據中的噪聲。\n\nD選項嘗試更細嘅測試集或者特徵，這可能會導致模型在測試集上表現更差，因為更少或更不具代表性的測試數據可能無法充分驗證模型的泛化能力。此外，使用更少或更不具代表性的特徵可能會導致模型無法捕捉到數據中的重要模式，進一步影響預測性能。因此，D選項不是解決過擬合問題的合適步驟。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '嘗試住減細正則項 λ'], ['B', '嘗試增加交叉特徵'], ['C', '增加樣本量'], ['D', '嘗試更細嘅測試集或者特徵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以P(w)表示詞條w嘅概率，假設已知P（南京）=0.8，P（市長）=0.6，P（江大橋）=0.4：P（南京市）=0.3，P（長江大橋）=0.5：如果假設前後兩個詞嘅出現係獨立嘅，噉分詞結果就係",
+    "llm_output": "正確答案係D。\n\n解析：\n假設前後兩個詞嘅出現係獨立嘅，即有：\nP(南京 市長 江大橋) = P(南京) * P(市長) * P(江大橋)\n\n代入已知概率值：\nP(南京 市長 江大橋) = 0.8 * 0.6 * 0.4 = 0.192\n\n而其他選項的概率計算如下：\nA. P(南京_市長_江大橋) = P(南京) * P(市長) * P(江大橋) = 0.192\nB. P(南京市_長江_大橋) = P(南京市) * P(長江大橋) = 0.3 * 0.5 = 0.15\nC. P(南京市長_江大橋) = P(南京市) * P(長江大橋) = 0.3 * 0.5 = 0.15\nD. P(南京市_長江大橋) = P(南京市) * P(長江大橋) = 0.3 * 0.5 = 0.15\n\n由上可知，選項D的概率最大，即最有可能出現的分詞結果。因此，正確答案是D。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '南京_市長_江大橋'], ['B', '南京市_長江_大橋'], ['C', '南京市長_江大橋'], ['D', '南京市_長江大橋']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "對數幾率回歸（logistics regression）同一般回歸分析有咩區別",
+    "llm_output": "正確答案係：\n\nC. 以上都係\n\n對數幾率回歸（logistic regression）同一般回歸分析嘅主要區別在於其預測目標變量（dependent variable）取值為二元（0/1）或分類（categorical）。一般回歸分析通常用於預測連續型（continuous）的目標變量。\n\nA選項描述了对数几率回归的用途，即預測事件發生或不發生（二元分類）的機率，這確實是對數幾率回歸的主要應用之一。\n\nB選項提到可以用對數幾率回歸估計回歸系數，這是正確的，因為對數幾率回歸仍然基於線性回歸的原理，只是將回歸模型轉換為對數几率形式。\n\nD選項提到可以用對數幾率回歸度量模型擬合程度，這也是正確的，因為對數幾率回歸通常使用似然比（likelihood ratio）來評估模型擬合的優劣。\n\n因此，C選項“以上都係”是正確答案，因為所有選項都描述了對數幾率回歸與一般回歸分析之間的主要區別。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '對數幾率回歸係設計用嚟預測事件可能性嘅'], ['B', '對數幾率回歸可以用嚟估計回歸系數'], ['C', '以上都係'], ['D', '對數幾率回歸可以用嚟度量模型擬合程度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面啲對「類型 1（Type-1）」同「類型 2（Type-2）」錯誤嘅描述係錯誤嘅",
+    "llm_output": "正確答案係 A。\n\n類型 1（Type-1）錯誤通常發生在其實際上應該被接受的情況下，模型錯誤地拒絕了假設。例如，在醫學診斷中，如果一個病人確實有病，但模型錯誤地認為病人沒有病，這就是類型 1 錯誤。\n\n類型 2（Type-2）錯誤則發生在其實際上應該被拒絕的情況下，模型錯誤地接受了假設。例如，在醫學診斷中，如果一個病人實際上沒有病，但模型錯誤地認為病人有病，這就是類型 2 錯誤。\n\nB 選項描述錯誤，因為類型 1 通常不是假正類，而是假負類；類型 2 通常也不是假負類，而是假正類。\n\nC 選項描述錯誤，因為 B 選項描述錯誤。\n\nD 選項描述錯誤，因為類型 1 通常不是假正類，而是假負類；類型 2 通常也不是假正類，而是假負類。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '類型 1 錯誤通常喺其係正確嘅情況下拒絕假設而出現'], ['B', '類型 1 通常稱之為假正類，類型 2 通常稱之為假負類'], ['C', '以上都係'], ['D', '類型 2 通常稱之為假正類，類型 1 通常稱之為假負類']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "影響基本K-均值算法嘅主要因素有",
+    "llm_output": "正確答案係A。K-均值算法嘅主要因素包括初始類中心嘅選擇，因為算法會依賴這些初始值來進行聚類。其他選項如聚類準則、樣本輸入順序和模式相似性測度，雖然對聚類結果有一定影響，但並不是K-均值算法的主要因素。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '初始類中心嘅揀'], ['B', '聚類準則'], ['C', '樣本輸入順序'], ['D', '模式相似性測度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "高斯混合模型(GMM)係一種咩模型",
+    "llm_output": "高斯混合模型（GMM）是一種無監督學習模型。因此，正確答案是：\n\nA. 無監督學習模型",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '無監督學習模型'], ['B', '其他選項都唔係'], ['C', '半監督學習模型'], ['D', '有監督學習模型']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "基於語法規則嘅方法為",
+    "llm_output": "正確答案係 C. 句法、語義分析。\n\n基於語法規則的方法通常涉及對句子結構的分析和理解，這通常需要考慮句法結構和語義信息。而其他選項如條件隨机场等是基於統計的模型，而最大熵模型和最大熵隱馬爾科夫模型則通常用於處理序列數據，如自然語言處理中的詞序列。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '條件隨機場'], ['B', '最大熵模型'], ['C', '句法、語義分析'], ['D', '最大熵隱馬爾科夫模型']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "有兩個樣本點，第一個點為正樣本,佢嘅特徵向量係(0,-1);第二個點為負樣本,佢嘅特徵向量係(2,3),從呢兩個樣本點組成嘅訓練集構建一個線性SVM分類器嘅分類面方程係",
+    "llm_output": "正確答案係D。\n\n解析：\n首先，我們需要找到由兩個樣本點(0,-1)和(2,3)構成的直線。直線方程可以通過兩點式來求解。\n\n假設直線方程係 y = kx + b，其中k為直線斜率，b為截距。\n\n將兩個樣本點代入直線方程中，得到兩個方程式：\n1. -1 = k * 0 + b => b = -1\n2. 3 = k * 2 + b\n\n將b的值代入第2個方程式中，解得k的值：\n3 = 2k - 1 => 2k = 4 => k = 2\n\n因此，直線方程為 y = 2x - 1。\n\n但是，我們需要將直線方程轉換為標準形式 ax + by + c = 0。將y = 2x - 1轉換，得到：\n2x - y - 1 = 0\n\n這就是分類面方程。比較選項，只有D選項2x + y = 4與此方程等價（只需將方程两边同乘以-1）。\n\n因此，正確答案是D。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '2x-y=0'], ['B', 'x+2y=5'], ['C', 'x+2y=3'], ['D', '2x+y=4']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "隱馬爾科夫模型，設其觀察值空間為 狀態空間為 如果用維特比算法(Viterbi algorithm)進行解碼，時間複雜度為",
+    "llm_output": "正確答案係 A. O(NK)。\n\n維特比算法是一種動態規劃算法，用於解決隱馬爾科夫模型（HMM）的解碼問題。時間複雜度主要取決於觀察值序列的長度 N，狀態空間的大小 K，以及狀態序列的長度 K。維特比算法的主要時間複雜度為 O(NK)，其中 N 是觀察值序列的長度，K 是狀態空間的大小。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'O(NK)'], ['B', 'O(N^2K)'], ['C', '以上都唔係'], ['D', 'O(NK^2)']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假定你使用咗一個好大γ值嘅RBF核，呢個意味住：",
+    "llm_output": "正確答案係D。使用大γ值嘅RBF核意味住模型將考慮使用遠離超平面嘅點建模。γ值越大，RBF核的影響範圍越小，即模型會更專注於靠近超平面嘅點。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '模型唔會被點到超平面嘅距離所影響'], ['B', '以上都唔係'], ['C', '模型僅使用接近超平面嘅點嚟建模'], ['D', '模型將考慮使用遠離超平面嘅點建模']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "關於 ARMA (auto regressive moving average model)（自回歸滑動平均模型）、 AR (auto regressive model)（自回歸模型）、 MA（滑動平均模型） 模型嘅功率譜，下列講法正確嘅係",
+    "llm_output": "正確答案係 B。\n\nMA模型（滑動平均模型）可以視作一個全通濾波器，因為它不會對頻譜進行任何增強或衰減，只是將輸入數據的過去值進行加權平均。\n\nA選項描述的是AR模型（自回歸模型）的功率譜特性，當AR模型喺零點接近單位圓時，其功率譜會出現尖峯，但這不是MA模型的特性。\n\nC選項描述的是MA模型在極點接近單位圓時的功率譜特性，MA模型在極點接近單位圓時，其功率譜會出現深谷，但這不是MA模型的普遍特性，而是特定MA模型結構的結果。\n\nD選項描述的是ARMA模型的功率譜特性，ARMA模型結合了AR和MA模型的特性，因此其功率譜既可能有尖峯也有可能出現深谷，但這不是MA模型的特性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'AR模型喺零點接近單位圓時，AR譜係一個尖峯'], ['B', 'MA模型係同一個全通濾波器產生嘅'], ['C', 'MA模型喺極點接近單位圓時，MA譜係一個深谷'], ['D', 'RMA譜既有尖峯又有深谷']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "變量揀係用嚟揀最好嘅判別器子集，如果要考慮模型效率，我哋應該做除咗下列邊項嘅變量揀嘅考慮",
+    "llm_output": "正確答案係 D。\n\n在機器學習中，變量揀嘅目的是找出能夠最好地區分不同類別或預測目標變量嘅變量子集。考慮模型效率時，我們通常會考慮以下因素：\n\nA. 交叉驗證 - 交叉驗證是一種評估模型性能嘅技術，它能夠幫助我們了解模型在新數據上嘅泛化能力。因此，交叉驗證是變量揀時應該考慮嘅因素。\n\nB. 變量對於模型嘅解釋有幾大作用 - 變量揀時，我們通常會考慮變量對於模型預測能力嘅貢獻，以及變量之間嘅相關性。因此，變量對於模型嘅解釋作用也是應該考慮嘅因素。\n\nC. 特徵攜帶嘅信息 - 特徵携帶嘅信息是指特徵能夠提供嘅關於目標變量嘅信息量。在變量揀時，我們通常會考慮特徵携帶嘅信息量，因為這會影響到模型嘅性能。\n\nD. 多個變量其實有相同嘅用處 - 如果多個變量之間有高度相關性，那麼它們可能會互相競爭，導致模型難以準確地識別每個變量對預測的貢獻。因此，在考慮模型效率時，應該避免選擇有相同用處的變量。\n\n總結，如果要考慮模型效率，我們應該避免選擇有相同用處的變量，即選項 D。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '交叉驗證'], ['B', '變量對於模型嘅解釋有幾大作用'], ['C', '特徵攜帶嘅信息'], ['D', '多個變量其實有相同嘅用處']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列時間序列模型中,邊一個模型可以較好地擬合波動性嘅分析同預測",
+    "llm_output": "正確答案：D. 廣義自回歸滑動平均模型 (Generalized Autoregressive Conditional Heteroskedasticity, GARCH) 模型。\n\nGARCH 模型能夠更好地擬合波動性，因為它能夠捕捉到波動性本身隨時間變化的特性，即波動性可能會隨著時間而增強或減弱。GARCH 模型通過考慮波動性（即標準差）的過去值來預測未來波動性，並且可以考慮到波動性與先前的波動性之間的關係。\n\n相比之下，AR模型僅考慮到變量的過去值，而滑動平均模型則僅考慮到波動性的過去平均值。這些模型可能無法充分捕捉波動性隨時間變化的複雜性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'auto regressive model AR模型'], ['B', '自回歸滑動平均模型'], ['C', '滑動平均模型'], ['D', '廣義自回歸滑動平均模型']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "當我哋構造線性模型時, 我哋注意變量間嘅相關性. 喺相關矩陣中搜索相關系數時, 如果我哋發現3對變量嘅相關系數係(Var1 同Var2, Var2同Var3, Var3同Var1)係-0.98, 0.45, 1.23 . 我哋可以得出咩結論",
+    "llm_output": "D. Var3同Var1嘅1.23相關系數係唔可能嘅\n\n在相關矩陣中，相關係數的範圍介乎-1到1之間。相關係數為1表示完全正相關，為-1表示完全負相關，而0表示沒有相關性。因此，相關係數1.23是不可能的，因為它超出了範圍。其他選項中的相關性描述可能是合理的，但根據提供的信息，只有選項D是正確的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上都係'], ['B', '因為Var1同Var2係非常相關嘅, 我哋可以去除其中一個'], ['C', 'Var1同Var2係非常相關嘅'], ['D', 'Var3同Var1嘅1.23相關系數係唔可能嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "機器學習中做特徵選擇時，可能用到嘅方法有",
+    "llm_output": "A. 以上都有\n\n在機器學習中，特徵選擇是一個重要的步驟，目的是從原始數據中選擇出對模型預測能力有幫助的特徵，以提高模型的準確性和泛化能力。以下是一些常見的特徵選擇方法：\n\n- 卡方（Chi-square）：用於分類問題，衡量特徵與目標變量之間的相關性。\n- 信息增益（Information Gain）：也是用於分類問題，衡量使用某個特徵分割數據集後信息量的增長。\n- 期望交叉熵（Expected Cross-Entropy）：用於分類問題，衡量模型預測的準確性。\n\n因此，機器學習中做特徵選擇時，可能用到的方法包括卡方、信息增益和期望交叉熵，所以正確答案是 A. 以上都有。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上都有'], ['B', '卡方'], ['C', '信息增益'], ['D', '期望交叉熵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "LSTM同GRU嘅一個主要區別喺於GRU將LSTM嘅邊幾個gate融合咗",
+    "llm_output": "A",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'forget gate同input gate'], ['B', 'input gate同output gate'], ['C', 'forget gate同output gate'], ['D', 'output gate同reset gate']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "符號集 a 、 b 、 c 、 d ，佢哋相互獨立，相應概率為 1/2 、 1/4 、 1/8 、 1/16 ，其中包含信息量最少嘅符號係",
+    "llm_output": "選項 A 是正確答案。\n\n在機器學習中，信息量通常用對數來衡量，具體來說，一個符號的信息量可以用對數來表示，即 $-\\log_2 P(x)$，其中 $P(x)$ 是該符號出現的概率。\n\n根據問題中給定的概率，我們可以計算每個符號的信息量：\n\n- 符號 a 的信息量：$-\\log_2 \\frac{1}{2} = -(-1) = 1$\n- 符號 b 的信息量：$-\\log_2 \\frac{1}{4} = -(-2) = 2$\n- 符號 c 的信息量：$-\\log_2 \\frac{1}{8} = -(-3) = 3$\n- 符號 d 的信息量：$-\\log_2 \\frac{1}{16} = -(-4) = 4$\n\n從這些計算中可以看出，符號 a 的信息量最少，因此正確答案是 A。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'd'], ['B', 'b'], ['C', 'a'], ['D', 'c']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假設你使用 log-loss 函數作為評估標準。下面啲選項，邊啲係對作為評估標準嘅 log-loss 嘅正確解釋",
+    "llm_output": "正確答案係 B. log-loss 越低，模型越好。\n\nLog-loss 是一種衡量分類模型預測結果與實際結果之間差異的指標，通常用於二元分類或多元分類問題。Log-loss 值越低，表示模型預測的結果越接近實際結果，因此模型越好。\n\n選項 A 不對，因為 B 是正確的解釋。\n選項 C 不對，因為它描述的是 log-loss 分佈的概念，而非 log-loss 作為評估標準的意義。\n選項 D 不對，因為它描述的是 log-loss 對於模型評估的影響，而非 log-loss 作為評估標準的意義。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上都係'], ['B', 'log-loss 越低，模型越好'], ['C', '對一個特別嘅觀察而言，分類器為正確嘅類別分配非常細嘅概率，然後對 log-loss 嘅相應分佈會非常大'], ['D', '如果一個分類器對唔正確嘅分類好自信，log-loss 會嚴重地批評佢']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "已知一組數據嘅協方差矩陣P，下面關於主分量講法錯誤嘅係",
+    "llm_output": "正確答案係D。\n\n解釋：\nA. 主分量分析（Principal Component Analysis, PCA）確實可以視為K-L變換（Karhunen-Loève Transform），因此A選項正確。\nB. 主分量分解後，協方差矩陣會變成對角矩陣，其中對角元素代表各主分量所解釋的變異量，因此B選項正確。\nC. 主分量分析的最佳準則確實是通過正交基分解，並最小化截尾誤差，因此C選項正確。\nD. 主分量係通過求協方差矩陣的特徵值得到，但特徵值本身並不等於主分量，而是代表主分量所解釋的變異量。主分量是通過特徵值對應的特徵向量得到的，因此D選項錯誤。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主分量分析就係K-L變換'], ['B', '喺經主分量分解後，協方差矩陣成為對角矩陣'], ['C', '主分量分析嘅最佳準則係對一組數據進行按一組正交基分解，喺只取相同數量分量嘅條件下，以均方誤差計算截尾誤差最細'], ['D', '主分量係通過求協方差矩陣嘅特徵值得到']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於attention機制嘅講法錯誤嘅係",
+    "llm_output": "正確答案係D。\n\nA選項描述正確，attention機制會根據輸入序列中每個元素的重要性分配一個權重系數，這些權重系數會被用來加權結合輸入序列中嘅元素。\n\nB選項描述正確，attention機制可以用於機器閱讀理解、問答對話等場景中，因為它可以捕捉序列中不同位置之間嘅長距離依賴關係。\n\nC選項描述正確，傳統的encoder-decoder模型存在長距離依賴問題，因為它們只能依賴最後一個輸入元素來生成輸出，而無法考慮到序列中更早的位置。\n\nD選項描述錯誤，多頭attention機制是並行計算的，每個頭都可以獨立地對輸入序列進行注意力計算，並且每一步的計算結果不會依賴於上一步的計算結果。因此，D選項描述的“多頭attention機制唔適合並行，其每一步計算依賴於上一步嘅計算結果”是錯誤的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'attention機制會畀序列中嘅元素分配一個權重系數'], ['B', 'attention機制可以用於機器閱讀理解、問答對話等場景中'], ['C', '傳統encoder-decoder模型存在長距離依賴問題'], ['D', 'attention機制嘅變體，多頭attention機制唔適合並行，其每一步計算依賴於上一步嘅計算結果']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊項唔係降低過擬合嘅方法",
+    "llm_output": "C. 增加神經網絡隱藏層節點數",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '收集更多訓練數據'], ['B', '進行數據清洗，減少噪音'], ['C', '增加神經網絡隱藏層節點數'], ['D', '簡化模型假設']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "畀定三個變量 X，Y，Z。(X, Y)、(Y, Z) 同 (X, Z) 嘅 Pearson 相關性系數分別為 C1、C2 同 C3。依家 X 嘅所有值加 2（即 X+2），Y 嘅全部值減 2（即 Y-2），Z 保持唔變。噉運算之後嘅 (X, Y)、(Y, Z) 同 (X, Z) 相關性系數分別為 D1、D2 同 D3。依家試問 D1、D2、D3 同 C1、C2、C3 之間嘅關係係咩",
+    "llm_output": "C. D1 = C1, D2 = C2, D3 = C3\n\n解釋：Pearson 相關性系數主要衡量兩個變量之間線性相關的程度，其值範圍介乎 -1 到 1。當 X 的值增加 2，Y 的值減少 2，Z 的值保持不變時，這只是對變量進行了一個線性轉換，而這種轉換不會改變兩個變量之間的相關性。因此，D1、D2 和 D3 分別等於 C1、C2 和 C3。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'D1 = C1, D2 < C2, D3 < C3'], ['B', 'D1= C1, D2 < C2, D3 > C3'], ['C', 'D1 = C1, D2 = C2, D3 = C3'], ['D', 'D1 = C1, D2 > C2, D3 > C3']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺決策樹中，用作分裂節點嘅information gain講法唔正確嘅係",
+    "llm_output": "正確答案係C。\n\n在決策樹中，信息增益（Information Gain）是衡量一個屬性對於分類問題的重要性。信息增益越大，表示該屬性能夠提供越多的分類信息，因此越有可能被選作分裂節點。\n\nA選項描述的是信息增益的一個特性，即傾向於選擇具有較多取值的屬性，因為這些屬性能夠提供更多的分類信息。\n\nB選項描述的是信息增益的計算方法，即使用熵（Entropy）來衡量分類問題的不確定性，並計算出信息增益。\n\nD選項則表示以上選項均不正確，但根據上述分析，A和B選項描述的是正確的概念。\n\nC選項描述的是信息增益的一個誤解。在決策樹中，信息增益越大，表示該屬性能夠提供越多的分類信息，因此越有可能被選作分裂節點。相反，較細的純度（即較高的分類準確度）表示該屬性對於分類問題的貢獻較小，因此不太可能被選作分裂節點。因此，C選項描述的是不正確的概念。\n\n總結，正確答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '信息增益更加傾向於揀有較多取值嘅屬性'], ['B', '信息增益可以使用熵得到'], ['C', '較細唔純度嘅節點需要更多嘅信息嚟區分總體'], ['D', '以上均唔係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於回歸分析中嘅殘差表述正確嘅係",
+    "llm_output": "C. 殘差嘅平均值總為零\n\n在回歸分析中，殘差是指實際觀察值與模型預測值之間的差異。理想情況下，如果模型能夠完美捕捉數據的趨勢，那麼所有數據點的殘差應該為零。然而，由於模型無法捕捉所有的數據細節和異常，殘差通常不會完全為零，但它們的平均值應該接近於零。這是因為，如果殘差平均值不為零，那麼就存在系統性的偏誤，這表示模型可能存在問題，或者需要進一步調整。因此，正確答案是C，殘差平均值總為零。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '殘差嘅平均值總細於零'], ['B', '殘差嘅平均值總大於零'], ['C', '殘差嘅平均值總為零'], ['D', '殘差冇此類規律']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋建立一個5000個特徵, 100萬數據嘅機器學習模型. 我哋點樣有效地應對噉嘅大數據訓練",
+    "llm_output": "D. 我哋應用PCA算法降維, 減少特徵數\n\n在處理大數據訓練時，特別是當特徵數量非常龐大時，降維技術如主成分分析（PCA）可以有效地減少數據的維度，從而提高訓練效率和模型性能。通過PCA，我們可以保留數據的主要變異性，同時減少特徵數量，從而減少計算資源的需求。其他選項如隨機抽取樣本或使用線性機器學習算法可能無法有效地應對大數據訓練挑戰。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '我哋隨機抽取啲樣本, 喺呢啲少量樣本之上訓練'], ['B', '以上所有'], ['C', '我哋可以試用喺線機器學習算法'], ['D', '我哋應用PCA算法降維, 減少特徵數']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊個唔屬於條件隨機場模型對於隱馬爾科夫模型同最大熵隱馬爾科夫模型模型嘅優勢",
+    "llm_output": "正確答案係C。條件隨机场等模型對於隱馬爾科夫模型同最大熵隱馬爾科夫模型模型嘅優勢包括速度快（A）、可容納較多上下文信息（B）以及特徵靈活（D）。而全局最優（C）通常不是條件隨机场等模型所追求的優勢，因為這些模型更傾向於局部最優解。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '速度快'], ['B', '可容納較多上下文信息'], ['C', '全局最優'], ['D', '特徵靈活']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊項唔係基於詞典嘅方法嘅中文分詞嘅基本方法",
+    "llm_output": "正確答案係 D. 最短路徑法。\n\n中文分詞的基本方法通常包括以下幾種：\n\nA. 最大熵模型：一種基於統計學習的模型，通過訓練數據來學習分詞的概率模型，並預測新的文本中每個單詞的邊界。\n\nB. 最大概率法：基於語言學知識，通過計算每個單詞出現在文本中的概率來進行分詞。\n\nC. 最大匹配法：一種基於規則的中文分詞方法，通過匹配詞典中的單詞來進行分詞，並選擇最長的匹配單詞作為分詞結果。\n\nD. 最短路徑法：通常用於圖形搜索或路徑規劃問題，而非中文分詞。\n\n因此，最短路徑法不是基於詞典的方法，而是其他領域的算法。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '最大熵模型'], ['B', '最大概率法'], ['C', '最大匹配法'], ['D', '最短路徑法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。如果使用較細嘅C（C趨於0），則：",
+    "llm_output": "C",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔確定'], ['B', '誤分類'], ['C', '正確分類'], ['D', '以上均唔正確']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊種方法屬於生成模型",
+    "llm_output": "正確答案：A. 條件隨机场等\n\n解釋：生成模型是指能夠生成數據的模型，它能夠根據已有的數據生成新的數據。條件隨机场等模型屬於生成模型，因為它們能夠根據輸入的條件生成新的數據。而傳統神經網絡、線性回歸和朴素貝葉斯等模型通常被視為判別模型，它們主要用於預測輸入數據的分類或值。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '條件隨機場'], ['B', '傳統神經網絡'], ['C', '樸素貝葉斯'], ['D', '線性回歸']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺其他條件唔變嘅前提下，以下邊種做法容易引起機器學習中嘅過擬合問題",
+    "llm_output": "正確答案：C. SVM算法中使用高斯核/RBF核代替\n\n解釋：\n過擬合問題發生於模型在訓練數據上表現良好，但在測試數據上表現不佳的情況。高斯核/RBF核在SVM算法中會增加模型的複雜度，使得模型更容易過擬合訓練數據。\n\nA選項：增加訓練集數量通常有助於減少過擬合，因為更多的數據可以幫助模型更好地泛化。\n\nB選項：刪除稀疏特徵通常不會引起過擬合問題，反而可能會導致信息丟失。\n\nD選項：減少神經網絡隱藏層節點數通常會減少模型的複雜度，有助於減少過擬合問題。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '增加訓練集數量'], ['B', '刪除稀疏嘅特徵'], ['C', 'SVM算法中使用高斯核/RBF核代替'], ['D', '減少神經網絡隱藏層節點數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "對應GradientBoosting tree算法， 以下講法正確嘅係",
+    "llm_output": "正確答案係D。\n\n解析：Gradient Boosting tree算法是一種強化學習算法，通過迭代地訓練弱學習器（即單個決策樹）並將它們組合起來，以逐步改進模型。\n\nA選項：增加最少樣本分裂個數，即增加樹的深度，通常會導致模型過擬合，因為樹會變得更加複雜，容易捕捉到訓練數據中的噪聲。\n\nB選項：減少訓練單個學習器（即單個決策樹）嘅樣本個數，即減少樹的深度，會導致模型欠擬合，因為樹無法捕捉到數據中的複雜模式。\n\nC選項：增加最少樣本分裂個數，即增加樹的深度，如A選項所述，通常會導致模型過擬合。\n\nD選項：增加訓練單個學習器（即單個決策樹）嘅樣本個數，即增加樹的深度，可以降低模型方差，因為更多的樣本可以幫助樹更好地捕捉數據中的模式，減少模型對訓練數據的過擬合。\n\n因此，正確答案是D。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '當增加最少樣本分裂個數，我哋可以抵制過擬合'], ['B', '當我哋減少訓練單個學習器嘅樣本個數，我哋可以降低偏差'], ['C', '當增加最少樣本分裂個數，會導致過擬合'], ['D', '當我哋增加訓練單個學習器嘅樣本個數，我哋可以降低方差']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假設你訓練SVM後，得到一個線性決策邊界，你認為該模型欠擬合。喺下次迭代訓練模型時，應該考慮",
+    "llm_output": "D. 增加訓練數據\n\n當機器學習模型欠擬合時，通常表示模型無法捕捉到數據中的複雜性。增加訓練數據可以幫助模型更好地學習數據分佈，從而提高模型的擬合能力。減少訓練數據或特徵會導致模型欠擬合的情況更加嚴重。計算更多變量可能會增加模型的複雜性，但不一定能解決欠擬合問題，且可能會導致過擬合。因此，增加訓練數據是最合適的選擇。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '減少訓練數據'], ['B', '減少特徵'], ['C', '計算更多變量'], ['D', '增加訓練數據']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "語音信號由於具有咩特性，所以我哋可以將語音信號進行分窗處理?",
+    "llm_output": "C. 短時平穩性\n\n語音信號之所以可以進行分窗處理，主要依賴於其短時平穩性（Short-Term Stationarity）。這意味著在一個較短的時間範圍內，語音信號的特徵（如頻譜、能量等）會保持相對穩定，這使得我們可以將語音信號分割成多個短時間窗口進行獨立處理，而不需要考慮整個語音信號的長期變化。這種分窗處理的方法在語音識別、語音合成等機器學習應用中非常常見。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '隨機單調性'], ['B', '其他選項都唔係'], ['C', '短時平穩性'], ['D', '單調唔變性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "對於k摺交叉驗證, 以下對k嘅講法正確嘅係",
+    "llm_output": "正確答案係B。在k折交叉驗證中，k值越大，表示將數據集分割成更多的小數據集進行模型訓練和評估，這樣可以更全面地評估模型的性能，但同時也會增加計算時間。因此，k值不是越大越好，而是需要根據具體情況選擇合適的k值。其他選項描述的情況並不總是正確，因此B是正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '揀更大嘅k, 就會有更細嘅bias (因為訓練集更加接近總數據集)'], ['B', 'k越大, 唔一定越好, 揀大嘅k會加大評估時間'], ['C', '喺揀k時, 要最細化數據集之間嘅方差'], ['D', '以上所有']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於歐式距離特性嘅有",
+    "llm_output": "正確答案係 A. 尺度縮放唔變性。\n\n歐式距離（Euclidean distance），又稱為歐幾里得距離，係一種衡量兩個向量之間距離嘅常用方法。歐式距離嘅特性包括：\n\n- 尺度縮放唔變性：即係話，如果將一個向量嘅所有元素都乘以一個常數，那麼它嘅歐式距離就會乘以呢個常數。\n- 旋轉唔變性：即係話，如果將一個向量轉動一個角度，那麼它嘅歐式距離就唔會改變。\n- 唔受量綱影響嘅特性：即係話，無論向量嘅元素係屬於甚麼量綱（例如，長度、時間、溫度等），歐式距離都可以適用於這些向量。\n- 考慮咗模式嘅分佈：即係話，歐式距離可以考慮到向量嘅分佈情況，例如，兩個向量嘅距離可以反映它們之間嘅相似度或差異度。\n\n以上特性中，尺度縮放唔變性（A）是歐式距離嘅基本特性之一，而其他特性（B、C、D）則不是歐式距離獨有嘅特性，其他距離度量方法（如曼哈頓距離、切比雪夫距離等）也可能具有這些特性。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '尺度縮放唔變性'], ['B', '旋轉唔變性'], ['C', '唔受量綱影響嘅特性'], ['D', '考慮咗模式嘅分佈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "樸素貝葉斯係一種特殊嘅貝葉斯分類器,特徵變量係X,類別標籤係C,佢嘅一個假定係",
+    "llm_output": "正確答案係A。\n\n朴素貝葉斯分類器假定特徵變量X的各個維度是類別條件獨立隨機變量，即假設每個特徵之間是獨立的，且與類別之間也是獨立的。這個假定使得計算和推斷變得簡單，因為可以將分類問題分解為多個二元分類問題。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '特徵變量X嘅各個維度係類別條件獨立隨機變量'], ['B', 'P(X|C)係高斯分佈'], ['C', '以0為均值，sqr(2)/2為標準差嘅正態分佈'], ['D', '各類別嘅先驗概率P(C)係相等嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺一個n維嘅空間中， 最好嘅檢測outlier(離羣點)嘅方法係",
+    "llm_output": "D. 馬氏距離\n\n在n維空間中，馬氏距離（Mahalanobis distance）是最佳的檢測outlier（離群點）的方法。馬氏距離能夠考慮到各個特徵之間的相關性，並且對異常值（outliers）的敏感度較高。其他選項如盒形圖、散點圖和正態分佈概率圖，雖然可以提供一些關於數據分佈的直觀信息，但它們不夠靈活，不能有效地處理高維數據中的異常值。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '作盒形圖'], ['B', '作散點圖'], ['C', '作正態分佈概率圖'], ['D', '馬氏距離']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "對於線性回歸模型，包括附加變量喺內，以下嘅可能正確嘅係",
+    "llm_output": "正確答案係 D. 以上都唔係。\n\n解釋：\nR-Squared (決定係數) 表示模型解釋依賴變量變異性的比例。當模型中包含更多變量時，R-Squared 可能會增加，即使新增變量對模型解釋能力沒有貢獻。\n\nAdjusted R-Squared (調整後決定係數) 則會根據模型中變量的數量調整 R-Squared，以反映模型複雜度。當新增變量對模型解釋能力沒有貢獻時，Adjusted R-Squared 會下降。\n\n因此，當模型中包含更多變量時，R-Squared 可能會增加，但 Adjusted R-Squared 可能會下降，或者保持不變（如果新增變量對模型解釋能力有貢獻）。所以選項 A、B 和 C 都不正確。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'R-Squared 係遞減嘅， Adjusted R-squared 都係遞減嘅'], ['B', 'R-Squared 係常量嘅，Adjusted R-squared係遞增嘅'], ['C', 'R-Squared 同 Adjusted R-squared都係遞增嘅'], ['D', '以上都唔係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "數據科學家可能會同時使用多個算法（模型）進行預測， 並且最後畀呢啲算法嘅結果集成埋一齊進行最後嘅預測（集成學習），以下對集成學習講法正確嘅係",
+    "llm_output": "C. 單個模型之間有低相關性\n\n集成学习（Ensemble Learning）通常涉及使用多个弱学习器（如决策树），这些学习器在预测时相互独立，即它们之间具有低相关性。通过组合这些弱学习器的预测结果，集成学习可以产生更准确和稳健的预测。相比之下，如果模型之间存在高相关性，集成学习的效果可能不会理想，因为它们可能会重复相同的错误。\n\n选项A不正确，因为集成学习中通常希望模型之间具有低相关性，而不是高相关性。\n\n选项B不正确，因为集成学习中使用的模型可以是不同的算法，而不仅仅是同一算法。\n\n选项D不正确，因为集成学习中使用的集成方法可以是投票（如随机森林）或加权平均（如AdaBoost），具体使用哪种方法取决于具体问题和数据集。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '單個模型之間有高相關性'], ['B', '單個模型都係用一個算法'], ['C', '單個模型之間有低相關性'], ['D', '喺集成學習中使用「平均權重」而唔係「投票」會比較好']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋想喺大數據集上訓練決策樹, 為咗使用較少時間, 我哋可以",
+    "llm_output": "D. 減少樹嘅深度\n\n解釋：在決策樹模型中，樹的深度對應於特徵分裂的次數。減少樹的深度可以加速訓練過程，因為它會限制模型複雜度，從而需要較少的時間來訓練。增加樹的深度可能會提高模型的準確性，但同時也會增加訓練時間。因此，為了節省訓練時間，我們應該選擇減少樹的深度。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '增加學習率'], ['B', '減少樹嘅數量'], ['C', '增加樹嘅深度'], ['D', '減少樹嘅深度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋想要減少數據集入面嘅特徵數, 即降維. 揀以下適合嘅方案",
+    "llm_output": "正確答案：C. 使用前向特徵揀方法同後向特徵排除方法\n\n解釋：\nA選項不適合，因為不是所有特徵都應該使用，降維的目的是減少特徵數量，以提高模型性能和減少計算成本。\nB選項描述的是一種逐步排除特徵的方法，但這種方法可能會導致去除掉對模型性能有幫助的特徵。\nC選項描述的是前向特徵選擇和後向特徵排除的結合，這是一種常用的降維方法，可以有效地選擇出對模型性能有幫助的特徵。\nD選項描述的是基於特徵相關性進行特徵選擇的方法，但這種方法可能會忽略掉一些對模型性能有幫助的特徵。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上所有'], ['B', '我哋先將所有特徵都使用, 嚟訓練一個模型, 得到測試集上嘅表現'], ['C', '使用前向特徵揀方法同後向特徵排除方法'], ['D', '查看相關性表, 去除相關性最高嘅啲特徵']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個激活函數唔能解決梯度彌散嘅問題",
+    "llm_output": "C. Sigmoid",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'Leaky-Relu'], ['B', 'Elu'], ['C', 'Sigmoid'], ['D', 'Relu']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊個唔屬於常用嘅文本分類嘅特徵揀算法",
+    "llm_output": "正確答案係 A. 主成分分析。\n\n主成分分析（Principal Component Analysis, PCA）通常用於降維，而非特徵選擇。而文本分類中常用嘅特徵選擇算法包括：\n\n- B. 互信息（Mutual Information）\n- C. 信息增益（Information Gain）\n- D. 卡方檢驗值（Chi-square Test）\n\n以上這些算法都可以用於特徵選擇，從而提高文本分類的準確性。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主成分分析'], ['B', '互信息'], ['C', '信息增益'], ['D', '卡方檢驗值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "Fisher線性判別函數嘅求解過程係將M維特徵矢量投影喺（ ）中進行求解",
+    "llm_output": "正確答案係D. 二維空間。\n\nFisher線性判別函數（Linear Discriminant Function, LDF）係一種常用嘅分類算法，主要用於二分類問題。其基本思想係將M維特徵矢量投影喺二維空間中，使得投影後嘅數據能夠被線性邊界（即超平面）有效地分隔開。\n\n具體求解過程中，Fisher LDF會計算出一個投影方向，使得投影後嘅數據能夠最大化類別間的離散度（即類別間的變異度），同時最小化類別內部嘅變異度。最終得到嘅投影方向即係Fisher LDF。\n\n因此，Fisher LDF嘅求解過程係將M維特徵矢量投影喺二維空間中進行求解。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '一維空間'], ['B', '三維空間'], ['C', 'M-1維空間'], ['D', '二維空間']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一項說明咗X，Y之間嘅較強關係",
+    "llm_output": "A. 相關系數為0.9\n\n相關系數（Correlation Coefficient）是衡量兩個變量之間線性相關程度的一個指標。其值介於-1到1之間，值越接近1或-1表示相關程度越強。在本題中，相關系數為0.9，表示X和Y之間存在較強的線性正相關關係。\n\n其他選項：\nB. 都唔對 - 這是一個否定選項，但沒有提供正確答案。\nC. Beta系數為0嘅空假設嘅p-value係0.0001 - 這描述的是統計假設測試中的p-value，它表示拒絕空假設的概率。p-value越小，表示拒絕空假設的證據越強。然而，這並不是直接說明X和Y之間關係的指標。\nD. Beta系數為0嘅空假設嘅t統計量係30 - 這描述的是在統計假設測試中，t-statistic（t統計量）的值。t-statistic越大，表示證據越有力，但這同樣不是直接說明X和Y之間關係的指標。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '相關系數為0.9'], ['B', '都唔對'], ['C', 'Beta系數為0嘅空假設嘅p-value係0.0001'], ['D', 'Beta系數為0嘅空假設嘅t統計量係30']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺 k-均值算法中，以下邊個選項可用於獲得全局最細？",
+    "llm_output": "D",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上所有'], ['B', '搵到集羣嘅最佳數量'], ['C', '調整迭代嘅次數'], ['D', '嘗試為唔同嘅質心（centroid）初始化運行算法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺統計語言模型中，通常以概率嘅形式描述任意語句嘅可能性，利用最大相似度估計進行度量，對於啲低頻詞，無論點樣擴大訓練數據，出現嘅頻度仍然好低，下列邊種方法能解決呢一問題",
+    "llm_output": "A. 數據平滑\n\n在統計語言模型中，數據平滑（Data Smoothing）是一種技術，用於解決低頻詞出現頻率低導致模型準確度下降的問題。數據平滑通過調整模型參數，將低頻詞的出現概率進行合理的調整，從而提高模型的整體性能。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '數據平滑'], ['B', 'N元文法'], ['C', '一元文法'], ['D', '一元切分']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下講法中錯誤嘅係",
+    "llm_output": "正確答案係B。\n\nA選項描述的是隨著數據點數量n的增加，訓練誤差和測試誤差之間的差異會減少，這是正確的。隨著數據量的增加，模型可以更好地捕捉數據的細微模式，從而減少訓練誤差和測試誤差之間的差距。\n\nC選項中，SVM（支持向量機）確實對噪聲具有一定程度的鲁棒性，因為它主要依賴於數據中的支持向量來進行分類，而非所有數據點。\n\nD選項描述的是在AdaBoost算法中，錯誤分類的樣本權重會增加，而正確分類的樣本權重會減少，這也是正確的。\n\nB選項中，boosting和bagging都是組合多個分類器的方法，但它們的權重確定方式不同。Boosting算法會根據單個分類器的錯誤率來調整其權重，而bagging（bootstrap aggregating）則是在每次迭代中隨機選擇數據集，並給予每個分類器相同的權重。因此，B選項描述的內容是錯誤的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '畀定n個數據點，如果其中一半用於訓練，一半用戶測試，則訓練誤差同測試誤差之間嘅差別會隨住n嘅增加而減少嘅'], ['B', 'boosting同bagging都係組合多個分類器投票嘅方法，二者都係根據單個分類器嘅正確率確定其權重'], ['C', 'SVM對噪音（如來自其他分部嘅噪音樣本）具備魯棒性'], ['D', '喺adaboost算法中，所有被分錯樣本嘅權重更新比例唔相同']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "一個二進制源X發出符號集為{-1,1}，經過離散無記憶信道傳輸，由於信道中噪音嘅存在，接收端Y收到符號集為{-1,1,0}。已知P(x=-1)=1/4，P(x=1)=3/4，P(y=-1|x=-1)=4/5，P(y=0|x=-1)=1/5，P(y=1|x=1)=3/4，P(y=0|x=1)=1/4，求條件熵H(Y|X)",
+    "llm_output": "正確答案係：\n\nA. 0.5372\n\n以下是解題過程：\n\n首先，我們需要求出接收端Y收到符號集{-1,1,0}的概率分佈。\n\n已知：\nP(x=-1) = 1/4\nP(x=1) = 3/4\nP(y=-1|x=-1) = 4/5\nP(y=0|x=-1) = 1/5\nP(y=1|x=1) = 3/4\nP(y=0|x=1) = 1/4\n\n我們可以求出P(y=-1)和P(y=0)，以及P(y=1)。\n\nP(y=-1) = P(y=-1|x=-1) * P(x=-1) + P(y=-1|x=1) * P(x=1)\n         = (4/5) * (1/4) + 0 * (3/4)  （因為P(y=-1|x=1) = 0）\n         = 1/5\n\nP(y=0) = P(y=0|x=-1) * P(x=-1) + P(y=0|x=1) * P(x=1)\n       = (1/5) * (1/4) + (1/4) * (3/4)\n       = 1/20 + 3/16\n       = 8/80 + 15/80\n       = 23/80\n\nP(y=1) = P(y=1|x=1) * P(x=1) + P(y=1|x=-1) * P(x=-1)\n       = (3/4) * (3/4) + 0 * (1/4)  （因為P(y=1|x=-1) = 0）\n       = 9/16\n\n接著，我們可以求出條件熵H(Y|X)。\n\nH(Y|X) = -Σ[P(y) * log2(P(y|x))]\n       = -[P(y=-1) * log2(P(y=-1|x=-1)) + P(y=0) * log2(P(y=0|x=-1)) + P(y=1) * log2(P(y=1|x=1))]\n       = -[(1/5) * log2(4/5) + (23/80) * log2(1/5) + (9/16) * log2(3/4)]\n       ≈ 0.5372\n\n所以，正確答案係A. 0.5372。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '0.5372'], ['B', '0.2375'], ['C', '0.5273'], ['D', '0.3275']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊種技術對於減少數據集嘅維度會更好？",
+    "llm_output": "正確答案：D. 都唔係\n\n解釋：\n在機器學習中，減少數據集維度通常指的是特徵選擇或降維技術。這些技術旨在從原始數據集中選擇或轉換出最具有信息量的特徵，以提高模型性能和減少計算成本。\n\nA選項提到的刪除數據差異較大嘅列，可能會導致重要特徵的丟失，從而影響模型的性能。\n\nB選項提到的刪除缺少值太多嘅列，如果這些列包含重要信息，那麼刪除它們可能會導致數據集信息的丟失。\n\nC選項提到的刪除唔同數據趨勢嘅列，如果這些列包含可以提供有用信息的特徵，那麼刪除它們可能會導致模型性能的下降。\n\nD選項提到的都唔係，意味著上述所有選項都不適合用於減少數據集維度。在機器學習中，通常會使用以下技術來減少數據集維度：\n\n- 特徵選擇：選擇最具有信息量的特徵。\n- 主成分分析（PCA）：通過線性變換將高維數據轉換為低維數據。\n- 獨立成分分析（ICA）：將混合數據分解為獨立的成分。\n- 自編碼器：通過編碼和解码過程學習數據的低維表示。\n\n因此，正確答案為D，因為這些技術都可以有效地減少數據集的維度。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '刪除數據差異較大嘅列'], ['B', '刪除缺少值太多嘅列'], ['C', '刪除唔同數據趨勢嘅列'], ['D', '都唔係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊啲唔特別適合用嚟對高維數據進行降維",
+    "llm_output": "D. 拉普拉斯特徵映射\n\n拉普拉斯特徵映射（Laplacian Eigenmaps）是一種非線性降維技術，它通過將數據映射到低維空間中，保留數據的主要結構，並能夠處理高維數據。然而，拉普拉斯圖的計算複雜度較高，且對於大規模數據集可能不太適合。\n\n相比之下，其他選項對高維數據的處理能力較強：\nA. 聚類分析（Clustering）：可以通過將數據點分成不同的群組來進行降維，特別適合處理高維數據。\nB. LASSO（Least Absolute Shrinkage and Selection Operator）：一種正則化技術，可以通過選擇最具有影響力的特徵來進行降維。\nC. 小波分析法（Wavelet Analysis）：一種時頻分析技術，可以通過分解數據來進行降維，適合處理高維數據。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '聚類分析'], ['B', 'LASSO'], ['C', '小波分析法'], ['D', '拉普拉斯特徵映射']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "邏輯回歸同多元回歸分析有咩唔同？",
+    "llm_output": "正確答案：B. 邏輯回歸預測某事件發生嘅概率\n\n解釋：\n邏輯回歸（Logistic Regression）和多元回歸分析（Multiple Regression Analysis）是兩種不同的統計分析方法。\n\nA. 邏輯回歸回歸系數嘅評估 - 這不是兩者之間的主要區別。回歸系數的評估是回歸分析共有的步驟。\n\nB. 邏輯回歸預測某事件發生嘅概率 - 這是邏輯回歸的主要特點。邏輯回歸用於分類問題，預測二元結果（例如，是/否，真/假）的概率。\n\nC. 邏輯回歸有較高嘅擬合效果 - 這不是兩者之間的主要區別。擬合效果取決於數據和模型，而這兩者都可以有較高的擬合效果。\n\nD. 以上全部正確 - 這是不正確的，因為B是兩者之間的主要區別。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯回歸回歸系數嘅評估'], ['B', '邏輯回歸預測某事件發生嘅概率'], ['C', '邏輯回歸有較高嘅擬合效果'], ['D', '以上全部正確']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "最出名嘅降維算法係 PCA 同 t-SNE。將呢兩個算法分別應用到數據「X」上，並得到數據集「X_projected_PCA」，「X_projected_tSNE」。下面邊一項對「X_projected_PCA」同「X_projected_tSNE」嘅描述係正確嘅",
+    "llm_output": "D. X_projected_tSNE 喺最近鄰空間能得到解釋",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '兩個都喺最近鄰空間能得到解釋'], ['B', 'X_projected_PCA 喺最近鄰空間能得到解釋'], ['C', '兩個都唔能喺最近鄰空間得到解釋'], ['D', 'X_projected_tSNE 喺最近鄰空間能得到解釋']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於維特比算法(Viterbi)嘅講法中錯誤嘅係",
+    "llm_output": "選項D是錯誤的。維特比算法（Viterbi Algorithm）是一種動態規劃算法，用於計算隱馬爾可夫模型（Hidden Markov Model, HMM）中的最可能狀態序列。維特比算法是一種貪心算法，它在每一步都選擇當前最有可能的狀態，因此不能保證得到全局最優解。\n\n選項A是正確的。維特比算法中確實需要考慮轉移概率，這是指從一個隱含狀態轉移到另一個隱含狀態的概率。\n\n選項B也是正確的。維特比算法是一種貪心算法，它通過在每一步選擇當前最有可能的狀態來逐步構建最有可能的整個狀態序列。\n\n選項C也是正確的。維特比算法可以應用於中文分詞任務，其中每個詞都可以被視為一個隱含狀態，並且可以通過維特比算法來確定最有可能的詞序列。\n\n因此，正確答案是D。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '維特比算法中嘅轉移概率係從一個隱含狀態轉移到另一個隱含狀態嘅概率'], ['B', '維特比算法係一種貪心算法'], ['C', '維特比算法可應用於中文分詞任務'], ['D', '維特比算法可得到全局最優解']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下( )唔屬於線性分類器最佳準則",
+    "llm_output": "D. Fisher準則",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '貝葉斯分類'], ['B', '感知準則函數'], ['C', '支持向量機'], ['D', 'Fisher準則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "對於線性回歸，我哋應該有以下邊啲假設",
+    "llm_output": "正確答案係 B。線性回歸假設數據沒有多重線性相關性，即沒有兩個或以上自變量之間存在強相關關係。其他選項描述不準確：\n\nA. 線性回歸確實對離群點敏感，但這不是一個假設，而是需要注意的一個問題。\nC. 線性回歸並不要求所有變量必須符合正態分佈，但正態分佈的假設對於某些統計檢驗和模型解釋是有幫助的。\nD. 選項 B 是正確的假設，因此 D 選項不準確。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '搵到離羣點好重要, 因為線性回歸對離羣點好敏感'], ['B', '線性回歸假設數據冇多重線性相關性'], ['C', '線性回歸要求所有變量必須符合正態分佈'], ['D', '以上都唔係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面唔係迭代二叉樹3代算法對數據嘅要求",
+    "llm_output": "正確答案係B。\n\n在機器學習中，迭代二叉樹算法（如CART，Classification and Regression Trees）通常用於分類和回歸問題。對於迭代二叉樹算法，數據的要求包括：\n\nA. 所有嘅訓練例嘅所有屬性必須有一個明確嘅值。這是因為算法需要明確地處理每個訓練例，並且不能處理缺失值。\n\nC. 所有屬性必須為連續。迭代二叉樹算法通常假設屬性是連續的，以便能夠進行分割和分類。\n\nD. 相同嘅因素必須得到相同嘅結論且訓練例必須唯一。這是因為算法需要確保一致性和唯一性，以避免重複和不確定性。\n\n然而，B選項指出所有屬性必須為離散量，這並不是迭代二叉樹算法的硬性要求。實際上，迭代二叉樹算法可以處理連續屬性，並且在處理連續屬性時通常會使用分割技術（如二分法）來進行分類或回歸。因此，B選項描述的要求並不適用於迭代二叉樹算法。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '所有嘅訓練例嘅所有屬性必須有一個明確嘅值'], ['B', '所有屬性必須為離散量'], ['C', '所有屬性必須為連續'], ['D', '相同嘅因素必須得到相同嘅結論且訓練例必須唯一']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面嘅優化算法中，速度最快嘅係",
+    "llm_output": "D. Adam",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'BFGS'], ['B', '梯度下降法'], ['C', '牛頓法'], ['D', 'Adam']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於ALBERT嘅講法唔正確嘅係",
+    "llm_output": "D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '跨層參數共享'], ['B', '採用詞嵌入向量參數嘅因式分解'], ['C', '應用喺下游任務中預測速度顯著提速'], ['D', '去掉咗dropout']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個屬於SVM應用",
+    "llm_output": "D. 以上均係\n\n支持向量机（Support Vector Machine, SVM）是一種監督式學習模型，常用於分類和回歸分析。SVM可以應用於多種領域，包括文本分類、圖像分類、新文章聚類等。因此，上述選項A、B、C均屬於SVM的應用範圍。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新文章聚類'], ['B', '文本同超文本分類'], ['C', '圖像分類'], ['D', '以上均係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "類域界面方程法中，唔能求線性不可分情況下分類問題近似或者精確解嘅方法係",
+    "llm_output": "B. 感知器算法",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基於二次準則嘅H-K算法'], ['B', '感知器算法'], ['C', '勢函數法'], ['D', '偽逆法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個選項中邊一項屬於確定性算法",
+    "llm_output": "正確答案係：\n\nC. KNN\n\nKNN (K-Nearest Neighbors) 算法是一種確定性算法，因為它的預測基於已知的訓練數據，並且對於新的輸入數據，它會選擇最接近的K個訓練樣本並根據這些樣本的標籤進行預測。\n\nK-Means 和 PCA (主成分分析) 都是非確定性算法，因為它們通常需要迭代過程來找到最佳解，並且結果可能會因初始值的不同而有所變化。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'K-Means'], ['B', 'PCA'], ['C', 'KNN'], ['D', '以上都唔係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊啲算法, 1. KNN；2. 線性回歸；3.對數幾率回歸。可以用神經網絡去構造:",
+    "llm_output": "D. 1, 2 同 3\n\n神經網絡可以用來構造多種機器學習算法，包括KNN、線性回歸和對數幾率回歸。神經網絡通過模仿人腦神經元之間的連接和信息傳遞來進行學習和預測。因此，所有這些算法都可以通過神經網絡來實現。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '2 同 3'], ['B', '1同 2'], ['C', '以上都唔係'], ['D', '1, 2 同 3']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "訓練SVM嘅最少時間複雜度為O(n^2)，噉以下邊種數據集唔適合用SVM?",
+    "llm_output": "B. 大數據集",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '同數據集大細冇關'], ['B', '大數據集'], ['C', '細數據集'], ['D', '中等大細數據集']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "如果線性回歸模型中嘅隨機誤差存在異方差性，噉參數嘅普通最細二乘法估計量係",
+    "llm_output": "A. 無偏嘅，非有效嘅\n\n在線性回歸模型中，如果隨機誤差存在異方差性，即不同樣本的誤差方差不同，那麼普通最細二乘法（OLS）估計量仍然是無偏的，但它們不再是最有效的。OLS估計量的一致性和無偏性依舊成立，但因為異方差性，標準誤差估計不再正確，從而影響了t檢驗和F檢驗的有效性。因此，正確答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '無偏嘅，非有效嘅'], ['B', '無偏嘅，有效嘅'], ['C', '有偏嘅，非有效嘅'], ['D', '有偏嘅，有效嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於RoBERTa嘅講法唔正確嘅係",
+    "llm_output": "正確答案係 B。RoBERTa 採用動態掩碼機制，而不是靜態掩碼機制。其他選項描述嘅內容均為正確：\nA. RoBERTa 不進行NSP（下一句預測）任務，而是專注於語言模型訓練。\nC. RoBERTa 使用比原始BERT更多的訓練數據，以提高模型性能。\nD. RoBERTa 在訓練過程中採用更大的batch size，以加速訓練過程。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔做NSP任務'], ['B', '採用靜態掩碼機制'], ['C', '採用更多訓練數據'], ['D', '訓練採用更大batch size']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺邏輯回歸輸出與目標對比嘅情況下，以下評估指標中邊一項唔適用？",
+    "llm_output": "正確答案：C. AUC-ROC\n\n解釋：\nAUC-ROC（Area Under the Receiver Operating Characteristic Curve）是衡量二元分類器性能的一個指標，它表示真陽性率（TPR）對假陽性率（FPR）的曲线下面積。對於邏輯回歸模型，AUC-ROC通常不直接與目標對比，因為它主要用於評估分類器的性能，而不是輸出與目標之間的差異。\n\n其他選項：\nA. 準確度（Accuracy）：衡量模型預測正確的樣本數與總樣本數之比，適用於二元分類問題。\nB. 均方誤差（Mean Squared Error, MSE）：衡量預測值與實際值之間差異的平方的平均值，適用於回歸問題。\nD. Logloss（對數損失）：衡量分類問題中預測概率分佈與實際標籤之間的差距，適用於二元分類問題。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '準確度'], ['B', '均方誤差'], ['C', 'AUC-ROC'], ['D', 'Logloss']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "語言模型嘅參數估計經常使用MLE（最大似然估計）。面臨嘅一個問題係冇出現嘅項概率為0，噉會導致語言模型嘅效果唔好。為咗解決呢個問題，需要使用（）",
+    "llm_output": "B. 平滑",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '增加白噪音'], ['B', '平滑'], ['C', '隨機插值'], ['D', '去噪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "建模北京市人口嘅年齡分佈，採用咩分佈更合適",
+    "llm_output": "B. 正態分佈\n\n解釋：北京市人口的年龄分布通常会呈现正态分布，即大多数人口集中在某个年龄段，随着年龄的增加，人口数量逐渐减少。这种分布符合正态分布的特征。其他选项的分佈不符合年龄分布的实际情况。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '0-1分佈'], ['B', '正態分佈'], ['C', '泊松分佈'], ['D', '指數分佈']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "SVM中嘅代價參數表示：",
+    "llm_output": "正確答案係A。在支持向量機（SVM）中，代價參數（C）用於平衡分類錯誤（即誤分類）與模型複雜性之間嘅關係。代價參數越大，模型越傾向於減少誤分類，但同時會增加模型複雜性，從而可能導致過擬合。反之，代價參數越小，模型會更傾向於簡化，從而可能導致欠擬合。因此，代價參數是SVM中調整模型性能和防止過擬合的重要參數。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '誤分類同模型複雜性之間嘅平衡'], ['B', '以上均唔係'], ['C', '使用嘅核'], ['D', '交叉驗證嘅次數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "關於SVM泛化誤差描述正確嘅係",
+    "llm_output": "正確答案係 D. SVM對未知數據嘅預測能力。\n\nSVM（Support Vector Machine）是一種監督式學習算法，主要用於分類和回歸問題。SVM的泛化誤差指的是模型在未見過的測試數據上犯錯的概率。SVM通過尋找一個最佳的超平面來實現分類，這個超平面能夠最大化不同類別之間的邊際（即邊際距），同時最小化錯誤分類的點數。\n\n選項A描述的是超平面同支持向量之間距離，這實際上是SVM中的一個參數，即正則化項，它控制了模型複雜度，但並不是泛化誤差的直接描述。\n\n選項B提到的SVM的誤差閾值，這通常是指在訓練過程中設置的誤差範圍，而非泛化誤差。\n\n選項C說以上都唔係，這是不正確的，因為選項D正確描述了SVM對未知數據的預測能力，即泛化誤差。\n\n因此，正確答案是 D，SVM對未知數據的預測能力。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '超平面同支持向量之間距離'], ['B', 'SVM嘅誤差閾值'], ['C', '以上都唔係'], ['D', 'SVM對未知數據嘅預測能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於BERT嘅講法唔正確嘅係",
+    "llm_output": "正確答案係C。BERT（Bidirectional Encoder Representations from Transformers）是一種預訓練語言模型，採用Transformer架構，並支持對語義上下文進行建模。它使用GELU（Gaussian Error Linear Unit）作為激活函數。BERT的網絡結構包括12層Transformer層，而不是20層。因此，選項C描述不準確。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '支持對語義上下文進行建模'], ['B', '採用激活函數GELU'], ['C', '網絡一共有20層'], ['D', '使用transformer']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "模式識別中，唔屬於馬氏距離較之於歐式距離嘅優點嘅係",
+    "llm_output": "正確答案係 A. 尺度唔變性。\n\n馬氏距離（Mahalanobis Distance）和歐式距離（Euclidean Distance）都是用於衡量數據點之間距離的度量方法。馬氏距離考慮到各個特性之間嘅協方差，因此能夠更好地處理不同特性之間尺度不同嘅情況。而歐式距離則僅僅考慮到各個特性之間嘅差異，未能考慮到特性之間嘅關係。\n\nA選項提到尺度唔變性，這是馬氏距離嘅優點，因為它能夠適應不同尺度嘅特性。B選項提到平移唔變性，這是馬氏距離嘅另一個優點，因為它能夠適應數據點之間嘅平移。C選項提到考慮到各種特性之間嘅聯繫，這是馬氏距離嘅特點，因為它能夠考慮到特性之間嘅協方差。D選項提到考慮咗模式嘅分佈，這是馬氏距離嘅另一個優點，因為它能夠考慮到數據分佈嘅特性。\n\n因此，A選項“尺度唔變性”不是馬氏距離嘅優點，而是歐式距離嘅特點。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '尺度唔變性'], ['B', '平移唔變性'], ['C', '考慮到各種特性之間嘅聯繫'], ['D', '考慮咗模式嘅分佈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "描述嘅機器發生故障嘅次數，採用咩分佈更合適?",
+    "llm_output": "描述機器發生故障的次數，最合適的分佈是泊松分佈（D）。泊松分佈通常用於描述在固定時間或空間內，某事件發生次數的分佈。機器故障的發生次數符合泊松分佈的特點，即事件發生是獨立的，且在固定時間內平均發生次數是固定的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '0-1分佈'], ['B', '指數分佈'], ['C', '正態分佈'], ['D', '泊松分佈']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係LSTM本身嘅特點",
+    "llm_output": "C",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'LSTM係RNN嘅一種變種'], ['B', '防止梯度彌散'], ['C', '訓練時GPU使用率較高'], ['D', 'LSTM有遺忘門']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "關於邏輯回歸同支持向量機唔正確嘅係",
+    "llm_output": "正確答案係 A。\n\nA 選項描述了邏輯回歸同支持向量機之間嘅差異。邏輯回歸確實是通過最大化似然函數進行權值估計，但後驗概率正比於先驗概率同似然函數嘅乘積，而邏輯回歸僅僅最大化似然函數，並無最大化後驗概率，更談不上最小化後驗概率。\n\nB 選項描述了支持向量機可以通過正則化系數控制模型複雜度，避免過擬合，這是正確嘅。\n\nC 選項描述了支持向量機嘅目標是搵到使得訓練數據盡可能分開且分類間隔最大嘅超平面，這也是正確嘅。\n\nD 選項描述了邏輯回歸嘅輸出就係樣本屬於正類別嘅機率，可以計算出概率，這亦是正確嘅。\n\n因此，A 選項描述了不正确嘅情況，故為正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '邏輯回歸本質上係一種根據樣本對權值進行極大似然估計嘅方法，而後驗概率正比於先驗概率同似然函數嘅乘積。邏輯僅僅係最大化似然函數，並冇最大化後驗概率，更談唔上最小化後驗概率'], ['B', '支持向量機可以通過正則化系數控制模型嘅複雜度，避免過擬合。'], ['C', '支持向量機嘅目標係搵到使得訓練數據盡可能分開且分類間隔最大嘅超平面，應該屬於結構風險最小化'], ['D', '邏輯回歸嘅輸出就係樣本屬於正類別嘅機率，可以計算出概率。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於影響聚類算法結果嘅主要因素有",
+    "llm_output": "正確答案係C。分類準則。\n\n聚類算法主要目的是將數據集中的數據點劃分為不同的組別，使得同組的數據點之間相似度較高，而不同組的數據點之間相似度較低。影響聚類算法結果的主要因素包括：\n\nA. 特徵揀選 - 特徵揀選是選擇哪些特徵用於聚類過程，這會影響聚類的效果。\n\nB. 已知類別嘅樣本質量 - 如果已知類別的樣本質量較高，即樣本能夠較好地表徵其所屬的類別，那麼聚類的效果也會更好。\n\nD. 模式相似性測度 - 模式相似性測度是衡量數據點之間相似度的標準，不同的測度方法會導致不同的聚類結果。\n\n而C選項，分類準則，通常是指在監督學習中使用的判斷數據點屬於哪個類別的規則或算法。在聚類算法中，我們通常不需要明確的分類準則，因為聚類算法的目的是發現數據中的自然分群，而不是按照預先定義的類別進行分類。因此，分類準則不是影響聚類算法結果的主要因素。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '特徵揀'], ['B', '已知類別嘅樣本質量'], ['C', '分類準則'], ['D', '模式相似性測度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "高斯混合模型(GMM)採用咩準則進行訓練",
+    "llm_output": "高斯混合模型(GMM)採用期望最大化(Expectation-Maximization, EM)算法進行訓練。因此，正確答案是：\n\nC. 期望最大化",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '均方誤差最小化'], ['B', '經驗風險最小化'], ['C', '期望最大化'], ['D', '其他選項都唔係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下講法正確嘅係",
+    "llm_output": "正確答案係 D。\n\n解釋：\nA選項錯誤，因為即使一個機器學習模型有較高準確率，也未必能夠解釋為此模型一定好。準確率僅能反映模型在測試集上的表現，但未必能夠解釋模型在未知數據上的泛化能力。\n\nB選項錯誤，因為聚類結果可以用作特徵，但這需要謹慎處理。使用聚類結果作為特徵，可能會導致模型過擬合，因為聚類結果可能包含噪聲或不必要的細節。\n\nC選項錯誤，因為增加模型複雜度不一定會降低測試錯誤率。複雜模型可能會過擬合，即在訓練集上表現良好，但在測試集上表現不佳。\n\nD選項正確，增加模型複雜度通常會降低訓練錯誤率，因為複雜模型能夠更好地擬合訓練數據。然而，這並不保證模型在測試集上表現更好，因為過擬合是常見問題。因此，增加模型複雜度需要謹慎，並且需要進行正確的驗證和調參。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '一個機器學習模型，如果有較高準確率，並唔難總係說明呢個分類器係好嘅'], ['B', '我哋唔可以使用聚類「類別id」作為一個新嘅特徵項， 然後再用監督學習分別進行學習'], ['C', '如果增加模型複雜度， 噉模型嘅測試錯誤率總係會降低'], ['D', '如果增加模型複雜度， 噉模型嘅訓練錯誤率總係會降低']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "中文同義詞替換時，常用到Word2Vec，以下講法錯誤嘅係",
+    "llm_output": "正確答案係C。Word2Vec是一種基於概率統計的機器學習模型，用於將詞語轉換為向量，並能夠捕捉詞語之間的語義關係。Word2Vec的訓練依賴於大量的語料，並且訓練過程中會考慮到上下文信息，但並不能保證得到的所有詞語對都是語義上完全等同的。\n\nA選項描述的是Word2Vec的應用效果，而非其內在特性，因此不是錯誤的。\nB選項描述的是Word2Vec的目標之一，即找到語義上相似的詞語對，但由於語料和算法限制，不可能完全達到這個目標，因此存在一定程度的錯誤。\nC選項描述的是Word2Vec的局限性，即依賴於訓練語料的量和質量，這是一個正確的描述。\nD選項描述的是Word2Vec的技術基礎，即基於概率統計，這也是正確的。\n\n因此，錯誤的選項是C。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'Word2Vec結果符合當前預料環境'], ['B', 'Word2Vec得到嘅都係語義上嘅同義詞'], ['C', 'Word2Vec受限於訓練語料嘅數量同質量'], ['D', 'Word2Vec基於概率統計']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺以下唔同嘅場景中,使用嘅分析方法唔正確嘅有",
+    "llm_output": "正確答案為 B。\n\nA選項中，商家層級的判斷可以通過聚類算法，將相似的數據點分組，從而識別出不同層級的商家。\n\nC選項中，關聯規則算法可以分析購買行為，並推薦相關產品。汽車坐墊和汽車腳墊之間存在相關性，因此可以通過這種算法進行推薦。\n\nD選項中，決策樹算法可以根據用戶的購買歷史來預測其性別。雖然性別預測可能不是完全準確的，但決策樹算法可以基於歷史數據進行合理的預測。\n\nB選項中，使用聚類算法來擬合消費金額公式是不正確的。聚類算法用於將數據點分為不同的組，而不是用於擬合公式或預測未來值。預測未來消費金額通常需要時間序列分析或其他適合預測的統計方法。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '根據商家最近一年嘅經營及服務數據,用聚類算法判斷出天貓商家喺各自主營類目下所屬嘅商家層級'], ['B', '根據商家近幾年嘅成交數據,用聚類算法擬合出用戶未來一個月可能嘅消費金額公式'], ['C', '用關聯規則算法分析出購買咗汽車坐墊嘅買家,係否適合推薦汽車腳墊'], ['D', '根據用戶最近購買嘅商品信息,用決策樹算法識別出淘寶買家可能係男定係女']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺數據清理中，下面邊個唔係處理缺失值嘅方法",
+    "llm_output": "正確答案係 D. 成對刪除。\n\n在數據清理中，處理缺失值的方法通常包括變量刪除、估算和整例刪除，但唔包括成對刪除。成對刪除是指刪除數據集中包含缺失值的所有數據對，這會導致數據量的大幅減少，通常不是處理缺失值的理想方法。其他選項如變量刪除、估算和整例刪除都是常見且有效的處理缺失值的方法。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '變量刪除'], ['B', '估算'], ['C', '整例刪除'], ['D', '成對刪除']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下關於LDA(Latent Dirichlet allocation)嘅講法錯誤嘅係",
+    "llm_output": "C. 當揀一篇文檔後，對於該文檔主題嘅分佈係確定嘅\n\n解釋：\nA. LDA（Latent Dirichlet Allocation）是一種非監督學習技術，用於主題模型化，這一點是正確的。\nB. LDA通過EM（期望最大化）算法求解，這也是正確的。\nC. 在LDA中，對於給定一篇文檔，其主題分佈不是固定的，而是根據模型中的先驗分佈和觀察到的文檔內容進行的概率性推斷。因此，這一選項是錯誤的。\nD. LDA確實包含詞、主題和文檔三層結構，這一點是正確的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'LDA係非監督學習技術'], ['B', 'LDA可通過EM嘅思想求解'], ['C', '當揀一篇文檔後，對於該文檔主題嘅分佈係確定嘅'], ['D', 'LDA包含詞，主題同文檔三層結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "如果我使用數據集嘅全部特徵並且能夠達到100%嘅準確率，但喺測試集上僅能達到70%左右，呢說明：",
+    "llm_output": "C. 過擬合\n\n在機器學習中，如果模型在訓練數據上表現得非常好（例如100%準確率），但在測試數據上表現不佳（例如70%準確率），通常表示模型過擬合了訓練數據。過擬合是指模型過度擬合訓練數據，導致在新數據上泛化能力不足。欠擬合則是指模型無法捕捉數據中的複雜模式，通常需要增加模型複雜度或特徵數量來改進。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '以上均唔正確'], ['B', '欠擬合'], ['C', '過擬合'], ['D', '模型好棒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。 當你使用較大嘅C（C趨於無窮），則：",
+    "llm_output": "正確答案：D. 仲能正確分類數據\n\n解釋：當使用較大嘅C（C趨於無窮）時，SVM會對錯誤分類的樣本施加嚴格的原則，即會嚴格地將所有樣本分類到正確的邊界上。這意味著SVM會盡力避免錯誤分類，即使這樣可能會導致過擬合（overfitting）。然而，由於二次核函數的使用，SVM可以將數據映射到高維空間，從而在某些情況下仍然能夠正確地分類數據，即使存在一些錯誤。因此，即使C很大，SVM仍然有可能正確地分類數據。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '以上均唔正確'], ['B', '唔確定'], ['C', '唔能正確分類'], ['D', '仲能正確分類數據']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "基於統計嘅分詞方法為",
+    "llm_output": "正確答案為 B. 條件隨机场等。\n\n基於統計的分詞方法通常使用機器學習技術，如條件隨机场等模型，這些模型能夠從大量文本數據中學習，並根據上下文來預測單詞的邊界。這些方法通常需要大量的訓練數據，並且能夠處理多種語言的文本分詞。\n\n其他選項如正向量最大匹配法（A）和逆向量最大匹配法（D）屬於基於規則的分詞方法，而最少切分（C）則是一種基於規則的分詞策略，通常用於簡單的文本分詞任務。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '正向量最大匹配法'], ['B', '條件隨機場'], ['C', '最少切分'], ['D', '逆向量最大匹配法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假定某同學使用樸素貝葉斯分類模型時，唔小心將訓練數據嘅兩個維度搞重複咗，噉關於樸素貝葉斯嘅講法中唔正確嘅係",
+    "llm_output": "正確答案係 D。\n\n朴素貝葉斯分類模型基於貝葉斯定理，並假設所有特徵之間是獨立的。當某個特徵被重複時，這個獨立性假設仍然成立，因此模型預測結果不會改變。所以選項 D 描述正確，即如果所有特徵都被重複一遍，得到嘅模型預測結果相對於唔重複嘅情況下嘅模型預測結果一樣。\n\n選項 A 和 B 描述相反，但由於朴素貝葉斯模型依賴於特徵之間的獨立性，重複特徵不會影響模型的預測能力，因此 A 和 B 均不準確。\n\n選項 C 描述正確，當兩列特徵高度相關時，朴素貝葉斯模型無法利用這些特徵之間的相關性來改進預測能力，因為模型假設特徵之間是獨立的。然而，這與特徵重複的情況無關，因為重複特徵不會改變獨立性假設。因此，C 不是正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '模型效果相比無重複特徵嘅情況下精確度會降低'], ['B', '模型效果相比無重複特徵嘅情況下精確度會提高'], ['C', '當兩列特徵高度相關時，無法用兩列特徵相同時所得到嘅結論嚟分析問題'], ['D', '如果所有特徵都被重複一遍，得到嘅模型預測結果相對於唔重複嘅情況下嘅模型預測結果一樣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於word2vec嘅講法中錯誤嘅係",
+    "llm_output": "正確答案係C。Word2Vec的假設是詞向量模型，而非詞袋模型。詞袋模型假設詞的順序不重要，但Word2Vec通過上下文來學習詞的向量表示，因此詞的順序是有意義的。其他選項描述均正確：\n\nA. 使用詞向量可以通過簡單的算術運算來得到新的詞向量，如上述等式所示。\nB. Skip-gram是一種預測模型，給定一個詞，預測它周圍的詞，即在詞窗中預測當前詞的概率。\nD. Word2Vec訓練中確實使用Negative Sample與Hierarchical Softmax兩種加速算法來提高訓練效率。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '使用詞向量可得到以下等式:King - man + woman = Queen'], ['B', 'Skip-gram係畀定詞窗中嘅文本，預測當前詞嘅概率'], ['C', 'word2vec嘅假設係詞袋模型，詞嘅順序係唔重要嘅'], ['D', 'word2vec訓練中使用咗Negative Sample與Hierarchical Softmax兩種加速算法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下描述正確嘅係",
+    "llm_output": "正確答案係：\n\nA. 聚類分析可以睇作係一種非監督嘅分類。\n\n解釋：\nA選項描述正確。聚類分析是一種非監督學習技術，它將數據集中的觀察值分成不同的組或簇，使得同一簇內嘅數據之間相似度較高，而不同簇之間嘅數據相似度較低。\n\nB選項描述錯誤。在聚類分析中，簇內嘅相似性越大，簇間嘅差別越大，聚類嘅效果越好，因為這表示聚類能夠有效地將數據分開。\n\nC選項描述錯誤。SVM（支持向量機）是一種監督學習算法，它尋找一個能夠最好地分隔不同類別數據點的超平面。SVM並不是最細邊緣分類器，而是最能夠分隔不同類別的數據點。\n\nD選項描述錯誤。在決策樹中，當樹中節點數變得太大時，模型可能會過擬合，而不是擬合不足。過擬合是指模型在訓練數據上表現良好，但在新數據上表現不佳的情況。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '聚類分析可以睇作係一種非監督嘅分類。'], ['B', '喺聚類分析當中，簇內嘅相似性越大，簇間嘅差別越大，聚類嘅效果就越差。'], ['C', 'SVM係噉樣一個分類器，佢搵具有最細邊緣嘅超平面，噉所以佢都經常被稱為最細邊緣分類器'], ['D', '喺決策樹中，隨住樹中節點數變得太大，即使模型嘅訓練誤差仲喺繼續減低，但係檢驗誤差開始增大，呢係出現咗模型擬合不足嘅問題。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列選項中，識別模式與其他唔一樣嘅係",
+    "llm_output": "正確答案係C。\n\nA選項中，識別模式是基於行車方式的不同特徵，例如速度、路線、交通方式等，這些特徵可以量化並用於機器學習模型中進行分類。\n\nB選項中，識別模式是基於年齡的區分，這也是一種特徵，可以量化並用於機器學習模型中進行分類。\n\nD選項中，識別模式是基於病徵和診斷結果，這也是一種特徵，可以量化並用於機器學習模型中進行分類。\n\nC選項中，派信員分揀信件通常需要人工判斷，而不是基於某種特徵進行自動分類。因此，C選項中的識別模式與其他選項不同，它不是基於特徵的自動分類，而是需要人工判斷。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '出行方式判斷:步行、踩單車、坐車'], ['B', '用戶年齡分佈判斷:少年、青年、中年、老年'], ['C', '派信員分揀信件'], ['D', '醫生畀病人診斷發病類型']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列講法唔正確嘅係",
+    "llm_output": "正確答案係C。\n\nA選項描述嘅係梯度下降法嘅基本概念，即利用當前位置嘅負梯度作為搜索方向，以最小化目標函數。\n\nB選項描述嘅係共軛梯度法（Stochastic Gradient Descent, SGD），SGD 每次只使用一個樣本進行更新，因此只需要一階導數嘅信息，並且通常比梯度下降法收斂得更快。\n\nC選項描述嘅係批量梯度下降（Batch Gradient Descent, BGD）同隨機梯度下降（Stochastic Gradient Descent, SGD）嘅比較。批量梯度下降每次使用全部樣本進行更新，對於大規模樣本來說，計算量會很大，效率不如隨機梯度下降。\n\nD選項描述嘅係牛頓法（Newton's Method）同梯度下降法嘅比較。牛頓法利用二階導數信息，可以更快地收斂，但求解過程中需要求解二階導數，因此求解過程可能更複雜。\n\n综上所述，C選項描述嘅係不準確嘅，因為批量梯度下降對於大規模樣本效率不如隨機梯度下降。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '梯度下降法係利用當前位置嘅負梯度作為搜索方向嘅方法'], ['B', '共軛梯度法僅需利用一階導數嘅信息，但係收斂速度高於梯度下降法'], ['C', '批量梯度下降同隨機梯度下降相比，批量梯度下降優勢係對於大規模樣本效率好高'], ['D', '牛頓法同梯度下降法相比，一個劣勢係求解複雜，一個優勢係收斂速度加快']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺隱馬爾科夫模型中,如果已知觀察序列同產生觀察序列嘅狀態序列,噉可用以下邊種方法直接進行參數估計",
+    "llm_output": "B. 極大似然估計\n\n在隱馬爾科夫模型中，已知觀察序列和產生觀察序列的狀態序列，可以使用極大似然估計直接進行參數估計。這一方法通過最大化似然函數來估計模型參數，包括狀態轉移概率和觀察概率。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '前向後向算法'], ['B', '極大似然估計'], ['C', '維特比算法'], ['D', 'EM算法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "LDA(Latent Dirichlet allocation)中歸屬於同一主題下單詞分佈嘅先驗分佈係?",
+    "llm_output": "B. 狄利克雷分佈\n\n在LDA(Latent Dirichlet Allocation)模型中，歸屬於同一主題下的單詞分佈的先驗分佈是狄利克雷分佈。這個分佈用於捕捉單詞在主題之間的分布，並確保每個主題對單詞的貢獻是平衡的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '正態分佈'], ['B', '狄利克雷分佈'], ['C', '多項分佈'], ['D', '二項分佈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "線性回歸嘅基本假設唔包括邊個",
+    "llm_output": "正確答案係 D。線性回歸的基本假設包括：\n\nA. 對於解釋變量嘅所有觀測值，隨機誤差項有相同嘅方差（同方差假設）。\nB. 隨機誤差項係一個期望值為0嘅隨機變量（期望值為0的假設）。\nC. 隨機誤差項服從正態分佈（正態分佈假設）。\n\nD. 隨機誤差項彼此相關 （這個假設通常不是線性回歸的基本假設，因為線性回歸假設隨機誤差項之間是獨立的。）",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '對於解釋變量嘅所有觀測值，隨機誤差項有相同嘅方差'], ['B', '隨機誤差項係一個期望值為0嘅隨機變量'], ['C', '隨機誤差項服從正態分佈'], ['D', '隨機誤差項彼此相關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列唔係SVM核函數嘅係",
+    "llm_output": "D. logistic核函數",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'Sigmoid核函數'], ['B', '徑向基核函數'], ['C', '多項式核函數'], ['D', 'logistic核函數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊啲係非監督學習方法",
+    "llm_output": "B. K-means\n\nK-means 是一種非監督學習方法，用於對數據進行聚類分析。其他選項如支持向量機 (SVM)、K-最近鄰 (KNN) 和決策樹都是監督學習方法。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'SVM'], ['B', 'K-means'], ['C', 'KNN'], ['D', '決策樹']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊種方法屬於判別式模型",
+    "llm_output": "正確答案：D. 支持向量機\n\n解釋：\n判別式模型是指那些能夠直接對輸入數據進行分類或預測的模型。這些模型通常基於一些假設，例如線性可分性或高斯分佈。\n\nA. 貝葉斯網絡 - 這是一種概率圖模型，它可以用來表示變量之間的統計依賴關係，但本身不是一個判別式模型。\n\nB. 樸素貝葉斯 - 這是一種基於貝葉斯定理的分類算法，它假設所有特徵之間是獨立的。雖然它可以用於分類，但朴素貝葉斯本身不是一個判別式模型。\n\nC. 隱馬爾可夫模型 - 這是一種統計模型，通常用於處理序列數據，例如語音識別或自然語言處理。它不是一個判別式模型。\n\nD. 支持向量機 - 這是一種非常流行的機器學習算法，可以用於分類和回歸問題。支持向量機通過找到一個超平面來將數據分成不同的類別，因此它是一個判別式模型。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '貝葉斯網絡'], ['B', '樸素貝葉斯'], ['C', '隱馬模型'], ['D', '支持向量機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面嘅交叉驗證方法：i. 有放返嘅Bootstrap方法；ii. 留一個測試樣本嘅交叉驗證；iii. 5摺交叉驗證；iv. 重複兩次嘅5摺教程驗證。當樣本係1000時，下面執行時間嘅順序，正確嘅係",
+    "llm_output": "正確答案係 A。\n\n解釋：\n- 留一個測試樣本的交叉驗證 (ii)：每次訓練模型時只使用 999 個樣本，測試時使用剩餘的 1 個樣本。因為每次只使用部分樣本進行訓練，所以執行時間最短。\n- 重複兩次嘅 5 摺教程驗證 (iv)：先進行一次 5 摺交叉驗證，然後重複進行一次。這比單次 5 摺交叉驗證多了一次訓練和測試的過程，但因為樣本數量不大，所以執行時間不會太長。\n- 5 摺交叉驗證 (iii)：將樣本分成 5 份，每次使用其中 4 份進行訓練，剩餘 1 份進行測試。因為每次訓練和測試都使用了不同的樣本，所以執行時間比留一個測試樣本的交叉驗證稍長。\n- 有放返嘅 Bootstrap 方法 (i)：每次從樣本中隨機抽取樣本進行訓練和測試，並重複多次。因為每次訓練和測試都使用了不同的樣本，且需要多次重複，所以執行時間最長。\n\n因此，執行時間的順序是：留一個測試樣本的交叉驗證 > 重複兩次嘅 5 摺教程驗證 > 5 摺交叉驗證 > 有放返嘅 Bootstrap 方法。所以正確答案是 A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'ii > iv > iii > i'], ['B', 'ii > iii > iv > i'], ['C', 'iv > i > ii > iii'], ['D', 'i > ii > iii > iv']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "Seq2Seq模型喺解碼時可以揀用嘅方法",
+    "llm_output": "正確答案：B. 二者均可\n\nSeq2Seq模型在解碼時通常可以使用以下两种方法：\n\nA. 貪心算法（Greedy Search）：每次选择当前概率最大的输出，直到达到终止条件。这种方法简单快速，但可能不是全局最优解。\n\nC. Beam Search：在每次扩展节点时，保留一定数量的候选节点，并根据一定的策略（如概率）选择下一层节点。这种方法可以找到全局最优解，但计算复杂度较高。\n\n因此，Seq2Seq模型在解碼时可以选用贪心算法或束搜索，所以正确答案是B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '貪心算法'], ['B', '二者均可'], ['C', 'Beam Search'], ['D', '二者均不可']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "解決隱馬模型中預測問題嘅算法係",
+    "llm_output": "正確答案係 B. 維特比算法。\n\n維特比算法是一種動態規劃算法，用於解決隱馬爾可夫模型（Hidden Markov Model, HMM）中的預測問題。它能夠高效地計算出在給定觀察序列的情況下，最有可能的隱藏狀態序列。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '前向算法'], ['B', '維特比算法'], ['C', 'Baum-Welch算法'], ['D', '後向算法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下對k-means聚類算法解釋正確嘅係",
+    "llm_output": "C. 唔能自動識別類嘅個數, 隨機挑選初始點為中心點計算",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算'], ['B', '唔能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算'], ['C', '唔能自動識別類嘅個數, 隨機挑選初始點為中心點計算'], ['D', '能自動識別類嘅個數, 隨機挑選初始點為中心點計算']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "一般，k-NN最近鄰方法喺（）嘅情況下效果較好",
+    "llm_output": "D",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '樣本呈團狀分佈'], ['B', '樣本較多但典型性唔好'], ['C', '樣本呈鏈狀分佈'], ['D', '樣本較少但典型性好']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "一監獄人臉識別准入系統用嚟識別待進入人員嘅身份，呢系統一共包括識別4種唔同嘅人員：獄警，賊，送餐員，其他。下面邊種學習方法最適合呢種應用需求",
+    "llm_output": "A. 多分類問題\n\n在這個問題中，監獄人臉識別系統需要識別四種不同的人群：獄警、賊、送餐員和其他。這是一個典型的多分類問題，因為系統需要對每個輸入的圖像進行分類，並且有多個可能的分類結果。其他選項如二分類問題、k-中心點聚類問題和層次聚類問題都不適合這個應用需求，因為它們無法處理多於兩個的分類。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '多分類問題'], ['B', '二分類問題'], ['C', 'k-中心點聚類問題'], ['D', '層次聚類問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗得到同 SVD 一樣嘅投射（projection），你需要喺 PCA 中點樣做",
+    "llm_output": "正確答案：A. 將數據轉換成零均值\n\n解釋：在主成分分析（PCA）中，數據通常需要轉換成零均值，以便進行正交分解。這是因為PCA的目的是找到數據的線性變換，使得變換後的數據具有最大的變異性。將數據轉換成零均值可以確保數據的中心在原點，從而使得計算更加簡單且結果更為準確。\n\n其他選項：\nB. 無法做到 - 這是錯誤的，因為通過將數據轉換成零均值，可以在PCA中得到與SVD相同的投射。\nC. 將數據轉換成零眾數 - 這不是PCA中常用的做法，因為PCA的目的是找到數據的線性變換，而不是針對數據的眾數。\nD. 將數據轉換成零中位數 - 這也不是PCA中常用的做法，原因與C選項相同。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '將數據轉換成零均值'], ['B', '無法做到'], ['C', '將數據轉換成零眾數'], ['D', '將數據轉換成零中位數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺統計模式分類問題中，當先驗概率未知時，可以使用",
+    "llm_output": "D. 最小誤判概率準則\n\n在統計模式分類問題中，當先驗概率未知時，可以使用最小誤判概率準則（Bayes 分類器）。這個方法基於貝葉斯定理，通過計算後驗概率來決定最可能的分類。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'N-P判決'], ['B', '最小最大損失準則'], ['C', '最小損失準則'], ['D', '最小誤判概率準則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊啲方法唔可以直接嚟對文本分類",
+    "llm_output": "正確答案係 B. Kmeans。\n\nKmeans 是一種聚類算法，主要用於將數據集分成若干個群組，每個群組內部嘅數據點之間嘅距離較近，而不同群組之間嘅距離較遠。而文本分類通常需要對文本進行特徵提取後，再使用分類算法進行分類，Kmeans 算法本身並不適合直接對文本進行分類。\n\n其他選項：\nA. 決策樹：可以通過對文本特徵進行分割來進行分類。\nC. 支持向量機：可以通過對文本特徵進行分類來進行分類。\nD. KNN（K-最近鄰）：可以通過計算文本之間嘅距離來進行分類。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '決策樹'], ['B', 'Kmeans'], ['C', '支持向量機'], ['D', 'KNN']]",
+    "is_correct": 1
+  }
+]

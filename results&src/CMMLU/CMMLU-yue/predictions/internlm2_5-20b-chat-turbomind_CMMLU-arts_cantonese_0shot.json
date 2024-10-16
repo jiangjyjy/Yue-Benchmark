@@ -1,0 +1,1602 @@
+[
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺文學上積極鼓吹「小說界革命」嘅係",
+    "llm_output": "正確答案係：\n\nD. 梁啟超\n\n梁啟超在文學上積極鼓吹「小說界革命」，認為小說能夠啟迪民智，是改良社會的重要工具。他通過撰寫和翻譯小說，推動了文學的現代化，並對中國近代文學產生了深遠的影響。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '蔡元培'], ['B', '黃遵憲'], ['C', '胡適'], ['D', '梁啟超']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "挪威劇作家易卜生嘅「玩偶之家」從題材內容睇屬於",
+    "llm_output": "正確答案係A. 社會問題劇。\n\n易卜生嘅「玩偶之家」（原名《A Doll's House》）係一部深刻揭示社會問題嘅戲劇作品，主要關注女性地位、婚姻關係以及個人自由等社會議題。呢部劇通過主角娜拉嘅故事，批判當時社會對女性嘅壓迫同埋對婚姻制度嘅質疑，因此屬於社會問題劇。其他選項，如史詩劇、童話劇同宗教劇，並不符合「玩偶之家」嘅主題同內容。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社會問題劇'], ['B', '史詩劇'], ['C', '童話劇'], ['D', '宗教劇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「紅字」嘅作者係美國作家",
+    "llm_output": "正確答案係：\n\nD. 霍桑\n\n「紅字」（The Scarlet Letter）係美國作家納撒尼尔·霍桑（Nathaniel Hawthorne）嘅代表作之一，出版於1850年。呢本小說以17世紀嘅麻省殖民地為背景，講述咗一個關於罪與罰、隱藏與公開嘅故事。其他选项中，奧尼爾（O'Neill）係愛爾蘭剧作家，福克納（Faulkner）係美國現代主義作家，愛默生（Emerson）則係美國文學家、哲學家。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '奧尼爾'], ['B', '福克納'], ['C', '愛默生'], ['D', '霍桑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術作品通過廣播、網絡等形式進行傳播，屬於",
+    "llm_output": "正確答案：D. 大眾傳播\n\n藝術作品通過廣播、網絡等形式進行傳播，屬於大眾傳播。大眾傳播是指使用各種媒介（如電視、廣播、互聯網等）向大量受眾傳遞信息的方式。這種形式允許藝術作品被廣泛地分享和接觸，超越了傳統的現場表演或展覽的限制，能夠達到更廣泛的觀眾群。其他選項如現場表演傳播、展覽性傳播和口頭傳播均不符合問題中描述的傳播方式。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '現場表演傳播'], ['B', '展覽性傳播'], ['C', '口頭傳播'], ['D', '大眾傳播']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺西方，首次較有系統地闡述藝術起源於模仿嘅理論家係",
+    "llm_output": "正確答案係D. 亞裏士多德。\n\n解析：西方藝術理論中，首次較有系統地闡述藝術起源於模仿的理論家是古希臘的哲學家亞裏士多德。他在其著作《詩學》中提出了模仿說，認為藝術是對現實世界的模仿。其他選項中，蘇格拉底和康德雖然對藝術理論有貢獻，但並未有系統地闡述模仿說；賀拉斯則是一位古羅馬詩人，他的理論與模仿說無直接關聯。因此，最符合問題描述的是D選項，亞裏士多德。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '蘇格拉底'], ['B', '康德'], ['C', '賀拉斯'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺我國近代，提出我手寫我口、'我口寫我心，提倡詩界革命嘅人係",
+    "llm_output": "正確答案係：B. 龔自珍\n\n龔自珍係清朝末年嘅著名詩人，他提出「我手写我口」、「我口寫我心」，並且是詩界革命的重要人物。龔自珍主张诗歌应该反映真实情感和时代精神，反对当时文坛上流行的模拟古風，他的思想和作品對後世有深遠影響。其他選項中，黃遵憲、魏源和蔡元培雖然亦係文化界重要人物，但與提出「我手寫我口」、「我口寫我心」並提倡詩界革命無關。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '黃遵憲'], ['B', '龔自珍'], ['C', '魏源'], ['D', '蔡元培']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "電視劇「京華煙雲」根據同名小說改編，原作作者係",
+    "llm_output": "正確答案係：\nB. 林語堂\n\n電視劇「京華煙雲」改編自林語堂的同名小說。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '沈從文'], ['B', '林語堂'], ['C', '周作人'], ['D', '老舍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "梵高係邊個國家著名畫家。",
+    "llm_output": "正確答案係：\nC. 荷蘭\n\n梵高（Vincent van Gogh）係荷蘭著名畫家，佢嘅作品對後世現代藝術有深遠影響。梵高雖然生前未受廣泛認可，但佢嘅畫作如《星夜》（The Starry Night）、《向日葵》（Sunflowers）等，現已成為全球知名嘅藝術標誌。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '英國'], ['B', '丹麥'], ['C', '荷蘭'], ['D', '法國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "提出境界論嘅近代文藝理論家係",
+    "llm_output": "正確答案係C. 王國維。王國維是近代中國著名的文學理論家、美學家，他提出了著名的“境界論”，認為文學作品的優劣在於其能否創造出一種讓讀者能夠沉浸其中的藝術境界。他的這一理論對後世的文學批評和藝術理論有著深遠的影響。其他選項中，魯迅是著名的作家和思想家，曹雪芹是《紅樓夢》的作者，而劉熙載則是一位畫家和藝術理論家，但他們與“境界論”的提出無關。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '魯迅'], ['B', '曹雪芹'], ['C', '王國維'], ['D', '劉熙載']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "被定義為「主體感受生活、欣賞藝術、體驗同孕育意象嘅敏銳性同悟性」嘅係",
+    "llm_output": "正確答案係：\nA. 藝術敏感\n\n此題目所描述的「主體感受生活、欣賞藝術、體驗同孕育意象嘅敏銳性同悟性」，主要強調的是對藝術和生活的感受能力以及對意象的敏銳捕捉和理解，這與「藝術敏感」的概念相符。藝術敏感是指個人對藝術和生活中細微之處的感知能力，能夠敏銳地捕捉並理解藝術作品中的意象和情感。其他選項如藝術想象力、藝術靈感和藝術技巧，雖然都與藝術創作和欣賞相關，但它們各自強調的是不同的藝術能力。藝術想象力涉及創造新形象和概念的能力，藝術靈感則是指突然間的創意閃現，而藝術技巧則是指技藝上的熟練程度。因此，根據問題描述，最符合的選項是A. 藝術敏感。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '藝術敏感'], ['B', '藝術想象力'], ['C', '藝術靈感'], ['D', '藝術技巧']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "長鼓舞係下列邊一個民族嘅舞蹈",
+    "llm_output": "正確答案係：\n\nD. 朝鮮族\n\n長鼓舞是朝鮮族的傳統舞蹈，通常與朝鮮族的節日和慶典活動相關聯。這種舞蹈強調肢體動作和鼓的節奏，是朝鮮文化中非常重要的一部分。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '鄂倫春族'], ['B', '滿族'], ['C', '蒙古族'], ['D', '朝鮮族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「巴黎聖母院」嘅建築形式屬於",
+    "llm_output": "正確答案：B. 哥特式建築\n\n巴黎聖母院（Notre-Dame de Paris）是法國巴黎的一座著名教堂，其建築風格屬於哥特式建築。哥特式建築的特點包括尖拱門、飛扶壁、細長的塔樓和大量的彩色玻璃窗。巴黎聖母院的西立面和東端玫瑰窗是其哥特式建築風格的典範。其他選項如拜占庭式、羅馬式和拉丁式建築均不符合巴黎聖母院的建築風格。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '拜占庭式建築'], ['B', '哥特式建築'], ['C', '羅馬式建築'], ['D', '拉丁式建築']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "我國著名嘅瓷都係",
+    "llm_output": "正確答案係C. 江西景德鎮。景德鎮被譽為「瓷都」，因為其悠久的陶瓷製作歷史和技術，以及在世界陶瓷文化中的重要地位。自宋代開始，景德鎮便以生產高品質的瓷器而聞名，其陶瓷工藝在明清時期達到鼎盛，成為中國乃至世界陶瓷藝術的重要中心。其他選項中，山東淄博、江蘇宜興和廣東石灣雖然也以陶瓷製作著名，但景德鎮在歷史地位和國際知名度上更為突出。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '山東淄博'], ['B', '江蘇宜興'], ['C', '江西景德鎮'], ['D', '廣東石灣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "模仿說嘅合理性在於",
+    "llm_output": "正確答案：B. 始終抓住藝術與現實世界嘅關係\n\n模仿說認為藝術是對現實世界的模仿，因此它強調藝術作品與現實世界之間的關係。這種理論認為藝術作品通過模仿真實世界中的事物和情境，能夠反映現實，並且能夠通過這種模仿來傳達情感和思想。雖然模仿說也考慮到藝術的情感性和形式因素，以及人的主體性，但這些因素不是模仿說的核心。模仿說最核心的觀點是藝術與現實世界之間的模仿關係。因此，選項B最恰當地描述了模仿說的合理性。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '始終注重藝術嘅情感性因素'], ['B', '始終抓住藝術與現實世界嘅關係'], ['C', '始終肯定人嘅主體因素'], ['D', '始終強調藝術嘅形式因素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "齊白石嘅中國畫「蛙聲十里出山泉」描寫嘅係",
+    "llm_output": "正確答案係：C. 青蛙\n\n「蛙聲十里出山泉」係齊白石嘅一幅中國畫，畫中描繪嘅係一群小青蛙，所以正確答案係C. 青蛙。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '樹蛙'], ['B', '牛蛙'], ['C', '青蛙'], ['D', '蝌蚪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "民族舞劇「絲路花雨」中「反彈琵琶」嘅動作設計來源於",
+    "llm_output": "正確答案：D. 敦煌壁畫\n\n民族舞劇「絲路花雨」中「反彈琵琶」的動作設計來源於敦煌壁畫。敦煌壁畫是中國古代藝術的瑰寶，其中不乏描繪樂舞場景的畫作，這些畫作為舞劇的動作設計提供了靈感來源。「反彈琵琶」這個動作特別是受到敦煌壁畫中琵琶演奏者的姿態的啟發。其他選項如阿細跳月、維吾爾舞蹈和秧歌，雖然都是中國不同地區和民族的傳統舞蹈形式，但與「反彈琵琶」這個具體動作設計的來源無關。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '阿細跳月'], ['B', '維吾爾舞蹈'], ['C', '秧歌'], ['D', '敦煌壁畫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "賀拉斯最重要嘅美學著作係",
+    "llm_output": "正確答案係D. 「詩藝」。\n\n解題思路：\n賀拉斯（Horace）係古羅馬嘅著名詩人同哲學家，佢嘅著作《詩藝》（Ars Poetica）係西方文學史上重要嘅美學論文之一，主要討論咗詩歌創作嘅原則同技巧，對後世文學創作同批評有深遠影響。其他選項中，「詩學」（Poetics）係亞里斯多德嘅著作，「詩品」（The Art of Poetry）係贺拉斯的另一本著作，而「美學」（Aesthetics）則係哲學領域中研究美感與藝術的學科名稱，並非賀拉斯的著作。因此，最符合問題描述的著作是「詩藝」。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「詩學」'], ['B', '「詩品」'], ['C', '「美學」'], ['D', '「詩藝」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「人間喜劇」嘅作者係",
+    "llm_output": "正確答案係D. 雨果。\n\n「人間喜劇」（La Comédie humaine）係法國作家雨果（Victor Hugo）創作的一系列小說，描繪了19世紀法國社會各階層人物的生活，雨果通過這些作品探討了人性、社會問題以及歷史變遷等主題。雨果的其他著名作品包括《悲惨世界》（Les Misérables）和《巴黎聖母院》（Notre-Dame de Paris）。巴爾扎克（Honoré de Balzac）、狄更斯（Charles Dickens）和托爾斯泰（Leo Tolstoy）雖然同樣係著名作家，但他們並無創作名為「人間喜劇」的作品。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '巴爾扎克'], ['B', '狄更斯'], ['C', '託爾斯泰'], ['D', '雨果']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「亞威農少女」係（）繪畫嘅代表作品。",
+    "llm_output": "正確答案係B. 立體主義。\n\n「亞威農少女」（Les Demoiselles d'Avignon）係西班牙畫家巴勃羅·畢卡索（Pablo Picasso）於1907年創作嘅一幅畫作，係立體主義運動嘅重要代表作品。立體主義係20世紀初在法國興起嘅一場藝術運動，強調對物體進行多角度、多視角嘅解構與重組，打破傳統繪畫對空間與形狀嘅固定表現方式。「亞威農少女」畫作中對人物形象嘅抽象化處理，以及對空間結構嘅重新構建，充分體現了立體主義嘅藝術特點。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '野獸派'], ['B', '立體主義'], ['C', '達達主義'], ['D', '抽象主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "1886年創作嘅青銅圓雕「加萊義民」嘅作者係",
+    "llm_output": "正確答案係：B. 法國羅丹\n\n「加萊義民」（Les Bourgeois de Calais）係法國雕塑家奧古斯特·羅丹（Auguste Rodin）於1886年創作嘅青銅圓雕作品。呢件作品描繪咗14世紀時法國加萊市向英國國王愛德華三世投降時，七位加萊市民願意為城市牺牲自己嘅情景。羅丹嘅作品通常以深刻嘅情感表達和對人性嘅深入探索而聞名，「加萊義民」亦反映出其對人物心理狀態嘅深刻洞察。其他選項中，多納太羅、貝尼尼和米開朗基羅均係著名藝術家，但他們並無創作「加萊義民」。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '意大利多納太羅'], ['B', '法國羅丹'], ['C', '法國貝尼尼'], ['D', '意大利米開朗基羅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "我國古代著名繪畫作品「洛神賦圖」嘅作者係",
+    "llm_output": "正確答案係 C. 顧愷之。\n\n「洛神賦圖」係中國古代著名畫作，據傳其作者為東晉畫家顧愷之。此畫作根據曹植的《洛神賦》創作，描繪了洛神宓妃的仙姿神態，被譽為中國傳統繪畫中的經典之作。其他選項中，張擇端以《清明上河圖》聞名，展子虔則以《遊春圖》知名，而閻立本則以《步辇圖》著稱。因此，關於「洛神賦圖」的作者，正確答案是 C. 顧愷之。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '張擇端'], ['B', '展子虔'], ['C', '顧愷之'], ['D', '閻立本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「藍色多瑙河圓舞曲」嘅作者係係奧地利作曲家",
+    "llm_output": "正確答案係：\nC. 約翰•施特勞斯\n\n「藍色多瑙河圓舞曲」（The Blue Danube）係奧地利作曲家約翰•施特勞斯二世（Johann Strauss II）嘅作品，通常被視為施特勞斯最著名嘅作品之一，亦係奧地利音樂的代表作品。其他選項中，李斯特（Franz Liszt）、貝多芬（Ludwig van Beethoven）和巴赫（Johann Sebastian Bach）均係著名作曲家，但並無創作「藍色多瑙河圓舞曲」。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '李斯特'], ['B', '貝多芬'], ['C', '約翰•施特勞斯'], ['D', '巴赫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術家應具備嘅審美美創能力係",
+    "llm_output": "正確答案係：\n\nB. 敏銳嘅感知能力，豐富嘅想象力，精湛嘅藝術技巧\n\n審美美創能力主要涉及藝術家對藝術的感知、創造和表達能力。感知能力讓藝術家能夠敏銳地捕捉到周圍世界的細節和美感；豐富的想象力則讓藝術家能夠創造出獨特且富有創意的作品；精湛的藝術技巧則是指藝術家在技術層面上能夠精確地表達自己的創意和想法。這些能力共同構成了藝術家創作藝術作品所必需的核心能力。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '敏銳嘅感知能力，豐富嘅想象力，深入嘅理論研究能力'], ['B', '敏銳嘅感知能力，豐富嘅想象力，精湛嘅藝術技巧'], ['C', '高超嘅鑒賞能力，豐富嘅想象力，深刻嘅批評能力'], ['D', '敏銳嘅感知能力，嚴密嘅邏輯思維能力，精湛嘅藝術技巧']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "立體派嘅人物係",
+    "llm_output": "正確答案係D. 畢加索。\n\n立體派（Cubism）係一種藝術運動，主要發展於20世紀初期，由西班牙畫家巴勃羅·畢加索（Pablo Picasso）同法國畫家喬治·布拉克（Georges Braque）共同創立。立體派強調對物體進行多角度、多視角的解構與重組，打破傳統的透視法，創造出一種新的視覺語言。因此，在提供嘅選項中，畢加索是與立體派相關的人物。其他選項中，馬蒂斯（Henri Matisse）是印象派後的重要畫家，梵•高（Vincent van Gogh）是後印象派畫家，高更（Paul Gauguin）則屬於後印象派及象徵主義畫家，均與立體派無直接關聯。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '馬蒂斯'], ['B', '梵•高'], ['C', '高更'], ['D', '畢加索']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "何佔豪、陳鋼創作嘅「梁山伯與祝英臺」係一部",
+    "llm_output": "正確答案係C. 小提琴協奏曲。\n\n「梁山伯與祝英臺」係由何佔豪、陳鋼於1959年創作嘅小提琴協奏曲，係中國音樂史上一部具有代表性和影響力嘅作品。此曲以中國民間傳說「梁山伯與祝英臺」嘅愛情故事為背景，通過小提琴獨奏與交響樂團協奏嘅形式，表達了深刻嘅情感和豐富嘅音樂內涵。因此，選項C為正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '二胡獨奏曲'], ['B', '大提琴獨奏曲'], ['C', '小提琴協奏曲'], ['D', '交響曲']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺藝術嘅定義問題上，提出「集體無意識說」嘅美學家嘅係",
+    "llm_output": "正確答案嘅選項係：\nB. 榮格\n\n榮格提出「集體無意識說」，認為藝術創作是集體無意識的表達。其他選項中，洛克（A）係英國启蒙時代的哲學家，以政治理論和知識論著名；弗洛伊德（C）係心理學家，以精神分析理論知名；蘇珊·朗格（D）則係美國藝術哲學家，以對藝術表現和情感表達的理論著稱。因此，關於藝術定義問題上提出「集體無意識說」的正是榮格。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '洛克'], ['B', '榮格'], ['C', '弗洛伊德'], ['D', '蘇珊·朗格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "下列選項中，屬於接受美學代表人物嘅係",
+    "llm_output": "接受美學（Reception Aesthetics）主要關注藝術作品與觀眾之間的互動，強調觀眾在藝術接受過程中的主體性。在提供的选项中，尧斯（Hans Robert Jauss）是德国接受美学的重要代表人物，他提出了“期待视域”（horizon of expectation）的概念，强调读者在阅读文学作品时的预期和解读过程。\n\n因此，正确答案是：\nB. 尧斯",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '海德格爾'], ['B', '堯斯'], ['C', '羅蘭·巴爾特'], ['D', '蘇珊·朗格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術創作嘅思維方式係",
+    "llm_output": "正確答案係D。在藝術創作中，形象思維通常被視為主要思維方式，因為藝術創作往往涉及對具體形象的創造和表現。雖然抽象思維亦在藝術創作中扮演角色，但通常形象思維在藝術創作過程中起著更為核心和主體的作用。因此，選項D「形象思維為主體」是正確的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '形象思維排斥思維'], ['B', '抽象思維為主導'], ['C', '形象思維同抽象思維起同樣作用'], ['D', '形象思維為主體']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學主要通過()呢一中介對藝術產生影響。",
+    "llm_output": "正確答案係C. 美學。\n\n哲學主要通過美學這一中介對藝術產生影響。美學是研究藝術和美的理論與現象的學科，它探討藝術的本質、藝術創作與欣賞的心理過程、藝術的價值以及藝術與社會、文化、哲學等領域的關係。因此，哲學對藝術的影響往往通過美學的理論框架和概念來實現。其他選項如宗教、政治和倫理學雖然也可能對藝術產生影響，但這些影響通常不是通過哲學中介直接產生的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '宗教'], ['B', '政治'], ['C', '美學'], ['D', '倫理學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術本體論從根本上講就係藝術",
+    "llm_output": "正確答案係：C. 存在論\n\n藝術本體論主要探討藝術作為一個存在實體的性質和本質。存在論強調藝術作品作為一個獨立存在實體的重要性，認為藝術作品自身具有其固有的意義和價值，不依賴於觀者或創作者的主觀意識。因此，存在論在藝術本體論中佔據核心地位。其他選項如行為論、功能論和形式論，雖然也是藝術理論中的重要概念，但它們更多關注的是藝術的創作過程、社會功能以及形式結構等方面，而非藝術作為一個存在實體的本質。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '行為論'], ['B', '功能論'], ['C', '存在論'], ['D', '形式論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "世界文化遺產泰姬陵位於",
+    "llm_output": "正確答案係：\nB. 印度\n\n泰姬陵（Taj Mahal）位於印度北部城市阿格拉（Agra），是莫臥兒帝國皇帝沙贾汗（Shah Jahan）為紀念其愛妃穆姆塔茲·瑪哈（Mumtaz Mahal）而建造的陵墓，於1983年被聯合國教科文組織列為世界文化遺產。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '柬埔寨'], ['B', '印度'], ['C', '越南'], ['D', '緬甸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "影片「戰艦波將金號」係20世紀20年代邊一個國家嘅重要作品",
+    "llm_output": "正確答案係：\n\nD. 蘇聯\n\n影片「戰艦波將金號」（Battleship Potemkin）係蘇聯導演謝爾蓋·愛森斯坦於1925年執導嘅一部著名電影，係苏联蒙太奇電影的代表作品之一。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '法國'], ['B', '美國'], ['C', '意大利'], ['D', '蘇聯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "拍攝人像時，最好使用",
+    "llm_output": "正確答案：C. 順光\n\n順光（Front Lighting）是指光源直接照射在拍攝對象的正面，這種光線能夠均勻地照亮被攝者的面部，減少陰影，突顯細節，使皮膚看起來更加光滑，是拍攝人像時常用且理想的光線條件。其他選項如側光、頂光和逆光則會在人像攝影中引致不同的效果，例如側光會增加立體感，頂光可能會造成額頭和下巴的陰影，而逆光則可能用來創造剪影效果或光暈。因此，在標準的人像攝影情境下，順光是最佳選擇。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '側光'], ['B', '頂光'], ['C', '順光'], ['D', '逆光']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術概論研究嘅對象係人類嘅",
+    "llm_output": "正確答案係：\nB. 審美活動\n\n藝術概論研究嘅對象主要是人類嘅審美活動，因為藝術作為審美對象，其核心在於通過藝術作品引發和滿足人們的審美需求和審美經驗。情感活動、精神活動和藝術活動雖然與藝術相關，但並不是藝術概論研究的主要對象。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '情感活動'], ['B', '審美活動'], ['C', '精神活動'], ['D', '藝術活動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "楷書最早產生於",
+    "llm_output": "楷書最早產生於漢代。因此，正確答案嘅選項是 B. 漢代。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '魏晉'], ['B', '漢代'], ['C', '宋代'], ['D', '唐代']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術品嘅直接性物質存在係",
+    "llm_output": "正確答案係C. 物質實在層。\n\n解析：藝術品嘅存在可以從不同層次來理解，其中「物質實在層」指的是藝術品作為物理存在，即可以觸摸、感知到的物質實體。其他選項如意境超驗層、形式符號層和意象世界層則分別指向藝術作品所引發的情感體驗、藝術形式和符號所構成的層面以及藝術作品所創造的虛擬世界或意象領域。因此，直接性物質存在最恰當地與「物質實在層」相對應。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '意境超驗層'], ['B', '形式符號層'], ['C', '物質實在層'], ['D', '意象世界層']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「洛神賦圖」相傳為東晉大畫家()嘅作品。",
+    "llm_output": "正確答案係：\nB. 顧愷之\n\n「洛神賦圖」相傳為東晉大畫家顧愷之嘅作品。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '王羲之'], ['B', '顧愷之'], ['C', '張芝'], ['D', '鐘繇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "文藝復興時期唔喺畫壇三傑之列嘅畫家係",
+    "llm_output": "正確答案係：\n\nD. 倫勃朗\n\n文藝復興時期畫壇三傑通常指的是達•芬奇（Leonardo da Vinci）、米開朗基羅（Michelangelo）和拉斐爾（Raphael）。倫勃朗（Rembrandt）則係17世紀荷蘭黃金時代嘅畫家，不属于文藝復興時期。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '達•芬奇'], ['B', '米開朗基羅'], ['C', '拉斐爾'], ['D', '倫勃朗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "梅特林克嘅「青鳥」、「唔速之客」等作品係邊個流派戲劇嘅典型之作。",
+    "llm_output": "正確答案係B. 象徵派。\n\n梅特林克（Maurice Maeterlinck）係比利時嘅著名剧作家，其作品「青鳥」（The Blue Bird）和「唔速之客」（The Unexpected Guests）均屬於象徵派戲劇。象徵派戲劇強調通過象徵和隱喻來表達深層次嘅意義，並且經常探討人生哲理、夢想與現實之間嘅矛盾。梅特林克嘅作品充滿了神秘色彩和哲理思考，符合象徵派戲劇嘅特點。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '荒誕派'], ['B', '象徵派'], ['C', '寫實派'], ['D', '印象派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「自由女神引導人民」係法國（）繪畫代表作品。",
+    "llm_output": "正確答案係：A. 浪漫主義\n\n「自由女神引導人民」係法國浪漫主義畫家歐仁·德拉克羅瓦的代表作。浪漫主義強調情感表達、個人主義以及對自然和歷史的熱愛，這些元素在德拉克羅瓦的畫作中得到了充分體現。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '浪漫主義'], ['B', '現實主義'], ['C', '古典主義'], ['D', '印象主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "唐三彩常用嘅顏色主要係",
+    "llm_output": "正確答案係D。唐三彩主要使用黃、綠、白三種顏色，這些顏色通常會一起使用，創造出鮮豔且富有層次感的藝術效果。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '紅、綠、白'], ['B', '綠、黃、紫'], ['C', '紅、黃、藍'], ['D', '黃、綠、白']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「套中人」係我俄國作家（）嘅重要作品。",
+    "llm_output": "正確答案係：C. 果戈裏\n\n「套中人」（The Man in the Case）係俄國作家果戈理（Nikolai Gogol）的重要作品，通常被視為其短篇小說集《死魂靈》（Dead Souls）中的一部分。這部作品描繪了一個極度保守、恐懼改變的官僚形象，成為了對僵化社會結構和個人恐懼變革心理的尖銳批評。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '託爾斯泰'], ['B', '契訶夫'], ['C', '果戈裏'], ['D', '高爾基']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "亞裏士多德最重要嘅美學著作係",
+    "llm_output": "正確答案係C. 「詩學」。\n\n解析：亞裏士多德（Aristotle）的重要美學著作是《詩學》（Poetics），這本書主要探討了文學和戲劇的理論，特別是悲劇。《詩品》是曹丕的作品，《詩藝》是贺拉斯的作品，而《論崇高》則不是亞裏士多德的著作。因此，根據這些資訊，可以確定C選項是正確的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「詩品」'], ['B', '「詩藝」'], ['C', '「詩學」'], ['D', '「論崇高」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「西廂記」嘅作者係",
+    "llm_output": "正確答案係 C. 王實甫。\n\n「西廂記」通常指的是元代王實甫所著的《崔鶯鶯待月西廂記》，這部作品描繪了崔鶯鶯和張生之間的愛情故事，是中國文學史上的經典之作。其他選項中的作家關漢卿、白樸和馬致遠同樣是元代著名的戲曲作家，但他們並非「西廂記」的作者。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '關漢卿'], ['B', '白樸'], ['C', '王實甫'], ['D', '馬致遠']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「阿細跳月」係我國邊一個民族嘅民族舞蹈。",
+    "llm_output": "正確答案係：B. 彝族。\n\n阿細跳月是彝族的一種傳統舞蹈，主要流行於中國雲南省的彝族地區。這種舞蹈通常在月圓之夜舉行，是彝族文化中的一部分，象徵著團結和歡樂。阿細跳月的舞步輕盈，節奏明快，通常伴隨著彝族傳統音樂，如笛子、二胡等樂器演奏。這種舞蹈不僅是彝族文化的重要組成部分，也成為了當地旅遊和民族文化交流的重要展示項目。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '傣族'], ['B', '彝族'], ['C', '苗族'], ['D', '白族']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "電視劇「圍城」係根據邊個嘅同名小說改編嘅。",
+    "llm_output": "正確答案係D. 錢鍾書。電視劇「圍城」係根據錢鍾書嘅同名小說改編嘅。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '沈從文'], ['B', '張愛玲'], ['C', '巴金'], ['D', '錢鍾書']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "19世紀法國畫家大衛嘅代表係",
+    "llm_output": "正確答案係B. 「馬拉之死」。\n\n解析：\nA. 「日出印象」是克洛德·莫內的作品，屬於印象派畫作。\nB. 「馬拉之死」是雅克-路易·大衛的作品，描繪了法國大革命期間的著名政治家让-保尔·馬拉之死。\nC. 「向日葵」是文森特·梵高的作品，屬於後印象派畫作。\nD. 「夜巡」是雷蒙德·維梅爾的作品，描繪了阿姆斯特丹民兵隊在夜間出發的場景。\n\n因此，選項B是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「日出印象」'], ['B', '「馬拉之死」'], ['C', '「向日葵」'], ['D', '「夜巡」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "由些可夫斯基作曲嘅古典芭蕾舞劇（）達到咗古典浪漫主義舞劇嘅光輝頂點。",
+    "llm_output": "正確答案係A. 「天鵝湖」。\n\n此題考查的是柴可夫斯基（Pyotr Ilyich Tchaikovsky）作曲的古典芭蕾舞劇。柴可夫斯基的三部著名芭蕾舞劇《天鵝湖》（Swan Lake）、《睡美人》（The Sleeping Beauty）和《胡桃夾子》（The Nutcracker）中，《天鵝湖》被廣泛認為是古典浪漫主義舞劇的巔峰之作。這部作品於1877年首演，雖然初期並不成功，但後來成為了芭蕾舞劇中最受歡迎和演出次數最多的作品之一。\n\n其他選項中，B. 「浮士德」（Faust）和C. 「羅密歐與朱麗葉」（Romeo and Juliet）也是柴可夫斯基的作品，但它們並不屬於古典浪漫主義舞劇的頂峰。D. 「天鵝之死」（The Dying Swan）實際上是柴可夫斯基為芭蕾舞劇《天鵝湖》中天鵝女王角色創作的獨奏曲，而非一部完整的芭蕾舞劇。\n\n因此，最符合問題描述的答案是A. 「天鵝湖」。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「天鵝湖」'], ['B', '「浮士德」'], ['C', '「羅密歐與朱麗葉」'], ['D', '「天鵝之死」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術活動產生於人類嘅邊一時期",
+    "llm_output": "正確答案：C. 原始社會\n\n藝術活動的起源可以追溯到人類的早期歷史，特別是原始社會時期。在這個時期，藝術形式如洞穴壁畫、雕塑和音樂等，不僅是美學表達，也是社會文化、宗教信仰和日常生活的反映。這些藝術形式在奴隸制、封建社會等後續歷史階段繼續發展，但它們的根源可以追溯到人類最早的社會組織形式——原始社會。因此，選項C是正確的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '奴隸制後期'], ['B', '奴隸制前期'], ['C', '原始社會'], ['D', '封建社會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "影片「遠山的呼喚」嘅作者係",
+    "llm_output": "影片「遠山的呼喚」（又稱為「山の呼び声」）的作者是日本導演市川崑。因此，正確的選項是：\n\nC. 日本\n\n市川崑是一位著名的日本電影導演，他的作品多以日本傳統文化及歷史為背景，「遠山的呼喚」就是其代表作之一。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '蘇聯'], ['B', '美國'], ['C', '日本'], ['D', '法國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "海勒「第二十二條軍規」係邊個流派代表作品之一。",
+    "llm_output": "正確答案係A. 黑色幽默。\n\n海勒的《第二十二條軍規》是黑色幽默流派的代表作之一。黑色幽默是一種文學風格，它以幽默和讽刺的方式處理嚴肅或悲慘的主題，通常帶有對社會、政治或人性的批判。海勒的這部作品通過對二戰期間美國空軍飛行員的經歷的荒謬描述，揭示了戰爭的荒謬性和人類的無力感，充分體現了黑色幽默的特點。其他選項如魔幻現實主義、意識流和荒誕派，雖然都是文學流派，但它們的風格和主題與《第二十二條軍規》所呈現的黑色幽默風格不吻合。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '黑色幽默'], ['B', '魔幻現實主義'], ['C', '意識流'], ['D', '荒誕派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "詩句「感時花濺淚，恨別鳥驚心」嘅作者係",
+    "llm_output": "正確答案係：\nA. 李商隱\n\n「感時花濺淚，恨別鳥驚心」出自唐代詩人李商隱的《無題》。這句詩表達了詩人對時世的感懷以及對離別的悲傷情感。李商隱以其精緻的文筆和深刻的情感表達著稱，是唐代著名的詩人之一。其他選項中的李白、杜牧和杜甫同樣是唐代著名詩人，但這句詩並非出自他們之手。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '李商隱'], ['B', '李白'], ['C', '杜牧'], ['D', '杜甫']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「吾家洗硯池頭樹，個個花開淡墨痕，唔要人誇好顏色，只留清氣滿乾坤」。此詩作者係",
+    "llm_output": "正確答案係：D. 王冕\n\n此詩句出自王冕的《墨梅》，描繪了墨梅的清雅之姿，表達了作者淡泊名利、追求高潔品格的志趣。王冕是元代著名的文人、畫家，尤以畫梅聞名，其作品多流露出超然物外、清高自持的情懷。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '蘇東坡'], ['B', '齊白石'], ['C', '金農'], ['D', '王冕']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "文學嘅主要表現手段係",
+    "llm_output": "正確答案係D. 語言。\n\n文學作為藝術形式之一，其核心表現手段是語言。通過語言，作家能夠創造出各種各樣的故事情節、人物角色以及情感表達，這些都是依賴於語言的運用與創造。情節、結構和故事雖然是文學作品的重要組成部分，但它們都是通過語言來實現和表達的。因此，語言是文學的主要表現手段。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '情節'], ['B', '結構'], ['C', '故事'], ['D', '語言']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "揚州八怪係指喺邊個朝代朝活躍喺揚州嘅8位風格相近嘅革新派畫家。",
+    "llm_output": "正確答案係：\nA. 清\n\n揚州八怪是指在清朝時期在揚州地區活躍的八位風格相近的革新派畫家。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '清'], ['B', '元'], ['C', '宋'], ['D', '明']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「良宵」、「光明行」係音樂家劉天華創作嘅（）獨奏曲。",
+    "llm_output": "正確答案係B. 二胡。\n\n「良宵」和「光明行」是音樂家劉天華創作的二胡獨奏曲。刘天華是中國近代著名的民族音樂家，他對二胡音樂的發展做出了重要貢獻，包括創作了多首二胡獨奏曲，其中「良宵」和「光明行」就是他最著名的作品之一。這些作品不僅展現了二胡豐富的表現力，也提升了二胡在中國傳統音樂中的地位。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '揚琴'], ['B', '二胡'], ['C', '箏'], ['D', '京胡']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「小二黑結婚」係我國文學史上()嘅代表作之一。",
+    "llm_output": "正確答案係A。「小二黑結婚」係赵樹理創作嘅一部长篇小說，屬於我國文學史上「山藥蛋派」的代表作品之一。「山藥蛋派」以描繪農村生活為主要特色，作品風格樸實、生動，深受農民喜愛。其他選項中，B「鴛鴦蝴蝶派」主要指20世紀初以徐志摩、胡適等人為代表的新文學運動中的一個流派；C「創造社」則是指1921年在日本東京成立的一個文學團體；D「新月派」則是指1920年代中期在北京大學形成的一個文學流派。因此，根據題目描述，「小二黑結婚」與「山藥蛋派」相關聯。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '山藥蛋派'], ['B', '鴛鴦蝴蝶派'], ['C', '創造社'], ['D', '新月派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術品賴以喺時空中存在嘅實體同媒介係指",
+    "llm_output": "正確答案係C. 物質實在層。\n\n解析：藝術品存在於時空中，其依賴的實體和媒介指的是可以觸摸和感知到的物理形式，這就是所謂的「物質實在層」。其他選項如「意象世界層」、「意境超驗層」和「形式符號層」則更多地涉及到藝術作品的內在意涵、情感表達以及抽象的符號系統，這些不是藝術品存在於時空中的物理依賴。因此，最符合問題描述的答案是C選項。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '意象世界層'], ['B', '意境超驗層'], ['C', '物質實在層'], ['D', '形式符號層']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國戲劇史上塑造咗蘩漪呢一重要形象嘅劇目係",
+    "llm_output": "正確答案係C. 「雷雨」。\n\n蘩漪呢一角色係曹禺先生嘅名劇《雷雨》中嘅主要角色之一，該角色深刻地反映了女性在傳統社會壓迫下嘅心理狀態同埋內心掙扎。《雷雨》不僅在中國戲劇史上佔有重要地位，亦對後世文學創作產生了深遠影響。其他選項中，《上海屋檐下》、《茶館》同《日出》均係中國戲劇史上有名嘅作品，但喺其中並無蘩漪呢一角色。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「上海屋檐下」'], ['B', '「茶館」'], ['C', '「雷雨」'], ['D', '「日出」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "30年代趙丹同周璇主演嘅影片（）係我國電影藝術基本成熟嘅最重要嘅標誌。",
+    "llm_output": "正確答案係：B. 「馬路天使」\n\n解析：30年代，趙丹同周璇主演嘅影片《馬路天使》係我國電影藝術基本成熟嘅最重要嘅標誌。呢部電影不僅在藝術上有所創新，同時亦反映了當時社會嘅現實問題，對後世中國電影發展有著深遠嘅影響。其他選項如《小城之春》、《一江春水向東流》及《漁光曲》雖然亦係中國電影史上有名嘅作品，但就唔係30年代趙丹同周璇主演嘅影片。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「小城之春」'], ['B', '「馬路天使」'], ['C', '「一江春水向東流」'], ['D', '「漁光曲」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "康德最著名嘅學論著係",
+    "llm_output": "正確答案係A. 「判斷力批判」。\n\n康德（Immanuel Kant）是18世紀德國的哲學家，他的「判斷力批判」（Critique of Judgment）是他美學理論的重要著作，該書探討了審美判斷的基礎和條件，以及藝術與自然美之區別。這本書在西方美學史上佔有重要地位，康德在這裡提出了「共通感」（common sense）的概念，認為這是人們進行審美判斷時共有的心理能力。\n\n其他選項中，B. 「拉奧在孔」並不存在，可能是對康德其他著作的誤寫或錯誤翻譯；C. 「漢堡劇評」也不是康德的著作；D. 「美學」一詞雖然與康德的理論相關，但並非指代他特定的某本著作。因此，最符合問題描述的答案是A. 「判斷力批判」。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「判斷力批判」'], ['B', '「拉奧在孔」'], ['C', '「漢堡劇評」'], ['D', '「美學」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺我國，提出「以美育代替宗教」呢一思想嘅係",
+    "llm_output": "正確答案係C. 蔡元培。蔡元培提出「以美育代替宗教」的思想，強調美育在教育中的重要性，認為通過藝術和美學教育可以提升人的道德和精神層次，並且可以作為替代宗教信仰的一種方式。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '魯迅'], ['B', '王國維'], ['C', '蔡元培'], ['D', '胡適']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "一部戲劇作品嘅基本單位係",
+    "llm_output": "正確答案係D. 場面。\n\n在戲劇藝術中，場面通常被視為基本單位，因為它是构成戲劇的具體場景和事件。場面可以包含人物、對話、動作和布景，但它們通常围绕一個特定的場景或事件組織起來。雖然情境、故事和人物同樣重要，但場面是戲劇中最直接可見和最基礎的結構元素。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '情境'], ['B', '故事'], ['C', '人物'], ['D', '場面']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「石壕吏」屬於",
+    "llm_output": "正確答案：B. 敘事詩\n\n「石壕吏」是唐代詩人杜甫的作品，屬於敘事詩。這首詩描繪了安史之亂期間，一個官吏在石壕村強行徵兵的場景，通過具體事件和人物來敘述當時社會的動盪與人民的苦難，因此被歸類為敘事詩。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '抒情詩'], ['B', '敘事詩'], ['C', '散文詩'], ['D', '詞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "出現喺秦代嘅書本係",
+    "llm_output": "正確答案係B. 小篆。\n\n小篆是秦代官方書法，由秦始皇統一文字後所採用，取代了之前各國不同的書寫系統。秦始皇統一六國後，為了促進政令統一和行政管理，命李斯等人制定了統一的書法規範，即小篆。小篆的字形規範嚴謹，是秦代官方文書和碑刻的主要書體。\n\n其他選項的說明如下：\nA. 甲骨文是商朝晚期至西周初期使用的一種文字，主要刻在龜甲和獸骨上，用於占卜。\nC. 楷書是漢朝後期發展起來的一種書體，到魏晉時期逐漸成熟，成為後世書法的主要形式。\nD. 金文是指周朝時期鑄在青铜器上的文字，主要用於記錄王室和貴族的事蹟。\n\n因此，出現於秦代的本書體應是小篆。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '甲骨文'], ['B', '小篆'], ['C', '楷書'], ['D', '金文']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "王國維喺「人間詞話」中提出咗",
+    "llm_output": "王國維在「人間詞話」中提出的是境界說，所以正確的選項是 A. 境界說。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '境界說'], ['B', '風格說'], ['C', '格調說'], ['D', '神韻說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "唐代著名詩人李賀被稱為",
+    "llm_output": "唐代著名詩人李賀因其作品充滿奇幻色彩和獨特的風格，被後人譽為“詩鬼”。因此，正確的選項是 C. 詩鬼。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '詩仙'], ['B', '詩佛'], ['C', '詩鬼'], ['D', '詩聖']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "中國最早嘅詩歌總集「詩經」編成於",
+    "llm_output": "正確答案係D. 西漢。\n\n「詩經」，又稱為《詩》或《詩三百》，是中國最早的詩歌總集，收集了從西周初年到春秋中葉的305篇詩歌。這些詩歌原本是用於祭祀、宴會、勞動等場合的唱詞，後來被編集成書。根據歷史記載，《詩經》的編纂工作主要在西漢時期完成，特別是在漢武帝時期，由魯國学者毛亨和毛苌進行了重要的整理和注釋工作，形成了「毛詩」的定本。因此，選項D是正確的。其他選項，如東漢、商代和春秋時代，均不符合《詩經》編成的歷史背景。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '東漢'], ['B', '商代'], ['C', '春秋時代'], ['D', '西漢']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "油畫「父親」嘅作者係",
+    "llm_output": "正確答案係：\nA. 羅中立\n\n「父親」係羅中立於1980年創作嘅一幅油畫，係中國現代美術史上一件重要嘅作品，表達咗對農民嘅深厚感情。其他選項中嘅藝術家齊白石、陳逸飛和徐悲鴻均係著名藝術家，但並無創作「父親」這幅油畫。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '羅中立'], ['B', '齊白石'], ['C', '陳逸飛'], ['D', '徐悲鴻']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "我國京劇史上嘅「四大名旦」係梅蘭芳、程硯秋、荀慧生同",
+    "llm_output": "正確答案係 C. 尚小雲。\n\n「四大名旦」是指中國京劇史上四位極具代表性的旦角演員，他們分別是梅蘭芳、程硯秋、荀慧生和尚小雲。尚小雲以其精湛的表演藝術和對京劇的貢獻，與梅蘭芳、程硯秋、荀慧生並列，成為京劇界的四大名旦。其他選項中，白玉霜和梅葆玖並非「四大名旦」的成員，而張君秋雖然是著名的京劇演員，但亦非「四大名旦」之一。因此，選項 C 是正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '白玉霜'], ['B', '張君秋'], ['C', '尚小雲'], ['D', '梅葆玖']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「雀之靈」與「殘春」同屬於",
+    "llm_output": "正確答案：C. 獨舞\n\n「雀之靈」和「殘春」都是著名的獨舞作品。「雀之靈」是楊麗萍創作的舞蹈，以孔雀為題材，通過獨舞的形式展現孔雀的靈動與美麗。而「殘春」則是由中國舞蹈家王麗華創作的獨舞，通過舞蹈表達了對春天即將逝去的感懷。這兩個作品均以獨舞的形式呈現，因此選項C是正確的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '雙人舞'], ['B', '羣舞'], ['C', '獨舞'], ['D', '三人舞']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「俄狄浦斯王」、「安提戈涅」嘅作者係",
+    "llm_output": "正確答案係：\n\nA. 索福克勒斯\n\n「俄狄浦斯王」（Oedipus Rex）和「安提戈涅」（Antigone）均係索福克勒斯（Sophocles）嘅作品。索福克勒斯係古希臘嘅三大悲劇作家之一，其他兩位分別係埃斯庫羅斯（Aeschylus）和歐裏庇得斯（Euripides）。阿里斯托芬（Aristophanes）則以寫喜劇聞名。因此，選項A係正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '索福克勒斯'], ['B', '阿里斯托芬'], ['C', '埃斯庫羅斯'], ['D', '歐裏庇得斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「四君子」等寒窗清供之物係傳統文人嘅常用花鳥畫題材，而（）嘅畫作已唔限於此，佢係將生活現實中嘅普通物象，特別係將大量農村生活物象收入畫幅。",
+    "llm_output": "正確答案係C. 齊白石。\n\n齊白石（1864-1957），湖南湘潭人，中國近現代著名畫家，以畫蝦、蟹、魚、鳥、花、石等題材著稱。他的畫作突破了傳統文人畫的題材限制，將日常生活中的普通物象，特別是大量農村生活物象，如農作物、家禽等，融入其作品中，展現出濃厚的民間色彩和生活氣息。而「四君子」（梅、蘭、竹、菊）則更多地與傳統文人畫家如徐悲鴻、吳昌碩等人相關聯。因此，在上述選項中，齊白石最符合問題描述的畫家。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '徐悲鴻'], ['B', '吳昌碩'], ['C', '齊白石'], ['D', '潘天壽']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "席勒喺邊一本書中首次提出咗「美育」呢一概念。",
+    "llm_output": "正確答案係D. 「美育書簡」。\n\n席勒（Friedrich Schiller）在《美育書簡》（On the Aesthetic Education of Man）中首次提出了「美育」（Aesthetic Education）呢一概念。這本書於1795年出版，席勒在書中探討了藝術與美育對人類精神發展的重要性，並認為通過藝術教育可以促進個人的全面發展，包括道德和理性方面的提升。因此，選項D是正確的。其他選項如「美學」、「藝術哲學」和「詩藝」雖然都與藝術和美學相關，但並不是席勒提出「美育」概念的書籍。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「美學」'], ['B', '「藝術哲學」'], ['C', '「詩藝」'], ['D', '「美育書簡」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "美術創作原則「外師造化、中得心源」係邊個提出嘅。",
+    "llm_output": "正確答案係D. 張璪。\n\n「外師造化、中得心源」這句話來自唐代畫家張璪的藝術理論。這句話的意思是說藝術創作應該從觀察自然（外師造化）中汲取靈感，同時也要內心感悟（中得心源），將個人的情感和理解融入作品中。張璪的這一理論對後世的中國畫創作和藝術理論有著深遠的影響。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '張彥遠'], ['B', '王維'], ['C', '王洽'], ['D', '張璪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「美係生活」嘅係",
+    "llm_output": "正確答案係：\nA. 車爾尼雪夫斯基\n\n車爾尼雪夫斯基（Nikolai Gogol）係俄國嘅著名作家、哲學家，他提出「美係生活」（\"Art is life\"）嘅觀點，強調藝術與生活之間緊密聯繫。其他選項中，普洛丁（Plotinus）係古希臘哲學家，以新柏拉圖主義著名；亞裏士多德（Aristotle）係古希臘哲學家、科學家，對多領域有深遠影響；列寧（Vladimir Lenin）係俄國革命領袖，與藝術理論無直接關聯。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '車爾尼雪夫斯基'], ['B', '普洛丁'], ['C', '亞裏士多德'], ['D', '列寧']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「蜀道難」係我國唐代詩人（）嘅名篇。",
+    "llm_output": "正確答案係D. 李白。\n\n「蜀道難」係唐代著名詩人李白嘅代表作之一，該詩描繪了蜀道之險峻，表達了作者對自然力量嘅敬畏以及對人生道路艱難嘅感慨。李白以他豪放不羈嘅文風和豐富嘅想像力，將蜀道之難以極具藝術感染力嘅方式呈現出來，成為中國文學史上一篇傳世佳作。其他選項中，杜甫、白居易、高適均為唐代著名詩人，但「蜀道難」並非他們之作。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '杜甫'], ['B', '白居易'], ['C', '高適'], ['D', '李白']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「勞動先於藝術，功利先於審美」嘅係",
+    "llm_output": "正確答案係：\nC. 列寧\n\n列寧提出「勞動先於藝術，功利先於審美」的觀點，強調了勞動在社會發展中的基礎地位以及藝術創作與社會實踐之間的聯繫。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '恩格斯'], ['B', '斯大林'], ['C', '列寧'], ['D', '普列漢諾夫']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「草葉集」嘅作者係美國作家",
+    "llm_output": "正確答案係：\nB. 惠特曼\n\n「草葉集」（Leaves of Grass）係美國作家沃爾特·惠特曼（Walt Whitman）嘅代表作，出版於1855年。呢本诗集對美國文學有深遠影響，惠特曼以自由體形式寫作，表達對自由、民主和人道主義嘅熱愛。其他選項中，海明威以小說《老人與海》著名，德萊塞以《嘉莉妹妹》等作品知名，而梁啟超則係中國近代思想家、改革者，非美國作家。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '海明威'], ['B', '惠特曼'], ['C', '德萊塞'], ['D', '梁啟超']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "印象派畫家喺描繪物體時所追求嘅係",
+    "llm_output": "印象派畫家在描繪物體時所追求的是光色變化，因此正確答案係C。印象派畫家強調自然光線下色彩的瞬間變化，他們追求捕捉那一時刻的光影效果，而非傳統藝術中對形體結構的精確描繪。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '光線明暗'], ['B', '形體結構'], ['C', '光色變化'], ['D', '意象效果']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "影片「偷自行車嘅人」係20世紀50年代邊個國家嘅影片。",
+    "llm_output": "正確答案係A. 意大利。\n\n「偷自行車嘅人」（Ladri di Biciclette）係意大利導演維托里奥·德·西卡（Vittorio De Sica）於1948年執導嘅電影，係意大利新現實主義電影嘅代表作之一。呢部片嘅背景設定在戰後嘅意大利，透過描述一個贫穷家庭失去自行車後嘅困難與挑戰，反映出當時社會經濟困境以及普通人嘅生活現實。因此，呢部片係20世紀50年代意大利嘅影片。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '意大利'], ['B', '法國'], ['C', '日本'], ['D', '英國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「等待戈多」、「禿頭歌女」係邊一流派戲劇嘅代表作。",
+    "llm_output": "正確答案係A. 荒誕派。\n\n「等待戈多」係由 Samuel Beckett 創作，而「禿頭歌女」則由 Eugène Ionesco 創作，兩部作品均係荒誕派戲劇的代表作品。荒誕派戲劇通常以非線性、非傳統的敘事方式，以及對現實世界的荒謬感來表達人類存在之無意義與孤獨感。這些特徵在上述兩部作品中均有體現。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '荒誕派'], ['B', '浪漫主義'], ['C', '批判現實主義'], ['D', '古典主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "唱、念、做、打呢四種表演藝術嘅表現手段廣泛應用於",
+    "llm_output": "正確答案：B. 戲曲\n\n唱、念、做、打是中國傳統戲曲中的四大表演藝術手段，分別代表著唱腔、對白（念白）、動作（做功）和武術（打）。這些元素在戲曲中結合，創造出獨特的藝術表現形式。其他選項如電影、話劇和歌舞劇雖然也可能包含這些元素，但它們不是這些表現手段的廣泛應用場合。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '電影'], ['B', '戲曲'], ['C', '話劇'], ['D', '歌舞劇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國古代繪畫理論中，繪畫作品嘅最高層次係",
+    "llm_output": "正確答案係C. 逸品。\n\n在中國古代繪畫理論中，繪畫作品的評價標準通常分為四個層次，分別是能品、妙品、神品和逸品。其中，逸品被視為繪畫作品的最高層次，代表著藝術家能夠超越傳統技法和形式，達到一種自由奔放、無拘無束的藝術境界。逸品強調的是藝術家個人的情感表達和創意發揮，通常具有極高的藝術價值和個人風格。因此，在提供的选项中，逸品（C）是繪畫作品最高層次的評價。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '能品'], ['B', '神品'], ['C', '逸品'], ['D', '妙品']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺戲劇呢一綜合體中，居於中心地位同主導地位嘅係",
+    "llm_output": "正確答案係A. 演員嘅表演藝術。\n\n在戲劇這一綜合藝術形式中，演員的表演藝術通常被視為核心和主導地位，因為演員通過肢體語言、面部表情和聲音來傳達角色和故事，是觀眾直接體驗戲劇內容的媒介。其他選項如舞台佈景、音樂伴奏和服裝道具雖然對戲劇的完整性至關重要，但它們主要起輔助作用，支持演員的表演，而非居于中心地位。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '演員嘅表演藝術'], ['B', '舞臺嘅佈景藝術'], ['C', '音樂伴奏藝術'], ['D', '服裝道具藝術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "俄羅斯畫家列賓嘅代表作係",
+    "llm_output": "正確答案係：\nB. 「伏爾加河纖夫」\n\n列賓（Ilya Repin）係俄羅斯著名畫家，其代表作之一就是「伏爾加河纖夫」（Barge Haulers on the Volga）。這幅畫描繪了纤夫在伏爾加河上拉船的辛勞場景，深刻反映了社會底層人民的生活狀況，是列賓社會寫實主義風格的典範之作。其他選項中，「女貴族莫洛卓娃」是苏里科夫的作品，「梅杜薩之筏」是席里柯的作品，「自由女神領導住人民」則與列賓無關。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「女貴族莫洛卓娃」'], ['B', '「伏爾加河纖夫」'], ['C', '「梅杜薩之筏」'], ['D', '「自由女神領導住人民」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「E小調第九交響曲（自新大陸）」嘅作曲家",
+    "llm_output": "正確答案：A. 德沃夏克\n\n「E小調第九交響曲（自新大陸）」是捷克作曲家安东ín Dvořák的作品，作品編號為Op. 95。這部交響曲於1893年完成，是德沃夏克在美國期間創作的，深受美國本土音樂的影響，特別是印第安音樂的元素，因此得名「自新大陸」。其他選項中的作曲家與這部作品無關：B. 貝多芬是著名的德國作曲家，以九部交響曲聞名，但這部作品不是他的作品；C. 格什溫是美國作曲家，以爵士樂和音樂劇聞名，而非交響曲；D. 柴科夫斯基是俄國作曲家，以芭蕾舞音樂和交響曲聞名，但這部作品也不是他的作品。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '德沃夏克'], ['B', '貝多芬'], ['C', '格什溫'], ['D', '柴科夫斯基']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "我國嘅彩塑到盛唐達到頂峯，此時嘅代表作品係",
+    "llm_output": "正確答案係 B. 敦煌塑像。\n\n敦煌塑像是指在敦煌莫高窟內的一系列彩塑，這些作品主要集中在盛唐時期，約公元7至8世紀。敦煌莫高窟是中國古代佛教藝術的重要遺存，其彩塑以精美的造型、豐富的色彩和深刻的表達力著稱，是中國古代藝術的瑰寶。這些塑像不僅在藝術上達到了極高的成就，同時也反映了當時社會、文化和宗教的多樣性。\n\n其他選項中，麥積山石窟像、山西晉祠像和雲岡石窟像同樣是中國古代藝術中的重要代表，但它們各自代表的時期和風格與敦煌塑像有所不同。麥積山石窟和雲岡石窟的彩塑主要集中在北朝時期，而山西晉祠像則更多地體現了宋代的藝術風格。因此，根據問題中提到的“盛唐達到頂峯”，最符合的答案是 B. 敦煌塑像。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '麥積山石窟像'], ['B', '敦煌塑像'], ['C', '山西晉祠像'], ['D', '雲岡石窟像']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "優美、喜劇、醜同荒誕等審美形態成為世界各民族共同嘅審美形態，主要係由於",
+    "llm_output": "正確答案：B. 社會嘅發展\n\n審美形態如優美、喜劇、醜同荒誕等成為世界各民族共同嘅審美形態，主要係由於社會嘅發展。隨著社會的進步和交流的增加，不同文化之間相互影響，共同形塑了這些跨文化的審美標準。社會發展促進了文化交流和認同，使得某些審美形式得以跨越地域和文化的界限，成為全球性的審美趨向。其他選項如藝術嘅變遷、實踐嘅提升和文化嘅認同，雖然亦與審美形態的形成有關，但主要原因還是社會發展帶來的文化交流與融合。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '藝術嘅變遷'], ['B', '社會嘅發展'], ['C', '實踐嘅提升'], ['D', '文化嘅認同']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "畫家對色彩有濃厚嘅興趣，音樂家對現實中嘅音響非常敏感，雕塑家對 非常敏感。",
+    "llm_output": "正確答案嘅選項是 D. 體積同空間。\n\n雕塑家主要關注的是三維空間中物體體積和形狀的表現，因此他們對體積和空間的感知特別敏感。這與畫家關注的平面上的色彩和線條、音樂家關注的音響和節奏不同，雕塑家更著重於實物在空間中的存在和體積感。所以，根據問題中提供的情境，雕塑家對「體積同空間」非常敏感。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '色彩同線條'], ['B', '用料同工具'], ['C', '形象同造型'], ['D', '體積同空間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "著名嘅「卡門」組曲嘅作曲家係法國19世紀作曲家",
+    "llm_output": "正確答案係：\nA. 比才\n\n「卡門」組曲的作曲家係法國19世紀作曲家比才（Georges Bizet）。比才創作了這部著名的歌劇《卡門》（Carmen），該作品於1875年首演，雖然當時反響平平，但後來成為了世界上最受歡迎的歌劇之一。其他選項中，帕格尼尼（Niccolò Paganini）係意大利小提琴家，舒伯特（Franz Schubert）係奧地利作曲家，德彪西（Claude Debussy）係法國作曲家，但他們均非「卡門」組曲的作曲家。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '比才'], ['B', '帕格尼尼'], ['C', '舒伯特'], ['D', '德彪西']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "電視劇「四世同堂」係根據（）嘅長篇小說改編嘅。",
+    "llm_output": "正確答案係：B. 老舍\n\n「四世同堂」電視劇係根據老舍嘅長篇小說《四世同堂》改編嘅。老舍（1899年2月3日－1966年8月24日），原名舒慶春，字舍予，中國現代著名小說家、戲劇家，北京人，其作品多以北京市民生活為背景，具有濃厚嘅京味儿。《四世同堂》係老舍先生於1944年至1945年间在美國撰寫嘅長篇小說，描繪了北京一個普通家庭在抗戰期間的生活情景，反映了當時社會各階層人民的生活狀態和心理變化。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '馬金'], ['B', '老舍'], ['C', '魯迅'], ['D', '茅盾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一部徽劇講述嘅係三國時期蔡邕之女文姬，因兵亂被擄入匈奴，做咗左賢王嘅妃子，曹操得知，派遣使者用金幣將佢贖返嘅故事",
+    "llm_output": "正確答案係C. 「胡笳十八拍」。\n\n此題目描述的是中國古代文學作品《胡笳十八拍》中的故事，該作品講述了蔡文姬在匈奴的生活以及最終被曹操贖回的經歷。《胡笳十八拍》是一部融合了音樂與文學的藝術作品，通常被視為中國古代文學中的經典之作。其他選項如「淤泥河」、「快活林」和「情誼千秋」並不符合問題描述的三國時期蔡邕之女文姬的故事。因此，最符合問題描述的答案是C選項「胡笳十八拍」。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「淤泥河」'], ['B', '「快活林」'], ['C', '「胡笳十八拍」'], ['D', '「情誼千秋」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺攝影作品中，為表現愉悅嘅、活躍嘅審美感受，多用邊種結構表現。",
+    "llm_output": "正確答案係A. 曲線。\n\n在攝影作品中，曲線結構通常被用來表現愉悅和活躍的審美感受。曲線具有流動性和動感，能夠引導觀眾的視線在畫面中流動，創造出一種動態的視覺效果。這種結構不僅能夠捕捉到主體的形狀和輪廓，還能夠傳達出一種生氣勃勃和充滿活力的感覺。\n\n水平線和對稱結構通常會給人一種穩定和平衡的感受，而斜線可能會帶來一種不穩定或動感的感覺，但這取決於斜線的角度和上下文。因此，在表現愉悅和活躍的審美感受時，曲線結構是最合適的選擇。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '曲線'], ['B', '水平線'], ['C', '斜線'], ['D', '對稱']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "戲曲作品「桃花扇」產生於",
+    "llm_output": "正確答案：D. 清代\n\n「桃花扇」是清代著名戲曲作家孔尚任創作的歷史劇，描繪了明末清初的歷史背景和人物故事。该剧作完成於1699年，即清朝康熙三十八年，因此它產生於清代。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '元代'], ['B', '明代'], ['C', '民國初年'], ['D', '清代']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「羣鬼」、「玩偶之家」係社會問題劇嘅代表作，作者係",
+    "llm_output": "正確答案係：\nB. 易卜生\n\n易卜生（Henrik Ibsen）係挪威嘅著名劇作家，被譽為現代戲劇之父。其作品「羣鬼」（Ghosts）和「玩偶之家」（A Doll's House）均為社會問題劇（Social Problem Play）嘅代表作，深刻揭示了當時社會中嘅各種問題，對後世劇作家有深遠影響。其他選項中，莫里哀（Molière）係法國古典喜劇代表人物，梅特林克（Maurice Maeterlinck）係比利時象徵主義作家，而蕭伯納（George Bernard Shaw）雖然亦係著名劇作家，但「羣鬼」和「玩偶之家」並非其作品。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '莫里哀'], ['B', '易卜生'], ['C', '梅特林克'], ['D', '蕭伯納']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「推、拉、搖、升、降」係電影攝影藝術中嘅。",
+    "llm_output": "正確答案係：B. 動向表現手段。\n\n在電影攝影藝術中，「推、拉、搖、升、降」是指攝影機的運動方式，這些運動可以創造出不同的視覺效果和情感氛圍，屬於動向表現手段。這些手法能夠改變觀眾對場景的感知，例如推近可以強化情感，拉遠可以提供背景信息，搖動可以創造動態感，升和降則可以改變視角和視野，從而影響觀眾的觀影體驗。因此，這些手法是動向表現手段的一部分，而非色彩、光學或光線表現手段。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '色彩表現手段'], ['B', '動向表現手段'], ['C', '光學表現手段'], ['D', '光線表現手段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "宋代米芾、米友仁父子嘅「米派」以邊種畫作最為著名。",
+    "llm_output": "正確答案係A. 山水畫。宋代米芾、米友仁父子所創立的「米派」以山水畫最為著名，其畫風獨特，強調筆墨的自由揮灑和情感的表達，對後世山水畫發展有深遠影響。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '山水畫'], ['B', '人物畫'], ['C', '墨竹畫'], ['D', '花鳥畫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "詩句「海內存知己，天涯若比鄰」嘅作者係",
+    "llm_output": "正確答案係：B. 王勃\n\n王勃是唐代著名的文学家，这句诗出自他的作品《送杜少府之任蜀州》。这句诗表达了即使朋友身处远方，只要彼此心灵相通，就如同邻居一样亲近。这句诗体现了唐代文人对于友情和距离的深刻理解，也反映了唐代诗歌中对于情感表达的细腻和深邃。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '李白'], ['B', '王勃'], ['C', '王維'], ['D', '杜甫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "十七世紀荷蘭嘅繪畫藝術屬於",
+    "llm_output": "正確答案係A. 市民文化。\n\n十七世紀嘅荷蘭，由於商業和貿易嘅繁榮，形成咗強烈嘅市民文化。這段時間嘅荷蘭繪畫，特別係風景畫、靜物畫以及日常生活畫，反映咗當時市民階層嘅生活情趣同审美取向。荷蘭畫家如雷布蘭特（Rembrandt）、梵高（Vincent van Gogh）等，佢哋嘅作品多以市民生活為題材，強調真實與現實，反映出市民文化嘅特點。因此，十七世紀荷蘭嘅繪畫藝術屬於市民文化。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '市民文化'], ['B', '宮廷文化'], ['C', '封建文化'], ['D', '貴族文化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "大型歌舞「雲南映像」嘅編導及主演係當代著名舞蹈家",
+    "llm_output": "正確答案係：\n\nD. 楊麗萍\n\n「雲南映像」係由當代著名舞蹈家楊麗萍編導及主演嘅大型歌舞劇。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '刀美蘭'], ['B', '趙青'], ['C', '陳愛蓮'], ['D', '楊麗萍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "剛柔、急緩、輕重、提按等係指書法藝術中嘅",
+    "llm_output": "正確答案係A. 用筆。\n\n剛柔、急緩、輕重、提按等詞語描述的是書法中用筆的技法，這些詞語涉及書法家在書寫時對筆的掌握和運用，包括筆的力度、速度和變化等。這些用筆的技法直接影響到書法作品的風格和表達效果。因此，這些詞語與書法中的用筆技法相關，而非章法、用墨或結構。章法通常指的是書法作品的整體布局和安排，用墨則是指墨的濃淡和運用，結構則是指字體本身的結構和構成。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '用筆'], ['B', '章法'], ['C', '用墨'], ['D', '結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "體現咗西方人喺醜面前嘅無奈嘅審美形態係",
+    "llm_output": "正確答案係D. 荒誕。\n\n荒誕（Absurd）係西方藝術與文學中一個重要概念，通常指涉人類存在與宇宙無意義之間的矛盾。這種審美形態體現了西方人面對醜陋、無常與無意義時感到嘅無奈與困惑。荒誕藝術作品通常呈現出一種反傳統、反理性嘅風格，反映出對現實世界嘅質疑與批判。\n\n悲劇（Tragedy）通常涉及英雄人物嘅失敗與悲劇，崇高（Sublime）則指一種令人敬畏嘅美，而喜劇（Comedy）則以輕鬆幽默嘅方式呈現生活。這些形式與荒誕相比，並不符合問題中描述的西方人面對醜面前嘅無奈。因此，D選項「荒誕」最符合問題描述的審美形態。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '悲劇'], ['B', '崇高'], ['C', '喜劇'], ['D', '荒誕']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "三一律係歐洲（）戲劇嘅創作法則",
+    "llm_output": "正確答案係：C. 古典主義\n\n三一律（Three Unities）係古典主義戲劇創作的重要原則，包括時間統一（一個故事發生在24小時內）、地點統一（整個故事發生在一個地點）和行動統一（故事中的行動應是統一的，即所有事件都應有助於推動主要情節發展）。這些原則主要在17世紀的法國古典主義戲劇中得到強調，因此與古典主義戲劇創作法則相關。其他選項如現實主義、文藝復興和浪漫主義並不是與三一律直接相關的藝術流派。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '現實主義'], ['B', '文藝復興'], ['C', '古典主義'], ['D', '浪漫主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "最早提出世界文學概念嘅人係",
+    "llm_output": "正確答案係A. 歌德。\n\n歌德（Johann Wolfgang von Goethe）係德國嘅著名文學家、哲學家，佢喺1771年嘅《威廉·麥斯特的學習時代》（Wilhelm Meisters Lehrjahre）中首次提出「世界文學」（Weltliteratur）嘅概念。歌德認為世界文學應該超越國界，反映人類共通嘅經驗同理想，並且能夠促進不同文化之間嘅交流同理解。雖然其他作家如托爾斯泰（Leo Tolstoy）同莎士比亞（William Shakespeare）亦對世界文學有重要貢獻，但係最早提出呢個概念嘅人係歌德。司湯達（Stendhal）亦係法國嘅著名作家，但佢並無提出世界文學概念。所以，最終答案係A. 歌德。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '歌德'], ['B', '莎士比亞'], ['C', '司湯達'], ['D', '託爾斯泰']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "貝多芬嘅第九交響曲係",
+    "llm_output": "正確答案係：\nB. 「合唱」\n\n貝多芬的第九交響曲，正式名稱為「交響曲第9號，作品125」，通常被昵稱為「合唱交響曲」，因為其第四樂章包含了一首著名的合唱曲《欢乐颂》（Ode an die Freude），這是由德國詩人席勒的詩作改編而成。這部作品是貝多芬晚年的代表作之一，也是古典音樂中最著名和最具影響力的作品之一。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「田園」'], ['B', '「合唱」'], ['C', '「英雄」'], ['D', '「命運」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺西方美學史上，提出「內在感官說」嘅美學家係",
+    "llm_output": "正確答案係 C. 夏夫茲博裏。\n\n夏夫茲博裏（David Hume）係18世紀嘅苏格兰哲學家，佢提出嘅「內在感官說」認為人類天生具有審美感覺，能夠對美與醜作出判斷，而呢種能力與理性無關，係一種內在的直覺。荷加茲（Francis Hutcheson）亦提出過類似嘅「內在感官說」，但夏夫茲博裏嘅理論對後世影響較大。哈奇生（Henry Home, Lord Kames）同博克（Edmund Burke）亦係重要美學家，但佢哋嘅理論與「內在感官說」有所不同。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '荷加茲'], ['B', '哈奇生'], ['C', '夏夫茲博裏'], ['D', '博克']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "有「活子龍「同「活武松」之稱嘅係演員",
+    "llm_output": "正確答案係：D. 楊小樓與蓋叫天\n\n「活子龍」與「活武松」分別指的是京劇演員楊小樓和蓋叫天。楊小樓以扮演關公（子龍）聞名，而蓋叫天則以扮演武松著名，因此他們分別獲得了這些別號。尚和玉和周信芳也是京劇界的重要人物，但他們與「活子龍」和「活武松」的稱號無關。馬連良則是一位著名的京剧表演艺术家，但同樣與這些別號無關。因此，選項D是正確的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '尚和玉與蓋叫天'], ['B', '蓋叫天與馬連良'], ['C', '蓋叫天與周信芳'], ['D', '楊小樓與蓋叫天']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "中國近代史上，提出「以美育代宗教」嘅係",
+    "llm_output": "正確答案係A. 蔡元培。\n\n蔡元培（1868-1940），中國近代著名的教育家、文化活動家，他提出「以美育代宗教」的主張，認為美育能夠提升人的道德情操，並且能夠替代宗教在社會中的某些功能。蔡元培認為，通過藝術和美學教育，可以培養人們的審美能力，從而達到精神上的昇華和道德上的自我完善。他的這一觀點對中國近代教育思想產生了深遠的影響。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '蔡元培'], ['B', '胡適'], ['C', '周作人'], ['D', '李大釗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "影片「城南舊事」嘅導演曾獲金雞獎，導演係",
+    "llm_output": "正確答案係：\n\nD. 吳貽弓\n\n影片「城南舊事」的導演是吴贻弓，他曾獲金雞獎。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '滕文驥'], ['B', '謝添'], ['C', '謝晉'], ['D', '吳貽弓']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「藝術天才」嘅正確表述係",
+    "llm_output": "正確答案係：\nB. 唯心主義睇法\n\n「藝術天才」通常被視為一種主觀的評價，這與唯心主義的觀點相符，即認為真實性和價值主要來自個人的意識和感知。唯心主義強調心靈和思想在理解世界中的作用，因此認為藝術天才可能是基於個人的觀點和感受而存在的主觀現象。其他選項則未能準確反映「藝術天才」這一概念的主觀性和相對性。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '客觀存在嘅現象'], ['B', '唯心主義睇法'], ['C', '子虛烏有嘅嘢'], ['D', '人人都係藝術天才']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "我國著名影片「林則徐」、「喺烈火中永生」、「聶耳」男主角嘅扮演者為",
+    "llm_output": "正確答案係D。趙丹曾經在影片「林則徐」中飾演主角林則徐，並在「烈火中永生」中飾演烈士邱少雲，同時在「聶耳」中飾演聶耳。其他選項中，謝添、秦怡和李默然均未在上述影片中飾演男主角。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '謝添'], ['B', '秦怡'], ['C', '李默然'], ['D', '趙丹']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "攝影藝術中，用以表現某一個被攝對象嘅全貌同佢所處嘅環境為目的，一般應用",
+    "llm_output": "正確答案：A. 全景\n\n攝影藝術中，全景是指拍攝的畫面能夠包含被攝對象的完整形態以及其周圍環境，從而達到展示被攝對象全貌及其所處環境的目的。遠景（B）通常用於展示更廣闊的場景，中景（C）則聚焦於被攝對象的一部分，而近景（D）則更注重細節和表情。因此，要表現某一個被攝對象的全貌同佢所處嘅環境，一般應用全景（A）。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '全景'], ['B', '遠景'], ['C', '中景'], ['D', '近景']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "雕刻「晨」「暮」「晝」「夜」嘅作者係",
+    "llm_output": "正確答案係：\n\nC. 米開朗琪羅\n\n米開朗琪羅（Michelangelo Buonarroti）係意大利文藝復興時期嘅著名藝術家，其作品「晨」「暮」「晝」「夜」係為意大利佛羅倫斯美第奇家族陵墓設計的雕像，表現了四位代表著不同時刻的女性形象。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '羅丹'], ['B', '米隆'], ['C', '米開朗琪羅'], ['D', '多那太羅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「命運交響曲」係邊個嘅作品。",
+    "llm_output": "正確答案係：\nD. 貝多芬\n\n「命運交響曲」（Sinfonia funebre: La morte di Eulio）通常是指貝多芬的《第三交響曲》（Symphony No. 3 in E♭ major, Op. 55, Eroica），特別是其中著名的葬禮進行曲（Funeral March）。雖然貝多芬的《第三交響曲》有時被俗稱為「英雄交響曲」，但「命運交響曲」這個名稱也經常被用來指代這部作品，特別是在中文中。其他選項中的作曲家海頓、莫扎特和瓦格納均非此作品的作者。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '海頓'], ['B', '莫扎特'], ['C', '瓦格納'], ['D', '貝多芬']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "著名作曲家劉天華「漢宮秋月」係（）曲。",
+    "llm_output": "正確答案係B. 二胡。\n\n「漢宮秋月」係著名作曲家劉天華創作的二胡曲，係中國傳統音樂中極具代表性的二胡作品之一。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '絲竹'], ['B', '二胡'], ['C', '古琴'], ['D', '板胡']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "詼諧、幽默嘅表演形式，表現咗勞動人民嘅生活場景，富有濃厚嘅鄉土氣息，係下列邊一個廬劇劇目?",
+    "llm_output": "正確答案係：A. 「王婆駡雞」\n\n庐剧，又称“蘆劇”，是中国安徽省的地方戏曲剧种，以浓郁的乡土气息和幽默诙谐的表演形式著称。其中，「王婆駡雞」是庐剧中的经典剧目，它以幽默诙谐的方式展现了劳动人民的生活场景，充满了乡土气息，符合题目描述的特征。其他选项「小辭店」、「打桑」和「打竈」虽然也是庐剧的剧目，但它们并不以幽默诙谐和表现劳动人民生活场景为主要特点。因此，根据题目要求，最符合描述的剧目是「王婆駡雞」。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「王婆駡雞」'], ['B', '「小辭店」'], ['C', '「打桑」'], ['D', '「打竈」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "浮世繪係日本17世紀興起嘅一種藝術，佢將民間日常生活作為創作題材，主要通過（）嘅形式表現出嚟。",
+    "llm_output": "正確答案係A. 版畫。\n\n浮世繪（Ukiyo-e）係日本17世紀至19世紀之間流行嘅一種木刻版畫藝術形式，主要描繪了當時嘅民間生活、戲劇、美女、風景等題材。浮世繪通常使用多色印刷技術製作，如饾版印刷（多塊木板分別上色後疊印），這種技術使得浮世繪作品色彩豐富且細膩。因此，選項A「版畫」係正確答案。其他選項如油畫、工筆畫和水彩畫均非浮世繪主要使用嘅藝術形式。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '版畫'], ['B', '油畫'], ['C', '工筆畫'], ['D', '水彩畫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "我國嘅史前繪畫最早見於",
+    "llm_output": "正確答案：B. 舊石器時代晚期\n\n解釋：中國的史前繪畫最早見於舊石器時代晚期，具體來說是在約1.7萬年前的河南鄭州出土的骨笛上發現了早期的圖案，這些圖案被認為是早期的繪畫形式。這些發現表明，中國的藝術活動可以追溯到非常古老的時期，而這些骨笛上的圖案是目前已知的中國最早的繪畫實例。因此，選項B是正確的。其他選項所指的時代都晚於舊石器時代晚期，所以不是最早見於史前繪畫的時代。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '舊石器時代早期'], ['B', '舊石器時代晚期'], ['C', '舊石器時代中期'], ['D', '新石器時代']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊一位大師唔係京劇旦角行當中嘅四大藝術流派嘅創始人之一?",
+    "llm_output": "正確答案係：\n\nD. 時白林\n\n時白林並非京劇旦角行当中的四大藝術流派創始人之一，而梅蘭芳、尚小雲和荀慧生則分別是梅派、尚派和荀派的創始人。時白林是一位著名的音樂家，而非京劇演員。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '梅蘭芳'], ['B', '尚小雲'], ['C', '荀慧生'], ['D', '時白林']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「等待戈多」係()戲劇嘅代表作品。",
+    "llm_output": "正確答案係B. 荒誕派。\n\n「等待戈多」係 Samuel Beckett 創作嘅著名戲劇，通常被視為荒誕派戲劇嘅典範。荒誕派戲劇強調人生無意義、存在之荒謬以及人類對此荒謬狀態之無力感。「等待戈多」中，角色等待戈多，但戈多永遠不會到來，象徵了人類對未來無盡等待卻無果的荒謬情境。其他選項中，存在主義強調個人自由、選擇與責任，象徵主義則通過象徵來表達深層意義，表現主義則強調情感表達與主觀經驗，這些都與「等待戈多」所表達的荒謬主題不盡相符。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '存在主義'], ['B', '荒誕派'], ['C', '象徵主義'], ['D', '表現主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「日出印象」嘅作者係法國著名印象派畫家",
+    "llm_output": "正確答案係：\nB. 莫奈\n\n「日出印象」係法國印象派畫家克洛德·莫奈（Claude Monet）嘅代表作之一，完成於1872年。呢幅畫作標誌著印象派畫風嘅開端，並且成為印象派運動嘅名稱來源。莫奈以捕捉瞬間光線變化與自然景觀嘅色彩為特點，其作品強調視覺感受與即時印象，而非傳統藝術中嘅精確描繪。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '高更'], ['B', '莫奈'], ['C', '雷諾阿'], ['D', '梵高']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "中國古代書法家中有「書聖」稱號嘅係",
+    "llm_output": "正確答案係C. 王羲之。\n\n王羲之被譽為「書聖」，其書法成就卓著，尤以《蘭亭集序》最為著名，影響深遠。其他選項中，張旭和懷素同樣是傑出的書法家，但沒有「書聖」的稱號；顏真卿則以楷書見長，亦非「書聖」。因此，最符合「書聖」稱號的書法家是王羲之。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '張旭'], ['B', '懷素'], ['C', '王羲之'], ['D', '顏真卿']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "漢末魏晉時期出現嘅（）名曲「廣陵散」、「梅花三弄」已經達到咗相當高嘅藝術水平。",
+    "llm_output": "正確答案係D. 古琴。\n\n「廣陵散」和「梅花三弄」是中國古代著名的古琴曲，源於漢末魏晉時期。古琴作為中國傳統樂器之一，有著悠久歷史，其音色深沉、內蘊，能夠表現出豐富的情感和哲理。這兩首曲子不僅在音樂史上佔有重要地位，也成為了後世學習和欣賞古琴音樂的經典之作。因此，選項D「古琴」是正確答案。其他選項如古箏、揚琴和二胡，雖然也是中國傳統樂器，但「廣陵散」和「梅花三弄」特指古琴曲。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '古箏'], ['B', '揚琴'], ['C', '二胡'], ['D', '古琴']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "被稱為「藝術學之父」嘅德國理論家係",
+    "llm_output": "正確答案係：A. 費德勒\n\n德國理論家費德勒（Heinrich Wölfflin）因其對藝術學的貢獻而被譽為「藝術學之父」。他對藝術史和藝術理論的發展有深遠的影響，特別是通過他的著作《藝術史的基本概念》（Kunstgeschichte als Wissenschaft），他提出了分析藝術作品的方法，並強調視覺藝術的獨立性。費德勒的理論對後世藝術史和藝術理論的研究方法產生了重要影響。其他選項中的黑格爾（Hegel）、康德（Kant）和席勒（Schiller）雖然也是重要的哲學家，但他們並非以「藝術學之父」著稱。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '費德勒'], ['B', '黑格爾'], ['C', '康德'], ['D', '席勒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "電影藝術誕生於",
+    "llm_output": "正確答案：C. 1895年\n\n電影藝術被廣泛認為是在1895年由路易·卢米埃和奥古斯特·卢米埃兄弟在巴黎卡普辛路14號的“大咖啡館”首次公開展示的。這次展示標誌著電影的商業放映開始，因此通常被視為電影藝術的誕生年份。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '1905年'], ['B', '1915年'], ['C', '1895年'], ['D', '1921年']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術嘅首要功能係",
+    "llm_output": "正確答案係B. 審美。\n\n藝術的主要功能之一是審美，即通過欣賞和體驗藝術作品來提升人們對美的認識和欣賞能力。雖然啟蒙、認識和感化也是藝術可能帶來的影響，但審美更為核心，因為它直接與藝術作品的美學價值和欣賞過程相關。其他選項如啟蒙、認識和感化，更多地與藝術作品可能產生的思想啟發、知識傳播或情感影響相關，而非藝術本身首要的功能。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '啟蒙'], ['B', '審美'], ['C', '認識'], ['D', '感化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國文學史上，宋代成就最突出嘅文學體裁係",
+    "llm_output": "宋代文學成就最突出嘅文學體裁係詞。所以正確答案係C。詞在宋代發展至鼎盛，特別是宋詞，代表作家有蘇軾、李清照等，其作品至今仍被廣泛傳頌。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '賦'], ['B', '傳奇'], ['C', '詞'], ['D', '雜劇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "藝術家創作個性成熟嘅標誌係藝術家喺長期藝術實踐中所形成嘅",
+    "llm_output": "正確答案係D. 藝術風格。\n\n藝術風格通常被視為藝術家個性成熟嘅標誌，係指藝術家在長期嘅藝術實踐中所形成嘅獨特且穩定嘅藝術表現形式。藝術風格不僅反映出藝術家嘅技術技巧，更體現出其藝術思想、審美觀念以及個性特點。其他選項如藝術體驗、藝術意蘊和藝術構思，雖然亦與藝術創作相關，但並不足以代表藝術家個性成熟嘅標誌。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '藝術體驗'], ['B', '藝術意蘊'], ['C', '藝術構思'], ['D', '藝術風格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "中國古老建築紫禁城午門之前嘅太廟同社稷壇，顯示咗",
+    "llm_output": "正確答案係A。太廟是供奉皇帝祖先的地方，象徵著族權，而社稷壇則祭祀土地和穀物之神，象徵著神權。紫禁城午門之前設置太廟和社稷壇，反映出皇權受到族權和神權的拱衛，即皇權的合法性來自於對祖先的敬奉（族權）和對神明的崇拜（神權）。因此，A選項「族權同神權對皇權嘅拱衛」最恰當地描述了這種關係。其他選項未能準確反映出太廟和社稷壇對皇權的拱衛性質。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '族權同神權對皇權嘅拱衛'], ['B', '族權對皇權同神權嘅倚賴'], ['C', '神權對皇權同族權嘅庇護'], ['D', '皇權同族權對神權嘅拱衛']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「西斯延聖母」係邊個嘅代表作之一。",
+    "llm_output": "正確答案係：\nA. 拉斐爾\n\n「西斯延聖母」（Sistine Madonna）係意大利文藝復興時期畫家拉斐爾（Raphael）的代表作之一。此畫作完成於1513年，現藏於德國德累斯顿的茨温格宮美术馆。米開朗基羅（Michelangelo）、達•芬奇（Leonardo da Vinci）和歐裏庇得斯（Euripides，古希臘悲劇作家）均與此畫無關。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '拉斐爾'], ['B', '米開朗基羅'], ['C', '達•芬奇'], ['D', '歐裏庇得斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「召樹屯同南木諾娜」係邊個民族嘅民間舞蹈",
+    "llm_output": "正確答案係：C. 傣\n\n「召樹屯同南木諾娜」係傣族嘅民間舞蹈，源自於傣族民間傳說中嘅英雄召樹屯同其妻子南木諾娜嘅愛情故事。此舞蹈通常伴隨傣族傳統音樂，展現了傣族文化中嘅浪漫與美麗。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '苗'], ['B', '白'], ['C', '傣'], ['D', '藏']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「老人與海」係美國著名作家（）50年代嘅代表作品。",
+    "llm_output": "正確答案係：B. 海明威\n\n「老人與海」係美國著名作家海明威於1952年發表嘅小說，係佢50年代嘅代表作品之一。海明威以佢簡潔而有力嘅文筆，以及對人類面對困難時嘅堅韌精神嘅描繪而聞名。呢部作品亦為佢贏得了1954年嘅諾貝爾文學獎。其他選項中，福克納、海勒和傑克·倫敦均係著名作家，但「老人與海」並非佢哋嘅作品。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '福克納'], ['B', '海明威'], ['C', '海勒'], ['D', '傑克·倫敦']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "以藝術作品嘅存在方式為分類依據，唔屬於空間藝術嘅係",
+    "llm_output": "正確答案係：\n\nD. 文學\n\n空間藝術主要指的是那些在物理空間中存在的藝術形式，如雕塑、繪畫和建築，這些藝術形式佔據了一定的物理空間，並且觀眾可以通過視覺來體驗這些作品。而文學則主要是一種時間藝術，它通過文字來傳達思想和情感，觀眾需要通過閱讀來體驗文學作品，這與空間藝術的視覺體驗方式不同。因此，文學不屬於空間藝術的範疇。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '雕塑'], ['B', '繪畫'], ['C', '建築'], ['D', '文學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺影片「林則徐」中成功地塑造咗林則徐呢一民族英雄形象嘅著名演員係",
+    "llm_output": "正確答案係：B. 趙丹\n\n在影片「林則徐」中，著名演員趙丹成功塑造了林則徐這一民族英雄的形象，使觀眾對林則徐的英勇與智慧有了深刻的認識。崔嵬、孫道臨和李默然同樣是中國電影界的重要演員，但在此片中扮演林則徐的是趙丹。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '崔嵬'], ['B', '趙丹'], ['C', '孫道臨'], ['D', '李默然']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "意大利影片「偷自行車嘅人」屬於",
+    "llm_output": "正確答案係：B. 新現實主義電影\n\n意大利影片「偷自行車嘅人」（Ladri di Biciclette）係由費德里克·費里尼（Federico Fellini）執導，係新現實主義電影運動中嘅一部代表作。呢種電影風格強調真實描繪社會底層人民嘅生活，以及對現實主義嘅批判。而其他選項：A. 左岸派電影主要係法國嘅電影運動；C. 新浪潮電影則係指法國1950年代末至1960年代初嘅電影運動；D. 表現主義電影則係指1910年代德國嘅電影風格，強調通過扭曲嘅視覺效果表達內心世界。因此，「偷自行車嘅人」屬於新現實主義電影。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '左岸派電影'], ['B', '新現實主義電影'], ['C', '新浪潮電影'], ['D', '表現主義電影']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「文藝復興三傑」係指",
+    "llm_output": "正確答案係：\nA. 達芬奇、米開朗琪羅、拉斐爾\n\n「文藝復興三傑」通常是指在文藝復興時期三位極具代表性的藝術家，即達芬奇（Leonardo da Vinci）、米開朗琪羅（Michelangelo Buonarroti）和拉斐爾（Raphael Sanzio）。他們的作品和貢獻對文藝復興藝術的發展有著深遠的影響。其他選項中的藝術家如羅丹（Auguste Rodin）、梵高（Vincent van Gogh）和畢加索（Pablo Picasso）則屬於後世不同時期的藝術家。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '達芬奇、米開朗琪羅、拉斐爾'], ['B', '達芬奇、米開朗琪羅、羅丹'], ['C', '達芬奇、梵高、拉斐爾'], ['D', '達芬奇、畢加索、羅丹']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "著名導演陳凱歌嘅電影代表係",
+    "llm_output": "正確答案係：C. 「霸王別姬」\n\n陳凱歌是一位著名的中國電影導演，他的作品「霸王別姬」在國際上獲得了極高的評價，包括獲得了1993年的戛納影展金棕櫚獎。這部電影被廣泛認為是陳凱歌的代表作之一，它深刻地描繪了中國歷史上一段特殊時期的社會變遷和人性的複雜性。其他選項中的電影雖然也是陳凱歌的作品，但「霸王別姬」在藝術成就和國際知名度上更為突出。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「芙蓉鎮」'], ['B', '「紅高粱」'], ['C', '「霸王別姬」'], ['D', '「夜宴」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "提出繪畫「妙喺似同唔似之間」嘅係",
+    "llm_output": "正確答案係：C. 齊白石\n\n齊白石（1864年－1957年），中國著名畫家，他的藝術觀點中有一句名言：「妙在似與不似之間」，這句話體現了他的藝術創作理念，即在繪畫中追求一種既真實又具有想像力的表現方式，不拘泥於物象的具體形狀，而是注重捕捉物象的精神和內在特質。這種藝術觀念對後世中國畫家有深遠的影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '傅抱石'], ['B', '劉海粟'], ['C', '齊白石'], ['D', '徐悲鴻']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "建築屬於",
+    "llm_output": "正確答案：C. 實用藝術\n\n解釋：建築被視為實用藝術之一，因為它不僅僅是藝術的表現形式，同時也具有實用的功能，如提供遮蔽、居住空間等。它結合了美學與實用性，這使得建築在藝術學的分類中屬於實用藝術。其他選項如造型藝術、裝飾藝術和表現藝術則分別專注於形狀和形式的創造、增加美感以及表達情感和概念，而不強調實用性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '造型'], ['B', '裝飾'], ['C', '實用藝術'], ['D', '表現藝術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「霓裳羽衣舞」係咩時期嘅宮廷樂舞",
+    "llm_output": "正確答案係C. 唐。\n\n「霓裳羽衣舞」係唐朝時期嘅宮廷樂舞，特彆係在唐玄宗時期非常盛行。此舞曲以歌頌仙境生活為主題，舞者身穿華麗的羽衣，舞姿優美，音樂旋律優美動聽，是唐朝音樂舞蹈藝術的代表作品之一。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '元'], ['B', '漢'], ['C', '唐'], ['D', '宋']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "北京嘅頤和園同北海公園屬於",
+    "llm_output": "正確答案：A. 皇家園林\n\n北京嘅頤和園同北海公園均為清朝皇家修建的園林，屬於皇家園林。颐和园和北海公园都是中国著名的皇家园林，颐和园更是被列入世界文化遗产名录。因此，選項A是正確的。其他選項，如私家园林、岭南园林和东方园林，均不符合颐和园和北海公园的性质。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '皇家園林'], ['B', '私家園林'], ['C', '嶺南園林'], ['D', '東方園林']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "著名嘅埃菲爾鐵塔位於",
+    "llm_output": "正確答案係：\nA. 法國\n\n埃菲爾鐵塔（Eiffel Tower）位於法國巴黎，是法國的象徵之一，也是世界上最著名的建築之一。它由古斯塔夫·埃菲爾設計，於1889年為世界博覽會而建造。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '法國'], ['B', '英國'], ['C', '德國'], ['D', '美國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "河北滿城漢墓出土咗一件名為（）嘅燈具，利用虹吸嘅原理，即使以今日嘅設計觀點睇，都係一件超凡脫俗嘅佳作。",
+    "llm_output": "正確答案嘅選項係D. 長信宮燈。\n\n河北滿城漢墓出土嘅長信宮燈，係一件以虹吸原理設計嘅古代燈具，其設計精巧，功能齊全，不僅能夠照明，還能調節光線亮度，並且具有除煙功能，以保持房間內空氣清新。以今日嘅設計觀點來睇，長信宮燈依然被視為一件極具創意與實用性嘅設計佳作。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '銀錯銅牛燈'], ['B', '樹形燈'], ['C', '銅雀燈'], ['D', '長信宮燈']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "下列戲劇作品中，創作於古希臘時期嘅係",
+    "llm_output": "正確答案係D. 「普羅米修斯」。\n\n普羅米修斯是古希臘神話中的人物，而這部作品是古希臘悲劇作家埃斯庫羅斯於公元前5世紀創作的。其他選項中，「羅密歐與朱麗葉」是莎士比亞在16世紀末創作的，「等待戈多」是20世紀的荒誕派戲劇，「欽差大臣」是俄国作家果戈理在19世紀的作品。因此，只有「普羅米修斯」是創作於古希臘時期的戲劇作品。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「羅密歐與朱麗葉」'], ['B', '「等待戈多」'], ['C', '「欽差大臣」'], ['D', '「普羅米修斯」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "主張藝術起源於模仿嘅古希臘哲學家係",
+    "llm_output": "正確答案係D. 德謨克利特、亞裏士多德。\n\n德謨克利特（Democritus）和亞裏士多德（Aristotle）均係古希臘哲學家，他們提出過模仿說，認為藝術起源於對現實世界的模仿。德謨克利特認為藝術是對自然現象的模仿，而亞裏士多德則在《詩學》中提出模仿說，認為藝術是對現實生活模仿的產物。其他選項中的哲學家並未有主張藝術起源於模仿。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '席勒、斯賓塞'], ['B', '愛德華泰勒、詹姆斯弗雷澤'], ['C', '克羅齊、柯林伍德'], ['D', '德謨克利特、亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "魏晉南北時期嘅文藝理論專著「文心雕龍」嘅作者係",
+    "llm_output": "正確答案係C. 劉勰。\n\n「文心雕龍」係魏晉南北時期著名嘅文學理論專著，作者係劉勰。呢本書對後世文學創作與批評都有深遠嘅影響，被譽為中國文學批評史上一部具有里程碑意義嘅著作。其他選項中，曹丕係魏文帝，司空圖和鐘嶸則分別係唐代和南朝嘅文人，但都與「文心雕龍」無關。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '曹丕'], ['B', '司空圖'], ['C', '劉勰'], ['D', '鐘嶸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「悲愴」係俄國作曲家柴可夫斯基嘅（）交響曲。",
+    "llm_output": "正確答案係B. 第六。\n\n「悲愴」交響曲（Pathétique Symphony），作品67，是俄國作曲家彼得·伊里奇·柴可夫斯基於1893年創作的第六號交響曲，也是他生前最後一部完成的交響曲。該曲於柴可夫斯基去世後首演，成為了他最著名且受歡迎的作品之一。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '第九'], ['B', '第六'], ['C', '第四'], ['D', '第二']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "主張藝術必須抒發主體內心情感嘅藝術觀係",
+    "llm_output": "正確答案係A. 表現說。\n\n表現說強調藝術作為表達藝術家內心情感與思想的工具，認為藝術創作是藝術家內在情感的外化。這種觀點認為藝術的核心在於其表達個人情感的能力，與主觀情感的抒發密切相關。其他選項B. 符號說、C. 神啟說和D. 有意味嘅形式說，則分別強調藝術作為符號系統、來自神靈啟示的創造，以及形式本身所具有的意義，這些與主張藝術必須抒發主體內心情感的觀點不完全吻合。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '表現說'], ['B', '符號說'], ['C', '神啟說'], ['D', '有意味嘅形式說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺西方美學史上，自然主義美學嘅代表係",
+    "llm_output": "正確答案係D. 柏格森。\n\n柏格森（Henri Bergson）係法國哲學家，其哲學思想中對時間、自由意志以及創造性進化的探討對西方美學有深遠影響。他提出「持續創造」（élan vital）的概念，強調生命體驗與自然現象中那種動態且持續的創造力量，這與自然主義美學強調自然界與人類經驗中那種未經人工雕飾的美學觀點相呼應。其他選項如桑塔亞那（George Santayana）、杜威（John Dewey）和維特根斯坦（Ludwig Wittgenstein）雖然亦對美學有所貢獻，但並不代表自然主義美學。桑塔亞那是實用主義美學家，杜威是實用主義哲學家，而維特根斯坦則以語言哲學見長。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '桑塔亞那'], ['B', '杜威'], ['C', '維特根斯坦'], ['D', '柏格森']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「黨同伐異」一片奠定咗交替蒙太奇嘅電影美學基礎，導演係",
+    "llm_output": "正確答案係 D. 愛森斯坦。\n\n解析：「黨同伐異」（Battleship Potemkin）係苏联導演愛森斯坦於1925年執導嘅一部著名電影，呢部片對電影史有極大影響，愛森斯坦在片中使用咗交替蒙太奇（montage of attractions）手法，強調影像與影像之間嘅聯繫，而非傳統嘅連續性剪接，從而創造出強烈嘅情感與思想效果。呢種手法成為後來蒙太奇理論嘅重要組成部分，對後世電影創作產生深遠影響。其他選項中，格里菲斯（A）係早期電影導演，以連續鏡頭為特色；布努艾爾（B）係西班牙超現實主義導演；勞倫斯•奧立弗（C）則以演員身份更為人知。因此，根據問題描述，「黨同伐異」一片奠定交替蒙太奇電影美學基礎嘅導演係愛森斯坦。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '格里菲斯'], ['B', '布努艾爾'], ['C', '勞倫斯•奧立弗'], ['D', '愛森斯坦']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「藍色多瑙河圓舞曲」係奧地利作曲家邊個嘅代表作",
+    "llm_output": "正確答案係 C. 約翰•施特勞斯。\n\n「藍色多瑙河圓舞曲」（The Blue Danube）係奧地利作曲家約翰•施特勞斯二世（Johann Strauss II）的代表作，通常被視為施特勞斯最著名的作品之一，並且是施特勞斯家族音樂會曲目中的經典。這首曲子於1866年創作，並在同年2月15日於巴黎的國際音樂會上首次演出。這首圓舞曲以其輕快的旋律和優美的和聲，成為了施特勞斯音樂中最受歡迎的作品之一，並且經常在各種音樂會和舞會上演奏。\n\n其他選項中，貝多芬（A）是另一位著名的奧地利作曲家，但他的作品風格與「藍色多瑙河圓舞曲」迥異。李斯特（B）是匈牙利作曲家和鋼琴家，而馬赫（D）則不是以作曲圓舞曲聞名。因此，這些選項均非正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '貝多芬'], ['B', '李斯特'], ['C', '約翰•施特勞斯'], ['D', '馬赫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「風格即人格」嘅法國文學理論家係",
+    "llm_output": "正確答案係C. 布封。\n\n布封（Buffon），即喬治·路易·勒克勒爾·德·布封（Georges-Louis Leclerc, Comte de Buffon），法國自然學家、作家，他提出「風格即人格」（Le style, c'est l'homme même）的文學理論，強調作家的個性與其作品風格之間的緊密聯繫。這一觀點對後世文學批評和藝術理論產生了深遠的影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '丹納'], ['B', '莫里哀'], ['C', '布封'], ['D', '福樓拜']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "喺諸多藝術種類中，既有形可見，又流動持續，呢便係（）嘅區別。",
+    "llm_output": "正確答案係A。\n\n根據問題描述，「既有形可見，又流動持續」的特點，舞（Dance）是身體的藝術，能夠被視覺感知，同時其動作是流動的，持續的。而詩（Poetry）和樂（Music）則分別是語言和聲音的藝術，它們可以通過聽覺感知，並且在時間上流動和持續。\n\n雕塑（Sculpture）是立體藝術，雖然可以見到，但通常不具有流動性。畫（Painting）是平面藝術，雖然可以見到，但同樣缺乏流動性。因此，根據問題中提到的特點，舞與詩、樂最符合「既有形可見，又流動持續」的描述。\n\n所以，最終答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '舞與詩、樂'], ['B', '雕塑與詩、樂'], ['C', '舞與詩、畫'], ['D', '樂與舞、畫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "柏拉圖喺「理想國」中要驅除",
+    "llm_output": "柏拉圖在其著作《理想國》中，提出了對理想社會的构想，其中他認為應該驅逐的職業是詩人。這是因為柏拉圖認為詩人通過其作品可能會傳播不真實的信息和情感，這些可能會對理想國中的公民造成負面影響。因此，正確答案係：\n\nB. 詩人",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '軍人'], ['B', '詩人'], ['C', '工匠'], ['D', '政治家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "突出強調鑒賞者喺鑒賞藝術作品過程中嘅能動性同創造性嘅藝術批評形態係",
+    "llm_output": "正確答案係B. 心理學批評。\n\n心理學批評強調在藝術欣賞過程中，觀眾的主觀經驗和心理反應，認為觀眾在解讀藝術作品時會帶入個人情感、記憶和經驗，從而創造出獨特且多層次的意義。這種批評方式突出了觀眾在藝術欣賞中的能動性和創造性。其他選項如接受批評、社會歷史批評和文本批評則更侧重於藝術作品的外部因素（如觀眾的社會背景）、歷史背景或文本分析，而非觀眾個人的心理反應。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '接受批評'], ['B', '心理學批評'], ['C', '社會歷史批評'], ['D', '文本批評']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「畢業歌」嘅曲作者係",
+    "llm_output": "正確答案係：B. 冼星海\n\n冼星海創作了《毕业歌》，這首歌後來成為了畢業生們經常演唱的曲目，象徵著對未來充滿希望和對過去學習歲月的懷念。冼星海是中國著名的作曲家，他的作品在中國音樂史上佔有重要地位。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '賀綠汀'], ['B', '冼星海'], ['C', '聶耳'], ['D', '鄭律成']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "詩劇「浮士德」係邊個嘅代表作。",
+    "llm_output": "正確答案係D. 歌德。\n\n「浮士德」係德國文豪歌德（Johann Wolfgang von Goethe）嘅代表作，係一部融合哲學、文學、神話、歷史等多方面元素嘅詩劇。雨果（Victor Hugo）、狄德羅（Denis Diderot）同席勒（Friedrich Schiller）雖然亦係著名文學家，但佢哋嘅代表作並唔係「浮士德」。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '雨果'], ['B', '狄德羅'], ['C', '席勒'], ['D', '歌德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「咬字就如貓抓老鼠，唔一下子抓死，既要抓住，又要保存活嘅。」係邊個對自己「依字行腔」嘅形象說明",
+    "llm_output": "正確答案係：C. 梅蘭芳\n\n梅蘭芳是中國著名的京劇表演藝術家，他對京劇的發展做出了巨大的貢獻。在京劇的表演藝術中，「依字行腔」是極為重要的一個原則，即演唱時要根據字音的聲調和韻律來調整唱腔，以達到音樂與語言的完美結合。梅蘭芳對此原則有深刻的理解和實踐，他曾經用「咬字就如貓抓老鼠，唔一下子抓死，既要抓住，又要保存活嘅」這樣的形象比喻來解釋「依字行腔」的概念，強調在演唱時既要清晰地發音，又要保持音樂的流暢和生動。因此，這個形象說明是梅蘭芳對自己「依字行腔」的理解和實踐的表達。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '荀慧生'], ['B', '程硯秋'], ['C', '梅蘭芳'], ['D', '尚小雲']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-arts",
+    "key_answer_type": "alphabet_option",
+    "question": "「霓裳羽衣舞」係我國邊個朝代著名舞蹈作品",
+    "llm_output": "正確答案係：\nA. 唐\n\n「霓裳羽衣舞」係唐朝著名舞蹈作品，源自唐代宫廷，由唐玄宗李隆基所创作，是唐代舞蹈艺术的代表作之一。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '唐'], ['B', '元'], ['C', '宋'], ['D', '漢']]",
+    "is_correct": 1
+  }
+]

@@ -1,0 +1,1232 @@
+[
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "唔相干結論謬誤嘅情形唔包括",
+    "llm_output": "The correct answer is:\n\nC. 法庭悖論\n\nThe other options are all types of fallacies that involve irrelevant conclusions:\n\nA. 轉移論題 (Red Herring) is a fallacy that involves introducing an irrelevant topic to distract from the original issue.\n\nB. 偷換論題 (Bait and Switch) is a fallacy that involves switching from one topic to another, often to avoid addressing the original issue.\n\nD. 稻草人謬誤 (Strawman Fallacy) is a fallacy that involves misrepresenting or exaggerating an opponent's argument to make it easier to attack.\n\n法庭悖論 (Courtroom Fallacy) is not a recognized type of fallacy, so it is the correct answer.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '轉移論題'], ['B', '偷換論題'], ['C', '法庭悖論'], ['D', '稻草人謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "被馬克思稱之為古代最偉大嘅思想家係",
+    "llm_output": "The correct answer is D. 亞裏士多德 (Aristotle).\n\nMarx indeed considered Aristotle to be one of the greatest thinkers of ancient times.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '馬丁·路德'], ['B', '柏拉圖'], ['C', '奧古斯丁'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "同時肯定「所有嘅人都會犯錯誤」與「有嘅人唔會犯錯誤」呢兩個命題會違反",
+    "llm_output": "The correct answer is C. 矛盾律 (Law of Non-Contradiction).\n\nThe two statements \"所有嘅人都會犯錯誤\" (All people will make mistakes) and \"有嘅人唔會犯錯誤\" (There are people who will not make mistakes) are contradictory, as they cannot both be true at the same time. This violates the Law of Non-Contradiction, which states that a statement cannot both be true and false simultaneously.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '同一律'], ['B', '排中律'], ['C', '矛盾律'], ['D', '充足理由律']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "英國嘅一項實驗發現，將母狗同佢哋嘅幼細子女分開後，將呢啲子女混入一羣同類嘅成年狗同幼狗中去，然後再將母狗放入狗羣。母狗好快就同自己嘅子女會合埋一齊。研究表明，狗身上嘅體味係佢哋互相辨認嘅依據。而幼狗無法區分自己母親同其他母狗身上嘅味道。因此每個母狗都能分辨出自己子女嘅體味。上述論證採用咗下列邊種論述方法?",
+    "llm_output": "The correct answer is C. 通過對發生現象嘅客觀描述，支持關於某個可能發生現象嘅假說.\n\nThe passage describes an experiment and its results, and then uses those results to support a hypothesis about how dogs recognize each other. This is an example of inductive reasoning, where a general conclusion is drawn from specific observations. Option C accurately describes this type of reasoning.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '說明某一特殊情況，以論證一個規律'], ['B', '喺對某種現象嘅兩種可供揀嘅解釋中，通過排除其中嘅一種，嚟確定另一種'], ['C', '通過對發生現象嘅客觀描述，支持關於某個可能發生現象嘅假說'], ['D', '運用類比嘅方法，根據兩組對象有某啲類似嘅特徵，得出佢哋具有另一個相同特徵']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一階邏輯即係指",
+    "llm_output": "The correct answer is B. 謂詞邏輯 (Predicate Logic).\n\nFirst-order logic, also known as predicate logic, is a branch of logic that deals with predicates, which are statements that contain variables and can be either true or false. It is a fundamental area of logic that has been widely used in mathematics, computer science, and philosophy.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '圖式邏輯'], ['B', '謂詞邏輯'], ['C', '數值邏輯'], ['D', '概率邏輯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "甲話乙肥，乙話丙肥，丙同丁都話自己唔肥。如果四人陳述淨係一人錯，噉邊個一定肥?",
+    "llm_output": "A classic lateral thinking puzzle! 😄\n\nThe correct answer is B. 僅甲 (Only 甲 is fat).\n\nHere's the explanation:\n\n1. 甲 says 乙 is fat.\n2. 乙 says 丙 is fat.\n3. 丙 and 丁 both say they are not fat.\n\nIf only one person is lying, then:\n\n* If 甲 is not fat, then 乙 is not fat (since 甲 says 乙 is fat). But then 丙 would be telling the truth, which means 丙 is not fat. This contradicts 乙's statement that 丙 is fat.\n* If 乙 is not fat, then 丙 is fat (since 乙 says 丙 is fat). But then 丙 would be lying, which means 丙 is actually not fat. This contradicts 乙's statement that 丙 is fat.\n* If 丙 is fat, then 丙 would be lying, which means 丙 is actually not fat. This contradicts 乙's statement that 丙 is fat.\n* If 丁 is fat, then 丙 would be telling the truth, which means 丙 is not fat. This is consistent with the statements.\n\nSo, the only possibility is that 甲 is fat, and everyone else is telling the truth.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '僅丙'], ['B', '僅甲'], ['C', '僅乙同丙'], ['D', '僅乙']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於周延詞項嘅係",
+    "llm_output": "The correct answer is C. SIP主項.\n\nSIP stands for \"Subject-In-Predicate\", which refers to a term that is both the subject and the predicate of a categorical proposition. This is an example of a distributed term.\n\nHere's a brief explanation of the other options:\n\nA. SAP謂項: SAP stands for \"Subject-Attribute-Predicate\", which is not a type of distributed term.\n\nB. SAP主項: This is not a valid term in logic.\n\nD. SOP主項: SOP stands for \"Subject-Object-Predicate\", which is not a type of distributed term.\n\nSo, the correct answer is C. SIP主項.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'SAP謂項'], ['B', 'SAP主項'], ['C', 'SIP主項'], ['D', 'SOP主項']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "允許我哋從所有情形推導出特殊情形嘅係",
+    "llm_output": "The correct answer is C. 全稱例示規則 (Universal Instantiation).\n\nUniversal Instantiation is a rule of inference that allows us to infer a specific instance from a universal statement. It is a rule that enables us to move from a general statement to a specific case.\n\nFor example, if we have the universal statement \"All humans are mortal\", we can use Universal Instantiation to infer that \"Socrates is mortal\", where Socrates is a specific human.\n\nThe other options are not correct:\n\nA. 存在例示規則 (Existential Instantiation) is a rule that allows us to infer the existence of an instance from an existential statement.\n\nB. 真值表 (Truth Table) is a method for evaluating the validity of arguments, but it is not a rule of inference that allows us to move from a general statement to a specific case.\n\nD. 全稱命題 (Universal Proposition) is a type of statement that makes a claim about all members of a class, but it is not a rule of inference.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '存在例示規則'], ['B', '真值表'], ['C', '全稱例示規則'], ['D', '全稱命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "析取命題又稱為",
+    "llm_output": "The correct answer is A. 選言命題.\n\n析取命題 (conjunctive proposition) is also known as 選言命題 (conjunctive statement) in Chinese.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '選言命題'], ['B', '全稱命題'], ['C', '否定命題'], ['D', '肯定命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺下列語句中，喺集合意義下使用語詞「人」嘅係",
+    "llm_output": "The correct answer is D. 人非聖賢，孰能無過.\n\nIn this sentence, \"人\" (person) is used to refer to a class or category of beings, implying that all people, regardless of their individual characteristics, are capable of making mistakes. This is an example of using \"人\" in a collective or universal sense, which is a characteristic of set theory in logic.\n\nThe other options do not use \"人\" in this way:\n\nA. This sentence uses \"人\" to make a statement about the characteristics of humans, but it does not imply a collective or universal sense.\n\nB. This sentence uses \"人\" to make a value judgment about humans, but it does not imply a collective or universal sense.\n\nC. This sentence uses \"人\" to make a statement about the characteristics of humans, but it does not imply a collective or universal sense.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人係有思維能力嘅'], ['B', '人係世間萬物中第一個可寶貴嘅'], ['C', '人貴有自知之明'], ['D', '人非聖賢，孰能無過']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "有時唔清楚一個語篇到底係論證定係解釋，我哋稱之為",
+    "llm_output": "The correct answer is B. 兩可情形 (Ambiguity).\n\nIn logic, when it's unclear whether a passage is an argument or an explanation, it's referred to as an ambiguity or a \"兩可情形\" (two possible interpretations).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '解釋論證'], ['B', '兩可情形'], ['C', '識別論證'], ['D', '論證解釋']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺具體進行例示時，必須注意唔好混合使用或者用完證明中有用嘅",
+    "llm_output": "The correct answer is B. 字母.\n\nIn logical reasoning, when conducting concrete examples, it's essential to avoid mixing up or reusing letters that have already been used in the proof. This is to prevent confusion and ensure the validity of the argument.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '數字'], ['B', '字母'], ['C', '量詞'], ['D', '聯詞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "標誌詞「如果」後面嘅命題被稱為",
+    "llm_output": "The correct answer is D. 前件 (Antecedent).\n\nIn logic, the clause following \"if\" is called the antecedent, and the clause following \"then\" is called the consequent.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '結論'], ['B', '前提'], ['C', '條件'], ['D', '前件']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺三段論中，如果前提中有一個係否定命題，噉結論必定係",
+    "llm_output": "The correct answer is D. 否定命題.\n\nIn a categorical syllogism, if one of the premises is a negative statement, the conclusion must also be a negative statement.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '真命題'], ['B', '假命題'], ['C', '肯定命題'], ['D', '否定命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺文恩圖中，用嚟標記特稱命題嘅係",
+    "llm_output": "The correct answer is A. 陰影 (Shading).\n\nIn a Venn diagram, shading is used to represent universal negative propositions (e.g. \"No S is P\").",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '陰影'], ['B', '星號'], ['C', '數字'], ['D', '圓圈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "有啲教授留長頭髮，因此，有啲留長頭髮嘅人係科學家。為使上述推理成立，需要補充以下邊項作為前提?",
+    "llm_output": "The correct answer is D. 有啲教授係科學家.\n\nHere's why:\n\nThe original argument is:\n\n\"Some professors have long hair, therefore, some people with long hair are scientists.\"\n\nThis argument is trying to establish a connection between having long hair and being a scientist, based on the fact that some professors have long hair.\n\nHowever, the argument is missing a crucial premise to make it logically valid. The correct answer, D. 有啲教授係科學家, provides the necessary link between being a professor and being a scientist. It states that some professors are scientists, which allows us to infer that some people with long hair (who are also professors) are scientists.\n\nThe other options do not provide the necessary connection:\n\nA. 所有科學家都係教授 (All scientists are professors) is too strong a claim and is not necessary for the argument.\n\nB. 所有教授都係科學家 (All professors are scientists) would make the argument trivial, as it would imply that all professors are scientists, regardless of their hair length.\n\nC. 有啲科學家唔係教授 (Some scientists are not professors) is irrelevant to the argument, as it doesn't provide any connection between having long hair and being a scientist.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '所有科學家都係教授'], ['B', '所有教授都係科學家'], ['C', '有啲科學家唔係教授'], ['D', '有啲教授係科學家']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺世界範圍內禁止生產各種破壞臭氧層嘅化學物質可能僅僅係一種幻想，大量噉嘅化學物質已經生產出嚟，並且以成千上萬臺雪櫃嘅冷卻劑嘅形式而存在。當呢啲化學物質到達大氣層中嘅臭氧層時，其作用唔可能停止。因此，冇任何方式可以阻止呢類化學物質進一步破壞臭氧層。以下邊項如果為真，則能最嚴重地削弱以上論證?",
+    "llm_output": "The correct answer is A. 當雪櫃嘅使用壽命結束時，雪櫃入面嘅冷卻劑可完全回收並且重新利用.\n\nThis option, if true, would severely weaken the argument that there is no way to stop the further destruction of the ozone layer by these chemicals. If the refrigerant can be completely recovered and reused when the refrigerator's lifespan ends, it means that the amount of chemicals released into the atmosphere can be reduced or even eliminated, which contradicts the conclusion of the argument.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '當雪櫃嘅使用壽命結束時，雪櫃入面嘅冷卻劑可完全回收並且重新利用'], ['B', '唔會破壞臭氧層嘅替代品仲未開發出嚟，並且替代品可能比雪櫃目前使用嘅冷卻劑貴'], ['C', '即使人哋放棄使用冷藏設備，已經存在嘅雪櫃入面嘅冷卻劑都係對大氣臭氧層嘅一個威脅'], ['D', '唔可能精確地測量雪櫃入面冷卻劑呢種破壞臭氧層嘅化學物質嘅量係幾多']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "金嶽霖嘅著作唔包括",
+    "llm_output": "The correct answer is:\n\nB. 「知識論」\n\n金嶽霖 (Jin Yuelin) was a Chinese philosopher and logician, and his notable works include \"中國哲學史\" (A History of Chinese Philosophy), \"邏輯\" (Logic), and \"論道\" (On the Way). However, he did not write \"知識論\" (Epistemology).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「中國哲學史」'], ['B', '「知識論」'], ['C', '「邏輯」'], ['D', '「論道」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "古代邏輯嘅發源地包括",
+    "llm_output": "The correct answer is B. 以上都對 (All of the above).\n\nAncient logic originated in multiple regions, including:\n\n* Ancient India: The Nyaya school of Hindu philosophy, which emerged around 600 BCE, is known for its contributions to logic.\n* Ancient Greece: Greek philosophers such as Aristotle (384-322 BCE) and the Stoics made significant contributions to the development of logic.\n* Ancient China: Chinese philosophers such as Mozi (470-391 BCE) and the Mohist school also developed logical theories and arguments.\n\nSo, all three options A, C, and D are correct, and the correct answer is B. 以上都對 (All of the above).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '古印度'], ['B', '以上都對'], ['C', '中國'], ['D', '古希臘']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「問:鐵點解能壓延?答:因為鐵有壓延嘅特性。」屬於",
+    "llm_output": "The correct answer is A. 直接循環論證 (Direct Circular Reasoning).\n\nThe reason is that the answer \"因為鐵有壓延嘅特性\" (because iron has the property of being ductile) is essentially repeating the question \"鐵點解能壓延\" (why can iron be ductile) in different words, without providing any actual explanation or evidence. This is a classic example of direct circular reasoning, where the conclusion is simply restated as the premise.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '直接循環論證'], ['B', '相干謬誤'], ['C', '支持謬誤'], ['D', '間接循環論證']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "所有嘅語句都包含",
+    "llm_output": "The correct answer is B. 語法要素.\n\nExplanation: All sentences contain grammatical elements (語法要素), which refer to the rules governing the structure of language, such as syntax, morphology, and phonology. While sentences may also contain logical elements (邏輯要素), lexical elements (詞彙要素), and semantic elements (語義要素), not all sentences necessarily contain these elements. However, all sentences must conform to the grammatical rules of the language, making grammatical elements a universal component of sentences.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯要素'], ['B', '語法要素'], ['C', '詞彙要素'], ['D', '語義要素同邏輯要素']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個優秀嘅領導人係唔會脫離羣眾嘅。所以，如果一個領導人脫離羣眾，佢就唔係一個能夠得到大多數羣眾擁護嘅人。以下邊項與上面嘅議論方式最相似?",
+    "llm_output": "The correct answer is D. \n\nThe original argument is: \"A good leader is not someone who deviates from the crowd. Therefore, if a leader deviates from the crowd, they are not someone who can gain the support of the majority.\"\n\nThis argument is similar to option D: \"All computers need to install corresponding software to run a certain program. Therefore, if a computer does not install corresponding software, the program will not run.\"\n\nBoth arguments follow the same logical structure: \"If A is true, then B is true. Therefore, if not A, then not B.\"",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '好多領導人係脫離羣眾嘅人'], ['B', '呢道題喺5分鐘內答唔完。要係邊個喺5分鐘內答完，佢就唔係一個死記硬背嘅學員。'], ['C', '所有仔都鍾意同佢人進行遊戲活動。如果幼兒園多安排啲仔之間嘅遊戲活動，噉一定會受到家長嘅好評'], ['D', '所有電腦都需要安裝相應嘅軟件先能運行某種程序。因此，如果電腦冇安裝相應嘅軟件，則呢個程序就唔會運行']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「所有S係P」與「所有S唔係P」之間具有",
+    "llm_output": "The correct answer is D. 矛盾關係 (Contradiction).\n\n\"All S are P\" and \"No S are P\" are contradictory statements, meaning that they cannot both be true at the same time. If one is true, the other must be false.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '反對關係'], ['B', '下反對關係'], ['C', '差等關係'], ['D', '矛盾關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果論證嘅所有前提同時為真係唔可能嘅，噉呢個論證嘅前提就係",
+    "llm_output": "The correct answer is D. 唔一致嘅.\n\nIf all the premises of an argument are impossible to be true at the same time, then the premises are inconsistent.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '不可接受嘅'], ['B', '一致嘅'], ['C', '可接受嘅'], ['D', '唔一致嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以「所有A都唔係B，所有C係B。」為前提進行三段論推理，其結論為",
+    "llm_output": "The correct answer is A. 所有A唔係C.\n\nHere's the explanation:\n\nFrom the premises:\n\n1. 所有A都唔係B (All A are not B)\n2. 所有C係B (All C are B)\n\nWe can conclude that:\n\n所有A唔係C (All A are not C)\n\nThis is because if all A are not B, and all C are B, then A and C cannot be the same, so all A are not C.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '所有A唔係C'], ['B', '有啲A係C'], ['C', '有啲C係A'], ['D', '有啲B係A']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於唔相干結論謬誤嘅係",
+    "llm_output": "The correct answer is D. 法庭悖論.\n\nHere's why:\n\n* A. 偷換論題 (Begging the question) is a type of irrelevant conclusion fallacy, where the conclusion is assumed to be true without providing evidence.\n* B. 稻草人謬誤 (Straw man fallacy) is also a type of irrelevant conclusion fallacy, where a weaker or distorted version of an argument is attacked instead of the original argument.\n* C. 轉移話題 (Red herring) is a type of irrelevant conclusion fallacy, where a distracting or irrelevant point is introduced to divert attention from the original argument.\n* D. 法庭悖論 (Courtroom paradox) is not a type of irrelevant conclusion fallacy. It's a paradox that arises in legal reasoning, where a defendant is guilty if and only if they are not guilty.\n\nSo, the correct answer is D. 法庭悖論.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '偷換論題'], ['B', '稻草人謬誤'], ['C', '轉移話題'], ['D', '法庭悖論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個從已確定斷言產生出新斷言嘅過程叫做。",
+    "llm_output": "The correct answer is C. 推論 (Inference).\n\nIn logic, an inference is the process of drawing a conclusion from one or more premises, which are statements that are assumed to be true. It involves deriving a new statement (the conclusion) from one or more existing statements (the premises).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結論'], ['B', '辯論'], ['C', '推論'], ['D', '論斷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "亞裏士多德提出嘅論證評價三標準唔包含",
+    "llm_output": "The correct answer is B. 修辭標準 (Rhetorical standard).\n\nAristotle's three standards for evaluating arguments are:\n\n* 分析標準 (Analytic standard): examining the argument's logical form and structure\n* 論辯標準 (Dialectical standard): evaluating the argument's ability to withstand counterarguments and objections\n* 邏輯標準 (Logical standard): assessing the argument's validity and soundness\n\nRhetorical standard is not one of Aristotle's three standards for evaluating arguments. Rhetoric is the art of persuasive speech and writing, and while Aristotle did write about rhetoric, it is not directly related to his standards for evaluating arguments.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '分析標準'], ['B', '修辭標準'], ['C', '論辯標準'], ['D', '邏輯標準']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「出席會議嘅人有大學畢業嘅」與「出席會議嘅人有唔係大學畢業嘅」",
+    "llm_output": "The correct answer is D. 可同真，可同假.\n\nExplanation:\n\n* \"出席會議嘅人有大學畢業嘅\" means \"There exists a person who attended the meeting and has a university degree.\"\n* \"出席會議嘅人有唔係大學畢業嘅\" means \"There exists a person who attended the meeting and does not have a university degree.\"\n\nThese two statements are not mutually exclusive, and it is possible for both to be true at the same time. For example, if there are 10 people attending the meeting, 5 of them have a university degree and 5 of them do not. In this case, both statements are true.\n\nTherefore, the correct answer is D. 可同真，可同假, which means that both statements can be true at the same time.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可同真，唔可同假'], ['B', '唔可同真，可同假'], ['C', '唔可同真，唔可同假'], ['D', '可同真，可同假']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於必然真命題嘅係",
+    "llm_output": "The correct answer is:\n\nA. 女人係人\nB. 中國人係中國人\n\nThese two statements are necessarily true, as they are analytic truths that follow from the definitions of the terms involved.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '女人係人'], ['B', '中國人係中國人'], ['C', '仔係人'], ['D', '中國人唔係中國人']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "論證嘅功能包括說服同",
+    "llm_output": "The correct answer is A. 證成同推論.\n\nThe function of an argument includes persuasion and inference (推論), as well as justification or proof (證成).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '證成同推論'], ['B', '反駁同歸謬'], ['C', '推論同歸謬'], ['D', '證成同反駁']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "邏輯主義嘅代表人物係",
+    "llm_output": "The correct answer is C. 希爾伯特 (David Hilbert).\n\nHilbert is considered one of the main representatives of logicism, a philosophical movement that emerged in the late 19th and early 20th centuries, which aimed to establish mathematics as a branch of logic.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '哥德爾'], ['B', '布勞威爾'], ['C', '希爾伯特'], ['D', '羅素']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "通過改變命題嘅質或者量從而推導出新命題嘅論證嘅係",
+    "llm_output": "The correct answer is A. 質量論證 (Qualitative argument).\n\nQualitative argument, also known as qualitative inference, is a type of argument that involves changing the quality or quantity of a proposition to derive a new proposition. This is in contrast to quantitative argument, which involves numerical or measurable changes.\n\nThe other options are not correct:\n\nB. 對當關係論證 (Correspondence argument) refers to an argument that establishes a relationship between two propositions.\n\nC. 三段論論證 (Syllogism) is a form of deductive reasoning that involves drawing a conclusion from two premises.\n\nD. 直言命題運算論證 (Propositional calculus) is a branch of logic that deals with statements that can be either true or false, and the operations that can be performed on them.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '質量論證'], ['B', '對當關係論證'], ['C', '三段論論證'], ['D', '直言命題運算論證']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「如果原始人嘅石斧就係資本，噉原始人就係資本家咯。」中，",
+    "llm_output": "The correct answer is D. 論題係「原始人係資本家」.\n\nExplanation:\n\n* 論題 (topic) refers to the main claim or conclusion being argued for.\n* 論據 (premise) refers to the evidence or reason provided to support the claim.\n\nIn this argument, \"如果原始人嘅石斧就係資本\" is the premise, and \"噉原始人就係資本家咯\" is the conclusion. The conclusion is that \"原始人係資本家\" (primitive people are capitalists), which is the main claim being argued for.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '論據係「原始人嘅石斧係資本」'], ['B', '論據係「原始人係資本家」'], ['C', '論題係「原始人嘅石斧唔係資本」'], ['D', '論題係「原始人係資本家」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "包括一個或者一個以上較短命題作為其自身嘅一部分嘅命題稱為",
+    "llm_output": "The correct answer is C. 複合命題 (Compound Proposition).\n\nA compound proposition is a statement that contains one or more shorter statements, known as propositions, as parts of itself.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '否定命題'], ['B', '分析命題'], ['C', '複合命題'], ['D', '全稱命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "語言學嘅維度唔包括",
+    "llm_output": "The correct answer is A. 語氣.\n\nIn linguistics, the dimensions of language typically include:\n\n* Phonology (sound system)\n* Morphology (structure of words)\n* Syntax (structure of sentences)\n* Semantics (meaning)\n* Pragmatics (use of language in context)\n\n語氣 (tone) is a phonological feature, not a dimension of language.\n\nSo, the correct answer is A. 語氣.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '語氣'], ['B', '語法'], ['C', '語義'], ['D', '語用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "並行結構又稱為()，係指由兩個或者兩個以上前提分別獨立支持統一結論嘅結構。",
+    "llm_output": "The correct answer is D. 收斂結構 (Convergent Structure).\n\nIn logic, a convergent structure, also known as a parallel structure, is a type of argument structure where two or more premises independently support a single conclusion.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '同一結構'], ['B', '簡單結構'], ['C', '序列結構'], ['D', '收斂結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "邏輯系統嘅四大定理唔包括",
+    "llm_output": "The correct answer is A. 可靠性定理.\n\nThe four major theorems in logic systems are:\n\n* Soundness Theorem (有效性定理)\n* Completeness Theorem (完全性定理)\n* Consistency Theorem (一致性定理)\n* Incompleteness Theorem (不完全性定理)\n\nThere is no \"可靠性定理\" (Reliability Theorem) among the four major theorems in logic systems.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '可靠性定理'], ['B', '有效性定理'], ['C', '一致性定理'], ['D', '唔完全性定理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺具體進行例示時，必須注意唔好混合使用或者用完證明中有用嘅",
+    "llm_output": "The correct answer is B. 字母.\n\nIn logical reasoning, when conducting concrete examples, it is important to avoid mixing up or using the same letters that have been used in the proof. This is to prevent confusion and ensure that the example is a faithful representation of the original argument.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '數字'], ['B', '字母'], ['C', '量詞'], ['D', '聯詞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺上次考試中，老師出咗一道非常古怪嘅難題，有86%嘅考生唔合格。呢次考試之前，王見明預測話：「根據上次考試情況，呢次考試唔一定會出噉嘅難題咯。」胡思明話：「呢就係話呢次考試肯定唔出噉嘅難題咯。太好咯!」王見明話：「我唔係嗰個意思。」下面邊句話與王見明講嘅意思相似?",
+    "llm_output": "The correct answer is C. 呢次考試老師可能唔出噉嘅難題咯.\n\n王見明's statement implies that just because 86% of students failed the previous exam, it doesn't mean that the same type of difficult question will appear again in this exam. He is saying that it's possible that the teacher may not set a similar difficult question this time.\n\nOption C accurately reflects this meaning, as it suggests that it's possible that the teacher may not set a similar difficult question this time.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '呢次考試老師必定唔出噉嘅難題咯'], ['B', '呢次考試老師唔可能出噉嘅難題咯'], ['C', '呢次考試老師可能唔出噉嘅難題咯'], ['D', '呢次考試老師唔可能唔出噉嘅難題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「一個老虎嘅食量比一個人嘅大，噉所有老虎嘅食量都比所有人嘅食量大。」犯嘅邏輯謬誤係",
+    "llm_output": "The correct answer is D. 合成謬誤 (Composition Fallacy).\n\nThe argument is committing the composition fallacy because it assumes that a characteristic true of one individual (a tiger) is also true of all individuals of the same category (all tigers). Just because one tiger's food intake is greater than one person's, it does not follow that all tigers' food intake is greater than all people's.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '歸納唔強謬誤'], ['B', '演繹無效謬誤'], ['C', '分解謬誤'], ['D', '合成謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "又可稱為串行結構或者線性結構嘅係",
+    "llm_output": "The correct answer is C. 序列結構.\n\n串行結構 (serial structure) or 線性結構 (linear structure) refers to a sequence of events or elements that are arranged in a linear order, one after another. This is also known as a sequential structure.\n\nSo, the correct answer is C. 序列結構.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '並行結構'], ['B', '中間結構'], ['C', '序列結構'], ['D', '發散結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「有啲壁畫係三幅一聯畫」入面嘅「有啲」係",
+    "llm_output": "The correct answer is A. 謂項 (predicate term).\n\nIn the sentence \"有啲壁畫係三幅一聯畫\" (Some murals are triptychs), \"有啲\" (some) is a predicate term, which indicates the quantity or scope of the subject \"壁畫\" (murals).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '謂項'], ['B', '聯項'], ['C', '量詞'], ['D', '主項']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「張平買咗雙平嘅旅遊鞋，唔到半個月就壞咗；唔耐佢嘅朋友買咗件平嘅皮夾克，結果發現係仿羊皮嘅。張平由此得出結論「平無好貨」。呢推理",
+    "llm_output": "The correct answer is B. 犯咗輕率概括嘅錯誤.\n\nThe reasoning is flawed because it makes a sweeping generalization based on two isolated incidents. Just because two products with the brand name \"平\" turned out to be of poor quality, it does not necessarily mean that all products from \"平\" are of poor quality. This is an example of hasty generalization, where a conclusion is drawn from insufficient evidence.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '正確地使用咗求同法'], ['B', '犯咗輕率概括嘅錯誤'], ['C', '正確地使用咗共變法'], ['D', '係一個正確嘅三段論推理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "張競話：只有正式代表先可以發言。劉強話：唔對吧!李貴都係正式代表但佢唔發言。劉強嘅回答係將張競嘅話錯誤地理解為以下邊項?",
+    "llm_output": "The correct answer is D. 所有正式代表都發言咗.\n\n劉強's response is a counterexample to 張競's statement, which implies that being a formal representative is a sufficient condition for speaking. 劉強 points out that 李貴 is a formal representative but does not speak, which shows that being a formal representative does not guarantee speaking. Therefore, 劉強 is incorrectly interpreting 張競's statement as \"all formal representatives speak\".",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '李貴要發言'], ['B', '所有發言嘅人都係正式代表'], ['C', '冇正式代表發言'], ['D', '所有正式代表都發言咗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個論證係好嘅，必須滿足",
+    "llm_output": "A logic question! 😊\n\nThe correct answer is C. 以上都對 (All of the above).\n\nA good argument must satisfy several conditions:\n\n1. The premises and conclusion must be relevant to each other (A. 前提與結論必須係相干嘅).\n2. All premises must be true (B. 所有前提都必須係真嘅).\n3. The premises must provide sufficient support for the conclusion (D. 所有前提加埋必須畀結論提供足夠支持).\n\nTherefore, a good argument must meet all of these conditions, making option C the correct answer.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '前提與結論必須係相干嘅'], ['B', '所有前提都必須係真嘅'], ['C', '以上都對'], ['D', '所有前提加埋必須畀結論提供足夠支持']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "只有一個前提同一個結論嘅結構係",
+    "llm_output": "The correct answer is B. 簡單結構 (Simple Argument).\n\nA simple argument is a type of argument that has only one premise and one conclusion.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '收斂結構'], ['B', '簡單結構'], ['C', '序列結構'], ['D', '發散結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺邏輯方陣中，兩個命題係蘊涵關係，當且僅當，佢哋同時滿足嘅條件係",
+    "llm_output": "The correct answer is C. 佢哋具有相同主項同相同謂項.\n\nIn a logical square, two propositions are in a relation of implication (蘊涵關係) if and only if they have the same subject and the same predicate.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上都對'], ['B', '佢哋係從存在觀點嚟考慮嘅'], ['C', '佢哋具有相同主項同相同謂項'], ['D', '佢哋有唔同嘅量同相同嘅質']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "構造真值表，基於嘅邏輯算子規則唔包括",
+    "llm_output": "The correct answer is A. 命題 (Proposition).\n\nConstructing a truth table is based on the rules of logical operators, which include:\n\n* 合取 (Conjunction, ∧)\n* 否定 (Negation, ¬)\n* 等值 (Equivalence, ⇔)\n\nBut 命題 (Proposition) is not a logical operator, it's a statement that can be either true or false.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '命題'], ['B', '合取'], ['C', '否定'], ['D', '等值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "從「小王去北京可能搭飛機，亦可能搭火車或者汽車」同「佢唔搭汽車」可知",
+    "llm_output": "The correct answer is:\n\nB. 佢搭飛機或者火車\n\nExplanation:\n\nFrom the premise \"小王去北京可能搭飛機，亦可能搭火車或者汽車\" (Little Wang may take a plane, or a train, or a car to Beijing), we know that there are three possible options for Little Wang's transportation.\n\nThen, from the additional premise \"佢唔搭汽車\" (He didn't take a car), we can eliminate the car option.\n\nTherefore, we are left with two possible options: plane or train. Hence, the correct answer is B. 佢搭飛機或者火車 (He took a plane or a train).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '佢搭飛機'], ['B', '佢搭飛機或者火車'], ['C', '佢搭火車'], ['D', '佢唔搭飛機或者火車']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "下列語句作為劃分，正確嘅係",
+    "llm_output": "The correct answer is B. 一年可以分為春、夏、秋、冬四季.\n\nThis is because option B is a true and exhaustive division, where a year can be divided into four distinct and mutually exclusive seasons: spring, summer, autumn, and winter.\n\nThe other options are not correct because:\n\nA. The statement is not a division, but rather a description of a class of students.\n\nC. The division is not exhaustive, as there may be other types of wars beyond conventional war and world war.\n\nD. The division is not clear or well-defined, as the terms \"普遍概念\", \"單獨概念\", and \"正概念\" are not commonly used or well-established in logic or philosophy.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '呢個班嘅學生，除咗七名女學生外，其餘都係男仔'], ['B', '一年可以分為春、夏、秋、冬四季'], ['C', '戰爭分為常規戰爭同世界大戰'], ['D', '概念分為普遍概念、單獨概念同正概念']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「鬼係唔存在嘅，因為冇人證明過鬼存在。」陷入咗咩樣嘅論證謬誤？",
+    "llm_output": "The correct answer is C. 訴諸無知 (Appeal to Ignorance).\n\nThe argument \"鬼係唔存在嘅，因為冇人證明過鬼存在\" (Ghosts do not exist because no one has proven their existence) is a classic example of an appeal to ignorance fallacy. This fallacy occurs when someone argues that a claim is true simply because it has not been proven false, or that a claim is false simply because it has not been proven true. In this case, the argument is saying that ghosts do not exist because no one has proven their existence, which is a flawed reasoning.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '訴諸權威'], ['B', '以上均唔係'], ['C', '訴諸無知'], ['D', '訴諸公眾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「知識分子係國家嘅寶貴財富」同「大學教師係知識分子」呢兩個判斷中，「知識分子」呢個概念",
+    "llm_output": "The correct answer is B. 都係集合概念.\n\nIn both statements, \"知識分子\" (intellectuals) refers to a group or category of people, making it a collective concept.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '前者係集合概念，後者係非集合概念'], ['B', '都係集合概念'], ['C', '都係非集合概念'], ['D', '前者係非集合概念，後者係集合概念']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "根據傳統邏輯學標準，論證評價嘅邏輯標準嘅類型包括演繹邏輯標準同",
+    "llm_output": "The correct answer is C. 歸納邏輯標準.\n\nAccording to traditional logic, the types of logical standards for evaluating arguments include:\n\n* 演繹邏輯標準 (Deductive logical standard): This standard evaluates arguments based on their ability to guarantee the truth of the conclusion with absolute certainty, given the truth of the premises.\n* 歸納邏輯標準 (Inductive logical standard): This standard evaluates arguments based on their ability to provide strong evidence or probability for the conclusion, even if it does not guarantee absolute certainty.\n\n辯證邏輯標準 (Dialectical logical standard) is not a traditional logical standard, and 解釋邏輯標準 (Explanatory logical standard) is not a widely recognized logical standard in traditional logic.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '辯證邏輯標準'], ['B', '解釋邏輯標準'], ['C', '歸納邏輯標準'], ['D', '以上都唔對']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「所有嘅廣東人係中國人」中「所有」係",
+    "llm_output": "The correct answer is D. 量詞.\n\nIn the statement \"所有嘅廣東人係中國人\" (All Cantonese people are Chinese), \"所有\" (all) is a quantifier, indicating the scope of the predicate \"係中國人\" (are Chinese).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '主項'], ['B', '聯項'], ['C', '謂項'], ['D', '量詞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "防疫站嘅統計數據顯示畀狗注射疫苗可以減少狂犬病發生嘅危險性，但係醫療保險業對此進行嘅統計研究則得出咗相反嘅結論。即被注射咗狂犬疫苗嘅狗咬傷嘅人比嗰啲冇被注射狂犬疫苗嘅狗咬傷嘅人更有可能得狂犬病。下列邊項正確，最能解釋題幹嘅明顯矛盾?",
+    "llm_output": "The correct answer is B. 人哋往往係喺自己嘅寵物狗已經表現出明顯嘅狂犬病特徵後先去畀自己嘅狗注射狂犬疫苗，同埋佢哋都係居住喺狂犬病發病率最高嘅地方.\n\nThis option explains the apparent contradiction between the two statistics. The vaccination data from the health station shows that vaccinated dogs are less likely to transmit rabies, but the insurance company's data shows that people bitten by vaccinated dogs are more likely to get rabies. This is because people tend to vaccinate their dogs only after they have already shown symptoms of rabies, and they are also more likely to live in areas with high rabies incidence rates. This means that the vaccinated dogs are already infected with rabies, and the vaccination is not effective in preventing transmission. Therefore, people bitten by these dogs are more likely to get rabies.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '被狗咬咗嘅人會即刻到防疫站尋求幫助，但係卻唔一定及時同自己嘅保險公司聯絡'], ['B', '人哋往往係喺自己嘅寵物狗已經表現出明顯嘅狂犬病特徵後先去畀自己嘅狗注射狂犬疫苗，同埋佢哋都係居住喺狂犬病發病率最高嘅地方'], ['C', '大多數咬人嘅狗都冇注射狂犬疫苗'], ['D', '被狗咬過嘅每個人都必須接受狂犬疫苗嘅注射']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "非單調邏輯嘅提出者係",
+    "llm_output": "The correct answer is D. 圖爾敏 (Stephen Toulmin).\n\nStephen Toulmin is known for his work on non-monotonic logic, which is a branch of logic that deals with reasoning that is not monotonic, meaning that the addition of new information can lead to the withdrawal of previously drawn conclusions.\n\nSo, the correct answer is D. 圖爾敏.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '紐特'], ['B', '約翰遜'], ['C', '布萊爾'], ['D', '圖爾敏']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "真值表可以用嚟判定",
+    "llm_output": "The correct answer is D. 以上都對 (All of the above).\n\nTruth tables can be used to determine:\n\n* A. 等值 (equivalence): whether two statements have the same truth value\n* B. 蘊涵與有效性 (implication and validity): whether an argument is valid and whether a conclusion follows from the premises\n* C. 重言式與矛盾式 (tautologies and contradictions): whether a statement is always true (tautology) or always false (contradiction)\n\nSo, truth tables are a powerful tool in logic that can be used to determine all of these properties.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '等值'], ['B', '蘊涵與有效性'], ['C', '重言式與矛盾式'], ['D', '以上都對']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「有效性對於真實嘅論證評價嚟講既唔係充分嘅亦唔係必要嘅。」出自",
+    "llm_output": "A straightforward question! 😊\n\nThe correct answer is A. 圖爾敏 (Toulmin).\n\nThis statement is a summary of Toulmin's views on the relationship between validity and truth in argumentation. According to Toulmin, validity is neither sufficient nor necessary for a sound argument, as an argument can be valid but unsound (e.g., based on false premises), or sound but invalid (e.g., relying on inductive reasoning).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '圖爾敏'], ['B', '布萊爾'], ['C', '以上均唔係'], ['D', '約翰遜']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "直言命題SEP通過換質法得到嘅命題係",
+    "llm_output": "The correct answer is C. SAP.\n\nWhen you apply the conversion rule (換質法) to a categorical proposition SEP, you get a categorical proposition SAP.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'SOP'], ['B', 'SEP'], ['C', 'SAP'], ['D', 'SIP']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺亞裏士多德嘅邏輯中，被認為係肯定或者否定主項具有謂項性質嘅語句嘅係",
+    "llm_output": "The correct answer is C. 命題 (Proposition).\n\nIn Aristotle's logic, a proposition is a statement that affirms or denies a predicate of a subject, and is considered to have a truth value (i.e., it can be either true or false).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '推論'], ['B', '論證'], ['C', '命題'], ['D', '修辭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個論證係可靠嘅，必須滿足兩個條件，一係所有前提都係真嘅，二係",
+    "llm_output": "The correct answer is A. 論證形式係有效嘅.\n\nA valid argument must satisfy two conditions:\n\n1. All premises are true.\n2. The argument form is valid (i.e., the conclusion follows logically from the premises).\n\nSo, option A is the correct answer.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '論證形式係有效嘅'], ['B', '以上都唔對'], ['C', '部分結論係真嘅'], ['D', '所有結論都係真嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔能用嚟檢驗複合命題論證嘅有效性嘅係",
+    "llm_output": "The correct answer is B. 基本論證形式.\n\nHere's why:\n\n* A. 真值表 (Truth Table) can be used to test the validity of compound statements.\n* C. 文恩圖 (Venn Diagram) can be used to test the validity of categorical syllogisms, which can involve compound statements.\n* D. 形式演繹 (Formal Proof) can be used to test the validity of arguments, including those involving compound statements.\n\nHowever, 基本論證形式 (Basic Argument Form) is not a method for testing the validity of compound statements. It's a way to represent the structure of an argument, but it doesn't provide a way to determine whether the argument is valid or not.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '真值表'], ['B', '基本論證形式'], ['C', '文恩圖'], ['D', '形式演繹']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺論證過程中，通過將某種極端嘅觀點強加畀對方嚟醜化對方係違反咗()呢一語言明確性原則。",
+    "llm_output": "The correct answer is C. 稻草人 (Strawman).\n\nIn the context of logical reasoning, a strawman fallacy occurs when someone misrepresents or exaggerates an opposing view to make it easier to attack and refute. This is a violation of the principle of linguistic clarity, as it involves distorting or misrepresenting the opponent's position.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '斷章取義'], ['B', '平均數'], ['C', '稻草人'], ['D', '非黑即白']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "三段論嘅五條規則可以被分為幾類?",
+    "llm_output": "The correct answer is B. 2.\n\nThe five rules of syllogism can be divided into two categories:\n\n1. Rules related to the distribution of terms (rules 1, 2, and 3)\n2. Rules related to the validity of the argument (rules 4 and 5)\n\nSo, the correct answer is B. 2.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '3'], ['B', '2'], ['C', '5'], ['D', '4']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「生產關係係人哋喺生產中結成嘅人同人之間嘅關係」，呢個定義嘅種差係",
+    "llm_output": "The correct answer is B. 喺生產中結成嘅關係.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人同人之間嘅關係'], ['B', '喺生產中結成嘅關係'], ['C', '人哋喺生產中結成嘅人同人之間嘅'], ['D', '人哋喺生產中結成嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「一方對立場嘅抨擊必須與另一方確係已提出嘅立場有關」。呢係批判性討論規則中嘅",
+    "llm_output": "The correct answer is C. 立場規則.\n\nThis rule is known as the \"Relevance Rule\" or \"Standpoint Rule\", which states that a criticism of an opposing standpoint must be relevant to the standpoint that has been advanced by the other party.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '舉證規則'], ['B', '自由規則'], ['C', '立場規則'], ['D', '責任規則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "直言命題嘅類型唔包括",
+    "llm_output": "The correct answer is A. 全稱逆否命題.\n\n直言命題 (Categorical Proposition) has four types:\n\n* 全稱肯定命題 (Universal Affirmative): All A are B\n* 全稱否定命題 (Universal Negative): No A are B\n* 特稱肯定命題 (Particular Affirmative): Some A are B\n* 特稱否定命題 (Particular Negative): Some A are not B\n\n全稱逆否命題 (Universal Negative Conversion) is not a type of 直言命題.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '全稱逆否命題'], ['B', '特稱肯定命題'], ['C', '全稱肯定命題'], ['D', '特稱否定命題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "某公司為咗擴大其網上商店嘅銷售收入，採取咗各種各樣嘅廣告宣傳同促銷手段，但係效果並唔明顯。該公司重金聘請咗專業人士進行市場分析，專業人士認為開通咗網上銀行嘅人羣先係真正潛喺嘅網上商店嘅顧客羣。於係該公司決定同商業銀行合作，喺新開通網上銀行業務嘅人羣中開展宣傳同促銷活動。但係三個月後，效果並唔理想。以下邊項為真，最能解釋上述結果?",
+    "llm_output": "The correct answer is B. 一般嚟講，啱啱開通網上銀行嘅人需要經過一段時間後先有可能進行網上消費.\n\nThe reason is that people who have just opened online banking accounts may not be ready to make online purchases immediately. They may need some time to get familiar with the online banking system, build trust, and feel comfortable with online transactions. Therefore, it's not surprising that the promotional activities targeting this group didn't yield the desired results after just three months.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '開通網上銀行喺中國仲係一件新鮮事，一般嚟講，消費者對此嘅態度比較謹慎'], ['B', '一般嚟講，啱啱開通網上銀行嘅人需要經過一段時間後先有可能進行網上消費'], ['C', '網上金融服務喺知識分子中已經比較普及，佢哋更希望網上商店能夠提供啲特色服務'], ['D', '最近網上銀行用戶被盜嘅案件頻發，開通網上銀行嘅人因此有所減少']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "斯多葛學派嘅代表人物唔包括",
+    "llm_output": "The correct answer is:\n\nB. 泰勒斯\n\nStoicism was founded by Zeno of Citium (A), and other notable Stoics include Seneca (C) and Marcus Aurelius (D). Thales (B) was a pre-Socratic philosopher who lived before the Stoic school was established.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '芝諾'], ['B', '泰勒斯'], ['C', '塞內卡'], ['D', '奧勒留']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "根據論證嘅前提與結論嘅支持關係，謬誤可以分為",
+    "llm_output": "The correct answer is C. 以上都對 (Both A and B are correct).\n\nAccording to the relationship between the premises and conclusion of an argument, fallacies can be divided into:\n\n* 前提謬誤 (Premise fallacy): a fallacy that occurs when the premises of an argument are false or unreliable.\n* 支持謬誤 (Support fallacy): a fallacy that occurs when the premises of an argument do not provide sufficient support for the conclusion.\n\nSo, both options A and B are correct, and the correct answer is C. 以上都對 (Both A and B are correct).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '前提謬誤'], ['B', '支持謬誤'], ['C', '以上都對'], ['D', '相干謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於彌爾五法嘅係",
+    "llm_output": "The correct answer is A. 比較法 (Comparison Method).\n\nThe five methods of Mill's Inductive Logic are:\n\n1. 求異法 (Method of Difference)\n2. 求同法 (Method of Agreement)\n3. 共變法 (Joint Method of Agreement and Difference)\n4. 剝除法 (Method of Residue)\n5. 契合法 (Method of Concomitant Variations)\n\nComparison Method is not one of Mill's five methods.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '比較法'], ['B', '求異法'], ['C', '求同法'], ['D', '契合法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於前提標識詞嘅係",
+    "llm_output": "The correct answer is C. 因此.\n\n前提標識詞 (premise indicators) are words or phrases that indicate the presence of a premise in an argument. They typically introduce a reason or evidence that supports a conclusion.\n\nA. 因為 (because) and B. 鑑於 (in view of) are both premise indicators, as they introduce a reason or evidence that supports a conclusion.\n\nD. 由於 (due to) is also a premise indicator, as it indicates that what follows is a cause or explanation for something.\n\nC. 因此 (therefore) is a conclusion indicator, which introduces a conclusion that follows from the premises. It is not a premise indicator.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '因為'], ['B', '鑑於'], ['C', '因此'], ['D', '由於']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "訴諸情感論證嘅類型唔包括",
+    "llm_output": "The correct answer is:\n\nC. 唔適當權威論證 (Appeal to inappropriate authority)\n\nAppeal to emotion fallacies involve appealing to emotions rather than logic or evidence to support an argument. The other options are all types of appeal to emotion fallacies:\n\n* A. 訴諸公眾論證 (Appeal to popularity) involves arguing that something is true because many people believe it.\n* B. 訴諸憐憫論證 (Appeal to pity) involves appealing to someone's emotions by evoking feelings of sympathy or pity.\n* D. 訴諸威力論證 (Appeal to force) involves using threats or intimidation to persuade someone.\n\nOn the other hand, an appeal to inappropriate authority involves citing an authority that is not relevant or qualified to support an argument, which is a different type of fallacy.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '訴諸公眾論證'], ['B', '訴諸憐憫論證'], ['C', '唔適當權威論證'], ['D', '訴諸威力論證']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "歐拉圖表示嘅兩個對象類之間嘅關係唔包括",
+    "llm_output": "The correct answer is D. 同一關係 (Identity relation).\n\nEuler diagrams are used to represent relationships between sets, and they can show:\n\n* A. 交叉關係 (Intersection): the overlap between two sets\n* B. 全同關係 (Equivalence): the relationship between two sets that have the same elements\n* C. 種屬關係 (Inclusion): the relationship between a subset and its superset\n\nHowever, Euler diagrams do not explicitly represent the identity relation (同一關係), which is a relation between a set and itself.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '交叉關係'], ['B', '全同關係'], ['C', '種屬關係'], ['D', '同一關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "邏輯主義嘅代表人物係",
+    "llm_output": "The correct answer is D. 希爾伯特 (David Hilbert).\n\nHilbert is considered one of the main representatives of logicism, a philosophical movement that emerged in the late 19th and early 20th centuries, which aimed to establish mathematics as a branch of logic.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '布勞威爾'], ['B', '羅素'], ['C', '哥德爾'], ['D', '希爾伯特']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "請揀啱嘅判斷反駁「吸煙有利健康」",
+    "llm_output": "The correct answer is C. 所有人吸煙都唔利健康.\n\nThis is because the original statement \"吸煙有利健康\" (Smoking is good for health) is a universal affirmative claim, and to refute it, we need to show that there is at least one counterexample. Option C provides a counterexample by stating that all people who smoke are not healthy, which contradicts the original claim.\n\nOption A only shows that some people who smoke are not healthy, but it does not refute the possibility that some people who smoke are healthy.\n\nOption B is irrelevant to the original claim, as it talks about people who don't smoke.\n\nOption D is also irrelevant, as it talks about the correlation between health and smoking, but does not provide a direct counterexample to the original claim.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '有人吸煙唔利健康'], ['B', '有人唔吸煙有利健康'], ['C', '所有人吸煙都唔利健康'], ['D', '健康嘅人一般唔吸煙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「如果A，噉B」可轉換為其等值判斷",
+    "llm_output": "The correct answer is:\n\nD. 如果非B，噉非A\n\nThis is because \"If A, then B\" is equivalent to \"If not B, then not A\", which is known as the contrapositive form.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '如果非A，噉B'], ['B', '如果非A，噉非B'], ['C', '如果B，噉A'], ['D', '如果非B，噉非A']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "被譽為古印度嘅醫學百科全書嘅係",
+    "llm_output": "The correct answer is A. 「闍羅迦本集」.\n\n「闍羅迦本集」(Caraka Samhita) is an ancient Indian medical text that is considered one of the foundational texts of Ayurveda, the traditional system of Indian medicine. It is indeed referred to as the \"medical encyclopedia\" of ancient India.\n\nThe other options are not correct:\n\nB. 「吠陀經」(Vedas) are ancient Indian sacred texts that are not specifically focused on medicine.\n\nC. 「摩訶婆羅多」(Mahabharata) is an ancient Indian epic poem that contains stories and teachings on various subjects, including philosophy, politics, and warfare, but not medicine.\n\nD. 「薄伽梵歌」(Bhagavad Gita) is a part of the Mahabharata and is a Hindu scripture that deals with spiritual and philosophical topics, not medicine.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「闍羅迦本集」'], ['B', '「吠陀經」'], ['C', '「摩訶婆羅多」'], ['D', '「薄伽梵歌」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「好人有好報，三係好人，所以三有好報」屬於",
+    "llm_output": "The correct answer is A. 演繹推理 (Deductive reasoning).\n\nThe argument \"好人有好報，三係好人，所以三有好報\" is a classic example of a categorical syllogism, which is a type of deductive argument. It follows the form:\n\nAll A are B\nX is A\n∴ X is B\n\nIn this case:\n\nAll 好人 (good people) have 好報 (good fortune)\n三 (three) is a 好人 (good person)\n∴ 三 has 好報 (good fortune)\n\nThis is a valid deductive argument, where the conclusion follows necessarily from the premises.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '演繹推理'], ['B', '回溯推理'], ['C', '似真推理'], ['D', '歸納推理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "彭平係一個計算機編程專家，姚欣係一位數學家。其實，所有嘅計算機編程專家都係數學家。我哋知道，今日國內大多數綜合性大學都喺培養住計算機編程專家。據此，我哋可以認為：",
+    "llm_output": "The correct answer is:\n\nC. 有啲數學家係計算機編程專家\n\nExplanation:\n\nFrom the statement \"所有嘅計算機編程專家都係數學家\" (All computer programming experts are mathematicians), we can infer that some mathematicians are computer programming experts. This is a logical conclusion based on the given information.\n\nThe other options are not necessarily true based on the given information:\n\nA. 彭平由綜合性大學所培養嘅 (Peng Ping was trained by a comprehensive university) - We don't have enough information to conclude this.\n\nB. 大多數計算機編程專家係由綜合性大學所培養嘅 (Most computer programming experts are trained by comprehensive universities) - While it's true that many comprehensive universities train computer programming experts, we can't conclude that most experts are trained by such universities.\n\nD. 姚欣並唔係畢業於綜合性大學 (Yao Xin did not graduate from a comprehensive university) - We don't have enough information to conclude this.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '彭平由綜合性大學所培養嘅'], ['B', '大多數計算機編程專家係由綜合性大學所培養嘅'], ['C', '有啲數學家係計算機編程專家'], ['D', '姚欣並唔係畢業於綜合性大學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "用真值表檢驗重言式同矛盾式需要針對所討論嘅命題建立一個",
+    "llm_output": "The correct answer is C. 真值行 (truth table).\n\nWhen verifying tautologies and contradictions using a truth table, we need to construct a truth table with rows representing all possible combinations of truth values for the propositions involved.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '矛盾式'], ['B', '重言式'], ['C', '真值行'], ['D', '真值列']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "前提係自我欺騙性語句，即",
+    "llm_output": "The correct answer is D. 前提自相矛盾謬誤.\n\nThe statement \"This sentence is false\" is a classic example of a self-referential paradox, which is a type of logical contradiction. This type of statement is known as the Liar Paradox. It is a self-contradictory statement because if the sentence is true, then it must be false, but if it is false, then it must be true. This creates an infinite loop of contradictions, making the statement logically inconsistent.\n\nTherefore, the correct answer is D. 前提自相矛盾謬誤, which translates to \"premise self-contradictory fallacy\".",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '前提虛假謬誤'], ['B', '以上都唔對'], ['C', '預期理由謬誤'], ['D', '前提自相矛盾謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "當命題斷言咗主項或者謂項所指稱嘅類嘅每一成員時，我哋就話呢個詞項係",
+    "llm_output": "The correct answer is C. 周延嘅.\n\nWhen a term refers to every member of the class it denotes, it is said to be \"distributed\" or \"universal\" in traditional logic. In this case, the term is said to be \"周延嘅\" (distributed) because it applies to every individual in the class.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '唔周延嘅'], ['B', '假嘅'], ['C', '周延嘅'], ['D', '真嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "根據演繹有效性原則，論證無效嘅一個重要標誌係",
+    "llm_output": "The correct answer is D. 所有前提真而結論假.\n\nAccording to the principle of deductive validity, an argument is invalid if all the premises are true but the conclusion is false. This is because deductive validity requires that the conclusion follows necessarily and with absolute certainty from the premises, and if the conclusion is false despite all the premises being true, then the argument is not valid.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '部分前提假而結論假'], ['B', '部分前提真而結論假'], ['C', '所有前提假而結論假'], ['D', '所有前提真而結論假']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "根據演繹有效性原則，論證無效嘅一個重要標誌係",
+    "llm_output": "The correct answer is C. 所有前提真而結論假.\n\nAccording to the principle of deductive validity, an argument is invalid if all its premises are true but its conclusion is false. This is because deductive validity requires that if all the premises are true, the conclusion must also be true. If all the premises are true but the conclusion is false, then the argument is invalid.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '部分前提假而結論假'], ['B', '所有前提假而結論假'], ['C', '所有前提真而結論假'], ['D', '部分前提真而結論假']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「所有嘅邏輯學家都係哲學家，所有美學家都係邏輯學家，因此，所有美學家都係哲學家」，呢個三段論中，結論標識詞係",
+    "llm_output": "The correct answer is A. 都係.\n\nThe conclusion of the argument is \"所有美學家都係哲學家\" (All aestheticians are philosophers), and the keyword \"都係\" (are) indicates the relationship between the subject \"美學家\" (aestheticians) and the predicate \"哲學家\" (philosophers).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '都係'], ['B', '哲學家'], ['C', '所有'], ['D', '因此']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於前提標識詞嘅係",
+    "llm_output": "The correct answer is D. 所以.\n\n\"所以\" is a conclusion indicator, not a premise indicator. The other options, \"因為\", \"鑑於\", and \"由於\", are all premise indicators, which introduce a reason or evidence for a claim.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '因為'], ['B', '鑑於'], ['C', '由於'], ['D', '所以']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "三段論「有啲結構主義者係形式主義者；所有形式主義者都唔係實質主義者；因此，有啲實質主義者唔係結構主義者。」嘅式係",
+    "llm_output": "The correct answer is C. EIO.\n\nHere's the breakdown:\n\n* \"有啲結構主義者係形式主義者\" is an I statement (Some structuralists are formalists)\n* \"所有形式主義者都唔係實質主義者\" is an E statement (All formalists are not realists)\n* \"因此，有啲實質主義者唔係結構主義者\" is an O statement (Therefore, some realists are not structuralists)\n\nSo, the sequence is EIO.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'IOE'], ['B', 'EOI'], ['C', 'EIO'], ['D', 'IEO']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺歸納邏輯中，所有前提真而結論",
+    "llm_output": "The correct answer is A. 可能真.\n\nIn inductive logic, even if all the premises are true, the conclusion is only probable, not certain. This is because inductive reasoning involves making a generalization based on a limited number of observations, and there is always a possibility that the conclusion may not be true.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可能真'], ['B', '必然假'], ['C', '必然真'], ['D', '可能假']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "由於近期嘅乾旱同高溫，導致海灣鹽度增加，引起咗好多魚嘅死亡。蝦雖然可以適應高鹽度，但係鹽度高都畀養蝦場帶嚟咗唔幸。以下邊項如果為真，能夠提供解釋以上現象嘅原因?",
+    "llm_output": "The correct answer is A. 幼蝦食嘅有機物喺鹽度高嘅環境下幾乎難以存活.\n\nThis option provides a possible explanation for why the high salinity caused by the drought and high temperature would affect the shrimp farms, even though shrimp can adapt to high salinity. If the food sources for young shrimp are difficult to survive in high-salinity environments, it would impact the shrimp population and lead to unfortunate consequences for shrimp farms.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '幼蝦食嘅有機物喺鹽度高嘅環境下幾乎難以存活'], ['B', '持續嘅乾旱會使海灣嘅水位下降，呢已經引起咗有關機構嘅注意'], ['C', '水溫升高會使蝦更快速繁殖'], ['D', '魚多嘅海灣往往蝦都有多，蝦少嘅海灣魚都唔多']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於共同嘅論證評價標準嘅係",
+    "llm_output": "The correct answer is D. 修辭標準 (Rhetorical standard).\n\nThe other options are all common evaluation standards for arguments:\n\n* 分析標準 (Analytic standard) refers to the evaluation of an argument's logical structure and the relationships between its components.\n* 論辯標準 (Dialectical standard) refers to the evaluation of an argument's ability to respond to counterarguments and engage in a constructive dialogue.\n* 邏輯標準 (Logical standard) refers to the evaluation of an argument's conformity to the principles of logic and the avoidance of logical fallacies.\n\n修辭標準 (Rhetorical standard), on the other hand, is concerned with the persuasive and stylistic aspects of an argument, such as its emotional appeal, tone, and use of language, which is not directly related to the evaluation of an argument's logical validity or soundness.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '分析標準'], ['B', '論辯標準'], ['C', '邏輯標準'], ['D', '修辭標準']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "訴諸權威謬誤嘅通常表現形式包括",
+    "llm_output": "The correct answer is B. 以上都對 (All of the above).\n\nThe appeal to authority fallacy typically manifests in three forms:\n\n* A. Unrelated authority: citing an authority who is not an expert in the relevant field.\n* C. Questionable authority: citing an authority who lacks credibility or expertise.\n* D. Misuse of authority: citing an authority in a way that is misleading or taken out of context.\n\nTherefore, option B, which includes all three forms, is the correct answer.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔相干權威'], ['B', '以上都對'], ['C', '有問題嘅權威'], ['D', '濫用權威']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺歸納邏輯中，所有前提真而結論",
+    "llm_output": "The correct answer is A. 可能真.\n\nIn inductive logic, even if all the premises are true, the conclusion is only probable or possible, not necessarily true. This is because inductive reasoning involves making a generalization based on specific instances, and there is always a chance that the conclusion may not be true.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可能真'], ['B', '以上都唔對'], ['C', '必然假'], ['D', '必然真']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "論證嘅功能包括證成同",
+    "llm_output": "The correct answer is A. 反駁.\n\nThe function of an argument includes both justification (證成) and refutation (反駁). Justification aims to provide evidence and reasons to support a claim, while refutation aims to counter or respond to opposing views or arguments.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '反駁'], ['B', '辯論'], ['C', '推論'], ['D', '歸謬']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果有啲a係b；有啲a唔係b，並且有啲b係a ，有啲b唔係a；噉，a與b呢兩個概念具有()關係。",
+    "llm_output": "The correct answer is A. 交叉 (Overlap).\n\nHere's why:\n\n* \"有啲a係b\" means some a's are b's (there is a overlap between a and b)\n* \"有啲a唔係b\" means some a's are not b's (a is not fully contained in b)\n* \"有啲b係a\" means some b's are a's (there is a overlap between b and a)\n* \"有啲b唔係a\" means some b's are not a's (b is not fully contained in a)\n\nFrom these statements, we can conclude that a and b have an overlap, but neither is fully contained in the other. Therefore, the correct answer is A. 交叉 (Overlap).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '交叉'], ['B', '真包含於'], ['C', '全異'], ['D', '全同']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "小王話：如果聽日唔落大雨，我一定去睇波。以下邊項為真，可以證明小王冇講真話?a天冇落大雨，小王冇去睇波；b天下大雨，小王去睇咗波；c天下大雨，小王冇去睇波",
+    "llm_output": "The correct answer is B. a.\n\nHere's the explanation:\n\n小王 says: \"If it doesn't rain tomorrow, I will definitely go watch the game.\"\n\nTo prove that 小王 is not telling the truth, we need to find a scenario where the condition \"it doesn't rain tomorrow\" is true, but 小王 does not go watch the game.\n\nOption a) 天冇落大雨，小王冇去睇波 (It doesn't rain, and 小王 doesn't go watch the game) satisfies this condition, which means 小王's statement is false.\n\nOptions b and c do not provide enough evidence to conclude that 小王 is not telling the truth.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'ab'], ['B', 'a'], ['C', 'b'], ['D', 'c']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果A、B兩個判斷唔能同假，但係可以同真，則佢哋之間嘅關係係",
+    "llm_output": "The correct answer is D. 反對關係.\n\nIf two judgments A and B cannot be both false, but can be both true, then they are in a contrary relationship. This means that they cannot both be false at the same time, but they can both be true at the same time.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '下反對關係'], ['B', '矛盾關係'], ['C', '差等關係'], ['D', '反對關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個結果嘅數值概率等於相對嗰個結果可獲得嘅結果數()可能結果嘅總數。",
+    "llm_output": "The correct answer is B. 除.\n\nThe probability of an outcome is equal to the number of favorable outcomes (i.e., the number of outcomes that meet the desired condition) divided by the total number of possible outcomes.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '乘'], ['B', '除'], ['C', '減'], ['D', '加']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果一個證明嘅論據仲要依靠論題嚟證明，噉該證明所犯嘅邏輯錯誤係",
+    "llm_output": "The correct answer is C. 循環論證 (Circular Reasoning).\n\nIf an argument relies on the conclusion to be proven in order to prove it, it is a circular reasoning, also known as begging the question. This is a type of logical fallacy where the argument assumes the truth of the conclusion it is trying to prove, rather than providing independent evidence or reasoning to support it.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '推唔出'], ['B', '預期理由'], ['C', '循環論證'], ['D', '論據虛假']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "通過改變命題嘅質或者量從而推導出新命題嘅論證係",
+    "llm_output": "The correct answer is B. 質量論證.\n\nThis type of argument is called \"quantitative argument\" or \"qualitative argument\", where the conclusion is derived by changing the quality or quantity of the original proposition.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '直言命題運算論證'], ['B', '質量論證'], ['C', '三段論論證'], ['D', '對當關係論證']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "構造真值表，基於嘅邏輯算子規則唔包括",
+    "llm_output": "The correct answer is B. 命題 (Proposition).\n\nConstructing a truth table is based on the rules of logical operators, which include:\n\n* 等值 (Equivalence)\n* 否定 (Negation)\n* 合取 (Conjunction)\n* 選擇 (Disjunction)\n* 等價 (Biconditional)\n\nProposition is a statement that can be either true or false, but it is not a logical operator used to construct a truth table.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '等值'], ['B', '命題'], ['C', '否定'], ['D', '合取']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "要檢驗一個命題係唔係矛盾式，即以該命題作為前提進行推導，睇下能唔能推導出",
+    "llm_output": "The correct answer is C. 矛盾 (contradiction).\n\nTo test whether a statement is self-contradictory, you assume the statement as a premise and try to derive a contradiction from it. If you can derive a contradiction, then the original statement is self-contradictory.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結論'], ['B', '命題'], ['C', '矛盾'], ['D', '前提']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "論證識別嘅核心內容係",
+    "llm_output": "The correct answer is B. 前提與結論嘅識別 (Identifying premises and conclusions).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '目標聽眾嘅識別'], ['B', '前提與結論嘅識別'], ['C', '論證者嘅識別'], ['D', '論證目嘅識別']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "前提或者結論中至少有一個條件命題嘅論證係",
+    "llm_output": "The correct answer is C. 條件論證 (Conditional Argument).\n\nA conditional argument is a type of argument that involves a conditional statement (i.e., a statement of the form \"If P, then Q\") as either a premise or the conclusion.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '結論論證'], ['B', '命題論證'], ['C', '條件論證'], ['D', '前提論證']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "如果論證嘅所有前提同時為真係唔可能嘅，噉呢個論證嘅前提就係",
+    "llm_output": "The correct answer is B. 唔一致 (inconsistent).\n\nIf all the premises of an argument are simultaneously true is impossible, it means that the premises are contradictory, which makes the argument inconsistent.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '不可接受'], ['B', '唔一致'], ['C', '可接受'], ['D', '一致']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一個命題為真係另一個命題為真嘅充分條件嘅命題係",
+    "llm_output": "The correct answer is C. 假言命題 (Conditional Statement).\n\nA conditional statement is a statement of the form \"If P, then Q\", where P is the antecedent and Q is the consequent. In this case, the statement \"一個命題為真係另一個命題為真嘅充分條件\" can be translated to \"If one proposition is true, then another proposition is true\", which is a conditional statement.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '直言命題'], ['B', '條件命題'], ['C', '假言命題'], ['D', '充分命題']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊篇文章唔包含喺「工具論」之中？",
+    "llm_output": "The correct answer is A. 「理想國」.\n\n\"理想國\" (The Republic) is a philosophical work by Plato, but it is not a work on logic. It is a dialogue that explores the nature of justice, morality, and the ideal society.\n\nThe other options are all works that are related to logic:\n\n* \"解釋篇\" (Prior Analytics) is a work by Aristotle that deals with deductive logic and syllogisms.\n* \"論辯篇\" (Topics) is another work by Aristotle that deals with dialectics and argumentation.\n* \"範疇篇\" (Categories) is a work by Aristotle that deals with the classification of things and the relationships between them, which is also relevant to logic.\n\nSo, \"理想國\" is the one that does not belong to the category of \"工具論\" (logical works).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「理想國」'], ['B', '「解釋篇」'], ['C', '「論辯篇」'], ['D', '「範疇篇」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "複合命題嘅邏輯聯結詞包括",
+    "llm_output": "The correct answer is D. 以上都對 (All of the above).\n\nCompound propositions can be connected using various logical connectives, including:\n\n* Conjunction (∧, \"and\") and disjunction (∨, \"or\") (A)\n* Implication (→, \"if-then\") and equivalence (↔, \"if and only if\") (B)\n* Negation (¬, \"not\") (C)\n\nSo, all of the above options are correct.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '合取同析取'], ['B', '蘊涵同等值'], ['C', '否定'], ['D', '以上都對']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "係指相對於證據，兩個事實或者事件至少有一個為真嘅概率。",
+    "llm_output": "The correct answer is A. 析取律 (Disjunctive Law).\n\nThe disjunctive law states that if two statements are disjoined (i.e., connected by \"or\"), then at least one of them must be true. In other words, if we have two statements P and Q, then the statement \"P or Q\" is true if at least one of P or Q is true.\n\nThis law is often represented as:\n\nP ∨ Q ≡ ¬(¬P ∧ ¬Q)\n\nWhere \"∨\" represents the disjunction operator (i.e., \"or\"), and \"¬\" represents the negation operator (i.e., \"not\").",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '析取律'], ['B', '肯定律'], ['C', '合取律'], ['D', '否定律']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於邏輯系統四大定理嘅係",
+    "llm_output": "The correct answer is:\n\nC. 可靠性定理\n\nThe four major theorems in logic systems are:\n\n* 一致性定理 (Consistency Theorem)\n* 唔完全性定理 (Incompleteness Theorem)\n* 有效性定理 (Soundness Theorem)\n* 完全性定理 (Completeness Theorem)\n\nThere is no \"可靠性定理\" (Reliability Theorem) among the four major theorems in logic systems.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一致性定理'], ['B', '唔完全性定理'], ['C', '可靠性定理'], ['D', '有效性定理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「所有嘅邏輯學家都係哲學家，所有美學家都係邏輯學家，因此，所有美學家都係哲學家」，呢個三段論中，大項係",
+    "llm_output": "The correct answer is:\n\nD. 哲學家",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '以上都唔對'], ['B', '邏輯學家'], ['C', '美學家'], ['D', '哲學家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "違反規則「所有前提都必須係真嘅」嘅謬誤包括",
+    "llm_output": "The correct answer is B. 前提虛假謬誤.\n\nThis type of fallacy occurs when one or more of the premises of an argument are false, which violates the rule that all premises must be true.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上都對'], ['B', '前提虛假謬誤'], ['C', '唔一致謬誤'], ['D', '預期理由謬誤']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "喺「育才中學有外籍教師任教」呢一判斷中，",
+    "llm_output": "The correct answer is B. 主項、謂項都唔周延.\n\nHere's why:\n\n* \"育才中學\" is the subject, and it's not universally quantified (i.e., it's not \"all schools\" or \"every school\"), so it's not distributive (周延).\n* \"有外籍教師任教\" is the predicate, and it's also not universally quantified (i.e., it's not \"all teachers\" or \"every teacher\"), so it's not distributive (周延) either.\n\nTherefore, both the subject and the predicate are not distributive, making option B the correct answer.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '主項周延'], ['B', '主項、謂項都唔周延'], ['C', '主項、謂項都周延'], ['D', '謂項周延']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "三段論嘅式共有幾多個。",
+    "llm_output": "A classic question in logic! 😊\n\nThe correct answer is C. 64.\n\nIn traditional logic, a syllogism is a form of argument that consists of three propositions: two premises and a conclusion. Each proposition can be either All, No, Some, or Not Some, which gives us 4 options for each proposition. Since there are three propositions, the total number of possible syllogisms is 4 × 4 × 4 = 64.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '512'], ['B', '128'], ['C', '64'], ['D', '256']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "所有嘅語句都包括",
+    "llm_output": "The correct answer is D. 語義要素同邏輯要素.\n\nExplanation: A sentence typically includes both semantic elements (語義要素) and logical elements (邏輯要素). Semantic elements refer to the meaning of the words and phrases in the sentence, while logical elements refer to the relationships between these words and phrases, such as negation, conjunction, and implication.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯要素'], ['B', '語法要素'], ['C', '詞彙要素'], ['D', '語義要素同邏輯要素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "非形式邏輯標準嘅一個論證係好嘅，當且僅當()成立。",
+    "llm_output": "The correct answer is D. 前提對結論提供咗足夠支持.\n\nIn informal logic, an argument is considered good if and only if the premises provide sufficient support for the conclusion. This means that the premises must be relevant, reliable, and strong enough to justify the conclusion.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上均係'], ['B', '所有前提均可接受'], ['C', '前提與結論相干'], ['D', '前提對結論提供咗足夠支持']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "命題「有啲音樂家係有創造力之人;所有作曲家都係音樂家;因此，有啲作曲家係有創造力之人。」嘅中項係",
+    "llm_output": "The correct answer is D. 音樂家.\n\nThe argument is:\n\nAll musicians are creative people.\nAll composers are musicians.\nTherefore, some composers are creative people.\n\nThe middle term is \"音樂家\" (musicians), which connects the first premise to the second premise.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '作曲家'], ['B', '以上都唔係'], ['C', '有創造力之人'], ['D', '音樂家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "通常用嚟表達聯結詞「析取」嘅係",
+    "llm_output": "The correct answer is B. 或者 (or).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '而且'], ['B', '或者'], ['C', '並非'], ['D', '並且']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "「數學與猜想」嘅作者係",
+    "llm_output": "The correct answer is D. 波利亞 (George Pólya).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '羅素'], ['B', '周北海'], ['C', '金嶽霖'], ['D', '波利亞']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "一組唔一致嘅前提()推導出唔一致嘅結論。",
+    "llm_output": "The correct answer is C. 必然 (necessarily).\n\nIf a set of premises is inconsistent, it can lead to any conclusion, including an inconsistent one. This is because an inconsistent set of premises can be used to derive contradictory conclusions, and therefore, any conclusion can be derived from it. This is known as the principle of explosion in logic.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '可能'], ['B', '唔會'], ['C', '必然'], ['D', '唔確定']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "違反規則「前提與結論必須係相干」嘅謬誤唔包括",
+    "llm_output": "The correct answer is A. 合成謬誤.\n\nThe rule \"前提與結論必須係相干\" (premises and conclusion must be relevant) is violated by the following fallacies:\n\n* 人身攻擊謬誤 (ad hominem fallacy): attacking the person rather than the argument\n* 稻草人謬誤 (straw man fallacy): misrepresenting or exaggerating an opponent's argument\n* 非黑即白謬誤 (false dilemma fallacy): presenting only two options as if they are the only possibilities when there may be other alternatives\n\nHowever, 合成謬誤 (composition fallacy) is a different type of fallacy, which involves assuming that a property of a part is also true of the whole. It does not necessarily involve a lack of relevance between premises and conclusion.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '合成謬誤'], ['B', '人身攻擊謬誤'], ['C', '稻草人謬誤'], ['D', '非黑即白謬誤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-logical",
+    "key_answer_type": "alphabet_option",
+    "question": "銳進軟件股份有限公司係一個由四個子公司，即甲、乙、丙、丁組成嘅總公司。喺總公司嘅利潤方案下，每個子公司承擔嘅利潤份額與每年該子公司員工佔銳進軟件股份有限公司總員工數嘅份額相等。但係舊年該公司嘅財務報告卻顯示，甲公司喺員工數量增加嘅同時向總公司上繳利潤嘅比例卻下降咗。如果上述陳述為真，財務報告仲能夠說明下列邊項?",
+    "llm_output": "The correct answer is B. 甲公司員工增長嘅比例至少比其他三個子公司中嘅一個細.\n\nHere's the explanation:\n\nSince the profit share of each subsidiary is proportional to the number of employees it has, if 甲 company's profit share decreased despite an increase in the number of employees, it means that the rate of increase in employees for 甲 company must be slower than at least one of the other three subsidiaries. Otherwise, 甲 company's profit share would not have decreased.\n\nTherefore, option B is the correct answer.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '甲公司員工增長嘅比例比前一年細'], ['B', '甲公司員工增長嘅比例至少比其他三個子公司中嘅一個細'], ['C', '喺四個子公司中，甲嘅員工數量最少'], ['D', '乙、丙、丁公司員工增長嘅比例都超過咗甲公司員工增長嘅比例']]",
+    "is_correct": 1
+  }
+]

@@ -1,0 +1,2102 @@
+[
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "全面質量管理嘅重點同核心環節係",
+    "llm_output": "全面質量管理（Total Quality Management，TQM）嘅重點同核心環節係「處理環節」，即係 A. 處理環節。\n\n在全面質量管理中，處理環節係指對產品或服務嘅生產過程進行監控、分析和改進，以確保質量嘅持續提升。呢個環節包括咗質量控制、質量保證、持續改進等活動，係TQM嘅核心所在。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '處理環節'], ['B', '實施環節'], ['C', '計劃環節'], ['D', '檢查環節']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺職位分類中，司局級正職同巡視員屬於同一",
+    "llm_output": "B. 職等",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '職系'], ['B', '職等'], ['C', '職級'], ['D', '職位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "可以使管理幅度增加嘅因素係",
+    "llm_output": "D. 下屬嘅工作內容同性質相近\n\n管理幅度，又稱為管理範圍，係指一個管理者可以有效管理嘅下屬人數。當下屬嘅工作內容同性質相近時，管理者可以更有效地監控同指導下屬，進而增加管理幅度。其他因素，如組織環境變化較快、下屬能力較差或主管人員處於較高層次，一般會限制管理幅度，因為呢啲因素會增加管理難度同複雜性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '組織所面臨嘅環境變化較快'], ['B', '下屬嘅能力較差'], ['C', '主管人員處於較高層次'], ['D', '下屬嘅工作內容同性質相近']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "使人腦唔經過邏輯思維就直接產生行為同決策嘅因素係",
+    "llm_output": "正確答案嘅選項係 B. 超理性因素。\n\n超理性因素係指那些唔經過傳統邏輯思維過程，而係通過直覺、情感、經驗、價值觀或者其他非邏輯過程影響人類行為同決策嘅因素。這些因素可以影響個人嘅決策過程，有時甚至會超越純粹嘅理性分析。在管理學中，理解超理性因素對於解釋人類行為同建立有效嘅領導策略非常重要。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '非理性因素'], ['B', '超理性因素'], ['C', '理性因素'], ['D', '感性因素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "以分工為前提，體現現代管理基本特徵嘅係",
+    "llm_output": "正確答案係 B. 專業化。\n\n分工係現代管理嘅基本特徵之一，體現咗工作嘅專業化。透過分工，組織可以將複雜嘅任務細分為較小嘅部分，並分配畀專業化嘅員工處理。呢種方式有助於提高效率、質量同生產力。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '社會化'], ['B', '專業化'], ['C', '批量化'], ['D', '技術性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺目標管理過程中，分配資財所屬嘅環節係",
+    "llm_output": "A. 目標嘅實施",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '目標嘅實施'], ['B', '目標嘅監控'], ['C', '目標成果評價'], ['D', '目標嘅制定']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "甲廠長認為，要提高企業勞動生產效率，必須用科學嘅方法對工人嘅生產操作、工具使用、勞動與休息時間嘅搭配，以及設備嘅安置、作業環境嘅佈置進行分析，盡可能消除客觀存在嘅唔合理因素。其理論依據係",
+    "llm_output": "D. 科學管理理論\n\n這個問題的理論依據是科學管理理論，因為它強調使用科學方法來分析和解決生產效率問題，包括工作流程、工具使用、勞動時間安排和生產環境等。科學管理理論的代表人物是弗雷德里克·泰勒（Frederick Winslow Taylor），他提出通過系統分析和改進工作方法來提高生產效率。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '一般管理理論'], ['B', '科學組織理論'], ['C', '行為科學理論'], ['D', '科學管理理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "美國著名心理學家布爾赫斯•弗雷德裏克•斯金納提出嘅係",
+    "llm_output": "正確答案嘅選項係 D. 強化理論。布爾赫斯•弗雷德裏克•斯金納（B.F. Skinner）係一位美國著名嘅心理學家，以佢對於行為主義心理學嘅貢獻而聞名。佢提出嘅強化理論（Reinforcement Theory）強調透過獎勵同懲罰嘅方式嚟塑造行為，呢個理論對於管理學中嘅激勵同學習過程有重大影響。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「X—Y」理論'], ['B', '歸因理論'], ['C', '雙因素理論'], ['D', '強化理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "系統分析最基本同核心嘅原則係",
+    "llm_output": "正確答案係 B. 模型化原則。系統分析時，模型化原則係用來將複雜嘅系統轉換成較簡單嘅模型，以便更好地理解系統嘅結構、功能同互動。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '優化原則'], ['B', '模型化原則'], ['C', '整體性原則'], ['D', '層次性原則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "對單變量動態概率型決策可採用嘅係",
+    "llm_output": "B.  排隊論\n\n排隊論（Queueing Theory）係研究服務系統中顧客（或工作）嘅到達、等待和服務過程嘅數學理論。佢可以用嚟分析單變量動態概率型決策，因為佢考慮咗時間嘅變化和概率嘅變化，而呢種情況經常出現在管理學中，例如在顧客服務、維修請求、生產線管理等方面。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '非線性規劃'], ['B', '排隊論'], ['C', '矩陣代數'], ['D', '線性規劃']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺生產力系統中，作為獨立嘅實體要素嘅係",
+    "llm_output": "A. 管理",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '管理'], ['B', '生產者'], ['C', '科學'], ['D', '技術']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "美國著名嘅政治學家同政策科學家查爾斯•林德布洛姆提出嘅決策模式係",
+    "llm_output": "D. 漸進決策模式",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '集團決策模式'], ['B', '理性決策模式'], ['C', '精英決策模式'], ['D', '漸進決策模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於頭腦風暴法嘅講法，唔正確嘅係",
+    "llm_output": "正確答案嘅選項係：A. 所發表嘅建議必須深思熟慮。\n\n頭腦風暴法（Brainstorming）嘅目的係鼓勵參加者盡情提出大量嘅想法，而唔需要即時考慮建議嘅可行性或質量。呢種方法強調創意嘅自由流通，並且通常要求參與者避免即時對建議做出評論或批判，以保持討論嘅流暢性。因此，選項A提到嘅「所發表嘅建議必須深思熟慮」並唔符合頭腦風暴法嘅原則。其他選項B、C和D都係頭腦風暴法嘅特點。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '所發表嘅建議必須深思熟慮'], ['B', '相關專家或人員各自發表自己嘅意見，對別人嘅建議唔作評論'], ['C', '鼓勵獨立思考，奇思妙想'], ['D', '可以補充完善已有嘅建議']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於激勵因素嘅係",
+    "llm_output": "D. 工資收入\n\n激勵因素通常涉及工作本身的特質，如職業發展、工作責任、工作成就等，而工資收入更多屬於保健因素，它們滿足了員工的基本需求，但本身不一定能夠激發員工的積極性和投入度。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '職業發展'], ['B', '工作責任'], ['C', '工作成就'], ['D', '工資收入']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列對私人管理嘅表述，正確嘅係",
+    "llm_output": "B.  私人管理應以社會責任為要務。\n\n私人管理通常涉及企業或個人的商業活動，而這些活動除了追求利潤之外，也越來越重視社會責任，包括對環境的保護、員工的福利、以及社會的貢獻等。因此，選項 B 最符合私人管理的特點。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '私人管理憑藉嘅係政治權威。'], ['B', '私人管理應以社會責任為要務。'], ['C', '私人管理嘅每一項活動都助於公共利益。'], ['D', '私人管理係相對封閉嘅管理。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "按照控制發生喺一個完整管理過程中嘅階段性，分前饋控制、反饋控制以及",
+    "llm_output": "正確答案嘅選項係 D. 現場控制。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '動態控制'], ['B', '分散控制'], ['C', '復合控制'], ['D', '現場控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "定期嘅形勢報告、由下而上嘅定期報表等喺管理信息類型中屬於",
+    "llm_output": "B.  管理控制信息",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '作業信息'], ['B', '管理控制信息'], ['C', '協調信息'], ['D', '戰略計劃信息']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "根據大衛•麥克利蘭關於人嘅自我實現嘅需要理論，如果一個人希望控制向上同向下嘅信息渠道以便對他人施加影響，那就表明佢係一個",
+    "llm_output": "正確答案係 D. 權力需要強嘅人。大衛•麥克利蘭嘅三種需要理論中，權力需要強嘅人通常希望控制同影響他人，以達到個人目標同影響力。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '激勵需要強嘅人'], ['B', '社會交往需要強嘅人'], ['C', '成就需要強嘅人'], ['D', '權力需要強嘅人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "原始社會係管理思想嘅萌芽階段，其間出現咗按人嘅自然屬性同各成員嘅特殊興趣與能力進行分工嘅即",
+    "llm_output": "正確答案嘅選項係：\n\nA. 簡單嘅自然勞動分工思想",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '簡單嘅自然勞動分工思想'], ['B', '原始嘅科學管理思想'], ['C', '樸素嘅勞動協作思想'], ['D', '原始嘅組織思想']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "以「人」為中心嘅係",
+    "llm_output": "D. 品位分類\n\n以「人」為中心嘅係品位分類（Meritocracy），呢種分類係根據個人嘅能力、表現同成就，而唔係根據其背景、社會地位或者政治連結。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '職級'], ['B', '職位分類'], ['C', '職等'], ['D', '品位分類']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀20年代，作為一般系統論嘅創始人，提出系統概念嘅係奧地利理論生物學家",
+    "llm_output": "正確答案嘅選項係 B. 貝塔朗菲 (Ludwig von Bertalanffy)。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '維納'], ['B', '貝塔朗菲'], ['C', '申農'], ['D', '韋伯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理控制過程嘅第一步係",
+    "llm_output": "C. 確立標準\n\n管理控制過程嘅第一步係確立標準，因為需要有參考嘅標準先可以檢查績效，從而搵出原因並糾正偏差。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '檢查績效'], ['B', '搵出原因'], ['C', '確立標準'], ['D', '糾正偏差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺實施財務監督時，以會計憑證、賬簿、報表等會計資料為對象進行檢查嘅方法被稱為",
+    "llm_output": "正確答案嘅選項係 C. 財務檢查。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '現場調查'], ['B', '財務分析'], ['C', '財務檢查'], ['D', '實物檢查']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "對指揮嘅實現程度具有決定性作用嘅因素係",
+    "llm_output": "正確答案嘅選項係 B. 指揮目標與手段嘅合理性。\n\n在管理學中，指揮嘅實現程度受到指揮目標與手段嘅合理性嘅決定性影響。合理嘅目標與手段可以提高團隊或組織達成目標嘅效率與效果。其他選項雖然亦可能影響指揮嘅效能，但相對而言，目標與手段嘅合理性更加關鍵。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '指揮權力嘅分配基礎'], ['B', '指揮目標與手段嘅合理性'], ['C', '指揮客體嘅潛喺能力'], ['D', '指揮權力嘅固有基礎']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺決策過程中，根據決策目標嘅要求搵實現目標嘅途徑係",
+    "llm_output": "正確答案係 C. 設計方案。\n\n在決策過程中，根據決策目標的要求尋找實現目標的途徑涉及設計方案，即創造和發展能夠達成目標的策略和方法。這包括考慮不同的選項和替代方案，並評估它們的優缺點，以確定最合適的方案進行實施。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '選擇方案'], ['B', '實施決策'], ['C', '設計方案'], ['D', '發現問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "查爾斯•巴貝奇係科學管理嘅先驅者，佢特別重視勞資關係，並為實現勞資協作提出咗",
+    "llm_output": "查爾斯•巴貝奇係科學管理嘅先驅者，佢特別重視勞資關係，並為實現勞資協作提出咗：\n\nA. 固定工資加利潤分享制度\n\n正確答案係 A。查爾斯•巴貝奇（Charles Babbage）支持通過固定工資加上利潤分享制度來改善勞資關係，從而激勵工人並促進生產效率的提升。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '固定工資加利潤分享制度'], ['B', '差別計件工資制度'], ['C', '崗位結構工資制度'], ['D', '固定工資加績效工資制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "以「經濟人」為假設條件嘅管理理論係",
+    "llm_output": "C.  古典管理理論",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '需求層次理論'], ['B', '人際關係理論'], ['C', '古典管理理論'], ['D', '行為科學理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "目標管理嘅基本精神係",
+    "llm_output": "正確答案係 C. 以自我管理為中心。\n\n目標管理（Management by Objectives, MBO）嘅基本精神係透過設定同實現目標嘅方法，鼓勵員工進行自我管理，從而提升工作表現同組織嘅效率。目標管理強調嘅係員工參與目標設定嘅過程，並對自己嘅工作進度同成果負責。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '以崗位設置為中心'], ['B', '以人員編制為中心'], ['C', '以自我管理為中心'], ['D', '以監督控制為中心']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺協調對象較少、協調範圍細、問題症結暴露充分嘅條件下，一般採用嘅協調方法係",
+    "llm_output": "C. 建議說明\n\n呢種協調方法通常用喺情況比較簡單、涉及嘅人唔多，而且問題嘅症結已經充分暴露出嚟嘅時候。透過提出建議同解釋，可以有效地解決問題，並協調各方面的行動。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '醞釀協商'], ['B', '冷處理'], ['C', '建議說明'], ['D', '思想教育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "王主任通過長期觀察，發現辦公室李祕書係典型嘅做表面文章、善於喺領導面前表現自己、鍾意打小報告嘅人，故而對其許多行為常採用視而不見，唔理睬嘅方法。呢種做法喺強化理論中稱之為",
+    "llm_output": "呢種做法喺強化理論中稱之為 B. 消退。消退係指對於某種行為唔做出任何反應，從而間接減少或消除該行為嘅出現。王主任對李祕書嘅行為視而不見、唔理睬，就係一種消退嘅做法。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '積極強化'], ['B', '消退'], ['C', '正強化'], ['D', '直接懲罰']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺管理方格理論中，領導者既關心生產，又關心人，呢種領導類型被稱之為",
+    "llm_output": "正確答案係 A. 戰鬥集體型領導。在管理方格理論中，這表示領導者既高度關心生產（9），又高度關心人（9），形成了一個具有高度效能和高度滿意的領導風格，稱為「戰鬥集體型領導」或「團隊型領導」。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '戰鬥集體型領導'], ['B', '俱樂部型領導'], ['C', '任務型領導'], ['D', '貧乏型領導']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "屬於Z型管理模式特點嘅係",
+    "llm_output": "正確答案嘅選項係 C. 集體決策與集體負責。\n\nZ型管理模式（Z-Form Management）源自於日本企業嘅管理方式，後來由美國管理學家威廉·大內（William Ouchi）於1981年嘅著作《Z理論》（Theory Z）中提出。Z型管理模式結合咗美國同日本企業管理嘅優點，強調長期僱傭關係、員工培訓、緩慢而穩定嘅晉升過程、員工參與度同集體負責制。\n\n選項A（靈活僱傭制）、B（拓寬職業發展路徑）同D（評價與快速晉升）通常唔係Z型管理模式嘅特點，而係更傾向於西方，尤其是美國式管理（如X理論或Y理論）嘅做法。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '靈活僱傭制'], ['B', '拓寬職業發展路徑'], ['C', '集體決策與集體負責'], ['D', '評價與快速晉升']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺組織決策中，注重回溯分析嘅係",
+    "llm_output": "C. 追蹤決策\n\n追蹤決策（Retrospective Decision Making）又稱為回溯分析，是指在決策過程中，管理者會先觀察到一個結果，然後分析哪些因素導致了這個結果，從而確定未來的行動路徑。這種決策方式著重於對過去事件的分析，以便更好地理解現在和未來的決策情境。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '風險型決策'], ['B', '戰略決策'], ['C', '追蹤決策'], ['D', '危機決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "社會系統學派嘅創始人，美國學者切斯特•巴納德嘅重要貢獻係提出咗",
+    "llm_output": "正確答案嘅選項係 A. 權威接受理論。切斯特·巴納德（Chester Barnard）嘅重要貢獻在於提出咗權威接受理論，即組織成員接受組織權威嘅重要性，以及領導者如何通過溝通同協作建立夥伴關係，從而確保組織嘅有效運作。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '權威接受理論'], ['B', '科層組織理論'], ['C', '人際關係理論'], ['D', '競爭戰略理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "對組織嘅機構設置、人員配備、權責劃分具有決定性作用嘅組織要素係",
+    "llm_output": "A. 目標\n\n正確答案係 A. 目標。組織嘅機構設置、人員配備、權責劃分等，都係基於組織嘅目標而進行嘅。組織嘅目標會影響到組織嘅結構同運作方式，從而對組織嘅發展同管理產生決定性作用。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '目標'], ['B', '程序'], ['C', '職位'], ['D', '物財']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "根據行為科學嘅研究，人嘅需要、動機、行為與滿足之間嘅關係可以用簡單嘅模式表示為",
+    "llm_output": "正確答案嘅選項係：\n\nD. 需求→動機→行為→滿足",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '需求→行為→動機→滿足'], ['B', '行為→動機→需求→滿足'], ['C', '動機→需求→行為→滿足'], ['D', '需求→動機→行為→滿足']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "以制針業為例說明勞動分工畀製造業帶嚟變化嘅近代西方管理理論嘅先驅係",
+    "llm_output": "正確答案係 C. 亞當•斯密。\n\n亞當•斯密係一個蘇格蘭經濟學家，被視為古典經濟學嘅創始人。佢喺1776年出版嘅著作《國富論》（The Wealth of Nations）中，以制針業為例，闡述勞動分工嘅重要性，並分析咗分工如何提高生產效率，降低成本，從而增加經濟效益。亞當•斯密嘅理論對近代西方管理理論嘅發展有重大影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '亨利•普爾'], ['B', '羅伯特•歐文'], ['C', '亞當•斯密'], ['D', '安德魯•尤爾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "對於微觀管理系統嚟講，關係到組織嘅輸入同輸出嘅動力問題嘅環境因素係",
+    "llm_output": "B. 技術環境\n\n技術環境影響組織的輸入和輸出，因為它們涉及到生產、製造、服務交付等過程中的技術應用和創新。技術的進步可以提高效率、創造新的市場機會，同時也可能對組織的現有業務模式造成威脅。因此，組織需要不斷關注和適應技術環境的變化，以保持競爭力。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會環境'], ['B', '技術環境'], ['C', '經濟環境'], ['D', '政治環境']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理過程學派嘅理論基礎係",
+    "llm_output": "A. 一般管理理論",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '一般管理理論'], ['B', '科學管理理論'], ['C', '古典管理理論'], ['D', '管理組織理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某企業規定，員工上班遲到一次，扣發當月50％嘅獎金，自此規定出臺後，員工遲到現象基本消除，呢種激勵屬於",
+    "llm_output": "正確答案嘅選項係 A. 負強化。\n\n負強化（Negative reinforcement）係一種激勵手段，透過消除或避免不想要嘅後果嚟增加某個行為嘅出現頻率。喺上述情況中，員工遲到會導致被扣發部分獎金，所以員工會嘗試避免遲到，從而避免被扣發獎金。呢種做法係負強化，因為遲到嘅後果（扣發獎金）被消除當員工不再遲到。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '負強化'], ['B', '正強化'], ['C', '懲罰'], ['D', '消退']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列管理行為中，屬於私人管理嘅係",
+    "llm_output": "B. 組織生產經營\n\n私人管理主要係指企業或組織為咗達到商業目標而進行嘅內部管理活動，包括組織生產經營等。市場監管、頒發工商執照和依法徵稅通常係指政府嘅管理職能。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '市場監管'], ['B', '組織生產經營'], ['C', '頒發工商執照'], ['D', '依法徵稅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "期望理論依據嘅假設係",
+    "llm_output": "正確答案係 A. 滿足-生產效率。期望理論（Expectancy Theory）係管理學中嘅一個理論，由維克多·弗洛姆（Victor Vroom）於1964年提出。呢個理論主要講咩驅動員工嘅行為同埋如何影響佢哋嘅生產效率。期望理論嘅基本假設係，員工會喺工作場所中追求滿足感，而呢種滿足感會源於佢哋認為自己嘅努力會導致期望嘅結果，而呢啲結果又會帶來個人嘅滿足感或者獎勵。因此，正確嘅選項係 A. 滿足-生產效率。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '滿足-生產效率'], ['B', '滿足-組織績效'], ['C', '唔滿足-組織績效'], ['D', '唔滿足-生產效率']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "依據威廉•大內Z理論，典型嘅日本企業管理模式即J型管理模式嘅特點係",
+    "llm_output": "D.  終身僱傭制、 緩慢評價同晉升、 含蓄同內喺嘅控制、 集體決策與集體負責",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '終身僱傭制、緩慢評價同晉升、形式化嘅控制方式、集體決策與集體負責'], ['B', '短期僱傭制、緩慢評價同晉升、含蓄同內喺嘅控制、個人決策與個人負責'], ['C', '終身僱傭制、緩慢評價同晉升、含蓄同內喺嘅控制、個人決策與個人負責'], ['D', '終身僱傭制、緩慢評價同晉升、含蓄同內喺嘅控制、集體決策與集體負責']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "科層組織理論係古典管理理論嘅重要組成部分，其代表人物係德國嘅",
+    "llm_output": "正確答案嘅選項係 C. 韋伯（Max Weber）。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '泰勒'], ['B', '卡斯特'], ['C', '韋伯'], ['D', '法約爾']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "由美國著名政治學家同政策科學家查爾斯•林德布洛姆提出嘅決策模式係",
+    "llm_output": "正確答案係 B. 漸進決策模式。查爾斯·林德布洛姆提出嘅決策模式係漸進決策模式。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '集團決策模式'], ['B', '漸進決策模式'], ['C', '精英決策模式'], ['D', '理性決策模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理思想史上，德國學者馬克斯•韋伯被譽為係",
+    "llm_output": "D. 組織理論之父",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '科學管理之父'], ['B', '現代管理之父'], ['C', '人際關係之父'], ['D', '組織理論之父']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某公司為咗畀組織成員瞭解組織總體目標同具體措施，將各項管理政策、組織目標、工作程序同規章制度逐級向下傳遞。呢種溝通方式叫",
+    "llm_output": "正確答案嘅選項係 B. 單向溝通。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '反饋溝通'], ['B', '單向溝通'], ['C', '相向溝通'], ['D', '輪式溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理係一種社會現象，佢起源於",
+    "llm_output": "B. 人類嘅共同勞動",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '私有制嘅出現'], ['B', '人類嘅共同勞動'], ['C', '國家嘅產生'], ['D', '工商業嘅興起']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "與早期行為科學理論相比，古典管理理論嘅重要特點之一係",
+    "llm_output": "C. 注重對紀律嘅研究。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '注重對人嘅行為嘅研究。'], ['B', '強調民主參加管理。'], ['C', '注重對紀律嘅研究。'], ['D', '強調人性激發嘅管理。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "關於亞當斯嘅公平理論，正確嘅表述係",
+    "llm_output": "A. 職工嘅工作態度與生產積極性既取決於佢哋所獲報酬嘅絕對量，又取決於相對量",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '職工嘅工作態度與生產積極性既取決於佢哋所獲報酬嘅絕對量，又取決於相對量'], ['B', '職工嘅工作態度與生產積極性與佢哋所獲報酬嘅絕對量同相對量無關'], ['C', '職工嘅工作態度與生產積極性主要取決於佢哋所獲報酬嘅絕對量'], ['D', '職工嘅工作態度與生產積極性唔取決於佢哋所獲報酬嘅相對量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺管理信息系統中，信息嘅輸出形式係",
+    "llm_output": "B. 文字、圖形（像）",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '公文、檔案'], ['B', '文字、圖形（像）'], ['C', '目錄、卡片'], ['D', '磁帶、磁盤']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "亞當斯公平理論側重研究嘅內容係",
+    "llm_output": "B. 工資報酬分配嘅合理性對人心理同行為嘅影響",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '個人努力與績效嘅關係'], ['B', '工資報酬分配嘅合理性對人心理同行為嘅影響'], ['C', '人類需要層次之間嘅遞進關係'], ['D', '唔同需要追求者嘅心理與行為特點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺目標管理中，要使組織成功咁達到既定目標，管理者必須畀下級充分嘅信任，最有效嘅方法係",
+    "llm_output": "C. 授予權限\n\n在目標管理中，要使組織成功地達到既定目標，管理者必須給下級充分的信任，最有效的方法是授予權限（Delegation）。這意味着將決策權和執行任務的責任下放到下級員工，讓他們能夠在他們的職責範圍內獨立工作，並對結果負責。這樣做可以激發員工的積極性、創造性和責任感，從而提高整個組織的效率和效能。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '適時控制'], ['B', '靈活協調'], ['C', '授予權限'], ['D', '縝密計劃']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "與古典組織理論相比，行為科學組織理論嘅缺陷主要表現喺",
+    "llm_output": "D.  忽視組織原則、組織結構、組織制度嘅作用\n\n行為科學組織理論相對於古典組織理論，較少強調正式的組織原則、結構和制度，而更加注重員工的行為、動機、滿意度和人際關係。因此，其缺陷主要表現在忽視組織原則、組織結構和組織制度的影響。古典組織理論則較為強調這些正式的組織元素，認為它們是提高效率和控制力的關鍵。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '忽視組織結構、人員行為、人際關係嘅作用'], ['B', '忽視組織結構、組織制度、人員行為嘅作用'], ['C', '忽視組織原則、組織結構、人際關係嘅作用'], ['D', '忽視組織原則、組織結構、組織制度嘅作用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "一項社會調查喺問卷中瞭解唔同年齡嘅居民對網絡購物嘅睇法同態度，其中嘅「睇法同態度」屬於",
+    "llm_output": "B.  因變量\n\n在這項社會調查中，問卷旨在瞭解不同年齡的居民對網絡購物的看法和態度。這裡的「看法和態度」是研究人員感興趣的結果，它會因自變量（例如年齡、性別、教育水平等）的不同而變化。因此，「看法和態度」是因變量，它依賴於其他因素（自變量）的變化。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '中間變量'], ['B', '因變量'], ['C', '定比變量'], ['D', '自變量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "公平理論注重嘅係",
+    "llm_output": "B. 分配公平",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '評估公平'], ['B', '分配公平'], ['C', '過程公平'], ['D', '程序公平']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "系統分析方法論中嘅行為研究又被稱為",
+    "llm_output": "C. 現況研究 (Status Quo Research)",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '規範研究'], ['B', '價值研究'], ['C', '現狀研究'], ['D', '可行性研究']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某公司開發一新產品準備投放市場，已知喺市場需求好嘅情況下可獲利700萬元；喺市場需求唔好嘅情況下虧損600萬元。由於係新產品，市場需求好與壞嘅概率無從可知。呢種決策屬於",
+    "llm_output": "呢種決策屬於 C. 唔確定型決策，因為市場需求好與壞嘅概率無從可知，從而導致無法計算出期望值，從而面臨嘅是不確定嘅風險。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '風險型決策'], ['B', '危機決策'], ['C', '唔確定型決策'], ['D', '確定型決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "人哋嘅行為所要達到嘅道德結果嘅主觀意圖係",
+    "llm_output": "A. 道德目嘅",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '道德目嘅'], ['B', '道德責任'], ['C', '道德手段'], ['D', '道德品質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "高聳組織結構嘅特點係",
+    "llm_output": "B. 管理層次多，管理幅度細",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '管理層次多，管理幅度大'], ['B', '管理層次多，管理幅度細'], ['C', '管理層次少，管理幅度大'], ['D', '管理層次少，管理幅度細']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某組織對決策方案投票表決時，該方案因一票反對冇通過。呢說明該組織採用嘅決策規則係",
+    "llm_output": "正確答案係 D. 全體一致規則。\n\n呢個問題講嘅係，一個方案因為一票反對而冇通過，即係講，該組織要求所有人都同意一個方案，先至算係通過。呢種決策規則就係全體一致規則，即係講，所有成員都需要一致同意，先至可以做出決定。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '過半數規則'], ['B', '精英決策規則'], ['C', '隨機決策規則'], ['D', '全體一致規則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "對組織中操作或事務處理流程嘅一種描述、計劃與規定，被稱為",
+    "llm_output": "A.  程序",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '程序'], ['B', '習慣'], ['C', '目標'], ['D', '權力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "統計分析表明，「關鍵嘅事總係少數，一般嘅事常係多數」，呢意味住控制工作最應重視",
+    "llm_output": "正確答案嘅選項係 D. 抓住關鍵環節， 控制全局。\n\n呢句話「關鍵嘅事總係少數， 一般嘅事常係多數」， 喺管理學中意味住管理者應該集中注意力同資源喺最關鍵、最有影響力嘅少數環節上， 從而控制整體嘅發展方向同進程。 呢種控制方法可以提高效率同效果， 避免浪費時間同資源喺相對次要嘅事務上。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '客觀、精確同具體'], ['B', '靈活、及時同適度'], ['C', '協調計劃同組織工作'], ['D', '抓住關鍵環節，控制全局']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "現代人事管理嘅基本職能係",
+    "llm_output": "D. 促進人力資源嘅優化\n\n現代人事管理的基本職能之一是促進人力資源的優化，這包括了對員工的招聘、培訓、評估、激勵和發展等一系列活動，旨在最大化員工的潛力並提高組織的整體效能。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '加強人事培訓工作'], ['B', '完善人事管理制度'], ['C', '健全人事分類制度'], ['D', '促進人力資源嘅優化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "具有「壓制個人目標，使組織目標凌駕於個人目標之上」特徵嘅係",
+    "llm_output": "B.  傳統管理",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '目標管理'], ['B', '傳統管理'], ['C', '現代管理'], ['D', '組織管理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺網絡圖嘅繪製中，用嚟表示工序嘅開工或完工以及相鄰工序喺時間上嘅分界點嘅係",
+    "llm_output": "B. 事項 (Events)",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '線路'], ['B', '事項'], ['C', '工作'], ['D', '任務']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "近代西方管理理論產生之前，對管理理論嘅誕生貢獻較大嘅係",
+    "llm_output": "B.  法約爾 (Henri Fayol) 對管理理論的誕生貢獻較大。他是早期管理理論的先驅之一，提出了管理原則和五大管理功能（計劃、組織、指揮、協調、控制），對後來的管理學發展有重要影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '施米特'], ['B', '法約爾'], ['C', '麥卡勒姆'], ['D', '韋伯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺宏觀經濟管理中，計劃起戰略性、調節性、政策性作用，一般多運用",
+    "llm_output": "正確答案嘅選項係：\n\nD. 指導性計劃嘅形式",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '高層計劃嘅形式'], ['B', '指令性計劃嘅形式'], ['C', '綜合計劃嘅形式'], ['D', '指導性計劃嘅形式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "體現組織中橫跨過權力執行路線而直接聯繫嘅原則係",
+    "llm_output": "B. 跳板原則",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '秩序原則'], ['B', '跳板原則'], ['C', '公平原則'], ['D', '適當嘅集權同分權原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位喺管理中唔設溝通核心，各溝通主體可以同左右兩個溝通對象進行溝通，呢種溝通方式係",
+    "llm_output": "正確答案係 A. 環式溝通。\n\n環式溝通（Circular communication）係一種溝通模式，其中每個溝通主體都可以直接同左右兩邊嘅溝通對象進行溝通，形成一個閉環。呢種溝通方式特點係信息流通比較快，但同時信息可能喺環節中重複或混淆，而且每個成員都對整體溝通有影響。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '環式溝通'], ['B', '鏈式溝通'], ['C', '輪式溝通'], ['D', 'Y式溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "人事分類主要有職位分類同品位分類兩種，近代人事品位分類始創於",
+    "llm_output": "D. 英國",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '日本'], ['B', '法國'], ['C', '美國'], ['D', '英國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "領導者非強制性影響力產生嘅因素係",
+    "llm_output": "正確答案係 B. 品格因素。\n\n非強制性影響力（也稱為感召性影響力或個人影響力）嘅因素主要包括品格、才能、經驗、溝通技巧等方面。品格因素係指領導者嘅道德水平、誠信、正直同人格魅力，能夠吸引同感染他人，從而產生對領導者嘅信任同追隨。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '資歷因素'], ['B', '品格因素'], ['C', '傳統因素'], ['D', '職位因素']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某市喺拆遷過程中，面對拆遷戶多、範圍廣、要求各異，喺呢種情況下管理者宜採用嘅協調方法係",
+    "llm_output": "A. 醞釀協商\n\n在面對拆遷過程中，由於涉及嘅拆遷戶眾多、範圍廣泛且要求各異，管理者最合適嘅協調方法係通過醞釀協商來逐步解決問題。醞釀協商能夠促進各方之間嘅溝通與理解，有助於找到共同嘅解決方案。其他選項如冷處理、建議說明或行政處罰可能無法有效地解決這種複雜且敏感嘅問題。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '醞釀協商'], ['B', '冷處理'], ['C', '建議說明'], ['D', '行政處罰']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "科學管理理論最早產生於",
+    "llm_output": "C. 工商企業管理中",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '國家行政管理中'], ['B', '軍事管理領域'], ['C', '工商企業管理中'], ['D', '社會管理領域']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理主體憑藉組織層級關係，將信息直線逐級傳遞，呢種溝通方式被稱為",
+    "llm_output": "正確答案嘅選項係 D. 鏈式溝通。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'Y式溝通'], ['B', '環式溝通'], ['C', '輪式溝通'], ['D', '鏈式溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列對人力資源生產同消費雙重屬性嘅表述，錯誤嘅一句係",
+    "llm_output": "正確答案嘅選項係 B. 人力資源嘅消費性大於其生產性。\n\n人力資源嘅生產同消費具有雙重屬性。一方面，人力資源係一種生產性資源，可以透過工作同創造力帶來經濟價值同增長。另一方面，人力資源亦需要投資同培養，包括教育、培訓、健康保障等，先可以維持同發展人力資源嘅生產力。因此，一般而言，人力資源嘅生產性應該大於其消費性，而唔係消費性大於生產性。選項 B 嘅表述錯誤。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人係物質財富嘅有條件嘅創造者'], ['B', '人力資源嘅消費性大於其生產性'], ['C', '人係物質財富嘅無條件嘅消費者'], ['D', '人力資源嘅消費性維護同發展人力資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "上級管理組織或人員把各項管理政策及組織目標、工作程序、規章制度逐級向下傳遞嘅溝通屬於",
+    "llm_output": "正確答案嘅選項係 C. 下行溝通。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '鏈式溝通'], ['B', '雙向溝通'], ['C', '下行溝通'], ['D', '上行溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺傳統控制方法中，最古老、最直接嘅控制方法係",
+    "llm_output": "B. 現場觀察法",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人員管理控制法'], ['B', '現場觀察法'], ['C', '專題報告分析法'], ['D', '統計數據資料分析法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺強化理論中，撤銷對某種所謂「積極」行為嘅強化，以降低該行為出現概率嘅方法稱之為",
+    "llm_output": "A. 消退",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消退'], ['B', '積極強化'], ['C', '懲罰'], ['D', '消極強化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "按照領導生命週期理論，組織成員嘅平均成熟程度處於唔成熟階段，領導者應採取嘅領導方式為",
+    "llm_output": "按照領導生命週期理論（Leadership Life Cycle Theory），當組織成員的平均成熟程度處於不成熟階段時，領導者應該採取高工作低關係（High Task, Low Relationships）的領導方式。因此，正確答案是：\n\nD. 高工作低關係",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '低工作低關係'], ['B', '高工作高關係'], ['C', '低工作高關係'], ['D', '高工作低關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "以西蒙為代表嘅決策理論學派提出嘅決策準則係",
+    "llm_output": "正確答案係 D. 滿意。\n\n以赫伯特·西蒙（Herbert Simon）為代表嘅決策理論學派提出嘅決策準則係「滿意」（Satisfaction），而非尋求理論上的最優化（Optimization）。西蒙認為，由於環境嘅複雜性和人類認知嘅限制，管理者無法在每個決策情境中都尋求最優解。因此，管理者通常會尋找一個「夠好」嘅方案，而呢個方案能夠滿足一定嘅標準或條件，而呢個就係「滿意準則」。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '最優化'], ['B', '公平'], ['C', '民主化'], ['D', '滿意']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "權限必須事先授予而唔係行動之後先由上級臨時確認。呢度體現嘅授權原則係",
+    "llm_output": "正確答案嘅選項係 B. 權力有效原則。\n\n權力有效原則強調權限必須在行動之前授予，咁樣可以確保管理者能夠有效地指揮同控制下属，並且確保權力嘅行使係合法同有效嘅。呢個原則亦都幫助確保組織嘅運作更加順暢同高效。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '方向正確原則'], ['B', '權力有效原則'], ['C', '統一梯次原則'], ['D', '責任明確原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺控制類型中，面向未來，比較經濟嘅控制係",
+    "llm_output": "D. 前饋控制（Feedforward Control）是面向未來嘅控制，佢嘅特點係喺嘢發生之前就進行控制，比較經濟。因此，正確答案係 D. 前饋控制。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '反饋控制'], ['B', '實時控制'], ['C', '現場控制'], ['D', '前饋控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "按照領導四分圖理論，效果最差嘅領導方式係",
+    "llm_output": "按照領導四分圖理論，效果最差的領導方式是 C. 低組織低關心。這種領導方式表示領導人既不重視組織結構和任務完成，也不關心下屬的成長和滿足感，導致團隊士氣低落和效率低下。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '高組織低關心'], ['B', '低組織高關心'], ['C', '低組織低關心'], ['D', '高組織高關心']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "指揮者嘅職位權力喺指揮活動中體現出嚟嘅權威係",
+    "llm_output": "C.  法規權威",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人格權威'], ['B', '技術權威'], ['C', '法規權威'], ['D', '現代權威']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "職務內容嘅擴大化同工作意義嘅豐富化係指",
+    "llm_output": "正確答案係 C. 工作豐富化 (Job Enrichment)。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '職務輪換'], ['B', '參與管理'], ['C', '工作豐富化'], ['D', '職務擴大化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "針對組織或部門嘅固定資產購置、改造、更新、新建等活動，喺可行性分析嘅基礎上編制嘅預算係",
+    "llm_output": "正確答案嘅選項係 C. 投資預算。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '財務預算'], ['B', '零基預算'], ['C', '投資預算'], ['D', '經營預算']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "查爾斯•巴貝奇係科學管理嘅先驅，佢特別強調勞資協作，並提出咗",
+    "llm_output": "查爾斯•巴貝奇特別強調勞資協作，並提出咗工資加利潤分享制度。因此，正確答案係：\n\nA. 工資加利潤分享制度",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '工資加利潤分享制度'], ['B', '計件工資制度'], ['C', '差別計件工資制度'], ['D', '計時工資制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "梅奧等人通過霍桑實驗創立咗",
+    "llm_output": "B. 社會人假說",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '自我實現人假說'], ['B', '社會人假說'], ['C', '經濟人假說'], ['D', '複雜人假說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "組織生命週期理論認為，組織喺成熟階段後期，官僚主義盛行，文山會海普遍存在，組織將陷於",
+    "llm_output": "正確答案嘅選項係：D. 硬化危機",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '領導危機'], ['B', '自主性危機'], ['C', '失控危機'], ['D', '硬化危機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺調查研究中，關於一個或更多概念與變量嘅陳述被稱為",
+    "llm_output": "正確答案係 C. 假說。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '命題'], ['B', '問題性指標'], ['C', '假說'], ['D', '診斷性指標']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗防止甲型流感大規模爆發，我國政府決定，根據疫苗嘅生產情況，為公民免費接種甲流疫苗。喺控制理論中，呢種控制方式係",
+    "llm_output": "為咗防止甲型流感大規模爆發，我國政府決定，根據疫苗嘅生產情況，為公民免費接種甲流疫苗。喺控制理論中，呢種控制方式係 A. 前饋控制。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '前饋控制'], ['B', '反饋控制'], ['C', '現場控制'], ['D', '隨機控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "根據價值鏈分析法，下列屬於輔助活動嘅係",
+    "llm_output": "根據價值鏈分析法，屬於輔助活動的是 B. 技術開發。\n\n價值鏈分析法將企業的價值創造活動分為主要活動和輔助活動。主要活動包括內部後勤、生產作業、外部後勤、市場銷售和服務。輔助活動包括公司基礎設施、人力資源管理、技術發展和Procurement。\n\n因此，正確答案為 B. 技術開發。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '服務'], ['B', '技術開發'], ['C', '生產作業'], ['D', '內部後勤']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會調查中，要求以事物同現象嘅真實狀況為調查嘅前提同依據，佢所體現嘅基本原則係",
+    "llm_output": "正確答案嘅選項係 D. 客觀性原則。\n\n呢個問題嘅答案係 D. 客觀性原則，因為社會調查需要反映事物同現象嘅真實狀況，唔可以受到主觀因素嘅影響。客觀性原則確保咁調查結果係基於實際觀察同數據分析，而唔係受到調查者個人偏見或預設立場嘅影響。其他選項嘅層次性原則、整體性原則同相關性原則，都喺某種程度上涉及調查嘅方法和視角，但唔係調查嘅前提同依據。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '層次性原則'], ['B', '整體性原則'], ['C', '相關性原則'], ['D', '客觀性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "通過管理提高效益，需要一個時間過程，呢個表明管理學係一門",
+    "llm_output": "正確答案嘅選項係：B. 應用性學科",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '軟科學'], ['B', '應用性學科'], ['C', '定量化學科'], ['D', '硬科學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "決策樹法屬於",
+    "llm_output": "A. 風險型決策方法",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '風險型決策方法'], ['B', '確定型決策方法'], ['C', '非確定型決策方法'], ['D', '程序性決策方法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於現代管理基本特徵嘅係",
+    "llm_output": "C. 習慣化管理\n\n現代管理學強調的是科學化、系統化和民主化的管理方式，而不強調習慣化管理。習慣化管理往往基於過去的經驗和慣例，可能唔能夠適應快速變化嘅環境和需求。現代管理更注重數據驅動、有計劃性、有組織性、有系統性嘅管理方法。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '民主化管理'], ['B', '科學化管理'], ['C', '習慣化管理'], ['D', '系統化管理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "反映阻礙社會進步或社會發展嘅社會現象嘅指標係",
+    "llm_output": "正確答案係 C. 否定性指標。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '主觀性指標'], ['B', '中性指標'], ['C', '否定性指標'], ['D', '肯定性指標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "一份社會調查證明，「沉迷於網絡遊戲」同「暴力傾向」之間嘅相關系數係0.86。呢一結論說明以上兩個變量之間嘅關係係",
+    "llm_output": "呢個問題係關於統計學中嘅相關系數，相關系數係一個介乎-1至1之間嘅數字，用嚟描述兩個變量之間嘅線性關係。當相關系數嘅絕對值越接近1時，代表兩個變量之間嘅關係越強；當相關系數係正數時，代表兩個變量之間呈現正相關，即一個變量嘅值增加時，另一個變量嘅值亦傾向增加；而當相關系數係負數時，代表兩個變量之間呈現負相關，即一個變量嘅值增加時，另一個變量嘅值傾向減少。\n\n由於呢個問題中嘅相關系數係0.86，相關系數係正數，而且其絕對值高於0.5，所以可以話係高度正相關。因此，正確答案係：\n\nC. 高度正相關",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '低度正相關'], ['B', '低度負相關'], ['C', '高度正相關'], ['D', '高度負相關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "按照領導作風理論，將權力定位於職工個人手中，採取俱樂部式嘅領導行為，呢種領導作風屬於",
+    "llm_output": "D. 放任自流嘅領導作風",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '權變式領導作風'], ['B', '協商式領導作風'], ['C', '任務型領導作風'], ['D', '放任自流嘅領導作風']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於人際關係學說主要觀點嘅係",
+    "llm_output": "C. 人嘅行為都係由一定嘅動機引起嘅\n\n人際關係學說主要觀點包括：\nA. 企業嘅職工係社會人（Social Man），即係話員工嘅社會需求同佢哋嘅工作表現有緊密嘅聯繫。\nB. 企業中實際存在住一種非正式組織（Informal Organization），員工會形成非正式嘅小圈子，呢啲圈子會影響員工嘅行為同工作表現。\nD. 生產效率取決於工人嘅工作態度及與佢人嘅關係（Work Attitude and Interpersonal Relations），即係話員工之間嘅關係同埋佢哋嘅社交網絡會影響生產效率。\n\n選項C，「人嘅行為都係由一定嘅動機引起嘅」，唔係人際關係學說嘅主要觀點，而係更廣泛嘅行為科學理論嘅一部分，例如動機理論。雖然呢一觀點亦都適用於解釋員工嘅行為，但係唔係人際關係學說嘅核心概念。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '企業嘅職工係社會人'], ['B', '企業中實際存在住一種非正式組織'], ['C', '人嘅行為都係由一定嘅動機引起嘅'], ['D', '生產效率取決於工人嘅工作態度及與佢人嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "老王做咗5年嘅總經理，工作富有成效。佢嘅基本經驗係：作為高級管理人員必須將日常事務處理權授畀下級，自己只保留重要事項嘅決策權同監督權。其理論依據就係科學管理理論倡導嘅",
+    "llm_output": "正確答案嘅選項係：\n\nB. 例外原則\n\n科學管理理論中，例外原則係指高級管理人員應該將日常嘅、例行性嘅工作授畀下屬去處理，而自己則只保留對例外情況、重要事項嘅決策權同監督權，從而集中精力處理更為關鍵嘅問題。老王嘅經驗正係體現咗呢一原則。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '跳板原則'], ['B', '例外原則'], ['C', '統一指揮原則'], ['D', '標準化方法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "1986年瀋陽防爆器械廠宣告破產，呢個係新中國成立後第一間正式宣告破產嘅國有企業。破產係企業嘅悲劇，但卻有利於國家整體利益。呢種思路反映嘅系統分析原則係",
+    "llm_output": "A. 優化原則",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '優化原則'], ['B', '模型化原則'], ['C', '層次性原則'], ['D', '滿意原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "藍海戰略理論中所謂嘅「紅海」係指",
+    "llm_output": "正確答案嘅選項係：\n\nA. 冇競爭嘅市場",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '冇競爭嘅市場'], ['B', '未曾開闢嘅新興市場'], ['C', '業已存在嘅飽和市場'], ['D', '未來有前景嘅市場']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "決策者有明確嘅決策目標，知道唔同行動方案喺唔同環境條件下所獲得嘅結果，雖然唔能完全判斷未來出現嘅係邊一種環境條件，但可以預測其出現概率嘅決策係",
+    "llm_output": "正確答案係 D. 風險型決策。\n\n風險型決策，又稱為概率決策，係指決策者有明確嘅決策目標，但係唔能夠確定未來嘅環境條件，而只能夠根據過去嘅數據或者信息來預測各種可能結果出現嘅概率。在這種情況下行事，決策者會評估各種行動方案喺不同環境下嘅結果，並考慮各個方案嘅成功概率，從而作出最優嘅選擇。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '確定型決策'], ['B', '程序化決策'], ['C', '非確定型決策'], ['D', '風險型決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "具有嚴肅性、規範性、準確性等特點，被各種組織廣泛使用嘅溝通類型係",
+    "llm_output": "D.  書面溝通",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '口頭溝通'], ['B', '上行溝通'], ['C', '反饋溝通'], ['D', '書面溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "依據雙因素理論，下列屬於保健因素嘅係",
+    "llm_output": "根據雙因素理論，保健因素是那些與工作環境和條件相關的因素，它們可以避免員工不滿，但本身不足以激勵員工。選項中屬於保健因素的是：\n\nC. 管理方式與管理政策\n\n其他選項（A. 工作具有挑戰性、B. 職業發展與成就、D. 行為表現受表彰）則屬於激勵因素，這些因素可以提高員工的滿意度和動機。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '工作具有挑戰性'], ['B', '職業發展與成就'], ['C', '管理方式與管理政策'], ['D', '行為表現受表彰']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "合理安排、使用同調配人員嘅基本依據係",
+    "llm_output": "正確答案係 D. 人事選拔。\n\n人事選拔係指通過各種手段和方法，從眾多應徵者中選出最適合職位要求嘅人才。合理嘅人事選拔可以確保企業能夠招募到最適合嘅員工，從而提高整個組織嘅運作效率和效果。人員培訓、人事監督和人員考評雖然都係管理過程中嘅重要環節，但並唔係合理安排、使用同調配人員嘅基本依據。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人員培訓'], ['B', '人事監督'], ['C', '人員考評'], ['D', '人事選拔']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "布萊克同穆頓認為，領導者應客觀噉分析企業內外條件，有意識噉採取措施，把自己嘅領導方式改造成為",
+    "llm_output": "布萊克（Blake）和穆頓（Mouton）提出的領導風格模型中，他們認為領導者應該根據企業內外的條件，有意識地採取措施，將自己的領導方式改造成為一種更為平衡的領導方式。在他們的領導風格連續體中，這四種風格分別代表：\n\nA. 任務型管理方式（Command Leadership）\nB. 戰鬥集體型管理方式（Team Leadership）\nC. 鄉村俱樂部型管理方式（Affiliative Leadership）\nD. 中間型管理方式（Normative Leadership）\n\n根據布萊克和穆頓的觀點，理想的領導方式是在任務型和中間型之間找到平衡，即：\n\nD. 中間型管理方式\n\n因此，正確答案是 D. 中間型管理方式。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '任務型管理方式'], ['B', '戰鬥集體型管理方式'], ['C', '鄉村俱樂部型管理方式'], ['D', '中間型管理方式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "威廉•大內嘅Z理論中所謂嘅「A型管理模式」係指",
+    "llm_output": "D. 美國企業管理模式",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '德國企業管理模式'], ['B', '日本企業管理模式'], ['C', '英國企業管理模式'], ['D', '美國企業管理模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位重要問題決定權屬於最高層，次要問題可由中下層做出決定，上下級之間信息溝通較多，雙方有較高信任度。呢種領導方式係",
+    "llm_output": "正確答案嘅選項係 C. 開明—權威式。\n\n開明—權威式領導係一種領導風格，其中領導者係權威性嘅，但同時鼓勵下屬參與決策過程，並且重視下屬嘅意見同建議。呢種風格符合問題中所描述嘅情況，即最高層掌握重要問題嘅決定權，而次要問題可由中下層決定，且上下級之間有較多嘅信息溝通同較高嘅信任度。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '協調式'], ['B', '羣體參與式'], ['C', '開明—權威式'], ['D', '專制—權威式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位為咗突出管理者嘅地位，設置一個溝通主體分別同其他幾個溝通主體進行溝通。呢種溝通方式係",
+    "llm_output": "正確答案係 C. 輪式溝通。\n\n在輪式溝通中，有一個中心點（管理者），其他溝通主體都與這個中心點直接溝通，中心點負責接收和發送信息，而其他溝通主體之間的直接溝通較少。呢種溝通方式通常會突出管理者的地位，因為佢係整個溝通網絡嘅樞紐。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '環式溝通'], ['B', '鏈式溝通'], ['C', '輪式溝通'], ['D', '全通道溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "小張鍾意做表面文章，關於喺領導面前表現自己，領導決定對佢採取視而唔見，唔理睬嘅方法",
+    "llm_output": "正確答案係 A. 消退 (Extinction)。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消退'], ['B', '懲罰'], ['C', '消極強化'], ['D', '積極強化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某科研單位嘅組織機構分為兩類，一類係傳統嘅職能管理機構，一類係為完成特定研究任務而設置嘅專門任務小組。其中，職能管理機構為常設機構，專門任務小組為非常設機構。呢兩種機構同時存在嘅管理形態係",
+    "llm_output": "正確答案嘅選項係：\n\nB. 矩陣制",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '職能制'], ['B', '矩陣制'], ['C', '多維制'], ['D', '直線制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "規定某一職位嘅工作目標、職責範圍、技能要求、工作條件以及職位關係嘅書面文件，稱為",
+    "llm_output": "正確答案嘅選項係 B. 職位描述。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '職級說明'], ['B', '職位描述'], ['C', '職位規範'], ['D', '職等分析']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺下列溝通方式中，具有輪式同鏈式溝通嘅優缺點，溝通速度快，組織成員滿意程度低嘅溝通方式係",
+    "llm_output": "B.  Y式溝通\n\nY式溝通有點像輪式溝通，因為有一個中心人物作為信息嘅接收者同傳遞者，但同時也有點像鏈式溝通，因為信息可能需要通過幾個層級先傳達到最終接收者。呢種溝通方式通常溝通速度快，因為信息可以快速傳達給中心人物，然後由中心人物分發給其他成員。不過，由於信息可能唔係直接共享畀所有成員，組織成員嘅滿意程度可能較低，因為有些人可能唔能夠直接參與溝通過程。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '圓周式溝通'], ['B', 'Y式溝通'], ['C', '環式溝通'], ['D', '全通道溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺管理過程中引導組織之間、人員之間建立相互協作同主動配合嘅良好關係，有效利用各種資源，以實現共同預期目標嘅活動係",
+    "llm_output": "C. 協調\n\n解釋：\n協調在管理過程中扮演著重要角色，它涉及引導組織之間和人員之間建立相互協作和主動配合的良好關係，確保有效利用各種資源，並促進共同預期目標的實現。協調有助於整合不同部門和個體的努力，減少衝突，提高整體績效。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '控制'], ['B', '指揮'], ['C', '協調'], ['D', '決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔確定型決策方法唔包括",
+    "llm_output": "正確答案嘅選項係 A. 盈虧平衡分析法。\n\n盈虧平衡分析法（Break-even Analysis）係一種用嚟確定企業喺唔同生產水平下嘅盈利狀況同埋需求量嘅方法，主要用於確定固定成本、變動成本同銷售價格之間嘅關係。呢種方法適用於確定型嘅決策情境，而唔係唔確定型決策。\n\n唔確定型決策方法通常包括咗：\n\nB. 壞中求好標準（Maximin 原則）：係一種風險趨避策略，即係選擇一系可能結果中嘅最小值，從而確保唔會遇到更差嘅情況。\n\nC. 好中求好標準（Maximax 原則）：係一種冒險策略，即係選擇可能結果中嘅最大值，從而追求最好嘅可能結果。\n\nD. 最小最大後悔值標準（Minimax Regret 原則）：係一種減少遺憾嘅策略，即係通過比較各個決策方案嘅結果，選擇遺憾值最小嘅方案，以減少後悔嘅機會。\n\n因此，唔確定型決策方法唔包括盈虧平衡分析法。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '盈虧平衡分析法'], ['B', '壞中求好標準'], ['C', '好中求好標準'], ['D', '最小最大後悔值標準']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "與決策目標相比，計劃目標係管理活動嘅",
+    "llm_output": "D. 分支目標",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '綜合目標'], ['B', '戰略目標'], ['C', '整體目標'], ['D', '分支目標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "一般管理理論係古典管理理論嘅重要組成部分，其代表人物係法國嘅",
+    "llm_output": "B.  法約爾 (Henri Fayol) 是一般管理理論嘅代表人物之一。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '亞當斯'], ['B', '法約爾'], ['C', '西蒙'], ['D', '韋伯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺管理上強調外部控制，主張依靠權威嘅力量作為指揮同控制手段嘅係",
+    "llm_output": "D.  X理論\n\n道格拉斯·麥格雷戈的X理論強調外部控制和權威的力量，認為員工需要被激勵和控制才能保持工作。X理論的管理風格通常包括嚴格監督、懲罰和獎勵，以及對員工不信任。相比之下，Y理論則更加注重內在動机和自我激勵，認為員工渴望工作並承擔責任。領導方格理論和唔成熟-成熟理論則探討了不同的領導風格和管理策略，但不是專門關於權威和控制手段的理論。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'Y理論'], ['B', '領導方格理論'], ['C', '唔成熟-成熟理論'], ['D', 'X理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "領導生命週期理論認為，當下屬嘅成熟程度發展到成熟階段，領導者應採取嘅領導方式為",
+    "llm_output": "正確答案嘅選項係：\n\nA. 授權式領導方式",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '授權式領導方式'], ['B', '說服式領導方式'], ['C', '集權式領導方式'], ['D', '命令式領導方式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺現代管理學中，管理人員對當前嘅實際工作係否符合計劃而進行測定並促使組織目標實現嘅過程，被稱為",
+    "llm_output": "A. 控制",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '控制'], ['B', '組織'], ['C', '創新'], ['D', '領導']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "泰勒喺科學管理理論中提出咗例外原則，其目嘅係解決",
+    "llm_output": "正確答案嘅選項係：D. 生產技術同成本控制問題\n\n泰勒嘅科學管理理論中，例外原則嘅主要目的係將管理層嘅注意力集中喺啓發性嘅、戰略性嘅決策上，而唔係日常運營細節。泰勒認為，應該將日常嘅、重複性嘅工作委託畀下層管理人員或者監督人員，而高層管理人員則專注於解決生產技術同成本控制等啓發性問題，從而提高生產效率同企業嘅整體效能。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '工商企業嘅利潤分配問題'], ['B', '管理組織嘅工資發放問題'], ['C', '總經理嘅職責權限問題'], ['D', '生產技術同成本控制問題']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "提出成就需要理論嘅係",
+    "llm_output": "B.  麥克利蘭",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '弗魯姆'], ['B', '麥克利蘭'], ['C', '馬斯洛'], ['D', '赫茨伯格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會調查中，兩個變量相關系數喺0.5～0.7之間，說明變量間嘅相關程度",
+    "llm_output": "D. 顯著",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '一般'], ['B', '極高'], ['C', '較低'], ['D', '顯著']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺系統分析中，強調以政策嘅「機會成本」作為基本依據嘅係",
+    "llm_output": "B. 價值研究",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '規範研究'], ['B', '價值研究'], ['C', '行為研究'], ['D', '可行性研究']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀50年代以前曾經廣泛應用嘅橫道圖嘅發明者係",
+    "llm_output": "正確答案係 B. 甘特。\n\n甘特圖（Gantt chart）亦稱為條形圖（bar chart），係一種用於項目管理同進度報告嘅圖表，由美國工程師哈里遜·甘特（Harry Gantt）喺20 世紀初發明嘅。甘特圖以時間為橫軸，以活動為縱軸，用條形長度表示活動持續時間，非常直觀地顯示項目時間表同進度。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蒙特卡羅'], ['B', '甘特'], ['C', '泰勒'], ['D', '韋伯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "小李同小王係同事，最近心理上卻係冰火兩重天。小李因圓滿完成工作定額任務，唔淨領到咗全額工資，仲得到咗相當於月工資25％嘅獎勵。小王則因未完成月工作定額任務，淨領到咗80％嘅月工資。佢哋所喺企業嘅工資制度即泰勒所倡導嘅",
+    "llm_output": "正確答案嘅選項係：B. 差別計件工資制\n\n泰勒（Frederick Winslow Taylor）喺佢嘅管理理論中倡導嘅差別計件工資制，又稱為計件奬懲制，係一種以工作成果為基礎嘅激勵制度。響呢種制度下，員工會因為超額完成工作而得到額外嘅獎勵，同時如果未能完成工作定額，會受到相應嘅懲罰（通常係工資嘅扣減）。響上述嘅情境中，小李因為圓滿完成工作定額任務而得到獎勵，而小王則因為未完成工作定額任務而領到較少嘅工資，呢種制度正係差別計件工資制嘅體現。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '計件工資制'], ['B', '差別計件工資制'], ['C', '崗位結構工資制'], ['D', '績效工資制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "全面質量管理嘅組織形式中，屬於臨時性嘅團隊係",
+    "llm_output": "全面質量管理（Total Quality Management，TQM）嘅組織形式中，屬於臨時性嘅團隊係 C. 行動改正團隊。\n\n行動改正團隊通常係為了解決特定問題或完成特定任務而臨時組建嘅團隊，佢哋嘅目標一旦達成，團隊通常就會解散。呢種團隊嘅特性係具有時間限制，並且集中咁處理一啲短期內需要解決嘅問題。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '過程改正團隊'], ['B', '質量改進團隊'], ['C', '行動改正團隊'], ['D', '過程管理團隊']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "首次提出「非正式組織」概念嘅係",
+    "llm_output": "正確答案嘅選項係 C. 巴納德（Chesterton Barnes）。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '德魯克'], ['B', '歐文'], ['C', '巴納德'], ['D', '梅奧']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "美國心理學家同行為科學家埃德加•沙因認為，冇一種適用於任何時代、任何人嘅管理方式，呢種觀點來源於",
+    "llm_output": "正確答案嘅選項係 C. 複雜人假設。埃德加•沙因嘅觀點係基於複雜人假設，認為冇一種普遍適用嘅管理方式，因為人嘅需求同反應因時因地而異。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經濟人假設'], ['B', '社會人假設'], ['C', '複雜人假設'], ['D', '自我實現人假設']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "所謂公共決策嘅「思想庫」或「智囊團」係指決策體制中嘅",
+    "llm_output": "正確答案嘅選項係：\n\nA. 諮詢系統",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '諮詢系統'], ['B', '中樞系統'], ['C', '信息系統'], ['D', '監控系統']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "公元前2000多年即有咗較為成熟嘅管理形式，具體表現係制定咗有名嘅漢穆拉比法典，該國家係",
+    "llm_output": "正確答案係：\n\nB. 古巴比倫",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '古羅馬'], ['B', '古巴比倫'], ['C', '古希臘'], ['D', '古埃及']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "被稱為係「科學管理之父」嘅係",
+    "llm_output": "A. 泰羅 (Frederick Winslow Taylor) 被稱為「科學管理之父」。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '泰羅'], ['B', '法約爾'], ['C', '羅伯特•歐文'], ['D', '亞當•斯密']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "為保持決策嘅連續性，某組織決定喺原有決策方案嘅基礎上做啲修改，以出臺新嘅決策方案。呢種決策係",
+    "llm_output": "B.  漸進決策模式",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '集團決策模式'], ['B', '漸進決策模式'], ['C', '理性決策模式'], ['D', '有限理性決策模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "社會調查研究中包含一個以上亞概念或取值嘅概念係",
+    "llm_output": "正確答案嘅選項係 D. 變量。在社會調查研究中，變量係一個可以有不同取值或狀態嘅概念，可以包括一個以上嘅亞概念或取值。變量可以分為獨立變量、依賴變量、中介變量、調節變量等，並且係研究中用嚟描述、解釋或預測社會現象嘅基礎。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '指標'], ['B', '命題'], ['C', '假設'], ['D', '變量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀70年代首先提出系統分析嘅層次性原則嘅係美國著名運籌學家",
+    "llm_output": "正確答案嘅選項係：\n\nB. 西蒙 (Herbert A. Simon)",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '申農'], ['B', '西蒙'], ['C', '維納'], ['D', '薩蒂']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "組織理論上把管理層次多而管理幅度細嘅結構稱之為",
+    "llm_output": "正確答案嘅選項係 B. 直式結構。\n\n組織理論中，管理層次多而管理幅度細嘅結構被稱為直式結構（vertical structure）。直式結構嘅特點係層級分明，權力自上而下流動，每個層級嘅管理者負責監督同指導低一層級嘅員工。呢種結構通常比較傳統，並且可以喺一些組織中造成溝通緩慢同決策過程嘅僵化。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '直線結構'], ['B', '直式結構'], ['C', '扁平結構'], ['D', '矩形結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某公司發生安全生產事故，公司領導根據其知識同經驗對問題進行分析，提出解決方案，呢種決策方法屬於",
+    "llm_output": "正確答案嘅選項係 A. 個人判斷決策法。\n\n解釋：個人判斷決策法（Personal Judgment Decision Making）係指一個人基於個人經驗、直覺、專業知識或個人偏好，冚唓作出決策嘅過程。喺呢個問題中，公司領導根據其知識同經驗對問題進行分析，提出解決方案，正正體現咗個人判斷決策法。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '個人判斷決策法'], ['B', '模擬決策法'], ['C', '德爾菲法'], ['D', '頭腦風暴法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "赫茨伯格嘅雙因素理論認為，提高勞動效率嘅關鍵喺於",
+    "llm_output": "B. 使工作豐富化\n\n赫茨伯格嘅雙因素理論，又稱為「保健-激勵理論」，認為有兩類因素影響員工嘅滿意度和績效。「保健因素」包括工資、工作條件、公司政策等，能夠防止員工不滿，但唔係提高勞動效率嘅關鍵。「激勵因素」則包括工作本身、成就感、認可、責任等，能夠提升員工嘅滿意度和勞動效率。因此，使工作豐富化（B選項）屬於激勵因素，係提高勞動效率嘅關鍵。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '按時發放工資'], ['B', '使工作豐富化'], ['C', '加強工作監督'], ['D', '改變工作環境']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "馬斯洛嘅需要層次理論主要解釋咗人類嘅",
+    "llm_output": "A. 基本需要嘅內容同產生順序",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '基本需要嘅內容同產生順序'], ['B', '基本需要嘅內容'], ['C', '基本需要嘅程度'], ['D', '基本需要產生嘅順序']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "法約爾所提出嘅管理嘅十四項原則唔包括",
+    "llm_output": "法約爾所提出嘅管理嘅十四項原則包括：\n\n1. 分工\n2. 權力與責任\n3. 紀律\n4. 統一指揮\n5. 統一協調\n6. 命令的連續性\n7. 個人利益服從於整體利益\n8. 集權與分權\n9. 等级制度\n10. 秩序\n11. 公平\n12. 人員的穩定性\n13. 首创精神\n14. 集体精神\n\n因此，以下選項係正確答案：\n\nA. 集權與分權\nB. 權力與責任\nC. 統一協調\nD. 統一指揮\n\n答案為：不包括 D. 統一指揮（因為「統一指揮」係法約爾管理原則之一）。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '集權與分權'], ['B', '權力與責任'], ['C', '統一協調'], ['D', '統一指揮']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "具有機構簡單、權力集中、命令統一、決策迅速、指揮靈便、職責明確特點嘅行政體制形態係",
+    "llm_output": "正確答案嘅選項係 C. 直線制。\n\n直線制係一種簡單嘅行政組織形式，其中管理者直接對下屬員工負責，而且每個員工只向一個上級報告。呢種組織結構嘅特點包括權力集中、命令統一、決策迅速、指揮靈便、職責明確。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '職能制'], ['B', '多維制'], ['C', '直線制'], ['D', '矩陣制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某市出現交通擠塞，市政府召集相關部門同人員到擠塞地點檢查原因，解決問題，呢做法係",
+    "llm_output": "A. 現場控制",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '現場控制'], ['B', '程序控制'], ['C', '間接控制'], ['D', '前饋控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係授權必須遵循嘅原則",
+    "llm_output": "答案：A. 控制幅度原則\n\n授權必須遵循的原則包括：\n\nB. 責權一致原則：確保員工有足夠的權力來完成他們的職責，同時確保他們對結果負責。\nC. 重要性原則：授權時應該考慮工作的性質和重要性，將重要的工作委託給有能力的人。\nD. 適度原則：授權應該適度，根據員工的能力和經驗來決定委託的工作量。\n\n控制幅度原則（Span of control）是指一個管理者能夠有效管理多少下屬，並不是授權必須遵循的原則。授權主要是關於將權力委託給員工，而不是管理層級的設定。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '控制幅度原則'], ['B', '責權一致原則'], ['C', '重要性原則'], ['D', '適度原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "職能型組織結構形式嘅優點係實現咗",
+    "llm_output": "A. 管理專業化",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '管理專業化'], ['B', '統一領導'], ['C', '統一指揮'], ['D', '管理現代化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位領導唔係把目光侷限喺完成任務上，而係注重畀下屬更多嘅關心，愛護同尊重，注重非正式組織嘅存在，鼓勵上下級之間溝通。呢個說明該領導喺管理中運用嘅係",
+    "llm_output": "正確答案嘅選項係 C. 社會人假設（Social Man Hypothesis）。\n\n社會人假設係由管理學家埃爾顿·梅奧（Elton Mayo）同佢嘅同事於20世紀初提出嘅，呢個假設認為員工嘅士氣同工作滿足感唔只受到經濟因素影響，更加受到社會關係同互動影響。領導者如果能夠關注員工嘅社交需求，並且促進員工之間嘅溝通同互動，就可以提高員工嘅工作表現同滿意度。呢種管理方式強調非正式組織嘅重要性，並且鼓勵上下級之間嘅溝通同支持。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '科學管理理論'], ['B', '經濟人假設'], ['C', '社會人假設'], ['D', 'X理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於全面控制法嘅係",
+    "llm_output": "唔屬於全面控制法嘅係 C. 項目預算法。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '損益控制法'], ['B', '投資報酬率分析法'], ['C', '項目預算法'], ['D', '管理審計']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺決策模式中，提出咗「最優決策準則」嘅係",
+    "llm_output": "B. 理性決策模式",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '集團決策模式'], ['B', '理性決策模式'], ['C', '精英決策模式'], ['D', '漸進決策模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺人事職位分類中，工作性質、權力大小、責任輕重、所需資格條件、工作難易程度基本相同嘅一個職位序列稱為",
+    "llm_output": "正確答案係 B. 職級。\n\n職級是指喺同一職系中，根據工作性質、權力大小、責任輕重、所需資格條件同工作難易程度等要素，將職位劃分為唔同嘅等級或者級別。一個組織或者機構內部嘅職位可以通過職級來進行描述、比較、評估同管理。職級之間嘅關係通常會有一個明確嘅等級結構，例如高級職位、中級職位同低級職位等。喺人事管理中，職級係用嚟確定員工嘅職位等級、薪酬待遇同晉升路徑嘅重要依據。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '職等'], ['B', '職級'], ['C', '職類'], ['D', '職系']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "影響管理系統生存同發展嘅一切要素嘅總和係",
+    "llm_output": "C.  管理環境",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '管理手段'], ['B', '管理方法'], ['C', '管理環境'], ['D', '管理道德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "職位係組織嘅構成要素之一。下列對職位特徵嘅描述，錯誤嘅一句係",
+    "llm_output": "正確答案嘅選項為 C. 職位設置體現因人設崗嘅原則。\n\n職位應該係根據組織嘅目標同工作需要設定，而唔應該以個人為基礎來設置。因人設崗（C.）嘅概念係指根據個人嘅能力、關係或者其他特性來設定職位，呢種做法通常被認為係不科學同埋不利於組織嘅有效管理。其他選項 A.、B. 同 D. 都係職位嘅正確特徵。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '職位嘅數量明確而具體'], ['B', '職位係以工作為中心設置嘅'], ['C', '職位設置體現因人設崗嘅原則'], ['D', '職位係依據目標設立嘅工作崗位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "首開管理定義先河嘅法約爾認為，管理就係實行",
+    "llm_output": "正確答案嘅選項係：\n\nD. 計劃、 組織、 指揮、 協調同控制",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '激勵、組織、指揮、協調同控制'], ['B', '領導、組織、指揮、協調同控制'], ['C', '決策、組織、指揮、協調同控制'], ['D', '計劃、組織、指揮、協調同控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "貫穿於管理過程嘅始終，係管理活動核心內容嘅係",
+    "llm_output": "D. 決策\n\n貫穿於管理過程嘅始終，管理活動核心內容嘅係決策。決策係指管理者在面臨多種可能嘅情況下，選擇一個或多個行動方案嘅過程，呢個過程係管理嘅基礎，並且影響到組織嘅方向和成效。預測、領導和計劃雖然都係管理過程中嘅重要組成部分，但決策係管理嘅核心。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '預測'], ['B', '領導'], ['C', '計劃'], ['D', '決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "按高標準行事，或喺競爭中取勝嘅願望屬於",
+    "llm_output": "D. 成就需要",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '關係需要'], ['B', '歸屬需要'], ['C', '權力需要'], ['D', '成就需要']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺管理思想史上，首次提出「非正式組織」概念嘅美國學者係",
+    "llm_output": "A. 巴納德",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '巴納德'], ['B', '戴維斯'], ['C', '卡斯特'], ['D', '德魯克']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔以過去嘅實際開支做標準，而係根據組織目前嘅需求同發展趨勢重新估量，通過對每項費用開支合理性嘅重新審定而做出預算嘅方法係",
+    "llm_output": "正確答案係 D. 零基預算法。\n\n零基預算法（Zero-Based Budgeting）嘅核心思想係唔以過去嘅實際開支做標準，而係基於零基礎上，根據組織目前嘅需求同發展趨勢重新估量每項費用開支嘅合理性，從而制定預算。呢種方法有助於發現同消除以往嘅浪費同過時嘅開支，並且能夠更加靈活同有效地應對組織嘅變化需求。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「總預算」法'], ['B', '項目預算法'], ['C', '傳統預算法'], ['D', '零基預算法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺社會調查中，表明調查資料係基本可靠嘅信度系數應該喺",
+    "llm_output": "正確答案嘅選項係：\n\nA. 0.8 以上",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '0.8以上'], ['B', '0.6以上'], ['C', '0.2以上'], ['D', '0.4以上']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某公司通常由公司高層做出決策，普通職工好少參與。呢說明該公司採用嘅係",
+    "llm_output": "正確答案嘅選項係：\n\nC. 精英決策模式\n\n解釋：\n精英決策模式通常指決策過程主要集中喺組織內部嘅少數精英成員之間進行，呢種模式下，普通成員嘅參與度較低，而高層或精英成員則擔當主要嘅決策角色。因此，如果一家公司主要由公司高層做出決策，而普通職工好少參與，呢就反映出該公司採用嘅係精英決策模式。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '理性決策模式'], ['B', '集團決策模式'], ['C', '精英決策模式'], ['D', '漸進決策模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某縣圍繞發展經濟，召集有關專家開「神仙會」，暢所欲言、獻計獻策，以做出決策，呢種方法屬於",
+    "llm_output": "正確答案嘅選項係 D. 頭腦風暴法。\n\n頭腦風暴法（Brainstorming）係一種集體、協作嘅創意思考技術，目的在於短時間內收集大量嘅創意與想法。呢種方法通常喺一個封閉嘅環境中進行，參與者可以暢所欲言，互相啟發，唔需要即時評價或者批判任何一個想法，從而刺激更多創新嘅思考。在所提供的情境中，專家們被召集一齊，暢所欲言、獻計獻策，正符合頭腦風暴法嘅特點。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '德爾菲法'], ['B', '模擬決策法'], ['C', '方案前提分析法'], ['D', '頭腦風暴法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "採用函詢嘅方式諮詢專家嘅建議以做出決策嘅方法係",
+    "llm_output": "A. 德爾菲法",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '德爾菲法'], ['B', '方案前提分析法'], ['C', '頭腦風暴法'], ['D', '模擬決策法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "凡事要「因地制宜，因時制宜，靈活機動」，呢體現咗管理嘅",
+    "llm_output": "正確答案嘅選項係：\n\nA. 藝術性",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '藝術性'], ['B', '科學性'], ['C', '社會屬性'], ['D', '自然屬性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "直線型組織結構一般只適應於",
+    "llm_output": "D. 規模較細，生產技術同工藝過程比較簡單、產品單一嘅企業",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '跨國企業'], ['B', '創新任務較高，生產經營多變嘅企業'], ['C', '大型企業'], ['D', '規模較細，生產技術同工藝過程比較簡單、產品單一嘅企業']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "建立喺權威與服從關係基礎上，表現為一種權力支配關係嘅係",
+    "llm_output": "D. 行政手段",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '經濟手段'], ['B', '思想教育手段'], ['C', '法律手段'], ['D', '行政手段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位領導高度關心生產同效率，而唔關心人。呢種領導方式喺管理方格中嘅位置為",
+    "llm_output": "正確答案係 A. (9,1)。\n\n管理方格理論由 Robert Blake 和 Jane Mouton 在 1964 年提出，呢種理論將領導風格以生產（任務）同人（關懷）之間嘅不同關注程度劃分為多個方格。其中，(9,1) 代表高度重視生產（任務），但唔太重視人（員工的關係和需求），符合問題中所描述嘅領導方式。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '(9，1)'], ['B', '(1，1)'], ['C', '(9，9)'], ['D', '(1，9)']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列對預測與決策關係嘅表述，唔正確嘅一句係",
+    "llm_output": "正確答案嘅選項係：\n\nA. 決策係預測嘅前提條件\n\n呢句說法唔正確，因為通常預測會係決策嘅前提條件。預測可以幫助管理者理解可能嘅未來情況，而呢啲信息可以影響管理者做決策嘅方式。雖然決策同預測有緊密嘅關係，但唔可以話決策係預測嘅前提條件。其餘選項 B、C、D 都正確地描述咗預測同決策之間嘅關係。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '決策係預測嘅前提條件'], ['B', '預測貫穿於決策嘅全過程'], ['C', '決策同預測關係密切'], ['D', '預測係為決策服務嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列管理職能中，具有主體廣泛性特點嘅係",
+    "llm_output": "A. 協調\n\n在管理學中，協調被認為是一種具有主體廣泛性特點的管理職能。協調涉及確保組織內不同部門、團隊和個人之間的工作能夠有效地整合和配合，以實現組織目標。這種職能需要管理者與組織內外的各種利益相關者進行溝通和合作，因此其主體具有廣泛性，包括了組織內的所有成員和外部相關方。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '協調'], ['B', '激勵'], ['C', '組織'], ['D', '計劃']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "作為管理嘅一項基本職能，控制主要體現喺",
+    "llm_output": "A. 執行過程",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '執行過程'], ['B', '協調過程'], ['C', '激勵過程'], ['D', '預測過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理關係主要係指人哋喺管理活動過程中形成嘅一種不斷變化嘅",
+    "llm_output": "A. 人同人嘅關係",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人同人嘅關係'], ['B', '人同物嘅關係'], ['C', '人同信息嘅關係'], ['D', '人同財嘅關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "1965年我國開始應用同推廣網絡計劃方法，將其稱為",
+    "llm_output": "正確答案係 A. 統籌方法。1965 年，中國開始應用和推廣網絡計劃方法，將其稱為「統籌方法」。这是一种用於項目管理和生產計劃的方法，可以幫助管理人員優化工作流程和資源分配。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '統籌方法'], ['B', '蒙特卡羅法'], ['C', '甘特圖'], ['D', '泰勒制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "專門研究管理活動及其基本規律同一般方法嘅科學係",
+    "llm_output": "D. 管理學",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '管理'], ['B', '現代管理學'], ['C', '管理思想'], ['D', '管理學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "根據系統嘅性質同特性，系統分析最基本同核心嘅原則應該係",
+    "llm_output": "B. 整體性原則",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '要素原則'], ['B', '整體性原則'], ['C', '模型化原則'], ['D', '層次性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位準備喺7月份上馬一個重大項目，該項目易受天氣狀況嘅影響，已知喺天氣好嘅狀況下上馬該項目將獲益70％，喺天氣唔好嘅情況下上馬該項目將虧損60％。根據以往氣象資料，可知天氣好與壞嘅概率各係50％。呢種決策屬於",
+    "llm_output": "這種決策屬於 A. 風險型決策。\n\n解釋：在風險型決策中，結果取決於多個因素，這些因素的結果不確定，但有一定的概率。在這個問題中，項目的成敗取決於天氣狀況，而天氣好壞的概率是已知的（各為50%）。這種情況下，決策者可以計算出期望值（獲益概率乘以獲益金額，加上虧損概率乘以虧損金額）來做出決策。因此，這是一個風險型決策的例子。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '風險型決策'], ['B', '確定型決策'], ['C', '唔確定型決策'], ['D', '危機決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "霍桑實驗嘅主持人係",
+    "llm_output": "B.  梅奧 (George Elton Mayo)",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '亞當斯'], ['B', '梅奧'], ['C', '法約爾'], ['D', '沙因']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "領導方式理論認為，權力控制喺最高一級，但授予中下層部分權力，領導者同下屬之間形成一種「主僕般」嘅信任關係。呢種領導方式屬於",
+    "llm_output": "這種領導方式屬於 D. 開明-權威式。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '羣體參與式'], ['B', '協商式'], ['C', '專制-權威式'], ['D', '開明-權威式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "包含喺管理制度中嘅既定嘅控制程序被稱為",
+    "llm_output": "正確答案係 A. 常規控制。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '常規控制'], ['B', '間接控制'], ['C', '非常規控制'], ['D', '直接控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "三國時，劉備死後，佢嘅仔劉禪雖則無能，但仍然繼承咗帝位。依據科層組織理論，劉禪繼位嘅權威基礎係",
+    "llm_output": "A. 傳統權威",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傳統權威'], ['B', '理性權威'], ['C', '超凡權威'], ['D', '自然權威']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "現代管理系統嘅第一資源係",
+    "llm_output": "C. 人力資源",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '財力資源'], ['B', '信息資源'], ['C', '人力資源'], ['D', '物力資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺財務管理中，支出管理嘅最基本內容係",
+    "llm_output": "A. 管好用好經常性支出",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '管好用好經常性支出'], ['B', '管好用好全部支出'], ['C', '管好用好專項支出'], ['D', '管好用好特殊性支出']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "對於組織變革嘅目標描述唔正確嘅係",
+    "llm_output": "以下係關於管理學嘅單項選擇題嘅正確答案：\n\n問題： 對於組織變革嘅目標描述唔正確嘅係\n\nB. 使董事會更具環境適應性\n\n正確嘅組織變革目標應該係使整個組織更具環境適應性，而唔單只係員工、管理者或者董事會。因此，選項B描述唔正確。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '使員工更具環境適應性'], ['B', '使董事會更具環境適應性'], ['C', '使組織更具環境適應性'], ['D', '使管理者更具環境適應性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "為減少交通事故，保障司機安全，我國相關法律規定，司機駕車必須佩戴安全帶。呢種控制方式係",
+    "llm_output": "B.  前饋控制",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '反饋控制'], ['B', '前饋控制'], ['C', '現場控制'], ['D', '隨機控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理科學係隨住工業嘅發展而逐步形成同發展起嚟嘅，一般認為，管理科學始於美國管理學家",
+    "llm_output": "管理科學一般被認為是始於美國管理學家 F.W. Taylor（泰勒），他是科學管理理論的創始人。因此，正確答案係：\n\nD. 泰勒",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '梅奧'], ['B', '卡斯特'], ['C', '馬斯洛'], ['D', '泰勒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某一溝通主體同兩個以上嘅上級組織進行溝通，同時又同下級組織保持鏈式溝通嘅溝通方式，被形象噉稱為",
+    "llm_output": "正確答案係 A. Y式溝通。這種溝通方式被稱為Y式，因為溝通主體與兩個上級組織以及下級組織之間的溝通模式形成了一個類似於字母Y的結構。在這種溝通網絡中，溝通主體直接與兩個上級組織溝通，同時也與下級組織保持聯繫，形成了一個鏈式的溝通路徑。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'Y式溝通'], ['B', '輪式溝通'], ['C', '環式溝通'], ['D', '全通道溝通']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "唔同嘅決策規則會導致唔同嘅結果，能夠達到「帕累託最優」嘅決策規則係",
+    "llm_output": "B. 全體一致規則\n\n帕累訳最適（Pareto efficiency），又稱為帕累訳效率或帕累訳優勢，係經濟學中用來描述一個資源配置狀態，其中至少有一人嘅狀況變得更好，而其他人嘅狀況冇變差或變好，但係冇人因此變差。達到全體一致規則，即係所有人都贊成某個選擇，呢個選擇就係帕累訳最適，因為冇人會因為呢個選擇而變差。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '絕對多數規則'], ['B', '全體一致規則'], ['C', '相對多數規則'], ['D', '簡單多數規則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "與公共管理相比較，私人管理嘅重要特點係",
+    "llm_output": "A. 享有較充分嘅自主權利\n\n私人管理通常享有較充分的自主權利，可以自行決定運營策略、人事安排和資源分配，而不像公共管理那樣受到政策、法律和公共監督的嚴格限制。公共管理往往需要受到更多的政治和法律約束，並且管理過程可能充滿政治氣氛，強調開放性和透明性也是公共管理的一個特點。因此，與公共管理相比較，私人管理的自主權利更為充分。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '享有較充分嘅自主權利'], ['B', '管理過程充滿政治氣氛'], ['C', '受制於周密嘅政治安排'], ['D', '強調開放性與透明性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "2008年9月8日，山西襄汾發生特大尾礦潰壩事故，事後山西省長引咎辭職，一副省長被免職。呢度應用嘅控制方法係",
+    "llm_output": "B. 人員管理控制法\n\n這起事故後的官員辭職和免職是人員管理控制法的一種體現，這種控制方法通常包括了對組織內人員的行為和責任進行監督和管理，以確保他們的行為符合組織的規章制度和期望標準。在公共部門，尤其是中國這樣的行政體系中，官員對於重大事故負有領導責任，因此他們的職位會因應事故的嚴重性而受到影響，這是一種人員管理上的控制手段。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '內部審計法'], ['B', '人員管理控制法'], ['C', '現場觀察法'], ['D', '前饋控制法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "喺決策體制中，主要承擔發現決策問題、提供決策預測研究以及參與決策方案設計、評估同論證任務嘅係",
+    "llm_output": "C. 決策諮詢系統",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '決策執行系統'], ['B', '決策中樞系統'], ['C', '決策諮詢系統'], ['D', '決策監控系統']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗避免循環現象造成永遠達唔到終點嘅結果，網絡圖中唔能出現嘅係",
+    "llm_output": "B.  迴路\n\n在網絡圖中，迴路（loop）是指一條從某節點開始，經過一系列邊（或路徑）後再次回到該節點的閉合路徑。在項目管理或活動管理的網絡分析中，迴路可能導致活動之間的依賴關係形成循環，從而可能導致項目永遠無法完成的循環現象。因此，為了確保網絡圖的有效性，通常要求網絡圖不能出現迴路。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '代號'], ['B', '迴路'], ['C', '子系統'], ['D', '暗橋']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "因考評對象嘅某一特徵、品質或行為表現異常鮮明、突出，從而淡化以至掩蓋咗其他方面嘅表現，由此形成嘅考評偏差稱為",
+    "llm_output": "正確答案係 B.  暈輪效應偏差（Halo Effect Bias）。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '集中趨勢偏差'], ['B', '暈輪效應偏差'], ['C', '刻板印象偏差'], ['D', '主觀好惡偏差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "確定達到組織目標所採取嘅程序、途徑、手段同措施嘅決策係",
+    "llm_output": "正確答案係 C. 戰術決策。\n\n戰術決策係指在組織中，用於實現既定戰略目標同目的嘅一系列決策，包括確定達到組織目標所採取嘅程序、途徑、手段同措施。戰術決策通常係較為具體同細節性嘅決策，並且需要在較短時間內做出。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '戰略決策'], ['B', '常規決策'], ['C', '戰術決策'], ['D', '非常規決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "傳統人事管理向當代人力資源管理過渡或轉折嘅重要原因係",
+    "llm_output": "正確答案嘅選項係 A. 人際關係運動嘅興起。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人際關係運動嘅興起'], ['B', '計件工資制嘅實施'], ['C', '員工崗前培訓嘅實行'], ['D', '人事檔案嘅管理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "管理者喺出席社區嘅集會或參加社會活動時，所行使嘅係",
+    "llm_output": "正確答案嘅選項係：\n\nA. 聯絡者",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '聯絡者'], ['B', '談判者'], ['C', '發言人'], ['D', '代表人']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "矩陣制組織結構模式嘅突出特點係",
+    "llm_output": "矩陣制組織結構模式嘅突出特點係：\n\nA. 增強咗組織嘅靈活性\n\n矩陣制組織結構允許員工同時隸屬於不同嘅專案小組，從而提高組織對市場變化嘅響應速度和靈活性。其他選項唔直接描述矩陣制組織結構嘅特點。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '增強咗組織嘅靈活性'], ['B', '機構簡單、責任明確'], ['C', '單一領導、權力集中'], ['D', '實現咗管理嘅專業化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於控制與計劃關係嘅表述，正確嘅係",
+    "llm_output": "正確答案嘅選項係 A. 控制為計劃提供標準。\n\n解釋：控制過程係基於計劃設定嘅目標和標準進行，用嚟確保組織嘅活動按照計劃進行，從而確保組織能夠達成預期嘅目標。因此，控制為計劃提供嘅標準，係進行控制過程嘅基礎。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '控制為計劃提供標準'], ['B', '計劃嘅科學性取決於控制'], ['C', '控制係計劃嘅前提'], ['D', '控制係計劃嘅繼續']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "一個由9人組成嘅決策羣體對A、B、C方案進行投票，結果為：A方案4票，B方案3票，C方案2票，最後A方案勝出。呢說明該決策羣體採用嘅係",
+    "llm_output": "正確答案嘅選項係 C. 簡單多數規則。\n\n簡單多數規則（Simple Majority Rule）係一種決策方法，指喺多數選項中獲得最多票數嘅方案會勝出，唔需要達到全體一致或者過半數。喺呢個問題中，A方案獲得4票，而其他方案獲得嘅票數較少，因此A方案根據簡單多數規則勝出。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全體一致規則'], ['B', '絕對多數規則'], ['C', '簡單多數規則'], ['D', '過半數規則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "人事考評中，由於時間同心理因素而引起嘅考評誤差，稱為",
+    "llm_output": "B.  近因效應偏差",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '暈輪效應偏差'], ['B', '近因效應偏差'], ['C', '刻板印象偏差'], ['D', '主觀好惡偏差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "根據經濟人假設理論，領導者喺管理中要採取嘅管理方式係",
+    "llm_output": "根據經濟人假設理論，領導者喺管理中要採取嘅管理方式係：\n\nC. 實行嚴密嘅組織控制\n\n經濟人假設理論（economic man hypothesis）亦稱作理性經濟人假設，認為人們總是尋求最大化自己嘅經濟利益，並且會選擇最能夠滿足自己利益嘅行為。因此，在管理上，經濟人假設認為員工需要通過金錢獎勵和懲罰來激勵他們工作，並且需要嚴密的組織控制來確保他們按照組織目標行事。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '按照唔同人嘅情況採取唔同嘅管理方式'], ['B', '重視非正式組織嘅存在'], ['C', '實行嚴密嘅組織控制'], ['D', '畀下屬提供更多嘅自我實現嘅機會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "把組織目標分解為項目，按規劃嘅項目進行分階段撥款嘅預算控制方法係",
+    "llm_output": "正確答案係 A. 項目預算。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '項目預算'], ['B', '投資預算'], ['C', '經營預算'], ['D', '零基預算']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "人類嘅實踐活動都有明確嘅目標，而且人哋喺實踐過程中圍繞實現目標常常對自己嘅行為作出調整或抉擇。呢個說明人力資源具有",
+    "llm_output": "C. 能動性\n\n呢個問題嘅描述指出人類嘅實踐活動有明確嘅目標，並且人在實現目標嘅過程中會調整或選擇自己嘅行為。呢種能力嘅特點係人類能夠有意識地進行活動，並且能夠根據情況嘅變化作出反應。呢種能力嘅特點係人力資源嘅「能動性」。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '生產與消費屬性'], ['B', '時效性'], ['C', '能動性'], ['D', '可持續開發屬性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "赫茨伯格認為，提高勞動生產效率嘅關鍵喺於",
+    "llm_output": "D. 使工作豐富化\n\n赫茨伯格（Frederick Herzberg）是動機- hygiene 理論（Motivation-Hygiene Theory）的創立者，他認為工作滿足感來自於工作本身的滿足（motivation factors），如成就感、認可、責任和成長等，而工作不滿足則來自於工作環境或條件（hygiene factors），如薪水、工作條件、公司政策和管理等。因此，他認為提高勞動生產效率的關鍵在於使工作豐富化，讓員工在工作本身上獲得滿足感。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '加強監督管理'], ['B', '提高工資水平'], ['C', '提高技術能力'], ['D', '使工作豐富化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "提出實現自我超越，改善心智模式等五項修煉嘅係",
+    "llm_output": "正確答案係 D. 學習型組織理論。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '科層組織理論'], ['B', '組織生命週期理論'], ['C', '組織平衡理論'], ['D', '學習型組織理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "某單位領導認為人係勤奮嘅，喺管理上主張啟發內因，發揮人嘅主觀能動性，實行自我控制。這說明該單位領導運用嘅係",
+    "llm_output": "這位領導人的管理哲學符合 Y 理論（Theory Y）的觀點。Y 理論假設員工天生願意工作，願意承擔責任，並且可以在工作中找到滿足感。這種哲學強調透過啟發內在動機和促進員工參與來激勵員工。因此，正確答案是：\n\nC. Y理論",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'X理論'], ['B', '科學管理理論'], ['C', 'Y理論'], ['D', '經濟人假設理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "反映社會進步或社會發展嘅指標係",
+    "llm_output": "正確答案係 C. 肯定性指標。\n\n社會進步或社會發展嘅指標通常係指一系列嘅量化指標，用來衡量一個社會喺一定時期內嘅發展水平、發展速度、質量指標、結構變遷等方面嘅變化。呢類指標可以包括人均國內生產總值、教育程度、醫療保健水平、人均壽命、失業率等等。呢啲指標通常被認為係「肯定性指標」，因為佢哋反映咗社會正面嘅改變同進步。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '主觀性指標'], ['B', '中性指標'], ['C', '肯定性指標'], ['D', '自變量指標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "把人看成天生懶惰、厭惡工作，缺乏進取心，主張採取強制、監督、懲罰嘅方法進行管理，這種理論被稱為",
+    "llm_output": "正確答案嘅選項係 C. X理論。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'Y理論'], ['B', 'Z理論'], ['C', 'X理論'], ['D', '超Y理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「管理，就係實行計劃、組織、指揮、協調和控制」嘅管理學家係",
+    "llm_output": "正確答案嘅選項係：\n\nA. 法約爾 (Henri Fayol)",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '法約爾'], ['B', '西蒙'], ['C', '巴納德'], ['D', '孔茨']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "小趙一貫表現良好，最近又完成了一項技術發明，李主任及時喺車間大會上給予表揚和獎勵。這一強化手段屬於",
+    "llm_output": "C. 積極強化",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '消極強化'], ['B', '懲罰'], ['C', '積極強化'], ['D', '消退']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "首開管理定義先河嘅法約爾認為，管理就係實行",
+    "llm_output": "正確答案嘅選項係：\n\nC. 計劃、 組織、 指揮、 協調和控制\n\n法約爾（Henri Fayol）係一位早期管理學理論家，佢提出咗管理嘅五大功能，即計劃（Planning）、組織（Organizing）、指揮（Commanding）、協調（Coordinating）和控制（Controlling）。呢五大功能被視為管理嘅基礎，對後世嘅管理學理論發展有重大影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '決策、組織、激勵、領導和溝通'], ['B', '決策、組織、激勵、領導和控制'], ['C', '計劃、組織、指揮、協調和控制'], ['D', '計劃、溝通、指揮、協調和控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "按照主管人員與控制對象嘅關係，控制可以分為",
+    "llm_output": "正確答案係 C. 間接控制和直接控制。\n\n按照主管人員與控制對象的關係，控制可以分為間接控制和直接控制。間接控制通常透過調整組織政策、程序和規則來間接影響員工的行為，而直接控制則涉及直接監督和指導員工的工作表現。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '生產控制和質量控制'], ['B', '復合控制和動態控制'], ['C', '間接控制和直接控制'], ['D', '成本控制和資金控制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-management",
+    "key_answer_type": "alphabet_option",
+    "question": "下列選項中不屬於目標成果評價內容嘅係",
+    "llm_output": "正確答案嘅選項係 A. 目標實施手段。\n\n目標成果評價通常包括對目標達成嘅狀況（B. 目標狀況）、員工嘅工作態度（C. 工作態度）以及進行評價嘅主體（D. 目標評價主體）嘅評估。而目標實施手段（A. 目標實施手段）係用來達成目標嘅方法，唔會直接成為目標成果評價嘅內容。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '目標實施手段'], ['B', '目標狀況'], ['C', '工作態度'], ['D', '目標評價主體']]",
+    "is_correct": 0
+  }
+]

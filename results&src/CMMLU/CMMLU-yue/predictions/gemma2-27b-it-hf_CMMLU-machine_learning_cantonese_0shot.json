@@ -1,0 +1,1222 @@
+[
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺二分類問題中，當測試集嘅正例同負例數量唔均衡時，以下評價方案邊個係相對唔合理嘅（假設precision=TP/(TP+FP)，recall=TP/(TP+FN)。）",
+    "llm_output": "The unreasonable evaluation metric in this case is **A. F-值：2 * recall / (recall + precision)**\n\nHere's why:\n\n* **F-score:** The correct formula for the F-score is **F1 = 2 * (precision * recall) / (precision + recall)**.  The F-score is a harmonic mean of precision and recall, not a simple product.\n\nThe other options are all valid evaluation metrics for binary classification problems:\n\n* **Accuracy (C):**  Accuracy is a common metric, calculated as (TP+TN)/all, which represents the proportion of correct predictions out of all predictions.\n* **G-mean (D):** AUC (Area Under the Curve) is a good metric for evaluating the overall performance of a classifier, but the G-mean is a different metric that focuses on the balance between true positives and true negatives.\n\n* **Precision and Recall (A and B):** These are important metrics for binary classification, especially when dealing with imbalanced datasets.\n\nLet me know if you'd like to know more about any of the evaluation metrics! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'F-值：2recall*precision/(recall+precision)'], ['B', 'G-mean：sqrt(precision*recall)'], ['C', '準確性：(TP+TN)/all'], ['D', 'AUC：ROC曲線下面積']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "深度學習中遇見過擬合下列邊個處理辦法唔可取",
+    "llm_output": "The answer is **B. 加深層數 (Increase the depth of the layers)**.\n\nHere's why:\n\n* **A. 加dropout層 (Adding dropout layers)**: While increasing the number of layers in a neural network can sometimes lead to overfitting, dropout is a specific technique designed to combat this. It randomly \"drops out\" (deactivates) a percentage of neurons during training, preventing the network from relying too heavily on any single feature.\n\n* **C. 數據增強 (Data augmentation)**: Data augmentation is a technique used to increase the diversity of the training data, which can help prevent overfitting.\n\n* **D. 加正則項 (Adding a regularization term)**: Regularization techniques, like adding a penalty for large weights, are specifically used to prevent overfitting.\n\n**Therefore, increasing the number of layers is not a suitable solution to prevent overfitting in a deep learning model.**\n\nHere's a breakdown of why the other options are incorrect:\n\n* **C. 數據增強 (Adding data augmentation)**: This is a correct and common approach to address overfitting.\n\n* **D. 加深層數 (Adding more layers)**: This can actually worsen overfitting.\n\n**Here's why adding dropout layers can be a bad solution for overfitting:**\n\n* **Deepening the network**: While adding more layers can sometimes help a model learn more complex representations, it can also increase the model's capacity to learn. This means the model might become too complex and memorize the training data, leading to overfitting.\n\n* **C. and D. are both correct**: These techniques are designed to help models generalize and avoid memorizing the training data.\n\nLet me know if you'd like to know more about the reasons behind overfitting and how to avoid it.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '加dropout層'], ['B', '加深層數'], ['C', '數據增強'], ['D', '加正則項']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假設我哋有一個數據集，喺一個深度為 6 嘅決策樹嘅幫助下，佢可以使用 100% 嘅精確度被訓練。依家考慮一下兩點，並基於呢兩點揀正確嘅選項。1.深度為 4 時將有高偏差同低方差；2.深度為 4 時將有低偏差同低方差。注意：所有其他超參數係相同嘅，所有其他因子唔受影響。",
+    "llm_output": "The correct answer is **C. 沒有**.\n\nHere's why:\n\n* **Bias and Variance:** These are two key sources of error in machine learning models.\n\n* **High Bias:** A model with high bias is too simple to capture the underlying complexity of the data. It makes strong assumptions about the data, leading to oversimplification and potentially poor performance on the training data itself.\n\n* **Variance:** A model with high variance is too complex and may overfit the training data. This means the model learns the training data too well and doesn't generalize well to new data.\n\n* **Overfitting:**  Overfitting occurs when a model learns the training data too well, including its noise and outliers. This can lead to a model that performs very well on the training data but poorly on unseen data.\n\n* **Deep Trees:** A decision tree with a depth of 6 is likely to be a complex model.\n\n* **Conclusion:**\n\nA decision tree that achieves 100% accuracy on the training data is likely to have high variance. This is because it's highly unlikely that a tree of depth 6 perfectly captures all the nuances of a complex dataset.\n\n**Overfitting and Deep Trees:**\n\nWhile a deep tree can achieve high accuracy on the training data, it's generally not a good idea to train a decision tree to 100% accuracy. This is because a tree that is too deep can become overly complex and start to overfit the data.\n\n**Why Deep Trees are Problematic:**\n\nThe goal of a machine learning model is to learn patterns from the training data that will allow it to generalize to new, unseen data. A decision tree that is too deep will likely have learned the training data too well, including its noise and outliers. This means that it may not perform well on new data because it has memorized the training data instead of learning generalizable patterns.\n\n**Overfitting and Variance:**\n\nOverfitting is a phenomenon where a model performs very well on the training data but fails to generalize to new data. It's a sign of high variance.\n\n**Therefore, a deep decision tree (depth 6) is likely to have low variance and high bias.**\n\n**Important Note:**\n\nIt's important to remember that achieving 100% accuracy on a training set is often a sign of overfitting. A good model should be able to generalize and make accurate predictions on new data, not just the data it was trained on.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1 同 2'], ['B', '淨係 2'], ['C', '冇一個'], ['D', '淨係 1']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊啲方法唔可以用嚟對高維數據進行降維",
+    "llm_output": "The answer is **B. Bagging**. Here's why:\n\n* **LASSO (Least Absolute Shrinkage and Selection Operator)** is a feature selection method that can be used for dimensionality reduction.\n\n* **Principal Component Analysis (PCA)** is a dimensionality reduction technique.\n\n* **Bagging (Bootstrap Aggregating)** is a technique for reducing variance in a model by creating multiple subsets of the data and training separate models on each. While it can help in identifying important features, it doesn't directly perform dimensionality reduction.\n\nTherefore, the correct answer is **B. Bagging**, as it's a model averaging technique, not a dimensionality reduction method. \n\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'LASSO'], ['B', 'Bagging'], ['C', '主成分分析法'], ['D', '聚類分析']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "機器學習中L1正則化同L2正則化嘅區別係",
+    "llm_output": "The correct answer is **C. 使用L1可以得到稀疏嘅**\n\nHere's why:\n\n* **L1正則化** encourages sparsity in the model by pushing some weights to become exactly zero. This results in a model with fewer parameters, which can be beneficial for avoiding overfitting and improving model interpretability.\n\n* **L2正則化** shrinks the weights towards zero, but doesn't force them to be exactly zero. This leads to a model with smaller, non-zero weights.\n\nLet me know if you'd like more explanation on this or other machine learning concepts!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '使用L1可以得到稀疏、平滑嘅權值'], ['B', '使用L2可以得到稀疏、平滑嘅權值'], ['C', '使用L1可以得到稀疏嘅權值、使用L2可以得到平滑嘅權值'], ['D', '使用L2可以得到稀疏嘅權值、使用L1可以得到平滑嘅權值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於隱馬模型同條件隨機場模型嘅講法中錯誤嘅係?",
+    "llm_output": "The incorrect statement is **C. 隱馬模型和隱馬模型都是生成模型**\n\nHere's why:\n\n* **隱馬模型 (Hidden Markov Model)** 是一個 **概率有向圖模型 (Probabilistic Directed Graphical Model)**，它用於模擬一組狀態之間的概率转移，并预测状态序列的概率。\n* **C. 隱馬模型 (Hidden Markov Model)** 是一种 **概率模型 (Probabilistic Model)**，但 **隱馬模型** 并不一定指代 **HMM (Hidden Markov Model)**，它可能指代其他模型。\n\n其他選項都正確：\n\n* **A. 隱馬模型** 和 **B. 隱馬模型** 都可以指代用於自然語言處理任務的隱含狀態模型，例如基因序列分析。\n* **B. \n\n**隱馬模型** 可以用於模擬狀態序列，例如語音識別、文本分析和手写识别等任务。\n\n**A. 隱馬模型** 和 **A. 隱馬模型** 都可以指代 **HMM (Hidden Markov Model)** 的應用，例如 **HMM** 可以用於建模隱含狀態的序列，例如在自然語言中 **隐含狀態** 可以用於表示一个句子中词性的可能性，而 **B. 隱馬模型** 则可以用来计算 **最有可能的词性序列**。\n\n**D. 隱馬模型** 中，**狀態的選擇** 以及 **狀態之間的概率** 是影響模型準確性的重要因素。\n\n**D. 隱馬模型** 的 **參數** 是指 **模型中狀態的初始概率、转移概率和发射概率**。\n\n**D. 狀態 (狀態序列) 的選擇** 和 **狀態** 概率的調整會影響 **A. 隱馬模型** 的结果 的准确性。\n\n**A. 隐馬模型** 和 **隱馬模型** 的 **隱含狀態** 都是 **概率性模型 (Hidden Markov Models)** 的应用，而 **隱馬模型** 则可以指代 **状态序列的概率 (State Sequence Probability)**。\n\n**隱馬模型** 的 **状态转移概率** 是指模型从一个状态转移到另一个状态的概率。\n\n**HMM (Hidden Markov Model) 的发射概率** 指的是在給定狀態下，觀察到特定符號的概率。\n\n**D. 隐馬模型** 的结果 并非 **状态序列的概率 (Hidden State Probability)**，而是 **受 HMM (狀態序列) 影響的概率 (Probability of a State Sequence)**。\n\n**状态序列** 的概念是 **隱馬模型** 的核心，它描述了模型在不同时间步上的状态转移。\n\n**D. 狀態 (State) 的 **状态转移概率** (Transition Probabilities) **是** \n\n**A. 隱馬模型** 中狀態之間的轉移概率，它描述了在给定时间步上，模型从一个状态转移到另一个状态的概率。\n\n**D. 狀態 (状态) 概率** \n\n**B. 隱馬模型** 的 \n\n**C. 隐含状态** (Hidden State) \n\n**D. 狀態** (State) 的 \n\n**D. 狀態** 的概念，它可以用来计算 **HMM** 在给定时间步下，在不同时刻处于不同状态的概率。\n\n**总结：**\n\n* **A. 隱馬模型** 的參數 (Parameters) \n\n**狀態** 的選擇和 **狀態** 的初始概率 \n\n**D. 隱含狀態** 的概率\n\n**D. 狀態 (狀態序列) 的參數** 是指模型的狀態數量 (Number of states) 和狀態轉移的概率，以及每个状态的初始概率和状态转移概率。\n\n**D. 隱馬模型** 的狀態可以用来描述 \n\n**D. 隱馬模型** 的 **隱藏狀態 (Hidden States)** 的可能性，例如在 **D. 隱藏狀態** (Hidden State) \n\n**D. 隱藏狀態** (Hidden State) \n\n**D. 狀態 (狀態序列) \n\n**D. 狀態的可能性 (Probabilistic State Sequence)\n\n**D. \n\n**D. 狀態** 的可能性 (可能性) 可以用来表示模型的狀態轉移的概率，例如，一个句子中每个词的词性在句子中出现的概率。\n\n**D. 隱馬模型** 的状态转移概率可以用来描述 \n\n**D. 狀態** (State) 的概率 \n\n**D. 隱藏状态** (狀態的可能性)\n\n**D. 狀態** (狀態) 的 **D. 概率性 (Probabilistic) 狀態** (Hidden State) \n\n**D",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '隱馬模型同隱馬模型隱可用於命名實體識別、分詞同詞性標注嘅任務'], ['B', '隱馬模型同隱馬模型都係生成模型'], ['C', '隱馬模型唔係概率無向圖模型'], ['D', '特徵嘅揀同優化會嚴重影響隱馬模型嘅結果']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個/啲超參數嘅增加可能會造成隨機森林數據過擬合",
+    "llm_output": "The answer is **D. 以上都唔係** (D. None of the above).\n\nHere's why:\n\n* **Random Forests are designed to prevent overfitting:** By combining multiple decision trees and using techniques like bootstrapping and random feature selection, random forests are generally robust against overfitting.\n\n* **Overfitting is related to model complexity:** Increasing the number of trees (option **B**) in a random forest can actually improve the model's performance and reduce overfitting.\n\n* **Overfitting can occur in decision trees:**\n\nWhile random forests are less prone to overfitting, increasing the complexity of individual trees within the forest (by increasing their depth) can lead to overfitting.\n\n**Therefore, the correct answer is D. 以上都唔係 (None of the above).**\n\n**Important Note:**\n\n* **Overfitting in individual decision trees:**\n\nWhile **A. 學習速率 (learning rate)** is a key hyperparameter in **Gradient Boosting**, it's not a hyperparameter that is typically adjusted in the context of random forests.\n\n* **Overfitting is not directly controlled by the number of trees in a Random Forest:** The number of trees is a hyperparameter for the entire Random Forest model.\n\nLet me know if you have any other questions!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '學習速率'], ['B', '樹嘅數量'], ['C', '樹嘅深度'], ['D', '以上都唔係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於迭代二叉樹3代算法中講法錯誤嘅係",
+    "llm_output": "The answer is **B. 信息增益可以用於使用信息增益**\n\nHere's why:\n\n* **A. 迭代二叉樹3代算法** is a correct statement. The 3-way decision tree algorithm is indeed a type of decision tree model.\n\n* **C. 揀信息增益最大嘅特徵作為樹嘅根節點** is incorrect.  This statement describes a decision tree algorithm, but not specifically the 3-way decision tree.\n\nThe key difference is that **information gain is specifically used to determine the best feature to split on in a 3-way decision tree**. This type of decision tree uses the GINI impurity or entropy to determine the best split, but it **doesn't** use only the information gain to make decisions.\n\nHere's a breakdown of the other options:\n\n* **A. 迭代二叉樹** is a correct description of a decision tree.\n\n* **C. 3-way decision trees** are a type of decision tree that splits nodes into three categories: **less than**, **equal to**, and **greater than**.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '迭代二叉樹3代算法係一個二叉樹模型'], ['B', '信息增益可以用熵，而唔係GINI系數嚟計算'], ['C', '迭代二叉樹3代算法要求特徵必須離散化'], ['D', '揀信息增益最大嘅特徵，作為樹嘅根節點']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個/啲選項對 K 摺交叉驗證嘅描述係正確嘅",
+    "llm_output": "The correct answer is **B. 更大嘅 K 值相比於細 K 值將會提高對模型準確度評估的信心**\n\nHere's why:\n\n* **B. 更大嘅 K 值** (Larger K values) is the correct answer.  \n\nLet's break down the options and why the answer is not **C**.\n\n* **更** (More) in this context refers to the fact that increasing the number of folds in K-fold cross-validation improves the reliability of the model's performance evaluation.\n\n* **C. 以上** (All of the above) is incorrect because it implies that all options are correct. While option **B** is true, option **A** is incorrect.\n\nHere's a more detailed explanation of why **B** is the correct answer:\n\n* **K-fold cross-validation** involves splitting the data into *k* folds and using *k-1* folds for training and the remaining fold for validation. This process is repeated *k* times, using a different fold for validation each time.\n\n* **Higher *k* values** (like 10 for 10-fold cross-validation) are generally preferred in machine learning because they provide a more robust estimate of the model's performance on unseen data. This is due to the fact that a larger number of folds reduces the variance of the performance estimate.\n\n* **Training time** is a factor to consider. However, the statement that increasing *K* will always lead to a more accurate performance evaluation is not necessarily true.\n\nLet me know if you'd like to know more about the other options!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '如果 K=N，噉其稱為留一交叉驗證，其中 N 為驗證集入面嘅樣本數量'], ['B', '更大嘅 K 值相比於細 K 值將對交叉驗證結構有更高嘅信心'], ['C', '以上都係'], ['D', '增加 K 將導致交叉驗證結果時需要更多嘅時間']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "已知有m個樣本，進行n（n<=m）次抽樣。bootstrap數據係咩意思？",
+    "llm_output": "The correct answer is **C. 有放返地下總共M個樣本中抽樣n個特徵**\n\nHere's why:\n\n* **Bootstrap** is a statistical technique that involves resampling the original dataset with replacement. This means that after a data point is selected, it's put back into the pool of potential samples, allowing it to be chosen again.\n\nLet me know if you'd like more explanation on bootstrapping! \n\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無放返地下總共N個樣本中抽樣n個樣本'], ['B', '無放返地下總共M個特徵中抽樣m個特徵'], ['C', '有放返地下總共N個樣本中抽樣n個樣本'], ['D', '有放返地下總共M個特徵中抽樣m個特徵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "如果以特徵向量嘅相關系數作為模式相似性測度，則影響聚類算法結果嘅主要因素有",
+    "llm_output": "The answer is **D. 分類準度**\n\nHere's why:\n\n* **C. 已知類別準確度** is the closest translation to \"known data points\" in the options provided.\n\nLet's break down why the other options are incorrect and how \"clustering accuracy\" relates to the question:\n\n* **A. 特徵向量** (feature vectors) are indeed used in clustering algorithms to represent the data points. However, the question asks for the factor that influences the clustering results, not the accuracy of a specific clustering algorithm.\n* **B.  B. 特徵向量距離** (accuracy of clustering) is not the primary factor. While a good clustering algorithm aims for accurate clustering, the question is about the factors that influence its results, not the results themselves.\n\n**Clustering algorithms** aim to group data points into clusters based on their similarity.  The accuracy of these groupings depends heavily on the **similarity measure** used.\n\n**Therefore, the most accurate answer to the question is (D) \n\n**已知類別準度** (Accuracy of clustering) is the most accurate translation of \"clustering accuracy\" as it directly relates to the quality of the clusters formed by the algorithm.\n\nLet me know if you'd like to explore more about clustering algorithms and their performance evaluation!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '量綱'], ['B', '已知類別樣本質量'], ['C', '以上都唔係'], ['D', '分類準則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "模型訓練過程中，我哋一般將數據分成",
+    "llm_output": "A. 驗證集\nB. 測試集\nC. 訓練集",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '驗證集'], ['B', '測試集'], ['C', '訓練集'], ['D', '其他選項均可']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "你正在使用帶有 L1 正則化嘅 logistic 回歸做二分類，其中 C 係正則化參數，w1 同 w2 係 x1 同 x2 嘅系數。當你把 C 值由 0 增加至非常大嘅值時，下面邊個選項係正確嘅",
+    "llm_output": "The correct answer is **D. 即使喺 C 值變為大值之後，w1 和 w2 仍然不為 0**\n\nThis translates to:\n\n**\"D. Even when the value of C becomes very large, w1 and w2 will not become 0.\"**\n\nHere's why:\n\n* **Logistic Regression with L1 Regularization:**\n\n   The statement refers to a specific type of logistic regression called **logistic regression with L1 regularization**.  \n\n   * **L1 Regularization:** This technique adds a penalty to the sum of the absolute values of the coefficients (w1 and w2 in this case). This penalty encourages the model to set some coefficients to exactly zero during the training process.\n\n* **The Role of C:**\n\n   The regularization parameter 'C' controls the strength of the penalty. A higher 'C' value means a stronger penalty.\n\n* **Understanding the Answer:**\n\n   In the context of this question, the statement means that **L1 regularization** is being used.\n\n   * **L1 regularization** is a technique that can lead to **feature selection**, where the model learns to ignore less important features by setting their corresponding weights to zero.\n\n   The phrasing \"w1 and w2 become 0\" implies that the question is asking about the effect of L1 regularization on the model's weights.\n\n   **Therefore, the correct answer is D because L1 regularization doesn't necessarily make all weights zero, only the least important ones.**\n\n   The statement implies that as the model learns, it will learn to set the weights of the features to zero. This is a key characteristic of L1 regularization.\n\nLet me know if you'd like to know more about logistic regression or machine learning in general!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '第一個 w1 成咗 0，接住 w2 都成咗 0'], ['B', 'w1 同 w2 同時成咗 0'], ['C', '第一個 w2 成咗 0，接住 w1 都成咗 0'], ['D', '即使喺 C 成為大值之後，w1 同 w2 都唔能成 0']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列方法中，唔可以用於特徵降維嘅方法包括",
+    "llm_output": "The answer is **A. 深度學習SparseAutoEncoder**.\n\nHere's why:\n\n* **深度學習 (Deep Learning) 的深度學習 (Deep Learning) SparseAutoencoder** is a technique for *feature learning*, not feature selection. While it can be used as a component in a feature selection pipeline, on its own, it's a dimensionality reduction technique.\n\n深度學習 (Deep Learning) 的 SparseAutoencoder 是一種用於降維的深度學習方法，它可以透過學習數據的低維表示來進行特徵降維。\n\n* **B. 矩陣奇異值分解 (SVD)** is a technique for dimensionality reduction, but it's not a specific machine learning algorithm.\n\n* **C. 線性判別分析 (LDA)** is a dimensionality reduction technique.\n\n* **D. 主成分分析 (PCA)** is a dimensionality reduction technique.\n\n**B. 矩陣分解**\n\n* **B. 矩陣分解 (SVD)** is a dimensionality reduction technique.\n\n**深度學習 (Deep Learning) 的 SparseAutoencoder**\n\n* **主成分分析 (PCA)**\n\n* **主成分分析 (PCA)**\n\nis a type of machine learning algorithm that learns a lower-dimensional representation of the input data.\n\n**Let me explain why the answer is A:**\n\n* **主成分分析 (PCA)** is a powerful technique for dimensionality reduction, but it's not a specific machine learning algorithm. It's a statistical method that can be used as a preprocessing step in many machine learning tasks.\n\n**Here's why the other options are incorrect:**\n\n* **B. 矩陣分解 (PCA)** is a common technique used in machine learning for tasks like:\n    * **降維 (Dimensionality Reduction):**\n\nThis is a core application of **PCA**\n\n* **C. 矩陣分解 (PCA)** is a type of dimensionality reduction, but it's not the only one.\n\n**SVD** can be used for dimensionality reduction, but it's not a specific machine learning algorithm.\n\n* **D. 矩陣分解 (PCA)** is a type of machine learning technique used for dimensionality reduction.\n\nLet me know if you'd like to know more about how **深度學習 (Deep Learning)** or **主成分分析 (PCA)** works!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '深度學習SparseAutoEncoder'], ['B', '矩陣奇異值分解SVD'], ['C', '線性判別分析'], ['D', '主成分分析']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "貝葉斯定理求得係咩概率?",
+    "llm_output": "The correct answer is **C. 條件概率**\n\n貝葉斯定理用於計算 **後驗概率**，即在已知某個事件發生後，另一個事件發生的概率。 \n\n**後驗概率** (Posterior Probability) 係指基於已知某個事件發生後，更新後其他事件發生的概率。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '先驗概率'], ['B', '其他選項都唔係'], ['C', '條件概率'], ['D', '聯合概率']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺機器學習中，解釋學習器泛化性能中經常用到偏差-方差分解，下列講法唔正確嘅係",
+    "llm_output": "The incorrect statement is **D. 偏差**\n\nHere's why:\n\n* **偏差** (bias) in machine learning represents the difference between the average prediction of your model and the actual value. It's about the model's *simplifications* and how well it captures the underlying trend of the data.\n\nLet me know if you'd like me to explain the meaning of bias-variance decomposition in more detail!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '方差體現嘅係學習器預測嘅穩定性'], ['B', '偏差體現嘅係學習器預測嘅準確度'], ['C', '泛化性能係由學習算法嘅能力、數據嘅充分性以及學習任務本身嘅難度所共同決定嘅'], ['D', '方差指嘅係預測嘅期望值同真實值嘅偏差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假如你用logistic Regression 算法去預測電腦銷量，當你喺新嘅測試集上驗證你嘅假設時，發現預測值有好大嘅偏差，並且你嘅假設喺訓練集上表現都好差，下面啲步驟你應該避免採納",
+    "llm_output": "The answer is **A. 嘗試住減細正則化參數 λ (try reducing the regularization parameter λ)**.\n\nHere's why:\n\n* **λ (lambda) controls the strength of regularization in logistic regression.** Regularization is a technique used to prevent overfitting, which occurs when a model learns the training data too well and performs poorly on new, unseen data.\n\n* **If your model is performing poorly on both the training and testing data, it suggests a problem with the model itself, not the regularization.**  \n\n* **Increasing the regularization parameter λ** would make the model more complex, potentially worsening the performance on a new dataset.\n\nLet me know if you'd like to explore the other options in more detail! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '嘗試住減細正則項 λ'], ['B', '嘗試增加交叉特徵'], ['C', '增加樣本量'], ['D', '嘗試更細嘅測試集或者特徵']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以P(w)表示詞條w嘅概率，假設已知P（南京）=0.8，P（市長）=0.6，P（江大橋）=0.4：P（南京市）=0.3，P（長江大橋）=0.5：如果假設前後兩個詞嘅出現係獨立嘅，噉分詞結果就係",
+    "llm_output": "The correct answer is **B. 南京市_长江大桥**.\n\nHere's why:\n\n* **A. 南京市_长江大桥** is incorrect because it suggests a single, combined term \"市長长江大桥\" which is not the case in the question.\n* **B. 南京市_长江大桥** represents the correct assumption of independent words, as the question asks for the probability of the combined term \"南京市 长江大桥\" (Yangtze River Bridge) given the probabilities of \"南京\" (Nanjing) and \"长江大桥\" (Yangtze River Bridge) separately.\n\nLet me know if you'd like to work through more examples!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '南京_市長_江大橋'], ['B', '南京市_長江_大橋'], ['C', '南京市長_江大橋'], ['D', '南京市_長江大橋']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "對數幾率回歸（logistics regression）同一般回歸分析有咩區別",
+    "llm_output": "The correct answer is **A. 對數幾率回歸（Logistics regression）是用嚟預測事件可能性**\n\nHere's why:\n\n* **Logistics Regression** predicts the probability of a binary outcome (e.g., yes/no, true/false).\n\n* **一般線性回歸分析** (Linear Regression) is used to predict a continuous outcome.\n\nThe key difference is that **A focuses on probability**, while **general linear regression** focuses on predicting a continuous value.\n\nLet me know if you'd like to know more about the differences between logistic and linear regression! \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '對數幾率回歸係設計用嚟預測事件可能性嘅'], ['B', '對數幾率回歸可以用嚟估計回歸系數'], ['C', '以上都係'], ['D', '對數幾率回歸可以用嚟度量模型擬合程度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面啲對「類型 1（Type-1）」同「類型 2（Type-2）」錯誤嘅描述係錯誤嘅",
+    "llm_output": "The correct answer is **B. 類型 1 通常稱之為「假正類」，類型 2 通常稱之為「假負類」**\n\nHere's why:\n\n* **Type-1 error** is when you reject the null hypothesis when it is actually true. This is also known as a **false positive**.\n* **Type-2 error** is when you fail to reject the null hypothesis when it is actually false. This is also known as a **false negative**.\n\nSo, the correct descriptions for Type-1 and Type-2 errors are:\n\n* **Type 1 error:** Falsely concluding that there is a difference when there isn't one (false positive).\n* **Type 2 error:** Failing to detect a real difference (false negative).\n\n**A. 類型 1（Type-1）錯誤** is a Type 1 error.\n\n**B. Type 2 錯誤** is a Type 2 error.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '類型 1 錯誤通常喺其係正確嘅情況下拒絕假設而出現'], ['B', '類型 1 通常稱之為假正類，類型 2 通常稱之為假負類'], ['C', '以上都係'], ['D', '類型 2 通常稱之為假正類，類型 1 通常稱之為假負類']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "影響基本K-均值算法嘅主要因素有",
+    "llm_output": "The answer is **C. 樣本輸入順序**.\n\nHere's why:\n\n* **C. 樣本輸入順สอบ**\n\nThe K-means algorithm is sensitive to the initial placement of cluster centroids. This means that the order in which you feed the data to the algorithm can significantly influence the final clusters formed. \n\nLet me know if you'd like to know more about K-means and how the order of data input can affect its results.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '初始類中心嘅揀'], ['B', '聚類準則'], ['C', '樣本輸入順序'], ['D', '模式相似性測度']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "高斯混合模型(GMM)係一種咩模型",
+    "llm_output": "The correct answer is **A. 無監督學習模型 (Unsupervised Learning Model)**\n\nHere's why:\n\n* **Gaussian Mixture Models (GMMs)** are **unsupervised learning models**. This means they learn from unlabeled data, attempting to find patterns and structure within the data without any guidance from pre-defined labels. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '無監督學習模型'], ['B', '其他選項都唔係'], ['C', '半監督學習模型'], ['D', '有監督學習模型']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "基於語法規則嘅方法為",
+    "llm_output": "The answer is **B. 最大熵模型** (Maximum Entropy Model). \n\nHere's why:\n\n* **最大熵模型** (Maximum Entropy Models) are specifically designed to be built on probabilistic models based on **maximum entropy principles**. These principles use **statistical mechanics** concepts to find the probability distribution that maximizes entropy while still satisfying given constraints.\n\nLet's look at the other options:\n\n* **A. 條件隨機場** (Conditional Random Fields) are a type of discriminative **probabilistic** graphical model, but they are based on **conditional probability** models, not the maximum entropy principle.\n* **C. 句法、語義分析** (Syntactic and Semantic Analysis) are techniques used in **Natural Language Processing** (NLP) but are not directly related to the **method** of building a model, rather they are **applications** of machine learning.\n\nTherefore, the most accurate answer to your question is **B. 最大熵模型** (Maximum Entropy Model). \n\n**D. 最大熵模型** (Maximum Entropy Models) is a broader category of models, and while the question doesn't specify a **type** of model, it's likely referring to the general concept of maximizing entropy within a model, which is the core idea behind **最大熵模型** (Maximum Entropy Models).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '條件隨機場'], ['B', '最大熵模型'], ['C', '句法、語義分析'], ['D', '最大熵隱馬爾科夫模型']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "有兩個樣本點，第一個點為正樣本,佢嘅特徵向量係(0,-1);第二個點為負樣本,佢嘅特徵向量係(2,3),從呢兩個樣本點組成嘅訓練集構建一個線性SVM分類器嘅分類面方程係",
+    "llm_output": "Here's how to determine the equation of the separating hyperplane for a linear SVM classifier:\n\n**The correct answer is none of the above.**\n\n**Here's why:**\n\n* **SVM Fundamentals:** A Support Vector Machine (SVM) aims to find the optimal hyperplane that separates data points of different classes with the maximum possible margin. The margin is the distance between the hyperplane and the closest data points from each class (known as support vectors).\n\n* **Finding the Hyperplane:**\n\n   The equation of a separating hyperplane for a linear SVM is typically written as:\n\n   **w<sup>T</sup>x + b = 0**\n\n   Where:\n\n   * **w** is the weight vector, perpendicular to the hyperplane.\n   * **x** represents the input data points.\n   * **b** is the bias term.\n\n* **Need for Data Points:**\n\n   The equation of the hyperplane is determined by the **training data**.  The values of **w** and **b** are not fixed and are learned during the training process.\n\n* **Your Options:**\n\n   You're given two data points, but to find the equation of the hyperplane, an SVM needs the entire dataset to learn the optimal separation.\n\n**To build the SVM classifier equation, you need to know:**\n\n1. **The training data:** This includes the coordinates of all the data points in your dataset, both positive and negative examples.\n2. **The SVM algorithm:** This will determine how the hyperplane is calculated.\n3. **The SVM parameters:** The SVM algorithm learns the best values for **w** and **b** based on the data and the chosen parameters.\n\n**Let me know if you'd like to learn more about how SVM's work and the process of finding the hyperplane. I can provide more details on the process!** \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '2x-y=0'], ['B', 'x+2y=5'], ['C', 'x+2y=3'], ['D', '2x+y=4']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "隱馬爾科夫模型，設其觀察值空間為 狀態空間為 如果用維特比算法(Viterbi algorithm)進行解碼，時間複雜度為",
+    "llm_output": "The correct answer is **C. O(N * K^2)**\n\nHere's why:\n\n* **Viterbi Algorithm:** This algorithm is used for finding the most likely sequence of hidden states in a Hidden Markov Model (HMM).\n\n* **Time Complexity:** The Viterbi algorithm's time complexity is **O(N * K^2)**.\n\n    * **N** represents the number of observations in the sequence.\n    * **K** represents the number of states in the HMM.\n\nLet me know if you'd like to know more about how the time complexity of the Viterbi algorithm is derived!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'O(NK)'], ['B', 'O(N^2K)'], ['C', '以上都唔係'], ['D', 'O(NK^2)']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假定你使用咗一個好大γ值嘅RBF核，呢個意味住：",
+    "llm_output": "The correct answer is **C. 模型僅使用接近超平面嘅點嚟建模**.\n\nHere's why:\n\n* **RBF 核 (Radial Basis Function kernel)** 衡量數據點之間相似度的一種方法，它將每個數據點映射到一个高維空间，並计算它們到一个特定点的距离，这个距离是基于一个高斯函数，所以 **A. 模型唔會被點到超平面嘅距離所影響** is incorrect.\n\n* A large gamma value in an RBF kernel results in a very narrow Gaussian function, meaning the model will be more sensitive to the distance between data points and the decision boundary. This is because a high gamma value emphasizes the similarity between data points only when they are very close together.\n\n* Therefore, a large gamma value in an RBF kernel will **C. 模型僅使用接近超平面嘅點**\n\n**In summary:**\n\nA large gamma value in an RBF kernel makes the model focus on a very small region around each data point, leading to a more complex decision boundary and potentially overfitting the data. \n\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '模型唔會被點到超平面嘅距離所影響'], ['B', '以上都唔係'], ['C', '模型僅使用接近超平面嘅點嚟建模'], ['D', '模型將考慮使用遠離超平面嘅點建模']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "關於 ARMA (auto regressive moving average model)（自回歸滑動平均模型）、 AR (auto regressive model)（自回歸模型）、 MA（滑動平均模型） 模型嘅功率譜，下列講法正確嘅係",
+    "llm_output": "The correct answer is **B. ARMA模型**\n\nHere's why:\n\n* **ARMA (Autoregressive Moving Average) 模型** \n\nThis is a bit of a trick question! Here's the breakdown:\n\n* **ARMA models** are a combination of Autoregressive (AR) and Moving Average (MA) components.\n\nLet me know if you'd like to know more about ARMA models! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'AR模型喺零點接近單位圓時，AR譜係一個尖峯'], ['B', 'MA模型係同一個全通濾波器產生嘅'], ['C', 'MA模型喺極點接近單位圓時，MA譜係一個深谷'], ['D', 'RMA譜既有尖峯又有深谷']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "變量揀係用嚟揀最好嘅判別器子集，如果要考慮模型效率，我哋應該做除咗下列邊項嘅變量揀嘅考慮",
+    "llm_output": "The answer is **D. 多個變量其實有相同嘅用處**\n\nHere's why:\n\n* **A. 交叉驗證 (Cross-validation)** is a technique used to evaluate the performance of a model and is directly related to model evaluation, not feature selection.\n\n* **B. 模型效率 (Model efficiency)** is a factor to consider when evaluating the performance of a selected subset of features, but it's not a variable selection method in itself.\n\n* **C. 特徵攜帶嘅信息 (Information carried by features)** is a crucial aspect of feature selection. The goal is to choose features that are most relevant to the problem at hand, so understanding their predictive power is essential.\n\nTherefore, the efficiency of the chosen features is a key consideration in the process of model selection, which is why **C. 多個變量對於模型有相同嘅用處 (Model selection involves choosing variables that have the same meaning)** is not a factor in feature selection.\n\n**Here's a breakdown of the correct answer:**\n\n* **模型效率 (Model efficiency)** is a key consideration in the process of **variable selection** because it helps us determine which variables are most useful for our model.\n\n**Why the other options are incorrect:**\n\n* **A. 交叉驗證 (Cross-validation)** is a technique used to evaluate the performance of a model, and this performance is a crucial factor in model selection.\n\n* **A. 以及 B. \n\n**are also incorrect as they are not directly related to the efficiency of the variables themselves, but rather to the process of selecting the best set of variables for a specific task.\n\n**Therefore, the correct answer is A.**\n\n**D. 信息對於模型的用處 (Information usefulness)** is a factor in **variable selection** because we want to choose variables that are most relevant to the problem at hand.\n\nLet me know if you'd like to know more about variable selection in machine learning!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '交叉驗證'], ['B', '變量對於模型嘅解釋有幾大作用'], ['C', '特徵攜帶嘅信息'], ['D', '多個變量其實有相同嘅用處']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列時間序列模型中,邊一個模型可以較好地擬合波動性嘅分析同預測",
+    "llm_output": "A. auto regressive model (AR模型) \n\n**Explanation:**\n\n* **A. auto regressive model (AR模型):**  AR models are good for modeling **autocorrelation** in time series data, meaning they predict future values based on past values. This makes them suitable for analyzing and forecasting time series with trends and seasonality.\n\n* **B. AR模型 (auto regressive model):** This is just a repetition of option A.\n\n* **C. 滑動平均模型 (moving average model):** AR models are not directly related to moving averages. While they can be used to model trends, they don't directly use a moving average for forecasting.\n\n* **D.  廣義自回歸滑正率模型 (ARIMA)**: This model is designed for analyzing and forecasting time series with both **autoregressive** and **moving average** components.\n\n**Therefore, the correct answer is A. auto regressive model (AR模型) **\n\n**AR模型** (C) is a more specific type of time series model, while **廣義自回歸模型** (B) is a more general term.\n\n**A. auto regressive model (AR模型)** is the correct answer because it's the most general term for the type of model that can be used for both analyzing and forecasting data with trends and seasonality.\n\n**C. moving average model** (MA) is a more specific type of model that predicts future values based on past errors.\n\nLet me know if you'd like to know more about **AR** models or other time series analysis techniques.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'auto regressive model AR模型'], ['B', '自回歸滑動平均模型'], ['C', '滑動平均模型'], ['D', '廣義自回歸滑動平均模型']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "當我哋構造線性模型時, 我哋注意變量間嘅相關性. 喺相關矩陣中搜索相關系數時, 如果我哋發現3對變量嘅相關系數係(Var1 同Var2, Var2同Var3, Var3同Var1)係-0.98, 0.45, 1.23 . 我哋可以得出咩結論",
+    "llm_output": "The correct answer is **B. 因為Var1, Var2, and Var3 的相关性系数是 -0.98, 1.23 的值不合理。**\n\nHere's why:\n\n* **Correlation coefficients measure the strength and direction of a linear relationship between two variables.** They range from -1 to 1, where:\n    * 1 indicates a perfect positive correlation (as one variable increases, the other increases proportionally).\n    * -1 indicates a perfect negative correlation (as one variable increases, the other decreases perfectly).\n    * Values closer to 1 or -1 indicate a stronger linear relationship.\n\n* **A correlation coefficient of 1.23 is impossible.**  Correlation coefficients are always bounded between -1 and +1.\n\n**Therefore, the correct conclusion is that the variables are not strongly correlated.**\n\n**Here's why option B is the best answer:**\n\n* **Option A** is incorrect because a correlation coefficient of -0.98 indicates a very strong negative correlation, not a lack of correlation.\n* **Option C** is incorrect as the provided correlation coefficients suggest a strong negative correlation between the variables, which is not the case with a correlation coefficient of 1.23.\n\n**Let's break down why option B is correct:**\n\n* **The correlation coefficient between variables can be positive, negative, or zero.** A positive correlation means they tend to increase together. A negative correlation means they tend to decrease together. A coefficient of 1.23 suggests a positive correlation, but it's impossible for the absolute value to be greater than 1.\n\n* **Strong correlation** means the variables move together in a very predictable way.  \n\n**In summary:**\n\n* **D. Var1 \n\nThe provided information suggests that the variables are not strongly correlated. \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上都係'], ['B', '因為Var1同Var2係非常相關嘅, 我哋可以去除其中一個'], ['C', 'Var1同Var2係非常相關嘅'], ['D', 'Var3同Var1嘅1.23相關系數係唔可能嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "機器學習中做特徵選擇時，可能用到嘅方法有",
+    "llm_output": "答案：**A. 以上都有**\n\n**解釋:**\n\n機器學習中，特徵選擇係一個重要步驟，可以透過多種方法進行，例如：\n\n* **卡方測試 (Chi-Square)** 可以用來評估類別特徵與目標變數之間的統計獨立性。\n* **信息增益 (Information Gain)** 係一個用於選擇特徵的指標，通常用於決策樹算法中。\n* **期望交叉熵 (Expected Cross-Entropy)** 可以用於評估模型的預測能力，並用於多種模型的訓練，例如邏輯迴歸。\n\n所以，A 是最準確的答案，因為它包含了所有上述選項。 \n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上都有'], ['B', '卡方'], ['C', '信息增益'], ['D', '期望交叉熵']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "LSTM同GRU嘅一個主要區別喺於GRU將LSTM嘅邊幾個gate融合咗",
+    "llm_output": "The correct answer is **B. input gate同forget gate**\n\n**LSTM (Long Short-Term Memory)** networks have three gates:\n\n* **Input gate:** Controls the flow of new information into the cell state.\n* **Output gate:** Controls the output of the LSTM cell.\n* **Forget gate:** Controls the forgetting of information from the cell state.\n\n**GRU (Gated Recurrent Unit)** networks are a simplified version of LSTM and combine the forget and input gates into a single **reset gate**.\n\nTherefore, the main difference between LSTM and GRU is that **GRU fuses the forget and input gates of LSTM into a single gate**, leading to a simpler architecture with fewer parameters. This makes GRUs computationally less expensive than LSTMs.\n\nHere's a breakdown of the difference:\n\n* **LSTM (Long Short-Term Memory)**:\n\n    * **Input gate:** Controls what new information is added to the cell state.\n    * **Forget gate:**  Controls what information is discarded from the cell state.\n    * **Output gate:** Controls what information is output from the LSTM cell.\n\n* **GRU (Gated Recurrent Unit)**:\n\n    * **Combined \"forget\" and \"input\" gate:**  GRU combines the input and forget gates of LSTM into a single gate called the \"reset gate\". This single gate performs the function of both the original \"forget\" and \"input\" gates, making it more efficient.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'forget gate同input gate'], ['B', 'input gate同output gate'], ['C', 'forget gate同output gate'], ['D', 'output gate同reset gate']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "符號集 a 、 b 、 c 、 d ，佢哋相互獨立，相應概率為 1/2 、 1/4 、 1/8 、 1/16 ，其中包含信息量最少嘅符號係",
+    "llm_output": "The answer is **C. a**\n\nHere's why:\n\n* **Information Theory:** In information theory,  information content is inversely proportional to probability. This means the less likely something is to happen, the more information it carries.\n\n* **Lowest Probability:** The symbol 'a' represents the event with the highest probability of occurrence (1/2).  The higher the probability, the less surprising the event is.\n\n* **Entropy:** Entropy is a measure of information content in a system. A higher probability means lower entropy.  The symbol with the highest probability ('a' with a probability of 1/2) is the one with the least \"surprise\" associated with it.\n\nLet me know if you'd like to explore more about information theory!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'd'], ['B', 'b'], ['C', 'a'], ['D', 'c']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假設你使用 log-loss 函數作為評估標準。下面啲選項，邊啲係對作為評估標準嘅 log-loss 嘅正確解釋",
+    "llm_output": "The correct answers are:\n\n**B. log-loss 嘅值會隨著預測概率的變化而變化**\n\n**D. 如果一個分類器對不正確的分類很自信，分類器對應的 log-loss 嘅值就會很大**\n\nHere's why:\n\n* **Log-loss 函數** measures the performance of a classification model by penalizing the model more heavily for being confident in incorrect predictions.\n\nLet's break down why the other options are incorrect:\n\n* **A. 以上都係** - This translates to \"All of the above\" in Cantonese. While log-loss does reflect the performance of a model in terms of probabilities, making option A incorrect.\n\n* **C.  如果一個分類器對一個特別的觀察給予不正確的概率** - This translates to \"If a classifier gives a very confident prediction for an incorrect classification, the log-loss value will be high\" which is incorrect.\n\nLet me explain why **B and D are correct**:\n\n* **B. 錯誤的分類** - This translates to \"incorrect classification\" in Cantonese.\n\n* **D.  If a classifier is very confident in an incorrect classification, the log-loss value will be high** - This is incorrect. Log-loss measures the difference between the predicted probabilities and the actual probabilities. A model that is \"confident\" in an incorrect classification will have a high predicted probability for that observation, which would lead to a **high log-loss value**.\n\nLet me know if you'd like to see more examples!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上都係'], ['B', 'log-loss 越低，模型越好'], ['C', '對一個特別嘅觀察而言，分類器為正確嘅類別分配非常細嘅概率，然後對 log-loss 嘅相應分佈會非常大'], ['D', '如果一個分類器對唔正確嘅分類好自信，log-loss 會嚴重地批評佢']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "已知一組數據嘅協方差矩陣P，下面關於主分量講法錯誤嘅係",
+    "llm_output": "The answer is **A**.\n\nHere's why:\n\n* **A. 主分量分析就係K-L變換**  This is incorrect. While both PCA and K-L transformation are dimensionality reduction techniques, they are not the same thing.\n\n* **B. 喺主成分分析後，協方差矩陣成為對角矩陣** This is a partially correct statement. PCA does aim to transform the data into a new space where the data is represented by a set of uncorrelated variables (principal components). However, the resulting matrix is not just *any* orthogonal matrix, it's specifically the **covariance matrix of the principal components**.\n\n* **C. 喺主成分分析後，主成分分析會將一個數據集轉換成一個對角矩陣** This is a more accurate description of what happens in PCA.\n\n* **D. 喺只考慮主成分分析，數據集的协方差矩阵的特征值会变成对角矩阵** This is also a correct statement.\n\n* **C. 协方差矩阵的特征值是通过将一个数据集中所有特征值进行主成分分析後，得到的主成分分析將數據集進行了降維後，可以得到一個更小的數據，並將其分解成一個新的數據集，其中**主成分分析** \n\n**Correct Answer:**\n\n* **C. 喺** **(This is a correct statement)**\n\n**Explanation:**\n\n* **Principal Component Analysis (PCA)** is a statistical method that uses the **eigenvectors** of the covariance matrix to find the principal components.\n\n* **P** is the covariance matrix itself.\n\n* **Eigenvectors** are the vectors that define the directions of the principal components.\n\n* **主成分分析** (Eigenvectors are used to find the principal components, but the matrix itself doesn't become a simple list of numbers.\n\n* **主成分分析** (This is a more accurate description of what happens in PCA)\n\n* **The goal of PCA is to find a new set of uncorrelated variables (principal components) that capture the most variance in the original dataset.**\n\nLet me know if you'd like to know more about PCA or the difference between PCA and K-L transformation.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主分量分析就係K-L變換'], ['B', '喺經主分量分解後，協方差矩陣成為對角矩陣'], ['C', '主分量分析嘅最佳準則係對一組數據進行按一組正交基分解，喺只取相同數量分量嘅條件下，以均方誤差計算截尾誤差最細'], ['D', '主分量係通過求協方差矩陣嘅特徵值得到']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於attention機制嘅講法錯誤嘅係",
+    "llm_output": "The answer is **D. attention機制嘅**變體，多頭注意力機制可以用於並行計算，因為它可以并行计算每个查询和所有键的注意力得分。\n\nHere's why:\n\n* **A. attention機制會畀一個權重** (A. The attention mechanism uses a weighting system) is a **correct** statement about how attention works.\n\n* **B. attention機制可以用於機器閱讀理解、問答對話等場景** (B. Attention mechanisms can be used in various applications like machine reading comprehension and question answering) is also a **correct** statement.\n\n* **C. 傳統encoder-decoder模型存在長距離依賴問題** (C. Traditional encoder-decoder models suffer from the long-distance dependency problem) is a **correct** statement. This refers to the difficulty these models have in capturing relationships between words that are far apart in a sequence.\n\n* **D. 傳統的** (Traditional) **multi-head attention** mechanism doesn't inherently solve the long-distance dependency problem.\n\n**Therefore, option D is the incorrect statement about the attention mechanism.**\n\nLet me know if you'd like to know more about the correct options!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'attention機制會畀序列中嘅元素分配一個權重系數'], ['B', 'attention機制可以用於機器閱讀理解、問答對話等場景中'], ['C', '傳統encoder-decoder模型存在長距離依賴問題'], ['D', 'attention機制嘅變體，多頭attention機制唔適合並行，其每一步計算依賴於上一步嘅計算結果']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊項唔係降低過擬合嘅方法",
+    "llm_output": "The answer is **C. 增加神經網絡隱藏層節點數 (Increase the number of nodes in the neural network hidden layer)**\n\nHere's why:\n\n* **Increasing the number of nodes in a hidden layer** typically increases the model's complexity, making it more prone to overfitting rather than reducing it. A more complex model with more nodes can learn intricate patterns in the training data, including noise, which may not generalize well to unseen data.\n\nThe other options are all methods used to combat overfitting:\n\n* **A. 收集更多訓練數據 (Collect more training data)**: More data helps the model learn the underlying patterns of the problem better and reduces the impact of outliers.\n* **B. 數據清洗，減少噪音 (Data cleaning, reduce noise)**: This option refers to the process of removing or mitigating noise in the training data, which can help prevent the model from learning spurious patterns.\n* **D. 模型簡化 (Model simplification)**: This is a general strategy to avoid overfitting, which involves reducing the complexity of the model by using fewer features, simpler algorithms, or techniques like regularization.\n\n\nLet me know if you'd like to know more about overfitting and how to prevent it!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '收集更多訓練數據'], ['B', '進行數據清洗，減少噪音'], ['C', '增加神經網絡隱藏層節點數'], ['D', '簡化模型假設']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "畀定三個變量 X，Y，Z。(X, Y)、(Y, Z) 同 (X, Z) 嘅 Pearson 相關性系數分別為 C1、C2 同 C3。依家 X 嘅所有值加 2（即 X+2），Y 嘅全部值減 2（即 Y-2），Z 保持唔變。噉運算之後嘅 (X, Y)、(Y, Z) 同 (X, Z) 相關性系數分別為 D1、D2 同 D3。依家試問 D1、D2、D3 同 C1、C2、C3 之間嘅關係係咩",
+    "llm_output": "The correct answer is **B. D1=C1, D2=C2, D3 = C3**.\n\nHere's why:\n\n* **Pearson Correlation Coefficient:** This coefficient measures the linear relationship between two variables.\n\n* **Adding/Subtracting a Constant:**\n\nWhen you add or subtract a constant from all values of a variable, the correlation coefficient remains the same. This is because adding a constant only shifts the data points, it doesn't change their relative relationships.\n\n* **Explanation of the answer:**\n\nSince we are only shifting the values of X and Y by a constant, the *relationship* between the data points of X and Y will not change. The correlation coefficient (C1) will still be the same as the original correlation between X and Y (assuming it was already calculated).\n\nLet me know if you'd like to explore more about correlation or have any other questions!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'D1 = C1, D2 < C2, D3 < C3'], ['B', 'D1= C1, D2 < C2, D3 > C3'], ['C', 'D1 = C1, D2 = C2, D3 = C3'], ['D', 'D1 = C1, D2 > C2, D3 > C3']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺決策樹中，用作分裂節點嘅information gain講法唔正確嘅係",
+    "llm_output": "The answer is **A. 信息增益更加傾向於選擇有較多個取值的屬性**\n\nHere's why:\n\n* **Information gain** is a measure of how much a given attribute helps reduce the uncertainty (entropy) in a dataset.\n\n* **A. is incorrect** because a high information gain is desirable. It means the attribute is good at splitting the data into pure subsets, making the tree more accurate.\n\n* **B. is correct** because information gain is calculated using the concept of information gain ratio, which is based on entropy.\n\nLet me know if you'd like to know more about how information gain is calculated and used in decision trees.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '信息增益更加傾向於揀有較多取值嘅屬性'], ['B', '信息增益可以使用熵得到'], ['C', '較細唔純度嘅節點需要更多嘅信息嚟區分總體'], ['D', '以上均唔係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於回歸分析中嘅殘差表述正確嘅係",
+    "llm_output": "The correct answer is **D. 殘差冇此類規律**.\n\nHere's why:\n\n* **Residuals in machine learning** are the differences between the predicted values by a model and the actual observed values.\n\n* **Ideally, residuals are randomly distributed around zero.** This means there's no systematic pattern to how much the model's predictions are off from the real values.\n\n* **A well-trained regression model should have residuals that are evenly spread above and below the regression line, indicating no clear bias in its predictions.**\n\nLet me know if you'd like to know more about regression analysis or residuals!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '殘差嘅平均值總細於零'], ['B', '殘差嘅平均值總大於零'], ['C', '殘差嘅平均值總為零'], ['D', '殘差冇此類規律']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋建立一個5000個特徵, 100萬數據嘅機器學習模型. 我哋點樣有效地應對噉嘅大數據訓練",
+    "llm_output": "The correct answer is **C. 可以使用PCA算法進行降維，減少特徵數**\n\nHere's why:\n\n* **A. 我哋建立一個小型數據集，只用5000個特徵中嘅少量數據進行訓練**\n\nThis is incorrect. While you could potentially use a subset of the features, simply reducing the number of features used for training might not be the most effective way to handle a dataset with 100,000 features.\n\n* **C. 我們可以試用PCA算法進行降維，減少特徵數**\n\nThis is the correct answer. PCA (Principal Component Analysis) is a dimensionality reduction technique that can be used to reduce the number of features in a dataset.\n\n**Here's a breakdown of PCA and why it's relevant to this scenario:**\n\n* **Principal Component Analysis (PCA)** is a technique used to reduce the dimensionality of a dataset while retaining as much variance as possible. In this case, with a dataset containing 100,000 features, PCA would be a valuable tool to reduce the complexity of the model.\n\n**Why this is a good approach:**\n\n* **Reducing Complexity:**\n\n   A dataset with 5000 features is already considered high-dimensional. Reducing the number of features can significantly simplify the model, making it easier to train and less prone to overfitting.\n\n* **Improving Performance:**\n\n   Reducing the number of features can help improve the model's performance by reducing noise and focusing on the most important features.\n\n* **Faster Training:**\n\n   With fewer features, the model will have less data to process during training, leading to faster training times.\n\n* **Reducing Storage Requirements:**\n\n   PCA can help reduce the size of the dataset, which is helpful when dealing with large datasets.\n\n* **Feature Extraction:**\n\n   PCA can be used to identify the principal components, which are new features that capture the most important variations in the original data. This can be particularly useful for identifying hidden patterns and relationships within the data.\n\n**In summary:**\n\nPCA is a technique that can be used to reduce the dimensionality of a dataset, making it easier to build a machine learning model that can effectively learn from the data while avoiding the pitfalls of high-dimensional learning.\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '我哋隨機抽取啲樣本, 喺呢啲少量樣本之上訓練'], ['B', '以上所有'], ['C', '我哋可以試用喺線機器學習算法'], ['D', '我哋應用PCA算法降維, 減少特徵數']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊個唔屬於條件隨機場模型對於隱馬爾科夫模型同最大熵隱馬爾科夫模型模型嘅優勢",
+    "llm_output": "A. 速度快\n\n**Explanation:**\n\nConditional Random Field (CRF) models are known for their accuracy in modeling sequential data, but they are generally not considered fast. They can be computationally expensive to train, especially on large datasets. \n\nCRFs are often slower to train than other models like Hidden Markov Models (HMMs) because they model more complex dependencies between labels.\n\nLet me know if you'd like to see some examples of what kind of tasks CRFs are good at!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '速度快'], ['B', '可容納較多上下文信息'], ['C', '全局最優'], ['D', '特徵靈活']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊項唔係基於詞典嘅方法嘅中文分詞嘅基本方法",
+    "llm_output": "**D. 最短路徑法** \n\nC. 最大匹配法 is the correct answer. \n\nHere's why:\n\n* **最大熵模型 (Maximum Entropy Model)**:  This is a statistical method used in machine learning for classification tasks, including **Chinese word segmentation**.\n\n* **最大匹配法 (Maximum Matching)** is a rule-based method that relies on finding the longest possible words in a dictionary to match against the input text. This is a **basic approach** to Chinese word segmentation and often used as a starting point.\n\n* **最大匹配法 (Maximum Matching)** is not a specific algorithm for **Chinese word segmentation**.\n\nTherefore, the answer is **D. 最大熵模型 (Maximum Entropy Model)**. \n\nLet me know if you have any other questions! \n\n\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '最大熵模型'], ['B', '最大概率法'], ['C', '最大匹配法'], ['D', '最短路徑法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。如果使用較細嘅C（C趨於0），則：",
+    "llm_output": "The answer is **B. 誤分類**.\n\nHere's why:\n\n* **C in SVM**\n\n   In Support Vector Machines (SVM), the parameter C controls the trade-off between achieving a wide margin and correctly classifying all training examples. It's called the \"regularization parameter\" or \"penalty parameter\".\n\n* **Small C and Margin Violation**\n\n   A high value of C penalizes the SVM algorithm more heavily for misclassifying data points. A smaller C value means the SVM is less concerned with perfect classification on the training data and more focused on maximizing the margin.\n\n* **SVM and Outliers**\n\n   A wide margin is desirable for good generalization, but if C is too small, the model will be overly sensitive to outliers and may not perform well on new data.\n\n* **Soft Margin**\n\n   Therefore, a small C value will lead to a smaller margin, making the model more likely to fit the noise in the data. This can result in a model that **overfits** the training data, meaning it performs well on the training data but struggles to accurately classify new data.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔確定'], ['B', '誤分類'], ['C', '正確分類'], ['D', '以上均唔正確']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊種方法屬於生成模型",
+    "llm_output": "C. 樸素貝葉斯",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '條件隨機場'], ['B', '傳統神經網絡'], ['C', '樸素貝葉斯'], ['D', '線性回歸']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺其他條件唔變嘅前提下，以下邊種做法容易引起機器學習中嘅過擬合問題",
+    "llm_output": "The correct answer is **D. 減少神經網絡隱藏層節點數** (Decrease the number of nodes in the hidden layer of a neural network).\n\nHere's why:\n\n* **Neural networks with fewer hidden nodes are less likely to overfit.**\n\nLet me explain why the other options are incorrect:\n\n* **A. 增加訓練集數量 (Increase the amount of training data):**  This is actually a common solution to *prevent* overfitting. More data helps the model learn more general patterns and avoid memorizing the training set.\n\n* **B. 刪除稀疏嘅特徵 (Delete sparse features):** This is a technique to *reduce* overfitting, not cause it. Sparse features (those with many missing values) can sometimes be problematic, but they can also be helpful if they are relevant to the problem.\n\n* **C. 刪除訓練集數量 (Increase the number of training data features)**: This is a technique to *reduce* overfitting, but it's not about the *size* of the training set, it's about the *complexity* of the model.\n\n**In summary:**\n\nOverfitting occurs when a model learns the training data too well, capturing noise and outliers as if they were important patterns. This leads to the model performing poorly on unseen data.\n\nWhile options A and B can be used to address overfitting, options **C** and **D** are incorrect because they represent actions that would *increase* the complexity of the model (C) and potentially lead to *overfitting* (incorrectly increasing the number of features can actually *increase* the risk of overfitting).\n\n**Reducing Model Complexity:**\n\n* **Reducing the number of features** in your model can help prevent overfitting.\n\n**Increasing the size of the training dataset (option A) generally helps to *reduce* the risk of overfitting.**\n\n**Removing Irrelevant Features:**\n\n* **Removing irrelevant features (features that don't contribute to the prediction task) can help to improve the performance of the model on unseen data.** This is because fewer features mean fewer parameters for the model to learn, which can lead to a simpler model that is less likely to overfit.\n\nLet me know if you'd like to explore any of these concepts further!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '增加訓練集數量'], ['B', '刪除稀疏嘅特徵'], ['C', 'SVM算法中使用高斯核/RBF核代替'], ['D', '減少神經網絡隱藏層節點數']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "對應GradientBoosting tree算法， 以下講法正確嘅係",
+    "llm_output": "The correct answer is **A. 當增加最少樣本分裂個數，我哋可以抵制過擬合**\n\nHere's why:\n\n* **Gradient Boosting Tree (GBT)** algorithms work by sequentially adding weak learners (typically decision trees) to a model. Each learner is trained to correct the errors made by the previous learners, making it less likely to overfit.\n\nLet's break down why the other options are incorrect:\n\n* **B. 當我們減少最少樣本分裂個數，我們可以降低偏差** - Incorrect. Reducing the number of samples per split can lead to higher variance as individual trees are trained on smaller subsets of data and might learn patterns specific to that subset, leading to less generalization.\n* **C. 當增加最樣本分裂個數，我哋可以降低偏差** - Incorrect. This is the opposite of what happens with GBTs. Increasing the number of trees increases the model's complexity and its ability to fit the training data, but too many trees can lead to overfitting.\n* **D. 錯誤** - This is incorrect because increasing the number of trees in a GBT model is generally a good thing to prevent overfitting. However, increasing the number of trees too much can lead to overfitting.\n\n**Therefore, the correct answer is A.**\n\n**Note:** While increasing the number of trees in a GBT model can help reduce bias, it's important to remember that increasing it indefinitely will not necessarily improve the model and can actually lead to increased variance. This is because each tree is trying to learn something new from the data, and if the trees are too complex or learn very specific patterns, the model might overfit.\n\nThe correct answer should be **D. 減少訓練單個學習器** (Decrease the number of trees used in training).\n\nHere's why:\n\n* **降低偏差:** 决策树的偏差 (bias) 主要由模型的复杂度决定，而增加树的数量会增加模型的复杂度。 \n\n* **决策树的偏差:** 偏差指的是模型预测值与真实值之间的偏差，即模型对训练数据和测试数据都无法很好地学习到真实关系的程度。\n\n* **GBM 的目標:** GBM (Gradient Boosting Machine) 的目標是建立一个复杂的模型，通过组合多个弱学习器来逐步降低偏差，从而提高模型的预测精度。\n\nLet me know if you'd like to explore more about how GBM works.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '當增加最少樣本分裂個數，我哋可以抵制過擬合'], ['B', '當我哋減少訓練單個學習器嘅樣本個數，我哋可以降低偏差'], ['C', '當增加最少樣本分裂個數，會導致過擬合'], ['D', '當我哋增加訓練單個學習器嘅樣本個數，我哋可以降低方差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假設你訓練SVM後，得到一個線性決策邊界，你認為該模型欠擬合。喺下次迭代訓練模型時，應該考慮",
+    "llm_output": "D. 增加訓練數據",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '減少訓練數據'], ['B', '減少特徵'], ['C', '計算更多變量'], ['D', '增加訓練數據']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "語音信號由於具有咩特性，所以我哋可以將語音信號進行分窗處理?",
+    "llm_output": "The correct answer is **C. 短時平穩性 (Short-time stationarity)**\n\nHere's why:\n\n* **短時平穩性 (Short-time stationarity)** is the key concept behind windowing in signal processing. It assumes that the statistical properties of a signal (like its mean and variance) are relatively constant within short periods of time, called \"frames\" or \"windows\". This allows us to analyze the signal in these short, stationary segments.\n\nLet me know if you'd like me to elaborate on any of the concepts related to audio signal processing!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '隨機單調性'], ['B', '其他選項都唔係'], ['C', '短時平穩性'], ['D', '單調唔變性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "對於k摺交叉驗證, 以下對k嘅講法正確嘅係",
+    "llm_output": "The correct answer is **B. 喺揀k時, 唔一定係越大越好, 揀k越大, 評估時間越長**\n\nHere's why:\n\n* **k-fold cross-validation** involves splitting the data into *k* equal-sized folds.\n\n* The model is trained on *k-1* folds and tested on the remaining one.\n\n* This process is repeated *k* times, each time using a different fold for testing.\n\n* **B** is the only option that correctly reflects the trade-off involved in choosing *k*.\n\nHere's a breakdown of why the other options are incorrect:\n\n* **A.**  Larger *k* means more training folds, which is the opposite of what you want for **bias**. Larger *k* can lead to **higher variance** in the evaluation results.\n\n* **C.** This option is partially correct. Larger *k* in k-fold cross-validation generally leads to **lower variance** in the evaluation results because you're averaging the performance over multiple folds.\n\n* **A** and **C** are both incorrect because they suggest that a larger *k* is always better.\n\n* **D.** This is incorrect because it implies that **all folds are equally important**, but the choice of *k* in k-fold cross-validation is about **splitting the data**, not about the importance of each fold.\n\n**Therefore, the correct answer is B.**\n\n**Important Note:**\n\n* **k-fold cross-validation** is a technique used to evaluate the performance of a machine learning model. The choice of *k* (the number of folds) is a parameter that affects the bias-variance trade-off.\n\n* **Larger *k* reduces bias** but increases variance.\n\n* **Larger *k* is not always better**. The optimal value of *k* depends on the specific dataset and model being used.\n\n* Choosing a **larger *k* can increase the variance** of the model's performance estimate, making it more sensitive to fluctuations in the data.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '揀更大嘅k, 就會有更細嘅bias (因為訓練集更加接近總數據集)'], ['B', 'k越大, 唔一定越好, 揀大嘅k會加大評估時間'], ['C', '喺揀k時, 要最細化數據集之間嘅方差'], ['D', '以上所有']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下屬於歐式距離特性嘅有",
+    "llm_output": "C. 考慮咗模式嘅特性 (C. Dimensionality-invariant property)",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '尺度縮放唔變性'], ['B', '旋轉唔變性'], ['C', '唔受量綱影響嘅特性'], ['D', '考慮咗模式嘅分佈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "樸素貝葉斯係一種特殊嘅貝葉斯分類器,特徵變量係X,類別標籤係C,佢嘅一個假定係",
+    "llm_output": "A. 特徵變量X的各個維度是高斯條件獨立的\n\n**解释:**\n\n朴素贝叶斯分类器的核心假设是特征变量之间是 **条件独立** 的，即给定类别标签C，每个特征变量之间都是独立的。 \n\n其他选项不正确，因为：\n\n* **B. P(X|C) 是一种高斯分布的条件概率，而 C 只是表示给定类别，不代表高斯分布本身。**\n* **C. 标准正态分布** 是指特征变量服从正态分布的假设，而不仅仅是是高斯分布的特征变数的概率。\n\n**因此，只有A选项是朴素贝叶斯分类器中关于特征变量的分布的正确描述。**\n\n**补充说明:**\n\n* **朴素贝叶斯分类器** 是一种基于贝叶斯定理的分类器，它假设特征变量之间是条件独立的，这意味着每个特征对其他特征的出现与否都不受影响。\n* **D. 每个类别的先验概率** 是每个类别在训练数据中出现的概率，但这些概率不一定相等。在实际应用中，我们通常会使用数据中的每个类别的频率作为先验概率的估计值。\n\n希望这个解释能够帮助你理解！",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '特徵變量X嘅各個維度係類別條件獨立隨機變量'], ['B', 'P(X|C)係高斯分佈'], ['C', '以0為均值，sqr(2)/2為標準差嘅正態分佈'], ['D', '各類別嘅先驗概率P(C)係相等嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺一個n維嘅空間中， 最好嘅檢測outlier(離羣點)嘅方法係",
+    "llm_output": "D. 馬氏距離 \n\n**Explanation:**\n\nWhile all the options can be helpful in identifying outliers in different ways, **Mahalanobis distance (D)** is specifically designed to detect outliers in multivariate (n-dimensional) data by taking into account the correlation between variables. \n\nHere's why the other options are less suitable for this scenario:\n\n* **Boxplots (A)** are useful for visualizing outliers in univariate data, but they become less effective in higher dimensions.\n\n* **Scatter plots (B)** can be helpful for visualizing outliers in bivariate data, but become difficult to interpret in more than 2 or 3 dimensions.\n\n* **Scatter plots (C)** are generally used for visualizing the distribution of data in 2 or 3 dimensions.\n\nLet me know if you'd like to know more about how Mahalanobis distance works!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '作盒形圖'], ['B', '作散點圖'], ['C', '作正態分佈概率圖'], ['D', '馬氏距離']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "對於線性回歸模型，包括附加變量喺內，以下嘅可能正確嘅係",
+    "llm_output": "The correct answer is **D. 以上都唔係** (None of the above).\n\nHere's why:\n\n* **R-Squared** (Coefficient of Determination) is a statistical measure that represents the proportion of variance in the dependent variable that is predictable from the independent variables. It's a value between 0 and 1, where 1 indicates perfect predictability.  Adding irrelevant variables to a model can actually **decrease** the Adjusted R-squared value.\n\n* **Adjusted R-squared** is a modified version of R-squared that adjusts for the number of independent variables in the model and the complexity of the model. It's always lower than or equal to R-squared.\n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'R-Squared 係遞減嘅， Adjusted R-squared 都係遞減嘅'], ['B', 'R-Squared 係常量嘅，Adjusted R-squared係遞增嘅'], ['C', 'R-Squared 同 Adjusted R-squared都係遞增嘅'], ['D', '以上都唔係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "數據科學家可能會同時使用多個算法（模型）進行預測， 並且最後畀呢啲算法嘅結果集成埋一齊進行最後嘅預測（集成學習），以下對集成學習講法正確嘅係",
+    "llm_output": "The correct answer is **C. 單個模型都係用一個算法**\n\nHere's why:\n\n* **集成學習** (Ensemble Learning) is a technique where multiple models are combined to produce a better overall prediction than any single model could achieve.\n\n* A. **單個模型之間有高相關性** is incorrect because the goal of ensemble learning is often to combine models with **diverse** strengths to improve overall performance. Diversity can be achieved through various methods, including using different algorithms.\n\n* B. **單個模型都係用一個模型** is incorrect because it implies all models in an ensemble are the same.\n\n* **D. \nD. 喺呢個模型中，所有模型都係用一個算法** is incorrect because it describes a scenario where only one algorithm is used, which is not the essence of ensemble learning.\n\nTherefore, **C. 單個模型都係用一個算法** (All models use the same algorithm) is the most accurate answer.\n\n**Important Note:** While most of the time, ensemble methods combine diverse models, it's not a strict requirement. There are cases where using the same algorithm with different variations (e.g., different hyperparameters) can be beneficial for ensemble learning.\n\nLet me know if you'd like to explore more about machine learning concepts!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '單個模型之間有高相關性'], ['B', '單個模型都係用一個算法'], ['C', '單個模型之間有低相關性'], ['D', '喺集成學習中使用「平均權重」而唔係「投票」會比較好']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋想喺大數據集上訓練決策樹, 為咗使用較少時間, 我哋可以",
+    "llm_output": "D. 減少樹嘅深度 \n\n**Explanation:**\n\n* **學習率 (Learning Rate)** 係指模型學習更新參數嘅速度，學習率增加會令模型更快速學習，但係可能會導致過度擬合 (overfitting)。\n\n* **樹嘅深度 (Depth)** 指的是決策樹嘅深度，深度越深，模型就越複雜，但係可能會導致過度擬合。\n\n* **減少樹的深度** 可以有效地減少訓練時間，因為更深的樹需要處理更多數據和更多分支，導致計算量增加。\n\n* **A. 增加樹的深度** 係錯誤答案，因為 A. 選項會導致模型更複雜，但係可能導致過度擬合，而 A. 選項並非用於解決此問題。\n\n所以，正確答案係 **D. 減少樹嘅深度**。\n\n**減少樹的深度可以透過以下方式實現：**\n\n* **設定最大深度 (max_depth)**: 在訓練決策樹時，可以設定最大深度，限制樹的深度，避免過度擬合。\n\n* **使用 pruning 技術**: Pruning 係指在訓練後修剪決策樹，去除不重要的分支，從而減少深度。\n\n* **選擇較少特徵的模型**: 有些模型只會使用數據的一部分，例如只使用最重要的幾個特徵，而不是使用所有可能的特征。\n\n* **使用少數的决策树**: \n\n   *  **隨機森林 (Random Forest)** 是一種使用多個决策树組合起來形成更強大模型的算法。\n\n   *  **减少决策树的數量**: \n\n      * 雖然随机森林可以提高模型的準確度，但它並非通过增加决策树数量来实现的。\n      * 训练一个更深的决策树需要处理更多數據和更复杂的决策规则，这可能导致训练时间更长。\n\n* **减少训练时间**: \n\n   * 减少特征数量可以减少训练时间。\n   * 较小的深度意味着更簡單的模型，而較簡單的模型通常需要更少的時間來訓練。\n\n* \n\n**总结**:\n\n* **减少模型的复杂度**: 可以通过减少树的深度来简化模型，从而减少训练时间。\n\n* \n\n**所以，在你的情況下，你應該選擇減少樹的深度來減少訓練時間。**",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '增加學習率'], ['B', '減少樹嘅數量'], ['C', '增加樹嘅深度'], ['D', '減少樹嘅深度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋想要減少數據集入面嘅特徵數, 即降維. 揀以下適合嘅方案",
+    "llm_output": "The correct answer is **D. 查看相關性表, 去除相關性高嘅特徵**\n\nHere's why:\n\n* **D. 查看相關性表, 去除相關性高嘅特徵**  This option directly addresses the issue of dimensionality reduction.\n\nLet me explain the reasoning behind this:\n\n* **Dimensionality reduction** is a crucial step in many machine learning tasks to simplify the data and improve model performance.\n\n* **Removing highly correlated features** is a common and effective technique for dimensionality reduction.  Highly correlated features provide redundant information, and removing this redundancy can often lead to a more accurate and efficient model.\n\nLet me know if you'd like to know more about dimensionality reduction techniques in machine learning!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上所有'], ['B', '我哋先將所有特徵都使用, 嚟訓練一個模型, 得到測試集上嘅表現'], ['C', '使用前向特徵揀方法同後向特徵排除方法'], ['D', '查看相關性表, 去除相關性最高嘅啲特徵']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個激活函數唔能解決梯度彌散嘅問題",
+    "llm_output": "The answer is **C. ReLU**\n\nHere's why:\n\n* **Leaky ReLU and ELU** are both designed to address the vanishing gradient problem that can occur with the standard ReLU function. They do this by allowing a small, non-zero gradient for negative inputs.\n\n* **ReLU (Rectified Linear Unit)** is the standard activation function that suffers from the vanishing gradient problem.\n\nTherefore, the standard ReLU function (not the variations like Leaky-ReLU) cannot solve this issue. \n\n\n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'Leaky-Relu'], ['B', 'Elu'], ['C', 'Sigmoid'], ['D', 'Relu']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊個唔屬於常用嘅文本分類嘅特徵揀算法",
+    "llm_output": "The answer is **A. 主成分分析**.\n\nHere's why:\n\n* **主成分分析 (Principal Component Analysis)** is a dimensionality reduction technique used primarily in numerical data analysis. It's not directly designed for classifying text.\n\nThe other options are all relevant to text classification:\n\n* **B. 互信息 (Mutual Information)** is a measure of how much information two variables share. It's used in feature selection to identify words that are most relevant to distinguishing between categories.\n* **C. 信息增益 (Information Gain)** is a key concept in decision tree learning, often used to determine the best feature for splitting a node.\n* **D. 卡方檢驗值 (Chi-Squared Test)** is a statistical test used to evaluate the independence of variables in a contingency table. This is often used in feature selection for text data.\n\nLet me know if you'd like to explore more about how these feature selection methods work!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主成分分析'], ['B', '互信息'], ['C', '信息增益'], ['D', '卡方檢驗值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "Fisher線性判別函數嘅求解過程係將M維特徵矢量投影喺（ ）中進行求解",
+    "llm_output": "The answer is **A. 一維空間**\n\nHere's why:\n\n* **Fisher's Linear Discriminant Analysis (LDA)** aims to find a linear combination of features that best separates different classes in a dataset. This is achieved by projecting the data onto a lower-dimensional space, where the classes are more easily distinguishable.\n\n* The goal of the projection is to find a single dimension (a line) that maximizes the separation between classes while minimizing the variance within each class. This is essentially what makes it a **linear discriminant** analysis.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '一維空間'], ['B', '三維空間'], ['C', 'M-1維空間'], ['D', '二維空間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊一項說明咗X，Y之間嘅較強關係",
+    "llm_output": "The answer is **A. 相關系數為0.9**.\n\nHere's why:\n\n* **Correlation Coefficient:** This measure (represented by the correlation coefficient, r) quantifies the strength and direction of a linear relationship between two variables. An r-value of 0.9 indicates a very strong positive correlation between X and Y.\n\nLet's break down the other options:\n\n* **B. 都唔對**  means \"all are incorrect\" in Cantonese. While this option is technically correct in stating that the other options don't describe a strong relationship, it's not the most accurate answer to the question.\n\n* **C. Correlation Coefficient:** This is asking about the correlation coefficient, not a correlation between the options and the question.\n\n* **D. T-statistic:** This option provides a t-statistic, which is a measure used in hypothesis testing, not directly for the strength of a relationship. A t-statistic is used to determine if there is a significant difference between the means of two groups.\n\nThe question asks for a measure of the strength of a relationship, and only option **A.  相關系數為0.9** (correlation coefficient of 0.9) provides that information. \n\n\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '相關系數為0.9'], ['B', '都唔對'], ['C', 'Beta系數為0嘅空假設嘅p-value係0.0001'], ['D', 'Beta系數為0嘅空假設嘅t統計量係30']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺 k-均值算法中，以下邊個選項可用於獲得全局最細？",
+    "llm_output": "**A. 以上所有**\n\n**解釋：**\n\nk-均值算法中，要獲得全局最細，可以透過以下方法來改善：\n\n* **A. 以上所有**\n\n   K-means 算法本身就包含以下步驟來尋找最佳的聚類數量：\n\n    * **調整 k 值：** 嘗試不同的 k 值（即聚類數量）來執行算法，並使用方法（例如 elbow method）來評估每個 k 值的聚類效果。\n\n* **B. 調整迭代的次数：** 调整迭代次数可以帮助你找到一个更稳定的解，但它不能保证找到全局最优解。\n\n* **C. 调整迭代的次数：** 调整迭代次数可以帮助你找到更精确的聚类结果，但它不能改变 k-means 算法本身的局限性，即它只能找到局部最优解。\n\n* **D. 嘗試為不同 cluster 的中心點（centroid）初始化執行算法：** 這是 k-means 算法中一個常見的技巧，可以帮助你避免局部最优解，但不能保证找到全局最优解。\n\n* **尝试不同的初始化方法：** 不同的 cluster 中心初始化方法會影響最終結果，但並非所有方法都能找到最佳的全局解。\n\n因此，k-均值算法中，調整 k 值並非最佳方法，而 **A. 以上所有** 才是最全面的答案。\n\n**其他可以幫助改善 k-means 算法的全局最优解的方法包括：**\n\n* **使用不同的隨機種子（random seed）：** 尝试不同的随机初始化可以帮助你找到更稳定的全局最优解。\n* **使用多個隨機初始值，並比較結果：** 不同的初始值可能會導致不同的聚类結果。可以多次運行算法，每次都使用不同的随机 cluster 中心，然後比較這些結果，選擇效果最佳的。\n* **使用 k-means++ 初始化算法：** 這是一個更智能的初始化方法，可以帮助你减少随机初始化带来的随机性，提高找到全局最优解的概率。\n\n**需要注意的是，k-means 算法的結果並非總是全局最優的，因為它會受到初始點的影響。**\n\n希望這個解釋能幫助你理解。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以上所有'], ['B', '搵到集羣嘅最佳數量'], ['C', '調整迭代嘅次數'], ['D', '嘗試為唔同嘅質心（centroid）初始化運行算法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺統計語言模型中，通常以概率嘅形式描述任意語句嘅可能性，利用最大相似度估計進行度量，對於啲低頻詞，無論點樣擴大訓練數據，出現嘅頻度仍然好低，下列邊種方法能解決呢一問題",
+    "llm_output": "A. 數據平滑",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '數據平滑'], ['B', 'N元文法'], ['C', '一元文法'], ['D', '一元切分']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下講法中錯誤嘅係",
+    "llm_output": "**D. 喺adaboost算法中，所有被分錯樣本嘅權重更新比例唔相同**\n\n**Explanation:**\n\n* **A. 畀定n個數據點，如果其中一半用於訓練，一半用戶測試，則訓練誤差同測試誤差之間的差別會隨着n的增加而減少**\n\nThis statement is **correct**. As the number of data points (n) increases, the model becomes more complex and can better capture the underlying patterns in the data. This generally leads to a better fit on the training data, reducing the training error.\n\n* **B. boosting和bagging都係組合多個分類器投票的方法，二者都根據單個分類器正確的分類器數量來決定其權重**\n\nThis statement is **incorrect**. While both boosting and bagging combine multiple classifiers, they do so in different ways.\n\n**Bagging** (Bootstrap Aggregating) uses bootstrapping to create multiple subsets of the data, trains a separate classifier on each subset, and then combines their predictions through a voting mechanism.\n\n**Boosting** focuses on training weak learners sequentially, with each learner focusing on correcting the mistakes of the previous ones.\n\n* **C. SVM對噪音（如來自其他分部嘅）**\n\nThis statement is **correct**.\n\n* **SVM** (Support Vector Machine) algorithms are designed to be robust to noise.\n\n**D. 喺adaboost算法中，所有被分錯樣本的權重更新比例都相同**\n\nThis statement is **incorrect**.\n\n**Boosting** algorithms like AdaBoost do not necessarily assign equal weights to misclassified samples. AdaBoost is a specific type of boosting algorithm that focuses on weighting the data points based on their importance in the training process.\n\n**Therefore, the correct answer is D.**\n\n**Boosting** algorithms like AdaBoost work by assigning weights to data points based on their difficulty to classify. This allows them to focus on the \"hard\" examples during training, leading to better performance even with noisy data.\n\n**Bagging** (Bootstrap Aggregating) algorithms, like Random Forest, use a different approach. They create multiple subsets of the data by bootstrapping (random sampling with replacement) and train a separate classifier on each subset. The final prediction is then made by aggregating the predictions of all the individual classifiers.\n\n**In summary:**\n\n* **Boosting** algorithms are a family of algorithms that focus on sequentially training weak learners to improve classification accuracy. AdaBoost is a specific example of a boosting algorithm.\n* **Boosting** algorithms are not necessarily designed to give equal weight to all data points.\n\nThe **AdaBoost** algorithm assigns weights to each data point based on its importance in the training process.\n\n**Therefore, the statement that all data points in AdaBoost have equal weights is incorrect.**\n\n**Correcting the statement:**\n\nA more accurate statement would be:\n\n**D. 喺adaboost算法中，如果所有數據點在訓練過程中都以相同的方式進行加權**\n\n**This statement is incorrect because it implies all data points are treated equally, which is not the case.**\n\n**Correcting the statement to be accurate:**\n\n**D. 喺adaboost算法中，每个數據點的權重更新比例都不同**\n\nThis corrected statement emphasizes that AdaBoost doesn't simply use a fixed weight for each data point. Instead, it focuses on the ones that are misclassified.\n\n**In summary, the correct answer is D. 喺adaboost算法中，如果其中所有數據點的權重都以相同的方式進行加權，則答案不正確。**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '畀定n個數據點，如果其中一半用於訓練，一半用戶測試，則訓練誤差同測試誤差之間嘅差別會隨住n嘅增加而減少嘅'], ['B', 'boosting同bagging都係組合多個分類器投票嘅方法，二者都係根據單個分類器嘅正確率確定其權重'], ['C', 'SVM對噪音（如來自其他分部嘅噪音樣本）具備魯棒性'], ['D', '喺adaboost算法中，所有被分錯樣本嘅權重更新比例唔相同']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "一個二進制源X發出符號集為{-1,1}，經過離散無記憶信道傳輸，由於信道中噪音嘅存在，接收端Y收到符號集為{-1,1,0}。已知P(x=-1)=1/4，P(x=1)=3/4，P(y=-1|x=-1)=4/5，P(y=0|x=-1)=1/5，P(y=1|x=1)=3/4，P(y=0|x=1)=1/4，求條件熵H(Y|X)",
+    "llm_output": "Here's how to solve this problem:\n\n**The correct answer is C. 0.5275**\n\n**Here's why:**\n\n* **Understanding the Problem:** This problem describes a scenario where two points in a communication system are affected by noise. This means the signal received at point Y might not always be the same as the signal sent from point X. We're given probabilities related to the signal at point X being -1 or 0.\n\n* **Conditional Entropy:**\n\n   Conditional entropy, denoted as H(Y|X), measures the average uncertainty in the random variable Y given that we know the value of the random variable X. In simpler terms, it tells us how much more information we need to know the value of Y when we are given the value of X.\n\n* **Calculating H(Y|X):**\n\n   The formula for conditional entropy is:\n\n   H(Y|X) = - Σ P(y) * Σ P(x|y) * log2(P(x|y))\n\n   You're given:\n\n   * P(X) is the probability of the source X being a specific value.\n   * P(x|Y) is the probability of a specific value of x given a specific value of y.\n\n   Since the problem states the received signal at point Y is the same as the transmitted signal X, we can simplify the calculation.\n\n   * **Step 1: Identify the probabilities**\n\n     * We know P(y=-1) = 1/4 (probability of receiving -1)\n     * We know P(y=1) = 1/4 (receiving 1) + 3/4 (receiving 0) = 1/4 * 1/4 + 1/4 * 3/4 = 3/4\n\n     * **Important Note:** The problem doesn't explicitly provide the probabilities P(y=-1|X) and P(y=0|Y). It states P(x=-1) = 1/4 and P(y=-1) = 1/4, but it doesn't tell us the probabilities of the received signal given the transmitted signal.\n\n     * We also know that the probabilities of receiving a specific value (given a specific value of X) are:\n        * P(y=-1|x=-1) = 1/4\n        * P(y=0|x=1) = 3/4\n\n     * We can assume that P(y=1|x=1) = 1/4 and P(y=1) = 1/4 (since the probabilities of receiving a specific value are not given)\n\n     * We can also assume that P(y=1|x=1) = 1/4\n\n     * The probability of receiving a 0|y=1) = 1/4\n\n     * P(y=0|x=1) = 1/4 and P(y=0|x=0) = 1/4\n\n     * We can also assume that P(y=0|x=0) = 1/4 (since the probability of receiving 0 given 0 is the same as the probability of receiving 1 given 1)\n\n* **Applying the Formula:**\n\n   Since we are not given the probabilities of the received signal given the transmitted signal, we can't directly calculate the conditional entropy H(Y|X).\n\n   We need to know the probabilities of receiving a specific value given a specific value of the transmitted signal.\n\n   For example, the problem might specify that:\n\n   * P(Y=1 | X=1) = 0.8 (meaning there's an 80% chance of receiving the same value as the transmitted signal when -1 is sent)\n\n   Without knowing these conditional probabilities, we can't solve the problem.\n\n**To solve for H(Y|X), you'd need additional information about the probabilities of the channel outputting different values given a specific input.**\n\n**Here's why this information is crucial:**\n\n* **The Channel:** The problem mentions a \"discrete, no memory\" channel. This implies that the channel output depends on the input, but it doesn't tell us the probabilities of the channel outputting different values *given* the specific input.\n\n* **Conditional Probability:**\n\n   The channel's behavior is described by the conditional probability distribution P(Y|X).\n\nLet me know if you have the complete conditional probability table for the channel. I can then help you calculate the conditional entropy H(Y|X).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '0.5372'], ['B', '0.2375'], ['C', '0.5273'], ['D', '0.3275']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊種技術對於減少數據集嘅維度會更好？",
+    "llm_output": "D. 都唔是 \n\n**Explanation:**\n\nThe best answer here is **D. 都唔係**.\n\nHere's why:\n\n* **Dimensionality reduction** aims to reduce the number of features (columns) in a dataset while retaining as much relevant information as possible. \n\nTherefore, deleting columns with missing values (**B. 刪除缺少值較大嘅列**) is a common strategy for dimensionality reduction.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '刪除數據差異較大嘅列'], ['B', '刪除缺少值太多嘅列'], ['C', '刪除唔同數據趨勢嘅列'], ['D', '都唔係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊啲唔特別適合用嚟對高維數據進行降維",
+    "llm_output": "B. LASSO",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '聚類分析'], ['B', 'LASSO'], ['C', '小波分析法'], ['D', '拉普拉斯特徵映射']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "邏輯回歸同多元回歸分析有咩唔同？",
+    "llm_output": "The correct answer is **B. 邏輯回歸預測某事件發生嘅概率**.\n\nHere's why:\n\n* **A. 邏輯回歸預測** is incorrect. While both models deal with prediction, **邏輯回歸** specifically deals with predicting probabilities.\n\n* **C. 邏輯回歸預測某事件發生嘅概率** is incorrect. This option is a bit ambiguous. While logistic regression is often used for classification tasks which involve predicting probabilities, it's not the only difference.\n\n* **邏輯回歸** 和 **多元回歸分析** are both used for predicting a continuous target variable. **邏輯回歸** is specifically used for binary classification problems (predicting the probability of an event belonging to one of two categories).\n\n* **C. 邏輯回歸預測某事件發生嘅概率** is incorrect.  Logistic regression is used for binary classification, not for predicting probabilities of events happening.\n\nLet me clarify the differences between logistic regression and multiple regression:\n\n* **Linear Regression (線性回歸)**:\n\n    * Predicts a **continuous** output variable (e.g., price, temperature, height).\n    * Uses a linear equation to model the relationship between the input variables and the output.\n\n* **Logistic Regression (邏輯回歸)**:\n\n    * Predicts a **categorical** output variable (e.g., yes/no, true/false, 0/1).\n    * Uses a sigmoid function to transform the linear prediction into a probability score.\n\nTherefore, the correct answer is **B. 邏輯回歸**\n\n* **邏輯回歸** is a type of **regression** analysis, not a type of regression that is inherently better than **multiple regression**.\n\nHere's a breakdown of why **C. 邏輯回歸** is incorrect:\n\n* **Linear Regression** predicts a continuous value.\n* **邏輯回歸** predicts a category (usually 0 or 1).\n\n**In summary:**\n\nThe key difference is the type of output they predict and the function they use to model the relationship between the input and output variables. \n\n* **Linear regression** predicts a continuous output variable, while **logistic regression** predicts a categorical variable.\n* **Linear regression** uses a linear equation to model the relationship, while **logistic regression** uses a logistic function to transform the input variables into a probability score.\n\nLet me know if you'd like to explore any of these concepts further!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯回歸回歸系數嘅評估'], ['B', '邏輯回歸預測某事件發生嘅概率'], ['C', '邏輯回歸有較高嘅擬合效果'], ['D', '以上全部正確']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "最出名嘅降維算法係 PCA 同 t-SNE。將呢兩個算法分別應用到數據「X」上，並得到數據集「X_projected_PCA」，「X_projected_tSNE」。下面邊一項對「X_projected_PCA」同「X_projected_tSNE」嘅描述係正確嘅",
+    "llm_output": "The correct answer is **B. X_projected_PCA 喺最近鄰空間能得到解釋**.\n\nHere's why:\n\n* **PCA (Principal Component Analysis)** is a linear dimensionality reduction technique. It aims to find the principal components, which are linear combinations of the original features that capture the maximum variance in the data.  **PCA can be used for dimensionality reduction in a way that preserves the global structure of the data, making it useful for visualizing relationships in high-dimensional datasets.**\n\nLet me break down why the other options are incorrect:\n\n* **A. 兩個都喺最近鄰空間能得到解釋 (Both can be used for dimensionality reduction in a way that preserves the global structure of the data)** is incorrect because it implies both PCA and t-SNE are equally good at preserving global structure, which isn't true.\n\n* **C. 兩個都喺最近鄰空間** (Both are used for dimensionality reduction) is incorrect. While both PCA and t-SNE are used for dimensionality reduction, they work in very different ways.\n\n* **t-SNE (t-Distributed Stochastic Neighbor Embedding)** is a non-linear dimensionality reduction algorithm. It focuses on preserving the local neighborhood structure of the data. This means it's better at capturing complex, non-linear relationships between data points.\n\nTherefore, **B is the correct answer**.\n\nLet me know if you'd like to know more about how PCA works!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '兩個都喺最近鄰空間能得到解釋'], ['B', 'X_projected_PCA 喺最近鄰空間能得到解釋'], ['C', '兩個都唔能喺最近鄰空間得到解釋'], ['D', 'X_projected_tSNE 喺最近鄰空間能得到解釋']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於維特比算法(Viterbi)嘅講法中錯誤嘅係",
+    "llm_output": "The incorrect statement is **B. Viterbi算法係一種貪心算法**\n\nHere's why:\n\n* **Viterbi算法** is a dynamic programming algorithm used to find the most likely sequence of hidden states in a Hidden Markov Model (HMM).\n\n* **貪心算法 (Greedy Algorithm)** always chooses the locally optimal solution at each step, hoping that these local choices will lead to the global optimum. While the Viterbi algorithm often finds the most likely sequence, it's not a true greedy algorithm because it doesn't make greedy choices at each step. It considers all possible paths and uses a dynamic programming approach to efficiently find the best overall path.\n\n\nLet me know if you'd like to try another question about machine learning!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '維特比算法中嘅轉移概率係從一個隱含狀態轉移到另一個隱含狀態嘅概率'], ['B', '維特比算法係一種貪心算法'], ['C', '維特比算法可應用於中文分詞任務'], ['D', '維特比算法可得到全局最優解']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下( )唔屬於線性分類器最佳準則",
+    "llm_output": "The answer is **C. 支持向量機 (Support Vector Machine)**.\n\nHere's why:\n\n* **A. 貝葉斯分類 (Bayesian Classifier):**  This is a type of probabilistic classifier, which is a category of machine learning algorithms.\n\n* **B. 感知器 (Perceptron):** This is a specific type of linear classifier.\n\n* **D. Fisher準則 (Fisher Criterion):** This is a criterion used to evaluate the performance of some linear classifiers, particularly in the context of dimensionality reduction.\n\n**Support Vector Machines (SVMs)** are a separate category of machine learning models that are known for their effectiveness in high-dimensional spaces and for handling complex, non-linear decision boundaries. They are not a criterion used to evaluate the performance of a classifier, but rather a type of model itself. \n\nTherefore, while both **A. 貝葉斯分類 (Bayesian Classifier)** and **D. Fisher準則 (Fisher Criterion)** are related to machine learning, **D. Fisher準則 (Support Vector Machines)** is a machine learning model, not a criterion for choosing the best one.\n\n\n",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '貝葉斯分類'], ['B', '感知準則函數'], ['C', '支持向量機'], ['D', 'Fisher準則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "對於線性回歸，我哋應該有以下邊啲假設",
+    "llm_output": "The correct answer is **B. 數據必須符合正態分佈**\n\nHere's why:\n\n* **Linear regression** relies on the assumption that the relationship between the independent and dependent variables is linear.\n\nLet me know if you'd like to try another question! \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '搵到離羣點好重要, 因為線性回歸對離羣點好敏感'], ['B', '線性回歸假設數據冇多重線性相關性'], ['C', '線性回歸要求所有變量必須符合正態分佈'], ['D', '以上都唔係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面唔係迭代二叉樹3代算法對數據嘅要求",
+    "llm_output": "The correct answer is **A. 所有嘅訓練例嘅所有屬性必須有一個明確嘅值**.\n\nHere's why:\n\n* **A. 所有嘅訓練例嘅所有屬性必須有一個明確嘅值**  means \"All training examples must have a clear value for all attributes\". This is **incorrect**.  Not all machine learning algorithms require all data points to have defined values for every attribute. Some algorithms can handle missing data, while others work with categorical data.\n\n* **Iterative learning algorithms** are designed to work with data that can be iteratively updated and refined. This statement is **correct** because the requirement for a \"clear value\" implies a specific, measurable outcome for each iteration of the learning process.\n\nLet me know if you'd like to see more about the concept of iterative learning algorithms! \n\n**Here's a breakdown of why the other options are incorrect:**\n\n* **B. 所有嘅訓練例必須為一個明確嘅值**  means \"All training examples must have a value\". This is **incorrect** because it doesn't reflect the nature of machine learning algorithms.\n\n* **C. 所有嘅屬性必須有一個明確嘅值** means \"All attributes must have a value\". This is **incorrect** because many machine learning algorithms can handle missing data.\n\n* **D. 所有嘅因素必須有一個明確嘅值** means \"All factors must have a clear value\". This is **incorrect** because it implies that the algorithm can only work with complete data, which is not true.\n\n* **D. \n\n** is incorrect because it implies that all data must be numerical, which is also not a requirement for all machine learning algorithms.\n\nLet me know if you have any other questions.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '所有嘅訓練例嘅所有屬性必須有一個明確嘅值'], ['B', '所有屬性必須為離散量'], ['C', '所有屬性必須為連續'], ['D', '相同嘅因素必須得到相同嘅結論且訓練例必須唯一']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面嘅優化算法中，速度最快嘅係",
+    "llm_output": "D. Adam \n\n(Adam 係一種結合咗動量梯度下降法同 RMSProp 嘅優化算法) \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'BFGS'], ['B', '梯度下降法'], ['C', '牛頓法'], ['D', 'Adam']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於ALBERT嘅講法唔正確嘅係",
+    "llm_output": "**C. 應用喺下游任務中預測速度顯著提速**\n\nThis is because the other options (A, B, and D) are all correct statements about ALBERT.\n\n* **ALBERT (A Lite BERT)** is known for its **efficient use of parameters** through techniques like:\n    * **A. 跨層參數共享 (Cross-layer parameter sharing):** This is a key feature of ALBERT, allowing it to share parameters across different layers of the network.\n    * **B. 應用於下游任務的预训练模型:** This refers to ALBERT being a pre-trained model, meaning it's trained on a large corpus of text and then fine-tuned for specific tasks.\n\n* **B. 應用於下游任務的因式分解:** This is incorrect. ALBERT is a **variant** of BERT that uses parameter sharing, but it doesn't eliminate it entirely.\n\n* **D. 去掉咗因數分解 (Removed parameter sharing):** This is also incorrect. While ALBERT uses a more efficient way to share parameters, it still uses **parameter sharing** as a core technique.\n\nLet me know if you'd like to know more about ALBERT or BERT!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '跨層參數共享'], ['B', '採用詞嵌入向量參數嘅因式分解'], ['C', '應用喺下游任務中預測速度顯著提速'], ['D', '去掉咗dropout']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個屬於SVM應用",
+    "llm_output": "D. 以上均係",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新文章聚類'], ['B', '文本同超文本分類'], ['C', '圖像分類'], ['D', '以上均係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "類域界面方程法中，唔能求線性不可分情況下分類問題近似或者精確解嘅方法係",
+    "llm_output": "D. 偽逆法",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基於二次準則嘅H-K算法'], ['B', '感知器算法'], ['C', '勢函數法'], ['D', '偽逆法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個選項中邊一項屬於確定性算法",
+    "llm_output": "D. 以上都唔係 \n\n**Explanation:**\n\nThe correct answer is **D**. Here's why:\n\n* **K-Means (A)** is a probabilistic algorithm. It relies on randomly initializing centroids, which means the results can vary slightly each time you run it.\n\n* **PCA (B)** is a dimensionality reduction technique, not an algorithm that directly produces a definite output.\n\n* **KNN (C)** is also a probabilistic algorithm as it relies on the distance to the nearest neighbors, which can be influenced by random factors in the data.\n\n**K-Means** and **KNN** are both considered **supervised** and **unsupervised** learning algorithms respectively.\n\n* **K-Means** is unsupervised because it learns to cluster data without labeled examples.\n\n* **PCA** is unsupervised because it learns a lower-dimensional representation of the data without using class labels.\n\n**Therefore, none of the options (A, B, or C) are considered deterministic algorithms.**\n\nLet me know if you'd like to know more about deterministic algorithms!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'K-Means'], ['B', 'PCA'], ['C', 'KNN'], ['D', '以上都唔係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊啲算法, 1. KNN；2. 線性回歸；3.對數幾率回歸。可以用神經網絡去構造:",
+    "llm_output": "D. 1, 2, and 3. \n\nHere's why:\n\n* **KNN (K-Nearest Neighbors)** is a simple, non-parametric algorithm that can be implemented using a neural network structure. This is often done for demonstration purposes or in cases where interpretability is important, as the network essentially learns to classify data points based on their proximity to known examples.\n\n* **Logistic Regression** is a type of linear model that can be adapted to a neural network framework.\n\n* **Neural networks** are a fundamental part of machine learning, and they can be used for a variety of tasks, including:\n    * **Classification:** This is what they are traditionally known for (e.g., spam detection, image recognition).\n\nLet me know if you'd like to explore how these algorithms are implemented in a neural network context!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '2 同 3'], ['B', '1同 2'], ['C', '以上都唔係'], ['D', '1, 2 同 3']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "訓練SVM嘅最少時間複雜度為O(n^2)，噉以下邊種數據集唔適合用SVM?",
+    "llm_output": "The answer is **B. 大數據集 (Large datasets)**\n\nHere's why:\n\n* **SVMs can struggle with very large datasets.** This is because the training process involves solving a quadratic programming problem, which can be computationally expensive for datasets with millions or billions of data points.\n\n* **The statement \"訓練SVM嘅最少時間複雜度為O(n^2) (Minimum time complexity of training SVM is O(n^2))\" is generally true.** This refers to the time complexity of training a linear SVM. However, the time complexity of non-linear SVMs (which often use kernel tricks) can be more complex.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '同數據集大細冇關'], ['B', '大數據集'], ['C', '細數據集'], ['D', '中等大細數據集']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "如果線性回歸模型中嘅隨機誤差存在異方差性，噉參數嘅普通最細二乘法估計量係",
+    "llm_output": "The correct answer is **D. 有偏嘅，非有效嘅**.\n\nHere's why:\n\n* **有偏 (You-pian)** means biased in Cantonese.\n\n* **有效 (You-xiao)** means consistent in Cantonese.\n\n* **Inconsistent** estimators are those that don't converge to the true parameter value as the sample size increases.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '無偏嘅，非有效嘅'], ['B', '無偏嘅，有效嘅'], ['C', '有偏嘅，非有效嘅'], ['D', '有偏嘅，有效嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於RoBERTa嘅講法唔正確嘅係",
+    "llm_output": "The incorrect statement about RoBERTa is **A. 唔做NSP任務**. \n\nThis is because RoBERTa (Robustly Optimized BERT Pretraining Approach) is a **variant of BERT** (Bidirectional Encoder Representations from Transformers) that builds upon its predecessor's techniques. **RoBERTa is built on a modified version of BERT's pretraining process, which includes using a larger training dataset and training for longer with a larger batch size.**\n\nHere's why the other options are correct:\n\n* **B. 採用更多訓練數據:** This option describes a key difference between RoBERTa and BERT. RoBERTa was trained on a larger dataset than BERT, leading to improved performance.\n* **C. 採用更多訓練數據:** This is also a key aspect of RoBERTa's training methodology.\n\n* **D. 訓練採用更大batch size:** This option is correct as RoBERTa uses a larger batch size during training.\n\nTherefore, the correct answer is **A**. \n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔做NSP任務'], ['B', '採用靜態掩碼機制'], ['C', '採用更多訓練數據'], ['D', '訓練採用更大batch size']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺邏輯回歸輸出與目標對比嘅情況下，以下評估指標中邊一項唔適用？",
+    "llm_output": "正確答案係 **B. 均方誤差 (AUC-ROC)**。\n\n**原因:**\n\n* **邏輯回歸** 主要用於預測**二元結果** (例如，買或唔買，成功或失敗)。\n\n* **均方誤差 (MSE)** 係一個用於評估**預測值與實際值**嘅距離，通常用於預測一個**連續值** 嘅模型，例如線性回歸模型，而唔係二元結果嘅模型。\n\n**其他適用嘅評估指標:**\n\n* **準確度 (Accuracy)** 可以用於計算預測結果嘅準確度，但係只適用於預測準確度高嘅模型，例如 **預測值與實際值差距細** 嘅情況下。\n* **Logloss** 係一個**連續值**，可以評估模型預測嘅**不確定性**，但係**AUC-ROC 係用於評估模型預測** **二元結果** 嘅一個指標，所以**準確度** 係可以用 Logloss 來評估。\n\n**總結:**\n\n邏輯回歸模型主要用於預測**二元結果**，所以 **AUC-ROC** 係一個不適合用於評估呢種模型嘅指標。\n\n**其他選擇** \n\n* **A. 適合用於邏輯回归** \n* **C. AUC-ROC** 係一個**適合用於評估** **二元分類模型** 嘅指標。\n\n**其他評估指標** \n\n* **準確度 (Accuracy)** \n* **準確率 (Precision)**\n* **召回率 (Recall)**\n* **F1 分數 (F1 Score)**\n\n**其他適合用於評估二元分類模型的指標:**\n\n* **精確度 (Precision)**\n* **召回率 (Recall)**\n* **F1 分數 (F1 Score)**\n* **ROC 曲線 (ROC Curve)**\n\n希望以上資訊對你有幫助！",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '準確度'], ['B', '均方誤差'], ['C', 'AUC-ROC'], ['D', 'Logloss']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "語言模型嘅參數估計經常使用MLE（最大似然估計）。面臨嘅一個問題係冇出現嘅項概率為0，噉會導致語言模型嘅效果唔好。為咗解決呢個問題，需要使用（）",
+    "llm_output": "The answer is **B. 平滑 (Smoothing)**\n\nHere's why:\n\n* **最大似然估計 (MLE)** is a method used to train language models by finding the parameters that maximize the likelihood of the training data.\n\n* The issue with MLE is that it can assign a probability of 0 to words that haven't been seen during training. This is problematic because it leads to the model being unable to predict those words when encountering new text.\n\n* **平滑 (Smoothing)** techniques are used to address this issue. They adjust the probabilities assigned to words by MLE to avoid assigning 0 probability to unseen events. This is done by adding a small amount of probability to all unseen words, effectively smoothing out the probability distribution.\n\nLet me know if you'd like to know more about different smoothing techniques used in language modeling!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '增加白噪音'], ['B', '平滑'], ['C', '隨機插值'], ['D', '去噪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "建模北京市人口嘅年齡分佈，採用咩分佈更合適",
+    "llm_output": "The answer is **B. 正態分佈 (Normal Distribution)**. \n\nHere's why:\n\n* **Normal Distribution (正態分佈)** is often used to model phenomena that are naturally clustered around an average value. Age distribution in a population, especially a large and diverse one like Beijing's, tends to follow a bell-shaped curve, making the normal distribution a suitable choice.\n\nLet's look at why the other options are less suitable:\n\n* **0-1 分佈 (0-1 Distribution)** is not a suitable choice for modeling age distribution. It's a distribution of probabilities over a range of 0 to 1, not for continuous numerical data like age.\n\n* **泊松分佈 (Poisson Distribution)** is used to model the probability of a certain number of events occurring in a fixed period of time or space. It's not appropriate for modeling the age distribution of a population.\n\n* **Exponential Distribution** is used to model the time between events in a Poisson process. Again, this is not ideal for modeling the age distribution of a population.\n\nWhile the other distributions might be used to model specific aspects of data (like the number of events), the **normal distribution** is generally the best fit for modeling the overall age distribution of a large population due to its tendency to form a bell curve.\n\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '0-1分佈'], ['B', '正態分佈'], ['C', '泊松分佈'], ['D', '指數分佈']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "SVM中嘅代價參數表示：",
+    "llm_output": "The correct answer is **A. 誤分類同模型複雜性之間嘅平衡**\n\nHere's why:\n\n* **SVM中嘅** (SVM in) refers to the Support Vector Machine algorithm.\n\n* **代價參數** (Cost parameter) is a key concept in SVM.\n\n* **A. 誤分類** (Support Vector Machines) is a type of machine learning algorithm.\n\nTherefore, the correct answer is **A**. \n\nLet me know if you have any other questions!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '誤分類同模型複雜性之間嘅平衡'], ['B', '以上均唔係'], ['C', '使用嘅核'], ['D', '交叉驗證嘅次數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "關於SVM泛化誤差描述正確嘅係",
+    "llm_output": "The correct answer is **D. SVM對未知數據嘅預測能力**\n\nHere's why:\n\n* **A. 超平面同支持向量之間距離** (Distance between hyperplane and support vectors): This refers to the margin in SVM, which is indeed a measure of how well the hyperplane separates the data points, but it's not the sole definition of its generalization ability.\n\n* **B. SVM嘅誤差閾值** (SVM's error threshold): This is a parameter used in training SVM, but it doesn't directly define generalization ability.\n\n* **C. 誤差** (Error) is a broad term. While SVM aims to minimize errors on the training data during the training process, the **margin** is a key concept in understanding how it achieves this.\n\n* **SVM** (Support Vector Machine) is designed to find the **hyperplane** that best separates data points into different classes.\n\n* **D. 錯誤** (Error) is a parameter that describes the ability to generalize, but it's not the only factor.\n\nTherefore, the most accurate answer to the question \"What does SVM measure?\" is **D. SVM's ability to predict correctly for unseen data**.\n\nHere's a breakdown of why the other options are incorrect:\n\n* **A. and B.** are incorrect because they focus on the margin, which is a measure of performance, not the measure of generalization ability itself.\n\n* **C.** is incorrect because it implies that the error threshold is the only measure of SVM's performance.\n\nLet me know if you have any other questions!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '超平面同支持向量之間距離'], ['B', 'SVM嘅誤差閾值'], ['C', '以上都唔係'], ['D', 'SVM對未知數據嘅預測能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於BERT嘅講法唔正確嘅係",
+    "llm_output": "正確答案：**C. 網絡一共有20層**\n\n**解釋：**\n\n雖然 BERT 的原始模型有 12 層，但 C 選項提到 BERT 擁有 20 層，呢個並非 BERT 模型架構的固定特性。 \n\nBERT 的深度可以根據訓練數據量和訓練任務而調整。 實際上，BERT 模型的層數是其訓練數據量和性能的關鍵因素。 \n\n其他選項的解釋：\n\n* **A. 支持對語義上下文進行建模** - 這是 BERT 的一個重要特性，它利用上下文信息來理解單詞的含義。\n* **B. 採用激活函數 GELU** - 這是正確的。GELU (Gaussian Error Linear Unit) 是 BERT 模型中使用的其中一種激活函数。\n* **D. 使用 transformer** - 這是正確的。BERT是基於Transformer模型的。\n\n因此，C 選項不正確。\n\n**補充說明：**\n\n* BERT (Bidirectional Encoder Representations from Transformers) 是一種基於 Transformer 架構的預訓練語言模型。\n* BERT 模型的層數可以是 12 層，也可以是其他層數，例如 24 層或更少層。\n\n希望以上解釋可以幫助你理解。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '支持對語義上下文進行建模'], ['B', '採用激活函數GELU'], ['C', '網絡一共有20層'], ['D', '使用transformer']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "模式識別中，唔屬於馬氏距離較之於歐式距離嘅優點嘅係",
+    "llm_output": "**D. 考慮到各種特性之間嘅相關性**\n\n**Explanation:**\n\n* **馬氏距離 (Mahalanobis distance)** 考慮到數據點之間的距離，以及它們的相關性。\n* **歐式距離 (Euclidean distance)** 係指數據點之間嘅歐幾里得距離，只考慮到點之間的距離，而忽略了它们之间的任何相关性。\n\n所以，雖然 D. 考慮到模式嘅分佈 係數據分析中重要嘅概念，但係並非馬氏距離相對於歐式距離嘅一個優點。\n\n\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '尺度唔變性'], ['B', '平移唔變性'], ['C', '考慮到各種特性之間嘅聯繫'], ['D', '考慮咗模式嘅分佈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "描述嘅機器發生故障嘅次數，採用咩分佈更合適?",
+    "llm_output": "D. 0-1 分佈",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '0-1分佈'], ['B', '指數分佈'], ['C', '正態分佈'], ['D', '泊松分佈']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係LSTM本身嘅特點",
+    "llm_output": "The answer is **C. 訓練時GPU使用率較高**\n\nHere's why:\n\n* **A. LSTM係RNN嘅一種變種** (LSTM is a variant of RNN) is correct. LSTMs are a type of Recurrent Neural Network (RNN).\n\n* **B. 防止梯度彌散** (Prevent gradient vanishing) is a characteristic of LSTM. LSTMs are designed to address the vanishing gradient problem in traditional RNNs.\n\n* **D. LSTM有遺忘門** (LSTM has a forget gate) is also correct. The forget gate is a key component of the LSTM architecture.\n\n* **C. 訓練時GPU使用率較高** (High GPU usage during training) is incorrect. While LSTMs can be computationally intensive, this is not a unique characteristic of the LSTM architecture itself.  \n\n**Therefore, the correct answer is C.**\n\nThe correct answer is **C**.  \n\nThe forget gate in an LSTM is designed to help with the vanishing gradient problem, but it doesn't mean that LSTMs inherently have a high GPU usage. \n",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'LSTM係RNN嘅一種變種'], ['B', '防止梯度彌散'], ['C', '訓練時GPU使用率較高'], ['D', 'LSTM有遺忘門']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "關於邏輯回歸同支持向量機唔正確嘅係",
+    "llm_output": "The correct answer is **B**.\n\nHere's why:\n\n* **A. 邏輯回歸** is indeed a method that relies on the concept of probability. This statement is **correct**.\n\n* **D. 邏輯回歸** is designed to predict the probability of a binary outcome (hence the name \"logistic\"). This statement is **correct**.\n\n* **B. 支持向量機** 的確可以通過調整 **正則化參數** (regularization parameter) 來控制模型的複雜度和避免過擬合。 This statement is **correct**.\n\n* **B. 支持向量機** 的目標**is not** to simply find a hyperplane that separates data points. This is the goal of a simple **perceptron**.\n\n**B. 正則化** is a technique used in both linear and non-linear models to prevent overfitting.\n\n**Therefore, the most inaccurate statement is (B).**\n\nHere's a breakdown of why:\n\n* **Support Vector Machines (SVMs)** aim to find the **optimal** separating hyperplane, which is the one that maximizes the margin between the hyperplane and the data points of different classes.\n\n* **SVMs** are powerful models that can be used for a variety of tasks, including classification, regression, and outlier detection.\n\n* **Overfitting** is a common problem in machine learning where a model learns the training data too well, including its noise and outliers, resulting in poor performance on unseen data.\n\nLet me know if you'd like to explore any of these concepts further!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '邏輯回歸本質上係一種根據樣本對權值進行極大似然估計嘅方法，而後驗概率正比於先驗概率同似然函數嘅乘積。邏輯僅僅係最大化似然函數，並冇最大化後驗概率，更談唔上最小化後驗概率'], ['B', '支持向量機可以通過正則化系數控制模型嘅複雜度，避免過擬合。'], ['C', '支持向量機嘅目標係搵到使得訓練數據盡可能分開且分類間隔最大嘅超平面，應該屬於結構風險最小化'], ['D', '邏輯回歸嘅輸出就係樣本屬於正類別嘅機率，可以計算出概率。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於影響聚類算法結果嘅主要因素有",
+    "llm_output": "The answer is **B. 已知類別嘅样本质量**\n\nHere's why:\n\n* **Clustering algorithms are unsupervised learning methods.** This means they work with data that doesn't have pre-existing labels (like \"category A\" or \"category B\"). Options A, C, and D are all directly related to clustering, but B is not.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '特徵揀'], ['B', '已知類別嘅樣本質量'], ['C', '分類準則'], ['D', '模式相似性測度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "高斯混合模型(GMM)採用咩準則進行訓練",
+    "llm_output": "The answer is **C. 期望最大化 (Expectation Maximization)**\n\nGMMs are trained using the Expectation-Maximization (EM) algorithm. This algorithm iteratively estimates the parameters of the Gaussian distributions (means, covariances, and mixing weights) that best represent the observed data. \n\n* **期望最大化 (Expectation Maximization)** is a specific type of algorithm used in GMMs.\n\nLet me know if you'd like to know more about how the EM algorithm works!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '均方誤差最小化'], ['B', '經驗風險最小化'], ['C', '期望最大化'], ['D', '其他選項都唔係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下講法正確嘅係",
+    "llm_output": "The correct answer is **D. 如果增加模型複雜度， 噉模型嘅測試錯誤率總會降低**\n\nHere's why:\n\n* **D. 如果增加模型複雜度， 噉模型複雜度， 噉模型嘅訓練錯誤率會降低** is the correct answer.\n\nLet's break down why the other options are incorrect:\n\n* **A. 如果增加模型複雜度， 噉模型嘅測試錯誤率會降低** is incorrect. While a more complex model *might* have a higher accuracy on the training data, it can also lead to overfitting.\n\n* **B. 錯** (Incorrect). You can't directly use supervised learning with a \"分類器\" ID. Supervised learning requires labeled data, meaning the data needs to be tagged with the correct category for each data point.\n\n* **C. 訓練錯誤率** (Training error rate) is a measure used in supervised learning, not as a direct input for learning.\n\n* **C. 錯** (Incorrect).  A more complex model doesn't necessarily mean better performance on the training data. A more complex model can lead to **overfitting**, where it performs very well on the training data but poorly on unseen data.\n\n**In summary:**\n\nWhile a more complex model can sometimes lead to lower training error, it's not a guaranteed outcome. In fact, increasing complexity too much can make the model perform worse on new data. \n\n**D. 正確** (Correct).\n\nA more complex model can lead to lower training error, but this is not always the case.\n\n**Why option D is correct:**\n\nA more complex model has more parameters and can therefore learn more complex patterns in the data. This means that it can potentially achieve a lower training error than a simpler model.\n\n**Important Note:**\n\nThis question highlights a key concept in machine learning: **model complexity**. Option D is correct because it addresses the fact that more complex models can often **overfit** to the training data.\n\n**Overfitting** occurs when a model learns the training data too well, including its noise and outliers. This can lead to the model performing poorly on unseen data because it has become too specialized to the training set.\n\nLet me know if you'd like to explore more about machine learning and the potential pitfalls of complex models!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '一個機器學習模型，如果有較高準確率，並唔難總係說明呢個分類器係好嘅'], ['B', '我哋唔可以使用聚類「類別id」作為一個新嘅特徵項， 然後再用監督學習分別進行學習'], ['C', '如果增加模型複雜度， 噉模型嘅測試錯誤率總係會降低'], ['D', '如果增加模型複雜度， 噉模型嘅訓練錯誤率總係會降低']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "中文同義詞替換時，常用到Word2Vec，以下講法錯誤嘅係",
+    "llm_output": "The incorrect answer is **B. Word2Vec得到嘅都係語義上嘅語義上**\n\nHere's why:\n\n* **Word2Vec doesn't just produce \"wrong\" synonyms.** While Word2Vec can be used to find words with similar meanings (which might include synonyms), it's a word embedding model. This means it learns to represent words as vectors, capturing semantic relationships between them.\n\n* **Word2Vec captures more than just synonymity.** Words with similar contexts in a sentence are represented by vectors with closer proximity in the vector space. This can include synonyms, but also antonyms, words that are semantically related but not perfect synonyms, and other words that appear in similar contexts.\n\nLet me know if you'd like to know more about Word2Vec and how it works! \n\n**Here's a breakdown of the other options:**\n\n* **A. Word2Vec結果符合當前預料環境:** This is correct. Word2Vec is a word embedding model that captures semantic relationships based on word context within a text corpus.\n\n* **C. Word2Vec得到嘅都係語義上嘅同義詞:** This is also correct. Word2Vec is designed to learn word embeddings, which are vector representations of words based on their meaning.\n\n* **D. Word2Vec受限於訓練語料嘅數量和質量:** This is correct. The quality of the word embeddings depends heavily on the quality and quantity of the text data it's trained on.\n\n**Therefore, the correct answer is B.**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'Word2Vec結果符合當前預料環境'], ['B', 'Word2Vec得到嘅都係語義上嘅同義詞'], ['C', 'Word2Vec受限於訓練語料嘅數量同質量'], ['D', 'Word2Vec基於概率統計']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺以下唔同嘅場景中,使用嘅分析方法唔正確嘅有",
+    "llm_output": "The incorrect application of an analysis method in the given scenarios is **D. 根據用戶最近購買嘅商品信息,用決策樹算法識合出用戶可能嘅性別**\n\nHere's why:\n\n* **Ethical Concerns:**  \n\nMaking assumptions about a person's gender based on their purchasing behavior is problematic and can perpetuate harmful stereotypes.  \n\n* **Limited Predictive Power:**\n\nWhile some products might be more commonly purchased by one gender over another, there's no guarantee that a purchase of a specific product (like a car seat) indicates the buyer's gender.\n\n**Let's break down why the other options are more reasonable:**\n\n* **A. 根據用戶最近購買嘅商品信息,用**聚類算法**判斷出淘寶商家層級**\n\nThis option is more reasonable because it uses **past purchase data** to predict a **general preference** for a product category.\n\n* **B. 根據** **B. 根據**\n\nThis option is **less about gender prediction** and more about **identifying patterns in customer behavior**. This is a common and valid use case for decision trees, which can segment customers based on their purchase history and other factors.\n\n**In summary:**\n\nDecision trees can be used to categorize customers based on their purchasing habits, but assuming they can predict gender based on purchase history alone is a **logical fallacy** and raises **ethical concerns**.\n\nIt's important to remember that **correlation does not equal causation**. Just because a person buys certain products doesn't mean their other characteristics (like gender) are the reason for that purchase.\n\n**C. 根據** \n\nThis option is also more reasonable because it uses **purchase data** to identify **general patterns** in customer behavior.\n\n**It's crucial to use machine learning ethically and responsibly. Using it to predict sensitive attributes like gender based on limited data can lead to inaccurate and potentially discriminatory results.**\n\nIt's better to use **option C** to predict a user's interest in buying a car seat. This option uses **purchasing data** to identify **preferences based on product category** rather than making assumptions about the buyer's gender.\n\n**Option D** is problematic because it suggests using a person's **purchase data** to make **inferences about their gender** which is a harmful and inaccurate practice.\n\n**Therefore, option D is the incorrect answer as it implies making assumptions about a user's gender based on their purchase history, which is not a reliable or ethical method for predicting gender.**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '根據商家最近一年嘅經營及服務數據,用聚類算法判斷出天貓商家喺各自主營類目下所屬嘅商家層級'], ['B', '根據商家近幾年嘅成交數據,用聚類算法擬合出用戶未來一個月可能嘅消費金額公式'], ['C', '用關聯規則算法分析出購買咗汽車坐墊嘅買家,係否適合推薦汽車腳墊'], ['D', '根據用戶最近購買嘅商品信息,用決策樹算法識別出淘寶買家可能係男定係女']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺數據清理中，下面邊個唔係處理缺失值嘅方法",
+    "llm_output": "答案：**D. 成对删除**\n\n**解释：**\n\n* **成对删除** 是一种处理缺失值的方法，但它通常被视为 **最后手段**。\n\n其他方法包括：\n\n* **A. 变量刪除** (删除包含缺失值的特征)\n* **B. 估算** (使用平均值、中位数等方法填充缺失值)\n* **C. 估算** (使用各種方法估計缺失值，例如使用其他變量進行預測)\n\n希望以上解釋對你有幫助！",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '變量刪除'], ['B', '估算'], ['C', '整例刪除'], ['D', '成對刪除']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下關於LDA(Latent Dirichlet allocation)嘅講法錯誤嘅係",
+    "llm_output": "The incorrect statement about LDA (Latent Dirichlet Allocation) is **C. 當揀一篇文檔後，對於該文檔主題嘅分佈係確定嘅 (When choosing a document, the distribution of topics for that document is determined.)**\n\nHere's why:\n\n* **A. LDA係非監督學習技術 (LDA is a topic modeling technique based on unsupervised learning.)** is correct. LDA learns the latent (hidden) topic distribution within a collection of documents without explicit topic labels.\n\n* **B. LDA可通過EM嘅思想求解 (LDA can be solved by the EM algorithm.)** is correct. LDA uses an Expectation-Maximization (EM) algorithm for its iterative training process.\n\n* **D. LDA包含詞，主題係確定嘅 (LDA has a document-topic-word structure.)** is correct. LDA models are based on a hierarchical structure of documents, topics, and words.\n\nTherefore, the correct answer is **C**. \n\nLDA doesn't determine the topic distribution of a document with absolute certainty. Instead, it infers the probability distribution of topics over words in a document. This means that for each document, LDA assigns a probability to each topic, indicating how likely the document is to belong to that topic. \n\n\nLet me know if you'd like to know more about LDA or other machine learning concepts!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'LDA係非監督學習技術'], ['B', 'LDA可通過EM嘅思想求解'], ['C', '當揀一篇文檔後，對於該文檔主題嘅分佈係確定嘅'], ['D', 'LDA包含詞，主題同文檔三層結構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "如果我使用數據集嘅全部特徵並且能夠達到100%嘅準確率，但喺測試集上僅能達到70%左右，呢說明：",
+    "llm_output": "**C. 過擬合**\n\n**Explanation:**\n\nThis scenario describes **overfitting**. \n\nHere's why:\n\n* **You're using all features:** This means your model is likely learning the training data too well, including noise and outliers.\n* **100% accuracy on the training set:** This is a red flag for overfitting. Achieving perfect accuracy on the training data is rare and often indicates the model has memorized the data rather than learning the underlying patterns.\n* **Lower accuracy on the test set:** This shows that the model is not generalizing well to new, unseen data. It's likely performing well on the specific examples it was trained on but struggles to apply that knowledge to different data.\n\n**Therefore, the answer is (C) 過擬合.**\n\n**What is Overfitting?**\n\nOverfitting occurs when a machine learning model learns the training data *too well*, to the point where it memorizes the specific details and noise within the training set. This means the model performs well on the training data but fails to generalize to new data, resulting in poor performance on the test set.\n\n**How to Avoid Overfitting:**\n\n* **Use more data:** More data helps the model learn the general patterns better.\n* **Simplify the model:** Avoid using too many features or complex models that can easily overfit.\n* **Regularization:** Use techniques like L1 or L2 regularization to penalize complex models during training.\n* **Cross-validation:** Use cross-validation to evaluate the model on different subsets of the data and identify potential overfitting.\n* **Early stopping:** Monitor the model's performance on a validation set during training and stop training when the performance on the validation set starts to decrease.\n* **Feature selection:** Carefully choose the most relevant features for your model.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '以上均唔正確'], ['B', '欠擬合'], ['C', '過擬合'], ['D', '模型好棒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假定你使用SVM學習數據X，數據X入面有啲點存在錯誤。依家如果你使用一個二次核函數，多項式階數為2，使用鬆弛變量C作為超參之一。 當你使用較大嘅C（C趨於無窮），則：",
+    "llm_output": "D. 仍然不能正確分類數據 \n\n**Explanation:**\n\nWhen you use a large value of C in SVM, you're telling the algorithm to be very strict about finding the hyperplane that perfectly separates the data. While a larger C can help reduce the impact of outliers, it doesn't magically fix misclassifications.\n\nHere's why:\n\n* **C is a penalty parameter:** It controls the cost of misclassifying a data point. A higher C penalizes misclassifications more heavily.\n* **SVM and Noise:** SVMs are known to be sensitive to noise. Using a large C doesn't eliminate noise, it just makes the model try to avoid it more. A very large C might lead to overfitting, where the model learns the noise in the training data instead of the underlying pattern.\n\nTherefore, even with a large C, the model might still struggle to accurately classify data with significant noise or outliers. \n",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '以上均唔正確'], ['B', '唔確定'], ['C', '唔能正確分類'], ['D', '仲能正確分類數據']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "基於統計嘅分詞方法為",
+    "llm_output": "The answer is **B. 條件隨機場 (Conditional Random Field)**.\n\nHere's why:\n\n* **條件隨機場 (Conditional Random Field)** models are probabilistic models used in machine learning, particularly for tasks involving sequence labeling.\n\nThe other options are incorrect:\n\n* **A. 正向量最大匹配法 (Forward Maximum Matching)** is a technique used in some specific string matching algorithms, not for general text analysis.\n* **C. 最少切分 (Minimum Spanning Tree)** is a concept from graph theory, not directly related to the most common statistical method in NLP.\n* **D. 逆向量最大匹配法 (Backward Maximum Matching)** is also a technique used in some specific string matching algorithms, not directly related to the most common statistical method in NLP.\n\n\n\nLet me know if you'd like to explore more about **條件隨機場 (Conditional Random Field)** models!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '正向量最大匹配法'], ['B', '條件隨機場'], ['C', '最少切分'], ['D', '逆向量最大匹配法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "假定某同學使用樸素貝葉斯分類模型時，唔小心將訓練數據嘅兩個維度搞重複咗，噉關於樸素貝葉斯嘅講法中唔正確嘅係",
+    "llm_output": "The incorrect statement is **A. 模型效果相比無重複特徵的情況下會提高**\n\nHere's why:\n\n* **Redundancy hurts:**  Duplicate features in a machine learning dataset introduce redundancy. This means the model is learning from the same information multiple times, which can lead to overfitting.\n\n* **Overfitting:** When a model learns the training data *too well*, including its noise and idiosyncrasies, it can become overly specialized to that data and fail to generalize to new, unseen data. This is called overfitting.\n\n* **Why redundancy is bad:** Having duplicate features doesn't necessarily improve accuracy. In fact, it can make the model *less* accurate due to overfitting.\n\nLet me know if you'd like to know more about the other options!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '模型效果相比無重複特徵嘅情況下精確度會降低'], ['B', '模型效果相比無重複特徵嘅情況下精確度會提高'], ['C', '當兩列特徵高度相關時，無法用兩列特徵相同時所得到嘅結論嚟分析問題'], ['D', '如果所有特徵都被重複一遍，得到嘅模型預測結果相對於唔重複嘅情況下嘅模型預測結果一樣']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列關於word2vec嘅講法中錯誤嘅係",
+    "llm_output": "The incorrect statement is **B. Skip-gram係畀定詞嘅詞袋模型，詞嘅順序係唔重要嘅**.\n\nHere's why:\n\n* **Skip-gram** is a word embedding technique that actually *does* take word order into account. It predicts the context words (surrounding words) given a target word, utilizing the co-occurrence of words within a given text window.\n\nThe other statements are correct:\n\n* **A. 使用詞向量** (Using word2vec) is correct because the model is designed to learn word embeddings.\n* **C. word2vec 的訓練目標係預測一個詞在文本中出現的上下文詞** (The training goal of word2vec is to predict the context words of a given word) is correct because it aims to learn the relationships between words in a corpus based on their context.\n\nLet me know if you'd like to test your knowledge with more questions!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '使用詞向量可得到以下等式:King - man + woman = Queen'], ['B', 'Skip-gram係畀定詞窗中嘅文本，預測當前詞嘅概率'], ['C', 'word2vec嘅假設係詞袋模型，詞嘅順序係唔重要嘅'], ['D', 'word2vec訓練中使用咗Negative Sample與Hierarchical Softmax兩種加速算法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下描述正確嘅係",
+    "llm_output": "The correct answer is **C**.\n\nHere's why:\n\n* **A. 聚類分析可以睇作係一種非監督嘅分類。** This is partially correct. Cluster analysis is a type of unsupervised learning, but it's not the same as the typical supervised classification tasks like training a model to distinguish between different categories. It's more accurate to say it's a type of unsupervised **learning** rather than \"classification\".\n\n* **B. 喺決策樹中，** \n\nThis statement is **incorrect**.  The statement describes the goal of a good machine learning model, which is to minimize the difference between the training error and the testing error.\n\n* **C. \n\n**This statement is **incorrect**. It's not always true that a linear SVM will always have a lower testing error when the margin is maximized.\n\nWhile a large margin is a desirable characteristic of a good SVM model, it's not the only factor.\n\nThe **correct** answer is that SVM suffers from **overfitting** when the model is too complex for the training data.\n\n* **D. 喺決策樹中，**\n\nThis statement is **incorrect**. It's not that the margin is the issue, but rather the complexity of the model.\n\n**SVM can suffer from overfitting, but it's not necessarily the case that a more complex model will lead to a larger testing error.\n\n* **A. \n\n**This statement is **incorrect**. SVM can be used for both classification and regression tasks.\n\n**The correct answer is:**\n\n* **D. \n\n**This is the correct answer**.\n\n**Here's why:**\n\n* A linear SVM aims to find the **hyperplane** that best separates data points of different classes.\n\n* A good SVM model strives to achieve a **large margin**, meaning it aims to maximize the distance between the separating hyperplane and the closest data points of each class.\n\nThis helps the SVM generalize well to unseen data.\n\n**Therefore, the correct answer is D.**\n\n**A. \n\n**\n\n* **A. \n\n**A more accurate answer would be:**\n\n**D. A complex model can lead to overfitting, where it performs well on the training data but poorly on the testing data.**\n\n**This is because:**\n\n* **Overfitting** occurs when a model learns the training data too well, including its noise and outliers.\n\n* A complex model with many parameters and a high degree of freedom is more likely to fit the training data too closely, leading to a **large training accuracy** but **poor performance on new data**.\n\n**Let me know if you'd like to explore more about SVM and its applications!**",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '聚類分析可以睇作係一種非監督嘅分類。'], ['B', '喺聚類分析當中，簇內嘅相似性越大，簇間嘅差別越大，聚類嘅效果就越差。'], ['C', 'SVM係噉樣一個分類器，佢搵具有最細邊緣嘅超平面，噉所以佢都經常被稱為最細邊緣分類器'], ['D', '喺決策樹中，隨住樹中節點數變得太大，即使模型嘅訓練誤差仲喺繼續減低，但係檢驗誤差開始增大，呢係出現咗模型擬合不足嘅問題。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列選項中，識別模式與其他唔一樣嘅係",
+    "llm_output": "The answer is **D. 醫生畀病人診斷發病類型**\n\nHere's why:\n\n* **A. 出行方式判斷:步行、踩單車、坐車** - This is a task of pattern recognition in machine learning.\n\n* **B. 識別模式** - This directly translates to \"recognize patterns\" and is a general concept of machine learning, not a specific task.\n\n* **C. 患者年齡判斷** - This is a task of pattern recognition, but it's not the only one that fits the description.\n\n* **B. 醫生畀病人診斷發病類型** - This is a specific example of a task where a machine learning model could be used to identify patterns (in symptoms, medical history, etc.) and predict the type of illness.\n\n**Therefore, the question is asking about a task that is different from pattern recognition, making option C the correct answer.** \n\nLet me know if you'd like to try another example!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '出行方式判斷:步行、踩單車、坐車'], ['B', '用戶年齡分佈判斷:少年、青年、中年、老年'], ['C', '派信員分揀信件'], ['D', '醫生畀病人診斷發病類型']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列講法唔正確嘅係",
+    "llm_output": "**B. 共軛梯度法僅需利用一階導數嘅信息，但係收斂速度高於梯度下降法**\n\n**C. 梯度下降法**\n\n**正確講法：**\n\n* 共軛梯度法需要用到**一階導數**和**二階導數**信息，即梯度和黑塞矩阵（Hessian matrix）信息。\n* 梯度下降法**通常**用於最小化成本函數，而**梯度下降法**的**效率**取決於成本函數的特性和數據規模。\n\n**更詳細解釋：**\n\n* 梯度下降法**（Gradient Descent）** 是一種利用**一階導數**來尋找函數最小值的優化算法。\n* **隨機梯度下降法** 是一種更**高效**的**梯度下降法**變體，它可以**加速**學習過程，但並非總是比標準梯度下降法快。\n\n**所以，B 和 C 的答案不正確。**\n\n**正確答案：**\n\n* **B. 共軛梯度法** 是一種需要計算**一階和二階導數**的**梯度下降**方法的變體。\n\n* **共軛梯度法** 是一種更複雜的**梯度下降**方法，它需要**更多計算資源**來計算**Hessian matrix**，而**Hessian matrix**的計算**需要更多時間**，因為它涉及到計算**二階導數**，而**梯度下降法**的**優化**方法**通常**是**利用**梯度信息來进行**迭代更新**。\n\n**注意：**\n\n* **梯度下降法** 是一種**迭代**的**優化**方法，它需要**梯度**信息來进行**梯度下降**，而**梯度下降法**的**迭代**方法**是**通过计算**一階導數**的梯度来更新模型參數**。\n\n* 標準的**梯度下降**方法**（Stochastic Gradient Descent）** 虽然**收斂速度**快，但它**並非總是**能找到全局最优解，因为它容易陷入**局部最小值**。\n\n* **梯度下降**方法的**一個劣勢**是**它需要** **更多計算資源** **来计算** **Hessian matrix** **，因为它需要计算** **所有** **数据点的梯度**。\n\n* **它可能**陷入局部最小值，而**無法**保證找到全局最優解。\n\n**其他選項：**\n\n* **A. 共軛梯度法** 這個選項**錯誤**，因為它描述的是一個**優化**方法的特性，而不是**數據**的特性。\n\n* **C. 標準梯度下降法** 雖然**C. 數據**的描述也存在**錯誤**，但它**並非**描述**B. 這個選項**錯誤**。\n\n**D. 梯度下降** 是一個需要計算**所有**數據點的**梯度**的**描述**，而**標準梯度**下降法**需要**數據**的**梯度**信息，而**D. 梯度下降法**的**描述**則**不完全正確**。\n\n**總結：**\n\n**正確答案：**\n\n* **D. 标准梯度下降法** 是一個**梯度**下降法**效率**的**迭代**方法**的描述**，因為它**需要**的**是**數據的**所有**數據點的**梯度**信息。\n\n**其他選項**的錯誤**：**\n\n* **D. 标准梯度下降法** 是一種**需要****迭代**的**方法**，但它**並非****快速**的**描述**。\n\n* **其他** 选项**的描述** 都是**错误**的，因为它们將**標準**的**（Stochastic Gradient Descent）** 誤解為**（Stochastic Gradient Descent）**的**一個**特點。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '梯度下降法係利用當前位置嘅負梯度作為搜索方向嘅方法'], ['B', '共軛梯度法僅需利用一階導數嘅信息，但係收斂速度高於梯度下降法'], ['C', '批量梯度下降同隨機梯度下降相比，批量梯度下降優勢係對於大規模樣本效率好高'], ['D', '牛頓法同梯度下降法相比，一個劣勢係求解複雜，一個優勢係收斂速度加快']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺隱馬爾科夫模型中,如果已知觀察序列同產生觀察序列嘅狀態序列,噉可用以下邊種方法直接進行參數估計",
+    "llm_output": "B. 極大似然估計 (Maximum Likelihood Estimation) \n\n\n**解释:**\n\n* **极大似然估計 (EM算法)** 係一種用於含有隱含變量嘅模型中，用來估計參數嘅方法。當觀察序列已知時，EM算法可以利用 E 步同 M 步 兩個步驟，將狀態序列中嘅未知部分透過最大化似然函數來推斷出。\n\n**其他选项解释:**\n\n* **A. 前向后向算法** 是一种用于计算给定一个观察序列，每个状态的概率在 HMM 中的计算过程。\n* **C. 维特比算法** 是一种用于找到产生给定观察序列的最可能隐藏状态序列的动态规划算法。\n* **D. EM算法** 是一种用于估计 HMM 隐含状态概率的常用算法，但它並非直接用於估計状态序列。\n\n",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '前向後向算法'], ['B', '極大似然估計'], ['C', '維特比算法'], ['D', 'EM算法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "LDA(Latent Dirichlet allocation)中歸屬於同一主題下單詞分佈嘅先驗分佈係?",
+    "llm_output": "B. 狄利克雷分佈",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '正態分佈'], ['B', '狄利克雷分佈'], ['C', '多項分佈'], ['D', '二項分佈']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "線性回歸嘅基本假設唔包括邊個",
+    "llm_output": "The correct answer is **D. 隨機誤差項彼此相關**\n\nHere's why:\n\n* **D. 隨機誤差項彼此相關** is incorrect. A fundamental assumption of linear regression is that the error terms (residuals) are **independent** of each other.\n\nLet's break down the other options:\n\n* **A. 對於解釋變量嘅所有觀測值，解釋變量有相同嘅期望值**\n\nThis is a key assumption of linear regression. The variance of the errors should be constant across all levels of the independent variable.\n\n* **B. 隨機誤差項獨立同分佈相同**\n\nThis is also a key assumption, stating that the errors have a constant variance (homoscedasticity) across all observations.\n\n* **C. 誤差項服從正態分佈**\n\nWhile it's often assumed that error terms are normally distributed for simplicity and ease of interpretation, the assumption of **linearity** (that the relationship between variables is linear) and **normality of residuals** are the more common and important assumptions in linear regression.\n\nLet me know if you'd like to see more examples of linear regression assumptions!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '對於解釋變量嘅所有觀測值，隨機誤差項有相同嘅方差'], ['B', '隨機誤差項係一個期望值為0嘅隨機變量'], ['C', '隨機誤差項服從正態分佈'], ['D', '隨機誤差項彼此相關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列唔係SVM核函數嘅係",
+    "llm_output": "D. **logistic核函數** \n\n**Explanation:**\n\nLogistic regression is a separate algorithm from Support Vector Machines (SVM). While both are used for classification, they use different underlying methods.\n\n**SVM Kernel Functions:**\n\nSVM kernel functions are used to transform the input data into a higher-dimensional space, where it becomes easier to classify them with a hyperplane.\n\n**SVM and its common kernel functions:**\n\n* **Sigmoid核函數 (Sigmoid Kernel Function):**  SVMs can use a sigmoid kernel.\n* **多項式核函數 (Polynomial Kernel Function):** SVMs can use a polynomial kernel.\n* **Gaussian kernel (a type of RBF kernel):** This is a common and powerful choice for SVM.\n\n**D. logistic核函數 (Logistic Kernel Function):** This is not a standard kernel function used in SVMs.\n\n**Therefore, the correct answer is D.**",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'Sigmoid核函數'], ['B', '徑向基核函數'], ['C', '多項式核函數'], ['D', 'logistic核函數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊啲係非監督學習方法",
+    "llm_output": "The correct answer is **B. K-means**.\n\nHere's why:\n\n* **K-means** is a classic unsupervised learning algorithm used for clustering, which means it groups data points based on similarity without needing labeled data.\n\nThe other options are incorrect because:\n\n* **SVM (Support Vector Machine)** is a supervised learning method used for classification and regression tasks.\n* **KNN (K-Nearest Neighbors)** is a supervised learning method used for classification and regression tasks.\n* **決策樹 (Decision Tree)** is a supervised learning method used for classification and regression tasks. \n\nIt's important to note that while **決策樹 (Decision Tree)** is a supervised learning method, **KNN** is a supervised learning method that can be used for both classification and regression.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'SVM'], ['B', 'K-means'], ['C', 'KNN'], ['D', '決策樹']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊種方法屬於判別式模型",
+    "llm_output": "D. 支持向量模型 (Support Vector Machine)",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '貝葉斯網絡'], ['B', '樸素貝葉斯'], ['C', '隱馬模型'], ['D', '支持向量機']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "下面嘅交叉驗證方法：i. 有放返嘅Bootstrap方法；ii. 留一個測試樣本嘅交叉驗證；iii. 5摺交叉驗證；iv. 重複兩次嘅5摺教程驗證。當樣本係1000時，下面執行時間嘅順序，正確嘅係",
+    "llm_output": "The correct answer is **C. iv > iii > ii > i**.\n\nHere's why:\n\n* **5摺交叉驗證 (iii)** is generally faster than **Leave-One-Out (LOOCV) Cross Validation (i)** because it uses only a subset of the data for training and testing.\n\n* **Leave-one-out (LOOCV) cross validation** uses a single data point for testing and the rest for training in each fold.  \n\n* **Leave-one-out (LOO) cross validation (ii)** is a specific type of 5-fold cross-validation where only one data point is left out for testing at a time. This method is more computationally expensive than 5-fold cross-validation.\n\n* **5-fold cross-validation (i)** is a general term for a type of cross-validation where the data is split into 5 folds.\n\n* **Repeated 5-fold cross-validation** (like the **5-fold LOO (i)**) is a more robust method because it uses multiple iterations of 5-fold cross-validation to get a more stable estimate of the model's performance.\n\n* **5摺交叉驗證 (5-fold cross-validation) is a type of cross-validation**, but the **\"one\" in \"Leave-one-out\" (LOOCV)** refers to a specific type of **cross-validation** with a **single data point** for testing in each iteration.\n\nLet me know if you'd like to know more about any of these methods!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'ii > iv > iii > i'], ['B', 'ii > iii > iv > i'], ['C', 'iv > i > ii > iii'], ['D', 'i > ii > iii > iv']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "Seq2Seq模型喺解碼時可以揀用嘅方法",
+    "llm_output": "The answer is **B. Beam Search**.\n\nHere's why:\n\n* **Greedy Algorithm** and **Beam Search** are both decoding methods used in Seq2Seq models.\n\n* **Greedy decoding** chooses the word with the highest probability at each step during generation.\n\n* **Beam Search** is a more sophisticated approach that considers multiple high-probability word sequences at each step, leading to potentially better results than greedy decoding.\n\n**Let me know if you'd like more explanation on the differences between greedy decoding and Beam Search in the context of Seq2Seq models.**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '貪心算法'], ['B', '二者均可'], ['C', 'Beam Search'], ['D', '二者均不可']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "解決隱馬模型中預測問題嘅算法係",
+    "llm_output": "The answer is **B. 維特比算法 (Viterbi Algorithm)**. \n\nHere's why:\n\n* **Viterbi Algorithm:** This algorithm is specifically designed to find the most likely sequence of hidden states in a Hidden Markov Model (HMM). It does this by efficiently calculating the probability of all possible hidden state sequences and choosing the most probable one.\n\nLet me know if you'd like to know more about how the Viterbi Algorithm works!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '前向算法'], ['B', '維特比算法'], ['C', 'Baum-Welch算法'], ['D', '後向算法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下對k-means聚類算法解釋正確嘅係",
+    "llm_output": "The correct answer is **B. 唔能自動識別類嘅個數** (Can't automatically determine the number of clusters, 不会自动确定簇的数量)\n\nHere's why:\n\n* **k-means requires you to pre-define the number of clusters (k).** It's a key parameter you need to choose before running the algorithm.\n\nLet me know if you'd like to know more about how to choose the optimal 'k' for k-means clustering!",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算'], ['B', '唔能自動識別類嘅個數, 唔係隨機挑選初始點為中心點計算'], ['C', '唔能自動識別類嘅個數, 隨機挑選初始點為中心點計算'], ['D', '能自動識別類嘅個數, 隨機挑選初始點為中心點計算']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "一般，k-NN最近鄰方法喺（）嘅情況下效果較好",
+    "llm_output": "Here's the breakdown of why the answer is **A. 樣本呈團狀分佈** (Data is in clusters) and the other options are incorrect:\n\n* **k-NN works best when data is in clusters:** This is the core idea behind k-NN. It relies on the similarity between data points to make predictions, and clustered data means similar examples are grouped together, making it easier for k-NN to find the nearest neighbors and make accurate classifications.\n\n* **k-NN does not require data to be in a specific format:** While k-NN works well with clustered data, it can be applied to data with various distributions. The \"nearest neighbor\" concept is about finding similar data points, regardless of their overall arrangement.\n\n* **k-NN struggles with complex data patterns:** This is true for some machine learning algorithms, but not necessarily k-NN.  k-NN's performance depends on the chosen distance metric and the value of 'k', and can be effective even with complex data patterns if the data is well-clustered.\n\n* **Data is typically needs to be preprocessed:** This is true for many machine learning algorithms, but it's not a specific condition for k-NN to perform well.\n\nLet me know if you'd like to try another question!",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '樣本呈團狀分佈'], ['B', '樣本較多但典型性唔好'], ['C', '樣本呈鏈狀分佈'], ['D', '樣本較少但典型性好']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "一監獄人臉識別准入系統用嚟識別待進入人員嘅身份，呢系統一共包括識別4種唔同嘅人員：獄警，賊，送餐員，其他。下面邊種學習方法最適合呢種應用需求",
+    "llm_output": "The answer is **A. 多分類問題** (multi-class classification).\n\nHere's why:\n\n* **多分類問題** (Multi-class classification) is a type of classification task that involves assigning data to one of three or more categories. This perfectly describes the scenario of a prison identification system.\n\nLet me know if you'd like to know more about multi-class classification problems in machine learning!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '多分類問題'], ['B', '二分類問題'], ['C', 'k-中心點聚類問題'], ['D', '層次聚類問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗得到同 SVD 一樣嘅投射（projection），你需要喺 PCA 中點樣做",
+    "llm_output": "The answer is **A. 將數據轉換成零均值**\n\nHere's why:\n\n* **PCA (Principal Component Analysis)** aims to find the principal components of a dataset, which are new, uncorrelated variables that capture the maximum variance in the data.  \n\n* **SVD (Singular Value Decomposition)** is a matrix factorization technique that can be used to obtain the principal components.\n\nTherefore, the correct answer is **A. 將數據轉換成零均值** because it's a key step in the process of performing PCA.\n\n**Important Note:**\n\nThe other options are incorrect.\n\n* **B. 無法做到 (Cannot be done)** is not a specific technique related to SVD.\n* **C. 將數據轉換成零中值 (將數據轉換成零中位數)** is not a standard term in statistics.\n\n**D. 將數據轉換成零中位數 (Transform the data to zero median)** is incorrect because SVD is a technique used to find the principal components, and the concept of \"median\" is used for summarizing data, not for data transformation in PCA.\n\n**Correct Answer Explanation:**\n\nPCA aims to reduce the dimensionality of data while preserving as much variance as possible. This is achieved by finding the principal components, which are linear combinations of the original variables that capture the most important variations in the data.\n\n* **Centering the data (將數據轉換成零均值)** is a crucial step in PCA. It involves subtracting the mean of each feature from the data points. This ensures that the principal components are calculated based on the variance of the data, not its absolute scale.\n\n* **Why is this important?**\n\n    * **Removing the bias:**  Data often has inherent biases, like one feature having a larger average value than others. Centering the data removes these biases, allowing PCA to focus on the patterns within the data rather than the overall offset of each variable.\n    * **Focusing on variance:** By centering, PCA can identify the directions of greatest variance in the data, which are the principal components.\n\n    * **How does it work?**\n\n    * Centering the data allows PCA to find the principal components by finding the eigenvectors of the covariance matrix. The covariance matrix measures the relationships between the different features of the data.\n\n    * **How does it relate to the question?**\n\n    * The question implies finding a way to represent the data in a lower-dimensional space while maintaining the most important information. This is precisely what **PCA aims to achieve by transforming the data into a space defined by its principal components (which are calculated from the covariance matrix).**\n\nLet me know if you'd like to know more about how PCA works!",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '將數據轉換成零均值'], ['B', '無法做到'], ['C', '將數據轉換成零眾數'], ['D', '將數據轉換成零中位數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "喺統計模式分類問題中，當先驗概率未知時，可以使用",
+    "llm_output": "C. 最小誤判概率準則 (Minimum Bayes Risk Decision)\n\n**Explanation:**\n\n* **最小最大化損失準則 (A. Minimum)** is not a valid term in the context of machine learning.\n\n* **Bayes** 係一個統計學家，**Bayes' rule** 係一個機器學習中常用嘅概念，用於計算後驗概率，所以呢個答案係錯誤嘅。\n\n* **最大似然估計 (B. Maximum Likelihood Estimation)** is a method for estimating the parameters of a statistical model, but it doesn't directly address the issue of unknown prior probabilities.\n\n* **最小先驗分類準則 (C. Minimum)** 係一個 **machine learning** 中用於選擇預測值最接近實際值嘅模型參數嘅方法，可以根據數據中嘅樣本數量來調整，以平衡不同類別嘅錯誤。\n\n* **最小誤判分類 (D. Minimum)** 係一個錯誤分類，因為呢個答案並唔代表任何一個機器學習概念。\n\n\n\n所以，C. 最小誤判概率 (**Minimum Error Probability**) 係 **統計學** 中用於選擇後驗概率最小的模型，而 **機器學習** 嘅目標就係要建立一個模型，可以根據數據做預測，而呢個目標並唔需要知道 **prior probabilities**。\n\n**希望呢個解釋可以幫到你！**",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'N-P判決'], ['B', '最小最大損失準則'], ['C', '最小損失準則'], ['D', '最小誤判概率準則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "gemma2-27b-it-hf",
+    "dataset": "CMMLU-machine_learning",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊啲方法唔可以直接嚟對文本分類",
+    "llm_output": "The answer is **B. Kmeans**.\n\nHere's why:\n\n* **Kmeans** is a clustering algorithm, not a classification algorithm. It groups similar data points together but doesn't assign them to pre-defined categories.\n\nThe other options are all classification algorithms that can be applied to text data:\n\n* **Decision Trees** can be used for text classification after converting the text data into a numerical format that the algorithm can understand.\n* **Support Vector Machines (SVMs)** are powerful for text classification, often used in text-based tasks.\n* **KNN (K-Nearest Neighbors)** is a classification algorithm that can be used with numerical data representations of text. \n\n\nLet me know if you'd like to know more about how these algorithms are used for text classification!",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '決策樹'], ['B', 'Kmeans'], ['C', '支持向量機'], ['D', 'KNN']]",
+    "is_correct": 1
+  }
+]

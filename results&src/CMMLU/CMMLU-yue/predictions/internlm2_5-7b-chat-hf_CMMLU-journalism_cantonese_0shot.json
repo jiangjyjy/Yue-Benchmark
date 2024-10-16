@@ -1,0 +1,1722 @@
+[
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "拉斯韋爾傳播模式有五個環節，傳播學對其中第一個環節嘅研究叫做乜嘢？",
+    "llm_output": "拉斯韋爾傳播模式（Las韦尔的传播模式）是传播学中的一个经典理论，由哈罗德·拉斯韦尔（Harold Lasswell）在1948年提出。该模式描述了信息传播的五个基本环节，即：\n\n1. 谁（Who）：信息的发出者或传播者。\n2. 说了什么（What）：信息的内容。\n3. 通过什么渠道（Through which channel）：信息传播的媒介。\n4. 对谁（To whom）：信息的接收者或受众。\n5. 产生了什么效果（With what effect）：信息传播后对受众产生的影响。\n\n根据上述模式，第一个环节是“谁（Who）”，即信息的发出者或传播者。在传播学中，对这个环节的研究通常被称为“控制研究”（Control Research），因为它关注的是传播过程中的控制因素，包括传播者的身份、动机、目的以及他们如何控制信息的制作和传播。\n\n因此，正确答案是：\n\nC. 控制研究",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '媒介研究'], ['B', '內容研究'], ['C', '控制研究'], ['D', '受眾研究']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "登廣告嘅傳播影響係點嘅？",
+    "llm_output": "登廣告的传播影响是有意图的。广告主通过广告来传达特定的信息，影响消费者的观念和行为，从而达到推广产品或服务的目的。因此，正确答案是 D. 有意圖嘅。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自由選擇嘅'], ['B', '隨便嘅'], ['C', '強制嘅'], ['D', '有意圖嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "信息大量生產同快速傳播超過媒介空間容納能力，造成劇烈傳播反應，呢個叫乜嘢？",
+    "llm_output": "C. 信息爆炸\n\n這個問題描述的是當信息量急劇增加，而媒體空間無法完全容納這些信息時，所導致的現象。這個現象通常被稱作“信息爆炸”（Information Explosion）。它指的是在數位時代，隨著互聯網、社交媒體和其他數碼平台的普及，人們接觸到的信息量呈指數級增加，這往往會導致信息過載和注意力分散等問題。其他選項如信息污染、信息匱乏和信息侵略，則指涉不同的概念，並不適用於這個描述。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '信息污染'], ['B', '信息匱乏'], ['C', '信息爆炸'], ['D', '信息侵略']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞傳播過程嘅主要環節係乜嘢？",
+    "llm_output": "正確答案係 B. 揀選事實—加工製作—播報傳遞—受眾接受—信息反饋。\n\n新聞傳播過程主要包括以下環節：\n\n1. **揀選事實**：媒體工作者從眾多信息中選擇出具有新聞價值的事件。\n2. **加工製作**：選定的新聞事實需要進行編輯、撰寫、配圖、錄音或錄像等加工製作，以適合不同的媒體格式。\n3. **播報傳遞**：完成加工的內容通過各種媒體渠道（如報紙、電視、網絡等）向公眾傳播。\n4. **受眾接受**：受眾通過閱讀、觀看或聆聽等方式接收並理解傳播的信息。\n5. **信息反饋**：受眾對接收到的信息做出反應，可能包括評論、反饋、分享等，這些反饋又會影響媒體對未來的報導策略。\n\n選項 A 和 C 中的 \"評價事實\" 和 \"分析評論\" 通常不是新聞傳播過程的一部分，而是新聞編輯和分析過程中可能涉及的環節。選項 D 中的 \"信息複製\" 也非新聞傳播過程的一部分，因此 B 選項是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '揀選事實—評價事實—播報傳遞—受眾接受—信息反饋'], ['B', '揀選事實—加工製作—播報傳遞—受眾接受—信息反饋'], ['C', '揀選事實—加工製作—分析評論—受眾接受—信息複製'], ['D', '揀選事實—加工製作—分析評論—受眾接受—信息反饋']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀20年代，美國同日本學者最睇重新聞價值構成因素中嘅邊個因素，認為佢係新聞嘅第一因素，係新聞嘅試金石？",
+    "llm_output": "正確答案係 B. 重要性。\n\n在20世紀20年代，美國和日本的新闻学者普遍认为新闻价值构成因素中，重要性是最为关键的。他们认为重要性是新闻的第一因素，也是新闻的试金石。重要性通常指的是新闻事件对社会、政治、经济等方面的重大影响，以及其对公众的广泛影响和紧迫性。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '趣味性'], ['B', '重要性'], ['C', '顯著性'], ['D', '接近性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞控制嘅目標係乜嘢？",
+    "llm_output": "新聞控制的主要目標是平衡新聞自由與社會秩序之间的关系。在选项中，D项“新聞責任同新聞自由嘅統一”最贴切地描述了新闻控制的目标。新闻自由是新闻业的基本原则，而新闻责任则确保新闻报道的准确性和道德性，防止滥用新闻自由。因此，正确答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新聞傳播同新聞接受嘅統一'], ['B', '新聞管理同新聞自由嘅統一'], ['C', '新聞自由同行為規範嘅統一'], ['D', '新聞責任同新聞自由嘅統一']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "有人宣洩被壓抑咗嘅慾望，呢個喺信息嘅分類上被稱做乜嘢信息？",
+    "llm_output": "A. 復原性信息\n\n正確答案係A，復原性信息。復原性信息是指那些能夠幫助人們從壓抑、悲傷或挫折中恢復過來的信息。當人們面對困難或壓力時，復原性信息可以提供情感支持、鼓勵和希望，幫助他們重新建立自信和積極的心態。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '復原性信息'], ['B', '知識性信息'], ['C', '維持性信息'], ['D', '教育性信息']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "法西斯嘅新聞事業屬於乜嘢階段？",
+    "llm_output": "正確答案係C. 集權主義。\n\n法西斯主義通常被定義為一種極權政治制度，其特點是強烈的国家權力集中和對個人自由的壓抑。在法西斯國家，新聞事業往往受到嚴格控制，並且被用來宣傳政府的政策和意圖。因此，法西斯的新闻事业属于集权主义阶段，而不是自由主义、社会主义或集团垄断资本主义阶段。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自由主義'], ['B', '社會主義'], ['C', '集權主義'], ['D', '集團壟斷資本主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "按照選擇性因素理論嘅觀點，大眾傳播嘅信息傳向受眾時遇到嘅最後一關係受眾嘅",
+    "llm_output": "按照選擇性因素理論的观点，大眾傳播的信息在传向受众时遇到的最后一层关系是受众的“选择性感知”。因此，正确答案是：\n\nA. 選擇性理解\n\n此選項代表了受众在接收到信息后，会根据自己的兴趣、需求、价值观和以往的经验对信息进行解读和理解，这个过程被称为“选择性理解”。其他选项虽然也是选择性因素理論中的一部分，但它们描述的是受众在接触信息之前或过程中的不同阶段，而不是最终阶段。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '選擇性理解'], ['B', '選擇性注意'], ['C', '選擇性暴露'], ['D', '選擇性記憶']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "音響喺新聞節目中最基本同最重要嘅作用係乜嘢？",
+    "llm_output": "B. 增加報道嘅現場感\n\n音響在新聞節目中扮演著增強現場感的重要角色。它通過使用現場錄音、專訪、背景音樂和聲音效果，使得觀眾能夠感受到報導現場的氣氛和情境，從而提升報導的吸引力和可信度。其他選項如增加可信性、生動性和感染力，雖然也是音響在新聞報導中可能發揮的作用，但現場感是音響在新聞中基本且最重要的功能。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '增加報道嘅可信性'], ['B', '增加報道嘅現場感'], ['C', '增加報道嘅生動性'], ['D', '增加報道嘅感染力']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "直接導致「魔彈」被否定嘅理論係",
+    "llm_output": "正確答案係 D. 有限效果論。\n\n「魔彈」理論，又稱為「皮下注射理論」，是指在20世紀初期，人們認為媒體具有強大的影響力，能夠像皮下注射一樣直接影響觀眾的思想和行為。然而，隨著研究方法的進步和研究結果的累積，特別是1960年代後，有限效果論逐漸取代了魔彈理論。\n\n有限效果論認為，媒體對觀眾的影響是有限的，並且受到個人因素、社會因素等多種變量的影響。這一理論強調了媒體效果的中介作用和緩慢效果，並指出媒體不能單獨決定觀眾的行為或思想。\n\n因此，有限效果論直接否定了魔彈理論，指出媒體的影響力是有限的，而非無限的強大。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新嘅強效力論'], ['B', '信源嘅可信效果論'], ['C', '適度效果論'], ['D', '有限效果論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "事件消息按內容性質可以分為",
+    "llm_output": "事件消息按內容性質可以分為B. 典型性。\n\n事件消息通常根据其内容性质被分类为不同的类型。在新闻学中，事件消息的分类依据多种标准，包括内容性质、报道方式、时效性等。其中，根据内容性质，事件消息可以被分为典型性事件消息和非典型性事件消息。\n\n典型性事件消息指的是那些具有代表性、能反映某一时期或某一领域内普遍现象的事件消息。这类消息往往具有普遍性、典型性和指导性，能够为读者提供对某一现象或问题的深入理解。\n\n其他选项如A. 概貌性、C. 階段性、D. 突發性，虽然也是新闻报道中常见的分类方式，但它们并不是根据内容性质来分类的。概貌性通常指的是对事件的整体描述，階段性可能指的是事件发展的不同阶段，而突發性则是指事件发生的速度和不可预测性。因此，正确答案是B. 典型性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '概貌性'], ['B', '典型性'], ['C', '階段性'], ['D', '突發性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "如果我哋需要一種具備高度嘅綜合性、充分嘅交互性、方便性同快捷性嘅媒介，應該選擇",
+    "llm_output": "正確答案：A. 網絡媒介\n\n解釋：\n網絡媒介具有高度的综合性和交互性，它能夠整合文字、圖像、聲音和視頻等多種信息形式，並提供即時互動的平台。網絡媒介的方便性和快捷性也使得信息能夠迅速傳播，用戶可以隨時隨地獲取最新資訊。相比之下，其他媒介如影視、廣播和印刷媒介雖然各自有其特點，但在綜合性、交互性、方便性和快捷性方面均不及網絡媒介。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '網絡媒介'], ['B', '影視媒介'], ['C', '廣播媒介'], ['D', '印刷媒介']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞媒介開展輿論監督，最常用嘅形式係",
+    "llm_output": "B. 新聞批評\n\n新聞媒介開展輿論監督，最常用嘅形式係新聞批評。新聞批評是指媒體對公共事件、政策、機構或個人行為進行評估和批判，以促進透明度和責任感。深度報道、新聞評論和專題報道也是新聞媒介常用的形式，但新聞批評特指對特定事件或問題進行批判性報導，因此選項B為正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '深度報道'], ['B', '新聞批評'], ['C', '新聞評論'], ['D', '專題報道']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺新聞傳播過程中，角色互換嘅根本目的係",
+    "llm_output": "A. 令傳播者更加有效地為受者服務\n\n在新聞傳播過程中，角色互換的根本目的是为了让傳播者更加有效地為受者服務。這涉及到傳播者理解受者需求和期望，並依此調整傳播策略和內容，以提高信息的接收和理解。其他選項，如B、C和D，雖然也可能是角色互換的副作用或效果，但它們不是互換角色的根本目的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '令傳播者更加有效地為受者服務'], ['B', '令受者體驗傳播者嘅角色'], ['C', '令受者感知傳播者嘅期望'], ['D', '令受者接受傳播者嘅觀點、意圖']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "麥克盧漢媒介理論嘅中心論點係",
+    "llm_output": "正確答案係 B. 媒介即訊息。\n\n麦克卢汉（Marshall McLuhan）是加拿大著名的媒介理论家，他的媒介理论强调媒介本身而非媒介内容的重要性。他提出了“媒介即讯息”（The medium is the message）这一中心论点，意指媒介形式对人类社会和文化的影响比媒介内容更为深远和根本。\n\n其他选项的解释如下：\nA. 全球村（Global Village）是麦克卢汉提出的另一个概念，指的是由于电子媒介的发展，人与人之间的距离被大大缩短，世界变得越来越像一个村庄。\nC. 媒介是人體嘅延伸（Medium is the extension of man）是麦克卢汉的另一重要观点，他认为每种媒介都是人类感官的延伸，例如书写是手的延伸，印刷是眼睛的延伸。\nD. 媒介有「冷」、「熱」之分（Hot and cold media）是麦克卢汉对媒介分类的一种方式，他认为“冷媒介”要求接收者投入更多的思考和感官参与，而“热媒介”则提供更多的信息和感官刺激，因此需要较少的参与。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '全球村'], ['B', '媒介即訊息'], ['C', '媒介係人體嘅延伸'], ['D', '媒介有「冷」、「熱」之分']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞傳媒作為社會輿論嘅代表者，佢體現嘅應該係",
+    "llm_output": "正確答案係C. 社會公眾嘅利益同意志。\n\n新聞傳媒作為社會舆论的代表者，其核心職責是向公眾提供真實、公正、全面的信息，反映社會各層面的聲音，並促進公共利益。新聞傳媒不應僅僅代表某一特定利益團體，如政黨、立法機關、司法機關或權力機關，而應該以社會公眾的利益為依歸，提供多角度、多層次的報導，以增進公共知識，促進社會進步。因此，C選項最恰當地描述了新聞傳媒作為社會輿論代表者應該體現的利益同意志。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '政黨嘅利益同意志'], ['B', '立法機關同司法機關嘅利益同意志'], ['C', '社會公眾嘅利益同意志'], ['D', '權力機關嘅利益同意志']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞信息嘅傳播特性係",
+    "llm_output": "正確答案係C。新聞信息嘅傳播特性係及時又迅速。新聞作為信息傳播的媒介，其核心價值之一就是能夠迅速地將新近發生的事件或消息傳達到公眾面前，這就要求新聞工作者必須具有極高的時效性，並且能夠快速地採集、編輯和發佈信息。此外，新聞信息通常也是公開的，因為它們旨在向大眾提供資訊，但這不是新聞信息傳播的主要特性。公正性則是指新聞報導應該保持客觀公正，不偏袒任何一方，這是新聞職業道德的一部分，但並非新聞信息傳播的固有特性。因此，最符合新聞信息傳播特性的選項是C。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '及時又公開'], ['B', '公開又公正'], ['C', '及時又迅速'], ['D', '公正又及時']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "資本家直接決定新聞傳播嘅方向同規模，主要憑藉",
+    "llm_output": "正確答案：B. 新聞資產嘅擁有權同支配權\n\n解釋：資本家通常透過擁有和支配新聞機構的資產，來決定新聞的傳播方向和規模。他們可以控制資金流向，招聘和解僱編輯和記者，以及選擇報導哪些新聞故事。雖然言論出版自由權、倫理道德和法律法規均對新聞業有影響，但資產的擁有權和支配權是資本家直接決定新聞傳播方向和規模的主要手段。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '言論出版自由權'], ['B', '新聞資產嘅擁有權同支配權'], ['C', '倫理道德'], ['D', '法律法規']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺我國新聞界，新聞價值呢一概念最早係從美國同日本引入嘅。係邊個引入嘅？",
+    "llm_output": "正確答案係D. 戈公振。戈公振，原名戈定一，字公振，號蘧廬，是中國早期新聞學理論的奠基人之一。他於1918年在《申报》上發表了《新聞學大意》，這篇文章被視為中國新聞學理論的開端，其中就提到了新聞價值的概念。戈公振的這篇文章對後續中國新聞學理論的發展產生了深遠的影響。其他選項如徐寶璜、鄒韜奮和邵飄萍，雖然他們在中國新聞界也有著重要的地位，但他們不是最先引入新聞價值概念的人。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '徐寶璜'], ['B', '鄒韜奮'], ['C', '邵飄萍'], ['D', '戈公振']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞事業嘅傳播方式係",
+    "llm_output": "D. 點—面傳播\n\n新聞事業通常是指透過媒體平台，如報紙、電視、廣播、互聯網等，將資訊從一個或多個發出點（即新聞機構）傳播到廣大受眾（即面）。因此，這是一種“點—面傳播”的模式。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '面—點傳播'], ['B', '面—面傳播'], ['C', '點—點傳播'], ['D', '點—面傳播']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "大眾傳播嘅傳播者同受傳者可以係",
+    "llm_output": "D. 一班人或者一個人\n\n大眾傳播的傳播者同受傳者可以是一班人或者一個人。在這個過程中，傳播者可以是一個組織、一個媒體機構，甚至是個人，而受傳者可以是大量的公眾，也可以是一個具體的個人。因此，選項D最恰當地描述了傳播者同受傳者之間的關係。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '好多人'], ['B', '兩個人面對面'], ['C', '一個人'], ['D', '一班人或者一個人']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "編製問卷首先需要設計提問項目，呢種設計包括幾個步驟，其中第一個步驟係",
+    "llm_output": "正確答案係 B. 課題分析，提出假設。\n\n在設計問卷的過程中，首先需要進行課題分析，這涉及到理解研究的主題和目標，並根據這些信息提出假設。接著，基於假設，研究者可以確定問卷中需要測量的指標，然後設計具體問題來測定這些指標。最後，問題需要被編製成問卷，以便進行調查。因此，設計問卷的第一個步驟是課題分析，提出假設。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '搵變項，編製提問'], ['B', '課題分析，提出假設'], ['C', '確定指標'], ['D', '測定指標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「自我修正」理論係以下邊個理論嘅一個重要觀點？",
+    "llm_output": "正確答案：A. 自由主義報刊理論\n\n「自我修正」理論是自由主義報刊理論的一個重要觀點。自由主義報刊理論強調媒體應該是自由的，並且有責任向公眾提供資訊，並且能夠自我修正錯誤。這個理論認為，媒體應該是獨立的，並且能夠在面對批評時進行自我修正，以維持其公信力和社會責任。\n\n其他選項：\nB. 極權主義報刊理論強調媒體應該服從權力，並作為權力的工具。\nC. 社會責任理論強調媒體應該承擔社會責任，並且在報導中保持平衡和公正。\nD. 蘇聯共產主義報刊理論強調媒體應該作為國家政策的工具，並服從於當權者。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自由主義報刊理論'], ['B', '極權主義報刊理論'], ['C', '社會責任理論'], ['D', '蘇聯共產主義報刊理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "有論者認為新聞起源於人類與生俱來嘅好奇心，呢種起源觀屬於",
+    "llm_output": "正確答案：A. 本能說\n\n解釋：本能說認為新聞是人的本能需求之一，與生俱來的好奇心驅使人類尋找和分享新鮮信息。這種觀點強調了人類天生的好奇心在新聞活動中的核心作用。其他選項如信息交往說、意志說和社會需求說則從不同的角度解釋了新聞的起源，但 none of them 強調了與生俱來的好奇心。因此，A 選項 \"本能說\" 是對問題描述的適當解釋。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '本能說'], ['B', '信息交往說'], ['C', '意志說'], ['D', '社會需求說']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞立法係指",
+    "llm_output": "正確答案係A。新聞立法是指運用法律手段管理同控制新聞事業的程序原則同機制。這包括制定、頒布和修訂與新聞傳播相關的法律法規，以確保新聞自由與社會責任之間的平衡。這些法律法規通常涵蓋新聞出版、新聞報導、新聞審查、新聞責任等方面，旨在保障公眾的知情權，同時防止假新聞和不實報導對社會造成負面影響。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '運用法律手段管理同控制新聞事業嘅程序原則同機制'], ['B', '統治階級制定、頒布同修訂新聞法律嘅程序同過程'], ['C', '國家制定同頒布嘅有關新聞傳播嘅法律條文'], ['D', '運用新聞媒體對國家立法嘅宣傳']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一種唔係我哋必須遵循嘅傳播原則",
+    "llm_output": "正確答案係 A. 可行性原則。\n\n新聞學中，傳播原則包括可信性原則、適量性原則、適時性原則等，這些原則旨在確保新聞報導的準確性、平衡性、適當性和及時性。然而，可行性原則通常不是新聞傳播必須遵循的原則，因為它更多地涉及媒體機構在報導過程中面臨的實際操作和資源限制，而不是新聞內容本身。\n\n因此，A. 可行性原則不是新聞傳播必須遵循的原則。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可行性原則'], ['B', '可信性原則'], ['C', '適量性原則'], ['D', '適時性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞價值呢一概念以及新聞價值理論嘅真正形成，係喺19世紀30年代嘅",
+    "llm_output": "C. 德國\n\n新聞價值的概念及其理論的真正形成是在19世紀30年代的德國。這個理論由德國的新聞工作者和學者如馬克斯·諾伊曼（Max Neuhaus）和戈特弗里德·盖爾（Gottfried Gael）等人提出，他們提出了新聞選擇和編輯的標準，這些標準至今仍是新聞編輯和報導工作的重要參考。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '中國'], ['B', '美國'], ['C', '德國'], ['D', '日本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "根據便士報時期嘅現實，資產階級提出咗「新聞價值」呢一概念，其本意係對追求新聞嘅（）嘅一種概括。",
+    "llm_output": "C. 商業效益\n\n在便士報時期，資產階級提出了「新聞價值」的概念，其本意主要是为了概括追求新闻的商业效益。便士報時期是指19世紀中期在英国出現的一種新型報紙，它們以低廉的價格（便士）出售，面向廣大普通市民，目的是追求更大的讀者群體，從而實現更大的商業利益。因此，「新聞價值」的概念強調的是如何通過新聞來吸引讀者，增加報紙的銷售量，從而實現商業上的成功。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '輿論效應'], ['B', '娛樂功能'], ['C', '商業效益'], ['D', '社會效益']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺新聞傳播三要素中，除咗事實同新聞接受者之外，另一個係",
+    "llm_output": "正確答案係D. 把關人。\n\n新聞傳播三要素通常包括事實、新聞接受者以及把關人。事實是指新聞所報導的具體事件或信息；新聞接受者是指閱讀、觀看或聆聽新聞的公眾；而把關人則是指在新聞製作和傳播過程中決定哪些信息能夠進入公眾視野的個人或機構。這些要素共同構成了新聞傳播的基礎。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新聞報道者'], ['B', '媒體'], ['C', '經營管理者'], ['D', '把關人']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "關於人類傳播嘅演進規律唔正確嘅係",
+    "llm_output": "C. 傳播媒介嘅發展係替代式嘅，新媒介使一切傳統媒介必然消亡\n\n此選項描述不準確。在人類傳播媒介的演進過程中，新媒介通常不是完全替代舊媒介，而是與舊媒介形成共存和互補的關係。例如，電視的出現並沒有使報紙和廣播消失，而是增加了人們接收信息的多樣性。因此，新媒介和傳統媒介之間往往是競爭與合作並存的關係，而非單一的替代關係。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '傳播媒介嘅發展呈現加速度趨勢'], ['B', '傳播媒介嘅發展係疊加式嘅，新老媒介互相競爭又互相促進'], ['C', '傳播媒介嘅發展係替代式嘅，新媒介使一切傳統媒介必然消亡'], ['D', '傳播媒介嘅發展貫穿人類歷史嘅始終']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "直接導致「魔彈」被否定嘅理論係",
+    "llm_output": "正確答案係 A. 有限效果論。\n\n「魔彈理論」（Mag弹理论）是指在20世纪初，人們認為媒體具有強大的影響力，能夠像魔彈一樣直接改變人們的思想和行為。然而，隨著研究的深入，特別是1960年代後，有限效果論（Limited Effect Theory）逐漸成為主流。\n\n有限效果論認為媒體的影響是有限的，並且受到多種因素的影響，包括個人差異、社會環境、接收情境等。這一理論否定了魔彈理論的強大效果，指出媒體的效果是有限的，且需要考慮多種因素才能理解其影響。\n\n其他選項：\nB. 新嘅強效力論（New Strong Effect Theory）並不存在，可能是對有限效果論的誤解。\nC. 信源嘅可信效果論（Source Credibility Effect Theory）是研究信源可信度對媒體效果影響的理論，但並不是直接導致魔彈理論被否定的理論。\nD. 適度效果論（Moderate Effect Theory）也非直接導致魔彈理論被否定的理論，而是指媒體效果在某些情況下可能會比有限效果論所預測的要強。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '有限效果論'], ['B', '新嘅強效力論'], ['C', '信源嘅可信效果論'], ['D', '適度效果論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "播音員同主持人喺面臨偶發困境或需要轉換對象時，能夠轉承自然，而且語言豐富多彩，呢屬於創造性思維中嘅",
+    "llm_output": "正確答案：D. 靈活性\n\n播音員和主持人需要能夠在面對突發情況或需要轉換話題時，能夠靈活應對，這需要他們擁有高度的靈活性。流暢性指的是言語表達的流暢程度，獨創性則是指創造新意的能力，自然性則是指言語表達的自然度。靈活性則是指能夠根據情境變化靈活調整言語表達的能力，這正是播音員和主持人所需要的重要思維能力。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '流暢性'], ['B', '獨創性'], ['C', '自然性'], ['D', '靈活性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "而家嘅世界，信息侵略",
+    "llm_output": "C. 已經成事實\n\n此題目的正確答案是C。\"已經成事實\"，意味着信息侵略已经成为当前世界的一个现实问题。其他选项要么与问题描述不符，要么没有直接关联。例如，A选项“令黑客受益”虽然可能与信息侵略有关，但并不是对问题描述的直接回答。B选项“仲未嚟臨”意味着信息侵略尚未发生，这与问题描述的“已經成事實”相矛盾。D选项“可能引致戰爭爆發”虽然指出了信息侵略的潜在后果，但并非是对问题描述的直接回答。因此，C选项是最符合问题描述的选项。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '令黑客受益'], ['B', '仲未嚟臨'], ['C', '已經成事實'], ['D', '可能引致戰爭爆發']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞觀指嘅係",
+    "llm_output": "正確答案係 B. 對新聞嘅總體睇法。\n\n新聞觀是指一個人或一群對新聞事件、新聞報導、新聞機構及其運作方式所持有的總體看法和態度。它涵蓋了對新聞價值、新聞倫理、新聞自由、新聞審查、新聞報導風格等多方面的考量。\n\n選項 A 和 C 描述的“一般睇法”和“具體睇法”都未能準確捕捉到新聞觀所涵蓋的總體性質。選項 D 的“正確睇法”則過於主觀，因為新聞觀可以有多種不同的角度和觀點，未必存在一個絕對正確的看法。因此，B 選項最恰當地定義了新聞觀的涵義。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '對新聞嘅一般睇法'], ['B', '對新聞嘅總體睇法'], ['C', '對新聞嘅具體睇法'], ['D', '對新聞嘅正確睇法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀50－60年代，西方新聞學同傳播學研究中，對新聞價值嘅研究頗為突出嘅係蓋爾頓同魯奇嘅",
+    "llm_output": "正確答案係C. 「選擇性守門模式」。\n\n20世紀50至60年代，西方新聞學和傳播學研究中，對新聞價值的研究非常突出，其中，蓋爾頓和魯奇提出了「選擇性守門模式」（Selective Gatekeeping Model）。這個模式強調了媒體組織在信息傳播過程中扮演的關鍵角色，即媒體組織作為信息過濾器，選擇哪些信息應該被傳播給公眾，哪些應該被過濾掉。這個模式對於理解媒體如何影響公眾意識和社會認知具有重要意義。\n\n其他選項描述的模型並不適用於這個問題。A選項的「選擇性傳播模式」和B選項的「輻射性傳播模式」均不是由蓋爾頓和魯奇提出的。D選項的「非羣體化傳播模式」也非此二人提出。因此，C選項是正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「選擇性傳播模式」'], ['B', '「輻射性傳播模式」'], ['C', '「選擇性守門模式」'], ['D', '「非羣體化傳播模式」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "中國第一個報業集團係",
+    "llm_output": "正確答案係 B. 人民日報報業集團。\n\n中國第一個報業集團是於1996年組建的人民日報報業集團，標誌著中國報業進入了一個新的發展階段。該集團的成立，不僅代表著中國報業市場的成熟，也體現了中國媒體機構改革的方向。其他選項如廣州日報報業集團、四川日報報業集團和光明日報報業集團，雖然都是中國著名的報業集團，但它們均不是中國第一個組建而成的報業集團。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '廣州日報報業集團'], ['B', '人民日報報業集團'], ['C', '四川日報報業集團'], ['D', '光明日報報業集團']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞反映社會生活嘅手段係",
+    "llm_output": "正確答案係 D. 忠實。\n\n新聞學中，新聞被視為一種反映社會生活的手段，其核心特點是忠實性。新聞工作者追求的是對事實的準確報導，不應有任何虛假或偏見。因此，新聞的忠實性是它反映社會生活的主要手段。其他選項如虛幻冥想、邏輯推理和藝術再現，均不符合新聞學中對新聞特點的描述。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '虛幻冥想'], ['B', '邏輯推理'], ['C', '藝術再現'], ['D', '忠實']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「合理想象」嘅做法喺新聞報道中",
+    "llm_output": "D. 允許\n\n在新闻报道中，「合理想象」通常被认为是一种允许的做法，但必须是在不违背事实真相的前提下进行。新闻工作者在报道时，应尽量基于事实，避免无根据的推测或虚构。然而，在某些情况下，为了更好地呈现故事或解释复杂的情况，合理想象可以帮助读者更好地理解事件的背景和可能的后果。关键在于这种想象必须是基于现有事实的合理推断，而非凭空捏造。因此，正确答案是D。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '唔允許'], ['B', '無所謂'], ['C', '視情況而定'], ['D', '允許']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "語言嘅抽象程度有高低之分，抽象嘅程度越高，佢同具體實際嘅依存關係就越？",
+    "llm_output": "D. 間接\n\n語言的抽象程度越高，它与具体实际事物的依存关系就越间接。这是因为抽象概念往往涉及更广泛、更普遍的特征，而不是局限于某个具体的实例。例如，“狗”是一个具体的概念，而“动物”则是一个更抽象的概念。“狗”与具体实际事物（如一只具体的狗）有直接关系，而“动物”则与所有具有动物特征的事物都有间接关系。因此，正确答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '有關聯'], ['B', '直接'], ['C', '無關聯'], ['D', '間接']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊個係拉斯韋爾嘅三功能中嘅宣傳作用",
+    "llm_output": "拉斯韋爾（Harold Lasswell）提出了著名的「三功能」理論，即媒體的三大功能：監視、聯絡與教育。其中，宣傳作用屬於監視功能的一部分，主要指的是媒體在監視社會環境、提供資訊、保持社會秩序方面的作用。\n\n因此，選項B「監視社會環境」是拉斯韋爾三功能中屬於宣傳作用的部分。其他選項A「分析傳播內容」、C「協調社會關係」和D「傳衍社會遺產」則屬於其他功能。\n\n正確答案：B. 監視社會環境",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '分析傳播內容'], ['B', '監視社會環境'], ['C', '協調社會關係'], ['D', '傳衍社會遺產']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "決定自我傳播活躍程度嘅係人腦信息庫嘅",
+    "llm_output": "C. 內儲信息量\n\n正確答案係C。人腦信息庫嘅活躍程度主要取決於內儲信息量，即個人內心所儲存嘅知識和經驗。這些信息會影響到個人對資訊的吸收、理解和傳播能力。而網絡信息量和社會信息量雖然對自我傳播有影響，但它們更多是外部因素，而非內在信息庫的直接反映。外存信息量通常指的是外部存儲設備如硬盤、U盤等所存儲嘅信息，與人腦信息庫的活躍程度無直接關聯。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '網絡信息量'], ['B', '社會信息量'], ['C', '內儲信息量'], ['D', '外存信息量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "導致羣眾對典型宣傳產生唔真實感嘅主要原因係",
+    "llm_output": "B. 有意拔高典型\n\n群众对典型宣传产生不真实感的主要原因是宣传中存在有意拔高典型的现象。这种做法往往通过夸大其词、过度美化来塑造典型形象，使得公众难以相信这些典型人物或事件的真实性。而其他选项虽然也可能影响公众对新闻报道的感知，但并非是导致不真实感的主要原因。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '報道數量過大'], ['B', '有意拔高典型'], ['C', '報道篇幅長'], ['D', '報道時間集中']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一種唔屬於傳播者嘅責任",
+    "llm_output": "正確答案係 D. 法規性責任。\n\n傳播者（如新聞工作者）的責任通常包括以下幾個方面：\n\nA. 國際性責任：傳播者有責任遵守國際新聞道德規範，尊重不同文化，避免散播仇恨或歧視性內容。\n\nB. 使命性責任：傳播者有責任傳播真實、公正、全面的信息，以促進公共利益和社會進步。\n\nC. 契約性責任：這通常指的是傳播者與其雇主之間或與其服務對象之間存在的契約關係，傳播者有責任遵守這些契約條款。\n\nD. 法規性責任：這是指傳播者必須遵守的法規和法律，例如不洩露國家機密、不刊載煽動性言論等。然而，法規性責任通常是由法律明確規定，而非傳播者主動承擔的責任。因此，D選項不属于傳播者的責任。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '國際性責任'], ['B', '使命性責任'], ['C', '契約性責任'], ['D', '法規性責任']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺無產階級新聞史上，第一個明確使用報刊工作「黨性」概念，並對其內容作出系統論述嘅係",
+    "llm_output": "正確答案係 D. 列寧。\n\n列寧在無產階級新聞史中，首次明確提出了報刊工作「黨性」的概念，並對其內容進行了系統的論述。他認為，無產階級的報刊應該具有鮮明的黨性，即必須忠實於無產階級的利益和意識形態，並為無產階級的解放事業服務。列寧的這些思想對後續的無產階級新聞理論和實踐產生了深遠的影響。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '毛澤東'], ['B', '馬克思'], ['C', '恩格斯'], ['D', '列寧']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "要保持社會主義新聞事業永遠屬於人民嘅根本屬性，就必須堅持",
+    "llm_output": "正確答案：A. 對黨負責同對人民負責相一致嘅原則\n\n解釋：此題考查的是新聞學中關於社會主義新聞事業屬性的原則。在社會主義制度下，新聞事業被認為是屬於人民的事业，因此必須堅持對黨負責同對人民負責相一致的原則。這一原則強調了新聞事業在服務於黨和人民利益上的統一性，確保新聞報導既要忠實於黨的領導，又要反映人民的意願和需求。其他選項，如新聞的指導性原則、正面宣傳為主的方針以及新聞的真實性原則，都是新聞工作中的重要原則，但它們不是保持社會主義新聞事業屬於人民的根本屬性的唯一或主要原則。因此，A選項是此題的正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '對黨負責同對人民負責相一致嘅原則'], ['B', '新聞嘅指導性原則'], ['C', '正面宣傳為主嘅方針'], ['D', '新聞嘅真實性原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞事業產生同發展嘅根本動力係",
+    "llm_output": "B. 生產社會化程度提高帶嚟嘅信息需求增長\n\n新聞事業的產生和發展主要受到社會生產力和社會結構變化的影響。隨著生產社會化程度的提高，社會各個層面對信息的依賴和需求也逐漸增強。這包括政府、企業、學術界以及普通公民對資訊的獲取和分享的需求。因此，信息需求增長是推動新聞事業發展的根本動力。\n\n選項A、C和D雖然也對新聞事業有影響，但它們不是根本動力。市場經濟和資本主義生產方式確實為新聞事業提供了商業模式，文化發達程度和技術進展則有助於提高新聞傳播的效率和質量，而政治民主則可能影響新聞自由和媒體的權威性。然而，這些因素更多是影響新聞事業發展的條件和環境，而非其根本動力。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '市場經濟同資本主義生產方式'], ['B', '生產社會化程度提高帶嚟嘅信息需求增長'], ['C', '文化發達程度'], ['D', '技術進展同政治民主']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞傳媒對青少年中出現嘅「追星現象」嘅批評屬於",
+    "llm_output": "正確答案：C. 對值得關注嘅社會現象嘅監督\n\n解釋：新聞傳媒對青少年中出現的「追星現象」的批評，主要是針對一種社會現象的報導和分析。這種現象涉及青少年對明星的過度崇拜和模仿，可能帶來負面影響，如影響學習、消費行為等。因此，新聞傳媒的批評屬於對社會現象的監督，旨在引起公眾對此現象的關注，促進社會對此問題的討論和反思。其他選項如監督決策者或管理者行為、監督決策執行過程、監督決策出臺過程，均不適用於描述新聞傳媒對「追星現象」的批評。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '對決策者同管理者行為嘅監督'], ['B', '對決策執行過程嘅監督'], ['C', '對值得關注嘅社會現象嘅監督'], ['D', '對決策出臺過程嘅監督']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個唔係印刷媒介嘅特點",
+    "llm_output": "B. 稍縱即逝\n\n印刷媒介的特點包括長期保存（A）、迅速大量生產（C）和容納信息多（D）。而“稍縱即逝”通常是指音像媒介或電子媒介的特點，因為它們可以即時播放或更新，信息不會像印刷媒介一樣持久保存。因此，B選項不是印刷媒介的特點。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '長期保存'], ['B', '稍縱即逝'], ['C', '迅速大量生產'], ['D', '容納信息多']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞編排安排結構要遵循嘅三個重要概念係",
+    "llm_output": "C. 峯谷、節奏、分段\n\n新聞編排的結構安排要遵循的三個重要概念是峯谷、節奏、分段。峯谷指的是新聞內容中的高潮和低潮部分，節奏是指新聞的流暢度和信息传递的速度，分段則是指將整篇新聞分成若干個部分，以便讀者更容易理解和吸收信息。這些概念共同作用，使得新聞能夠有效地吸引讀者，並清晰地傳達信息。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '標題、片花、結尾'], ['B', '籌劃、組織、編排'], ['C', '峯谷、節奏、分段'], ['D', '優化、集納、配合']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺西方各國嘅新聞評議制度中，邊個國家嘅新聞評議會因其體制完備、組成合理、成效顯著而為各國所效仿？",
+    "llm_output": "A. 瑞典\n\n瑞典的新闻评议会因其体制的完备、组成的合理以及成效显著，被其他国家所效仿。瑞典新闻评议会（Press Council）成立于1949年，旨在保护新闻自由和公众的知情权，同时确保媒体的责任和公正性。该评议会的成员包括新闻界、学术界和公众代表，其工作包括处理新闻投诉、制定新闻行业标准和提供法律建议。瑞典的这一制度被认为是西方国家中最为成功和有影响力的新闻评议制度之一。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '瑞典'], ['B', '美國'], ['C', '日本'], ['D', '英國']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "傳播學嘅定量研究方法之一係",
+    "llm_output": "正確答案係 D. 內容分析法。\n\n內容分析法（Content Analysis）是傳播學中常用的一種定量研究方法。它主要通過對傳播材料（如新聞報導、電視節目、社交媒體帖子等）進行系統的檢索、分類和量化，來分析特定主題或訊息的出現頻率、分布情況以及其與特定變量的關係。\n\n其他選項描述的方法則不是傳播學中的定量研究方法：\nA. 邏輯歸納法（Logical Deduction）通常是指從一般原理出發，通過推理得出具體結論的過程，屬於哲學和邏輯學的范畴。\nB. 客觀描述法（Objective Description）是指對現象進行直接觀察和記錄，而不進行解釋或評估，這更接近於觀察研究法。\nC. 歷史比較法（Historical Comparison）則是指通過比較不同歷史時期的數據或事件，來探討其變化和影響，這屬於歷史學的研究方法。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯歸納法'], ['B', '客觀描述法'], ['C', '歷史比較法'], ['D', '內容分析法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "日本新聞學家稻葉三千男話：決定新聞價值嘅最終標準係",
+    "llm_output": "稻葉三千男（Inazumi Sanzen），日本著名新聞學研究者，他提出了新闻价值的多维度标准，其中强调了“真实性”作为决定新闻价值的关键因素。因此，根据稻葉三千男的观点，决定新闻价值的最终标准是“真實性”。\n\n所以，正確答案係：\n\nC. 真實性",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '重要性'], ['B', '普遍興趣'], ['C', '真實性'], ['D', '讀者嘅反應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "資產階級自由主義新聞思想嘅要害係",
+    "llm_output": "正確答案係 D. 強調媒介自律。\n\n資產階級自由主義新聞思想強調的是媒體應該具有獨立性，並自我監督，以確保新聞報導的公正性和真實性。這一思想認為，媒體應該是社會的守望者，不受政府或任何權力機構的干預，並能夠自由地表達不同的觀點。雖然其他選項如觀點公開市場、反對政府干預和自我修正過程都是資產階級自由主義新聞思想中重要的元素，但強調媒介自律是這些思想的核心要害。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '觀點嘅公開市場'], ['B', '反對政府幹預'], ['C', '自我修正過程'], ['D', '強調媒介自律']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「寧要無政府嘅報紙、唔要無報紙嘅政府」，提出呢一觀點嘅著名資產階級政治家係",
+    "llm_output": "D. 託馬斯·傑斐遜\n\n這句話出自美國开国元勳之一、第三任總統托馬斯·傑斐遜（Thomas Jefferson）。他強調了新聞自由的重要性，認為一個沒有新聞自由的政府是不完整的。這句話體現了他對民主和新聞自由的堅定支持。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '約翰·密爾'], ['B', '約翰·彌爾頓'], ['C', '華盛頓'], ['D', '託馬斯·傑斐遜']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀初，第一個將新聞價值理論引入中國嘅係",
+    "llm_output": "正確答案係D. 徐寶璜。\n\n徐寶璜，字季平，號寶璜，是20世紀初中國新聞學的奠基人之一。他於1919年出版了《新聞學大意》，這本書被譽為中國第一部新聞學教科書。徐寶璜在書中提出了新聞價值理論，強調新聞應具有真實性、新鮮性、重要性、接近性和趣味性等特點，這些理論對後續中國新聞學的發展產生了深遠影響。\n\n其他選項：\nA. 邵飄萍，雖然也是中國早期新聞界的重要人物，但他主要貢獻在於新聞實踐和新聞事業的發展，而非理論創新。\nB. 戈公振，是中國早期新聞學理論的重要研究者，但他的主要貢獻在於新聞史的研究，而非新聞價值理論的引入。\nC. 蔡元培，是中國近代教育改革的先驅，對教育學有重要貢獻，但他在新聞學領域的貢獻相對較少。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邵飄萍'], ['B', '戈公振'], ['C', '蔡元培'], ['D', '徐寶璜']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "廣播新聞編輯最重要嘅工作係",
+    "llm_output": "正確答案係D。廣播新聞編輯最重要嘅工作係選用同組織音響。\n\n理由如下：\nA. 組織稿件 - 這係編輯工作嘅一部分，但非最重要嘅。\nB. 籌劃選題 - 選題確實重要，但編輯工作不僅僅是選題。\nC. 內容把關 - 把關確實重要，但選用同組織音響是編輯工作中最核心嘅環節。\nD. 選用同組織音響 - 這是編輯工作中最核心嘅環節，因為音響材料需要經過精挑細選，以確保信息準確、有效且適合廣播形式。\n\n因此，D選項是正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '組織稿件'], ['B', '籌劃選題'], ['C', '內容把關'], ['D', '選用同組織音響']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊種傳播效果研究理論認為「大眾傳媒對某啲事情或問題嘅強調程度，同受眾對其重視程度構成咗強烈嘅正比關係」。",
+    "llm_output": "C. 議程設置論\n\n議程設置理論（Agenda-Setting Theory）是由Maxwell McCombs和Donald Shaw在1972年提出的一個傳播效果研究理論。該理論認為，媒體在報導某個事件或問題時，會選擇性地強調某些方面，而這種強調能夠影響公眾對這些問題的重視程度。簡而言之，媒體的報導可以設定公眾議程，即媒體的焦點可以轉移公眾的關注點。\n\n其他選項的解釋如下：\nA. 文化規範論（Cultural Norms Theory）強調文化規範對媒體內容的影響，以及媒體如何反映和強化社會文化規範。\nB. 認知一致論（Consistency Theory）探討人們如何通過媒體信息來維持自己的認知一致性，即人們如何利用媒體信息來確認自己的信念和價值觀。\nD. 沉默螺旋論（Spiral of Silence）由Eli Noam和Elisabeth Noelle-Neumann提出，強調了公眾意見形成過程中，個體對公共意見的感知及其對自己表達立場的影響。\n\n因此，正確答案是C. 議程設置論。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '文化規範論'], ['B', '認知一致論'], ['C', '議程設置論'], ['D', '沉默螺旋論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對「議題」嘅唔同類型進行分類研究嘅係",
+    "llm_output": "B. 麥庫姆斯\n\n麦库姆斯（George R. McCombs）是议题设置理论（Agenda-Setting Theory）的提出者之一，该理论主要研究媒体如何通过选择报道哪些议题来影响公众议程。因此，麦库姆斯对议题的分类研究是新闻学中的重要研究方向。其他选项A、C和D虽然也是新闻学领域的重要人物，但与议题分类研究的关系不如麦库姆斯直接。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '韋伯'], ['B', '麥庫姆斯'], ['C', '溫達爾'], ['D', '李普曼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "明確地提出「全黨辦報，羣眾辦報」主張嘅係",
+    "llm_output": "正確答案係 D. 毛澤東。\n\n毛澤東提出了「全黨辦報，羣眾辦報」的主張，強調了報紙在中國共产党和人民中的重要地位和作用。他認為報紙不僅是党的喉舌，也是人民的声音，因此需要全黨和群眾的共同參與和支持。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '列寧'], ['B', '馬克思'], ['C', '恩格斯'], ['D', '毛澤東']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "從參與者嘅角色嚟講，網絡傳播唔同於大眾傳播嘅係",
+    "llm_output": "C. 信息傳播者同信息接受者嘅角色可不斷進行互換\n\n網絡傳播與大眾傳播之間存在著多方面的差異，其中角色互換性是關鍵之一。在大眾傳播中，傳播者通常是指媒體機構或專業人士，他們負責製作和發佈信息，而接受者則是被動地接收信息。然而，在網絡傳播中，用戶不僅是信息的接受者，同時也可以成為信息的傳播者。這意味著在網絡環境中，用戶之間的角色可以隨時進行互換，例如，一個用戶可以從閱讀者轉變為發布者，反之亦然。\n\n選項A、B和D描述的狀態在大眾傳播中也是存在的，但它們不是網絡傳播獨有的特點。因此，正確答案是C，因為它突出了網絡傳播中信息傳播者和信息接受者角色可變性的獨特性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '網絡用戶都以充當信息傳播者為目標'], ['B', '參與者即傳播者'], ['C', '信息傳播者同信息接受者嘅角色可不斷進行互換'], ['D', '網絡用戶都係信息觀察者']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「狗咬人唔係新聞，人咬狗先係新聞」呢一觀點嘅係",
+    "llm_output": "提出「狗咬人唔係新聞，人咬狗先係新聞」這一觀點的是B. 博加特。這句話通常被視為新聞學中的經典引語，由美國新聞工作者赫伯特·博加特（Herbert Booth）在1933年提出。他指出，一般情況下，狗咬人這樣的事情並不新奇，因為這不符合人們對狗作為寵物通常的期望。相反，如果人咬狗，由於這種情況罕見且出乎意料，因此更具有新聞價值。這一觀點強調了新奇性和反常性在新聞報導中的重要性。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '本傑明'], ['B', '博加特'], ['C', '普利策'], ['D', '龐德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "有位傳紀作家形容為「猶如行為科學嘅達爾文」嘅係",
+    "llm_output": "C. 拉斯韋爾\n\n勒溫（Kurt Lewin）、霍夫蘭（Carl Hovland）、李普曼（Walter Lippmann）都是著名的傳記作家或心理學家，但 none of them is referred to as \"the Darwin of behavioral science\" (行为科学的达尔文) in the context of journalism. The correct answer is Clifford G. Rivers, who is often associated with this description. However, Rivers is not listed among the options provided. If we must choose from the given options, none of them is the correct answer. But if we consider the context of journalism and the influence on behavior, Clifford G. Rivers, a pioneer in the field of behavioral science, is the closest match to the description given. However, since Rivers is not listed, and the question seems to be based on a specific context or source, it is important to note that none of the provided options (A, B, C, D) accurately reflects the description of \"the Darwin of behavioral science\" in the field of journalism.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '勒溫'], ['B', '霍夫蘭'], ['C', '拉斯韋爾'], ['D', '李普曼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「論出版自由」嘅作者係",
+    "llm_output": "C. 彌爾頓\n\n「論出版自由」（Areopagitica）的作者是约翰·弥尔顿（John Milton）。这本书是他在1644年发表的一篇政治论文，主张出版自由，反对政府对出版物的审查制度。弥尔顿认为，言论自由和出版自由是民主社会的基础，政府不应干预个人的思想和言论表达。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '伏爾泰'], ['B', '盧梭'], ['C', '彌爾頓'], ['D', '約翰·穆勒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "被譽為中國「新聞教育第一人」嘅係",
+    "llm_output": "正確答案係C. 徐寶璜。徐寶璜被譽為中國「新聞教育第一人」，他於1918年在北京大學創立了中國第一個新聞學專業，並撰寫了《新聞學大意》，這本書被譽為中國第一部系統介紹新聞學理論的書籍。其他選項如邵飄萍、王韜和戈公振，雖然他們在中國新聞史上都有重要地位，但 none of them 被譽為「新聞教育第一人」。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '邵飄萍'], ['B', '王韜'], ['C', '徐寶璜'], ['D', '戈公振']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞理論回答新聞學中嘅",
+    "llm_output": "A. 根本問題\n\n新聞理論主要回答新聞學中的根本問題，例如新闻的定义、新闻价值、新闻伦理、新闻与社会的关系等。这些根本问题构成了新闻学的基础理论框架。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '根本問題'], ['B', '所有問題'], ['C', '一般問題'], ['D', '業務問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「地球村」嘅預言係由下面邊位學者提出嚟嘅？",
+    "llm_output": "正確答案係 B. 麥克魯漢。\n\n「地球村」（Global Village）這個概念是由加拿大傳播學家馬歇爾·麥克魯漢（Marshall McLuhan）在1960年代提出的。他認為，隨著傳播技術的進步，尤其是電視的普及，世界變得像一個村莊那樣緊密，人們可以即時地互相交流，無論他們身在何處。這個概念強調了傳播技術對社會結構和文化交流的深遠影響。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '梅羅維茨'], ['B', '麥克魯漢'], ['C', '伊尼斯'], ['D', '施拉姆']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "播音員同主持人喺播報同主持節目時，對突發情況或某種失誤作出迅速有效反應嘅能力屬於",
+    "llm_output": "D. 應變能力\n\n播音員和主持人在播報和主持節目時，需要迅速有效地對突發情況或失誤作出反應，這一能力通常被稱作應變能力。應變能力是指在面對意外或挑戰時，能夠快速思考並採取相應措施的能力。這不僅包括反應速度，還涵蓋了解決問題和調整策略的能力。因此，正確答案是D. 應變能力。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '反應能力'], ['B', '適應能力'], ['C', '調整能力'], ['D', '應變能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "鄧小平喺「西南區新聞工作會議上嘅報告」中，將「拿筆杆子」睇作係",
+    "llm_output": "正確答案：B. 宣傳政策嘅主要方法\n\n邓小平在「西南區新聞工作會議上嘅報告」中，將「拿筆杆子」（即新聞寫作）視為宣傳政策的主要方法。這體現了當時中國政府對新聞媒體在政策宣傳和社會教育中作用的重視。通過新聞媒體，政府能夠有效地向公眾傳達政策意圖，增強政策的影響力和公眾的理解度。因此，選項B是正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '普及文化嘅主要方法'], ['B', '宣傳政策嘅主要方法'], ['C', '實行領導嘅主要方法'], ['D', '傳播知識嘅主要方法']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "推鏡頭係指",
+    "llm_output": "推鏡頭指的是攝像機固定於一個支點上，沿著水平軸或垂直軸進行運動拍攝的鏡頭。因此，正確答案是 B。其他選項描述的鏡頭運動方式不符合推鏡頭的定義。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '攝像機隨物體運動而進行拍攝嘅鏡頭'], ['B', '攝像機固定喺一個支點上，沿水平軸或垂直軸運動拍攝嘅鏡頭'], ['C', '攝像機變化焦距使畫面框架逐漸遠離被攝對象嘅鏡頭'], ['D', '同拉鏡頭運動方向相反嘅一種拍攝方式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "廣播新聞專題中除咗運用表達等語言手段外，仲將（）作為表現新聞事實、表達思想情感唔可或缺嘅符號。",
+    "llm_output": "正確答案：A. 音響\n\n在廣播新聞專題中，除了運用表達等語言手段，音響也是表現新聞事實、表達思想情感不可或缺的符號。音響包括語音、音樂、聲效等多種元素，能夠豐富表達，增強聽眾的感受，使新聞更具感染力和吸引力。其他選項如抒情、描寫和議論雖然也是新聞創作中重要的元素，但不如音響在廣播媒體中那麼突出。因此，A選項是正確答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '音響'], ['B', '抒情'], ['C', '描寫'], ['D', '議論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "指紀者可以通過一切正當嘅手段自由採訪新聞嘅權力叫做",
+    "llm_output": "正確答案：C. 採訪權\n\n解釋：在這個問題中，關鍵詞是“指紀者可以通過一切正當嘅手段自由採訪新聞嘅權力”。根據這個描述，可以排除B和D選項，因為“安全保護權”和“批評權”不直接涉及採訪行為。A選項“報道權”雖然與新聞相關，但不如“採訪權”那麼準確地描述了問題中提及的權力。因此，最恰當的答案是C選項“採訪權”，它直接涉及到新聞工作者通過合法手段自由採訪新聞的權利。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '報道權'], ['B', '安全保護權'], ['C', '採訪權'], ['D', '批評權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對傳播嘅過程，拉斯韋爾提出嘅模式係",
+    "llm_output": "拉斯韋爾（Harold Lasswell）提出了著名的“5W模式”，即谁（Who）、說了什麼（What）、通過什麼渠道（Through which channel）、對誰（To whom）、有什麼效果（With what effect）。因此，正確答案是：\n\nC. 5W模式",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '對稱模式'], ['B', '數學模式'], ['C', '5W模式'], ['D', '平衡模式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞同信息嘅關係係",
+    "llm_output": "C. 新聞係信息大家族中嘅特殊成員\n\n新聞和信息之間存在著密切的聯繫，但它們並非完全相同。新聞通常指的是那些經過編輯、整理並以特定格式傳播的最新信息。它通常包含著特定的事件、發展或動態，並且通常具有一定的新闻價值，例如新奇性、重要性、接近性、利益性或冲突性。\n\n信息則是一個更廣泛的概念，它指的是任何可以被接收、處理和傳播的資料或知識。信息可以是任何形式，從口頭交流到書面文件，從圖像到音頻，從數據到知識。\n\n新聞作為信息的一種形式，它具有特定的特點和要求，例如需要符合媒體的道德標準、法律法規，以及需要符合讀者的興趣和需求。因此，新聞在信息大家族中可以被視為一個具有獨特特質的子集。\n\n選項A和B都忽略了新聞與信息之間的微妙差異，而選項D則錯誤地將新聞視為信息的一種體裁，而實際上新聞是信息的一種傳播形式。因此，正確答案是C，新聞是信息大家族中的一個特殊成員。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '信息就係新聞，新聞就係信息，二者毫無差別'], ['B', '信息係信息，新聞係新聞，二者毫不相干'], ['C', '新聞係信息大家族中嘅特殊成員'], ['D', '信息係新聞嘅一種體裁']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "巴斯將傳播媒介嘅把關行動分為前後相連嘅兩個階段，其中第二階段嘅把關人主要係",
+    "llm_output": "D. 編輯\n\n巴斯（Bass）將傳播媒介的把關行動分為前後相連的兩個階段，其中第二階段的主要把關人是編輯。在第一階段，新聞提供者、特約評論員和記者等提供信息，但他們未必能夠決定哪些信息能夠進入最終的報導。在第二階段，編輯負責審查和選擇哪些信息能夠被發布，他們是決定哪些新聞能夠成為公眾所知的重要角色。因此，正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新聞提供者'], ['B', '特約評論員'], ['C', '紀者'], ['D', '編輯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞價值係傳播者選擇事實同接受者選擇新聞嘅",
+    "llm_output": "正確答案係 B. 客觀標準。\n\n新聞價值通常是指那些能夠吸引傳播者選擇報導，以及能夠引起接受者興趣的標準。這些標準通常包括但不限於：\n\n1. 新奇性（Novelty）：事件或消息是否具有新奇性，即是否與眾不同或出乎意料。\n2. 重要性（Importance）：事件或消息是否對社會、政治、經濟等方面具有重大影響。\n3. 接近性（Proximity）：事件或消息是否與接受者有地理、情感或利益上的接近性。\n4. 冲突性（Conflict）：事件或消息是否包含衝突或對立，這能引起讀者的興趣。\n5. 關聯性（Relevance）：事件或消息是否與接受者的日常生活或關注點相關。\n\n這些標準是客觀的，因為它們基於普遍認同的價值觀和社會需求，而非個人主觀意願或政治立場。因此，新聞價值通常被視為傳播者和接受者之間的一種客觀標準。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '心理需求'], ['B', '客觀標準'], ['C', '主觀意向'], ['D', '政治標準']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "傳播嘅信息交流過程係",
+    "llm_output": "正確答案係 A. 互動嘅。\n\n傳播的信息交流過程通常被視為雙向或多向的互動過程，其中傳播者和接收者之間存在著信息交流和反饋的環路。傳播者不僅發送信息，還需要考慮接收者的反應和反饋，這使得整個過程具有互動性。其他選項如能動、主動或被動，均未能全面描述傳播過程中雙方的交互作用。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '互動嘅'], ['B', '能動嘅'], ['C', '主動嘅'], ['D', '被動嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對事物存在方式同運動狀態加以認識，並用文字等符號表述出嚟就形成咗",
+    "llm_output": "C. 人工信息\n\n人工信息是指人类通过观察、分析、归纳和总结等方式，对事物存在方式和运动状态进行认识，并用文字、图像、声音等符号形式表达出来的信息。新闻学中，记者和编辑通过采访、调查、报道等手段获取信息，并运用语言、文字等符号进行表述，形成新闻报道，这正是人工信息的体现。因此，正确答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '物理信息'], ['B', '自然信息'], ['C', '人工信息'], ['D', '電子信息']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "通常情況下，資產階級新聞事業喺處理與受眾關係時",
+    "llm_output": "正確答案：A。\n\n通常情況下，資產階級新聞事業在處理與受眾關係時，會在某些問題和程度上考慮並滿足群眾的某些信息需要。資產階級媒體通常旨在提供信息、娛樂和教育，同時也試圖保持其商業利益和社會影響力。雖然他們可能會考慮到群眾的需求，但這通常是在不影響其商業利益和保持其社會地位的前提下進行的。因此，選項A最恰當地描述了資產階級新聞事業在處理與受眾關係時的通常情況。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '喺某啲問題同一定程度上考慮並滿足羣眾嘅某啲信息需要'], ['B', '喺成個過程中都能夠滿足羣眾嘅需要'], ['C', '喺所有問題上都能夠完全滿足羣眾嘅需要'], ['D', '根本唔考慮滿足羣眾需要嘅問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "學習同研究新聞學嘅基本方法有個案研究、同",
+    "llm_output": "C. 以上全部\n\n學習和研究新聞學的基本方法包括個案研究、比較研究、調查研究和內容分析。這些方法可以幫助研究者從不同角度深入理解新聞的生成、傳播和影響。個案研究專注於單一事件或案例的詳細分析；比較研究則涉及不同新聞機構或不同地區之間新聞的比較；調查研究通常涉及收集大量數據以分析新聞的趨勢和模式；內容分析則專注於對新聞文本的細節進行量化分析。因此，正確答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '比較研究'], ['B', '調查研究'], ['C', '以上全部'], ['D', '內容分析']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞立法係指",
+    "llm_output": "正確答案係D。新聞立法是指國家制定同頒布嘅有關新聞傳播嘅法律條文嘅總稱。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '通過新聞媒介喺全民中進行普法教育'], ['B', '運用法律手段管理同控制新聞事業嘅程序、原則同機制'], ['C', '統治階級制定、頒布同修訂新聞法規嘅程序同過程'], ['D', '國家制定同頒布嘅有關新聞傳播嘅法律條文嘅總稱']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "從新聞本質同特性到新聞價值及其規律嘅研究，要回答嘅根本問題係",
+    "llm_output": "正確答案係 B. 乜嘢係新聞同點樣獲取名副其實嘅新聞。\n\n這個問題探討的是新聞學的核心概念，即什麼是新聞以及如何確保所報導的消息是真正的新闻。新聞學研究不僅僅是新聞的起源和來源（A選項），也不僅僅是新聞的共性和個性（C選項），或是新聞的性質和定義（D選項）。相反，它更關注於新聞本質和特性，以及如何判斷哪些信息應該被視為新聞，並且如何通過適當的報導方式來確保新聞的質量和真實性。\n\n因此，B選項最恰當地回答了問題中提出的根本問題，即什麼是新聞以及如何獲取名副其實的新闻。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '新聞嘅起源同來源'], ['B', '乜嘢係新聞同點樣獲取名副其實嘅新聞'], ['C', '新聞嘅共性同個性'], ['D', '新聞嘅性質同定義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "下列說法唔正確嘅係",
+    "llm_output": "正確答案係 B. 傳播上嘅優勢地位唔會導致文化上嘅優勢地位。\n\nA選項描述語言傳播作為人類重要特徵是正確的，因為語言是信息傳播和交流的基石。\n\nC選項提到電子傳播將人類由國內傳播引入國際傳播，由大眾傳播帶進跨國傳播，這描述的是技術進步如何改變信息傳播的方式，也是正確的。\n\nD選項說印刷傳播打破咗少數人嘅傳播特權，這描述的是印刷術的出現如何使得知識和信息能夠更廣泛地傳播，而不是集中在少數人手中，這亦是正確的。\n\nB選項則提出了傳播優勢地位與文化優勢地位之間關係的問題。在實際情況中，傳播上的優勢地位往往會導致文化上的優勢地位，因為擁有更多資源和技術的國家或機構能夠更有效地傳播其文化價值觀和思想。因此，B選項的說法是不正確的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '語言傳播係人類嘅重要特徵'], ['B', '傳播上嘅優勢地位唔會導致文化上嘅優勢地位'], ['C', '電子傳播將人類由國內傳播引入國際傳播，由大眾傳播帶進跨國傳播'], ['D', '印刷傳播打破咗少數人嘅傳播特權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "通過兩種或兩種以上嘅事物比擬分析嚟論證論點運用嘅係",
+    "llm_output": "正確答案係 D. 比照說理。\n\n比照說理是指通過將兩個或兩個以上事物進行比較和對照，來證明一個論點的正確性或合理性。這種方法通常能夠更直觀地展示不同事物之間的相似性或差異，從而使讀者更容易理解和接受作者的主張。\n\n其他選項的解釋如下：\nA. 據事說理：這是指根據具體事實來證明論點，強調事實的具體性和真實性。\nB. 論辯說理：這是指通過辯論的形式來證明論點，強調辯論的邏輯性和對話性。\nC. 兌賬說理：這一術語在新聞學中並不常用，可能是其他領域的術語，因此不選。\n\n因此，最符合問題描述的答案是 D. 比照說理。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '據事說理'], ['B', '論辯說理'], ['C', '兌賬說理'], ['D', '比照說理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "當採訪對象屬於自卑性格時，記者應採取嘅策略係",
+    "llm_output": "C. 多費口舌，消除疑慮\n\n在採訪自卑性格的對象時，採取多費口舌、耐心傾聽和鼓勵的策略，有助於建立信任，讓受訪者感到舒適，從而更開放地分享信息。這種方法有助於減少受訪者的疑慮，並促進更深入的交流。其他選項如視而不見、提高警惕或僅僅給予表揚，可能會對受訪者的自尊心造成負面影響，並阻礙信息的獲取。因此，最合適的策略是C選項。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '視而不見，唔予理睬'], ['B', '提高警惕，用心核對'], ['C', '多費口舌，消除疑慮'], ['D', '肯定成績，給予表揚']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "被稱為無線電之父嘅係",
+    "llm_output": "正確答案係D. 馬可尼。\n\n理由：\nGuglielmo Marconi（馬可尼），意大利發明家，被譽為無線電之父。他在1896年成功進行了第一次跨大西洋無線電通訊，這一成就使他獲得了1909年的諾貝爾物理学獎。雖然其他選項中的人物對無線電領域也有重要貢獻，但最著名且被普遍認為是無線電之父的是馬可尼。\n\nA選項的波波夫（Александр Степанович Попов），是俄國物理學家，他在1895年進行了第一次無線電通訊實驗，但這次實驗僅僅是短距離的。\n\nB選項的馬克斯威爾（詹姆斯·克拉克·馬克斯威爾），是苏格兰物理学家，他提出了電磁波理論，預見了無線電的潛力，但他本人並沒有進行無線電的實驗。\n\nC選項的赫茲（海因里希·鲁道夫·赫茲），德國物理學家，他在1888年首次證實了電磁波的存在，這對於無線電技術的發展至關重要，但他並不是無線電之父。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '波波夫'], ['B', '馬克斯威爾'], ['C', '赫茲'], ['D', '馬可尼']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "明確提出並對黨性原則作出系統論述嘅第一人係",
+    "llm_output": "C. 列寧\n\n列寧（Vladimir Ilyich Lenin）是马克思主义政党理论的重要发展者，他在其著作中系统地论述了党性原则。列寧强调了共产党作为工人阶级先锋队的作用，以及党在社会主义革命和建设中的领导地位。他的这些思想对后来的马克思主义政党建设产生了深远影响。因此，列寧被认为是对党性原则作出系统论述的第一人。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '馬克思'], ['B', '恩格斯'], ['C', '列寧'], ['D', '劉少奇']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "近代新聞事業正式形成於",
+    "llm_output": "正確答案為 A. 資本主義社會初期。\n\n近代新聞事業的正式形成通常被定位在資本主義社會的初期。這個階段標誌著社會結構、經濟體系以及技術進步的多方面轉變，這些轉變為新聞事業的發展提供了必要的條件。資本主義的崛起促進了商業活動和市場經濟的發展，進而推動了信息傳播的需求。隨著印刷技術的進步，特別是活字印刷術的發明，使得新聞的生產和分發變得更加高效和廣泛。\n\n其他選項，如封建社會末期、奴隸社會末期和封建社會中期，並不適合描述近代新聞事業的正式形成。這些社會階段通常缺乏促進新聞事業發展所需的經濟、技術和社會條件。因此，A 選項是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '資本主義社會初期'], ['B', '封建社會末期'], ['C', '奴隸社會末期'], ['D', '封建社會中期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對「語言係商品，文字不過係貨幣」呢句話嘅理解，邊個係錯誤嘅",
+    "llm_output": "正確答案係C。\n\n解析：\nA選項提到語言是直接符号，文字是间接符号，這一理解是正確的。語言通常指口語，是直接通過發音和語調來傳達意思，而文字則是一種記錄語言的符號系統，需要通過視覺來識別。\n\nB選項說文字是對語言的記錄，這也是正確的。文字作為一種書面形式，記錄了語言的語音、語法和詞彙，使得語言可以跨越時間和空間進行傳播。\n\nD選項提到文字具有從屬性，這也是正確的。文字依賴於語言，是語言的記錄和延續，因此文字具有從屬性。\n\nC選項認為無語言做依託文字亦有意義，這一理解是錯誤的。文字作為記錄語言的工具，必須依賴於語言才能具有意義。如果沒有語言做依託，文字就失去了其表達和傳達信息的功能。\n\n因此，正確答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '語言係直接嘅符號，文字係間接嘅符號'], ['B', '文字係對語言嘅記錄'], ['C', '無語言做依託文字亦都有意義嘅'], ['D', '文字具有從屬性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "影響記者寫作心理狀態嘅客觀因素唔包括",
+    "llm_output": "正確答案為 D. 環境。\n\n在考慮新聞寫作時，受眾（A）、採訪對象（B）和採訪素材（C）都是影響記者心理狀態的客觀因素。受眾的期望、採訪對象的背景和態度、以及可用的素材都會影響記者如何選擇角度、措辭和信息呈現方式。\n\n然而，環境（D）通常指的是物理或社會環境，它可能會影響到記者的工作條件，但不像其他選項那樣直接影響寫作心理狀態。因此，環境不是直接影响新聞寫作心理狀態的主要客觀因素。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '受眾'], ['B', '採訪對象'], ['C', '採訪素材'], ['D', '環境']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔屬於非語言符號嘅係",
+    "llm_output": "D. 文章\n\n文章属于语言符号，而非非语言符号。非语言符号通常包括肢体语言、面部表情、手势、眼神交流等。而文章是通过文字来传达信息的，因此不属于非语言符号。其他选项A、B和C都涉及到非语言符号的表达方式。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '開心嘅笑容'], ['B', '同別人握手'], ['C', '着裝打扮'], ['D', '文章']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞選擇有三個環節，除咗搜尋、比較外，另一個係",
+    "llm_output": "A. 權衡\n\n新聞選擇的三個主要環節包括搜尋、比較和權衡。搜尋是指從大量信息中找出相關的資料；比較則是指對找到的資料進行評估，看它們是否符合新聞價值標準；最後，權衡則是指在多條新聞之間進行選擇，決定哪條新聞最適合發布。因此，正確答案是A. 權衡。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '權衡'], ['B', '確認'], ['C', '策劃'], ['D', '反饋']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "拉斯韋爾喺「傳播喺社會中嘅結構同功能」呢篇論文中提出嘅「一句話」、「三功能」中嘅三功能唔包括以下邊一功能？",
+    "llm_output": "拉斯韋爾（Harold Lasswell）在其論文「傳播喺社會中嘅結構同功能」中提出了著名的「一句話」（The One-Word Formula），即「誰說了什麼，通過甚麼渠道，對誰說的，有甚麼效果」。在這裡，他提出了傳播的三大功能，包括協調社會關係、傳衍社會遺產和監視社會環境。\n\n選項B「提供娛樂」並非拉斯韋爾在該論文中提出的傳播的三大功能之一。雖然娛樂是傳播媒介常見的功能之一，但這不是拉斯韋爾在該論文中明確提出的三大功能。\n\n因此，正確答案是B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '協調社會關係'], ['B', '提供娛樂'], ['C', '傳衍社會遺產'], ['D', '監視社會環境']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "如果喺傳播學嘅研究中，對於個人特點過分強調或者對於傳播模式無原則無休止爭論嘅話，真正受到傷害嘅將係",
+    "llm_output": "D. 傳播學\n\n如果傳播學的研究中過分強調個人特點或無原則無休止地爭論傳播模式，那麼真正受到傷害的是整個傳播學領域。因為這樣的行為可能會導致學術研究的混亂，削弱學科理論的系統性和深度，進而影響學科整體的可信度和發展。因此，正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '某個傳播學者'], ['B', '社會'], ['C', '廣大人民'], ['D', '傳播學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "廣播電視新聞中嘅整點新聞為咗以最快嘅速度提供盡可能多嘅信息，常常採用",
+    "llm_output": "正確答案為 B. 消息。\n\n整點新聞通常是指在每小時整點播出的新聞段，目的是以快速、精簡的方式向觀眾提供最新的資訊。為了達成這個目標，整點新聞通常採用簡潔明了的消息形式，即直接傳達關鍵事實和信息，而不進行深入的分析和評論。這種形式能夠讓觀眾迅速掌握重要資訊，適合在時間緊迫的情況下使用。\n\n選項 A 述評，指的是對新聞事件進行詳細的分析和評價，這對於整點新聞來說並不適合，因為它需要快速傳達信息。選項 C 錄音通訊和選項 D 通訊，通常是指使用錄音技術或通訊手段進行信息傳播，這些技術和手段本身並不特指某種新聞形式。因此，最適合的答案是 B. 消息。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '述評'], ['B', '消息'], ['C', '錄音通訊'], ['D', '通訊']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "拉斯韋爾傳播模式嘅第三個環節係",
+    "llm_output": "拉斯韋爾傳播模式（Lasswell's Communication Model）是新聞學中一個經典的傳播模型，由美國政治學家哈罗德·拉斯韋爾（Harold Lasswell）於1948年提出。這個模型簡化了信息傳播的過程，並提出了以下幾個關鍵環節：\n\n1. **講乜嘢（Who?）** - 傳播者\n2. **講乜嘢（What?）** - 信息內容\n3. **通過乜嘢渠道（Through what channel?）** - 傳播媒介\n4. **對邊個（To whom?）** - 接受者\n5. **有咩效果（With what effect?）** - 傳播效果\n\n根據這個模型，第三個環節是通過乜嘢渠道。\n\n因此，正確答案是：\nB. 通過乜嘢渠道",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '講乜嘢'], ['B', '通過乜嘢渠道'], ['C', '邊個'], ['D', '對邊個']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "中央電視臺「焦點訪談」節目屬於",
+    "llm_output": "正確答案：D. 大眾傳播\n\n解釋：中央電視臺「焦點訪談」節目屬於大眾傳播。大眾傳播是指透過電視、廣播、報紙、雜誌等媒體向廣泛的觀眾傳送資訊和娛樂內容的過程。這個節目是透過電視媒體向大眾傳播信息，因此屬於大眾傳播。其他選項如組織傳播、羣體傳播和人際傳播，通常指的是小規模、局限性的傳播形式，不符合這個節目的大眾傳播特性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '組織傳播'], ['B', '羣體傳播'], ['C', '人際傳播'], ['D', '大眾傳播']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞傳播行為，「三要素說」（事實、新聞報道者同新聞接受者）嘅提出者係",
+    "llm_output": "選項B，王中，是「三要素說」（事實、新聞報道者同新聞接受者）的提出者。王中，著名新聞學專家，中國新聞學的奠基人之一，他在新聞學理論研究方面做出了重要貢獻，提出了上述的三要素說。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '範長江'], ['B', '王中'], ['C', '甘惜分'], ['D', '鄧拓']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "用老百姓喜聞樂見嘅形式講述老百姓自己嘅事情，反映咗編輯嘅",
+    "llm_output": "正確答案：D. 受眾意識\n\n解釋：此題考查的是新聞編輯的意識。用老百姓喜聞樂見的形式講述老百姓自己的事情，體現了編輯對受眾需求的關注和適應，即受眾意識。通俗化意識（A）強調的是語言和形式的通俗易懂，而平民意識（B）則偏向於平等、民主的意識，娛樂化意識（C）則是指以娛樂為主要目的。因此，最符合問題描述的是受眾意識（D）。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '通俗化意識'], ['B', '平民意識'], ['C', '娛樂化意識'], ['D', '受眾意識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個選項唔係信息爆炸嘅後果",
+    "llm_output": "C. 信息變質\n\n信息變質通常指的是信息在傳播過程中出現的錯誤或扭曲，而不是信息爆炸的直接後果。信息爆炸是指在現代社會中，信息量急劇增加，超出了人們處理和吸收的能力範圍。信息超載（A）、信息泛濫（B）和信息浪費（D）都是信息爆炸的後果。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '信息超載'], ['B', '信息泛濫'], ['C', '信息變質'], ['D', '信息浪費']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "近代新聞事業誕生嘅時間標誌係",
+    "llm_output": "正確答案係 D. 印刷新聞紙問世。\n\n近代新聞事業的誕生標誌是印刷新聞紙的問世。這一點標誌著新聞從口頭傳播、手抄本等形式轉變為通過印刷技術大規模生產和傳播。印刷新聞紙的出現，不僅促進了信息的高效傳播，也為後續的報紙、雜誌等媒體形式奠定了基礎。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '口語新聞出現'], ['B', '手抄新聞出現'], ['C', '新聞書嘅問世'], ['D', '印刷新聞紙問世']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "符號最基本嘅特點在於佢嘅",
+    "llm_output": "正確答案：D. 指說性\n\n符號的基本特點在於其指說性，即符號能夠代表或指代其他事物或概念。符號的指說性使得人們能夠通過符號來交流思想、情感和信息，是符號系統中最基本的功能。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '抽象性'], ['B', '普遍性'], ['C', '有效性'], ['D', '指說性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "編輯羣體嘅向性類型應該偏向於",
+    "llm_output": "正確答案：D. 外向型\n\n解釋：在新聞編輯的向性類型中，外向型指的是編輯更傾向於追求外部的信息，如社會事件、公共議題等，並且更積極地與外界交流和互動。這種向性有助於編輯團隊保持與社會的同步，並能夠及時掌握和報導新鮮的資訊。而混合型、中間型和內向型則可能不如外向型那樣能夠迅速捕捉和傳播重要信息。因此，在編輯群體中，向性類型應該偏向於外向型，以確保新聞的及時性和新鮮度。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '混合型'], ['B', '中間型'], ['C', '內向型'], ['D', '外向型']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞嘅價值指嘅係",
+    "llm_output": "C. 新聞作品通過傳播滿足社會及其需求嘅程度\n\n新聞的價值通常是指新聞作品在傳播過程中，能夠滿足社會及其成員的需求程度。這包括提供信息、增進公共知識、促進社會交流、以及影響公共意識等方面。新聞不僅僅是事實的價值，更關鍵的是它如何被傳播和接收，以及它如何影響社會和個人。因此，選項C最恰當地描述了新聞的價值。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '新聞滿足傳播者嘅需求程度'], ['B', '新聞事實嘅價值'], ['C', '新聞作品通過傳播滿足社會及其需求嘅程度'], ['D', '新聞自身嘅價值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "大眾傳播大量嘅內容屬於",
+    "llm_output": "正確答案：B. 新聞性內容\n\n大眾傳播大量內容中，最核心且最為廣泛的內容是新聞性內容。新聞性內容通常包括時事新聞、政治動態、社會事件、經濟信息等，這些內容旨在向公眾提供即時的信息，讓人們了解世界各地的最新發展。雖然娛樂性內容、知識性內容和消息性內容也是大眾傳播中的一部分，但它們通常不是主流或核心內容。因此，選項B是正確答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '娛樂性內容'], ['B', '新聞性內容'], ['C', '知識性內容'], ['D', '消息性內容']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "隨住社會主義市場經濟體制嘅建立，目前我國新聞機構嘅主要運作方式係",
+    "llm_output": "正確答案係 B. 事業單位，企業化管理。\n\n解析：自從社會主義市場經濟體制建立後，我國新聞機構主要採取事業單位與企業化管理相结合的方式。事业单位的身份保持了其公益性和公共服务的职能，而企業化管理则引入了市场机制，提高了新闻机构的运营效率和市场竞争力。这种模式既保证了新闻机构的公共服务性质，又使其能够在市场经济中保持活力和适应性。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '事業單位，行政管理'], ['B', '事業單位，企業化管理'], ['C', '事業單位，事業管理'], ['D', '企業單位，企化管理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞輿論產生嘅起點同依據係",
+    "llm_output": "A. 新聞事實\n\n新聞舆论的产生起点和依据是新闻事实。新闻舆论的形成通常基于对新闻事实的报道和分析，新闻从业者通过收集、核实和呈现事实，进而形成公众对某一事件的看法和反应。社会传闻、民间传说和领导指示虽然可能对新闻报道产生影响，但它们并非新闻舆论产生的起點和依據。因此，正确答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新聞事實'], ['B', '社會傳聞'], ['C', '民間傳說'], ['D', '領導指示']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "於1644年出版嘅小冊子「論出版自由」，作者係",
+    "llm_output": "正確答案係B. 約翰·彌爾頓。\n\n在1644年，約翰·彌爾頓（John Milton）出版了小冊子「論出版自由」（Areopagitica），這部作品強調了出版自由的重要性，並對當時對書籍和出版物的管制提出了批判。這部作品對後世自由媒體和知識自由的理念產生了深遠影響。其他選項如李普曼（A）、約翰·洛克（C）和卡斯柏·約斯特（D）均非該小冊子的作者。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '李普曼'], ['B', '約翰·彌爾頓'], ['C', '約翰·洛克'], ['D', '卡斯柏·約斯特']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "資產階級新聞自由思想嘅理論基礎係",
+    "llm_output": "正確答案係A. 天賦人權說。\n\n資產階級新聞自由思想主要建立在西方哲學中對個人自由和天賦人權的強調之上。天賦人權說認為，人人生而自由，且具有某些不可剥夺的權利，例如言論自由和新聞自由。這些權利被視為天賦的，不依賴於任何政府或社會結構。\n\n其他選項，如B. 人道主義、C. 本能說和D. 人本主義，雖然與新聞自由有一定的關聯，但並不是資產階級新聞自由思想的主要理論基礎。因此，最符合問題描述的答案是A. 天賦人權說。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '天賦人權說'], ['B', '人道主義'], ['C', '本能說'], ['D', '人本主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞真實最起碼嘅要求係",
+    "llm_output": "正確答案係 B. 具體事實真實準確。\n\n新聞真實最起碼嘅要求係具體事實真實準確。這表示新聞報導必須確保所報導嘅具體事實是正確且準確無誤的。概括性事實真實客觀（A選項）、反映事物嘅本質（C選項）、對新聞事實嘅解釋同評論實事求是（D選項），這些都屬於新聞報導中更高層次的要求，但最基本的要求仍然是具體事實的真實準確。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '概括性事實真實客觀'], ['B', '具體事實真實準確'], ['C', '反映事物嘅本質'], ['D', '對新聞事實嘅解釋同評論實事求是']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞嘅傳播環節中，對新聞價值嘅實現具有相當嘅影響嘅係",
+    "llm_output": "正確答案係A. 轉載或轉播情況。\n\n在新聞的傳播環節中，轉載或轉播情況對新聞價值實現具有重要影響。這涉及到媒體如何選擇和呈現新聞，以及這些選擇如何影響觀眾對新聞的接收和理解。技術因素（B）、傳播者嘅業務素質（C）和普遍興趣（D）均對新聞的傳播和接受有影響，但轉載或轉播情況直接決定了新聞能夠到達多少人，以及這些人如何理解新聞內容。因此，A選項最直接地影響新聞價值實現。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '轉載或轉播情況'], ['B', '技術因素'], ['C', '傳播者嘅業務素質'], ['D', '普遍興趣']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一個選項唔屬於受眾接受信息嘅動機",
+    "llm_output": "選項D \"直接性動機\" 不属于受眾接受信息的主要動機。在新聞學中，受眾接受信息的動機通常包括以下幾種：\n\nA. 外發性動機（Extraversion Motivation）：受眾可能會被外發性動機所驅動，即他們希望了解周圍世界正在發生什麼，以滿足對新奇和刺激的追求。\n\nB. 預期性動機（Expectancy Motivation）：受眾可能會根據預期來尋找信息，例如他們可能期待了解特定事件或話題的進展。\n\nC. 替代性動機（Substitutability Motivation）：受眾可能會因為其他信息來源不可用或不可靠，而轉向其他來源以獲取信息。\n\nD. 直接性動機（Direct Motivation）：此選項描述的動機在新聞學中並不常見，因為它通常指的是受眾直接追求某種具體信息或滿足某種具體需求，而不是廣泛地對周圍世界抱有興趣或期待。\n\n因此，正確答案是D \"直接性動機\"。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '外發性動機'], ['B', '預期性動機'], ['C', '替代性動機'], ['D', '直接性動機']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "現代傳播效果研究興起嘅媒介背景時期係",
+    "llm_output": "正確答案係 A. 電子媒介。\n\n現代傳播效果研究主要是在20世紀中期隨著電子媒介的普及而興起，特別是電視和收音機的廣泛使用，這些媒介使得研究者能夠觀察到信息傳播對社會和個人行為的影響。這一時期的研究者開始探討媒體如何塑造公共意識、影響政治觀點、促進社會運動等。因此，現代傳播效果研究與電子媒介的發展緊密相關。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '電子媒介'], ['B', '大眾報刊'], ['C', '政黨報刊'], ['D', '黃色報刊']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「報刊嘅四種理論」中「報刊」一詞泛指",
+    "llm_output": "正確答案為 A. 一切大眾傳播媒介。\n\n「報刊」一詞在新聞學中通常泛指所有形式的大眾傳播媒介，包括報紙、雜誌、電視、廣播、互聯網等。這些媒介都屬於大眾傳播的範疇，旨在向廣泛的受眾傳送信息、娛樂或教育內容。雖然報紙和雜誌是其中的一部分，但「報刊」這個詞語並不僅限於傳統的出版物，而是涵蓋了所有形式的大眾傳播媒介。因此，選項 A 最恰當地描述了「報刊」在這個上下文中的涵義。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '一切大眾傳播媒介'], ['B', '出版物'], ['C', '文字'], ['D', '所有報紙雜誌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "著有「大眾傳播嘅效果」一書，並將受眾對信息接收嘅選擇性行為進行具體分解嘅傳播學者係",
+    "llm_output": "正確答案係 D. 克拉帕。\n\n克拉帕（Elihu Katz），美國傳播學者，他在1959年出版的《大眾傳播嘅效果》一書中提出了著名的“克拉帕模型”（Katz Model），該模型強調了受眾對信息接收的選擇性行為，並提出了“选择性接觸”、“选择性注意”、“选择性理解”和“选择性記憶”四個概念。這些概念對後續的傳播研究和理論發展產生了深遠影響。\n\n其他選項：\nA. 施拉姆（Wilbur Schramm），美國傳播學之父，對傳播學的發展做出了重要貢獻，但並不是提出“大眾傳播嘅效果”一書的學者。\nB. 霍夫蘭（Carl Hovland），美國心理學家，研究了說服過程中的效果，提出了“霍夫蘭模型”，但這本書不是他所著。\nC. 李普曼（Walter Lippmann），美國新聞工作者和傳播學者，提出了“民意形成的過程”，強調了媒體在形成公共意見中的作用，但這本書也不是他所著。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '施拉姆'], ['B', '霍夫蘭'], ['C', '李普曼'], ['D', '克拉帕']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "唔屬於受眾嘅特點嘅有",
+    "llm_output": "選項B“隨意性”不属于受眾的特點。受眾的特點通常包括歸屬性、自主性和自在性。歸屬性指的是受眾對某一特定群體或社會的歸屬感；自主性則是指受眾在接收信息時能夠自主選擇和判斷；自在性則是指受眾在接收信息時能夠自由地表達自己的觀點和感受。因此，正確答案是B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '歸屬性'], ['B', '隨意性'], ['C', '自主性'], ['D', '自在性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "唔接受自變量作用嘅實驗對象喺控制實驗中構成",
+    "llm_output": "C. 「控制組」\n\n在控制實驗中，控制組是指那些不接受自變量作用，而作為基準組的實驗對象。控制組的作用是提供一個基準，以便研究者能夠比較實驗組（接受自變量作用的組）和控制組之間的結果，從而確定自變量的效果。因此，控制組在控制實驗中構成，並且不受到自變量的影響。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「觀測組」'], ['B', '「實驗組」'], ['C', '「控制組」'], ['D', '「對照組」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "評論區別於其他文體嘅主要標誌係",
+    "llm_output": "A. 論證\n\n評論區別於其他文體的主要標誌是論證。評論文體通常包含對某一事件、觀點或作品的評估和分析，其中心特點是通過提出論點、提供論據並進行論證來支持或反對某種立場。其他選項如論據、論點和說理雖然也是評論文體中重要的組成部分，但它們不單獨作為評論區別於其他文體的標誌。因此，正確答案是A。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '論證'], ['B', '論據'], ['C', '論點'], ['D', '說理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個選項唔係施拉姆嘅報刊理論",
+    "llm_output": "正確答案係 B. 蘇維埃理論。\n\n施拉姆（Wilbur Schramm），作為新聞學領域的先驅之一，提出了多種理論來解釋報刊的運作和社會功能。其中，他提出了自由主義理論和資本主義理論，這些理論強調了媒體自由和市場競爭的重要性。然而，蘇維埃理論（Soviet Theory）不是施拉姆提出的理論，而是指蘇聯共产主义體制下的媒體理論，強調媒體作為國家工具的角色，與施拉姆的理論有本質的差異。因此，選項 B 是正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '集權主義理論'], ['B', '蘇維埃理論'], ['C', '資本主義理論'], ['D', '自由主義理論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "認為「媒介就係信息」呢個觀點嘅係以下邊個理論?",
+    "llm_output": "正確答案係：B. 媒介決定論。\n\n媒介決定論（Media Determinism）認為媒介形式本身對社會和個人行為有深遠影響。該理論強調媒介技術和形式如何塑造我們接收和理解信息的方式，並進一步影響我們的思考和行為。「媒介就係信息」這個觀點反映了媒介決定論的核心思想，即媒介本身具有強大的信息傳播功能，甚至可以改變或塑造信息內容。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '媒介失控論'], ['B', '媒介決定論'], ['C', '媒介情境論'], ['D', '媒介偏倚論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "1948年，拉斯韋爾喺「傳播喺社會中嘅結構同功能」一文中首次提出咗",
+    "llm_output": "正確答案係A。1948年，美國政治學家哈罗德·拉斯韦尔（Harold Lasswell）在其論文「傳播喺社會中嘅結構同功能」中提出了著名的傳播5W模式，即：\n\n1. 誰（Who）：傳播者\n2. 說啲乜（What）：訊息內容\n3. 通過乜渠道（Through which channel）：傳播途徑\n4. 對乜人（To whom）：接收者\n5. 有乜效果（With what effect）：效果\n\n這個模式成為了研究傳播過程的一個基本框架，並對後續的傳播學研究產生了深遠影響。其他選項B、C和D均非拉斯韋爾在該論文中首次提出的概念或方法。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傳播嘅5W模式'], ['B', '政治傳播嘅概念'], ['C', '大眾傳播學嘅概念'], ['D', '內容分析法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊位人物喺「傳播喺社會中嘅結構與功能」論文中嘅「一句話」、「三功能」嚟認定佢喺傳播學中嘅創始人地位。",
+    "llm_output": "正確答案是 B. 哈羅德·拉斯韋爾。\n\n哈羅德·拉斯韋爾（Harold Lasswell）在「傳播喺社會中嘅結構與功能」（The Structure and Function of Communication in Society）論文中提出了「一句話」和「三功能」的概念，奠定了他在傳播學中的創始人地位。拉斯韋爾提出了著名的「一句話」（The One-Sentence Definition），即「誰說了什麼，通過甚麼渠道，對誰說的，有甚麼效果」，這定義至今仍是傳播學研究的基本框架。\n\n此外，拉斯韋爾還提出了傳播的三大功能：監督功能、協調功能和傳遞功能。這些概念對後續的傳播學研究產生了深遠的影響，因此他被譽為傳播學的創始人之一。\n\n其他選項如 A. 卡爾·霍夫蘭（Karl霍夫蘭）、C. 拉扎斯菲爾德（Paul Lazarsfeld）和 D. 溫勒（Walter Lippmann），雖然他們在傳播學領域也做出了重要貢獻，但拉斯韋爾的「一句話」和「三功能」更為著名，因此 B 是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '卡爾·霍夫蘭'], ['B', '哈羅德·拉斯韋爾'], ['C', '拉扎斯菲爾德'], ['D', '溫勒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「國家嘅發展尤其經濟發展係一切發展中國家嘅首要任務，新聞媒介必須服從、服務、促進國家發展尤其經濟發展。」呢係邊種媒介理論嘅核心內容？",
+    "llm_output": "正確答案係 D. 社會責任理論。\n\n此問題所引述的內容強調了新聞媒體在國家發展，特別是經濟發展中的角色，即媒體應該服從、服務並促進國家發展。這與社會責任理論的核心思想相符，該理論認為媒體不僅僅是傳播信息的工具，更應承擔起社會責任，促進公共利益和社會進步。\n\n其他選項不符合引述內容的意涵：\nA. 發展新聞學強調的是新聞媒體在國家發展中的作用，但並不等同於服從、服務、促進國家發展。\nB. 極權主義理論強調媒體應服從權力，但引述內容中強調的是促進國家發展，而非單純的服從。\nC. 自由主義理論強調媒體的獨立性和自由，與引述內容中強調的服從、服務、促進國家發展相悖。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '發展新聞學'], ['B', '極權主義理論'], ['C', '自由主義理論'], ['D', '社會責任理論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "電視攝錄中最能表達攝像師功力嘅係",
+    "llm_output": "D. 抓\n\n在電視攝錄中，最能表達攝像師功力的技巧是「抓」。這涉及到攝像師捕捉即時事件或動態場景的能力，這需要快速反應和準確的判斷力。其他選項如「挑」、「等」和「搶」，雖然也是攝像師工作中重要的技巧，但它們不如「抓」那麼直接和核心地表達了攝像師的專業技能。因此，正確答案是D。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '挑'], ['B', '等'], ['C', '搶'], ['D', '抓']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "傳播學之父係",
+    "llm_output": "正確答案係 D. 施拉姆。\n\n傳播學之父通常指的是威尔伯·施拉姆（Wilbur Schramm），他對傳播學的發展做出了重大貢獻，包括創建了第一個傳播學研究機構，撰寫了多部重要的學術著作，並提出了許多重要的理論和概念。其他選項中的勒溫（Kurt Lewin）、拉斯韋爾（Harold Lasswell）和拉扎斯菲爾德（Paul Lazarsfeld）都是傳播學領域的重要人物，但施拉姆通常被視為傳播學的奠基人。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '勒溫'], ['B', '拉斯韋爾'], ['C', '拉扎斯菲爾德'], ['D', '施拉姆']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞起源於人類社會嘅",
+    "llm_output": "正確答案：A. 信息交往\n\n解釋：新聞的本質是信息的傳播和交流，它源於人類社會的信息交往需求。人類社會的發展需要信息的共享和交流，以促進合作、交流思想和了解外界動態。因此，新聞作為一種信息交流的形式，其起源可以追溯到人類社會的信息交往活動。其他選項如教育進步、戰爭宣傳和產品交換，雖然在某些情況下可能與新聞相關，但它們不是新聞起源的主要來源。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '信息交往'], ['B', '教育進步'], ['C', '戰爭宣傳'], ['D', '產品交換']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "捲入度比較高嘅產品往往喺以下邊類媒介上投放廣告？",
+    "llm_output": "D. 電視\n\n在這個問題中，卷入度（involvement）是指消費者對某產品或服務的興趣和參與程度。通常，卷入度較高的產品或服務，例如大型購物、娛樂或教育產品，會在電視上投放更多廣告，因為電視能夠提供視覺和聽覺上的豐富體驗，有助於吸引觀眾的注意力並增加參與度。網絡、報紙和廣播媒介雖然也能投放廣告，但相比之下，電視在傳達視覺和聽覺信息方面具有更強的吸引力。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '網絡'], ['B', '報紙'], ['C', '廣播'], ['D', '電視']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對事物嘅存在方式同運動狀態加以認識然後用文字表達出嚟係",
+    "llm_output": "正確答案係 D. 實在信息。\n\n新聞學中，實在信息是指對現實世界中的事物進行觀察、分析和報導，並將這些信息以文字或其他媒介形式傳達給讀者或觀眾。這個過程包括認識事物的存在方式和運動狀態，然後通過文字表達出來，以便讓人們了解和掌握資訊。\n\n其他選項：\nA. 人工信息 - 是指由人類創造或加工的信息，如新聞報導、學術論文等。\nB. 自然信息 - 通常指的是自然界中發生的現象，如地震、天氣變化等，這些信息通常需要通過科學儀器或觀察來獲取。\nC. 天然信息 - 與自然信息相似，指的是自然界中未經人類加工的信息。\n\n因此，根據問題描述，最符合的答案是 D. 實在信息。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人工信息'], ['B', '自然信息'], ['C', '天然信息'], ['D', '實在信息']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "皮亞傑認為傳播具有兩種功能，一係自我中心嘅功能，一係",
+    "llm_output": "皮亞傑（Jean Piaget）是一位瑞士心理學家，他提出了儿童认知发展的理论。在传播学的语境下，皮亞傑的观点通常不被直接引用，因为他主要是研究儿童心理发展的。然而，如果我们要从传播学的角度来理解这个问题，我们可以推测皮亞傑可能认为传播具有社交性功能，因为传播是人们交流思想、情感和信息的基本方式，这自然涉及到社交互动。\n\n因此，根据上述分析，正确的选项是：\n\nA. 社交性功能\n\n这个答案虽然不完全符合皮亞傑的原始理论，但在传播学的框架内，社交性功能是传播的一个核心方面。其他选项如工具性功能、娱乐性功能和宣传性功能虽然也是传播可能具有的功能，但它们并不是皮亞傑理论中的核心概念。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '社交性功能'], ['B', '工具性功能'], ['C', '娛樂性功能'], ['D', '宣傳性功能']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "現場報道嘅結構形式有",
+    "llm_output": "正確答案為 B. 倒金字塔結構。\n\n倒金字塔結構是新聞寫作中常用的一種結構形式，它將最重要和最具新意的信息放在文章的最前面，接著是次要信息，最後是背景信息。這種結構有助於確保讀者在任何情況下都能迅速掌握關鍵信息，特別是在讀者可能只會閱讀開頭部分的情況下。\n\n其他選項描述的結構形式不是專門針對現場報道的。邏輯結構（A）和金字塔結構（D）是文章組織的一般性結構，而導引結構（C）則更適合於故事類文章，而非新聞報導。因此，這些選項都不是正確答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '邏輯結構'], ['B', '倒金字塔結構'], ['C', '導引結構'], ['D', '金字塔結構']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "世界上最早嘅通訊社係",
+    "llm_output": "A. 哈瓦斯通訊社\n\n哈瓦斯通訊社（Agence Havas）是世界上最古老的新闻机构之一，成立于1835年，由法国人夏尔·路易斯·哈瓦斯（Charles-Louis Havas）创立。它最初是为法国报纸提供新闻稿的服务，后来逐渐扩展到全球，成为国际新闻通讯社。其他选项中的美联社（Associated Press, AP）、法新社（Agence France-Presse, AFP）和路透社（Reuters）虽然也是著名的国际新闻机构，但它们都是在哈瓦斯通訊社之后成立的。因此，正确答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '哈瓦斯通訊社'], ['B', '美聯社'], ['C', '法新社'], ['D', '路透社']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「正確輿論」嘅含義通常應當包括",
+    "llm_output": "正確答案：A. 政治方向正確，思想方法正確，話題內容正確\n\n解釋：「正確輿論」通常指的是符合社會主流價值觀、法律法規以及公眾利益的舆情。在選項中，A選項涵蓋了政治方向、思想方法和話題內容三方面的正確性，這些都是構成正確輿論的重要因素。而其他選項雖然也提及了部分正確的方面，但沒有像A選項那樣全面地涵蓋了正確輿論的關鍵要素。因此，A選項是最符合「正確輿論」含義的選項。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '政治方向正確，思想方法正確，話題內容正確'], ['B', '政治方向正確，傳播內容健康，傳播速度快捷'], ['C', '政治方向正確，輿論話題適時，輿論強度適中'], ['D', '政治方向正確，思想方法科學，傳播時間適宜']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "兩個或兩個以上嘅人之間藉助語言同非語言符號互通信息、交流思想感情嘅活動係",
+    "llm_output": "C. 人際傳播\n\n人際傳播指的是兩個或兩個以上的人之間通過語言和非語言符號來交流信息、思想和情感的過程。這一過程通常發生在面對面的交流中，例如朋友之間的對話、家庭成員之間的溝通等。相比之下，組織傳播通常指的是組織內部或組織之間的信息傳播，而大眾傳播則是指通過媒體向大眾傳播信息。內向傳播則是指個人對自己內心的反思和自我溝通。因此，正確答案是C. 人際傳播。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '組織傳播'], ['B', '大眾傳播'], ['C', '人際傳播'], ['D', '內向傳播']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺新聞輿論監督中，最重要嘅監督對象係",
+    "llm_output": "D. 權力組織\n\n在新聞學中，新聞輿論監督指的是社會各界對新聞媒體及其報導的監督和評估。其中，權力組織，如政府機構、立法機構和司法機構，通常是最重要的監督對象。這些機構不僅擁有制定和執行法律的權力，而且能夠對媒體進行法律和政策層面的監督，確保媒體報導符合法律規範和公共利益。此外，權力組織的監督還能促進媒體的透明度和責任感，從而維護社會秩序和公共利益。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '各種社會成員'], ['B', '公民團體'], ['C', '基層幹部'], ['D', '權力組織']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "係邊個提出咗「波紋效果」理論",
+    "llm_output": "正確答案係 B. 塞弗林。\n\n「波紋效果」理論，又稱為「螺旋報道」理論，是由美國傳播學者沃爾特·塞弗林（Walter Lippmann）提出嘅。他認為，媒體報導事件時，會對事件進行選擇性報導，並且會影響公眾對事件的認識和理解，形成一種波紋狀的影響，從而影響社會整體。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '坦卡德'], ['B', '塞弗林'], ['C', '貝雷爾森'], ['D', '洛基奇']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "媒介組織唔係一種",
+    "llm_output": "正確答案：A. 政治機構\n\n解釋：媒介組織，如報社、電視台和广播电台，主要目的是傳播信息，通常不直接參與政治決策或政策制定。雖然在某些情況下，媒介組織可能會對政治議題進行報導和評論，但它們本身不是政治機構。因此，選項A是正確答案。\n\n其他選項解釋：\nB. 信息產業機構 - 媒介組織是信息產業的一部分，因為它們生產和傳播信息。\nC. 公共事業單位 - 在某些國家，媒介組織可能被視為公共事業單位，特別是當它們由政府擁有或部分擁有時。\nD. 社會機構 - 媒介組織在社會中扮演著重要角色，它們提供公共服務，如新聞報導和公共服務公告，因此可以視作社會機構的一部分。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '政治機構'], ['B', '信息產業機構'], ['C', '公共事業單位'], ['D', '社會機構']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "讓受眾透過媒介經常見到你，可以增強",
+    "llm_output": "正確答案：A. 熟知性\n\n解釋：讓受眾透過媒介經常見到你，可以增強的是“熟知性”。这是因为，当受眾在媒体上频繁看到某个人物或品牌时，他们会逐渐熟悉这个人或品牌，从而增加对他们的认知和记忆。这种认知和记忆的增强有助于提高受眾的熟知性。\n\n其他选项的解釋：\nB. 權威性 - 這通常是指一個人物或機構在特定領域內的專業知識和地位，而不是僅僅通過頻繁出現在媒體上就能增強的。\nC. 可信性 - 這涉及到受眾對信息來源的信任程度，通常與信息源的透明性、一致性和可靠性相關。\nD. 接近性 - 這是指受眾與信息源在地理、心理或情感上的距離感，而不是僅僅通過頻繁出現在媒體上就能增強的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '熟知性'], ['B', '權威性'], ['C', '可信性'], ['D', '接近性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺信息爆炸嘅今日，我哋應該點做?",
+    "llm_output": "B. 健全同強化大眾傳播法則\n\n在信息爆炸的今天，我们应当健全和强化大众传播法则，以确保信息的准确性、公正性和透明度。这包括制定和执行相关法律法规，提高媒体素养，以及鼓励公众参与和监督。通过这些措施，我们可以更好地应对信息过载，避免误导和假新闻的传播，同时保障公众的知情权和参与权。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '崇洋媚外'], ['B', '健全同強化大眾傳播法則'], ['C', '大量蒐集信息為我所用'], ['D', '唔關我嘅事']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "受傳者喺信息接受活動中感到傳播者與自己相似或相同嘅地方，從而提高傳播者嘅影響力",
+    "llm_output": "A. 自己人效應\n\n這個問題涉及的是傳播學中的「自己人效應」（In-group effect），這是指當受眾認為傳播者與自己屬於同一群體時，他們會更傾向於接受和信任來自這個群體的訊息。這種心理效應有助於提高傳播者的影響力和可信度。其他選項如威信效應、名片效應和暈輪效應，都是不同的傳播學概念，與此問題不相關。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自己人效應'], ['B', '威信效應'], ['C', '名片效應'], ['D', '暈輪效應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "制定「中國新聞工作者職業道德準則」嘅係。",
+    "llm_output": "正確答案係：\n\nC. 中華全國紀者協會\n\n「中國新聞工作者職業道德準則」係由中華全國新聞工作者協會制定，旨在規範中國新聞工作者的職業行為，確保新聞報導的公正性和真實性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '中共中央宣傳部'], ['B', '各新聞單位'], ['C', '中華全國紀者協會'], ['D', '中華全國新聞工作者協會']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺傳播學研究中，正式調查所採用嘅抽樣形式一般都係",
+    "llm_output": "C. 隨機抽樣\n\n在傳播學研究中，正式調查通常採用隨機抽樣（Random Sampling），因為這種抽樣方法能夠提供較高的統計效度，即能夠更準確地反映出整個群體的特徵。隨機抽樣通過隨機選擇樣本，減少偏差，從而提高研究結果的代表性和可靠性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '非隨機抽樣'], ['B', '分層抽樣'], ['C', '隨機抽樣'], ['D', '雪球抽樣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "作為新聞類節目，其「媒介共性」應該係",
+    "llm_output": "正確答案係 D. 穩重可信，具有權威性。\n\n新聞類節目作為傳播新聞信息的主要媒介，其核心特點應該是穩重可信，並且具有權威性。這是因為新聞的根本任務是向公眾提供真實、準確、及時的信息，以滿足公眾的知情權。因此，新聞媒體必須保持其信息的真實性和權威性，以建立和維護公眾對其的信任。\n\n選項 A、B、C 描述的特點，如親切友善、奮發向上、輕鬆愉悅等，雖然可能是其他類型的媒體或節目所追求的特質，但對於新聞類節目來說，這些特點不是其核心共性。新聞媒體的首要任務是傳播信息，而不是以娛樂或情感感染為主。因此，這些選項不符合新聞類節目作為媒介的共性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '親切友善，平易近人'], ['B', '奮發向上，激情洋溢'], ['C', '輕鬆愉悅，清麗高雅'], ['D', '穩重可信，具有權威性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "按照選擇性因素理論嘅觀點，大眾傳媒發出嘅信息傳向受眾時遇到嘅第一關係受眾嘅",
+    "llm_output": "正確答案：D. 選擇性暴露\n\n解釋：選擇性因素理論（Selective Exposure Theory）強調了人們在接收信息時會有選擇性地暴露於他們感興趣或認為有價值的信息。這理論認為，人們會主動尋找符合他們現有觀點和興趣的資訊，而忽視或避免那些與他們觀點相左的資訊。因此，當大眾傳媒發出信息時，受眾首先會選擇性地暴露於這些信息，這就是選擇性暴露。接下來，他們可能會進一步進行選擇性注意、選擇性理解或選擇性記憶。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '選擇性注意'], ['B', '選擇性理解'], ['C', '選擇性記憶'], ['D', '選擇性暴露']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一種唔屬於傳播者與受眾嘅關係",
+    "llm_output": "正確答案：B. 圈層嘅關係\n\n解釋：在傳播學中，傳播者與受眾之間的關係通常被分為幾種類型，包括友善、疏離和支配等。這些關係通常描述的是傳播者如何與受眾互動，以及這種互動如何影響信息傳播的效果。\n\nA選項“友善嘅關係”指的是傳播者與受眾之間建立友好和親切的關係，這有助於增強受眾對傳播者的信任和接受度。\n\nC選項“疏離嘅關係”則是指傳播者與受眾之間存在隔閡或距離感，這可能會導致受眾對傳播者所傳達的信息產生懷疑或不信任。\n\nD選項“支配嘅關係”則是指傳播者擁有權威地位，能夠對受眾施加影響或控制，這種關係通常會影響受眾對信息的接受和反應。\n\nB選項“圈層嘅關係”則不是描述傳播者與受眾之間關係的常用詞彙，它更多地指代社會中不同群體之間的關係，而非傳播者與受眾之間的互動。因此，B選項不属于傳播者與受眾之間的關係類型。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '友善嘅關係'], ['B', '圈層嘅關係'], ['C', '疏離嘅關係'], ['D', '支配嘅關係']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "下列選項唔屬於信息社會同工業社會相比嘅嶄新特點嘅係",
+    "llm_output": "正確答案係 C。\n\n在信息社會中，與工業社會相比，科技的核心是電腦而非引擎，產品是信息而非貨物，生產的中心是網絡而非工廠，經濟結構轉向了合作、分享型的共生型經濟，而非傳統的商品型經濟。因此，選項 C 描述的“生產嘅中心係工廠，而唔係網絡等”不符合信息社會的特征，是工業社會的特點，故此選項不属于信息社會的嶄新特點。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '科技嘅核心係電腦，而唔係引擎'], ['B', '科技嘅產品係信息，而唔係貨物'], ['C', '生產嘅中心係工廠，而唔係網絡等'], ['D', '經濟結構轉成合作、分享嘅共生型經濟，而唔係商品型經濟']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "「守門行為」同「守門人」概念係由下列邊位學者喺第二次世界大戰期間提出嘅?",
+    "llm_output": "正確答案係A. 拉斯韋爾。\n\n拉斯韋爾（Harold Lasswell），美國政治學家，他在1948年與卡普蘭（A.Kaplan）共同撰寫的《自由與不自由》（Free and Unfree）一書中提出了「守門行為」（Gatekeeping behavior）的概念。他比喻新聞媒體的編輯和報道者如同一道門，他們決定哪些新聞可以進入公眾視野，哪些則被排除在外。此概念後被廣泛應用於新聞學研究，特別是關於媒體如何選擇報導內容的討論。\n\n其他選項：\nB. 勒溫（Kurt Lewin），德國心理學家，以群體動力學研究著稱，與「守門行為」和「守門人」概念無直接關聯。\nC. 施拉姆（Wilbur Schramm），美國傳播學家，雖然對媒體研究有重要貢獻，但「守門行為」概念不是他提出的。\nD. 霍夫蘭（Carl Hovland），美國心理學家，以研究說服效果著稱，與「守門行為」和「守門人」概念無直接關聯。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '拉斯韋爾'], ['B', '勒溫'], ['C', '施拉姆'], ['D', '霍夫蘭']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "對事物發展變化嘅史態、現態同趨態，新聞主要反映",
+    "llm_output": "C. 現態\n\n新聞主要反映的是事物的現態，即當前正在發生或最近發生的事件。雖然新聞也會涉及史態（過去的事件）和趨態（未來可能發生的趨勢），但核心和主要的部分是报道當前正在發生的事情。因此，正確答案是C. 現態。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全態(三態之和)'], ['B', '趨態'], ['C', '現態'], ['D', '史態']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "西方學者提出嘅報刊四種理論中最早出現嘅係",
+    "llm_output": "正確答案係C. 集權主義理論。\n\n集權主義理論（Authoritarianism）是最早出現於西方學術界對報刊理論的探討中。這種理論主要在19世紀末至20世紀初期，由一些強調媒體應當服從國家權力，並為維護社會秩序和穩定服務的學者提出。\n\n自由主義理論（Libertarianism）則是在集權主義理論之後發展起來，強調媒體自由和公共討論的重要性，認為媒體應該是公共利益的守護者。\n\n社會責任理論（Social Responsibility）則是在20世紀中期，隨著媒體影響力增強，社會對媒體角色的期望也變得更高，因而提出。\n\n蘇聯共產主義理論（Soviet Communism）則不是西方學者提出的報刊理論，而是指蘇聯的媒體政策，強調媒體應作為國家政策的一部分，並為社會主義建設服務。\n\n因此，最早出現的報刊理論是集權主義理論。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自由主義理論'], ['B', '社會責任理論'], ['C', '集權主義理論'], ['D', '蘇聯共產主義理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞價值要素中嘅時新性指嘅係新聞事件嘅",
+    "llm_output": "正確答案係D。時新性指的是新聞事件發生與被報道之間所存在的時間差。如果這個時間差越短，則新聞的時新性越高，對讀者來說也越具有吸引力。其他選項如延續時間、報道時間和發生時間，均不是指代時新性的概念。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '延續時間'], ['B', '報道時間'], ['C', '發生時間'], ['D', '發生同報道嘅時差']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞報道嘅起點係",
+    "llm_output": "正確答案係 D. 採訪。\n\n新聞報道通常從採訪開始，因為這涉及到收集和驗證資訊。採訪是新聞工作者與消息來源交流以獲取第一手資料的過程。寫作、編輯和評論通常是在採訪之後的階段，寫作是將採訪到的資訊轉化為可讀的文本，編輯是校對和修訂文章，評論則涉及對新聞事件的分析與評價。因此，新聞報道起點是採訪。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '寫作'], ['B', '編輯'], ['C', '評論'], ['D', '採訪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係受眾嘅角色",
+    "llm_output": "選項A \"傳播內容嘅「翻譯者」\" 不是受眾的角色。受眾通常是指接收和理解傳播內容的目標人群。選項B \"信息產品嘅消費者\"、選項C \"傳播效果嘅反饋者\" 和選項D \"傳播活動嘅參與者\" 都是受眾的角色，因為他們直接參與到接收和回應信息過程中。\n\n因此，正確答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '傳播內容嘅「翻譯者」'], ['B', '信息產品嘅消費者'], ['C', '傳播效果嘅反饋者'], ['D', '傳播活動嘅參與者']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "廣播電視編輯嘅工作環節包括新聞節目生產過程中嘅",
+    "llm_output": "正確答案為 C. 構思、組織、加工、製作。\n\n在廣播電視編輯的工作環節中，編輯需要進行以下步驟：\n\n1. **構思**：編輯需要根據新聞價值和觀眾需求，選擇新聞主題，並進行初步的構思和設計。\n2. **組織**：在構思的基礎上，編輯需要組織新聞素材，包括文字、圖片、音頻等，確保素材的完整性和適時性。\n3. **加工**：編輯需要對收集到的素材進行編輯和加工，包括剪輯、配音、字幕添加等，以提升新聞的視覺和聽覺效果。\n4. **製作**：最後，編輯需要將所有加工後的素材整合，進行最終的製作，包括調音、配樂、特效等，確保新聞節目能夠順利播出。\n\n因此，選項 C 最全面地涵蓋了廣播電視編輯在新聞節目生產過程中的主要工作環節。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '獲取線索、構思、組織、加工'], ['B', '構思、組織、製作、播出'], ['C', '構思、組織、加工、製作'], ['D', '欄目定位、組織、加工']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞事實或相應作品嘅信息含量如果等於零，其新聞價值",
+    "llm_output": "A. 等於零\n\n在新闻学中，新闻价值通常被用来评估一个新闻故事或事件的重要性。新闻价值包括几个关键要素，如时效性、接近性、重要性、显著性、独特性以及冲突性。如果新闻事實或相應作品的信息含量等于零，意味着该新闻故事或事件没有提供任何新的、有用的或有意义的信息，因此其新闻价值也等于零。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '等於零'], ['B', '唔確定'], ['C', '好少'], ['D', '好大']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞學嘅母體係",
+    "llm_output": "正確答案係 D. 政治學。\n\n新聞學作為一門學科，其根源可以追溯到政治學，特別是新聞與公共領域之間的關係。新聞學研究如何收集、編輯和傳播信息，以及這些信息如何影響公共意識和政治決策。雖然新聞學也涉及到其他學科領域，如文學、語言學和心理學，但它的核心和母體是政治學。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '心理學'], ['B', '文學'], ['C', '語言學'], ['D', '政治學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "雙重行動模式係邊個提出嘅",
+    "llm_output": "正確答案係 D. 拉斯韋爾。\n\n雙重行動模式（Two-Step Flow of Communication）是由美國傳播學家庫尔特·拉斯韋爾（Kurt Lewin）和保羅·F·拉扎斯菲尔德（Paul F. Lazarsfeld）在1940年代提出嘅。此模式描述咗資訊傳播過程中，大多數人從主要傳播渠道（如電視、報紙）接收資訊，而後再從次要渠道（如朋友、家人）獲得進一步的資訊。此模式強調了傳播過程中「兩步」的過程，即先從主要渠道接收，再從次要渠道接收。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '巴斯'], ['B', '懷特'], ['C', '施拉姆'], ['D', '拉斯韋爾']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "攝像機同被攝對象處於同一水平線上，拍出嘅畫面，俾人嘅感覺係",
+    "llm_output": "正確答案係 D. 自然、親切。\n\n當攝像機同被攝對象處於同一水平線上時，通常會創造出一種平視的視角，這使得觀眾能夠感受到一種自然的視覺體驗。這種視角通常能夠傳達出一種親切感，因為觀眾會感受到自己與被攝對象之間不存在任何距離或優勢。相較於其他選項，A 的穩重、端莊通常與低角度拍攝相關，B 的莊嚴、崇高可能與高角度拍攝或仰視角度相關，而 C 的縱深感、透視感則通常來自於使用焦距較長的鏡頭或拍攝時與被攝對象之間存在一定距離的情況。因此，D 選項最符合問題描述的情況。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '穩重、端莊'], ['B', '莊嚴、崇高'], ['C', '縱深感、透視感'], ['D', '自然、親切']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "主持制定「報人守則」嘅係",
+    "llm_output": "正確答案係 B. 沃爾特·威廉。\n\n沃爾特·威廉（Walter Lippmann），美國著名新聞工作者、政治評論家，被譽為現代新聞理論的奠基人之一。他於1914年撰寫了《公共意見》（Public Opinion）這本書，提出了著名的「報人守則」（Press Code），強調媒體應該追求真理、公正和獨立，並對公共意見負責。\n\n其他選項：\nA. 託馬斯·傑斐遜（Thomas Jefferson），美國第三任總統，雖然對新聞自由有重要貢獻，但並不是「報人守則」的制定者。\nC. 威爾伯·施拉姆（Wilbur Schramm），雖然是新聞學領域的重要人物，但與「報人守則」的制定無關。\nD. 哈欽斯（Robert M. Hutchins），美國哲学家、教育家，曾任芝加哥大學校長，與「報人守則」的制定亦無直接關聯。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '託馬斯·傑斐遜'], ['B', '沃爾特·威廉'], ['C', '威爾伯·施拉姆'], ['D', '哈欽斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "某期「非你莫屬」中劉俐俐被主持人攻擊後，受到在場嘉賓都羣起而攻之嘅現象係（）嘅典型表現。",
+    "llm_output": "D. 沉默嘅螺旋論\n\n這個問題描述的是「沉默的螺旋」理論的一個情境。該理論由諾伯特·艾爾諾（Norbert Elias）和尤爾根·哈貝马斯（Jürgen Habermas）提出，描述了人們在公共意見形成過程中如何受到周圍環境和他人的影響，從而傾向於避免與主流意見相左，以免遭到孤立。在這個例子中，當劉俐俐被主持人攻擊後，在場嘉賓的反應表明了人們傾向於跟隨主流意見，避免被孤立，這正是「沉默的螺旋」理論所描述的現象。\n\n其他選項不符合這個情境：\nA. 知識鴻溝論（Knowledge Gap Theory）探討的是媒體使用與知識水平之間的關係，而非公共意見的形成。\nB. 媒介依賴論（Media Dependency Theory）探討的是人們如何依賴媒體來獲取信息，而非公共意見的動態。\nC. 認知失調論（Cognitive Dissonance Theory）探討的是個人如何減少內心矛盾，而非公共意見的影響力。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '知識鴻溝論'], ['B', '媒介依賴論'], ['C', '認知失調論'], ['D', '沉默嘅螺旋論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "我國黨同政府一直重視新聞法規政策嘅制定，1994年12月，中共中央宣傳部同新聞出版署有關部門合編咗",
+    "llm_output": "正確答案：B. 「新聞法規政策須知」\n\n解釋：1994年12月，中共中央宣傳部同新聞出版署有關部門合編了「新聞法規政策須知」，這本書目的目的是为了方便新聞工作者了解和遵守相關的法律法規和政策。其他選項提到的法規政策文件與此事件無關。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「期刊出版法規政策須知」'], ['B', '「新聞法規政策須知」'], ['C', '「圖書出版法規政策須知」'], ['D', '「關於黨內政治生活嘅若干準則」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "語言係社會約定俗成嘅並且係比較高級同複雜嘅",
+    "llm_output": "B. 符號\n\n語言作為一種符號系統，確實是社會約定俗成的一部分，並且具有較高的複雜性和多層次的表達能力。在新聞學中，語言不僅僅是傳達信息的工具，它還涉及到符號學、修辭學等多個層面，因此選項B“符號”是正確答案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '信息'], ['B', '符號'], ['C', '媒介所有者'], ['D', '藝術']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "受傳者喺信息接受活動中感到傳播者喺許多方面同自己有相似或相同之處，從受眾心理層面上講稱為乜嘢?",
+    "llm_output": "C. 「自己人」效應\n\n「自己人」效應是指受眾在接收信息時，如果感到傳播者與自己在某些方面有相似或相同的特質，便會對傳播者產生一種親近感，從而更容易接受其傳播的信息。這種心理效應有助於增強信息傳播的效果。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '威信效應'], ['B', '「名片」效應'], ['C', '「自己人」效應'], ['D', '暈輪效應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "傳播文化知識，係大眾傳播嘅一個重要功能，呢一功能也就係",
+    "llm_output": "C. 教育功能\n\n大眾傳播的其中一个重要功能是教育功能，即通过新闻报道、专题节目、教育类节目等形式，向公众传播文化知识，提高公众的文化素养和知识水平。虽然大眾傳播也具有宣傳功能、娛樂功能和認識功能，但教育功能更直接地指向了传播文化知识的目标。因此，正確答案是C.教育功能。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '宣傳功能'], ['B', '娛樂功能'], ['C', '教育功能'], ['D', '認識功能']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "媒介即訊息係由邊個提出嚟嘅",
+    "llm_output": "正確答案係D. 麥克盧漢。\n\n「媒介即訊息」（The Medium is the Message）係加拿大傳播學家馬歇爾·麥克盧漢（Marshall McLuhan）提出嘅一個重要理論。他認為，媒介本身比媒介傳播嘅內容對社會和文化有更深遠嘅影響。簡單來說，媒介的技術和形式比其內容更能夠改變人們思考、交流和生活的模式。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '哈羅德·拉斯韋爾'], ['B', '溫勒'], ['C', '施拉姆'], ['D', '麥克盧漢']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "新聞價值嘅實質係",
+    "llm_output": "正確答案係 C. 生產新聞所消耗嘅社會必要勞動。\n\n新聞價值是指新聞在社會中具有的價值，它不僅僅是新聞本身所具有的社會價值或宣傳價值，而是指生產新聞所需要投入的社會必要勞動。這個概念強調了新聞生產過程中的成本和努力，以及這些成本和努力在社會中的價值。\n\n選項 A 和 B 描述的是新聞的社會價值和宣傳價值，這些是新聞價值的一部分，但不是其核心。選項 D 描述的是對新聞本質及其特性進行量化把握，這更多地涉及到新聞分析的方法，而非新聞價值本身。因此，最符合新聞價值實質定義的選項是 C。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '新聞嘅社會價值'], ['B', '新聞嘅宣傳價值'], ['C', '生產新聞所消耗嘅社會必要勞動'], ['D', '對新聞嘅本質及其特性嘅量化把握']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "有觀點認為，人們對大眾傳媒發出信息嘅選擇會受到家庭、朋友同熟人等嘅影響。該觀點屬於受眾理論中嘅",
+    "llm_output": "正確答案：D. 社會關係論\n\n解釋：\n這個問題考查的是新聞學中的受眾理論。受眾理論是研究大眾傳媒如何影響觀眾的理論框架。\n\nA. 選擇性因素理論（Selective Exposure Theory）強調觀眾會選擇性地接觸那些符合他們既有觀點和興趣的信息。\n\nB. 個人差異論（Personal Differences Theory）則關注觀眾的個人特質，如教育水平、職業、年齡等，如何影響他們對信息的接收和理解。\n\nC. 社會分類論（Social Categorization Theory）探討觀眾如何根據社會分類來接收和理解信息。\n\nD. 社會關係論（Social Network Theory）則認為人們的社會關係網絡，包括家庭、朋友和熟人等，會影響他們選擇接收哪些信息。\n\n因此，問題中提到的觀點，即人們對大眾傳媒發出信息的选择受到家庭、朋友和熟人等影響，最符合“社會關係論”。所以正確答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '選擇性因素理論'], ['B', '個人差異論'], ['C', '社會分類論'], ['D', '社會關係論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺畫面編輯中，將幾個主體內容類似嘅畫面連接喺一齊，以渲染氣氛，強調情節嘅組接方式係",
+    "llm_output": "B. 積累\n\n在畫面編輯中，將多個主體內容類似、能夠互相強調或增強視覺效果和情感氛圍的畫面連接在一起，這種組接方式稱為“積累”。通過這種方式，可以有效地渲染氣氛，強調情節，並使觀眾產生更強烈的情感共鳴。其他選項如象徵、比照和比喻，則是指其他不同的視覺和敘事手法。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '象徵'], ['B', '積累'], ['C', '比照'], ['D', '比喻']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一種唔屬於傳播者嘅特點",
+    "llm_output": "正確答案：C. 複雜性\n\n解釋：傳播者通常指的是那些在媒體和新聞機構中工作的人，例如記者、編輯、攝影師等。這些人通常具有以下特點：自主性（A），因為他們在報導和撰寫新聞時有一定的自由度；好奇性（B），因為他們需要對事件保持好奇心和探求欲；集體性（D），因為新聞工作通常需要團隊合作，如編輯和記者之間的協作。然而，複雜性（C）通常不是用來描述傳播者的特點，因為它更多地指代系統或結構的複雜程度，而不是個人特質。因此，複雜性不是傳播者的特點。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '自主性'], ['B', '好奇性'], ['C', '複雜性'], ['D', '集體性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "記者採錄嘅音響必須係",
+    "llm_output": "正確答案係 B. 被報道人物或事物發出嘅聲響。\n\n在新聞報導中，音響通常是指那些能夠提供現場感或情境背景的聲音，這些聲音來自於被報導的人物、事件或環境。例如，新聞報導中可能會包含現場的錄音，如人群的歡呼聲、警報聲或是受訪者的直接聲音。這些聲音有助於增強報導的立體感，讓聽眾能夠更真實地感受到報導中的情境。\n\n選項 A 描述的是人為創造的聲音，這可能包括配音或合成聲音，這些通常不是新聞報導中音響的正確來源。選項 C 提到的「同受眾想象一致嘅「現場」聲音」，這是一種理想化的情況，實際上，新聞報導中的音響應該是基於實際的現場錄音，而非純粹的想像或構建。選項 D 說「唔一定係被報道對象發出嘅聲響」，這雖然在技術上可行，但通常情況下，音響應該是直接來自於被報導的對象，以確保報導的準確性和真實性。\n\n因此，最符合新聞學原則的選項是 B，即音響必須是來自被報道人物或事物發出嘅聲響。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人為創造嘅聲音'], ['B', '被報道人物或事物發出嘅聲響'], ['C', '同受眾想象一致嘅「現場」聲音'], ['D', '唔一定係被報道對象發出嘅聲響']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "目前中國一共有家廣電集團",
+    "llm_output": "C. 32",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '15'], ['B', '30'], ['C', '32'], ['D', '20']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國新聞史上提出「不黨、不私、不賣、不盲」辦報方針嘅係",
+    "llm_output": "正確答案係A。新紀「大公報」提出「不黨、不私、不賣、不盲」的辦報方針，這一原則成為了該報社長期以來的新闻工作準則。其他選項B、C、D均不符合這一描述。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新紀「大公報」'], ['B', '新民報'], ['C', '申報'], ['D', '新華日報']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "當新聞工作者處於焦慮狀態時，對自己身體嘅變化常常表現出",
+    "llm_output": "C. 非常敏感\n\n焦慮狀態下，人們通常會對自己身體的變化變得非常敏感。這是因為焦慮會增加人的警覺性，使他們對任何可能的威脅或異常更加敏感。因此，焦慮中的新聞工作者可能會對自己身體的變化表現出非常敏感，這有助於他們更好地識別和處理壓力和焦慮。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無所謂'], ['B', '唔敏感'], ['C', '非常敏感'], ['D', '較為敏感']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-7b-chat-hf",
+    "dataset": "CMMLU-journalism",
+    "key_answer_type": "alphabet_option",
+    "question": "電子媒體傳播嘅最後把關人係",
+    "llm_output": "正確答案係 B. 編輯。\n\n在電子媒體的傳播過程中，編輯通常是最後一道把關人。編輯負責審核、選擇和編輯新聞內容，確保信息的準確性、適當性和符合媒體的風格和政策。他們還可能決定哪些新聞故事應該被報導，以及如何呈現給觀眾。\n\n主持人（A）通常負責播報新聞，而非決定哪些新聞被報導。\n記者（C）負責採訪和撰寫新聞稿，他們通常不是最後的把關人。\n媒介所有者（D）可能會影響媒體的編輯政策和方向，但他們通常不直接參與具體新聞的審核和編輯工作。\n\n因此，編輯（B）是電子媒體傳播中的最後把關人。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主持人'], ['B', '編輯'], ['C', '紀者'], ['D', '媒介所有者']]",
+    "is_correct": 0
+  }
+]

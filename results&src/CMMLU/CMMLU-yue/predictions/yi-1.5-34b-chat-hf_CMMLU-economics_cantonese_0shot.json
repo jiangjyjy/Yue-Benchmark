@@ -1,0 +1,1592 @@
+[
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種產品價格嘅大幅度減少，導致另一種產品銷量嘅提高，呢兩種產品屬於",
+    "llm_output": "正確答案係 B. 互補品。\n\n當一種產品價格嘅大幅度減少導致另一種產品銷量嘅提高時，呢兩種產品通常係互補品。互補品係指兩種產品會一起被消費，一種產品價格下降會增加對另一種產品嘅需求。例如，如果智能手機價格下降，咁將會增加對手機殼、屏幕保護膜等配件嘅需求。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '獨立品'], ['B', '互補品'], ['C', '替代品'], ['D', '低檔品']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "風險補償率係",
+    "llm_output": "A. 加喺無風險嘅貼現率上，以便喺決策中將風險考慮入去。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '加喺無風險嘅貼現率上，以便喺決策中將風險考慮入去'], ['B', '只供風險決策者決策時用'], ['C', 'B同C都啱'], ['D', '要從無風險貼現率減去，以便喺決策中考慮風險']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果其他因素保持唔變，下面邊種情況一定會使需求減少",
+    "llm_output": "正確答案係 C. 收入減少，同時互補品嘅價格上升。\n\n解釋：\n需求嘅變化可以受到多种因素嘅影響，包括收入、價格、偏好、宣傳等。\n\nA. 收入減少，同時互補品嘅價格下降：雖然收入減少會降低對某啲商品嘅需求，但互補品價格下降會增加對該商品嘅需求，因為它們通常一齊使用。\n\nB. 收入增加，同時替代品嘅價格上升：收入增加會增加對某啲商品嘅需求，而替代品價格上升會減少對該商品嘅需求，因為替代品變得更加昂貴，消費者可能轉向原本嘅商品。但呢個情況唔一定會使需求減少，因為收入增加可能會超過替代品價格上升嘅影響。\n\nC. 收入減少，同時互補品嘅價格上升：呢個情況下，收入減少會降低對某啲商品嘅需求，而互補品價格上升亦會減少對該商品嘅需求，因為消費者可能無法負擔更昂貴嘅互補品。呢個情況下，需求一定會減少。\n\nD. 收入增加，同時替代品嘅價格下降：收入增加會增加對某啲商品嘅需求，而替代品價格下降會增加對該商品嘅需求，因為替代品變得更便宜，消費者可能轉向原本嘅商品。呢個情況下，需求一定會增加，唔會減少。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '收入減少，同時互補品嘅價格下降'], ['B', '收入增加，同時替代品嘅價格上升'], ['C', '收入減少，同時互補品嘅價格上升'], ['D', '收入增加，同時替代品嘅價格下降']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一個行業有好多企業，每個企業銷售嘅產品同其他企業嘅產品有啲唔同，咁嘅市場結構被稱為",
+    "llm_output": "正確答案係 A. 壟斷競爭（Monopolistic Competition）。\n\n壟斷競爭市場結構特點係有大量企業，而且每個企業銷售嘅產品有差異，唔同其他企業嘅產品。呢種市場結構嘅例子包括零售業、餐飲業、服裝業等。在壟斷競爭市場中，企業有啲嘅市場力量，可以設定價格，但由於有其他替代品存在，企業嘅市場力量唔係完全壟斷。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '壟斷競爭'], ['B', '完全競爭'], ['C', '寡頭'], ['D', '壟斷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "壟斷競爭企業嘅競爭方式唔包括",
+    "llm_output": "C. 專利競爭\n\n壟斷競爭企業通常會透過產品差異化競爭、價格競爭、廣告和促銷競爭等方式來吸引顧客和提高市場份額。專利競爭則通常涉及法律和知識產權的保護，不一定直接與壟斷競爭企業的日常競爭策略相關。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '產品差異化競爭'], ['B', '價格競爭'], ['C', '專利競爭'], ['D', '廣告同促銷競爭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "提出消費傾向遞減心理規律嘅經濟學家係",
+    "llm_output": "正確答案係 D. 凱恩斯。\n\n凱恩斯（John Maynard Keynes）係20世紀初英國嘅經濟學家，佢嘅經濟理論稱為凱恩斯主義，當中包括咗消費傾向遞減心理規律（Law of Diminishing Marginal Propensity to Consume）。呢個理論指出，當一個人嘅收入增加時，佢用嚟消費嘅增加額會隨著每增加嘅單位收入而減少，而儲蓄則會相應增加。凱恩斯用呢個理論嚟支持政府嘅干預主義政策，以刺激經濟增長。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '西斯蒙第'], ['B', '配第'], ['C', '魁奈'], ['D', '凱恩斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "需求嘅收入彈性係指",
+    "llm_output": "正確答案嘅選項係 B. 需求對收入變化嘅反應程度。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '收入對需求變化嘅反應程度'], ['B', '需求對收入變化嘅反應程度'], ['C', '需求同收入嘅相容性'], ['D', '需求同收入嘅相關程度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果投資方案未來全部淨現金效益量嘅現值大於期初投資，企業就應該",
+    "llm_output": "B. 接受該方案\n\n根據現金流量折現法（Net Present Value, NPV）的原理，如果一個投資方案的未來淨現金效益量的現值大於期初投資，則該方案預期會為企業創造價值，因此企業應該接受該方案。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '仲需要再研究'], ['B', '接受該方案'], ['C', '無法確定'], ['D', '拒絕該方案']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺完全競爭市場上，一個企業嘅需求曲線係",
+    "llm_output": "在完全競爭市場上，一個企業嘅需求曲線係：\n\nA. 與橫軸平行嘅線\n\n解釋： 在完全競爭市場中，個別企業是價格接受者，無法影響市場價格。因此，企業面對的需求曲線係一條水平線，即與橫軸平行，代表企業可以賣出任意數量嘅產品，但價格固定，無法提高價格來增加收入。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '與橫軸平行嘅線'], ['B', '向右下方傾斜嘅線'], ['C', '與橫軸垂直嘅線'], ['D', '與縱軸平行嘅線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "最常用嘅三種投資方案評價方法係",
+    "llm_output": "B. 返本期法、淨現值法、內部回報率法",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '返本期法、成本法、內部回報率法'], ['B', '返本期法、淨現值法、內部回報率法'], ['C', '返本期法、淨現值法、成本法'], ['D', '成本法、淨現值法、內部回報率法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "投資方案甲頭三年嘅淨現金效益量分別係100蚊、100蚊同100蚊，投資方案乙頭三年嘅現金效益量分別係80蚊、100蚊同120蚊",
+    "llm_output": "D. 必須作貼現計算，先可以確定邊個方案現值大\n\n要準確比較兩個投資方案的現值，必須考慮時間價值，即將未來的現金流量折現到現在的價值。單從給出的數字無法直接判斷哪個方案的現值更大，因為還需要知道貼現率（或利率）來計算現值。貼現率越高，未來的現金流量折現到現在的價值越低。因此，必須進行貼現計算，才能確定哪個方案的現值更大。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '乙方案現值大'], ['B', '甲方案現值大'], ['C', '兩個方案嘅現值相等'], ['D', '必須作貼現計算，先可以確定邊個方案現值大']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "以下現象屬於市場失靈嘅係",
+    "llm_output": "D. 自然壟斷\n\n自然壟斷係市場失靈嘅一種現象，因為市場冇辦法有效競爭，導致單一企業或少數企業控制整個市場，從而可能對消費者造成損害。收入不平等並唔係市場失靈，而係市場運作嘅自然結果，雖然可能引起政策干預，但唔係市場失靈本身。市場控制亦唔係市場失靈嘅定義，而係指企業或個人對市場嘅影響力，而自然壟斷係市場控制嘅一種特殊情況。因此，正確答案係 D. 自然壟斷。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '收入唔平等'], ['B', '以上全部'], ['C', '市場控制'], ['D', '自然壟斷']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "當長期均衡時，完全競爭企業總係",
+    "llm_output": "正確答案係 D. 經濟利潤為零。\n\n喺長期均衡下，完全競爭市場中嘅企業會達到「零經濟利潤」狀態。呢個係因為企業可以進入或退出市場，直至賠率（邊際成本）等於價格（邊際收入），並且所有企業都喺呢個水平上運作。正因為企業可以自由進入市場，任何超額利潤（即經濟利潤）都會吸引新競爭者進入，從而增加市場供應，降低價格，直至經濟利潤消失。相反，如果企業面臨虧損，它們可以退出市場，從而減少供應，提高價格，直至經濟利潤為零。正常利潤係固定成本嘅回報，並唔會影響長期均衡狀態下嘅經濟利潤。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '經濟利潤大於零'], ['B', '正常利潤為零'], ['C', '經濟利潤小於零'], ['D', '經濟利潤為零']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "有風險條件下嘅決策，其決策條件係",
+    "llm_output": "B.  決策嘅可能結果有多個， 且每種結果嘅發生概率為已知",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '決策嘅可能結果有多個，但唔知每種結果發生嘅概率'], ['B', '決策嘅可能結果有多個，且每種結果嘅發生概率為已知'], ['C', '決策嘅可能結果有多個'], ['D', '決策嘅可能結果只有一個']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "以下可用於衡量一個國家金融發展水平嘅指標係",
+    "llm_output": "正確答案係 A. 淨金融資產。\n\n淨金融資產（Net Financial Assets, NFA）係一個衡量國家或個體金融狀況嘅指標，可以反映一個國家嘅金融發展水平。國民生產總值（Gross Domestic Product, GDP）主要反映一個國家嘅經濟總量，而唔係專門用嚟衡量金融發展水平嘅指標。金融比率（Financial Ratio）通常用嚟分析企業嘅財務狀況，唔係衡量國家金融發展水平嘅指標。流動性金融資產（Liquid Financial Assets）係指可以輕易轉換為現金嘅資產，呢個概念通常用嚟分析個人或企業嘅財務狀況，而唔係用嚟衡量國家金融發展水平嘅指標。因此，淨金融資產係最合適嘅答案。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '淨金融資產'], ['B', '國民生產總值'], ['C', '金融比率'], ['D', '流動性金融資產']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面治理通脹嘅宏觀經濟政策中，屬於緊縮性貨幣政策嘅係",
+    "llm_output": "正確答案嘅選項係 B. 中央銀行喺公開市場上出售政府債券。\n\n解釋：緊縮性貨幣政策（Contractionary Monetary Policy）係指中央銀行採取一系列措施，旨在減少市場上嘅貨幣供應量，從而降低通脹壓力。中央銀行喺公開市場上出售政府債券，可以減少銀行系統中嘅流動性，因為債券嘅購買者會將資金從銀行中取出來購買債券，從而降低咁銀行嘅貸款能力和市場上嘅貨幣供應量。呢種做法屬於傳統嘅緊縮性貨幣政策工具之一。\n\n其他選項：\nA. 政府削減財政支出 - 呢種政策屬於緊縮性財政政策（Contractionary Fiscal Policy），係指政府減少開支或增加稅收，以減少總需求，從而降低通脹。\nC. 控制集團購買力 - 呢個並唔係宏觀經濟政策嘅標準工具，而係可能指嘅係控制大型企業或集團嘅投資或消費行為，但並唔係典型嘅緊縮性貨幣政策。\nD. 政府確定工資—物價指導線 - 呢個係一種指導性政策，旨在通過政府嘅指導或建議來影響企業嘅工資和定價行為，但並唔係一種直接嘅貨幣政策工具。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '政府削減財政支出'], ['B', '中央銀行喺公開市場上出售政府債券'], ['C', '控制集團購買力'], ['D', '政府確定工資—物價指導線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "實施「次級進口替代」戰略嘅基礎係",
+    "llm_output": "C. 先進嘅科學技術\n\n次級進口替代戰略（Secondary Import Substitution）通常涉及發展中國家透過發展國內產業來替代進口商品，尤其是高科技或資本密集型產品。這種戰略需要先進的科學技術來支持新產業的發展和競爭力。因此，選項 C 是實施次級進口替代戰略的基礎。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '多啲嘅自然資源'], ['B', '多啲嘅勞動力'], ['C', '先進嘅科學技術'], ['D', '發達嘅金融市場']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "假定名義貨幣供應量唔變，價格總水平上升將導致一條向右上方傾斜嘅LM曲線上嘅一點",
+    "llm_output": "正確答案係 C. 向左移動到另一條LM曲線上。\n\n解釋：LM曲線表示在貨幣市場上，貨幣供應量（L）等於貨幣需求量（M/P）的各種利率和價格水平組合。當價格總水平（P）上升時，為了保持貨幣市場的均衡，必須降低貨幣需求，即減少經濟中的貨幣量，這會導致LM曲線向左移動。因此，原點LM曲線上的點會向左移動到另一條LM曲線上。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '沿原LM曲線向下方移動'], ['B', '沿原LM曲線向上方移動'], ['C', '向左移動到另一條LM曲線上'], ['D', '向右移動到另一條LM曲線上']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於恩格爾系數嘅表述，正確嘅係",
+    "llm_output": "C. 恩格爾系數係食品支出佔消費總支出嘅比重\n\n恩格爾系數是經濟學用來衡量一個家庭或一個國家平均生活水平的指標，它定義為家庭或國家用於食品的開支佔其總消費支出的比例。當一個家庭或國家的收入增加時，理论上食品支出在總消費中的比重會下降，因為有更多的收入可以用於其他如教育、醫療、交通和休閒等非必需品的消費。因此，恩格爾系數通常被用來觀察隨著經濟發展，生活水平是否提高。选项C正确地描述了恩格爾系數的定義。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '個別年份我國恩格爾系數上升，說明恩格爾定律喺我國唔適用'], ['B', '隨收入水平提高，恩格爾系數有逐漸增加嘅趨勢'], ['C', '恩格爾系數係食品支出佔消費總支出嘅比重'], ['D', '恩格爾系數隨收入增加總係下降嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種商品價格下降對其互補品最直接嘅影響係",
+    "llm_output": "正確答案係 A. 互補品嘅需求曲線向右移動。\n\n當一種商品價格下降時，對該商品的需求通常會增加（根據需求定律）。這種商品與其互補品（例如相容的汽車零件和汽油）一起使用，因此該商品需求增加會導致對其互補品的需求也增加。需求曲線向右移動表示整體需求增加。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '互補品嘅需求曲線向右移動'], ['B', '互補品嘅價格下降'], ['C', '互補品嘅供應曲線向右移動'], ['D', '互補品嘅需求曲線向左移動']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面屬於二級價格歧視嘅係",
+    "llm_output": "正確答案係 C. 喺超市同時買兩塊香皂比單獨買一塊香皂單價低\n\n二級價格歧視（Second-degree price discrimination）又稱為批量定價或折扣定價，係指賣方根據消費者購買嘅數量或者消費量，收取唔同嘅價格。選項 C 正正就係一個典型嘅二級價格歧視嘅例子，因為消費者由於購買嘅數量增加而獲得折扣。其他選項涉及嘅定價策略並唔屬於二級價格歧視。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '私人診所根據唔同嘅人收取唔同嘅價格'], ['B', '去公園，老人同細路嘅門票低'], ['C', '喺超市同時買兩塊香皂比單獨買一塊香皂單價低'], ['D', '坐火車，學生半價買火車票']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "有限責任公司簽發畀股東嘅出資證明書係一種",
+    "llm_output": "正確答案係 C. 有價證券。\n\n出資證明書（Share Certificate）係一種證明股東持有公司股份嘅有價證券。呢種證書通常包含股東嘅姓名、股份公司嘅名稱、股份數量、每股價值等資訊。雖然出資證明書嘅流通性可能受到限制（例如，可能需要符合特定條件先可以轉讓），佢仍然係一種代表投資者對公司擁有權嘅有價證券。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '非流通證券'], ['B', '證明文書'], ['C', '有價證券'], ['D', '無價證券']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "完全競爭市場上，單個廠商嘅生產要素需求曲線向右下方傾斜嘅原因係",
+    "llm_output": "正確答案嘅選項係 A. 要素嘅邊際產量遞減。\n\n在完全競爭市場上，單個廠商嘅生產要素需求曲線向右下方傾斜，原因係要素嘅邊際產量遞減（Diminishing Marginal Product）。呢個經濟原理指出，當一間廠商增加某一種生產要素嘅使用量時，而其他生產要素保持不變，咁每增加一單位嘅生產要素所帶來嘅總產量增加會遞減。換句話講，隨著廠商增加對某種資源嘅使用，呢種資源對總產量嘅貢獻將會減少。呢種情況會導致廠商願意為額外嘅生產要素支付嘅價格下降，從而形成向右下方傾斜嘅生產要素需求曲線。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '要素嘅邊際產量遞減'], ['B', '等產量曲線向右下方傾斜'], ['C', '要素所生產產品嘅邊際效用遞減'], ['D', '生產嘅規模收益遞減']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "供應嘅變動係指（）唔變條件下，其他因素變動所引起嘅供應嘅變動。",
+    "llm_output": "正確答案係 A. 本身嘅價格。\n\n供應嘅變動（Supply Shift）係指在產品本身嘅價格唔變嘅條件下，因為其他因素（例如成本、技術進步、生產者嘅期望等）嘅變動而引起嘅供應量嘅變動。簡單嚟講，供應嘅變動係講緊當其他因素變動時，生產者願意並且能夠提供嘅產品數量嘅改變，而唔係因為價格變動所引起嘅供應量嘅改變。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '本身嘅價格'], ['B', '偏好'], ['C', '技術'], ['D', '產量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "發行對象事先指定，喺小範圍內發行嘅債券係",
+    "llm_output": "正確答案係 C. 私募債券。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '抵押債券'], ['B', '公募債券'], ['C', '私募債券'], ['D', '無抵押債券']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "長期生產函數嘅概念係",
+    "llm_output": "D.  生產函數中所有投入要素嘅投入量都係可變嘅\n\n長期生產函數（Long-Run Production Function）係指在長期內，所有生產要素（如勞動、資本等）都可以變動嘅情況下，企業或生產者所能實現嘅最大產量嘅函數關係。同短期比較，短期內至少有一種生產要素係固定唔變嘅，而長期就假設所有生產要素都係可變嘅，因此可以進行最佳化生產規模同結構。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '生產函數中所有投入要素嘅投入量都係不可變嘅'], ['B', '生產函數中僅有一種投入要素嘅投入量係可變嘅'], ['C', '生產函數中有嘅投入要素嘅投入量係可變嘅，有嘅固定唔變'], ['D', '生產函數中所有投入要素嘅投入量都係可變嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "邊際效用遞減規律表明，隨住消費者對某種商品消費量嘅增加",
+    "llm_output": "C. 該商品嘅效用增量趨於遞減",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '該商品嘅總效用趨於遞減'], ['B', '該商品嘅效用總量趨於遞減'], ['C', '該商品嘅效用增量趨於遞減'], ['D', '該商品嘅平均效用趨於遞減']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "住房投資依賴於",
+    "llm_output": "B. 以上全部",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '實際利率'], ['B', '以上全部'], ['C', '成年人口嘅規模'], ['D', '住房嘅相對價格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺完全壟斷市場上，對於任何產量，廠商嘅平均收益總等於",
+    "llm_output": "正確答案嘅選項係：\n\nA. 市場價格\n\n喺完全壟斷市場上，由於壟斷者係市場中唯一嘅供應者，佢可以設定價格。因此，對於任何產量，廠商嘅平均收益（平均收入） 將等於市場價格，因為每一單位嘅產品都可以以相同嘅價格出售。在完全壟斷下，平均收益等於單位產品嘅價格，而唔係其他成本或收益概念，例如邊際成本、邊際收益或平均成本。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '市場價格'], ['B', '邊際收益'], ['C', '邊際成本'], ['D', '平均成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "唔受決策影響嘅非相關成本，稱為",
+    "llm_output": "C. 沉沒成本",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會成本'], ['B', '增量成本'], ['C', '沉沒成本'], ['D', '機會成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果競爭模型係經濟嘅準確描述，咁",
+    "llm_output": "D. 資源嘅配置係帕累託有效嘅\n\n在一個完全競爭的經濟模型中，市場通過價格機制達到均衡，使得資源分配達到帕累託效率。這意味着，在這種模型下，資源的配置是帕累託有效的，即不可能重新分配資源以使得一個人變得更好而不使其他人變差。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經濟運行喺生產可能性曲線上'], ['B', '經濟運行喺效用可能性曲線上'], ['C', '以上講法都啱'], ['D', '資源嘅配置係帕累託有效嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "強調發展中國家經濟中特有嘅市場唔完全性、剛性、短缺、過剩、低供應彈性等固有經濟特點，呢正係發展中國家經濟現實與西方傳統經濟理論嘅",
+    "llm_output": "B. 重要區別",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基本相同之處'], ['B', '重要區別'], ['C', '毫不相干嘅論述'], ['D', '內在聯繫嘅表現']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "差別定價存在所需要嘅條件唔包括",
+    "llm_output": "正確答案嘅選項係 C. 唔同市場嘅邊際收入必須唔同。\n\n差別定價（Price Discrimination）係指同一企業向不同消費者或市場收取不同嘅價格，以最大化其總收益。為咗實現差別定價，以下係幾個基本條件：\n\n1. 市場必須係被分割嘅（A），即企業能夠將消費者分為不同嘅組別，各個組別願意支付嘅價格不同。\n2. 唔同市場嘅價格彈性必須唔同（B），即企業可以根據各個市場消費者對價格變動嘅敏感程度來設定不同嘅價格。\n3. 企業對價格要有一定控制能力（D），即企業能夠自主決定同調整價格，而唔駛完全受市場力量嘅支配。\n\n選項 C 唔係差別定價嘅必要條件。邊際收入（Marginal Revenue）係指企業銷售額增加一單位產品所獲得嘅額外收入。差別定價嘅目的係通過設定不同嘅價格來最大化總收益，而唔係要求唔同市場嘅邊際收入必須唔同。實際上，差別定價可能會導致唔同市場嘅邊際收入相近，只要呢個水平係企業能夠接受嘅。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '產品嘅市場必須係被分割嘅'], ['B', '唔同市場嘅價格彈性必須唔同'], ['C', '唔同市場嘅邊際收入必須唔同'], ['D', '企業對價格要有一定控制能力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "淨出口係指",
+    "llm_output": "B.  出口減進口",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '出口加政府轉移支付'], ['B', '出口減進口'], ['C', '出口加進口'], ['D', '進口減出口']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "當政府用某啲資源去修建一條大壩時，呢啲資源就唔可以用於修建高速公路。呢說明咗",
+    "llm_output": "B.  機會成本嘅概念",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '微觀經濟學嘅研究對象'], ['B', '機會成本嘅概念'], ['C', '最優化嘅概念'], ['D', '宏觀經濟學嘅研究對象']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果中央銀行提高目標通脹率，咁",
+    "llm_output": "正確答案係 C. 貨幣政策規則線將向上移動。\n\n當中央銀行提高目標通脹率時，一般會透過增加貨幣供應來達成這項目標。呢個會導致利率下降，從而刺激經濟活動。因此，貨幣政策規則線（表示中央銀行根據不同經濟情況而調整貨幣供應量嘅策略）會向上移動，因為中央銀行願意以更高嘅通脹率來換取更低嘅利率同更活躍嘅經濟。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '貨幣政策規則將變得更陡峭'], ['B', '均衡點將沿住貨幣政策規則線移動'], ['C', '貨幣政策規則線將向上移動'], ['D', '貨幣政策規則線將向下移動']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "生產函數嘅長期係指",
+    "llm_output": "D.  所有投入都可以調整嘅時間",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '1年以內'], ['B', '5年以上'], ['C', '1年以上'], ['D', '所有投入都可以調整嘅時間']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面投資工具中，流動性最強嘅係",
+    "llm_output": "D. 銀行存款",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唔動產投資'], ['B', '債券'], ['C', '股票'], ['D', '銀行存款']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於風險大小嘅表述，正確嘅係",
+    "llm_output": "C. 預期收益相同，方差大嘅風險大",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '預期收益細嘅風險就大'], ['B', '預期收益大嘅風險就細'], ['C', '預期收益相同，方差大嘅風險大'], ['D', '預期收益相同，方差大嘅風險細']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "新古典主義回潮理論建立喺兩種理論基礎之上，呢兩種理論基礎係",
+    "llm_output": "正確答案嘅選項係 D. 傳統嘅自由市場經濟理論同公共選擇理論。新古典主義回潮理論（Neoclassical Revival Theory）建基於傳統嘅自由市場經濟理論，即假設市場能夠有效地分配資源，以及公共選擇理論，即研究政府官員嘅選擇如何影響經濟體系，並探討政府失敗嘅可能性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '公共選擇理論同市場失靈理論'], ['B', '新增長理論同公共選擇理論'], ['C', '傳統嘅自由市場經濟理論同新增長理論'], ['D', '傳統嘅自由市場經濟理論同公共選擇理論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺壟斷性競爭條件下，企業長期均衡時嘅條件係",
+    "llm_output": "正確答案係 A. P＝AC同MR＝MC。\n\n喺壟斷性競爭（Monopolistic Competition）市場結構中，長期均衡時，企業會喺邊際成本（MC）等同邊際收益（MR）嘅點上運作，並且收費會等同平均成本（AC）。呢種情況表示企業喺滿足市場需求嘅同時，實現成本最小化，並且獲得正常利潤，但冇超額利潤。因此，長期均衡條件下，企業會設定價格（P）等於平均成本（AC），並且邊際收益（MR）等於邊際成本（MC）。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'P＝AC同MR＝MC'], ['B', 'P＝AC＝MC'], ['C', 'P＝MR＝MC'], ['D', 'MR＝MC']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費者行為嘅基本準則係",
+    "llm_output": "D. 效用最大化",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '成本最小化'], ['B', '支出最小化'], ['C', '收入最大化'], ['D', '效用最大化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "企業應該接受一個投資方案，只要佢嘅回報率",
+    "llm_output": "正確答案係 C. 大於佢嘅平均資金成本。\n\n根據標準嘅財務理論，企業應該接受一個投資方案，如果該方案嘅回報率（預期回報率或內部回報率）大於企業嘅平均資金成本。平均資金成本係企業加權平均資本成本（WACC），即企業所有資金來源（如股本、債券、優先股等）嘅成本嘅加權平均值。如果投資項目嘅回報率大於平均資金成本，理論上企業可以透過進行呢個項目創造額外價值，因為呢個項目能夠帶來超過企業正常資金成本嘅利潤。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '等於佢嘅平均資金成本'], ['B', '大於佢嘅邊際資金成本'], ['C', '大於佢嘅平均資金成本'], ['D', '大於佢喺股票市場將來可能嘅回報']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "長期平均成本曲線成為U形嘅原因同",
+    "llm_output": "正確答案係 A. 規模報酬有關。\n\n長期平均成本曲線（LAC）成為U形嘅原因主要係因為規模報酬嘅變化。當生產規模從較小嘅水平增加時，由於專業化嘅增強、設備嘅利用更有效率以及管理嘅規模經濟等因素，規模報酬會增加，導致LAC下降。然而，當生產規模進一步增加時，由於協調困難、監管成本上升以及資源嘅浪費等問題，規模報酬會減少，從而導致LAC上升。因此，LAC呈現U形，反映出規模報酬嘅變化。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '規模報酬有關'], ['B', '要素嘅邊際生產率有關'], ['C', '外部經濟同唔經濟有關'], ['D', '固定成本同可變成本所佔比重有關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "寡頭壟斷嘅一個顯著特徵係",
+    "llm_output": "B.  企業之間互相依存\n\n寡頭壟斷（Oligopoly）是一種市場結構，其中只有少數幾家企業控制了市場的大部分份額。在寡頭壟斷市場中，每個企業的決策都會考慮到其他企業的反應，因為它們之間的行為會相互影響。這種互相依存是寡頭壟斷市場的一個顯著特徵。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '有一條彈性嘅供應曲線'], ['B', '企業之間互相依存'], ['C', '有一條非彈性嘅需求曲線'], ['D', '唔存在市場進入障礙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "根據經濟法調整嘅特定經濟關係嘅要求，經濟法主體包括邊四類",
+    "llm_output": "正確答案嘅選項係：D. 國家機關、 企業同其他社會組織、 企業嘅內部組織同有關人員、 農戶同個體經營戶及公民。\n\n經濟法調整嘅特定經濟關係，通常包括國家機關在內，作為法律規範嘅制定者同執行者；企業同其他社會組織作為經濟活動嘅主要參與者；企業嘅內部組織同有關人員，包括管理人員同員工，因為佢哋喺經濟活動中嘅角色；以及農戶同個體經營戶及公民，因為佢哋參與經濟活動，並且受到經濟法律法規嘅約束。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '國家機關、企業同其他社會組織、農戶同個體經營戶及公民、公司'], ['B', '法人、公司、公民、聯營企業'], ['C', '有限責任公司、股份有限公司、私人企業、個體工商戶'], ['D', '國家機關、企業同其他社會組織、企業嘅內部組織同有關人員、農戶同個體經營戶及公民']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面投資策略中，最明智嘅策略係",
+    "llm_output": "B. 選擇適當嘅資產組合\n\n呢個答案係根據現代投資組合理論，即係話透過分散投資，可以減少風險同時保持相對較高嘅回報。單一資產嘅回報通常具有較大嘅波動性，而透過建立一個多元化和平衡嘅資產組合，可以降低投資嘅總體風險。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '將資金全部用於購買風險最細嘅一種資產'], ['B', '選擇適當嘅資產組合'], ['C', '選擇購買一種最好嘅政府債券'], ['D', '將資金全部用於購買可能收益最高嘅一種資產']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果管理者能夠預測出執行決策將來可能會得出幾種結果同每種結果嘅概率係幾多，呢種條件下嘅決策叫做",
+    "llm_output": "B. 有風險條件下嘅決策",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔確定條件下嘅決策'], ['B', '有風險條件下嘅決策'], ['C', '確定條件下嘅決策'], ['D', '無風險條件下嘅決策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟全球化嘅基礎係",
+    "llm_output": "經濟全球化嘅基礎係戰後科學技術嘅迅猛發展。\n\n答案：A. 戰後科學技術嘅迅猛發展",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '戰後科學技術嘅迅猛發展'], ['B', '戰後多邊貿易嘅迅速發展'], ['C', '佈雷頓森林會議體系崩潰'], ['D', '戰後金融市場嘅迅速發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "股份有限公司註冊資本嘅最低限額為（）。股份有限公司註冊資本最低限額需高於上述所定限額嘅，由法律、行政法規另行規定。",
+    "llm_output": "根據中國現行的《公司法》，股份有限公司註冊資本的最低限額為人民幣500萬元。然而，這筆金額可以由法律、行政法規另行規定。因此，正確答案是：\n\nB. 人民幣500萬元",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人民幣2000萬元'], ['B', '人民幣500萬元'], ['C', '人民幣4000萬元'], ['D', '人民幣1000萬元']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "管理經濟學嘅理論支柱唔包括",
+    "llm_output": "管理經濟學的理論支柱不包括：\n\nA. 需求彈性理論\n\n需求彈性理論主要用於研究市場對商品價格變化的敏感程度，屬於微观經濟學的一部分。而管理經濟學更侧重於運用經濟學原理於組織和管理實踐中，包括成本效益分析、決策制定、資源配置等。雖然需求彈性理論在管理經濟學中也有應用，但它不是管理經濟學的主要理論支柱。管理經濟學的理論支柱通常包括價格理論、邊際分析法和機會成本原理等，這些原理有助於企業和組織進行有效的資源管理和決策。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '需求彈性理論'], ['B', '價格理論'], ['C', '邊際分析法'], ['D', '機會成本原理']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，影響消費傾向嘅客觀因素係",
+    "llm_output": "C. 利息率變化",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '投機'], ['B', '謹慎'], ['C', '利息率變化'], ['D', '貪婪']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "會導致生產可能性邊界向外移動嘅係",
+    "llm_output": "B. 有用性資源增加或者技術進步\n\n生產可能性邊界（Production Possibility Frontier，PPF）係顯示一個經濟體可以生產嘅兩種商品或服務嘅最大量嘅圖表。生產可能性邊界向外移動表示一個經濟體可以生產更多嘅商品或服務，通常因為有用資源（如土地、勞動、資本）嘅增加或者技術進步，從而提高生產效率。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '失業'], ['B', '有用性資源增加或者技術進步'], ['C', '通脹'], ['D', '消費品生產增加']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "假定生產一種產品嘅固定成本為1800蚊，產品價格為23蚊一件，變動成本為13蚊，要求利潤為600蚊，產量至少應該達到",
+    "llm_output": "要解決這個問題，我們需要計算出為了達到600港幣的利潤，產量至少應該是多少。我們可以使用以下公式：\n\n利潤 = (單價 - 變動成本) * 產量 - 固定成本\n\n給定的數據是：\n- 固定成本 = 1800港幣\n- 單價 = 23港幣/件\n- 變動成本 = 13港幣/件\n- 利潤 = 600港幣\n\n我們將這些值代入公式中，並解出產量（Q）：\n\n600 = (23 - 13) * Q - 1800\n\n現在我們解這個方程：\n\n600 = 10 * Q - 1800\n600 + 1800 = 10 * Q\n2400 = 10 * Q\nQ = 240\n\n所以，產量至少應該達到240件。\n\n正確答案是 C. 240件。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '340件'], ['B', '580件'], ['C', '240件'], ['D', '460件']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "生產可能性曲線向外凸出嘅原因係",
+    "llm_output": "生產可能性曲線（Production Possibility Curve, PPC）通常被描繪成向外凸出的曲線，這是由於邊際轉換率（marginal rate of transformation, MRT）遞增的緣故。邊際轉換率是指為了生產額外的一單位某種商品，需要放棄的另外一種商品的數量。當生產從一種商品轉向另一種商品時，由於資源的專門化特性和效率的變化，通常需要放棄的越來越多，這導致了生產可能性曲線的外凸形狀。\n\n因此，正確答案為：\n\nC. 兩種產品嘅邊際轉換率遞增",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '兩種產品嘅邊際替代率遞增'], ['B', '兩種產品嘅邊際替代率遞減'], ['C', '兩種產品嘅邊際轉換率遞增'], ['D', '兩種產品嘅邊際轉換率遞減']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "支持價格與市場均衡價格相比",
+    "llm_output": "B. 高於均衡價格",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '等於價格'], ['B', '高於均衡價格'], ['C', '低於均衡價格'], ['D', '都可以']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面講法中錯誤嘅係",
+    "llm_output": "正確答案嘅選項係 B。\n\n解釋：當邊際產量減少時，總產量不一定會立即減少。在邊際產量下降的初期，總產量仍然可能增加，直到邊際產量下降到平均產量以下，此時再增加生產要素的投入，總產量才會開始減少。因此，B 選項說「只要邊際產量減少，總產量一定都減少」是錯誤的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '隨住某種生產要素投入量嘅增加，邊際產量同平均產量增加到一定程度將趨於下降，其中邊際產量嘅下降一定先於平均產量'], ['B', '只要邊際產量減少，總產量一定都減少'], ['C', '邊際產量曲線一定喺平均產量曲線嘅最高點與之相交'], ['D', '只要總產量減少，邊際產量一定係負數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於消費水平對消費結構嘅影響嘅講法中，正確嘅係",
+    "llm_output": "B.  消費水平較低時， 食品支出比重較高， 隨消費水平提高， 食品支出比重有下降趨勢\n\n這個選項所描述的是恩格尔定律的變化趨勢，即隨著家庭收入水平的提高，食品支出在總支出中所佔的比重會逐漸下降，因為家庭有更多的資金用於其他類型的消費，如耐用消費品、服務業等。這反映了消費結構的變化，從基本的生存需求向更高層次的需求轉移。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '耐用消費品支出比重隨消費水平提高持續提高'], ['B', '消費水平較低時，食品支出比重較高，隨消費水平提高，食品支出比重有下降趨勢'], ['C', '住房醫療等支出項目隨消費水平提高呈下降趨勢'], ['D', '低收入國家勞務支出比重高，高收入國家勞務支出比重低']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果某投資方案未來全部淨現金效益量嘅現值大於期初投資，咁對該方案企業",
+    "llm_output": "正確答案係 A. 應接受。\n\n根據現金流量貼現法（Discounted Cash Flow）嘅原理，如果一個投資方案嘅未來全部淨現金效益量嘅現值大於期初投資，即表示該方案預期能夠為企業帶來正回報，符合企業追求利潤最大化和價值最大化的目標。因此，企業應該接受呢個投資方案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '應接受'], ['B', '無法確定'], ['C', '仲需要再研究'], ['D', '應拒絕']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "當單一可變投入要素嘅價格等於佢嘅邊際產量收入時，可變投入要素嘅投入量可使",
+    "llm_output": "正確答案係 A. 企業嘅總利潤最大。\n\n呢個原理係根據微观經濟學中嘅边际效用邏輯同埋利润最大化理論。當單一可變投入要素嘅價格等於佢嘅邊際產量收入時，企業達到邊際成本等於邊際收入嘅狀態，呢種狀態係企業最大化總利潤嘅條件。因為邊際成本同邊際收入相等，所以企業唔會有增加或減少投入可變要素嘅誘因，從而最大化佢嘅總利潤。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '企業嘅總利潤最大'], ['B', '企業嘅平均產量最大'], ['C', '企業嘅總產量最大'], ['D', '企業嘅生產成本最低']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果一個管理機構對一個壟斷企業嘅限價啱啱使經濟利潤消失，咁價格要等於",
+    "llm_output": "正確答案係 A. 平均成本。當一個壟斷企業嘅經濟利潤消失嗰時，價格會等於平均成本。呢種情況下，企業只可以獲得正常利潤，而唔會有超額利潤。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '平均成本'], ['B', '平均可變成本'], ['C', '邊際收益'], ['D', '邊際成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "您認為企業嘅最優可變投入要素喺邊一階段係合理嘅",
+    "llm_output": "正確答案係 A. 第二階段。\n\n解釋：\n在經濟學中，可變投入（Variable Inputs）是指在生產過程中可以改變數量的投入要素，例如勞動、原材料等。企業的最優可變投入要素是指在生產過程中，企業透過調整可變投入的數量來達到成本最低或利潤最大化的狀態。\n\n在生產理論中，產品的生產通常會經歷幾個階段，這些階段可以根據邊際產量（Marginal Product）的變化來劃分。邊際產量是指增加一單位可變投入所帶來的額外產量。\n\n1. 第一階段：邊際產量遞增，隨著可變投入的增加，每個單位的邊際產量增加。\n2. 第二階段：邊際產量遞減，隨著可變投入的增加，每個單位的邊際產量減少，但總產量仍然增加。\n3. 第三階段：邊際產量為負，隨著可變投入的增加，總產量開始減少。\n\n企業尋求最優可變投入要素的階段是在邊際產量遞減的第二階段，這時企業可以透過增加可變投入來提高產量，直到邊際成本（Marginal Cost）開始增加，這時企業達到成本最低或利潤最大化的狀態。因此，選擇 A. 第二階段是正確的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '第二階段'], ['B', '第四階段'], ['C', '第三階段'], ['D', '第一階段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "線性規劃方法係確定多種產品產量最優組合決策嘅有效方法之一。而求解線性規劃問題嘅方法包括",
+    "llm_output": "正確答案嘅選項係 A. 圖解法、代數法、單純形法。\n\n線性規劃問題通常涉及多個變量和限制條件，而圖解法、代數法和單純形法係求解線性規劃問題嘅常用方法。其中，圖解法適用於變量較少嘅情況，而單純形法係一種適用於多變量情況嘅有效算法。微分法通常用於求解非線性規劃問題，唔係線性規劃嘅常用方法。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '圖解法、代數法、單純形法'], ['B', '代數法、單純形法、微分法'], ['C', '圖解法、代數法、微分法'], ['D', '圖解法、單純形法、微分法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺實行差別定價時，為使利潤最大，應該使",
+    "llm_output": "B. 每個市場嘅邊際收入都等於產品嘅邊際成本\n\n實行差別定價（Price Discrimination）時，企業旨在於每個市場最大化利潤。為達成這一目標，企業應確保在每個市場上，邊際收入（Marginal Revenue，即出售額外一單位產品所帶來的收入增加）等於產品嘅邊際成本（Marginal Cost，即生產額外一單位產品所需的成本）。呢種方法確保咁嘅價格點可以最大化企業嘅總利潤。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '每個市場嘅邊際成本相等'], ['B', '每個市場嘅邊際收入都等於產品嘅邊際成本'], ['C', '企業嘅邊際收入等於每個市場嘅邊際成本'], ['D', '各個市場嘅邊際收入之和等於產品嘅邊際成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "等成本線嘅斜率取決於",
+    "llm_output": "B. 勞動同資本要素嘅價格",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '勞動投入嘅數量'], ['B', '勞動同資本要素嘅價格'], ['C', '資本投入嘅數量'], ['D', '科技投入嘅數量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費者將其個人可支配收入喺消費同儲蓄之間分配，係消費者嘅",
+    "llm_output": "正確答案嘅選項係：A. 資源再分配選擇",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '資源再分配選擇'], ['B', '購買選擇'], ['C', '資源初次分配選擇'], ['D', '資源消費']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果某消費者最初處於均衡狀態，當其貨幣收入增加時，",
+    "llm_output": "A. 會使其新嘅均衡點移向更高水平嘅無差異曲線\n\n當消费者的货币收入增加时，假设商品价格不变，消费者能够购买更多商品，从而提高其效用水平。这会导致消费者的新均衡点位于更高水平的无差异曲线上，因为更高的收入使得消费者可以在不改变其总效用的情况下，购买更多的商品。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '會使其新嘅均衡點移向更高水平嘅無差異曲線'], ['B', '會使其無差異曲線變得更陡，但唔會改變均衡點嘅位置'], ['C', '由於商品價格未發生變化，因此對均衡點嘅位置冇影響'], ['D', '會使其新嘅均衡點移向更低水平嘅無差異曲線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費經濟學研究消費方式問題主要研究",
+    "llm_output": "D. 消費嘅社會實現方式\n\n消費經濟學主要研究消費嘅社會實現方式，即係消費者如何透過社會經濟結構同機制，將其經濟資源轉化為滿足生活需要嘅商品同服務。呢個包括消費者嘅選擇、消費行為、消費文化、同消費對社會經濟嘅影響等。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費嘅技術方式'], ['B', '消費嘅社會實現範圍'], ['C', '消費嘅自然方式'], ['D', '消費嘅社會實現方式']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種商品嘅價格下降會導致其替代品嘅需求量",
+    "llm_output": "B. 減少\n\n當一種商品的價格下降時，消費者會傾向於購買更多該商品，因為它現在相對較便宜。這會導致其替代品的需求量減少，因為消費者會用較便宜的商品來代替原本可能選擇的較昂貴商品。例如，如果麵包的價格下降，人們可能會買更多的麵包而不是蛋糕，從而導致蛋糕的需求量下降。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '增加'], ['B', '減少'], ['C', '唔變'], ['D', '唔確定']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "某商品嘅需求收入彈性好細幾乎為零，咁該商品屬於",
+    "llm_output": "正確答案為 C. 必需品。\n\n需求收入彈性是指收入變動所引起的需求量變動。當一種商品的需求收入彈性很小幾乎為零時，這意味着當消費者收入增加時，對這種商品的需求量幾乎沒有增加。這種情況通常出現在必需品上，即人們無論收入水平如何，都會消費一定量的基本生活必需品。奢侈品的需求收入彈性通常較大，因為當收入增加時，人們更可能購買更多的奢侈品。次級品和替代品並不是需求收入彈性小的商品的特定類別，因此不適用於此問題。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '奢侈品'], ['B', '次級品'], ['C', '必需品'], ['D', '替代品']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，符合我國當前處於工業化加速時期嘅產業結構特點嘅係",
+    "llm_output": "正確答案係 A. 技術知識密集型產業佔第二產業比重迅速上升。\n\n解釋：\n在工業化加速時期，一個國家通常會經歷產業結構的轉型升級，從而使得技術知識密集型產業在第二產業中的比重上升。這類產業通常需要較高的技術水平和知識含量，能夠帶動經濟的持續增長和競爭力的提升。\n\n選項B（城市化基本結束）並不反映產業結構的特點，而是與人口分佈和城市發展相關的社會經濟現象。\n\n選項C（製造業處於成長期）和選項D（製造業處於結構高變換率時期）在某種程度上也是工業化過程中的特點，但不如選項A那樣全面地描述當前我國產業結構的整體趨勢。製造業的成長或結構變化是工業化的一部分，但技術知識密集型產業的發展是更為關鍵的標誌。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '技術知識密集型產業佔第二產業比重迅速上升'], ['B', '城市化基本結束'], ['C', '製造業處於成長期'], ['D', '製造業處於結構高變換率時期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果A物品價格上升引起B物品需求曲線向左方移動，咁",
+    "llm_output": "正確答案係 A. 兩者係互補品。\n\n當A物品價格上升時，會使得A物品的需求減少。如果A和B係互補品，即它們通常一起被使用，那麼A價格的上漲會導致B的需求也減少，因為購買A的人變少了，這會導致B的需求曲線向左方移動。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '兩者係互補品'], ['B', 'B係低檔品'], ['C', 'A係正常品'], ['D', '兩者係替代品']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面價格變動中，邊種變動使銷售收入唔變",
+    "llm_output": "正確答案係 A. 當需求係單元彈性時，價格下降。\n\n當需求係單元彈性時，表示需求量變動對價格變動嘅反應程度剛好可以完全抵消價格變動對銷售收入嘅影響，因此價格下降嘅同時，銷售收入保持不變。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '當需求係單元彈性時，價格下降'], ['B', '當需求係彈性時，價格上升'], ['C', '當需求係非彈性時，價格上升'], ['D', '當需求係彈性時，價格下降']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "市場經濟體制下，制定同實施消費政策時應遵循嘅基本原則係",
+    "llm_output": "正確答案嘅選項係 C. 尊重消費者自主選擇權。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '解決社會收入分配唔公'], ['B', '鼓勵消費'], ['C', '尊重消費者自主選擇權'], ['D', '限制消費']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺生產決策分析中，「長期生產函數」係指生產函數中",
+    "llm_output": "B.  所有投入要素嘅投入量都係可變嘅\n\n長期生產函數（Long-run production function）考慮嘅係所有生產要素（如勞動、資本、土地等）嘅投入量都可以改變嘅情況，從而分析企業嘅生產效率同成本。而短期生產函數（Short-run production function）則假設至少有一種生產要素嘅投入量係固定嘅，通常係資本，而勞動係可變嘅。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '所有投入要素嘅投入量都係固定嘅'], ['B', '所有投入要素嘅投入量都係可變嘅'], ['C', '至少有一種投入要素嘅投入量係固定嘅'], ['D', '至少等於或者大於5年']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "可以採取薄利多銷政策嘅情況係",
+    "llm_output": "正確答案係 C. 價格彈性大於1 時。\n\n薄利多銷政策嘅原理係通過降低價格來刺激需求，從而增加總銷售量，從而增加總收益。當一種產品嘅價格彈性大於1時，意味住需求對價格嘅變動響應程度較大，即消費者對價格嘅敏感度較高。因此，降低價格可以有效地刺激需求，從而實現薄利多銷。相反，如果價格彈性小於1，降低價格對需求嘅刺激作用較小，從而可能無法實現薄利多銷。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '價格彈性小於1時'], ['B', '收入彈性大於1時'], ['C', '價格彈性大於1時'], ['D', '任何時候都可以薄利多銷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "無差異曲線係一條凸向原點嘅曲線，呢係由（）決定嘅。",
+    "llm_output": "正確答案係 C. 邊際替代率遞減。\n\n無差異曲線（Indifference Curve）係一條表示消費者所能獲得嘅總效用保持不變嘅各種商品組合嘅曲線。呢種曲線嘅特性之一係凸向原點，呢個特性由邊際替代率遞減（Diminishing Marginal Rate of Substitution）呢個經濟學原理決定。邊際替代率遞減指喺保持總效用不變嘅情況下，一種商品替代另一種商品時，所需嘅替代量會隨著一種商品消費量嘅增加而遞減。因此，無差異曲線嘅斜率會隨著曲線上嘅點嘅右上方移動而變得更平緩，形成凸向原點嘅形狀。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '邊際成本遞減'], ['B', '總效用遞減'], ['C', '邊際替代率遞減'], ['D', '邊際效用遞減']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟學分析中所講嘅短期係指",
+    "llm_output": "D. 至少有一種生產要素唔能夠調整嘅時期",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '只能夠調整一年生產要素嘅時期'], ['B', '一年之內'], ['C', '全部生產要素都可以隨產量調整嘅時期'], ['D', '至少有一種生產要素唔能夠調整嘅時期']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面各種行為中，唔屬於投資性質嘅係",
+    "llm_output": "D. 買傢俬\n\n呢個問題嘅關鍵在於理解「投資」嘅定義。投資一般指將資金投放於某個項目或資產，希望將來能夠獲得回報，包括財務回報或者增值。\n\nA. 做廣告 - 呢種行為可以視為一種「投資」於品牌知名度和市場份額。雖然廣告嘅效果唔總是即時顯現，但長期而言，佢可以幫助企業吸引更多顧客同埋提高銷售額。\n\nB. 培訓本企業職工 - 呢種行為同樣可以被認為係一種投資。通過提升員工嘅技能和知識，企業可以提高生產效率，增強競爭力，從而有望在未來獲得更高的收益。\n\nC. 買股票 - 買股票係典型嘅金融投資行為，目的在於通過股票價格嘅上升或透過分紅獲得回報。\n\nD. 買傢俬 - 買傢俬通常係為咗滿足個人嘅使用需求或裝飾家居，並唔係為了獲得財務回報或增值。因此，呢種行為唔屬於投資性質。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '做廣告'], ['B', '培訓本企業職工'], ['C', '買股票'], ['D', '買傢俬']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "由職業同收入嘅穩定性引起嘅工資差別係",
+    "llm_output": "正確答案係 A. 效用均等化嘅補償性工資差別。\n\n這類工資差別是由於不同職業帶來的風險和收入穩定性不同，從而需要通過工資來進行補償，以達到不同職業間的效用均等化。這種工資差別通常被視為一種補償性的，因為它對那些選擇從事高風險或低穩定性職業的人提供了一定的經濟補償。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '效用均等化嘅補償性工資差別'], ['B', '人力資本投資嘅補償性工資差別'], ['C', '競爭性工資差別'], ['D', '壟斷性工資差別']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "當洛倫茲曲線同絕對唔平均線所夾面積為零時，基尼系數",
+    "llm_output": "當洛倫茲曲線同絕對唔平均線所夾面積為零時，基尼系數 C. 等於一。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無法確定'], ['B', '等於零'], ['C', '等於一'], ['D', '等於無窮大']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊份文字或者圖形申請商標註冊將會被批准",
+    "llm_output": "正確答案係 C. 「菊花」牌回形針。\n\n根據商標註冊嘅原則，商標必須具有識別性，即能夠區別一個企業嘅商品或者服務從其他競爭對手嘅商品或者服務。「健康」牌香煙、「保暖」牌毛毯和「杭州」牌豆腐皮都屬於描述性商標，因為它們直接描述了商品嘅特點或者來源地，可能會被認為缺乏識別性或者具有欺騙性。\n\n相反，「菊花」牌回形針並唔會直接描述回形針嘅特點或者功能，因此可以作為一個具有識別性的商標註冊。然而，實際上商標註冊嘅批准還會受到其他因素嘅影響，例如在先權利、商標嘅顯著性、是否與在先商標近似導致混淆等。但按照选择题的問題性質，C選項最符合商標註冊批准嘅條件。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「健康」牌香煙'], ['B', '「保暖」牌毛毯'], ['C', '「菊花」牌回形針'], ['D', '「杭州」牌豆腐皮']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面最有可能成為稀缺物品嘅係",
+    "llm_output": "D. 夏威夷嘅海水\n\n稀缺物品通常係指供應量有限或者無法被滿足所有需求嘅物品。陽光、空氣和水通常被認為係自然界中嘅「自由物品」，因為它們普遍存在且供應量龐大，足以滿足人類嘅基本需求。然而，夏威夷嘅海水由於地理位置嘅特殊性，可能成為一種稀缺物品，因為夏威夷作為旅遊勝地，吸引咗大量遊客，對於海水嘅需求可能超出當地自然資源所能提供嘅範圍。因此，夏威夷嘅海水在特定情況下可能成為一種稀缺物品。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '陽光'], ['B', '空氣'], ['C', '運送到鄭州嘅海水'], ['D', '夏威夷嘅海水']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面措施唔可以用於矯正外部性問題嘅係",
+    "llm_output": "D. 依靠市場機制自行解決\n\n外部性問題通常需要政府乾預或特殊機制來矯正，因為市場機制本身可能無法自行解決外部性帶來的影響。科斯定理提供了一種理論框架，通過明確產權來解決外部性問題（選項A）。政府對負外部性行為收費（選項B）和直接控制，如實施社會性管制（選項C），都是政府乾預的例子，這些措施可以用來矯正外部性。因此，選項D是正確答案，因為它聲稱市場機制可以自行解決外部性問題，這通常是不足以矯正外部性的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '運用科斯定理，通過明確產權嚟實現'], ['B', '對負外部性行為收費'], ['C', '政府嘅直接控制，如實施社會性管制'], ['D', '依靠市場機制自行解決']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面對無差異曲線嘅特徵表述正確嘅係",
+    "llm_output": "C. 同一平面上任意兩條無差異曲線唔會相交",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '即使主體偏好唔同，無差異曲線嘅形狀都唔會有區別'], ['B', '無差異曲線斜率為正值、凸向原點'], ['C', '同一平面上任意兩條無差異曲線唔會相交'], ['D', '離原點越遠嘅無差異曲線所表示嘅效用越低']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "根據羅斯托嘅經濟增長階段理論，經濟發展中最困難嘅階段係",
+    "llm_output": "根據羅斯托的經濟增長階段理論，經濟發展中最困難的階段是：\n\nB. 起飛階段\n\n解釋：\n沃爾特·羅斯托（Walt Whitman Rostow）在他的經濟發展理論中提出了「經濟成長階段論」，將經濟發展分為幾個階段。其中，「起飛階段」(Take-off Stage) 是指經濟從傳統、靜止的狀態轉變為快速成長的階段。在這個階段，經濟結構發生變化，工業化加速，對資源和投資的需求大增。這個階段通常伴隨著基礎設施的建設、教育水平的提高和技術的進步。\n\n羅斯托認為，「起飛階段」是經濟發展中最關鍵的時期，因為這個階段需要大量的投資和強勁的內生動力來支持持續的增長。同時，這個階段也最為困難，因為需要克服許多結構性和制度性的障礙，以及建立新的經濟和社會機制來支持進一步的發展。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '高額羣眾消費階段'], ['B', '起飛階段'], ['C', '為起飛創造條件嘅階段'], ['D', '向成熟推進階段']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "與邊際儲蓄傾向提高相對應嘅情況係",
+    "llm_output": "正確答案係 C. 邊際消費傾向下降。\n\n解釋：\n邊際儲蓄傾向（Marginal Propensity to Save, MPS）係指增加嘅可支配收入中，用於儲蓄嘅比例。邊際消費傾向（Marginal Propensity to Consume, MPC）係指增加嘅可支配收入中，用於消費嘅比例。MPS 與 MPC 加起一定等於 1，因為增加嘅可支配收入只可以用於消費或儲蓄。\n\n當邊際儲蓄傾向提高時，表示在增加嘅可支配收入中，更多人選擇儲蓄而唔係消費，因此邊際消費傾向會下降。這可以由 MPS + MPC = 1 嘅關係推導出。如果 MPS 增加，MPC 就一定會減少，因為兩者之和固定等於 1。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '可支配收入水平減少'], ['B', '邊際消費傾向上升'], ['C', '邊際消費傾向下降'], ['D', '平均儲蓄傾向下降']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費函數嘅斜率取決於",
+    "llm_output": "正確答案係 C. 邊際消費傾向。\n\n消費函數嘅斜率代表咩意思呢？佢代表經濟學家所稱嘅邊際消費傾向，即係多賺一塊錢時，消費者會有多錢消費。邊際消費傾向通常小於 1，因為人哋通常唔會將多賺到嘅每一分錢都拿去消費，而會有一部分儲蓄起來。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '由於收入變化引起嘅投資量'], ['B', '與可支配收入無關嘅消費量'], ['C', '邊際消費傾向'], ['D', '平均消費傾向']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果發展中國家政府採納現代微觀經濟學家庭理論分析所得出嘅政策建議，就可能",
+    "llm_output": "A. 降低生育率",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '降低生育率'], ['B', '減少死亡率'], ['C', '提高生育嘅質量'], ['D', '實現人口優化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "甲、乙兩人現有嘅效用水平分別為10同20，資源嘅再配置使得兩人嘅效用發生咗變化，屬於帕累託改進嘅一種變動係",
+    "llm_output": "正確答案係 A. 甲嘅效用變為10，乙嘅效用變為30。\n\n帕累訟改進（Pareto improvement）係指一種資源再配置，使得至少有一個人嘅境況變得更好，而其他人境況唔會變差。喺呢個情況下，甲原本嘅效用係10，而乙原本嘅效用係20。如果資源嘅再配置可以令甲嘅效用保持喺10，而乙嘅效用提升到30，咁呢種變動就滿足帕累訟改進嘅條件，因為至少有一个人（乙）嘅境況變得更好（從20提升到30），而另一個人（甲）嘅境況冇變差（保持喺10）。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '甲嘅效用變為10，乙嘅效用變為30'], ['B', '甲嘅效用變為10，乙嘅效用變為15'], ['C', '甲嘅效用變為8，乙嘅效用變為30'], ['D', '甲嘅效用變為8，乙嘅效用變為25']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "就消費者投資而言，下面選項中流動性最強嘅係",
+    "llm_output": "A. 金融投資",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '金融投資'], ['B', '實物投資'], ['C', '唔動產投資'], ['D', '教育投資']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟學家提出，企業嘅長期目標應該係",
+    "llm_output": "正確答案係 B. 企業嘅社會效應同經濟效益最大化。\n\n經濟學家普遍認為，企業嘅長期目標應該係平衡社會效應同經濟效益，而唔單單係追求利潤最大化。企業作為社會嘅一部份，有責任考慮佢哋嘅行為對社會同環境嘅影響，並努力為社會創造價值。同時，企業亦都需要確保經濟效益，先可以持續經營同發展。因此，企業嘅長期目標應該係綜合考慮社會效應同經濟效益，並將之最大化。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '企業利潤最大化'], ['B', '企業嘅社會效應同經濟效益最大化'], ['C', '企業價值最大化'], ['D', '企業成本最低化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "摩擦性失業產生於",
+    "llm_output": "A. 轉換工作面臨嘅暫時困難",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '轉換工作面臨嘅暫時困難'], ['B', '經濟蕭條'], ['C', '社會矛盾激化'], ['D', '技術進步']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "已知邊際消費傾向為80％，咁投資乘數係",
+    "llm_output": "正確答案係 A. 5",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '5'], ['B', '8'], ['C', '4'], ['D', '2']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果邊際收入大於邊際成本，咁減少產量就會使",
+    "llm_output": "正確答案係 C. 總利潤減少。\n\n當邊際收入大於邊際成本時，增加產量會增加總利潤，因為每增加一單位產量所帶來的收入超過了生產該單位產量的成本。相反地，當邊際收入小於邊際成本時，增加產量會減少總利潤。因此，如果邊際收入大於邊際成本，減少產量會使總利潤減少。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '對利潤無影響'], ['B', '總利潤增加'], ['C', '總利潤減少'], ['D', '單位利潤減少']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經營者提供商品或者服務有欺詐行為嘅，應該按照消費者嘅要求增加賠償佢受到嘅損失，增加賠償嘅金額為消費者購買商品嘅價款或者接受服務嘅費用嘅幾多倍",
+    "llm_output": "B.  3 倍",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '4倍'], ['B', '3倍'], ['C', '1倍'], ['D', '2倍']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "採用最高獎超過（）蚊嘅抽獎式為唔正當有獎銷售。",
+    "llm_output": "根據香港《商品說明條例》，採用最高獎超過 $5000 蚊嘅抽獎式為唔正當有獎銷售。因此，正確答案為：\n\nA. 5000",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '5000'], ['B', '4000'], ['C', '2000'], ['D', '6000']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果邊際收入大於邊際成本，咁減少產量就會",
+    "llm_output": "正確答案係 C. 使總利潤減少。\n\n當邊際收入大於邊際成本時，增加產量會增加總利潤，因為每增加一單位產量所帶來的收入超過了生產該單位產量的成本。相反，減少產量會減少總利潤，因為放棄的邊際收入大於節省的邊際成本。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '使總利潤增加'], ['B', '使單位利潤唔變'], ['C', '使總利潤減少'], ['D', '對利潤無影響']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費者嘅預算線反映咗",
+    "llm_output": "D. 消費者嘅收入約束",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費者嘅需求'], ['B', '消費者效用最大化狀態'], ['C', '消費者嘅偏好'], ['D', '消費者嘅收入約束']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺維持相同嘅產量水平時，減少一種生產要素嘅數量同增加嘅另一種生產要素嘅數量之比被稱為",
+    "llm_output": "正確答案係 C. 邊際技術替代率 (marginal rate of technical substitution, MRTS)。\n\n邊際技術替代率係指在維持相同產量水平的情況下，減少一種生產要素的數量而增加另一種生產要素的數量時，兩者之間的比率。呢個概念通常用喺生產理論中，用來描述兩種生產要素之間替代關係嘅程度。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '技術系數'], ['B', '彈性系數'], ['C', '邊際技術替代率'], ['D', '恩格爾系數']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "平均總成本減去平均可變成本等於",
+    "llm_output": "正確答案係 A. 固定成本。\n\n解釋：\n平均總成本（Average Total Cost, ATC）包括了平均固定成本（Average Fixed Cost, AFC）和平均可變成本（Average Variable Cost, AVC）。即：\n\nATC = AFC + AVC\n\n當我們將平均可變成本從平均總成本中減去，即：\n\nATC - AVC = AFC\n\n因此，平均總成本減去平均可變成本等於固定成本。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '固定成本'], ['B', '邊際成本'], ['C', '可變成本'], ['D', '平均固定成本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費者收入變化對消費者預算約束線嘅影響係",
+    "llm_output": "正確答案係 D. 使預算約束線發生平移。\n\n解釋：消費者收入變化會直接影響預算約束線的位置。當消費者收入增加時，他們可以用更多的收入來購買商品和服務，從而使預算約束線向右平移；當消費者收入減少時，預算約束線則向左平移。預算約束線的斜率保持不變，因為它是兩種商品價格的比率。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '使預算約束線保持唔變'], ['B', '使預算約束線發生旋轉'], ['C', '使預算約束線斜率改變'], ['D', '使預算約束線發生平移']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面行為中最接近於完全競爭模式嘅一項係",
+    "llm_output": "C. 日用小商品製造業\n\n完全競爭模式是指一個市場中存在大量買家和賣家，產品同質性高，個體影響市場價格嘅能力非常有限，而且進入和退出市場嘅障礙較低。日用小商品製造業通常有大量生產商和銷售商，產品差異化程度低，較接近完全競爭模式。其他選項如煙草業、飛機製造業和汽車製造業通常較少有大量參與者，產品差異化程度較高，市場集中度較高，因此較不接近完全競爭模式。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '煙草業'], ['B', '飛機製造業'], ['C', '日用小商品製造業'], ['D', '汽車製造業']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟利潤係指",
+    "llm_output": "正確答案係 C. 企業總收入減去會計成本。\n\n經濟利潤係指一個企業嘅總收入減去其機會成本（又稱為會計成本或經濟成本），即係係經濟學上講嘅利潤，而唔係單純嘅會計利潤。經濟利潤考慮咗所有資源嘅機會成本，包括資本、勞動力同其他資源。機會成本係指用咗某資源去做某啲嘢時，放棄咗用同柞資源去做其他可能嘅用途嘅潛在收益。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '企業總收入減去會計利潤'], ['B', '銷售收入減去會計利潤'], ['C', '企業總收入減去會計成本'], ['D', '銷售收入減去機會成本']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "企業通過賣出額外一單位產品所獲得嘅收益叫做",
+    "llm_output": "D. 邊際收益",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '分攤成本'], ['B', '淨利潤'], ['C', '平均收益'], ['D', '邊際收益']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺風險投資決策中，術語「結果」係指",
+    "llm_output": "A. 特定嘅策略同自然狀態相結合所產生嘅得或者失",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '特定嘅策略同自然狀態相結合所產生嘅得或者失'], ['B', '將來可能存在嘅環境條件'], ['C', '用嚟實現管理目標嘅行動方案'], ['D', '將來可能嘅方案']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面因素中屬於非系統風險嘅係",
+    "llm_output": "A. 工人罷工\n\n非系統風險（unsystematic risk 或 specific risk）是指特定公司或行業面臨的風險，呢種風險可以通過分散投資來降低。工人罷工通常影響特定公司或行業，而唔會影響整個市場。相比之下，新政出臺、利率變化、戰爭爆發等通常影響整個市場或經濟，屬於系統風險（systematic risk 或 market risk）。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '工人罷工'], ['B', '新政出臺'], ['C', '利率變化'], ['D', '戰爭爆發']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面表述中，屬於凱恩斯嘅消費函數理論觀點嘅係",
+    "llm_output": "正確答案嘅選項係 B. 消費支出變化往往落後於收入變化。\n\n凱恩斯的消費函數理論主要觀點之一係「心理學嘅消費傾向」，認為在短期內，消費支出（C）主要取決於可支配收入（Yd），而變化通常會落後於收入變化。換句話說，當收入增加時，消費支出唔會立即同幅增加，但係當收入減少時，消費支出亦唔會立即同幅減少。呢種現象稱為「消費的緩慢調整」或「消費的黏性」。\n\n選項 A 提到消費者嘅消費支出受周圍人嘅消費行為影響，呢種「互動效應」或「社會效應」雖然可以影響消費行為，但唔係凱恩斯消費函數理論嘅核心觀點。\n\n選項 C 提到持久收入同持久消費之間存在固定比例關係，呢種觀點係弗里德曼（Milton Friedman）嘅持久收入理論，唔屬於凱恩斯嘅消費函數理論。\n\n選項 D 提到短期內消費傾向基本穩定，呢種觀點稱為「古典學派嘅消費函數」，由古典經濟學家如大衛·李嘉圖（David Ricardo）提出，唔係凱恩斯理論嘅一部分。凱恩斯認為，短期內消費傾向可能唔穩定，會受到心理因素同經濟環境嘅影響。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費者嘅消費支出唔僅受自身收入影響，仲受周圍人嘅消費行為影響'], ['B', '消費支出變化往往落後於收入變化'], ['C', '持久收入同持久消費之間存在固定比例關係'], ['D', '短期內消費傾向基本穩定']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "生產要素嘅邊際產量係",
+    "llm_output": "D.  最後一單位嘅生產要素引起嘅產量嘅變化",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '產量除以企業所使用嘅生產要素嘅量'], ['B', '產量除以總生產成本'], ['C', '平均產量嘅變化除以企業所使用嘅生產要素嘅量嘅變化'], ['D', '最後一單位嘅生產要素引起嘅產量嘅變化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，屬於緊縮性嘅貨幣政策係",
+    "llm_output": "C. 提高法定準備金率\n\n提高法定準備金率係一種緊縮性嘅貨幣政策，因為呢個會減少銀行系統內部嘅流動性，從而減少貸款和投資，從而減少總體經濟需求。其他選項雖然都係影響經濟嘅工具，但並唔係直接嘅貨幣政策措施，或者係擴張性嘅貨幣政策。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '增加政府財政支出'], ['B', '增稅'], ['C', '提高法定準備金率'], ['D', '確定工資—物價指導線']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺消費者達到均衡時，最後一單位商品畀消費者帶嚟嘅效用取決於",
+    "llm_output": "正確答案係：\n\nB. 商品嘅價格\n\n喺消費者達到均衡時，根據邊際效用邏輯，消費者會購買商品直至邊際效用（即最後一單位商品畀消費者帶嚟嘅效用）等於該商品嘅價格。呢種情況下，消費者嘅總效用最大化。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '消費者嘅收入同價格'], ['B', '商品嘅價格'], ['C', '商品嘅質量'], ['D', '消費者嘅收入']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "從全社會角度睇，佔主導地位嘅消費方式係",
+    "llm_output": "B. 個人消費\n\n從全社會角度來看，佔主導地位的消費方式通常是個人消費，因為這包括了大多數人口在日常生活中的消費行為，如購買衣物、食品、住房、交通和娛樂等。雖然公共消費、家庭消費和国家消費也是社會總消費的一部分，但它們通常佔比較小，且受到個人消費的影響。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '公共消費'], ['B', '個人消費'], ['C', '家庭消費'], ['D', '國家消費']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "根據合同當事人是否互相享有權利負有義務，可將合同分為",
+    "llm_output": "根據合同當事人是否互相享有權利負有義務，可將合同分為 B. 單務合同與雙務合同。\n\nB. 單務合同與雙務合同\n\n單務合同是指只有一方當事人負有義務，而另一方當事人則沒有義務，只有權利。例如，赠与合同通常就是單務合同，赠與人負有交付禮物的義務，而受赠人則只有接受禮物的權利，沒有相應的義務。\n\n雙務合同則是指雙方當事人都相互享有權利和負有義務。例如，買賣合同就是雙務合同，買方有支付價款的義務，同時也有接受貨物的權利；賣方則有交付貨物的義務，同時也有收取價款的權利。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '有名合同與無名合同'], ['B', '單務合同與雙務合同'], ['C', '有償合同與無償合同'], ['D', '要式合同與實踐合同']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，可以用於控制利率風險嘅措施係",
+    "llm_output": "正確答案係 C. 實施固定利率。\n\n解釋： 實施固定利率可以減少或消除利率風險，因為貸款者和借貸者都可以確定將來要支付或收取嘅利率。 而浮動利率會隨著市場利率嘅變化而變化，從而帶來利率風險。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '加強對客戶信用審查'], ['B', '抵押貸款證券化'], ['C', '實施固定利率'], ['D', '實施浮動利率']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "資本市場係",
+    "llm_output": "A. 長期資金市場",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '長期資金市場'], ['B', '貨幣市場'], ['C', '短期資金市場'], ['D', '期貨市場']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺預期收益相同嘅條件下，風險高嘅項目對某人更有吸引力，咁呢個人對待風險嘅態度係",
+    "llm_output": "B.  風險偏好",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '風險中立'], ['B', '風險偏好'], ['C', '風險厭惡'], ['D', '風險無關']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "菲利普斯曲線嘅基本含義係",
+    "llm_output": "D. 失業率上升，通脹率下降\n\n菲利普斯曲線是一條描述失業率與通貨膨脹率之間負相關關係的曲線。這意味着當失業率上升時，通貨膨脹率會下降，反之亦然。這條曲線最初是由經濟學家威廉·菲利普斯在1958年提出的，後來由其他經濟學家如保羅·薩缪爾森和羅伯特·索洛進一步發展。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '失業率嘅變動同通脹率嘅變動無關'], ['B', '失業率同通脹率同時下降'], ['C', '失業率同通脹率同時上升'], ['D', '失業率上升，通脹率下降']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面陳述中最好地描述咗支出平衡嘅定義嘅一項係",
+    "llm_output": "正確答案係 B. 收入同支出相等，居民嘅消費由消費函數定義。\n\n支出平衡（Equilibrium）在經濟學中通常指的是市場上供給和需求達到平衡的狀態，即總收入（總產出）等於總支出。在個體層面上，這意味著一個人的或一個家庭的收入被完全用於支出，而居民的消費則由其消費函數決定，消費函數是描述個人或家庭在給定收入水平下的消費行為的模型。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '消費同支出相等，居民嘅消費由消費函數定義'], ['B', '收入同支出相等，居民嘅消費由消費函數定義'], ['C', '消費同收入相等，居民嘅消費由消費函數定義'], ['D', '消費者嘅消費由消費函數定義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "甲同乙簽訂咗一份合同，約定由丙向甲履行債務，現丙履行債務嘅行為唔符合合同嘅約定，甲有權請求邊個承擔違約責任",
+    "llm_output": "正確答案係 C. 丙。\n\n根據合同法原理，當合同約定第三方（丙）向一方（甲）履行債務時，如果丙的履行行為不符合合同的約定，合同當事人之一（甲）有權請求該第三方（丙）承擔違約責任。乙作為合同的另一方當事人，並不直接對丙的履行行為負責，除非合同中另有約定或存在其他法律規定。因此，甲應當向丙請求違約責任的承擔。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '乙同丙'], ['B', '乙或者丙'], ['C', '丙'], ['D', '乙']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺完全競爭嘅市場條件下，決定工資嘅基礎係",
+    "llm_output": "正確答案係 D. 勞動力價值。\n\n在完全競爭的市場條件下，工資通常由勞動力的供求關係決定，而勞動力的價值則是由勞動者在生產過程中創造的價值來決定。在這種市場結構中，工資被視為勞動力的價格，而勞動力的價值則是由勞動者所貢獻的生產力以及他們所從事的職業嘅需求來決定。因此，勞動力價值被視為決定工資嘅基礎。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '勞動力供應彈性'], ['B', '勞動力需求彈性'], ['C', '勞動價值'], ['D', '勞動力價值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，關於消費觀念嘅表述正確嘅係",
+    "llm_output": "正確答案嘅選項係 A. 消費觀念係指支配同調節人哋消費行為嘅思想意識。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消費觀念係指支配同調節人哋消費行為嘅思想意識'], ['B', '消費觀念對交換冇影響'], ['C', '消費觀念係指人哋嚮往高消費嘅傾向'], ['D', '消費觀念對儲蓄冇影響']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "人口老齡化對消費結構帶嚟嘅影響係",
+    "llm_output": "人口老齡化對消費結構帶來的影響通常是勞務消費支出比重快速上升。這是因為老年人口往往更傾向於消費服務，如醫療保健、照護和旅遊等，而非物質商品。因此，正確答案是：\n\nA. 勞務消費支出比重快速上升",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '勞務消費支出比重快速上升'], ['B', '耐用消費品支出比重快速上升'], ['C', '食品支出比重快速上升'], ['D', '教育支出比重快速上升']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "畀消費者帶嚟相同滿足程度嘅商品組合集中喺",
+    "llm_output": "正確答案係 D. 無差異曲線上。\n\n無差異曲線（Indifference Curve）係一條表示能夠為消費者帶來相同滿足程度嘅不同商品組合嘅曲線。換句話說，沿著同一条無差異曲線嘅任何商品組合對消費者來講都具有相同嘅價值或滿意度。呢個概念通常用喺微观經濟學嘅消費者選擇理論中，用嚟分析消費者如何根據個人偏好同預算限制作出最滿意嘅消費決策。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '預算約束曲線上'], ['B', '需求曲線上'], ['C', '生產可能性曲線上'], ['D', '無差異曲線上']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "所有下面嘅因素除咗邊一種以外，都會使需求曲線移動",
+    "llm_output": "正確答案係 A. 商品價格下降。\n\n需求曲線移動係指由於非價格因素嘅變動而導致整個需求曲線嘅移動，即同商品價格無關嘅因素引起需求變動。這些因素可以包括消費者偏好、購買者收入、其他有關商品價格（替代品或補充品價格變化）等等。而商品自身價格嘅變化只會引起需求量在同一條需求曲線上嘅調整，而唔會導致需求曲線嘅移動。因此，商品價格下降並唔會引起需求曲線移動，而其他選項都會導致需求曲線移動。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '商品價格下降'], ['B', '消費者偏好變化'], ['C', '購買者收入變化'], ['D', '其他有關商品價格下降']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於吉芬商品需求曲線嘅表述，正確嘅係",
+    "llm_output": "C.  向右上方傾斜\n\n吉芬商品（Giffen goods）是一種特殊類型的低收入消費品，其價格上升時，需求量也會增加，這種現象與一般商品的價格與需求量呈反向變動的規律不同。因此，吉芬商品的需求曲線向右上方傾斜，表示價格和需求量正相關。這是由於低收入消費者對價格變動的敏感度較高，當吉芬商品價格上升時，他們會減少購買其他更昂貴的商品，相對地增加購買吉芬商品。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '平行於橫坐標'], ['B', '向右下方傾斜'], ['C', '向右上方傾斜'], ['D', '垂直於橫坐標']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一個喺壟斷競爭市場上嘅企業喺短期內能獲得經濟利潤但長期唔能夠，原因係",
+    "llm_output": "正確答案係 D. 新嘅企業加入。\n\n壟斷競爭市場特點之一係有新企業嘅加入，從而增加市場競爭，使長期內企業無法獲得經濟利潤。在短期內，由於市場份額相對固定，企業可能能夠獲得經濟利潤。但隨著新企業嘅加入，市場份額被分散，競爭加劇，導致利潤下降直至正常水平，即僅夠支付資本成本。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '規模報酬遞減'], ['B', '廣告費用增加'], ['C', '政府增加稅收'], ['D', '新嘅企業加入']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺風險投資決策中，術語「結果」係指",
+    "llm_output": "C.  特定嘅自然狀態同策略相結合會產生幾多嘅得或者失",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '決策是否被接受'], ['B', '將來可能存在嘅環境條件'], ['C', '特定嘅自然狀態同策略相結合會產生幾多嘅得或者失'], ['D', '用嚟實現管理目標嘅行動方案']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "短期決策中常使用嘅「貢獻」嘅概念係指",
+    "llm_output": "正確答案係 A. 增量收入減去增量成本。\n\n在短期決策中，「貢獻」通常指的是增量收入（額外收入）減去增量成本（額外成本），即邊際收入減去邊際成本。這是指增加產量或提供額外服務時，每個單位所能提供的利潤貢獻。貢獻是一個重要的概念，因為它幫助企業決定是否應該接受額外的訂單或增加生產，以利用利潤機會。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '增量收入減去增量成本'], ['B', '銷售收入減去會計成本'], ['C', '銷售收入減去沉沒成本'], ['D', '增量收入減去總成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "貼現率嘅大小對現金流嘅現值嘅影響，講法正確嘅係",
+    "llm_output": "C. 貼現率越大，現值越細\n\n解釋：貼現率是指將未來的現金流折算成現值的利率。當貼現率增加時，未來的每一個單位金錢在當下的價值會減少，因此現值會變小。這是因為投資者要求更高的回報來補償長時間內的風險和通貨膨脹。因此，選項C是正確的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '貼現率越細，現值越細'], ['B', '貼現率嘅大小會點樣影響現值，要視具體數據而定'], ['C', '貼現率越大，現值越細'], ['D', '貼現率嘅大小會影響現金流未來嘅價值，但唔影響其現值']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "消費經濟學同市場營銷學",
+    "llm_output": "D. 都係研究消費者行為\n\n消費經濟學同市場營銷學都涉及研究消費者行為，但兩者嘅焦點同方法論有唔同。消費經濟學主要研究消費者喺經濟活動中嘅選擇、消費模式、同埋對經濟嘅影響，而市場營銷學則集中喺企業點樣設計、傳播、同埋交付價值以滿足消費者需求，並吸引消費者購買產品或服務。雖然兩者有交集，但係佢哋嘅研究範疇同應用領域各有唔同。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '都係屬於宏觀經濟學'], ['B', '學科內容相同'], ['C', '都係屬於微觀經濟學'], ['D', '都係研究消費者行為']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面講法中正確嘅係",
+    "llm_output": "正確答案係 D. 補償機器設備無形損耗嘅折舊費係不變成本。\n\n解釋：\n在經濟學中，成本分為可變成本和固定成本。\n\n可變成本（Variable Costs）是指那些隨著生產量變動的成本，例如原材料成本、直接勞動成本等。這些成本會隨著生產活動的增加或減少而相應增加或減少。\n\n固定成本（Fixed Costs）則是不受生產量影響的成本，這些成本在短期內保持不變，例如租金、保險、折舊費用等。折舊費用是指為了補償資產（如機器設備）隨著時間無形損耗而計提的成本，它不直接隨著生產量的變化而變化，因此被視為固定成本。\n\n根據上述定義：\nA. 廠房設備投資的利息可能是固定成本，因為它通常按期支付，不直接與生產量相關。\nB. 商標註冊費是一個一次性的費用，通常被視為固定成本。\nC. 購買原材料的支出是可變成本，因為它會隨著生產量的增加而增加。\nD. 補償機器設備無形損耗的折舊費是固定成本，因為它不直接受到生產量的影響。\n\n因此，D 選項是正確的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '廠房設備投資嘅利息係可變成本'], ['B', '商標註冊費係可變成本'], ['C', '購買原材料嘅支出為不變成本同可變成本'], ['D', '補償機器設備無形損耗嘅折舊費係不變成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "對一種新產品定價，應遵循嘅決策規則係",
+    "llm_output": "B.  銷售收入至少應足以補償新產品嘅增量成本\n\n呢個答案係根據經濟學中嘅「增量成本」原則，即係話當考慮生產一種新產品時，定價應該確保每件產品嘅收入足以覆蓋其增量成本（即為生產該產品而產生嘅額外成本）。呢個原則有助於確保企業嘅長期可行性，並且避免因定價過低而導致虧損，或者定價過高而無法吸引顧客。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '新產品嘅利潤率應該同其他產品嘅利潤率大致相同'], ['B', '銷售收入至少應足以補償新產品嘅增量成本'], ['C', '銷售收入應足以補償新產品嘅增量成本同公司分攤下嚟嘅固定成本'], ['D', '銷售收入足以補償新產品嘅會計成本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，屬於經濟起飛階段顯著特徵嘅係",
+    "llm_output": "正確答案係 A. 第三產業比重大幅提高。\n\n經濟起飛階段通常特點包括生產力快速增長，產業結構轉型，第三產業（服務業）比重上升，人均收入水平提高，以及經濟結構的轉型，從以農業為主轉向以製造業和服務業為主。因此，第三產業比重大幅提高是經濟起飛階段的顯著特徵。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '第三產業比重大幅度提高'], ['B', '第一產業比重大幅度提高'], ['C', '消費率提高'], ['D', '第二產業比重大幅度提高']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "幾種唔同形式嘅平衡增長理論共同強調嘅係",
+    "llm_output": "A. 大規模投資嘅重要性同全面平衡嘅增長\n\n平衡增長理論（Balanced Growth Theory）強調經濟中各部門的協調增長，以及大規模投資對經濟發展的重要性。這種理論認為，當經濟中各個部門以相等的速度增長時，可以實現更穩定和全面的经济平衡。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '大規模投資嘅重要性同全面平衡嘅增長'], ['B', '經濟增長率係第一位嘅'], ['C', '通過引致投資最大化項目帶動其他項目'], ['D', '唔採取國家幹預']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀50年代，舒爾茨發現，促使美國農業生產嘅產量迅速增加嘅主要因素係",
+    "llm_output": "D. 人嘅知識、能力同技術水平提高\n\n舒爾茨（Theodore Schultz）係一位美國經濟學家，他著重研究人力資本對經濟增長嘅影響。佢嘅研究發現，20世紀50年代美國農業生產嘅增長主要歸因於農民嘅教育、培訓同技術水平提升，而唔係傳統上認為嘅土地或勞動力數量嘅增加。因此，正確答案係選項D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '資本存量嘅增加'], ['B', '土地嘅增加'], ['C', '勞動力數量增加'], ['D', '人嘅知識、能力同技術水平提高']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "發展中國家稅收中嘅徵收成本較低嘅稅係",
+    "llm_output": "D. 土地稅\n\n發展中國家稅收中嘅徵收成本較低嘅稅通常係土地稅，因為土地嘅位置固定且容易偵查，而農業稅、進口關稅和所得稅嘅徵收成本通常較高，因為需要偵查嘅對象較為流動和隱蔽。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '農業稅'], ['B', '進口關稅'], ['C', '所得稅'], ['D', '土地稅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面價格變動中，能使銷售收入增加嘅係",
+    "llm_output": "正確答案係：\n\nA. 當需求係非彈性時，價格下降\n\n解釋：\n當需求係非彈性時，意味着需求量對價格變動嘅響應不大。因此，降低價格會增加需求量，從而增加銷售收入。相反，提高價格會進一步減少需求量，導致銷售收入減少。所以，對於非彈性需求，降低價格可以增加銷售收入。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '當需求係非彈性時，價格下降'], ['B', '當需求係單元彈性時，價格下降'], ['C', '當需求係彈性時，價格上升'], ['D', '當需求係彈性時，價格下降']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面選項中，屬於調整消費結構變化嘅消費政策係",
+    "llm_output": "B.  收入分配政策\n\n解釋： 收入分配政策涉及如何分配社會嘅總收入，包括工資、薪金、利潤、租金同利息等。呢種政策可以影響到消費者嘅可支配收入，進而影響佢哋嘅消費行為同消費結構。例如，如果政府能夠透過稅收同轉移支付等方式，減少收入差距，咁低收入群體嘅可支配收入就有可能增加，從而可以提高佢哋對高檔消費品或者服務嘅需求，從而調整消費結構。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消費品產業政策'], ['B', '收入分配政策'], ['C', '福利政策'], ['D', '社會保障政策']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "對經濟學家嚟講，非理性意味住",
+    "llm_output": "正確答案嘅選項係：C. 人哋故意採取同自己最大利益相悖嘅行為",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人哋無意識咁傷害自己'], ['B', '人哋冇花費足夠嘅時間加以考慮，從而做出反常嘅選擇'], ['C', '人哋故意採取同自己最大利益相悖嘅行為'], ['D', '人哋採取惡毒嘅行為']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "規範研究方法要說明嘅係",
+    "llm_output": "正確答案係 B. 研究對象或者現象「應該係咩」嘅問題。\n\n規範研究方法（Normative Methodology）係一種研究方式，其重點在於評估或者建議應該點樣去做到某啲目標或者狀態，而唔單止係描述現時嘅情況或者客觀事實。呢種研究方法通常涉及價值判斷同倫理考量，而唔同於純粹描述性嘅研究方法，例如實證研究方法（Positive Methodology）。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '研究對象或者現象「係咩」嘅問題'], ['B', '研究對象或者現象「應該係咩」嘅問題'], ['C', '點樣認識研究對象或者現象嘅客觀事實'], ['D', '揭示研究對象或者現象內在構成要素同其之間嘅普遍聯繫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "喺需求唔變嘅情況下，供應增加會使得均衡數量",
+    "llm_output": "正確答案係 D. 上升。\n\n喺需求唔變嘅情況下，如果供應增加，供應曲線會向右移動。呢個會導致均衡價格下降，而均衡數量則上升。呢個原理根據供應和需求嘅基本經濟學原理，即係供應增加，價格下降，消費者願意購買嘅數量會因應價格下降而增加。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '無法確定'], ['B', '唔變'], ['C', '下降'], ['D', '上升']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "「由儉入奢易，由奢入儉難」，表明消費者行為具有嘅特徵係",
+    "llm_output": "正確答案嘅選項係 D. 習慣性。\n\n「由儉入奢易，由奢入儉難」呢句成語嘅意思係話，人嘅消費習慣同生活方式一旦提升咗，要回落番落去就比較困難。呢啲反映出消費者行為嘅習慣性特徵，即係話，人嘅消費行為往往受到過去習慣嘅影響，改變呢種習慣需要時間同時機。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '唔可逆性'], ['B', '複雜性'], ['C', '示範性'], ['D', '習慣性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "杜生貝嘅消費函數理論被稱為",
+    "llm_output": "正確答案係 C. 絕對收入假定。\n\n杜生貝嘅消費函數理論，又稱為「絕對收入假定」，指出消費者嘅消費開支主要決定於佢嘅絕對收入水平。換句話話，當一個人嘅收入增加時，佢嘅消費也會增加，但增幅通常會少過收入嘅增加，呢種關係反映咗邊際效用遞減嘅原理。然而，呢個理論唔考慮其他因素，如財富水平、債務状况、未來預期收入等對消費嘅影響。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '相對收入假定'], ['B', '邊際效用遞減'], ['C', '絕對收入假定'], ['D', '生命週期假定']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "決定消費者嘅勞動供應行為嘅係",
+    "llm_output": "A. 勞動同閒暇嘅選擇替代",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '勞動同閒暇嘅選擇替代'], ['B', '勞動同低檔商品嘅選擇替代'], ['C', '勞動同消費嘅選擇替代'], ['D', '勞動同正常商品嘅選擇替代']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "某企業喺自己生產嘅商品上註冊咗「牡丹」，又註冊咗「白牡丹」、「紅牡丹」、「黑牡丹」，呢種商標稱為",
+    "llm_output": "正確答案係 D.  防禦商標\n\n防禦商標係指企業註冊一系列相似嘅商標，以保護其主要商標免受侵犯或模仿。呢種商標註冊策略可以防止其他企業使用類似嘅商標，從而保護企業品牌嘅獨特性同認受性。在呢個問題中，企業註冊咗「牡丹」、「白牡丹」、「紅牡丹」、「黑牡丹」等商標，以保護其主要商標「牡丹」免受競爭對手嘅影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '集體商標'], ['B', '組合商標'], ['C', '聯合商標'], ['D', '防禦商標']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "功能分配亦叫要素分配，佢最注重嘅係喺總體國民收入中",
+    "llm_output": "A. 每種要素獲得嘅收入所佔嘅百分比",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '每種要素獲得嘅收入所佔嘅百分比'], ['B', '各個個人從某個要素中獲得收入係幾多'], ['C', '各個個人從各要素中獲得收入係幾多'], ['D', '各個個人從某個要素收入中所佔嘅百分比']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種價格變動使消費者沿住一條既定嘅無差異曲線移動到新一點時所引起嘅消費變動係",
+    "llm_output": "正確答案係 B. 替代效應。\n\n解釋：\n當一種商品的價格變動時，消費者會調整自己的消費組合，以維持原有的滿意度。這種調整可以分為兩部分：替代效應和收入效應。\n\n替代效應（Substitution Effect）是指由於商品價格變動，導致商品相對吸引力改變，進而引發消費者改變對該商品的需求量，以達到新的最適消費組合。在無差異曲線圖中，替代效應會導致消費者沿著同一條無差異曲線移動到新的點。\n\n收入效應（Income Effect）是指由於商品價格變動導致消費者實際收入改變，進而影響消費者對該商品的需求量。在無差異曲線圖中，收入效應會導致消費者穿越無差異曲線，尋找新的最適消費點。\n\n因此，問題中所描述的「價格變動使消費者沿住一條既定嘅無差異曲線移動到新一點」正是替代效應的表現。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '收入效應'], ['B', '替代效應'], ['C', '財富效用'], ['D', '總效應']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟學可定義為",
+    "llm_output": "D. 研究點樣最合理咁配置資源\n\n經濟學主要係研究如何最有效地分配和配置有限嘅資源，以滿足人類需求和慾望。呢個可以包括研究市場機制、資源分配、生產與消費嘅決策等等。因此，答案選項 D 係最貼切嘅定義。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '企業取得利潤嘅活動'], ['B', '政府對市場制度嘅幹預'], ['C', '人哋靠收入生活'], ['D', '研究點樣最合理咁配置資源']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面變化中，邊種變化唔會導致需求曲線嘅位移",
+    "llm_output": "A. 產品嘅價格\n\n需求曲線嘅位移會因為其他因素而發生，包括人哋嘅偏好同愛好 (B)、相關產品嘅價格 (C) 同消費者嘅收入 (D)。而產品嘅價格 (A) 只會導致需求曲線上嘅點沿住曲線移動，而唔會導致曲線本身嘅位移。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '產品嘅價格'], ['B', '人哋嘅偏好同愛好'], ['C', '相關產品嘅價格'], ['D', '消費者嘅收入']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果其他因素保持唔變，下面四種情況一定會使需求減少嘅係",
+    "llm_output": "正確答案係 D. 收入減少，同時互補品嘅價格上升。\n\n當收入減少時，消費者嘅購買力下降，可能會減少對某啲商品嘅需求。同時，如果某商品嘅互補品價格上升，例如，如果一款遊戲機嘅互補品（如遊戲）價格上升，消費者可能會減少對遊戲機嘅需求，因為使用遊戲機嘅成本增加了。因此，收入減少加上互補品價格上升一定會使需求減少。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '收入增加，同時替代品嘅價格下降'], ['B', '收入減少，同時互補品嘅價格下降'], ['C', '收入增加，同時替代品嘅價格上升'], ['D', '收入減少，同時互補品嘅價格上升']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "股份有限公司創立大會必須有（），方可舉行。",
+    "llm_output": "B. 代表股份總數過半數嘅發起人、認股人出席",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '全部認股人出席'], ['B', '代表股份總數過半數嘅發起人、認股人出席'], ['C', '發起人、認股人出席人數佔總人數三分之二以上'], ['D', '全部發起人出席']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面邊個係宏觀經濟學嘅研究對象",
+    "llm_output": "D. 貨幣政策\n\n宏觀經濟學研究的是整個經濟系統的運作，包括總體經濟的行為和政策，例如就業、總體收入、通貨膨脹、經濟成長和貨幣政策等。貨幣政策是宏觀經濟學中的一個重要組成部分，它涉及到中央銀行如何通過控制貨幣供應和利率來影響經濟。而消費需求、企業和消費者則更傾向於微觀經濟學的研究對象，微觀經濟學研究個體經濟單位如家庭和企業的行為和決策。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費需求'], ['B', '企業'], ['C', '消費者'], ['D', '貨幣政策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "一種產品嘅市場處於均衡狀態係指",
+    "llm_output": "正確答案係 A. 消費者想買嘅數量啱啱等於供應者想賣嘅數量。\n\n市場均衡狀態指嘅係，市場上消費者願意購買嘅產品數量同供應者願意提供嘅產品數量達到一致，達到平衡點。在這個狀態下，市場上唔會有過剩或者短缺嘅情況出現，而呢個平衡點通常會喺需求曲線同供應曲線相交嘅點出現。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '消費者想買嘅數量啱啱等於供應者想賣嘅數量'], ['B', '需求曲線向右下方傾斜，供應曲線向右上方傾斜'], ['C', '成個社會嘅總需求等於成個社會嘅總供應'], ['D', '買同賣嘅量相等']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面造成搭便車問題嘅物品係",
+    "llm_output": "C. 路燈\n\n解釋：搭便車問題（Free-rider problem）係指在公共財或共有財嘅情況下，個人有誘因唔去付出自己嘅份額，而係享受呢啲財富嘅利益，因為其他人已經支付咗成本。路燈就係一個典型嘅公共財，因為一個人可以使用路燈嘅光線而唔需要自己支付安裝同維修嘅成本，其他人嘅付出令佢可以「搭便車」。其他選項如收學費嘅學校、收費嘅高速公路同私人經營嘅商店，都係私有財產，需要個人直接付出成本先可以使用或享受。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '收學費嘅學校'], ['B', '收費嘅高速公路'], ['C', '路燈'], ['D', '私人經營嘅商店']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "均衡係指供應同需求達到咗（）狀態。",
+    "llm_output": "B. 平衡",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔平衡'], ['B', '平衡'], ['C', '最少量'], ['D', '最大量']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "下面各項中會導致一國生產可能性曲線向外移動嘅一項係",
+    "llm_output": "D. 技術進步\n\n技術進步可以提高生產效率和生產力，從而使得一個國家能夠生產更多的商品和服務，導致生產可能性曲線向外移動。這表示經濟體系能夠生產更多的消費品和資本品，而不會導致資源的浪費或短缺。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '消費品生產增加，資本品生產下降'], ['B', '失業'], ['C', '價格總水平提高'], ['D', '技術進步']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "如果某產品需求曲線係一條垂直嘅直線，咁該需求曲線上每一點嘅價格彈性",
+    "llm_output": "正確答案係 D. 都等於0。\n\n當需求曲線係一條垂直嘅直線時，表示需求量唔會因為價格嘅改變而改變，即需求量嘅變動率為0。根據價格彈性嘅計算公式：\n\n價格彈性 = 需求量變動率 / 價格變動率\n\n由於需求量變動率為0，所以不論價格變動率為何，價格彈性都等於0。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '都大於1'], ['B', '都等於1'], ['C', '唔等'], ['D', '都等於0']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "糖尿病人對胰島素呢種藥品嘅需求屬於",
+    "llm_output": "B. 完全無彈性",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '缺乏彈性'], ['B', '完全無彈性'], ['C', '無限彈性'], ['D', '單位彈性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "yi-1.5-34b-chat-hf",
+    "dataset": "CMMLU-economics",
+    "key_answer_type": "alphabet_option",
+    "question": "有完全競爭外部市場嘅中間產品嘅轉移價格應該",
+    "llm_output": "正確答案係 A. 等於邊際成本。\n\n在完全競爭外部市場中，中間產品的轉移價格應該等於邊際成本。呢個係因為在完全競爭市場中，產品嘅價格由市場供需決定，而邊際成本代表咗生產額外一單位產品所需嘅額外成本。因此，為咗確保效率同激勵相匹配，中間產品嘅轉移價格應該設定為邊際成本。呢種定價方式有助於確保資源嘅有效分配，避免浪費，並且鼓勵生產者同消費者之間嘅合作。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '等於邊際成本'], ['B', '等於平均成本'], ['C', '等於市場價格'], ['D', '等於平均成本加目標利潤']]",
+    "is_correct": 0
+  }
+]

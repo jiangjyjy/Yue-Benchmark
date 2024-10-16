@@ -1,0 +1,1052 @@
+[
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「四個關於運動唔可能嘅悖論」係邊個提出嘅？",
+    "llm_output": "正確答案係 C. 芝諾。\n\n芝諾（Zeno of Elea），古希臘的愛利亞學派哲學家，以提出一系列關於運動與時間的悖論而聞名，這些悖論通常稱為「芝諾悖論」。其中最著名的是「阿基里斯與龜」、「飛矢不动」、「二分法」和「運動場」等悖論，這些悖論挑戰了當時對於運動和時間的直觀理解，對後世哲學、數學和物理學產生了深遠的影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '亞裏士多德'], ['B', '柏拉圖'], ['C', '芝諾'], ['D', '巴門尼德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於哲學思想嘅描述正確嘅係：",
+    "llm_output": "正確嘅選項係：\nC. 以上都有\n\n哲學思想確實係由各民族成員嘅觀念自覺同思想意識而形成嘅（A），並且哲學思想確實貫穿於社會生活嘅各個層面（B），同時哲學亦被視為社會生活嘅時代精神（D）。因此，C選項「以上都有」正確地總結了哲學思想的多重性質。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '係各民族成員嘅觀念自覺同思想意識而形成嘅'], ['B', '貫穿於社會生活嘅各個層面'], ['C', '以上都有'], ['D', '係社會生活嘅時代精神']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "集體主義中嘅「集體」應該理解為",
+    "llm_output": "正確答案：D. 成個社會成個國家嘅\n\n集體主義是一種社會和政治理論，強調集體利益優於個人利益，並認為社會的整體福祉是至高無上的。在集體主義中，「集體」通常指的是整個社會或國家，而不是局限於某個小團體或單位，也不僅僅是以無產階級為核心的利益集團。因此，選項D最恰當地描述了集體主義中的「集體」概念。其他選項如經濟所有制意義上（A）、某個小團體或單位（B）、以無產階級為核心（C）的描述，均未能全面覆蓋集體主義中「集體」的涵義。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '經濟所有制意義上嘅'], ['B', '某個小團體或者某個單位'], ['C', '以無產階級為核心嘅利益集團'], ['D', '成個社會成個國家嘅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "神話蘇格拉底最聰明，蘇格拉底點樣去證明神講錯咗？",
+    "llm_output": "正確答案係D。蘇格拉底以他的「知識辯論法」（Socratic method）來探討問題，這是一種通過提問來揭示對方觀點中的矛盾和不足的方法。在這個神話中，蘇格拉底通過與神辯論來展示神講錯了話，因為神說蘇格拉底是雅典最聰明的人，但蘇格拉底認為自己一無所知，因此他通過辯論來證明神講錯了。這種方法也體現了蘇格拉底對知識的探求和他對自我认识的追求。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '唔再學習'], ['B', '同自認為有知識嘅人傾偈'], ['C', '詢問其他人對自己嘅睇法'], ['D', '同神辯論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "古代樸素唯物主義將世界嘅本原歸結為",
+    "llm_output": "正確答案嘅選項是 A. 「原初」物質。\n\n古代樸素唯物主義認為世界嘅本原是某種最基本嘅物質或物質形式，例如古希臘哲學家泰勒斯認為水是萬物嘅本原，中國古代哲學家則有「五行」說，認為金、木、水、火、土五種元素是宇宙万物嘅基本組成部分。這些觀點都將世界本原歸結為一種「原初」物質，而非抽象嘅理念或觀念。因此，選項 A 是正確嘅。其他選項 B、C、D 分別代表理念世界、絕對觀念和客觀實在，這些概念更多地與理想主義或近代哲學相關，不符合古代樸素唯物主義嘅基本觀點。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「原初」物質'], ['B', '理念世界'], ['C', '絕對觀念'], ['D', '客觀實喺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "價值理性同工具理性失去平衡嘅結果",
+    "llm_output": "正確答案嘅選項是 B. 造成科技社會嘅異化。\n\n價值理性（Value Rationality）與工具理性（Instrumental Rationality）是哲學中討論理性行為的兩個不同面向。價值理性關注行為的道德和價值意義，而工具理性則關注行為的效率和實用性。當這兩者失去平衡時，特別是當工具理性過度強調而忽視價值理性時，可能導致科技社會中人的異化，即人變得過於依賴科技和效率，而忽略了生活的意義和價值。因此，選項 B 描述的異化現象是價值理性同工具理性失去平衡可能導致的結果。其他選項並未能準確反映這種失衡的後果。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '人哋失去咗追求'], ['B', '造成科技社會嘅異化'], ['C', '人哋更加追求價值理性'], ['D', '社會發展落後']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "巴門尼德從邊度出發去追問事物嘅本質",
+    "llm_output": "巴門尼德是古希臘的哲學家，他最著名的哲學貢獻之一是對存在（being）的探討。巴門尼德認為，真實的存在是單一的、不變的，並且是不可分割的。他認為通過感官所感知到的多變的世界並不是真實的存在，而是現象，是感官的錯覺。因此，巴門尼德追問事物本質的方式是從概念的角度出發，而非從外觀、材料或時間等角度。\n\n基於以上分析，正確的選項是：\n\nB. 從概念的角度追求關於事物嘅知識\n\n巴門尼德的工作強調了抽象思維和概念分析在理解真實中的重要性，這與選項B所表達的是一致的。其他選項如外觀、材料或時間都是感官世界或物理世界的特徵，而非巴門尼德探求存在本質的方式。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '從事物嘅外觀上追求關於事物嘅知識'], ['B', '從概念嘅角度追求關於事物嘅知識'], ['C', '從構成事物嘅材料上追求關於事物嘅知識'], ['D', '從時間上追求關於事物嘅知識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「國家篇」入邊柏拉圖為咗說明理念論用咗三個比喻，唔包括：",
+    "llm_output": "正確答案嘅選項係：\nB. 線段\n\n柏拉圖在「國家篇」中用咗三個比喻來解釋理念論，分別係洞穴比喻、線段比喻同太陽比喻。所以，「線段」係包括在內嘅比喻，而「月亮」則唔係。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '月亮'], ['B', '線段'], ['C', '洞穴'], ['D', '太陽']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「使專精神，憂念天下，思維得失」出自",
+    "llm_output": "正確答案：B. 「荀子•哀公」\n\n「使專精神，憂念天下，思維得失」這句話出自荀子的《哀公》篇。荀子是戰國時期的儒家思想家，他的著作《荀子》中包含了多篇文章，其中《哀公》篇探討了君王應該如何治理國家，以及君王應該具備的品德和智慧。這句話的意思是說，君王應該專心致志，關心天下大事，考慮國家和人民的得失。這裡強調的是君王應該有的責任感和智慧。\n\n其他選項中，《莊子•天下》是道家思想家莊子的作品，《漢書•張世安傳》是史書《漢書》中的一個人物傳記，而《素問•上古天真論》是中医經典《內經》的一部分，這些都與「使專精神，憂念天下，思維得失」這句話無關。因此，最符合問題描述的答案是B選項。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「莊子•天下」'], ['B', '「荀子•哀公」'], ['C', '「漢書•張世安傳」'], ['D', '「素問•上古天真論」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "聯合國教科文組織將邊一日定為哲學日",
+    "llm_output": "正確答案：C. 11月嘅第三個星期四\n\n聯合國教科文組織將每年的11月第三個星期四定為世界哲學日。這個日子旨在促進哲學的普及和哲學思考的推動，並強調哲學在教育中的重要性。世界哲學日的設立是為了呼籲全球對哲學的關注，並鼓勵不同文化背景的人士參與到哲學的探討中。自2002年起，每年的11月第三個星期四，全球各地的哲學愛好者都會舉辦各種活動，以慶祝這個特別的日子。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '10月嘅第三個星期四'], ['B', '11月嘅第三個星期日'], ['C', '11月嘅第三個星期四'], ['D', '10月嘅第三個星期日']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "肯定思維同存在有同一性，呢個係",
+    "llm_output": "正確答案係：\n\nC. 形而上學嘅觀點\n\n「肯定思維同存在有同一性」這一觀點屬於形而上學的範疇，因為它探討的是思維與存在之間的關係，這是一個典型的形而上學問題。形而上學是哲學的一個分支，專門探討存在、本質、宇宙以及宇宙中一切事物的根本性問題。其他選項：唯心主義、辯證法、可知論，雖然都是哲學中的重要概念，但它們與這個問題的關聯不如形而上學直接。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唯心主義嘅觀點'], ['B', '辯證法嘅觀點'], ['C', '形而上學嘅觀點'], ['D', '可知論嘅觀點']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "沃爾夫聲稱，解釋康德嘅倫理學使其包含一組有限嘅約束：",
+    "llm_output": "正確答案：D。\n\n沃爾夫（Immanuel Kant）在解釋康德（Immanuel Kant）的倫理學時，強調了康德倫理學中的契約主義元素，尤其是康德所提出的「普遍化原則」（Categorical Imperative）。康德認為道德規範應該是普遍適用的，即一個行為原則應該能夠被無條件地普遍化，成為每個理性個體行動的準則。這種觀點與契約主義有相似之處，因為契約主義也強調理性個體之間達成共識的重要性。因此，沃爾夫認為康德的倫理學可以被解釋為一種契約主義的形式，這使得道德規範不再是無限高標準，而是基於理性個體之間可以達成共識的約束。選項D最恰當地反映了沃爾夫對康德倫理學的這種解釋。其他選項並不符合沃爾夫對康德倫理學的解釋。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '會產生一幅冇吸引力嘅道德聖徒圖景。'], ['B', '產生一個要求太高嘅理論。'], ['C', '難以置信咁為道德價值設定咗一個「上限」。'], ['D', '將理論轉化為契約主義嘅一種形式。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "人生觀係（）嘅反映。",
+    "llm_output": "正確答案係D。人生觀通常是指一個人對生命的意義、目的以及應如何生活的基本看法和態度。這些觀念往往受到社會環境、文化背景、教育水平等多種社會存在因素的影響。因此，人生觀可以視為社會存在的反映。其他選項如自然條件、自我認識和政治關係，雖然可能間接地影響人生觀，但它們不是人生觀的直接反映。所以，最符合問題描述的答案是D。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自然條件'], ['B', '自我認識'], ['C', '政治關係'], ['D', '社會存在']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "人同人之間通過一定方式進行接觸，喺心理或者行為上產生相互影響嘅過程係",
+    "llm_output": "正確答案係：\n\nA. 人際交往\n\n人際交往是指人們之間通過各種方式進行交流和互動，在心理或行為上產生相互影響的過程。人際交往涵蓋了更廣泛的互動形式，不僅限於語言溝通，還包括肢體語言、情感交流等多種形式。其他選項，如人際溝通專注於語言和非語言形式的交流，公共活動則泛指在公共場合下進行的一系列活動，而人際關係則是指人們之間長期的互動模式和關係狀態。因此，根據問題描述，人際交往是最符合的答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人際交往'], ['B', '人際溝通'], ['C', '公共活動'], ['D', '人際關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "亞裏士多德認為喺哲學屬於以下邊種人？",
+    "llm_output": "C. 自由人\n\n根據亞里斯多德的觀點，哲學是一種自由人（即非奴隸且擁有自由身份的人）的活動。他認為哲學是對智慧的追求，而這種追求是自由人才能享受的活動，因為他們不受日常生計的限制，能夠專注於思考和探討深層的問題。在《尼各馬科倫理学》中，他提到哲學是「自由人中的最高活動」，這表明哲學是針對那些擁有足夠自由時間和資源去進行深思熟慮的人。因此，正確答案是C. 自由人。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全部城邦公民'], ['B', '君王'], ['C', '自由人'], ['D', '智者同哲學家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "蘇格拉底嘅對話中，佢總係不斷咁去追問一個事物嘅本質規定係咩，而佢嘅對手經常用咩嚟回答？",
+    "llm_output": "正確答案係D. 具體事物。\n\n在蘇格拉底嘅對話中，佢經常通過「蘇格拉底式」嘅方法，即通過提問來引導對話者深入思考一個問題，追尋事物嘅本質。蘇格拉底嘅對手通常會用具體事物來回答，因為具體事物比抽象概念更易於理解，亦更易於被對話者所接受。然而，蘇格拉底嘅目的是要超越具體事物，探求更深層嘅真理和本質，因此佢會繼續提問，促使對話者超越具體事物，思考更抽象、更根本嘅概念。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '唔知'], ['B', '模糊定義'], ['C', '抽象概念'], ['D', '具體事物']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "中國古代哲學家荀子講：「天行有常，唔為堯存，唔為桀亡。」呢係一種",
+    "llm_output": "荀子的這句話：「天行有常，唔為堯存，唔為桀亡。」反映出他認為自然界的運行是有其固有規律的，這些規律不依賴於人的意志或行為，即使是聖君如堯或暴君如桀也不能改變這些自然法則。這是一種認識到自然界客觀規律性的思想，屬於古代的樸素唯物論觀點。\n\n因此，正確的選項是：\nC. 樸素唯物論觀點",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '機械唯物論觀點'], ['B', '唯意志論觀點'], ['C', '樸素唯物論觀點'], ['D', '宿命論觀點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "柏拉圖嘅理念論具有好強嘅（）色彩。",
+    "llm_output": "柏拉圖的理念論主要強調了抽象的、超越於具體物體之外的理念世界，並且認為真實的世界是由這些理念構成的。他的理念論中，理念是完美且不變的，而感官世界則是不完美且多變的。柏拉圖的理念論具有強烈的神話色彩，因為他經常使用神話和比喻來解釋理念世界和感官世界之間的關係，例如他著名的洞穴比喻。\n\n因此，正確的選項是 B. 神話。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '倫理'], ['B', '神話'], ['C', '政治'], ['D', '科學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "常言道：「滿招損，謙受益。」「虛心使人進步，驕傲使人落後。」呢兩句話共同反映咗唯物論中嘅原理",
+    "llm_output": "正確答案嘅選項是 D. 人嘅意識具有能動作用。\n\n解析：「滿招損，謙受益。」「虛心使人進步，驕傲使人落後。」這兩句話強調了意識對個人行為和發展的影響。唯物論認為，意識是物質的反映，同時意識又具有能動作用，能夠反作用於物質世界，推動或阻礙事物發展。這裡所說的「虛心」和「驕傲」正是意識狀態的體現，而它們對個人進步或落後產生的影響，正是意識能動作用的一個體現。因此，這兩句話共同反映的是唯物論中意識具有能動作用的原則。其他選項與這兩句話所強調的意識能動作用相比，关联性較弱。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '意識對事物發展起決定作用'], ['B', '人哋對客觀事物嘅反映係有差別嘅'], ['C', '事物係變化發展嘅'], ['D', '人嘅意識具有能動作用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "集體主義原則嘅基本要求係",
+    "llm_output": "正確答案係：\n\nA. 集體利益高於個人利益，將集體利益放喺第一位\n\n集體主義原則強調集體利益優先於個人利益，但這並不意味著忽視或完全犧牲個人利益。集體主義的目標是在確保集體整體利益的同時，也考慮到個人的合理需求和利益，以實現社會和諧與個人的全面發展。因此，選項D「喺維護集體利益嘅同時，兼顧個人利益」亦符合集體主義原則，但選項A更準確地描述了集體主義的基本要求。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '集體利益高於個人利益，將集體利益放喺第一位'], ['B', '唔顧個人利益，只顧集體利益'], ['C', '當個人利益同集體利益發生矛盾時，犧牲個人利益'], ['D', '喺維護集體利益嘅同時，兼顧個人利益']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "黑爾聲稱道德判斷邏輯嘅兩個基本特徵係：",
+    "llm_output": "正確答案嘅選項係：\nB. 普遍性同規範性。\n\n解析：黑爾（Hare）在道德哲學中強調道德判斷具有普遍性和規範性。普遍性指的是道德規範應適用於所有相似情境，不僅僅是個別案例。規範性則是指道德判斷具有指導行為的權威性，即它不僅僅是對現實的一種描述，而是對行為的一種規範或指引。其他選項並不符合黑爾對道德判斷邏輯特性的描述。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '結果主義同享樂主義。'], ['B', '普遍性同規範性。'], ['C', '契約主義同遵守規則。'], ['D', '一致性同連貫性。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於義理之學描述正確嘅係：",
+    "llm_output": "正確答案嘅選項係：\nB. 以上都有\n\n義理之學通常是指講求經義（即經典文獻中的教義）和探究明理（即理解道理和哲理）的學問。它涵蓋了對經典文獻的解釋、哲理的探討以及普遍學術道理的探求。因此，選項A、C和D都是義理之學的一部分，但選項B「以上都有」最為全面，正確地概括了義理之學的涵義。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '講求經義同探究明理嘅學問'], ['B', '以上都有'], ['C', '普遍皆宜嘅學術道理'], ['D', '論究言論文章及其內容道理嘅學問']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "蘇格拉底嘅「未經省察嘅人生唔值得過」嘅主張經常被人哋引用為人哋活動嘅中心主題。通過佢，蘇格拉底通常被理解為：",
+    "llm_output": "正確答案嘅選項係：\n\nC. 只係做其他人做嘅事而唔考慮點解我哋應該做我哋做嘅事，好難被認為係有價值嘅、高尚嘅或者令人欽佩嘅。\n\n蘇格拉底嘅「未經省察嘅人生唔值得過」主張強調了反思與自省對人生意義嘅重要性。呢種思考方式認為，一個人應該深入思考自己嘅行為同生活，理解自己嘅行動背後嘅原因同意義，而唔應該盲目跟隨他人或社會規範。因此，選項C最符合蘇格拉底嘅哲學思想，強調了個體行動嘅意識形態同價值判斷嘅必要性。其他選項則與蘇格拉底嘅主張相悖，未能體現出對生活進行深思熟慮嘅重要性。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '有時根本唔值得付出所有努力嚟詳細檢查生活及其問題； 有時最好只係「順其自然」。'], ['B', '坐喺度思考生活係否值得過係浪費時間；我哋應該將呢啲反思留畀脫口秀主持人、政治人物同宗教領袖。'], ['C', '只係做其他人做嘅事而唔考慮點解我哋應該做我哋做嘅事，好難被認為係有價值嘅、高尚嘅或者令人欽佩嘅。'], ['D', '雖然對生活採取反思嘅態度好有趣，有時甚至好重要，但大多數令生活值得過嘅嘢都唔值得研究。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "中國哲學肇端嘅形式係：",
+    "llm_output": "正確答案係：\nB. 以上都唔啱\n\n中國哲學的肇端形式並不單一，它涵蓋了多種形式和來源，包括但不限於天文觀察、人文思考、神話傳說以及社會政治實踐等。因此，選項A、C和D均不能全面代表中國哲學的肇端形式。選項B表示上述選項都不恰當，這是最符合中國哲學多樣性特點的答案。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '關乎天文，關乎人文'], ['B', '以上都唔啱'], ['C', '神話傳奇'], ['D', '戰爭奪權']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「外無勞形之事，內無思想之患」出自：",
+    "llm_output": "正確答案：C. 黃帝內經\n\n「外無勞形之事，內無思想之患」這句話出自《黃帝內經》，這是一部中國古代的醫學典籍，其中包含了許多關於養生和醫學的哲理。這句話的意思是說，人應該避免過度勞累身體和過多的思慮，以保持身心健康。其他選項如《周易》、《道德經》和《老子》，雖然都是中國古代的哲學著作，但這句話並不出自這些作品。《道德經》和《老子》的作者都是老子，而《周易》則是一部關於《易經》的解說書。因此，最符合問題描述的答案是C. 黃帝內經。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '周易'], ['B', '道德經'], ['C', '黃帝內經'], ['D', '老子']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "事物嘅概念，喺柏拉圖呢度具有咩樣嘅意義。",
+    "llm_output": "柏拉圖哲學中，事物概念主要與其本體論（Ontology）相關，因為他探討了存在（being）的本質，以及理念（Ideas）與物質世界（material world）的關係。柏拉圖認為真實的存在是抽象的、完美的理念世界，而感官世界只是這些理念的不完美反映。因此，正確的選項是：\n\nD. 本體論",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '實踐論'], ['B', '唯心論'], ['C', '認識論'], ['D', '本體論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "提出「天地之化日新」嘅哲學家係：",
+    "llm_output": "正確答案係：\nA. 王夫之\n\n王夫之（1619年－1692年），字而农，号姜斋、又号夕堂，湖南衡阳人，明末清初的思想家、哲学家、史学家，与顾炎武、黄宗羲并称明末清初三大儒。他的哲学思想强调“天地之化日新”，即宇宙万物不断变化和更新的观念，这与他的历史观相联系，认为历史是不断进步和发展的过程。王夫之的思想融合了儒、道、佛三家的哲学思想，并提出了许多独到的见解。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '王夫之'], ['B', '顧炎武'], ['C', '董仲舒'], ['D', '李贄']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "下面觀點屬於主觀唯心主義嘅係",
+    "llm_output": "C. 心外無物，心外無理\n\n主觀唯心主義認為意識或心靈是宇宙的基礎，即所有事物都源自於心靈或意識。選項C「心外無物，心外無理」正好體現了這種觀點，意指除了心靈或意識之外，沒有其他事物或法則存在。其他選項則不符合主觀唯心主義的核心思想。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '理喺事先，事隨理變'], ['B', '理喺氣中，理隨事變'], ['C', '心外無物，心外無理'], ['D', '富貴喺天，死生由命']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「周易」變化移易嘅真理性結論體現喺：",
+    "llm_output": "正確答案係：D. 乾坤\n\n「周易」中，「乾坤」象徵天地，代表宇宙間最基本、最廣泛的變化與對立統一。乾坤的變化移易體現了宇宙萬物變化無常、生生不息的真理性結論。其他選項「既未」、「革鼎」雖然亦與變化有關，但不如「乾坤」能全面代表「周易」中變化移易的真理性結論。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '以上都唔啱'], ['B', '既未'], ['C', '革鼎'], ['D', '乾坤']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "中國古代婦女講求「德」、「容」、「言」、「功」。呢實際上係()嘅範疇。",
+    "llm_output": "正確答案係D. 美德論。\n\n解析：所謂「德」、「容」、「言」、「功」是指古代中國對婦女品行、外貌、言談舉止和女紅技能的要求，這些標準強調的是內在的美德和外在行為的合規性，屬於倫理學中的美德倫理學範疇。美德倫理學強調個人的品格和行為，與義務論、後果論和功利論不同，後者分別強調行為的義務性、行為的後果和行為的結果效益。因此，「德」、「容」、「言」、「功」最符合美德論的範疇。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '義務論'], ['B', '後果論'], ['C', '功利論'], ['D', '美德論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「哲學史講演錄」係邊個嘅著作",
+    "llm_output": "正確答案係：B. 黑格爾\n\n「哲學史講演錄」是德国哲学家黑格爾的著作，該書記錄了他對西方哲學史的講解，並闡述了他對哲學發展的看法。其他選項中的蘇格拉底、柏拉圖和亞裏士多德均為古希臘的哲學家，他們各自有其他著名的著作，但「哲學史講演錄」並非他們的著作。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蘇格拉底'], ['B', '黑格爾'], ['C', '柏拉圖'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「休謨問題」涉及以下邊個內容？",
+    "llm_output": "正確答案：C. 因果問題\n\n「休謨問題」主要探討的是人類如何認識和理解因果關係。大哲學家大衛·休謨質疑了人類對於因果性知識的合理性，他認為人類只能觀察到一系列事件的連續發生，但無法直接觀察到因果關聯本身。因此，我們對於因果的信念往往是基於經驗的習慣性聯想，而非理性的必然性。這一問題挑戰了傳統哲學中對於知識和理性的理解，對後續的哲學發展產生了深遠的影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '真理作為非真理'], ['B', '幻象問題'], ['C', '因果問題'], ['D', '表裏統一問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "通種論係探討（）嘅關係。",
+    "llm_output": "通種論（Transcendentalism）主要探討的是理念與事物之間的關係。因此，正確的選項是：\n\nA. 理念同事物\n\n通種論強調理念（或理想）在認識事物中的至高無上的地位，認為真實的世界是超越感官經驗的，只有通過理性與直覺才能理解。所以，選項A最符合通種論探討的主題。其他選項，如理念同理念（B）、事物同事物（C）、理念同感覺（D），均非通種論主要探討的對象。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '理念同事物'], ['B', '理念同理念'], ['C', '事物同事物'], ['D', '理念同感覺']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "蘇格拉底認為咩係解決早期希臘自然哲學眾說紛紜、莫衷一係問題嘅關鍵？",
+    "llm_output": "正確答案係D。蘇格拉底認為解決早期希臘自然哲學眾說紛紜、莫衷一係問題嘅關鍵係強調知識嘅作用，提高知識嘅地位。他認為通過對知識的探求，人們可以獲得真實的智慧，從而解決哲學上嘅分歧。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '建立統一而權威嘅學派'], ['B', '建立集權政治'], ['C', '通過一系列戰爭使國家強盛後再整理哲學問題'], ['D', '強調知識嘅作用，提高知識嘅地位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「哲學」一詞係黃宗憲從邊度引介到中國學術界",
+    "llm_output": "正確答案係C. 日本。\n\n「哲學」一詞是由日本學者西周在明治維新期間翻譯並引入日本學術界的，後來黃宗憲在清末時期的中國又從日本引進了這個詞語。因此，「哲學」這個詞語是從日本傳入中國的。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '美國'], ['B', '英國'], ['C', '日本'], ['D', '德國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "柏拉圖認為我哋能夠見到、感覺到嘅世界係？",
+    "llm_output": "柏拉圖在他的哲學體系中提出了「理型世界」（Forms）和「可感世界」（Sensible World）的區分。他認為理型世界是真正的現實，是完美且不變的，而可感世界則是由理型世界的不完美模仿所構成的，是變遷無常的。因此，柏拉圖認為我們能夠見到、感覺到的世界是可感世界。\n\n所以，正確的答案是：\nA. 可感世界",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '可感世界'], ['B', '鏡子世界'], ['C', '模仿世界'], ['D', '假象世界']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "喺討論「美」嘅問題時，蘇格拉底同希庇亞最大嘅唔同喺於？",
+    "llm_output": "正確答案係D。\n\n解析：喺柏拉圖嘅《對話錄》中，《希庇亞篇》描繪咗蘇格拉底同希庇亞之間關於「美」嘅討論。希庇亞認為美係一種可以通過感官感受到嘅事物，例如美嘅人、美嘅畫作等。而蘇格拉底則認為希庇亞嘅看法過於表面，他追問「美係咩」，意即探討美嘅本質。因此，D選項「蘇格拉底追問『美係咩』，而希庇亞喺問『邊啲係美嘅』」最恰當地反映了兩者之間嘅主要分歧。其他選項均未能準確捕捉到這一核心差異。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '蘇格拉底認為人嘅美來自於自然，唔可更改。希庇亞認為唔係。'], ['B', '蘇格拉底認為人係美嘅本質屬性，希庇亞認為唔係'], ['C', '蘇格拉底認為美係因為人同其他事物產生咗關聯，希庇亞認為唔係'], ['D', '蘇格拉底追問「美係咩」，而希庇亞喺問「邊啲係美嘅」。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "關於柏拉圖嘅「理念說」，下面說法錯誤嘅係？",
+    "llm_output": "柏拉圖的「理念說」認為理念是事物的本質和原型，是獨立於具體事物之外存在的不變實體。根據這個理論，事物是理念的模仿或影子，而不是理念本身。因此，選項B「理念係事物喺通過模仿其他事物而得到嘅」是錯誤的，因為理念不是通過模仿得到的，而是所有模仿的基礎。\n\n正確答案是B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '理念係事物嘅共相'], ['B', '理念係事物喺通過模仿其他事物而得到嘅'], ['C', '理念係事物存在嘅根據'], ['D', '理念係事物追求嘅目嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "人嘅社會價值係指",
+    "llm_output": "正確答案係A。人嘅社會價值主要係指個體嘅人生對於社會同其他人嘅責任同貢獻。這反映出一個人對社會的貢獻程度，以及他/她對社會發展所承擔的責任。社會價值強調的是個體對集體福祉的貢獻，而非僅僅是個體的主觀感受或社會對個體的態度。其他選項，如B、C和D，分別描述了人生活動、自我肯定關係以及社會對個體的態度，但這些並不正確地定義了社會價值。因此，最符合問題描述的答案是A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '個體嘅人生對於社會同其他人嘅責任同貢獻'], ['B', '人生嘅一種社會實踐活動'], ['C', '個人對自我嘅肯定關係'], ['D', '社會對個人嘅尊重同滿足']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "秦漢時期，中國哲學稱為：",
+    "llm_output": "正確答案係：C. 以上都唔啱\n\n秦漢時期，中國的學術思想尚未使用「哲學」這個詞語，而是更多地使用「道術」或「義理」等詞語來描述相關的學問。「哲學」這個詞是後來從西方學術傳入中國後，用來對應西方「philosophy」的概念。因此，選項A「哲學」並不適合描述秦漢時期的中國學術。選項B「道術之學」和選項D「義理之學」雖然更接近當時中國學術的性質，但由於問題中要求的是「中國哲學」的稱呼，而「哲學」這個詞在當時並不存在，所以最符合問題要求的答案是C「以上都唔啱」。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '哲學'], ['B', '道術之學'], ['C', '以上都唔啱'], ['D', '義理之學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學嘅基本問題係",
+    "llm_output": "哲學的基本問題是思維同存在嘅關係問題，所以正確答案係：\n\nA. 思維同存在嘅關係問題\n\n其他選項雖然亦可能成為哲學探討的對象，但並不是哲學的基本問題。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '思維同存在嘅關係問題'], ['B', '社會同自然嘅關係問題'], ['C', '實踐同理論嘅關係問題'], ['D', '政治同經濟嘅關係問題']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "康德聲稱理性嘅自然目的係",
+    "llm_output": "康德在他的哲學中提出了「理性之自然目的」的概念，他認為理性本身具有目的性，並且這種目的是為了促進道德行為和良好意願的產生。因此，根據康德的觀點，正確的選項是：\n\nA. 產生良好嘅意願\n\n康德認為理性是道德行為的基礎，而良好意願是道德行為的源頭，所以理性自然目的與產生良好意願相關。其他選項如快感、知識和幸福，雖然可能與理性相關，但並非康德所強調的理性自然目的的核心。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '產生良好嘅意願'], ['B', '產生快感'], ['C', '產生知識'], ['D', '產生幸福']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "摩爾根認為人類社會嘅三個階段中第二個階段係：",
+    "llm_output": "摩爾根（Lewis Henry Morgan）在其著作《古代社會》中提出了人類社會發展的階段理論，他認為人類社會經歷了三個主要階段：\n\n1. 野蛮期（Savagery）\n2. 矇昧期（Barbarism）\n3. 文明期（Civilization）\n\n根據這個理論，第二個階段是矇昧期，因此正確的選項是：\n\nC. 矇昧期\n\n所以，摩爾根認為人類社會的三个阶段中第二个阶段是矇昧期。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '文明期'], ['B', '野蠻期'], ['C', '矇昧期'], ['D', '制度期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「判天地之美，析萬物之理」出自",
+    "llm_output": "正確答案：A. 「莊子·天下」\n\n「判天地之美，析萬物之理」這句話出自《莊子》中的「天下」篇。這句話的意思是說，要判斷天地的美麗，分析萬物的道理。這裡的「判」是指分辨或區分，「析」則是指分析或剖析。庄子在這裡強調了對自然界和宇宙的深刻理解與尊重，這與他哲學中提倡的「道法自然」思想相吻合。\n\n其他選項中，荀子是另一位重要的儒家思想家，他的作品如「解蔽」和「哀公」也探討了哲學和倫理問題，但「判天地之美，析萬物之理」這句話並不出自這些篇章。而「素問」是《黃帝內經》的一部分，屬於中醫經典，與這句話無關。\n\n因此，最正確的選項是A，「莊子·天下」。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「莊子·天下」'], ['B', '「荀子·解蔽」'], ['C', '「荀子·哀公」'], ['D', '「素問·上古天真論」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "中國哲學呢個概念產生於咩時候？",
+    "llm_output": "正確答案：A. 19世紀末20世紀初\n\n中國哲學這個概念主要是在19世紀末20世紀初的時候，隨著西方哲學的傳入和中國現代學科的建立而逐漸形成的。這個時期的知識份子開始將傳統的儒家、道家等思想與西方哲學理論進行比較和整合，從而創造出一個新的學科領域，即所謂的中國哲學。因此，選項A是正確的。其他選項所指的時間點都偏早或偏晚，不符合中國哲學概念形成的歷史背景。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '19世紀末20世紀初'], ['B', '20世紀末21世紀初'], ['C', '19世紀初'], ['D', '18世紀末']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "沃爾夫聲稱，最終，規範問題必須從以下方面進行評估：",
+    "llm_output": "正確答案：B. 一種同對任何有序嘅價值體系嘅承諾無關嘅觀點。\n\n沃爾夫（Robert Paul Wolff）在哲學領域中提出了對規範問題的評估標準，他認為規範問題應該從一個與任何有序價值體系無關的觀點來進行評估。這意味著規範問題的評估應該是獨立於任何特定的道德、價值觀或文化體系之外的，這樣才能保持中立性和客觀性。因此，選項B最符合沃爾夫的觀點。其他選項如道德觀點、個人完美觀點和美德觀點，都涉及到特定的價值體系或個人標準，不符合沃爾夫所主張的中立性原則。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '道德觀點。'], ['B', '一種同對任何有序嘅價值體系嘅承諾無關嘅觀點。'], ['C', '個人完美嘅觀點。'], ['D', '美德嘅觀點。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "有關專家分析咗互聯網對青少年負面影響嘅三個主要方面：黃毒侵害、上網成癮、陷入虛幻。某地一名曾經係「學習標兵」嘅初三學生，因沉迷網絡遊戲無法自拔，留下兩份遺書後服毒身亡。針對呢種情況，一啲家長建議對學生唔應該開放互聯網。呢種睇法",
+    "llm_output": "正確答案嘅選項是D。「冇分清事物嘅主流同非主流」。\n\n分析：\n家長建議對學生唔應該開放互聯網，呢種睇法忽略了互聯網帶來嘅多方面益處，例如知識學習、信息獲取、溝通交流等，而僅僅聚焦於互聯網可能帶來嘅負面影響。呢種做法未能辨別互聯網帶來嘅主流益處與非主流問題，即未能分清事物嘅主流同非主流。\n\n其他選項分析：\nA選項「冇分清事物嘅重點同非重點」，此選項意指未能識別問題中最重要與次要的部分，但此情境中家長的做法是過於強調負面影響，而非未能識別重點。\nB選項「冇堅持用矛盾嘅分析方法睇問題」，此選項意指未能運用對立統一的觀點來分析問題，但此情境中家長的做法是過於簡單化問題，而非未能運用矛盾分析。\nC選項「冇堅持用一分為二嘅觀點睇問題」，此選項意指未能運用對立統一的觀點來分析問題，但此情境中家長的做法是過於簡單化問題，而非未能運用一分為二的觀點。\n\n因此，最符合情境描述的選項是D。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '冇分清事物嘅重點同非重點'], ['B', '冇堅持用矛盾嘅分析方法睇問題'], ['C', '冇堅持用一分為二嘅觀點睇問題'], ['D', '冇分清事物嘅主流同非主流']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學所研究嘅一般規律，適用於",
+    "llm_output": "哲學研究的是存在、知識、價值、理性、心灵、語言等基本問題，其探討的規律和原理旨在理解世界和人類存在的根本性質。哲學的範圍涵蓋了對客觀物質世界、人類意識、社會結構、倫理道德等多方面的思考。因此，哲學所研究的一般規律，適用於客觀物質世界的一切領域。\n\n正確答案：B. 客觀物質世界嘅一切領域。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '客觀物質世界嘅某一領域'], ['B', '客觀物質世界嘅一切領域'], ['C', '社會嘅經濟同政治領域'], ['D', '客觀物質世界嘅某啲領域']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "愛情觀係人哋對於",
+    "llm_output": "正確答案嘅選項係：\n\nD. 愛情問題嘅根本觀點同態度\n\n愛情觀主要涉及個人對愛情本質、目的、價值以及如何追求和維護愛情的看法和態度，因此它與世界問題、男女問題或人生問題的根本觀點和態度不同，而是專指對愛情的根本觀點和態度。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '世界問題嘅根本觀點同態度'], ['B', '男女問題嘅根本觀點同態度'], ['C', '人生問題嘅根本觀點同態度'], ['D', '愛情問題嘅根本觀點同態度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「科學唔喺遠，就喺豬圈旁。」呢句話出自：",
+    "llm_output": "正確答案係：C. 郭沫若\n\n「科學唔喺遠，就喺豬圈旁。」呢句話出自郭沫若的《科學與生活》。郭沫若（1892年－1978年），中國著名作家、歷史學家、考古學家，其著作涉及文學、歷史、考古學等多個領域，對中國現代文化有深遠影響。這句話反映出郭沫若對科學與日常生活緊密聯繫的認識，強調科學並不是遙不可及的事物，而是與我們的生活息息相關。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '季羨林'], ['B', '蕭紅'], ['C', '郭沫若'], ['D', '朱自清']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「理想國」係邊個嘅作品？",
+    "llm_output": "正確答案係：\nA. 柏拉圖\n\n柏拉圖的《理想國》（英文名：The Republic）是西方哲學史上極為重要的一部政治哲學著作，其中柏拉圖通過對理想國度的描述，探討了政治、倫理、教育以及哲學王等問題。其他選項中，芝諾是古希臘的哲學家，以悖論著名；蘇格拉底是柏拉圖的師傅，對西方哲學有深遠影響；亞力士多德是柏拉圖的學生，也是古希臘的著名哲學家和科學家。因此，《理想國》是柏拉圖的作品。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '柏拉圖'], ['B', '芝諾'], ['C', '蘇格拉底'], ['D', '亞力士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "柏拉圖通過畫家畫張枱來比喻理念同具體事物嘅聯繫，咁喺呢個例子入邊，邊張枱先係真實嘅呢？",
+    "llm_output": "柏拉圖的哲學中，他提出了「理型論」（Theory of Forms），認為真實的世界並不在我們的感官世界中，而是在一個抽象的、完美的理型世界中。根據這個理論，畫家所畫的枱只是對真實枱的模仿，而真實的枱則存在於理念世界中。因此，在柏拉圖的比喻中，真實的枱是理念中的枱，而非畫紙上或畫家心中所想像的枱。\n\n所以，正確的答案是：\nB. 理念嘅枱",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '畫紙上嘅枱'], ['B', '理念嘅枱'], ['C', '畫家畫嘅對象嘅枱'], ['D', '都唔係真實嘅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「周易」嘅三層義理唔包括",
+    "llm_output": "正確答案係：\n\nD. 便易\n\n「周易」的三層義理包括不易、變易和簡易，分別代表宇宙間事物的穩定性、變化性和簡約性。便易並不在這三層義理之中。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '不易'], ['B', '變易'], ['C', '簡易'], ['D', '便易']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學使用日常生活語言進行思考同表達時，對日常生活語言嘅邊一方面進行咗改造？",
+    "llm_output": "正確答案嘅選項是D. 語義。\n\n哲學在運用日常生活語言進行思考和表達時，通常會對語言的語義進行改造。語義指的是語言所表達的意義，哲學思考往往會重新定義或深化某些詞語的含義，以更好地表達抽象和複雜的思想。例如，哲學家可能會給「自由」、「真理」或「存在」等詞語賦予特定的哲學意涵，這些詞語在日常生活中的意思可能會被哲學化，以適應哲學探討的需要。\n\n其他選項如語法、語序和字形同字音，雖然在語言表達中也很重要，但哲學思考主要改造的是詞語的意義，而非它們的結構或外在形式。因此，D選項是正確的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '語法'], ['B', '語序'], ['C', '字形同字音'], ['D', '語義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "根據拜爾嘅理論，評估一個行為喺道德上係否允許嘅第二步係搵出：",
+    "llm_output": "正確答案嘅選項係：\n\nB. 禁止佢嘅道德規則係否係真正嘅道德規則。\n\n根據拜爾（Immanuel Kant）的道德哲學，特別是他的「普遍化原則」（Categorical Imperative），一個行為在道德上是否允許，關鍵在於該行為能否被普遍化，即能否成為一個無條件的道德法則。這意味著，我們需要評估如果每個人都遵循某個行為原則，世界會變成什麼樣子。如果這個原則能夠被普遍化而不導致矛盾或自我毀滅，那麼這個行為在道德上就是允許的。因此，第二步是評估禁止該行為的道德規則是否能夠成為一個普遍的道德法則。其他選項並不符合拜爾的理論框架。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '係否可以贊同。'], ['B', '禁止佢嘅道德規則係否係真正嘅道德規則。'], ['C', '係否被法律禁止。'], ['D', '佢係否被一個羣體嘅道德規則所禁止。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "喺審判期間，蘇格拉底辯稱佢絕對唔會故意腐蝕他人，因為：",
+    "llm_output": "正確答案嘅選項是D。蘇格拉底在審判期間辯稱，他絕對不會故意腐蝕他人，因為他有責任唔咁做。這反映出蘇格拉底認為作為一個哲學家和知識分子，他有道德責任去促進智慧和善行，而不是腐蝕他人的思想。他的辯詞強調了個人對社會的責任和對知識的尊重，這與他的哲學思想是一致的。其他選項並不符合蘇格拉底在審判期間的辯護內容。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '如果佢咁做，佢好有可能會被捉到。'], ['B', '佢唔知點做。'], ['C', '呢會令佢哋變得惡毒，然後佢哋會傷害佢。'], ['D', '佢有責任唔咁做。']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊項唔屬於哲學產生嘅條件",
+    "llm_output": "正確答案係C。哲學產生嘅條件通常包括對終極問題嘅關注、有時間思考這些問題、以及思想自由等，但並無直接關聯到生產力必須得到發展。生產力發展更多是經濟或社會發展層面嘅條件，而非哲學產生嘅直接條件。因此，C項「生產力必須得到發展」唔屬於哲學產生嘅條件。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人哋開始關注終極關懷嘅問題'], ['B', '人哋有時間去思考呢啲問題'], ['C', '生產力必須得到發展'], ['D', '必須有思想嘅自由嘅條件']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「村子富唔富，關鍵喺幹部。」呢說明喺認識同解決複雜問題時",
+    "llm_output": "正確答案嘅選項係：\n\nA. 要首先抓住主要矛盾，要善於抓中心\n\n呢句話「村子富唔富，關鍵喺幹部」強調了在認識同解決複雜問題時，要能夠識別並抓住主要矛盾，即村子的富裕與否主要取決於幹部的作用與表現。呢種思維方式強調了在多種因素中辨識出對事物發展起決定性作用嘅因素，並集中力量解決主要矛盾，從而推動事物嘅發展。其他選項雖然亦可能與哲學原理相關，但就呢句話嘅含義而言，A選項最為貼切。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '要首先抓住主要矛盾，要善於抓中心'], ['B', '要堅持黨嘅領導同社會主義道路'], ['C', '要充分發揮共產黨員嘅先鋒模範作用'], ['D', '要著重把握矛盾嘅主要方面，善於分清主流同支流']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "人生嘅生活理想係指人哋對未來",
+    "llm_output": "正確答案嘅選項係：\n\nA. 物質生活、精神生活、家庭生活嘅嚮往同追求\n\n人生嘅生活理想通常涵蓋了對物質生活、精神生活以及家庭生活等多方面的嚮往同追求，而不僅僅局限於某一方面。其他選項只涉及了生活理想的一部分，因此不如選項A全面。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '物質生活、精神生活、家庭生活嘅嚮往同追求'], ['B', '職業及工作部門嘅嚮往同追求'], ['C', '物質生活嘅嚮往同追求'], ['D', '社會制度同政治結構嘅嚮往同追求']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "以下關於哲學說法唔正確嘅係",
+    "llm_output": "正確答案係：\nB. 哲學係一門科學\n\n解釋：哲學探討的是存在、知識、價值、理性、心灵、語言等根本問題，它不僅僅是科學，而是對這些問題進行思考和探討的學科。因此，將哲學簡單地標記為一門科學是不全面的。其他選項表述了哲學的一些特徵或哲學與科學的關係，這些表述本身是正確的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '哲學同自然科學存在界限'], ['B', '哲學係一門科學'], ['C', '哲學為我哋確立咗價值取向'], ['D', '哲學冇統一嘅標準']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「存在就係被感知」係",
+    "llm_output": "正確答案係：\nA. 主觀唯心主義觀點\n\n「存在就係被感知」係由英國哲學家喬治·貝克萊提出的主觀唯心主義觀點，認為物體的存在取決於它們是否被感知。這與主觀唯心主義的核心理念相符，即認為現實世界在很大程度上是由個人的感知和意識所構成的。其他選項均不符合這一觀點：B. 機械唯物主義強調物質和物理過程的客觀性；C. 樸素唯物主義認為物質世界獨立於人類意識存在；D. 客觀唯物主義則認為現實世界是獨立於人類感知和意識的。因此，A選項是正確的。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主觀唯心主義觀點'], ['B', '機械唯物主義觀點'], ['C', '樸素唯物主義觀點'], ['D', '客觀唯物主義觀點']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「仁義喺身而色唔伐」中嘅「伐」係指：",
+    "llm_output": "正確答案係：D. 進攻\n\n「仁義喺身而色唔伐」這句話出自《論語·衛靈公》，其中「伐」字在此處解作「進攻」。這句話的意思是說，一個人如果內心充滿仁義，那麼他的外表就不會顯得具有攻擊性或侵略性。這裡的「伐」與「閥門」或「軍閥」無關，而是與人的行為態度相關，因此選項A、B、C均不適合。選項D「進攻」是正確的解釋。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '以上都唔啱'], ['B', '閥門'], ['C', '軍閥'], ['D', '進攻']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "社會主義條件下追求正當嘅個人利益係指",
+    "llm_output": "正確答案係C。在社會主義條件下，追求正當個人利益強調的是在遵守法律和道德規範的前提下，通過辛勤勞動來實現個人利益。這反映了社會主義價值觀中對個人與社會、集體之間關係的平衡，即在確保社會整體利益的同時，也肯定和保護個人的合法利益。選項A強調個人利益服從集體利益，忽略了個人合法利益的正當性；選項B提到了集體利益同個人利益的兼顧，但沒有明確指出追求利益的途徑和條件；選項D則暗示了在追求個人利益時可以不考慮法律和道德要求，這與社會主義的價值觀是相悖的。因此，C選項最符合社會主義條件下追求正當個人利益的定義。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '個人利益服從集體利益'], ['B', '集體利益同個人利益嘅兼顧性'], ['C', '喺守法同合乎道德條件靠辛勤勞動而獲得'], ['D', '唔一定考慮法律同道德要求獲得']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學內涵深奧。研究人員越嚟越專業，睇嘅人",
+    "llm_output": "正確答案：B. 越嚟越少\n\n這個問題是關於哲學的普及性和理解度的。哲學作為一個深奧的學科，其內容和概念往往需要專業的知識和深入的思考才能理解。因此，隨著研究人員變得越來越專業，能夠深入理解哲學的人也會變得越來越少。這反映出哲學知識的深度和專精性，以及非專業人士可能會因為哲學的複雜性而逐漸失去興趣或無法理解。所以，選項B \"越嚟越少\" 是正確的，因為它指出了隨著專業性增加，能夠理解哲學的人會減少。其他選項如A \"越嚟越精\" 和C \"越嚟越多\" 都暗示了理解哲學的人會變得更多或更精，這與哲學的專業性和普及性相悖。選項D \"越嚟越廣\" 則沒有直接反映出哲學研究人員專業化與哲學普及度之間的關係。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '越嚟越精'], ['B', '越嚟越少'], ['C', '越嚟越多'], ['D', '越嚟越廣']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "唯物主義一元論同唯心主義一元論嘅對立屬於",
+    "llm_output": "唯物主义一元论和唯心主义一元论的根本对立在于对世界本质的不同理解。唯物主义认为物质是世界的本原，意识是物质的产物；而唯心主义则认为意识或精神是世界的本原，物质是意识的产物或表现。因此，这两种哲学观点的对立主要体现在对世界本质问题的不同解释上。\n\n根据上述分析，正确答案是：\n\nB. 世界嘅本質問題上嘅對立\n\n所以，選項B是正確的。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '世界發展嘅動力問題上嘅對立'], ['B', '世界嘅本質問題上嘅對立'], ['C', '意識嘅本質問題上嘅對立'], ['D', '真理嘅本性問題上嘅對立']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學作為一門專門嘅學科，大約有幾多年嘅歷史？",
+    "llm_output": "正確答案：C. 兩千多年\n\n哲學作為一門專門的學科，其歷史可以追溯到古希臘，尤其是以柏拉圖和亞里士多德為代表的哲學思考。若從古希臘算起，哲學的歷史大約有兩千多年。其他選項的時間範圍不是過於短暫就是過於漫長，不符合哲學作為學科發展的歷史實際。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '一千多年'], ['B', '三千多年'], ['C', '兩千多年'], ['D', '四千多年']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「判天地之美，析萬物之理」出自",
+    "llm_output": "正確答案：B. 「莊子•天下」\n\n「判天地之美，析萬物之理」這句話出自《莊子》中的「天下」篇。這句話的意思是說，要判斷天地的美麗，分析萬物的道理。這裡所表達的是一種對自然界和宇宙的深刻理解和欣賞，以及對事物本質的探求。庄子是中國古代著名的哲學家，他的思想強調自然和自由，並且對後世的哲學思想產生了深遠的影響。因此，選項B是正確的。其他選項中的作品和篇章並不包括這句話。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「荀子•哀公」'], ['B', '「莊子•天下」'], ['C', '「荀子•解蔽」'], ['D', '「素問•上古天真論」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "4G網絡係集3G同WLAN於一體，並能夠快速傳輸數據、音頻、視頻同圖像等。4G傳輸速率比目前嘅家用寬帶ADSL(4M)快20倍，並能夠滿足幾乎所有用戶對於無線服務嘅要求。從哲學角度睇，4G通訊嘅出現",
+    "llm_output": "正確答案係C。\n\n解析：4G通訊技術的出現，是對現有通信技術的認識和進一步的利用，它展示了人類對通信技術的掌握和應用能力。這一技術的進步，不僅改進了人們的通信方式，也促進了社會各層面的發展，從而體現了人類對客觀事物認識和利用的能力。\n\n選項A講的是創新推動生產關係變革，這虽然是4G技術可能帶來的社會影響，但並不是哲學角度對4G技術出現的直接解釋。\n\n選項B提到利用同改造客觀規律，這在科學技術發展中固然重要，但4G技術的出現更多是對現有技術的進一步認識和應用，而非對規律的改造。\n\n選項D講的是運動是物質的唯一特性，這屬於哲學上的物質定義，與4G技術的出現無直接關聯。\n\n因此，最符合問題要求的答案是C，即4G通訊的出現是對客觀事物認識同利用的體現。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '表明創新能推動生產關係嘅變革'], ['B', '係對客觀規律嘅利用同改造'], ['C', '係對客觀事物嘅認識同利用'], ['D', '表明運動係物質嘅唯一特性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "霍布斯聲稱，所有嘅自然法則都可以概括為一條格言：",
+    "llm_output": "霍布斯（Thomas Hobbes）在他的著作《利維坦》（Leviathan）中提出了著名的自然法則，這些法則旨在描述人類在沒有政府或社會契約的情況下如何生活。霍布斯認為，在這種所謂的“自然狀態”下，人類會處於一種“所有人對所有人的戰爭”（Bellum omnium contra omnes）的狀態，因為每個人都為了自己的生存而與他人競爭。\n\n霍布斯提出，為了避免這種無休止的戰爭狀態，人們需要制定契約，建立政府，並遵守一定的規範。他認為，這些規範中最基本的一条是“金律”（Golden Rule），即不要對他人做你自己不願意對自己做的事。這條原則被視為一種道德規範，旨在促進社會和諧與合作，從而避免回到那種人人自危的“自然狀態”。\n\n因此，根據霍布斯的哲學觀點，正確的選項是：\n\nD. 唔好對其他人做你唔會對自己做嘅事。\n\n這條原則不僅體現了霍布斯對於自然法則的概括，也反映了他對於如何通過契約和法律來建立秩序和和平的思考。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '使幸福最大化。'], ['B', '喺你所做嘅一切中實踐美德。'], ['C', '永遠唔好將其他人當作達到你目嘅嘅手段。'], ['D', '唔好對其他人做你唔會對自己做嘅事。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "根據柏拉圖早期思想嚟睇，美嘅事物之所以係美嘅，係因為？",
+    "llm_output": "根據柏拉圖早期思想，美的事物之所以是美的，是因为它们分有了美的理念。因此，正確答案嘅選項是：\n\nA. 事物分有咗美嘅理念\n\n柏拉圖認為，美的事物之所以美，是因為它們在一定程度上反映了或分有了美本身（即美的理念）。這個理念是超越的、永恒的、完美的，而物理世界中的美的事物只是這個理念的不完全模仿或分有。其他選項並不符合柏拉圖的哲學觀點。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '事物分有咗美嘅理念'], ['B', '事物模仿咗其他美嘅事物'], ['C', '事物從根本上都係美嘅'], ['D', '人嘅感覺被事物佔有，從而「愛屋及烏」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "以下選項中，吻合柏拉圖嘅觀點嘅係",
+    "llm_output": "柏拉圖認為理念（或形式）是現實世界事物存在和被認識的基礎，而感官世界只是理念世界的影子或模仿。在他的哲學體系中，學習過程特別是對理念的認識，被視作一種「回憶」的過程，因為我們在出生前已經擁有這些理念形式的知識，出生後通過教育重新記起這些知識。\n\n因此，根據柏拉圖的觀點，最符合的選項是：\n\nB. 學習就係回憶\n\n這選項最貼切地反映了柏拉圖認為學習是記起先天知識的過程。其他選項如A、C和D，雖然可能與柏拉圖的某些思想相關，但並不是他主要強調的觀點。所以，正確答案是B。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '理念就係回憶'], ['B', '學習就係回憶'], ['C', '感覺就係回憶'], ['D', '實踐就係回憶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "科學知識嘅研究對象一般具有以下邊種特性？",
+    "llm_output": "正確答案：A. 可推理性\n\n科學知識的研究對象通常具有可推理性，因為科學方法強調通過觀察、假設、實驗和推理來理解自然現象。可推理性允許科學家根據數據和實驗結果來推導出普遍規律和理論。其他選項，如盈利性、實用性和現實性，雖然可能與科學研究的應用相關，但並非科學知識研究對象的基本特性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '可推理性'], ['B', '盈利性'], ['C', '實用性'], ['D', '現實性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「理念」可以被視為？",
+    "llm_output": "C. 「類」嘅抽象概念\n\n在哲學中，「理念」（Idea）這個概念通常與柏拉圖的哲學思想相關聯，特別是他在《理想國》中對「理型」（Forms）的描述。柏拉圖認為理念是對現實世界中事物的完美、永恒及非物質的模本，這些模本是該類事物共有的特徵和本質的抽象表達。因此，「理念」最恰當地被視為「類」的抽象概念。其他選項並不符合柏拉圖對理念的理解：真理的具體表現（A）、假象的對立面（B）、模仿的對象物體（D）均非柏拉圖理念論的核心概念。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '真理嘅具體表現'], ['B', '假象嘅對立面'], ['C', '「類」嘅抽象概念'], ['D', '模仿嘅對象物體']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "知識同智慧最大嘅唔同之處喺於？",
+    "llm_output": "正確答案：C. 思考方法嘅唔同\n\n知識與智慧的最大不同之處在於思考方法的不同。知識通常是指對具體事實、概念或技能的了解和掌握，而智慧則是指運用這些知識進行深入思考、判斷和解決問題的能力。智慧涉及批判性思考、創造性思維和價值判斷，這些都是思考方法的一部分。因此，選項C最恰當地描述了知識與智慧之間的核心區別。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '思考對象嘅唔同'], ['B', '主體本身嘅唔同'], ['C', '思考方法嘅唔同'], ['D', '思考目嘅嘅唔同']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "下面關於哲學嘅說法，唔正確嘅係（）",
+    "llm_output": "正確答案嘅選項係C。\n\n哲學作為一門探究存在、知識、價值、理性、心灵、語言等根本問題的學科，其範圍比科學更廣泛，並不一定具有科學性。哲學可以包含科學，但並非所有哲學都是科學。因此，選項C「任何哲學都係科學嘅」係唔正確嘅说法。其他選項則較為準確地描述了哲學的特徵和性質。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '哲學係世界觀同方法論嘅統一'], ['B', '哲學係系統化、理論化嘅世界觀'], ['C', '任何哲學都係科學嘅'], ['D', '哲學係關於世界觀嘅學問']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "唯心主義嘅基本形式係",
+    "llm_output": "正確答案嘅選項係：\n\nD. 客觀唯心主義同主觀唯心主義\n\n唯心主義的基本形式主要分為客觀唯心主義和主觀唯心主義。客觀唯心主義認為精神或意識是世界的本原，但這種精神或意識是獨立於個人意識之外的，例如柏拉圖的理型論。而主觀唯心主義則認為個人的意識或經驗是世界的本原，例如喬治·貝克萊的意識哲學。其他選項雖然也與唯心主義相關，但並不是其基本形式。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '辯證唯心主義同形而上學唯心主義'], ['B', '經驗論唯心主義同為理論唯心主義'], ['C', '一元論唯心主義同二元論唯心主義'], ['D', '客觀唯心主義同主觀唯心主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "人生係",
+    "llm_output": "正確答案：C. 人嘅整個生命過程\n\n解析：此題目的答案取決於對人生本質的理解。選項A強調創造與享受，選項B強調痛苦與曲折，選項D強調自由生活。然而，這些選項都只描述了人生的某個方面或階段，而非其整體。選項C則涵蓋了人生的全部，無論是創造、享受、痛苦、曲折還是自由生活，都是人生的一部分。因此，選項C最全面地描述了人生的本質。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人嘅創造同享受嘅過程'], ['B', '人嘅痛苦而曲折嘅經歷'], ['C', '人嘅整個生命過程'], ['D', '人嘅自由生活嘅過程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "個人基於一定嘅道德認識、自願選擇嘅有利於他人或者社會嘅行為係",
+    "llm_output": "正確答案係D. 道德行為。\n\n根據道德哲學的基本概念，道德行為是指個人基於內心的道德認識和自願選擇，進行有利於他人或社會的行動。此行為不僅僅是遵循一定的規範或標準，而是個體主動的選擇和實踐。道德規範（A）通常是指社會或文化中對行為的規範性要求；道德評價（B）則是指對個人或行為的道德價值進行判斷；道德品質（C）則是指個體內在的道德特質或傾向。因此，根據題目描述，最符合的是道德行為（D）。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '道德規範'], ['B', '道德評價'], ['C', '道德品質'], ['D', '道德行為']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "喺西方哲學史上，最早對理念論提出批評嘅係",
+    "llm_output": "正確答案係B. 亞裏士多德。\n\n解析：西方哲學史上，柏拉圖提出了著名的理念論，認為真實的世界是理念世界，而感官世界只是理念世界的影子。柏拉圖的學生亞裏士多德對此提出了批評，他認為形式（即理念）並不存在於事物之外，而是內在於事物之中，並且他強調實體（物質）和形式（概念）的關係是密不可分的。因此，最早對理念論提出批評的是亞裏士多德。黑格爾和蘇格拉底則分別在後續的哲學發展中對理念論有不同的評價和發展。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '黑格爾'], ['B', '亞裏士多德'], ['C', '柏拉圖'], ['D', '蘇格拉底']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "中國哲學發端於",
+    "llm_output": "正確答案係A. 西周。\n\n中國哲學的發展可以追溯到西周時期，當時出現了諸如《易經》等經典，這些文獻不僅記錄了當時的政治、社會制度，也蘊含了深刻的哲學思想。西周的宗教觀念、倫理觀念以及對宇宙和人生的基本看法，為後世的哲學發展奠定了基礎。雖然黃帝、夏朝和商朝的傳說和文獻也對中國文化有深遠的影響，但哲學意義上較為系統的思考和記錄，則在西周時期開始形成。因此，西周被視為中國哲學的發端。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '西周'], ['B', '黃帝時期'], ['C', '夏朝'], ['D', '商朝']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "信念係",
+    "llm_output": "正確答案嘅選項係：\nB. 一種思想認識同觀點\n\n信念通常被理解為個人對某事持有堅定的信任或確信，這是一種思想上的認識和觀點。雖然信念可能會與情感和意志相關聯，但最核心的是它作為一種思想上的立場或觀點。因此，選項B最恰當地描述了信念的本質。其他選項雖然可能與信念有某些關聯，但並不是對信念本質的準確描述。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '認識嘅科學性'], ['B', '一種思想認識同觀點'], ['C', '情感嘅豐富性'], ['D', '認識、情感、意志嘅統一']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "根據巴門尼德嘅觀點，以下邊個選項入邊嘅內容係一致嘅？",
+    "llm_output": "巴門尼德是古希臘的哲學家，他提出了「存在」的概念，認為「存在」是唯一真實的狀態，而「非存在」則是不真實的。巴門尼德認為思想與存在是同一的，因為我們能夠思想的事物必然存在於我們的思想之中。因此，根據巴門尼德嘅觀點，以下邊個選項入邊嘅內容係一致嘅是：\n\nA. 存在同思想\n\n所以正確答案係選項A。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '存在同思想'], ['B', '非存在同思想'], ['C', '存在同非存在'], ['D', '非存在同邏輯推理']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "西方哲學史中公元前6世紀到公元6世紀呢一時期嘅哲學叫做",
+    "llm_output": "正確答案嘅選項是 D. 古代哲學。\n\n西方哲學史中，通常將公元前6世紀到公元6世紀的哲學劃分為古代哲學。這個時期的哲學主要涵蓋了古希臘哲學和古羅馬哲學，包括了如蘇格拉底、柏拉圖、亞里士多德等著名哲學家的思想。中古哲學一般指的是中世紀的哲學，而現代哲學和近代哲學則分別指的是從文藝復興開始直到19世紀末的哲學，以及從19世紀末至今的哲學。因此，根據這些時期的劃分，選項D是正確的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '中古哲學'], ['B', '現代哲學'], ['C', '近代哲學'], ['D', '古代哲學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學係",
+    "llm_output": "正確答案係D。哲學作為一門探討存在、知識、價值以及理性思考的基礎性學科，其核心在於提供一個理論化同系統化嘅世界觀。這意味著哲學不僅僅是對世界和人生的基本問題進行思考，而且還要通過系統的理論來解釋和解決這些問題。\n\n選項A的「科學嘅世界觀同方法論」更偏向於科學哲學的範疇，而非哲學整體的定義。選項B的「辯證唯物主義同歷史唯物主義」是哲學中的一個流派，即馬克思主義哲學的一部分，不能代表哲學的整體。選項C的「科學性同革命性相統一嘅世界觀」則更偏向於政治哲學或社會哲學的某些觀點，而非哲學的普遍定義。\n\n因此，哲學最恰當的描述是D選項，即「理論化同系統化嘅世界觀」。這一描述涵蓋了哲學探討的廣泛範圍，包括形而上學、認識論、倫理學、美學等不同領域，並強調了哲學在理論建構和系統思考方面的特點。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '科學嘅世界觀同方法論'], ['B', '辯證唯物主義同歷史唯物主義'], ['C', '科學性同革命性相統一嘅世界觀'], ['D', '理論化同系統化嘅世界觀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "皮浪學派又叫",
+    "llm_output": "正確答案：D. 懷疑主義學派\n\n皮浪（Pyrrho）是古希臘的哲學家，他創立的學派以懷疑一切知識和真理的可行性為核心思想，因此被稱作懷疑主義學派。皮浪本人強調通過懷疑來達到一種心靈的平靜和無憂，這種態度在西方哲學史上具有重要地位。其他選項如逍遙學派、畫廊學派和折衷主義學派並不存在，或者與皮浪學派無關。因此，選項D是正確的。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '逍遙學派'], ['B', '畫廊學派'], ['C', '折衷主義學派'], ['D', '懷疑主義學派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "當我哋開心時，覺得太陽喺度笑，花兒喺度點頭；當我哋悲傷時，覺得雨如淚，風喺度喊。呢就係所謂嘅移情現象。移情現象體現嘅哲學觀點係",
+    "llm_output": "正確答案嘅選項係：\n\nC. 意識係客觀事物喺人腦中形成嘅主觀映象\n\n移情現象是指將自己的情感投射到無生命的事物上，認為這些事物也具有情感。這是一種主觀的映象，即個體將自己的感受和意識狀態投射到外在世界，認為外在世界也具有類似的情感或狀態。這反映出意識是客觀事物在人腦中形成的主觀映象。其他選項並不能準確描述移情現象所體現的哲學觀點。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '意識係人腦嘅機能'], ['B', '意識係客觀世界長期發展嘅產物'], ['C', '意識係客觀事物喺人腦中形成嘅主觀映象'], ['D', '意識能夠反作用於物質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "按照亞裏士多德嘅講法，幸福係：",
+    "llm_output": "根據亞里斯多德的觀點，幸福（eudaimonia）是一種通過實踐美德而達到的靈魂的良好狀態或活動。在《尼各馬科倫理学》中，他認為幸福是通過活躍（energeia）實現的，即通過積極地行使人類的理性能力，特別是通過道德行為和理智活動。因此，最符合亞里斯多德幸福概念的選項是：\n\nB. 靈魂嘅活動符合美德。\n\n這選項最貼切地反映了亞里斯多德對幸福的理解，即幸福是通過活躍和實踐美德來實現的靈魂的良好狀態。其他選項，如工藝、心態或感覺，並不符合亞里斯多德對幸福的描述。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '一種工藝。'], ['B', '靈魂嘅活動符合美德。'], ['C', '一種心態。'], ['D', '一種感覺或者感覺。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「四根說」嘅提出者係",
+    "llm_output": "正確答案係D. 恩培多克勒。\n\n恩培多克勒（Empedocles）是古希臘的哲學家，他提出了「四根說」（Theory of the Four Elements），認為所有事物都是由火、水、土、風這四個基本元素組成的。這一理論在古希臘自然哲學中佔有重要地位，對後世科學和哲學思想產生了深遠的影響。其他選項中的哲學家阿那克薩戈拉（Anaxagoras）、德謨克利特（Democritus）和留基波（Leucippus）則以原子論著稱，他們認為宇宙的基本單位是原子。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '阿那克薩戈拉'], ['B', '德謨克利特'], ['C', '留基波'], ['D', '恩培多克勒']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "喺伊壁鳩魯睇嚟，美好生活所需嘅財富係：",
+    "llm_output": "伊壁鳩魯（Epicurus）是古希臘的哲學家，他認為美好生活（即幸福或「eudaimonia」）並不依賴於大量的財富或物質享受。相反，他認為幸福來自於簡樸的生活、知足常樂以及避免痛苦和煩惱。伊壁鳩魯認為財富應該足夠以維持基本的生活需要，並且應該是容易獲得的，這樣人們就不會因為財務困難而感到壓力或煩惱。\n\n因此，根據伊壁鳩魯的觀點，正確的答案是：\n\nD. 容易獲得。\n\n這反映了他對於財富與幸福關係的看法，即財富應該是足以滿足基本需求，並且應該是容易得到的，這樣人們就不會因為財務問題而分心，從而能夠專注於獲得真正的幸福。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '僅供神靈使用。'], ['B', '僅供富人使用。'], ['C', '每個人都可以實現，但只有通過巨大嘅努力。'], ['D', '容易獲得。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "古希臘唯物主義嘅代表係",
+    "llm_output": "正確答案係：\nB. 德謨克利特\n\n德謨克利特（Democritus）是古希臘的唯物主義哲學家，他提出了原子論，認為宇宙中的一切都是由不可分割的微小粒子（原子）所組成。他的思想在西方哲學史上佔有重要地位，對後世科學和哲學都有深遠的影響。其他選項中，蘇格拉底（Socrates）、亞裏士多德（Aristotle）和柏拉圖（Plato）雖然都是古希臘著名哲學家，但他們的主要思想並不是以唯物主義為核心。蘇格拉底和柏拉圖更傾向於理想主義和形而上學，而亞裏士多德則在多方面都有重要貢獻，但他的自然哲學更接近於實證科學而非純粹的唯物主義。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蘇格拉底'], ['B', '德謨克利特'], ['C', '亞裏士多德'], ['D', '柏拉圖']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「愛美係人嘅天性」嘅講法出自",
+    "llm_output": "正確答案係：A. 亞裏士多德\n\n「愛美係人嘅天性」呢種講法，可以追溯到古希臘哲學家亞裏士多德。在佢嘅著作《倫理學》中，佢有提及人類對美好事物嘅追求，認為呢種追求係天生嘅，即所謂嘅「天性」。其他选项中嘅哲學家尼采、席勒同柏拉圖，雖然亦對美學有所貢獻，但「愛美係人嘅天性」呢種講法最為人熟知嘅來源係來自亞裏士多德。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '亞裏士多德'], ['B', '尼采'], ['C', '席勒'], ['D', '柏拉圖']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「巴門尼德斯篇」係邊個嘅作品？",
+    "llm_output": "正確答案係C. 柏拉圖。\n\n「巴門尼德斯篇」（Parmenides）是柏拉圖的作品之一，其中描繪了柏拉圖對哲學概念如「存在」（being）和「非存在」（non-being）的探討，並記錄了與前蘇格拉底哲學家巴門尼德之間的對話。巴門尼德在柏拉圖的哲學對話中扮演了一個重要的角色，他的思想對柏拉圖的形而上學觀點產生了深遠的影響。因此，「巴門尼德斯篇」是柏拉圖的作品，而不是巴門尼德、蘇格拉底或康德的作品。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '巴門尼德'], ['B', '蘇格拉底'], ['C', '柏拉圖'], ['D', '康德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「觀乎天文，觀乎人文」出自",
+    "llm_output": "正確答案：D. 「周易」\n\n「觀乎天文，觀乎人文」這句話出自《易經》中的《彖傳》部分，而《易經》又稱為《周易》。這句話的意思是說，要觀察自然界的現象，也要觀察人類社會的文教活動，強調了天人合一的思想。《論語》、《尚書》和《道德經》都是中國古代的經典文獻，但這句話並不出自這些文獻。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「論語」'], ['B', '「尚書」'], ['C', '「道德經」'], ['D', '「周易」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「畀我物質同運動，我將為你哋構造出世界嚟。」呢係邊個提出嘅？",
+    "llm_output": "正確答案係：\nC. 培根\n\n培根（Francis Bacon）提出「給我物質同運動，我將為你哋構造出世界嚟」呢句名言，反映出其對科學方法論的貢獻，強調觀察與實驗在科學探究中的重要性。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '笛卡兒'], ['B', '霍布斯'], ['C', '培根'], ['D', '洛克']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "哲學上嘅一元論就係承認",
+    "llm_output": "正確答案嘅選項係：\n\nA. 世界嘅本原只有一個\n\n一元論在哲學上指的是認為宇宙或現實的本質源於單一的基本實體或原則。這與二元論或多元論相對，後者認為現實由多個基本實體或原則組成。一元論可以偏向物質（唯物論）或精神（唯心論），但共同點在於認為存在一個基本實體或原則。因此，選項A最準確地描述了哲學上一元論的核心觀點。其他選項描述的是不同的哲學概念或觀點，而非一元論的定義。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '世界嘅本原只有一個'], ['B', '世界係發展嘅'], ['C', '世界喺本質上係精神'], ['D', '世界係物質']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "2014年諾貝爾文學獎授予法國作家帕特里克 ·莫迪亞諾。諾貝爾獎委員會嘅頒獎詞稱，帕特里克 ·莫迪亞諾「用記憶嘅藝術展現咗德國佔領時期最難把握嘅人類嘅命運以及人哋生活嘅世界」。呢個體現咗",
+    "llm_output": "正確答案係：B. 文學作品係對人民羣眾生活嘅真實再現。\n\n解析：根據諾貝爾獎委員會嘅颁奖词，帕特里克·莫迪亚诺通过其文学作品展现了德国占领时期人类命运及生活世界，这表明其文学创作是对当时人们生活真实情况的再现。其他选项如意识改造世界（A）、意识对生理活动的调节控制作用（C）以及思维与存在的同一性（D），均非颁奖词中提及的重点，因此不是此问题的正确答案。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '意識能夠能動咁改造世界'], ['B', '文學作品係對人民羣眾生活嘅真實再現'], ['C', '意識對人嘅生理活動具有調節同控制作用'], ['D', '思維同存在具有同一性']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "宇宙生成論又叫",
+    "llm_output": "正確答案：C. 前蘇格拉底哲學\n\n宇宙生成論（Cosmogony）是探討宇宙如何起源和形成的學問，這一概念在哲學史上通常與前蘇格拉底哲學（Pre-Socratic Philosophy）相關聯。前蘇格拉底哲學家們，如泰勒斯（Thales）、阿那克西曼德（Anaximander）和赫拉克利特（Heraclitus）等，對宇宙的起源和結構提出了各種理論，這些理論構成了早期對宇宙生成問題的探討。因此，宇宙生成論與前蘇格拉底哲學的關聯最為緊密。其他選項如早期自然哲學、中期希臘哲學和晚期希臘哲學，雖然也涉及宇宙和自然的研究，但它們不是專指宇宙生成論的術語。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '早期自然哲學'], ['B', '中期希臘哲學'], ['C', '前蘇格拉底哲學'], ['D', '晚期希臘哲學']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "喺蘇格拉底睇嚟，哲學真正嘅研究對象係？",
+    "llm_output": "蘇格拉底認為哲學的真正研究對象是人自己，即選項C「人自己」。他認為哲學應該關注人的靈魂和道德，而非僅僅是自然界的物理現象。因此，正確答案是C。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自然'], ['B', '倫理'], ['C', '人自己'], ['D', '人性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "王國維喺「人間詞語」中講：「詩人對宇宙人生，須入乎其內，又須出乎其外。入乎其內，故能寫之；出乎其外，故能觀之」。同呢段話最切近嘅美論係",
+    "llm_output": "正確答案係D。王國維喺「人間詞語」中講的「入乎其內，故能寫之；出乎其外，故能觀之」，強調了藝術創作與欣賞中「距離」的重要性。這裡所講的「距離」，不僅僅是物理上的距離，更包含了心理和情感上的距離。當藝術家深入體驗生活（入乎其內），他便能夠真切地表達情感和思想；而當他能夠抽離情感，保持一定的心理距離來審視和反思（出乎其外），便能夠更客觀地欣賞和評價自己的作品。因此，這段話最切近的美論是「美喺距離」。其他選項如形式、關係、生活，並不能完全涵蓋王國維所講的「內」與「外」的關係。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '美喺形式'], ['B', '美喺關係'], ['C', '美喺生活'], ['D', '美喺距離']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「吾愛吾師，吾更愛真理。」出自邊位哲學家口中？",
+    "llm_output": "正確答案係：\n\nD. 亞裏士多德\n\n這句名言「吾愛吾師，吾更愛真理」出自古希臘哲學家亞裏士多德（Aristotle）。這句話反映出亞裏士多德對真理的追求超過對他導師柏拉圖（Plato）的尊敬，體現了哲學中批判性思考和對真理的探求的重要性。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '柏拉圖'], ['B', '蘇格拉底'], ['C', '黑格爾'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "人生價值觀念係",
+    "llm_output": "正確答案係B。人生價值觀念係對人生目的同實踐活動進行認識及評價時所持嘅基本觀點。\n\n解析：\nA選項講嘅是對人為什麼活著的基本觀點，這更偏向於生存意義的探討，而非價值觀念。\nB選項則直接涉及到對人生目的和實踐活動的認識及評價，這正是人生價值觀念的核心內容。\nC選項講的是對自我價值同社會價值嘅認識，這是人生價值觀念的一部分，但並不是全部。\nD選項講的是對人嘅主體需要同客體滿足主體需要嘅關係嘅認識，這涉及價值觀念中的某些方面，但同樣不是全面的定義。\n\n因此，最符合人生價值觀念定義的是B選項。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '對人點解活著嘅基本觀點'], ['B', '對人生目嘅同實踐活動進行認識及評價時所持嘅基本觀點'], ['C', '對自我價值同社會價值嘅認識'], ['D', '對人嘅主體需要同客體滿足主體需要嘅關係嘅認識']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "感覺經驗具有",
+    "llm_output": "正確答案：B. 相對性同偶然性\n\n感覺經驗通常被視為相對的，因為它們取決於個人的觀點和情境。此外，感覺經驗具有偶然性，因為它們不是由任何必然的法則所決定，而是可能隨機地變化。因此，選項B最恰當地描述了感覺經驗的特性。其他選項將感覺經驗描述為絕對的或具有必然性，這與感覺經驗的主觀和多變性相矛盾。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '絕對性同偶然性'], ['B', '相對性同偶然性'], ['C', '相對性同必然性'], ['D', '絕對性同必然性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義認為，哲學係",
+    "llm_output": "正確答案係D。馬克思主義認為哲學是無產階級的世界觀，因為它強調歷史唯物論，認為哲學應該反映並服務於無產階級的利益，並且推動社會的進步和革命。其他選項並不符合馬克思主義對哲學的定義。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '理論化、系統化嘅世界觀'], ['B', '科學嘅世界觀'], ['C', '人哋自發形成嘅世界觀'], ['D', '無產階級嘅世界觀']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "叔本華嘅人生態度係咩？",
+    "llm_output": "叔本華（Arthur Schopenhauer）是19世紀的德國哲學家，他的哲學思想深受印度教和佛教的影響，特別是對生命苦難的看法。叔本華認為，生命本質上是痛苦的，因為人類的欲望無休止，而這些欲望永遠無法完全滿足，導致了持續的痛苦。他認為人生的基本情感是悲傷，並認為幸福是短暫且虛幻的。\n\n叔本華的這些觀點與選項A、B、C所表述的樂觀態度相悖。選項A的「來世」概念在叔本華的哲學中並不明顯，他更傾向於現世的苦難觀。選項B和C則表達了對生活某種程度的樂觀和希望，這與叔本華對生命本質痛苦的看法不符。\n\n選項D「他認為生活失去咗意義」更貼近叔本華的哲學思想。他認為，由於生命的痛苦本質，人類應該學會接受無意義的現實，並尋找減輕痛苦的途徑，例如通過藝術和智慧來達到某种程度的解脫。\n\n因此，正確答案是D。叔本華認為生活失去咗意義。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '佢相信來世，所有嘅苦難都會消失。'], ['B', '佢認為生活唔確定但值得。'], ['C', '佢認為生活好艱難，但最終充滿希望。'], ['D', '佢認為生活失去咗意義。']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "internlm2_5-20b-chat-turbomind",
+    "dataset": "CMMLU-philosophy",
+    "key_answer_type": "alphabet_option",
+    "question": "「人為自然立法」嘅觀點屬於",
+    "llm_output": "正確答案係：\nA. 主觀唯心主義\n\n「人為自然立法」是康德哲學中的一個重要觀點，它表達了人類理性在自然界中的作用。康德認為，自然界的法則是由人類的心智所設定的，這一觀點屬於主觀唯心主義，因為它強調了人類意識在構建現實世界中的中心地位。其他選項，如宿命論、機械唯物主義和客觀唯心主義，均不符合康德哲學中「人為自然立法」的意涵。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '主觀唯心主義'], ['B', '宿命論'], ['C', '機械唯物主義'], ['D', '客觀唯心主義']]",
+    "is_correct": 1
+  }
+]

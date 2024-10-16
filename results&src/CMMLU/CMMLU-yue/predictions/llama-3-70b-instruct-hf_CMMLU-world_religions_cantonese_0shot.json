@@ -1,0 +1,1602 @@
+[
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "日耳曼人開始咗日耳曼蠻族大入侵係乜嘢時期。",
+    "llm_output": "The correct answer is B. 4世紀.\n\nThe Germanic tribes began their large-scale invasions of the Roman Empire in the 4th century, marking the beginning of the Migration Period.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '2世紀'], ['B', '4世紀'], ['C', '3世紀'], ['D', '1世紀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "宗教信仰自由受（）保護，公民有信仰宗教嘅自由。",
+    "llm_output": "The correct answer is D. 憲法 (Constitution).\n\nReligious freedom is protected by the Constitution, and citizens have the freedom to believe in a religion of their choice.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '國家'], ['B', '政府'], ['C', '條例'], ['D', '憲法']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以佛教為國教嘅國家係",
+    "llm_output": "The correct answer is D. 泰國 (Thailand).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '馬來西亞'], ['B', '新加坡'], ['C', '日本'], ['D', '泰國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "早期基督教嘅贖罪方式係",
+    "llm_output": "The correct answer is C. 內心真誠懺悔同肉體自我折磨.\n\nIn early Christianity, the way to atone for sins was through inner repentance and self-mortification, such as fasting, prayer, and physical discipline. This approach emphasized personal responsibility and spiritual discipline as a means of seeking forgiveness and redemption.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '向教會買贖罪券'], ['B', '祈求教會處死'], ['C', '內心真誠懺悔同肉體自我折磨'], ['D', '體罰同流放']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "「特蘭託會議」係邊個教派召開嘅改革會議？",
+    "llm_output": "The correct answer is A. 天主教 (Catholic Church).\n\nThe Council of Trent (特蘭託會議) was a major ecumenical council of the Catholic Church, held from 1545 to 1563, in response to the Protestant Reformation. It was a key event in the Counter-Reformation and had a significant impact on the development of Catholic theology and practice.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '天主教'], ['B', '東正教'], ['C', '基督教'], ['D', '新教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "第一個帶領法蘭克人皈依正統基督教信仰嘅人係",
+    "llm_output": "The correct answer is A. 克洛維 (Clovis).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '克洛維'], ['B', '路易'], ['C', '查理曼'], ['D', '丕平']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺佛教傳入中原之後，修築嘅第一座寺廟係",
+    "llm_output": "The correct answer is B. 白馬寺 (White Horse Temple).\n\nAccording to historical records, the White Horse Temple was the first Buddhist temple built in China after Buddhism was introduced from India. It was constructed in 68 AD during the Han Dynasty.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '桑耶寺'], ['B', '白馬寺'], ['C', '潭柘寺'], ['D', '少林寺']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "「心經」中嘅觀自喺菩薩係指",
+    "llm_output": "The correct answer is C. 觀音菩薩 (Guanyin Bodhisattva).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '文殊菩薩'], ['B', '地藏菩薩'], ['C', '觀音菩薩'], ['D', '彌勒菩薩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "君士坦丁皇帝於公元325年主持召開咗第一次基督教世界大會，即",
+    "llm_output": "The correct answer is B. 尼西亞公會議 (Nicaea Council).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '羅馬會議'], ['B', '尼西亞公會議'], ['C', '君士坦丁會議'], ['D', '米蘭會議']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "早期嘅北傳佛教經典多用乜嘢語言寫",
+    "llm_output": "The correct answer is C. 梵文.\n\nEarly Buddhist scriptures of the Northern Transmission (also known as Mahayana Buddhism) were written in Sanskrit (梵文).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '藏文'], ['B', '漢文'], ['C', '梵文'], ['D', '僧伽羅文']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "雲南地區傣族、德昂族、阿昌族、布朗族、佤族嘅信徒，信仰嘅宗教主要係",
+    "llm_output": "The correct answer is C. 小乘佛教 (Theravada Buddhism).\n\nThe Dai, De'ang, Achang, Blang, and Wa ethnic groups in Yunnan Province, China, are predominantly followers of Theravada Buddhism.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '大乘佛教'], ['B', '伊斯蘭教'], ['C', '小乘佛教'], ['D', '藏傳佛教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "希臘神話最初係由乜嘢開始嘅。",
+    "llm_output": "The correct answer is D. 混沌 (Chaos).\n\nIn Greek mythology, Chaos is the primeval void or emptiness from which everything else emerged. It is the starting point of the creation myth, and from Chaos came the first deities, including Gaea (the Earth), Eros (Love), and Erebus (Darkness) and Nyx (Night).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '烏蘭諾斯'], ['B', '赫拉'], ['C', '宙斯'], ['D', '混沌']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "「壇經」，係歷史上除佛經外，唯一被尊稱為「經」嘅佛教典籍。此書作者係",
+    "llm_output": "The correct answer is A. 六祖慧能 (The Sixth Patriarch Huineng).\n\nThe \"壇經\" (Platform Sutra) is a Buddhist scripture that is attributed to Huineng, the sixth patriarch of Chan Buddhism. It is considered one of the most important texts of Chan Buddhism and is unique in that it is the only Buddhist scripture, apart from the sutras, to be referred to as a \"經\" (jing, or \"scripture\").",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '六祖慧能'], ['B', '南天竺菩提達摩'], ['C', '釋迦牟尼'], ['D', '五祖宏忍']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "最早到中國傳教嘅耶穌教會人員係",
+    "llm_output": "The correct answer is A. 沙勿略 (Francis Xavier).\n\nFrancis Xavier, a Jesuit missionary, arrived in China in 1552, making him the first Christian missionary to reach China.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '沙勿略'], ['B', '羅耀拉'], ['C', '利瑪竇'], ['D', '羅明堅']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "世界最大嘅佛學院五明佛學院位於邊度？",
+    "llm_output": "The correct answer is B. 喇榮 (Larung).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '道孚'], ['B', '喇榮'], ['C', '爐霍'], ['D', '德格']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "天台宗以邊部經為依據",
+    "llm_output": "The correct answer is D. 法華經 (Lotus Sutra).\n\nTiantai Buddhism, also known as Tendai Buddhism, is a school of Mahayana Buddhism that is based on the Lotus Sutra (法華經).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '華嚴經'], ['B', '圓覺經'], ['C', '楞嚴經'], ['D', '法華經']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "藏傳佛教四大教派係指",
+    "llm_output": "The correct answer is D. 寧瑪、薩迦、噶舉、格魯.\n\nThe four main schools of Tibetan Buddhism are:\n\n* Nyingma (寧瑪)\n* Sakya (薩迦)\n* Kagyu (噶舉)\n* Gelug (格魯)\n\nSo, option D is the correct answer.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '寧瑪、薩迦、噶舉、覺囊'], ['B', '寧瑪、薩瑪、噶舉、覺囊'], ['C', '寧瑪、薩瑪、噶舉、格魯'], ['D', '寧瑪、薩迦、噶舉、格魯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "世界三大宗教中，佛教創立時間相當於",
+    "llm_output": "The correct answer is B. 春秋戰國時期.\n\nBuddhism was founded by Siddhartha Gautama in ancient India around 563 BCE, which corresponds to the Spring and Autumn period (771-476 BCE) in Chinese history.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '西周時期'], ['B', '春秋戰國時期'], ['C', '秦朝'], ['D', '漢朝']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "黃心川巖翻出，償拜道捏出三教合一雖則部係立足於本軟而融據其他兩者，但歸視結底實行嘅遷得係()嘅組合影式",
+    "llm_output": "The correct answer is B. 以儒為主，道、佛攜手為輔.\n\nThe question is referring to the concept of \"三教合一\" (Three Teachings Harmonious as One) in Chinese religion, which combines elements of Confucianism, Taoism, and Buddhism. The correct answer indicates that Confucianism is the main foundation, while Taoism and Buddhism are auxiliary and complementary to it.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '以上都唔啱'], ['B', '以來為主，儒、道攜手為輔'], ['C', '以道為主，儒，偶攜手為輔'], ['D', '以便為主，佛，造拂手為輔']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "瑞士宗教改革家領袖係",
+    "llm_output": "The correct answer is B. 烏利斯·茨溫利 (Huldrych Zwingli).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '馬丁·路德'], ['B', '烏利斯·茨溫利'], ['C', '亨利八世'], ['D', '加爾文']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "被中國佛教尊為「八宗之祖」嘅係",
+    "llm_output": "The correct answer is C. 龍樹菩薩 (Nāgārjuna Bodhisattva).\n\nIn Chinese Buddhism, Nāgārjuna is revered as the founder of the Eight Schools of Chinese Buddhism, hence the title \"八宗之祖\" (Founder of the Eight Schools).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '觀音菩薩'], ['B', '馬明菩薩'], ['C', '龍樹菩薩'], ['D', '準提菩薩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "東方三聖係指",
+    "llm_output": "The correct answer is C. 藥師如來，日光菩薩，月光菩薩.\n\nThe \"東方三聖\" (Three Saints of the East) in Buddhism refer to:\n\n1. 藥師如來 (Bhaisajyaguru, the Medicine Buddha)\n2. 日光菩薩 (Sūryaprabha, the Bodhisattva of Solar Radiance)\n3. 月光菩薩 (Candraprabha, the Bodhisattva of Lunar Radiance)\n\nThese three deities are often depicted together in Buddhist art and are associated with healing, light, and wisdom.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '藥師如來，彌勒菩薩，地藏菩薩'], ['B', '藥師如來，觀音菩薩，地藏菩薩'], ['C', '藥師如來，日光菩薩，月光菩薩'], ['D', '藥師如來，普賢菩薩，文殊菩薩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "我哋所居嘅娑婆世界，經中稱為",
+    "llm_output": "The correct answer is D. 五濁惡世 (Five Impure Worlds).\n\nIn Buddhist cosmology, the world we live in is referred to as the \"五濁惡世\" (Five Impure Worlds), which is characterized by five types of impurities: corruption, views, afflictions, sentient beings, and life.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '七濁惡世'], ['B', '三濁惡世'], ['C', '十濁惡世'], ['D', '五濁惡世']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "對中國文化思想同知識分子影響最大嘅宗派係",
+    "llm_output": "The correct answer is B. 禪宗 (Chan Buddhism).\n\nChan Buddhism, also known as Zen Buddhism, has had the most significant influence on Chinese culture, thought, and intellectuals. It was introduced to China from India and developed into a unique Chinese school of Mahayana Buddhism, emphasizing meditation, non-dualism, and the attainment of enlightenment through sudden insight. Chan Buddhism has had a profound impact on Chinese literature, art, philosophy, and spirituality, and has been a major force in shaping Chinese culture and intellectual history.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '華嚴宗'], ['B', '禪宗'], ['C', '三論宗'], ['D', '法相宗']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "下列事件發生嘅先後順序係①穆罕默德兵臨麥加城下②穆罕默德病逝③穆罕默德出走麥地那④穆罕默德出家隱修",
+    "llm_output": "The correct answer is A. ④③①②.\n\nHere's the correct sequence of events:\n\n④. 穆罕默德出家隱修 (Muhammad's retreat to the cave of Hira, where he received his first revelation from Allah)\n\n③. 穆罕默德出走麥地那 (Muhammad's migration to Medina, also known as the Hijra)\n\n①. 穆罕默德兵臨麥加城下 (Muhammad's conquest of Mecca)\n\n②. 穆罕默德病逝 (Muhammad's death)\n\nSo, the correct sequence is: Muhammad received his first revelation, then migrated to Medina, then conquered Mecca, and finally passed away.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '④③①②'], ['B', '①②③④'], ['C', '③①②④'], ['D', '④③②①']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "保鎮認為其實喺六道之中，雖然每一道修具有平等嘅意義，但具有殊勝性嘅係。",
+    "llm_output": "The correct answer is B. 人 (Human).\n\nIn Buddhism, the concept of \"六道\" (six realms of existence) refers to the different states of existence that beings can be reborn into, depending on their karma. The six realms are:\n\n1. 天 (Devas) - gods or deities\n2. 人 (Humans) - humans\n3. 阿修羅 (Asuras) - demigods or titans\n4. 畜生 (Animals) - animals\n5. 餓鬼 (Hungry ghosts) - beings with intense craving and desire\n6. 地獄 (Hell) - beings suffering in hell\n\nAccording to Buddhist teachings, the human realm is considered the most advantageous because it offers the best opportunity for spiritual growth and liberation from the cycle of rebirth. This is because humans have the capacity for moral agency, can understand the teachings of the Buddha, and can make choices that lead to enlightenment.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '天'], ['B', '人'], ['C', '阿修羅'], ['D', '地獄']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "三界係指欲界、色界同",
+    "llm_output": "The correct answer is C. 無色界.\n\nIn Buddhism, the \"three realms\" or \"three worlds\" refer to:\n\n1. 欲界 (Kāmadhātu) - the realm of desire, where beings are driven by their desires and cravings.\n2. 色界 (Rūpadhātu) - the realm of form, where beings are reborn based on their karma and have a subtle, non-corporeal form.\n3. 無色界 (Arūpadhātu) - the realm of no form, where beings are reborn in a state of pure consciousness, without a physical body.\n\nSo, the correct answer is C. 無色界.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '無欲生'], ['B', '天界'], ['C', '無色界'], ['D', '空界']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺猶太教中，把佢哋所期盼嘅救主稱作",
+    "llm_output": "The correct answer is B. 「受膏者」，即（彌賽亞）.\n\nIn Judaism, the Messiah is referred to as the \"Mashiach\" (משיח), which means \"anointed one\" or \"messiah\". This is the term used to describe the expected savior or redeemer who will bring salvation and redemption to the Jewish people.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '上帝'], ['B', '「受膏者」，即（彌賽亞）'], ['C', '耶和華'], ['D', '摩西']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "將真理告知大眾喺佛語中稱作",
+    "llm_output": "The correct answer is D. 法施 (Dharma-dana).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '心施'], ['B', '行施'], ['C', '財施'], ['D', '法施']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "供養父母係屬於邊種福田",
+    "llm_output": "The correct answer is D. 孝田 (Filial Piety Field).\n\nIn Buddhism, \"孝田\" (Xiào Tián) refers to the field of merit related to showing respect and care for one's parents.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '悲田'], ['B', '敬田'], ['C', '恩田'], ['D', '孝田']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教嘅精神本質係將人提到光明聖潔嘅神性生活，而中世紀教會嘅實踐活動卻將基督徒哋引向咗",
+    "llm_output": "The correct answer is C. 最粗鄙野蠻嘅肉慾放縱之中.\n\nThis question is describing the contrast between the spiritual essence of Christianity, which aims to elevate humans to a life of holy purity, and the actual practices of the medieval church, which led Christians into a life of coarse and brutal sensuality.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '犬儒主義之中'], ['B', '唯靈主義之中'], ['C', '最粗鄙野蠻嘅肉慾放縱之中'], ['D', '神祕主義之中']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個係古希臘神祕主義思想嘅集大成者，佢所創立嘅理念世界同感覺世界、靈魂同肉體向對立嘅二元論哲學，後來成為（基督神學）嘅主要思想來源。",
+    "llm_output": "The correct answer is A. 柏拉圖 (Plato).\n\nPlato's philosophy, particularly his theory of forms, posits a dualistic view of the world, where the world of senses (the physical world) is separate from the world of forms (the realm of abstract, eternal, and perfect concepts). This dualism is reflected in his idea of the soul and the body being in opposition to each other.\n\nPlato's philosophy had a significant influence on the development of Christian theology, and his ideas about the nature of reality, the soul, and the relationship between the material and spiritual worlds were incorporated into Christian thought.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '柏拉圖'], ['B', '蘇格拉底'], ['C', '斐洛'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "印度中觀理論嘅創始人係",
+    "llm_output": "The correct answer is B. 龍樹大師 (Nāgārjuna).\n\nNāgārjuna is considered the founder of the Madhyamaka school of Mahayana Buddhism, which is also known as the \"Middle Way\" or \"Indian dialectics\". He is credited with developing the concept of \"emptiness\" (shunyata) and is known for his works, particularly the \"Mūlamadhyamakakārikā\" (Fundamental Verses on the Middle Way).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蓮池大師'], ['B', '龍樹大師'], ['C', '道信大師'], ['D', '鳩摩羅什']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "羅馬帝國早期嘅基督教曾以()而著稱。",
+    "llm_output": "The correct answer is B. 信仰強化同排除異己.\n\nIn the early Roman Empire, Christianity was known for its strong faith and exclusion of outsiders, as it was a persecuted minority religion at the time.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '內心懺悔同救贖'], ['B', '信仰強化同排除異己'], ['C', '信仰堅定同道德高尚'], ['D', '原罪與懺悔']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "學佛應以乜嘢為首要？",
+    "llm_output": "The correct answer is D. 正見 (Right Understanding).\n\nIn Buddhism, the Eightfold Path is a fundamental teaching, and the first step on this path is Right Understanding (Samma Ditthi in Pali, Samyag Drishti in Sanskrit). This refers to having a correct understanding of the true nature of reality, including the Four Noble Truths and the concept of dependent origination.\n\nSo, the correct answer is D. 正見 (Right Understanding).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '正定'], ['B', '持戒'], ['C', '佈施'], ['D', '正見']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "東正教最高首領被稱為",
+    "llm_output": "The correct answer is D. 牧首 (Ecumenical Patriarch).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '樞機主教'], ['B', '大主教'], ['C', '都主教'], ['D', '牧首']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "根據猶太人嘅敘述，早喺公元前13世紀末，喺猶太人之間就出現咗一位先知係",
+    "llm_output": "The correct answer is B. 摩西 (Moses).\n\nAccording to Jewish tradition, Moses was a prophet who led the Israelites out of slavery in Egypt and received the Ten Commandments from God around 1200 BCE, which is around the 13th century BCE.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基督'], ['B', '摩西'], ['C', '保羅'], ['D', '彼得']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "三寶係指",
+    "llm_output": "The correct answer is C. 佛法僧 (Buddha, Dharma, Sangha).\n\nIn Buddhism, the \"Three Jewels\" or \"Three Treasures\" (三寶) refer to:\n\n1. 佛 (Buddha) - the teacher, Gautama Buddha\n2. 法 (Dharma) - the teachings, the Buddhist doctrine\n3. 僧 (Sangha) - the community, the monastic order or the assembly of Buddhists",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '天地人'], ['B', '戒定慧'], ['C', '佛法僧'], ['D', '斷捨離']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教哲學嘅發展科分為兩個階段，即早期嘅教父哲學同後期嘅",
+    "llm_output": "The correct answer is B. 經院哲學 (Scholastic Philosophy).\n\nThe development of Christian philosophy can be divided into two stages: early Patristic philosophy and later Scholastic philosophy.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '神祕主義哲學'], ['B', '經院哲學'], ['C', '懷疑主義哲學'], ['D', '唯靈主義哲學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "菩薩教化眾生必須博學多聞，要具備五明，其中內明係指",
+    "llm_output": "The correct answer is D. 佛學 (Buddhist studies).\n\nIn Buddhist teachings, a Bodhisattva (菩薩) is expected to possess five types of wisdom or knowledge, known as the \"Five Sciences\" or \"Five Wisdoms\" (五明). The \"inner wisdom\" or \"inner science\" (內明) refers to the study of Buddhist scriptures, teachings, and philosophy, which is essential for a Bodhisattva to guide and liberate sentient beings.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '邏輯學'], ['B', '工藝學'], ['C', '語言學'], ['D', '佛學']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "一切有為法，如夢幻泡影，如露亦如電，應作如係觀。此段經文出自",
+    "llm_output": "The correct answer is C. 金剛經 (Diamond Sutra).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '地藏經'], ['B', '六祖壇經'], ['C', '金剛經'], ['D', '華嚴經']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛經有云「人有三事勝過諸天」，即",
+    "llm_output": "The correct answer is A. 戒定慧.\n\nThe phrase \"人有三事勝過諸天\" is a Buddhist scripture that means \"There are three things that surpass the gods.\" The three things referred to are:\n\n* 戒 (precepts or moral discipline)\n* 定 (meditation or concentration)\n* 慧 (wisdom)\n\nThese three aspects are considered essential for spiritual growth and development in Buddhism.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '戒定慧'], ['B', '斷捨離'], ['C', '貪瞋癡'], ['D', '憶念梵行勤勇']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "分達賴同班禪兩大系嘅係",
+    "llm_output": "The correct answer is C. 老黃教 (Nyingma).\n\nIn Tibetan Buddhism, there are two main traditions: Nyingma (老黃教) and Sarma (新黃教). Nyingma is the older tradition, and it is divided into two sub-traditions: Nyingma and Kagyu (分達賴同班禪).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新黃教'], ['B', '紅教'], ['C', '老黃教'], ['D', '白教']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "猶太人嘅祖先()人大約喺（公元前14世紀上半葉）由沙漠侵入巴勒斯坦，同當地嘅迦南人逐漸融合，形成農耕嘅以色列部落。",
+    "llm_output": "The correct answer is A. 希伯來人 (Hebrew people).\n\nAccording to historical records, the Hebrew people, also known as the Israelites, entered Canaan (modern-day Palestine) from the desert around the 14th century BCE and gradually merged with the local Canaanites, forming the agricultural tribes of Israel.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '希伯來人'], ['B', '腓尼基'], ['C', '亞述'], ['D', '迦太基']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "斷除三界煩惱嘅聖人係",
+    "llm_output": "The correct answer is A. 阿羅漢 (Arhat).\n\nIn Buddhism, an Arhat is a saint who has attained the highest level of enlightenment and has eliminated the three poisons of greed, hatred, and delusion, thereby breaking free from the cycle of rebirth and achieving liberation from the three realms of existence (desire, form, and formlessness).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '阿羅漢'], ['B', '菩薩'], ['C', '佛'], ['D', '神明']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "羅素把邊個稱為「古代偉大哲學家中嘅最後一個人」。",
+    "llm_output": "The correct answer is A. 普羅提諾 (Plotinus).\n\nBertrand Russell referred to Plotinus as \"the last of the great philosophers of antiquity\".",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '普羅提諾'], ['B', '柏拉圖'], ['C', '斐洛'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "1073年，教會嘅強硬派人物希爾德布蘭登上咗教皇寶座，此人即係",
+    "llm_output": "The correct answer is B. 格里高利七世 (Gregory VII).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '卜尼法斯'], ['B', '格里高利七世'], ['C', '克雷芒七世'], ['D', '英諾森三世']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "羅馬帝國對基督徒進行嘅最後一次大規模鎮壓發生喺邊個嘅執政時期。",
+    "llm_output": "The correct answer is A. 戴克裏先 (Diocletian).\n\nDiocletian's persecution of Christians, also known as the Great Persecution, took place from 303 to 313 AD and was the last and most severe persecution of Christians in the Roman Empire.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '戴克裏先'], ['B', '圖拉真'], ['C', '尼祿'], ['D', '狄奧多西']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "城邦時期嘅宗教文化生活主要係",
+    "llm_output": "The correct answer is A. 祭神 (Worshiping gods).\n\nDuring the city-state period, religious and cultural life in ancient Greece was centered around the worship of gods and goddesses, with each city-state having its own patron deity.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '祭神'], ['B', '競技會'], ['C', '祭天'], ['D', '廟會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教最初係從乜嘢發展而嚟嘅。",
+    "llm_output": "The correct answer is:\n\nB. 猶太教\n\nChristianity originated from Judaism. Jesus Christ was a Jew, and his teachings were based on Jewish scripture and tradition. The early Christian community was comprised of Jewish followers of Jesus, and it wasn't until later that Christianity developed into a distinct religion separate from Judaism.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '伊斯蘭教'], ['B', '猶太教'], ['C', '太陽神教'], ['D', '萬神教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "希臘神話中嘅雷電之神，亦係奧林匹斯眾神之首係邊個。",
+    "llm_output": "The correct answer is:\n\nA. 宙斯 (Zeus)\n\nIn Greek mythology, Zeus is the god of the sky and thunder, and he is also the king of the gods on Mount Olympus.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '宙斯'], ['B', '阿波羅'], ['C', '該亞'], ['D', '烏蘭諾斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教嘅出家人姓「釋」係由邊個所提出嘅？",
+    "llm_output": "The correct answer is D. 道安大師 (Dao'an).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '弘忍大師'], ['B', '玄奘大師'], ['C', '六祖大師'], ['D', '道安大師']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "淨土三經係指",
+    "llm_output": "The correct answer is:\n\nA. 阿彌陀經、無量壽經、觀無量壽經\n\n淨土三經 (Three Pure Land Sutras) refers to:\n\n1. 阿彌陀經 (Amitabha Sutra)\n2. 無量壽經 (Infinite Life Sutra)\n3. 觀無量壽經 (Contemplation Sutra)\n\nThese three sutras are the core scriptures of the Pure Land school of Buddhism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '阿彌陀經、無量壽經、觀無量壽經'], ['B', '楞嚴經、圓覺經、法華經'], ['C', '般若經、華嚴經、法華經'], ['D', '金剛經、心經、壇經']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一位讚普喺自己登位後開始實行大規模滅佛運動",
+    "llm_output": "The correct answer is A. 朗達瑪 (Langdarma).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '朗達瑪'], ['B', '赤松德讚'], ['C', '赤德祖讚'], ['D', '赤祖德讚']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係中世紀宗教裁判所迫害嘅所謂「異端」",
+    "llm_output": "The correct answer is A. 信奉他教之人 (People who believe in other religions).\n\nDuring the Middle Ages, the Inquisition primarily targeted:\n\n* B. \"Witches\" and Jews, who were accused of practicing witchcraft and heresy.\n* C. Scientists and thinkers who held new ideas that were deemed heretical, such as Galileo Galilei.\n* D. People who held different religious views or interpretations, such as heretics and dissenters.\n\nHowever, people who believed in other religions, such as Muslims or pagans, were not typically targeted by the Inquisition, as they were not considered to be part of the Christian community and therefore were not subject to its authority.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '信奉他教之人'], ['B', '「巫士」同猶太人'], ['C', '具有新思想嘅科學先驅'], ['D', '持唔同宗教見解者']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "聖經四部福音書指嘅係馬太福音、馬可福音、路加福音同",
+    "llm_output": "The correct answer is:\n\nC. 約翰福音\n\nThe four Gospels in the Bible are:\n\n* Matthew (馬太福音)\n* Mark (馬可福音)\n* Luke (路加福音)\n* John (約翰福音)",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '彼得福音'], ['B', '保羅福音'], ['C', '約翰福音'], ['D', '基督福音']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教史上第一座精舍係",
+    "llm_output": "The correct answer is C. 鹿野苑 (Jetavana Monastery).\n\nJetavana Monastery, located in Shravasti, India, is considered the first Buddhist monastery and was established by Anathapindika, a wealthy merchant, during the lifetime of the Buddha.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '祇園精舍'], ['B', '竹林精舍'], ['C', '鹿野苑'], ['D', '山谷精舍']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "按產生時間嘅先後順序排列世界三大宗教，應該係①基督教②佛教③伊斯蘭教",
+    "llm_output": "The correct answer is A. ②①③.\n\nHere's the correct order:\n\n1. 佛教 (Buddhism) - founded by Siddhartha Gautama in ancient India around 563 BCE\n2. 基督教 (Christianity) - founded by Jesus Christ in ancient Palestine around 30 CE\n3. 伊斯蘭教 (Islam) - founded by Muhammad in Arabia around 610 CE\n\nSo, the correct order is: Buddhism, Christianity, Islam.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '②①③'], ['B', '②③①'], ['C', '③②①'], ['D', '①②③']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "邊部經係佛無問自說",
+    "llm_output": "The correct answer is A. 圓覺經.\n\nAccording to Buddhist tradition, the 圓覺經 (Yuánjué jīng) is considered to be a \"佛無問自說\" (buddha's spontaneous utterance), meaning that it was spoken by the Buddha without being prompted by a question from others.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '圓覺經'], ['B', '阿彌陀經'], ['C', '壇經'], ['D', '金剛經']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教最早傳入中國嘅經典係",
+    "llm_output": "The correct answer is D. 四十二章經 (The Sutra of Forty-two Chapters).\n\nThis sutra is considered to be one of the earliest Buddhist scriptures to be translated into Chinese, and it is believed to have been introduced to China during the Han dynasty (206 BCE - 220 CE).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '般若經'], ['B', '法句經'], ['C', '阿含經'], ['D', '四十二章經']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一個唔係希臘宗教敬拜活動",
+    "llm_output": "The correct answer is D. 牧神節同角鬥 (Shepherd's Festival and Bullfighting).\n\n奈美競技會 (Nemean Games) and 伊斯米競技會 (Isthmian Games) were both ancient Greek athletic festivals.\n\n雅典娜節 (Panathenaia) and 酒神節 (Dionysia) were both ancient Greek religious festivals.\n\n奧林匹亞競技會 (Olympic Games) and 畢提競技會 (Pythian Games) were both ancient Greek athletic festivals.\n\n牧神節 (Shepherd's Festival) is not a known ancient Greek festival, and 角鬥 (Bullfighting) is not a traditional ancient Greek religious activity.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '奈美競技會同伊斯米競技會'], ['B', '雅典娜節同酒神節'], ['C', '奧林匹亞競技會同畢提競技會'], ['D', '牧神節同角鬥']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教嘅本質就係",
+    "llm_output": "The correct answer is C. 唯靈主義 (Spiritualism).\n\nChristianity emphasizes the spiritual realm and the belief in a spiritual being, God, as the ultimate reality. It focuses on the spiritual nature of human beings and the importance of spiritual salvation through faith in Jesus Christ.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '物質主義'], ['B', '犬儒主義'], ['C', '唯靈主義'], ['D', '禁慾主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教四大天王中，西方廣目天王手持嘅兵器係",
+    "llm_output": "The correct answer is C. 雨傘 (umbrella).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '琵琶'], ['B', '寶劍'], ['C', '雨傘'], ['D', '繩索或龍蛇']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "公元前11—前10世紀，以色列部落喺以下幾位國王嘅統治下曾建立過統一嘅以色列王朝，以下邊個錯誤",
+    "llm_output": "The correct answer is:\n\nD. 約伯\n\nExplanation: According to the Hebrew Bible, King Saul (掃羅) was the first king of Israel, followed by King David (大衛) and then King Solomon (所羅門), who established a unified kingdom of Israel. Job (約伯) is a figure from the Hebrew Bible, but he was not a king of Israel.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '大衛'], ['B', '所羅門'], ['C', '掃羅'], ['D', '約伯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "早期教會大學嘅授課內容主要係（文法、修辭、邏輯、數學、幾何、音樂同天文），合稱",
+    "llm_output": "The correct answer is D. 「七藝」.\n\nIn the early Christian Church, the curriculum of the university was divided into two main categories: the Trivium (grammar, rhetoric, and logic) and the Quadrivium (arithmetic, geometry, music, and astronomy). Together, these seven liberal arts were known as the \"Seven Arts\" or \"Seven Liberal Arts\".",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '藝術'], ['B', '文藝'], ['C', '文學'], ['D', '「七藝」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教所講「色受想行識」係指",
+    "llm_output": "The correct answer is A. 五蘊 (Five Skandhas).\n\nIn Buddhism, \"色受想行識\" refers to the Five Skandhas, which are the five aggregates or components that make up an individual's existence. They are:\n\n1. 色 (Form or Matter)\n2. 受 (Sensation or Feeling)\n3. 想 (Perception or Concept)\n4. 行 (Mental Formation or Volition)\n5. 識 (Consciousness)\n\nThese Five Skandhas are the fundamental components of an individual's existence, and are seen as empty of inherent existence in Buddhist teachings.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '五蘊'], ['B', '五明'], ['C', '五常'], ['D', '五處']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "人係眾因緣和合而生，故名",
+    "llm_output": "The correct answer is C. 眾生.\n\nIn Buddhism, \"眾生\" (zhòng shēng) refers to the concept that all beings are born from the combination of various causes and conditions, and are therefore called \"眾生\" or \"beings born from many causes\".",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人生'], ['B', '旁生'], ['C', '眾生'], ['D', '化生']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下唔係西方教會最傑出嘅三位教父，修道主義嘅推動者係",
+    "llm_output": "The correct answer is D. 安布羅斯 (Ambrose).\n\nThe three most outstanding Church Fathers of the Western Church, who were also promoters of monasticism, are:\n\n1. 安東尼 (Anthony) - considered the father of Christian monasticism\n2. 奧古斯丁 (Augustine) - a key figure in the development of Western Christianity and monasticism\n3. 傑羅姆 (Jerome) - a prominent theologian and translator of the Bible, who also promoted monasticism\n\n安布羅斯 (Ambrose), on the other hand, was a bishop and theologian who played a significant role in the conversion of Augustine, but he is not typically considered one of the three most outstanding Church Fathers of the Western Church.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '安東尼'], ['B', '奧古斯丁'], ['C', '傑羅姆'], ['D', '安布羅斯']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "下面唔屬於天主教陣營嘅國家係",
+    "llm_output": "The correct answer is C. 德國 (Germany).\n\nWhile Germany has a significant Catholic population, it is not a country that is traditionally associated with the Catholic Church or has a strong Catholic identity like Italy, Spain, and France do. Germany has a more mixed religious landscape, with a significant Protestant population and a history of Protestantism.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '意大利'], ['B', '西班牙'], ['C', '德國'], ['D', '法國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教修行嘅基本內容係",
+    "llm_output": "The correct answer is A. 「戒、定、慧」三學.\n\nIn Buddhism, the threefold training or \"三學\" (trī śikṣā) is the basic content of Buddhist practice, which consists of:\n\n1. 戒 (śīla) - moral discipline or ethics\n2. 定 (samādhi) - concentration or meditation\n3. 慧 (prajñā) - wisdom or insight\n\nThese three aspects of training are considered essential for achieving enlightenment and liberation from suffering.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「戒、定、慧」三學'], ['B', '四聖諦'], ['C', '三法印'], ['D', '「身、語、意」三業']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "「諸行無常、諸法無我、涅槃寂靜」稱為",
+    "llm_output": "The correct answer is D. 三法印 (Three Marks of Existence).\n\n\"諸行無常、諸法無我、涅槃寂靜\" is a Buddhist phrase that describes the three characteristics of existence, which are:\n\n* 諸行無常 (anitya) - all phenomena are impermanent\n* 諸法無我 (anatman) - all phenomena have no self\n* 涅槃寂靜 (nirvana is peaceful) - nirvana is a state of peace and liberation\n\nThese three characteristics are known as the Three Marks of Existence or the Three Dharma Seals.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '三皈依'], ['B', '三乘道'], ['C', '三法界'], ['D', '三法印']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "下面猶太教派別中邊個教派信奉耶穌就係拯救佢哋嘅彌賽亞。",
+    "llm_output": "None of the above. \n\nThe correct answer is not among the options provided. The Jewish sect that believed Jesus was the Messiah who would save them is actually the Nazarenes (not to be confused with the Nazareth, the hometown of Jesus). The Nazarenes were a Jewish Christian sect that emerged in the 1st century CE and believed that Jesus was the Messiah.\n\nThe options provided are all Jewish sects, but none of them believed that Jesus was the Messiah:\n\nA. Pharisees: A Jewish sect that emphasized the importance of oral tradition and the study of the Torah.\n\nB. Essenes: A Jewish sect that lived in Qumran and were known for their asceticism and their belief in the importance of ritual purity.\n\nC. Galileans: Not a specific Jewish sect, but rather a geographic term referring to people from the region of Galilee.\n\nD. Sadducees: A Jewish sect that rejected the idea of an afterlife and believed that the written Torah was the only authoritative text.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '法利賽人'], ['B', '吉倫特派'], ['C', '加利利派'], ['D', '撒都該人']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "中世紀西歐嘅封建制嘅層層分封嘅（金字塔）形結構係由乜嘢組成嘅。",
+    "llm_output": "The correct answer is C. 領主-封臣-貧民.\n\nIn medieval Western Europe, the feudal system was characterized by a hierarchical structure, often depicted as a pyramid or a tiered system. At the top was the lord (領主), followed by vassals (封臣) who held land from the lord in exchange for loyalty and military service. At the bottom were the peasants or serfs (貧民) who worked the land and provided labor to the vassals.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '封臣-貧民'], ['B', '領主-貧民'], ['C', '領主-封臣-貧民'], ['D', '領主-封臣']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "世界三大主要建築體系唔包含邊個",
+    "llm_output": "The correct answer is C. 美洲建築 (American Architecture).\n\nThe three main architectural systems in the world are:\n\n1. European Architecture\n2. Islamic Architecture\n3. Chinese Architecture\n\nAmerican Architecture is not considered one of the three main architectural systems, as it is a relatively recent development and has been influenced by various styles from around the world.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '歐洲建築'], ['B', '伊斯蘭建築'], ['C', '美洲建築'], ['D', '中國建築']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "內心起瞋恚，要以（）對治？",
+    "llm_output": "The correct answer is D. 慈悲觀 (Loving-Kindness Meditation).\n\nIn Buddhism, when one experiences anger or hatred (瞋恚), the recommended antidote is to practice loving-kindness meditation (慈悲觀) to cultivate feelings of compassion, empathy, and kindness towards oneself and others.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '自喺觀'], ['B', '因緣觀'], ['C', '不淨觀'], ['D', '慈悲觀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "早期基督教嘅使徒同教父嘅神學思想大部分來源於",
+    "llm_output": "The correct answer is D. 斐洛 (Philo).\n\nPhilo of Alexandria (c. 20 BCE - 50 CE) was a Jewish philosopher who attempted to reconcile Greek philosophy with Jewish theology. His works had a significant influence on early Christian theology, particularly in the areas of allegorical interpretation of scripture and the concept of the Logos (Word).\n\nMany early Christian theologians, such as Origen and Clement of Alexandria, were influenced by Philo's ideas and incorporated them into their own theological systems.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '亞裏士多德'], ['B', '蘇格拉底'], ['C', '柏拉圖'], ['D', '斐洛']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "公元313年，君士坦丁喺米蘭同東羅馬帝國利西尼烏斯共同頒布咗一條敕令，宣佈「絕對嘅信仰自由，將基督教同羅馬帝國嘅其他宗教置於完全同等嘅法律保護之下」。呢個敕令係",
+    "llm_output": "The correct answer is:\n\nB. 「米蘭敕令」\n\nThe Edict of Milan, issued in 313 AD, was a decree by Emperor Constantine and Licinius, proclaiming absolute religious freedom and placing Christianity on an equal footing with other religions in the Roman Empire.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「尼西亞信經」'], ['B', '「米蘭敕令」'], ['C', '「本尼狄克教規」'], ['D', '「狄奧多西赦令」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊個地方嘅佛教屬於漢語系",
+    "llm_output": "The correct answer is:\n\nB. 日本\n\nJapanese Buddhism is heavily influenced by Chinese Buddhism and shares many similarities with Chinese Buddhist traditions, making it part of the Han Chinese Buddhist tradition.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '印度'], ['B', '日本'], ['C', '蒙古'], ['D', '泰國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛陀初轉法輪之地係",
+    "llm_output": "The correct answer is B. 鹿野苑 (Deer Park).",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '藍毗尼園'], ['B', '鹿野苑'], ['C', '祇園精舍'], ['D', '拘屍那羅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "稱為妙吉祥嘅菩薩係",
+    "llm_output": "The correct answer is C. 準提 (also known as Cundi Bodhisattva).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '觀音'], ['B', '普賢'], ['C', '準提'], ['D', '文殊']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "八苦中因身體唔協調所引起嘅係",
+    "llm_output": "The correct answer is B. 生老病死.\n\nIn Buddhism, the Eight Sufferings (八苦) are:\n\n1. 生苦 (birth)\n2. 老苦 (aging)\n3. 病苦 (illness)\n4. 死苦 (death)\n5. 求不得苦 (not getting what one wants)\n6. 怨憎会苦 (meeting with unpleasant people or situations)\n7. 爱别离苦 (separation from loved ones)\n8. 五阴炽盛苦 (being tormented by the five skandhas)\n\nThe suffering caused by physical discomfort or bodily harm is indeed \"生老病死\" (birth, aging, illness, and death), which is option B.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '求唔得'], ['B', '生老病死'], ['C', '怨憎會'], ['D', '愛別離']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "菩薩修行嘅位次初地係指",
+    "llm_output": "The correct answer is C. 歡喜地.\n\nIn Buddhism, the initial stage of a Bodhisattva's practice is called the \"初地\" (initial ground), which is also known as the \"歡喜地\" (Ground of Joy).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '離垢地'], ['B', '遠行地'], ['C', '歡喜地'], ['D', '發光地']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "羅馬教會對於神聖羅馬帝國嘅勝利嘅重要原因係",
+    "llm_output": "The correct answer is B. 教皇掌權 (Papal authority).\n\nThe Roman Catholic Church's victory over the Holy Roman Empire was largely due to the papal authority and the Church's ability to assert its power and influence over the empire. The Church's strong organizational structure, its control over education and culture, and its ability to excommunicate and impose interdicts on rulers who opposed it, all contributed to its ability to resist the empire's attempts to assert its authority over the Church.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '平民擁護'], ['B', '教皇掌權'], ['C', '法國國王哋對於教會嘅支持'], ['D', '國王信教']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "四大菩薩中，觀音菩薩代表",
+    "llm_output": "The correct answer is C. 大悲 (Great Compassion).\n\n觀音菩薩 (Guanyin Bodhisattva) is known for her great compassion and mercy, and is often depicted as a symbol of kindness and benevolence.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '大行'], ['B', '大願'], ['C', '大悲'], ['D', '大智']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "馬丁·路德宗教改革理論根基嘅核心係",
+    "llm_output": "The correct answer is A. 因信稱義 (Justification by Faith).\n\nMartin Luther's religious reform theory was based on the idea that salvation comes through faith alone, rather than through good works or other means. This is often referred to as \"justification by faith\" or \" sola fide\" in Latin.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '因信稱義'], ['B', '人人皆僧侶'], ['C', '十字架神學'], ['D', '善功稱義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺17世紀，首先實行宗教寬容嘅國家係",
+    "llm_output": "The correct answer is A. 荷蘭 (Netherlands).\n\nIn the 17th century, the Netherlands was the first country to practice religious tolerance. During the Dutch Golden Age, the Netherlands was a haven for religious refugees, including Jews, Huguenots, and other persecuted groups. The country's policy of religious tolerance was enshrined in the Union of Utrecht (1579) and the Dutch Republic's constitution, which guaranteed freedom of worship and conscience.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '荷蘭'], ['B', '西班牙'], ['C', '英國'], ['D', '法國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "手握利劍，騎獅子座上嘅菩薩係",
+    "llm_output": "The correct answer is B. 文殊菩薩 (Manjusri Bodhisattva).\n\nIn Buddhist art and iconography, Manjusri is often depicted holding a sword in his right hand and riding a lion, symbolizing his power to cut through ignorance and his fearlessness in the face of challenges.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '地藏菩薩'], ['B', '文殊菩薩'], ['C', '觀音菩薩'], ['D', '普賢菩薩']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺中國信徒最多嘅宗教係",
+    "llm_output": "The correct answer is A. 佛教 (Buddhism).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '佛教'], ['B', '基督教'], ['C', '伊斯蘭教'], ['D', '道教']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "從「末世論」到（）嘅發展係基督教最終擺脫猶太教而成為一種獨立嘅世界性宗教嘅重大標誌。",
+    "llm_output": "The correct answer is D. 「救贖說」.\n\nThe development from \"apocalypticism\" to \"salvationism\" marks a significant milestone in Christianity's eventual separation from Judaism and its emergence as an independent world religion.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '無神論'], ['B', '萬神論'], ['C', '福音說'], ['D', '「救贖說」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "藏地境內被稱作聖母之水嘅山峯係邊一座",
+    "llm_output": "The correct answer is B. 岡仁波齊 (Anavatapta or Lake Manasarovar). In Tibetan Buddhism, Anavatapta is considered a sacred lake and is often referred to as the \"Holy Mother\" or \"Saint Mother\".",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '貢嘎山'], ['B', '岡仁波齊'], ['C', '南迦巴瓦'], ['D', '珠穆朗瑪']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教嘅標誌係",
+    "llm_output": "The correct answer is:\n\nB. 十字架 (Cross)\n\nThe cross is a widely recognized symbol of Christianity, representing the crucifixion of Jesus Christ.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '萬字符'], ['B', '十字架'], ['C', '太板八卦'], ['D', '新月']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教最短嘅經係",
+    "llm_output": "The correct answer is D. 心經 (Heart Sutra).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '普門品'], ['B', '彌陀經'], ['C', '金剛經'], ['D', '心經']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "伊斯蘭教曆嘅元年係",
+    "llm_output": "The correct answer is A. 622年.\n\nThe Islamic calendar, also known as the Hijri calendar, starts from the year 622 CE, which is the year of the Hijra (migration) of the Prophet Muhammad from Mecca to Medina.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '622年'], ['B', '620年'], ['C', '632年'], ['D', '630年']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係教父哲學主要探討嘅問題",
+    "llm_output": "The correct answer is:\n\nA. 一神論 (Monotheism)\n\nThe Patristic philosophy, also known as Patristics, primarily deals with the development of Christian theology and philosophy during the early Christian period, particularly through the writings of the Church Fathers. The main areas of focus are:\n\n* B. 上帝論 (Theology): The nature of God, the Trinity, and the relationship between God and humanity.\n* C. 基督論 (Christology): The nature and person of Jesus Christ, including his divinity and humanity.\n* D. 人性論 (Anthropology): The nature of humanity, including the origin of sin, free will, and salvation.\n\n一神論 (Monotheism), or the belief in one God, is a fundamental aspect of Christianity, but it is not a primary area of focus in Patristic philosophy, which assumes the existence of one God and explores the implications of this belief.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '一神論'], ['B', '上帝論'], ['C', '基督論'], ['D', '人性論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "「維摩經」嘅理想世界係",
+    "llm_output": "The correct answer is A. 人間淨土 (Pure Land on Earth).\n\nThe Vimalakirti Sutra, also known as the \"維摩經\" in Chinese, describes a ideal world where all beings can attain enlightenment and live in harmony, and this ideal world is referred to as the \"Pure Land on Earth\" (人間淨土).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人間淨土'], ['B', '東方淨土'], ['C', '十方淨土'], ['D', '西方淨土']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "世俗貴族同教會貴族嘅領地唔受國王代理人嘅管轄，呢種權力係。",
+    "llm_output": "The correct answer is C. 豁免權 (Immunity).\n\nIn medieval Europe, secular and ecclesiastical lords (i.e., nobles and bishops) held territories that were not subject to the jurisdiction of the king's representatives. This meant that they had a degree of autonomy and were not under the direct control of the monarch. This privilege was known as \"immunity\" or \"exemption\" from royal authority.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '歸屬權'], ['B', '統轄權'], ['C', '豁免權'], ['D', '生命權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係基督教嘅三大信誓",
+    "llm_output": "The correct answer is A. 自由 (Freedom).\n\nThe three evangelical counsels of Christianity are:\n\n* Poverty (貧窮)\n* Chastity (貞潔)\n* Obedience (順從)\n\nFreedom is not one of the three evangelical counsels.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自由'], ['B', '貞潔'], ['C', '順從'], ['D', '貧窮']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "聲聞係聽聞到乜嘢而悟道？",
+    "llm_output": "The correct answer is C. 四聖諦 (Four Noble Truths).\n\nIn Buddhism, a Śrāvaka (聲聞) is a disciple who attains enlightenment by hearing the teachings of the Buddha, specifically the Four Noble Truths.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '八正道'], ['B', '十二因緣'], ['C', '四聖諦'], ['D', '三法印']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教提出不淨觀、佈施對治",
+    "llm_output": "The correct answer is A. 貪 (greed).\n\nIn Buddhism, the concept of \"不淨觀\" (impurity meditation) and \"佈施對治\" (generosity as an antidote) are used to counteract greed or attachment.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '貪'], ['B', '掉悔'], ['C', '睡'], ['D', '嗔']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教最早傳入中國嘅經典係",
+    "llm_output": "The correct answer is A. 四十二經 (The Forty-two Chapters Sutra).\n\nThis sutra is considered to be one of the earliest Buddhist scriptures to be translated into Chinese, and it is believed to have been introduced to China during the Han dynasty (206 BCE - 220 CE).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '四十二經'], ['B', '法句經'], ['C', '般若經'], ['D', '心經']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教嘅基本思想係",
+    "llm_output": "The correct answer is B. 靈與肉嘅合二為一 (The unity of spirit and flesh).\n\nIn Christianity, the basic idea is that humans are created in the image of God and are composed of both spiritual and physical aspects, which are intertwined and inseparable. This is reflected in the concept of the incarnation of Jesus Christ, who is both fully human and fully divine.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '神祕主義'], ['B', '靈與肉嘅合二為一'], ['C', '靈與肉嘅二元對立'], ['D', '禁慾主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "何謂三藏",
+    "llm_output": "The correct answer is D. 經、律、論.\n\n\"三藏\" (Sanskrit: Tripiṭaka) refers to the three baskets or collections of Buddhist scriptures:\n\n1. 經 (Sūtra) - the discourses and teachings of the Buddha\n2. 律 (Vinaya) - the rules and regulations for monastic life\n3. 論 (Abhidharma) - the philosophical and psychological analyses of the Buddha's teachings",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '佛、法、僧'], ['B', '戒、定、慧'], ['C', '斷、捨、離'], ['D', '經、律、論']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛祖釋迦牟尼嘅誕生日係農曆邊一日",
+    "llm_output": "The correct answer is D. 四月初八 (The 8th day of the 4th month in the lunar calendar).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '十二月初八'], ['B', '二月十五'], ['C', '二月初八'], ['D', '四月初八']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "希臘神話中嘅該亞係",
+    "llm_output": "The correct answer is D. 大地之母 (Gaia, the Mother Earth).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '天后'], ['B', '海神'], ['C', '天神'], ['D', '大地之母']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛誕日又叫浴佛節，其時間係",
+    "llm_output": "The correct answer is A. 四月初八 (April 8th).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '四月初八'], ['B', '三月十二'], ['C', '臘月初八'], ['D', '十二月十日']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "第幾次十字軍東徵進一步加深咗西方天主教徒同東方東正教徒之間嘅矛盾。",
+    "llm_output": "The correct answer is C. 三.\n\nThe Third Crusade (1187-1192) further deepened the conflict between Western Catholic Christians and Eastern Orthodox Christians.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '二'], ['B', '四'], ['C', '三'], ['D', '五']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "為紀念尺尊公主入藏而修建嘅寺廟係",
+    "llm_output": "The correct answer is C. 大昭寺 (Jokhang Temple).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '小昭寺'], ['B', '哲蚌寺'], ['C', '大昭寺'], ['D', '布達拉宮']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺家居士菩薩戒係受",
+    "llm_output": "The correct answer is A. 十重四十八輕戒.\n\nIn Buddhism, the \"家居士菩薩戒\" (Upāsaka Bodhisattva Precepts) is a set of precepts for lay Buddhists, and it consists of 10 heavy and 48 light precepts.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '十重四十八輕戒'], ['B', '五戒'], ['C', '六重二十八輕戒'], ['D', '十戒']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "第一位嚟到中國嘅大譯經家係",
+    "llm_output": "The correct answer is B. 真諦 (Paramartha).\n\nParamartha was an Indian Buddhist monk and translator who arrived in China during the Liu Song dynasty (420-479 CE) and is considered the first major translator of Buddhist scriptures into Chinese.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '不空'], ['B', '真諦'], ['C', '鳩摩羅什'], ['D', '玄奘']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教得以喺羅馬帝國時期中發展壯大並且最終取得全面勝利嘅重要原因係文化上嘅",
+    "llm_output": "The correct answer is A. 兼收並蓄，多元混合 (Syncretism, cultural assimilation).\n\nDuring the Roman Empire period, Christianity was able to develop and eventually triumph due to its ability to absorb and incorporate elements from other cultures and religions, making it more relatable and appealing to a diverse range of people. This syncretistic approach allowed Christianity to adapt to the cultural context of the Roman Empire and ultimately gain widespread acceptance.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '兼收並蓄，多元混合'], ['B', '教義深邃'], ['C', '獨樹一幟'], ['D', '政教合一']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "六度中嘅禪定係用嚟對治",
+    "llm_output": "The correct answer is C. 散亂 (distraction or agitation).\n\nIn Buddhism, the sixth of the six perfections (六度) is meditation or concentration (禪定), which is used to counteract distraction or agitation.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '貪婪'], ['B', '愚癡'], ['C', '散亂'], ['D', '瞋恨']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "英格蘭嘅宗教改革冇涉及到嘅係",
+    "llm_output": "The correct answer is B. 基督教教義 (Christian doctrine).\n\nThe English Reformation, also known as the Anglican Reformation, primarily focused on issues related to church governance, authority, and practice, rather than Christian doctrine. The reforms led to the establishment of the Church of England, with the monarch as its head, and changes to the church's administrative structure, organization, and power dynamics. However, the core Christian doctrines and beliefs were not significantly altered during this process.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '教會行政體系'], ['B', '基督教教義'], ['C', '教會組織'], ['D', '教會權力']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "確立基督教為羅馬帝國嘅國教，係喺邊位皇帝執政期間發生嘅。",
+    "llm_output": "The correct answer is A. 狄奧多西 (Theodosius).\n\nIn 380 CE, Theodosius I, also known as Theodosius the Great, issued the Edict of Thessalonica, which established Christianity as the official religion of the Roman Empire.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '狄奧多西'], ['B', '戴克裏先'], ['C', '君士坦丁'], ['D', '尼祿']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛陀弟子中，多聞第一嘅係",
+    "llm_output": "The correct answer is B. 阿難陀 (Ānanda).\n\nAccording to Buddhist scriptures, Ānanda was known for his exceptional memory and was said to have memorized the entire teachings of the Buddha, earning him the title of \"Foremost in Hearing\" (多聞第一).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '羅睺羅'], ['B', '阿難陀'], ['C', '富樓那'], ['D', '阿難']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "我國四大宗教中，創立時間最早嘅係",
+    "llm_output": "The correct answer is D. 道教 (Taoism).\n\nTaoism is believed to have originated in ancient China around 500 BCE, making it the oldest of the four major religions in China.\n\nHere's a rough timeline of the founding of each religion:\n\n* Taoism: 500 BCE\n* Buddhism: 563 BCE (founded in India, introduced to China around 1st century CE)\n* Christianity: 1st century CE\n* Islam: 7th century CE\n\nSo, Taoism is the oldest of the four major religions in China.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '佛教'], ['B', '基督教'], ['C', '伊斯蘭教'], ['D', '道教']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "公元l世紀中葉至公元7世紀，為佛教發展嘅",
+    "llm_output": "The correct answer is A. 部派佛教階段.\n\nDuring the 1st century to 7th century CE, Buddhism developed into various schools or sects, which is known as the \"部派佛教階段\" ( Nikaya Buddhism or Sectarian Buddhism stage). This period saw the emergence of different schools of thought within Buddhism, such as Theravada, Mahasamghika, and Sarvastivada, among others.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '部派佛教階段'], ['B', '原始佛教階段'], ['C', '密教階段'], ['D', '大乘佛教階段']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺公元500-800年之間，教會對蠻族進行教化嘅工作主要係",
+    "llm_output": "The correct answer is A. 灌輸基督教信仰.\n\nDuring the period of 500-800 CE, the Church's main effort in evangelizing the barbarian tribes was to instill Christian faith and convert them to Christianity.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '灌輸基督教信仰'], ['B', '恩典教區嘅教民'], ['C', '政教合一'], ['D', '興辦教育']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教以蓮花代表",
+    "llm_output": "The correct answer is B. 清淨 (purity).\n\nIn Buddhism, the lotus flower is a symbol of spiritual growth and enlightenment, and it represents the idea of rising above the muddy waters of materialism and achieving spiritual purity.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '慈悲'], ['B', '清淨'], ['C', '智慧'], ['D', '不貪著']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "希臘化時期嘅人們嘅宗教生活轉向咗",
+    "llm_output": "The correct answer is C. 神祕主義 (Mysticism).\n\nDuring the Hellenistic period, people's religious lives turned towards mysticism, which emphasized personal spiritual experiences and the pursuit of spiritual knowledge and union with the divine.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '唯靈主義'], ['B', '物質主義'], ['C', '神祕主義'], ['D', '縱欲主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛陀宣說咗斷善根嘅闡提也可成佛，係喺",
+    "llm_output": "The correct answer is A. 涅槃經 (Nirvana Sutra).\n\nAccording to Buddhist scriptures, the Buddha taught that even those who have committed the gravest of sins, known as \"icchantika\" or \"闡提\" in Chinese, can still attain enlightenment and become Buddhas. This teaching is found in the Nirvana Sutra, also known as the Mahayana Mahaparinirvana Sutra.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '涅槃經'], ['B', '般若經'], ['C', '地藏經'], ['D', '法華經']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "唐代傳入中國嘅基督教派",
+    "llm_output": "The correct answer is C. 景教 (Jǐng Jiào).\n\n景教 (Jingjiao) is the Chinese term for Nestorian Christianity, which was introduced to China during the Tang Dynasty (618-907 CE).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '蘇菲派'], ['B', '天主教'], ['C', '景教'], ['D', '什葉派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "最先將基督教嘅福音傳播到羅馬城嘅係耶穌嘅門徒",
+    "llm_output": "The correct answer is B. 彼得 (Peter).\n\nAccording to Christian tradition, Peter was one of Jesus' twelve apostles and is believed to have been the first to bring the Gospel to Rome.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '約翰'], ['B', '彼得'], ['C', '路加'], ['D', '保羅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "釋迦牟尼悟道地同初轉法輪地分別係",
+    "llm_output": "The correct answer is C. 菩提伽耶、鹿野苑.\n\n釋迦牟尼 (Siddhartha Gautama) attained enlightenment at 菩提伽耶 (Bodh Gaya), and he delivered his first sermon at 鹿野苑 (Deer Park) in Sarnath.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '鹿野苑、拘屍那迦城'], ['B', '菩提伽耶、藍毗尼花園'], ['C', '菩提伽耶、鹿野苑'], ['D', '藍毗尼花園、鹿野苑']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "下面將宗教寬容原則寫入去嘅條約係",
+    "llm_output": "The correct answer is A. 「奧格斯堡和約」(Treaty of Augsburg).\n\nThe Treaty of Augsburg, signed in 1555, was a significant treaty in European history that established the principle of \"cuius regio, eius religio\" (whose realm, his religion), which allowed rulers to determine the religion of their territories, and granted religious freedom to minority groups. This treaty is considered a milestone in the development of religious tolerance.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「奧格斯堡和約」'], ['B', '「威斯特伐利亞和約」'], ['C', '「權利法案」'], ['D', '「至尊法案」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教會根據「聖經」中關於農牧產品嘅十分之一「屬於上帝」嘅講法向信教嘅民眾收取",
+    "llm_output": "The correct answer is C. 什一稅 (Tithe).\n\nIn Christianity, a tithe is a one-tenth part of something, usually income or produce, contributed as a form of worship or obligation to God. The concept of tithing is based on biblical teachings, such as Leviticus 27:30-33 and Deuteronomy 14:22-27, which instruct the Israelites to give a tenth of their agricultural produce to God as an offering.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '供稅'], ['B', '附加稅'], ['C', '什一稅'], ['D', '農產品稅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊位佛唔屬於三世佛",
+    "llm_output": "The correct answer is B. 阿彌陀佛.\n\nThe Three Buddhas of the Three Ages (三世佛) refer to:\n\n* 燃燈佛 (Dipankara Buddha) - the Buddha of the past\n* 釋迦牟尼佛 (Sakyamuni Buddha) - the Buddha of the present\n* 彌勒佛 (Maitreya Buddha) - the Buddha of the future\n\n阿彌陀佛 (Amitabha Buddha) is not one of the Three Buddhas of the Three Ages.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '燃燈佛'], ['B', '阿彌陀佛'], ['C', '彌勒佛'], ['D', '釋迦牟尼佛']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "摩西同上帝嘅立約被稱作",
+    "llm_output": "The correct answer is D. 「摩西十戒」.\n\nThe covenant between Moses and God is referred to as the \"Ten Commandments\" or \"Decalogue\", which is a set of moral laws given by God to Moses on Mount Sinai.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '福音書'], ['B', '上帝嘅羔羊'], ['C', '彌賽亞'], ['D', '「摩西十戒」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "中國禪宗真正創始人係指",
+    "llm_output": "The correct answer is B. 菩提達摩 (Bodhidharma).\n\nAccording to traditional Chinese Buddhist history, Bodhidharma is considered the founder of Chan (Zen) Buddhism in China. He is said to have arrived in China in the 5th century and introduced the teachings of meditation and sudden enlightenment, which became the foundation of Chan Buddhism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '六祖慧能'], ['B', '菩提達摩'], ['C', '釋迦牟尼'], ['D', '五祖宏忍']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教產生於公元前",
+    "llm_output": "The correct answer is B. 1世紀.\n\nChristianity originated in the 1st century AD, specifically in the Roman province of Judea, with the birth, life, death, and resurrection of Jesus Christ.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '2世紀'], ['B', '1世紀'], ['C', '3世紀'], ['D', '4世紀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教嘅目中有「人」意味住佢嘅所有教法必須係從三個角度嚟實現嘅。咁樣先至真正稱為一種教法，呢三個角度唔包括",
+    "llm_output": "The correct answer is A. 契機.\n\nIn Buddhism, the \"人\" (person) in the eye of the Buddha represents the three aspects of the Dharma (teachings) that must be fulfilled in order to be considered a true teaching. These three aspects are:\n\n* 契理 (C. reason or principle): the teaching must be based on reason and principle.\n* 成就 (B. accomplishment or attainment): the teaching must lead to spiritual accomplishment or attainment.\n* 覺悟 (D. enlightenment or awakening): the teaching must lead to enlightenment or awakening.\n\n契機 (A. opportunity or condition) is not one of the three aspects.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '契機'], ['B', '成就'], ['C', '契理'], ['D', '覺悟']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "六度嘅正確次序係",
+    "llm_output": "The correct answer is B. 佈施，持戒，忍辱，精進，禪定，般若.\n\nThe six perfections (六度) in Buddhism are:\n\n1. 佈施 (Dāna) - generosity\n2. 持戒 (Śīla) - morality\n3. 忍辱 (Kṣānti) - patience\n4. 精進 (Vīrya) - effort\n5. 禪定 (Dhyāna) - meditation\n6. 般若 (Prajñā) - wisdom\n\nSo, the correct order is: 佈施，持戒，忍辱，精進，禪定，般若.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '持戒，佈施，忍辱，精進，禪定，般若'], ['B', '佈施，持戒，忍辱，精進，禪定，般若'], ['C', '精進，忍辱、禪定，佈施，持戒，般若'], ['D', '忍辱，持戒，佈施，精進，禪定，般若']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教最初傳到羅馬帝國時，只被乜嘢人接受。",
+    "llm_output": "The correct answer is C. 下層人民 (lower-class people).\n\nWhen Christianity first spread to the Roman Empire, it was mainly accepted by the lower-class people, including slaves, women, and the poor. The Roman Empire was a hierarchical society, and the upper classes, including the imperial family, nobles, and wealthy merchants, were generally resistant to the new religion. It wasn't until later, when Christianity became more established and gained more widespread acceptance, that it began to attract converts from the higher social classes.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '皇族'], ['B', '貴族'], ['C', '下層人民'], ['D', '公民']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教於乜嘢時候被羅馬帝國承認係合法宗教。",
+    "llm_output": "The correct answer is D. 公元313年.\n\nIn 313 CE, Emperor Constantine I issued the Edict of Milan, which granted Christianity legal status and toleration within the Roman Empire. This marked a significant turning point in the history of Christianity, as it was no longer persecuted and was officially recognized as a legitimate religion.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '公元42年'], ['B', '公元64年'], ['C', '公元250年'], ['D', '公元313年']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "修學佛教五乘共法，其中「乘」嘅本意係",
+    "llm_output": "The correct answer is B. 車子 (vehicle).\n\nIn Buddhism, the term \"yāna\" (Sanskrit) or \"sheng\" (Chinese) is often translated as \"vehicle\" or \"path\". It refers to a means or a way to attain enlightenment or spiritual liberation. In the context of the Five Vehicles (五乘), \"vehicle\" is a metaphor for a spiritual path or a method that helps practitioners to reach the goal of Buddhism.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '乘坐'], ['B', '車子'], ['C', '上乘'], ['D', '道路']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "世間一切有為法皆無獨立性、恆常性，必須靠「因」、「緣」同合先有「果」，呢係佛教嘅",
+    "llm_output": "The correct answer is D. 因緣論 (Pratityasamutpada, or Dependent Origination).\n\nThis concept is a central doctrine in Buddhism, which states that all phenomena arise dependent on other factors and conditions, and that there is no independent or permanent existence. It is often referred to as the \"law of causality\" or \"dependent co-arising\".",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '業報論'], ['B', '緣起論'], ['C', '無常論'], ['D', '因緣論']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛陀入涅槃前所度嘅最後一位弟子係",
+    "llm_output": "The correct answer is D. 須跋陀羅 (Subhadra).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '舍利佛'], ['B', '阿難陀'], ['C', '富樓那'], ['D', '須跋陀羅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊一個主張從（純粹嘅哲學思辨中）而唔係從癲狂嘅祭祀儀式中嚟實現靈魂對肉體嘅超越。",
+    "llm_output": "The correct answer is C. 畢達哥拉斯主義 (Pythagoreanism).\n\nPythagoreanism, a philosophical school founded by Pythagoras, emphasizes the idea of the soul's transcendence over the body through philosophical contemplation and reason, rather than through ritualistic practices.\n\nThe other options are not correct because:\n\nA. 奧爾弗斯教 (Orphism) is a mystical religion that emphasizes the importance of ritualistic practices and initiations to achieve spiritual liberation.\n\nB. 猶太教 (Judaism) is a monotheistic religion that emphasizes the importance of obeying God's commandments and following traditional practices, rather than achieving spiritual transcendence through philosophical contemplation.\n\nD. 基督教 (Christianity) is a monotheistic religion that emphasizes the importance of faith, prayer, and sacraments, rather than philosophical contemplation, to achieve spiritual salvation.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '奧爾弗斯教'], ['B', '猶太教'], ['C', '畢達哥拉斯主義'], ['D', '基督教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "最早創立活佛轉世制度嘅係()嘅黑帽系。",
+    "llm_output": "The correct answer is:\n\nB. 薩迦派 (Sakya School)\n\nThe Sakya School of Tibetan Buddhism is credited with establishing the system of recognizing and enthroning reincarnated lamas, known as \"tulkus\" or \"living Buddhas\".",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '噶舉派'], ['B', '薩迦派'], ['C', '寧瑪派'], ['D', '格魯派']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "邊個奠定咗基督教教義同教規嘅理論基礎，使基督教超過咗猶太教嘅社會解放理想而成為一種靈魂得救嘅福音。",
+    "llm_output": "The correct answer is C. 保羅 (Paul).\n\nPaul, also known as Saul of Tarsus, was a Christian apostle who played a crucial role in establishing the theological and theoretical foundations of Christianity. He is credited with developing the concept of salvation through faith in Jesus Christ, which differentiated Christianity from Judaism and its focus on social liberation. Paul's teachings, as recorded in his epistles (letters) in the New Testament, emphasized the importance of faith, grace, and the redemption of souls, shaping the core of Christian theology.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '路加'], ['B', '約翰'], ['C', '保羅'], ['D', '彼得']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教教旗，係根據佛陀成道時聖體所放出嘅色光製成嘅，有",
+    "llm_output": "The correct answer is C. 六色.\n\nThe Buddhist flag is based on the colors of the aura that is said to have emanated from the body of the Buddha at the moment of his enlightenment. The six colors of the flag are:\n\n1. Blue (representing the sky and space)\n2. Yellow (representing the earth and stability)\n3. Red (representing fire and energy)\n4. White (representing air and purity)\n5. Orange (representing wisdom and creativity)\n6. Purple (representing spiritual growth and transformation)\n\nThese six colors are often displayed in a vertical arrangement, with blue at the top and purple at the bottom.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '六七色'], ['B', '五色'], ['C', '六色'], ['D', '四色']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "希臘建築最輝煌嘅傑作係（帕臺農神廟、德爾菲神廟，狄奧尼索斯劇場）。喺希臘宗教同希臘文化中，構成咗最基本嘅特徵係。",
+    "llm_output": "The correct answer is A. 自然崇拜同感覺主義.\n\nThe Parthenon, a iconic temple in Athens, is a masterpiece of Greek architecture and a symbol of Greek religion and culture. Greek religion and culture are characterized by a deep connection with nature and a focus on human emotions and experiences, which is reflected in their art, literature, and philosophy. Therefore, the correct answer is A. 自然崇拜同感覺主義 (natural worship and emotionalism).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '自然崇拜同感覺主義'], ['B', '自然崇拜同神祕主義'], ['C', '敬神同感覺主義'], ['D', '敬神同神祕主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "苦、樂、不苦不樂係屬於()嘅範圍？",
+    "llm_output": "The correct answer is D. 受 (vedanā).\n\nIn Buddhism, 苦 (dukkha) means suffering or pain, 樂 (sukha) means happiness or pleasure, and 不苦不樂 (upekkhā) means neutral or equanimity. These three are classified under the category of vedanā, which refers to feelings or sensations.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '取'], ['B', '想'], ['C', '觸'], ['D', '受']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "修道運動嘅創始人係埃及嘅",
+    "llm_output": "The correct answer is A. 安東尼 (Anthony).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '安東尼'], ['B', '傑羅姆'], ['C', '本尼狄克'], ['D', '安布羅斯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛陀十大弟子中，智慧第一嘅係",
+    "llm_output": "The correct answer is A. 舍利弗 (Sariputra). According to Buddhist tradition, Sariputra was considered the wisest of the Buddha's ten great disciples.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '舍利弗'], ['B', '須菩提'], ['C', '目犍連'], ['D', '大迦葉']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "羅馬帝國對基督教徒嘅第一次大規模嘅迫害發生喺邊個當政時期。",
+    "llm_output": "The correct answer is D. 尼祿 (Nero).\n\nThe first large-scale persecution of Christians by the Roman Empire occurred during the reign of Emperor Nero (54-68 AD), specifically in 64 AD, after the Great Fire of Rome.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '哈德良'], ['B', '圖拉真'], ['C', '屋大維'], ['D', '尼祿']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "從理論上確認咗宗教事務嘅獨立性同羅馬教會對原羅馬帝國西部嘅統治權，成為後嚟教會同世俗王權鬥爭嘅重要理論根據嘅係",
+    "llm_output": "The correct answer is B. 「君士坦丁贈禮」.\n\nThe \"Donation of Constantine\" (君士坦丁贈禮) is a forged document that supposedly granted the Pope authority over the Western Roman Empire. It was used to justify the independence of the Church and its authority over secular rulers, leading to conflicts between the Church and secular powers.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「神聖一體敕諭」'], ['B', '「君士坦丁贈禮」'], ['C', '「沃爾姆斯宗教合約」'], ['D', '「教皇赦令」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "改慶友同賓頭盧為降龍、伏虎，欽定十八羅漢嘅皇帝係",
+    "llm_output": "The correct answer is C. 康熙 (Kangxi Emperor).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '元世祖忽必烈'], ['B', '雍正'], ['C', '康熙'], ['D', '乾隆']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "西方三聖係指",
+    "llm_output": "The correct answer is D. 阿彌陀佛，觀音菩薩，文殊菩薩.\n\nIn Buddhism, the \"Western Three Saints\" (西方三聖) refer to a group of three important bodhisattvas in the Pure Land school of Mahayana Buddhism. They are:\n\n1. Amitābha Buddha (阿彌陀佛)\n2. Guanyin Bodhisattva (觀音菩薩)\n3. Manjusri Bodhisattva (文殊菩薩)\n\nThese three saints are revered in the Pure Land tradition for their role in helping sentient beings achieve enlightenment and rebirth in the Western Paradise of Amitābha Buddha.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '阿彌陀佛，大勢至菩薩，地藏菩薩'], ['B', '阿彌陀佛，觀音菩薩，大勢至菩薩'], ['C', '阿彌陀佛，普賢菩薩，觀音菩薩'], ['D', '阿彌陀佛，觀音菩薩，文殊菩薩']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "「色受想行識」中嘅「想」係指：",
+    "llm_output": "The correct answer is A. 意念 (intention or conception).\n\nIn Buddhist philosophy, \"色受想行識\" (Sanskrit: rūpa-vedanā-saṃjñā-saṃskāra-vijñāna) refers to the five skandhas or aggregates that constitute an individual's existence. \"想\" (saṃjñā) specifically refers to perception, conception, or intention.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '意念'], ['B', '物質'], ['C', '感受'], ['D', '造作']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "係邊個通過將希臘哲學中嘅「邏各斯」概念同「理念論」引入舊約，令猶太教嘅上帝、先祖、先知具有咗形而上學嘅性質。",
+    "llm_output": "The correct answer is B. 斐洛 (Philo).\n\nPhilo of Alexandria, a Jewish philosopher, incorporated Greek philosophical concepts, such as the Logos (邏各斯) and Platonic idealism (理念論), into his interpretation of the Hebrew Bible, giving Jewish theology a more metaphysical and philosophical dimension.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '柏拉圖'], ['B', '斐洛'], ['C', '蘇格拉底'], ['D', '亞裏士多德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "佛教四大天王中，手持寶劍嘅係",
+    "llm_output": "The correct answer is B. 東方持國天王 (Eastward Dhṛtarāṣṭra).\n\nIn Buddhist mythology, the Four Heavenly Kings (四大天王) are:\n\n* Eastward Dhṛtarāṣṭra (持國天王) - holds a sword\n* Southward Virūḍhaka (增長天王) - holds a spear\n* Westward Virūpākṣa (廣目天王) - holds a serpent\n* Northward Vaiśravaṇa (多聞天王) - holds a umbrella or a mongoose\n\nSo, the correct answer is B. 東方持國天王 (Eastward Dhṛtarāṣṭra), who holds a sword.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '北方多聞天王'], ['B', '東方持國天王'], ['C', '西方廣目天王'], ['D', '南方增長天王']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "以下邊個唔係封臣對領主所盡嘅義務。",
+    "llm_output": "The correct answer is B. 奉獻所封嘅領土.\n\nThe concept of vassalage refers to the feudal obligations of a vassal (a subordinate lord) to their lord. The correct obligations of a vassal to their lord are:\n\n* A. 為領主提供軍事上嘅援助 (providing military aid to the lord)\n* C. 經濟上嘅捐助 (providing economic support to the lord)\n* D. 道義上嘅忠誠 (showing moral loyalty to the lord)\n\nHowever, a vassal does not surrender the land they have been granted (封臣) to their lord. Instead, they hold the land in exchange for their loyalty and service to the lord.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '為領主提供軍事上嘅援助'], ['B', '奉獻所封嘅領土'], ['C', '經濟上嘅捐助'], ['D', '道義上嘅忠誠']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "下列邊個唔係中國伊斯蘭教嘅三大教派之一",
+    "llm_output": "The correct answer is B. 伊赫瓦尼 (Ikhwan).\n\nThe three main branches of Islam in China are:\n\n* 黃教 (Gedimu): a traditionalist branch that follows the Hanafi school of thought\n* 格迪目 (Gedimu): another name for the traditionalist branch, also following the Hanafi school\n* 西道堂 (Xidaotang): a Sufi branch that emphasizes mysticism and spiritual practices\n\n伊赫瓦尼 (Ikhwan) is not a major branch of Islam in China. Ikhwan is actually the Arabic term for \"brotherhood\" and is used to refer to various Islamic organizations and movements, but it is not a specific branch of Islam in China.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '黃教'], ['B', '伊赫瓦尼'], ['C', '格迪目'], ['D', '西道堂']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "猶太教嘅中心係",
+    "llm_output": "The correct answer is C. 律法同祭祀 (Law and Ritual).\n\nIn Judaism, the center of the faith is the Torah (the first five books of the Hebrew Bible) and the observance of its laws and commandments, as well as the rituals and practices that are based on them.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '割禮制度'], ['B', '信仰上帝'], ['C', '律法同祭祀'], ['D', '信仰同道德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "()中所記載嘅猶太人嘅聖教歷史係一部充滿咗罪孽意識嘅苦難史，呢種沉重嘅罪孽意識同時極大地激起咗猶太民族嘅選民意識。",
+    "llm_output": "The correct answer is A. 「舊約」.\n\nThe description in the question refers to the Hebrew Bible, also known as the Old Testament, which records the history of the Jewish people and their struggles, including their experiences of suffering and persecution. This history is often seen as a narrative of sin and redemption, which has shaped the Jewish people's sense of identity and their understanding of their role as God's chosen people.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「舊約」'], ['B', '「猶太教」'], ['C', '福音書'], ['D', '「新約」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "中國佛教四大名山中，觀音菩薩嘅道場係",
+    "llm_output": "The correct answer is A. 浙江普陀山 (Putuo Mountain in Zhejiang).",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '浙江普陀山'], ['B', '安徽九華山'], ['C', '四川峨嵋山'], ['D', '山西五臺山']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "基督教同猶太教徹底分道揚鑣嘅最重要嘅思想原因係",
+    "llm_output": "The correct answer is C. 新約嘅出現 (The emergence of the New Testament).\n\nThe split between Christianity and Judaism is largely attributed to the emergence of the New Testament, which introduced the concept of Jesus Christ as the Messiah and the Son of God, contradicting Jewish beliefs. This led to a fundamental divergence in theology and doctrine between the two religions.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '道德信仰嘅差異'], ['B', '猶太教有強烈嘅復仇心理，基督教主張寬容'], ['C', '新約嘅出現'], ['D', '猶太教係樸素嘅律法主義，基督教係形而上學嘅唯靈主義']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "每年因去麥加朝聖，會出現慘烈嘅踩踏事故。但仲有好多虔誠嘅信徒，不惜一切代價前往。佢哋信奉嘅宗教係",
+    "llm_output": "The correct answer is:\n\nB. 伊斯蘭教\n\nExplanation: The question mentions the pilgrimage to Mecca, which is a sacred ritual in Islam, known as the Hajj. Every year, millions of Muslims from around the world travel to Mecca to perform the Hajj, and unfortunately, stampedes and accidents have occurred in the past.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '基督教'], ['B', '伊斯蘭教'], ['C', '道教'], ['D', '佛教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "割禮制度係以下邊個宗教嘅祖傳禮儀。",
+    "llm_output": "The correct answer is:\n\nC. 猶太教 (Judaism)\n\nCircumcision is a traditional ritual in Judaism, and is considered a commandment from God in the Torah. It is also practiced in Islam, but the question specifically asks about a \"祖傳禮儀\" (ancestral ritual), which is more closely associated with Judaism.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '萬神教'], ['B', '伊斯蘭教'], ['C', '猶太教'], ['D', '太陽神教']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_religions",
+    "key_answer_type": "alphabet_option",
+    "question": "喺羅馬宗教生活同文化生活乜嘢緊密聯繫喺埋一齊。",
+    "llm_output": "The correct answer is D. 政治生活.\n\nIn ancient Roman religion, there was a close connection between religious life and political life. The Roman state and its leaders played a significant role in religious rituals and ceremonies, and many religious festivals and events were tied to important political events and milestones. Additionally, the Roman emperor was often considered to be a divine figure, and the imperial cult was an important part of Roman religious life. Therefore, the correct answer is D. 政治生活.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '個人生活'], ['B', '日常生活'], ['C', '祭祀活動'], ['D', '政治生活']]",
+    "is_correct": 1
+  }
+]

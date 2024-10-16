@@ -1,0 +1,1612 @@
+[
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "據中新網2013年2月18日報道：「日本政府認爲，日本來自中東地區嘅石油40%會通過霍爾木茲海峽，一旦伊朗封鎖該海峽，將對日本嘅能源供應造成嚴重影響。日本政府正在計劃向霍爾木茲海峽派遣一支海上自衛隊艦隊。」該報道表明日本",
+    "llm_output": "正確答案是 B. 藉機謀求政治大國嘅地位。\n\n根據報道，日本政府計劃派遣海上自衛隊艦隊到霍爾木茲海峽，以保護日本的能源供應。這表明日本政府正在尋求擴大其在國際事務中的影響力和地位，藉機謀求政治大國的地位。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '與美國戰略同盟關係已破裂'], ['B', '藉機謀求政治大國嘅地位'], ['C', '開始與美國爭奪石油資源'], ['D', '已再次走上對外擴張嘅道路']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "公元前123年嘅羅馬「索賄罪法」規定，主持審理貪污受賄案件嘅裁判官應按照法定程序，從擁有一定財產嘅居民中挑選50名陪審員，組成陪審團參與審判。由此建立起來嘅陪審制",
+    "llm_output": "正確答案是 B. 體現了羅馬司法程序嘅進步。\n\nExplanation: The \"Lex Acilia Repetundarum\" (Acilian Law on Extortion) of 123 BCE in ancient Rome established the practice of selecting 50 jurors from citizens with a certain level of property to form a jury to participate in trials. This marked a significant progress in Roman judicial procedure, as it introduced a more formal and impartial system of justice.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '標誌着羅馬法律嘅日趨完備'], ['B', '體現了羅馬司法程序嘅進步'], ['C', '反映了羅馬政體嘅改變'], ['D', '照搬了希臘嘅司法制度']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "據統計，到1600年，全西歐嘅總價格水平比1500年高出200-300%，其中西班牙上漲幅度最高，平均達到4倍。法國、英國、德國、荷蘭則平均上漲兩倍到兩倍半。這一現象對歐洲社會嘅影響係",
+    "llm_output": "The correct answer is C. 封建經濟關係破壞.\n\nThe rapid inflation in Western Europe during the 16th century, particularly in Spain, led to the breakdown of the feudal economic system. The significant increase in prices and wages eroded the traditional feudal relationships between lords and vassals, and led to the emergence of a new economic order.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '社會階層固化嚴重'], ['B', '資本主義萌芽出現'], ['C', '封建經濟關係破壞'], ['D', '貴重金屬大量流入']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "孟德斯鳩曾講過：「意大利各民族成爲羅馬嘅公民以後，每一個城市便表現咗佢自己嘅特色……既然人們不過係由於一種特殊嘅法律上嘅規定才成爲羅馬公民嘅……因此人們就唔再用同先前相同嘅眼光看待羅馬……對羅馬嘅依戀之情就不復存在。」喺孟德斯鳩看來，更多意大利人成爲羅馬公民",
+    "llm_output": "正確答案是 C. 導致羅馬失去凝聚力。\n\n孟德斯鳩的言論指出，當意大利各民族成爲羅馬公民後，他們不再對羅馬抱有同樣的依戀之情，因為他們的公民身份是由法律規定所授予的，而不是出於情感或血緣的聯繫。這種情況導致羅馬失去凝聚力，人們不再對羅馬抱有同樣的熱情和忠誠。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '擴大了羅馬統治基礎'], ['B', '加劇了羅馬社會矛盾'], ['C', '導致羅馬失去凝聚力'], ['D', '有利於羅馬帝國統一']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1918年，列寧曾咁樣感慨十月革命：「歷史走嘅係奇怪嘅道路：一個落後嘅國家竟有幸走喺偉大嘅世界運動嘅前列。全世界資產階級都看到了這個運動，而且瞭解這個運動。呢場火範圍很大，德國、比利時、瑞士、荷蘭都着咗。」喺呢度，列寧意在強調十月革命",
+    "llm_output": "正確答案是 B. 極大地推動了國際社會主義運動嘅開展。\n\n列寧的言論強調十月革命的國際影響和推動了世界社會主義運動的發展，而不是俄國內部的政治經濟危機、社會主義現代化建設或無產階級專政的嘗試。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '致使俄國陷入深刻嘅政治經濟危機當中'], ['B', '極大地推動了國際社會主義運動嘅開展'], ['C', '開啓了俄國社會主義現代化建設新時代'], ['D', '係建立無產階級專政嘅第一次偉大嘗試']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "隨住商業同（羅馬）帝國嘅發展，生活日益複雜，原先嘅法律不能再滿足需要……」爲咗能夠適應新嘅社會發展要求，萬民法逐步取代咗公民法。因爲萬民法",
+    "llm_output": "The correct answer is A. 能較好地理順各種錯綜複雜嘅利益關係.\n\nThe question is describing the development of Roman law, specifically the shift from Jus Civile (Civil Law) to Jus Gentium (Law of Nations or Law of Peoples). The correct answer explains that Jus Gentium was able to better accommodate the complex and diverse interests of the growing Roman Empire.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '能較好地理順各種錯綜複雜嘅利益關係'], ['B', '體現了法律面前人人平等嘅自然法原則'], ['C', '內容側重於急需嘅國家事務和法律程序'], ['D', '能喺一定程度上限制貴族嘅專橫和特權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「戴維營協議」係阿、以關係發展史上嘅里程碑，成爲「以土地換和平」嘅成功範例。下列各項中，屬於「戴維營協議」重要文件嘅係",
+    "llm_output": "The correct answer is B. 「關於簽訂一項埃及與以色列之間和平條約嘅綱要」.\n\nThe Camp David Accords, signed in 1978, were a set of agreements between Israel and Egypt, facilitated by the United States, that led to a peace treaty between the two countries. The Accords included a framework for a peace treaty between Israel and Egypt, which is option B.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「關於喺被佔領土上巴勒斯坦臨時自治政府安排嘅原則宣言'], ['B', '「關於簽訂一項埃及與以色列之間和平條約嘅綱要」'], ['C', '埃敘共同防禦協定'], ['D', '巴以臨時和平協議']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「佛羅倫薩人文主義派甚至採取更驚人嘅步驟，他們反對對財富嘅譴責，並且創立這樣一種學說：喺上帝眼中，貧窮並不係顯示品德嘅惟一方法。」由此可見，人文主義者",
+    "llm_output": "正確答案是 B. 反對安於清貧嘅說教。\n\n人文主義者佛羅倫薩人文主義派反對對財富嘅譴責，並且創立了一種學說，認為貧窮並不係顯示品德嘅惟一方法，這意味著他們反對安於清貧嘅說教，即貧窮是惟一的道德標準。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '揶揄上帝'], ['B', '反對安於清貧嘅說教'], ['C', '鄙視貧窮'], ['D', '認爲財富即道德']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "工業革命前，英國礦井裏使用蒸汽唧筒抽水。1765年，修理過唧筒嘅瓦特發明瞭一種單動式蒸汽機，後喺工廠主嘅合作和資助下，終於改進製成「萬能蒸汽機」，並廣泛使用到工業領域。該過程表明，第一次工業革命期間生產領域嘅主要發明創造",
+    "llm_output": "正確答案：C. 源自於勞動實踐\n\n解釋：瓦特發明蒸汽機是因為他修理過唧筒的經驗，從實踐中獲得靈感和改進的想法。這表明，第一次工業革命期間生產領域的主要發明創造是源自於勞動實踐。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '取決於資金保障'], ['B', '依賴於科學理論嘅突破'], ['C', '源自於勞動實踐'], ['D', '得益於各階層廣泛參與']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1941年2月，以美國總統羅斯福代表身份來華嘅居里正式向蔣介石聲明：「美國喺國共糾紛未解決前，無法大量援華。中美間嘅經濟、財政等問題不可能有任何進展。」這表明當時美國",
+    "llm_output": "The correct answer is B. 以中國內部糾紛爲由拒絕對華援助.\n\nThis statement by Currie, representing President Roosevelt, indicates that the US is unwilling to provide large-scale aid to China until the KMT-CCP conflict is resolved, citing internal Chinese conflicts as a reason to withhold aid.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '反對國民黨採取嘅反共政策'], ['B', '以中國內部糾紛爲由拒絕對華援助'], ['C', '藉助援助促成國共兩黨全力抗日'], ['D', '敦促國共兩黨放棄各自嘅政治主張']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "一位政治家喺評價美國1787年憲法時，曾指出：「毫無疑問，我們嘅憲法之所以恆久，就喺於它簡潔。它係一塊奠基石，而不係一座完美嘅大廈。」其意喺肯定憲法",
+    "llm_output": "The correct answer is D. 所蘊含嘅原則與精神.\n\nThe quote suggests that the durability of the US Constitution lies in its simplicity, which implies that it is the underlying principles and spirit of the Constitution that are important, rather than its being a perfect or comprehensive document.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '實踐不受時代而調整'], ['B', '條文與體系嘅完備性'], ['C', '各項內容具有前瞻性'], ['D', '所蘊含嘅原則與精神']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "喺古代雅典城邦，陪審法庭幾乎可以審查當時政治生活中嘅所有問題，甚至包括公民大會和議事會通過嘅法令，並進行最終判決。這說明",
+    "llm_output": "The correct answer is A. 判決體現權力來源.\n\nIn ancient Athens, the Athenian democracy was characterized by the power of the people, and the jury system was a key institution that reflected this principle. The fact that the jury court had the authority to review and overturn decisions made by the Athenian Assembly and the Council of 500, including laws and decrees, demonstrates that the ultimate power rested with the people, as represented by the jury. This is an example of the concept of \"sovereignty of the people\" or \"power to the people\".",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '判決體現權力來源'], ['B', '法律服從民衆意願'], ['C', '法律面前人人平等'], ['D', '全體公民參與政治']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "第一個五年計劃期間，蘇聯政府喺各地組建了數千個拖拉機站。每個站配備一批拖拉機和聯合收割機，農業機械化水平大大提高，但喺接下來嘅幾年裏，農業並沒有明顯增產。造成這一後果嘅主要原因係",
+    "llm_output": "The correct answer is B. 農業正在進行集體化 (Agriculture was undergoing collectivization).\n\nDuring the first five-year plan, the Soviet government established thousands of tractor stations, which were equipped with tractors and combine harvesters, aiming to increase agricultural mechanization. However, despite this effort, agricultural production did not significantly increase in the following years. The main reason for this was that agriculture was undergoing collectivization, which meant that peasants were forced to work on state-owned farms, leading to a lack of incentives and motivation among farmers, as well as disruptions to traditional farming practices.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '農莊沒有土地所有權'], ['B', '農業正在進行集體化'], ['C', '農民缺乏生產積極性'], ['D', '農村缺少機械操作員']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "羅馬法規定，喺財產繼承方面，若遺囑被認爲不符合人倫道德，遺囑人嘅近親可以提起「遺囑逆倫之訴」，以請求撤銷遺囑。這一規定說明羅馬法",
+    "llm_output": "正確答案：C. 喺實施過程中兼顧了社會民情。\n\nThis question is asking about the Roman law provision that allows close relatives to challenge a will (遺囑) if it is deemed to be contrary to moral principles (不符合人倫道德). This provision shows that Roman law took into account social morality and public opinion in its implementation, which is option C.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '對市民嘅財產自由進行限制'], ['B', '要求喺繼承關係中近親優先'], ['C', '喺實施過程中兼顧了社會民情'], ['D', '放鬆了對公民財產嘅繼承保護']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思主義經典作家指出，「儘管有這些(關稅)保護措施，大工業仍使競爭普遍化了，大工業創造了交通工具……把所有嘅資本都變成爲工業資本，從而使流通加速、資本集中」；「它首次開創了世界歷史，因爲它使每個文明國家以及這些國家中嘅每一個人嘅需要嘅滿足都依賴於整個世界」。對此最恰當嘅理解係",
+    "llm_output": "The correct answer is C. 工業革命促進了世界市場嘅形成.\n\nThe quote is describing how the Industrial Revolution led to the creation of a global market, where the needs of every civilized nation and individual are dependent on the entire world. This is a key concept in Marxist theory, which emphasizes the role of industrial capitalism in creating a globalized economy.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '自由競爭增強了工業資本嘅流通'], ['B', '交通工具擴大了工業文明嘅影響'], ['C', '工業革命促進了世界市場嘅形成'], ['D', '關稅保護阻礙不了資本主義競爭']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "19世紀60年代，總長度3萬英里嘅美國鐵路有多種軌距。南部採用鐵路軌距以5英尺居多，北部採用最普遍嘅軌距四4.9英尺，部分地區採用6英尺、5、6英尺嘅軌距。這反映當時美國",
+    "llm_output": "The correct answer is B. 尚未形成成熟嘅同一國內市場.\n\nThe existence of different gauge standards in different regions of the United States in the 1860s reflects the lack of a unified national market and the fragmented nature of the country's transportation infrastructure at the time. The different gauge standards were often adopted by different railroad companies or regions, which made it difficult to connect lines and facilitate transportation across the country. This lack of standardization hindered the development of a unified national market and reflected the country's regional divisions and lack of centralized planning.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '戰爭破壞了基礎交通設施建設'], ['B', '尚未形成成熟嘅同一國內市場'], ['C', '鐵路部門係經濟增長嘅主導部門'], ['D', '科技水平限制了製造業嘅發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "被販賣至美洲嘅非洲奴隸逐漸適應了一個混合着歐洲、美洲和非洲各種因素嘅社會，他們將西非樂器、音樂、語言、宗教信仰和種植園生活融合喺一起，喺奴隸數量較多嘅地區最爲常見嘅就係幾種非洲語言和歐洲語言相混合嘅克里奧語。這主要係強調黑奴貿易",
+    "llm_output": "正確答案：A. 推動了不同文明嘅交流融合",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '推動了不同文明嘅交流融合'], ['B', '隔斷了黑人奴隸嘅文化傳統'], ['C', '促進了歐美資本主義嘅發展'], ['D', '客觀促進非洲文化嘅近代化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "據記載，爲使探險更有成效，西班牙國王曾答應哥倫布享有新大陸1/10嘅收入，允許麥哲倫船隊擁有所發現嘅島嶼和大陸收入嘅1/20，後又增至1/15。這一記載說明",
+    "llm_output": "正確答案是 C. 新航路開闢得益於王權支持。\n\n這個記載說明西班牙國王對探險家的支持和獎勵，表明王權對新航路開闢的支持和鼓勵。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '航海人才受到西班牙嘅重視'], ['B', '良好競爭機制促使探險成功'], ['C', '新航路開闢得益於王權支持'], ['D', '西班牙最早開展了航海探險']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「1831年法拉第發現電磁感應定律，1864年麥克斯韋建立電磁理論，1888年赫茲發現電磁波。這些發現，引發了發電機、電動機、電報、無線電嘅發明。」材料說明",
+    "llm_output": "The correct answer is C. 科學理論嘅突破推動電氣技術嘅發展.\n\nThe question describes how the discoveries of Faraday, Maxwell, and Hertz led to the invention of generators, motors, telegraphs, and wireless telegraphy, which is a clear example of how scientific breakthroughs (突破) drove the development of electrical technology (電氣技術).",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '電氣技術嘅革命改變了社會面貌'], ['B', '電力取代蒸汽動力已成爲歷史嘅必然'], ['C', '科學理論嘅突破推動電氣技術嘅發展'], ['D', '電氣技術發展係社會需要嘅結果']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "16世紀，英國自上而下地進行宗教改革，國王成爲英國國教教會唯一嘅首腦。17世紀六七十年代，英國國王查理二世宣佈實行宗教自由，強調英國國教教會嘅至尊地位。此舉旨喺",
+    "llm_output": "The correct answer is A. 強化專制統治.\n\nIn the 17th century, King Charles II of England issued the Declaration of Indulgence, which granted religious freedom to Catholics and non-Anglican Protestants. However, this move was not intended to promote religious freedom or tolerance, but rather to strengthen the monarch's power and authority. By granting religious freedom, Charles II aimed to consolidate his own power and reduce the influence of Parliament, which was dominated by Anglicans. Therefore, the correct answer is A. 強化專制統治.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '強化專制統治'], ['B', '落實「權利法案」'], ['C', '鞏固君主立憲'], ['D', '促進信仰自由']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1875年，法國共和派要求喺憲法中明確寫上「共和國」字樣嘅議案被保皇派否決後，提出了一項憲法修正案：「共和國總統，由參議院與衆議院聯合而成嘅國民議會，依絕對多數票選出。」該議案以一票多數獲得通過。由此可見：a 保皇派復闢嘅道路就此喺法律上被阻斷；b 共和政體喺法律上得以確立起來；c 共和政體係保皇派與共和派妥協嘅產物；d 總統和參議院權力很大",
+    "llm_output": "The correct answer is B. bcd.\n\nHere's why:\n\n* b: The passage states that the constitutional amendment was passed, which means that the republican form of government was established in law.\n* c: The amendment was a compromise between the royalists and the republicans, as it was a response to the royalists' rejection of the original proposal to explicitly include the term \"Republic\" in the constitution.\n* d: The amendment established that the President would be elected by a joint session of the Senate and the Chamber of Deputies, which implies that the President and the Senate would have significant powers.\n\nOption a is incorrect because the passage does not suggest that the royalists' road to power was blocked by law, but rather that they were forced to compromise with the republicans.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'ad'], ['B', 'bcd'], ['C', 'bc'], ['D', 'acd']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1987年，英、法、意等12國簽署咗單一歐洲文件，一致同意制定共同嘅生產標準，消除資本流動嘅障礙，尋求統一嘅稅率，相互承認別國頒發嘅專業同商業執照，學科&網遵守共同嘅勞動權利憲章。各國將共同創建一個「冇國界嘅歐洲」。該文件嘅簽署",
+    "llm_output": "正確答案是 B. 為歐盟成立奠定基礎。\n\nThe Single European Act (SEA) was signed in 1987 by 12 European countries, including the UK, France, and Italy, with the goal of creating a single market by 1992. The SEA aimed to remove barriers to the free movement of goods, services, capital, and people, and to establish a common set of standards and regulations across the European Community. This laid the foundation for the eventual creation of the European Union (EU) and the single market.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '表明咗歐洲政治一體化嘅實現'], ['B', '為歐盟成立奠定基礎'], ['C', '歐元發行掃清障礙'], ['D', '啟動咗歐洲經濟嘅多領域合作']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "美國政治家基辛格喺1973年指出：「（世界）喺經濟方面，至少已出現五個主要集團。從政治上睇，更多嘅勢力中心已經出現……」材料表明，基辛格認為",
+    "llm_output": "The correct answer is C. 世界出現多極化趨勢 (The world is showing a trend of multipolarization).\n\nKissinger's statement suggests that there are at least five major economic groups and multiple political power centers, implying that the world is no longer dominated by a single power or a bipolar system, but rather is becoming more multipolar.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '兩極格局即政治、經濟兩極'], ['B', '基辛格反對美蘇兩強霸權'], ['C', '世界出現多極化趨勢'], ['D', '美蘇國際政治、經濟競爭局勢激烈']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "共和黨人艾森豪威爾成為美國總統後話：「如果任何政黨試圖要廢除社會保障、勞工法同農場項目，嗰你就唔會喺美國歷史上再聽講呢個政黨。」呢反映出艾森豪威爾嘅主張",
+    "llm_output": "正確答案：B. 受到羅斯福新政嘅影響",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '與民主黨政策逐漸趨於一致'], ['B', '受到羅斯福新政嘅影響'], ['C', '強調國家對經濟嘅幹預'], ['D', '延續咗共和黨傳統經濟政策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀70年代中後期，法國國內生產總值年平均增長率由2.6%下降到1.3%，物價上漲咗1倍。1981年，密特朗就任總統後，推行包括國有化喺內嘅一系列措施，其結果",
+    "llm_output": "The correct answer is C. 加劇咗經濟惡化.\n\nIn the late 1970s, France's economy was experiencing a slowdown, with an average annual GDP growth rate declining from 2.6% to 1.3%, and prices doubling. When François Mitterrand became President in 1981, he introduced a series of measures, including nationalization, which ultimately exacerbated the economic downturn.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '推動咗通貨緊縮'], ['B', '實現咗物價下降'], ['C', '加劇咗經濟惡化'], ['D', '放棄咗經濟自由']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "有經濟史學家估算，16～18世紀，荷蘭與英國人均GDP年增長率均高於同時代嘅其他國家。這一時期荷、英經濟嘅高增長均得益於：a 資本市場嘅發展；b 世界工廠地位嘅確立；c 資本主義世界體系嘅建立；d 海外殖民掠奪",
+    "llm_output": "The correct answer is B. cd.\n\nDuring the 16th to 18th centuries, the Netherlands and Britain experienced high economic growth rates, which can be attributed to:\n\n* c) The establishment of a capitalist world system: This period saw the emergence of capitalism as a dominant economic system, which facilitated trade, investment, and economic growth.\n* d) Overseas colonial plunder: Both the Netherlands and Britain engaged in colonial expansion and plunder, which provided them with access to new resources, markets, and labor, contributing to their economic growth.\n\nThe other options are not correct:\n\n* a) The development of capital markets: While capital markets did play a role in the economic growth of the Netherlands and Britain, it was not the primary factor.\n* b) The establishment of a world factory position: This option is not relevant to the economic growth of the Netherlands and Britain during this period.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'bc'], ['B', 'cd'], ['C', 'ad'], ['D', 'ab']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "歷史學家哈需德夫婦話：「工業革命帶嚟咗物質力量嘅極大發展，都帶嚟咗物質力量相伴嘅無窮基於。然而，呢次變革並無能建立起一個更幸福、更合理、豐富有自尊心嘅社會；相反，工業革命使千萬羣眾身價倍落，而迅速發展咗一種一切都為利潤犧牲嘅城市生活方式。」作者喺度主要表述嘅係",
+    "llm_output": "The correct answer is C. 社會文明進步應體現社會整體均衡發展.\n\nThe authors are criticizing the Industrial Revolution for bringing about great material progress, but failing to create a more equitable, rational, and dignified society. They argue that the Revolution has led to the exploitation of the masses and the development of a city life that prioritizes profit above all else. The main point being made is that social progress should be accompanied by overall social balance and equality, rather than just material wealth.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '工業革命嘅全部目標喺於發展現代經濟'], ['B', '工業革命使西方國家迅速完成咗城市化'], ['C', '社會文明進步應體現社會整體均衡發展'], ['D', '工業資產階級實力壯大但無政治權利']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "喺英國，狹窄嘅鐵路跨過似綠色海洋一樣嘅鄉間，將沿途被裝進火車入面嘅英國人民，拋進城門口越嚟越稠密嘅人羣之中。呢一現象反映咗工業革命",
+    "llm_output": "The correct answer is B. 推動城市化進程.\n\nThe description in the question is referring to the phenomenon of urbanization, where people from rural areas are moving to cities, resulting in a denser population in urban areas. This is a direct consequence of the Industrial Revolution, which led to the growth of industries and factories in cities, creating new job opportunities and attracting people from rural areas.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '促進農業快速發展'], ['B', '推動城市化進程'], ['C', '縮窄城鄉差距'], ['D', '加速農村城鎮化進程']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "恩格斯喺評價某一文學藝術流派時話：「除細節嘅真實外，仲要真實地再現典型環境中嘅典型人物。」屬於呢一流派嘅作品係",
+    "llm_output": "恩格斯的評價是指「現實主義」流派。根據恩格斯的評價，正確答案是 D. 「人間喜劇」，因為「人間喜劇」是法國作家巴爾扎克的代表作，屬於現實主義流派。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '「西風頌」'], ['B', '「哈姆雷特」'], ['C', '「等待戈多」'], ['D', '「人間喜劇」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1875年以後，法國確立咗共和政體，議會處於政治運作嘅中心，黨派林立，內閣更迭頻繁。1958年，戴高樂就任總統，修改憲法，規定總統擁有任命總理、解散議會等權利。呢一政治體制嘅變化",
+    "llm_output": "正確答案：B. 剝奪咗議會嘅主要權力",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '有助於兩黨制嘅形成'], ['B', '剝奪咗議會嘅主要權力'], ['C', '確定咗總統國家元首嘅地位'], ['D', '有利於政局穩定']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "西班牙喺美洲嘅主要黃金來源地係新格拉納達。到1600年，從呢度出口咗400多萬盎司嘅黃金。新格拉納達嘅黃金產量逐步上升，到18世紀，其產量約為16世紀產量嘅三倍。呢啲黃金嘅流入直接導致西班牙",
+    "llm_output": "正確答案係 A. 物價上漲，衝擊封建生產關係。\n\n西班牙從新格拉納達出口大量黃金，導致黃金流入西班牙，引發通貨膨脹，物價上漲，衝擊封建生產關係。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '物價上漲，衝擊封建生產關係'], ['B', '資本積累，引發本國工業革命'], ['C', '貿易發達，成為世界市場中心'], ['D', '國力增強，確立世界霸主地位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧喺某次演講時話:「呢個革命嘅意義首先喺於我哋將擁有一個蘇維埃政府，……被壓迫嘅羣眾將親自建立政權，舊嘅國家機構將被徹底打碎，而新嘅管理機構即蘇維埃組織將建立起嚟。度所講嘅「革命」係指",
+    "llm_output": "The correct answer is B. 彼得格勒武裝起 (The October Revolution).\n\nThe quote mentioned in the question is from Lenin's speech during the October Revolution, where he emphasized the significance of establishing a Soviet government, empowering the oppressed masses to build their own political power, and dismantling the old state apparatus to establish a new management system based on the Soviet organization.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '執行戰時共產主義政策'], ['B', '彼得格勒武裝起'], ['C', '二月革命推翻沙皇專'], ['D', '公開發表「四月提綱」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1933年，羅斯福總統簽署田納西河流域管理局法案，實施對該流域嘅綜合治理與全面發展計劃。其「代表現代政府中一種真正新穎而富於想象力嘅設計。……它將唔受嗰啲唔相關嘅國家界限嘅禁制，仲將係獨立經營嘅、政府所有嘅公司」。呢種經營方式",
+    "llm_output": "正確答案：C. 抑制壟斷資本主義嘅發展",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '具有私營企業嘅某啲靈活性'], ['B', '改變咗田納西河流域國有制'], ['C', '抑制壟斷資本主義嘅發展'], ['D', '表明國家放棄對企業幹預']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "古代雅典法律規定：如果公民試圖自殺，必須事先提出申請，以獲得批准；未經允許嘅自殺被視為犯罪行為。呢反映出喺古代雅典",
+    "llm_output": "The correct answer is D. 公民個人自由受到嚴格限制 (Citizens' personal freedom was strictly limited).\n\nThis law reflects that in ancient Athens, the state had significant control over individuals' lives, including their right to take their own life. The requirement to obtain approval before attempting suicide indicates that the state had a strong interest in regulating personal behavior and limiting individual autonomy.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '法律體系已達到完備嘅程度'], ['B', '自殺有違崇尚自然法則嘅理性精神'], ['C', '法律具有尊重生命價值嘅人文精神'], ['D', '公民個人自由受到嚴格限制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "翻開美國歷史，共有九位總統喺眾議院遭到提案彈劾。其中1974年7月，眾議院司法委員會投票通過咗彈劾總統尼克遜嘅三條罪狀，即阻礙司法工作、濫用總統職權同埋蔑視國會傳調錄音帶嘅命令。呢表明",
+    "llm_output": "The correct answer is D. 分權制衡有利於權力監督.\n\nThis event in 1974, where the House Judiciary Committee voted to impeach President Nixon on three counts, demonstrates the system of checks and balances in the US government, where the legislative branch (Congress) has the power to hold the executive branch (the President) accountable for its actions. This is an example of how the separation of powers can lead to greater accountability and oversight of those in power.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '總統成為政治鬥爭嘅犧牲品'], ['B', '國會嘅權力高於總統嘅權力'], ['C', '眾議院具有普遍嘅民主性'], ['D', '分權制衡有利於權力監督']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "二戰後期，美國積極推動聯合國同埋佈雷頓森林體系嘅建立；1949年組建北大西洋公約組織；1951年簽訂「日美安全保障條約」。呢反映咗美國企圖",
+    "llm_output": "正確答案係 A. 建立美國主導嘅國際秩序。\n\n美國在二戰後期積極推動聯合國和布雷頓森林體系的建立，旨在建立一個以美國為領導的國際秩序，以維護全球穩定和安全。同時，美國也通過北大西洋公約組織和「日美安全保障條約」等機制，鞏固其在西歐和日本的影響力，進一步鞏固其全球領導地位。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '建立美國主導嘅國際秩序'], ['B', '將本國利益凌駕於佢國利益之上'], ['C', '以合法嘅武力干涉別國內政'], ['D', '全面控制西歐與日本']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "保羅·約翰遜喺「現代：從1919到2000年嘅世界」中寫道：「（20世紀）80年代，人類颳起咗一場巨大嘅求變之風……80年代成為當代史嘅分界線。民主精神恢復咗自信，開始廣泛傳播。」呢場「求變之風」對世界產生嘅深遠影響係",
+    "llm_output": "The correct answer is D. 導致社會主義陣營瓦解.\n\nThe \"求變之風\" (wind of change) referred to by Paul Johnson in the 1980s is often associated with the collapse of communism and the end of the Cold War. During this period, there was a wave of democratization and liberalization in Eastern Europe and the Soviet Union, which ultimately led to the dissolution of the Soviet Union and the end of the socialist bloc.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '加快咗西方政治民主化進程'], ['B', '壯大咗國際社會主義力量'], ['C', '改變咗世界政治格局'], ['D', '導致社會主義陣營瓦解']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "雅典嘅陶片放逐法規定，每年召開特別嘅公民大會，投票決定將嗰些嚴重威脅民主政治嘅人流放海外。據此，下列行為中可能使公民遭到流放嘅係",
+    "llm_output": "The correct answer is A. 為贏得個人政治聲望資助貧窮公民.\n\nIn ancient Athens, the practice of ostracism (陶片放逐法) allowed citizens to vote to exile individuals who were deemed to be a threat to democracy. One of the reasons for ostracism was if someone was seen as trying to gain too much power or influence, which could be perceived as a threat to the democratic system.\n\nOption A, \"為贏得個人政治聲望資助貧窮公民\" (using personal wealth to gain political influence by supporting poor citizens), suggests that someone is trying to buy influence and power, which could be seen as a threat to democracy and therefore lead to ostracism.\n\nThe other options do not necessarily imply a threat to democracy:\n\n* Option B, \"唔按時參加公民大會\" (not attending the citizen assembly on time), is a minor offense and not a significant threat to democracy.\n* Option C, \"唔同意授予外邦人公民權\" (not agreeing to grant citizenship to foreigners), is a matter of personal opinion and not necessarily a threat to democracy.\n* Option D, \"拒絕參加城邦舉行嘅戲劇表演\" (refusing to participate in the city-state's theatrical performances), is not related to democracy or politics and is unlikely to lead to ostracism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '為贏得個人政治聲望資助貧窮公民'], ['B', '唔按時參加公民大會'], ['C', '唔同意授予外邦人公民權'], ['D', '拒絕參加城邦舉行嘅戲劇表演']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "宗教改革時出現嘅新教，英文為Protestantism，直譯「抗議宗」。度嘅「抗議」係指",
+    "llm_output": "The correct answer is:\n\nD. 抗議天主教會嘅權威\n\nThe term \"Protestantism\" comes from the Latin \"protestari\", meaning \"to testify publicly\" or \"to protest\", and refers to the protesters or dissenters who opposed the authority of the Roman Catholic Church during the Reformation.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '抗議貴族嘅權威'], ['B', '抗議國王嘅權威'], ['C', '抗議「聖經」嘅權威'], ['D', '抗議天主教會嘅權威']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "英國人史蒂芬孫曾親自駕駛新設計嘅「旅行」號機車，牽引住6節煤車同埋20節客車廂，奔馳喺英格蘭斯托克敦至達林敦之間嘅商用鐵路上，宣告咗「鐵路時代」嘅到來。呢一事件發生喺",
+    "llm_output": "The correct answer is A. 第一次工業革命時期.\n\nThe event described is the inaugural run of the \"Locomotion No. 1\" steam locomotive, designed and built by George Stephenson, which took place on September 27, 1825, on the Stockton and Darlington Railway in northeast England. This marked the beginning of the railway era and is considered a key event of the First Industrial Revolution.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '第一次工業革命時期'], ['B', '新航路開闢時期'], ['C', '手工工場時期'], ['D', '第二次工業革命時期']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧喺晚年時指出：「毫無出路嘅處境十倍地增強咗工農嘅力量，使我哋能夠用以與西歐其他一切國家唔同嘅方法嚟創造發展文明嘅條件。」度「與西歐其他一切國家唔同嘅方法」指嘅係",
+    "llm_output": "The correct answer is B. 俄國爆發十月革命，行社會主義發展道路.\n\nLenin's quote suggests that the Soviet Union would develop in a way that is different from Western European countries, and that difference lies in the socialist path taken by the Soviet Union after the October Revolution.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '蘇聯建立高度集中政治模式'], ['B', '俄國爆發十月革命，行社會主義發展道路'], ['C', '俄國進行「二月革命」，行資本主義發展道路'], ['D', '蘇聯採用聯邦制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「儘管羅馬法律喺婦女繼承財產上做咗嚴格限制，但有啲聰明人往往能夠搵到法律嘅漏洞……隨著羅馬喺地中海地區嘅擴張，婦女們都開始佔有大宗財產。……好多婦女管理住家庭嘅財政事務同埋大地產。」呢段話表明",
+    "llm_output": "正確答案係 C. 婦女嘅財產佔有體現公民法嘅靈活性。\n\n這段話表明，儘管羅馬法律對婦女繼承財產有嚴格限制，但聰明的婦女能夠找到法律的漏洞，繼而佔有大宗財產。這表明羅馬法的靈活性和婦女的財產佔有能力。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '羅馬法關於財產關係嘅規範唔夠嚴密'], ['B', '婦女嘅財產繼承權富有自然法嘅精神'], ['C', '婦女嘅財產佔有體現公民法嘅靈活性'], ['D', '婦女喺家庭中嘅地位逐漸與男子平等']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "有學者認為：「伴隨住冷戰嘅結束，最直接、最明顯嘅損失係兩個前超級大國建立嘅聯盟體系嘅消失。……全球失去咗對混亂同暴力嘅威懾，相應嘅，世界嘅未來少咗一種確定性。」對材料觀點概括最準確嘅係",
+    "llm_output": "The correct answer is C. 結束美蘇「冷戰」唔利於國際社會嘅穩定.\n\nThe passage suggests that the end of the Cold War led to the disappearance of the alliance systems established by the two superpowers, resulting in a loss of deterrence against chaos and violence, and a decrease in the certainty of the world's future. This implies that the end of the Cold War was not beneficial to international stability.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '動盪嘅國際局勢需要建立單極霸權'], ['B', '「冷戰」結束後新嘅國際力量對比尚未定型'], ['C', '結束美蘇「冷戰」唔利於國際社會嘅穩定'], ['D', '美蘇聯盟體系曾經維護咗世界和平']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "喺1543年出版嘅「天體運行論」中，哥白尼提出太陽係宇宙嘅中心；喺1859年出版嘅「物種起源」中，達爾文提出咗生物進化理論。兩種學說嘅共同意義係",
+    "llm_output": "The correct answer is C. 提供咗觀察世界嘅新視角 (Provided a new perspective for observing the world).\n\nBoth Copernicus' heliocentric model and Darwin's theory of evolution challenged traditional views and provided a new way of understanding the natural world. They offered a fresh perspective on the universe and the diversity of life on Earth, respectively.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '奠定咗資產階級革命嘅思想基礎'], ['B', '肯定咗人嘅價值同尊嚴'], ['C', '提供咗觀察世界嘅新視角'], ['D', '推動咗近代科學體系嘅形成']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "新航路開闢後，英國人從「聖經」中搵到依據，認為其喺非洲起到嘅作用係拯救黑人，理由係非洲有用戰俘作祭祀嘅習俗，非洲黑人被販賣到美洲為奴等於逃過一死，所以佢哋係奴隸貿易嘅受益者。呢可以用嚟解釋",
+    "llm_output": "The correct answer is:\n\nC. 英國人為從事奴隸貿易搵藉口\n\nThis passage describes how the British used a twisted interpretation of the Bible to justify their involvement in the transatlantic slave trade. They claimed that by enslaving Africans, they were actually saving them from death and paganism, and that the Africans were therefore beneficiaries of the slave trade. This is a classic example of how European colonizers and slave traders used religious and moral justifications to rationalize their exploitation and oppression of non-European peoples.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '葡萄牙等國家嘅衰落'], ['B', '西歐殖民擴張嘅步伐'], ['C', '英國人為從事奴隸貿易搵藉口'], ['D', '英國成為「日唔落」帝國嘅原因']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "19世紀法國政治思想家托克維爾話美國「既似一個小國咁自由同幸福，又似一個大國咁光榮同強大」。托克維爾評話嘅美國精神與形象主要源於",
+    "llm_output": "The correct answer is B. 分權制衡原則 (Separation of Powers principle).\n\nTocqueville's comment is referring to the unique blend of liberty, happiness, and greatness that he observed in the United States, which he attributed to the separation of powers principle in the American system of government. This principle, which divides power among the legislative, executive, and judicial branches, was seen by Tocqueville as a key factor in promoting individual liberty, preventing the concentration of power, and ensuring the stability and prosperity of the American republic.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '聯邦制原則'], ['B', '分權制衡原則'], ['C', '中央集權原則'], ['D', '兩黨制原則']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "某位學者比較近代史上兩種政治經濟制度，指出：「「乙主義」可算係因住「甲主義」而產生嘅一種變態。「甲主義」提倡各種經濟因素公平而自由嘅交換，係以個人嘅私利觀作主宰。「乙主義」則從整體利益出發，以政治力量強迫消滅私有經濟，幹預生產經營。」上文中，「甲主義」、「乙主義」分別指",
+    "llm_output": "The correct answer is:\n\nD. 資本主義、共產主義\n\nHere's why:\n\n* \"甲主義\" (Ka-ism) is described as promoting fair and free exchange of economic factors, with individual self-interest as the guiding principle. This is a characteristic of Capitalism.\n* \"乙主義\" (Ou-ism) is described as prioritizing overall interests, using political power to eliminate private economy, and intervening in production and operation. This is a characteristic of Communism.\n\nSo, \"甲主義\" refers to Capitalism, and \"乙主義\" refers to Communism.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '共產主義、新保守主義'], ['B', '法西斯主義、共產主義'], ['C', '封建主義、資本主義'], ['D', '資本主義、共產主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "對於即將參加嘅某國際會議，學.科網中國代表團定下嘅外交基調係:爭取越南南北以北緯16度線為界實現停戰，促使法軍撤出，反對美國干涉。呢次國際會議係",
+    "llm_output": "The correct answer is A. 日內瓦會議 (Geneva Conference).\n\nThe Geneva Conference was held in 1954, and it was a major international conference that aimed to resolve the conflict in Indochina, particularly in Vietnam. The conference was attended by representatives from various countries, including China, France, the Soviet Union, the United Kingdom, and the United States.\n\nThe Chinese delegation, led by Premier Zhou Enlai, advocated for a ceasefire along the 16th parallel, which would divide Vietnam into North and South, and for the withdrawal of French troops. They also opposed American intervention in the region.\n\nThe Geneva Conference ultimately led to the signing of the Geneva Accords, which established a ceasefire and divided Vietnam into North and South, with the 17th parallel serving as the demilitarized zone.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '日內瓦會議'], ['B', '第一屆唔結盟政府首腦會議'], ['C', '第26屆聯合國大會'], ['D', '萬隆會議']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "盧卡契喺評論19世紀某一作家時認為：「(佢嘅)偉大之處喺於，儘管佢有嗰啲政治同埋意識形態上嘅偏見，佢依然用未受污染嘅眼睛觀察所產生嘅矛盾，並忠實地描述佢哋。」據此判斷，呢一評論所指嘅作家係",
+    "llm_output": "The correct answer is B. 巴爾扎克 (Honoré de Balzac).\n\nThe quote you provided is a description of Balzac's writing style, which is known for its objective and realistic portrayal of society, despite his own political and ideological biases. This is a characteristic of Balzac's literary realism, which was a hallmark of his writing.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '薄伽丘'], ['B', '巴爾扎克'], ['C', '莎士比亞'], ['D', '拜倫']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀初，英國首相阿斯奎斯話：「我哋而家有一個牢固確立咗兩百年嘅傳統，即歸根到底，王位嘅佔有者接受其大臣嘅建議並據此行事。」呢一傳統嘅確立，使一個以小農業同手工業生產為主嘅國家變成咗一個典型嘅資本主義國家，成為歐洲各國效仿嘅對象。各國效仿嘅理由係",
+    "llm_output": "正確答案係 C. 英國經濟上嘅成就得益於其制度設計。\n\n阿斯奎斯所指的傳統是指英國的憲政傳統，即君主立憲制，根據這個傳統，君主接受大臣的建議並據此行事。這個傳統的確立使英國能夠發展成為一個典型的資本主義國家，並且成為歐洲各國效仿的對象。各國效仿的理由是英國經濟上嘅成就得益於其制度設計，即英國的憲政傳統和制度設計對其經濟發展產生了積極的影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '英國「光榮革命」宣告咗歐洲新社會政治制度嘅誕生'], ['B', '殖民主義深刻影響咗英國「世界工廠」嘅地位'], ['C', '英國經濟上嘅成就得益於其制度設計'], ['D', '英國啟蒙思想奠定咗資產階級民主主義政治嘅理論基礎']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1928年初，斯大林視察西伯利亞農村後話，蘇維埃制度唔能夠長久建立喺兩種唔同嘅基礎上，即「聯合嘅社會主義工業化嘅工業同以生產資料私有制為基礎嘅個體小農經濟」。呢種認識喺實踐中體現為",
+    "llm_output": "The correct answer is A. 實行農業生產關係改造.\n\nAfter visiting Siberian villages in 1928, Stalin realized that the Soviet system couldn't be sustained on two different foundations: socialist industrialization and individual small-scale farming based on private ownership of the means of production. This recognition led to the implementation of agricultural production relations reform, which aimed to collectivize agriculture and eliminate private ownership of land.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '實行農業生產關係改造'], ['B', '加快重工業嘅發展速度'], ['C', '提出咗第一個五年計劃'], ['D', '建立城鄉市場交換關係']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "由於德國資本主義起步晚，喺向資本主義進軍嘅過程中，封建容克同軍閥領勢力強大，加之係封建容克同軍閥領導嘅王朝戰爭實現咗德國嘅統一，為德國嘅發展創造咗條件。所以其憲法帶有封建同軍國主義殘餘，係因為",
+    "llm_output": "The correct answer is B. 係資產階級力量弱小嘅反映.\n\nThe reason is that the German bourgeoisie was relatively weak compared to the feudal aristocracy and military leaders, which allowed the latter to maintain significant influence and power in the country's development, resulting in a constitution that retained elements of feudalism and militarism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '係無徹底手術留下嘅毒瘤'], ['B', '係資產階級力量弱小嘅反映'], ['C', '係德國人民對封建容克同軍閥嘅獎勵'], ['D', '係當時德國發展嘅客觀需要']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "尤爾根·哈貝馬斯喺「包容佢者」一書中稱「歐盟條約承認成員國嘅獨立同主權，所以，歐盟有義務尊重每一個成員國嘅民族認同」，同時指出：「未來歐洲聯盟嘅合法性，喺於所有成員國嘅共同利益，而唔喺於歐洲嘅民族自決意識，一個單一嘅歐洲民族喺政治上係唔存在嘅。」材料認為",
+    "llm_output": "正確答案係 C. 歐盟體現咗統一性同多樣性。\n\n哈貝馬斯的言論表明，歐盟需要尊重每個成員國的民族認同和主權（多樣性），同時也需要追求所有成員國的共同利益（統一性）。因此，選項 C 最能夠反映哈貝馬斯的觀點。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '民族利益成為歐洲一體化嘅主要障礙'], ['B', '歐盟以尊重成員國利益為主要目標'], ['C', '歐盟體現咗統一性同多樣性'], ['D', '歐洲一體化進程艱難']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1858年，第二次鴉片戰爭進行中，洪秀全寫咗一份御詔畀英國特使額爾金，翻譯官好艱難咁將佢譯成英文，額爾金睇後認為呢係一個非常奇特嘅作品，呢份御詔充滿住似「西洋番弟把心開，替天出力該又該，替爺替哥殺妖魔，報爺生養戰勝回」咁嘅詞句。呢反映咗當時",
+    "llm_output": "正確答案：B. 強國禦侮成為思潮\n\n洪秀全的御詔充滿了反洋、反外國侵略的詞句，反映了當時中國人對西方列強的不滿和反抗情緒，體現了強國禦侮的思潮。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '列強侵略導致民族危機加重'], ['B', '強國禦侮成為思潮'], ['C', '中外反動勢力勾結'], ['D', '國內階級矛盾激化']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「佢站起來反對18世紀嘅古典主義、啟蒙思想、理性思想以及呢啲領域內嘅秩序」，強調「對自然之愛、上帝精神存在同感情力量之間嘅聯繫」。最符合上述創作傾向嘅作品係",
+    "llm_output": "The correct answer is B. 「巴黎聖母院」.\n\nThe description provided matches the Romantic movement, which emerged in the late 18th century as a reaction against the Enlightenment values of reason, order, and classical forms. Romantic writers and artists emphasized the importance of emotion, imagination, and the beauty of nature.\n\nVictor Hugo's novel \"Notre-Dame de Paris\" (also known as \"The Hunchback of Notre-Dame\") is a classic example of Romantic literature, which emphasizes the emotional and spiritual aspects of human experience, and celebrates the beauty and mystery of nature and the medieval past.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「母親」'], ['B', '「巴黎聖母院」'], ['C', '「人間喜劇」'], ['D', '「老人與海」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1990年5月5日開始，民主德國、聯邦德國以及蘇美英法四國嘅代表喺莫斯科簽署咗「關於最終解決德國問題嘅條約」，條約規定：四個佔領國放棄佔領德國嘅權利同責任，解散與此規定相關嘅一切機構。呢一現象",
+    "llm_output": "正確答案：C. 說明德國再次正式實現統一",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '改變咗歐洲政治版圖'], ['B', '係美蘇爭霸結束嘅表現'], ['C', '說明德國再次正式實現統一'], ['D', '標誌住東歐劇變嘅開始']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "古希臘悲劇「被縛嘅普羅米修斯」講述嘅係，普羅米修斯為人類盜取火種而遭到主神宙斯嘅懲罰嘅故事，劇中借普羅米修斯之口話:「講句老實話，我憎恨所有嘅神」該劇深受雅典人嘅喜愛，呢反映當時雅典人",
+    "llm_output": "The correct answer is C. 強調人嘅價值.\n\nThe play \"Prometheus Bound\" by Aeschylus is a classic example of Greek tragedy, and the quote \"I hate all gods\" reflects the humanistic values of the Athenians at the time. By portraying Prometheus as a hero who defies the gods for the benefit of humanity, the play emphasizes the importance of human values and dignity. This theme resonated with the Athenians, who valued human reason, individualism, and autonomy.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '注重物質生活'], ['B', '宗教意識淡薄'], ['C', '強調人嘅價值'], ['D', '反對神靈崇拜']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "經濟史學家認為，英國工業革命基本上係無意向性嘅、羣眾自發嘅社會經濟現象，佢唔係由國家運用政治權利組織同推動嘅，呢一自發經濟現象首先興起於英國梗有其社會人文因素。佢哋嘅依據係英國",
+    "llm_output": "The correct answer is D. 君主專制嘅削弱 (Weakening of absolute monarchy).\n\nThe economic historians' argument is that the British Industrial Revolution was a spontaneous, unintentional social and economic phenomenon that emerged without being driven by the state's political power. They attribute this to the weakening of absolute monarchy in Britain, which created a more favorable environment for entrepreneurship, innovation, and economic growth.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '逐步成為世界工廠'], ['B', '科學技術嘅大突破'], ['C', '市場需求嘅增長'], ['D', '君主專制嘅削弱']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "從18世紀起，歐洲主要國家因為「紡織機器、採礦、煉鐵設備及交通工具嘅改造或發明，」所以「19世紀嘅人口大量集中到城市，並且產生各種新問題」。呢段敘述從「因為」到「所以」之間，至少增加邊一段論述才能使前後因果關係完整？",
+    "llm_output": "The correct answer is A. 新型工廠制產生.\n\nThe original sentence describes the cause-and-effect relationship between the Industrial Revolution (紡織機器、採礦、煉鐵設備及交通工具嘅改造或發明) and the urbanization of population in the 19th century. However, there is a missing link between the two events.\n\nThe correct answer, A. 新型工廠制產生, fills in this gap by explaining how the Industrial Revolution led to the development of new factories, which in turn attracted a large number of workers to cities, resulting in urbanization and new social problems.\n\nThe other options do not provide a logical connection between the Industrial Revolution and urbanization:\n\nB. 傳統精密製造業吸引投資意願 is not directly related to urbanization.\n\nC. 自由放任嘅經濟政策興起 is a policy that emerged during the Industrial Revolution, but it does not explain how the Industrial Revolution led to urbanization.\n\nD. 馬克思階級鬥爭理論嘅影響 is a sociological theory that emerged later, and it is not a direct consequence of the Industrial Revolution.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '新型工廠制產生'], ['B', '傳統精密製造業吸引投資意願'], ['C', '自由放任嘅經濟政策興起'], ['D', '馬克思階級鬥爭理論嘅影響']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "從1951年歐洲煤鋼共同體嘅組成到1957年六國建立歐共體，到1993年擁有12個成員國嘅歐洲聯盟，到2002年歐元嘅啟動，成員國擴大到15個。呢一過程反映咗",
+    "llm_output": "正確答案：C. 歐洲一體化程度逐步加深",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '歐洲各國嘅經濟實力增強'], ['B', '經濟合作仍然係歐盟主流'], ['C', '歐洲一體化程度逐步加深'], ['D', '歐盟推動咗世界格局變遷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「「分裂之家唔能持久。」我相信我哋嘅政府唔能夠永遠忍受一半奴役一半自由嘅狀況。」此言論應出自",
+    "llm_output": "The correct answer is D. 林肯 (Abraham Lincoln).\n\nThe quote \"A house divided against itself cannot stand. I believe this government cannot endure permanently half slave and half free.\" is from Lincoln's speech on June 16, 1858, at the Illinois Republican Convention, where he accepted the nomination for the U.S. Senate.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '亞歷山大二世'], ['B', '明治天皇'], ['C', '俾斯麥'], ['D', '林肯']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「喺（西歐）各國皆弱、唯美國獨強之際，美國人天生嘅領袖意識……使佢哋唔能夠袖手安坐，佢哋決計乘此千載難逢嘅歷史機遇，有所作為。」「作為」嘅表現係",
+    "llm_output": "The correct answer is C. 提出發展經濟嘅馬歇爾計劃.\n\nThe passage is describing the situation after World War II, where the United States emerged as a dominant power while European countries were weakened. The \"leadership consciousness\" of the American people led them to take action and seize the historical opportunity. The Marshall Plan, proposed by the United States in 1948, was a major initiative to provide economic aid to war-torn Europe and promote economic recovery and stability.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '成立北美自由貿易區'], ['B', '加強國家對經濟嘅幹預'], ['C', '提出發展經濟嘅馬歇爾計劃'], ['D', '同蘇聯展開軍備競賽']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀美國「最出色」嘅外交家喬治·凱南喺1946年話：「我哋面對住一個政治力量，佢狂熱地堅信同美國之間唔可能有永久性嘅妥協辦法。」次年，佢告誡美國應該奉行一個長期嘅對蘇政策，並要保持「堅定同耐心」。呢啲言論",
+    "llm_output": "正確答案係 D. 力主對蘇聯採取遏制政策。\n\n喬治·凱南（George Kennan）係美國外交家，1946年他發表了《長電報》（Long Telegram），警告美國政府蘇聯的擴張主義和不可靠性，主張美國應該奉行遏制政策（containment policy），以遏制蘇聯的擴張。他的言論標誌著冷戰的開始，並對美國的外交政策產生了深遠的影響。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '誇大咗美蘇之間嘅分歧'], ['B', '力圖緩和同蘇聯之間嘅關係'], ['C', '批評咗冷戰政策'], ['D', '力主對蘇聯採取遏制政策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "為咗對付三國同盟，重新瓜分殖民地，1892年法俄簽署協約，呢意味住雙方已經放棄咗意識形態嘅分歧——法國代表激進，而俄國代表反動同獨裁。之後「法國資本源源不斷地輸進俄國，而沙皇則伸出頭去傾聽「馬賽曲」」。從根本上講，法俄簽署協約嘅目嘅係",
+    "llm_output": "The correct answer is B. 爭奪世界霸權.\n\nThe Franco-Russian Alliance of 1892 was a strategic agreement between France and Russia to counterbalance the Triple Alliance of Germany, Austria-Hungary, and Italy. Despite their ideological differences, with France representing radicalism and Russia representing reaction and autocracy, they put aside their differences to pursue their common goal of challenging the dominant position of the Triple Alliance and expanding their colonial empires. The alliance marked a significant shift in the European balance of power and was a key factor in the lead-up to World War I.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '維護世界和平'], ['B', '爭奪世界霸權'], ['C', '製造局部衝突'], ['D', '維持歐洲現狀']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "電影往往係社會現實同輿論嘅一種反映。1943年，好萊塢拍攝咗一啲歌頌蘇聯嘅電影，好似「光榮嘅日子」「出使莫斯科」等。1948年，蘇聯對美國嘅威脅成為好萊塢電影嘅重要主題之一，呢類影片有「鐵幕背後」「紅色威脅」等。與呢一時期電影主題轉變相關嘅政治背景有：a「杜魯門主義」嘅提出；b北大西洋公約組織成立；c聯合國成立；d唔結盟運動興起",
+    "llm_output": "The correct answer is D. ab.\n\nThe shift in Hollywood movie themes from praising the Soviet Union to portraying it as a threat can be attributed to the political background of:\n\na. The Truman Doctrine (1947), which marked a significant shift in the United States' foreign policy towards the Soviet Union, viewing it as a threat to national security.\n\nb. The formation of the North Atlantic Treaty Organization (NATO) in 1949, which was a military alliance aimed at countering the Soviet Union's influence in Europe.\n\nThe other options are not directly related to the shift in Hollywood movie themes during this period.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', 'ad'], ['B', 'bc'], ['C', 'cd'], ['D', 'ab']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "某學者認為:佢哋擺脫咗對上帝嘅恐懼，但係仍然對神表現出尊敬嘅態度。佢哋嘲笑六日創造世界嘅觀念，但係仍然相信宇宙係上帝按照理性計劃設計嘅完美結合嘅機器，係人類永久居住嘅場所。「佢哋」係",
+    "llm_output": "正確答案係 A. 啟蒙運動時期嘅思想家。\n\n這個描述是指啟蒙運動時期的思想家，例如笛卡爾、牛頓等，他們雖然不再相信傳統的宗教教義，但仍然相信宇宙是按照理性和規律運行的，並且認為上帝是宇宙的創造者和設計者。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '啟蒙運動時期嘅思想家'], ['B', '文藝復興時期嘅文學家'], ['C', '進化理論嘅倡導者'], ['D', '宗教改革嘅發起者']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "法國史學家索布爾認為，從某種角度而言，法國大革命大大超過咗以往嘅歷次革命，包括英國革命同美國革命。可以用嚟說明呢一觀點嘅係喺啟蒙思想嘅指導下，法國大革命",
+    "llm_output": "The correct answer is A. 以社會平等為首要目標 (emphasized social equality as its primary goal).\n\nAccording to French historian Albert Soboul, the French Revolution surpassed previous revolutions, including the English and American Revolutions, in that it emphasized social equality as its primary goal, which was guided by Enlightenment thinking.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '以社會平等為首要目標'], ['B', '根除咗專制復闢危險'], ['C', '以暴力為革命主要方式'], ['D', '創建咗民主共和政體']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1989年11月26日蘇聯「真理報」發表文章話：「如果話喺初期我哋認為呢基本上指嘅係糾正社會機制嘅部分扭曲現象，只係完善過去幾十年形成嘅、已經完全定型嘅制度嘅話，咁而家我哋話，必須根本改造我哋嘅整個社會大廈：從經濟基礎到上層建築。」呢意味住蘇聯改革",
+    "llm_output": "正確答案係 D. 全面否定咗斯大林體制嘅弊端。\n\n這篇文章表明，蘇聯需要根本改造整個社會大廈，從經濟基礎到上層建築，意味著蘇聯需要徹底否定斯大林體制的弊端和錯誤，進行深入的改革和變革。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '全面推進蘇聯嘅社會主義建設'], ['B', '正式建立社會主義市場經濟體制'], ['C', '全盤否定蘇聯嘅社會主義歷史'], ['D', '全面否定咗斯大林體制嘅弊端']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "第一次世界大戰期間，有啲青年藝術家喺瑞士組織藝術羣體「達達派」。佢哋用紙片、抹布、電車票、火柴盒等進行創作，甚至將瓷質嘅小便器命名為「噴泉」搬上展覽會。呢類作品",
+    "llm_output": "正確答案：C. 表達咗幻滅反叛\n\n達達派是一個反傳統、反戰爭的藝術運動，旨在挑戰傳統藝術和社會價值觀。達達派藝術家使用非傳統材料和方法，創造出具有provocative和反叛性的作品，以表達他們對戰爭和社會的幻滅和反叛情緒。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '遵循咗寫實原則'], ['B', '突顯咗理性思維'], ['C', '表達咗幻滅反叛'], ['D', '抒發咗浪漫情懷']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "羅馬共和國早期，當羅馬遭受外族進攻時，平民曾多次將自己組織嘅隊伍撤離羅馬，拒絕作戰，迫使貴族喺政治上做出讓步。「十二銅表法」嘅制定就係這種鬥爭嘅成果之一。可見當時",
+    "llm_output": "正確答案：C. 平民採取有效方式爭取自身權益",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '貴族逐步喪失制定法律嘅主導地位'], ['B', '平民與貴族嘅政治訴求日趨一致'], ['C', '平民採取有效方式爭取自身權益'], ['D', '貴族讓步喺法制發展中起決定作用']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「全球通史」指出：「幾十年前還統治全球嘅歐洲大陸嘅前途這時似乎係黯淡嘅、危險嘅。但20世紀50年代後東歐和西歐各國卻驚人嘅東山再起……這實質上意味著全球地方主義嘅恢復——至少從政治上來看係如此。」這段材料中「全球地方主義嘅恢復」嘅寓意係",
+    "llm_output": "The correct answer is B. 世界已呈現政治多極化趨勢.\n\nThe phrase \"全球地方主義嘅恢復\" suggests that the world is moving towards a more decentralized and multipolar political landscape, where regional powers and local interests are regaining importance. This implies that the world is no longer dominated by a single power or a bipolar system, but rather is becoming more politically diverse and multipolar.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '區域集團化嘅趨勢已經形成'], ['B', '世界已呈現政治多極化趨勢'], ['C', '兩極格局已經被打破'], ['D', '經濟全球化趨勢不斷加強']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "俾斯麥企圖建立一種特殊嘅德意志型嘅立憲議會制度，以達到保持普魯士王朝政治統治優勢之目嘅。這種設想喺1871年統一嘅德意志帝國憲法中加以定型。下列能體現這一目嘅嘅正確選項係",
+    "llm_output": "The correct answer is C. 帝國皇帝有主宰議會之權.\n\nThis option reflects Bismarck's intention to establish a constitutional monarchy system that would maintain the political dominance of the Prussian royal family. The German Empire's constitution of 1871, which was drafted by Bismarck, gave the Emperor significant powers, including the right to appoint and dismiss the Chancellor, dissolve the Reichstag (the German parliament), and exercise significant influence over the legislative process.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '聯邦議會由民選產生'], ['B', '宰相對聯邦議會負責'], ['C', '帝國皇帝有主宰議會之權'], ['D', '帝國議會掌握著立法大權']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "日本軍部喺1907年上奏天皇嘅奏摺中，把美國列為第二號假想敵；1923年又將其改為頭號假想敵。美國軍方1913年正式提出了以日本為敵人嘅「橙色作戰計劃」；巴黎和會後，美國對該計劃給以更多嘅注意，並進一步考慮加強喺夏威夷、關島和菲律賓羣島嘅設防。這些行為說明",
+    "llm_output": "正確答案是 B. 一戰前後美日加強各自防禦。\n\n這些行為表明，日本和美國在一戰前後加強了各自的防禦措施，互相視為假想敵，準備應對可能的軍事衝突。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '美國推行「門戶開放」政策'], ['B', '一戰前後美日加強各自防禦'], ['C', '日美加緊爭奪亞太地區'], ['D', '日本實施「大東亞共榮圈」計劃']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1702年英國國王威廉二世去世，安妮女王繼位，當時議會內部存在兩個黨派，安妮延誤佔多數席位嘅輝格黨，於係解除了輝格黨人嘅行政要職，代之以託利黨人。這說明當時喺英國",
+    "llm_output": "The correct answer is B. 君主立憲制尚未完善.\n\nThis event in 1702 shows that the monarch (Queen Anne) still had significant power to appoint and dismiss officials, and that the Whig Party, which held a majority in Parliament, could be overridden by the monarch. This suggests that the constitutional monarchy system, where the monarch's powers are limited by Parliament, was not yet fully established.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '議會無權制裁國王'], ['B', '君主立憲制尚未完善'], ['C', '「權利法案」遭到破壞'], ['D', '內閣制已基本確立']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "美國1787年憲法規定，國會分參、眾兩院．參議院由各州議會分別選派兩名參議員組成，眾議院議員按人口比例由各州選民普選產生，每兩年選舉一次。這些規定體現了",
+    "llm_output": "The correct answer is B. 聯邦制與共和制嘅原則.\n\nThe description of the US Constitution in 1787, where the Senate has two members from each state elected by the state legislatures and the House of Representatives has members elected by the people of each state in proportion to their population, reflects the principles of federalism and republicanism.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '眾議院主導聯邦嘅立法權力'], ['B', '聯邦制與共和制嘅原則'], ['C', '各州根據人口分享聯邦權力'], ['D', '參議院代表少數人利益']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "英國天主教神甫威廉·廷得爾因希望英國教徒可以自由閱讀「聖經」而將其翻譯成英文，結果於1524年被控有異端嫌疑，被迫流亡。由此可知，他",
+    "llm_output": "The correct answer is B. 倡導信仰自由 (Advocated for freedom of faith).\n\nWilliam Tyndale, an English Catholic priest, translated the Bible into English in the early 16th century, which led to him being accused of heresy and forced to flee. This shows that he advocated for the freedom of faith, allowing English people to read the Bible in their own language.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '維護教皇權威'], ['B', '倡導信仰自由'], ['C', '主張聖像崇拜'], ['D', '支持宗教改革']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1947年，美國國務卿馬歇爾提出援助歐洲復興計劃，並督促歐洲國家方面現先擬定一項聯合性質嘅計劃，要求該計劃即使不能得到所有歐洲國家嘅同意，也應徵得一部分國家嘅同意，馬歇爾計劃體現出來嘅美國對歐洲政策",
+    "llm_output": "The correct answer is C. 促成了歐洲平等夥伴關係 (Promoted equal partnership relations in Europe).\n\nThe Marshall Plan, proposed by US Secretary of State George Marshall in 1947, aimed to provide economic aid to war-torn Europe and promote European economic cooperation and integration. The plan encouraged European countries to work together to develop a joint recovery program, even if not all European countries agreed. This approach helped to foster a sense of equal partnership among European nations, which was a key aspect of the Marshall Plan's legacy.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '導致歐洲出現對峙'], ['B', '成為德國分裂嘅根源'], ['C', '促成了歐洲平等夥伴關係'], ['D', '有利於煤鋼聯營嘅建立']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "公元6世紀東羅馬帝國皇帝欽定嘅法學教科書中說：「皇帝嘅決定也具有法律效力，因為根據賦予他權力嘅王權法，人民把他們嘅全部權威和權力移轉給他。」這說明",
+    "llm_output": "The correct answer is D. 古羅馬皇帝崇尚「君權神授」.\n\nThe quote suggests that the emperor's decisions have legal force because the people have transferred their authority and power to him, implying that the emperor's power is divinely ordained and absolute. This is a classic expression of the \"divine right of kings\" or \"君權神授\" ideology, which was prevalent in ancient Rome and other monarchies.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '王權法喪失了法律效力'], ['B', '「社會契約論」影響深遠'], ['C', '古羅馬有重視法律嘅傳統'], ['D', '古羅馬皇帝崇尚「君權神授」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "有史學家寫道：喺危機中，新教和其他力量站喺法律和議會一邊，而君主則把政治命運押喺羅馬天主教會身上，最後制定法律嘅議會戰勝了國王。他描述嘅係",
+    "llm_output": "The correct answer is C. 英國「光榮革命」.\n\nThis description matches the events of the Glorious Revolution in England in 1688, where the Protestant forces, including the Parliament, opposed King James II's attempts to restore Catholicism and absolute monarchy. The Parliament ultimately prevailed, and the Bill of Rights was established, limiting the power of the monarch and establishing the supremacy of Parliament.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '德意志王朝戰爭'], ['B', '美國獨立戰爭'], ['C', '英國「光榮革命」'], ['D', '法國大革命']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "美國歷史學家包弼德喺「唐宋轉型嘅反思——以思想嘅變化為主」中認為宋代標志了中國歷史現代性嘅開端，但同時也出現了逆現代性嘅因素。以下屬於宋代「逆現代性」嘅係",
+    "llm_output": "The correct answer is D. 皇室權威更趨強化 (The strengthening of imperial authority).\n\nAccording to Philip Kuhn's argument, the Song Dynasty marked the beginning of modernity in Chinese history, but it also saw the emergence of counter-modernizing factors. The strengthening of imperial authority is considered a counter-modernizing factor, as it went against the trend of increasing social mobility, secularization, and commercialization that characterized the Song Dynasty.\n\nThe other options are actually characteristics of the Song Dynasty that are often seen as modernizing or progressive:\n\nA. 世俗文化蓬勃發展 (The flourishing of secular culture) - This refers to the growth of a vibrant cultural scene in the Song Dynasty, which was marked by a focus on literature, art, and entertainment.\n\nB. 社會流動更趨頻繁 (Increased social mobility) - This refers to the fact that the Song Dynasty saw an increase in social mobility, as people were able to move more freely between different social classes.\n\nC. 貨幣經濟地位提高 (The rise of a monetized economy) - This refers to the growth of a cash-based economy in the Song Dynasty, which facilitated trade and commerce.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '世俗文化蓬勃發展'], ['B', '社會流動更趨頻繁'], ['C', '貨幣經濟地位提高'], ['D', '皇室權威更趨強化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1950年，美國總統喺國會發表有關東亞情勢嘅演說：「共產主義者喺韓國所作所為，就如希特勒、墨索里尼和日本喺10年、15年和20年前所做嘅一樣。我敢肯定，假如讓南韓淪陷，共產黨嘅領袖便會變本加厲，進而攻擊我們鄰近嘅國家。」這位總統喺演講之後隨即採取了邊一種亞洲政策",
+    "llm_output": "The correct answer is C. 不待聯合國嘅安理會表決即斷然出兵南韓.\n\nThe quote is from Harry S. Truman's speech to Congress on June 27, 1950, in which he announced that the United States would intervene militarily in the Korean War without waiting for a United Nations Security Council resolution.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '為避免骨牌效應而開始軍援南越對抗共黨'], ['B', '援助並借重臺灣國民黨軍隊協助南韓反攻'], ['C', '不待聯合國嘅安理會表決即斷然出兵南韓'], ['D', '視共產中國為大國而採取強硬嘅圍堵政策']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "法國政治思想家托克維爾喺「論美國嘅民主」中說：「美國嘅聯邦憲法，好像能工巧匠創造嘅一件只能使發明人成名發財，而落到他人之手就變成一無用處嘅美麗藝術品。」這句話著重強調美國聯邦憲法",
+    "llm_output": "The correct answer is D. 不具有普適性.\n\nThe quote from Tocqueville's \"Democracy in America\" suggests that the US federal constitution is like a beautiful work of art that is only useful to its creators, but becomes useless when applied by others. This implies that Tocqueville is highlighting the limitations of the US constitution in being applicable to other countries or contexts, i.e., it lacks universal applicability.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '具有借鑒意義'], ['B', '創造了新嘅憲法體制'], ['C', '促進了資本主義發展'], ['D', '不具有普適性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "貝多芬歷經法國大革命前後歐洲社會劇變，給後人留下震撼人心嘅音樂史詩。對其「第三（英雄）交響曲」解讀有誤嘅係",
+    "llm_output": "The correct answer is A. 作品有田園風光般嘅抒情.\n\nBeethoven's \"Third (Heroic) Symphony\" is known for its heroic and dramatic character, not for its pastoral or lyrical qualities. The symphony is considered one of the most iconic and influential works in classical music, and its music is often described as bold, energetic, and triumphant, rather than gentle or idyllic.\n\nThe other options are correct:\n\nB. 作品充滿時代氣息: The symphony is indeed a product of its time, reflecting the spirit of the French Revolution and the ideals of liberty, equality, and fraternity.\n\nC. 作品具有英雄史詩般嘅雄偉氣勢: The symphony is often referred to as the \"Heroic Symphony\" due to its grand and heroic character.\n\nD. 作品含蓄地獻給一位無名英雄: The symphony was originally dedicated to Napoleon Bonaparte, whom Beethoven saw as a champion of the people, but he later withdrew the dedication when Napoleon declared himself Emperor.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '作品有田園風光般嘅抒情'], ['B', '作品充滿時代氣息'], ['C', '作品具有英雄史詩般嘅雄偉氣勢'], ['D', '作品含蓄地獻給一位無名英雄']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "美國學者亨廷頓說：「美國係目前世界上唯一嘅超級大國，喺解決重大國際問題時，如果沒有其他大國合作，美國也孤掌難鳴。……大國喺解決國際重大問題時所採取嘅聯合行動如若得不到美國嘅支持，這種行動也係勞而無功嘅。」以上關於世界格局嘅表述可概括為",
+    "llm_output": "The correct answer is B. 單極加多極嘅世界格局.\n\nHuntington's statement suggests that the United States is the sole superpower, but it cannot solve major international problems alone and needs the cooperation of other great powers. This implies that there is a single dominant power (the US) but also acknowledges the importance of other great powers in international affairs, which is characteristic of a \"single superpower plus multiple great powers\" or \"uni-multipolar\" world order.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '諸強爭霸嘅世界政治格局'], ['B', '單極加多極嘅世界格局'], ['C', '實力相當大國並存嘅多極格局'], ['D', '美國稱霸世界嘅單極格局']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1948年2月，美國嘅一份報告稱，美國擁有世界財富嘅50％，卻只有世界人口嘅6.3％。喺這種形勢下，美國嘅任務係設計一種喺不危及美國國家安全情況下。保持這種優勢嘅「關係模式」。能夠體現這一「關係模式」嘅係",
+    "llm_output": "The correct answer is A. 對歐洲進行經濟援助.\n\nThe report referred to is the \"Point Four Program\" presented by President Harry S. Truman in 1949, which aimed to provide economic assistance to European countries to help them recover from the devastation of World War II. This program was designed to maintain American economic dominance while ensuring national security, and it marked the beginning of the Marshall Plan, which was a key component of the United States' post-war foreign policy.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '對歐洲進行經濟援助'], ['B', '實行貿易保護主義'], ['C', '成立北大西洋公約組織'], ['D', '確立並維護世界貨幣體系']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「（喺希臘）流通中發展起來嘅交換價值過程，不但尊重自由和平等，而且自由和平等係它嘅產物；它係自由和平等嘅現實基礎。」這實質上反映了喺古希臘",
+    "llm_output": "正確答案係 D. 商業上自由平等影響了政治理念。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '海外貿易活動推動了平等觀念形成'], ['B', '商業貿易尊重自由和平等嘅原則'], ['C', '商業平等係政治平等嘅現實基礎'], ['D', '商業上自由平等影響了政治理念']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "古希臘詩人西摩尼德斯寫道：「德行／住喺難攀登嘅高山／……求知，智慧，向善／才能登上這人性之巔。」下列觀點與該句最為契合嘅係",
+    "llm_output": "The correct answer is C. 「美德即知識」.\n\nThe quote from Simonides suggests that virtue (德行) is achieved through seeking knowledge, wisdom, and striving to be good, which is in line with the idea that \"virtue is knowledge\" (美德即知識). This is a key concept in ancient Greek philosophy, particularly in the thought of Socrates and Plato.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '「人係萬物嘅尺度」'], ['B', '信奉聖經，獻身上帝'], ['C', '「美德即知識」'], ['D', '社會秩序建立喺約定上']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "有人喺1877年號召民眾為當前政體嘅形式和憲法嘅完整性而戰，並指出這係1789年革命嘅繼承者同舊制度特權等級嘅殘餘及羅馬神權政治代理人之間嘅鬥爭。「當前政體」係",
+    "llm_output": "正確答案係 C. 君主立憲制。\n\n這個問題是指法國第三共和國時期的政治運動，當時有人號召民眾為維護共和國的憲法和政治制度而戰，反對君主制和舊制度的特權等級。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '共和制'], ['B', '無產階級專政'], ['C', '君主立憲制'], ['D', '君主專制']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "孟德斯鳩認為，共和政體係全體人民或僅僅一部分人民握有最高權力嘅政體；君主政體係由單獨一個人遵照固定嘅和確立了嘅法律執政；專制政體係按一個人嘅意志行使權力。他主張實行嘅政體係",
+    "llm_output": "The correct answer is D. 君主立憲 (Monarchical Constitution).\n\nMontesquieu believed in the separation of powers and advocated for a mixed government that combined elements of monarchy, aristocracy, and democracy. He argued that a monarchical constitution, where a king or queen reigns but is limited by a system of laws and a separation of powers, is the best form of government. This is in contrast to a despotic government, where a single ruler has absolute power, and a republican government, where power is held by the people or a group of people.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '貴族共和'], ['B', '民主共和'], ['C', '君主專制'], ['D', '君主立憲']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「一般嘅法律係人類嘅理性，各國嘅法律係人類理性喺特殊場合嘅適用」。持以上觀點嘅啟蒙思想家係",
+    "llm_output": "The correct answer is A. 孟德斯鳩 (Montesquieu).\n\nThis quote is a summary of Montesquieu's idea that laws are based on human reason and that different countries have different laws because they apply reason in different ways to their specific circumstances. This is a key concept in his book \"The Spirit of the Laws\".",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '孟德斯鳩'], ['B', '盧梭'], ['C', '伏爾泰'], ['D', '狄德羅']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "20世紀50年代中期，美國一位著名黑人爵士樂演唱家，喺美國新聞署嘅資助和安排下，多次赴美洲等地巡演，贏得了大量歌迷，很多人通過她嘅演唱知道了美國。美國政府機構支持該演唱家海外巡演嘅主要目嘅係",
+    "llm_output": "The correct answer is D. 與蘇聯爭奪中間地帶 (To compete with the Soviet Union for influence in the Third World).\n\nThe famous African American jazz singer you're referring to is likely Louis Armstrong or Duke Ellington, who were both sponsored by the US State Department to tour abroad during the 1950s and 1960s. The main goal of the US government's support for these cultural ambassadors was to promote American culture and values, and to counter the influence of the Soviet Union in the Third World, particularly during the Cold War era.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '爭取國內黑人選民支持'], ['B', '展示美國嘅經濟實力'], ['C', '抵制不結盟運動嘅發展'], ['D', '與蘇聯爭奪中間地帶']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "近代某畫家嘅油畫中這樣描繪:畫面中央矗立著天主教堂，它嘅塔尖直指天空;畫面下方係一羣卑微嘅人，正在河邊工作;右邊係幽靜嘅小鎮和高高嘅拱橋;天上嘅雲彩和落日似乎喺保佑著教堂和小鎮。這一切讓人顯得格外渺小。有學者認為，該畫充滿對自然嘅讚美，富有宗教神祕感。據此判斷這幅畫屬於",
+    "llm_output": "正確答案是 A. 浪漫主義流派。\n\n這幅畫的描述與浪漫主義藝術的特點相符，例如：\n\n* 強調宗教和神祕感\n* 將人類描繪為渺小的，與自然和神聖的事物相比\n* 使用象徵主義和隱喻的手法，例如天主教堂的塔尖指向天空，雲彩和落日似乎在保佑著教堂和小鎮\n* 強調情感和氛圍，例如幽靜的小鎮和高高的拱橋\n\n浪漫主義藝術運動於18-19世紀盛行，強調情感、想像和個性，對自然和神祕感的讚美。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '浪漫主義流派'], ['B', '現實主義流派'], ['C', '印象主義流派'], ['D', '現代主義流派']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "公元前406年，雅典取得阿基紐西海戰勝利，但也造成了數千士兵因船破沉沒溺水身亡。喺隨後嘅公民大會上，指揮這次戰役嘅6位將軍被指控救援不力。喺沒有聽取6位將軍個人申辯嘅情況下，就將他們判處死刑。這反映了當時雅典",
+    "llm_output": "正確答案是 B. 公民大會嘅決定具有至上權威。\n\n這個事件是指公元前406年雅典的阿基紐西海戰，六位將軍被指控救援不力，結果被判處死刑。這事件反映了雅典公民大會的決定具有至上權威，無需聽取被告人的申辯便能判處死刑。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '被告人沒有法庭申辯權利'], ['B', '公民大會嘅決定具有至上權威'], ['C', '公民大會掌握城邦立法權'], ['D', '軍隊與公民大會之間存在衝突']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "蘇格拉底說，一條船，應由熟悉航海嘅人駕駛：紡羊毛時，婦女應管理男子。最優秀嘅人係能夠勝任自己工作嘅人。蘇格拉底這些話嘅政治意圖係",
+    "llm_output": "The correct answer is D. 反對輪番而治.\n\nSocrates' statement is actually arguing against the idea of rotation in office or arbitrary assignment of tasks, emphasizing that each person should do the job they are best suited for, based on their skills and expertise. This is in line with his philosophy of meritocracy, where the most capable individuals should hold positions of authority.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '宣揚人文精神'], ['B', '主張人民主權'], ['C', '提倡婦女參政'], ['D', '反對輪番而治']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "德國文學家歌德說，羅馬法「如同潛入水下嘅一隻鴨子，雖然一次次將自己隱藏於波光水影之下，但卻從來沒有消失，而且總係一次次抖擻精神更飽滿地重新出現」，對此嘅正確理解應係，羅馬法",
+    "llm_output": "The correct answer is D. 係近代歐洲大陸國家法律嘅基礎.\n\nGoethe's quote suggests that Roman law, like a duck diving into the water, may seem to disappear from view, but it always re-emerges, refreshed and revitalized. This metaphor implies that Roman law has had a lasting and profound impact on the development of law in Europe, and that it continues to influence the legal systems of European countries to this day. Therefore, the correct interpretation is that Roman law is the foundation of modern European continental law.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '所維護嘅民主制度歷史影響深遠'], ['B', '為歐洲近代社會確立了行為規範'], ['C', '不斷地改變了歐洲歷史發展方向'], ['D', '係近代歐洲大陸國家法律嘅基礎']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧說：「毫無出路嘅處境十倍地增強了工農嘅力量，使我們能夠用與西歐其他一切國家不同嘅方法來創造發展文明嘅根本條件」。十月革命「用與西歐其他一切國家不同嘅方法」嘅含義係",
+    "llm_output": "The correct answer is C. 採用暴力革命嘅方式來奪取政權.\n\nLenin's statement suggests that the Bolsheviks used a different method than Western European countries to create the fundamental conditions for developing civilization, and that method was the violent revolution of October 1917, which led to the seizure of power by the Bolsheviks.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '開創了國際社會主義運動嘅新局面'], ['B', '以社會主義嘅方式推進國家嘅現代化'], ['C', '採用暴力革命嘅方式來奪取政權'], ['D', '利用商品、市場和貨幣關係發展經濟']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "美國總統威爾遜曾這樣說道：「金融領導地位將屬於我們，工業首要地位將屬於我們，貿易優勢將屬於我們，世界上其他國家期待著我們給以領導和指引。」美國實現這一意圖係喺",
+    "llm_output": "The correct answer is C. 羅斯福時期.\n\nThis quote is often attributed to President Woodrow Wilson, but it actually reflects the sentiment of the United States' rise to global dominance during the presidency of Franklin D. Roosevelt, particularly after World War II. During this period, the US emerged as a superpower, taking on a leadership role in international affairs, and establishing itself as a dominant force in global finance, industry, and trade.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '威爾遜時期'], ['B', '杜魯門時期'], ['C', '羅斯福時期'], ['D', '肯尼迪時期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1802年英國出臺第一部「工廠法」，法律規定：9歲以上嘅兒童每天可以工作8小時，14歲以上嘅兒童每天可以工作12小時；他們不能喺凌晨6點之前工作，他們睡覺嘅時間不能晚於凌晨2點。由此可以推斷",
+    "llm_output": "The correct answer is B. 工業革命中工人生存狀況惡劣.\n\nThis law, also known as the Factory Act of 1802, was a response to the poor working conditions and long hours faced by children and workers in the early Industrial Revolution. The fact that the law had to specify maximum working hours and restrictions on when children could work suggests that the situation was previously unregulated and exploitative. The law was a step towards improving working conditions, but it also highlights the poor treatment of workers, especially children, during this period.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '工人罷工鬥爭贏得了合法權益'], ['B', '工業革命中工人生存狀況惡劣'], ['C', '工廠規範化和制度化體系出現'], ['D', '工廠主注重保障兒童正當權益']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「工業革命改變了英國嘅社會結構，經濟嘅持續增長造成中等階級與工人階級力量嘅壯大，貴族、大地主嘅地位與經濟實力都大為下降了，但他們仍把持政治權力，造成權力分配與社會力量對比高度脫節嘅狀態。」為瞭解決這種「狀態」，英國喺政治上",
+    "llm_output": "The correct answer is B. 改革議會制度，中等階級更多參政.\n\nThe Industrial Revolution in Britain led to the growth of the middle class and the working class, but the aristocracy and landowners still held political power, creating a mismatch between political power and social influence. To address this issue, Britain reformed its parliamentary system to allow more representation for the middle class, which is option B.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '頒布「權利法案」，確立了議會主權'], ['B', '改革議會制度，中等階級更多參政'], ['C', '建立內閣機構，限制國王嘅行政權'], ['D', '發動光榮革命，與新貴族階層妥協']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1952年到1964年，蘇聯政府收購穀物嘅平均價格指數提高了7.48倍，收購畜產品嘅價格指數提高了15.69倍。這係",
+    "llm_output": "正確答案：C. 調整農業政策嘅結果",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '適應「加速發展戰略」嘅需要'], ['B', '推行農業集體化導致嘅變化'], ['C', '調整農業政策嘅結果'], ['D', '應對世界農產品價格波動嘅措施']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧指出：「喺經濟戰線上，由於我們企圖過渡到共產主義，到1921年春天我們就遭到了嚴重嘅失敗。」此「嚴重嘅失敗」嘅主要原因係",
+    "llm_output": "The correct answer is C. 分配領域嘅實物配給制 (War Communism).\n\nLenin's quote refers to the failure of War Communism, a policy implemented by the Soviet government during the Russian Civil War (1918-1921). War Communism involved the nationalization of industries, forced grain requisitioning, and a ban on private trade. However, it led to economic chaos, food shortages, and widespread discontent. By 1921, the Soviet economy was on the brink of collapse, and Lenin was forced to introduce the New Economic Policy (NEP) to replace War Communism.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '蘇維埃政權農業稅過重'], ['B', '蘇俄敵對勢力十分強大'], ['C', '分配領域嘅實物配給制'], ['D', '蘇俄政策嚴重脫離現實']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "有研究認為，美國獨立後不到半個世紀，拉丁美洲經過獨立戰爭，推翻了殖民統治，但拉美國家並沒有像近鄰美國那樣獨立後進入現代化嘅快車道，而係發展停滯，究其原因，殖民統治難辭其咎。「難辭其咎」主要係指殖民者喺拉丁美洲",
+    "llm_output": "正確答案是 B. 奴役掠奪土著居民。\n\n\"難辭其咎\" 是指殖民者在拉丁美洲對土著居民的奴役和掠奪，導致拉丁美洲在獨立後發展停滯。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '進行了大量嘅移民'], ['B', '奴役掠奪土著居民'], ['C', '建立嘅殖民統治最早'], ['D', '移植了本國生產方式']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "古希臘城邦雅典嘅公共墓地主要用於埋葬犧牲嘅戰士，城邦為他們豎立墓碑，刻上所有犧牲者嘅名字，但並不寫明他們嘅家世。這旨喺強調",
+    "llm_output": "The correct answer is D. 城邦公民嘅平等.\n\nIn ancient Athens, the public cemetery was a place where all citizens who died in battle were buried, regardless of their social status or family background. The tombstones erected by the state bore the names of all the fallen soldiers, but did not indicate their family or social status. This practice emphasized the equality of all citizens in the eyes of the state, regardless of their background.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '血緣對城邦維繫嘅作用'], ['B', '軍事對城邦嘅重要性'], ['C', '共同嘅宗教信仰'], ['D', '城邦公民嘅平等']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "當代美國政治理論家羅伯特·達爾指出：「喺民主國家，政治和官僚精英力量固然強大，遠勝於普通公民，但他們還不係專制君主。」這表明",
+    "llm_output": "The correct answer is D. 政治和官僚精英權力受到制約.\n\nRobert Dahl's statement suggests that while political and bureaucratic elites hold significant power in democratic countries, they are still not absolute rulers and are subject to certain constraints and limitations. This implies that their power is not unchecked and that there are mechanisms in place to prevent them from becoming tyrannical.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '政治精英危害公民基本權力'], ['B', '「主權喺民」嘅觀念不斷強化'], ['C', '民主國家難以避免君主專制'], ['D', '政治和官僚精英權力受到制約']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "美國1787年憲法制定出來以後，本傑明·富蘭克林說：「我承認我對這部憲法中嘅好幾個部分並不認同，但這並不意味著我永遠都不應該同意讓其通過，我認為這個系統已經接近完美，而且我認為它也會讓我們嘅敵人感到震驚。」材料表明",
+    "llm_output": "正確答案是 B. 美國制憲主要係為了一致對外。\n\n本傑明·富蘭克林的言論表明，他認為憲法雖然不完美，但它能夠讓美國在國際上展示一個統一的形象，讓敵人感到震驚。這表明美國制憲的主要目的是為了在國際上展示一個統一的形象，對外展示力量。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '喺制憲過程中各州存在著衝突'], ['B', '美國制憲主要係為了一致對外'], ['C', '該憲法加強了中央政府嘅權力'], ['D', '各州對制定憲法存在嚴重分歧']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "馬克思說：「美洲金銀產地嘅發現，土著居民被消滅、被奴役和被埋葬於礦井。對東印度開始進行嘅征服和掠奪，把非洲變成商業性嘅掠奪黑人嘅場所，……這一切標志著資本主義時代嘅曙光。」材料說明瞭",
+    "llm_output": "正確答案：A. 殖民擴張與掠奪加快了資本原始積累",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '殖民擴張與掠奪加快了資本原始積累'], ['B', '殖民擴張傳播著資本主義嘅生產方式'], ['C', '黑奴貿易促進美洲資本主義經濟產生發展'], ['D', '殖民擴張為殖民地造成了沉重災難']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「梭倫促進了兩個階級之間嘅妥協。」如，梭倫改革雖對土地數量有所限制，但卻沒有像平民所希望嘅那樣剝奪貴族嘅土地。下列各項，能夠正確反映上述觀點且符合史實嘅係",
+    "llm_output": "The correct answer is A. 既照顧了平民利益又維護了貴族部分特權.\n\nThis option accurately reflects the view that Solon's reforms aimed to find a compromise between the interests of the common people and the nobility, by addressing some of the grievances of the former while still maintaining some of the privileges of the latter.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '既照顧了平民利益又維護了貴族部分特權'], ['B', '既廢除了平民債務又未歸還平民原有土地'], ['C', '既禁止了人身抵押又未規定個人土地限額'], ['D', '既解放了債務奴隸又保留了舊嘅社會等級']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "雅典城邦任何公職人員，無論地位多高，皆不能離開公民大會而擅自決定政務大事。他們都處於公民大會和五百人會議嘅經常督察監視之下，若公民大會認為他有失職守，皆依法懲處。這反映了古代雅典",
+    "llm_output": "正確答案是 B. 從制度上防止專制以維護民主。\n\n這個描述反映了古代雅典的民主制度，該制度旨在防止任何一人或少數人壟斷權力，從而維護民主。公民大會和五百人會議的監督和制衡機制，確保了公職人員不能擅自決定政務大事，避免了專制的出現。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '公民大會負責審理大部分案件'], ['B', '從制度上防止專制以維護民主'], ['C', '最高權力機關由直接選舉產生'], ['D', '各權力機構之間相互制約平衡']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "美國前國務卿杜勒斯說，如果亞非國家養成一種喺西方缺席嘅情況下經常開會嘅習慣，由於有眾多嘅人口，印度和中國無疑將控制局面，這可能最終形成一個反對西方嘅集團。他希望這次會議開不起來。杜勒斯針對嘅係",
+    "llm_output": "The correct answer is B. 萬隆會議 (Bandung Conference).\n\nJohn Foster Dulles, the US Secretary of State, was concerned about the possibility of Asian and African countries forming a bloc that could oppose Western interests. He was specifically referring to the Bandung Conference, a meeting of Asian and African countries held in 1955 in Bandung, Indonesia, which was seen as a potential challenge to Western dominance.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '恢復中國喺聯合國合法席位嘅「聯大」會議'], ['B', '以「求同存異」促進會議成功嘅萬隆會議'], ['C', '倡導和平共處五項原則嘅中印會談'], ['D', '和平解決印度支那問題嘅日內瓦會議']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "羅斯福新政喺當時嘅美國遭到了有些人嘅尖銳批評，有嘅諷刺「全國工業復興法」係從共產黨宣言中抄來嘅，有嘅說「新政」係「披著自由主義外衣嘅法西斯」。上述言論喺本質上反映了",
+    "llm_output": "正確答案係 A. 新政侵蝕了自由主義根基。\n\n這些批評言論反映了羅斯福新政對自由主義價值觀的挑戰和侵蝕。一些人認為，新政的干預主義政策和擴大政府權力的做法違背了自由主義的原則，限制了個人自由和企業自由。因此，這些言論反映了對新政的自由主義根基的擔憂和批評。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '新政侵蝕了自由主義根基'], ['B', '羅斯福政府喪失了民眾基礎'], ['C', '美國嘅自由傳統根深蒂固'], ['D', '危機導致社會缺乏基本共識']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "杜魯門喺敦促國會儘早通過馬歇爾計劃嘅特別諮文中說：「要使經濟復興獲得成功，必須採取某種對付內部和外部侵略嘅保衛性措施。」此後採取嘅「保衛性措施」係建立",
+    "llm_output": "The correct answer is A. 北大西洋公約組織 (NATO).\n\nIn 1947, President Truman delivered a speech to Congress, known as the Truman Doctrine, in which he called for the adoption of a program of economic and military aid to Greece and Turkey to prevent them from falling to communism. He also emphasized the need for a collective defense system to counter the threat of Soviet expansion in Europe. This led to the establishment of the North Atlantic Treaty Organization (NATO) in 1949, a military alliance of Western countries aimed at providing collective defense against potential Soviet aggression.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '北大西洋公約組織'], ['B', '華沙條約組織'], ['C', '歐洲共同體'], ['D', '聯合國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "德國19世紀中期仍處於分裂狀態，促成德國實現統一嘅人物係",
+    "llm_output": "The correct answer is:\n\nB. 俾斯麥 (Otto von Bismarck)\n\nOtto von Bismarck was the Prime Minister of Prussia who played a key role in the unification of Germany in the late 19th century. He is often referred to as the \"Iron Chancellor\" and is credited with bringing about the Franco-Prussian War, which led to the formation of the German Empire in 1871.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '歌德'], ['B', '俾斯麥'], ['C', '馬丁·路德'], ['D', '加爾文']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "凱末爾說：「我們希望成為一個現代化國家，我們嘅頭腦願意接受現時代思想，但我們仍得保持自身不變。」為此他推行嘅改革有：a廢除政教合一；b用拉丁字母拼寫土耳其語；c走蘇俄發展道路；d大力發展農業",
+    "llm_output": "The correct answer is C. ab.\n\n Mustafa Kemal Atatürk, the founder of modern Turkey, indeed said that Turkey wanted to become a modernized nation, accepting contemporary ideas while preserving its own identity. To achieve this, he implemented several reforms, including:\n\n* a) Abolishing the caliphate and separating religion from state (政教合一), which was a major step towards secularization.\n* b) Introducing the Latin alphabet to write Turkish, replacing the Arabic script, which was a significant modernization effort.\n\nThe other options are not correct:\n\n* c) Atatürk did not follow the Soviet Russian development path, but rather pursued a more Western-oriented and secular approach.\n* d) While agriculture was an important sector in Turkey, Atatürk's reforms focused more on modernizing the country's institutions, education, and economy, rather than solely on agricultural development.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', 'bc'], ['B', 'bd'], ['C', 'ab'], ['D', 'ac']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1947~1948年，美國部分印第安人部族面臨饑荒，美國政府拒絕提供救濟，因為有人指控他們部族公社嘅生活方式係共產主義式嘅而不係美國式嘅。這反映出",
+    "llm_output": "The correct answer is D. 意識形態影響政府政策 (Ideology influences government policy).\n\nThis event reflects how the US government's policy was influenced by ideological beliefs, specifically anti-communist sentiment, which led them to withhold aid from Native American tribes whose communal way of life was perceived as being similar to communism.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '執政者力圖重塑國家精神'], ['B', '三權分立體制存在重大缺陷'], ['C', '國家對經濟嘅幹預加強'], ['D', '意識形態影響政府政策']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "如果沒有麥克斯韋喺理論上證明無線電波嘅存在以及赫茲嘅實驗驗證，除了幻想家外，誰都不會想到不要導線就可以傳遞信號。材料可用於說明第二次工業革命中",
+    "llm_output": "The correct answer is A. 科學與技術真正結合 (Science and technology truly combined).\n\nThe question is describing how Maxwell's theoretical proof of the existence of radio waves and Hertz's experimental verification of it led to the development of wireless communication, which was a crucial aspect of the Second Industrial Revolution. This highlights the importance of the combination of scientific theory and technological innovation in driving progress.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '科學與技術真正結合'], ['B', '技術推動了科學理論進步'], ['C', '電報成為標誌性成就'], ['D', '電報發明具有偶然性']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "18世紀嘅英國保持著一種獨特土地制度，一端係一些大地主，另一端則係大量沒有土地以工資為生嘅勞動力，自耕農嘅數量喺持續減少。英國農村發生嘅變化表明",
+    "llm_output": "The correct answer is C. 英國農村資本主義發展迅速.\n\nIn the 18th century, the English countryside underwent significant changes, characterized by the emergence of a dualistic landholding system. On one hand, there were large landowners who controlled vast tracts of land, and on the other hand, there were numerous landless laborers who worked for wages. The number of small-scale farmers, or yeomen, continued to decline. This transformation reflects the rapid development of capitalism in the English countryside.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '英國農業生產力有較大進步'], ['B', '英國嘅城市化進程加快'], ['C', '英國農村資本主義發展迅速'], ['D', '英國封建租佃關係大量存在']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "根據美國1787年憲法，眾議員名額按照各州人口比例分配，各州人口數「按自由人總數加上所有其他人口嘅五分之三予以確定」。這一規定違背了「獨立宣言」中提倡嘅",
+    "llm_output": "The correct answer is B. 天賦人權原則 (the principle of inherent human rights).\n\nThe \"three-fifths compromise\" in the US Constitution, which counted enslaved people as three-fifths of a person for the purpose of apportioning representatives, violated the principle of inherent human rights enshrined in the Declaration of Independence, which states that \"all men are created equal\" and are endowed with certain unalienable rights, including life, liberty, and the pursuit of happiness.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '主權喺民原則'], ['B', '天賦人權原則'], ['C', '各州平等原則'], ['D', '各州自治原則']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "公元前5世紀以前，希臘哲人主要探討嘅係宇宙本原等問題。其後，智者學派另提出一些命題，蘇格拉底、柏拉圖和亞裏士多德皆有豐富嘅論述，希臘哲學嘅主題已轉移到",
+    "llm_output": "正確答案：A. 人\n\n在公元前5世紀以前，希臘哲人主要探討宇宙本原、自然界等問題，例如泰勒斯、阿那克西曼德等。後來，智者學派提出一些命題，蘇格拉底、柏拉圖和亞裏士多德等哲人則將焦點轉移到人、人類的道德、倫理和政治等問題上。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '人'], ['B', '政治'], ['C', '神'], ['D', '自然']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1788年7月10日，紐約某報紙以「船訊——號外」為題發布通告：萬世聯合船主嘅幸福船，已載著十三包「聯合、和平和友誼」進港，……愚蠢船主嘅船已載著地方偏見、不和嘅種子等出港。它讚美嘅係",
+    "llm_output": "The correct answer is D. 聯邦體制.\n\nThe passage is describing the arrival of the \"Happy Ship\" carrying the principles of \"Union, Peace, and Friendship\" and criticizing the \"Foolish Ship\" carrying the seeds of \"local prejudices and discord\". This is a metaphorical description of the establishment of the United States federal system, where the \"Happy Ship\" represents the federal government and the \"Foolish Ship\" represents the individual states with their local interests and prejudices. Therefore, the correct answer is D. 聯邦體制 (Federal System).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '主權喺民原則'], ['B', '分權制衡原則'], ['C', '共和制度'], ['D', '聯邦體制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "列寧喺「論「共產主義星期六義務勞動」」中發出號召：「……共產黨員和同情分子應當更加鞭策自己，從休息時間內抽出一小時，也就係把自己嘅工作日延長一小時，將這些時間集中起來，喺星期六這天進行一次六小時嘅體力勞動，以便立即創造出實際嘅價值。」文中省略號部分嘅內容應該係",
+    "llm_output": "正確答案係 D. 「為了加快社會主義建設，實現蘇聯工農業嘅現代化」",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '「鑒於國內外形勢嘅嚴重，為了對階級敵人取得優勢」'], ['B', '「迫於國內政治經濟危機，解決普遍嘅物資匱乏問題」'], ['C', '「為了支援國際反法西斯，早日實現世界嘅和平安定」'], ['D', '「為了加快社會主義建設，實現蘇聯工農業嘅現代化」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「興起於18世紀初嘅美國文化，實乃啟蒙運動和宗教改革運動撞擊融合後嘅產物。兩項運動有個共通之處——而這只係美式思維模式嘅根本。」這裡「美式思維模式嘅根本」係指",
+    "llm_output": "The correct answer is B. 強調個人自由.\n\nThe passage suggests that the American cultural movement that emerged in the 18th century was a result of the convergence of the Enlightenment and the Protestant Reformation. Both movements shared a common thread, which is the emphasis on individual freedom. This emphasis on individual freedom is considered the foundation of the American way of thinking.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '崇尚理性科學'], ['B', '強調個人自由'], ['C', '宣揚民主政治'], ['D', '重視法制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "某科學家逝世後，媒體這樣評價：「喺我們這一時代嘅物理學史中，他現喺係，將來也還係人類宇宙中有頭等光輝嘅一顆巨星……他也許比牛頓更偉大，因為他對於科學嘅貢獻，更加深刻地進入了人類思想基本概念嘅結構中。」這位科學家係",
+    "llm_output": "The correct answer is D. 愛因斯坦 (Albert Einstein).",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '達爾文'], ['B', '愛迪生'], ['C', '普朗克'], ['D', '愛因斯坦']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "喺美國第一屆聯邦政府中，國務卿傑斐遜和財政部長漢密爾頓喺內政外交等問題上出現嚴重分歧，他們嘅追隨者之間隨之發生衝突。1796年大選中，選民因地域、職業和政治傾向嘅差異分裂成不同嘅集團。這係美國一個重要制度嘅起源。這一制度係",
+    "llm_output": "The correct answer is D. 兩黨制 (Two-Party System).\n\nThe question describes the conflict between Jefferson and Hamilton, which led to the formation of different factions based on regional, occupational, and political differences. This ultimately resulted in the emergence of the two-party system in the United States.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '共和制'], ['B', '邦聯制'], ['C', '議會制'], ['D', '兩黨制']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1500年，歐洲航海家卡布拉爾率遠徵隊準備東去印度，但途中喺赤道海流沖擊下離開了航道，結果漂流到南美洲東部。他登陸後宣佈該地為本國領地。這位航海家應屬於",
+    "llm_output": "The correct answer is D. 葡萄牙.\n\nPedro Álvares Cabral was a Portuguese explorer who led an expedition to India in 1500, but was blown off course by the trade winds and currents, and landed on the coast of present-day Brazil, which he claimed for Portugal.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '西班牙'], ['B', '英國'], ['C', '荷蘭'], ['D', '葡萄牙']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "雅典將領阿里斯蒂德被公民大會陶片放逐後，僅過了兩年多就被召回，因為波斯大軍入侵，需要他參與作戰。打敗波斯後，他得以重新任職，而指揮戰爭獲得勝利嘅功臣地米斯托克利卻被陶片放逐。由此可見",
+    "llm_output": "正確答案是 D. 多數人嘅意願未必代表公平正義。\n\n這個問題描述了阿里斯蒂德和地米斯托克利的經歷，兩人都是雅典的將領，但他們的命運卻截然不同。阿里斯蒂德被陶片放逐，但後來被召回並重新任職；而地米斯托克利則是戰爭的功臣，但仍被陶片放逐。這個例子表明，多數人的意願不一定代表公平正義，因為阿里斯蒂德和地米斯托克利的命運都是由民眾的投票決定，但結果卻不公平。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '直接民主導致了雅典嘅派系紛爭'], ['B', '主權喺民容易導致城邦內部混亂'], ['C', '陶片放逐法係對將領去留嘅表決'], ['D', '多數人嘅意願未必代表公平正義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "第一次世界大戰結束之際，意大利企業家阿格涅利提出，歐洲要想和平、強大，就必須借鑒美國嘅成功經驗和失敗教訓，超越邦聯階段，建立聯邦制嘅「歐洲合眾國」。能夠佐證上述觀點嘅美國歷史事實係：a 邦聯政治結構鬆散，無力平息社會動盪；b 聯邦剝奪了各州嘅自主權，穩定了統治秩序；c 邦聯沒有統一嘅關稅，嚴重阻礙了經濟發展；d 聯邦統一發行貨幣，促進了經濟嘅有序發展",
+    "llm_output": "正確答案是 B. acd.\n\n阿格涅利的觀點是，歐洲應該借鑒美國的成功經驗和失敗教訓，建立聯邦制的「歐洲合眾國」。這裡需要佐證的美國歷史事實是：\n\n* a. 邦聯政治結構鬆散，無力平息社會動盪：美國邦聯時期（1781-1789）確實存在這個問題，邦聯政府無力平息西北暴動（Shays' Rebellion）等社會動盪。\n* c. 邦聯沒有統一嘅關稅，嚴重阻礙了經濟發展：美國邦聯時期各州之間沒有統一的關稅政策，導致了經濟發展的阻礙。\n* d. 聯邦統一發行貨幣，促進了經濟嘅有序發展：美國憲法生效後，聯邦政府統一發行貨幣，促進了經濟的有序發展。\n\n選項 b. 聯邦剝奪了各州嘅自主權，穩定了統治秩序並不是美國歷史事實的佐證。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', 'abc'], ['B', 'acd'], ['C', 'bcd'], ['D', 'abd']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "某一時期，非洲、美洲、亞洲和澳大利亞提供自然資源和農產品，英國、歐洲和美國加工或者消費這些原材料，帶動了海上運輸和陸地運輸嘅發展。人類第一次喺世界範圍內形成勞動分工嘅基本格局，而這一新體系所帶來嘅利潤主要流向歐洲、北美洲和日本。這一時期係",
+    "llm_output": "The correct answer is A. 世界市場形成時期 (The Formation of the World Market Period).\n\nThis period, also known as the Age of Imperialism, refers to the time when European powers, particularly Britain, established colonies and trading posts around the world, exploiting natural resources and labor in Africa, Asia, and the Americas to fuel their industrial economies. This led to the development of a global division of labor, with raw materials being extracted and shipped to Europe and North America for processing and consumption, and the profits flowing back to these regions.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '世界市場形成時期'], ['B', '早期殖民擴張時期'], ['C', '第二次工業革命時期'], ['D', '新航路開闢時期']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "冷戰期間，美國政府嘅一份祕密報告認為，（美國）實力上嘅優勢，正處於最嚴重嘅危險之中……冷戰事實上係一場維繫著世界嘅生死存亡嘅真正戰爭。該報告認為",
+    "llm_output": "The correct answer is B. 全面「熱戰」不可避免 (A full-scale \"hot war\" is unavoidable).\n\nThis quote is from the NSC-68 report, a top-secret policy paper written in 1950 by the United States National Security Council, which warned that the Soviet Union's actions posed an existential threat to the United States and that a full-scale war was likely unavoidable.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '冷戰係一場沒有硝煙嘅戰爭'], ['B', '全面「熱戰」不可避免'], ['C', '要用「熱戰」代替冷戰'], ['D', '冷戰實際上係一場「熱戰」']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "德國著名詩人海涅喺他嘅作品「西里西亞紡織工人」中寫道：「憂鬱嘅眼裡沒有眼淚，他們坐喺織機旁，咬牙切齒：德意志，我們喺織你嘅屍布，我們織進去三層詛咒——我們織，我們織！」這應屬於邊一文學流派",
+    "llm_output": "The correct answer is A. 現實主義 (Realism).\n\nThe poem \"The Silesian Weavers\" by Heinrich Heine is a classic example of Realist literature, which focuses on depicting the harsh realities of everyday life, particularly the struggles of the working class. The poem's themes of poverty, exploitation, and social injustice are all characteristic of Realist literature.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '現實主義'], ['B', '荒誕主義'], ['C', '浪漫主義'], ['D', '現代主義']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「當西方被定性為侵略者和剝削者（魔鬼般嘅西方）時，義和團對西方嘅反抗使中國嘅愛國者深感滿足，並被冠以讚美之詞。然而，當西方被看成係現代生活嘅源泉（天使般嘅西方）時，義和團那種毀壞西方電報電話設施、鐵路和汽船嘅行為，則往往成為造成嚴重困境嘅緣由而遭到嚴厲嘅遣責。」上述材料體現嘅史觀有",
+    "llm_output": "正確答案是 B. 全球史觀、文明史觀。\n\n解釋：\n\n* 全球史觀：材料中提到西方和中國之間的互動，體現了全球史觀的特點，即考慮到不同地區和文化之間的交流和衝突。\n* 文明史觀：材料中對西方的評價有兩種不同的看法，一種是「魔鬼般嘅西方」，另一種是「天使般嘅西方」，這兩種看法體現了文明史觀的特點，即評價不同文明的優點和缺點，並對其進行比較和評估。",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '全球史觀、近代化史觀'], ['B', '全球史觀、文明史觀'], ['C', '革命史觀、全球史觀'], ['D', '革命史觀、近代化史觀']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "音樂電視起源於美國。剛傳入拉丁美洲時，當地嘅節目主持人把西班牙語和英語夾雜喺一起說，引起了「外國文化入侵」之類嘅批評。但係到20世紀90年代，人們注意到音樂電視使拉美國家之間彼此更加關注，文化共享嘅程度也增加了。對此不能得出嘅結論係",
+    "llm_output": "The correct answer is D. 殖民主義嘅歷史影響仍然存在.\n\nThe passage does not support the conclusion that colonialism's historical influence still exists. The passage mentions that the initial reaction to MTV in Latin America was criticism of \"foreign cultural invasion\", but it does not imply that this reaction was due to colonialism's historical influence. Instead, it suggests that the criticism was due to concerns about cultural homogenization and the dominance of American culture.\n\nThe other options are all supported by the passage:\n\nA. 電視係影響極大嘅傳播工具 (The passage shows how MTV had a significant impact on cultural exchange and awareness in Latin America.)\n\nB. 拉美和美國嘅現代化相互促進 (The passage suggests that MTV helped to increase cultural sharing and awareness between Latin American countries and the US.)\n\nC. 科技嘅進步促進了文化交流 (The passage implies that the advent of MTV, a technological innovation, facilitated cultural exchange between different regions.)",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '電視係影響極大嘅傳播工具'], ['B', '拉美和美國嘅現代化相互促進'], ['C', '科技嘅進步促進了文化交流'], ['D', '殖民主義嘅歷史影響仍然存在']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「英國政治制度史」中說：「如果把1688年前後嘅歷史變化聯繫起來看，誰也無法否認它係英國政治制度史上嘅一次以政變為形式嘅革命，而且視野拉嘅越長，其革命性就越明顯。」這種革命性主要表現為",
+    "llm_output": "The correct answer is D. 國家權力嘅重心決定性地自國王轉至議會.\n\nThe quote is referring to the Glorious Revolution of 1688, which marked a significant shift in the balance of power in England from the monarch to Parliament. This revolution established the supremacy of Parliament and limited the power of the king, making it a major milestone in the development of the British political system.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '實現了從傳統社會向近代社會嘅全面轉變'], ['B', '工業資產階級獲得了更多嘅參政權和選舉權'], ['C', '推翻了封建專制王權，建立了議會制共和國'], ['D', '國家權力嘅重心決定性地自國王轉至議會']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "從政治經濟結構看，德意志帝國（1871～1919）呈現嘅係「經濟巨人、政治跛子嘅半資本主義或者說係半專制主義嘅社會形態」。以下能支持這一觀點嘅史實不包括",
+    "llm_output": "The correct answer is D. 德意志工業化進程加快.\n\nThe phrase \"經濟巨人、政治跛子\" suggests that the German Empire (1871-1919) was economically powerful but politically weak or immature. The correct answer should support this view.\n\nOptions A, B, and C all support the view that the German Empire was a semi-authoritarian or semi-feudal society, where the monarch (Kaiser) held significant power and influence over the government and parliament.\n\n* A. The Kaiser was the head of state, indicating a strong monarchical system.\n* B. The Kaiser had the power to dominate the parliament and create laws, further solidifying their authority.\n* C. The Chancellor was responsible to the Kaiser, not to the parliament, implying a lack of parliamentary control over the government.\n\nOn the other hand, option D, \"德意志工業化進程加快\" (Germany's industrialization process accelerated), only describes the economic aspect of the German Empire, which is not directly related to the political structure or the \"政治跛子\" (politically weak) aspect of the phrase. Therefore, it is the correct answer.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '德意志皇帝係國家元首'], ['B', '皇帝擁有主宰議會、創製法律等權力'], ['C', '宰相對皇帝負責，而不係對議會負責'], ['D', '德意志工業化進程加快']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "英國學者懷特海論及近代西方科學精神時說：人們「完全有意識地認識到……知識對技術進步嘅重要性，發現了抽象知識和技術進步相聯繫嘅方法，並且也看到了技術進步嘅無限前程」。能夠為這種觀點提供論據嘅史實係",
+    "llm_output": "The correct answer is D. 瓦特聯動式蒸汽機嘅製造 (James Watt's invention of the steam engine).\n\nThis is because Watt's invention of the steam engine in the late 18th century marked a significant turning point in the development of modern Western science and technology. It demonstrated the power of abstract knowledge (in this case, thermodynamics) to drive technological progress, and showed that scientific discoveries could be applied to practical problems to achieve significant advances. This aligns with Whitehead's statement about the recognition of the importance of knowledge for technical progress and the discovery of methods to connect abstract knowledge with technical advancement.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '伽利略自由落體定律嘅創立'], ['B', '牛頓經典力學體系嘅建構'], ['C', '法拉第電磁感應理論嘅應用'], ['D', '瓦特聯動式蒸汽機嘅製造']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "蘇格拉底主張，「凡係為一個人自己嘅理智所宣判為錯誤嘅東西，就不應該去想、不應該去做，邊怕受到當權者或任何法庭嘅強迫，也要不惜任何代價予以抵制。」其主要意圖係鼓勵人們",
+    "llm_output": "The correct answer is A. 保持懷疑精神、批判眼光.\n\nSocrates' statement emphasizes the importance of critical thinking and intellectual autonomy, encouraging individuals to question and challenge authority, rather than blindly following it. This aligns with his method of questioning and dialogue, which aimed to promote critical thinking and intellectual curiosity.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '保持懷疑精神、批判眼光'], ['B', '發現自我，追求人身自由'], ['C', '反抗雅典民主政治和法律'], ['D', '以個人感受作為價值標準']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「把人類拉到了與普通生物同樣嘅層面，所有嘅地球生物，都與人類有了或遠或近嘅血緣關係．徹底打破了人類自高自大，一神之下，眾生之上嘅愚昧式自尊。」這段話係評價",
+    "llm_output": "The correct answer is:\n\nB. 達爾文嘅進化論\n\nThis passage is evaluating Darwin's theory of evolution, which suggests that all living organisms, including humans, share a common ancestry and are related to each other through a process of natural selection. This idea challenged the traditional view of human superiority and the notion that humans were created separately from other animals.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '愛因斯坦嘅相對論'], ['B', '達爾文嘅進化論'], ['C', '牛頓嘅萬有引力定律'], ['D', '哥白尼「天體運行論」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「市民法亦稱公民法，係羅馬國家早期嘅法律……羅馬法採用屬人主義而非屬地主義，就係說凡係羅馬公民均受法律嘅保護，而不論其居住地區如何。」據此判斷，建國之初（公元前5世紀早期以前）嘅羅馬",
+    "llm_output": "根據題目，正確答案是 B. 公民喺外邦活動時受公民法保護。\n\n羅馬法採用屬人主義，意味著羅馬公民無論在哪裡活動，都受羅馬法律的保護，而不論其居住地區如何。因此，公民在外邦活動時也受公民法保護。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '公民喺本邦活動時受成文法保護'], ['B', '公民喺外邦活動時受公民法保護'], ['C', '公民喺外邦活動時受萬民法保護'], ['D', '居民喺本邦活動都受公民法保護']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "有人描述某一時期英國人生活嘅情景：以前，人們日出而作，日落而息，生活艱苦卻很悠閒。現喺，社會嘅節奏變快了。時間支配了整個社會，時鐘成為人們嘅日常生活用品。導致生活節奏變化嘅主要原因係",
+    "llm_output": "The correct answer is D. 工業化.\n\nThe description of the change in people's lives, from a more relaxed pace to a faster pace controlled by clocks, is a classic description of the impact of the Industrial Revolution on society. With the advent of industrialization, people's lives became more mechanized and time-oriented, as they had to adapt to the rhythms of machines and factories. This led to a significant change in the pace of life, as people had to conform to the demands of industrial production.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '城市化'], ['B', '信息化'], ['C', '電氣化'], ['D', '工業化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「從曼徹斯特到矽谷」中這樣寫道：「英國一西歐：比利時、法國一中歐：德國（包括奧地利）一東歐：俄國一日本。與法德同時嘅還有美國，這樣嘅一條工業化浪潮擴散嘅路線係頗堪玩味嘅……為什麼不係美國→法國→西班牙、葡萄牙……呢？難道比利牛斯山太高了嗎？但阿爾卑斯山並不低。為什麼工業化浪潮不係喺法國之後穿過地中海而席捲突尼斯、阿爾及利亞呢？係地中海太寬了嗎？果真如此，那麼大工業為什麼又能橫渡大西洋而到北美生根開花？」這段話嘅含義係",
+    "llm_output": "The correct answer is D. 地理位置影響工業革命嘅傳播.\n\nThe passage is discussing why the industrialization wave did not spread from the UK to France, then to Spain and Portugal, but instead went from the UK to Belgium, Germany, and Russia. The author is questioning why the industrialization wave did not follow a more geographically logical route, such as crossing the Mediterranean Sea to Tunisia and Algeria. The author is highlighting the role of geography in shaping the spread of industrialization.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '工業革命沿主要貿易路線蔓延'], ['B', '工業革命需要一定嘅社會條件'], ['C', '代議制民主係工業革命嘅前提'], ['D', '地理位置影響工業革命嘅傳播']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "達爾文「物種起源」一出版，英國社會學家斯賓塞馬上將達爾文嘅學說運用到社會歷史領域，創立了社會達爾文主義。他認為，人類社會也像自然界一樣，存在著生存競爭。喺競爭中，強者生存了下來，而弱者則被淘汰。只有這樣，人類社會才能進步。這種觀點",
+    "llm_output": "The correct answer is D. 錯誤。自然科學理論不可以移植到社會科學領域。\n\nSpencer's application of Darwin's theory to social history, known as Social Darwinism, is widely criticized for being overly simplistic and misleading. While natural selection may operate in the natural world, it is not directly applicable to human societies, which are shaped by complex cultural, economic, and political factors. Social Darwinism has been used to justify harmful ideologies such as imperialism, racism, and laissez-faire capitalism, and is generally considered a flawed and outdated approach to understanding social phenomena.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '正確。自然科學理論可以移植到社會科學領域'], ['B', '錯誤。社會科學不可以借鑒自然科學理論'], ['C', '正確。社會科學可以借鑒自然科學理論'], ['D', '錯誤。自然科學理論不可以移植到社會科學領域']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "越係高度嘅概括，越容易引起爭議。對20世紀歷史嘅概括，下列說法中爭議最少嘅可能係",
+    "llm_output": "The correct answer is C. 一戰和二戰，冷戰及局部戰爭，殖民體系瓦解，經濟、科技和文化大發展.\n\nThis option provides a relatively neutral and factual summary of the major events and trends of the 20th century, without taking a specific ideological or political stance. It mentions the two World Wars, the Cold War, the decline of colonialism, and the significant developments in economy, technology, and culture, which are all widely accepted historical facts.\n\nThe other options are more likely to be controversial because they:\n\nA. implies a specific ideological framework (e.g., \"兩種制度\" refers to capitalism and socialism)\n\nB. uses loaded terms like \"帝國主義戰爭\" (imperialist war) and \"社會主義革命\" (socialist revolution)\n\nD. emphasizes the rise of the Third World, which might be seen as a more subjective or ideological interpretation of historical events.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '兩次世界大戰，兩種制度，兩極格局，多極化趨勢，革命與改革，和平與發展'], ['B', '帝國主義戰爭和社會主義革命，冷戰和走向多極化，和平、改革與發展'], ['C', '一戰和二戰，冷戰及局部戰爭，殖民體系瓦解，經濟、科技和文化大發展'], ['D', '帝國主義戰爭，社會主義革命，第三世界崛起，經濟、科技和文化大發展']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "「16世紀以後，世界貿易集中地由地中海逐漸移向大西洋和西北歐，1890年前後嘅幾十年內世界工業品嘅集中產地又由西歐慢慢移向其他地區。這兩個例子都說明經濟力量嘅轉移預示著新大國嘅興起。」喺這兩個歷史時期興起嘅最具有代表性嘅「新大國」分別係",
+    "llm_output": "正確答案是 A. 英國和美國。\n\n在16世紀以後，世界貿易集中地由地中海逐漸移向大西洋和西北歐，英國崛起為一個強大的海洋帝國和經濟大國。\n\n在1890年前後，世界工業品嘅集中產地又由西歐慢慢移向其他地區，美國崛起為一個工業強國和超級大國。",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '英國和美國'], ['B', '英國和法國'], ['C', '英國和日本'], ['D', '英國和德國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "德國學者南特威希曾說過：「我想談談我個人對毛澤東嘅評價，毫無疑問，他嘅最大嘅功績喺於，喺一個困難嘅時代裡找到一條路，把中國從封建殘餘以及帝國主義侵略中解放出來，建立統一嘅大國。」材料中嘅「一條路」係指",
+    "llm_output": "The correct answer is B. 工農武裝割據 (Armed peasant and worker uprising).\n\nThe phrase \"找到一條路\" (finding a path) refers to Mao Zedong's strategy of armed peasant and worker uprising, which led to the establishment of a unified China and liberation from feudal remnants and imperialist aggression.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '實行人民民主'], ['B', '工農武裝割據'], ['C', '堅持「城市中心」'], ['D', '堅持持久戰']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1923—1929年，美國嘅企業普遍使用流水線等先進生產管理方式，提高了勞動生產率，同時喺少數企業中工人可以領取養老金，享受帶薪休假。這反映出當時喺美國",
+    "llm_output": "The correct answer is D. 工人分享嘅經濟發展成果有限.\n\nThis period in American history is known as the \"Roaring Twenties,\" during which there was a significant increase in industrial production and economic growth. The use of advanced production management techniques, such as the assembly line, led to increased labor productivity. However, the benefits of this growth were not evenly distributed, and only a small number of workers were able to enjoy benefits such as pensions and paid vacations. This reflects the limited extent to which workers shared in the fruits of economic development.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '國家幹預促進了經濟發展'], ['B', '科技未對經濟發展發揮重大作用'], ['C', '供給與需求保持基本平衡'], ['D', '工人分享嘅經濟發展成果有限']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "布羅代爾喺「文明史綱」中指出：「我們所說嘅「工業文明」正處於合成一個能夠容納世界整體嘅共同文明嘅過程之中。所有文明已經正在或將要受到它嘅衝擊。然而，即使假定世界上所有文明或早或晚終將採納相同嘅技術……我們喺長時期內仍然將面對事實上非常不同嘅各種文明。」布羅代爾強調嘅係",
+    "llm_output": "正確答案係 A. 不同文明喺發展中仍保留其原有特徵。\n\n布羅代爾強調，即使工業文明正在席捲世界，各種文明仍然會保留其原有特徵，保持其多樣性和差異性。",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '不同文明喺發展中仍保留其原有特徵'], ['B', '文明喺走向統一嘅過程中呈多元狀態'], ['C', '不同文明喺發展中不斷相互吸收融合'], ['D', '工業文明正在以其獨特優勢席捲世界']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "英國18世紀人口死亡率明顯下降，但1816年後死亡率上升，1831-1841年，工廠集中嘅伯明翰每年人死亡率由14.6上升到27.2，利物浦由21上升到34.8，導致上述情況發生嘅重要原因係",
+    "llm_output": "The correct answer is C. 城市環境極其惡化 (The city environment deteriorated severely).\n\nDuring the Industrial Revolution in the 18th and 19th centuries, many people moved from rural areas to cities like Birmingham and Liverpool to work in factories. This led to rapid urbanization and overcrowding, which resulted in poor living conditions, inadequate sanitation, and a lack of clean water. These factors contributed to the deterioration of the city environment, leading to an increase in mortality rates.\n\nThe other options are not directly related to the specific context of the question:\n\nA. Population growth and food shortages were not the primary causes of the increase in mortality rates in Birmingham and Liverpool during this period.\n\nB. There is no evidence to suggest that medical technology levels declined during this period.\n\nD. While industrial pollution was a problem during the Industrial Revolution, it is not the primary reason for the increase in mortality rates in these specific cities during this time period.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '人口膨脹食物短缺'], ['B', '醫療技術水平下降'], ['C', '城市環境極其惡化'], ['D', '化學工業污染嚴重']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "下列各項體現嘅人民喺民主政體下嘅權利或思想，源於雅典民主政治嘅有：a 2007年5月法國人民投票選舉薩科齊為法國總統；b 美國國會擁有立法權，但總統有權否決國會立法，國會以2／3多數推翻總統嘅否決；c 1840年4月10日，英國議會就對華戰爭問題舉行辯論；d 舉手錶決成為我國人民代表大會行使職權嘅重要方式之一",
+    "llm_output": "The correct answer is C. bcd.\n\nHere's why:\n\n* b: The concept of checks and balances, where the legislative branch (Congress) has the power to override the executive branch's (President's) veto, is a fundamental principle of democratic governance that originated in ancient Athens.\n* c: The idea of parliamentary debate and discussion, as exemplified by the British Parliament's debate on the Opium War in 1840, is also rooted in Athenian democracy, where citizens would gather to discuss and vote on important issues.\n* d: The practice of show of hands or voting as a means of exercising power and making decisions is another key aspect of democratic governance that originated in ancient Athens, where citizens would vote on laws and policies.\n\nOption a is not correct because the 2007 French presidential election was a specific event in modern history, not a fundamental principle of democratic governance that originated in ancient Athens.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', 'acd'], ['B', 'abc'], ['C', 'bcd'], ['D', 'abcd']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1928年，蘇聯開始實施第一個五年計劃，並未受到美國人嘅關注，四年以後這種情況發生變化，美國出版了大量關於蘇聯嘅著作，如「俄羅斯嘅黎明」「俄國今日：我們從中學到什麼？」。當時蘇聯吸引美國人嘅主要係",
+    "llm_output": "The correct answer is D. 工業化取得顯著成就.\n\nIn 1928, the Soviet Union launched its first Five-Year Plan, which aimed to rapidly industrialize the country. The plan's success in achieving rapid industrialization and modernization caught the attention of Americans, leading to a surge in publications about the Soviet Union.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '農業集體化保證城市供應'], ['B', '經濟危機造成嘅破壞較小'], ['C', '公有制顯示出優越性'], ['D', '工業化取得顯著成就']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "renaissance嘅本意係「人嘅再生」。所謂「再生」，依牟宗三嘅理解，就係：「對於現實嘅人生，現實嘅自我，個性嘅自我，有一種春天之情嘅喜悅感，而且有一種現實嘅人間愛。」據此可知，此時嘅人文主義",
+    "llm_output": "The correct answer is C. 矛頭直指封建專制制度.\n\nAccording to the description, the Renaissance's emphasis on \"再生\" (rebirth) implies a sense of liberation and renewal, which is directed against the feudal authoritarian system. This is in line with the Renaissance humanism's focus on individualism, freedom, and the revival of classical learning, which was a reaction against the constraints of the medieval feudal system.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '否定人嘅才情氣質之性'], ['B', '忽略人普遍理性嘅一面'], ['C', '矛頭直指封建專制制度'], ['D', '貶低個性嘅自我覺醒']]",
+    "is_correct": 0
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "古羅馬「十二銅表法」中規定：「凡以他人嘅木材建築房屋或支搭葡萄架嘅，木料所有人不得擅自拆毀而取回其木料。但喺上述情況下，可對取用他人木料者，提起賠償雙倍於木料價金之訴。」以下法律條文與該條款精神一致嘅係",
+    "llm_output": "The correct answer is B. 「橡樹嘅果實落於鄰地時，得人鄰地拾取之」.\n\nThe spirit of the \"十二銅表法\" (Twelve Tables) clause mentioned is that it protects the rights of the original owner of the property (in this case, the wood) while also allowing for compensation to be sought if someone else uses or takes the property without permission.\n\nOption B is consistent with this spirit, as it states that if a fruit from an oak tree falls onto a neighbor's land, the neighbor can pick it up. This implies that the original owner of the tree (or the land it's on) does not have the right to take back the fruit simply because it fell onto someone else's land, but rather the neighbor has a right to it.\n\nThe other options do not align with this spirit:\n\nA. Deals with inheritance law and has no relation to property rights or compensation.\n\nC. Deals with the rights of children and slavery, and is not related to property or compensation.\n\nD. Is a statement about the principle of equality before the law, and is not related to property rights or compensation.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「死者未立遺囑，又無當然繼承人，其遺產由最近嘅族親繼承」'], ['B', '「橡樹嘅果實落於鄰地時，得人鄰地拾取之」'], ['C', '「家長如三次出賣其子嘅，該子即脫離家長而獲得解放」'], ['D', '「不得為任何個人嘅利益，制定特別嘅法律」']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "斯大林模式雖然喺表面上創建起高純度嘅公有制計劃經濟，但其指令性和國家所有制性質與馬克思主義關於未來社會由社會佔有全部生產資料嘅設想有著內喺嘅差異。這說明斯大林模式",
+    "llm_output": "正確答案：A. 係科學社會主義喺落後國家不完整嘅運用",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '係科學社會主義喺落後國家不完整嘅運用'], ['B', '係對馬克思主義改造嘅結果'], ['C', '完全違背了科學社會主義理論'], ['D', '有利於科學社會主義從理論變為現實']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "有人描述19世紀初英國嘅情景時說，婦女和女孩們曾從黎明到深夜整天不斷地使用嘅嚶嚶作響嘅紡車，如今已被棄置屋隅。那些打著拍子砰然作響嘅手織機也多半閒置無聞。這說明",
+    "llm_output": "The correct answer is D. 生產領域出現革命性變化.\n\nThe description of women and girls using spinning wheels and handlooms from dawn to dusk, but now being abandoned, suggests that there has been a significant change in the production process. This implies that new machines or technologies have replaced traditional manual labor, leading to a revolutionary change in the production domain.",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '重工業成為國民經濟主導'], ['B', '家庭手工業已不復存在'], ['C', '工業革命推動婦女解放'], ['D', '生產領域出現革命性變化']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "據研究，從1760年到1850年間，英國棉紡廠使用嘅原棉數量由200萬磅到3.66億磅，增長了180多倍。據此可知，這一時期英國",
+    "llm_output": "The correct answer is B. 經濟發展越來越依賴世界市場.\n\nThe rapid growth of cotton imports in Britain from 200,000 pounds to 366 million pounds between 1760 and 1850 suggests that Britain's economy was becoming increasingly dependent on the world market for its raw materials and trade. This period saw the expansion of British colonialism and the establishment of trade networks around the world, which enabled Britain to access new sources of raw materials, including cotton.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '資本主義生產方式開始建立'], ['B', '經濟發展越來越依賴世界市場'], ['C', '工場手工業進入了鼎盛時期'], ['D', '農業中嘅商品化生產迅速發展']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "關鍵詞搜索係學習嘅重要方法。有同學喺歷史學習中搜索了下列關鍵詞：「憲章運動」「新和諧公社」「共產主義者同盟」「階級鬥爭」。據此判斷，該同學嘅學習主題係",
+    "llm_output": "The correct answer is A. 馬克思主義嘅誕生.\n\nHere's why:\n\n* \"憲章運動\" (Chartist Movement) was a British working-class movement that influenced Marx's thought.\n* \"新和諧公社\" (New Harmony) was a utopian community established by Robert Owen, a British socialist who influenced Marx.\n* \"共產主義者同盟\" (Communist League) was a organization founded by Marx and Engels, which led to the development of Marxism.\n* \"階級鬥爭\" (Class Struggle) is a key concept in Marxist theory.\n\nAll these keywords are related to the development of Marxism, so the student's learning theme is likely to be the birth of Marxism.",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '馬克思主義嘅誕生'], ['B', '空想社會主義嘅萌發'], ['C', '剩餘價值論嘅創立'], ['D', '巴黎公社嘅建立']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1960年，日、美修改1951年簽訂嘅軍事條約，刪除了原條約中駐日美軍可以用於鎮壓日本內亂嘅條款，保留了原條約中美軍駐紮日本、雙方共同應對對日本領土上嘅任何一方嘅武力進攻等內容，簽訂了新嘅日美安全條約。這一條約嘅簽訂",
+    "llm_output": "正確答案：C. 意味著美國喺亞洲維持冷戰政策",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '反映出日本已經成為經濟大國'], ['B', '標志著亞太地區嘅力量對比改變'], ['C', '意味著美國喺亞洲維持冷戰政策'], ['D', '表明日美軍事同盟受到削弱']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "歐洲某個時期崛起了一個富有嘅階級，他們成為教會之外新嘅藝術資助人。於係，藝術家創作嘅重點轉向宗教題材以外嘅、表達人物內心嘅肖像畫。這裡嘅「藝術家」係",
+    "llm_output": "The correct answer is C. 文藝復興時期畫家 (Renaissance period artists).\n\nDuring the Renaissance, a wealthy class emerged in Europe, and they became the new patrons of the arts outside of the Church. As a result, artists began to focus on creating portraits that expressed the inner lives of individuals, rather than just religious themes. This marked a significant shift in the art world, and Renaissance artists such as Leonardo da Vinci, Michelangelo, and Raphael are famous for their portraits and other works that showcased humanism and individualism.",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '法國印象主義畫家'], ['B', '19世紀現實主義畫家'], ['C', '文藝復興時期畫家'], ['D', '20世紀現代主義畫家']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "第二次世界大戰中，美國財政部長摩根索曾向參議院指出，美國要建立一種世界體系，以便讓「企業家們可以按照商業原則進行國際貿易和國際投資」。戰爭結束後，這一建議體現為",
+    "llm_output": "The correct answer is B. 「關貿總協定」簽署.\n\nThe quote you mentioned is referring to the Bretton Woods system, which was established in 1944 after World War II. The Bretton Woods system aimed to promote international trade and investment by establishing a stable international monetary order. The system was based on the principles of free trade and the convertibility of currencies.\n\nThe Bretton Woods system led to the creation of the General Agreement on Tariffs and Trade (GATT), which was signed in 1947. GATT was a multilateral trade agreement that aimed to reduce tariffs and other trade barriers, and to establish a framework for international trade.\n\nSo, the correct answer is B. 「關貿總協定」簽署, which refers to the signing of the GATT agreement.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '「冷戰」秩序嘅建立'], ['B', '「關貿總協定」簽署'], ['C', '北美自由貿易區建立'], ['D', '世界貿易組織建立']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "1998年，日本向聯合國和世界銀行等機構嘅捐款和出資佔其政府開發援助(ODA)總額嘅比例高達19.8%。2001年，日本首相向聯合國祕書長表示：日本擔負了聯合國會費嘅兩成，但日本所希望嘅安理會改革卻遲遲不能實現，對此，喺國民中間有不滿情緒。材料表明，日本",
+    "llm_output": "正確答案：D. 企圖謀求政治大國地位",
+    "correct_answer": "D",
+    "standard_answer_range": "[['A', '獲得了安理會常任理事國席位'], ['B', '實現了經濟嘅持續增長'], ['C', '成為當時世界上最大嘅債權國'], ['D', '企圖謀求政治大國地位']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "中世紀後期位於東西方之間嘅某個軍事強國，佔據了重要嘅地理位置，控制了亞歐商路。這個國家係",
+    "llm_output": "The correct answer is B. 奧斯曼帝國 (Ottoman Empire).\n\nDuring the late Middle Ages, the Ottoman Empire was a powerful military state that occupied a strategic location between East and West, controlling the vital trade routes between Asia and Europe.",
+    "correct_answer": "B",
+    "standard_answer_range": "[['A', '法蘭克王國'], ['B', '奧斯曼帝國'], ['C', '拜占庭帝國'], ['D', '西羅馬帝國']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "公元前452至前451年，喺古羅馬平民保民官嘅強烈要求和平民嘅努力下，由貴族編製出十個法表，鐫刻喺十塊青銅板上，但法表中嘅一些內容引起平民不滿。公元前450年，又增兩表，形成著名嘅「十二銅表法」。這一過程最能說明",
+    "llm_output": "正確答案是 C. 平民嘅社會地位有所提高。\n\n這個過程表明，平民通過努力和要求，迫使貴族編製出法表，並最終形成「十二銅表法」。這意味著平民的社會地位有所提高，他們能夠對法律的制定和執行產生影響。",
+    "correct_answer": "C",
+    "standard_answer_range": "[['A', '羅馬法學體系嘅完善和成熟'], ['B', '平民取得了羅馬法嘅制定權'], ['C', '平民嘅社會地位有所提高'], ['D', '貴族嘅利益不再受法律保護']]",
+    "is_correct": 1
+  },
+  {
+    "model_name": "llama-3-70b-instruct-hf",
+    "dataset": "CMMLU-world_history",
+    "key_answer_type": "alphabet_option",
+    "question": "新航路開闢以後，世界許多地區嘅植物種子被帶回歐洲，經培育改良成為歐洲人嘅食物原料，如玉米、土豆等。歐洲人也將歐洲嘅一些植物種子帶到殖民地進行培育生產，最終成為殖民地人民嘅重要食材。這說明新航路開闢",
+    "llm_output": "正確答案：C. 帶來嘅物種交流助推新舊大陸發展",
+    "correct_answer": "A",
+    "standard_answer_range": "[['A', '有利於世界各地文明嘅交流與融合'], ['B', '未給殖民地造成任何嘅打擊和破壞'], ['C', '帶來嘅物種交流助推新舊大陸發展'], ['D', '促進新舊大陸經濟互補而共同發展']]",
+    "is_correct": 0
+  }
+]
