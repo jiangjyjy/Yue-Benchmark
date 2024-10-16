@@ -1,4 +1,4 @@
-# How Far Can Cantonese NLP Go? Benchmarking Cantonese Capabilities of Large Language Models
+# How Well Do LLMs Handle Cantonese? Benchmarking Cantonese Capabilities of Large Language Models
 
 
 
