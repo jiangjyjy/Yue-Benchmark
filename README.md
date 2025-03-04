@@ -2067,5 +2067,5 @@ bash arc_example.sh
 
 ## License
 
-The CantoneseLM_survey dataset is licensed under a
+The Yue-Benchmark dataset is licensed under a
 [MIT](https://opensource.org/licenses/MIT).
