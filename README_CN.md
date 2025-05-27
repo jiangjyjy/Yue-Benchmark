@@ -2013,11 +2013,28 @@ bash arc_example.sh
 
 ## 引用 
 ```
-@article{jiang2024well,
-  title={How Well Do LLMs Handle Cantonese? Benchmarking Cantonese Capabilities of Large Language Models},
-  author={Jiang, Jiyue and Chen, Pengan and Chen, Liheng and Wang, Sheng and Bao, Qinghang and Kong, Lingpeng and Li, Yu and Wu, Chuan},
-  journal={arXiv preprint arXiv:2408.16756},
-  year={2024}
+@inproceedings{jiangetal2025well,
+    title = "How Well Do {LLM}s Handle {C}antonese? Benchmarking {C}antonese Capabilities of Large Language Models",
+    author = "Jiang, Jiyue  and
+      Chen, Pengan  and
+      Chen, Liheng  and
+      Wang, Sheng  and
+      Bao, Qinghang  and
+      Kong, Lingpeng  and
+      Li, Yu  and
+      Wu, Chuan",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.253/",
+    pages = "4464--4505",
+    ISBN = "979-8-89176-195-7",
+    abstract = "The rapid evolution of large language models (LLMs) has transformed the competitive landscape in natural language processing (NLP), particularly for English and other data-rich languages. However, underrepresented languages like Cantonese, spoken by over 85 million people, face significant development gaps, which is particularly concerning given the economic significance of the Guangdong-Hong Kong-Macau Greater Bay Area, and in substantial Cantonese-speaking populations in places like Singapore and North America. Despite its wide use, Cantonese has scant representation in NLP research, especially compared to other languages from similarly developed regions. To bridge these gaps, we outline current Cantonese NLP methods and introduce new benchmarks designed to evaluate LLM performance in factual generation, mathematical logic, complex reasoning, and general knowledge in Cantonese, which aim to advance open-source Cantonese LLM technology. We also propose future research directions and recommended models to enhance Cantonese LLM development."
 }
 ```
 
